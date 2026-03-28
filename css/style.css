@@ -372,6 +372,151 @@ details .faq-body p { color: var(--dark); }
   line-height: 1.7;
 }
 .quick-answer strong { color: var(--dark); }
+
+
+/* ═══ 10b. TABLE DES MATIERES (plan de lecture) ═══ */
+.toc {
+  background: #fff;
+  border: 3px solid var(--dark);
+  border-radius: var(--r);
+  padding: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.toc-title {
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.toc-title::after {
+  content: '▼';
+  font-size: 0.7rem;
+  color: var(--bleu);
+  transition: transform 0.3s;
+}
+.toc.collapsed .toc-title::after { transform: rotate(-90deg); }
+.toc.collapsed .toc-list { display: none; }
+.toc-list {
+  list-style: none;
+  counter-reset: toc-counter;
+}
+.toc-list li {
+  counter-increment: toc-counter;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid var(--gris-c);
+}
+.toc-list li:last-child { border-bottom: none; }
+.toc-list li::before {
+  content: counter(toc-counter) ".";
+  font-family: Georgia, serif;
+  font-weight: 700;
+  color: var(--bleu-f);
+  margin-right: 0.5rem;
+}
+.toc-list a {
+  color: var(--dark);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+.toc-list a:hover { color: var(--bleu-f); }
+
+/* ═══ 10c. TEMPS DE LECTURE ═══ */
+.reading-time {
+  font-family: Calibri, sans-serif;
+  font-size: 0.78rem;
+  color: var(--gris);
+  margin-bottom: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.reading-time svg { width: 14px; height: 14px; stroke: var(--gris); stroke-width: 2; fill: none; }
+
+/* ═══ 10d. BLOC AUTEUR ARTICLE ═══ */
+.article-author {
+  background: var(--bleu-p);
+  border: 3px solid var(--dark);
+  border-radius: var(--r);
+  padding: 1.5rem;
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  margin: 2rem 0;
+}
+.article-author img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid var(--dark);
+  object-fit: cover;
+  object-position: center 15%;
+  flex-shrink: 0;
+}
+.article-author-info h4 { font-size: 1rem; margin-bottom: 0.1rem; }
+.article-author-info p { font-size: 0.78rem; color: var(--gris); margin-bottom: 0; }
+.article-author-info .badge-or { margin-top: 0.3rem; }
+
+/* ═══ 10e. ARTICLES LIES ═══ */
+.related-articles {
+  margin: 2rem 0;
+}
+.related-articles h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.related-card {
+  background: #fff;
+  border: 2px solid var(--gris-c);
+  border-radius: var(--r);
+  padding: 1rem;
+  text-decoration: none;
+  color: var(--dark);
+  transition: all 0.2s;
+  display: block;
+}
+.related-card:hover {
+  border-color: var(--bleu);
+  transform: translateY(-2px);
+}
+.related-card h4 { font-size: 0.88rem; margin-bottom: 0.3rem; }
+.related-card p { font-size: 0.75rem; color: var(--gris); margin-bottom: 0; }
+
+/* ═══ 10f. BOUTONS PARTAGE SOCIAL ═══ */
+.social-share {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+.social-share a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  border: 2px solid var(--gris-c);
+  color: var(--gris);
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+.social-share a:hover { border-color: var(--bleu); color: var(--bleu); }
+
+@media (max-width: 900px) {
+  .related-grid { grid-template-columns: 1fr; }
+  .article-author { flex-direction: column; text-align: center; }
+}
 .section-dark .quick-answer { background: var(--code); border-left-color: var(--bleu-c); color: var(--bleu-c); }
 
 

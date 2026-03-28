@@ -46,6 +46,14 @@
     });
   });
 
+  /* --- Table des matieres (TOC) toggle --- */
+  var tocElements = document.querySelectorAll('.toc-title');
+  tocElements.forEach(function(tocTitle) {
+    tocTitle.addEventListener('click', function() {
+      tocTitle.parentElement.classList.toggle('collapsed');
+    });
+  });
+
   /* --- Nav border on scroll --- */
   var nav = document.querySelector('nav');
   if (nav) {
