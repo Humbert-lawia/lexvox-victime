@@ -326,5 +326,121 @@ Chaque article doit avoir 3 blocs JSON-LD dans le `<head>` :
 
 ---
 
+## 11. Recherche et optimisation des mots-cles (AVANT la redaction)
+
+> Cette section est la premiere etape du pipeline. Elle doit etre executee AVANT de generer l'article avec Gemini.
+
+### 11.1 Etape 1 : Definir le mot-cle principal
+
+- Choisir UN mot-cle transactionnel ou informationnel cible pour l'article
+- Format recommande : `[intention] + [sujet] + [localisation]`
+- Exemples : "avocat erreur medicale Aix-en-Provence", "indemnisation accident route Marseille", "faute inexcusable employeur procedure"
+- Source : fichier `/SEO/mots_cles_victimes.txt` (600+ mots-cles classes par categorie) + recherche Google
+
+### 11.2 Etape 2 : Identifier 5-8 mots-cles secondaires
+
+- Variantes et synonymes du mot-cle principal
+- Methode : taper le mot-cle principal dans Google et relever :
+  - Les suggestions de recherche (autocomplete)
+  - Les recherches associees en bas de page
+  - Les termes en gras dans les resultats
+- Exemples pour "erreur medicale" : "faute medicale", "responsabilite medicale", "incident de soins", "manquement therapeutique", "negligence medicale"
+- Ces mots-cles secondaires deviennent les synonymes utilises dans l'article pour eviter la suroptimisation (DSEO)
+
+### 11.3 Etape 3 : Extraire les questions PAA (People Also Ask)
+
+- Taper le mot-cle principal dans Google
+- Relever les 6-8 questions du bloc "Autres questions posees" / "People Also Ask"
+- Ces questions deviennent les FAQ de l'article
+- Methode alternative : utiliser WebSearch pour simuler la recherche
+- Exemples : "Comment prouver une erreur medicale ?", "Quel delai pour agir ?", "Combien peut-on obtenir ?"
+
+### 11.4 Etape 4 : Trouver 10-15 mots-cles longue traine
+
+- Expressions de 4 mots ou plus, faible concurrence, intention claire
+- Sources :
+  - Google Suggest (taper le debut de la requete et noter les completions)
+  - Recherches associees en bas de SERP
+  - Forums (Reddit, Doctissimo, forums juridiques)
+  - Avis Google du cabinet (les mots utilises par les clients)
+- Exemples : "comment recuperer son dossier medical apres erreur chirurgicale", "delai prescription faute medicale hopital public", "indemnisation infection nosocomiale combien"
+- Ces mots-cles longue traine sont integres naturellement dans le contenu et les FAQ
+
+### 11.5 Etape 5 : Construire le cluster semantique
+
+- Regrouper TOUS les mots-cles (principal + secondaires + longue traine + PAA) en 4-5 sous-themes
+- Chaque sous-theme devient un H2 de l'article
+- Chaque H2 contient 2-3 H3 qui ciblent des mots-cles longue traine specifiques
+
+Exemple de cluster pour "erreur medicale que faire victime" :
+
+| Sous-theme (H2) | Mots-cles cibles |
+|-----------------|------------------|
+| Comprendre l'erreur medicale | erreur medicale, faute de soins, alea therapeutique, negligence |
+| Les 5 reflexes immediats | que faire apres erreur medicale, dossier medical, ne rien signer |
+| Le cadre juridique | loi Kouchner, CCI, ONIAM, article L1142-1 CSP |
+| L'indemnisation | indemnisation erreur medicale, nomenclature Dintilhac, montants |
+| Votre avocat specialise | avocat erreur medicale Aix-en-Provence, expertise medicale |
+
+### 11.6 Etape 6 : Classifier par intention de recherche
+
+- **Informationnelle** (le lecteur veut comprendre) : "qu'est-ce qu'une erreur medicale", "difference erreur medicale alea therapeutique"
+- **Transactionnelle** (le lecteur veut agir) : "avocat erreur medicale Aix-en-Provence", "consultation gratuite dommage corporel"
+- **Locale** (le lecteur cherche un professionnel proche) : "avocat dommage corporel Marseille", "cabinet indemnisation Salon-de-Provence"
+- L'article doit couvrir les 3 types : informationnel dans le corps, transactionnel dans les CTA, local dans les mentions geographiques
+
+### 11.7 Etape 7 : Creer le guide YourTextGuru
+
+- Commander un guide YTG avec le mot-cle principal comme requete
+- Groupe : "nouveau site victime"
+- Une fois le guide genere (100%), relever les "Top Termes" recommandes
+- Ces termes sont la checklist de mots a integrer dans l'article
+- Objectif : que chaque "Top Terme" soit present au moins 1 fois, mais jamais plus de 5 fois
+
+### 11.8 Etape 8 : Fiche mot-cle de l'article
+
+Avant de passer a la generation Gemini, creer une fiche recapitulative :
+
+```
+FICHE MOT-CLE — [Titre article]
+================================
+Mot-cle principal : [ex: erreur medicale que faire victime]
+Mots-cles secondaires : [5-8 termes]
+Questions PAA : [6-8 questions]
+Mots-cles longue traine : [10-15 expressions]
+Cluster semantique : [4-5 sous-themes → H2]
+Intention dominante : [informationnelle / transactionnelle / locale]
+Guide YTG : [ID du guide]
+Top Termes YTG : [liste des 20 termes prioritaires]
+Liens externes prevus : [2 URLs institutionnelles]
+Villes a mentionner : Aix-en-Provence, Salon-de-Provence, Arles, Marignane + [ville SEO local si applicable]
+```
+
+Cette fiche est transmise a Gemini comme contexte pour la generation de l'article. Elle garantit que tous les mots-cles sont couverts des la premiere version.
+
+---
+
+## 12. Workflow complet article (resume)
+
+```
+ETAPE 0 : Fiche mot-cle (section 11)
+         ↓
+ETAPE 1 : Generation Gemini (avec fiche mot-cle en contexte)
+         ↓
+ETAPE 2 : Enrichissement Lexbase (jurisprudences)
+         ↓
+ETAPE 3 : Coller dans YourTextGuru → DSEO < 7%
+         ↓
+   Si DSEO > 7% → reecrire avec synonymes → recoller → verifier
+         ↓
+ETAPE 4 : Conversion HTML + integration site
+         ↓
+ETAPE 5 : Checklist post-publication (section 10)
+         ↓
+ETAPE 6 : Git commit + push → auto-deploy Netlify
+```
+
+---
+
 *Document cree le 28 mars 2026 — SELARL LEXVOX AVOCATS / LAWIA*
 *Derniere mise a jour : 28 mars 2026*
