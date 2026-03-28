@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /cdn-cgi/
 
-Sitemap: https://lexvox-victime.fr/sitemap.xml
+Sitemap: https://lexvox-victime.com/sitemap.xml
