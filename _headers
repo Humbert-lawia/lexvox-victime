@@ -16,5 +16,4 @@
 /img/*
   Cache-Control: public, max-age=2592000
 
-/*.html
-  Cache-Control: public, max-age=3600
+# HTML pages - no specific cache rule needed, Cloudflare handles it
