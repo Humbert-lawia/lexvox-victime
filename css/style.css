@@ -516,6 +516,8 @@ details .faq-body p { color: var(--dark); }
 @media (max-width: 900px) {
   .related-grid { grid-template-columns: 1fr; }
   .article-author { flex-direction: column; text-align: center; }
+  .toc .toc-list { display: none; }
+  .toc .toc-title::after { transform: rotate(-90deg); }
 }
 .section-dark .quick-answer { background: var(--code); border-left-color: var(--bleu-c); color: var(--bleu-c); }
 
