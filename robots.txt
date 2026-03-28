@@ -2,4 +2,26 @@ User-agent: *
 Allow: /
 Disallow: /cdn-cgi/
 
+# AI crawlers - explicitly allowed for GEO/LLMO/AEO
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
 Sitemap: https://lexvox-victime.com/sitemap.xml
