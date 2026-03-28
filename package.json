@@ -1,0 +1,10 @@
+{
+  "name": "lexvox-victime",
+  "private": true,
+  "scripts": {
+    "start": "serve . --listen tcp://0.0.0.0:${PORT:-8091}"
+  },
+  "dependencies": {
+    "serve": "^14.2.6"
+  }
+}

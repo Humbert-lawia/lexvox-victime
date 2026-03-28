@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /cdn-cgi/
+
+Sitemap: https://lexvox-victime.fr/sitemap.xml
