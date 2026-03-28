@@ -424,6 +424,25 @@ details .faq-body p { color: var(--dark); }
   font-weight: 600;
 }
 .toc-list a:hover { color: var(--bleu-f); }
+.toc-sublist {
+  list-style: none;
+  padding-left: 1.5rem;
+  margin-top: 0.2rem;
+}
+.toc-sublist li {
+  border-bottom: none;
+  padding: 0.15rem 0;
+}
+.toc-sublist li::before {
+  content: "–";
+  color: var(--gris);
+  margin-right: 0.4rem;
+}
+.toc-sublist a {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--gris);
+}
 
 /* ═══ 10c. TEMPS DE LECTURE ═══ */
 .reading-time {
