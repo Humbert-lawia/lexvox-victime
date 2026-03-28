@@ -611,9 +611,10 @@ details .faq-body p { color: var(--dark); }
 /* ═══ 14. DATE UPDATED (GEO) ═══ */
 .date-updated {
   font-family: Calibri, sans-serif;
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   color: var(--gris);
   font-style: italic;
+  margin-top: -1rem;
   margin-bottom: 1.5rem;
 }
 .date-updated time { font-style: normal; font-weight: 600; }
@@ -933,4 +934,20 @@ footer {
   section { padding: 1rem 0; }
   a[href]::after { content: " (" attr(href) ")"; font-size: 0.8em; color: #666; }
   .card, .practice-card, .step, details { border-color: #ccc; box-shadow: none; }
+}
+
+
+/* ═══ 27. SKIP LINK (ACCESSIBILITÉ) ═══ */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--dark);
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.3s;
+}
+.skip-link:focus {
+  top: 0;
 }
