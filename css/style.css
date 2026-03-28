@@ -377,11 +377,13 @@ details .faq-body p { color: var(--dark); }
 
 /* ═══ 10b. TABLE DES MATIERES (plan de lecture) ═══ */
 .toc {
+  position: static !important;
   background: #fff;
   border: 3px solid var(--dark);
   border-radius: var(--r);
   padding: 1.5rem;
   margin-bottom: 2.5rem;
+  z-index: auto;
 }
 .toc-title {
   font-family: Georgia, serif;
