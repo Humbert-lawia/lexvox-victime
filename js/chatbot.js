@@ -1,13 +1,13 @@
 /**
- * LEXVOX AVOCATS — Chatbot Gemini Flash
+ * LEXVOX AVOCATS — Chatbot IA (OpenAI GPT-4o-mini)
  * Assistant virtuel pour capture leads et orientation RDV
  * JAMAIS de conseil juridique
  */
 (function() {
   'use strict';
 
-  var API_KEY = 'AIzaSyDED7nDlN3-MwkRbLDB47e5lHA_Cyg5U0s';
-  var API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + API_KEY;
+  var API_KEY = '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';
+  var API_URL = 'https://api.openai.com/v1/chat/completions';
 
   var SYSTEM_PROMPT = "Tu es l'assistant virtuel du cabinet d'avocats LEXVOX AVOCATS. Regles ABSOLUES :\n\n" +
     "1. Tu ne donnes JAMAIS de conseil juridique. Tu n'es pas avocat.\n" +
@@ -34,9 +34,11 @@
 
   // Inject CSS
   var style = document.createElement('style');
-  style.textContent = '#lx-chat-btn{position:fixed;bottom:20px;right:20px;width:60px;height:60px;border-radius:50%;background:#4A7BA8;border:3px solid #141413;cursor:pointer;z-index:9998;display:flex;align-items:center;justify-content:center;box-shadow:4px 4px 0 0 #141413;transition:all 0.3s}' +
+  style.textContent = '#lx-chat-btn{position:fixed;bottom:20px;right:20px;width:80px;height:80px;border-radius:50%;background:#4A7BA8;border:3px solid #141413;cursor:pointer;z-index:9998;display:flex;align-items:center;justify-content:center;box-shadow:4px 4px 0 0 #141413;transition:all 0.3s;overflow:hidden}' +
     '#lx-chat-btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 0 #141413}' +
-    '#lx-chat-btn svg{width:28px;height:28px;fill:white}' +
+    '#lx-chat-btn svg{width:34px;height:34px;fill:white}' +
+    '#lx-chat-btn.has-avatar{background:none;border:3px solid #4A7BA8}' +
+    '#lx-chat-btn.has-avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%}' +
     '#lx-chat-win{position:fixed;bottom:90px;right:20px;width:380px;height:520px;background:#FAF9F5;border:3px solid #141413;border-radius:8px;z-index:9999;display:none;flex-direction:column;box-shadow:8px 8px 0 0 #4A7BA8;overflow:hidden}' +
     '#lx-chat-hdr{background:#141413;color:#FAF9F5;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;font-family:Georgia,serif;font-size:0.95rem;font-weight:700}' +
     '#lx-chat-hdr button{background:none;border:none;color:#FAF9F5;font-size:1.5rem;cursor:pointer;line-height:1}' +
@@ -56,14 +58,15 @@
   // Inject button
   var btn = document.createElement('div');
   btn.id = 'lx-chat-btn';
-  btn.innerHTML = '<svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>';
-  btn.title = 'Discuter avec notre assistant';
+  btn.className = 'has-avatar';
+  btn.innerHTML = '<img src="/img/chatbot-avatar.jpg" alt="Assistant LEXVOX" width="80" height="80">';
+  btn.title = 'Discuter avec notre assistante';
   document.body.appendChild(btn);
 
   // Inject chat window
   var win = document.createElement('div');
   win.id = 'lx-chat-win';
-  win.innerHTML = '<div id="lx-chat-hdr"><span>LEXVOX AVOCATS</span><button id="lx-chat-close">&times;</button></div>' +
+  win.innerHTML = '<div id="lx-chat-hdr"><div style="display:flex;align-items:center;gap:8px"><img src="/img/chatbot-avatar.jpg" alt="" style="width:32px;height:32px;border-radius:50%;border:2px solid #4A7BA8"><span>LEXVOX AVOCATS</span></div><button id="lx-chat-close">&times;</button></div>' +
     '<div id="lx-chat-msgs"></div>' +
     '<div id="lx-chat-input"><input type="text" placeholder="Votre message..." id="lx-chat-field" autocomplete="off"><button id="lx-chat-send">Envoyer</button></div>';
   document.body.appendChild(win);
@@ -118,19 +121,19 @@
     field.disabled = true;
 
     try {
-      var body = {
-        system_instruction: { parts: [{ text: SYSTEM_PROMPT }] },
-        contents: history
-      };
+      var messages = [{ role: 'system', content: SYSTEM_PROMPT }];
+      for (var i = 0; i < history.length; i++) {
+        messages.push({ role: history[i].role === 'model' ? 'assistant' : 'user', content: history[i].parts[0].text });
+      }
 
       var resp = await fetch(API_URL, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(body)
+        headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + API_KEY },
+        body: JSON.stringify({ model: 'gpt-4o-mini', messages: messages, max_tokens: 500, temperature: 0.7 })
       });
 
       var data = await resp.json();
-      var reply = data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts && data.candidates[0].content.parts[0] && data.candidates[0].content.parts[0].text;
+      var reply = data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content;
 
       if (reply) {
         history.push({ role: 'model', parts: [{ text: reply }] });
