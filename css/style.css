@@ -224,7 +224,10 @@ nav a:hover { color: var(--dark); }
   font-size: 1.1rem;
   letter-spacing: 1px;
 }
-.btn-phone:hover { background: var(--bleu-f); border-color: var(--bleu-f); }
+.btn-phone:hover { background: var(--bleu-f); border-color: var(--bleu-f); transform: translate(-2px, -2px); box-shadow: 8px 8px 0 0 var(--or); }
+.btn:active, .btn-phone:active { transform: translate(0, 0) scale(0.97); box-shadow: none; transition: all 0.1s; }
+.nav-cta { transition: all 0.25s ease; }
+.nav-cta:active { transform: scale(0.95); }
 
 
 /* ═══ 8. CARDS ═══ */
@@ -234,6 +237,11 @@ nav a:hover { color: var(--dark); }
   border-radius: var(--r);
   padding: 1.8rem;
   box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 6px 6px 0 0 var(--bleu-f);
 }
 .card-dark {
   background: var(--code);
@@ -267,6 +275,11 @@ nav a:hover { color: var(--dark); }
   border-radius: var(--r);
   padding: 1.5rem;
   box-shadow: 4px 4px 2px 0 rgba(20,20,19,0.25);
+  transition: all 0.3s ease;
+}
+.card-testi:hover {
+  transform: translateY(-4px);
+  box-shadow: 6px 6px 0 0 var(--or);
 }
 .card-testi .testi-stars { color: var(--or); font-size: 1rem; margin-bottom: 0.5rem; }
 .card-testi .testi-text { font-size: 0.9rem; font-style: italic; color: var(--dark); margin-bottom: 0.8rem; }
@@ -334,6 +347,11 @@ details {
   margin-bottom: 0.8rem;
   background: #fff;
   overflow: hidden;
+  transition: all 0.3s ease;
+}
+details:hover {
+  border-color: var(--bleu);
+  box-shadow: 0 2px 8px rgba(74, 123, 168, 0.15);
 }
 summary {
   padding: 1rem 1.2rem;
@@ -660,6 +678,18 @@ details .faq-body p { color: var(--dark); }
   border: 3px solid var(--dark);
   border-radius: var(--r);
   box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+}
+.step:hover {
+  transform: translateY(-5px);
+  box-shadow: 6px 6px 0 0 var(--bleu-f);
+  border-color: var(--bleu);
+}
+.step:hover .step-num {
+  background: var(--bleu);
+  color: #fff;
+  border-color: var(--bleu);
+  transition: all 0.3s ease;
 }
 .step-num {
   width: 46px;
