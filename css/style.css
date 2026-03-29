@@ -981,3 +981,11 @@ footer {
 .skip-link:focus {
   top: 0;
 }
+
+/* ═══ 28. FORMULAIRES ═══ */
+.form-group { margin-bottom: 1.2rem; }
+.form-group label { display: block; font-weight: 600; margin-bottom: 0.4rem; font-size: 0.9rem; font-family: Calibri, sans-serif; }
+.form-input { width: 100%; padding: 0.7rem; border: 2px solid var(--dark); border-radius: 4px; font-size: 1rem; font-family: Calibri, sans-serif; box-sizing: border-box; transition: border-color 0.2s; }
+.form-input:focus { border-color: var(--bleu); outline: none; box-shadow: 0 0 0 3px rgba(74,123,168,0.15); }
+select.form-input { appearance: auto; }
+input[type="range"] { width: 100%; accent-color: var(--bleu-f); }
