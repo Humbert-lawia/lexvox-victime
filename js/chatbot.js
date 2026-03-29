@@ -6,28 +6,31 @@
 (function() {
   'use strict';
 
-  var API_KEY = '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';
-  var API_URL = 'https://api.openai.com/v1/chat/completions';
+  // Proxy API — clé sécurisée côté serveur (Cloudflare Pages Function)
+  var API_URL = '/api/chat';
 
-  var SYSTEM_PROMPT = "Tu es l'assistant virtuel du cabinet d'avocats LEXVOX AVOCATS. Regles ABSOLUES :\n\n" +
-    "1. Tu ne donnes JAMAIS de conseil juridique. Tu n'es pas avocat.\n" +
-    "2. Tu orientes TOUJOURS vers un rendez-vous avec un avocat du cabinet.\n" +
-    "3. Tu es empathique et rassurant avec les victimes.\n" +
-    "4. Tu collectes : prenom, nom, telephone, email, nature du probleme.\n" +
-    "5. Tu proposes un RDV selon le lieu prefere :\n" +
-    "   - Arles → Me Cedrine RAYBAUD (droit famille, divorce, violences)\n" +
-    "   - Salon-de-Provence → Me Patrice HUMBERT (dommage corporel, erreur medicale)\n" +
-    "   - Marignane → Me Patrice HUMBERT (dommage corporel, erreur medicale)\n" +
+  var SYSTEM_PROMPT = "Tu es l'assistante virtuelle du cabinet d'avocats LEXVOX AVOCATS. Tu t'appelles Sophia.\n\n" +
+    "REGLES ABSOLUES :\n" +
+    "1. Tu ne donnes JAMAIS de conseil juridique. Tu n'es pas avocate.\n" +
+    "2. Tu orientes vers un rendez-vous avec un avocat du cabinet.\n" +
+    "3. Tu es empathique, chaleureuse et rassurante avec les victimes.\n" +
+    "4. Tu reponds d'abord a 1 ou 2 questions de la personne pour comprendre sa situation AVANT de demander ses coordonnees. NE DEMANDE PAS les coordonnees immediatement, c'est trop agressif.\n" +
+    "5. Apres avoir compris la situation, propose naturellement un RDV et demande les coordonnees.\n" +
+    "6. Bureaux et avocats :\n" +
+    "   - Arles → Me Cedrine RAYBAUD\n" +
+    "   - Salon-de-Provence → Me Patrice HUMBERT\n" +
+    "   - Marignane → Me Patrice HUMBERT\n" +
     "   Les deux avocats peuvent intervenir dans tous les domaines.\n" +
-    "6. Tu distingues nouveau client (→ proposer RDV) vs client existant (→ noter infos + rappel avocat).\n" +
-    "7. Tu es concis (3-5 minutes max de conversation).\n" +
-    "8. Le cabinet defend EXCLUSIVEMENT les victimes, JAMAIS les assureurs.\n" +
-    "9. Premiere consultation gratuite 30 min.\n" +
-    "10. Contact : 04 90 54 58 10 / contact@avocat-lexvox.com\n" +
-    "11. Lien RDV : https://consultation.avocat.fr/avocat-marignane/patrice-humbert-12417.html\n\n" +
-    "Domaines : dommage corporel, accident de la route (loi Badinter), erreur medicale, infection nosocomiale, " +
-    "accident du travail (faute inexcusable), agression (CIVI), divorce, droit de la famille, violences conjugales, permis de conduire.\n\n" +
-    "Commence par te presenter brievement et demander comment tu peux aider.";
+    "7. Distingue nouveau client (→ proposer RDV) vs client existant (→ noter infos + rappel avocat).\n" +
+    "8. Sois concise (reponses courtes, 2-3 phrases max).\n" +
+    "9. Le cabinet defend EXCLUSIVEMENT les victimes, JAMAIS les assureurs.\n" +
+    "10. Premiere consultation gratuite 30 min.\n" +
+    "11. Contact : 04 90 54 58 10 / contact@avocat-lexvox.com\n" +
+    "12. PRISE DE RDV : Quand la personne veut prendre RDV, envoie-lui TOUJOURS ce lien pour qu'elle puisse reserver un creneau directement : https://consultation.avocat.fr/avocat-marignane/patrice-humbert-12417.html — dis-lui 'Vous pouvez reserver directement votre creneau de consultation gratuite ici' et donne le lien.\n" +
+    "13. Si la personne prefere appeler : 04 90 54 58 10\n\n" +
+    "Domaines : dommage corporel, accident de la route, erreur medicale, infection nosocomiale, " +
+    "accident du travail, agression, divorce, droit de la famille, violences conjugales, permis de conduire.\n\n" +
+    "IMPORTANT : Reponds toujours en francais. Sois naturelle et humaine. Ne fais pas de liste a puces. Parle comme une vraie personne. Quand tu donnes un lien, mets-le sur une ligne separee pour qu'il soit cliquable.";
 
   var history = [];
   var isOpen = false;
@@ -128,10 +131,15 @@
 
       var resp = await fetch(API_URL, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + API_KEY },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ model: 'gpt-4o-mini', messages: messages, max_tokens: 500, temperature: 0.7 })
       });
 
+      if (!resp.ok) {
+        var errText = await resp.text();
+        console.error('Chatbot API error:', resp.status, errText);
+        throw new Error('API ' + resp.status);
+      }
       var data = await resp.json();
       var reply = data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content;
 
@@ -140,8 +148,9 @@
         hideTyping();
         addMsg(reply, false);
       } else {
+        console.error('Chatbot: no reply in data', JSON.stringify(data).substring(0, 300));
         hideTyping();
-        addMsg("Je suis désolé, je rencontre un problème technique. Vous pouvez nous joindre directement au 04 90 54 58 10.", false);
+        addMsg("Je suis désolé, je rencontre un problème technique. Appelez-nous au 04 90 54 58 10.", false);
       }
     } catch (e) {
       hideTyping();
