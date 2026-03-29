@@ -16,7 +16,7 @@
 1. **Salon-de-Provence** : 282 Boulevard Maréchal Foch, 13300
 2. **Aix-en-Provence** : 4 Rue du 4 Septembre, 13100
 3. **Arles** : 11 Boulevard Émile Combes, 13200
-4. **Marignane** : 1Bis Rue Antoine de Saint-Exupéry, Bât. L'Eden, 13700
+4. **Marignane** : 1 Bis Rue Antoine de Saint-Exupéry, Bât. L'Eden, 13700
 
 ## Contact
 
