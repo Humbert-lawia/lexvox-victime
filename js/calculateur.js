@@ -1,108 +1,18 @@
-/**
- * LEXVOX AVOCATS — Simulateur d'indemnisation
- * Basé sur les fourchettes BASSES du référentiel Mornet
- * Méthode LexVictime : +15% à +100% selon les dossiers
- */
-
-// Table DFP Mornet 2025 (Référentiel indicatif cours d'appel)
-// Format: DFP_TABLE[tranche_age][tranche_dfp] = valeur du point
-// Tranches age: 0=0-10, 1=11-20, 2=21-30, 3=31-40, 4=41-50, 5=51-60, 6=61-70, 7=71-80, 8=81+
-// Tranches DFP: 0=1-5%, 1=6-10%, 2=11-15%, ..., 19=96%+
-var DFP_TABLE = [
-  [2310,2670,3025,3380,3740,4100,4455,4810,5170,5530,5885,6240,6600,6955,7315,7670,8030,8385,8745,9020],
-  [2150,2475,2800,3135,3465,3795,4125,4455,4785,5115,5445,5775,6105,6435,6765,7095,7425,7755,8085,8415],
-  [1960,2255,2550,2850,3145,3445,3740,4035,4335,4630,4930,5225,5520,5820,6115,6415,6710,7005,7305,7600],
-  [1770,2035,2300,2560,2830,3090,3355,3620,3885,4150,4410,4675,4940,5205,5470,5730,5995,6260,6525,6785],
-  [1580,1800,2025,2245,2465,2685,2905,3125,3345,3565,3785,4005,4225,4445,4665,4885,5105,5325,5545,5765],
-  [1400,1560,1730,1890,2060,2220,2390,2550,2715,2880,3045,3210,3375,3540,3705,3870,4035,4200,4365,4530],
-  [1210,1320,1430,1540,1650,1760,1870,1980,2090,2200,2310,2420,2530,2640,2750,2860,2970,3080,3190,3300],
-  [1050,1130,1210,1290,1375,1455,1540,1620,1705,1790,1870,1950,2035,2115,2200,2280,2365,2445,2530,2610],
-  [880,935,990,1045,1100,1155,1210,1265,1320,1375,1430,1485,1540,1595,1650,1705,1760,1815,1870,1925]
-];
-
-function getPointDFP_Mornet(age, dfpPct) {
-  // Tranche d'age
-  var ageIdx;
-  if (age <= 10) ageIdx = 0;
-  else if (age <= 20) ageIdx = 1;
-  else if (age <= 30) ageIdx = 2;
-  else if (age <= 40) ageIdx = 3;
-  else if (age <= 50) ageIdx = 4;
-  else if (age <= 60) ageIdx = 5;
-  else if (age <= 70) ageIdx = 6;
-  else if (age <= 80) ageIdx = 7;
-  else ageIdx = 8;
-  // Tranche DFP (par tranches de 5%)
-  var dfpIdx = Math.min(Math.floor((dfpPct - 1) / 5), 19);
-  if (dfpIdx < 0) dfpIdx = 0;
-  return DFP_TABLE[ageIdx][dfpIdx];
-}
-
-// Souffrances endurées — Mornet 2025 (fourchette BASSE)
-var SE_MONTANTS = [0, 2000, 2000, 4000, 8000, 20000, 35000, 50000];
-
-// Préjudice esthétique permanent — Mornet 2025 (identique SE)
-var PE_MONTANTS = [0, 2000, 2000, 4000, 8000, 20000, 35000, 50000];
-
-// DFT par jour — Mornet 2025 (750-1000€/mois soit 25-33€/jour, on prend 25€)
-var DFT_JOUR = 25;
-
-function getPointDFP(age, dfpPct) {
-  return getPointDFP_Mornet(age, dfpPct || 5);
-}
-
-function formatMontant(n) {
-  return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-}
-
-// Slider label update
-var slider = document.getElementById('calc-dfp');
-var sliderVal = document.getElementById('calc-dfp-val');
-if (slider && sliderVal) {
-  slider.addEventListener('input', function() {
-    sliderVal.textContent = this.value + '%';
-  });
-}
-
-function calculerIndemnisation() {
-  var age = parseInt(document.getElementById('calc-age').value) || 35;
-  var dfp = parseInt(document.getElementById('calc-dfp').value) || 0;
-  var se = parseInt(document.getElementById('calc-se').value) || 0;
-  var pe = parseInt(document.getElementById('calc-pe').value) || 0;
-  var dftJours = parseInt(document.getElementById('calc-dft-jours').value) || 0;
-
-  // Calculs — Table Mornet 2025
-  var pointDFP = getPointDFP(age, dfp);
-  var montantDFP = dfp * pointDFP;
-  var montantSE = SE_MONTANTS[se] || 0;
-  var montantPE = PE_MONTANTS[pe] || 0;
-  var montantDFT = dftJours * DFT_JOUR;
-  var total = montantDFP + montantSE + montantPE + montantDFT;
-
-  // Affichage détaillé
-  var detail = document.getElementById('calc-detail');
-  var html = '<table style="width:100%;border-collapse:collapse;margin-bottom:1rem;">';
-  html += '<tr style="border-bottom:1px solid #333;"><th style="text-align:left;padding:0.5rem 0;color:#9FA8AC;">Poste de préjudice</th><th style="text-align:right;padding:0.5rem 0;color:#9FA8AC;">Montant minimum</th></tr>';
-
-  if (montantDFP > 0) {
-    html += '<tr style="border-bottom:1px solid #222;"><td style="padding:0.5rem 0;">Déficit Fonctionnel Permanent (' + dfp + '% × ' + formatMontant(pointDFP) + ' €/pt)</td><td style="text-align:right;padding:0.5rem 0;color:#B89C58;font-weight:700;">' + formatMontant(montantDFP) + ' €</td></tr>';
-  }
-  if (montantSE > 0) {
-    html += '<tr style="border-bottom:1px solid #222;"><td style="padding:0.5rem 0;">Souffrances endurées (' + se + '/7)</td><td style="text-align:right;padding:0.5rem 0;color:#B89C58;font-weight:700;">' + formatMontant(montantSE) + ' €</td></tr>';
-  }
-  if (montantPE > 0) {
-    html += '<tr style="border-bottom:1px solid #222;"><td style="padding:0.5rem 0;">Préjudice esthétique permanent (' + pe + '/7)</td><td style="text-align:right;padding:0.5rem 0;color:#B89C58;font-weight:700;">' + formatMontant(montantPE) + ' €</td></tr>';
-  }
-  if (montantDFT > 0) {
-    html += '<tr style="border-bottom:1px solid #222;"><td style="padding:0.5rem 0;">Déficit Fonctionnel Temporaire (' + dftJours + ' jours)</td><td style="text-align:right;padding:0.5rem 0;color:#B89C58;font-weight:700;">' + formatMontant(montantDFT) + ' €</td></tr>';
-  }
-  html += '</table>';
-  html += '<p style="font-size:0.8rem;color:#9FA8AC;margin-top:0.5rem;">⚠️ Estimation basée sur les fourchettes <strong>basses</strong> du référentiel Mornet. Postes non inclus : préjudice d\'agrément, préjudice sexuel, PGPF, tierce personne, frais futurs, et autres postes Dintilhac.</p>';
-
-  detail.innerHTML = html;
-  document.getElementById('calc-total').textContent = formatMontant(total);
-  document.getElementById('calc-results').style.display = 'block';
-
-  // Scroll to results
-  document.getElementById('calc-results').scrollIntoView({ behavior: 'smooth', block: 'center' });
-}
+var DFP_TABLE=[[1617,1869,2118,2366,2618,2870,3119,3367,3619,3871,4120,4368,4620,4869,5121,5369,5621,5870,6122,6314],[1505,1733,1960,2195,2426,2657,2888,3119,3350,3581,3812,4043,4274,4505,4736,4967,5198,5429,5660,5891],[1372,1579,1785,1995,2202,2412,2618,2825,3035,3241,3451,3658,3864,4074,4281,4491,4697,4904,5114,5320],[1239,1425,1610,1792,1981,2163,2349,2534,2720,2905,3087,3273,3458,3644,3829,4011,4197,4382,4568,4750],[1106,1260,1418,1572,1726,1880,2034,2188,2342,2496,2650,2804,2958,3112,3266,3420,3574,3728,3882,4036],[980,1092,1211,1323,1442,1554,1673,1785,1901,2016,2132,2247,2363,2478,2594,2709,2825,2940,3056,3171],[847,924,1001,1078,1155,1232,1309,1386,1463,1540,1617,1694,1771,1848,1925,2002,2079,2156,2233,2310],[735,791,847,903,963,1019,1078,1134,1194,1253,1309,1365,1425,1481,1540,1596,1656,1712,1771,1827],[616,655,693,732,770,809,847,886,924,963,1001,1040,1078,1117,1155,1194,1232,1271,1309,1348]];function getPointDFP(age,dfpPct){var ageIdx;if(age<=10)ageIdx=0;else if(age<=20)ageIdx=1;else if(age<=30)ageIdx=2;else if(age<=40)ageIdx=3;else if(age<=50)ageIdx=4;else if(age<=60)ageIdx=5;else if(age<=70)ageIdx=6;else if(age<=80)ageIdx=7;else ageIdx=8;var dfpIdx=Math.min(Math.max(Math.floor((dfpPct-1)/5),0),19);return DFP_TABLE[ageIdx][dfpIdx];}
+var DFT_CLASSES={'100':{taux:100,montant:24.50,label:'DFT Total (100%)'},'75':{taux:75,montant:18.20,label:'Classe IV (75%)'},'50':{taux:50,montant:12.60,label:'Classe III (50%)'},'25':{taux:25,montant:6.30,label:'Classe II (25%)'},'10':{taux:10,montant:2.45,label:'Classe I (10%)'},'5':{taux:5,montant:1.23,label:'5%'}};var SE_MONTANTS=[0,1400,1400,2800,5600,14000,24500,35000];var PE_MONTANTS=[0,1400,1400,2800,5600,14000,24500,35000];function formatMontant(n){return Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g,' ');}
+var slider=document.getElementById('calc-dfp');var sliderVal=document.getElementById('calc-dfp-val');if(slider&&sliderVal){slider.addEventListener('input',function(){sliderVal.textContent=this.value+'%';});}
+function calculerIndemnisation(){var age=parseInt(document.getElementById('calc-age').value)||35;var dfp=parseInt(document.getElementById('calc-dfp').value)||0;var se=parseInt(document.getElementById('calc-se').value)||0;var pe=parseInt(document.getElementById('calc-pe').value)||0;var pointDFP=getPointDFP(age,dfp);var montantDFP=dfp*pointDFP;var montantDFT=0;var dftDetails=[];var dftRows=document.querySelectorAll('.dft-row');if(dftRows&&dftRows.length>0){dftRows.forEach(function(row){var joursInput=row.querySelector('.dft-jours');var classeSelect=row.querySelector('.dft-classe');if(joursInput&&classeSelect){var jours=parseInt(joursInput.value)||0;var classeKey=classeSelect.value;var classeInfo=DFT_CLASSES[classeKey];if(jours>0&&classeInfo){var m=jours*classeInfo.montant;montantDFT+=m;dftDetails.push(classeInfo.label+' : '+jours+'j × '+classeInfo.montant+' €/j = '+formatMontant(m)+' €');}}});}else{var dftJours=parseInt(document.getElementById('calc-dft-jours')?document.getElementById('calc-dft-jours').value:0)||0;montantDFT=dftJours*24.50;if(montantDFT>0)dftDetails.push('DFT Total : '+dftJours+'j × 24,50 €/j');}
+var montantSE=SE_MONTANTS[se]||0;var montantPE=PE_MONTANTS[pe]||0;var total=montantDFP+montantDFT+montantSE+montantPE;var detail=document.getElementById('calc-detail');var html='<table style="width:100%;border-collapse:collapse;margin-bottom:1rem;">';html+='<tr style="border-bottom:1px solid #333;"><th style="text-align:left;padding:0.5rem 0;color:#9FA8AC;">Poste de préjudice</th><th style="text-align:right;padding:0.5rem 0;color:#9FA8AC;">Estimation</th></tr>';if(montantDFP>0){html+='<tr style="border-bottom:1px solid #222;"><td style="padding:0.5rem 0;">Déficit Fonctionnel Permanent ('+dfp+'%)</td><td style="text-align:right;padding:0.5rem 0;color:#B89C58;font-weight:700;">'+formatMontant(montantDFP)+' €</td></tr>';}
+if(montantDFT>0){html+='<tr style="border-bottom:1px solid #222;"><td style="padding:0.5rem 0;">Déficit Fonctionnel Temporaire<br><span style="font-size:0.75rem;color:#9FA8AC;">'+dftDetails.join('<br>')+'</span></td><td style="text-align:right;padding:0.5rem 0;color:#B89C58;font-weight:700;">'+formatMontant(montantDFT)+' €</td></tr>';}
+if(montantSE>0){html+='<tr style="border-bottom:1px solid #222;"><td style="padding:0.5rem 0;">Souffrances endurées ('+se+'/7)</td><td style="text-align:right;padding:0.5rem 0;color:#B89C58;font-weight:700;">'+formatMontant(montantSE)+' €</td></tr>';}
+if(montantPE>0){html+='<tr style="border-bottom:1px solid #222;"><td style="padding:0.5rem 0;">Préjudice esthétique ('+pe+'/7)</td><td style="text-align:right;padding:0.5rem 0;color:#B89C58;font-weight:700;">'+formatMontant(montantPE)+' €</td></tr>';}
+html+='</table>';html+='<p style="font-size:0.8rem;color:#9FA8AC;margin-top:0.5rem;">Estimation statistique indicative basée sur les données jurisprudentielles publiques. Postes non inclus : préjudice d\'agrément, préjudice sexuel, pertes de gains professionnels, tierce personne, frais futurs et autres postes Dintilhac.</p>';detail.innerHTML=html;document.getElementById('calc-total').textContent=formatMontant(total);document.getElementById('calc-results').style.display='block';document.getElementById('calc-results').scrollIntoView({behavior:'smooth',block:'center'});}
+function ajouterPeriodeDFT(){var container=document.getElementById('dft-periodes');if(!container)return;var count=container.querySelectorAll('.dft-row').length;var div=document.createElement('div');div.className='dft-row';div.style.cssText='display:flex;gap:0.8rem;margin-bottom:0.8rem;align-items:end;flex-wrap:wrap;';div.innerHTML='<div style="flex:1;min-width:120px;" class="form-group"><label>Jours</label><input type="number" class="dft-jours form-input" min="0" value="0" style="padding:0.5rem;"></div>'+
+'<div style="flex:2;min-width:180px;" class="form-group"><label>Classe</label><select class="dft-classe form-input" style="padding:0.5rem;">'+
+'<option value="100">DFT Total (100%) — 24,50 €/j</option>'+
+'<option value="75">Classe IV (75%) — 18,20 €/j</option>'+
+'<option value="50">Classe III (50%) — 12,60 €/j</option>'+
+'<option value="25">Classe II (25%) — 6,30 €/j</option>'+
+'<option value="10">Classe I (10%) — 2,45 €/j</option>'+
+'<option value="5">5% — 1,23 €/j</option></select></div>'+
+(count>0?'<button type="button" onclick="this.parentElement.remove()" style="background:none;border:none;color:#C0392B;cursor:pointer;font-size:1.2rem;padding:0.5rem;" title="Supprimer">✕</button>':'');container.appendChild(div);}

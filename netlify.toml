@@ -1,6 +1,12 @@
 [build]
   publish = "."
 
+[[redirects]]
+  from = "https://www.lexvox-victime.com/*"
+  to = "https://lexvox-victime.com/:splat"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
