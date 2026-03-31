@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFLFMCGWDQ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-RFLFMCGWDQ');
-  </script>
-  <meta charset="UTF-8">
+<head><meta charset="UTF-8">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/favicon.ico">
@@ -36,10 +27,11 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet"></noscript>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/style.css?v=4">
 
   <!-- JSON-LD: LocalBusiness -->
   <script type="application/ld+json">
@@ -55,7 +47,7 @@
     "address": [
       {
         "@type": "PostalAddress",
-        "streetAddress": "4 Rue du 4 Septembre",
+        "streetAddress": "4 Rue du Quatre-Septembre",
         "addressLocality": "Aix-en-Provence",
         "postalCode": "13100",
         "addressCountry": "FR"
@@ -133,13 +125,24 @@
   <!-- Navigation -->
   <nav aria-label="Navigation principale">
     <div class="container">
-      <a href="/" class="logo">Lex<span>Vox</span></a>
+      <a href="/" class="logo">Lexvox <span>Avocats</span></a>
       <ul>
         <li><a href="/accident-de-la-route">Accident de la route</a></li>
         <li><a href="/responsabilite-medicale">Erreur médicale</a></li>
         <li><a href="/indemnisation-prejudice-corporel">Indemnisation</a></li>
+        <li class="nav-dropdown"><a href="#">Nos expertises</a>
+          <div class="nav-dropdown-menu">
+            <a href="/expertise-medicale">Expertise médicale</a>
+            <a href="/accident-du-travail">Accident du travail</a>
+            <a href="/victime-agression">Victime d'agression</a>
+            <a href="/nomenclature-dintilhac">Nomenclature Dintilhac</a>
+            <a href="/procedure-indemnisation">Procédure d'indemnisation</a>
+            <a href="/evaluateur-prejudices">Évaluateur de préjudices</a>
+            <a href="/quiz">Quiz — mes droits</a>
+          </div>
+        </li>
         <li><a href="/actualites">Actualités</a></li><li><a href="/cabinet">Le cabinet</a></li>
-        <li><a href="/contact" class="nav-cta">Consultation gratuite</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
       <button class="hamburger" aria-label="Ouvrir le menu">
         <svg viewBox="0 0 24 24" fill="none"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -158,6 +161,7 @@
     <a href="/accident-du-travail">Accident du travail</a>
     <a href="/victime-agression">Victime d'agression</a>
     <a href="/cabinet">Le cabinet</a>
+    <a href="/actualites">Actualités</a>
     <a href="/contact" class="btn btn-primary">Consultation gratuite</a>
   </div>
 
@@ -270,7 +274,7 @@
         <div class="grid-3">
           <a href="/cabinet/aix-en-provence" class="card" style="text-decoration: none; color: inherit; display: block;">
             <h3>Aix-en-Provence →</h3>
-            <p>4 Rue du 4 Septembre<br>13100 Aix-en-Provence</p>
+            <p>4 Rue du Quatre-Septembre<br>13100 Aix-en-Provence</p>
           </a>
           <a href="/cabinet/salon-de-provence" class="card" style="text-decoration: none; color: inherit; display: block;">
             <h3>Salon-de-Provence →</h3>
@@ -296,7 +300,7 @@
         <div class="grid-2" style="margin-top: 1.5rem;">
           <a href="/cabinet/aix-en-provence" class="card" style="text-decoration: none; color: inherit; display: block; text-align: center;">
             <h4 style="margin-bottom: 0.5rem;">📍 Aix-en-Provence</h4>
-            <p>4 Rue du 4 Septembre<br>13100 Aix-en-Provence</p>
+            <p>4 Rue du Quatre-Septembre<br>13100 Aix-en-Provence</p>
             <span class="practice-link" style="margin-top: 0.8rem; display: inline-block;">Voir le plan →</span>
           </a>
           <a href="/cabinet/salon-de-provence" class="card" style="text-decoration: none; color: inherit; display: block; text-align: center;">
@@ -325,8 +329,8 @@
       <div class="container">
         <p class="overline">Prenez rendez-vous</p>
         <span class="ink-c" style="background: var(--creme);"></span>
-        <h2>Premiere consultation <span style="color: var(--or);">gratuite</span> — 30 minutes</h2>
-        <p style="max-width: 600px; margin: 0 auto 2rem;">Nous evaluons votre dossier et vos droits gratuitement. Aucun engagement. Premiere consultation gratuite.</p>
+        <h2>Première consultation <span style="color: var(--or);">gratuite</span> — 30 minutes</h2>
+        <p style="max-width: 600px; margin: 0 auto 2rem;">Nous évaluons votre dossier et vos droits gratuitement. Aucun engagement. Première consultation gratuite.</p>
         <a href="tel:+33490545810" class="btn btn-phone">04 90 54 58 10</a>
       </div>
     </section>
@@ -378,6 +382,10 @@
           <a href="https://www.instagram.com/humbert_avocat/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">Instagram</a>
           <a href="https://www.tiktok.com/@avocat.lexvox.handicap" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">TikTok</a>
         </div>
+        <div style="text-align: center; margin-bottom: 1rem; font-size: 0.82rem;">
+          <a href="https://www.avocats-aix.fr/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">Barreau d'Aix-en-Provence</a>
+          <a href="https://www.avocat-lexvox.com" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">avocat-lexvox.com</a>
+        </div>
         <div class="footer-bottom">
         <p>&copy; 2026 SELARL LEXVOX AVOCATS — Barreau d'Aix-en-Provence &middot; <a href="/mentions-legales">Mentions légales</a> &middot; <a href="/politique-confidentialite">Politique de confidentialité</a> &middot; <a href="/plan-du-site">Plan du site</a></p>
       </div>
@@ -387,5 +395,6 @@
   <script src="js/main.js" defer></script>
 <script src="/js/popup.js" defer></script>
 <script src="/js/chatbot.js" defer></script>
+  <script src="/js/cookies.js" defer></script>
 </body>
 </html>

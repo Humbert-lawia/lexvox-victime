@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFLFMCGWDQ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-RFLFMCGWDQ');
-  </script>
-  <meta charset="UTF-8">
+<head><meta charset="UTF-8">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/favicon.ico">
@@ -36,10 +27,11 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet"></noscript>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/style.css?v=4">
 
   <!-- JSON-LD: Article -->
   <script type="application/ld+json">
@@ -96,7 +88,7 @@
         "name": "Faut-il accepter l'offre de l'assurance ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Non, il ne faut jamais accepter l'offre de l'assurance sans l'avis d'un avocat spécialisé. Les premières offres des assureurs sont presque toujours sous-évaluées. Selon les études disponibles, l'intervention d'un avocat spécialisé permet d'obtenir en moyenne 2 à 5 fois plus que l'offre initiale de l'assurance. Vous disposez de 15 jours après acceptation pour vous rétracter."
+          "text": "Non, il ne faut jamais accepter l'offre de l'assurance sans l'avis d'un avocat spécialisé. Les premières offres des assureurs sont presque toujours sous-évaluées. Selon l'expérience du cabinet LEXVOX AVOCATS (20+ ans de pratique, centaines de dossiers traités), l'intervention d'un avocat spécialisé permet d'obtenir en moyenne 2 à 5 fois plus que l'offre initiale de l'assurance. Vous disposez de 15 jours après acceptation pour vous rétracter."
         }
       },
       {
@@ -212,13 +204,24 @@
 
   <nav aria-label="Navigation principale">
     <div class="container">
-      <a href="/" class="logo">Lex<span>Vox</span></a>
+      <a href="/" class="logo">Lexvox <span>Avocats</span></a>
       <ul>
         <li><a href="/accident-de-la-route">Accident de la route</a></li>
         <li><a href="/responsabilite-medicale">Erreur médicale</a></li>
         <li><a href="/indemnisation-prejudice-corporel">Indemnisation</a></li>
+        <li class="nav-dropdown"><a href="#">Nos expertises</a>
+          <div class="nav-dropdown-menu">
+            <a href="/expertise-medicale">Expertise médicale</a>
+            <a href="/accident-du-travail">Accident du travail</a>
+            <a href="/victime-agression">Victime d'agression</a>
+            <a href="/nomenclature-dintilhac">Nomenclature Dintilhac</a>
+            <a href="/procedure-indemnisation">Procédure d'indemnisation</a>
+            <a href="/evaluateur-prejudices">Évaluateur de préjudices</a>
+            <a href="/quiz">Quiz — mes droits</a>
+          </div>
+        </li>
         <li><a href="/actualites">Actualités</a></li><li><a href="/cabinet">Le cabinet</a></li>
-        <li><a href="/contact" class="nav-cta">Consultation gratuite</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
       <button class="hamburger" aria-label="Ouvrir le menu">
         <svg viewBox="0 0 24 24" fill="none"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -237,6 +240,7 @@
     <a href="/accident-du-travail">Accident du travail</a>
     <a href="/victime-agression">Victime d'agression</a>
     <a href="/cabinet">Le cabinet</a>
+    <a href="/actualites">Actualités</a>
     <a href="/contact" class="btn btn-primary">Consultation gratuite</a>
   </div>
 
@@ -261,6 +265,7 @@
         <p class="overline">Avocat accident de la route</p>
         <span class="ink"></span>
         <h1>Accident de la route : vos droits et votre <span class="accent">indemnisation</span></h1>
+        <img src="/img/pages/accident-de-la-route.jpg" alt="Accident de la route en Provence - LEXVOX AVOCATS" loading="lazy" width="1200" height="630" style="width: 100%; max-height: 280px; object-fit: cover; border-radius: 12px; border: 3px solid var(--dark); margin: 1.5rem 0;">
         <p class="date-updated">Dernière mise à jour : mars 2026</p>
 
         <div class="quick-answer">
@@ -402,7 +407,7 @@
           <div class="step">
             <div class="step-num">2</div>
             <h3>Consultation d'un avocat spécialisé</h3>
-            <p>Consultez un avocat spécialisé en dommage corporel dès que possible. Me Humbert évalue gratuitement vos droits, identifie tous les postes de préjudice indemnisables selon la <a href="/nomenclature-dintilhac">nomenclature Dintilhac</a> et définit la meilleure stratégie d'indemnisation. Selon les statistiques du Barreau, les victimes assistées d'un avocat obtiennent en moyenne <strong>2 à 5 fois plus</strong> que celles qui négocient seules avec l'assurance.</p>
+            <p>Consultez un avocat spécialisé en dommage corporel dès que possible. Me Humbert évalue gratuitement vos droits, identifie tous les postes de préjudice indemnisables selon la <a href="/nomenclature-dintilhac">nomenclature Dintilhac</a> et définit la meilleure stratégie d'indemnisation. Selon notre expérience de plus de 20 ans et des centaines de dossiers traités, les victimes assistées d'un avocat obtiennent en moyenne <strong>2 à 5 fois plus</strong> que celles qui négocient seules avec l'assurance. <span class="source-stat">(selon l'expérience du cabinet — 20+ ans, centaines de dossiers traités)</span></p>
           </div>
           <div class="step">
             <div class="step-num">3</div>
@@ -469,6 +474,18 @@
 
         <p class="mt-2">Pour une explication détaillée de chaque étape, consultez notre page <a href="/procedure-indemnisation">procédure d'indemnisation</a>. Pour comprendre comment vos préjudices sont évalués et chiffrés, consultez notre guide sur la <a href="/nomenclature-dintilhac">nomenclature Dintilhac</a>. Retrouvez également nos <a href="/actualites">derniers articles et guides pratiques</a>.</p>
 
+        <div class="tool-callout">
+          <h3>Estimez le montant de votre indemnisation</h3>
+          <p>Notre évaluateur gratuit, basé sur les 18 postes de la nomenclature Dintilhac, vous permet d'obtenir une première estimation chiffrée de vos préjudices après un accident de la route.</p>
+          <a href="/evaluateur-prejudices" class="btn btn-primary">Accéder à l'évaluateur de préjudices</a>
+        </div>
+
+        <div class="tool-callout">
+          <h3>Connaissez-vous vos droits de victime ?</h3>
+          <p>Testez vos connaissances en quelques minutes avec notre quiz interactif et découvrez les réflexes essentiels pour protéger votre indemnisation.</p>
+          <a href="/quiz" class="btn btn-outline">Faire le quiz</a>
+        </div>
+
       </div>
     </section>
 
@@ -523,7 +540,7 @@
 
           <details>
             <summary>Faut-il accepter l'offre de l'assurance ?</summary>
-            <p><strong>Non, il ne faut jamais accepter l'offre initiale sans l'avis d'un avocat spécialisé.</strong> Les premières offres d'indemnisation formulées par les assureurs sont systématiquement sous-évaluées. Selon les retours d'expérience du cabinet, l'intervention d'un avocat spécialisé permet d'obtenir en moyenne 2 à 5 fois le montant de l'offre initiale. L'assureur a l'obligation de formuler une offre dans les 8 mois (article L211-9 du Code des assurances), mais rien ne vous oblige à l'accepter. Si vous acceptez, vous disposez d'un délai de rétractation de 15 jours. Votre avocat analyse chaque poste de préjudice selon la <a href="/nomenclature-dintilhac">nomenclature Dintilhac</a> et négocie une indemnisation conforme à la jurisprudence.</p>
+            <p><strong>Non, il ne faut jamais accepter l'offre initiale sans l'avis d'un avocat spécialisé.</strong> Les premières offres d'indemnisation formulées par les assureurs sont systématiquement sous-évaluées. Selon les retours d'expérience du cabinet, l'intervention d'un avocat spécialisé permet d'obtenir en moyenne 2 à 5 fois le montant de l'offre initiale. <span class="source-stat">(selon l'expérience du cabinet — 20+ ans, centaines de dossiers traités)</span> L'assureur a l'obligation de formuler une offre dans les 8 mois (article L211-9 du Code des assurances), mais rien ne vous oblige à l'accepter. Si vous acceptez, vous disposez d'un délai de rétractation de 15 jours. Votre avocat analyse chaque poste de préjudice selon la <a href="/nomenclature-dintilhac">nomenclature Dintilhac</a> et négocie une indemnisation conforme à la jurisprudence.</p>
           </details>
 
           <details>
@@ -623,6 +640,10 @@
           <a href="https://www.instagram.com/humbert_avocat/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">Instagram</a>
           <a href="https://www.tiktok.com/@avocat.lexvox.handicap" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">TikTok</a>
         </div>
+        <div style="text-align: center; margin-bottom: 1rem; font-size: 0.82rem;">
+          <a href="https://www.avocats-aix.fr/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">Barreau d'Aix-en-Provence</a>
+          <a href="https://www.avocat-lexvox.com" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">avocat-lexvox.com</a>
+        </div>
         <div class="footer-bottom">
         <p>&copy; 2026 SELARL LEXVOX AVOCATS — Barreau d'Aix-en-Provence &middot; <a href="/mentions-legales">Mentions légales</a> &middot; <a href="/politique-confidentialite">Politique de confidentialité</a> &middot; <a href="/plan-du-site">Plan du site</a></p>
       </div>
@@ -632,5 +653,6 @@
   <script src="js/main.js" defer></script>
 <script src="/js/popup.js" defer></script>
 <script src="/js/chatbot.js" defer></script>
+  <script src="/js/cookies.js" defer></script>
 </body>
 </html>

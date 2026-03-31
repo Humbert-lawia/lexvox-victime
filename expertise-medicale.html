@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFLFMCGWDQ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-RFLFMCGWDQ');
-  </script>
-  <meta charset="UTF-8">
+<head><meta charset="UTF-8">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/favicon.ico">
@@ -36,10 +27,11 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet"></noscript>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/style.css?v=4">
 
   <!-- JSON-LD: Article -->
   <script type="application/ld+json">
@@ -96,7 +88,7 @@
         "name": "Dois-je venir avec un médecin conseil ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oui, c'est fortement recommandé. Les victimes assistées d'un médecin conseil obtiennent en moyenne des indemnisations 30 à 40 % supérieures à celles qui se présentent seules. Le médecin conseil défend vos intérêts face au médecin expert et veille à ce que tous vos préjudices soient correctement évalués."
+          "text": "Oui, c'est fortement recommandé. Selon l'expérience du cabinet LEXVOX AVOCATS (20+ ans de pratique, centaines de dossiers traités), les victimes assistées d'un médecin conseil obtiennent en moyenne des indemnisations 30 à 40 % supérieures à celles qui se présentent seules. Le médecin conseil défend vos intérêts face au médecin expert et veille à ce que tous vos préjudices soient correctement évalués."
         }
       },
       {
@@ -214,14 +206,25 @@
   <!-- ═══ NAV ═══ -->
   <nav aria-label="Navigation principale">
     <div class="container">
-      <a href="/" class="logo">Lex<span>Vox</span></a>
+      <a href="/" class="logo">Lexvox <span>Avocats</span></a>
       <ul>
         <li><a href="/accident-de-la-route">Accident de la route</a></li>
         <li><a href="/responsabilite-medicale">Erreur médicale</a></li>
         <li><a href="/indemnisation-prejudice-corporel">Indemnisation</a></li>
+        <li class="nav-dropdown"><a href="#">Nos expertises</a>
+          <div class="nav-dropdown-menu">
+            <a href="/expertise-medicale">Expertise médicale</a>
+            <a href="/accident-du-travail">Accident du travail</a>
+            <a href="/victime-agression">Victime d'agression</a>
+            <a href="/nomenclature-dintilhac">Nomenclature Dintilhac</a>
+            <a href="/procedure-indemnisation">Procédure d'indemnisation</a>
+            <a href="/evaluateur-prejudices">Évaluateur de préjudices</a>
+            <a href="/quiz">Quiz — mes droits</a>
+          </div>
+        </li>
         <li><a href="/actualites">Actualités</a></li>
         <li><a href="/cabinet">Le cabinet</a></li>
-        <li><a href="/contact" class="nav-cta">Consultation gratuite</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
       <button class="hamburger" aria-label="Ouvrir le menu">
         <svg viewBox="0 0 24 24" fill="none"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -261,6 +264,7 @@
         </nav>
 
         <h1>Expertise medicale : comment la preparer et la <span class="accent">reussir</span></h1>
+        <img src="/img/pages/expertise-medicale.jpg" alt="Expertise médicale pour victimes - LEXVOX AVOCATS" loading="lazy" width="1200" height="630" style="width: 100%; max-height: 280px; object-fit: cover; border-radius: 12px; border: 3px solid var(--dark); margin: 1.5rem 0;">
         <p class="date-updated">Dernière mise à jour : mars 2026</p>
 
         <div class="quick-answer">
@@ -352,7 +356,7 @@
         </div>
 
         <div class="callout" style="margin-top:2rem;">
-          <p><strong>Le conseil de Me Humbert :</strong> En cas d'<a href="/accident-de-la-route">accident de la route</a>, l'assureur est oblige par la <strong>loi Badinter</strong> d'organiser une expertise amiable. Vous pouvez l'accepter a condition d'etre assiste de votre propre medecin conseil. Si les conclusions sont defavorables, vous conservez toujours le droit de demander une expertise judiciaire.</p>
+          <p><strong>Le conseil de Me Humbert :</strong> En cas d'<a href="/accident-de-la-route">accident de la route</a>, l'assureur est obligé par la <strong>loi Badinter</strong> d'organiser une expertise amiable. Vous pouvez l'accepter à condition d'être assisté de votre propre médecin conseil. Si les conclusions sont défavorables, vous conservez toujours le droit de demander une expertise judiciaire.</p>
         </div>
 
         <div class="stats-grid" style="margin-top:2rem;">
@@ -479,7 +483,7 @@
           <div class="step">
             <div class="step-num">4</div>
             <h3>Examen clinique</h3>
-            <p>L'expert procede a un examen physique complet : palpation, mesure des amplitudes articulaires, evaluation de la mobilite, tests neurologiques si necessaire. Pour les <strong>traumatismes craniens</strong>, des tests cognitifs complementaires peuvent etre realises (memoire, attention, fonctions executives).</p>
+            <p>L'expert procède à un examen physique complet : palpation, mesure des amplitudes articulaires, évaluation de la mobilité, tests neurologiques si nécessaire. Pour les <strong>traumatismes crâniens</strong>, des tests cognitifs complémentaires peuvent être réalisés (mémoire, attention, fonctions exécutives).</p>
           </div>
           <div class="step">
             <div class="step-num">5</div>
@@ -591,6 +595,13 @@
         <div class="callout-or" style="margin-top:1.5rem;">
           <p><strong>Le cas de l'aggravation :</strong> si votre etat de sante se degrade apres la consolidation (le moment ou les sequelles sont stabilisees), vous pouvez demander une nouvelle expertise pour reevaluer vos prejudices. L'aggravation permet de rouvrir le dossier meme apres un accord transactionnel ou un jugement definitif.</p>
         </div>
+
+        <div class="tool-callout">
+          <h3>Préparez votre lettre de doléances</h3>
+          <p>La lettre de doléances est un document clé remis à l'expert médical. Elle décrit l'ensemble de vos préjudices au quotidien. Notre générateur vous aide à la rédiger de manière structurée et complète, poste par poste.</p>
+          <a href="/lettre-de-doleances" class="btn btn-primary">Générer ma lettre de doléances</a>
+        </div>
+
       </div>
     </section>
 
@@ -704,7 +715,7 @@
         <details>
           <summary>Combien coute un medecin conseil ?</summary>
           <div class="faq-body">
-            <p><strong>Les honoraires d'un medecin conseil varient entre 600 et 1 500 euros</strong> selon la complexite du dossier et le nombre de postes de prejudice a evaluer. Ce cout est largement compense par l'augmentation significative de l'indemnisation obtenue. De plus, les frais de medecin conseil peuvent etre inclus dans les depenses de sante actuelles (poste DSA) et donc rembourses dans le cadre de l'indemnisation. Notre cabinet peut avancer ces frais dans le cadre de l'honoraire au resultat.</p>
+            <p><strong>Les honoraires d'un médecin conseil varient entre 600 et 1 500 euros</strong> selon la complexité du dossier et le nombre de postes de préjudice à évaluer. Ce coût est largement compensé par l'augmentation significative de l'indemnisation obtenue. De plus, les frais de médecin conseil peuvent être inclus dans les dépenses de santé actuelles (poste DSA) et donc remboursés dans le cadre de l'indemnisation. Notre cabinet peut avancer ces frais dans le cadre de l'honoraire au résultat.</p>
           </div>
         </details>
 
@@ -732,7 +743,7 @@
         <details>
           <summary>L'expertise est-elle definitive ?</summary>
           <div class="faq-body">
-            <p><strong>Non, l'expertise n'est jamais definitive.</strong> En procedure amiable, vous pouvez toujours la contester et demander une expertise judiciaire au tribunal. En procedure judiciaire, le rapport de l'expert constitue un avis technique mais ne lie pas le juge qui reste souverain dans son appreciation. De plus, en cas d'aggravation de votre etat de sante apres la consolidation (le moment ou les sequelles sont stabilisees), une nouvelle expertise peut etre ordonnee pour reevaluer vos prejudices. L'aggravation permet de rouvrir votre dossier, meme apres un accord transactionnel.</p>
+            <p><strong>Non, l'expertise n'est jamais définitive.</strong> En procédure amiable, vous pouvez toujours la contester et demander une expertise judiciaire au tribunal. En procédure judiciaire, le rapport de l'expert constitue un avis technique mais ne lie pas le juge qui reste souverain dans son appréciation. De plus, en cas d'aggravation de votre état de santé après la consolidation (le moment où les séquelles sont stabilisées), une nouvelle expertise peut être ordonnée pour réévaluer vos préjudices. L'aggravation permet de rouvrir votre dossier, même après un accord transactionnel.</p>
           </div>
         </details>
       </div>
@@ -816,6 +827,10 @@
           <a href="https://www.instagram.com/humbert_avocat/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">Instagram</a>
           <a href="https://www.tiktok.com/@avocat.lexvox.handicap" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">TikTok</a>
         </div>
+        <div style="text-align: center; margin-bottom: 1rem; font-size: 0.82rem;">
+          <a href="https://www.avocats-aix.fr/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">Barreau d'Aix-en-Provence</a>
+          <a href="https://www.avocat-lexvox.com" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">avocat-lexvox.com</a>
+        </div>
         <div class="footer-bottom">
         <p>&copy; 2026 SELARL LEXVOX AVOCATS &mdash; Barreau d'Aix-en-Provence &middot; <a href="/mentions-legales">Mentions legales</a> &middot; <a href="/politique-confidentialite">Politique de confidentialite</a> &middot; <a href="/plan-du-site">Plan du site</a></p>
       </div>
@@ -825,5 +840,6 @@
   <script src="js/main.js" defer></script>
 <script src="/js/popup.js" defer></script>
 <script src="/js/chatbot.js" defer></script>
+  <script src="/js/cookies.js" defer></script>
 </body>
 </html>

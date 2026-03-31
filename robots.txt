@@ -1,6 +1,19 @@
 User-agent: *
 Allow: /
 Disallow: /cdn-cgi/
+Disallow: /scripts/
+Disallow: /articles-bruts/
+Disallow: /articles-optimises/
+Disallow: /neuronwriter-scores/
+Disallow: /newsletter/
+Disallow: /node_modules/
+Disallow: /*.py$
+Disallow: /*.sh$
+Disallow: /*.xlsx$
+Disallow: /PIPELINE*
+Disallow: /PROMPT*
+Disallow: /METHODO*
+Disallow: /SUIVI*
 
 # AI crawlers - explicitly allowed for GEO/LLMO/AEO
 User-agent: GPTBot

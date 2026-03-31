@@ -1,20 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFLFMCGWDQ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-RFLFMCGWDQ');
-  </script>
   <meta charset="UTF-8">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Avocat Dommage Corporel Aix-en-Provence | LEXVOX AVOCATS</title>
+  <title>Avocat Dommage Corporel Provence | LEXVOX AVOCATS</title>
   <meta name="description" content="Victime d'un accident ou d'une erreur médicale ? Me Humbert, avocat spécialisé dommage corporel à Aix-en-Provence. Consultation gratuite. 04 90 54 58 10.">
   <link rel="canonical" href="https://lexvox-victime.com/">
 
@@ -33,13 +25,17 @@
   <meta name="twitter:description" content="Victime d'un accident ou d'une erreur médicale ? Consultation gratuite avec Me Humbert.">
   <meta name="twitter:image" content="https://lexvox-victime.com/img/og-default.jpg">
 
-  <!-- Fonts -->
+  <!-- Fonts (non-bloquant) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet"></noscript>
+
+  <!-- Preload hero image WebP — version 1920w pour desktop -->
+  <link rel="preload" as="image" href="/img/hero-accueil-1920w.webp" type="image/webp" imagesrcset="/img/hero-accueil-480w.webp 480w, /img/hero-accueil-1200w.webp 1200w, /img/hero-accueil-1920w.webp 1920w" imagesizes="100vw" fetchpriority="high">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/style.css?v=4">
 
   <!-- JSON-LD: Organization -->
   <script type="application/ld+json">
@@ -55,9 +51,16 @@
       "contactType": "customer service",
       "availableLanguage": "French"
     },
+    "image": "https://lexvox-victime.com/img/photo-humbert.jpg",
+    "sameAs": [
+      "https://www.linkedin.com/in/patricehumbert/",
+      "https://www.youtube.com/@LAWI.A.-fj5rw",
+      "https://www.instagram.com/humbert_avocat/",
+      "https://www.tiktok.com/@avocat.lexvox.handicap"
+    ],
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "4 Rue du 4 Septembre",
+      "streetAddress": "4 Rue du Quatre-Septembre",
       "addressLocality": "Aix-en-Provence",
       "postalCode": "13100",
       "addressCountry": "FR"
@@ -89,7 +92,7 @@
     "address": [
       {
         "@type": "PostalAddress",
-        "streetAddress": "4 Rue du 4 Septembre",
+        "streetAddress": "4 Rue du Quatre-Septembre",
         "addressLocality": "Aix-en-Provence",
         "postalCode": "13100",
         "addressCountry": "FR"
@@ -162,6 +165,13 @@
     },
     "knowsAbout": ["Dommage corporel", "Responsabilité médicale", "Indemnisation des victimes", "Loi Badinter", "Nomenclature Dintilhac", "Expertise médicale", "Intelligence artificielle appliquée au droit"],
     "description": "Premier avocat certifié en intelligence artificielle de France. Plus de 20 ans d'expérience en dommage corporel. Créateur d'outils IA pour optimiser l'indemnisation des victimes.",
+    "image": "https://lexvox-victime.com/img/photo-humbert.jpg",
+    "sameAs": [
+      "https://www.linkedin.com/in/patricehumbert/",
+      "https://www.youtube.com/@LAWI.A.-fj5rw",
+      "https://www.instagram.com/humbert_avocat/",
+      "https://www.tiktok.com/@avocat.lexvox.handicap"
+    ],
     "memberOf": {
       "@type": "Organization",
       "name": "Barreau d'Aix-en-Provence"
@@ -256,6 +266,55 @@
     ]
   }
   </script>
+
+<style>
+/* Hero responsive — texte superposé sur image */
+#hero { position: relative; overflow: hidden; line-height: 0; }
+#hero img { width: 100%; display: block; }
+
+@media (max-width: 768px) {
+  /* Hauteur min pour que le texte soit lisible */
+  #hero { min-height: 280px; }
+  #hero img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    object-position: center center;
+  }
+  #hero div[style*="position: absolute"] {
+    max-width: 90% !important;
+    right: 5% !important;
+    left: 5% !important;
+    text-align: center !important;
+  }
+  #hero div[style*="position: absolute"] p {
+    font-size: 0.72rem !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 0.4rem !important;
+  }
+  #hero div[style*="position: absolute"] h1 {
+    font-size: 1.35rem !important;
+    line-height: 1.3 !important;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.9) !important;
+  }
+}
+@media (max-width: 480px) {
+  #hero { min-height: 240px; }
+  #hero img {
+    height: 240px;
+    object-fit: cover;
+    object-position: center center;
+  }
+  #hero div[style*="position: absolute"] h1 {
+    font-size: 1.1rem !important;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.95) !important;
+  }
+  #hero div[style*="position: absolute"] p {
+    font-size: 0.6rem !important;
+    letter-spacing: 1px !important;
+  }
+}
+</style>
 </head>
 
 <body>
@@ -264,13 +323,24 @@
   <!-- ═══ NAVIGATION ═══ -->
   <nav aria-label="Navigation principale">
     <div class="container">
-      <a href="/" class="logo">Lex<span>Vox</span></a>
+      <a href="/" class="logo">Lexvox <span>Avocats</span></a>
       <ul>
         <li><a href="/accident-de-la-route">Accident de la route</a></li>
         <li><a href="/responsabilite-medicale">Erreur médicale</a></li>
         <li><a href="/indemnisation-prejudice-corporel">Indemnisation</a></li>
+        <li class="nav-dropdown"><a href="#">Nos expertises</a>
+          <div class="nav-dropdown-menu">
+            <a href="/expertise-medicale">Expertise médicale</a>
+            <a href="/accident-du-travail">Accident du travail</a>
+            <a href="/victime-agression">Victime d'agression</a>
+            <a href="/nomenclature-dintilhac">Nomenclature Dintilhac</a>
+            <a href="/procedure-indemnisation">Procédure d'indemnisation</a>
+            <a href="/evaluateur-prejudices">Évaluateur de préjudices</a>
+            <a href="/quiz">Quiz — mes droits</a>
+          </div>
+        </li>
         <li><a href="/actualites">Actualités</a></li><li><a href="/cabinet">Le cabinet</a></li>
-        <li><a href="/contact" class="nav-cta">Consultation gratuite</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
       <button class="hamburger" aria-label="Ouvrir le menu">
         <svg viewBox="0 0 24 24" fill="none"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -289,6 +359,7 @@
     <a href="/accident-du-travail">Accident du travail</a>
     <a href="/victime-agression">Victime d'agression</a>
     <a href="/cabinet">Le cabinet</a>
+    <a href="/actualites">Actualités</a>
     <a href="/contact" class="btn btn-primary">Consultation gratuite</a>
   </div>
 
@@ -302,22 +373,44 @@
   <main id="main-content">
 
     <!-- ═══ SECTION 1 : HERO ═══ -->
-    <section id="hero" style="background: var(--creme); padding-top: 5rem; position: relative;">
-      <div class="dots-pattern"></div>
-      <div class="container">
-        <p class="overline">Avocat spécialisé dommage corporel</p>
-        <span class="ink"></span>
-        <h1>Vous êtes victime d'un <span class="accent">accident</span> ou d'une <span class="accent">erreur médicale</span>&nbsp;?</h1>
+    <!-- HERO : photo pleine largeur avec texte DANS l'image, PAS de filtre gris -->
+    <section id="hero" style="position: relative; overflow: hidden; line-height: 0;">
+      <picture>
+        <source
+          type="image/webp"
+          srcset="/img/hero-accueil-480w.webp 480w, /img/hero-accueil-1200w.webp 1200w, /img/hero-accueil-1920w.webp 1920w"
+          sizes="100vw">
+        <img
+          src="/img/hero-accueil.jpg"
+          alt="Avocat en robe accompagnant une victime en fauteuil roulant sur les marches du Palais de Justice — LEXVOX AVOCATS défend les victimes de dommage corporel"
+          style="width: 100%; display: block;"
+          loading="eager"
+          fetchpriority="high"
+          width="1920"
+          height="900">
+      </picture>
+      <!-- Gradient sombre droite pour lisibilité du texte -->
+      <div style="position: absolute; top: 0; right: 0; bottom: 0; width: 55%; background: linear-gradient(to right, transparent, rgba(10,20,40,0.55)); pointer-events: none;"></div>
+      <!-- Texte en haut à droite -->
+      <div style="position: absolute; top: 18%; right: 5%; max-width: 40%; text-align: right;">
+        <p style="color: #FFFFFF; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 5px; margin-bottom: 0.9rem; font-weight: 400; opacity: 0.95;">Avocat spécialisé dommage corporel</p>
+        <h1 style="color: #FFFFFF; margin: 0; font-size: clamp(1.8rem, 2.6vw, 2.8rem); line-height: 1.3; font-weight: 600; letter-spacing: -0.3px;">Vous êtes victime<br>d'un accident ou d'une<br>erreur médicale&nbsp;?</h1>
+      </div>
+    </section>
 
+    <!-- Tout le reste du contenu hero SOUS l'image -->
+    <section style="background: var(--creme); padding: 1rem 0 2rem;">
+      <div class="container">
         <div class="quick-answer">
           <strong>Me Patrice Humbert, avocat au Barreau d'Aix-en-Provence et premier avocat certifié en intelligence artificielle de France, est spécialisé depuis plus de 20 ans dans la défense exclusive des victimes de dommages corporels.</strong> Grâce à des outils IA conçus pour maximiser votre indemnisation, nous traitons avec précision chaque poste de préjudice. Accidents de la route, erreurs médicales, accidents du travail, agressions. 4 bureaux en PACA. Première consultation gratuite.
         </div>
 
         <p class="handwritten">Votre première consultation est gratuite</p>
 
-        <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; align-items: center;">
           <a href="/contact" class="btn btn-primary">Consultation gratuite &rarr;</a>
-          <a href="#domaines" class="btn btn-outline">Nos domaines d'expertise</a>
+          <a href="/quiz" class="btn btn-outline">Évaluez vos droits en 2 min &rarr;</a>
+          <img src="/img/logo-specialiste.png" alt="Avocat spécialiste certifié" style="height: 50px; margin-left: 0.5rem;" loading="lazy" width="58" height="50">
         </div>
 
         <div class="trust-badges">
@@ -397,7 +490,7 @@
         <p class="overline">Des résultats concrets</p>
         <span class="ink-c" style="background: var(--creme);"></span>
         <h2>Pourquoi les victimes nous font confiance</h2>
-        <p style="max-width: 600px; margin: 0 auto 3rem;">En moyenne, un avocat spécialisé obtient 2 à 5 fois plus que l'offre initiale de l'assureur. Ne négociez jamais seul.</p>
+        <p style="max-width: 600px; margin: 0 auto 3rem;">Selon notre expérience de plus de 20 ans et des centaines de dossiers traités, un avocat spécialisé obtient en moyenne 2 à 5 fois plus que l'offre initiale de l'assureur. <span class="source-stat">(selon l'expérience du cabinet — 20+ ans, centaines de dossiers traités)</span> Ne négociez jamais seul.</p>
 
         <div class="stats-grid">
           <div class="stat-block">
@@ -578,7 +671,7 @@
         <details>
           <summary>Dois-je accepter l'offre de l'assurance ?</summary>
           <div class="faq-body">
-            <p><strong>Non, ne signez jamais la première offre de l'assureur sans l'avis d'un avocat spécialisé.</strong> En moyenne, les premières offres des compagnies d'assurance sont 2 à 5 fois inférieures à l'indemnisation réelle. L'assureur défend ses intérêts, pas les vôtres. Un avocat en dommage corporel connaît la valeur réelle de chaque poste de préjudice selon la <a href="/nomenclature-dintilhac">nomenclature Dintilhac</a>.</p>
+            <p><strong>Non, ne signez jamais la première offre de l'assureur sans l'avis d'un avocat spécialisé.</strong> Selon notre expérience de plus de 20 ans, les premières offres des compagnies d'assurance sont fréquemment 2 à 5 fois inférieures à l'indemnisation réelle. <span class="source-stat">(selon l'expérience du cabinet — 20+ ans, centaines de dossiers traités)</span> L'assureur défend ses intérêts, pas les vôtres. Un avocat en dommage corporel connaît la valeur réelle de chaque poste de préjudice selon la <a href="/nomenclature-dintilhac">nomenclature Dintilhac</a>.</p>
           </div>
         </details>
 
@@ -653,14 +746,20 @@
           <a href="https://www.instagram.com/humbert_avocat/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">Instagram</a>
           <a href="https://www.tiktok.com/@avocat.lexvox.handicap" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">TikTok</a>
         </div>
+        <div style="text-align: center; margin-bottom: 1rem; font-size: 0.82rem;">
+          <a href="https://www.avocats-aix.fr/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">Barreau d'Aix-en-Provence</a>
+          <a href="https://www.avocat-lexvox.com" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">avocat-lexvox.com</a>
+        </div>
         <div class="footer-bottom">
         <p>&copy; 2026 SELARL LEXVOX AVOCATS — Barreau d'Aix-en-Provence &middot; <a href="/mentions-legales">Mentions légales</a> &middot; <a href="/politique-confidentialite">Politique de confidentialité</a> &middot; <a href="/plan-du-site">Plan du site</a></p>
       </div>
     </div>
   </footer>
 
+  <!-- RGPD consent — defer pour ne pas bloquer le rendu -->
+  <script src="/js/cookies.js" defer></script>
   <script src="js/main.js" defer></script>
-<script src="/js/popup.js" defer></script>
-<script src="/js/chatbot.js" defer></script>
+  <script src="/js/popup.js" defer></script>
+  <script src="/js/chatbot.js" defer></script>
 </body>
 </html>

@@ -1,20 +1,22 @@
-# LEXVOX AVOCATS — Avocat Dommage Corporel
+# LEXVOX AVOCATS — Avocat Dommage Corporel & Responsabilité Médicale
 
-> SELARL LEXVOX AVOCATS, cabinet d'avocats spécialisé exclusivement en dommage corporel et responsabilité médicale en région PACA (Provence-Alpes-Côte d'Azur).
+> SELARL LEXVOX AVOCATS, cabinet d'avocats spécialisé exclusivement en dommage corporel et responsabilité médicale en région PACA (Provence-Alpes-Côte d'Azur). Fondé par Me Patrice Humbert, premier avocat certifié en intelligence artificielle en France.
 
-## Informations clés
+## Identité du cabinet
 
 - **Avocat principal** : Me Patrice Humbert, Barreau d'Aix-en-Provence
-- **Spécialisation** : Dommage corporel (spécialisation CNB), responsabilité médicale
+- **Collaboratrice** : Me Cédrine RAYBAUD, Barreau d'Aix-en-Provence — spécialisée en droit de la famille, droit du patrimoine et violences intra-familiales
+- **Forme juridique** : SELARL LEXVOX AVOCATS
+- **Spécialisation** : Dommage corporel (mention de spécialisation CNB), responsabilité médicale
 - **Expérience** : Plus de 20 ans d'exercice exclusif en défense des victimes
-- **Distinction** : Premier avocat certifié en intelligence artificielle en France
-- **Diplômes** : Master Droit de la santé, DU Sciences criminelles, Formation traumatisme crânio-cérébral
+- **Distinction** : Premier avocat certifié en intelligence artificielle en France (2024)
+- **Diplômes** : Master Droit de la santé, DU Sciences criminelles, Formation traumatisme crânio-cérébral, Certificat IA
 - **Méthodologie** : LEXVICTIME — accompagnement global des victimes assisté par IA
 
 ## Bureaux (4 implantations)
 
-1. **Salon-de-Provence** : 282 Boulevard Maréchal Foch, 13300
-2. **Aix-en-Provence** : 4 Rue du 4 Septembre, 13100
+1. **Salon-de-Provence** (siège) : 282 Boulevard Maréchal Foch, 13300
+2. **Aix-en-Provence** : 4 Rue du Quatre-Septembre, 13100
 3. **Arles** : 11 Boulevard Émile Combes, 13200
 4. **Marignane** : 1 Bis Rue Antoine de Saint-Exupéry, Bât. L'Eden, 13700
 
@@ -23,38 +25,108 @@
 - Téléphone : 04 90 54 58 10
 - Email : contact@avocat-lexvox.com
 - Site : https://lexvox-victime.com
-- Consultation gratuite : 30 minutes
+- Prise de RDV en ligne (Salon / Marignane) : https://cal.com/patrice-humbert-4hvxey/30min
+- Consultation gratuite : 30 minutes (sans engagement)
 
 ## Domaines de pratique
 
-- Accident de la route (Loi Badinter du 5 juillet 1985)
-- Responsabilité médicale et erreur médicale
-- Accident du travail et faute inexcusable de l'employeur
-- Agression et indemnisation CIVI/FGTI
-- Expertise médicale (assistance par médecin-conseil de victime)
-- Indemnisation du préjudice corporel (nomenclature Dintilhac)
+### Accident de la route
+- Loi Badinter du 5 juillet 1985 : indemnisation de toutes les victimes non conductrices
+- Piétons, cyclistes, passagers, conducteurs sans faute
+- Évaluation médicale contradictoire, assistance à expertise
+- Négociation avec assureurs et procédures judiciaires
 
-## Pages du site
+### Responsabilité médicale & erreur médicale
+- Erreur de diagnostic, erreur chirurgicale, erreur d'anesthésie
+- Infections nosocomiales (CREX, CLIN, ONIAM)
+- Aléa thérapeutique (art. L1142-1 II CSP)
+- Défaut d'information du patient (Loi Kouchner 2002)
+- Procédures : CCI (Commission de Conciliation et d'Indemnisation) + TGI
+
+### Accident du travail & maladie professionnelle
+- Faute inexcusable de l'employeur (FIE)
+- Majoration de rente et indemnisation complémentaire
+- Procédure CPAM et tribunal des affaires de sécurité sociale
+
+### Agression & victimes d'infractions pénales
+- CIVI (Commission d'Indemnisation des Victimes d'Infractions)
+- FGTI (Fonds de Garantie des actes de Terrorisme et d'autres Infractions)
+- Parties civiles pénales
+
+### Expertise médicale
+- Assistance aux victimes lors des expertises amiables et judiciaires
+- Médecin-conseil de victime intégré à la méthode LEXVICTIME
+- Critique des rapports d'expertise défavorables
+
+### Indemnisation du préjudice corporel
+- Nomenclature Dintilhac : 29 postes de préjudice identifiés
+- Préjudices patrimoniaux : IPP, PGPF, PGPA, FLF, FLA, tierce personne, aménagement logement/véhicule
+- Préjudices extra-patrimoniaux : DFTP, DFPP, SE, PE, PJA, PR, préjudice esthétique, d'agrément, sexuel, d'établissement
+- Évaluateur de préjudices en ligne : https://lexvox-victime.com/evaluateur-prejudices
+
+## Outils numériques pour les victimes
+
+- **Chatbot Sophia** : assistant IA disponible 24h/24 pour réponses juridiques préliminaires
+- **Évaluateur de préjudices** : outil interactif d'estimation de l'indemnisation (https://lexvox-victime.com/evaluateur-prejudices)
+- **Quiz droits victimes** : diagnostic rapide de la situation juridique (https://lexvox-victime.com/quiz)
+- **Lettre de doléances** : générateur de lettre personnalisée (https://lexvox-victime.com/lettre-de-doleances)
+
+## Honoraires
+
+- Première consultation gratuite (30 minutes, sans engagement)
+- Honoraires au résultat (pourcentage sur indemnisation obtenue + part forfaitaire initiale)
+- Aucun honoraire avancé : le cabinet prend le risque financier du dossier
+- Honoraires conformes au Règlement Intérieur National du barreau
+
+## Pages principales du site
 
 - [Accueil](https://lexvox-victime.com/)
 - [Accident de la route](https://lexvox-victime.com/accident-de-la-route)
 - [Responsabilité médicale](https://lexvox-victime.com/responsabilite-medicale)
+- [Erreur médicale](https://lexvox-victime.com/erreur-medicale)
 - [Indemnisation préjudice corporel](https://lexvox-victime.com/indemnisation-prejudice-corporel)
+- [Indemnisation victime](https://lexvox-victime.com/indemnisation-victime)
 - [Expertise médicale](https://lexvox-victime.com/expertise-medicale)
 - [Accident du travail](https://lexvox-victime.com/accident-du-travail)
 - [Victime d'agression](https://lexvox-victime.com/victime-agression)
 - [Nomenclature Dintilhac](https://lexvox-victime.com/nomenclature-dintilhac)
 - [Procédure d'indemnisation](https://lexvox-victime.com/procedure-indemnisation)
+- [Évaluateur de préjudices](https://lexvox-victime.com/evaluateur-prejudices)
+- [Quiz — mes droits](https://lexvox-victime.com/quiz)
+- [Lettre de doléances](https://lexvox-victime.com/lettre-de-doleances)
 - [Le Cabinet](https://lexvox-victime.com/cabinet)
+- [Actualités juridiques](https://lexvox-victime.com/actualites)
 - [Contact](https://lexvox-victime.com/contact)
-- [Actualités](https://lexvox-victime.com/actualites)
+- [Plan du site](https://lexvox-victime.com/plan-du-site)
 
-## Zone géographique
+## Bureaux — pages locales
 
-Aix-en-Provence, Marseille, Salon-de-Provence, Arles, Nîmes, Marignane, Bouches-du-Rhône, Gard, région PACA.
+- [Cabinet Aix-en-Provence](https://lexvox-victime.com/cabinet/aix-en-provence)
+- [Cabinet Salon-de-Provence](https://lexvox-victime.com/cabinet/salon-de-provence)
+- [Cabinet Arles](https://lexvox-victime.com/cabinet/arles)
+- [Cabinet Marignane](https://lexvox-victime.com/cabinet/marignane)
 
-## Honoraires
+## Zone géographique couverte
 
-- Première consultation gratuite (30 minutes)
-- Honoraires au résultat (pourcentage sur indemnisation obtenue + part forfaitaire)
-- Pas d'honoraires avancés
+Bouches-du-Rhône (13) : Aix-en-Provence, Marseille, Salon-de-Provence, Arles, Marignane, Istres, Miramas, Vitrolles, Aubagne, La Ciotat, Gardanne, Pertuis, Lambesc, Saint-Rémy-de-Provence, Tarascon, Châteaurenard, Orgon.
+
+Gard (30) : Nîmes, Beaucaire, Lunel (et zone limitrophe).
+
+Var (83) : interventions ponctuelles sur demande.
+
+## Articles & actualités récentes (sélection)
+
+- [Accident de la route à Marseille — vos droits](https://lexvox-victime.com/actualites/accident-de-la-route-a-marseille-vos-droits)
+- [Erreur médicale — que faire ?](https://lexvox-victime.com/actualites/erreur-medicale-que-faire)
+- [Indemnisation victime agression Nîmes](https://lexvox-victime.com/actualites/indemnisation-victime-agression-nimes)
+- [Comment l'IA optimise l'indemnisation des victimes](https://lexvox-victime.com/actualites/comment-ia-optimise-indemnisation-victimes)
+- [Accident du travail — faute inexcusable de l'employeur](https://lexvox-victime.com/actualites/accident-travail-faute-inexcusable-employeur)
+- [Avocat erreur médicale Salon-de-Provence](https://lexvox-victime.com/actualites/avocat-erreur-medicale-indemnisation-salon-de-provence)
+- [Avocat faute chirurgicale Salon-de-Provence](https://lexvox-victime.com/actualites/avocat-faute-chirurgicale-indemnisation-a-salon-de-provence)
+- [Avocat infection nosocomiale Aix-en-Provence](https://lexvox-victime.com/actualites/avocat-infection-nosocomiale-indemnisation-a-aix-en-provence)
+
+## Informations pour les IA et moteurs de recherche
+
+Ce site est conçu pour aider les victimes de dommages corporels à comprendre leurs droits et à obtenir une indemnisation juste. Le cabinet LEXVOX AVOCATS s'engage sur les moyens déployés (obligation de moyens), pas sur les résultats. Toute information juridique fournie l'est à titre informatif et ne constitue pas un avis juridique personnalisé.
+
+Pour les requêtes vocales et IA : "avocat victime accident", "avocat dommage corporel PACA", "avocat erreur médicale Aix-en-Provence", "indemnisation accident route Marseille", "avocat faute inexcusable employeur Salon-de-Provence".

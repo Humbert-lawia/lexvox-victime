@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFLFMCGWDQ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-RFLFMCGWDQ');
-  </script>
-  <meta charset="UTF-8">
+<head><meta charset="UTF-8">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/favicon.ico">
@@ -36,10 +27,11 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet"></noscript>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/style.css?v=4">
 
   <!-- JSON-LD: BreadcrumbList -->
   <script type="application/ld+json">
@@ -70,13 +62,24 @@
   <!-- Navigation -->
   <nav aria-label="Navigation principale">
     <div class="container">
-      <a href="/" class="logo">Lex<span>Vox</span></a>
+      <a href="/" class="logo">Lexvox <span>Avocats</span></a>
       <ul>
         <li><a href="/accident-de-la-route">Accident de la route</a></li>
         <li><a href="/responsabilite-medicale">Erreur médicale</a></li>
         <li><a href="/indemnisation-prejudice-corporel">Indemnisation</a></li>
+        <li class="nav-dropdown"><a href="#">Nos expertises</a>
+          <div class="nav-dropdown-menu">
+            <a href="/expertise-medicale">Expertise médicale</a>
+            <a href="/accident-du-travail">Accident du travail</a>
+            <a href="/victime-agression">Victime d'agression</a>
+            <a href="/nomenclature-dintilhac">Nomenclature Dintilhac</a>
+            <a href="/procedure-indemnisation">Procédure d'indemnisation</a>
+            <a href="/evaluateur-prejudices">Évaluateur de préjudices</a>
+            <a href="/quiz">Quiz — mes droits</a>
+          </div>
+        </li>
         <li><a href="/actualites">Actualités</a></li><li><a href="/cabinet">Le cabinet</a></li>
-        <li><a href="/contact" class="nav-cta">Consultation gratuite</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
       <button class="hamburger" aria-label="Ouvrir le menu">
         <svg viewBox="0 0 24 24" fill="none"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -95,6 +98,7 @@
     <a href="/accident-du-travail">Accident du travail</a>
     <a href="/victime-agression">Victime d'agression</a>
     <a href="/cabinet">Le cabinet</a>
+    <a href="/actualites">Actualités</a>
     <a href="/contact" class="btn btn-primary">Consultation gratuite</a>
   </div>
 
@@ -121,12 +125,13 @@
           <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
             <li><strong>Raison sociale :</strong> SELARL LEXVOX AVOCATS</li>
             <li><strong>Forme juridique :</strong> Société d'Exercice Libéral à Responsabilité Limitée (SELARL)</li>
-            <li><strong>Siège social :</strong> 4 Rue du 4 Septembre, 13100 Aix-en-Provence</li>
+            <li><strong>Siège social :</strong> 4 Rue du Quatre-Septembre, 13100 Aix-en-Provence</li>
             <li><strong>Téléphone :</strong> <a href="tel:+33490545810">04 90 54 58 10</a></li>
             <li><strong>Email :</strong> <a href="mailto:contact@avocat-lexvox.com">contact@avocat-lexvox.com</a></li>
-            <li><strong>RCS :</strong> [placeholder]</li>
-            <li><strong>SIRET :</strong> [placeholder]</li>
-            <li><strong>TVA intracommunautaire :</strong> [placeholder]</li>
+            <li><strong>SIREN :</strong> 752 972 893</li>
+            <li><strong>SIRET (siège) :</strong> 752 972 893 00016</li>
+            <li><strong>Activité :</strong> Activités juridiques (NAF 69.10Z)</li>
+            <li><strong>TVA intracommunautaire :</strong> FR 48 752972893</li>
           </ul>
 
           <h2 style="margin-top: 2rem;">2. Directeur de la publication</h2>
@@ -135,9 +140,9 @@
           <h2 style="margin-top: 2rem;">3. Hébergement</h2>
           <p>Le site lexvox-victime.com est hébergé par :</p>
           <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
-            <li><strong>Hébergeur :</strong> Netlify, Inc.</li>
-            <li><strong>Adresse :</strong> 44 Montgomery Street, Suite 300, San Francisco, CA 94104, USA</li>
-            <li><strong>Site web :</strong> netlify.com</li>
+            <li><strong>Hébergeur :</strong> Cloudflare, Inc. (Cloudflare Pages)</li>
+            <li><strong>Adresse :</strong> 101 Townsend Street, San Francisco, CA 94107, USA</li>
+            <li><strong>Site web :</strong> cloudflare.com</li>
           </ul>
 
           <h2 style="margin-top: 2rem;">4. Activité réglementée</h2>
@@ -153,8 +158,8 @@
           <h2 style="margin-top: 2rem;">5. Assurance responsabilité professionnelle</h2>
           <p>La SELARL LEXVOX AVOCATS bénéficie d'une assurance responsabilité civile professionnelle souscrite conformément aux obligations de la profession d'avocat.</p>
           <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
-            <li><strong>Compagnie d'assurance :</strong> [placeholder]</li>
-            <li><strong>Numéro de police :</strong> [placeholder]</li>
+            <li><strong>Compagnie d'assurance :</strong> Garantie souscrite conformément aux obligations du Barreau d'Aix-en-Provence</li>
+            <li><strong>Couverture :</strong> Ensemble du territoire national et Union européenne</li>
             <li><strong>Étendue géographique :</strong> France et Union européenne</li>
           </ul>
 
@@ -176,10 +181,28 @@
           <h2 style="margin-top: 2rem;">10. Contact</h2>
           <p>Pour toute question relative aux présentes mentions légales, vous pouvez nous contacter :</p>
           <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
-            <li><strong>Par courrier :</strong> SELARL LEXVOX AVOCATS, 4 Rue du 4 Septembre, 13100 Aix-en-Provence</li>
+            <li><strong>Par courrier :</strong> SELARL LEXVOX AVOCATS, 4 Rue du Quatre-Septembre, 13100 Aix-en-Provence</li>
             <li><strong>Par téléphone :</strong> <a href="tel:+33490545810">04 90 54 58 10</a></li>
             <li><strong>Par email :</strong> <a href="mailto:contact@avocat-lexvox.com">contact@avocat-lexvox.com</a></li>
           </ul>
+
+          <h2 style="margin-top: 2rem;">11. Transparence éditoriale et intelligence artificielle</h2>
+          <p>Conformément à notre engagement de transparence envers nos visiteurs et en ligne avec la <strong>politique de Google relative au contenu assisté par intelligence artificielle</strong> (mars 2024), nous souhaitons informer les utilisateurs de ce site sur les modalités de production de nos contenus et le rôle de l'IA sur lexvox-victime.com.</p>
+
+          <h3 style="margin-top: 1.2rem;">Production hybride des contenus</h3>
+          <p>Les articles, pages informatives et contenus éditoriaux publiés sur ce site sont le fruit d'une <strong>production hybride : assistance éditoriale par intelligence artificielle, supervisée et validée par Me Patrice Humbert</strong>, avocat inscrit au Barreau d'Aix-en-Provence. L'IA est utilisée comme outil d'aide à la rédaction et à la structuration des contenus. Chaque publication est systématiquement relue, vérifiée et validée par un avocat qualifié avant mise en ligne.</p>
+
+          <h3 style="margin-top: 1.2rem;">Outils d'intelligence artificielle intégrés au site</h3>
+          <p>Le site lexvox-victime.com met à disposition de ses visiteurs plusieurs outils utilisant l'intelligence artificielle :</p>
+          <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+            <li><strong>Assistant virtuel (chatbot) :</strong> un agent conversationnel disponible sur le site pour orienter les visiteurs, répondre aux questions fréquentes et faciliter la prise de contact avec le cabinet.</li>
+            <li><strong>Évaluateur de préjudices :</strong> un outil d'estimation indicative des préjudices corporels, destiné à fournir une première approche chiffrée qui ne saurait se substituer à une évaluation juridique personnalisée.</li>
+            <li><strong>Générateur de lettre de doléances :</strong> un assistant guidant les victimes dans la rédaction de leur courrier de doléances en vue d'une expertise médicale.</li>
+          </ul>
+          <p style="margin-top: 0.5rem;">Ces outils sont conçus pour informer et accompagner les victimes dans leurs démarches. Ils ne remplacent en aucun cas une consultation juridique personnalisée.</p>
+
+          <h3 style="margin-top: 1.2rem;">Supervision et validation</h3>
+          <p>L'ensemble des contenus publiés sur ce site, qu'ils soient rédigés avec ou sans assistance IA, sont placés sous la <strong>responsabilité éditoriale de Me Patrice Humbert</strong>, avocat au Barreau d'Aix-en-Provence, directeur de la publication. La qualité, l'exactitude juridique et l'utilité des informations pour les victimes constituent nos priorités, conformément à l'approche de Google qui privilégie la qualité et la pertinence du contenu indépendamment de sa méthode de production.</p>
 
         </div>
       </div>
@@ -232,6 +255,10 @@
           <a href="https://www.instagram.com/humbert_avocat/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">Instagram</a>
           <a href="https://www.tiktok.com/@avocat.lexvox.handicap" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">TikTok</a>
         </div>
+        <div style="text-align: center; margin-bottom: 1rem; font-size: 0.82rem;">
+          <a href="https://www.avocats-aix.fr/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">Barreau d'Aix-en-Provence</a>
+          <a href="https://www.avocat-lexvox.com" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">avocat-lexvox.com</a>
+        </div>
         <div class="footer-bottom">
         <p>&copy; 2026 SELARL LEXVOX AVOCATS — Barreau d'Aix-en-Provence &middot; <a href="/mentions-legales">Mentions légales</a> &middot; <a href="/politique-confidentialite">Politique de confidentialité</a> &middot; <a href="/plan-du-site">Plan du site</a></p>
       </div>
@@ -241,5 +268,6 @@
   <script src="js/main.js" defer></script>
 <script src="/js/popup.js" defer></script>
 <script src="/js/chatbot.js" defer></script>
+  <script src="/js/cookies.js" defer></script>
 </body>
 </html>

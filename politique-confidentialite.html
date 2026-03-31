@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFLFMCGWDQ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-RFLFMCGWDQ');
-  </script>
-  <meta charset="UTF-8">
+<head><meta charset="UTF-8">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/favicon.ico">
@@ -36,10 +27,11 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet"></noscript>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/style.css?v=4">
 
   <!-- JSON-LD: BreadcrumbList -->
   <script type="application/ld+json">
@@ -70,13 +62,24 @@
   <!-- Navigation -->
   <nav aria-label="Navigation principale">
     <div class="container">
-      <a href="/" class="logo">Lex<span>Vox</span></a>
+      <a href="/" class="logo">Lexvox <span>Avocats</span></a>
       <ul>
         <li><a href="/accident-de-la-route">Accident de la route</a></li>
         <li><a href="/responsabilite-medicale">Erreur médicale</a></li>
         <li><a href="/indemnisation-prejudice-corporel">Indemnisation</a></li>
+        <li class="nav-dropdown"><a href="#">Nos expertises</a>
+          <div class="nav-dropdown-menu">
+            <a href="/expertise-medicale">Expertise médicale</a>
+            <a href="/accident-du-travail">Accident du travail</a>
+            <a href="/victime-agression">Victime d'agression</a>
+            <a href="/nomenclature-dintilhac">Nomenclature Dintilhac</a>
+            <a href="/procedure-indemnisation">Procédure d'indemnisation</a>
+            <a href="/evaluateur-prejudices">Évaluateur de préjudices</a>
+            <a href="/quiz">Quiz — mes droits</a>
+          </div>
+        </li>
         <li><a href="/actualites">Actualités</a></li><li><a href="/cabinet">Le cabinet</a></li>
-        <li><a href="/contact" class="nav-cta">Consultation gratuite</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
       <button class="hamburger" aria-label="Ouvrir le menu">
         <svg viewBox="0 0 24 24" fill="none"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -95,6 +98,7 @@
     <a href="/accident-du-travail">Accident du travail</a>
     <a href="/victime-agression">Victime d'agression</a>
     <a href="/cabinet">Le cabinet</a>
+    <a href="/actualites">Actualités</a>
     <a href="/contact" class="btn btn-primary">Consultation gratuite</a>
   </div>
 
@@ -122,7 +126,7 @@
           <p>Le responsable du traitement des données personnelles collectées sur le site lexvox-victime.com est :</p>
           <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
             <li><strong>SELARL LEXVOX AVOCATS</strong></li>
-            <li>4 Rue du 4 Septembre, 13100 Aix-en-Provence</li>
+            <li>4 Rue du Quatre-Septembre, 13100 Aix-en-Provence</li>
             <li>Téléphone : <a href="tel:+33490545810">04 90 54 58 10</a></li>
             <li>Email : <a href="mailto:contact@avocat-lexvox.com">contact@avocat-lexvox.com</a></li>
             <li>Représenté par Me Patrice Humbert, Avocat au Barreau d'Aix-en-Provence</li>
@@ -158,14 +162,15 @@
           <p>Vos données personnelles sont conservées pendant une durée de <strong>3 ans à compter du dernier contact</strong> avec le cabinet. Au-delà de cette période, vos données sont supprimées de manière sécurisée, sauf si une obligation légale ou une procédure judiciaire en cours justifie une conservation plus longue.</p>
           <p style="margin-top: 0.5rem;">Si vous devenez client du cabinet, vos données sont alors conservées conformément aux obligations professionnelles et déontologiques de l'avocat, pour une durée de 5 ans après la clôture définitive du dossier.</p>
 
-          <h2 style="margin-top: 2rem;">6. Destinataires des données</h2>
-          <p>Vos données personnelles sont destinées <strong>exclusivement au cabinet LEXVOX AVOCATS</strong> et ne sont communiquées à aucun tiers, sauf obligation légale. En particulier :</p>
+          <h2 style="margin-top: 2rem;">6. Destinataires des données et sous-traitants</h2>
+          <p>Vos données personnelles sont destinées <strong>exclusivement au cabinet LEXVOX AVOCATS</strong>. Aucune donnée n'est vendue, louée ou transmise à des partenaires commerciaux.</p>
+          <p style="margin-top: 0.5rem;">Les sous-traitants techniques suivants peuvent être amenés à traiter vos données dans le cadre de leurs services :</p>
           <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
-            <li>Aucune donnée n'est vendue ou louée à des tiers</li>
-            <li>Aucune donnée n'est transmise à des partenaires commerciaux</li>
-            <li>Aucun transfert de données en dehors de l'Union européenne n'est effectué</li>
+            <li><strong>Cloudflare, Inc.</strong> (États-Unis) — Hébergement du site (Cloudflare Pages). Cloudflare dispose de clauses contractuelles types (CCT) approuvées par la Commission européenne pour les transferts hors UE.</li>
+            <li><strong>OpenAI, Inc.</strong> (États-Unis) — Assistant conversationnel (chatbot). Les messages échangés avec le chatbot transitent par les serveurs d'OpenAI. OpenAI agit en qualité de sous-traitant avec des CCT conformes au RGPD. Aucune donnée du chatbot n'est utilisée pour entraîner les modèles.</li>
+            <li><strong>Google LLC</strong> (États-Unis) — Mesure d'audience (Google Analytics 4), sous réserve de votre consentement préalable via le bandeau cookies. Google dispose de CCT pour les transferts hors UE.</li>
           </ul>
-          <p style="margin-top: 0.5rem;">Le formulaire de contact est géré par Netlify, Inc. (hébergeur du site). Les données transitent par les serveurs de Netlify dans le cadre du traitement technique du formulaire. Netlify agit en qualité de sous-traitant et s'engage à respecter le RGPD.</p>
+          <p style="margin-top: 0.5rem;"><strong>Transferts hors Union européenne :</strong> Les sous-traitants ci-dessus sont situés aux États-Unis. Ces transferts sont encadrés par les clauses contractuelles types de la Commission européenne (décision d'exécution 2021/914) et, le cas échéant, par le cadre de protection des données UE-États-Unis (Data Privacy Framework).</p>
 
           <h2 style="margin-top: 2rem;">7. Vos droits</h2>
           <p>Conformément au RGPD et à la loi Informatique et Libertés, vous disposez des droits suivants sur vos données personnelles :</p>
@@ -178,11 +183,17 @@
             <li><strong>Droit à la limitation :</strong> demander la suspension du traitement de vos données dans certains cas</li>
             <li><strong>Droit de retirer votre consentement :</strong> retirer à tout moment le consentement donné pour le traitement de vos données</li>
           </ul>
-          <p style="margin-top: 0.5rem;">Pour exercer l'un de ces droits, vous pouvez adresser votre demande par email à <a href="mailto:contact@avocat-lexvox.com">contact@avocat-lexvox.com</a> ou par courrier à l'adresse du cabinet : SELARL LEXVOX AVOCATS, 4 Rue du 4 Septembre, 13100 Aix-en-Provence. Nous nous engageons à répondre à votre demande dans un délai d'un mois.</p>
+          <p style="margin-top: 0.5rem;">Pour exercer l'un de ces droits, vous pouvez adresser votre demande par email à <a href="mailto:contact@avocat-lexvox.com">contact@avocat-lexvox.com</a> ou par courrier à l'adresse du cabinet : SELARL LEXVOX AVOCATS, 4 Rue du Quatre-Septembre, 13100 Aix-en-Provence. Nous nous engageons à répondre à votre demande dans un délai d'un mois.</p>
 
           <h2 style="margin-top: 2rem;">8. Cookies</h2>
-          <p>Le site lexvox-victime.com <strong>n'utilise pas de cookies de tracking, de profilage ou publicitaires</strong>. Seuls des cookies strictement techniques peuvent être utilisés pour assurer le bon fonctionnement du site (cookies de session, préférences d'affichage). Ces cookies techniques ne nécessitent pas votre consentement préalable conformément à la réglementation en vigueur.</p>
-          <p style="margin-top: 0.5rem;">Aucun outil d'analyse d'audience (Google Analytics ou équivalent) n'est installé sur le site. Votre navigation n'est ni tracée, ni analysée, ni partagée avec des tiers.</p>
+          <p>Le site lexvox-victime.com utilise les catégories de cookies suivantes :</p>
+          <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+            <li><strong>Cookies strictement nécessaires</strong> (sans consentement) : préférences de consentement cookies, fonctionnement technique du site (localStorage pour le bandeau cookies et les préférences).</li>
+            <li><strong>Cookies de mesure d'audience</strong> (avec consentement) : Google Analytics 4 (identifiant G-RFLFMCGWDQ) pour la mesure d'audience et l'amélioration du site. Ces cookies ne sont déposés <strong>qu'après votre consentement explicite</strong> via le bandeau cookies affiché lors de votre première visite.</li>
+          </ul>
+          <p style="margin-top: 0.5rem;"><strong>Aucun cookie publicitaire, de profilage ou de retargeting</strong> n'est utilisé sur le site.</p>
+          <p style="margin-top: 0.5rem;">Vous pouvez à tout moment modifier votre choix en supprimant le cookie de consentement dans les paramètres de votre navigateur. Le bandeau de choix réapparaîtra automatiquement.</p>
+          <p style="margin-top: 0.5rem;"><strong>Données stockées localement (localStorage) :</strong> le site peut stocker dans votre navigateur des données relatives à vos interactions (quiz, chatbot, guide téléchargé). Ces données restent sur votre appareil et ne sont pas transmises à des tiers. Vous pouvez les supprimer à tout moment via les paramètres de votre navigateur.</p>
 
           <h2 style="margin-top: 2rem;">9. Sécurité des données</h2>
           <p>La SELARL LEXVOX AVOCATS met en place les mesures techniques et organisationnelles appropriées pour garantir la sécurité et la confidentialité de vos données personnelles, notamment :</p>
@@ -260,6 +271,10 @@
           <a href="https://www.instagram.com/humbert_avocat/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">Instagram</a>
           <a href="https://www.tiktok.com/@avocat.lexvox.handicap" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">TikTok</a>
         </div>
+        <div style="text-align: center; margin-bottom: 1rem; font-size: 0.82rem;">
+          <a href="https://www.avocats-aix.fr/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">Barreau d'Aix-en-Provence</a>
+          <a href="https://www.avocat-lexvox.com" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">avocat-lexvox.com</a>
+        </div>
         <div class="footer-bottom">
         <p>&copy; 2026 SELARL LEXVOX AVOCATS — Barreau d'Aix-en-Provence &middot; <a href="/mentions-legales">Mentions légales</a> &middot; <a href="/politique-confidentialite">Politique de confidentialité</a> &middot; <a href="/plan-du-site">Plan du site</a></p>
       </div>
@@ -269,5 +284,6 @@
   <script src="js/main.js" defer></script>
 <script src="/js/popup.js" defer></script>
 <script src="/js/chatbot.js" defer></script>
+  <script src="/js/cookies.js" defer></script>
 </body>
 </html>

@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFLFMCGWDQ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-RFLFMCGWDQ');
-  </script>
-  <meta charset="UTF-8">
+<head><meta charset="UTF-8">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/favicon.ico">
@@ -36,10 +27,11 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet"></noscript>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/style.css?v=4">
 
   <!-- JSON-LD: Article -->
   <script type="application/ld+json">
@@ -213,13 +205,24 @@
   <!-- ═══ NAVIGATION ═══ -->
   <nav aria-label="Navigation principale">
     <div class="container">
-      <a href="/" class="logo">Lex<span>Vox</span></a>
+      <a href="/" class="logo">Lexvox <span>Avocats</span></a>
       <ul>
         <li><a href="/accident-de-la-route">Accident de la route</a></li>
         <li><a href="/responsabilite-medicale">Erreur médicale</a></li>
         <li><a href="/indemnisation-prejudice-corporel">Indemnisation</a></li>
+        <li class="nav-dropdown"><a href="#">Nos expertises</a>
+          <div class="nav-dropdown-menu">
+            <a href="/expertise-medicale">Expertise médicale</a>
+            <a href="/accident-du-travail">Accident du travail</a>
+            <a href="/victime-agression">Victime d'agression</a>
+            <a href="/nomenclature-dintilhac">Nomenclature Dintilhac</a>
+            <a href="/procedure-indemnisation">Procédure d'indemnisation</a>
+            <a href="/evaluateur-prejudices">Évaluateur de préjudices</a>
+            <a href="/quiz">Quiz — mes droits</a>
+          </div>
+        </li>
         <li><a href="/actualites">Actualités</a></li><li><a href="/cabinet">Le cabinet</a></li>
-        <li><a href="/contact" class="nav-cta">Consultation gratuite</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
       <button class="hamburger" aria-label="Ouvrir le menu">
         <svg viewBox="0 0 24 24" fill="none"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -238,6 +241,7 @@
     <a href="/accident-du-travail">Accident du travail</a>
     <a href="/victime-agression">Victime d'agression</a>
     <a href="/cabinet">Le cabinet</a>
+    <a href="/actualites">Actualités</a>
     <a href="/contact" class="btn btn-primary">Consultation gratuite</a>
   </div>
 
@@ -263,6 +267,7 @@
         <p class="overline">Avocat responsabilité médicale</p>
         <span class="ink"></span>
         <h1>Erreur médicale et responsabilité médicale : vos <span class="accent">droits de victime</span></h1>
+        <img src="/img/pages/responsabilite-medicale.jpg" alt="Responsabilité médicale et erreur médicale - LEXVOX AVOCATS" loading="lazy" width="1200" height="630" style="width: 100%; max-height: 280px; object-fit: cover; border-radius: 12px; border: 3px solid var(--dark); margin: 1.5rem 0;">
         <p class="date-updated">Dernière mise à jour : mars 2026</p>
 
         <div class="quick-answer">
@@ -470,6 +475,19 @@
         </div>
 
         <p style="margin-top: 1.5rem;">Consultez notre guide complet sur la <a href="/procedure-indemnisation">procédure d'indemnisation</a> pour connaître chaque étape en détail. Consultez aussi nos <a href="/actualites">actualités juridiques</a> pour suivre les évolutions en responsabilité médicale.</p>
+
+        <div class="tool-callout">
+          <h3>Préparez votre lettre de doléances</h3>
+          <p>La lettre de doléances est un document essentiel transmis à l'expert médical avant l'expertise. Notre générateur vous guide pas à pas pour décrire l'ensemble de vos préjudices de manière structurée et complète.</p>
+          <a href="/lettre-de-doleances" class="btn btn-primary">Générer ma lettre de doléances</a>
+        </div>
+
+        <div class="tool-callout">
+          <h3>Évaluez vos préjudices</h3>
+          <p>Utilisez notre évaluateur gratuit basé sur la nomenclature Dintilhac pour obtenir une première estimation chiffrée de votre indemnisation en responsabilité médicale.</p>
+          <a href="/evaluateur-prejudices" class="btn btn-outline">Accéder à l'évaluateur</a>
+        </div>
+
       </div>
     </section>
 
@@ -602,6 +620,7 @@
           <a href="/contact" class="btn btn-light">Demander un rappel &rarr;</a>
         </div>
       </div>
+    <p style="margin-top:1rem;"><a href="/actualites/avocat-erreur-medicale-indemnisation-salon-de-provence" style="color:var(--bleu-f);font-weight:600;">→ Lire aussi : Erreur médicale et indemnisation à Salon-de-Provence</a></p>
     </section>
 
   </main>
@@ -651,6 +670,10 @@
           <a href="https://www.instagram.com/humbert_avocat/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">Instagram</a>
           <a href="https://www.tiktok.com/@avocat.lexvox.handicap" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">TikTok</a>
         </div>
+        <div style="text-align: center; margin-bottom: 1rem; font-size: 0.82rem;">
+          <a href="https://www.avocats-aix.fr/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">Barreau d'Aix-en-Provence</a>
+          <a href="https://www.avocat-lexvox.com" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">avocat-lexvox.com</a>
+        </div>
         <div class="footer-bottom">
         <p>&copy; 2026 SELARL LEXVOX AVOCATS — Barreau d'Aix-en-Provence &middot; <a href="/mentions-legales">Mentions légales</a> &middot; <a href="/politique-confidentialite">Politique de confidentialité</a> &middot; <a href="/plan-du-site">Plan du site</a></p>
       </div>
@@ -660,5 +683,6 @@
   <script src="js/main.js" defer></script>
 <script src="/js/popup.js" defer></script>
 <script src="/js/chatbot.js" defer></script>
+  <script src="/js/cookies.js" defer></script>
 </body>
 </html>
