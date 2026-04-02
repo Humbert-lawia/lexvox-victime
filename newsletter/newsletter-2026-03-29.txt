@@ -1,0 +1,67 @@
+============================================================
+LEXVOX AVOCATS — Newsletter Victimes
+Semaine du 29/03/2026
+============================================================
+
+Bonjour {{PRENOM}},
+
+Chaque semaine, nous vous informons sur vos droits en tant
+que victime. Comprendre la loi, c'est le premier pas vers
+une juste indemnisation. Voici les articles et conseils de
+la semaine.
+
+------------------------------------------------------------
+ARTICLES DE LA SEMAINE
+------------------------------------------------------------
+
+1. L'intelligence artificielle au service des victimes de dommage corporel : de la jurimétrie au juridico-prompt engineering
+
+   J'exerce depuis plus de vingt ans exclusivement en dommage corporel. Cette pratique m'a confronté, dossier après dossier, au paradoxe que Geneviève Viney identifiait dans son Traité de droit civil : le principe de réparation intégrale, fermement consacré par la Cour de cassation, se heurte à des disparités d'évaluation que la doctrine qualifie de « loterie judiciaire » (Y. Lambert-Faivre et S. Porchy-Simon, Droit du dommage corporel, Dalloz, e éd., , n° ). Quand une victime arrive dans mon cabinet avec son rapport d'expertise, elle fait face à un assureur disposant de trente juristes, de logiciels calibrés pour minimiser les offres...
+
+   Lire l'article : https://lexvox-victime.com/actualites/l-intelligence-artificielle-au-service-des-victimes-de-dommage-corporel-de-la-jurimetrie-au-juridico-prompt-engineering
+
+2. L'intelligence artificielle au service des victimes de dommage corporel : de la jurimétrie au juridico-prompt engineering
+
+   J'exerce depuis plus de vingt ans exclusivement en dommage corporel. Cette pratique m'a confronté, dossier après dossier, à un paradoxe que Geneviève Viney identifiait déjà dans son Traité de droit civil : le principe de réparation intégrale, aussi fermement consacré soit-il par la jurisprudence de la Cour de cassation, se heurte dans sa mise en œuvre à des disparités d'évaluation que la doctrine qualifie — à juste titre — de « loterie judiciaire » (Y. Lambert-Faivre et S. Porchy-Simon, Droit du dommage corporel, Dalloz, e éd., , n° ). Quand une victime de la route arrive dans mon cabinet de...
+
+   Lire l'article : https://lexvox-victime.com/actualites/l-intelligence-artificielle-au-service-des-victimes-de-dommage-corporel-de-la-jurimetrie-au-juridico-prompt-engineering
+
+3. Article a venir
+
+   Un nouvel article sera publie prochainement. Restez informe(e).
+
+   Lire l'article : https://lexvox-victime.com/actualites
+
+------------------------------------------------------------
+LE SAVIEZ-VOUS ?
+------------------------------------------------------------
+
+En cas d'accident de la route, vous disposez d'un delai de 10 ans pour agir en indemnisation (article 2226 du Code civil). Mais plus vous attendez, plus les preuves s'alterent. N'attendez pas pour consulter un avocat specialise.
+
+------------------------------------------------------------
+EVALUEZ VOS DROITS
+------------------------------------------------------------
+
+Faire le quiz :
+https://lexvox-victime.com/quiz.html
+
+Evaluateur de prejudices :
+https://lexvox-victime.com/evaluateur-prejudices.html
+
+============================================================
+CONSULTATION GRATUITE — 04 90 54 58 10
+============================================================
+
+---
+
+SELARL LEXVOX AVOCATS
+4 Rue Petite Calade, 84000 Avignon
+Tel. : 04 90 54 58 10
+Email : contact@avocat-lexvox.com
+Web : https://lexvox-victime.com
+
+Vous recevez cet email car vous etes abonne(e) a notre
+newsletter hebdomadaire. Conformement au RGPD, vous pouvez
+vous desinscrire a tout moment.
+
+Se desinscrire : {{UNSUBSCRIBE_URL}}

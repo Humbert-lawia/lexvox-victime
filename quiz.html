@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Gratuit : Évaluez Vos Droits | LEXVOX</title>
+  <meta name="description" content="Quiz gratuit et confidentiel. Évaluez vos droits après un accident en 2 minutes. Réponse personnalisée par Me Humbert, avocat dommage corporel.">
+  <link rel="canonical" href="https://lexvox-victime.com/quiz">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Quiz Gratuit : Évaluez Vos Droits en 2 Minutes | LEXVOX AVOCATS">
+  <meta property="og:description" content="Quiz gratuit et confidentiel. Évaluez vos droits après un accident en 2 minutes. Réponse personnalisée.">
+  <meta property="og:image" content="https://lexvox-victime.com/img/og-default.jpg">
+  <meta property="og:url" content="https://lexvox-victime.com/quiz">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="LEXVOX AVOCATS — Dommage Corporel">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Quiz Gratuit : Évaluez Vos Droits en 2 Minutes | LEXVOX AVOCATS">
+  <meta name="twitter:description" content="Quiz gratuit et confidentiel. Évaluez vos droits après un accident en 2 minutes.">
+  <meta name="twitter:image" content="https://lexvox-victime.com/img/og-default.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet"></noscript>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css?v=4">
+
+  <!-- JSON-LD: Quiz -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Quiz Évaluation des Droits — LEXVOX AVOCATS",
+    "description": "Quiz gratuit et confidentiel pour évaluer vos droits après un accident corporel en 2 minutes.",
+    "url": "https://lexvox-victime.com/quiz",
+    "applicationCategory": "LegalService",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR"
+    },
+    "author": {
+      "@type": "Attorney",
+      "name": "Patrice Humbert",
+      "honorificPrefix": "Me",
+      "jobTitle": "Avocat spécialisé en dommage corporel"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SELARL LEXVOX AVOCATS",
+      "url": "https://lexvox-victime.com"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://lexvox-victime.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Quiz : Évaluez vos droits", "item": "https://lexvox-victime.com/quiz"}
+    ]
+  }
+  </script>
+
+  <style>
+    /* ═══ QUIZ-SPECIFIC STYLES ═══ */
+
+    .quiz-progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: var(--gris-c);
+      z-index: 9999;
+    }
+    .quiz-progress-bar {
+      height: 100%;
+      background: var(--bleu);
+      transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+      width: 0%;
+    }
+
+    .quiz-container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      min-height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .quiz-step {
+      display: none;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+    }
+    .quiz-step.active {
+      display: block;
+    }
+    .quiz-step.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .quiz-step-number {
+      font-family: 'Caveat', cursive;
+      font-size: 1.1rem;
+      color: var(--bleu-f);
+      margin-bottom: 0.5rem;
+    }
+
+    .quiz-question {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 1.6rem;
+      color: var(--dark);
+      line-height: 1.35;
+      margin-bottom: 1.8rem;
+      border-left: 4px solid var(--or);
+      padding-left: 1rem;
+    }
+
+    .quiz-options {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .quiz-option {
+      display: block;
+      width: 100%;
+      padding: 1.1rem 1.4rem;
+      background: #fff;
+      border: 2px solid var(--dark);
+      border-radius: var(--r);
+      font-family: Calibri, 'Gill Sans', sans-serif;
+      font-size: 1.05rem;
+      color: var(--dark);
+      cursor: pointer;
+      text-align: left;
+      transition: all 0.2s ease;
+      box-shadow: 3px 3px 0 var(--dark);
+      position: relative;
+    }
+    .quiz-option:hover {
+      background: var(--bleu-p);
+      border-color: var(--bleu-f);
+      box-shadow: 3px 3px 0 var(--bleu-f);
+      transform: translateY(-1px);
+    }
+    .quiz-option.selected {
+      background: var(--bleu-p);
+      border-color: var(--bleu);
+      box-shadow: 3px 3px 0 var(--bleu);
+    }
+
+    .quiz-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-top: 1.5rem;
+      background: none;
+      border: none;
+      color: var(--gris);
+      font-size: 0.9rem;
+      cursor: pointer;
+      font-family: Calibri, 'Gill Sans', sans-serif;
+      transition: color 0.2s;
+    }
+    .quiz-back:hover {
+      color: var(--dark);
+    }
+
+    /* Gate form */
+    .quiz-gate-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .quiz-gate-form label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--dark);
+      margin-bottom: 0.2rem;
+      display: block;
+    }
+    .quiz-gate-form input {
+      width: 100%;
+      padding: 0.9rem 1rem;
+      border: 2px solid var(--dark);
+      border-radius: var(--r);
+      font-size: 1rem;
+      font-family: Calibri, 'Gill Sans', sans-serif;
+      background: #fff;
+      box-shadow: 3px 3px 0 var(--dark);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .quiz-gate-form input:focus {
+      outline: none;
+      border-color: var(--bleu);
+      box-shadow: 3px 3px 0 var(--bleu);
+    }
+    .quiz-gate-form input.error {
+      border-color: var(--negatif);
+      box-shadow: 3px 3px 0 var(--negatif);
+    }
+    .quiz-gate-form .error-msg {
+      color: var(--negatif);
+      font-size: 0.8rem;
+      margin-top: 0.2rem;
+      display: none;
+    }
+
+    .quiz-submit-btn {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background: var(--bleu);
+      color: #fff;
+      border: 2px solid var(--dark);
+      border-radius: var(--r);
+      font-size: 1.1rem;
+      font-weight: 600;
+      font-family: Calibri, 'Gill Sans', sans-serif;
+      cursor: pointer;
+      box-shadow: 3px 3px 0 var(--dark);
+      transition: all 0.2s;
+      text-align: center;
+      margin-top: 0.5rem;
+    }
+    .quiz-submit-btn:hover {
+      background: var(--bleu-f);
+      transform: translateY(-1px);
+    }
+
+    .quiz-privacy-note {
+      font-size: 0.78rem;
+      color: var(--gris);
+      margin-top: 0.8rem;
+      line-height: 1.4;
+    }
+
+    /* Results */
+    .quiz-results {
+      display: none;
+    }
+    .quiz-results.active {
+      display: block;
+    }
+    .quiz-results.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .result-card {
+      background: #fff;
+      border: 2px solid var(--dark);
+      border-radius: var(--r);
+      padding: 2rem;
+      box-shadow: 4px 4px 0 var(--dark);
+      margin-bottom: 1.5rem;
+    }
+
+    .result-level {
+      display: inline-block;
+      padding: 0.4rem 1rem;
+      border-radius: 20px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+    .result-level.high {
+      background: var(--bleu);
+      color: #fff;
+    }
+    .result-level.medium {
+      background: var(--or);
+      color: var(--dark);
+    }
+    .result-level.low {
+      background: var(--gris-c);
+      color: var(--dark);
+    }
+
+    .result-title {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 1.4rem;
+      color: var(--dark);
+      margin-bottom: 1rem;
+      line-height: 1.35;
+    }
+
+    .result-range {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 1.8rem;
+      color: var(--bleu-f);
+      font-weight: 700;
+      margin: 1rem 0;
+      padding: 1rem;
+      background: var(--bleu-p);
+      border-radius: var(--r);
+      text-align: center;
+      border: 2px solid var(--bleu-c);
+    }
+
+    .result-detail {
+      margin-bottom: 0.8rem;
+      padding: 0.8rem 1rem;
+      background: var(--creme);
+      border-radius: 8px;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    .result-detail strong {
+      color: var(--dark);
+    }
+
+    .result-recommendation {
+      margin-top: 1.5rem;
+      padding: 1.2rem;
+      background: var(--or);
+      background: linear-gradient(135deg, var(--or-c) 0%, var(--or) 100%);
+      border-radius: var(--r);
+      border: 2px solid var(--dark);
+    }
+    .result-recommendation h3 {
+      font-family: Georgia, 'Times New Roman', serif;
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+    }
+    .result-recommendation p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .result-cta-area {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .result-cta-area .btn {
+      font-size: 1.1rem;
+      padding: 1rem 2rem;
+    }
+    .result-cta-area .btn-phone {
+      margin-right: 0.5rem;
+    }
+
+    .result-disclaimer {
+      font-size: 0.75rem;
+      color: var(--gris);
+      margin-top: 1.5rem;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .quiz-question {
+        font-size: 1.25rem;
+      }
+      .quiz-option {
+        padding: 0.9rem 1rem;
+        font-size: 0.95rem;
+      }
+      .result-range {
+        font-size: 1.3rem;
+      }
+      .result-cta-area .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 0.8rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+  <!-- ═══ PROGRESS BAR ═══ -->
+  <div class="quiz-progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+    <div class="quiz-progress-bar" id="progressBar"></div>
+  </div>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav aria-label="Navigation principale">
+    <div class="container">
+      <a href="/" class="logo">Lexvox <span>Avocats</span></a>
+      <ul>
+        <li><a href="/accident-de-la-route">Accident de la route</a></li>
+        <li><a href="/responsabilite-medicale">Erreur médicale</a></li>
+        <li><a href="/indemnisation-prejudice-corporel">Indemnisation</a></li>
+        <li class="nav-dropdown"><a href="#">Nos expertises</a>
+          <div class="nav-dropdown-menu">
+            <a href="/expertise-medicale">Expertise médicale</a>
+            <a href="/accident-du-travail">Accident du travail</a>
+            <a href="/victime-agression">Victime d'agression</a>
+            <a href="/nomenclature-dintilhac">Nomenclature Dintilhac</a>
+            <a href="/procedure-indemnisation">Procédure d'indemnisation</a>
+            <a href="/evaluateur-prejudices">Évaluateur de préjudices</a>
+            <a href="/quiz">Quiz — mes droits</a>
+          </div>
+        </li>
+        <li><a href="/actualites">Actualités</a></li><li><a href="/cabinet">Le cabinet</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Ouvrir le menu">
+        <svg viewBox="0 0 24 24" fill="none"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" aria-label="Menu mobile">
+    <button class="close-menu" aria-label="Fermer le menu">&times;</button>
+    <a href="/">Accueil</a>
+    <a href="/accident-de-la-route">Accident de la route</a>
+    <a href="/responsabilite-medicale">Erreur médicale</a>
+    <a href="/indemnisation-prejudice-corporel">Indemnisation</a>
+    <a href="/expertise-medicale">Expertise médicale</a>
+    <a href="/accident-du-travail">Accident du travail</a>
+    <a href="/victime-agression">Victime d'agression</a>
+    <a href="/cabinet">Le cabinet</a>
+    <a href="/actualites">Actualités</a>
+    <a href="/contact" class="btn btn-primary">Consultation gratuite</a>
+  </div>
+
+  <!-- Reassurance bar -->
+  <div class="reassurance-bar" role="banner">
+    <span><strong>Quiz gratuit</strong> — 2 minutes</span>
+    <span><a href="tel:+33490545810">04 90 54 58 10</a></span>
+    <span><strong>100% confidentiel</strong></span>
+  </div>
+
+  <main id="main-content">
+
+    <!-- ═══ HERO INTRO ═══ -->
+    <section id="hero" style="background: var(--creme); padding-top: 4rem; padding-bottom: 0; position: relative;">
+      <div class="dots-pattern"></div>
+      <div class="container">
+        <nav aria-label="Fil d'Ariane" style="margin-bottom: 1.5rem; font-size: 0.85rem;">
+          <a href="/" style="color: var(--bleu-marine); text-decoration: underline;">Accueil</a>
+          <span style="margin: 0 0.4rem;">/</span>
+          <span style="color: var(--gris-texte);">Quiz : Évaluez vos droits</span>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ═══ QUIZ SECTION ═══ -->
+    <section style="background: var(--creme); padding-top: 0;">
+      <div class="quiz-container" id="quizContainer">
+
+        <!-- STEP 1 -->
+        <div class="quiz-step active" data-step="1">
+          <div class="quiz-step-number">Question 1 / 9</div>
+          <h1 class="quiz-question">Quel type d'accident avez-vous subi ?</h1>
+          <div class="quiz-options">
+            <button class="quiz-option" data-key="type" data-value="route" data-score="3">Accident de la route</button>
+            <button class="quiz-option" data-key="type" data-value="medical" data-score="4">Erreur médicale / accident médical</button>
+            <button class="quiz-option" data-key="type" data-value="travail" data-score="3">Accident du travail</button>
+            <button class="quiz-option" data-key="type" data-value="agression" data-score="3">Agression / violence</button>
+            <button class="quiz-option" data-key="type" data-value="vie" data-score="2">Accident de la vie (domestique, sport)</button>
+            <button class="quiz-option" data-key="type" data-value="autre" data-score="1">Autre</button>
+          </div>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="quiz-step" data-step="2">
+          <div class="quiz-step-number">Question 2 / 9</div>
+          <h2 class="quiz-question">Quand l'accident s'est-il produit ?</h2>
+          <div class="quiz-options">
+            <button class="quiz-option" data-key="delai" data-value="6mois" data-score="4">Moins de 6 mois</button>
+            <button class="quiz-option" data-key="delai" data-value="6m-2a" data-score="3">6 mois à 2 ans</button>
+            <button class="quiz-option" data-key="delai" data-value="2-5a" data-score="2">2 à 5 ans</button>
+            <button class="quiz-option" data-key="delai" data-value="5a+" data-score="1">Plus de 5 ans</button>
+          </div>
+          <button class="quiz-back" onclick="goBack()">&larr; Retour</button>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="quiz-step" data-step="3">
+          <div class="quiz-step-number">Question 3 / 9</div>
+          <h2 class="quiz-question">Avez-vous été hospitalisé(e) ?</h2>
+          <div class="quiz-options">
+            <button class="quiz-option" data-key="hopital" data-value="semaine+" data-score="4">Oui, plus d'une semaine</button>
+            <button class="quiz-option" data-key="hopital" data-value="semaine-" data-score="3">Oui, moins d'une semaine</button>
+            <button class="quiz-option" data-key="hopital" data-value="soins" data-score="2">Non, mais j'ai eu des soins</button>
+            <button class="quiz-option" data-key="hopital" data-value="non" data-score="1">Non</button>
+          </div>
+          <button class="quiz-back" onclick="goBack()">&larr; Retour</button>
+        </div>
+
+        <!-- STEP 4 -->
+        <div class="quiz-step" data-step="4">
+          <div class="quiz-step-number">Question 4 / 9</div>
+          <h2 class="quiz-question">Avez-vous des séquelles permanentes ?</h2>
+          <div class="quiz-options">
+            <button class="quiz-option" data-key="sequelles" data-value="importantes" data-score="5">Oui, importantes (handicap, douleurs chroniques)</button>
+            <button class="quiz-option" data-key="sequelles" data-value="moderees" data-score="3">Oui, modérées (gêne quotidienne)</button>
+            <button class="quiz-option" data-key="sequelles" data-value="legeres" data-score="2">Oui, légères (cicatrices, gêne occasionnelle)</button>
+            <button class="quiz-option" data-key="sequelles" data-value="non" data-score="1">Non / Pas encore évalué</button>
+          </div>
+          <button class="quiz-back" onclick="goBack()">&larr; Retour</button>
+        </div>
+
+        <!-- STEP 5 -->
+        <div class="quiz-step" data-step="5">
+          <div class="quiz-step-number">Question 5 / 9</div>
+          <h2 class="quiz-question">Avez-vous arrêté de travailler suite à l'accident ?</h2>
+          <div class="quiz-options">
+            <button class="quiz-option" data-key="arret" data-value="6mois+" data-score="4">Oui, arrêt de plus de 6 mois</button>
+            <button class="quiz-option" data-key="arret" data-value="1-6mois" data-score="3">Oui, arrêt de 1 à 6 mois</button>
+            <button class="quiz-option" data-key="arret" data-value="1mois-" data-score="2">Oui, arrêt de moins d'un mois</button>
+            <button class="quiz-option" data-key="arret" data-value="non" data-score="1">Non</button>
+          </div>
+          <button class="quiz-back" onclick="goBack()">&larr; Retour</button>
+        </div>
+
+        <!-- STEP 6 -->
+        <div class="quiz-step" data-step="6">
+          <div class="quiz-step-number">Question 6 / 9</div>
+          <h2 class="quiz-question">Avez-vous besoin d'aide au quotidien ?</h2>
+          <div class="quiz-options">
+            <button class="quiz-option" data-key="aide" data-value="permanente" data-score="5">Oui, aide permanente (tierce personne)</button>
+            <button class="quiz-option" data-key="aide" data-value="ponctuelle" data-score="3">Oui, aide ponctuelle</button>
+            <button class="quiz-option" data-key="aide" data-value="non" data-score="1">Non</button>
+          </div>
+          <button class="quiz-back" onclick="goBack()">&larr; Retour</button>
+        </div>
+
+        <!-- STEP 7 -->
+        <div class="quiz-step" data-step="7">
+          <div class="quiz-step-number">Question 7 / 9</div>
+          <h2 class="quiz-question">Avez-vous déjà reçu une offre d'indemnisation ?</h2>
+          <div class="quiz-options">
+            <button class="quiz-option" data-key="offre" data-value="oui" data-score="4">Oui, de l'assureur</button>
+            <button class="quiz-option" data-key="offre" data-value="non" data-score="2">Non, pas encore</button>
+            <button class="quiz-option" data-key="offre" data-value="nsp" data-score="2">Je ne sais pas</button>
+          </div>
+          <button class="quiz-back" onclick="goBack()">&larr; Retour</button>
+        </div>
+
+        <!-- STEP 8 -->
+        <div class="quiz-step" data-step="8">
+          <div class="quiz-step-number">Question 8 / 9</div>
+          <h2 class="quiz-question">Êtes-vous assisté(e) par un avocat ?</h2>
+          <div class="quiz-options">
+            <button class="quiz-option" data-key="avocat" data-value="oui" data-score="1">Oui</button>
+            <button class="quiz-option" data-key="avocat" data-value="cherche" data-score="3">Non, je cherche un avocat</button>
+            <button class="quiz-option" data-key="avocat" data-value="seul" data-score="4">Non, je me débrouille seul(e)</button>
+          </div>
+          <button class="quiz-back" onclick="goBack()">&larr; Retour</button>
+        </div>
+
+        <!-- STEP 9 -->
+        <div class="quiz-step" data-step="9">
+          <div class="quiz-step-number">Question 9 / 9</div>
+          <h2 class="quiz-question">Où habitez-vous ?</h2>
+          <div class="quiz-options">
+            <button class="quiz-option" data-key="localite" data-value="salon" data-score="0">Salon-de-Provence et environs</button>
+            <button class="quiz-option" data-key="localite" data-value="aix" data-score="0">Aix-en-Provence et environs</button>
+            <button class="quiz-option" data-key="localite" data-value="arles" data-score="0">Arles et environs</button>
+            <button class="quiz-option" data-key="localite" data-value="marignane" data-score="0">Marignane et environs</button>
+            <button class="quiz-option" data-key="localite" data-value="marseille" data-score="0">Marseille et environs</button>
+            <button class="quiz-option" data-key="localite" data-value="nimes" data-score="0">Nîmes et environs</button>
+            <button class="quiz-option" data-key="localite" data-value="autre" data-score="0">Autre</button>
+          </div>
+          <button class="quiz-back" onclick="goBack()">&larr; Retour</button>
+        </div>
+
+        <!-- STEP 10 — GATE -->
+        <div class="quiz-step" data-step="10">
+          <div class="quiz-step-number">Dernière étape</div>
+          <h2 class="quiz-question">Pour recevoir votre évaluation personnalisée :</h2>
+          <p style="color: var(--gris); font-size: 0.9rem; margin-bottom: 0.5rem;">Vos données sont strictement confidentielles et ne seront jamais partagées.</p>
+          <form class="quiz-gate-form" id="gateForm" onsubmit="return submitGate(event)">
+            <div>
+              <label for="gate-prenom">Prénom *</label>
+              <input type="text" id="gate-prenom" name="prenom" placeholder="Votre prénom" required autocomplete="given-name">
+              <div class="error-msg" id="err-prenom">Veuillez renseigner votre prénom</div>
+            </div>
+            <div>
+              <label for="gate-email">Email *</label>
+              <input type="email" id="gate-email" name="email" placeholder="votre.email@exemple.com" required autocomplete="email">
+              <div class="error-msg" id="err-email">Veuillez renseigner un email valide</div>
+            </div>
+            <div style="margin-top: 1rem;">
+              <label style="display: flex; align-items: flex-start; gap: 0.5rem; cursor: pointer; font-size: 0.85rem; line-height: 1.4;">
+                <input type="checkbox" id="gate-rgpd" name="rgpd_consent" required style="margin-top: 3px; min-width: 18px; min-height: 18px;">
+                <span>J'accepte de recevoir mon évaluation personnalisée et des informations utiles aux victimes par email. Mes données sont traitées conformément au <a href="/politique-confidentialite" target="_blank">RGPD</a>. Je peux me désinscrire à tout moment.</span>
+              </label>
+              <div class="error-msg" id="err-rgpd" style="display:none;">Veuillez accepter pour continuer</div>
+            </div>
+            <button type="submit" class="quiz-submit-btn">Voir mon évaluation &rarr;</button>
+          </form>
+          <p class="quiz-privacy-note" style="font-size: 0.78rem; color: var(--gris); margin-top: 0.8rem;">SELARL LEXVOX AVOCATS — Responsable de traitement. Vos données sont utilisées uniquement pour vous adresser votre évaluation et des informations juridiques. Aucune cession à des tiers. <a href="/politique-confidentialite">Politique de confidentialité</a>.</p>
+          <button class="quiz-back" onclick="goBack()">&larr; Retour</button>
+        </div>
+
+        <!-- RESULTS -->
+        <div class="quiz-results" id="quizResults">
+          <div style="text-align: center; margin-bottom: 2rem;">
+            <div class="quiz-step-number">Résultat de votre évaluation</div>
+            <h2 style="font-family: Georgia, 'Times New Roman', serif; font-size: 1.6rem; color: var(--dark); margin-top: 0.5rem;">
+              <span id="resultPrenom"></span>, voici votre évaluation
+            </h2>
+          </div>
+
+          <div class="result-card">
+            <div class="result-level" id="resultLevel"></div>
+            <div class="result-title" id="resultTitle"></div>
+
+            <div class="result-range" id="resultRange"></div>
+
+            <div id="resultDetails"></div>
+
+            <div class="result-recommendation">
+              <h3 id="recoTitle"></h3>
+              <p id="recoText"></p>
+            </div>
+          </div>
+
+          <div class="result-cta-area">
+            <p style="font-size: 1.1rem; margin-bottom: 1rem; color: var(--dark);"><strong>Consultation gratuite avec Me Humbert</strong></p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+              <a href="tel:+33490545810" class="btn btn-phone">04 90 54 58 10</a>
+              <a href="https://consultation.avocat.fr" class="btn btn-primary" target="_blank" rel="noopener">Prendre rendez-vous &rarr;</a>
+            </div>
+          </div>
+
+          <p class="result-disclaimer">
+            Cette évaluation est fournie à titre purement indicatif et ne constitue ni un avis juridique ni une promesse de résultat. Chaque dossier est unique. Seule une consultation avec Me Humbert permettra d'évaluer précisément vos droits. Obligation de moyens, non de résultat.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>SELARL LEXVOX AVOCATS</h4>
+          <p>Cabinet d'avocats spécialisé dans la défense exclusive des victimes de dommages corporels et de responsabilité médicale.</p>
+          <p style="margin-top: 0.5rem;">
+            <strong style="color: var(--creme);">Tél :</strong> <a href="tel:+33490545810">04 90 54 58 10</a><br>
+            <strong style="color: var(--creme);">Email :</strong> <a href="mailto:contact@avocat-lexvox.com">contact@avocat-lexvox.com</a>
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Domaines</h4>
+          <ul>
+            <li><a href="/accident-de-la-route">Accident de la route</a></li>
+            <li><a href="/responsabilite-medicale">Erreur médicale</a></li>
+            <li><a href="/accident-du-travail">Accident du travail</a></li>
+            <li><a href="/victime-agression">Victime d'agression</a></li>
+            <li><a href="/indemnisation-prejudice-corporel">Indemnisation</a></li>
+            <li><a href="/nomenclature-dintilhac">Nomenclature Dintilhac</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Le cabinet</h4>
+          <ul>
+            <li><a href="/cabinet">Présentation</a></li>
+            <li><a href="/expertise-medicale">Expertise médicale</a></li>
+            <li><a href="/procedure-indemnisation">Procédure</a></li>
+            <li><a href="/actualites">Actualités</a></li><li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Nos bureaux</h4>
+          <p><a href="/cabinet/aix-en-provence">Aix-en-Provence</a><br><a href="/cabinet/salon-de-provence">Salon-de-Provence</a><br><a href="/cabinet/arles">Arles</a><br><a href="/cabinet/marignane">Marignane</a></p>
+          <p style="margin-top: 0.5rem;"><a href="/cabinet">Voir nos 4 bureaux &rarr;</a></p>
+        </div>
+      </div>
+      <div style="text-align: center; margin-bottom: 1.5rem; padding-top: 1rem; border-top: 1px solid #2a2a28;">
+          <a href="https://www.linkedin.com/in/patricehumbert/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">LinkedIn</a>
+          <a href="https://www.youtube.com/@LAWI.A.-fj5rw" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">YouTube</a>
+          <a href="https://www.instagram.com/humbert_avocat/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">Instagram</a>
+          <a href="https://www.tiktok.com/@avocat.lexvox.handicap" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; font-size: 0.82rem; text-decoration: none;">TikTok</a>
+        </div>
+        <div style="text-align: center; margin-bottom: 1rem; font-size: 0.82rem;">
+          <a href="https://www.avocats-aix.fr/" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">Barreau d'Aix-en-Provence</a>
+          <a href="https://www.avocat-lexvox.com" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">avocat-lexvox.com</a>
+        </div>
+        <div class="footer-bottom">
+        <p>&copy; 2026 SELARL LEXVOX AVOCATS — Barreau d'Aix-en-Provence &middot; <a href="/mentions-legales">Mentions légales</a> &middot; <a href="/politique-confidentialite">Politique de confidentialité</a> &middot; <a href="/plan-du-site">Plan du site</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+  <script src="/js/chatbot.js" defer></script>
+
+  <script>
+  (function() {
+    'use strict';
+
+    // ═══ STATE ═══
+    var currentStep = 1;
+    var totalSteps = 10;
+    var answers = {};
+    var totalScore = 0;
+
+    // ═══ DOM REFS ═══
+    var progressBar = document.getElementById('progressBar');
+    var steps = document.querySelectorAll('.quiz-step');
+    var resultsEl = document.getElementById('quizResults');
+
+    // ═══ INIT ═══
+    updateProgress();
+    showStep(1);
+
+    // ═══ OPTION CLICK HANDLER ═══
+    document.querySelectorAll('.quiz-option').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var key = this.dataset.key;
+        var value = this.dataset.value;
+        var score = parseInt(this.dataset.score) || 0;
+
+        // Remove previous selection highlight
+        this.parentElement.querySelectorAll('.quiz-option').forEach(function(o) {
+          o.classList.remove('selected');
+        });
+        this.classList.add('selected');
+
+        // Store answer
+        answers[key] = value;
+        totalScore += score;
+
+        // Track in GA4
+        if (typeof gtag === 'function') {
+          gtag('event', 'quiz_answer', {
+            quiz_step: currentStep,
+            quiz_key: key,
+            quiz_value: value
+          });
+        }
+
+        // Advance after short delay
+        setTimeout(function() {
+          currentStep++;
+          showStep(currentStep);
+          updateProgress();
+        }, 300);
+      });
+    });
+
+    // ═══ SHOW STEP ═══
+    function showStep(step) {
+      steps.forEach(function(s) {
+        s.classList.remove('active', 'visible');
+      });
+      resultsEl.classList.remove('active', 'visible');
+
+      var target = document.querySelector('[data-step="' + step + '"]');
+      if (target) {
+        target.classList.add('active');
+        // Trigger animation
+        requestAnimationFrame(function() {
+          requestAnimationFrame(function() {
+            target.classList.add('visible');
+          });
+        });
+        // Scroll to top of quiz
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+
+    // ═══ UPDATE PROGRESS ═══
+    function updateProgress() {
+      var pct = Math.round(((currentStep - 1) / totalSteps) * 100);
+      progressBar.style.width = pct + '%';
+      progressBar.parentElement.setAttribute('aria-valuenow', pct);
+    }
+
+    // ═══ GO BACK ═══
+    window.goBack = function() {
+      if (currentStep > 1) {
+        // Remove score from current step's previous answer
+        var prevStep = document.querySelector('[data-step="' + (currentStep - 1) + '"]');
+        if (prevStep) {
+          var selected = prevStep.querySelector('.quiz-option.selected');
+          if (selected) {
+            totalScore -= parseInt(selected.dataset.score) || 0;
+            selected.classList.remove('selected');
+            delete answers[selected.dataset.key];
+          }
+        }
+        currentStep--;
+        showStep(currentStep);
+        updateProgress();
+      }
+    };
+
+    // ═══ GATE FORM SUBMIT ═══
+    window.submitGate = function(e) {
+      e.preventDefault();
+
+      var prenom = document.getElementById('gate-prenom');
+      var email = document.getElementById('gate-email');
+      var rgpd = document.getElementById('gate-rgpd');
+      var valid = true;
+
+      // Reset errors
+      [prenom, email].forEach(function(input) {
+        input.classList.remove('error');
+      });
+      document.querySelectorAll('.error-msg').forEach(function(el) {
+        el.style.display = 'none';
+      });
+
+      // Validate
+      if (!prenom.value.trim()) {
+        prenom.classList.add('error');
+        document.getElementById('err-prenom').style.display = 'block';
+        valid = false;
+      }
+      if (!email.value.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
+        email.classList.add('error');
+        document.getElementById('err-email').style.display = 'block';
+        valid = false;
+      }
+      if (!rgpd.checked) {
+        document.getElementById('err-rgpd').style.display = 'block';
+        valid = false;
+      }
+
+      if (!valid) return false;
+
+      // Store contact + consent
+      answers.prenom = prenom.value.trim();
+      answers.email = email.value.trim();
+      answers.rgpd_consent = true;
+      answers.rgpd_date = new Date().toISOString();
+      answers.score = totalScore;
+      answers.date = new Date().toISOString();
+
+      // Save to localStorage
+      try {
+        var leads = JSON.parse(localStorage.getItem('lexvox_quiz_leads') || '[]');
+        leads.push(answers);
+        localStorage.setItem('lexvox_quiz_leads', JSON.stringify(leads));
+        localStorage.setItem('lexvox_quiz_last', JSON.stringify(answers));
+
+        // Store RGPD consent separately
+        var consents = JSON.parse(localStorage.getItem('lexvox_rgpd_consents') || '[]');
+        consents.push({ email: answers.email, type: 'quiz', consent: true, date: answers.rgpd_date, prenom: answers.prenom });
+        localStorage.setItem('lexvox_rgpd_consents', JSON.stringify(consents));
+      } catch(err) {}
+
+      // Track in GA4
+      if (typeof gtag === 'function') {
+        gtag('event', 'quiz_lead', {
+          quiz_score: totalScore,
+          quiz_type: answers.type || '',
+          quiz_localite: answers.localite || ''
+        });
+        gtag('event', 'generate_lead', {
+          currency: 'EUR',
+          value: 0
+        });
+      }
+
+      // Show results
+      showResults();
+      return false;
+    };
+
+    // ═══ COMPUTE & SHOW RESULTS ═══
+    function showResults() {
+      // Hide all steps
+      steps.forEach(function(s) {
+        s.classList.remove('active', 'visible');
+      });
+
+      // Compute level
+      var level, levelClass, title, rangeText, recoTitle, recoText;
+
+      if (totalScore >= 22) {
+        level = 'Situation nécessitant une expertise juridique';
+        levelClass = 'high';
+        title = 'Votre situation justifie une analyse approfondie par un avocat spécialisé';
+        rangeText = getRange('high');
+        recoTitle = 'Recommandation : consultation avec un avocat spécialisé';
+        recoText = 'Les éléments que vous décrivez suggèrent une situation complexe qui nécessite impérativement l\'intervention d\'un avocat spécialisé en dommage corporel. Seul un professionnel peut évaluer précisément vos droits. Me Humbert propose une consultation gratuite de 30 minutes.';
+      } else if (totalScore >= 14) {
+        level = 'Situation à faire évaluer';
+        levelClass = 'medium';
+        title = 'Vos droits méritent d\'être évalués par un professionnel';
+        rangeText = getRange('medium');
+        recoTitle = 'Recommandation : évaluation par un avocat';
+        recoText = 'Votre situation peut ouvrir droit à une indemnisation. Cependant, seul un avocat spécialisé en dommage corporel peut évaluer avec fiabilité l\'ensemble de vos préjudices. Ce quiz ne remplace en aucun cas une consultation juridique.';
+      } else {
+        level = 'Situation à analyser';
+        levelClass = 'low';
+        title = 'Seul un avocat peut déterminer si vous avez droit à une indemnisation';
+        rangeText = getRange('low');
+        recoTitle = 'Recommandation : consultation gratuite';
+        recoText = 'Même lorsque la situation semble simple, de nombreux droits peuvent être méconnus. Ce quiz est purement indicatif et ne constitue en aucun cas un avis juridique. Seul un avocat spécialisé peut évaluer vos droits.';
+      }
+
+      // Populate
+      document.getElementById('resultPrenom').textContent = answers.prenom || '';
+      document.getElementById('resultLevel').textContent = level;
+      document.getElementById('resultLevel').className = 'result-level ' + levelClass;
+      document.getElementById('resultTitle').textContent = title;
+      document.getElementById('resultRange').innerHTML = 'Estimation indicative :<br>' + rangeText;
+      document.getElementById('recoTitle').textContent = recoTitle;
+      document.getElementById('recoText').textContent = recoText;
+
+      // Build details
+      var detailsHtml = '';
+      detailsHtml += buildDetail('Type d\'accident', getLabel('type'));
+      detailsHtml += buildDetail('Délai depuis l\'accident', getLabel('delai'));
+      detailsHtml += buildDetail('Hospitalisation', getLabel('hopital'));
+      detailsHtml += buildDetail('Séquelles', getLabel('sequelles'));
+      detailsHtml += buildDetail('Arrêt de travail', getLabel('arret'));
+      detailsHtml += buildDetail('Aide quotidienne', getLabel('aide'));
+
+      if (answers.offre === 'oui') {
+        detailsHtml += buildDetail('Offre assureur', 'Reçue — <strong>Attention :</strong> les premières offres d\'assureurs sont souvent sous-évaluées de 50% en moyenne');
+      }
+      if (answers.avocat !== 'oui') {
+        detailsHtml += buildDetail('Accompagnement juridique', 'Non assisté(e) par un avocat — <strong>risque de sous-indemnisation</strong>');
+      }
+
+      document.getElementById('resultDetails').innerHTML = detailsHtml;
+
+      // Show results
+      resultsEl.classList.add('active');
+      requestAnimationFrame(function() {
+        requestAnimationFrame(function() {
+          resultsEl.classList.add('visible');
+        });
+      });
+
+      // Update progress to 100%
+      progressBar.style.width = '100%';
+      progressBar.parentElement.setAttribute('aria-valuenow', 100);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // ═══ HELPERS ═══
+    function getRange(level) {
+      // Montants prudents — seul un avocat peut évaluer précisément
+      var sequelles = answers.sequelles || 'non';
+
+      if (level === 'high') {
+        if (sequelles === 'importantes') return '<span style="font-size:0.85rem;color:#9FA8AC;">Indemnisation potentielle variable selon les circonstances.<br>Les dossiers de cette nature peuvent représenter des montants significatifs.<br><strong>Seule une évaluation par un avocat spécialisé est fiable.</strong></span>';
+        return '<span style="font-size:0.85rem;color:#9FA8AC;">Indemnisation potentielle à évaluer par un professionnel.<br><strong>Ce quiz ne permet pas de chiffrer votre indemnisation.</strong></span>';
+      }
+      if (level === 'medium') {
+        return '<span style="font-size:0.85rem;color:#9FA8AC;">Vos préjudices peuvent ouvrir droit à indemnisation.<br>Le montant dépend de nombreux facteurs que seul un avocat peut analyser.<br><strong>Consultation gratuite recommandée.</strong></span>';
+      }
+      return '<span style="font-size:0.85rem;color:#9FA8AC;">Votre situation nécessite une analyse personnalisée.<br><strong>Seul un avocat spécialisé peut déterminer vos droits.</strong></span>';
+    }
+
+    function getLabel(key) {
+      var labels = {
+        type: {
+          route: 'Accident de la route',
+          medical: 'Erreur médicale / accident médical',
+          travail: 'Accident du travail',
+          agression: 'Agression / violence',
+          vie: 'Accident de la vie',
+          autre: 'Autre'
+        },
+        delai: {
+          '6mois': 'Moins de 6 mois',
+          '6m-2a': '6 mois à 2 ans',
+          '2-5a': '2 à 5 ans',
+          '5a+': 'Plus de 5 ans'
+        },
+        hopital: {
+          'semaine+': 'Plus d\'une semaine',
+          'semaine-': 'Moins d\'une semaine',
+          soins: 'Soins sans hospitalisation',
+          non: 'Non hospitalisé(e)'
+        },
+        sequelles: {
+          importantes: 'Séquelles importantes',
+          moderees: 'Séquelles modérées',
+          legeres: 'Séquelles légères',
+          non: 'Non évalué'
+        },
+        arret: {
+          '6mois+': 'Plus de 6 mois',
+          '1-6mois': '1 à 6 mois',
+          '1mois-': 'Moins d\'un mois',
+          non: 'Pas d\'arrêt'
+        },
+        aide: {
+          permanente: 'Aide permanente (tierce personne)',
+          ponctuelle: 'Aide ponctuelle',
+          non: 'Pas d\'aide nécessaire'
+        }
+      };
+      var group = labels[key];
+      if (!group) return '';
+      return group[answers[key]] || '';
+    }
+
+    function buildDetail(label, value) {
+      if (!value) return '';
+      return '<div class="result-detail"><strong>' + label + ' :</strong> ' + value + '</div>';
+    }
+
+  })();
+  </script>
+
+  <script src="/js/cookies.js" defer></script>
+</body>
+</html>
