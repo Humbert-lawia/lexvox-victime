@@ -1,0 +1,39 @@
+# Cloudflare Pages — Redirections lexvox-victime.com
+
+# Pages piliers — variantes URL
+/accident-route                      /accident-de-la-route                 301
+/accident-travail                    /accident-du-travail                  301
+/erreur-medical                      /erreur-medicale                      301
+/responsabilite-medical              /responsabilite-medicale              301
+/indemnisation                       /indemnisation-victime                301
+/prejudice-corporel                  /indemnisation-prejudice-corporel     301
+/victime-agression-sexuelle          /victime-agression                    301
+/agression                           /victime-agression                    301
+/expertise-medical                   /expertise-medicale                   301
+/nomenclature                        /nomenclature-dintilhac               301
+/nomenclature-dintilhac-2024         /nomenclature-dintilhac               301
+
+# Cabinet / contact
+/avocat                              /cabinet                              301
+/equipe                              /cabinet                              301
+/nous-contacter                      /contact                              301
+
+# Bureaux
+/aix-en-provence                     /cabinet/aix-en-provence              301
+/salon-de-provence                   /cabinet/salon-de-provence            301
+/arles                               /cabinet/arles                        301
+/marignane                           /cabinet/marignane                    301
+/nimes                               /cabinet/nimes                        301
+
+# Articles manquants (4XX) — redirections vers pages piliers pertinentes
+/actualites/avocat-erreur-medicale-indemnisation-salon-de-provence  /erreur-medicale  301
+/actualites/indemnisation-victime-agression-nimes                   /victime-agression  301
+/actualites/comment-ia-optimise-indemnisation-victimes              /indemnisation-victime  301
+
+# Blog
+/blog                                /actualites                           301
+/actualite                           /actualites                           301
+/news                                /actualites                           301
+
+# Fallback 404
+/*  /404  404

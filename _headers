@@ -8,6 +8,8 @@
 
 /css/*
   Cache-Control: public, max-age=31536000, immutable
+  Content-Type: text/css; charset=UTF-8
+  Vary: Accept-Encoding
 
 /js/*
   Cache-Control: public, max-age=31536000, immutable
