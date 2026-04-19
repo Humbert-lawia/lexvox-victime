@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>LEXVOX Pipeline Monitor</title>
+<style>
+  :root {
+    --bg: #0b0f17;
+    --panel: #141a24;
+    --panel-2: #1b2230;
+    --border: #263043;
+    --text: #e6ecf3;
+    --muted: #8593a8;
+    --green: #34d399;
+    --amber: #fbbf24;
+    --red: #f87171;
+    --blue: #60a5fa;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+  }
+  header {
+    padding: 24px 32px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  header h1 { margin: 0; font-size: 20px; font-weight: 600; }
+  header .meta { color: var(--muted); font-size: 13px; }
+  main { padding: 32px; max-width: 1200px; margin: 0 auto; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+  }
+  .card h2 {
+    margin: 0 0 12px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .stat { font-size: 36px; font-weight: 700; margin: 4px 0; }
+  .sub { color: var(--muted); font-size: 13px; }
+  .site-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .site-row:last-child { border-bottom: none; }
+  .site-row a { color: var(--blue); text-decoration: none; font-size: 14px; }
+  .site-row a:hover { text-decoration: underline; }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .ok { background: rgba(52, 211, 153, 0.15); color: var(--green); }
+  .warn { background: rgba(251, 191, 36, 0.15); color: var(--amber); }
+  .err { background: rgba(248, 113, 113, 0.15); color: var(--red); }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td {
+    text-align: left;
+    padding: 10px 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; }
+  tr:last-child td { border-bottom: none; }
+  .empty { color: var(--muted); font-style: italic; padding: 16px 0; }
+  footer { padding: 24px 32px; color: var(--muted); font-size: 12px; text-align: center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>⚙️ LEXVOX Pipeline Monitor</h1>
+  <div class="meta" id="updated">—</div>
+</header>
+
+<main>
+  <div class="grid">
+    <div class="card">
+      <h2>Articles publiés (total)</h2>
+      <div class="stat" id="total-articles">—</div>
+      <div class="sub">répartis sur 3 sites</div>
+    </div>
+    <div class="card">
+      <h2>Jour courant du plan</h2>
+      <div class="stat" id="current-day">—</div>
+      <div class="sub">sur 30 (cycle éditorial)</div>
+    </div>
+    <div class="card">
+      <h2>Dernier run</h2>
+      <div class="stat" id="last-run-status">—</div>
+      <div class="sub" id="last-run-date">—</div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-bottom: 24px;">
+    <h2>Articles par site</h2>
+    <div id="sites"></div>
+  </div>
+
+  <div class="card" style="margin-bottom: 24px;">
+    <h2>Derniers runs GitHub Actions</h2>
+    <table id="runs-table">
+      <thead>
+        <tr><th>Date</th><th>Statut</th><th>Conclusion</th><th>Durée</th></tr>
+      </thead>
+      <tbody id="runs"></tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Sitemaps</h2>
+    <div id="sitemaps"></div>
+  </div>
+</main>
+
+<footer>
+  Données mises à jour à chaque run du workflow <code>daily-articles.yml</code> · cron quotidien 06:00 UTC
+</footer>
+
+<script>
+const SITES = [
+  { key: 'victime', domain: 'lexvox-victime.com' },
+  { key: 'divorce', domain: 'lexvox-divorce.com' },
+  { key: 'permis',  domain: 'lexvox-permis.com' }
+];
+
+function fmtDate(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  return d.toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' });
+}
+
+function badge(status, conclusion) {
+  if (status === 'in_progress' || status === 'queued') return '<span class="badge warn">en cours</span>';
+  if (conclusion === 'success') return '<span class="badge ok">succès</span>';
+  if (conclusion === 'failure') return '<span class="badge err">échec</span>';
+  return '<span class="badge warn">' + (conclusion || status || '?') + '</span>';
+}
+
+function duration(start, end) {
+  if (!start || !end) return '—';
+  const s = (new Date(end) - new Date(start)) / 1000;
+  if (s < 60) return Math.round(s) + 's';
+  return Math.floor(s / 60) + 'm ' + Math.round(s % 60) + 's';
+}
+
+async function load() {
+  try {
+    const res = await fetch('lexvox-data.json?t=' + Date.now());
+    if (!res.ok) throw new Error('data');
+    const data = await res.json();
+    render(data);
+  } catch (e) {
+    document.getElementById('updated').textContent = 'Erreur chargement données';
+  }
+}
+
+function render(data) {
+  document.getElementById('updated').textContent = 'MAJ : ' + fmtDate(data.updated_at);
+  document.getElementById('total-articles').textContent = data.total_articles ?? '—';
+  document.getElementById('current-day').textContent = data.current_day ?? '—';
+
+  const last = data.runs && data.runs[0];
+  if (last) {
+    document.getElementById('last-run-status').innerHTML = badge(last.status, last.conclusion);
+    document.getElementById('last-run-date').textContent = fmtDate(last.created_at);
+  }
+
+  const sitesEl = document.getElementById('sites');
+  sitesEl.innerHTML = SITES.map(s => {
+    const count = (data.sites && data.sites[s.key] && data.sites[s.key].articles) || 0;
+    return `<div class="site-row">
+      <div>
+        <a href="https://${s.domain}" target="_blank">${s.domain}</a>
+        <div class="sub">${count} article${count > 1 ? 's' : ''} publié${count > 1 ? 's' : ''}</div>
+      </div>
+      <span class="badge ${count > 0 ? 'ok' : 'warn'}">${count}</span>
+    </div>`;
+  }).join('');
+
+  const runsEl = document.getElementById('runs');
+  if (!data.runs || !data.runs.length) {
+    runsEl.innerHTML = '<tr><td colspan="4" class="empty">Aucun run enregistré</td></tr>';
+  } else {
+    runsEl.innerHTML = data.runs.slice(0, 10).map(r =>
+      `<tr>
+        <td>${fmtDate(r.created_at)}</td>
+        <td>${r.status}</td>
+        <td>${badge(r.status, r.conclusion)}</td>
+        <td>${duration(r.created_at, r.updated_at)}</td>
+      </tr>`
+    ).join('');
+  }
+
+  const sitemapsEl = document.getElementById('sitemaps');
+  sitemapsEl.innerHTML = SITES.map(s => {
+    const sm = data.sites && data.sites[s.key];
+    const urls = sm && sm.sitemap_urls;
+    return `<div class="site-row">
+      <div>
+        <a href="https://${s.domain}/sitemap.xml" target="_blank">${s.domain}/sitemap.xml</a>
+        <div class="sub">${urls ? urls + ' URLs' : 'sitemap non vérifié'}</div>
+      </div>
+      <span class="badge ${urls ? 'ok' : 'warn'}">${urls || '—'}</span>
+    </div>`;
+  }).join('');
+}
+
+load();
+</script>
+</body>
+</html>
