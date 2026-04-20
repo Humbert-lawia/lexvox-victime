@@ -3,235 +3,350 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noindex, nofollow">
-<title>LEXVOX Pipeline Monitor</title>
+<title>LEXVOX Monitor — Dashboard SEO</title>
 <style>
-  :root {
-    --bg: #0b0f17;
-    --panel: #141a24;
-    --panel-2: #1b2230;
-    --border: #263043;
-    --text: #e6ecf3;
-    --muted: #8593a8;
-    --green: #34d399;
-    --amber: #fbbf24;
-    --red: #f87171;
-    --blue: #60a5fa;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.5;
-  }
-  header {
-    padding: 24px 32px;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 16px;
-  }
-  header h1 { margin: 0; font-size: 20px; font-weight: 600; }
-  header .meta { color: var(--muted); font-size: 13px; }
-  main { padding: 32px; max-width: 1200px; margin: 0 auto; }
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 16px;
-    margin-bottom: 24px;
-  }
-  .card {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 20px;
-  }
-  .card h2 {
-    margin: 0 0 12px;
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-  .stat { font-size: 36px; font-weight: 700; margin: 4px 0; }
-  .sub { color: var(--muted); font-size: 13px; }
-  .site-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .site-row:last-child { border-bottom: none; }
-  .site-row a { color: var(--blue); text-decoration: none; font-size: 14px; }
-  .site-row a:hover { text-decoration: underline; }
-  .badge {
-    display: inline-block;
-    padding: 2px 8px;
-    border-radius: 999px;
-    font-size: 12px;
-    font-weight: 600;
-  }
-  .ok { background: rgba(52, 211, 153, 0.15); color: var(--green); }
-  .warn { background: rgba(251, 191, 36, 0.15); color: var(--amber); }
-  .err { background: rgba(248, 113, 113, 0.15); color: var(--red); }
-  table { width: 100%; border-collapse: collapse; font-size: 14px; }
-  th, td {
-    text-align: left;
-    padding: 10px 8px;
-    border-bottom: 1px solid var(--border);
-  }
-  th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; }
-  tr:last-child td { border-bottom: none; }
-  .empty { color: var(--muted); font-style: italic; padding: 16px 0; }
-  footer { padding: 24px 32px; color: var(--muted); font-size: 12px; text-align: center; }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #0f1117; --surface: #1a1d27; --surface2: #22263a; --surface3: #2a2f47;
+  --border: #2a2f47; --text: #e2e8f0; --muted: #64748b;
+  --blue: #3b82f6; --purple: #8b5cf6; --pink: #ec4899;
+  --green: #22c55e; --red: #ef4444; --yellow: #f59e0b; --orange: #f97316;
+}
+body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 14px; min-height: 100vh; }
+
+/* HEADER */
+header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 14px 24px; display: flex; align-items: center; gap: 12px; position: sticky; top: 0; z-index: 10; }
+.logo { width: 28px; height: 28px; background: linear-gradient(135deg, #3b82f6, #8b5cf6); border-radius: 7px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.logo svg { width: 16px; height: 16px; }
+header h1 { font-size: 16px; font-weight: 700; }
+.tag { background: var(--surface3); color: var(--muted); font-size: 10px; padding: 2px 8px; border-radius: 99px; font-weight: 600; }
+#last-update { font-size: 11px; color: var(--muted); margin-left: auto; }
+#refresh-btn { background: var(--surface2); border: 1px solid var(--border); color: var(--text); padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 12px; }
+#refresh-btn:hover { background: var(--surface3); }
+
+/* LAYOUT */
+main { padding: 20px 24px; max-width: 1400px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+@media (max-width: 1100px) { main { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 700px) { main { grid-template-columns: 1fr; } }
+.full { grid-column: 1 / -1; }
+
+/* CARDS */
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px; }
+.card h2 { font-size: 11px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .6px; margin-bottom: 14px; display: flex; align-items: center; gap: 6px; }
+.card h2 .dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+
+/* SITE CARDS */
+.sites-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+@media (max-width: 700px) { .sites-grid { grid-template-columns: 1fr; } }
+.site-card { background: var(--surface2); border-radius: 10px; padding: 14px; border-left: 3px solid var(--blue); }
+.site-card .site-name { font-size: 13px; font-weight: 700; margin-bottom: 4px; }
+.site-card .site-domain { font-size: 11px; color: var(--muted); margin-bottom: 10px; }
+.site-card .site-meta { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.site-meta-item .label { font-size: 10px; color: var(--muted); }
+.site-meta-item .value { font-size: 18px; font-weight: 700; line-height: 1.2; }
+.site-meta-item .sub { font-size: 10px; color: var(--muted); margin-top: 2px; }
+
+/* NW BUDGET */
+.nw-main { display: flex; align-items: flex-end; gap: 8px; margin-bottom: 12px; }
+.nw-count { font-size: 42px; font-weight: 800; line-height: 1; }
+.nw-cap { font-size: 16px; color: var(--muted); margin-bottom: 6px; }
+.nw-remaining { font-size: 12px; color: var(--muted); }
+.progress-bar { height: 8px; background: var(--surface2); border-radius: 99px; overflow: hidden; margin: 8px 0; }
+.progress-fill { height: 100%; border-radius: 99px; transition: width .5s; }
+.progress-fill.green { background: var(--green); }
+.progress-fill.yellow { background: var(--yellow); }
+.progress-fill.red { background: var(--red); }
+.nw-kw-list { margin-top: 10px; }
+.nw-kw-item { font-size: 11px; color: var(--muted); padding: 3px 0; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; }
+.nw-kw-item:last-child { border-bottom: none; }
+
+/* PLAN PROGRESS */
+.plan-main { display: flex; align-items: flex-end; gap: 8px; margin-bottom: 12px; }
+.plan-big { font-size: 42px; font-weight: 800; line-height: 1; }
+.plan-sub { font-size: 14px; color: var(--muted); margin-bottom: 6px; }
+.days-grid { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 10px; }
+.day-dot { width: 24px; height: 24px; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 600; cursor: default; }
+.day-dot.done { background: #14532d; color: #86efac; }
+.day-dot.partial { background: #451a03; color: #fed7aa; }
+.day-dot.pending { background: var(--surface2); color: var(--muted); }
+.day-dot.today { outline: 2px solid var(--yellow); }
+
+/* ARTICLES TABLE */
+table { width: 100%; border-collapse: collapse; }
+th { text-align: left; color: var(--muted); font-size: 10px; font-weight: 600; text-transform: uppercase; padding: 6px 8px; border-bottom: 1px solid var(--border); letter-spacing: .3px; }
+td { padding: 8px 8px; border-bottom: 1px solid var(--border); font-size: 12px; vertical-align: middle; }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: var(--surface2); }
+
+/* BADGES */
+.badge { display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 600; white-space: nowrap; }
+.badge-victime { background: #1e3a5f; color: #93c5fd; }
+.badge-divorce { background: #2e1065; color: #c4b5fd; }
+.badge-permis  { background: #500724; color: #fbcfe8; }
+
+/* POSITIONS */
+.gsc-note { font-size: 12px; color: var(--muted); text-align: center; padding: 20px; }
+.pos-row { display: flex; align-items: center; gap: 8px; padding: 7px 0; border-bottom: 1px solid var(--border); }
+.pos-row:last-child { border-bottom: none; }
+.pos-rank { font-size: 18px; font-weight: 800; width: 36px; text-align: center; flex-shrink: 0; }
+.pos-rank.top3 { color: var(--yellow); }
+.pos-rank.top10 { color: var(--green); }
+.pos-rank.top30 { color: var(--blue); }
+.pos-rank.other { color: var(--muted); }
+.pos-info { flex: 1; min-width: 0; }
+.pos-keyword { font-size: 12px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pos-domain { font-size: 10px; color: var(--muted); }
+.pos-delta { font-size: 11px; font-weight: 700; flex-shrink: 0; }
+.delta-up { color: var(--green); }
+.delta-down { color: var(--red); }
+.delta-new { color: var(--yellow); }
+.delta-flat { color: var(--muted); }
+
+/* WP STATUS */
+.wp-site { background: var(--surface2); border-radius: 8px; padding: 12px; margin-bottom: 8px; display: flex; align-items: center; gap: 10px; }
+.wp-site:last-child { margin-bottom: 0; }
+.wp-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+.wp-dot.ok { background: var(--green); }
+.wp-dot.warn { background: var(--yellow); }
+.wp-dot.err { background: var(--red); }
+.wp-dot.unknown { background: var(--muted); }
+.wp-name { flex: 1; font-size: 13px; font-weight: 600; }
+.wp-domain { font-size: 10px; color: var(--muted); }
+.wp-meta { font-size: 11px; color: var(--muted); text-align: right; }
+.wp-issue { font-size: 10px; color: var(--yellow); }
+
+/* LOADING */
+.loading { color: var(--muted); font-style: italic; text-align: center; padding: 20px; }
 </style>
 </head>
 <body>
+
 <header>
-  <h1>⚙️ LEXVOX Pipeline Monitor</h1>
-  <div class="meta" id="updated">—</div>
+  <div class="logo">
+    <svg viewBox="0 0 16 16" fill="none"><path d="M2 12L6 7L10 9.5L14 4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </div>
+  <h1>LEXVOX Monitor</h1>
+  <span class="tag">3 sites Cloudflare</span>
+  <span id="last-update">—</span>
+  <button id="refresh-btn" onclick="loadData()">↻ Actualiser</button>
 </header>
 
 <main>
-  <div class="grid">
-    <div class="card">
-      <h2>Articles publiés (total)</h2>
-      <div class="stat" id="total-articles">—</div>
-      <div class="sub">répartis sur 3 sites</div>
-    </div>
-    <div class="card">
-      <h2>Jour courant du plan</h2>
-      <div class="stat" id="current-day">—</div>
-      <div class="sub">sur 30 (cycle éditorial)</div>
-    </div>
-    <div class="card">
-      <h2>Dernier run</h2>
-      <div class="stat" id="last-run-status">—</div>
-      <div class="sub" id="last-run-date">—</div>
+  <!-- Sites overview -->
+  <div class="card full" id="sites-card">
+    <h2><span class="dot" style="background:var(--green)"></span>Sites Cloudflare</h2>
+    <div class="sites-grid" id="sites-grid">
+      <div class="loading">Chargement…</div>
     </div>
   </div>
 
-  <div class="card" style="margin-bottom: 24px;">
-    <h2>Articles par site</h2>
-    <div id="sites"></div>
+  <!-- NW Budget -->
+  <div class="card" id="nw-card">
+    <h2><span class="dot" style="background:var(--yellow)"></span>Budget NeuronWriter</h2>
+    <div id="nw-body"><div class="loading">—</div></div>
   </div>
 
-  <div class="card" style="margin-bottom: 24px;">
-    <h2>Derniers runs GitHub Actions</h2>
-    <table id="runs-table">
-      <thead>
-        <tr><th>Date</th><th>Statut</th><th>Conclusion</th><th>Durée</th></tr>
-      </thead>
-      <tbody id="runs"></tbody>
+  <!-- Plan progress -->
+  <div class="card" id="plan-card">
+    <h2><span class="dot" style="background:var(--blue)"></span>Plan éditorial 30j</h2>
+    <div id="plan-body"><div class="loading">—</div></div>
+  </div>
+
+  <!-- GSC Positions -->
+  <div class="card" id="gsc-card">
+    <h2><span class="dot" style="background:var(--purple)"></span>Positions Google (GSC)</h2>
+    <div id="gsc-body"><div class="gsc-note">En attente d'indexation — les positions apparaîtront ici après la première crawl Google (24-72h)</div></div>
+  </div>
+
+  <!-- Articles récents -->
+  <div class="card full" id="articles-card">
+    <h2><span class="dot" style="background:var(--pink)"></span>Articles produits — <span id="articles-count">0</span></h2>
+    <table>
+      <thead><tr><th>Site</th><th>Ville</th><th>Thème</th><th>Keyword NW</th><th>Date</th><th>Fichier</th></tr></thead>
+      <tbody id="articles-body"><tr><td colspan="6" class="loading">—</td></tr></tbody>
     </table>
   </div>
 
-  <div class="card">
-    <h2>Sitemaps</h2>
-    <div id="sitemaps"></div>
+  <!-- Sites WP -->
+  <div class="card" id="wp-card">
+    <h2><span class="dot" style="background:var(--orange)"></span>Sites WordPress (audit hebdo)</h2>
+    <div id="wp-body">
+      <div class="wp-site">
+        <div class="wp-dot unknown"></div>
+        <div><div class="wp-name">lexvox-avocats.fr</div><div class="wp-domain">Cabinet principal</div></div>
+        <div class="wp-meta"><div>Audit prochain :<br>dim. 20h</div></div>
+      </div>
+      <div class="wp-site">
+        <div class="wp-dot unknown"></div>
+        <div><div class="wp-name">lexvox-accident.fr</div><div class="wp-domain">Accident de la route</div></div>
+        <div class="wp-meta"><div>—</div></div>
+      </div>
+      <div class="wp-site">
+        <div class="wp-dot unknown"></div>
+        <div><div class="wp-name">lexvox-divorce.fr</div><div class="wp-domain">Divorce WP</div></div>
+        <div class="wp-meta"><div>—</div></div>
+      </div>
+      <div class="wp-site">
+        <div class="wp-dot unknown"></div>
+        <div><div class="wp-name">lexvox-medical.fr</div><div class="wp-domain">Erreur médicale</div></div>
+        <div class="wp-meta"><div>—</div></div>
+      </div>
+    </div>
   </div>
+
 </main>
 
-<footer>
-  Données mises à jour à chaque run du workflow <code>daily-articles.yml</code> · cron quotidien 06:00 UTC
-</footer>
-
 <script>
-const SITES = [
-  { key: 'victime', domain: 'lexvox-victime.com' },
-  { key: 'divorce', domain: 'lexvox-divorce.com' },
-  { key: 'permis',  domain: 'lexvox-permis.com' }
-];
+const SITE_META = {
+  victime: { label: "Victime / Dommage corporel", color: "#3b82f6", badge: "badge-victime" },
+  divorce: { label: "Divorce & Famille",          color: "#8b5cf6", badge: "badge-divorce" },
+  permis:  { label: "Pénal routier",              color: "#ec4899", badge: "badge-permis"  },
+};
 
-function fmtDate(iso) {
-  if (!iso) return '—';
-  const d = new Date(iso);
-  return d.toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' });
-}
-
-function badge(status, conclusion) {
-  if (status === 'in_progress' || status === 'queued') return '<span class="badge warn">en cours</span>';
-  if (conclusion === 'success') return '<span class="badge ok">succès</span>';
-  if (conclusion === 'failure') return '<span class="badge err">échec</span>';
-  return '<span class="badge warn">' + (conclusion || status || '?') + '</span>';
-}
-
-function duration(start, end) {
-  if (!start || !end) return '—';
-  const s = (new Date(end) - new Date(start)) / 1000;
-  if (s < 60) return Math.round(s) + 's';
-  return Math.floor(s / 60) + 'm ' + Math.round(s % 60) + 's';
-}
-
-async function load() {
+async function loadData() {
   try {
-    const res = await fetch('lexvox-data.json?t=' + Date.now());
-    if (!res.ok) throw new Error('data');
-    const data = await res.json();
-    render(data);
-  } catch (e) {
-    document.getElementById('updated').textContent = 'Erreur chargement données';
+    const r = await fetch('./lexvox-data.json?t=' + Date.now());
+    if (!r.ok) throw new Error('data not found');
+    const d = await r.json();
+    renderAll(d);
+  } catch {
+    // Fallback : données vides
+    renderAll(null);
   }
 }
 
-function render(data) {
-  document.getElementById('updated').textContent = 'MAJ : ' + fmtDate(data.updated_at);
-  document.getElementById('total-articles').textContent = data.total_articles ?? '—';
-  document.getElementById('current-day').textContent = data.current_day ?? '—';
+function renderAll(d) {
+  const ts = d ? new Date(d.generated_at).toLocaleString('fr-FR') : '—';
+  document.getElementById('last-update').textContent = 'Mis à jour : ' + ts;
 
-  const last = data.runs && data.runs[0];
-  if (last) {
-    document.getElementById('last-run-status').innerHTML = badge(last.status, last.conclusion);
-    document.getElementById('last-run-date').textContent = fmtDate(last.created_at);
-  }
+  renderSites(d?.sites ?? {});
+  renderNW(d?.nw ?? null);
+  renderPlan(d?.plan ?? null);
+  renderArticles(d?.articles ?? null);
+}
 
-  const sitesEl = document.getElementById('sites');
-  sitesEl.innerHTML = SITES.map(s => {
-    const count = (data.sites && data.sites[s.key] && data.sites[s.key].articles) || 0;
-    return `<div class="site-row">
-      <div>
-        <a href="https://${s.domain}" target="_blank">${s.domain}</a>
-        <div class="sub">${count} article${count > 1 ? 's' : ''} publié${count > 1 ? 's' : ''}</div>
+function renderSites(sites) {
+  const keys = ['victime', 'divorce', 'permis'];
+  const grid = document.getElementById('sites-grid');
+  grid.innerHTML = keys.map(k => {
+    const s = sites[k] ?? {};
+    const m = SITE_META[k] ?? {};
+    const arts = s.articles ?? 0;
+    const latest = s.latest ? s.latest.slice(0, 10) : '—';
+    const villes = (s.villes ?? []).length;
+    return `
+    <div class="site-card" style="border-left-color:${m.color}">
+      <div class="site-name">${m.label}</div>
+      <div class="site-domain">${s.domain ?? ''}</div>
+      <div class="site-meta">
+        <div class="site-meta-item">
+          <div class="label">Articles</div>
+          <div class="value" style="color:${m.color}">${arts}</div>
+          <div class="sub">${villes} ville${villes !== 1 ? 's' : ''}</div>
+        </div>
+        <div class="site-meta-item">
+          <div class="label">Dernier article</div>
+          <div class="value" style="font-size:13px">${latest}</div>
+          <div class="sub">auto-deploy ✓</div>
+        </div>
       </div>
-      <span class="badge ${count > 0 ? 'ok' : 'warn'}">${count}</span>
-    </div>`;
-  }).join('');
-
-  const runsEl = document.getElementById('runs');
-  if (!data.runs || !data.runs.length) {
-    runsEl.innerHTML = '<tr><td colspan="4" class="empty">Aucun run enregistré</td></tr>';
-  } else {
-    runsEl.innerHTML = data.runs.slice(0, 10).map(r =>
-      `<tr>
-        <td>${fmtDate(r.created_at)}</td>
-        <td>${r.status}</td>
-        <td>${badge(r.status, r.conclusion)}</td>
-        <td>${duration(r.created_at, r.updated_at)}</td>
-      </tr>`
-    ).join('');
-  }
-
-  const sitemapsEl = document.getElementById('sitemaps');
-  sitemapsEl.innerHTML = SITES.map(s => {
-    const sm = data.sites && data.sites[s.key];
-    const urls = sm && sm.sitemap_urls;
-    return `<div class="site-row">
-      <div>
-        <a href="https://${s.domain}/sitemap.xml" target="_blank">${s.domain}/sitemap.xml</a>
-        <div class="sub">${urls ? urls + ' URLs' : 'sitemap non vérifié'}</div>
-      </div>
-      <span class="badge ${urls ? 'ok' : 'warn'}">${urls || '—'}</span>
     </div>`;
   }).join('');
 }
 
-load();
+function renderNW(nw) {
+  const div = document.getElementById('nw-body');
+  if (!nw) {
+    div.innerHTML = `
+      <div class="nw-main"><div class="nw-count" style="color:var(--muted)">0</div><div class="nw-cap">/ 150</div></div>
+      <div class="progress-bar"><div class="progress-fill green" style="width:0%"></div></div>
+      <div class="nw-remaining">150 queries disponibles ce mois</div>
+      <p style="font-size:11px;color:var(--muted);margin-top:12px">Aucun article généré ce mois</p>`;
+    return;
+  }
+  const pct = nw.pct ?? 0;
+  const cls = pct < 60 ? 'green' : pct < 85 ? 'yellow' : 'red';
+  const kws = (nw.keywords ?? []).slice(-8);
+  div.innerHTML = `
+    <div class="nw-main">
+      <div class="nw-count" style="color:var(--${cls === 'green' ? 'green' : cls === 'yellow' ? 'yellow' : 'red'})">${nw.used}</div>
+      <div>
+        <div class="nw-cap">/ ${nw.cap}</div>
+        <div class="nw-remaining">${nw.remaining} restantes</div>
+      </div>
+    </div>
+    <div class="progress-bar"><div class="progress-fill ${cls}" style="width:${pct}%"></div></div>
+    <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-top:2px"><span>${pct}% utilisé</span><span>${nw.month}</span></div>
+    ${kws.length ? `<div class="nw-kw-list" style="margin-top:12px">
+      <div style="font-size:10px;color:var(--muted);margin-bottom:6px">DERNIERS KEYWORDS ANALYSÉS</div>
+      ${kws.map(kw => `<div class="nw-kw-item"><span>${kw}</span></div>`).join('')}
+    </div>` : ''}
+  `;
+}
+
+function renderPlan(plan) {
+  const div = document.getElementById('plan-body');
+  if (!plan) {
+    div.innerHTML = `
+      <div class="plan-main"><div class="plan-big" style="color:var(--muted)">0%</div><div class="plan-sub">0 / 90 articles</div></div>
+      <div class="progress-bar"><div class="progress-fill green" style="width:0%"></div></div>
+      <div class="days-grid">${Array.from({length:30},(_,i)=>`<div class="day-dot pending" title="Jour ${i+1}">${i+1}</div>`).join('')}</div>`;
+    return;
+  }
+  const pct = plan.pct ?? 0;
+  const done = plan.done ?? 0;
+  const total = plan.total ?? 90;
+  const daysDone = new Set(plan.days_done ?? []);
+  // Jour courant basé sur 2026-04-18
+  const start = new Date('2026-04-18');
+  const now = new Date();
+  const diffDays = Math.floor((now - start) / 86400000);
+  const todayJour = (diffDays % 30) + 1;
+
+  div.innerHTML = `
+    <div class="plan-main">
+      <div class="plan-big" style="color:var(--green)">${pct}%</div>
+      <div><div class="plan-sub">${done} / ${total} articles</div></div>
+    </div>
+    <div class="progress-bar"><div class="progress-fill green" style="width:${pct}%"></div></div>
+    <div class="days-grid">
+      ${Array.from({length:30}, (_, i) => {
+        const j = i + 1;
+        const cls = daysDone.has(j) ? 'done' : j < todayJour ? 'partial' : 'pending';
+        const todayCls = j === todayJour ? ' today' : '';
+        return `<div class="day-dot ${cls}${todayCls}" title="Jour ${j}">${j}</div>`;
+      }).join('')}
+    </div>
+  `;
+}
+
+function renderArticles(arts) {
+  if (!arts) return;
+  document.getElementById('articles-count').textContent = arts.total + ' total';
+  const tbody = document.getElementById('articles-body');
+  const rows = arts.recent ?? [];
+  if (!rows.length) {
+    tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;color:var(--muted);padding:20px">Aucun article produit — le premier batch sera lancé ce soir</td></tr>';
+    return;
+  }
+  tbody.innerHTML = rows.map(a => {
+    const m = SITE_META[a.site] ?? {};
+    const date = (a.date || '').slice(0, 10);
+    const fname = a.filename ?? (a.keyword ? a.keyword.replace(/\s+/g, '-').toLowerCase() + '.html' : '—');
+    return `<tr>
+      <td><span class="badge ${m.badge ?? ''}">${a.site}</span></td>
+      <td>${a.ville ?? '—'}</td>
+      <td style="max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${a.theme ?? '—'}</td>
+      <td style="max-width:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted);font-size:11px">${a.keyword ?? '—'}</td>
+      <td style="white-space:nowrap">${date}</td>
+      <td style="font-size:10px;color:var(--muted)">${fname}</td>
+    </tr>`;
+  }).join('');
+}
+
+// Init
+loadData();
+setInterval(loadData, 5 * 60 * 1000); // refresh toutes les 5 min
 </script>
 </body>
 </html>
