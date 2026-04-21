@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T08:03:06.295946",
+  "generated_at": "2026-04-21T07:32:40.026130",
   "nw": {
     "used": 0,
     "cap": 150,
@@ -9,13 +9,14 @@
     "keywords": []
   },
   "articles": {
-    "total": 6,
+    "total": 9,
     "by_site": {
       "victime": {
-        "count": 2,
-        "latest": "2026-04-20",
+        "count": 3,
+        "latest": "2026-04-21",
         "villes": [
           "Aix-en-Provence",
+          "Marignane",
           "Salon-de-Provence"
         ],
         "themes": [
@@ -24,31 +25,60 @@
         ]
       },
       "divorce": {
-        "count": 2,
-        "latest": "2026-04-20",
+        "count": 3,
+        "latest": "2026-04-21",
         "villes": [
           "Aix-en-Provence",
           "Salon-de-Provence"
         ],
         "themes": [
           "Avocat divorce contentieux",
-          "Avocat divorce à l'amiable"
+          "Avocat divorce à l'amiable",
+          "Avocat garde enfants divorce"
         ]
       },
       "permis": {
-        "count": 2,
-        "latest": "2026-04-20",
+        "count": 3,
+        "latest": "2026-04-21",
         "villes": [
           "Aix-en-Provence",
           "Salon-de-Provence"
         ],
         "themes": [
           "Avocat alcool au volant",
+          "Avocat excès de vitesse",
           "Avocat stupéfiants au volant"
         ]
       }
     },
     "recent": [
+      {
+        "site": "victime",
+        "ville": "Marignane",
+        "theme": "Avocat accident de la route",
+        "slug": "avocat-accident-de-la-route-marignane",
+        "score": 0,
+        "words": 4354,
+        "date": "2026-04-21"
+      },
+      {
+        "site": "divorce",
+        "ville": "Aix-en-Provence",
+        "theme": "Avocat garde enfants divorce",
+        "slug": "avocat-garde-enfants-divorce-aix-en-provence",
+        "score": 0,
+        "words": 4416,
+        "date": "2026-04-21"
+      },
+      {
+        "site": "permis",
+        "ville": "Aix-en-Provence",
+        "theme": "Avocat excès de vitesse",
+        "slug": "avocat-exces-de-vitesse-aix-en-provence",
+        "score": 0,
+        "words": 4259,
+        "date": "2026-04-21"
+      },
       {
         "site": "victime",
         "ville": "Salon-de-Provence",
@@ -116,10 +146,11 @@
       "domain": "lexvox-victime.com",
       "label": "Victime / Dommage corporel",
       "color": "#3b82f6",
-      "articles": 2,
-      "latest": "2026-04-20",
+      "articles": 3,
+      "latest": "2026-04-21",
       "villes": [
         "Aix-en-Provence",
+        "Marignane",
         "Salon-de-Provence"
       ]
     },
@@ -127,8 +158,8 @@
       "domain": "lexvox-divorce.com",
       "label": "Divorce & Famille",
       "color": "#8b5cf6",
-      "articles": 2,
-      "latest": "2026-04-20",
+      "articles": 3,
+      "latest": "2026-04-21",
       "villes": [
         "Aix-en-Provence",
         "Salon-de-Provence"
@@ -138,8 +169,8 @@
       "domain": "lexvox-permis.com",
       "label": "Pénal routier",
       "color": "#ec4899",
-      "articles": 2,
-      "latest": "2026-04-20",
+      "articles": 3,
+      "latest": "2026-04-21",
       "villes": [
         "Aix-en-Provence",
         "Salon-de-Provence"
