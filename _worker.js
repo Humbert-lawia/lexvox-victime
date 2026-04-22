@@ -112,12 +112,6 @@ export default {
     const { pathname } = url;
     const method = request.method.toUpperCase();
 
-    // Redirection www → non-www (301)
-    if (url.hostname.startsWith('www.')) {
-      const nonWwwUrl = request.url.replace(`://${url.hostname}`, `://${url.hostname.slice(4)}`);
-      return Response.redirect(nonWwwUrl, 301);
-    }
-
     // CORS preflight
     if (method === 'OPTIONS') {
       return new Response(null, { headers: CORS_HEADERS });

@@ -18,12 +18,32 @@
 /equipe                              /cabinet                              301
 /nous-contacter                      /contact                              301
 
-# Bureaux
+# Bureaux (URLs courtes)
 /aix-en-provence                     /cabinet/aix-en-provence              301
 /salon-de-provence                   /cabinet/salon-de-provence            301
 /arles                               /cabinet/arles                        301
 /marignane                           /cabinet/marignane                    301
 /nimes                               /cabinet/nimes                        301
+
+# Bureaux — URLs plates avocat-victime-[ville] → /cabinet/[ville] (audit 2026-04-22)
+/avocat-victime-aix-en-provence          /cabinet/aix-en-provence           301
+/avocat-victime-aix-en-provence/         /cabinet/aix-en-provence           301
+/avocat-victime-salon-de-provence        /cabinet/salon-de-provence         301
+/avocat-victime-salon-de-provence/       /cabinet/salon-de-provence         301
+/avocat-victime-arles                    /cabinet/arles                     301
+/avocat-victime-arles/                   /cabinet/arles                     301
+/avocat-victime-marignane                /cabinet/marignane                 301
+/avocat-victime-marignane/               /cabinet/marignane                 301
+/avocat-victime-nimes                    /cabinet/nimes                     301
+/avocat-victime-nimes/                   /cabinet/nimes                     301
+/avocat-aix-en-provence                  /cabinet/aix-en-provence           301
+/avocat-aix-en-provence/                 /cabinet/aix-en-provence           301
+/avocat-salon-de-provence                /cabinet/salon-de-provence         301
+/avocat-salon-de-provence/               /cabinet/salon-de-provence         301
+/avocat-arles                            /cabinet/arles                     301
+/avocat-arles/                           /cabinet/arles                     301
+/avocat-marignane                        /cabinet/marignane                 301
+/avocat-marignane/                       /cabinet/marignane                 301
 
 # Articles manquants (4XX) — redirections vers pages piliers pertinentes
 /actualites/avocat-erreur-medicale-indemnisation-salon-de-provence  /erreur-medicale  301
@@ -36,6 +56,6 @@
 /news                                /actualites                           301
 
 # Fallback 404
-/*  /404  404
 /actualites/5-erreurs-qui-reduisent-votre-indemnisation-apres-un-acciden /actualites/5-erreurs-qui-reduisent-votre-indemnisation-apres-un-accident-l 301
 /actualites/comment-ecrire-une-lettre-de-doleance-apres-un-accident-guid /actualites/comment-ecrire-une-lettre-de-doleance-apres-un-accident-guide-p 301
+/*  /404  404
