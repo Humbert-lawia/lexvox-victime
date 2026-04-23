@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T07:31:29.045037",
+  "generated_at": "2026-04-23T07:33:56.268190",
   "nw": {
     "used": 0,
     "cap": 150,
@@ -9,11 +9,11 @@
     "keywords": []
   },
   "articles": {
-    "total": 12,
+    "total": 15,
     "by_site": {
       "victime": {
-        "count": 4,
-        "latest": "2026-04-22",
+        "count": 5,
+        "latest": "2026-04-23",
         "villes": [
           "Aix-en-Provence",
           "Arles",
@@ -26,8 +26,8 @@
         ]
       },
       "divorce": {
-        "count": 4,
-        "latest": "2026-04-22",
+        "count": 5,
+        "latest": "2026-04-23",
         "villes": [
           "Aix-en-Provence",
           "Marignane",
@@ -36,18 +36,21 @@
         "themes": [
           "Avocat divorce contentieux",
           "Avocat divorce à l'amiable",
-          "Avocat garde enfants divorce"
+          "Avocat garde enfants divorce",
+          "Pension alimentaire divorce"
         ]
       },
       "permis": {
-        "count": 4,
-        "latest": "2026-04-22",
+        "count": 5,
+        "latest": "2026-04-23",
         "villes": [
           "Aix-en-Provence",
+          "Marignane",
           "Salon-de-Provence"
         ],
         "themes": [
           "Avocat alcool au volant",
+          "Avocat délit de fuite",
           "Avocat excès de vitesse",
           "Avocat permis suspendu",
           "Avocat stupéfiants au volant"
@@ -55,6 +58,33 @@
       }
     },
     "recent": [
+      {
+        "site": "victime",
+        "ville": "Aix-en-Provence",
+        "theme": "Avocat erreur médicale",
+        "slug": "avocat-erreur-medicale-aix-en-provence",
+        "score": 0,
+        "words": 4315,
+        "date": "2026-04-23"
+      },
+      {
+        "site": "divorce",
+        "ville": "Salon-de-Provence",
+        "theme": "Pension alimentaire divorce",
+        "slug": "pension-alimentaire-divorce-salon-de-provence",
+        "score": 0,
+        "words": 4353,
+        "date": "2026-04-23"
+      },
+      {
+        "site": "permis",
+        "ville": "Marignane",
+        "theme": "Avocat délit de fuite",
+        "slug": "avocat-delit-de-fuite-marignane",
+        "score": 0,
+        "words": 4214,
+        "date": "2026-04-23"
+      },
       {
         "site": "victime",
         "ville": "Arles",
@@ -176,8 +206,8 @@
       "domain": "lexvox-victime.com",
       "label": "Victime / Dommage corporel",
       "color": "#3b82f6",
-      "articles": 4,
-      "latest": "2026-04-22",
+      "articles": 5,
+      "latest": "2026-04-23",
       "villes": [
         "Aix-en-Provence",
         "Arles",
@@ -189,8 +219,8 @@
       "domain": "lexvox-divorce.com",
       "label": "Divorce & Famille",
       "color": "#8b5cf6",
-      "articles": 4,
-      "latest": "2026-04-22",
+      "articles": 5,
+      "latest": "2026-04-23",
       "villes": [
         "Aix-en-Provence",
         "Marignane",
@@ -201,10 +231,11 @@
       "domain": "lexvox-permis.com",
       "label": "Pénal routier",
       "color": "#ec4899",
-      "articles": 4,
-      "latest": "2026-04-22",
+      "articles": 5,
+      "latest": "2026-04-23",
       "villes": [
         "Aix-en-Provence",
+        "Marignane",
         "Salon-de-Provence"
       ]
     }
