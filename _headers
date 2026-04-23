@@ -16,3 +16,15 @@
 
 /img/*
   Cache-Control: public, max-age=2592000
+
+/monitor/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'
+  X-Robots-Tag: noindex, nofollow, noarchive
+  Referrer-Policy: no-referrer
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  Cache-Control: private, no-cache, no-store, must-revalidate
+
+/monitor/lexvox-data.json
+  Cache-Control: private, no-cache, no-store, must-revalidate
+  X-Robots-Tag: noindex
