@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'">
+<title>LEXVOX Monitor — Dashboard SEO</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"
+        integrity="sha384-8VQhNwPYcfUQyMruyYR7Rzu0Nxxl9/1FUd6Qza2HN4yELUx1nF1ZwHoh8CuJfYC/"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0f1117;--surface:#1a1d27;--surface2:#22263a;--surface3:#2a2f47;
+  --border:#2a2f47;--text:#e2e8f0;--muted:#64748b;
+  --blue:#3b82f6;--purple:#8b5cf6;--pink:#ec4899;
+  --green:#22c55e;--red:#ef4444;--yellow:#f59e0b;--orange:#f97316;--teal:#14b8a6;
+}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:14px;min-height:100vh}
+
+/* HEADER */
+header{background:var(--surface);border-bottom:1px solid var(--border);padding:0 20px;display:flex;align-items:center;gap:10px;position:sticky;top:0;z-index:100;height:54px;flex-wrap:nowrap;overflow-x:auto}
+.logo{width:28px;height:28px;background:linear-gradient(135deg,#3b82f6,#8b5cf6);border-radius:7px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.logo svg{width:16px;height:16px}
+header h1{font-size:15px;font-weight:700;white-space:nowrap;flex-shrink:0}
+.tag{background:var(--surface3);color:var(--muted);font-size:10px;padding:2px 7px;border-radius:99px;font-weight:600;flex-shrink:0}
+
+/* NAV */
+nav{display:flex;gap:2px;margin-left:12px}
+.nav-tab{padding:7px 12px;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600;color:var(--muted);border:none;background:none;transition:all .15s;white-space:nowrap}
+.nav-tab:hover{color:var(--text);background:var(--surface2)}
+.nav-tab.active{color:var(--blue);background:rgba(59,130,246,.12)}
+
+#last-update{font-size:11px;color:var(--muted);margin-left:auto;white-space:nowrap;flex-shrink:0}
+.hdr-actions{display:flex;gap:6px;flex-shrink:0;margin-left:10px}
+.btn{padding:5px 11px;border-radius:6px;cursor:pointer;font-size:11px;font-weight:600;border:1px solid var(--border);transition:all .15s;white-space:nowrap}
+.btn-default{background:var(--surface2);color:var(--text)}
+.btn-default:hover{background:var(--surface3)}
+.btn-audit{background:var(--orange);color:#fff;border-color:var(--orange)}
+.btn-audit:hover{background:#ea580c}
+
+/* VIEWS */
+.view{display:none}
+.view.active{display:block}
+
+/* LAYOUT */
+.G{padding:16px 20px;max-width:1440px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+@media(max-width:1100px){.G{grid-template-columns:1fr 1fr}}
+@media(max-width:700px){.G{grid-template-columns:1fr}}
+.full{grid-column:1/-1}
+
+/* CARDS */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px}
+.ch{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.ct{font-size:10px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;display:flex;align-items:center;gap:6px}
+.ct .dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+.ca{font-size:11px;color:var(--blue);cursor:pointer;text-decoration:none;border:none;background:none}
+.ca:hover{text-decoration:underline}
+
+/* METRICS ROW */
+.mrow{padding:14px 20px 0;max-width:1440px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+@media(max-width:900px){.mrow{grid-template-columns:repeat(2,1fr)}}
+.mc{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:13px 15px;display:flex;align-items:center;gap:11px}
+.mi{width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0}
+.mb .ml{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+.mb .mv{font-size:22px;font-weight:800;line-height:1.2}
+.mb .ms{font-size:10px;color:var(--muted)}
+.mdelta{font-size:11px;font-weight:700;margin-left:auto}
+
+/* SITE CARDS */
+.sg{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:900px){.sg{grid-template-columns:1fr}}
+.sc{background:var(--surface2);border-radius:10px;padding:15px;border-left:3px solid var(--blue);transition:transform .15s,box-shadow .15s}
+.sc:hover{transform:translateY(-2px);box-shadow:0 4px 20px rgba(0,0,0,.3)}
+.sc-hd{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px}
+.sc .sn{font-size:13px;font-weight:700}
+.sb-score{font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px}
+.sg-ok{background:rgba(34,197,94,.15);color:var(--green)}
+.sg-mid{background:rgba(245,158,11,.15);color:var(--yellow)}
+.sg-bad{background:rgba(239,68,68,.15);color:var(--red)}
+.sg-none{background:var(--surface3);color:var(--muted)}
+.sd a{font-size:11px;color:var(--blue);text-decoration:none;display:inline-flex;align-items:center;gap:3px}
+.sd a:hover{text-decoration:underline}
+.sm{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:12px}
+.smi .lbl{font-size:10px;color:var(--muted)}
+.smi .val{font-size:20px;font-weight:700;line-height:1.2}
+.smi .sub{font-size:10px;color:var(--muted);margin-top:2px}
+.sf{margin-top:12px;display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:10px;padding:2px 7px;border-radius:99px;background:var(--surface3);color:var(--muted);display:inline-flex;align-items:center;gap:3px}
+.chip.ok{background:rgba(34,197,94,.1);color:var(--green)}
+.chip.warn{background:rgba(245,158,11,.1);color:var(--yellow)}
+.chip.err{background:rgba(239,68,68,.1);color:var(--red)}
+
+/* NW BUDGET */
+.nw-main{display:flex;align-items:flex-end;gap:8px;margin-bottom:12px}
+.nw-count{font-size:40px;font-weight:800;line-height:1}
+.nw-cap{font-size:15px;color:var(--muted);margin-bottom:5px}
+.nw-rem{font-size:12px;color:var(--muted)}
+.pb{height:8px;background:var(--surface2);border-radius:99px;overflow:hidden;margin:7px 0}
+.pf{height:100%;border-radius:99px;transition:width .5s}
+.pf.green{background:var(--green)}
+.pf.yellow{background:var(--yellow)}
+.pf.red{background:var(--red)}
+.nw-kw{margin-top:10px}
+.nw-ki{font-size:11px;color:var(--muted);padding:3px 0;border-bottom:1px solid var(--border);display:flex;justify-content:space-between}
+.nw-ki:last-child{border-bottom:none}
+
+/* PLAN */
+.plan-main{display:flex;align-items:flex-end;gap:8px;margin-bottom:12px}
+.pb-big{font-size:40px;font-weight:800;line-height:1}
+.pb-sub{font-size:14px;color:var(--muted);margin-bottom:5px}
+.dg{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px}
+.dd{width:23px;height:23px;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:600}
+.dd.done{background:#14532d;color:#86efac}
+.dd.partial{background:#451a03;color:#fed7aa}
+.dd.pending{background:var(--surface2);color:var(--muted)}
+.dd.today{outline:2px solid var(--yellow)}
+
+/* TABLES */
+table{width:100%;border-collapse:collapse}
+th{text-align:left;color:var(--muted);font-size:10px;font-weight:600;text-transform:uppercase;padding:6px 8px;border-bottom:1px solid var(--border);letter-spacing:.3px}
+td{padding:7px 8px;border-bottom:1px solid var(--border);font-size:12px;vertical-align:middle}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:var(--surface2)}
+td a{color:var(--blue);text-decoration:none}
+td a:hover{text-decoration:underline}
+
+/* BADGES */
+.badge{display:inline-block;padding:2px 7px;border-radius:4px;font-size:10px;font-weight:600;white-space:nowrap}
+.badge-victime{background:#1e3a5f;color:#93c5fd}
+.badge-divorce{background:#2e1065;color:#c4b5fd}
+.badge-permis{background:#500724;color:#fbcfe8}
+
+/* POSITIONS */
+.pos-row{display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px solid var(--border)}
+.pos-row:last-child{border-bottom:none}
+.pos-rank{font-size:17px;font-weight:800;width:34px;text-align:center;flex-shrink:0}
+.pos-rank.top3{color:var(--yellow)}
+.pos-rank.top10{color:var(--green)}
+.pos-rank.top30{color:var(--blue)}
+.pos-rank.other{color:var(--muted)}
+.pos-info{flex:1;min-width:0}
+.pos-kw{font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pos-dom{font-size:10px;color:var(--muted)}
+.pos-d{font-size:11px;font-weight:700;flex-shrink:0;width:36px;text-align:right}
+.pos-c{font-size:10px;color:var(--muted);width:48px;text-align:right}
+.du{color:var(--green)}.dd2{color:var(--red)}.dn{color:var(--yellow)}.df{color:var(--muted)}
+
+/* WP */
+.wp-s{background:var(--surface2);border-radius:8px;padding:11px;margin-bottom:8px;display:flex;align-items:center;gap:10px}
+.wp-s:last-child{margin-bottom:0}
+.wp-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.wp-dot.ok{background:var(--green);box-shadow:0 0 6px var(--green)}
+.wp-dot.warn{background:var(--yellow)}
+.wp-dot.err{background:var(--red)}
+.wp-dot.unknown{background:var(--muted)}
+.wp-name{flex:1;font-size:13px;font-weight:600}
+.wp-name a{color:var(--text);text-decoration:none}
+.wp-name a:hover{color:var(--blue)}
+.wp-dom{font-size:10px;color:var(--muted)}
+.wp-meta{font-size:11px;color:var(--muted);text-align:right}
+
+/* AUDIT */
+.ag{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:900px){.ag{grid-template-columns:1fr}}
+.asc{background:var(--surface2);border-radius:10px;padding:16px;border-top:3px solid transparent}
+.as-ring{text-align:center;margin-bottom:14px}
+.as-num{font-size:46px;font-weight:800;line-height:1}
+.as-lbl{font-size:11px;color:var(--muted);margin-top:4px}
+.ad{display:flex;flex-direction:column;gap:7px}
+.adi{display:flex;align-items:center;gap:7px}
+.adl{font-size:11px;color:var(--muted);width:90px;flex-shrink:0}
+.adb{flex:1;height:5px;background:var(--surface3);border-radius:99px;overflow:hidden}
+.adf{height:100%;border-radius:99px}
+.adv{font-size:11px;font-weight:700;width:28px;text-align:right;flex-shrink:0}
+
+/* CHARTS */
+.cw{position:relative;height:210px}
+.cw-lg{position:relative;height:270px}
+.cw-xl{position:relative;height:320px}
+.cw-md{position:relative;height:180px}
+/* Traffic period selector */
+.tp-btns{display:flex;gap:4px}
+.tp-btn{background:rgba(42,47,71,.7);border:1px solid rgba(99,102,241,.25);color:var(--muted);padding:3px 10px;border-radius:5px;cursor:pointer;font-size:11px;font-weight:600;transition:all .15s}
+.tp-btn:hover{background:rgba(99,102,241,.2);color:#e2e8f0}
+.tp-btn.active{background:rgba(59,130,246,.25);border-color:#3b82f6;color:#e2e8f0}
+/* Top pages chart container */
+.top-pages-cw{position:relative;height:260px}
+
+/* FILTERS */
+.frow{display:flex;gap:7px;margin-bottom:13px;flex-wrap:wrap}
+.fb{padding:4px 11px;border-radius:6px;border:1px solid var(--border);background:var(--surface2);color:var(--muted);font-size:11px;cursor:pointer;transition:all .15s}
+.fb.active{border-color:var(--blue);color:var(--blue);background:rgba(59,130,246,.1)}
+.fb:hover{color:var(--text)}
+
+/* ALERTS */
+.alert{padding:10px 14px;border-radius:8px;margin-bottom:12px;font-size:12px;display:flex;align-items:flex-start;gap:8px}
+.alert-info{background:rgba(59,130,246,.1);border:1px solid rgba(59,130,246,.2);color:#93c5fd}
+.alert-warn{background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);color:#fcd34d}
+.alert-ok{background:rgba(34,197,94,.1);border:1px solid rgba(34,197,94,.2);color:#86efac}
+
+/* CWV */
+.cwv-g{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px}
+.cwv-i{background:var(--surface2);border-radius:7px;padding:10px;text-align:center}
+.cwv-n{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+.cwv-v{font-size:22px;font-weight:800}
+.cwv-u{font-size:10px;color:var(--muted)}
+.cwv-ok{color:var(--green)}.cwv-mid{color:var(--yellow)}.cwv-bad{color:var(--red)}
+
+/* MISC */
+.loading{color:var(--muted);font-style:italic;text-align:center;padding:20px}
+.empty{text-align:center;padding:32px 16px;color:var(--muted)}
+.empty .ei{font-size:28px;margin-bottom:8px}
+.empty p{font-size:12px}
+.twrap{overflow-x:auto}
+.gsc-note{font-size:12px;color:var(--muted);text-align:center;padding:20px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <svg viewBox="0 0 16 16" fill="none"><path d="M2 12L6 7L10 9.5L14 4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </div>
+  <h1>LEXVOX Monitor</h1>
+  <span class="tag">SEO</span>
+  <nav>
+    <button class="nav-tab active" data-view="overview" onclick="sv('overview')">📊 Aperçu</button>
+    <button class="nav-tab" data-view="audit" onclick="sv('audit')">🔍 Audit</button>
+    <button class="nav-tab" data-view="articles" onclick="sv('articles')">📝 Articles</button>
+    <button class="nav-tab" data-view="positions" onclick="sv('positions')">📈 Positions</button>
+    <button class="nav-tab" data-view="trafic" onclick="sv('trafic')">📉 Trafic GSC</button>
+    <button class="nav-tab" data-view="technique" onclick="sv('technique')">⚙️ Technique</button>
+  </nav>
+  <span id="last-update">—</span> <span id="last-update-age" style="color:var(--muted);font-size:11px"></span>
+  <div class="hdr-actions">
+    <button class="btn btn-default" onclick="loadData()">↻ Actu.</button>
+    <button class="btn btn-audit" onclick="triggerAudit()">🚀 Lancer l'audit</button>
+  </div>
+</header>
+<div id="integrity-banner" style="display:none;padding:10px 20px;background:#ef4444;color:#fff;font-weight:600;text-align:center"></div>
+
+<!-- ═══════════════ VUE D'ENSEMBLE ═══════════════ -->
+<div class="view active" id="view-overview">
+  <div class="mrow" id="mrow">
+    <div class="mc"><div class="mi" style="background:rgba(59,130,246,.15)">📝</div><div class="mb"><div class="ml">Articles publiés</div><div class="mv" id="m-arts">—</div><div class="ms" id="m-arts-s">—</div></div></div>
+    <div class="mc"><div class="mi" style="background:rgba(34,197,94,.15)">🎯</div><div class="mb"><div class="ml">Score SEO moyen</div><div class="mv" id="m-score">—</div><div class="ms">sur 100</div></div><div class="mdelta" id="m-score-d"></div></div>
+    <div class="mc"><div class="mi" style="background:rgba(139,92,246,.15)">🔑</div><div class="mb"><div class="ml">NeuronWriter</div><div class="mv" id="m-nw">—</div><div class="ms" id="m-nw-s">— restantes</div></div></div>
+    <div class="mc"><div class="mi" style="background:rgba(245,158,11,.15)">📅</div><div class="mb"><div class="ml">Plan éditorial</div><div class="mv" id="m-plan">—</div><div class="ms" id="m-plan-s">—</div></div></div>
+  </div>
+
+  <div class="G">
+    <!-- Sites -->
+    <div class="card full">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--green)"></span>Sites Cloudflare</div>
+        <a class="ca" href="https://dash.cloudflare.com" target="_blank" rel="noopener">Tableau CF ↗</a>
+      </div>
+      <div class="sg" id="sites-grid"><div class="loading">Chargement…</div></div>
+    </div>
+
+    <!-- Score Evolution -->
+    <div class="card full">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--blue)"></span>Évolution des scores SEO</div>
+        <button class="ca" onclick="sv('audit')">Détail audit →</button>
+      </div>
+      <div class="cw"><canvas id="scoreChart"></canvas></div>
+    </div>
+
+    <!-- NW Budget -->
+    <div class="card">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--yellow)"></span>Budget NeuronWriter</div></div>
+      <div id="nw-body"><div class="loading">—</div></div>
+    </div>
+
+    <!-- Plan éditorial -->
+    <div class="card">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--blue)"></span>Plan éditorial 30j</div></div>
+      <div id="plan-body"><div class="loading">—</div></div>
+    </div>
+
+    <!-- Top positions snapshot -->
+    <div class="card">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--purple)"></span>Top positions Google</div>
+        <button class="ca" onclick="sv('positions')">Voir tout →</button>
+      </div>
+      <div id="gsc-body"><div class="gsc-note">Positions après indexation Google (24-72h)</div></div>
+    </div>
+
+    <!-- Articles récents -->
+    <div class="card full">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--pink)"></span>Articles récents — <span id="articles-count">0</span></div>
+        <button class="ca" onclick="sv('articles')">Voir tous →</button>
+      </div>
+      <div class="twrap">
+        <table>
+          <thead><tr><th>Site</th><th>Ville</th><th>Thème</th><th>Keyword</th><th>Date</th><th>Article</th></tr></thead>
+          <tbody id="articles-body"><tr><td colspan="6" class="loading">—</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Sites WP -->
+    <div class="card">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--orange)"></span>Sites WordPress</div></div>
+      <div id="wp-body">
+        <div class="wp-s"><div class="wp-dot unknown"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-avocats.fr" target="_blank" rel="noopener">lexvox-avocats.fr ↗</a></div><div class="wp-dom">Cabinet principal</div></div><div class="wp-meta">Audit dim. 20h</div></div>
+        <div class="wp-s"><div class="wp-dot unknown"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-accident.fr" target="_blank" rel="noopener">lexvox-accident.fr ↗</a></div><div class="wp-dom">Accident de la route</div></div><div class="wp-meta">—</div></div>
+        <div class="wp-s"><div class="wp-dot unknown"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-divorce.fr" target="_blank" rel="noopener">lexvox-divorce.fr ↗</a></div><div class="wp-dom">Divorce WP</div></div><div class="wp-meta">—</div></div>
+        <div class="wp-s"><div class="wp-dot unknown"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-medical.fr" target="_blank" rel="noopener">lexvox-medical.fr ↗</a></div><div class="wp-dom">Erreur médicale</div></div><div class="wp-meta">—</div></div>
+      </div>
+    </div>
+
+    <!-- Répartition articles -->
+    <div class="card">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--pink)"></span>Répartition par site</div></div>
+      <div class="cw-md"><canvas id="distChart"></canvas></div>
+    </div>
+
+    <!-- Articles par semaine -->
+    <div class="card">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--green)"></span>Production hebdomadaire</div></div>
+      <div class="cw-md"><canvas id="weeklyChart"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ AUDIT SEO ═══════════════ -->
+<div class="view" id="view-audit">
+  <div class="G">
+    <div class="full" id="audit-alert">
+      <div class="alert alert-info">🔍 <span id="audit-last-run">Aucun audit — cliquez "Lancer l'audit" pour analyser les 3 sites (technique, contenu, local SEO, schema, performance, backlinks, visibilité IA).</span></div>
+    </div>
+
+    <!-- Scores par site -->
+    <div class="card full">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--green)"></span>Scores audit par site</div>
+        <button class="btn btn-audit" onclick="triggerAudit()">🚀 Nouvel audit</button>
+      </div>
+      <div class="ag" id="audit-grid"><div class="loading">Aucun audit — cliquez "Lancer l'audit"</div></div>
+    </div>
+
+    <!-- Radar victime -->
+    <div class="card">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--blue)"></span>Radar — <a href="https://lexvox-victime.com" target="_blank" rel="noopener" style="color:var(--blue);text-decoration:none">lexvox-victime.com ↗</a></div></div>
+      <div class="cw"><canvas id="radarVictime"></canvas></div>
+    </div>
+
+    <!-- Radar divorce -->
+    <div class="card">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--purple)"></span>Radar — <a href="https://lexvox-divorce.com" target="_blank" rel="noopener" style="color:var(--purple);text-decoration:none">lexvox-divorce.com ↗</a></div></div>
+      <div class="cw"><canvas id="radarDivorce"></canvas></div>
+    </div>
+
+    <!-- Historique -->
+    <div class="card">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--orange)"></span>Historique des audits</div></div>
+      <div class="cw"><canvas id="auditHistChart"></canvas></div>
+    </div>
+
+    <!-- Checklist SEO -->
+    <div class="card full">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--yellow)"></span>Checklist qualité SEO — état actuel</div></div>
+      <div class="twrap">
+        <table>
+          <thead><tr><th>Point de contrôle</th><th>Catégorie</th><th>Victime</th><th>Divorce</th><th>Permis</th><th>Priorité</th></tr></thead>
+          <tbody id="checklist-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ ARTICLES ═══════════════ -->
+<div class="view" id="view-articles">
+  <div class="G">
+    <div class="card full">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--pink)"></span>Tous les articles — <span id="all-count">0</span></div>
+      </div>
+      <div class="frow">
+        <button class="fb active" data-f="all" onclick="filterArts('all')">Tous</button>
+        <button class="fb" data-f="victime" onclick="filterArts('victime')">🔵 Victime</button>
+        <button class="fb" data-f="divorce" onclick="filterArts('divorce')">🟣 Divorce</button>
+        <button class="fb" data-f="permis" onclick="filterArts('permis')">🔴 Permis</button>
+      </div>
+      <div class="twrap">
+        <table>
+          <thead><tr><th>Site</th><th>Ville</th><th>Thème</th><th>Keyword NW</th><th>Date</th><th>Article ↗</th><th>Score</th></tr></thead>
+          <tbody id="all-arts-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Production hebdo -->
+    <div class="card full">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--blue)"></span>Production hebdomadaire détaillée</div></div>
+      <div class="cw-lg"><canvas id="weeklyDetailChart"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ POSITIONS ═══════════════ -->
+<div class="view" id="view-positions">
+  <div class="G">
+    <div class="full">
+      <div class="alert alert-info">📈 Positions Google Search Console — synchronisation automatique chaque jour via le pipeline LAWIA-SEO. Cliquez les mots-clés pour voir la page Google.</div>
+    </div>
+
+    <!-- Victime -->
+    <div class="card">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--blue)"></span>Positions — Victime</div>
+        <a class="ca" href="https://lexvox-victime.com" target="_blank" rel="noopener">Visiter ↗</a>
+      </div>
+      <div id="pos-victime"><div class="gsc-note">En attente des données GSC</div></div>
+    </div>
+
+    <!-- Divorce -->
+    <div class="card">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--purple)"></span>Positions — Divorce</div>
+        <a class="ca" href="https://lexvox-divorce.com" target="_blank" rel="noopener">Visiter ↗</a>
+      </div>
+      <div id="pos-divorce"><div class="gsc-note">En attente des données GSC</div></div>
+    </div>
+
+    <!-- Distribution -->
+    <div class="card">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--green)"></span>Distribution positions</div></div>
+      <div class="cw"><canvas id="posDistChart"></canvas></div>
+    </div>
+
+    <!-- Évolution top KWs -->
+    <div class="card full">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--purple)"></span>Évolution top mots-clés</div></div>
+      <div class="cw-lg"><canvas id="posEvoChart"></canvas></div>
+    </div>
+
+    <!-- Opportunités 11-30 -->
+    <div class="card full">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--yellow)"></span>Opportunités — positions 11 à 30 (page 2 → page 1)</div></div>
+      <div id="opps-body">
+        <div class="empty"><div class="ei">🎯</div><p>Les mots-clés en positions 11-30 apparaîtront ici après synchronisation GSC.</p><p style="margin-top:6px">Ce sont vos meilleures opportunités pour atteindre la page 1.</p></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ TECHNIQUE ═══════════════ -->
+<div class="view" id="view-technique">
+  <div class="G">
+    <!-- CWV Victime -->
+    <div class="card">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--blue)"></span>CWV — lexvox-victime.com</div>
+        <a class="ca" href="https://pagespeed.web.dev/report?url=https://lexvox-victime.com" target="_blank" rel="noopener">PageSpeed ↗</a>
+      </div>
+      <div id="cwv-victime"><div class="gsc-note">—</div></div>
+    </div>
+
+    <!-- CWV Divorce -->
+    <div class="card">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--purple)"></span>CWV — lexvox-divorce.com</div>
+        <a class="ca" href="https://pagespeed.web.dev/report?url=https://lexvox-divorce.com" target="_blank" rel="noopener">PageSpeed ↗</a>
+      </div>
+      <div id="cwv-divorce"><div class="gsc-note">—</div></div>
+    </div>
+
+    <!-- Schema -->
+    <div class="card">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--green)"></span>Schema.org — Données structurées</div></div>
+      <div>
+        <div class="wp-s"><div class="wp-dot ok"></div><div style="flex:1"><div class="wp-name"><a href="https://search.google.com/test/rich-results?url=https://lexvox-victime.com" target="_blank" rel="noopener">lexvox-victime.com ↗</a></div><div class="wp-dom">LegalService + LocalBusiness + FAQPage + GeoJSON</div></div><div class="wp-meta"><span class="chip ok">✓ Valide</span></div></div>
+        <div class="wp-s"><div class="wp-dot ok"></div><div style="flex:1"><div class="wp-name"><a href="https://search.google.com/test/rich-results?url=https://lexvox-divorce.com" target="_blank" rel="noopener">lexvox-divorce.com ↗</a></div><div class="wp-dom">LegalService + LocalBusiness + FAQPage + GeoJSON</div></div><div class="wp-meta"><span class="chip ok">✓ Valide</span></div></div>
+        <div class="wp-s"><div class="wp-dot warn"></div><div style="flex:1"><div class="wp-name"><a href="https://search.google.com/test/rich-results?url=https://lexvox-permis.com" target="_blank" rel="noopener">lexvox-permis.com ↗</a></div><div class="wp-dom">LegalService seulement</div></div><div class="wp-meta"><span class="chip warn">⚠ Partiel</span></div></div>
+      </div>
+    </div>
+
+    <!-- Sitemaps -->
+    <div class="card">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--teal)"></span>Sitemaps XML</div></div>
+      <div>
+        <div class="wp-s"><div class="wp-dot ok"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-victime.com/sitemap.xml" target="_blank" rel="noopener">lexvox-victime.com/sitemap.xml ↗</a></div><div class="wp-dom" id="sitemap-v-count">—</div></div></div>
+        <div class="wp-s"><div class="wp-dot ok"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-divorce.com/sitemap.xml" target="_blank" rel="noopener">lexvox-divorce.com/sitemap.xml ↗</a></div><div class="wp-dom" id="sitemap-d-count">—</div></div></div>
+        <div class="wp-s"><div class="wp-dot warn"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-permis.com/sitemap.xml" target="_blank" rel="noopener">lexvox-permis.com/sitemap.xml ↗</a></div><div class="wp-dom">À vérifier</div></div></div>
+      </div>
+    </div>
+
+    <!-- AI / GEO -->
+    <div class="card">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--yellow)"></span>Visibilité IA (GEO — ChatGPT / Perplexity)</div></div>
+      <div>
+        <div class="wp-s"><div class="wp-dot ok"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-victime.com/llms.txt" target="_blank" rel="noopener">llms.txt — Victime ↗</a></div><div class="wp-dom">Optimisé IA — passages citationnels</div></div><div class="wp-meta"><span class="chip ok">✓</span></div></div>
+        <div class="wp-s"><div class="wp-dot ok"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-divorce.com/llms.txt" target="_blank" rel="noopener">llms.txt — Divorce ↗</a></div><div class="wp-dom">Optimisé IA — passages citationnels</div></div><div class="wp-meta"><span class="chip ok">✓</span></div></div>
+        <div class="wp-s"><div class="wp-dot unknown"></div><div style="flex:1"><div class="wp-name">Google AI Overviews</div><div class="wp-dom">Monitoring via agent seo-geo</div></div><div class="wp-meta">—</div></div>
+      </div>
+    </div>
+
+    <!-- Robots / Crawl -->
+    <div class="card">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--orange)"></span>Crawlabilité</div></div>
+      <div>
+        <div class="wp-s"><div class="wp-dot ok"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-victime.com/robots.txt" target="_blank" rel="noopener">robots.txt — Victime ↗</a></div><div class="wp-dom">Googlebot autorisé · Sitemap référencé</div></div><div class="wp-meta"><span class="chip ok">✓</span></div></div>
+        <div class="wp-s"><div class="wp-dot ok"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-divorce.com/robots.txt" target="_blank" rel="noopener">robots.txt — Divorce ↗</a></div><div class="wp-dom">Googlebot autorisé · Sitemap référencé</div></div><div class="wp-meta"><span class="chip ok">✓</span></div></div>
+      </div>
+    </div>
+
+    <!-- Performance Lighthouse -->
+    <div class="card full">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--green)"></span>Scores Lighthouse estimés</div><span style="font-size:10px;color:var(--muted)">Données estimées — lancez un audit pour les scores réels</span></div>
+      <div class="cw"><canvas id="perfChart"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ TRAFIC GSC ═══════════════ -->
+<div class="view" id="view-trafic">
+  <div class="G">
+
+    <!-- Alerte démo -->
+    <div class="full" id="traffic-demo-note" style="display:none">
+      <div class="alert alert-info">📊 Données de démonstration — connectez GSC dans le pipeline pour afficher le trafic réel (clics · impressions · pages).</div>
+    </div>
+
+    <!-- KPI clics / impressions par site -->
+    <div class="full">
+      <div class="mrow" id="traffic-kpi">
+        <div class="mc"><div class="mi" style="background:rgba(59,130,246,.15)">📊</div><div class="mb"><div class="ml">Victime — clics</div><div class="mv" id="tkpi-v-clicks">—</div><div class="ms" id="tkpi-v-impr">—</div></div></div>
+        <div class="mc"><div class="mi" style="background:rgba(139,92,246,.15)">📊</div><div class="mb"><div class="ml">Divorce — clics</div><div class="mv" id="tkpi-d-clicks">—</div><div class="ms" id="tkpi-d-impr">—</div></div></div>
+        <div class="mc"><div class="mi" style="background:rgba(236,72,153,.15)">📊</div><div class="mb"><div class="ml">Permis — clics</div><div class="mv" id="tkpi-p-clicks">—</div><div class="ms" id="tkpi-p-impr">—</div></div></div>
+        <div class="mc"><div class="mi" style="background:rgba(34,197,94,.15)">📈</div><div class="mb"><div class="ml">Total clics</div><div class="mv" id="tkpi-total">—</div><div class="ms" id="tkpi-period-label">7 derniers jours</div></div></div>
+      </div>
+    </div>
+
+    <!-- Clics par site dans le temps -->
+    <div class="card full">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--blue)"></span>Clics par site — évolution</div>
+        <div class="tp-btns">
+          <button class="tp-btn active" data-p="7"   onclick="setTrafficPeriod(7)">7j</button>
+          <button class="tp-btn"        data-p="30"  onclick="setTrafficPeriod(30)">30j</button>
+          <button class="tp-btn"        data-p="180" onclick="setTrafficPeriod(180)">6 mois</button>
+        </div>
+      </div>
+      <div class="cw-xl"><canvas id="trafficClicksChart"></canvas></div>
+    </div>
+
+    <!-- Impressions par site dans le temps -->
+    <div class="card full">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--purple)"></span>Impressions par site — évolution</div>
+      </div>
+      <div class="cw-xl"><canvas id="trafficImpressionsChart"></canvas></div>
+    </div>
+
+    <!-- Top 10 pages — Victime -->
+    <div class="card">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--blue)"></span>Top pages — lexvox-victime.com</div>
+        <a class="ca" href="https://search.google.com/search-console" target="_blank" rel="noopener">GSC ↗</a>
+      </div>
+      <div class="top-pages-cw"><canvas id="topPagesVictimeChart"></canvas></div>
+    </div>
+
+    <!-- Top 10 pages — Divorce -->
+    <div class="card">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--purple)"></span>Top pages — lexvox-divorce.com</div>
+        <a class="ca" href="https://search.google.com/search-console" target="_blank" rel="noopener">GSC ↗</a>
+      </div>
+      <div class="top-pages-cw"><canvas id="topPagesDivorceChart"></canvas></div>
+    </div>
+
+    <!-- Top 10 pages — Permis -->
+    <div class="card full">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--pink)"></span>Top pages — lexvox-permis.com</div>
+      </div>
+      <div class="top-pages-cw"><canvas id="topPagesPermisChart"></canvas></div>
+    </div>
+
+    <!-- Note GSC -->
+    <div class="full">
+      <div class="alert alert-info" style="font-size:12px">📌 Données Google Search Console · Lag de ~3 jours · Mise à jour quotidienne via le pipeline LAWIA-SEO (cron 6h UTC). Les clics correspondent aux visiteurs ayant cliqué sur un résultat Google vers ce site.</div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+// ═══════════ CONFIG ═══════════
+const SITE_META = {
+  victime:{ label:'Victime / Dommage corporel', color:'#3b82f6', badge:'badge-victime', domain:'lexvox-victime.com', url:'https://lexvox-victime.com', dir:'actualites' },
+  divorce:{ label:'Divorce & Famille',           color:'#8b5cf6', badge:'badge-divorce', domain:'lexvox-divorce.com', url:'https://lexvox-divorce.com', dir:'actualites' },
+  permis: { label:'Pénal routier',               color:'#ec4899', badge:'badge-permis',  domain:'lexvox-permis.com',  url:'https://lexvox-permis.com',  dir:'actualites' },
+};
+
+const DIMS = [
+  {key:'technique',   label:'Technique',   color:'#3b82f6'},
+  {key:'contenu',     label:'Contenu',     color:'#8b5cf6'},
+  {key:'local',       label:'Local SEO',   color:'#14b8a6'},
+  {key:'schema',      label:'Schema',      color:'#22c55e'},
+  {key:'performance', label:'Perfs',       color:'#f59e0b'},
+  {key:'backlinks',   label:'Backlinks',   color:'#ec4899'},
+  {key:'ai_visibility',label:'Visib. IA', color:'#f97316'},
+];
+
+const DEFAULT_AUDIT = {
+  victime:{ technique:75, contenu:72, local:60, schema:85, performance:70, backlinks:35, ai_visibility:55, score:80 },
+  divorce:{ technique:70, contenu:68, local:55, schema:80, performance:68, backlinks:30, ai_visibility:50, score:60 },
+  permis: { technique:45, contenu:40, local:30, schema:45, performance:60, backlinks:20, ai_visibility:30, score:null },
+};
+
+const CHECKLIST = [
+  {label:'Schema LegalService',         cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Schema LocalBusiness',        cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'FAQPage schema articles',     cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'GeoJSON bureaux',             cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'GBP Salon-de-Provence',       cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'GBP Aix-en-Provence',         cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Sitemap XML valide',          cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'robots.txt correct',          cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'llms.txt présent',            cat:'IA/GEO',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'H2/H3 CSS scopé articles',    cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Image hero articles',         cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Image milieu articles',       cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'FAQ accordéon <details>',     cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'4+ liens internes/article',   cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Liens Légifrance réels',      cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Alt images + OG meta',        cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Pages locales villes (4+)',   cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Deploy auto Cloudflare',      cat:'Pipeline',  k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'NeuronWriter optimisation',   cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Redirects 301 configurés',    cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Moyenne'},
+];
+
+const PRIO_COLOR = {Haute:'var(--red)',Moyenne:'var(--yellow)',Basse:'var(--green)'};
+const CAT_BADGE = {Schema:'badge-permis',Local:'badge-victime',Technique:'badge-divorce',Contenu:'badge-divorce','IA/GEO':'badge-permis',Pipeline:'badge-victime'};
+
+let gData = null;
+let allArts = [];
+let artFilter = 'all';
+let C = {};
+
+// ═══════════ NAVIGATION ═══════════
+function sv(view){
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById('view-'+view).classList.add('active');
+  document.querySelector('[data-view="'+view+'"]').classList.add('active');
+  history.replaceState(null,'','#'+view);
+  if(view==='audit')   { setTimeout(initAuditCharts,50); }
+  if(view==='positions'){ setTimeout(initPosCharts,50); }
+  if(view==='trafic')  { setTimeout(()=>initTrafficCharts(gData),50); }
+  if(view==='technique'){ setTimeout(initTechCharts,50); }
+}
+
+// ═══════════ LOAD ═══════════
+let lastSuccessfulFetch = null;
+let integrityStatus = 'unknown'; // 'ok' | 'mismatch' | 'no-manifest' | 'unknown'
+
+async function verifyIntegrity(json){
+  try{
+    // Tentative de chargement d'un manifest sha256 optionnel (produit par le pipeline)
+    const mr = await fetch('./lexvox-data.json.sha256?t='+Date.now(), {cache:'no-store'});
+    if(!mr.ok){ integrityStatus='no-manifest'; return true; }
+    const expected = (await mr.text()).trim().split(/\s+/)[0];
+    const encoded = new TextEncoder().encode(json);
+    const buf = await crypto.subtle.digest('SHA-256', encoded);
+    const actual = Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');
+    const ok = expected.toLowerCase() === actual.toLowerCase();
+    integrityStatus = ok ? 'ok' : 'mismatch';
+    return ok;
+  }catch{ integrityStatus='no-manifest'; return true; }
+}
+
+async function loadData(){
+  const banner = document.getElementById('integrity-banner');
+  try{
+    const r = await fetch('./lexvox-data.json?t='+Date.now(), {cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const text = await r.text();
+    const ok = await verifyIntegrity(text);
+    if(!ok){
+      if(banner){ banner.style.display='block'; banner.textContent='⚠ Intégrité compromise — données non affichées (mismatch SHA-256).'; }
+      return;
+    }
+    if(banner) banner.style.display='none';
+    gData = JSON.parse(text);
+    lastSuccessfulFetch = new Date();
+  }catch(e){
+    // Ne pas écraser les données déjà affichées si on a eu un succès avant
+    if(banner && !gData){ banner.style.display='block'; banner.textContent='⚠ Données indisponibles ('+e.message+')'; }
+  }
+  renderAll(gData);
+  updateAgeIndicator();
+}
+
+function updateAgeIndicator(){
+  const el = document.getElementById('last-update-age');
+  if(!el) return;
+  if(!lastSuccessfulFetch){ el.textContent=''; return; }
+  const min = Math.floor((Date.now() - lastSuccessfulFetch.getTime()) / 60000);
+  const tag = integrityStatus==='ok' ? ' ✓' : integrityStatus==='no-manifest' ? '' : '';
+  el.textContent = min<1 ? `• à l'instant${tag}` : `• il y a ${min} min${tag}`;
+}
+setInterval(updateAgeIndicator, 30000);
+
+function renderAll(d){
+  document.getElementById('last-update').textContent='Mis à jour : '+(d?new Date(d.generated_at).toLocaleString('fr-FR'):'—');
+  renderMetrics(d);
+  renderSites(d?.sites??{});
+  renderNW(d?.nw??null);
+  renderPlan(d?.plan??null);
+  renderGSCSnap(d?.positions??null);
+  renderArtsPreview(d?.articles??null);
+  renderAllArts(d?.articles??null);
+  renderAudit(d?.audit??null);
+  renderChecklist(d?.audit??null);
+  renderCWV(d?.technical??null);
+  if(d?.sites){
+    const v=d.sites.victime;const dv=d.sites.divorce;
+    if(v?.articles) document.getElementById('sitemap-v-count').textContent=(v.articles)+' URLs indexées';
+    if(dv?.articles) document.getElementById('sitemap-d-count').textContent=(dv.articles)+' URLs indexées';
+  }
+  initScoreChart(d);
+  initDistChart(d);
+  initWeeklyChart(d);
+}
+
+// ═══════════ METRICS ═══════════
+function renderMetrics(d){
+  const arts=d?.articles?.total??0;
+  document.getElementById('m-arts').textContent=arts;
+  document.getElementById('m-arts-s').textContent=arts>0?('+'+( d?.articles?.this_week??0)+' cette semaine'):'Pipeline actif';
+  const audit=d?.audit;
+  if(audit?.sites){
+    const scores=Object.values(audit.sites).map(s=>s.score).filter(x=>x!=null);
+    const avg=scores.length?Math.round(scores.reduce((a,b)=>a+b,0)/scores.length):null;
+    document.getElementById('m-score').textContent=avg!=null?(avg+'/100'):'—';
+    const delta=audit.delta_avg;
+    if(delta) document.getElementById('m-score-d').innerHTML=delta>0?`<span class="du">▲ +${delta}</span>`:`<span class="dd2">▼ ${delta}</span>`;
+  }
+  const nw=d?.nw;
+  if(nw){ document.getElementById('m-nw').textContent=nw.used; document.getElementById('m-nw-s').textContent=nw.remaining+' restantes / '+nw.cap; }
+  const plan=d?.plan;
+  if(plan){ document.getElementById('m-plan').textContent=plan.pct+'%'; document.getElementById('m-plan-s').textContent=plan.done+' / '+plan.total+' articles'; }
+}
+
+// ═══════════ SITES ═══════════
+function renderSites(sites){
+  const grid=document.getElementById('sites-grid');
+  grid.innerHTML=['victime','divorce','permis'].map(k=>{
+    const s=sites[k]??{};
+    const m=SITE_META[k];
+    const arts=s.articles??0;
+    const latest=s.latest?s.latest.slice(0,10):'—';
+    const villes=(s.villes??[]).length;
+    const score=s.score??null;
+    const scls=score===null?'sg-none':score>=70?'sg-ok':score>=50?'sg-mid':'sg-bad';
+    const sbadge=score!==null?`<span class="sb-score ${scls}">${score}/100</span>`:`<span class="sb-score sg-none">Non audité</span>`;
+    const sok=s.schema_ok!==false;const smok=s.sitemap_ok!==false;const llok=s.llms_ok!==false;
+    return `<div class="sc" style="border-left-color:${m.color}">
+      <div class="sc-hd"><div class="sn">${m.label}</div>${sbadge}</div>
+      <div class="sd"><a href="${m.url}" target="_blank" rel="noopener noreferrer">🌐 ${m.domain} ↗</a></div>
+      <div class="sm">
+        <div class="smi"><div class="lbl">Articles</div><div class="val" style="color:${m.color}">${arts}</div><div class="sub">${villes} ville${villes!==1?'s':''}</div></div>
+        <div class="smi"><div class="lbl">Dernier</div><div class="val" style="font-size:12px">${latest}</div><div class="sub">auto-deploy ✓</div></div>
+        <div class="smi"><div class="lbl">Pipeline</div><div class="val" style="font-size:12px;color:var(--green)">ON</div><div class="sub">6h UTC/j</div></div>
+      </div>
+      <div class="sf">
+        <span class="chip ${sok?'ok':'warn'}">Schema ${sok?'✓':'⚠'}</span>
+        <span class="chip ${smok?'ok':'warn'}">Sitemap ${smok?'✓':'⚠'}</span>
+        <span class="chip ${llok?'ok':'warn'}">llms.txt ${llok?'✓':'⚠'}</span>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ═══════════ NW ═══════════
+function renderNW(nw){
+  const div=document.getElementById('nw-body');
+  if(!nw){ div.innerHTML=`<div class="nw-main"><div class="nw-count" style="color:var(--muted)">0</div><div class="nw-cap">/ 150</div></div><div class="pb"><div class="pf green" style="width:0%"></div></div><div class="nw-rem">150 queries disponibles</div>`; return; }
+  const pct=nw.pct??0;const cls=pct<60?'green':pct<85?'yellow':'red';
+  const kws=(nw.keywords??[]).slice(-8);
+  div.innerHTML=`<div class="nw-main"><div class="nw-count" style="color:var(--${cls==='green'?'green':cls==='yellow'?'yellow':'red'})">${nw.used}</div><div><div class="nw-cap">/ ${nw.cap}</div><div class="nw-rem">${nw.remaining} restantes</div></div></div>
+<div class="pb"><div class="pf ${cls}" style="width:${pct}%"></div></div>
+<div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-top:2px"><span>${pct}% utilisé</span><span>${nw.month??''}</span></div>
+${kws.length?`<div class="nw-kw" style="margin-top:10px"><div style="font-size:10px;color:var(--muted);margin-bottom:5px">DERNIERS KEYWORDS</div>${kws.map(kw=>`<div class="nw-ki"><span>${esc(kw)}</span></div>`).join('')}</div>`:''}`;
+}
+
+// ═══════════ PLAN ═══════════
+function renderPlan(plan){
+  const div=document.getElementById('plan-body');
+  if(!plan){ div.innerHTML=`<div class="plan-main"><div class="pb-big" style="color:var(--muted)">0%</div><div class="pb-sub">0 / 90 articles</div></div><div class="pb"><div class="pf green" style="width:0%"></div></div><div class="dg">${Array.from({length:30},(_,i)=>`<div class="dd pending">${i+1}</div>`).join('')}</div>`; return; }
+  const pct=plan.pct??0;const done=plan.done??0;const total=plan.total??90;
+  const daysDone=new Set(plan.days_done??[]);
+  const start=new Date('2026-04-18');const now=new Date();
+  const todayJ=(Math.floor((now-start)/86400000)%30)+1;
+  div.innerHTML=`<div class="plan-main"><div class="pb-big" style="color:var(--green)">${pct}%</div><div><div class="pb-sub">${done} / ${total} articles</div></div></div>
+<div class="pb"><div class="pf green" style="width:${pct}%"></div></div>
+<div class="dg">${Array.from({length:30},(_,i)=>{const j=i+1;const cls=daysDone.has(j)?'done':j<todayJ?'partial':'pending';return `<div class="dd ${cls}${j===todayJ?' today':''}" title="J${j}">${j}</div>`;}).join('')}</div>`;
+}
+
+// ═══════════ GSC SNAPSHOT ═══════════
+function renderGSCSnap(positions){
+  const div=document.getElementById('gsc-body');
+  if(!positions){ return; }
+  const all=[];
+  for(const[site,kws] of Object.entries(positions)){
+    for(const kw of(kws??[])) all.push({...kw,site});
+  }
+  if(!all.length) return;
+  all.sort((a,b)=>a.position-b.position);
+  div.innerHTML=all.slice(0,8).map(kw=>posRow(kw)).join('');
+}
+
+function posRow(kw){
+  const pos=kw.position;
+  const rc=pos<=3?'top3':pos<=10?'top10':pos<=30?'top30':'other';
+  const prev=kw.prev_position;const delta=prev?prev-pos:null;
+  const dt=delta!==null?(delta>0?`<span class="du">▲${delta}</span>`:delta<0?`<span class="dd2">▼${Math.abs(delta)}</span>`:`<span class="df">–</span>`):`<span class="dn">NEW</span>`;
+  const m=SITE_META[kw.site]??{};
+  const kwSafe=String(kw.keyword||'');
+  const searchUrl=`https://www.google.fr/search?q=${encodeURIComponent(kwSafe)}`;
+  return `<div class="pos-row">
+    <div class="pos-rank ${rc}">${+pos||0}</div>
+    <div class="pos-info">
+      <div class="pos-kw"><a href="${esc(searchUrl)}" target="_blank" rel="noopener noreferrer" style="color:var(--text)">${esc(kwSafe)}</a></div>
+      <div class="pos-dom">${esc(m.domain||kw.site)} · ${+kw.impressions||0} impres.</div>
+    </div>
+    <div class="pos-d">${dt}</div>
+    <div class="pos-c">${kw.clicks??0} clics</div>
+  </div>`;
+}
+
+// ═══════════ ARTICLES PREVIEW ═══════════
+function renderArtsPreview(arts){
+  if(!arts) return;
+  document.getElementById('articles-count').textContent=(arts.total??0)+' total';
+  const tbody=document.getElementById('articles-body');
+  const rows=(arts.recent??[]).slice(0,10);
+  if(!rows.length){ tbody.innerHTML='<tr><td colspan="6" style="text-align:center;color:var(--muted);padding:20px">Aucun article — pipeline actif</td></tr>'; return; }
+  tbody.innerHTML=rows.map(a=>artRow(a,false)).join('');
+}
+
+// ═══════════ ALL ARTICLES ═══════════
+function renderAllArts(arts){
+  if(!arts) return;
+  allArts=arts.all??arts.recent??[];
+  document.getElementById('all-count').textContent=(arts.total??allArts.length)+' total';
+  showArtsFiltered();
+}
+
+function filterArts(f){
+  artFilter=f;
+  document.querySelectorAll('.fb').forEach(b=>b.classList.toggle('active',b.dataset.f===f));
+  showArtsFiltered();
+}
+
+function showArtsFiltered(){
+  const tbody=document.getElementById('all-arts-tbody');
+  const rows=artFilter==='all'?allArts:allArts.filter(a=>a.site===artFilter);
+  if(!rows.length){ tbody.innerHTML='<tr><td colspan="7" style="text-align:center;color:var(--muted);padding:20px">Aucun article</td></tr>'; return; }
+  tbody.innerHTML=rows.map(a=>artRow(a,true)).join('');
+}
+
+// Escape pour éviter XSS depuis lexvox-data.json (les champs peuvent contenir <, >, ", &)
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function artRow(a,withScore){
+  const m=SITE_META[a.site]??{};
+  const date=esc((a.date||'').slice(0,10));
+  // Support multiple schemas: slug (actuel), filename (legacy), keyword (fallback)
+  let slug = a.slug || (a.filename?String(a.filename).replace(/\.html?$/i,''):null)
+           || (a.keyword?String(a.keyword).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,'-').toLowerCase():null);
+  // Whitelist : a-z 0-9 - seulement (prévention open-redirect / path traversal)
+  if(slug) slug = slug.replace(/[^a-z0-9-]/gi,'').slice(0,120);
+  let link='—';
+  if(slug && m.url){
+    const url=`${m.url}/${m.dir||'actualites'}/${slug}`;
+    const label=esc(slug.slice(0,32)+(slug.length>32?'…':''));
+    link=`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer" title="${esc(slug)}">${label} ↗</a>`;
+  }
+  const scoreVal = a.nw_score ?? a.score ?? null;
+  const scoreCell = withScore?`<td style="color:var(--muted);font-size:11px">${scoreVal==null||scoreVal===0?'—':esc(scoreVal)}</td>`:'';
+  return `<tr>
+    <td><span class="badge ${esc(m.badge||'')}">${esc(a.site)}</span></td>
+    <td>${esc(a.ville||'—')}</td>
+    <td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(a.theme||'')}">${esc(a.theme||'—')}</td>
+    <td style="max-width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted);font-size:11px">${esc(a.keyword||a.theme||'—')}</td>
+    <td style="white-space:nowrap">${date}</td>
+    <td style="font-size:11px">${link}</td>
+    ${scoreCell}
+  </tr>`;
+}
+
+// ═══════════ AUDIT SITES ═══════════
+function renderAudit(audit){
+  const data=audit?.sites??DEFAULT_AUDIT;
+  if(audit?.last_run) document.getElementById('audit-last-run').textContent='Dernier audit : '+new Date(audit.last_run).toLocaleString('fr-FR');
+  const grid=document.getElementById('audit-grid');
+  grid.innerHTML=['victime','divorce','permis'].map(k=>{
+    const m=SITE_META[k];const s=data[k]??{};
+    const score=s.score??null;
+    const scls=score===null?'sg-none':score>=70?'sg-ok':score>=50?'sg-mid':'sg-bad';
+    const scoreH=score!==null?score:'—';
+    const dimsH=DIMS.map(dim=>{
+      const v=s[dim.key]??0;
+      return `<div class="adi"><div class="adl">${dim.label}</div><div class="adb"><div class="adf" style="width:${Math.min(100,v)}%;background:${dim.color}"></div></div><div class="adv" style="color:${dim.color}">${v||'—'}</div></div>`;
+    }).join('');
+    return `<div class="asc" style="border-top-color:${m.color}">
+      <div class="as-ring">
+        <div class="as-num ${scls}" style="font-size:42px;padding:0;background:none">${scoreH}</div>
+        <div class="as-lbl"><a href="${m.url}" target="_blank" rel="noopener" style="color:${m.color};text-decoration:none">${m.domain} ↗</a></div>
+      </div>
+      <div class="ad">${dimsH}</div>
+    </div>`;
+  }).join('');
+}
+
+// ═══════════ CHECKLIST ═══════════
+function renderChecklist(audit){
+  const tbody=document.getElementById('checklist-tbody');
+  const chks=audit?.checks??{};
+  tbody.innerHTML=CHECKLIST.map(item=>{
+    const states=chks[item.label]??item.k??{};
+    const cell=s=>{const v=states[s];return v===1?`<td style="text-align:center;color:var(--green)">✓</td>`:v===0?`<td style="text-align:center;color:var(--red)">✗</td>`:`<td style="text-align:center;color:var(--muted)">—</td>`;};
+    return `<tr>
+      <td>${item.label}</td>
+      <td><span class="badge ${CAT_BADGE[item.cat]??'badge-victime'}" style="font-size:9px">${item.cat}</span></td>
+      ${cell('victime')}${cell('divorce')}${cell('permis')}
+      <td><span style="font-size:10px;color:${PRIO_COLOR[item.prio]??'var(--muted)'}">${item.prio}</span></td>
+    </tr>`;
+  }).join('');
+}
+
+// ═══════════ CWV ═══════════
+function renderCWV(technical){
+  const demo={
+    victime:{lcp:1.8,cls:0.04,fid:12,mobile:82,perf:82},
+    divorce:{lcp:2.1,cls:0.06,fid:18,mobile:78,perf:78},
+  };
+  ['victime','divorce'].forEach(site=>{
+    const div=document.getElementById('cwv-'+site);
+    const t=technical?.[site]??demo[site];
+    const lcpC=t.lcp<=2.5?'cwv-ok':t.lcp<=4?'cwv-mid':'cwv-bad';
+    const clsC=t.cls<=0.1?'cwv-ok':t.cls<=0.25?'cwv-mid':'cwv-bad';
+    const fidC=t.fid<=100?'cwv-ok':t.fid<=300?'cwv-mid':'cwv-bad';
+    div.innerHTML=`<div class="cwv-g">
+      <div class="cwv-i"><div class="cwv-n">LCP</div><div class="cwv-v ${lcpC}">${t.lcp}<span class="cwv-u">s</span></div><div class="cwv-u">Largest Paint</div></div>
+      <div class="cwv-i"><div class="cwv-n">CLS</div><div class="cwv-v ${clsC}">${t.cls}</div><div class="cwv-u">Layout Shift</div></div>
+      <div class="cwv-i"><div class="cwv-n">FID</div><div class="cwv-v ${fidC}">${t.fid}<span class="cwv-u">ms</span></div><div class="cwv-u">Input Delay</div></div>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px;margin-top:8px">
+      <div style="font-size:10px;color:var(--muted)">Score mobile</div>
+      <div class="pb" style="flex:1;margin:0"><div class="pf ${t.mobile>=80?'green':t.mobile>=50?'yellow':'red'}" style="width:${t.mobile}%"></div></div>
+      <div style="font-size:12px;font-weight:700">${t.mobile}/100</div>
+    </div>
+    ${!technical?'<div style="font-size:10px;color:var(--muted);margin-top:7px;text-align:center">⚠ Valeurs estimées — lancez un audit pour les mesures réelles</div>':''}`;
+  });
+}
+
+// ═══════════ AUDIT TRIGGER ═══════════
+function triggerAudit(){
+  const url='https://github.com/Humbert-lawia/lawia-seo/actions/workflows/weekly-seo-audit.yml';
+  if(confirm('Ouvrir GitHub Actions pour lancer l\'audit SEO complet des 3 sites ?')){
+    window.open(url,'_blank');
+  }
+}
+
+// ═══════════ CHART HELPERS ═══════════
+const chartDefaults={
+  scales:{
+    x:{grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10}}},
+    y:{grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10}}}
+  },
+  plugins:{
+    legend:{labels:{color:'#e2e8f0',font:{size:11},boxWidth:12}},
+    tooltip:{backgroundColor:'#1a1d27',borderColor:'#2a2f47',borderWidth:1}
+  }
+};
+
+function mk(id,type,data,opts){
+  const ctx=document.getElementById(id);
+  if(!ctx) return null;
+  if(C[id]){C[id].destroy();delete C[id];}
+  C[id]=new Chart(ctx,{type,data,options:{responsive:true,maintainAspectRatio:false,...opts}});
+  return C[id];
+}
+
+// ═══════════ SCORE EVOLUTION CHART ═══════════
+function initScoreChart(d){
+  const history=d?.audit_history??[
+    {date:'01 avr',victime:null,divorce:null,permis:null},
+    {date:'08 avr',victime:null,divorce:null,permis:null},
+    {date:'15 avr',victime:61,divorce:35,permis:null},
+    {date:'22 avr',victime:80,divorce:60,permis:null},
+    {date:'23 avr',victime:80,divorce:60,permis:null},
+  ];
+  mk('scoreChart','line',{
+    labels:history.map(h=>h.date),
+    datasets:[
+      {label:'lexvox-victime.com',data:history.map(h=>h.victime),borderColor:'#3b82f6',backgroundColor:'rgba(59,130,246,.08)',borderWidth:2,pointRadius:4,fill:true,tension:0.3,spanGaps:true},
+      {label:'lexvox-divorce.com',data:history.map(h=>h.divorce),borderColor:'#8b5cf6',backgroundColor:'rgba(139,92,246,.08)',borderWidth:2,pointRadius:4,fill:true,tension:0.3,spanGaps:true},
+      {label:'lexvox-permis.com', data:history.map(h=>h.permis??null),borderColor:'#ec4899',backgroundColor:'rgba(236,72,153,.06)',borderWidth:2,pointRadius:4,fill:true,tension:0.3,spanGaps:true,borderDash:[4,3]},
+    ]
+  },{
+    interaction:{intersect:false,mode:'index'},
+    scales:{
+      x:{grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10}}},
+      y:{min:0,max:100,grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10},callback:v=>v+'/100'}}
+    },
+    plugins:{
+      legend:{labels:{color:'#e2e8f0',font:{size:11},boxWidth:12}},
+      tooltip:{backgroundColor:'#1a1d27',borderColor:'#2a2f47',borderWidth:1,callbacks:{label:c=>` ${c.dataset.label}: ${c.parsed.y!=null?c.parsed.y+'/100':'N/A'}`}}
+    }
+  });
+}
+
+// ═══════════ DISTRIBUTION DOUGHNUT ═══════════
+function initDistChart(d){
+  const s=d?.sites??{};
+  mk('distChart','doughnut',{
+    labels:['Victime','Divorce','Permis'],
+    datasets:[{data:[s.victime?.articles??0,s.divorce?.articles??0,s.permis?.articles??0],backgroundColor:['#3b82f6','#8b5cf6','#ec4899'],borderColor:'#1a1d27',borderWidth:3}]
+  },{
+    plugins:{
+      legend:{labels:{color:'#e2e8f0',font:{size:11},boxWidth:10},position:'bottom'},
+      tooltip:{backgroundColor:'#1a1d27',borderColor:'#2a2f47',borderWidth:1}
+    }
+  });
+}
+
+// ═══════════ WEEKLY CHART ═══════════
+function initWeeklyChart(d){
+  const weekly=d?.articles?.by_week??[
+    {week:'S14',victime:0,divorce:0,permis:0},
+    {week:'S15',victime:0,divorce:0,permis:0},
+    {week:'S16',victime:3,divorce:2,permis:0},
+    {week:'S17',victime:7,divorce:5,permis:0},
+  ];
+  ['weeklyChart','weeklyDetailChart'].forEach(id=>{
+    mk(id,'bar',{
+      labels:weekly.map(w=>w.week),
+      datasets:[
+        {label:'Victime',data:weekly.map(w=>w.victime??0),backgroundColor:'rgba(59,130,246,.7)',borderRadius:4},
+        {label:'Divorce',data:weekly.map(w=>w.divorce??0),backgroundColor:'rgba(139,92,246,.7)',borderRadius:4},
+        {label:'Permis', data:weekly.map(w=>w.permis??0), backgroundColor:'rgba(236,72,153,.7)',borderRadius:4},
+      ]
+    },{
+      scales:{
+        x:{stacked:true,grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10}}},
+        y:{stacked:true,grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10}}}
+      },
+      plugins:{
+        legend:{labels:{color:'#e2e8f0',font:{size:11},boxWidth:12}},
+        tooltip:{backgroundColor:'#1a1d27',borderColor:'#2a2f47',borderWidth:1}
+      }
+    });
+  });
+}
+
+// ═══════════ TRAFFIC CHARTS ═══════════
+let trafficPeriod = 7;
+
+function setTrafficPeriod(p){
+  trafficPeriod = p;
+  document.querySelectorAll('.tp-btn').forEach(b=>b.classList.remove('active'));
+  const btn = document.querySelector(`.tp-btn[data-p="${p}"]`);
+  if(btn) btn.classList.add('active');
+  initTrafficCharts(gData);
+}
+
+function generateDemoTraffic(days){
+  const arr=[];
+  const now=new Date();
+  // Données demo croissantes (site lancé le 18 avril 2026)
+  const launchDaysAgo = Math.min(days, Math.floor((now - new Date('2026-04-18'))/86400000));
+  for(let i=days;i>=0;i--){
+    const d=new Date(now);d.setDate(now.getDate()-i);
+    const age=Math.max(0, launchDaysAgo - i); // jours depuis le lancement
+    const ramp=Math.min(1, age/60); // montée progressive sur 60j
+    arr.push({
+      date: d.toISOString().split('T')[0],
+      victime:{
+        clicks: Math.round((3 + ramp*12 + Math.random()*4) * (1 + 0.3*Math.sin(i*0.7))),
+        impressions: Math.round((120 + ramp*500 + Math.random()*80) * (1 + 0.2*Math.sin(i*0.5)))
+      },
+      divorce:{
+        clicks: Math.round((1 + ramp*5 + Math.random()*2) * (1 + 0.3*Math.sin(i*0.9))),
+        impressions: Math.round((50 + ramp*200 + Math.random()*40) * (1 + 0.2*Math.sin(i*0.6)))
+      },
+      permis:{
+        clicks: Math.round(Math.random()*2 * ramp),
+        impressions: Math.round((15 + ramp*60 + Math.random()*20))
+      }
+    });
+  }
+  return arr;
+}
+
+function renderTrafficKPI(data, period){
+  const slice=data.slice(-period);
+  const sum=(site,key)=>slice.reduce((a,d)=>a+(d[site]?.[key]??0),0);
+  const setEl=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v;};
+  const fmtCTR=(c,i)=>i>0?((c/i)*100).toFixed(1)+'%':'0%';
+  const vC=sum('victime','clicks'), vI=sum('victime','impressions');
+  const dC=sum('divorce','clicks'), dI=sum('divorce','impressions');
+  const pC=sum('permis','clicks'),  pI=sum('permis','impressions');
+  setEl('tkpi-v-clicks', vC);
+  setEl('tkpi-v-impr',   vI.toLocaleString('fr')+' impr · CTR '+fmtCTR(vC,vI));
+  setEl('tkpi-d-clicks', dC);
+  setEl('tkpi-d-impr',   dI.toLocaleString('fr')+' impr · CTR '+fmtCTR(dC,dI));
+  setEl('tkpi-p-clicks', pC);
+  setEl('tkpi-p-impr',   pI.toLocaleString('fr')+' impr · CTR '+fmtCTR(pC,pI));
+  setEl('tkpi-total',    (vC+dC+pC).toString());
+  const pLabels={7:'7 derniers jours',30:'30 derniers jours',180:'6 derniers mois'};
+  setEl('tkpi-period-label', pLabels[period]||period+'j');
+}
+
+function initTrafficCharts(d){
+  const traffic=d?.traffic??null;
+  const byDate=traffic?.by_date??generateDemoTraffic(180);
+  const isDemoData=!traffic?.by_date;
+
+  const demoNote=document.getElementById('traffic-demo-note');
+  if(demoNote) demoNote.style.display=isDemoData?'block':'none';
+
+  const slice=byDate.slice(-trafficPeriod);
+  const labels=slice.map(r=>{
+    const p=r.date.slice(5); // MM-DD
+    // Pour 6 mois, n'afficher que toutes les 7 valeurs pour la lisibilité
+    return p;
+  });
+
+  renderTrafficKPI(byDate, trafficPeriod);
+
+  const lineBase={
+    interaction:{intersect:false,mode:'index'},
+    scales:{
+      x:{grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:9},maxTicksLimit:trafficPeriod<=30?15:26}},
+      y:{min:0,grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10}}}
+    },
+    plugins:{
+      legend:{labels:{color:'#e2e8f0',font:{size:11},boxWidth:12}},
+      tooltip:{backgroundColor:'#1a1d27',borderColor:'#2a2f47',borderWidth:1,callbacks:{
+        label:c=>` ${c.dataset.label}: ${c.parsed.y}`
+      }}
+    }
+  };
+
+  // Chart 1 — Clics par site
+  mk('trafficClicksChart','line',{
+    labels,
+    datasets:[
+      {label:'Victime', data:slice.map(r=>r.victime?.clicks??0), borderColor:'#3b82f6',backgroundColor:'rgba(59,130,246,.12)',borderWidth:2.5,pointRadius:trafficPeriod<=30?3:1,fill:true,tension:0.35},
+      {label:'Divorce', data:slice.map(r=>r.divorce?.clicks??0), borderColor:'#8b5cf6',backgroundColor:'rgba(139,92,246,.09)',borderWidth:2,pointRadius:trafficPeriod<=30?3:1,fill:true,tension:0.35},
+      {label:'Permis',  data:slice.map(r=>r.permis?.clicks??0),  borderColor:'#ec4899',backgroundColor:'rgba(236,72,153,.06)',borderWidth:1.5,pointRadius:trafficPeriod<=30?2:1,fill:true,tension:0.35},
+    ]
+  },{...lineBase, plugins:{...lineBase.plugins, tooltip:{...lineBase.plugins.tooltip, callbacks:{
+    label:c=>` ${c.dataset.label}: ${c.parsed.y} clics`
+  }}}});
+
+  // Chart 2 — Impressions par site
+  mk('trafficImpressionsChart','line',{
+    labels,
+    datasets:[
+      {label:'Victime', data:slice.map(r=>r.victime?.impressions??0), borderColor:'rgba(59,130,246,.9)',backgroundColor:'rgba(59,130,246,.07)',borderWidth:2,pointRadius:trafficPeriod<=30?2:0,fill:true,tension:0.35},
+      {label:'Divorce', data:slice.map(r=>r.divorce?.impressions??0), borderColor:'rgba(139,92,246,.9)',backgroundColor:'rgba(139,92,246,.05)',borderWidth:2,pointRadius:trafficPeriod<=30?2:0,fill:true,tension:0.35},
+      {label:'Permis',  data:slice.map(r=>r.permis?.impressions??0),  borderColor:'rgba(236,72,153,.8)',backgroundColor:'rgba(236,72,153,.04)',borderWidth:1.5,pointRadius:trafficPeriod<=30?1:0,fill:true,tension:0.35},
+    ]
+  },{...lineBase, plugins:{...lineBase.plugins, tooltip:{...lineBase.plugins.tooltip, callbacks:{
+    label:c=>` ${c.dataset.label}: ${c.parsed.y.toLocaleString('fr')} impressions`
+  }}}});
+
+  // Préparer les top pages (réelles ou démo)
+  const DEMO_VICTIME=[
+    {page:'/actualites/avocat-accident-de-la-route-aix-en-provence',clicks:45,impressions:890},
+    {page:'/actualites/avocat-accident-de-la-route-arles',clicks:28,impressions:560},
+    {page:'/actualites/avocat-erreur-medicale-aix-en-provence',clicks:22,impressions:440},
+    {page:'/actualites/accident-de-bus-indemnisation-aix-en-provence',clicks:18,impressions:380},
+    {page:'/actualites/avocat-faute-medicale-paca',clicks:12,impressions:290},
+    {page:'/actualites/traumatisme-cranien-grave-avocat',clicks:9,impressions:215},
+    {page:'/actualites/accident-travail-faute-inexcusable-employeur',clicks:7,impressions:180},
+    {page:'/actualites/indemnisation-prejudice-corporel-grave',clicks:5,impressions:140},
+  ];
+  const DEMO_DIVORCE=[
+    {page:'/actualites/avocat-divorce-amiable-procedure-a-aix-en-provence',clicks:32,impressions:640},
+    {page:'/actualites/pension-alimentaire-divorce-salon-de-provence',clicks:21,impressions:420},
+    {page:'/actualites/garde-enfant-divorce-avocat-a-aix-en-provence',clicks:17,impressions:340},
+    {page:'/actualites/calcul-prestation-compensatoire-avocat-a-aix-en-provence',clicks:14,impressions:280},
+    {page:'/actualites/avocat-violence-conjugale-procedure-a-aix-en-provence',clicks:9,impressions:210},
+  ];
+  const DEMO_PERMIS=[
+    {page:'/actualites/contester-ethylometre-aix-en-provence',clicks:8,impressions:160},
+    {page:'/actualites/avocat-alcool-au-volant-aix-en-provence',clicks:6,impressions:140},
+    {page:'/actualites/avocat-exces-de-vitesse-aix-en-provence',clicks:4,impressions:110},
+  ];
+
+  renderTopPagesChart('topPagesVictimeChart', traffic?.top_pages?.victime??DEMO_VICTIME, '#3b82f6');
+  renderTopPagesChart('topPagesDivorceChart', traffic?.top_pages?.divorce??DEMO_DIVORCE, '#8b5cf6');
+  renderTopPagesChart('topPagesPermisChart',  traffic?.top_pages?.permis??DEMO_PERMIS,   '#ec4899');
+}
+
+function renderTopPagesChart(id, pages, color){
+  const top=pages.slice(0,10).sort((a,b)=>(b.clicks??0)-(a.clicks??0));
+  const labels=top.map(p=>{
+    let s=String(p.page).replace(/^https?:\/\/[^/]+/,'').replace(/^\/actualites\//,'');
+    return s.slice(0,38)+(s.length>38?'…':'');
+  });
+  mk(id,'bar',{
+    labels,
+    datasets:[{label:'Clics',data:top.map(p=>p.clicks??0),backgroundColor:color+'cc',borderRadius:4}]
+  },{
+    indexAxis:'y',
+    scales:{
+      x:{grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:9}},title:{display:true,text:'Clics',color:'#64748b',font:{size:10}}},
+      y:{grid:{display:false},ticks:{color:'#e2e8f0',font:{size:9}}}
+    },
+    plugins:{
+      legend:{display:false},
+      tooltip:{backgroundColor:'#1a1d27',borderColor:'#2a2f47',borderWidth:1,callbacks:{
+        label:c=>` ${c.parsed.x} clics`,
+        afterLabel:c=>{const p=top[c.dataIndex];return p.impressions?` ${p.impressions} impressions`:'';}
+      }}
+    }
+  });
+}
+
+// ═══════════ AUDIT CHARTS ═══════════
+function initAuditCharts(){
+  const d=gData;
+  ['victime','divorce'].forEach(k=>{
+    const id='radar'+k.charAt(0).toUpperCase()+k.slice(1);
+    if(C[id]) return;
+    const s=d?.audit?.sites?.[k]??DEFAULT_AUDIT[k];
+    const m=SITE_META[k];
+    mk(id,'radar',{
+      labels:DIMS.map(d=>d.label),
+      datasets:[{label:'Score',data:DIMS.map(dim=>s[dim.key]??0),borderColor:m.color,backgroundColor:m.color+'22',borderWidth:2,pointRadius:3,pointBackgroundColor:m.color}]
+    },{
+      scales:{r:{min:0,max:100,grid:{color:'rgba(42,47,71,.7)'},angleLines:{color:'rgba(42,47,71,.7)'},ticks:{display:false},pointLabels:{color:'#94a3b8',font:{size:10}}}},
+      plugins:{legend:{display:false},tooltip:{backgroundColor:'#1a1d27',borderColor:'#2a2f47',borderWidth:1}}
+    });
+  });
+
+  if(!C.auditHistChart){
+    const hist=d?.audit_history??[{date:'15 avr',victime:61,divorce:35},{date:'22 avr',victime:80,divorce:60}];
+    mk('auditHistChart','bar',{
+      labels:hist.map(h=>h.date),
+      datasets:[
+        {label:'Victime',data:hist.map(h=>h.victime??null),backgroundColor:'rgba(59,130,246,.75)',borderRadius:5},
+        {label:'Divorce',data:hist.map(h=>h.divorce??null),backgroundColor:'rgba(139,92,246,.75)',borderRadius:5},
+        {label:'Permis', data:hist.map(h=>h.permis??null), backgroundColor:'rgba(236,72,153,.75)',borderRadius:5},
+      ]
+    },{
+      scales:{
+        x:{grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10}}},
+        y:{min:0,max:100,grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10}}}
+      },
+      plugins:{legend:{labels:{color:'#e2e8f0',font:{size:11},boxWidth:12}},tooltip:{backgroundColor:'#1a1d27',borderColor:'#2a2f47',borderWidth:1}}
+    });
+  }
+}
+
+// ═══════════ POSITION CHARTS ═══════════
+function initPosCharts(){
+  const d=gData;const positions=d?.positions??{};
+  // Render per-site lists
+  ['victime','divorce'].forEach(site=>{
+    const div=document.getElementById('pos-'+site);if(!div) return;
+    const kws=positions[site]??[];if(!kws.length) return;
+    const sorted=[...kws].sort((a,b)=>a.position-b.position).slice(0,12);
+    div.innerHTML=sorted.map(kw=>posRow({...kw,site})).join('');
+  });
+
+  // Distribution
+  if(!C.posDistChart){
+    const all=[];for(const kws of Object.values(positions)) for(const kw of(kws??[])) all.push(kw.position);
+    const dist={'1-3':0,'4-10':0,'11-20':0,'21-50':0,'50+':0};
+    all.forEach(p=>{if(p<=3)dist['1-3']++;else if(p<=10)dist['4-10']++;else if(p<=20)dist['11-20']++;else if(p<=50)dist['21-50']++;else dist['50+']++;});
+    mk('posDistChart','bar',{
+      labels:Object.keys(dist),
+      datasets:[{label:'Mots-clés',data:Object.values(dist),backgroundColor:['#f59e0b','#22c55e','#3b82f6','#8b5cf6','#64748b'],borderColor:'#1a1d27',borderWidth:2,borderRadius:5}]
+    },{
+      scales:{x:{grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10}}},y:{grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10}}}},
+      plugins:{legend:{display:false},tooltip:{backgroundColor:'#1a1d27',borderColor:'#2a2f47',borderWidth:1}}
+    });
+  }
+
+  // Évolution top KWs (position history)
+  if(!C.posEvoChart){
+    const posHistory=d?.position_history??[
+      {date:'08 avr',kw1:null,kw2:null,kw3:null},
+      {date:'15 avr',kw1:18,kw2:22,kw3:31},
+      {date:'22 avr',kw1:12,kw2:16,kw3:24},
+    ];
+    const kw_labels=d?.tracked_keywords??['avocat accident Aix','avocat victime Salon','avocat dommage corporel'];
+    mk('posEvoChart','line',{
+      labels:posHistory.map(h=>h.date),
+      datasets:['kw1','kw2','kw3'].map((k,i)=>({
+        label:kw_labels[i]??k,
+        data:posHistory.map(h=>h[k]??null),
+        borderColor:['#3b82f6','#22c55e','#f59e0b'][i],
+        backgroundColor:'transparent',
+        borderWidth:2,pointRadius:4,tension:0.3,spanGaps:true
+      }))
+    },{
+      interaction:{intersect:false,mode:'index'},
+      scales:{
+        x:{grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10}}},
+        y:{reverse:true,min:1,grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10},callback:v=>'#'+v}}
+      },
+      plugins:{
+        legend:{labels:{color:'#e2e8f0',font:{size:11},boxWidth:12}},
+        tooltip:{backgroundColor:'#1a1d27',borderColor:'#2a2f47',borderWidth:1,callbacks:{label:c=>` ${c.dataset.label}: position #${c.parsed.y}`}}
+      }
+    });
+  }
+
+  // Opportunités
+  const oppsDiv=document.getElementById('opps-body');
+  const all2=[];
+  for(const[site,kws] of Object.entries(positions)){
+    for(const kw of(kws??[])){
+      if(kw.position>=11&&kw.position<=30) all2.push({...kw,site});
+    }
+  }
+  if(all2.length){
+    all2.sort((a,b)=>a.position-b.position);
+    oppsDiv.innerHTML=`<table>
+      <thead><tr><th>Mot-clé</th><th>Site</th><th>Position</th><th>Impressions</th><th>Clics</th><th>Action</th></tr></thead>
+      <tbody>${all2.map(kw=>{
+        const m=SITE_META[kw.site]??{};
+        const kwSafe=String(kw.keyword||'');
+        const searchUrl=`https://www.google.fr/search?q=${encodeURIComponent(kwSafe)}`;
+        return `<tr>
+          <td><a href="${esc(searchUrl)}" target="_blank" rel="noopener noreferrer">${esc(kwSafe)} ↗</a></td>
+          <td><span class="badge ${esc(m.badge||'')}">${esc(kw.site)}</span></td>
+          <td style="color:var(--yellow);font-weight:700">#${+kw.position||0}</td>
+          <td>${+kw.impressions||0}</td>
+          <td>${+kw.clicks||0}</td>
+          <td><a href="${esc(m.url||'#')}" target="_blank" rel="noopener noreferrer" style="color:var(--blue);font-size:11px">Optimiser →</a></td>
+        </tr>`;
+      }).join('')}</tbody>
+    </table>`;
+  }
+}
+
+// ═══════════ TECH CHARTS ═══════════
+function initTechCharts(){
+  if(C.perfChart) return;
+  const d=gData;const tech=d?.technical??{};
+  mk('perfChart','bar',{
+    labels:['Performance','Accessibilité','Bonnes pratiques','SEO','Mobile'],
+    datasets:[
+      {label:'lexvox-victime.com',data:[tech.victime?.perf??82,tech.victime?.a11y??88,tech.victime?.bp??92,tech.victime?.seo??95,tech.victime?.mobile??82],backgroundColor:'rgba(59,130,246,.75)',borderRadius:5},
+      {label:'lexvox-divorce.com',data:[tech.divorce?.perf??78,tech.divorce?.a11y??85,tech.divorce?.bp??90,tech.divorce?.seo??92,tech.divorce?.mobile??78],backgroundColor:'rgba(139,92,246,.75)',borderRadius:5},
+    ]
+  },{
+    scales:{
+      x:{grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10}}},
+      y:{min:0,max:100,grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10}}}
+    },
+    plugins:{
+      legend:{labels:{color:'#e2e8f0',font:{size:11},boxWidth:12}},
+      tooltip:{backgroundColor:'#1a1d27',borderColor:'#2a2f47',borderWidth:1}
+    }
+  });
+}
+
+// ═══════════ INIT ═══════════
+window.addEventListener('DOMContentLoaded',()=>{
+  const hash=location.hash.replace('#','');
+  if(['overview','audit','articles','positions','technique'].includes(hash)) sv(hash);
+  loadData();
+});
+
+setInterval(loadData, 5*60*1000);
+</script>
+</body>
+</html>
