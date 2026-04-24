@@ -181,6 +181,30 @@ td a:hover{text-decoration:underline}
 .cw-lg{position:relative;height:270px}
 .cw-xl{position:relative;height:320px}
 .cw-md{position:relative;height:180px}
+/* Audit modal */
+.amodal-overlay{display:none;position:fixed;inset:0;background:rgba(10,12,24,.75);z-index:1000;align-items:center;justify-content:center}
+.amodal-overlay.open{display:flex}
+.amodal{background:#1a1d27;border:1px solid rgba(99,102,241,.3);border-radius:12px;padding:28px;max-width:440px;width:92%;box-shadow:0 24px 60px rgba(0,0,0,.5)}
+.amodal h3{font-size:17px;font-weight:700;color:#e2e8f0;margin:0 0 6px}
+.amodal p{font-size:12px;color:var(--muted);margin:0 0 18px}
+.asite-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px}
+.asite-btn{display:flex;align-items:center;gap:8px;padding:10px 12px;background:rgba(42,47,71,.6);border:1px solid rgba(99,102,241,.2);border-radius:8px;cursor:pointer;transition:all .15s;color:#e2e8f0;font-size:13px;font-weight:500}
+.asite-btn:hover{background:rgba(99,102,241,.2);border-color:rgba(99,102,241,.5)}
+.asite-btn.selected{border-color:#3b82f6;background:rgba(59,130,246,.2)}
+.asite-btn .dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.asite-all{grid-column:1/-1}
+.amod-email{width:100%;padding:8px 12px;background:rgba(42,47,71,.6);border:1px solid rgba(99,102,241,.25);border-radius:6px;color:#e2e8f0;font-size:13px;margin-bottom:16px;box-sizing:border-box}
+.amod-email::placeholder{color:var(--muted)}
+.amod-footer{display:flex;gap:8px;justify-content:flex-end}
+.amod-cancel{background:transparent;border:1px solid rgba(99,102,241,.3);color:var(--muted);padding:8px 16px;border-radius:6px;cursor:pointer;font-size:13px}
+.amod-launch{background:linear-gradient(135deg,#3b82f6,#6366f1);border:none;color:#fff;padding:8px 20px;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600}
+.amod-launch:disabled{opacity:.4;cursor:not-allowed}
+/* Phase chips */
+.ap-chip{padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600;background:rgba(42,47,71,.8);color:var(--muted);border:1px solid transparent;transition:all .3s}
+.ap-chip.running{background:rgba(59,130,246,.2);color:#93c5fd;border-color:rgba(59,130,246,.4);animation:pulse2 1.5s infinite}
+.ap-chip.done{background:rgba(34,197,94,.15);color:#86efac;border-color:rgba(34,197,94,.3)}
+.ap-chip.error{background:rgba(239,68,68,.15);color:#fca5a5;border-color:rgba(239,68,68,.3)}
+@keyframes pulse2{0%,100%{opacity:1}50%{opacity:.6}}
 /* Traffic period selector */
 .tp-btns{display:flex;gap:4px}
 .tp-btn{background:rgba(42,47,71,.7);border:1px solid rgba(99,102,241,.25);color:var(--muted);padding:3px 10px;border-radius:5px;cursor:pointer;font-size:11px;font-weight:600;transition:all .15s}
@@ -335,6 +359,23 @@ td a:hover{text-decoration:underline}
   <div class="G">
     <div class="full" id="audit-alert">
       <div class="alert alert-info">🔍 <span id="audit-last-run">Aucun audit — cliquez "Lancer l'audit" pour analyser les 3 sites (technique, contenu, local SEO, schema, performance, backlinks, visibilité IA).</span></div>
+    </div>
+
+    <!-- Audit progress panel (visible during run) -->
+    <div class="full" id="audit-progress-panel" style="display:none">
+      <div class="card" style="border-left:3px solid var(--blue)">
+        <div class="ch">
+          <div class="ct"><span class="dot" style="background:var(--blue)"></span>Audit en cours — <span id="ap-site">—</span></div>
+          <span id="ap-status" style="font-size:12px;color:var(--muted)">Initialisation…</span>
+        </div>
+        <div style="margin:10px 0 6px">
+          <div class="pb" style="height:8px;border-radius:4px;background:rgba(42,47,71,.8)">
+            <div id="ap-bar" class="pf blue" style="width:0%;height:100%;border-radius:4px;transition:width .4s ease"></div>
+          </div>
+        </div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px" id="ap-phases"></div>
+        <div id="ap-log" style="margin-top:8px;font-size:11px;color:var(--muted);max-height:80px;overflow-y:auto"></div>
+      </div>
     </div>
 
     <!-- Scores par site -->
@@ -517,6 +558,25 @@ td a:hover{text-decoration:underline}
     <div class="card full">
       <div class="ch"><div class="ct"><span class="dot" style="background:var(--green)"></span>Scores Lighthouse estimés</div><span style="font-size:10px;color:var(--muted)">Données estimées — lancez un audit pour les scores réels</span></div>
       <div class="cw"><canvas id="perfChart"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ MODAL AUDIT ═══════════════ -->
+<div class="amodal-overlay" id="audit-modal" onclick="if(event.target===this)closeAuditModal()">
+  <div class="amodal">
+    <h3>🚀 Lancer un audit SEO</h3>
+    <p>L'audit analyse la technique, le contenu, le SEO local, le schema.org, les performances et la visibilité IA. Durée estimée : 3-8 minutes par site.</p>
+    <div class="asite-grid">
+      <button class="asite-btn asite-all selected" id="asite-tous" onclick="selectAuditSite('tous')"><span class="dot" style="background:var(--green)"></span>Tous les sites</button>
+      <button class="asite-btn" id="asite-victime" onclick="selectAuditSite('victime')"><span class="dot" style="background:var(--blue)"></span>Victime</button>
+      <button class="asite-btn" id="asite-divorce" onclick="selectAuditSite('divorce')"><span class="dot" style="background:var(--purple)"></span>Divorce</button>
+      <button class="asite-btn" id="asite-permis" onclick="selectAuditSite('permis')"><span class="dot" style="background:var(--pink)"></span>Permis</button>
+    </div>
+    <input class="amod-email" id="amod-email-input" type="email" placeholder="Email de rapport (optionnel)" value="">
+    <div class="amod-footer">
+      <button class="amod-cancel" onclick="closeAuditModal()">Annuler</button>
+      <button class="amod-launch" id="amod-launch-btn" onclick="launchAudit()">🚀 Lancer l'audit</button>
     </div>
   </div>
 </div>
@@ -969,11 +1029,168 @@ function renderCWV(technical){
 }
 
 // ═══════════ AUDIT TRIGGER ═══════════
+const WORKER_URL = 'https://lawia-worker-production.up.railway.app';
+const SITES_DOMAINS = {
+  victime: 'https://lexvox-victime.com/',
+  divorce: 'https://lexvox-divorce.com/',
+  permis:  'https://lexvox-permis.com/',
+};
+const AUDIT_PHASES = ['Supervisor','Crawl (Nox)','Mots-clés (Marc)','Contenu (Alya)','Optimisation (Rémi)','Schema (Marc)','Rapport (Maya)'];
+
+let auditSiteSelected = 'tous';
+let auditPollingInterval = null;
+let currentAuditIds = [];
+
 function triggerAudit(){
-  const url='https://github.com/Humbert-lawia/lawia-seo/actions/workflows/weekly-seo-audit.yml';
-  if(confirm('Ouvrir GitHub Actions pour lancer l\'audit SEO complet des 3 sites ?')){
-    window.open(url,'_blank');
+  document.getElementById('audit-modal').classList.add('open');
+}
+
+function closeAuditModal(){
+  document.getElementById('audit-modal').classList.remove('open');
+}
+
+function selectAuditSite(site){
+  auditSiteSelected = site;
+  ['tous','victime','divorce','permis'].forEach(s=>{
+    const btn = document.getElementById('asite-'+s);
+    if(btn) btn.classList.toggle('selected', s===site);
+  });
+}
+
+async function launchAudit(){
+  const btn = document.getElementById('amod-launch-btn');
+  const email = document.getElementById('amod-email-input')?.value.trim() || null;
+  btn.disabled = true;
+  btn.textContent = '⏳ Envoi…';
+
+  const sites = auditSiteSelected === 'tous'
+    ? Object.keys(SITES_DOMAINS)
+    : [auditSiteSelected];
+
+  closeAuditModal();
+  showAuditProgress(sites);
+
+  currentAuditIds = [];
+  let allOk = true;
+
+  for(const site of sites){
+    try{
+      const resp = await fetch(`${WORKER_URL}/webhook/audit-ultime`, {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({url: SITES_DOMAINS[site], email})
+      });
+      const data = await resp.json();
+      if(resp.ok && data.auditId){
+        currentAuditIds.push({site, auditId: data.auditId});
+        logAudit(`✅ ${site}: audit #${data.auditId.slice(-8)} en file d'attente`);
+      } else {
+        logAudit(`⚠ ${site}: ${data.error||'Erreur inconnue'}`);
+        allOk = false;
+      }
+    } catch(e){
+      logAudit(`❌ ${site}: ${e.message}`);
+      allOk = false;
+    }
   }
+
+  btn.disabled = false;
+  btn.textContent = '🚀 Lancer l\'audit';
+
+  if(currentAuditIds.length > 0){
+    startAuditPolling();
+  } else {
+    setAuditStatus('Erreur — vérifiez que le worker Railway est démarré', false);
+  }
+}
+
+function showAuditProgress(sites){
+  const panel = document.getElementById('audit-progress-panel');
+  if(!panel) return;
+  panel.style.display = 'block';
+  document.getElementById('ap-site').textContent = sites.map(s=>SITE_META[s]?.domain||s).join(' · ');
+  setAuditStatus('Démarrage…', true);
+  document.getElementById('ap-bar').style.width = '5%';
+  document.getElementById('ap-log').textContent = '';
+  renderPhaseChips([]);
+  // Scroll vers le panel
+  panel.scrollIntoView({behavior:'smooth', block:'center'});
+}
+
+function renderPhaseChips(donePhases, runningPhase){
+  const div = document.getElementById('ap-phases');
+  if(!div) return;
+  div.innerHTML = AUDIT_PHASES.map((p,i)=>{
+    const cls = donePhases.includes(i) ? 'done' : runningPhase===i ? 'running' : '';
+    return `<span class="ap-chip ${cls}">${donePhases.includes(i)?'✓ ':runningPhase===i?'⟳ ':''}${p}</span>`;
+  }).join('');
+}
+
+function setAuditStatus(msg, running){
+  const el = document.getElementById('ap-status');
+  const bar = document.getElementById('ap-bar');
+  if(el) el.textContent = msg;
+  if(bar && !running){
+    bar.style.width = msg.startsWith('✅') ? '100%' : bar.style.width;
+    if(msg.startsWith('✅')) bar.style.background = 'var(--green)';
+    if(msg.startsWith('❌')) bar.style.background = 'var(--red)';
+  }
+}
+
+function logAudit(msg){
+  const div = document.getElementById('ap-log');
+  if(!div) return;
+  div.textContent += (div.textContent?'\n':'')+msg;
+  div.scrollTop = div.scrollHeight;
+}
+
+function startAuditPolling(){
+  if(auditPollingInterval) clearInterval(auditPollingInterval);
+  let tick = 0;
+  auditPollingInterval = setInterval(async ()=>{
+    tick++;
+    const phaseDones = new Set();
+    let allDone = true;
+    let anyError = false;
+    let maxPhase = 0;
+
+    for(const {site, auditId} of currentAuditIds){
+      try{
+        const resp = await fetch(`${WORKER_URL}/audit-ultime/${auditId}`, {cache:'no-store'});
+        if(!resp.ok) continue;
+        const audit = await resp.json();
+        const status = audit.status;
+        const phase = audit.currentPhase||0;
+        maxPhase = Math.max(maxPhase, phase);
+
+        if(status !== 'done' && status !== 'error') allDone = false;
+        if(status === 'error') anyError = true;
+        if(status === 'done'){
+          for(let i=0;i<AUDIT_PHASES.length;i++) phaseDones.add(i);
+          logAudit(`✅ ${site}: score ${audit.seoScore??'—'}/100`);
+        }
+      } catch(e){ /* silently skip */ }
+    }
+
+    // Mise à jour UI
+    const pct = Math.min(95, 5 + tick*3 + maxPhase*8);
+    const bar = document.getElementById('ap-bar');
+    if(bar) bar.style.width = pct+'%';
+    renderPhaseChips([...phaseDones], maxPhase);
+    setAuditStatus(`Phase ${Math.min(maxPhase+1,AUDIT_PHASES.length)}/${AUDIT_PHASES.length} — ${AUDIT_PHASES[Math.min(maxPhase,AUDIT_PHASES.length-1)]}…`, true);
+
+    if(allDone){
+      clearInterval(auditPollingInterval);
+      auditPollingInterval = null;
+      setAuditStatus('✅ Audit terminé — rechargement des données…', false);
+      if(bar) bar.style.width = '100%';
+      renderPhaseChips(AUDIT_PHASES.map((_,i)=>i));
+      setTimeout(()=>loadData(), 3000); // reload dashboard data
+    }
+    if(anyError && allDone){
+      setAuditStatus('❌ Audit terminé avec erreurs — vérifiez les logs Railway', false);
+    }
+  }, 10000); // poll toutes les 10s
 }
 
 // ═══════════ CHART HELPERS ═══════════
