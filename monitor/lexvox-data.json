@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T08:19:53.360153",
+  "generated_at": "2026-04-24T07:59:57.232008",
   "nw": {
     "used": 0,
     "cap": 150,
@@ -9,11 +9,11 @@
     "keywords": []
   },
   "articles": {
-    "total": 15,
+    "total": 18,
     "by_site": {
       "victime": {
-        "count": 5,
-        "latest": "2026-04-23",
+        "count": 6,
+        "latest": "2026-04-24",
         "villes": [
           "Aix-en-Provence",
           "Arles",
@@ -22,14 +22,16 @@
         ],
         "themes": [
           "Avocat accident de la route",
+          "Avocat dommage corporel grave",
           "Avocat erreur médicale"
         ]
       },
       "divorce": {
-        "count": 5,
-        "latest": "2026-04-23",
+        "count": 6,
+        "latest": "2026-04-24",
         "villes": [
           "Aix-en-Provence",
+          "Arles",
           "Marignane",
           "Salon-de-Provence"
         ],
@@ -41,8 +43,8 @@
         ]
       },
       "permis": {
-        "count": 5,
-        "latest": "2026-04-23",
+        "count": 6,
+        "latest": "2026-04-24",
         "villes": [
           "Aix-en-Provence",
           "Marignane",
@@ -58,6 +60,33 @@
       }
     },
     "recent": [
+      {
+        "site": "victime",
+        "ville": "Salon-de-Provence",
+        "theme": "Avocat dommage corporel grave",
+        "slug": "avocat-dommage-corporel-grave-salon-de-provence",
+        "score": 0,
+        "words": 4143,
+        "date": "2026-04-24"
+      },
+      {
+        "site": "divorce",
+        "ville": "Arles",
+        "theme": "Avocat divorce à l'amiable",
+        "slug": "avocat-divorce-a-lamiable-arles",
+        "score": 0,
+        "words": 4467,
+        "date": "2026-04-24"
+      },
+      {
+        "site": "permis",
+        "ville": "Marignane",
+        "theme": "Avocat alcool au volant",
+        "slug": "avocat-alcool-au-volant-marignane",
+        "score": 0,
+        "words": 3948,
+        "date": "2026-04-24"
+      },
       {
         "site": "victime",
         "ville": "Aix-en-Provence",
@@ -206,8 +235,8 @@
       "domain": "lexvox-victime.com",
       "label": "Victime / Dommage corporel",
       "color": "#3b82f6",
-      "articles": 5,
-      "latest": "2026-04-23",
+      "articles": 6,
+      "latest": "2026-04-24",
       "villes": [
         "Aix-en-Provence",
         "Arles",
@@ -219,10 +248,11 @@
       "domain": "lexvox-divorce.com",
       "label": "Divorce & Famille",
       "color": "#8b5cf6",
-      "articles": 5,
-      "latest": "2026-04-23",
+      "articles": 6,
+      "latest": "2026-04-24",
       "villes": [
         "Aix-en-Provence",
+        "Arles",
         "Marignane",
         "Salon-de-Provence"
       ]
@@ -231,8 +261,8 @@
       "domain": "lexvox-permis.com",
       "label": "Pénal routier",
       "color": "#ec4899",
-      "articles": 5,
-      "latest": "2026-04-23",
+      "articles": 6,
+      "latest": "2026-04-24",
       "villes": [
         "Aix-en-Provence",
         "Marignane",

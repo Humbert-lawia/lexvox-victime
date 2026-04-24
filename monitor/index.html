@@ -3,8 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'">
 <title>LEXVOX Monitor — Dashboard SEO</title>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"
+        integrity="sha384-8VQhNwPYcfUQyMruyYR7Rzu0Nxxl9/1FUd6Qza2HN4yELUx1nF1ZwHoh8CuJfYC/"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -174,7 +179,39 @@ td a:hover{text-decoration:underline}
 /* CHARTS */
 .cw{position:relative;height:210px}
 .cw-lg{position:relative;height:270px}
+.cw-xl{position:relative;height:320px}
 .cw-md{position:relative;height:180px}
+/* Audit modal */
+.amodal-overlay{display:none;position:fixed;inset:0;background:rgba(10,12,24,.75);z-index:1000;align-items:center;justify-content:center}
+.amodal-overlay.open{display:flex}
+.amodal{background:#1a1d27;border:1px solid rgba(99,102,241,.3);border-radius:12px;padding:28px;max-width:440px;width:92%;box-shadow:0 24px 60px rgba(0,0,0,.5)}
+.amodal h3{font-size:17px;font-weight:700;color:#e2e8f0;margin:0 0 6px}
+.amodal p{font-size:12px;color:var(--muted);margin:0 0 18px}
+.asite-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px}
+.asite-btn{display:flex;align-items:center;gap:8px;padding:10px 12px;background:rgba(42,47,71,.6);border:1px solid rgba(99,102,241,.2);border-radius:8px;cursor:pointer;transition:all .15s;color:#e2e8f0;font-size:13px;font-weight:500}
+.asite-btn:hover{background:rgba(99,102,241,.2);border-color:rgba(99,102,241,.5)}
+.asite-btn.selected{border-color:#3b82f6;background:rgba(59,130,246,.2)}
+.asite-btn .dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.asite-all{grid-column:1/-1}
+.amod-email{width:100%;padding:8px 12px;background:rgba(42,47,71,.6);border:1px solid rgba(99,102,241,.25);border-radius:6px;color:#e2e8f0;font-size:13px;margin-bottom:16px;box-sizing:border-box}
+.amod-email::placeholder{color:var(--muted)}
+.amod-footer{display:flex;gap:8px;justify-content:flex-end}
+.amod-cancel{background:transparent;border:1px solid rgba(99,102,241,.3);color:var(--muted);padding:8px 16px;border-radius:6px;cursor:pointer;font-size:13px}
+.amod-launch{background:linear-gradient(135deg,#3b82f6,#6366f1);border:none;color:#fff;padding:8px 20px;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600}
+.amod-launch:disabled{opacity:.4;cursor:not-allowed}
+/* Phase chips */
+.ap-chip{padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600;background:rgba(42,47,71,.8);color:var(--muted);border:1px solid transparent;transition:all .3s}
+.ap-chip.running{background:rgba(59,130,246,.2);color:#93c5fd;border-color:rgba(59,130,246,.4);animation:pulse2 1.5s infinite}
+.ap-chip.done{background:rgba(34,197,94,.15);color:#86efac;border-color:rgba(34,197,94,.3)}
+.ap-chip.error{background:rgba(239,68,68,.15);color:#fca5a5;border-color:rgba(239,68,68,.3)}
+@keyframes pulse2{0%,100%{opacity:1}50%{opacity:.6}}
+/* Traffic period selector */
+.tp-btns{display:flex;gap:4px}
+.tp-btn{background:rgba(42,47,71,.7);border:1px solid rgba(99,102,241,.25);color:var(--muted);padding:3px 10px;border-radius:5px;cursor:pointer;font-size:11px;font-weight:600;transition:all .15s}
+.tp-btn:hover{background:rgba(99,102,241,.2);color:#e2e8f0}
+.tp-btn.active{background:rgba(59,130,246,.25);border-color:#3b82f6;color:#e2e8f0}
+/* Top pages chart container */
+.top-pages-cw{position:relative;height:260px}
 
 /* FILTERS */
 .frow{display:flex;gap:7px;margin-bottom:13px;flex-wrap:wrap}
@@ -218,14 +255,16 @@ td a:hover{text-decoration:underline}
     <button class="nav-tab" data-view="audit" onclick="sv('audit')">🔍 Audit</button>
     <button class="nav-tab" data-view="articles" onclick="sv('articles')">📝 Articles</button>
     <button class="nav-tab" data-view="positions" onclick="sv('positions')">📈 Positions</button>
+    <button class="nav-tab" data-view="trafic" onclick="sv('trafic')">📉 Trafic GSC</button>
     <button class="nav-tab" data-view="technique" onclick="sv('technique')">⚙️ Technique</button>
   </nav>
-  <span id="last-update">—</span>
+  <span id="last-update">—</span> <span id="last-update-age" style="color:var(--muted);font-size:11px"></span>
   <div class="hdr-actions">
     <button class="btn btn-default" onclick="loadData()">↻ Actu.</button>
     <button class="btn btn-audit" onclick="triggerAudit()">🚀 Lancer l'audit</button>
   </div>
 </header>
+<div id="integrity-banner" style="display:none;padding:10px 20px;background:#ef4444;color:#fff;font-weight:600;text-align:center"></div>
 
 <!-- ═══════════════ VUE D'ENSEMBLE ═══════════════ -->
 <div class="view active" id="view-overview">
@@ -320,6 +359,23 @@ td a:hover{text-decoration:underline}
   <div class="G">
     <div class="full" id="audit-alert">
       <div class="alert alert-info">🔍 <span id="audit-last-run">Aucun audit — cliquez "Lancer l'audit" pour analyser les 3 sites (technique, contenu, local SEO, schema, performance, backlinks, visibilité IA).</span></div>
+    </div>
+
+    <!-- Audit progress panel (visible during run) -->
+    <div class="full" id="audit-progress-panel" style="display:none">
+      <div class="card" style="border-left:3px solid var(--blue)">
+        <div class="ch">
+          <div class="ct"><span class="dot" style="background:var(--blue)"></span>Audit en cours — <span id="ap-site">—</span></div>
+          <span id="ap-status" style="font-size:12px;color:var(--muted)">Initialisation…</span>
+        </div>
+        <div style="margin:10px 0 6px">
+          <div class="pb" style="height:8px;border-radius:4px;background:rgba(42,47,71,.8)">
+            <div id="ap-bar" class="pf blue" style="width:0%;height:100%;border-radius:4px;transition:width .4s ease"></div>
+          </div>
+        </div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px" id="ap-phases"></div>
+        <div id="ap-log" style="margin-top:8px;font-size:11px;color:var(--muted);max-height:80px;overflow-y:auto"></div>
+      </div>
     </div>
 
     <!-- Scores par site -->
@@ -506,6 +562,99 @@ td a:hover{text-decoration:underline}
   </div>
 </div>
 
+<!-- ═══════════════ MODAL AUDIT ═══════════════ -->
+<div class="amodal-overlay" id="audit-modal" onclick="if(event.target===this)closeAuditModal()">
+  <div class="amodal">
+    <h3>🚀 Lancer un audit SEO</h3>
+    <p>L'audit analyse la technique, le contenu, le SEO local, le schema.org, les performances et la visibilité IA. Durée estimée : 3-8 minutes par site.</p>
+    <div class="asite-grid">
+      <button class="asite-btn asite-all selected" id="asite-tous" onclick="selectAuditSite('tous')"><span class="dot" style="background:var(--green)"></span>Tous les sites</button>
+      <button class="asite-btn" id="asite-victime" onclick="selectAuditSite('victime')"><span class="dot" style="background:var(--blue)"></span>Victime</button>
+      <button class="asite-btn" id="asite-divorce" onclick="selectAuditSite('divorce')"><span class="dot" style="background:var(--purple)"></span>Divorce</button>
+      <button class="asite-btn" id="asite-permis" onclick="selectAuditSite('permis')"><span class="dot" style="background:var(--pink)"></span>Permis</button>
+    </div>
+    <input class="amod-email" id="amod-email-input" type="email" placeholder="Email de rapport (optionnel)" value="">
+    <div class="amod-footer">
+      <button class="amod-cancel" onclick="closeAuditModal()">Annuler</button>
+      <button class="amod-launch" id="amod-launch-btn" onclick="launchAudit()">🚀 Lancer l'audit</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ TRAFIC GSC ═══════════════ -->
+<div class="view" id="view-trafic">
+  <div class="G">
+
+    <!-- Alerte démo -->
+    <div class="full" id="traffic-demo-note" style="display:none">
+      <div class="alert alert-info">📊 Données de démonstration — connectez GSC dans le pipeline pour afficher le trafic réel (clics · impressions · pages).</div>
+    </div>
+
+    <!-- KPI clics / impressions par site -->
+    <div class="full">
+      <div class="mrow" id="traffic-kpi">
+        <div class="mc"><div class="mi" style="background:rgba(59,130,246,.15)">📊</div><div class="mb"><div class="ml">Victime — clics</div><div class="mv" id="tkpi-v-clicks">—</div><div class="ms" id="tkpi-v-impr">—</div></div></div>
+        <div class="mc"><div class="mi" style="background:rgba(139,92,246,.15)">📊</div><div class="mb"><div class="ml">Divorce — clics</div><div class="mv" id="tkpi-d-clicks">—</div><div class="ms" id="tkpi-d-impr">—</div></div></div>
+        <div class="mc"><div class="mi" style="background:rgba(236,72,153,.15)">📊</div><div class="mb"><div class="ml">Permis — clics</div><div class="mv" id="tkpi-p-clicks">—</div><div class="ms" id="tkpi-p-impr">—</div></div></div>
+        <div class="mc"><div class="mi" style="background:rgba(34,197,94,.15)">📈</div><div class="mb"><div class="ml">Total clics</div><div class="mv" id="tkpi-total">—</div><div class="ms" id="tkpi-period-label">7 derniers jours</div></div></div>
+      </div>
+    </div>
+
+    <!-- Clics par site dans le temps -->
+    <div class="card full">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--blue)"></span>Clics par site — évolution</div>
+        <div class="tp-btns">
+          <button class="tp-btn active" data-p="7"   onclick="setTrafficPeriod(7)">7j</button>
+          <button class="tp-btn"        data-p="30"  onclick="setTrafficPeriod(30)">30j</button>
+          <button class="tp-btn"        data-p="180" onclick="setTrafficPeriod(180)">6 mois</button>
+        </div>
+      </div>
+      <div class="cw-xl"><canvas id="trafficClicksChart"></canvas></div>
+    </div>
+
+    <!-- Impressions par site dans le temps -->
+    <div class="card full">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--purple)"></span>Impressions par site — évolution</div>
+      </div>
+      <div class="cw-xl"><canvas id="trafficImpressionsChart"></canvas></div>
+    </div>
+
+    <!-- Top 10 pages — Victime -->
+    <div class="card">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--blue)"></span>Top pages — lexvox-victime.com</div>
+        <a class="ca" href="https://search.google.com/search-console" target="_blank" rel="noopener">GSC ↗</a>
+      </div>
+      <div class="top-pages-cw"><canvas id="topPagesVictimeChart"></canvas></div>
+    </div>
+
+    <!-- Top 10 pages — Divorce -->
+    <div class="card">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--purple)"></span>Top pages — lexvox-divorce.com</div>
+        <a class="ca" href="https://search.google.com/search-console" target="_blank" rel="noopener">GSC ↗</a>
+      </div>
+      <div class="top-pages-cw"><canvas id="topPagesDivorceChart"></canvas></div>
+    </div>
+
+    <!-- Top 10 pages — Permis -->
+    <div class="card full">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--pink)"></span>Top pages — lexvox-permis.com</div>
+      </div>
+      <div class="top-pages-cw"><canvas id="topPagesPermisChart"></canvas></div>
+    </div>
+
+    <!-- Note GSC -->
+    <div class="full">
+      <div class="alert alert-info" style="font-size:12px">📌 Données Google Search Console · Lag de ~3 jours · Mise à jour quotidienne via le pipeline LAWIA-SEO (cron 6h UTC). Les clics correspondent aux visiteurs ayant cliqué sur un résultat Google vers ce site.</div>
+    </div>
+
+  </div>
+</div>
+
 <script>
 // ═══════════ CONFIG ═══════════
 const SITE_META = {
@@ -570,18 +719,60 @@ function sv(view){
   history.replaceState(null,'','#'+view);
   if(view==='audit')   { setTimeout(initAuditCharts,50); }
   if(view==='positions'){ setTimeout(initPosCharts,50); }
+  if(view==='trafic')  { setTimeout(()=>initTrafficCharts(gData),50); }
   if(view==='technique'){ setTimeout(initTechCharts,50); }
 }
 
 // ═══════════ LOAD ═══════════
-async function loadData(){
+let lastSuccessfulFetch = null;
+let integrityStatus = 'unknown'; // 'ok' | 'mismatch' | 'no-manifest' | 'unknown'
+
+async function verifyIntegrity(json){
   try{
-    const r=await fetch('./lexvox-data.json?t='+Date.now());
-    if(!r.ok) throw 0;
-    gData=await r.json();
-  }catch{ gData=null; }
-  renderAll(gData);
+    // Tentative de chargement d'un manifest sha256 optionnel (produit par le pipeline)
+    const mr = await fetch('./lexvox-data.json.sha256?t='+Date.now(), {cache:'no-store'});
+    if(!mr.ok){ integrityStatus='no-manifest'; return true; }
+    const expected = (await mr.text()).trim().split(/\s+/)[0];
+    const encoded = new TextEncoder().encode(json);
+    const buf = await crypto.subtle.digest('SHA-256', encoded);
+    const actual = Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');
+    const ok = expected.toLowerCase() === actual.toLowerCase();
+    integrityStatus = ok ? 'ok' : 'mismatch';
+    return ok;
+  }catch{ integrityStatus='no-manifest'; return true; }
 }
+
+async function loadData(){
+  const banner = document.getElementById('integrity-banner');
+  try{
+    const r = await fetch('./lexvox-data.json?t='+Date.now(), {cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const text = await r.text();
+    const ok = await verifyIntegrity(text);
+    if(!ok){
+      if(banner){ banner.style.display='block'; banner.textContent='⚠ Intégrité compromise — données non affichées (mismatch SHA-256).'; }
+      return;
+    }
+    if(banner) banner.style.display='none';
+    gData = JSON.parse(text);
+    lastSuccessfulFetch = new Date();
+  }catch(e){
+    // Ne pas écraser les données déjà affichées si on a eu un succès avant
+    if(banner && !gData){ banner.style.display='block'; banner.textContent='⚠ Données indisponibles ('+e.message+')'; }
+  }
+  renderAll(gData);
+  updateAgeIndicator();
+}
+
+function updateAgeIndicator(){
+  const el = document.getElementById('last-update-age');
+  if(!el) return;
+  if(!lastSuccessfulFetch){ el.textContent=''; return; }
+  const min = Math.floor((Date.now() - lastSuccessfulFetch.getTime()) / 60000);
+  const tag = integrityStatus==='ok' ? ' ✓' : integrityStatus==='no-manifest' ? '' : '';
+  el.textContent = min<1 ? `• à l'instant${tag}` : `• il y a ${min} min${tag}`;
+}
+setInterval(updateAgeIndicator, 30000);
 
 function renderAll(d){
   document.getElementById('last-update').textContent='Mis à jour : '+(d?new Date(d.generated_at).toLocaleString('fr-FR'):'—');
@@ -663,7 +854,7 @@ function renderNW(nw){
   div.innerHTML=`<div class="nw-main"><div class="nw-count" style="color:var(--${cls==='green'?'green':cls==='yellow'?'yellow':'red'})">${nw.used}</div><div><div class="nw-cap">/ ${nw.cap}</div><div class="nw-rem">${nw.remaining} restantes</div></div></div>
 <div class="pb"><div class="pf ${cls}" style="width:${pct}%"></div></div>
 <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-top:2px"><span>${pct}% utilisé</span><span>${nw.month??''}</span></div>
-${kws.length?`<div class="nw-kw" style="margin-top:10px"><div style="font-size:10px;color:var(--muted);margin-bottom:5px">DERNIERS KEYWORDS</div>${kws.map(kw=>`<div class="nw-ki"><span>${kw}</span></div>`).join('')}</div>`:''}`;
+${kws.length?`<div class="nw-kw" style="margin-top:10px"><div style="font-size:10px;color:var(--muted);margin-bottom:5px">DERNIERS KEYWORDS</div>${kws.map(kw=>`<div class="nw-ki"><span>${esc(kw)}</span></div>`).join('')}</div>`:''}`;
 }
 
 // ═══════════ PLAN ═══════════
@@ -698,12 +889,13 @@ function posRow(kw){
   const prev=kw.prev_position;const delta=prev?prev-pos:null;
   const dt=delta!==null?(delta>0?`<span class="du">▲${delta}</span>`:delta<0?`<span class="dd2">▼${Math.abs(delta)}</span>`:`<span class="df">–</span>`):`<span class="dn">NEW</span>`;
   const m=SITE_META[kw.site]??{};
-  const searchUrl=`https://www.google.fr/search?q=${encodeURIComponent(kw.keyword)}`;
+  const kwSafe=String(kw.keyword||'');
+  const searchUrl=`https://www.google.fr/search?q=${encodeURIComponent(kwSafe)}`;
   return `<div class="pos-row">
-    <div class="pos-rank ${rc}">${pos}</div>
+    <div class="pos-rank ${rc}">${+pos||0}</div>
     <div class="pos-info">
-      <div class="pos-kw"><a href="${searchUrl}" target="_blank" rel="noopener" style="color:var(--text)">${kw.keyword}</a></div>
-      <div class="pos-dom">${m.domain??kw.site} · ${kw.impressions??0} impres.</div>
+      <div class="pos-kw"><a href="${esc(searchUrl)}" target="_blank" rel="noopener noreferrer" style="color:var(--text)">${esc(kwSafe)}</a></div>
+      <div class="pos-dom">${esc(m.domain||kw.site)} · ${+kw.impressions||0} impres.</div>
     </div>
     <div class="pos-d">${dt}</div>
     <div class="pos-c">${kw.clicks??0} clics</div>
@@ -741,22 +933,29 @@ function showArtsFiltered(){
   tbody.innerHTML=rows.map(a=>artRow(a,true)).join('');
 }
 
+// Escape pour éviter XSS depuis lexvox-data.json (les champs peuvent contenir <, >, ", &)
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function artRow(a,withScore){
   const m=SITE_META[a.site]??{};
-  const date=(a.date||'').slice(0,10);
-  const fname=a.filename??(a.keyword?a.keyword.replace(/\s+/g,'-').toLowerCase()+'.html':null);
+  const date=esc((a.date||'').slice(0,10));
+  // Support multiple schemas: slug (actuel), filename (legacy), keyword (fallback)
+  let slug = a.slug || (a.filename?String(a.filename).replace(/\.html?$/i,''):null)
+           || (a.keyword?String(a.keyword).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,'-').toLowerCase():null);
+  // Whitelist : a-z 0-9 - seulement (prévention open-redirect / path traversal)
+  if(slug) slug = slug.replace(/[^a-z0-9-]/gi,'').slice(0,120);
   let link='—';
-  if(fname&&fname!=='—'&&m.url){
-    const slug=fname.replace(/\.html$/,'');
-    const url=`${m.url}/${m.dir??'actualites'}/${slug}`;
-    link=`<a href="${url}" target="_blank" rel="noopener" title="${fname}">${slug.slice(0,32)}${slug.length>32?'…':''} ↗</a>`;
+  if(slug && m.url){
+    const url=`${m.url}/${m.dir||'actualites'}/${slug}`;
+    const label=esc(slug.slice(0,32)+(slug.length>32?'…':''));
+    link=`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer" title="${esc(slug)}">${label} ↗</a>`;
   }
-  const scoreCell=withScore?`<td style="color:var(--muted);font-size:11px">${a.nw_score??'—'}</td>`:'';
+  const scoreVal = a.nw_score ?? a.score ?? null;
+  const scoreCell = withScore?`<td style="color:var(--muted);font-size:11px">${scoreVal==null||scoreVal===0?'—':esc(scoreVal)}</td>`:'';
   return `<tr>
-    <td><span class="badge ${m.badge??''}">${a.site}</span></td>
-    <td>${a.ville??'—'}</td>
-    <td style="max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${a.theme??'—'}</td>
-    <td style="max-width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted);font-size:11px">${a.keyword??'—'}</td>
+    <td><span class="badge ${esc(m.badge||'')}">${esc(a.site)}</span></td>
+    <td>${esc(a.ville||'—')}</td>
+    <td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(a.theme||'')}">${esc(a.theme||'—')}</td>
+    <td style="max-width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted);font-size:11px">${esc(a.keyword||a.theme||'—')}</td>
     <td style="white-space:nowrap">${date}</td>
     <td style="font-size:11px">${link}</td>
     ${scoreCell}
@@ -830,11 +1029,168 @@ function renderCWV(technical){
 }
 
 // ═══════════ AUDIT TRIGGER ═══════════
+const WORKER_URL = 'https://lawia-worker-production.up.railway.app';
+const SITES_DOMAINS = {
+  victime: 'https://lexvox-victime.com/',
+  divorce: 'https://lexvox-divorce.com/',
+  permis:  'https://lexvox-permis.com/',
+};
+const AUDIT_PHASES = ['Supervisor','Crawl (Nox)','Mots-clés (Marc)','Contenu (Alya)','Optimisation (Rémi)','Schema (Marc)','Rapport (Maya)'];
+
+let auditSiteSelected = 'tous';
+let auditPollingInterval = null;
+let currentAuditIds = [];
+
 function triggerAudit(){
-  const url='https://github.com/Humbert-lawia/lawia-seo/actions/workflows/weekly-seo-audit.yml';
-  if(confirm('Ouvrir GitHub Actions pour lancer l\'audit SEO complet des 3 sites ?')){
-    window.open(url,'_blank');
+  document.getElementById('audit-modal').classList.add('open');
+}
+
+function closeAuditModal(){
+  document.getElementById('audit-modal').classList.remove('open');
+}
+
+function selectAuditSite(site){
+  auditSiteSelected = site;
+  ['tous','victime','divorce','permis'].forEach(s=>{
+    const btn = document.getElementById('asite-'+s);
+    if(btn) btn.classList.toggle('selected', s===site);
+  });
+}
+
+async function launchAudit(){
+  const btn = document.getElementById('amod-launch-btn');
+  const email = document.getElementById('amod-email-input')?.value.trim() || null;
+  btn.disabled = true;
+  btn.textContent = '⏳ Envoi…';
+
+  const sites = auditSiteSelected === 'tous'
+    ? Object.keys(SITES_DOMAINS)
+    : [auditSiteSelected];
+
+  closeAuditModal();
+  showAuditProgress(sites);
+
+  currentAuditIds = [];
+  let allOk = true;
+
+  for(const site of sites){
+    try{
+      const resp = await fetch(`${WORKER_URL}/webhook/audit-ultime`, {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({url: SITES_DOMAINS[site], email})
+      });
+      const data = await resp.json();
+      if(resp.ok && data.auditId){
+        currentAuditIds.push({site, auditId: data.auditId});
+        logAudit(`✅ ${site}: audit #${data.auditId.slice(-8)} en file d'attente`);
+      } else {
+        logAudit(`⚠ ${site}: ${data.error||'Erreur inconnue'}`);
+        allOk = false;
+      }
+    } catch(e){
+      logAudit(`❌ ${site}: ${e.message}`);
+      allOk = false;
+    }
   }
+
+  btn.disabled = false;
+  btn.textContent = '🚀 Lancer l\'audit';
+
+  if(currentAuditIds.length > 0){
+    startAuditPolling();
+  } else {
+    setAuditStatus('Erreur — vérifiez que le worker Railway est démarré', false);
+  }
+}
+
+function showAuditProgress(sites){
+  const panel = document.getElementById('audit-progress-panel');
+  if(!panel) return;
+  panel.style.display = 'block';
+  document.getElementById('ap-site').textContent = sites.map(s=>SITE_META[s]?.domain||s).join(' · ');
+  setAuditStatus('Démarrage…', true);
+  document.getElementById('ap-bar').style.width = '5%';
+  document.getElementById('ap-log').textContent = '';
+  renderPhaseChips([]);
+  // Scroll vers le panel
+  panel.scrollIntoView({behavior:'smooth', block:'center'});
+}
+
+function renderPhaseChips(donePhases, runningPhase){
+  const div = document.getElementById('ap-phases');
+  if(!div) return;
+  div.innerHTML = AUDIT_PHASES.map((p,i)=>{
+    const cls = donePhases.includes(i) ? 'done' : runningPhase===i ? 'running' : '';
+    return `<span class="ap-chip ${cls}">${donePhases.includes(i)?'✓ ':runningPhase===i?'⟳ ':''}${p}</span>`;
+  }).join('');
+}
+
+function setAuditStatus(msg, running){
+  const el = document.getElementById('ap-status');
+  const bar = document.getElementById('ap-bar');
+  if(el) el.textContent = msg;
+  if(bar && !running){
+    bar.style.width = msg.startsWith('✅') ? '100%' : bar.style.width;
+    if(msg.startsWith('✅')) bar.style.background = 'var(--green)';
+    if(msg.startsWith('❌')) bar.style.background = 'var(--red)';
+  }
+}
+
+function logAudit(msg){
+  const div = document.getElementById('ap-log');
+  if(!div) return;
+  div.textContent += (div.textContent?'\n':'')+msg;
+  div.scrollTop = div.scrollHeight;
+}
+
+function startAuditPolling(){
+  if(auditPollingInterval) clearInterval(auditPollingInterval);
+  let tick = 0;
+  auditPollingInterval = setInterval(async ()=>{
+    tick++;
+    const phaseDones = new Set();
+    let allDone = true;
+    let anyError = false;
+    let maxPhase = 0;
+
+    for(const {site, auditId} of currentAuditIds){
+      try{
+        const resp = await fetch(`${WORKER_URL}/audit-ultime/${auditId}`, {cache:'no-store'});
+        if(!resp.ok) continue;
+        const audit = await resp.json();
+        const status = audit.status;
+        const phase = audit.currentPhase||0;
+        maxPhase = Math.max(maxPhase, phase);
+
+        if(status !== 'done' && status !== 'error') allDone = false;
+        if(status === 'error') anyError = true;
+        if(status === 'done'){
+          for(let i=0;i<AUDIT_PHASES.length;i++) phaseDones.add(i);
+          logAudit(`✅ ${site}: score ${audit.seoScore??'—'}/100`);
+        }
+      } catch(e){ /* silently skip */ }
+    }
+
+    // Mise à jour UI
+    const pct = Math.min(95, 5 + tick*3 + maxPhase*8);
+    const bar = document.getElementById('ap-bar');
+    if(bar) bar.style.width = pct+'%';
+    renderPhaseChips([...phaseDones], maxPhase);
+    setAuditStatus(`Phase ${Math.min(maxPhase+1,AUDIT_PHASES.length)}/${AUDIT_PHASES.length} — ${AUDIT_PHASES[Math.min(maxPhase,AUDIT_PHASES.length-1)]}…`, true);
+
+    if(allDone){
+      clearInterval(auditPollingInterval);
+      auditPollingInterval = null;
+      setAuditStatus('✅ Audit terminé — rechargement des données…', false);
+      if(bar) bar.style.width = '100%';
+      renderPhaseChips(AUDIT_PHASES.map((_,i)=>i));
+      setTimeout(()=>loadData(), 3000); // reload dashboard data
+    }
+    if(anyError && allDone){
+      setAuditStatus('❌ Audit terminé avec erreurs — vérifiez les logs Railway', false);
+    }
+  }, 10000); // poll toutes les 10s
 }
 
 // ═══════════ CHART HELPERS ═══════════
@@ -926,6 +1282,173 @@ function initWeeklyChart(d){
         tooltip:{backgroundColor:'#1a1d27',borderColor:'#2a2f47',borderWidth:1}
       }
     });
+  });
+}
+
+// ═══════════ TRAFFIC CHARTS ═══════════
+let trafficPeriod = 7;
+
+function setTrafficPeriod(p){
+  trafficPeriod = p;
+  document.querySelectorAll('.tp-btn').forEach(b=>b.classList.remove('active'));
+  const btn = document.querySelector(`.tp-btn[data-p="${p}"]`);
+  if(btn) btn.classList.add('active');
+  initTrafficCharts(gData);
+}
+
+function generateDemoTraffic(days){
+  const arr=[];
+  const now=new Date();
+  // Données demo croissantes (site lancé le 18 avril 2026)
+  const launchDaysAgo = Math.min(days, Math.floor((now - new Date('2026-04-18'))/86400000));
+  for(let i=days;i>=0;i--){
+    const d=new Date(now);d.setDate(now.getDate()-i);
+    const age=Math.max(0, launchDaysAgo - i); // jours depuis le lancement
+    const ramp=Math.min(1, age/60); // montée progressive sur 60j
+    arr.push({
+      date: d.toISOString().split('T')[0],
+      victime:{
+        clicks: Math.round((3 + ramp*12 + Math.random()*4) * (1 + 0.3*Math.sin(i*0.7))),
+        impressions: Math.round((120 + ramp*500 + Math.random()*80) * (1 + 0.2*Math.sin(i*0.5)))
+      },
+      divorce:{
+        clicks: Math.round((1 + ramp*5 + Math.random()*2) * (1 + 0.3*Math.sin(i*0.9))),
+        impressions: Math.round((50 + ramp*200 + Math.random()*40) * (1 + 0.2*Math.sin(i*0.6)))
+      },
+      permis:{
+        clicks: Math.round(Math.random()*2 * ramp),
+        impressions: Math.round((15 + ramp*60 + Math.random()*20))
+      }
+    });
+  }
+  return arr;
+}
+
+function renderTrafficKPI(data, period){
+  const slice=data.slice(-period);
+  const sum=(site,key)=>slice.reduce((a,d)=>a+(d[site]?.[key]??0),0);
+  const setEl=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v;};
+  const fmtCTR=(c,i)=>i>0?((c/i)*100).toFixed(1)+'%':'0%';
+  const vC=sum('victime','clicks'), vI=sum('victime','impressions');
+  const dC=sum('divorce','clicks'), dI=sum('divorce','impressions');
+  const pC=sum('permis','clicks'),  pI=sum('permis','impressions');
+  setEl('tkpi-v-clicks', vC);
+  setEl('tkpi-v-impr',   vI.toLocaleString('fr')+' impr · CTR '+fmtCTR(vC,vI));
+  setEl('tkpi-d-clicks', dC);
+  setEl('tkpi-d-impr',   dI.toLocaleString('fr')+' impr · CTR '+fmtCTR(dC,dI));
+  setEl('tkpi-p-clicks', pC);
+  setEl('tkpi-p-impr',   pI.toLocaleString('fr')+' impr · CTR '+fmtCTR(pC,pI));
+  setEl('tkpi-total',    (vC+dC+pC).toString());
+  const pLabels={7:'7 derniers jours',30:'30 derniers jours',180:'6 derniers mois'};
+  setEl('tkpi-period-label', pLabels[period]||period+'j');
+}
+
+function initTrafficCharts(d){
+  const traffic=d?.traffic??null;
+  const byDate=traffic?.by_date??generateDemoTraffic(180);
+  const isDemoData=!traffic?.by_date;
+
+  const demoNote=document.getElementById('traffic-demo-note');
+  if(demoNote) demoNote.style.display=isDemoData?'block':'none';
+
+  const slice=byDate.slice(-trafficPeriod);
+  const labels=slice.map(r=>{
+    const p=r.date.slice(5); // MM-DD
+    // Pour 6 mois, n'afficher que toutes les 7 valeurs pour la lisibilité
+    return p;
+  });
+
+  renderTrafficKPI(byDate, trafficPeriod);
+
+  const lineBase={
+    interaction:{intersect:false,mode:'index'},
+    scales:{
+      x:{grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:9},maxTicksLimit:trafficPeriod<=30?15:26}},
+      y:{min:0,grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:10}}}
+    },
+    plugins:{
+      legend:{labels:{color:'#e2e8f0',font:{size:11},boxWidth:12}},
+      tooltip:{backgroundColor:'#1a1d27',borderColor:'#2a2f47',borderWidth:1,callbacks:{
+        label:c=>` ${c.dataset.label}: ${c.parsed.y}`
+      }}
+    }
+  };
+
+  // Chart 1 — Clics par site
+  mk('trafficClicksChart','line',{
+    labels,
+    datasets:[
+      {label:'Victime', data:slice.map(r=>r.victime?.clicks??0), borderColor:'#3b82f6',backgroundColor:'rgba(59,130,246,.12)',borderWidth:2.5,pointRadius:trafficPeriod<=30?3:1,fill:true,tension:0.35},
+      {label:'Divorce', data:slice.map(r=>r.divorce?.clicks??0), borderColor:'#8b5cf6',backgroundColor:'rgba(139,92,246,.09)',borderWidth:2,pointRadius:trafficPeriod<=30?3:1,fill:true,tension:0.35},
+      {label:'Permis',  data:slice.map(r=>r.permis?.clicks??0),  borderColor:'#ec4899',backgroundColor:'rgba(236,72,153,.06)',borderWidth:1.5,pointRadius:trafficPeriod<=30?2:1,fill:true,tension:0.35},
+    ]
+  },{...lineBase, plugins:{...lineBase.plugins, tooltip:{...lineBase.plugins.tooltip, callbacks:{
+    label:c=>` ${c.dataset.label}: ${c.parsed.y} clics`
+  }}}});
+
+  // Chart 2 — Impressions par site
+  mk('trafficImpressionsChart','line',{
+    labels,
+    datasets:[
+      {label:'Victime', data:slice.map(r=>r.victime?.impressions??0), borderColor:'rgba(59,130,246,.9)',backgroundColor:'rgba(59,130,246,.07)',borderWidth:2,pointRadius:trafficPeriod<=30?2:0,fill:true,tension:0.35},
+      {label:'Divorce', data:slice.map(r=>r.divorce?.impressions??0), borderColor:'rgba(139,92,246,.9)',backgroundColor:'rgba(139,92,246,.05)',borderWidth:2,pointRadius:trafficPeriod<=30?2:0,fill:true,tension:0.35},
+      {label:'Permis',  data:slice.map(r=>r.permis?.impressions??0),  borderColor:'rgba(236,72,153,.8)',backgroundColor:'rgba(236,72,153,.04)',borderWidth:1.5,pointRadius:trafficPeriod<=30?1:0,fill:true,tension:0.35},
+    ]
+  },{...lineBase, plugins:{...lineBase.plugins, tooltip:{...lineBase.plugins.tooltip, callbacks:{
+    label:c=>` ${c.dataset.label}: ${c.parsed.y.toLocaleString('fr')} impressions`
+  }}}});
+
+  // Préparer les top pages (réelles ou démo)
+  const DEMO_VICTIME=[
+    {page:'/actualites/avocat-accident-de-la-route-aix-en-provence',clicks:45,impressions:890},
+    {page:'/actualites/avocat-accident-de-la-route-arles',clicks:28,impressions:560},
+    {page:'/actualites/avocat-erreur-medicale-aix-en-provence',clicks:22,impressions:440},
+    {page:'/actualites/accident-de-bus-indemnisation-aix-en-provence',clicks:18,impressions:380},
+    {page:'/actualites/avocat-faute-medicale-paca',clicks:12,impressions:290},
+    {page:'/actualites/traumatisme-cranien-grave-avocat',clicks:9,impressions:215},
+    {page:'/actualites/accident-travail-faute-inexcusable-employeur',clicks:7,impressions:180},
+    {page:'/actualites/indemnisation-prejudice-corporel-grave',clicks:5,impressions:140},
+  ];
+  const DEMO_DIVORCE=[
+    {page:'/actualites/avocat-divorce-amiable-procedure-a-aix-en-provence',clicks:32,impressions:640},
+    {page:'/actualites/pension-alimentaire-divorce-salon-de-provence',clicks:21,impressions:420},
+    {page:'/actualites/garde-enfant-divorce-avocat-a-aix-en-provence',clicks:17,impressions:340},
+    {page:'/actualites/calcul-prestation-compensatoire-avocat-a-aix-en-provence',clicks:14,impressions:280},
+    {page:'/actualites/avocat-violence-conjugale-procedure-a-aix-en-provence',clicks:9,impressions:210},
+  ];
+  const DEMO_PERMIS=[
+    {page:'/actualites/contester-ethylometre-aix-en-provence',clicks:8,impressions:160},
+    {page:'/actualites/avocat-alcool-au-volant-aix-en-provence',clicks:6,impressions:140},
+    {page:'/actualites/avocat-exces-de-vitesse-aix-en-provence',clicks:4,impressions:110},
+  ];
+
+  renderTopPagesChart('topPagesVictimeChart', traffic?.top_pages?.victime??DEMO_VICTIME, '#3b82f6');
+  renderTopPagesChart('topPagesDivorceChart', traffic?.top_pages?.divorce??DEMO_DIVORCE, '#8b5cf6');
+  renderTopPagesChart('topPagesPermisChart',  traffic?.top_pages?.permis??DEMO_PERMIS,   '#ec4899');
+}
+
+function renderTopPagesChart(id, pages, color){
+  const top=pages.slice(0,10).sort((a,b)=>(b.clicks??0)-(a.clicks??0));
+  const labels=top.map(p=>{
+    let s=String(p.page).replace(/^https?:\/\/[^/]+/,'').replace(/^\/actualites\//,'');
+    return s.slice(0,38)+(s.length>38?'…':'');
+  });
+  mk(id,'bar',{
+    labels,
+    datasets:[{label:'Clics',data:top.map(p=>p.clicks??0),backgroundColor:color+'cc',borderRadius:4}]
+  },{
+    indexAxis:'y',
+    scales:{
+      x:{grid:{color:'rgba(42,47,71,.5)'},ticks:{color:'#64748b',font:{size:9}},title:{display:true,text:'Clics',color:'#64748b',font:{size:10}}},
+      y:{grid:{display:false},ticks:{color:'#e2e8f0',font:{size:9}}}
+    },
+    plugins:{
+      legend:{display:false},
+      tooltip:{backgroundColor:'#1a1d27',borderColor:'#2a2f47',borderWidth:1,callbacks:{
+        label:c=>` ${c.parsed.x} clics`,
+        afterLabel:c=>{const p=top[c.dataIndex];return p.impressions?` ${p.impressions} impressions`:'';}
+      }}
+    }
   });
 }
 
@@ -1034,14 +1557,15 @@ function initPosCharts(){
       <thead><tr><th>Mot-clé</th><th>Site</th><th>Position</th><th>Impressions</th><th>Clics</th><th>Action</th></tr></thead>
       <tbody>${all2.map(kw=>{
         const m=SITE_META[kw.site]??{};
-        const searchUrl=`https://www.google.fr/search?q=${encodeURIComponent(kw.keyword)}`;
+        const kwSafe=String(kw.keyword||'');
+        const searchUrl=`https://www.google.fr/search?q=${encodeURIComponent(kwSafe)}`;
         return `<tr>
-          <td><a href="${searchUrl}" target="_blank" rel="noopener">${kw.keyword} ↗</a></td>
-          <td><span class="badge ${m.badge??''}">${kw.site}</span></td>
-          <td style="color:var(--yellow);font-weight:700">#${kw.position}</td>
-          <td>${kw.impressions??0}</td>
-          <td>${kw.clicks??0}</td>
-          <td><a href="${m.url??'#'}" target="_blank" rel="noopener" style="color:var(--blue);font-size:11px">Optimiser →</a></td>
+          <td><a href="${esc(searchUrl)}" target="_blank" rel="noopener noreferrer">${esc(kwSafe)} ↗</a></td>
+          <td><span class="badge ${esc(m.badge||'')}">${esc(kw.site)}</span></td>
+          <td style="color:var(--yellow);font-weight:700">#${+kw.position||0}</td>
+          <td>${+kw.impressions||0}</td>
+          <td>${+kw.clicks||0}</td>
+          <td><a href="${esc(m.url||'#')}" target="_blank" rel="noopener noreferrer" style="color:var(--blue);font-size:11px">Optimiser →</a></td>
         </tr>`;
       }).join('')}</tbody>
     </table>`;
