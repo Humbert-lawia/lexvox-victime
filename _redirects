@@ -55,6 +55,9 @@
 /actualite                           /actualites                           301
 /news                                /actualites                           301
 
+# Articles renommés après optimisation NeuronWriter
+/actualites/accident-de-bus-indemnisation-marignane  /actualites/avocat-accident-de-indemnisation-a-marignane-expertise-en-domma  301
+
 # Fallback 404
 /actualites/5-erreurs-qui-reduisent-votre-indemnisation-apres-un-acciden /actualites/5-erreurs-qui-reduisent-votre-indemnisation-apres-un-accident-l 301
 /actualites/comment-ecrire-une-lettre-de-doleance-apres-un-accident-guid /actualites/comment-ecrire-une-lettre-de-doleance-apres-un-accident-guide-p 301
