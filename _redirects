@@ -25,6 +25,7 @@ https://www.lexvox-victime.com/*  https://lexvox-victime.com/:splat  301
 /salon-de-provence                   /cabinet/salon-de-provence            301
 /arles                               /cabinet/arles                        301
 /marignane                           /cabinet/marignane                    301
+/marseille                           /cabinet/marseille                    301
 /nimes                               /cabinet/nimes                        301
 
 # Bureaux — URLs plates avocat-victime-[ville] → /cabinet/[ville] (audit 2026-04-22)
