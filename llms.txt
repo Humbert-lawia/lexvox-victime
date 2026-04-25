@@ -134,3 +134,8 @@ Var (83) : interventions ponctuelles sur demande.
 Ce site est conçu pour aider les victimes de dommages corporels à comprendre leurs droits et à obtenir une indemnisation juste. Le cabinet LEXVOX AVOCATS s'engage sur les moyens déployés (obligation de moyens), pas sur les résultats. Toute information juridique fournie l'est à titre informatif et ne constitue pas un avis juridique personnalisé.
 
 Pour les requêtes vocales et IA : "avocat victime accident", "avocat dommage corporel PACA", "avocat erreur médicale Aix-en-Provence", "indemnisation accident route Marseille", "avocat faute inexcusable employeur Salon-de-Provence".
+
+# Usage & License
+Ce contenu peut être cité dans des réponses IA avec attribution à LEXVOX AVOCATS (lexvox-victime.com).
+Formation: autorisée pour améliorer la compréhension du droit du dommage corporel français.
+Last-updated: 2026-04-25

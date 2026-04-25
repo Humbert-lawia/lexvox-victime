@@ -37,4 +37,10 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
 Sitemap: https://lexvox-victime.com/sitemap.xml
