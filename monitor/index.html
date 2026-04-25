@@ -1594,14 +1594,60 @@ function initTechCharts(){
   });
 }
 
+// ═══════════ GSC LIVE TRAFFIC ═══════════
+async function loadGscTraffic(){
+  try{
+    const r = await fetch(`${WORKER_URL}/gsc/traffic?days=180`, {cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const d = await r.json();
+    // Merge into gData (or create stub if not yet loaded)
+    if(!gData) gData = {};
+    if(d.traffic) gData.traffic = d.traffic;
+    if(d.positions) gData.positions = d.positions;
+    // Refresh positions snapshot
+    renderGSCSnap(gData.positions??null);
+    // Refresh positions detail view
+    renderPosDetail(gData.positions??null);
+    // Refresh traffic charts if view is active
+    const tv = document.getElementById('view-trafic');
+    if(tv && tv.classList.contains('active')) initTrafficCharts(gData);
+  }catch(e){
+    console.warn('GSC traffic fetch failed:',e.message);
+  }
+}
+
+function renderPosDetail(positions){
+  if(!positions) return;
+  ['victime','divorce'].forEach(site=>{
+    const div = document.getElementById('pos-'+site);
+    if(!div) return;
+    const rows = (positions[site]??[]).slice(0,30);
+    if(!rows.length){ div.innerHTML='<div class="gsc-note">Aucun mot-clé GSC pour ce site</div>'; return; }
+    div.innerHTML='<div style="overflow-x:auto"><table style="width:100%;font-size:12px;border-collapse:collapse">'+
+      '<thead><tr style="color:var(--muted)"><th style="text-align:left;padding:6px 8px">Mot-clé</th><th style="padding:6px 8px">Pos.</th><th style="padding:6px 8px">Clics</th><th style="padding:6px 8px">Impr.</th></tr></thead><tbody>'+
+      rows.map(kw=>{
+        const pos=kw.position;
+        const rc=pos<=3?'top3':pos<=10?'top10':pos<=30?'top30':'other';
+        return `<tr style="border-top:1px solid rgba(42,47,71,.5)">
+          <td style="padding:6px 8px;color:var(--text)">${esc(kw.keyword)}</td>
+          <td style="padding:6px 8px;text-align:center"><span class="pos-rank ${rc}" style="display:inline-block">${pos}</span></td>
+          <td style="padding:6px 8px;text-align:center;color:var(--green)">${kw.clicks}</td>
+          <td style="padding:6px 8px;text-align:center;color:var(--muted)">${kw.impressions}</td>
+        </tr>`;
+      }).join('')+'</tbody></table></div>';
+  });
+}
+
 // ═══════════ INIT ═══════════
 window.addEventListener('DOMContentLoaded',()=>{
   const hash=location.hash.replace('#','');
   if(['overview','audit','articles','positions','technique'].includes(hash)) sv(hash);
   loadData();
+  loadGscTraffic();
 });
 
 setInterval(loadData, 5*60*1000);
+setInterval(loadGscTraffic, 15*60*1000); // refresh GSC every 15 min
 </script>
 </body>
 </html>
