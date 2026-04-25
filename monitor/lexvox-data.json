@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T07:59:57.232008",
+  "generated_at": "2026-04-25T07:13:23.699789",
   "nw": {
     "used": 0,
     "cap": 150,
@@ -9,15 +9,16 @@
     "keywords": []
   },
   "articles": {
-    "total": 18,
+    "total": 21,
     "by_site": {
       "victime": {
-        "count": 6,
-        "latest": "2026-04-24",
+        "count": 7,
+        "latest": "2026-04-25",
         "villes": [
           "Aix-en-Provence",
           "Arles",
           "Marignane",
+          "Pélissanne",
           "Salon-de-Provence"
         ],
         "themes": [
@@ -27,8 +28,8 @@
         ]
       },
       "divorce": {
-        "count": 6,
-        "latest": "2026-04-24",
+        "count": 7,
+        "latest": "2026-04-25",
         "villes": [
           "Aix-en-Provence",
           "Arles",
@@ -39,12 +40,13 @@
           "Avocat divorce contentieux",
           "Avocat divorce à l'amiable",
           "Avocat garde enfants divorce",
-          "Pension alimentaire divorce"
+          "Pension alimentaire divorce",
+          "Prestation compensatoire divorce"
         ]
       },
       "permis": {
-        "count": 6,
-        "latest": "2026-04-24",
+        "count": 7,
+        "latest": "2026-04-25",
         "villes": [
           "Aix-en-Provence",
           "Marignane",
@@ -60,6 +62,33 @@
       }
     },
     "recent": [
+      {
+        "site": "victime",
+        "ville": "Pélissanne",
+        "theme": "Avocat accident de la route",
+        "slug": "avocat-accident-de-la-route-pelissanne",
+        "score": 0,
+        "words": 4249,
+        "date": "2026-04-25"
+      },
+      {
+        "site": "divorce",
+        "ville": "Aix-en-Provence",
+        "theme": "Prestation compensatoire divorce",
+        "slug": "prestation-compensatoire-divorce-aix-en-provence",
+        "score": 0,
+        "words": 4528,
+        "date": "2026-04-25"
+      },
+      {
+        "site": "permis",
+        "ville": "Marignane",
+        "theme": "Avocat permis suspendu",
+        "slug": "avocat-permis-suspendu-marignane",
+        "score": 0,
+        "words": 4378,
+        "date": "2026-04-25"
+      },
       {
         "site": "victime",
         "ville": "Salon-de-Provence",
@@ -235,12 +264,13 @@
       "domain": "lexvox-victime.com",
       "label": "Victime / Dommage corporel",
       "color": "#3b82f6",
-      "articles": 6,
-      "latest": "2026-04-24",
+      "articles": 7,
+      "latest": "2026-04-25",
       "villes": [
         "Aix-en-Provence",
         "Arles",
         "Marignane",
+        "Pélissanne",
         "Salon-de-Provence"
       ]
     },
@@ -248,8 +278,8 @@
       "domain": "lexvox-divorce.com",
       "label": "Divorce & Famille",
       "color": "#8b5cf6",
-      "articles": 6,
-      "latest": "2026-04-24",
+      "articles": 7,
+      "latest": "2026-04-25",
       "villes": [
         "Aix-en-Provence",
         "Arles",
@@ -261,8 +291,8 @@
       "domain": "lexvox-permis.com",
       "label": "Pénal routier",
       "color": "#ec4899",
-      "articles": 6,
-      "latest": "2026-04-24",
+      "articles": 7,
+      "latest": "2026-04-25",
       "villes": [
         "Aix-en-Provence",
         "Marignane",

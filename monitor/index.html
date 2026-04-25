@@ -201,10 +201,24 @@ td a:hover{text-decoration:underline}
 .amod-launch:disabled{opacity:.4;cursor:not-allowed}
 /* Phase chips */
 .ap-chip{padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600;background:rgba(42,47,71,.8);color:var(--muted);border:1px solid transparent;transition:all .3s}
-.ap-chip.running{background:rgba(59,130,246,.2);color:#93c5fd;border-color:rgba(59,130,246,.4);animation:pulse2 1.5s infinite}
+.ap-chip.running{background:rgba(59,130,246,.2);color:#93c5fd;border-color:rgba(59,130,246,.4)}
 .ap-chip.done{background:rgba(34,197,94,.15);color:#86efac;border-color:rgba(34,197,94,.3)}
 .ap-chip.error{background:rgba(239,68,68,.15);color:#fca5a5;border-color:rgba(239,68,68,.3)}
+/* Audit progress panel */
+.ap-pct-ring{position:relative;width:72px;height:72px;flex-shrink:0}
+.ap-pct-ring svg{transform:rotate(-90deg)}
+.ap-pct-ring circle{transition:stroke-dashoffset .6s cubic-bezier(.4,0,.2,1)}
+.ap-pct-txt{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:800;color:var(--text)}
+.ap-site-row{display:flex;align-items:center;gap:10px;padding:5px 0;border-bottom:1px solid rgba(42,47,71,.6)}
+.ap-site-row:last-child{border-bottom:none}
+.ap-site-lbl{font-size:11px;font-weight:600;min-width:70px;color:var(--muted)}
+.ap-site-bar{flex:1;height:6px;border-radius:3px;background:rgba(42,47,71,.8);overflow:hidden}
+.ap-site-fill{height:100%;border-radius:3px;background:linear-gradient(90deg,#3b82f6,#6366f1);transition:width .6s cubic-bezier(.4,0,.2,1)}
+.ap-site-pct{font-size:10px;font-weight:700;min-width:34px;text-align:right;color:var(--text)}
+.ap-site-status{font-size:9px;color:var(--muted);min-width:100px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@keyframes spin{to{transform:rotate(360deg)}}
 @keyframes pulse2{0%,100%{opacity:1}50%{opacity:.6}}
+.ap-spin{display:inline-block;animation:spin .9s linear infinite}
 /* Traffic period selector */
 .tp-btns{display:flex;gap:4px}
 .tp-btn{background:rgba(42,47,71,.7);border:1px solid rgba(99,102,241,.25);color:var(--muted);padding:3px 10px;border-radius:5px;cursor:pointer;font-size:11px;font-weight:600;transition:all .15s}
@@ -257,6 +271,7 @@ td a:hover{text-decoration:underline}
     <button class="nav-tab" data-view="positions" onclick="sv('positions')">📈 Positions</button>
     <button class="nav-tab" data-view="trafic" onclick="sv('trafic')">📉 Trafic GSC</button>
     <button class="nav-tab" data-view="technique" onclick="sv('technique')">⚙️ Technique</button>
+    <button class="nav-tab" data-view="nw-scores" onclick="sv('nw-scores')">📊 Scores NW</button>
   </nav>
   <span id="last-update">—</span> <span id="last-update-age" style="color:var(--muted);font-size:11px"></span>
   <div class="hdr-actions">
@@ -365,16 +380,41 @@ td a:hover{text-decoration:underline}
     <div class="full" id="audit-progress-panel" style="display:none">
       <div class="card" style="border-left:3px solid var(--blue)">
         <div class="ch">
-          <div class="ct"><span class="dot" style="background:var(--blue)"></span>Audit en cours — <span id="ap-site">—</span></div>
-          <span id="ap-status" style="font-size:12px;color:var(--muted)">Initialisation…</span>
-        </div>
-        <div style="margin:10px 0 6px">
-          <div class="pb" style="height:8px;border-radius:4px;background:rgba(42,47,71,.8)">
-            <div id="ap-bar" class="pf blue" style="width:0%;height:100%;border-radius:4px;transition:width .4s ease"></div>
+          <div class="ct"><span class="dot" style="background:var(--blue)"></span>Audit en cours</div>
+          <div style="display:flex;align-items:center;gap:10px">
+            <span id="ap-timer" style="font-size:11px;color:var(--muted)">⏱ 0s</span>
+            <span id="ap-status" style="font-size:11px;font-weight:600;color:#93c5fd"></span>
           </div>
         </div>
-        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px" id="ap-phases"></div>
-        <div id="ap-log" style="margin-top:8px;font-size:11px;color:var(--muted);max-height:80px;overflow-y:auto"></div>
+
+        <!-- Anneau + barres par site -->
+        <div style="display:flex;gap:18px;align-items:flex-start">
+          <!-- Anneau de progression global -->
+          <div class="ap-pct-ring">
+            <svg width="72" height="72" viewBox="0 0 72 72">
+              <circle cx="36" cy="36" r="30" fill="none" stroke="rgba(42,47,71,.9)" stroke-width="7"/>
+              <circle id="ap-ring-fill" cx="36" cy="36" r="30" fill="none"
+                stroke="url(#apGrad)" stroke-width="7" stroke-linecap="round"
+                stroke-dasharray="188.5" stroke-dashoffset="188.5"/>
+              <defs>
+                <linearGradient id="apGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#3b82f6"/>
+                  <stop offset="100%" stop-color="#6366f1"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="ap-pct-txt" id="ap-pct-txt">0%</div>
+          </div>
+
+          <!-- Barres par site -->
+          <div style="flex:1" id="ap-sites-rows"></div>
+        </div>
+
+        <!-- Chips de phases -->
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:12px" id="ap-phases"></div>
+
+        <!-- Log -->
+        <div id="ap-log" style="margin-top:8px;font-size:11px;color:var(--muted);max-height:72px;overflow-y:auto;font-family:monospace;line-height:1.5"></div>
       </div>
     </div>
 
@@ -415,19 +455,6 @@ td a:hover{text-decoration:underline}
         </table>
       </div>
     </div>
-
-    <!-- Rapports HTML/PDF des derniers audits ultimes -->
-    <div class="card full">
-      <div class="ch"><div class="ct"><span class="dot" style="background:var(--blue)"></span>Rapports d'audit ultime — HTML &amp; PDF</div></div>
-      <div id="audit-ultime-reports" style="padding:12px 0;display:none"></div>
-      <div id="audit-ultime-empty" style="padding:12px 0;color:#94a3b8;font-size:13px">Aucun rapport disponible. Lancez un audit depuis le bouton "🚀 Lancer l'audit" ci-dessus pour générer un rapport HTML stylé et son PDF.</div>
-    </div>
-
-    <!-- Rapport d'audit par site (checklist statique) -->
-    <div class="card full">
-      <div class="ch"><div class="ct"><span class="dot" style="background:var(--red)"></span>Checklist statique — erreurs détectées &amp; recommandations</div></div>
-      <div id="audit-report-body" style="padding:12px 0"></div>
-    </div>
   </div>
 </div>
 
@@ -464,7 +491,7 @@ td a:hover{text-decoration:underline}
 <div class="view" id="view-positions">
   <div class="G">
     <div class="full">
-      <div class="alert alert-info" id="pos-status-banner">📈 Chargement des positions GSC en cours… (appel Railway en direct)</div>
+      <div class="alert alert-info">📈 Positions Google Search Console — synchronisation automatique chaque jour via le pipeline LAWIA-SEO. Cliquez les mots-clés pour voir la page Google.</div>
     </div>
 
     <!-- Victime -->
@@ -668,12 +695,29 @@ td a:hover{text-decoration:underline}
   </div>
 </div>
 
+<!-- ═══════════════ SCORES NEURONWRITER ═══════════════ -->
+<div class="view" id="view-nw-scores">
+  <div class="G">
+    <div class="full">
+      <div class="card">
+        <h2 style="margin-top:0">Scores NeuronWriter par article</h2>
+        <div id="nw-site-tabs" style="display:flex;gap:8px;margin-bottom:16px">
+          <button class="btn btn-audit active" onclick="showNwSite('victime')" data-nw-site="victime">Victime</button>
+          <button class="btn btn-default" onclick="showNwSite('divorce')" data-nw-site="divorce">Divorce</button>
+          <button class="btn btn-default" onclick="showNwSite('permis')" data-nw-site="permis">Permis</button>
+        </div>
+        <div id="nw-table-wrap"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script>
 // ═══════════ CONFIG ═══════════
 const SITE_META = {
-  victime:{ label:'Victime / Dommage corporel', color:'#3b82f6', badge:'badge-victime', domain:'lexvox-victime.com', url:'https://lexvox-victime.com', dir:'actualites' },
-  divorce:{ label:'Divorce & Famille',           color:'#8b5cf6', badge:'badge-divorce', domain:'lexvox-divorce.com', url:'https://lexvox-divorce.com', dir:'actualites' },
-  permis: { label:'Pénal routier',               color:'#ec4899', badge:'badge-permis',  domain:'lexvox-permis.com',  url:'https://lexvox-permis.com',  dir:'actualites' },
+  victime:{ label:'Victime / Dommage corporel', color:'#3b82f6', badge:'badge-victime', domain:'lexvox-victime.com', url:'https://lexvox-victime.com', dir:'actualites', flag:'🔵' },
+  divorce:{ label:'Divorce & Famille',           color:'#8b5cf6', badge:'badge-divorce', domain:'lexvox-divorce.com', url:'https://lexvox-divorce.com', dir:'actualites', flag:'🟣' },
+  permis: { label:'Pénal routier',               color:'#ec4899', badge:'badge-permis',  domain:'lexvox-permis.com',  url:'https://lexvox-permis.com',  dir:'actualites', flag:'🔴' },
 };
 
 const DIMS = [
@@ -693,28 +737,26 @@ const DEFAULT_AUDIT = {
 };
 
 const CHECKLIST = [
-  {label:'Schema LegalService',         cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Schema LegalService',         cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'Schema LocalBusiness',        cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'FAQPage schema articles',     cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'GeoJSON bureaux',             cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'GBP Salon-de-Provence',       cat:'Local',     k:{victime:1,divorce:1,permis:null}, prio:'Haute'},
-  {label:'GBP Aix-en-Provence',         cat:'Local',     k:{victime:1,divorce:1,permis:null}, prio:'Haute'},
-  {label:'GBP Arles',                   cat:'Local',     k:{victime:1,divorce:1,permis:null}, prio:'Haute'},
-  {label:'GBP Marignane',               cat:'Local',     k:{victime:1,divorce:1,permis:null}, prio:'Haute'},
-  {label:'Sitemap XML valide',          cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'GBP Salon-de-Provence',       cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'GBP Aix-en-Provence',         cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Sitemap XML valide',          cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'robots.txt correct',          cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'llms.txt présent',            cat:'IA/GEO',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'llms.txt présent',            cat:'IA/GEO',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'H2/H3 CSS scopé articles',    cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Image hero articles',         cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'Image milieu articles',       cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'FAQ accordéon <details>',     cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'4+ liens internes/article',   cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Image hero articles',         cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Image milieu articles',       cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'FAQ accordéon <details>',     cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'4+ liens internes/article',   cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'Liens Légifrance réels',      cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Alt images + OG meta',        cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'Pages locales villes (4+)',   cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'Deploy auto Cloudflare',      cat:'Pipeline',  k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'NeuronWriter optimisation',   cat:'Contenu',   k:{victime:1,divorce:1,permis:null}, prio:'Haute'},
-  {label:'Redirects 301 configurés',    cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Moyenne'},
+  {label:'Alt images + OG meta',        cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Pages locales villes (4+)',   cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Deploy auto Cloudflare',      cat:'Pipeline',  k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'NeuronWriter optimisation',   cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Redirects 301 configurés',    cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Moyenne'},
 ];
 
 const PRIO_COLOR = {Haute:'var(--red)',Moyenne:'var(--yellow)',Basse:'var(--green)'};
@@ -809,6 +851,7 @@ function renderAll(d){
   initScoreChart(d);
   initDistChart(d);
   initWeeklyChart(d);
+  initNwScores(d);
 }
 
 // ═══════════ METRICS ═══════════
@@ -1015,63 +1058,6 @@ function renderChecklist(audit){
       <td><span style="font-size:10px;color:${PRIO_COLOR[item.prio]??'var(--muted)'}">${item.prio}</span></td>
     </tr>`;
   }).join('');
-  renderAuditReport(chks);
-}
-
-// ═══════════ RAPPORT D'AUDIT ═══════════
-const AUDIT_RECOMMENDATIONS = {
-  'Schema LocalBusiness':        {fix:'Ajouter @type LocalBusiness séparé dans le JSON-LD de index.html (ou en complément du LegalService). Google l\'exige pour les fiches locales.', sites:{permis:0}},
-  'FAQPage schema articles':     {fix:'Ajouter le schema JSON-LD FAQPage dans chaque article avec questions/réponses structurées. Augmente le CTR avec les rich snippets.', sites:{permis:0}},
-  'GeoJSON bureaux':             {fix:'Ajouter un bloc JSON-LD de type GeoJSON (FeatureCollection) avec coordinates de chaque bureau. Aide Google Maps à localiser les points de vente.', sites:{permis:0,divorce:0}},
-  'GBP Arles':                   {fix:'Créer ou revendiquer la fiche Google Business Profile pour le bureau d\'Arles. URL: https://business.google.com. Ajouter photos, horaires, catégorie "Avocat".', sites:{victime:null,divorce:null,permis:null}},
-  'GBP Marignane':               {fix:'Créer ou revendiquer la fiche Google Business Profile pour le bureau de Marignane.', sites:{victime:null,divorce:null,permis:null}},
-  'GBP Salon-de-Provence':       {fix:'Vérifier que la fiche GBP Salon est revendiquée et complète (photos, horaires, site web, catégorie).', sites:{permis:null}},
-  'GBP Aix-en-Provence':         {fix:'Vérifier que la fiche GBP Aix est revendiquée et complète.', sites:{permis:null}},
-  'H2/H3 CSS scopé articles':    {fix:'Ajouter dans style.css les règles .article-content h2, .article-content h3 pour les styles des titres des articles. Actuellement les H2/H3 héritent du style global.', sites:{permis:0}},
-  'Liens Légifrance réels':      {fix:'Ajouter 2+ liens <a href="https://legifrance.gouv.fr/..."> par article vers des articles de loi ou jurisprudences réels. Obligatoire pour la crédibilité E-E-A-T.', sites:{permis:0}},
-  'Pages locales villes (4+)':   {fix:'Créer 4 pages locales : /villes/aix-en-provence, /villes/salon-de-provence, /villes/arles, /villes/marignane. Chaque page doit avoir son schema LocalBusiness + contenu unique de 800+ mots.', sites:{permis:0}},
-  'Deploy auto Cloudflare':      {fix:'Créer .github/workflows/deploy.yml avec wrangler-action. Sans ce fichier, aucun commit n\'est déployé automatiquement sur Cloudflare Pages → le site est en retard sur le code.', sites:{permis:0}},
-  'NeuronWriter optimisation':   {fix:'Lancer le pipeline LAWIA-SEO pour optimiser les articles avec NeuronWriter (score cible ≥75). Commande: POST /webhook/audit-ultime.', sites:{permis:null}},
-};
-
-function renderAuditReport(chks){
-  const div=document.getElementById('audit-report-body');
-  if(!div) return;
-  const sites=['victime','divorce','permis'];
-  const siteColors={'victime':'var(--blue)','divorce':'var(--purple)','permis':'var(--pink)'};
-  const siteMeta=SITE_META;
-
-  let html='<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px">';
-  sites.forEach(site=>{
-    const failures=[];
-    CHECKLIST.forEach(item=>{
-      const states=chks[item.label]??item.k??{};
-      const v=states[site];
-      if(v===0){
-        const rec=AUDIT_RECOMMENDATIONS[item.label];
-        failures.push({label:item.label,cat:item.cat,prio:item.prio,fix:rec?.fix??'Corriger ce point pour améliorer le référencement.'});
-      }
-    });
-    const m=siteMeta[site];
-    const score=failures.length===0?'✅ Tous points validés':`${failures.length} point${failures.length>1?'s':''} à corriger`;
-    const scoreColor=failures.length===0?'var(--green)':failures.length<=3?'var(--yellow)':'var(--red)';
-    html+=`<div style="background:var(--card);border:1px solid var(--border);border-left:3px solid ${siteColors[site]};border-radius:10px;padding:14px">
-      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
-        <span style="font-weight:700;font-size:13px;color:${siteColors[site]}">${m.label}</span>
-        <span style="font-size:11px;font-weight:700;color:${scoreColor}">${score}</span>
-      </div>
-      ${failures.length===0?'<div style="color:var(--green);font-size:12px;padding:8px 0">🎉 Aucune erreur détectée — excellent travail !</div>':
-      failures.map(f=>`<div style="margin-bottom:10px;padding:10px;background:rgba(0,0,0,.2);border-radius:7px">
-        <div style="display:flex;align-items:center;gap:6px;margin-bottom:5px">
-          <span style="font-size:10px;background:${PRIO_COLOR[f.prio]};color:#fff;padding:1px 6px;border-radius:3px">${f.prio}</span>
-          <span style="font-size:11px;font-weight:600;color:var(--text)">❌ ${esc(f.label)}</span>
-        </div>
-        <div style="font-size:11px;color:var(--muted);line-height:1.5">💡 ${esc(f.fix)}</div>
-      </div>`).join('')}
-    </div>`;
-  });
-  html+='</div>';
-  div.innerHTML=html;
 }
 
 // ═══════════ CWV ═══════════
@@ -1108,10 +1094,13 @@ const SITES_DOMAINS = {
   permis:  'https://lexvox-permis.com/',
 };
 const AUDIT_PHASES = ['Supervisor','Crawl (Nox)','Mots-clés (Marc)','Contenu (Alya)','Optimisation (Rémi)','Schema (Marc)','Rapport (Maya)'];
+const AUDIT_TOTAL_PHASES = AUDIT_PHASES.length; // 7
 
 let auditSiteSelected = 'tous';
 let auditPollingInterval = null;
+let auditTimerInterval = null;
 let currentAuditIds = [];
+let auditStartTime = null;
 
 function triggerAudit(){
   document.getElementById('audit-modal').classList.add('open');
@@ -1140,6 +1129,7 @@ async function launchAudit(){
     : [auditSiteSelected];
 
   closeAuditModal();
+  sv('audit');          // s'assurer que le panneau audit est visible
   showAuditProgress(sites);
 
   currentAuditIds = [];
@@ -1172,7 +1162,7 @@ async function launchAudit(){
   if(currentAuditIds.length > 0){
     startAuditPolling();
   } else {
-    setAuditStatus('Erreur — vérifiez que le worker Railway est démarré', false);
+    setAuditStatus('❌ Erreur — vérifiez que le worker Railway est démarré');
   }
 }
 
@@ -1180,114 +1170,160 @@ function showAuditProgress(sites){
   const panel = document.getElementById('audit-progress-panel');
   if(!panel) return;
   panel.style.display = 'block';
-  document.getElementById('ap-site').textContent = sites.map(s=>SITE_META[s]?.domain||s).join(' · ');
-  setAuditStatus('Démarrage…', true);
-  document.getElementById('ap-bar').style.width = '5%';
+  setAuditRing(0);
+  document.getElementById('ap-status').textContent = 'Démarrage…';
   document.getElementById('ap-log').textContent = '';
-  renderPhaseChips([]);
-  // Scroll vers le panel
+  document.getElementById('ap-phases').innerHTML = '';
+  // Init barres par site (toutes à 0%)
+  const rows = document.getElementById('ap-sites-rows');
+  rows.innerHTML = sites.map(s=>`
+    <div class="ap-site-row" id="ap-row-${s}">
+      <div class="ap-site-lbl">${SITE_META[s]?.flag??'🌐'} ${s}</div>
+      <div class="ap-site-bar"><div class="ap-site-fill" id="ap-fill-${s}" style="width:0%"></div></div>
+      <div class="ap-site-pct" id="ap-pct-${s}">0%</div>
+      <div class="ap-site-status" id="ap-sts-${s}">En file…</div>
+    </div>`).join('');
+  renderPhaseChips([], 0);
+  // Timer
+  auditStartTime = Date.now();
+  if(auditTimerInterval) clearInterval(auditTimerInterval);
+  auditTimerInterval = setInterval(()=>{
+    const secs = Math.floor((Date.now()-auditStartTime)/1000);
+    const t = document.getElementById('ap-timer');
+    if(t) t.textContent = `⏱ ${secs<60?secs+'s':Math.floor(secs/60)+'m'+(secs%60)+'s'}`;
+  }, 1000);
   panel.scrollIntoView({behavior:'smooth', block:'center'});
 }
 
-function renderAuditUltimeReports(auditEntries){
-  const wrap = document.getElementById('audit-ultime-reports');
-  const empty = document.getElementById('audit-ultime-empty');
-  if(!wrap || !auditEntries || auditEntries.length===0) return;
-  if(empty) empty.style.display = 'none';
-  wrap.style.display = 'block';
-  wrap.innerHTML = auditEntries.map(({site, auditId})=>{
-    const meta = SITE_META[site] || {domain: site};
-    const reportUrl = `${WORKER_URL}/audit-ultime/${auditId}/report.html`;
-    const pdfUrl = `${WORKER_URL}/audit-ultime/${auditId}/report.pdf`;
-    return `
-      <div style="margin-bottom:24px;border:1px solid #2a2f47;border-radius:12px;overflow:hidden;background:#0f1320">
-        <div style="display:flex;justify-content:space-between;align-items:center;padding:12px 16px;background:#1a1d27;border-bottom:1px solid #2a2f47">
-          <div style="font-weight:600;color:#e2e8f0">${meta.domain || site} <span style="opacity:.6;font-weight:400;font-size:12px">— audit #${auditId.slice(-8)}</span></div>
-          <div style="display:flex;gap:8px">
-            <a href="${reportUrl}" target="_blank" rel="noopener" style="padding:6px 12px;background:#2563a8;color:white;border-radius:6px;text-decoration:none;font-size:12px;font-weight:600">Ouvrir HTML ↗</a>
-            <a href="${pdfUrl}" download style="padding:6px 12px;background:#16a34a;color:white;border-radius:6px;text-decoration:none;font-size:12px;font-weight:600">📄 Télécharger PDF</a>
-          </div>
-        </div>
-        <iframe src="${reportUrl}" style="width:100%;height:75vh;border:0;display:block;background:white" title="Rapport ${meta.domain || site}"></iframe>
-      </div>`;
-  }).join('');
+/** Met à jour l'anneau SVG et le texte central (0-100). */
+function setAuditRing(pct){
+  const circ = 188.5; // 2*π*30
+  const offset = circ - (circ * Math.min(pct,100) / 100);
+  const ring = document.getElementById('ap-ring-fill');
+  const txt  = document.getElementById('ap-pct-txt');
+  if(ring) ring.style.strokeDashoffset = offset;
+  if(txt)  txt.textContent = Math.round(pct)+'%';
+  // Couleur finale
+  if(ring && pct>=100){
+    ring.style.stroke='var(--green)';
+  } else if(ring && pct<30){
+    ring.style.stroke='#6366f1';
+  }
 }
 
-function renderPhaseChips(donePhases, runningPhase){
+/** % de progression basé sur la phase réelle de l'audit. */
+function phaseToPercent(phase, status){
+  if(status==='done') return 100;
+  if(status==='failed') return 0;
+  return Math.round((phase / AUDIT_TOTAL_PHASES) * 100);
+}
+
+function renderPhaseChips(donePhases, runningPhase, errorPhase){
   const div = document.getElementById('ap-phases');
   if(!div) return;
   div.innerHTML = AUDIT_PHASES.map((p,i)=>{
-    const cls = donePhases.includes(i) ? 'done' : runningPhase===i ? 'running' : '';
-    return `<span class="ap-chip ${cls}">${donePhases.includes(i)?'✓ ':runningPhase===i?'⟳ ':''}${p}</span>`;
+    const done = donePhases.includes(i);
+    const run  = runningPhase===i;
+    const err  = errorPhase===i;
+    let cls = '', icon = '';
+    if(done)     { cls='done';    icon='✓ '; }
+    else if(err) { cls='error';   icon='✗ '; }
+    else if(run) { cls='running'; icon='<span class="ap-spin">⟳</span> '; }
+    return `<span class="ap-chip ${cls}">${icon}${p}</span>`;
   }).join('');
 }
 
-function setAuditStatus(msg, running){
-  const el = document.getElementById('ap-status');
-  const bar = document.getElementById('ap-bar');
-  if(el) el.textContent = msg;
-  if(bar && !running){
-    bar.style.width = msg.startsWith('✅') ? '100%' : bar.style.width;
-    if(msg.startsWith('✅')) bar.style.background = 'var(--green)';
-    if(msg.startsWith('❌')) bar.style.background = 'var(--red)';
-  }
-}
+function setAuditStatus(msg){ const el=document.getElementById('ap-status'); if(el) el.textContent=msg; }
 
 function logAudit(msg){
   const div = document.getElementById('ap-log');
   if(!div) return;
-  div.textContent += (div.textContent?'\n':'')+msg;
+  const ts = new Date().toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+  div.innerHTML += `<span style="color:var(--muted)">[${ts}]</span> ${msg}\n`;
   div.scrollTop = div.scrollHeight;
 }
 
+function stopAuditTimers(){
+  if(auditPollingInterval){ clearInterval(auditPollingInterval); auditPollingInterval=null; }
+  if(auditTimerInterval){   clearInterval(auditTimerInterval);   auditTimerInterval=null; }
+}
+
 function startAuditPolling(){
-  if(auditPollingInterval) clearInterval(auditPollingInterval);
-  let tick = 0;
+  stopAuditTimers();
+  // Snapshot état par auditId pour ne logger qu'une fois "done"
+  const logged = new Set();
+
   auditPollingInterval = setInterval(async ()=>{
-    tick++;
-    const phaseDones = new Set();
-    let allDone = true;
-    let anyError = false;
-    let maxPhase = 0;
+    const states = [];    // {site, phase, status, score}
+    let allDone   = true;
+    let anyFailed = false;
 
     for(const {site, auditId} of currentAuditIds){
       try{
-        const resp = await fetch(`${WORKER_URL}/audit-ultime/${auditId}`, {cache:'no-store'});
-        if(!resp.ok) continue;
+        const resp = await fetch(`${WORKER_URL}/audit-ultime/${auditId}`,{cache:'no-store'});
+        if(!resp.ok){ allDone=false; continue; }
         const audit = await resp.json();
-        const status = audit.status;
-        const phase = audit.currentPhase||0;
-        maxPhase = Math.max(maxPhase, phase);
+        const phase   = audit.currentPhase ?? 0;
+        const status  = audit.status ?? 'queued';
+        const score   = audit.seoScore;
+        states.push({site, phase, status, score, auditId});
 
-        if(status !== 'done' && status !== 'error') allDone = false;
-        if(status === 'error') anyError = true;
-        if(status === 'done'){
-          for(let i=0;i<AUDIT_PHASES.length;i++) phaseDones.add(i);
-          logAudit(`✅ ${site}: score ${audit.seoScore??'—'}/100`);
+        const isDone   = status==='done';
+        const isFailed = status==='failed';
+        if(!isDone && !isFailed) allDone=false;
+        if(isFailed) anyFailed=true;
+
+        // Barre individuelle
+        const pct = phaseToPercent(phase, status);
+        const fillEl = document.getElementById(`ap-fill-${site}`);
+        const pctEl  = document.getElementById(`ap-pct-${site}`);
+        const stsEl  = document.getElementById(`ap-sts-${site}`);
+        if(fillEl) fillEl.style.width = pct+'%';
+        if(pctEl)  pctEl.textContent  = pct+'%';
+        if(isDone && fillEl){ fillEl.style.background='var(--green)'; }
+        if(isFailed && fillEl){ fillEl.style.background='var(--red)'; }
+        if(stsEl){
+          if(isDone)   stsEl.textContent=`✅ Score ${score??'—'}/100`;
+          else if(isFailed) stsEl.textContent='❌ Échec';
+          else stsEl.textContent=`Phase ${phase}/${AUDIT_TOTAL_PHASES} — ${AUDIT_PHASES[Math.min(phase,AUDIT_TOTAL_PHASES-1)]}`;
         }
-      } catch(e){ /* silently skip */ }
+
+        // Log unique par audit terminé
+        if(isDone && !logged.has(auditId)){
+          logged.add(auditId);
+          logAudit(`✅ ${site} terminé — score ${score??'—'}/100`);
+        }
+        if(isFailed && !logged.has(auditId)){
+          logged.add(auditId);
+          logAudit(`❌ ${site} échoué — vérifier logs Railway`);
+        }
+      } catch(e){ allDone=false; }
     }
 
-    // Mise à jour UI
-    const pct = Math.min(95, 5 + tick*3 + maxPhase*8);
-    const bar = document.getElementById('ap-bar');
-    if(bar) bar.style.width = pct+'%';
-    renderPhaseChips([...phaseDones], maxPhase);
-    setAuditStatus(`Phase ${Math.min(maxPhase+1,AUDIT_PHASES.length)}/${AUDIT_PHASES.length} — ${AUDIT_PHASES[Math.min(maxPhase,AUDIT_PHASES.length-1)]}…`, true);
+    // Anneau global = moyenne des % de tous les sites
+    if(states.length){
+      const avgPct = states.reduce((s,a)=>s+phaseToPercent(a.phase,a.status),0)/states.length;
+      setAuditRing(avgPct);
+      // Phase courante = max des phases actives
+      const maxPhase = Math.max(...states.map(a=>a.phase));
+      const runningPhase = states.find(a=>a.status==='running')?.phase ?? maxPhase;
+      const donePhases   = states.every(a=>a.status==='done') ? AUDIT_PHASES.map((_,i)=>i) : [];
+      renderPhaseChips(donePhases, runningPhase);
+      const activePhaseLabel = AUDIT_PHASES[Math.min(runningPhase,AUDIT_TOTAL_PHASES-1)];
+      setAuditStatus(allDone ? (anyFailed?'Terminé avec erreurs':'Terminé ✅') : `${activePhaseLabel}…`);
+    }
 
     if(allDone){
-      clearInterval(auditPollingInterval);
-      auditPollingInterval = null;
-      setAuditStatus('✅ Audit terminé — rechargement des données…', false);
-      if(bar) bar.style.width = '100%';
+      stopAuditTimers();
+      setAuditRing(100);
       renderPhaseChips(AUDIT_PHASES.map((_,i)=>i));
-      renderAuditUltimeReports(currentAuditIds);
-      setTimeout(()=>loadData(), 3000); // reload dashboard data
+      const color = anyFailed ? 'var(--red)' : 'var(--green)';
+      const ring = document.getElementById('ap-ring-fill');
+      if(ring) ring.style.stroke = color;
+      logAudit(anyFailed?'⚠️ Audit terminé avec des erreurs.':'🎉 Tous les audits sont terminés !');
+      setTimeout(()=>loadData(), 3000);
     }
-    if(anyError && allDone){
-      setAuditStatus('❌ Audit terminé avec erreurs — vérifiez les logs Railway', false);
-    }
-  }, 10000); // poll toutes les 10s
+  }, 5000); // poll toutes les 5s
 }
 
 // ═══════════ CHART HELPERS ═══════════
@@ -1691,50 +1727,69 @@ function initTechCharts(){
   });
 }
 
-// ═══════════ GSC LIVE TRAFFIC ═══════════
-async function loadGscTraffic(){
-  try{
-    const r = await fetch(`${WORKER_URL}/gsc/traffic?days=180`, {cache:'no-store'});
-    if(!r.ok) throw new Error('HTTP '+r.status);
-    const d = await r.json();
-    // Merge into gData (or create stub if not yet loaded)
-    if(!gData) gData = {};
-    if(d.traffic) gData.traffic = d.traffic;
-    if(d.positions){
-      gData.positions = d.positions;
-      // Allow positions charts to re-render with real data
-      delete C.posDistChart;
-      delete C.posEvoChart;
-    }
-    // Always refresh positions (covers both overview snapshot + positions view lists)
-    renderGSCSnap(gData.positions??null);
-    initPosCharts();
-    // Update positions banner
-    const posBanner=document.getElementById('pos-status-banner');
-    if(posBanner){
-      const total=Object.values(gData.positions??{}).reduce((a,kws)=>a+(kws?.length??0),0);
-      posBanner.textContent=`📈 ${total} mots-clés Google Search Console — mis à jour ${new Date().toLocaleString('fr-FR',{hour:'2-digit',minute:'2-digit'})}. Cliquez les mots-clés pour voir la page Google.`;
-    }
-    // Refresh traffic charts if view is active
-    const tv = document.getElementById('view-trafic');
-    if(tv && tv.classList.contains('active')) initTrafficCharts(gData);
-  }catch(e){
-    console.warn('GSC traffic fetch failed:',e.message);
-    const posBanner=document.getElementById('pos-status-banner');
-    if(posBanner) posBanner.textContent='⚠ Données GSC indisponibles ('+e.message+') — vérifiez Railway Worker';
+// ═══════════ NEURONWRITER SCORES ═══════════
+let nwData = {};
+
+function renderNwScores(site){
+  const scores = (nwData[site] || []);
+  const wrap = document.getElementById('nw-table-wrap');
+  if(!wrap) return;
+  if(!scores.length){
+    wrap.innerHTML='<p style="color:var(--muted)">Aucun score disponible pour ce site.</p>';
+    return;
   }
+  const rows = scores.map(s=>{
+    const score = s.score || 0;
+    const color = score>=75?'#22c55e':score>=50?'#f59e0b':'#ef4444';
+    const bar = `<div style="background:${color};width:${score}%;height:8px;border-radius:4px"></div>`;
+    return `<tr>
+      <td style="padding:8px 12px;max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${s.keyword}</td>
+      <td style="padding:8px 12px">${s.queryType||'-'}</td>
+      <td style="padding:8px 12px;text-align:left">
+        <div style="display:flex;align-items:center;gap:8px">
+          <div style="flex:1;background:#e5e7eb;border-radius:4px;overflow:hidden;min-width:80px">${bar}</div>
+          <span style="font-weight:700;color:${color};min-width:35px">${score}</span>
+        </div>
+      </td>
+      <td style="padding:8px 12px;color:var(--muted);font-size:0.85rem">${(s.usedAt||'').substring(0,10)}</td>
+    </tr>`;
+  }).join('');
+  wrap.innerHTML=`
+    <div style="font-size:0.85rem;color:var(--muted);margin-bottom:8px">${scores.length} article(s) analysés</div>
+    <div style="overflow-x:auto">
+    <table style="width:100%;border-collapse:collapse;background:var(--card);border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.1)">
+      <thead><tr style="background:rgba(255,255,255,.04)">
+        <th style="padding:10px 12px;text-align:left;font-size:0.85rem;color:var(--muted)">Mot-clé</th>
+        <th style="padding:10px 12px;text-align:left;font-size:0.85rem;color:var(--muted)">Type</th>
+        <th style="padding:10px 12px;text-align:left;font-size:0.85rem;color:var(--muted);min-width:180px">Score NW</th>
+        <th style="padding:10px 12px;text-align:left;font-size:0.85rem;color:var(--muted)">Date</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+    </div>`;
+}
+
+function showNwSite(site){
+  document.querySelectorAll('#nw-site-tabs [data-nw-site]').forEach(b=>{
+    const isSite = b.dataset.nwSite===site;
+    b.className = isSite ? 'btn btn-audit active' : 'btn btn-default';
+  });
+  renderNwScores(site);
+}
+
+function initNwScores(d){
+  nwData = d?.nw_scores || {};
+  renderNwScores('victime');
 }
 
 // ═══════════ INIT ═══════════
 window.addEventListener('DOMContentLoaded',()=>{
   const hash=location.hash.replace('#','');
-  if(['overview','audit','articles','positions','technique'].includes(hash)) sv(hash);
+  if(['overview','audit','articles','positions','technique','nw-scores'].includes(hash)) sv(hash);
   loadData();
-  loadGscTraffic();
 });
 
 setInterval(loadData, 5*60*1000);
-setInterval(loadGscTraffic, 15*60*1000); // refresh GSC every 15 min
 </script>
 </body>
 </html>
