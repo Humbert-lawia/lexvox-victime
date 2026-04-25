@@ -415,6 +415,12 @@ td a:hover{text-decoration:underline}
         </table>
       </div>
     </div>
+
+    <!-- Rapport d'audit par site -->
+    <div class="card full">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--red)"></span>Rapport d'audit — erreurs détectées &amp; recommandations</div></div>
+      <div id="audit-report-body" style="padding:12px 0"></div>
+    </div>
   </div>
 </div>
 
@@ -451,7 +457,7 @@ td a:hover{text-decoration:underline}
 <div class="view" id="view-positions">
   <div class="G">
     <div class="full">
-      <div class="alert alert-info">📈 Positions Google Search Console — synchronisation automatique chaque jour via le pipeline LAWIA-SEO. Cliquez les mots-clés pour voir la page Google.</div>
+      <div class="alert alert-info" id="pos-status-banner">📈 Chargement des positions GSC en cours… (appel Railway en direct)</div>
     </div>
 
     <!-- Victime -->
@@ -680,26 +686,28 @@ const DEFAULT_AUDIT = {
 };
 
 const CHECKLIST = [
-  {label:'Schema LegalService',         cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Schema LegalService',         cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
   {label:'Schema LocalBusiness',        cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'FAQPage schema articles',     cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'GeoJSON bureaux',             cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'GBP Salon-de-Provence',       cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'GBP Aix-en-Provence',         cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Sitemap XML valide',          cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'GBP Salon-de-Provence',       cat:'Local',     k:{victime:1,divorce:1,permis:null}, prio:'Haute'},
+  {label:'GBP Aix-en-Provence',         cat:'Local',     k:{victime:1,divorce:1,permis:null}, prio:'Haute'},
+  {label:'GBP Arles',                   cat:'Local',     k:{victime:1,divorce:1,permis:null}, prio:'Haute'},
+  {label:'GBP Marignane',               cat:'Local',     k:{victime:1,divorce:1,permis:null}, prio:'Haute'},
+  {label:'Sitemap XML valide',          cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
   {label:'robots.txt correct',          cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'llms.txt présent',            cat:'IA/GEO',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'llms.txt présent',            cat:'IA/GEO',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
   {label:'H2/H3 CSS scopé articles',    cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Image hero articles',         cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Image milieu articles',       cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'FAQ accordéon <details>',     cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'4+ liens internes/article',   cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Image hero articles',         cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Image milieu articles',       cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'FAQ accordéon <details>',     cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'4+ liens internes/article',   cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
   {label:'Liens Légifrance réels',      cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Alt images + OG meta',        cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Pages locales villes (4+)',   cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Deploy auto Cloudflare',      cat:'Pipeline',  k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'NeuronWriter optimisation',   cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Redirects 301 configurés',    cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Moyenne'},
+  {label:'Alt images + OG meta',        cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Pages locales villes (4+)',   cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Deploy auto Cloudflare',      cat:'Pipeline',  k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'NeuronWriter optimisation',   cat:'Contenu',   k:{victime:1,divorce:1,permis:null}, prio:'Haute'},
+  {label:'Redirects 301 configurés',    cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Moyenne'},
 ];
 
 const PRIO_COLOR = {Haute:'var(--red)',Moyenne:'var(--yellow)',Basse:'var(--green)'};
@@ -1000,6 +1008,63 @@ function renderChecklist(audit){
       <td><span style="font-size:10px;color:${PRIO_COLOR[item.prio]??'var(--muted)'}">${item.prio}</span></td>
     </tr>`;
   }).join('');
+  renderAuditReport(chks);
+}
+
+// ═══════════ RAPPORT D'AUDIT ═══════════
+const AUDIT_RECOMMENDATIONS = {
+  'Schema LocalBusiness':        {fix:'Ajouter @type LocalBusiness séparé dans le JSON-LD de index.html (ou en complément du LegalService). Google l\'exige pour les fiches locales.', sites:{permis:0}},
+  'FAQPage schema articles':     {fix:'Ajouter le schema JSON-LD FAQPage dans chaque article avec questions/réponses structurées. Augmente le CTR avec les rich snippets.', sites:{permis:0}},
+  'GeoJSON bureaux':             {fix:'Ajouter un bloc JSON-LD de type GeoJSON (FeatureCollection) avec coordinates de chaque bureau. Aide Google Maps à localiser les points de vente.', sites:{permis:0,divorce:0}},
+  'GBP Arles':                   {fix:'Créer ou revendiquer la fiche Google Business Profile pour le bureau d\'Arles. URL: https://business.google.com. Ajouter photos, horaires, catégorie "Avocat".', sites:{victime:null,divorce:null,permis:null}},
+  'GBP Marignane':               {fix:'Créer ou revendiquer la fiche Google Business Profile pour le bureau de Marignane.', sites:{victime:null,divorce:null,permis:null}},
+  'GBP Salon-de-Provence':       {fix:'Vérifier que la fiche GBP Salon est revendiquée et complète (photos, horaires, site web, catégorie).', sites:{permis:null}},
+  'GBP Aix-en-Provence':         {fix:'Vérifier que la fiche GBP Aix est revendiquée et complète.', sites:{permis:null}},
+  'H2/H3 CSS scopé articles':    {fix:'Ajouter dans style.css les règles .article-content h2, .article-content h3 pour les styles des titres des articles. Actuellement les H2/H3 héritent du style global.', sites:{permis:0}},
+  'Liens Légifrance réels':      {fix:'Ajouter 2+ liens <a href="https://legifrance.gouv.fr/..."> par article vers des articles de loi ou jurisprudences réels. Obligatoire pour la crédibilité E-E-A-T.', sites:{permis:0}},
+  'Pages locales villes (4+)':   {fix:'Créer 4 pages locales : /villes/aix-en-provence, /villes/salon-de-provence, /villes/arles, /villes/marignane. Chaque page doit avoir son schema LocalBusiness + contenu unique de 800+ mots.', sites:{permis:0}},
+  'Deploy auto Cloudflare':      {fix:'Créer .github/workflows/deploy.yml avec wrangler-action. Sans ce fichier, aucun commit n\'est déployé automatiquement sur Cloudflare Pages → le site est en retard sur le code.', sites:{permis:0}},
+  'NeuronWriter optimisation':   {fix:'Lancer le pipeline LAWIA-SEO pour optimiser les articles avec NeuronWriter (score cible ≥75). Commande: POST /webhook/audit-ultime.', sites:{permis:null}},
+};
+
+function renderAuditReport(chks){
+  const div=document.getElementById('audit-report-body');
+  if(!div) return;
+  const sites=['victime','divorce','permis'];
+  const siteColors={'victime':'var(--blue)','divorce':'var(--purple)','permis':'var(--pink)'};
+  const siteMeta=SITE_META;
+
+  let html='<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px">';
+  sites.forEach(site=>{
+    const failures=[];
+    CHECKLIST.forEach(item=>{
+      const states=chks[item.label]??item.k??{};
+      const v=states[site];
+      if(v===0){
+        const rec=AUDIT_RECOMMENDATIONS[item.label];
+        failures.push({label:item.label,cat:item.cat,prio:item.prio,fix:rec?.fix??'Corriger ce point pour améliorer le référencement.'});
+      }
+    });
+    const m=siteMeta[site];
+    const score=failures.length===0?'✅ Tous points validés':`${failures.length} point${failures.length>1?'s':''} à corriger`;
+    const scoreColor=failures.length===0?'var(--green)':failures.length<=3?'var(--yellow)':'var(--red)';
+    html+=`<div style="background:var(--card);border:1px solid var(--border);border-left:3px solid ${siteColors[site]};border-radius:10px;padding:14px">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+        <span style="font-weight:700;font-size:13px;color:${siteColors[site]}">${m.label}</span>
+        <span style="font-size:11px;font-weight:700;color:${scoreColor}">${score}</span>
+      </div>
+      ${failures.length===0?'<div style="color:var(--green);font-size:12px;padding:8px 0">🎉 Aucune erreur détectée — excellent travail !</div>':
+      failures.map(f=>`<div style="margin-bottom:10px;padding:10px;background:rgba(0,0,0,.2);border-radius:7px">
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:5px">
+          <span style="font-size:10px;background:${PRIO_COLOR[f.prio]};color:#fff;padding:1px 6px;border-radius:3px">${f.prio}</span>
+          <span style="font-size:11px;font-weight:600;color:var(--text)">❌ ${esc(f.label)}</span>
+        </div>
+        <div style="font-size:11px;color:var(--muted);line-height:1.5">💡 ${esc(f.fix)}</div>
+      </div>`).join('')}
+    </div>`;
+  });
+  html+='</div>';
+  div.innerHTML=html;
 }
 
 // ═══════════ CWV ═══════════
@@ -1603,39 +1668,29 @@ async function loadGscTraffic(){
     // Merge into gData (or create stub if not yet loaded)
     if(!gData) gData = {};
     if(d.traffic) gData.traffic = d.traffic;
-    if(d.positions) gData.positions = d.positions;
-    // Refresh positions snapshot
+    if(d.positions){
+      gData.positions = d.positions;
+      // Allow positions charts to re-render with real data
+      delete C.posDistChart;
+      delete C.posEvoChart;
+    }
+    // Always refresh positions (covers both overview snapshot + positions view lists)
     renderGSCSnap(gData.positions??null);
-    // Refresh positions detail view
-    renderPosDetail(gData.positions??null);
+    initPosCharts();
+    // Update positions banner
+    const posBanner=document.getElementById('pos-status-banner');
+    if(posBanner){
+      const total=Object.values(gData.positions??{}).reduce((a,kws)=>a+(kws?.length??0),0);
+      posBanner.textContent=`📈 ${total} mots-clés Google Search Console — mis à jour ${new Date().toLocaleString('fr-FR',{hour:'2-digit',minute:'2-digit'})}. Cliquez les mots-clés pour voir la page Google.`;
+    }
     // Refresh traffic charts if view is active
     const tv = document.getElementById('view-trafic');
     if(tv && tv.classList.contains('active')) initTrafficCharts(gData);
   }catch(e){
     console.warn('GSC traffic fetch failed:',e.message);
+    const posBanner=document.getElementById('pos-status-banner');
+    if(posBanner) posBanner.textContent='⚠ Données GSC indisponibles ('+e.message+') — vérifiez Railway Worker';
   }
-}
-
-function renderPosDetail(positions){
-  if(!positions) return;
-  ['victime','divorce'].forEach(site=>{
-    const div = document.getElementById('pos-'+site);
-    if(!div) return;
-    const rows = (positions[site]??[]).slice(0,30);
-    if(!rows.length){ div.innerHTML='<div class="gsc-note">Aucun mot-clé GSC pour ce site</div>'; return; }
-    div.innerHTML='<div style="overflow-x:auto"><table style="width:100%;font-size:12px;border-collapse:collapse">'+
-      '<thead><tr style="color:var(--muted)"><th style="text-align:left;padding:6px 8px">Mot-clé</th><th style="padding:6px 8px">Pos.</th><th style="padding:6px 8px">Clics</th><th style="padding:6px 8px">Impr.</th></tr></thead><tbody>'+
-      rows.map(kw=>{
-        const pos=kw.position;
-        const rc=pos<=3?'top3':pos<=10?'top10':pos<=30?'top30':'other';
-        return `<tr style="border-top:1px solid rgba(42,47,71,.5)">
-          <td style="padding:6px 8px;color:var(--text)">${esc(kw.keyword)}</td>
-          <td style="padding:6px 8px;text-align:center"><span class="pos-rank ${rc}" style="display:inline-block">${pos}</span></td>
-          <td style="padding:6px 8px;text-align:center;color:var(--green)">${kw.clicks}</td>
-          <td style="padding:6px 8px;text-align:center;color:var(--muted)">${kw.impressions}</td>
-        </tr>`;
-      }).join('')+'</tbody></table></div>';
-  });
 }
 
 // ═══════════ INIT ═══════════
