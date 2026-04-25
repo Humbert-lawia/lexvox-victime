@@ -416,9 +416,16 @@ td a:hover{text-decoration:underline}
       </div>
     </div>
 
-    <!-- Rapport d'audit par site -->
+    <!-- Rapports HTML/PDF des derniers audits ultimes -->
     <div class="card full">
-      <div class="ch"><div class="ct"><span class="dot" style="background:var(--red)"></span>Rapport d'audit — erreurs détectées &amp; recommandations</div></div>
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--blue)"></span>Rapports d'audit ultime — HTML &amp; PDF</div></div>
+      <div id="audit-ultime-reports" style="padding:12px 0;display:none"></div>
+      <div id="audit-ultime-empty" style="padding:12px 0;color:#94a3b8;font-size:13px">Aucun rapport disponible. Lancez un audit depuis le bouton "🚀 Lancer l'audit" ci-dessus pour générer un rapport HTML stylé et son PDF.</div>
+    </div>
+
+    <!-- Rapport d'audit par site (checklist statique) -->
+    <div class="card full">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--red)"></span>Checklist statique — erreurs détectées &amp; recommandations</div></div>
       <div id="audit-report-body" style="padding:12px 0"></div>
     </div>
   </div>
@@ -1182,6 +1189,30 @@ function showAuditProgress(sites){
   panel.scrollIntoView({behavior:'smooth', block:'center'});
 }
 
+function renderAuditUltimeReports(auditEntries){
+  const wrap = document.getElementById('audit-ultime-reports');
+  const empty = document.getElementById('audit-ultime-empty');
+  if(!wrap || !auditEntries || auditEntries.length===0) return;
+  if(empty) empty.style.display = 'none';
+  wrap.style.display = 'block';
+  wrap.innerHTML = auditEntries.map(({site, auditId})=>{
+    const meta = SITE_META[site] || {domain: site};
+    const reportUrl = `${WORKER_URL}/audit-ultime/${auditId}/report.html`;
+    const pdfUrl = `${WORKER_URL}/audit-ultime/${auditId}/report.pdf`;
+    return `
+      <div style="margin-bottom:24px;border:1px solid #2a2f47;border-radius:12px;overflow:hidden;background:#0f1320">
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:12px 16px;background:#1a1d27;border-bottom:1px solid #2a2f47">
+          <div style="font-weight:600;color:#e2e8f0">${meta.domain || site} <span style="opacity:.6;font-weight:400;font-size:12px">— audit #${auditId.slice(-8)}</span></div>
+          <div style="display:flex;gap:8px">
+            <a href="${reportUrl}" target="_blank" rel="noopener" style="padding:6px 12px;background:#2563a8;color:white;border-radius:6px;text-decoration:none;font-size:12px;font-weight:600">Ouvrir HTML ↗</a>
+            <a href="${pdfUrl}" download style="padding:6px 12px;background:#16a34a;color:white;border-radius:6px;text-decoration:none;font-size:12px;font-weight:600">📄 Télécharger PDF</a>
+          </div>
+        </div>
+        <iframe src="${reportUrl}" style="width:100%;height:75vh;border:0;display:block;background:white" title="Rapport ${meta.domain || site}"></iframe>
+      </div>`;
+  }).join('');
+}
+
 function renderPhaseChips(donePhases, runningPhase){
   const div = document.getElementById('ap-phases');
   if(!div) return;
@@ -1250,6 +1281,7 @@ function startAuditPolling(){
       setAuditStatus('✅ Audit terminé — rechargement des données…', false);
       if(bar) bar.style.width = '100%';
       renderPhaseChips(AUDIT_PHASES.map((_,i)=>i));
+      renderAuditUltimeReports(currentAuditIds);
       setTimeout(()=>loadData(), 3000); // reload dashboard data
     }
     if(anyError && allDone){
