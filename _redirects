@@ -1,5 +1,7 @@
 # Cloudflare Pages — Redirections lexvox-victime.com
 
+https://www.lexvox-victime.com/*  https://lexvox-victime.com/:splat  301
+
 # Pages piliers — variantes URL
 /accident-route                      /accident-de-la-route                 301
 /accident-travail                    /accident-du-travail                  301
@@ -48,7 +50,7 @@
 # Articles manquants (4XX) — redirections vers pages piliers pertinentes
 /actualites/avocat-erreur-medicale-indemnisation-salon-de-provence  /erreur-medicale  301
 /actualites/indemnisation-victime-agression-nimes                   /victime-agression  301
-/actualites/comment-ia-optimise-indemnisation-victimes              /indemnisation-victime  301
+# /actualites/comment-ia-optimise-indemnisation-victimes  — fichier HTML existe, redirect supprimé 2026-04-25
 
 # Blog
 /blog                                /actualites                           301
