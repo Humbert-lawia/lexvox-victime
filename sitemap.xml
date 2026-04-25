@@ -331,4 +331,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <url>
+    <loc>https://lexvox-victime.com/actualites/5-erreurs-qui-reduisent-votre-indemnisation-apres-un-acciden</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lexvox-victime.com/actualites/comment-ecrire-une-lettre-de-doleance-apres-un-accident-guid</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
