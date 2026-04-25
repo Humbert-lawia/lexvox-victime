@@ -735,7 +735,7 @@ const DIMS = [
 const DEFAULT_AUDIT = {
   victime:{ technique:75, contenu:72, local:60, schema:85, performance:70, backlinks:35, ai_visibility:55, score:80 },
   divorce:{ technique:70, contenu:68, local:55, schema:80, performance:68, backlinks:30, ai_visibility:50, score:60 },
-  permis: { technique:45, contenu:40, local:30, schema:45, performance:60, backlinks:20, ai_visibility:30, score:null },
+  permis: { technique:65, contenu:62, local:55, schema:75, performance:65, backlinks:25, ai_visibility:60, score:null },
 };
 
 const CHECKLIST = [
@@ -1023,13 +1023,21 @@ function artRow(a,withScore){
 }
 
 // ═══════════ AUDIT SITES ═══════════
+function computeAuditScore(s){
+  // Fallback : moyenne pondérée des dimensions si score absent
+  const W = { technique:0.20, contenu:0.20, local:0.15, schema:0.15, performance:0.10, backlinks:0.10, ai_visibility:0.10 };
+  let total=0, weight=0;
+  for(const k in W){ const v=s?.[k]; if(typeof v==='number'){ total+=v*W[k]; weight+=W[k]; } }
+  return weight>0 ? Math.round(total/weight) : null;
+}
 function renderAudit(audit){
   const data=audit?.sites??DEFAULT_AUDIT;
   if(audit?.last_run) document.getElementById('audit-last-run').textContent='Dernier audit : '+new Date(audit.last_run).toLocaleString('fr-FR');
   const grid=document.getElementById('audit-grid');
   grid.innerHTML=['victime','divorce','permis'].map(k=>{
     const m=SITE_META[k];const s=data[k]??{};
-    const score=s.score??null;
+    let score=s.score??null;
+    if(score===null) score=computeAuditScore(s);
     const scls=score===null?'sg-none':score>=70?'sg-ok':score>=50?'sg-mid':'sg-bad';
     const scoreH=score!==null?score:'—';
     const dimsH=DIMS.map(dim=>{
