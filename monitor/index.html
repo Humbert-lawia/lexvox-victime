@@ -581,7 +581,6 @@ td a:hover{text-decoration:underline}
       <div>
         <div class="wp-s"><div class="wp-dot ok"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-victime.com/llms.txt" target="_blank" rel="noopener">llms.txt — Victime ↗</a></div><div class="wp-dom">Optimisé IA — passages citationnels</div></div><div class="wp-meta"><span class="chip ok">✓</span></div></div>
         <div class="wp-s"><div class="wp-dot ok"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-divorce.com/llms.txt" target="_blank" rel="noopener">llms.txt — Divorce ↗</a></div><div class="wp-dom">Optimisé IA — passages citationnels</div></div><div class="wp-meta"><span class="chip ok">✓</span></div></div>
-        <div class="wp-s"><div class="wp-dot ok"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-permis.com/llms.txt" target="_blank" rel="noopener">llms.txt — Permis ↗</a></div><div class="wp-dom">Optimisé IA — passages citationnels</div></div><div class="wp-meta"><span class="chip ok">✓</span></div></div>
         <div class="wp-s"><div class="wp-dot unknown"></div><div style="flex:1"><div class="wp-name">Google AI Overviews</div><div class="wp-dom">Monitoring via agent seo-geo</div></div><div class="wp-meta">—</div></div>
       </div>
     </div>
@@ -592,7 +591,6 @@ td a:hover{text-decoration:underline}
       <div>
         <div class="wp-s"><div class="wp-dot ok"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-victime.com/robots.txt" target="_blank" rel="noopener">robots.txt — Victime ↗</a></div><div class="wp-dom">Googlebot autorisé · Sitemap référencé</div></div><div class="wp-meta"><span class="chip ok">✓</span></div></div>
         <div class="wp-s"><div class="wp-dot ok"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-divorce.com/robots.txt" target="_blank" rel="noopener">robots.txt — Divorce ↗</a></div><div class="wp-dom">Googlebot autorisé · Sitemap référencé</div></div><div class="wp-meta"><span class="chip ok">✓</span></div></div>
-        <div class="wp-s"><div class="wp-dot ok"></div><div style="flex:1"><div class="wp-name"><a href="https://lexvox-permis.com/robots.txt" target="_blank" rel="noopener">robots.txt — Permis ↗</a></div><div class="wp-dom">Googlebot autorisé · AI bots bloqués · Sitemap référencé</div></div><div class="wp-meta"><span class="chip ok">✓</span></div></div>
       </div>
     </div>
 
@@ -629,7 +627,7 @@ td a:hover{text-decoration:underline}
 
     <!-- Alerte démo -->
     <div class="full" id="traffic-demo-note" style="display:none">
-      <div class="alert alert-info">📊 Données de démonstration — le workflow <strong>daily-gsc-sync</strong> (GH Actions) synchronise le trafic GSC réel dans <code>monitor/lexvox-data.json</code> chaque matin à 6h30 UTC. Si cette bannière persiste, lancez <em>workflow_dispatch</em> sur le workflow depuis GitHub Actions.</div>
+      <div class="alert alert-info">📊 Données de démonstration — connectez GSC dans le pipeline pour afficher le trafic réel (clics · impressions · pages).</div>
     </div>
 
     <!-- KPI clics / impressions par site -->
@@ -735,30 +733,30 @@ const DIMS = [
 const DEFAULT_AUDIT = {
   victime:{ technique:75, contenu:72, local:60, schema:85, performance:70, backlinks:35, ai_visibility:55, score:80 },
   divorce:{ technique:70, contenu:68, local:55, schema:80, performance:68, backlinks:30, ai_visibility:50, score:60 },
-  permis: { technique:65, contenu:62, local:55, schema:75, performance:65, backlinks:25, ai_visibility:60, score:null },
+  permis: { technique:45, contenu:40, local:30, schema:45, performance:60, backlinks:20, ai_visibility:30, score:null },
 };
 
 const CHECKLIST = [
-  {label:'Schema LegalService',         cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'Schema LocalBusiness',        cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'FAQPage schema articles',     cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Schema LegalService',         cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Schema LocalBusiness',        cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'FAQPage schema articles',     cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'GeoJSON bureaux',             cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'GBP Salon-de-Provence',       cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'GBP Aix-en-Provence',         cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Sitemap XML valide',          cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Sitemap XML valide',          cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'robots.txt correct',          cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'llms.txt présent',            cat:'IA/GEO',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'H2/H3 CSS scopé articles',    cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'llms.txt présent',            cat:'IA/GEO',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'H2/H3 CSS scopé articles',    cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'Image hero articles',         cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'Image milieu articles',       cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'FAQ accordéon <details>',     cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'4+ liens internes/article',   cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'Liens Légifrance réels',      cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'4+ liens internes/article',   cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Liens Légifrance réels',      cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'Alt images + OG meta',        cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Pages locales villes (4+)',   cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'Deploy auto Cloudflare',      cat:'Pipeline',  k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Pages locales villes (4+)',   cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Deploy auto Cloudflare',      cat:'Pipeline',  k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
   {label:'NeuronWriter optimisation',   cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Redirects 301 configurés',    cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Moyenne'},
+  {label:'Redirects 301 configurés',    cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Moyenne'},
 ];
 
 const PRIO_COLOR = {Haute:'var(--red)',Moyenne:'var(--yellow)',Basse:'var(--green)'};
@@ -1023,21 +1021,13 @@ function artRow(a,withScore){
 }
 
 // ═══════════ AUDIT SITES ═══════════
-function computeAuditScore(s){
-  // Fallback : moyenne pondérée des dimensions si score absent
-  const W = { technique:0.20, contenu:0.20, local:0.15, schema:0.15, performance:0.10, backlinks:0.10, ai_visibility:0.10 };
-  let total=0, weight=0;
-  for(const k in W){ const v=s?.[k]; if(typeof v==='number'){ total+=v*W[k]; weight+=W[k]; } }
-  return weight>0 ? Math.round(total/weight) : null;
-}
 function renderAudit(audit){
   const data=audit?.sites??DEFAULT_AUDIT;
   if(audit?.last_run) document.getElementById('audit-last-run').textContent='Dernier audit : '+new Date(audit.last_run).toLocaleString('fr-FR');
   const grid=document.getElementById('audit-grid');
   grid.innerHTML=['victime','divorce','permis'].map(k=>{
     const m=SITE_META[k];const s=data[k]??{};
-    let score=s.score??null;
-    if(score===null) score=computeAuditScore(s);
+    const score=s.score??null;
     const scls=score===null?'sg-none':score>=70?'sg-ok':score>=50?'sg-mid':'sg-bad';
     const scoreH=score!==null?score:'—';
     const dimsH=DIMS.map(dim=>{
