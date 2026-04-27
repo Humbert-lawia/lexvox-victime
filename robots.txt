@@ -1,11 +1,18 @@
 User-agent: *
 Allow: /
+Allow: /*.css
+Allow: /*.js
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.webp
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.woff2
 Disallow: /cdn-cgi/
-Disallow: /scripts/
 Disallow: /articles-bruts/
 Disallow: /articles-optimises/
 Disallow: /neuronwriter-scores/
-Disallow: /newsletter/
 Disallow: /node_modules/
 Disallow: /*.py$
 Disallow: /*.sh$
@@ -29,12 +36,6 @@ User-agent: PerplexityBot
 Allow: /
 
 User-agent: ClaudeBot
-Allow: /
-
-User-agent: Bytespider
-Allow: /
-
-User-agent: cohere-ai
 Allow: /
 
 User-agent: OAI-SearchBot
