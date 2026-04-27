@@ -1089,6 +1089,19 @@ function renderCWV(technical){
 
 // ═══════════ AUDIT TRIGGER ═══════════
 const WORKER_URL = 'https://lawia-worker-production.up.railway.app';
+
+// Auth token stocké en localStorage (saisi une fois par l'utilisateur)
+function getAuthToken(){
+  let tok = localStorage.getItem('lawia_api_token');
+  if(!tok){
+    tok = prompt('Token Railway (INTERNAL_API_TOKEN) :');
+    if(tok) localStorage.setItem('lawia_api_token', tok.trim());
+  }
+  return tok ? tok.trim() : '';
+}
+function authHeaders(){
+  return { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + getAuthToken() };
+}
 const SITES_DOMAINS = {
   victime: 'https://lexvox-victime.com/',
   divorce: 'https://lexvox-divorce.com/',
@@ -1140,7 +1153,7 @@ async function launchAudit(){
     try{
       const resp = await fetch(`${WORKER_URL}/webhook/audit-ultime`, {
         method: 'POST',
-        headers: {'Content-Type': 'application/json'},
+        headers: authHeaders(),
         body: JSON.stringify({url: SITES_DOMAINS[site], email})
       });
       const data = await resp.json();
