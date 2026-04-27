@@ -731,32 +731,33 @@ const DIMS = [
 ];
 
 const DEFAULT_AUDIT = {
-  victime:{ technique:75, contenu:72, local:60, schema:85, performance:70, backlinks:35, ai_visibility:55, score:80 },
-  divorce:{ technique:70, contenu:68, local:55, schema:80, performance:68, backlinks:30, ai_visibility:50, score:60 },
-  permis: { technique:45, contenu:40, local:30, schema:45, performance:60, backlinks:20, ai_visibility:30, score:null },
+  victime:{ technique:80, contenu:82, local:75, schema:88, performance:75, backlinks:35, ai_visibility:65, score:81 },
+  divorce:{ technique:78, contenu:80, local:72, schema:85, performance:72, backlinks:30, ai_visibility:60, score:80 },
+  permis: { technique:78, contenu:78, local:72, schema:82, performance:70, backlinks:25, ai_visibility:55, score:80 },
 };
 
+// État réel au 2026-04-27 — mis à jour manuellement après chaque sprint
 const CHECKLIST = [
-  {label:'Schema LegalService',         cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Schema LocalBusiness',        cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'FAQPage schema articles',     cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'GeoJSON bureaux',             cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'GBP Salon-de-Provence',       cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'GBP Aix-en-Provence',         cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Sitemap XML valide',          cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Schema LegalService',         cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Schema LocalBusiness',        cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'FAQPage schema articles',     cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'GeoJSON bureaux',             cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'GBP Salon-de-Provence',       cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'GBP Aix-en-Provence',         cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Sitemap XML valide',          cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
   {label:'robots.txt correct',          cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'llms.txt présent',            cat:'IA/GEO',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'H2/H3 CSS scopé articles',    cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Image hero articles',         cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'llms.txt présent',            cat:'IA/GEO',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'H2/H3 CSS scopé articles',   cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Image hero articles',         cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
   {label:'Image milieu articles',       cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'FAQ accordéon <details>',     cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'4+ liens internes/article',   cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Liens Légifrance réels',      cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Alt images + OG meta',        cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Pages locales villes (4+)',   cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Deploy auto Cloudflare',      cat:'Pipeline',  k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'NeuronWriter optimisation',   cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Redirects 301 configurés',    cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Moyenne'},
+  {label:'FAQ accordéon <details>',     cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'4+ liens internes/article',   cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Liens Légifrance réels',      cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Alt images + OG meta',        cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Pages locales villes (4+)',   cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Deploy auto Cloudflare',      cat:'Pipeline',  k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'NeuronWriter optimisation',   cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Redirects 301 configurés',    cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Moyenne'},
 ];
 
 const PRIO_COLOR = {Haute:'var(--red)',Moyenne:'var(--yellow)',Basse:'var(--green)'};
