@@ -1088,6 +1088,21 @@ function renderCWV(technical){
 
 // ═══════════ AUDIT TRIGGER ═══════════
 const WORKER_URL = 'https://lawia-worker-production.up.railway.app';
+
+// ── Auth Bearer token (LAWIA-SEO API requireAuth) ─────────────────
+const TOKEN_KEY = 'lawia_api_token';
+function getApiToken(){
+  let t = localStorage.getItem(TOKEN_KEY);
+  if(!t){
+    t = prompt('Token API LAWIA-SEO requis :');
+    if(t) localStorage.setItem(TOKEN_KEY, t.trim());
+  }
+  return t || '';
+}
+function authHeaders(extra){
+  return Object.assign({'Content-Type':'application/json','Authorization':'Bearer '+getApiToken()}, extra||{});
+}
+
 const SITES_DOMAINS = {
   victime: 'https://lexvox-victime.com/',
   divorce: 'https://lexvox-divorce.com/',
@@ -1139,7 +1154,7 @@ async function launchAudit(){
     try{
       const resp = await fetch(`${WORKER_URL}/webhook/audit-ultime`, {
         method: 'POST',
-        headers: {'Content-Type': 'application/json'},
+        headers: authHeaders(),
         body: JSON.stringify({url: SITES_DOMAINS[site], email})
       });
       const data = await resp.json();
@@ -1260,7 +1275,7 @@ function startAuditPolling(){
 
     for(const {site, auditId} of currentAuditIds){
       try{
-        const resp = await fetch(`${WORKER_URL}/audit-ultime/${auditId}`,{cache:'no-store'});
+        const resp = await fetch(`${WORKER_URL}/audit-ultime/${auditId}`,{cache:'no-store', headers: authHeaders()});
         if(!resp.ok){ allDone=false; continue; }
         const audit = await resp.json();
         const phase   = audit.currentPhase ?? 0;
