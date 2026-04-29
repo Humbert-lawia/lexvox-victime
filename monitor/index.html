@@ -439,6 +439,12 @@ td a:hover{text-decoration:underline}
       <div class="cw"><canvas id="radarDivorce"></canvas></div>
     </div>
 
+    <!-- Radar permis -->
+    <div class="card">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--pink)"></span>Radar — <a href="https://lexvox-permis.com" target="_blank" rel="noopener" style="color:var(--pink);text-decoration:none">lexvox-permis.com ↗</a></div></div>
+      <div class="cw"><canvas id="radarPermis"></canvas></div>
+    </div>
+
     <!-- Historique -->
     <div class="card">
       <div class="ch"><div class="ct"><span class="dot" style="background:var(--orange)"></span>Historique des audits</div></div>
@@ -602,6 +608,19 @@ td a:hover{text-decoration:underline}
   </div>
 </div>
 
+<!-- ═══════════════ MODAL TOKEN ═══════════════ -->
+<div class="amodal-overlay" id="token-modal" onclick="if(event.target===this)cancelTokenModal()">
+  <div class="amodal">
+    <h3>🔑 Token Railway requis</h3>
+    <p>Saisissez l'INTERNAL_API_TOKEN du worker Railway. Il sera stocké localement dans ce navigateur.</p>
+    <input id="token-modal-input" type="password" class="amod-email" placeholder="INTERNAL_API_TOKEN" style="margin-bottom:16px" onkeydown="if(event.key==='Enter')confirmTokenModal()">
+    <div class="amod-footer">
+      <button class="amod-cancel" onclick="cancelTokenModal()">Annuler</button>
+      <button class="amod-launch" onclick="confirmTokenModal()">✓ Confirmer</button>
+    </div>
+  </div>
+</div>
+
 <!-- ═══════════════ MODAL AUDIT ═══════════════ -->
 <div class="amodal-overlay" id="audit-modal" onclick="if(event.target===this)closeAuditModal()">
   <div class="amodal">
@@ -730,33 +749,35 @@ const DIMS = [
   {key:'ai_visibility',label:'Visib. IA', color:'#f97316'},
 ];
 
+// Scores réels 2026-04-28 — mis à jour après chaque sprint SEO
 const DEFAULT_AUDIT = {
-  victime:{ technique:75, contenu:72, local:60, schema:85, performance:70, backlinks:35, ai_visibility:55, score:80 },
-  divorce:{ technique:70, contenu:68, local:55, schema:80, performance:68, backlinks:30, ai_visibility:50, score:60 },
-  permis: { technique:45, contenu:40, local:30, schema:45, performance:60, backlinks:20, ai_visibility:30, score:null },
+  victime:{ technique:80, contenu:82, local:75, schema:88, performance:75, backlinks:35, ai_visibility:65, score:81 },
+  divorce:{ technique:78, contenu:80, local:72, schema:85, performance:72, backlinks:30, ai_visibility:60, score:80 },
+  permis: { technique:78, contenu:78, local:72, schema:82, performance:70, backlinks:25, ai_visibility:55, score:80 },
 };
 
+// État réel 2026-04-28 — maintenir ici dans le template source (LAWIA-SEO/src/dashboard/)
 const CHECKLIST = [
-  {label:'Schema LegalService',         cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Schema LocalBusiness',        cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'FAQPage schema articles',     cat:'Schema',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'GeoJSON bureaux',             cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'GBP Salon-de-Provence',       cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'GBP Aix-en-Provence',         cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Sitemap XML valide',          cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'Schema LegalService',         cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Schema LocalBusiness',        cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'FAQPage schema articles',     cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'GeoJSON bureaux',             cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'GBP Salon-de-Provence',       cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'GBP Aix-en-Provence',         cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Sitemap XML valide',          cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
   {label:'robots.txt correct',          cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'llms.txt présent',            cat:'IA/GEO',    k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'H2/H3 CSS scopé articles',    cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Image hero articles',         cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
+  {label:'llms.txt présent',            cat:'IA/GEO',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'H2/H3 CSS scopé articles',    cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Image hero articles',         cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
   {label:'Image milieu articles',       cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'FAQ accordéon <details>',     cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'4+ liens internes/article',   cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Liens Légifrance réels',      cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Alt images + OG meta',        cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Pages locales villes (4+)',   cat:'Local',     k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Deploy auto Cloudflare',      cat:'Pipeline',  k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'NeuronWriter optimisation',   cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'Redirects 301 configurés',    cat:'Technique', k:{victime:1,divorce:1,permis:0}, prio:'Moyenne'},
+  {label:'FAQ accordéon <details>',     cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'4+ liens internes/article',   cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Liens Légifrance réels',      cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Alt images + OG meta',        cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Pages locales villes (4+)',   cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Deploy auto Cloudflare',      cat:'Pipeline',  k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'NeuronWriter optimisation',   cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Redirects 301 configurés',    cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Moyenne'},
 ];
 
 const PRIO_COLOR = {Haute:'var(--red)',Moyenne:'var(--yellow)',Basse:'var(--green)'};
@@ -1088,6 +1109,48 @@ function renderCWV(technical){
 
 // ═══════════ AUDIT TRIGGER ═══════════
 const WORKER_URL = 'https://lawia-worker-production.up.railway.app';
+
+// Token Railway — stocké en localStorage, saisi via modale (jamais via prompt())
+let _tokenResolve = null;
+function getAuthTokenAsync(){
+  const stored = localStorage.getItem('lawia_api_token');
+  if(stored && stored.trim()) return Promise.resolve(stored.trim());
+  return new Promise(resolve => {
+    _tokenResolve = resolve;
+    const overlay = document.getElementById('token-modal');
+    const inp = document.getElementById('token-modal-input');
+    if(overlay){ overlay.classList.add('open'); if(inp) inp.focus(); }
+  });
+}
+function confirmTokenModal(){
+  const inp = document.getElementById('token-modal-input');
+  const tok = (inp?.value||'').trim();
+  if(!tok) return;
+  localStorage.setItem('lawia_api_token', tok);
+  document.getElementById('token-modal')?.classList.remove('open');
+  if(inp) inp.value='';
+  if(_tokenResolve){ _tokenResolve(tok); _tokenResolve=null; }
+}
+function cancelTokenModal(){
+  document.getElementById('token-modal')?.classList.remove('open');
+  const inp = document.getElementById('token-modal-input');
+  if(inp) inp.value='';
+  if(_tokenResolve){ _tokenResolve(''); _tokenResolve=null; }
+}
+function resetAuthToken(){
+  localStorage.removeItem('lawia_api_token');
+  logAudit('Token effacé — il sera demandé au prochain audit.');
+}
+function authHeaders(){
+  // Sync fallback — token doit être déjà stocké. Pour le premier appel utiliser authHeadersAsync()
+  const tok = localStorage.getItem('lawia_api_token')||'';
+  return { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + tok };
+}
+async function authHeadersAsync(){
+  const tok = await getAuthTokenAsync();
+  return { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + tok };
+}
+
 const SITES_DOMAINS = {
   victime: 'https://lexvox-victime.com/',
   divorce: 'https://lexvox-divorce.com/',
@@ -1135,11 +1198,12 @@ async function launchAudit(){
   currentAuditIds = [];
   let allOk = true;
 
+  const hdrs = await authHeadersAsync();
   for(const site of sites){
     try{
       const resp = await fetch(`${WORKER_URL}/webhook/audit-ultime`, {
         method: 'POST',
-        headers: {'Content-Type': 'application/json'},
+        headers: hdrs,
         body: JSON.stringify({url: SITES_DOMAINS[site], email})
       });
       const data = await resp.json();
@@ -1239,7 +1303,11 @@ function logAudit(msg){
   const div = document.getElementById('ap-log');
   if(!div) return;
   const ts = new Date().toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
-  div.innerHTML += `<span style="color:var(--muted)">[${ts}]</span> ${msg}\n`;
+  const sp = document.createElement('span');
+  sp.style.color = 'var(--muted)';
+  sp.textContent = `[${ts}] `;
+  div.appendChild(sp);
+  div.appendChild(document.createTextNode(msg + '\n'));
   div.scrollTop = div.scrollHeight;
 }
 
@@ -1588,7 +1656,7 @@ function renderTopPagesChart(id, pages, color){
 // ═══════════ AUDIT CHARTS ═══════════
 function initAuditCharts(){
   const d=gData;
-  ['victime','divorce'].forEach(k=>{
+  ['victime','divorce','permis'].forEach(k=>{
     const id='radar'+k.charAt(0).toUpperCase()+k.slice(1);
     if(C[id]) return;
     const s=d?.audit?.sites?.[k]??DEFAULT_AUDIT[k];
@@ -1743,8 +1811,8 @@ function renderNwScores(site){
     const color = score>=75?'#22c55e':score>=50?'#f59e0b':'#ef4444';
     const bar = `<div style="background:${color};width:${score}%;height:8px;border-radius:4px"></div>`;
     return `<tr>
-      <td style="padding:8px 12px;max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${s.keyword}</td>
-      <td style="padding:8px 12px">${s.queryType||'-'}</td>
+      <td style="padding:8px 12px;max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(s.keyword||'')}</td>
+      <td style="padding:8px 12px">${esc(s.queryType||'-')}</td>
       <td style="padding:8px 12px;text-align:left">
         <div style="display:flex;align-items:center;gap:8px">
           <div style="flex:1;background:#e5e7eb;border-radius:4px;overflow:hidden;min-width:80px">${bar}</div>
