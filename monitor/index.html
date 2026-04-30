@@ -451,6 +451,18 @@ td a:hover{text-decoration:underline}
       <div class="cw"><canvas id="auditHistChart"></canvas></div>
     </div>
 
+    <!-- Coverage : indexation + 404 -->
+    <div class="card full">
+      <div class="ch"><div class="ct"><span class="dot" style="background:var(--green)"></span>Couverture & Indexation</div></div>
+      <div class="twrap">
+        <table>
+          <thead><tr><th>Site</th><th>Sitemap</th><th>Indexable</th><th>Indexé</th><th>Non-indexé</th><th>404 / cassés</th><th>Sitemap dead</th><th>Orphelines</th><th>Redirects</th></tr></thead>
+          <tbody id="coverage-tbody"><tr><td colspan="9" class="loading">Chargement…</td></tr></tbody>
+        </table>
+      </div>
+      <div id="coverage-details" style="font-size:11px;color:var(--muted);padding:8px 12px;line-height:1.5"></div>
+    </div>
+
     <!-- Checklist SEO -->
     <div class="card full">
       <div class="ch"><div class="ct"><span class="dot" style="background:var(--yellow)"></span>Checklist qualité SEO — état actuel</div></div>
@@ -1854,13 +1866,65 @@ function initNwScores(d){
 }
 
 // ═══════════ INIT ═══════════
+async function loadCoverage(){
+  const tbody = document.getElementById('coverage-tbody');
+  const details = document.getElementById('coverage-details');
+  if(!tbody) return;
+  const sites = [
+    {key:'victime', domain:'lexvox-victime.com'},
+    {key:'divorce', domain:'lexvox-divorce.com'},
+    {key:'permis',  domain:'lexvox-permis.com'},
+  ];
+  const rows = [];
+  const detailLines = [];
+  for(const s of sites){
+    try{
+      const r = await fetch(`${WORKER_URL}/audit-ultime/coverage?domain=${s.domain}`);
+      const d = await r.json();
+      if(d.noData){
+        rows.push(`<tr><td>${s.domain}</td><td colspan="8" style="color:var(--muted)">Aucun audit</td></tr>`);
+        continue;
+      }
+      const sm = d.summary;
+      const sitemapStatus = d.sitemapOk ? '✅' : '⚠️';
+      const robotsStatus = d.robotsOk ? '✅' : '⚠️';
+      rows.push(`<tr>
+        <td><a href="https://${s.domain}/sitemap.xml" target="_blank" style="color:var(--blue)">${s.domain}</a></td>
+        <td>${sitemapStatus} ${robotsStatus}</td>
+        <td>${sm.indexable}</td>
+        <td style="color:var(--green)">${sm.indexed}</td>
+        <td style="color:${sm.nonIndexed>0?'var(--red)':'var(--muted)'}">${sm.nonIndexed}</td>
+        <td style="color:${sm.broken404>0?'var(--red)':'var(--green)'}">${sm.broken404}</td>
+        <td style="color:${sm.sitemapDead>0?'var(--red)':'var(--muted)'}">${sm.sitemapDead}</td>
+        <td>${sm.orphan}</td>
+        <td>${sm.redirects}</td>
+      </tr>`);
+      if(d.details.brokenLinks?.length){
+        detailLines.push(`<b>${s.domain}</b> 404 (${d.details.brokenLinks.length}): ${d.details.brokenLinks.slice(0,5).join(', ')}${d.details.brokenLinks.length>5?'…':''}`);
+      }
+      if(d.details.nonIndexed?.length){
+        detailLines.push(`<b>${s.domain}</b> non-indexées (${d.details.nonIndexed.length}): ${d.details.nonIndexed.slice(0,3).join(', ')}${d.details.nonIndexed.length>3?'…':''}`);
+      }
+      if(d.details.sitemapDead?.length){
+        detailLines.push(`<b>${s.domain}</b> sitemap dead (${d.details.sitemapDead.length}): ${d.details.sitemapDead.slice(0,3).join(', ')}${d.details.sitemapDead.length>3?'…':''}`);
+      }
+    } catch(e){
+      rows.push(`<tr><td>${s.domain}</td><td colspan="8" style="color:var(--red)">Erreur ${e.message}</td></tr>`);
+    }
+  }
+  tbody.innerHTML = rows.join('');
+  if(details) details.innerHTML = detailLines.join('<br>') || '<i>Aucun problème détecté</i>';
+}
+
 window.addEventListener('DOMContentLoaded',()=>{
   const hash=location.hash.replace('#','');
   if(['overview','audit','articles','positions','technique','nw-scores'].includes(hash)) sv(hash);
   loadData();
+  loadCoverage();
 });
 
 setInterval(loadData, 5*60*1000);
+setInterval(loadCoverage, 5*60*1000);
 </script>
 </body>
 </html>
