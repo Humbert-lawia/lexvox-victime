@@ -1110,17 +1110,20 @@ function renderCWV(technical){
 // ═══════════ AUDIT TRIGGER ═══════════
 const WORKER_URL = 'https://lawia-worker-production.up.railway.app';
 
-// Token Railway — stocké en localStorage, saisi via modale (jamais via prompt())
+// Token Railway — auto-seed au load (plus de modale par défaut)
+const DEFAULT_API_TOKEN = '221ec9f64dd9c3aab14524a138408b09e9953c3240811a50a478ea05e5285dd2';
+(function seedToken(){
+  const cur = localStorage.getItem('lawia_api_token');
+  if(!cur || !cur.trim()) localStorage.setItem('lawia_api_token', DEFAULT_API_TOKEN);
+})();
+
 let _tokenResolve = null;
 function getAuthTokenAsync(){
   const stored = localStorage.getItem('lawia_api_token');
   if(stored && stored.trim()) return Promise.resolve(stored.trim());
-  return new Promise(resolve => {
-    _tokenResolve = resolve;
-    const overlay = document.getElementById('token-modal');
-    const inp = document.getElementById('token-modal-input');
-    if(overlay){ overlay.classList.add('open'); if(inp) inp.focus(); }
-  });
+  // Fallback ultime — seed token par défaut au lieu d'ouvrir modale
+  localStorage.setItem('lawia_api_token', DEFAULT_API_TOKEN);
+  return Promise.resolve(DEFAULT_API_TOKEN);
 }
 function confirmTokenModal(){
   const inp = document.getElementById('token-modal-input');
