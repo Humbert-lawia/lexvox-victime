@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-30T09:55:15.319721",
+  "generated_at": "2026-05-01T08:17:01.597946",
   "nw": {
     "used": 0,
     "cap": 150,
     "remaining": 150,
     "pct": 0.0,
-    "month": "2026-04",
+    "month": "2026-05",
     "keywords": []
   },
   "articles": {
-    "total": 35,
+    "total": 38,
     "by_site": {
       "victime": {
-        "count": 12,
-        "latest": "2026-04-30",
+        "count": 13,
+        "latest": "2026-05-01",
         "villes": [
           "Aix-en-Provence",
           "Arles",
@@ -31,8 +31,8 @@
         ]
       },
       "divorce": {
-        "count": 11,
-        "latest": "2026-04-30",
+        "count": 12,
+        "latest": "2026-05-01",
         "villes": [
           "Aix-en-Provence",
           "Arles",
@@ -48,8 +48,8 @@
         ]
       },
       "permis": {
-        "count": 12,
-        "latest": "2026-04-30",
+        "count": 13,
+        "latest": "2026-05-01",
         "villes": [
           "Aix-en-Provence",
           "Arles",
@@ -66,6 +66,33 @@
       }
     },
     "recent": [
+      {
+        "site": "victime",
+        "ville": "Aix-en-Provence",
+        "theme": "Avocat dommage corporel grave",
+        "slug": "avocat-dommage-corporel-grave-aix-en-provence",
+        "score": 85,
+        "words": 4299,
+        "date": "2026-05-01"
+      },
+      {
+        "site": "divorce",
+        "ville": "Marignane",
+        "theme": "Avocat garde enfants divorce",
+        "slug": "avocat-garde-enfants-divorce-marignane",
+        "score": 91,
+        "words": 4524,
+        "date": "2026-05-01"
+      },
+      {
+        "site": "permis",
+        "ville": "Marignane",
+        "theme": "Avocat excès de vitesse",
+        "slug": "avocat-exces-de-vitesse-marignane",
+        "score": 77,
+        "words": 3725,
+        "date": "2026-05-01"
+      },
       {
         "site": "victime",
         "ville": "Gardanne",
@@ -308,33 +335,6 @@
         "score": 0,
         "words": 4354,
         "date": "2026-04-21"
-      },
-      {
-        "site": "divorce",
-        "ville": "Aix-en-Provence",
-        "theme": "Avocat garde enfants divorce",
-        "slug": "avocat-garde-enfants-divorce-aix-en-provence",
-        "score": 0,
-        "words": 4416,
-        "date": "2026-04-21"
-      },
-      {
-        "site": "permis",
-        "ville": "Aix-en-Provence",
-        "theme": "Avocat excès de vitesse",
-        "slug": "avocat-exces-de-vitesse-aix-en-provence",
-        "score": 0,
-        "words": 4259,
-        "date": "2026-04-21"
-      },
-      {
-        "site": "victime",
-        "ville": "Salon-de-Provence",
-        "theme": "Avocat erreur médicale",
-        "slug": "avocat-erreur-medicale-salon-de-provence",
-        "score": 0,
-        "words": 4229,
-        "date": "2026-04-20"
       }
     ]
   },
@@ -349,8 +349,8 @@
       "domain": "lexvox-victime.com",
       "label": "Victime / Dommage corporel",
       "color": "#3b82f6",
-      "articles": 12,
-      "latest": "2026-04-30",
+      "articles": 13,
+      "latest": "2026-05-01",
       "villes": [
         "Aix-en-Provence",
         "Arles",
@@ -366,8 +366,8 @@
       "domain": "lexvox-divorce.com",
       "label": "Divorce & Famille",
       "color": "#8b5cf6",
-      "articles": 11,
-      "latest": "2026-04-30",
+      "articles": 12,
+      "latest": "2026-05-01",
       "villes": [
         "Aix-en-Provence",
         "Arles",
@@ -379,8 +379,8 @@
       "domain": "lexvox-permis.com",
       "label": "Pénal routier",
       "color": "#ec4899",
-      "articles": 12,
-      "latest": "2026-04-30",
+      "articles": 13,
+      "latest": "2026-05-01",
       "villes": [
         "Aix-en-Provence",
         "Arles",
