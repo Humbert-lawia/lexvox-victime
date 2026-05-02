@@ -390,5 +390,659 @@
         "Salon-de-Provence"
       ]
     }
-  }
+  },
+  "traffic": {
+    "by_date": [
+      {
+        "date": "2026-04-05",
+        "divorce": {
+          "clicks": 0,
+          "impressions": 1
+        }
+      },
+      {
+        "date": "2026-04-06",
+        "divorce": {
+          "clicks": 0,
+          "impressions": 1
+        }
+      },
+      {
+        "date": "2026-04-07",
+        "divorce": {
+          "clicks": 0,
+          "impressions": 10
+        }
+      },
+      {
+        "date": "2026-04-08",
+        "divorce": {
+          "clicks": 0,
+          "impressions": 7
+        }
+      },
+      {
+        "date": "2026-04-09",
+        "divorce": {
+          "clicks": 0,
+          "impressions": 6
+        }
+      },
+      {
+        "date": "2026-04-10",
+        "divorce": {
+          "clicks": 0,
+          "impressions": 12
+        }
+      },
+      {
+        "date": "2026-04-11",
+        "divorce": {
+          "clicks": 0,
+          "impressions": 3
+        }
+      },
+      {
+        "date": "2026-04-12",
+        "divorce": {
+          "clicks": 0,
+          "impressions": 4
+        }
+      },
+      {
+        "date": "2026-04-13",
+        "divorce": {
+          "clicks": 0,
+          "impressions": 6
+        }
+      },
+      {
+        "date": "2026-04-14",
+        "divorce": {
+          "clicks": 0,
+          "impressions": 10
+        }
+      },
+      {
+        "date": "2026-04-15",
+        "divorce": {
+          "clicks": 0,
+          "impressions": 10
+        }
+      },
+      {
+        "date": "2026-04-16",
+        "divorce": {
+          "clicks": 0,
+          "impressions": 10
+        }
+      },
+      {
+        "date": "2026-04-17",
+        "divorce": {
+          "clicks": 0,
+          "impressions": 8
+        }
+      },
+      {
+        "date": "2026-04-18",
+        "victime": {
+          "clicks": 0,
+          "impressions": 8
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 6
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 0
+        }
+      },
+      {
+        "date": "2026-04-19",
+        "victime": {
+          "clicks": 0,
+          "impressions": 11
+        },
+        "divorce": {
+          "clicks": 1,
+          "impressions": 7
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 0
+        }
+      },
+      {
+        "date": "2026-04-20",
+        "victime": {
+          "clicks": 0,
+          "impressions": 44
+        },
+        "divorce": {
+          "clicks": 1,
+          "impressions": 13
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 2
+        }
+      },
+      {
+        "date": "2026-04-21",
+        "victime": {
+          "clicks": 0,
+          "impressions": 35
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 17
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 1
+        }
+      },
+      {
+        "date": "2026-04-22",
+        "victime": {
+          "clicks": 1,
+          "impressions": 29
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 11
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 1
+        }
+      },
+      {
+        "date": "2026-04-23",
+        "victime": {
+          "clicks": 0,
+          "impressions": 17
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 13
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 1
+        }
+      },
+      {
+        "date": "2026-04-24",
+        "victime": {
+          "clicks": 0,
+          "impressions": 16
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 9
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 0
+        }
+      },
+      {
+        "date": "2026-04-25",
+        "victime": {
+          "clicks": 0,
+          "impressions": 15
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 6
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 1
+        }
+      },
+      {
+        "date": "2026-04-26",
+        "victime": {
+          "clicks": 0,
+          "impressions": 23
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 11
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 0
+        }
+      },
+      {
+        "date": "2026-04-27",
+        "victime": {
+          "clicks": 0,
+          "impressions": 38
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 15
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 0
+        }
+      },
+      {
+        "date": "2026-04-28",
+        "victime": {
+          "clicks": 1,
+          "impressions": 20
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 9
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 0
+        }
+      },
+      {
+        "date": "2026-04-29",
+        "victime": {
+          "clicks": 2,
+          "impressions": 33
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 9
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 4
+        }
+      }
+    ],
+    "top_pages": {
+      "victime": [
+        {
+          "page": "https://lexvox-victime.com/",
+          "clicks": 2,
+          "impressions": 78
+        },
+        {
+          "page": "https://lexvox-victime.com/cabinet/salon-de-provence",
+          "clicks": 1,
+          "impressions": 53
+        },
+        {
+          "page": "https://lexvox-victime.com/indemnisation-prejudice-corporel",
+          "clicks": 1,
+          "impressions": 101
+        },
+        {
+          "page": "https://lexvox-victime.com/accident-de-la-route",
+          "clicks": 0,
+          "impressions": 37
+        },
+        {
+          "page": "https://lexvox-victime.com/actualites",
+          "clicks": 0,
+          "impressions": 5
+        },
+        {
+          "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-arles-expert-en-dommage-c",
+          "clicks": 0,
+          "impressions": 3
+        },
+        {
+          "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-arles-votre-defense-apres",
+          "clicks": 0,
+          "impressions": 2
+        },
+        {
+          "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-moto-a-marignane-expertise",
+          "clicks": 0,
+          "impressions": 4
+        },
+        {
+          "page": "https://lexvox-victime.com/actualites/avocat-accident-pieton-indemnisation-aix-en-provence-experti",
+          "clicks": 0,
+          "impressions": 2
+        },
+        {
+          "page": "https://lexvox-victime.com/actualites/avocat-accident-route-indemnisation-a-marignane-expert-domma",
+          "clicks": 0,
+          "impressions": 1
+        }
+      ],
+      "divorce": [
+        {
+          "page": "https://lexvox-divorce.com/",
+          "clicks": 1,
+          "impressions": 62
+        },
+        {
+          "page": "https://lexvox-divorce.com/cabinet/arles",
+          "clicks": 1,
+          "impressions": 95
+        },
+        {
+          "page": "https://lexvox-divorce.com/actualites/avocat-violence-conjugale-procedure-a-aix-en-provence-accomp",
+          "clicks": 0,
+          "impressions": 4
+        },
+        {
+          "page": "https://lexvox-divorce.com/actualites/calcul-prestation-compensatoire-avocat-a-aix-en-provence-exp",
+          "clicks": 0,
+          "impressions": 3
+        },
+        {
+          "page": "https://lexvox-divorce.com/actualites/pension-alimentaire-enfant-avocat-a-aix-en-provence-expertis",
+          "clicks": 0,
+          "impressions": 2
+        },
+        {
+          "page": "https://lexvox-divorce.com/avocat-pension-alimentaire",
+          "clicks": 0,
+          "impressions": 59
+        }
+      ],
+      "permis": [
+        {
+          "page": "https://lexvox-permis.com/",
+          "clicks": 0,
+          "impressions": 8
+        },
+        {
+          "page": "https://lexvox-permis.com/permis-suspendu",
+          "clicks": 0,
+          "impressions": 2
+        }
+      ]
+    }
+  },
+  "positions": {
+    "victime": [
+      {
+        "keyword": "fracture du sternum indemnisation",
+        "position": 20,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident salon de provence",
+        "position": 22.3,
+        "clicks": 0,
+        "impressions": 3,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat des victimes salon de provence",
+        "position": 25.5,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocats indemnisation accidents hélicoptère france espagne",
+        "position": 44.5,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "indemnisation double fracture tibia péroné",
+        "position": 60,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "calcul préjudice corporel",
+        "position": 69,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "bareme indemnisation préjudice corporel 2013",
+        "position": 71.5,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "préjudice corporel indemnisation",
+        "position": 73,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "code du dommage corporel",
+        "position": 77,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "réduction du préjudice corporel",
+        "position": 77,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocats accident hlm",
+        "position": 80.7,
+        "clicks": 0,
+        "impressions": 6,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "référentiel indicatif régional de l indemnisation du préjudice corporel",
+        "position": 87.5,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "indemnisation préjudice corporel",
+        "position": 90.5,
+        "clicks": 0,
+        "impressions": 4,
+        "prev_position": null,
+        "site": "victime"
+      }
+    ],
+    "divorce": [
+      {
+        "keyword": "raybaud avocat",
+        "position": 7,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "lexvox",
+        "position": 8,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "lexvox avocat",
+        "position": 8.6,
+        "clicks": 0,
+        "impressions": 5,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "cedrine raybaud avocat",
+        "position": 10,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "lex vox",
+        "position": 10,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "maitre raybaud arles",
+        "position": 10.1,
+        "clicks": 0,
+        "impressions": 9,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat arles divorce",
+        "position": 10.8,
+        "clicks": 0,
+        "impressions": 4,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "cédrine raybaud",
+        "position": 11.5,
+        "clicks": 0,
+        "impressions": 4,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat divorce par consentement mutuel arles",
+        "position": 18,
+        "clicks": 0,
+        "impressions": 3,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat divorce arles",
+        "position": 20,
+        "clicks": 0,
+        "impressions": 25,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat spécialisé pension alimentaire",
+        "position": 25,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat divorce pension alimentaire",
+        "position": 27.4,
+        "clicks": 0,
+        "impressions": 18,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat pension alimentaire",
+        "position": 34.1,
+        "clicks": 0,
+        "impressions": 28,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "pension alimentaire avocat",
+        "position": 47,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "tarif avocat pension alimentaire 30",
+        "position": 49,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat sur arles",
+        "position": 60,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat pension alimentaire les angles",
+        "position": 79.5,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat divorce conflictuel & pervers narcissique aix en provence",
+        "position": 88,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "divorce"
+      }
+    ],
+    "permis": [
+      {
+        "keyword": "avocat stupéfiants au volant nimes",
+        "position": 79,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "permis"
+      },
+      {
+        "keyword": "avocat permis suspendu",
+        "position": 87,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "permis"
+      },
+      {
+        "keyword": "avocat alcool au volant nimes",
+        "position": 99.3,
+        "clicks": 0,
+        "impressions": 3,
+        "prev_position": null,
+        "site": "permis"
+      }
+    ]
+  },
+  "gsc_updated_at": "2026-05-02T08:07:46.788Z"
 }
