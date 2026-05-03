@@ -395,4 +395,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <url>
+    <loc>https://lexvox-victime.com/actualites/avocat-erreur-medicale-gardanne</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
