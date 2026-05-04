@@ -680,6 +680,21 @@
           "clicks": 0,
           "impressions": 4
         }
+      },
+      {
+        "date": "2026-05-01",
+        "victime": {
+          "clicks": 0,
+          "impressions": 15
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 1
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 6
+        }
       }
     ],
     "top_pages": {
@@ -687,22 +702,22 @@
         {
           "page": "https://lexvox-victime.com/",
           "clicks": 3,
-          "impressions": 83
+          "impressions": 86
         },
         {
           "page": "https://lexvox-victime.com/cabinet/salon-de-provence",
           "clicks": 1,
-          "impressions": 57
+          "impressions": 58
         },
         {
           "page": "https://lexvox-victime.com/indemnisation-prejudice-corporel",
           "clicks": 1,
-          "impressions": 107
+          "impressions": 110
         },
         {
           "page": "https://lexvox-victime.com/accident-de-la-route",
           "clicks": 0,
-          "impressions": 39
+          "impressions": 46
         },
         {
           "page": "https://lexvox-victime.com/actualites",
@@ -764,7 +779,7 @@
         {
           "page": "https://lexvox-divorce.com/avocat-pension-alimentaire",
           "clicks": 0,
-          "impressions": 61
+          "impressions": 62
         }
       ],
       "permis": [
@@ -774,9 +789,14 @@
           "impressions": 10
         },
         {
+          "page": "https://lexvox-permis.com/alcool-au-volant",
+          "clicks": 0,
+          "impressions": 2
+        },
+        {
           "page": "https://lexvox-permis.com/permis-suspendu",
           "clicks": 0,
-          "impressions": 4
+          "impressions": 8
         }
       ]
     }
@@ -824,15 +844,15 @@
         "site": "victime"
       },
       {
-        "keyword": "calcul préjudice corporel",
-        "position": 69,
+        "keyword": "bareme indemnisation préjudice corporel 2013",
+        "position": 71.5,
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 2,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "bareme indemnisation préjudice corporel 2013",
+        "keyword": "calcul préjudice corporel",
         "position": 71.5,
         "clicks": 0,
         "impressions": 2,
@@ -865,9 +885,9 @@
       },
       {
         "keyword": "avocats accident hlm",
-        "position": 80.6,
+        "position": 81.5,
         "clicks": 0,
-        "impressions": 7,
+        "impressions": 8,
         "prev_position": null,
         "site": "victime"
       },
@@ -987,9 +1007,9 @@
       },
       {
         "keyword": "avocat pension alimentaire",
-        "position": 34.5,
+        "position": 35.9,
         "clicks": 0,
-        "impressions": 29,
+        "impressions": 30,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1036,6 +1056,14 @@
     ],
     "permis": [
       {
+        "keyword": "fichier snpc",
+        "position": 5,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "permis"
+      },
+      {
         "keyword": "avocat stupéfiants au volant nimes",
         "position": 79,
         "clicks": 0,
@@ -1061,5 +1089,5 @@
       }
     ]
   },
-  "gsc_updated_at": "2026-05-03T08:19:16.646Z"
+  "gsc_updated_at": "2026-05-04T11:04:59.992Z"
 }
