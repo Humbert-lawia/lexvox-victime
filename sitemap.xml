@@ -360,6 +360,7 @@
     <priority>0.7</priority>
   </url>
   <url><loc>https://lexvox-victime.com/actualites/accident-de-bus-indemnisation-salon-de-provence</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<<<<<<< HEAD
 
   <url>
     <loc>https://lexvox-victime.com/actualites/avocat-accident-de-la-route-vitrolles</loc>
@@ -367,6 +368,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+<<<<<<< HEAD
 
   <url>
     <loc>https://lexvox-victime.com/actualites/avocat-erreur-medicale-arles</loc>
@@ -374,6 +376,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+<<<<<<< HEAD
 
   <url>
     <loc>https://lexvox-victime.com/actualites/avocat-accident-de-la-route-gardanne</loc>
@@ -381,6 +384,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+<<<<<<< HEAD
 
   <url>
     <loc>https://lexvox-victime.com/actualites/avocat-dommage-corporel-grave-aix-en-provence</loc>
@@ -402,4 +406,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+=======
+=======
+=======
+=======
+  <url><loc>https://lexvox-victime.com/actualites/accident-de-camion-indemnisation-aix-en-provence</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+>>>>>>> 5a27394 (Publication article : accident-de-camion-indemnisation-aix-en-provence)
+  <url><loc>https://lexvox-victime.com/actualites/accident-de-camion-indemnisation-arles</loc><lastmod>2026-04-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+>>>>>>> 6f73b1a (Publication article : accident-de-camion-indemnisation-arles)
+  <url><loc>https://lexvox-victime.com/actualites/accident-de-camion-indemnisation-marignane</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+>>>>>>> c9431c0 (Publication article : accident-de-camion-indemnisation-marignane)
+  <url><loc>https://lexvox-victime.com/actualites/accident-de-camion-indemnisation-marseille</loc><lastmod>2026-05-04</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+>>>>>>> 7c2e5be (Publication article : accident-de-camion-indemnisation-marseille)
+  <url><loc>https://lexvox-victime.com/actualites/accident-de-la-route-a-marseille-marseille</loc><lastmod>2026-05-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
