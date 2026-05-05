@@ -695,6 +695,21 @@
           "clicks": 0,
           "impressions": 6
         }
+      },
+      {
+        "date": "2026-05-02",
+        "victime": {
+          "clicks": 0,
+          "impressions": 13
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 7
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 1
+        }
       }
     ],
     "top_pages": {
@@ -702,22 +717,22 @@
         {
           "page": "https://lexvox-victime.com/",
           "clicks": 3,
-          "impressions": 86
+          "impressions": 89
         },
         {
           "page": "https://lexvox-victime.com/cabinet/salon-de-provence",
           "clicks": 1,
-          "impressions": 58
+          "impressions": 61
         },
         {
           "page": "https://lexvox-victime.com/indemnisation-prejudice-corporel",
           "clicks": 1,
-          "impressions": 110
+          "impressions": 116
         },
         {
           "page": "https://lexvox-victime.com/accident-de-la-route",
           "clicks": 0,
-          "impressions": 46
+          "impressions": 47
         },
         {
           "page": "https://lexvox-victime.com/actualites",
@@ -754,7 +769,7 @@
         {
           "page": "https://lexvox-divorce.com/",
           "clicks": 1,
-          "impressions": 64
+          "impressions": 70
         },
         {
           "page": "https://lexvox-divorce.com/cabinet/arles",
@@ -774,7 +789,7 @@
         {
           "page": "https://lexvox-divorce.com/actualites/pension-alimentaire-enfant-avocat-a-aix-en-provence-expertis",
           "clicks": 0,
-          "impressions": 2
+          "impressions": 3
         },
         {
           "page": "https://lexvox-divorce.com/avocat-pension-alimentaire",
@@ -786,7 +801,7 @@
         {
           "page": "https://lexvox-permis.com/",
           "clicks": 0,
-          "impressions": 10
+          "impressions": 11
         },
         {
           "page": "https://lexvox-permis.com/alcool-au-volant",
@@ -832,6 +847,14 @@
         "position": 44.5,
         "clicks": 0,
         "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "référentiel indicatif régional de l indemnisation du préjudice corporel",
+        "position": 59,
+        "clicks": 0,
+        "impressions": 4,
         "prev_position": null,
         "site": "victime"
       },
@@ -892,18 +915,10 @@
         "site": "victime"
       },
       {
-        "keyword": "référentiel indicatif régional de l indemnisation du préjudice corporel",
-        "position": 87.5,
-        "clicks": 0,
-        "impressions": 2,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
         "keyword": "indemnisation préjudice corporel",
-        "position": 90.5,
+        "position": 90,
         "clicks": 0,
-        "impressions": 4,
+        "impressions": 5,
         "prev_position": null,
         "site": "victime"
       }
@@ -927,9 +942,9 @@
       },
       {
         "keyword": "lexvox avocat",
-        "position": 8.5,
+        "position": 8.6,
         "clicks": 0,
-        "impressions": 6,
+        "impressions": 7,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1064,6 +1079,14 @@
         "site": "permis"
       },
       {
+        "keyword": "avocat aix en provence permis de conduire",
+        "position": 30,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "permis"
+      },
+      {
         "keyword": "avocat stupéfiants au volant nimes",
         "position": 79,
         "clicks": 0,
@@ -1089,5 +1112,5 @@
       }
     ]
   },
-  "gsc_updated_at": "2026-05-04T11:04:59.992Z"
+  "gsc_updated_at": "2026-05-05T10:45:53.449Z"
 }
