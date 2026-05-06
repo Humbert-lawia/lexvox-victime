@@ -710,6 +710,21 @@
           "clicks": 0,
           "impressions": 1
         }
+      },
+      {
+        "date": "2026-05-03",
+        "victime": {
+          "clicks": 0,
+          "impressions": 7
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 9
+        },
+        "permis": {
+          "clicks": 1,
+          "impressions": 11
+        }
       }
     ],
     "top_pages": {
@@ -717,17 +732,17 @@
         {
           "page": "https://lexvox-victime.com/",
           "clicks": 3,
-          "impressions": 89
+          "impressions": 93
         },
         {
           "page": "https://lexvox-victime.com/cabinet/salon-de-provence",
           "clicks": 1,
-          "impressions": 61
+          "impressions": 63
         },
         {
           "page": "https://lexvox-victime.com/indemnisation-prejudice-corporel",
           "clicks": 1,
-          "impressions": 116
+          "impressions": 117
         },
         {
           "page": "https://lexvox-victime.com/accident-de-la-route",
@@ -769,12 +784,12 @@
         {
           "page": "https://lexvox-divorce.com/",
           "clicks": 1,
-          "impressions": 70
+          "impressions": 75
         },
         {
           "page": "https://lexvox-divorce.com/cabinet/arles",
           "clicks": 1,
-          "impressions": 100
+          "impressions": 102
         },
         {
           "page": "https://lexvox-divorce.com/actualites/avocat-violence-conjugale-procedure-a-aix-en-provence-accomp",
@@ -784,7 +799,7 @@
         {
           "page": "https://lexvox-divorce.com/actualites/calcul-prestation-compensatoire-avocat-a-aix-en-provence-exp",
           "clicks": 0,
-          "impressions": 3
+          "impressions": 4
         },
         {
           "page": "https://lexvox-divorce.com/actualites/pension-alimentaire-enfant-avocat-a-aix-en-provence-expertis",
@@ -794,30 +809,38 @@
         {
           "page": "https://lexvox-divorce.com/avocat-pension-alimentaire",
           "clicks": 0,
-          "impressions": 62
+          "impressions": 63
         }
       ],
       "permis": [
         {
           "page": "https://lexvox-permis.com/",
-          "clicks": 0,
-          "impressions": 11
+          "clicks": 1,
+          "impressions": 14
         },
         {
           "page": "https://lexvox-permis.com/alcool-au-volant",
           "clicks": 0,
-          "impressions": 2
+          "impressions": 6
         },
         {
           "page": "https://lexvox-permis.com/permis-suspendu",
           "clicks": 0,
-          "impressions": 8
+          "impressions": 12
         }
       ]
     }
   },
   "positions": {
     "victime": [
+      {
+        "keyword": "lex vox",
+        "position": 4,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
       {
         "keyword": "fracture du sternum indemnisation",
         "position": 20,
@@ -933,6 +956,14 @@
         "site": "divorce"
       },
       {
+        "keyword": "lex vox",
+        "position": 7.5,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
         "keyword": "lexvox",
         "position": 8,
         "clicks": 0,
@@ -953,14 +984,6 @@
         "position": 10,
         "clicks": 0,
         "impressions": 2,
-        "prev_position": null,
-        "site": "divorce"
-      },
-      {
-        "keyword": "lex vox",
-        "position": 10,
-        "clicks": 0,
-        "impressions": 1,
         "prev_position": null,
         "site": "divorce"
       },
@@ -998,9 +1021,9 @@
       },
       {
         "keyword": "avocat divorce arles",
-        "position": 19.5,
+        "position": 19.1,
         "clicks": 0,
-        "impressions": 26,
+        "impressions": 27,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1016,7 +1039,7 @@
         "keyword": "avocat divorce pension alimentaire",
         "position": 27.4,
         "clicks": 0,
-        "impressions": 19,
+        "impressions": 20,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1090,15 +1113,15 @@
         "keyword": "avocat stupéfiants au volant nimes",
         "position": 79,
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 3,
         "prev_position": null,
         "site": "permis"
       },
       {
         "keyword": "avocat permis suspendu",
-        "position": 87,
+        "position": 82.3,
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 4,
         "prev_position": null,
         "site": "permis"
       },
@@ -1112,5 +1135,5 @@
       }
     ]
   },
-  "gsc_updated_at": "2026-05-05T10:45:53.449Z"
+  "gsc_updated_at": "2026-05-06T11:06:52.016Z"
 }
