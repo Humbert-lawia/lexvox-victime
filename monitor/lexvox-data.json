@@ -396,13 +396,6 @@
   "traffic": {
     "by_date": [
       {
-        "date": "2026-04-05",
-        "divorce": {
-          "clicks": 0,
-          "impressions": 1
-        }
-      },
-      {
         "date": "2026-04-06",
         "divorce": {
           "clicks": 0,
@@ -740,6 +733,21 @@
           "clicks": 0,
           "impressions": 5
         }
+      },
+      {
+        "date": "2026-05-05",
+        "victime": {
+          "clicks": 0,
+          "impressions": 17
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 20
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 4
+        }
       }
     ],
     "top_pages": {
@@ -747,22 +755,22 @@
         {
           "page": "https://lexvox-victime.com/",
           "clicks": 3,
-          "impressions": 122
+          "impressions": 125
         },
         {
           "page": "https://lexvox-victime.com/cabinet/salon-de-provence",
           "clicks": 1,
-          "impressions": 77
+          "impressions": 80
         },
         {
           "page": "https://lexvox-victime.com/indemnisation-prejudice-corporel",
           "clicks": 1,
-          "impressions": 135
+          "impressions": 140
         },
         {
           "page": "https://lexvox-victime.com/accident-de-la-route",
           "clicks": 0,
-          "impressions": 57
+          "impressions": 58
         },
         {
           "page": "https://lexvox-victime.com/actualites",
@@ -772,7 +780,7 @@
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-arles-expert-en-dommage-c",
           "clicks": 0,
-          "impressions": 3
+          "impressions": 4
         },
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-arles-votre-defense-apres",
@@ -799,12 +807,12 @@
         {
           "page": "https://lexvox-divorce.com/",
           "clicks": 1,
-          "impressions": 92
+          "impressions": 104
         },
         {
           "page": "https://lexvox-divorce.com/cabinet/arles",
           "clicks": 1,
-          "impressions": 113
+          "impressions": 116
         },
         {
           "page": "https://lexvox-divorce.com/actualites/avocat-violence-conjugale-procedure-a-aix-en-provence-accomp",
@@ -814,7 +822,7 @@
         {
           "page": "https://lexvox-divorce.com/actualites/calcul-prestation-compensatoire-avocat-a-aix-en-provence-exp",
           "clicks": 0,
-          "impressions": 4
+          "impressions": 6
         },
         {
           "page": "https://lexvox-divorce.com/actualites/pension-alimentaire-enfant-avocat-a-aix-en-provence-expertis",
@@ -824,24 +832,24 @@
         {
           "page": "https://lexvox-divorce.com/avocat-pension-alimentaire",
           "clicks": 0,
-          "impressions": 65
+          "impressions": 67
         }
       ],
       "permis": [
         {
           "page": "https://lexvox-permis.com/",
           "clicks": 1,
-          "impressions": 16
+          "impressions": 18
         },
         {
           "page": "https://lexvox-permis.com/alcool-au-volant",
           "clicks": 0,
-          "impressions": 7
+          "impressions": 8
         },
         {
           "page": "https://lexvox-permis.com/permis-suspendu",
           "clicks": 0,
-          "impressions": 14
+          "impressions": 15
         }
       ]
     }
@@ -851,6 +859,14 @@
       {
         "keyword": "lex vox",
         "position": 4,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "référentiel indicatif de l’indemnisation du préjudice corporel des cours d’appel",
+        "position": 17,
         "clicks": 0,
         "impressions": 1,
         "prev_position": null,
@@ -874,9 +890,9 @@
       },
       {
         "keyword": "avocat des victimes salon de provence",
-        "position": 25.5,
+        "position": 23.3,
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 4,
         "prev_position": null,
         "site": "victime"
       },
@@ -954,9 +970,9 @@
       },
       {
         "keyword": "avocats accident hlm",
-        "position": 81.5,
+        "position": 83.4,
         "clicks": 0,
-        "impressions": 8,
+        "impressions": 9,
         "prev_position": null,
         "site": "victime"
       },
@@ -1012,9 +1028,9 @@
       },
       {
         "keyword": "lexvox avocat",
-        "position": 8,
+        "position": 8.7,
         "clicks": 0,
-        "impressions": 8,
+        "impressions": 12,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1051,18 +1067,18 @@
         "site": "divorce"
       },
       {
-        "keyword": "avocat divorce par consentement mutuel arles",
-        "position": 18,
+        "keyword": "avocat divorce arles",
+        "position": 17.7,
         "clicks": 0,
-        "impressions": 3,
+        "impressions": 31,
         "prev_position": null,
         "site": "divorce"
       },
       {
-        "keyword": "avocat divorce arles",
-        "position": 18.1,
+        "keyword": "avocat divorce par consentement mutuel arles",
+        "position": 18,
         "clicks": 0,
-        "impressions": 30,
+        "impressions": 3,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1084,9 +1100,9 @@
       },
       {
         "keyword": "avocat pension alimentaire",
-        "position": 35.6,
+        "position": 36,
         "clicks": 0,
-        "impressions": 31,
+        "impressions": 32,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1158,21 +1174,21 @@
       },
       {
         "keyword": "avocat permis suspendu",
-        "position": 82.5,
+        "position": 82.3,
         "clicks": 0,
-        "impressions": 6,
+        "impressions": 7,
         "prev_position": null,
         "site": "permis"
       },
       {
         "keyword": "avocat alcool au volant nimes",
-        "position": 94,
+        "position": 93.1,
         "clicks": 0,
-        "impressions": 6,
+        "impressions": 7,
         "prev_position": null,
         "site": "permis"
       }
     ]
   },
-  "gsc_updated_at": "2026-05-07T11:09:22.663Z"
+  "gsc_updated_at": "2026-05-08T10:23:50.687Z"
 }
