@@ -396,13 +396,6 @@
   "traffic": {
     "by_date": [
       {
-        "date": "2026-04-07",
-        "divorce": {
-          "clicks": 0,
-          "impressions": 10
-        }
-      },
-      {
         "date": "2026-04-08",
         "divorce": {
           "clicks": 0,
@@ -756,6 +749,21 @@
           "clicks": 0,
           "impressions": 6
         }
+      },
+      {
+        "date": "2026-05-07",
+        "victime": {
+          "clicks": 0,
+          "impressions": 76
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 6
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 9
+        }
       }
     ],
     "top_pages": {
@@ -763,27 +771,32 @@
         {
           "page": "https://lexvox-victime.com/",
           "clicks": 3,
-          "impressions": 147
+          "impressions": 198
         },
         {
           "page": "https://lexvox-victime.com/cabinet/salon-de-provence",
           "clicks": 1,
-          "impressions": 88
+          "impressions": 110
         },
         {
           "page": "https://lexvox-victime.com/indemnisation-prejudice-corporel",
           "clicks": 1,
-          "impressions": 143
+          "impressions": 158
         },
         {
           "page": "https://lexvox-victime.com/accident-de-la-route",
           "clicks": 0,
-          "impressions": 61
+          "impressions": 67
         },
         {
           "page": "https://lexvox-victime.com/actualites",
           "clicks": 0,
-          "impressions": 10
+          "impressions": 12
+        },
+        {
+          "page": "https://lexvox-victime.com/actualites/accident-de-la-route-aix-en-provence",
+          "clicks": 0,
+          "impressions": 6
         },
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-arles-expert-en-dommage-c",
@@ -793,22 +806,17 @@
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-arles-votre-defense-apres",
           "clicks": 0,
-          "impressions": 4
+          "impressions": 6
         },
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-salon-de-provence-experti",
           "clicks": 0,
-          "impressions": 1
+          "impressions": 4
         },
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-moto-a-marignane-expertise",
           "clicks": 0,
-          "impressions": 4
-        },
-        {
-          "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-votre-specialiste-du-dommag",
-          "clicks": 0,
-          "impressions": 1
+          "impressions": 5
         }
       ],
       "divorce": [
@@ -820,7 +828,7 @@
         {
           "page": "https://lexvox-divorce.com/cabinet/arles",
           "clicks": 1,
-          "impressions": 122
+          "impressions": 117
         },
         {
           "page": "https://lexvox-divorce.com/actualites/avocat-violence-conjugale-procedure-a-aix-en-provence-accomp",
@@ -840,19 +848,24 @@
         {
           "page": "https://lexvox-divorce.com/avocat-pension-alimentaire",
           "clicks": 0,
-          "impressions": 68
+          "impressions": 69
         }
       ],
       "permis": [
         {
           "page": "https://lexvox-permis.com/",
           "clicks": 1,
-          "impressions": 21
+          "impressions": 28
+        },
+        {
+          "page": "https://lexvox-permis.com/actualites/combien-de-temps-pour-recevoir-une-amende-de-video",
+          "clicks": 0,
+          "impressions": 1
         },
         {
           "page": "https://lexvox-permis.com/alcool-au-volant",
           "clicks": 0,
-          "impressions": 9
+          "impressions": 10
         },
         {
           "page": "https://lexvox-permis.com/permis-suspendu",
@@ -873,10 +886,18 @@
         "site": "victime"
       },
       {
-        "keyword": "avocat erreur medicale aix en provence",
-        "position": 16,
+        "keyword": "lexvox",
+        "position": 6.5,
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat erreur medicale aix en provence",
+        "position": 15.5,
+        "clicks": 0,
+        "impressions": 2,
         "prev_position": null,
         "site": "victime"
       },
@@ -905,6 +926,14 @@
         "site": "victime"
       },
       {
+        "keyword": "indemnisation accident de la route aix en provence",
+        "position": 22,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
         "keyword": "avocat des victimes salon de provence",
         "position": 23.3,
         "clicks": 0,
@@ -921,26 +950,34 @@
         "site": "victime"
       },
       {
+        "keyword": "avocat erreur médicale aix en provence",
+        "position": 24.2,
+        "clicks": 0,
+        "impressions": 9,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
         "keyword": "indemnisation accident corporel aix en provence",
-        "position": 26,
+        "position": 25.5,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "humbert patrice",
+        "position": 36,
         "clicks": 0,
         "impressions": 1,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "avocat erreur médicale aix en provence",
-        "position": 35,
-        "clicks": 0,
-        "impressions": 4,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
         "keyword": "avocat accident de la route aix en provence",
-        "position": 41.5,
+        "position": 37.6,
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 7,
         "prev_position": null,
         "site": "victime"
       },
@@ -954,15 +991,23 @@
       },
       {
         "keyword": "avocat dommage corporel aix en provence",
-        "position": 47,
+        "position": 46,
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 2,
         "prev_position": null,
         "site": "victime"
       },
       {
         "keyword": "avocat dommage corporel aix-en-provence",
         "position": 50,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat victimes",
+        "position": 51,
         "clicks": 0,
         "impressions": 1,
         "prev_position": null,
@@ -981,6 +1026,14 @@
         "position": 59,
         "clicks": 0,
         "impressions": 4,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "patrice humbert",
+        "position": 59.5,
+        "clicks": 0,
+        "impressions": 2,
         "prev_position": null,
         "site": "victime"
       },
@@ -1063,33 +1116,9 @@
         "impressions": 9,
         "prev_position": null,
         "site": "victime"
-      },
-      {
-        "keyword": "expertise médicale judiciaire",
-        "position": 85,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "indemnisation préjudice corporel",
-        "position": 90,
-        "clicks": 0,
-        "impressions": 5,
-        "prev_position": null,
-        "site": "victime"
       }
     ],
     "divorce": [
-      {
-        "keyword": "raybaud avocat",
-        "position": 7,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "divorce"
-      },
       {
         "keyword": "lex vox",
         "position": 7.5,
@@ -1115,6 +1144,14 @@
         "site": "divorce"
       },
       {
+        "keyword": "raybaud avocat",
+        "position": 9,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
         "keyword": "cedrine raybaud avocat",
         "position": 10,
         "clicks": 0,
@@ -1124,9 +1161,9 @@
       },
       {
         "keyword": "maitre raybaud arles",
-        "position": 10.2,
+        "position": 10.6,
         "clicks": 0,
-        "impressions": 10,
+        "impressions": 9,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1147,18 +1184,26 @@
         "site": "divorce"
       },
       {
-        "keyword": "avocat divorce arles",
-        "position": 17.1,
+        "keyword": "avocat divorce par consentement mutuel arles",
+        "position": 14.5,
         "clicks": 0,
-        "impressions": 35,
+        "impressions": 2,
         "prev_position": null,
         "site": "divorce"
       },
       {
-        "keyword": "avocat divorce par consentement mutuel arles",
-        "position": 18,
+        "keyword": "avocat divorce arles",
+        "position": 15.8,
         "clicks": 0,
-        "impressions": 3,
+        "impressions": 32,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat salon de provence divorce",
+        "position": 19.5,
+        "clicks": 0,
+        "impressions": 2,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1225,6 +1270,14 @@
         "impressions": 1,
         "prev_position": null,
         "site": "divorce"
+      },
+      {
+        "keyword": "quel est le tarif d'un avocat pour une pension alimentaire",
+        "position": 96,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "divorce"
       }
     ],
     "permis": [
@@ -1238,17 +1291,17 @@
       },
       {
         "keyword": "avocat aix en provence permis de conduire",
-        "position": 30,
+        "position": 29,
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 2,
         "prev_position": null,
         "site": "permis"
       },
       {
         "keyword": "avocat stupéfiants au volant nimes",
-        "position": 79.3,
+        "position": 79.2,
         "clicks": 0,
-        "impressions": 4,
+        "impressions": 6,
         "prev_position": null,
         "site": "permis"
       },
@@ -1262,13 +1315,13 @@
       },
       {
         "keyword": "avocat alcool au volant nimes",
-        "position": 91.6,
+        "position": 89.9,
         "clicks": 0,
-        "impressions": 9,
+        "impressions": 12,
         "prev_position": null,
         "site": "permis"
       }
     ]
   },
-  "gsc_updated_at": "2026-05-09T10:04:43.506Z"
+  "gsc_updated_at": "2026-05-10T10:14:10.242Z"
 }
