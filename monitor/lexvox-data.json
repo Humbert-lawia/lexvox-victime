@@ -396,13 +396,6 @@
   "traffic": {
     "by_date": [
       {
-        "date": "2026-04-11",
-        "divorce": {
-          "clicks": 0,
-          "impressions": 3
-        }
-      },
-      {
         "date": "2026-04-12",
         "divorce": {
           "clicks": 0,
@@ -788,6 +781,21 @@
           "clicks": 0,
           "impressions": 185
         }
+      },
+      {
+        "date": "2026-05-11",
+        "victime": {
+          "clicks": 0,
+          "impressions": 34
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 9
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 249
+        }
       }
     ],
     "top_pages": {
@@ -795,17 +803,17 @@
         {
           "page": "https://lexvox-victime.com/",
           "clicks": 3,
-          "impressions": 258
+          "impressions": 276
         },
         {
           "page": "https://lexvox-victime.com/cabinet/salon-de-provence",
           "clicks": 1,
-          "impressions": 128
+          "impressions": 136
         },
         {
           "page": "https://lexvox-victime.com/indemnisation-prejudice-corporel",
           "clicks": 1,
-          "impressions": 171
+          "impressions": 175
         },
         {
           "page": "https://lexvox-victime.com/accident-de-la-route",
@@ -820,12 +828,12 @@
         {
           "page": "https://lexvox-victime.com/actualites/accident-de-la-route-aix-en-provence",
           "clicks": 0,
-          "impressions": 16
+          "impressions": 17
         },
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-bus-indemnisation-a-aix-en-proven",
           "clicks": 0,
-          "impressions": 11
+          "impressions": 13
         },
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-arles-expert-en-dommage-c",
@@ -835,7 +843,7 @@
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-arles-votre-defense-apres",
           "clicks": 0,
-          "impressions": 6
+          "impressions": 7
         },
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-salon-de-provence-experti",
@@ -847,12 +855,12 @@
         {
           "page": "https://lexvox-divorce.com/",
           "clicks": 1,
-          "impressions": 110
+          "impressions": 113
         },
         {
           "page": "https://lexvox-divorce.com/cabinet/arles",
           "clicks": 1,
-          "impressions": 102
+          "impressions": 101
         },
         {
           "page": "https://lexvox-divorce.com/actualites/avocat-violence-conjugale-procedure-a-aix-en-provence-accomp",
@@ -872,7 +880,7 @@
         {
           "page": "https://lexvox-divorce.com/avocat-pension-alimentaire",
           "clicks": 0,
-          "impressions": 80
+          "impressions": 84
         }
       ],
       "permis": [
@@ -882,29 +890,39 @@
           "impressions": 35
         },
         {
+          "page": "https://lexvox-permis.com/actualites/avocat-permis-suspendu-aix-en-provence",
+          "clicks": 0,
+          "impressions": 5
+        },
+        {
           "page": "https://lexvox-permis.com/actualites/avocat-stupefiants-au-volant-marignane",
           "clicks": 0,
-          "impressions": 8
+          "impressions": 11
         },
         {
           "page": "https://lexvox-permis.com/actualites/combien-de-temps-pour-recevoir-une-amende-de-video",
           "clicks": 0,
-          "impressions": 410
+          "impressions": 638
         },
         {
           "page": "https://lexvox-permis.com/actualites/invalidation-du-permis-pour-solde-nul-a-france--recours-en",
           "clicks": 0,
-          "impressions": 1
+          "impressions": 3
         },
         {
           "page": "https://lexvox-permis.com/alcool-au-volant",
           "clicks": 0,
-          "impressions": 13
+          "impressions": 21
+        },
+        {
+          "page": "https://lexvox-permis.com/exces-de-vitesse",
+          "clicks": 0,
+          "impressions": 2
         },
         {
           "page": "https://lexvox-permis.com/permis-suspendu",
           "clicks": 0,
-          "impressions": 22
+          "impressions": 24
         }
       ]
     }
@@ -929,9 +947,9 @@
       },
       {
         "keyword": "lexvox avocat",
-        "position": 10.3,
+        "position": 10.7,
         "clicks": 0,
-        "impressions": 4,
+        "impressions": 10,
         "prev_position": null,
         "site": "victime"
       },
@@ -961,9 +979,9 @@
       },
       {
         "keyword": "avocat erreur médicale aix en provence",
-        "position": 20.3,
+        "position": 20.2,
         "clicks": 0,
-        "impressions": 20,
+        "impressions": 24,
         "prev_position": null,
         "site": "victime"
       },
@@ -985,9 +1003,9 @@
       },
       {
         "keyword": "indemnisation accident de la route aix en provence",
-        "position": 23,
+        "position": 23.2,
         "clicks": 0,
-        "impressions": 4,
+        "impressions": 5,
         "prev_position": null,
         "site": "victime"
       },
@@ -1009,9 +1027,9 @@
       },
       {
         "keyword": "avocat accident de la route aix en provence",
-        "position": 31.3,
+        "position": 30.7,
         "clicks": 0,
-        "impressions": 20,
+        "impressions": 25,
         "prev_position": null,
         "site": "victime"
       },
@@ -1043,7 +1061,7 @@
         "keyword": "avocats accident de bus en espagne",
         "position": 40,
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 3,
         "prev_position": null,
         "site": "victime"
       },
@@ -1072,14 +1090,6 @@
         "site": "victime"
       },
       {
-        "keyword": "avocat evaluation dommages corporels aix en provence",
-        "position": 45,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
         "keyword": "avocat dommage corporel aix en provence",
         "position": 46,
         "clicks": 0,
@@ -1090,6 +1100,14 @@
       {
         "keyword": "avocats accident de bus à l'étranger",
         "position": 46,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat evaluation dommages corporels aix en provence",
+        "position": 48.5,
         "clicks": 0,
         "impressions": 2,
         "prev_position": null,
@@ -1128,6 +1146,14 @@
         "site": "victime"
       },
       {
+        "keyword": "prejudice corporel",
+        "position": 57,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
         "keyword": "référentiel indicatif régional de l indemnisation du préjudice corporel",
         "position": 59,
         "clicks": 0,
@@ -1140,14 +1166,6 @@
         "position": 59.5,
         "clicks": 0,
         "impressions": 2,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "indemnisation double fracture tibia péroné",
-        "position": 60,
-        "clicks": 0,
-        "impressions": 1,
         "prev_position": null,
         "site": "victime"
       }
@@ -1166,6 +1184,14 @@
         "position": 7.5,
         "clicks": 0,
         "impressions": 2,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat luxembourg garde alternée pension alimentaire montant",
+        "position": 8,
+        "clicks": 0,
+        "impressions": 3,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1210,14 +1236,6 @@
         "site": "divorce"
       },
       {
-        "keyword": "avocat luxembourg garde alternée pension alimentaire montant",
-        "position": 11,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "divorce"
-      },
-      {
         "keyword": "cédrine raybaud",
         "position": 11.5,
         "clicks": 0,
@@ -1234,18 +1252,18 @@
         "site": "divorce"
       },
       {
-        "keyword": "avocat divorce par consentement mutuel arles",
-        "position": 14.5,
+        "keyword": "avocat divorce arles",
+        "position": 14.2,
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 25,
         "prev_position": null,
         "site": "divorce"
       },
       {
-        "keyword": "avocat divorce arles",
-        "position": 14.6,
+        "keyword": "avocat divorce par consentement mutuel arles",
+        "position": 14.5,
         "clicks": 0,
-        "impressions": 27,
+        "impressions": 2,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1267,9 +1285,9 @@
       },
       {
         "keyword": "avocat divorce pension alimentaire",
-        "position": 27.4,
+        "position": 27.5,
         "clicks": 0,
-        "impressions": 20,
+        "impressions": 19,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1333,17 +1351,9 @@
     "permis": [
       {
         "keyword": "\"vidéo-verbalisation\" \"2 à 3 mois\" avis de contravention",
-        "position": 1.3,
+        "position": 1.8,
         "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "france vidéo-verbalisation délai réception avis de contravention 5 à 15 jours 2 à 4 semaines",
-        "position": 1.5,
-        "clicks": 0,
-        "impressions": 2,
+        "impressions": 5,
         "prev_position": null,
         "site": "permis"
       },
@@ -1356,50 +1366,10 @@
         "site": "permis"
       },
       {
-        "keyword": "france vidéo-verbalisation délai réception avis de contravention 2 à 6 semaines",
-        "position": 2,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "france vidéo-verbalisation délai réception avis de contravention 5 15 jours 2 à 6 semaines",
-        "position": 2,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "service-public délai réception avis de contravention vidéo verbalisation",
-        "position": 2,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "france vidéo-verbalisation délai réception avis de contravention 1 à 3 semaines",
-        "position": 2.4,
-        "clicks": 0,
-        "impressions": 5,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "france vidéo-verbalisation délai réception avis de contravention 5 15 jours 2 à 4 semaines",
-        "position": 2.5,
-        "clicks": 0,
-        "impressions": 2,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "france vidéo-verbalisation délai réception avis de contravention 5 15 jours",
+        "keyword": "délai réception avis de contravention vidéo verbalisation 5 à 15 jours",
         "position": 3,
         "clicks": 0,
-        "impressions": 3,
+        "impressions": 1,
         "prev_position": null,
         "site": "permis"
       },
@@ -1412,18 +1382,26 @@
         "site": "permis"
       },
       {
-        "keyword": "france vidéo-verbalisation délai réception avis de contravention 5 à 15 jours",
-        "position": 3.4,
+        "keyword": "\"vidéo-verbalisation\" \"avis de contravention\" délai 15 jours",
+        "position": 3.9,
         "clicks": 0,
-        "impressions": 5,
+        "impressions": 9,
         "prev_position": null,
         "site": "permis"
       },
       {
-        "keyword": "\"vidéo-verbalisation\" \"délai\" \"avis de contravention\"",
+        "keyword": "délai réception avis de contravention vidéo verbalisation 2 à 6 semaines",
         "position": 4,
         "clicks": 0,
-        "impressions": 4,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "permis"
+      },
+      {
+        "keyword": "délai réception avis de contravention vidéo verbalisation 5 15 jours 1 mois",
+        "position": 4,
+        "clicks": 0,
+        "impressions": 1,
         "prev_position": null,
         "site": "permis"
       },
@@ -1452,26 +1430,26 @@
         "site": "permis"
       },
       {
-        "keyword": "france vidéo-verbalisation délai réception avis de contravention 5 à 15 jours 1 mois",
-        "position": 4,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "\"vidéo-verbalisation\" \"avis de contravention\" délai 15 jours",
-        "position": 4.1,
+        "keyword": "\"vidéo-verbalisation\" \"délai\" \"avis de contravention\"",
+        "position": 5,
         "clicks": 0,
         "impressions": 7,
         "prev_position": null,
         "site": "permis"
       },
       {
-        "keyword": "\"vidéo-verbalisation\" \"avis de contravention\" \"délai\"",
-        "position": 4.3,
+        "keyword": "délai réception avis de contravention vidéo verbalisation 15 jours 1 mois",
+        "position": 5,
         "clicks": 0,
-        "impressions": 3,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "permis"
+      },
+      {
+        "keyword": "délai réception avis de contravention vidéo-verbalisation 15 jours 1 mois",
+        "position": 5,
+        "clicks": 0,
+        "impressions": 2,
         "prev_position": null,
         "site": "permis"
       },
@@ -1484,18 +1462,18 @@
         "site": "permis"
       },
       {
-        "keyword": "délai réception avis de contravention vidéo verbalisation 3 mois",
-        "position": 5.7,
+        "keyword": "\"vidéo-verbalisation\" \"avis de contravention\" \"délai\"",
+        "position": 5.4,
         "clicks": 0,
-        "impressions": 3,
+        "impressions": 5,
         "prev_position": null,
         "site": "permis"
       },
       {
-        "keyword": "centre national de traitement délai envoi avis de contravention vidéo verbalisation",
-        "position": 6,
+        "keyword": "délai réception avis de contravention vidéo verbalisation 3 mois",
+        "position": 5.7,
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 3,
         "prev_position": null,
         "site": "permis"
       },
@@ -1524,10 +1502,18 @@
         "site": "permis"
       },
       {
-        "keyword": "antai délai réception avis de contravention vidéo verbalisation 5 15 jours",
-        "position": 7,
+        "keyword": "centre national de traitement délai envoi avis de contravention vidéo verbalisation",
+        "position": 6.6,
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 5,
+        "prev_position": null,
+        "site": "permis"
+      },
+      {
+        "keyword": "délai envoi avis de contravention vidéo verbalisation centre national de traitement",
+        "position": 6.8,
+        "clicks": 0,
+        "impressions": 4,
         "prev_position": null,
         "site": "permis"
       },
@@ -1540,10 +1526,18 @@
         "site": "permis"
       },
       {
-        "keyword": "antai délai envoi avis de contravention vidéo verbalisation combien de temps",
-        "position": 8,
+        "keyword": "antai délai réception avis de contravention vidéo verbalisation 5 15 jours",
+        "position": 7.7,
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 3,
+        "prev_position": null,
+        "site": "permis"
+      },
+      {
+        "keyword": "centre national de traitement rennes délai envoi avis de contravention vidéo verbalisation",
+        "position": 7.7,
+        "clicks": 0,
+        "impressions": 3,
         "prev_position": null,
         "site": "permis"
       },
@@ -1556,16 +1550,40 @@
         "site": "permis"
       },
       {
-        "keyword": "france vidéo-verbalisation délai réception avis de contravention 7 15 jours",
-        "position": 8,
+        "keyword": "antai délai envoi avis de contravention vidéo verbalisation combien de temps",
+        "position": 8.5,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "permis"
+      },
+      {
+        "keyword": "\"vidéo-verbalisation\" \"avis de contravention\" délai",
+        "position": 8.7,
+        "clicks": 0,
+        "impressions": 6,
+        "prev_position": null,
+        "site": "permis"
+      },
+      {
+        "keyword": "antai délai réception avis de contravention vidéo verbalisation",
+        "position": 9,
         "clicks": 0,
         "impressions": 1,
         "prev_position": null,
         "site": "permis"
       },
       {
-        "keyword": "service-public vidéo verbalisation délai avis de contravention",
-        "position": 8,
+        "keyword": "centre national de traitement vidéo verbalisation délai envoi avis de contravention",
+        "position": 9,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "permis"
+      },
+      {
+        "keyword": "antai délai envoi avis de contravention vidéo-verbalisation combien de temps",
+        "position": 10,
         "clicks": 0,
         "impressions": 1,
         "prev_position": null,
@@ -1573,5 +1591,5 @@
       }
     ]
   },
-  "gsc_updated_at": "2026-05-13T11:30:04.949Z"
+  "gsc_updated_at": "2026-05-14T11:13:29.933Z"
 }
