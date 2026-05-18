@@ -396,13 +396,6 @@
   "traffic": {
     "by_date": [
       {
-        "date": "2026-04-15",
-        "divorce": {
-          "clicks": 0,
-          "impressions": 10
-        }
-      },
-      {
         "date": "2026-04-16",
         "divorce": {
           "clicks": 0,
@@ -820,6 +813,21 @@
           "clicks": 0,
           "impressions": 296
         }
+      },
+      {
+        "date": "2026-05-15",
+        "victime": {
+          "clicks": 0,
+          "impressions": 16
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 6
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 72
+        }
       }
     ],
     "top_pages": {
@@ -827,7 +835,7 @@
         {
           "page": "https://lexvox-victime.com/",
           "clicks": 3,
-          "impressions": 330
+          "impressions": 336
         },
         {
           "page": "https://lexvox-victime.com/cabinet/salon-de-provence",
@@ -837,7 +845,7 @@
         {
           "page": "https://lexvox-victime.com/indemnisation-prejudice-corporel",
           "clicks": 1,
-          "impressions": 231
+          "impressions": 236
         },
         {
           "page": "https://lexvox-victime.com/accident-de-la-route",
@@ -857,7 +865,7 @@
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-bus-indemnisation-a-aix-en-proven",
           "clicks": 0,
-          "impressions": 21
+          "impressions": 25
         },
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-arles-expert-en-dommage-c",
@@ -879,7 +887,7 @@
         {
           "page": "https://lexvox-divorce.com/",
           "clicks": 1,
-          "impressions": 115
+          "impressions": 109
         },
         {
           "page": "https://lexvox-divorce.com/cabinet/arles",
@@ -899,7 +907,7 @@
         {
           "page": "https://lexvox-divorce.com/actualites/avocat-divorce-contentieux-aix-en-provence",
           "clicks": 0,
-          "impressions": 5
+          "impressions": 6
         },
         {
           "page": "https://lexvox-divorce.com/actualites/avocat-violence-conjugale-procedure-a-aix-en-provence-accomp",
@@ -919,7 +927,7 @@
         {
           "page": "https://lexvox-divorce.com/avocat-pension-alimentaire",
           "clicks": 0,
-          "impressions": 90
+          "impressions": 91
         },
         {
           "page": "https://lexvox-divorce.com/villes/aix-en-provence",
@@ -931,12 +939,12 @@
         {
           "page": "https://lexvox-permis.com/",
           "clicks": 1,
-          "impressions": 49
+          "impressions": 51
         },
         {
           "page": "https://lexvox-permis.com/alcool-au-volant",
           "clicks": 1,
-          "impressions": 63
+          "impressions": 74
         },
         {
           "page": "https://lexvox-permis.com/actualites/actualites-avocat-permis-suspendu-marignane",
@@ -961,22 +969,22 @@
         {
           "page": "https://lexvox-permis.com/actualites/avocat-stupefiants-au-volant-marignane",
           "clicks": 0,
-          "impressions": 16
+          "impressions": 18
         },
         {
           "page": "https://lexvox-permis.com/actualites/combien-de-temps-pour-recevoir-une-amende-de-video",
           "clicks": 0,
-          "impressions": 1381
+          "impressions": 1434
+        },
+        {
+          "page": "https://lexvox-permis.com/actualites/contestation-amende-video-verbalisation-a-france--procedure-en",
+          "clicks": 0,
+          "impressions": 1
         },
         {
           "page": "https://lexvox-permis.com/actualites/invalidation-du-permis-pour-solde-nul-a-france--recours-en",
           "clicks": 0,
           "impressions": 7
-        },
-        {
-          "page": "https://lexvox-permis.com/delit-de-fuite",
-          "clicks": 0,
-          "impressions": 2
         }
       ]
     }
@@ -993,9 +1001,9 @@
       },
       {
         "keyword": "avocat erreur médicale aix en provence",
-        "position": 18.3,
+        "position": 17.8,
         "clicks": 0,
-        "impressions": 38,
+        "impressions": 42,
         "prev_position": null,
         "site": "victime"
       },
@@ -1016,18 +1024,18 @@
         "site": "victime"
       },
       {
-        "keyword": "avocat des victimes salon de provence",
-        "position": 23.3,
+        "keyword": "avocat erreur medicale aix en provence",
+        "position": 22.4,
         "clicks": 0,
-        "impressions": 4,
+        "impressions": 7,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "avocat erreur medicale aix en provence",
-        "position": 23.5,
+        "keyword": "avocat des victimes salon de provence",
+        "position": 23.3,
         "clicks": 0,
-        "impressions": 6,
+        "impressions": 4,
         "prev_position": null,
         "site": "victime"
       },
@@ -1104,6 +1112,14 @@
         "site": "victime"
       },
       {
+        "keyword": "indemnisation corporelle",
+        "position": 42.3,
+        "clicks": 0,
+        "impressions": 3,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
         "keyword": "avocats indemnisation accidents hélicoptère france espagne",
         "position": 44.7,
         "clicks": 0,
@@ -1121,30 +1137,30 @@
       },
       {
         "keyword": "avocats accident de bus en espagne",
-        "position": 46.7,
+        "position": 46.6,
         "clicks": 0,
-        "impressions": 6,
+        "impressions": 7,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "avocats accident de bus à l'étranger",
-        "position": 47,
-        "clicks": 0,
-        "impressions": 5,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat dommage corporel aix-en-provence",
-        "position": 50,
+        "keyword": "avocats accident de train en espagne",
+        "position": 49,
         "clicks": 0,
         "impressions": 1,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "indemnisation corporelle",
+        "keyword": "avocats accident de bus à l'étranger",
+        "position": 49.8,
+        "clicks": 0,
+        "impressions": 6,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat dommage corporel aix-en-provence",
         "position": 50,
         "clicks": 0,
         "impressions": 1,
@@ -1184,14 +1200,6 @@
         "site": "victime"
       },
       {
-        "keyword": "indemnisation dommages corporels",
-        "position": 54,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
         "keyword": "avocat préjudice corporel aix-en-provence",
         "position": 57,
         "clicks": 0,
@@ -1217,9 +1225,9 @@
       },
       {
         "keyword": "avocats accident de transport en espagne",
-        "position": 63.4,
+        "position": 63.7,
         "clicks": 0,
-        "impressions": 5,
+        "impressions": 6,
         "prev_position": null,
         "site": "victime"
       }
@@ -1277,7 +1285,7 @@
         "keyword": "maitre raybaud arles",
         "position": 10.6,
         "clicks": 0,
-        "impressions": 9,
+        "impressions": 8,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1339,17 +1347,25 @@
       },
       {
         "keyword": "avocat divorce pension alimentaire",
-        "position": 31.4,
+        "position": 31.6,
         "clicks": 0,
         "impressions": 18,
         "prev_position": null,
         "site": "divorce"
       },
       {
-        "keyword": "avocat pension alimentaire",
-        "position": 39.4,
+        "keyword": "pension alimentaire avocat",
+        "position": 36.3,
         "clicks": 0,
-        "impressions": 35,
+        "impressions": 3,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat pension alimentaire",
+        "position": 39.6,
+        "clicks": 0,
+        "impressions": 34,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1358,14 +1374,6 @@
         "position": 39.7,
         "clicks": 0,
         "impressions": 3,
-        "prev_position": null,
-        "site": "divorce"
-      },
-      {
-        "keyword": "pension alimentaire avocat",
-        "position": 47,
-        "clicks": 0,
-        "impressions": 1,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1379,9 +1387,9 @@
       },
       {
         "keyword": "avocat pension alimentaire les angles",
-        "position": 79.5,
+        "position": 78,
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 1,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1396,10 +1404,26 @@
     ],
     "permis": [
       {
+        "keyword": "\"vidéo-verbalisation\" \"5\" \"15\" jours avis de contravention",
+        "position": 1.5,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "permis"
+      },
+      {
         "keyword": "\"vidéo-verbalisation\" \"2 à 3 mois\" avis de contravention",
         "position": 1.8,
         "clicks": 0,
         "impressions": 5,
+        "prev_position": null,
+        "site": "permis"
+      },
+      {
+        "keyword": "\"2 à 3 mois\" \"vidéo-verbalisation\" avis de contravention",
+        "position": 2.5,
+        "clicks": 0,
+        "impressions": 4,
         "prev_position": null,
         "site": "permis"
       },
@@ -1413,17 +1437,9 @@
       },
       {
         "keyword": "\"vidéo-verbalisation\" \"avis de contravention\" délai 15 jours",
-        "position": 4,
+        "position": 3.9,
         "clicks": 0,
-        "impressions": 10,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "\"2 à 3 mois\" \"vidéo-verbalisation\" avis de contravention",
-        "position": 5,
-        "clicks": 0,
-        "impressions": 1,
+        "impressions": 11,
         "prev_position": null,
         "site": "permis"
       },
@@ -1437,9 +1453,9 @@
       },
       {
         "keyword": "\"vidéo-verbalisation\" \"délai\" \"avis de contravention\"",
-        "position": 5.4,
+        "position": 5.3,
         "clicks": 0,
-        "impressions": 12,
+        "impressions": 18,
         "prev_position": null,
         "site": "permis"
       },
@@ -1472,14 +1488,6 @@
         "position": 6.7,
         "clicks": 0,
         "impressions": 7,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "délai envoi avis de contravention vidéo verbalisation centre national de traitement délai",
-        "position": 6.7,
-        "clicks": 0,
-        "impressions": 3,
         "prev_position": null,
         "site": "permis"
       },
@@ -1527,7 +1535,7 @@
         "keyword": "\"vidéo-verbalisation\" \"avis de contravention\" délai",
         "position": 8.8,
         "clicks": 0,
-        "impressions": 16,
+        "impressions": 17,
         "prev_position": null,
         "site": "permis"
       },
@@ -1552,14 +1560,6 @@
         "position": 9.3,
         "clicks": 0,
         "impressions": 3,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "délai envoi avis de contravention vidéo verbalisation centre national de traitement cnt",
-        "position": 9.4,
-        "clicks": 0,
-        "impressions": 5,
         "prev_position": null,
         "site": "permis"
       },
@@ -1634,8 +1634,16 @@
         "impressions": 1,
         "prev_position": null,
         "site": "permis"
+      },
+      {
+        "keyword": "avocat radar automatique",
+        "position": 14,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "permis"
       }
     ]
   },
-  "gsc_updated_at": "2026-05-17T10:21:48.619Z"
+  "gsc_updated_at": "2026-05-18T12:29:30.712Z"
 }
