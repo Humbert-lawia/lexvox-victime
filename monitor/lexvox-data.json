@@ -396,13 +396,6 @@
   "traffic": {
     "by_date": [
       {
-        "date": "2026-04-16",
-        "divorce": {
-          "clicks": 0,
-          "impressions": 10
-        }
-      },
-      {
         "date": "2026-04-17",
         "divorce": {
           "clicks": 0,
@@ -828,6 +821,21 @@
           "clicks": 0,
           "impressions": 72
         }
+      },
+      {
+        "date": "2026-05-16",
+        "victime": {
+          "clicks": 0,
+          "impressions": 24
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 5
+        },
+        "permis": {
+          "clicks": 1,
+          "impressions": 29
+        }
       }
     ],
     "top_pages": {
@@ -835,7 +843,7 @@
         {
           "page": "https://lexvox-victime.com/",
           "clicks": 3,
-          "impressions": 336
+          "impressions": 348
         },
         {
           "page": "https://lexvox-victime.com/cabinet/salon-de-provence",
@@ -845,7 +853,7 @@
         {
           "page": "https://lexvox-victime.com/indemnisation-prejudice-corporel",
           "clicks": 1,
-          "impressions": 236
+          "impressions": 237
         },
         {
           "page": "https://lexvox-victime.com/accident-de-la-route",
@@ -855,7 +863,7 @@
         {
           "page": "https://lexvox-victime.com/actualites",
           "clicks": 0,
-          "impressions": 18
+          "impressions": 19
         },
         {
           "page": "https://lexvox-victime.com/actualites/accident-de-la-route-aix-en-provence",
@@ -865,7 +873,7 @@
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-bus-indemnisation-a-aix-en-proven",
           "clicks": 0,
-          "impressions": 25
+          "impressions": 28
         },
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-arles-expert-en-dommage-c",
@@ -887,12 +895,12 @@
         {
           "page": "https://lexvox-divorce.com/",
           "clicks": 1,
-          "impressions": 109
+          "impressions": 105
         },
         {
           "page": "https://lexvox-divorce.com/cabinet/arles",
           "clicks": 1,
-          "impressions": 88
+          "impressions": 86
         },
         {
           "page": "https://lexvox-divorce.com/actualites/autorite-parentale-conjointe-avocat-a-aix-en-provenc",
@@ -907,7 +915,7 @@
         {
           "page": "https://lexvox-divorce.com/actualites/avocat-divorce-contentieux-aix-en-provence",
           "clicks": 0,
-          "impressions": 6
+          "impressions": 7
         },
         {
           "page": "https://lexvox-divorce.com/actualites/avocat-violence-conjugale-procedure-a-aix-en-provence-accomp",
@@ -939,12 +947,17 @@
         {
           "page": "https://lexvox-permis.com/",
           "clicks": 1,
-          "impressions": 51
+          "impressions": 54
+        },
+        {
+          "page": "https://lexvox-permis.com/actualites/avocat-permis-suspendu-aix-en-provence",
+          "clicks": 1,
+          "impressions": 11
         },
         {
           "page": "https://lexvox-permis.com/alcool-au-volant",
           "clicks": 1,
-          "impressions": 74
+          "impressions": 81
         },
         {
           "page": "https://lexvox-permis.com/actualites/actualites-avocat-permis-suspendu-marignane",
@@ -952,14 +965,9 @@
           "impressions": 2
         },
         {
-          "page": "https://lexvox-permis.com/actualites/avocat-permis-suspendu-aix-en-provence",
-          "clicks": 0,
-          "impressions": 9
-        },
-        {
           "page": "https://lexvox-permis.com/actualites/avocat-permis-suspendu-marignane",
           "clicks": 0,
-          "impressions": 9
+          "impressions": 13
         },
         {
           "page": "https://lexvox-permis.com/actualites/avocat-permis-suspendu-salon-de-provence",
@@ -969,17 +977,17 @@
         {
           "page": "https://lexvox-permis.com/actualites/avocat-stupefiants-au-volant-marignane",
           "clicks": 0,
-          "impressions": 18
+          "impressions": 22
         },
         {
           "page": "https://lexvox-permis.com/actualites/combien-de-temps-pour-recevoir-une-amende-de-video",
           "clicks": 0,
-          "impressions": 1434
+          "impressions": 1437
         },
         {
           "page": "https://lexvox-permis.com/actualites/contestation-amende-video-verbalisation-a-france--procedure-en",
           "clicks": 0,
-          "impressions": 1
+          "impressions": 2
         },
         {
           "page": "https://lexvox-permis.com/actualites/invalidation-du-permis-pour-solde-nul-a-france--recours-en",
@@ -1000,10 +1008,18 @@
         "site": "victime"
       },
       {
-        "keyword": "avocat erreur médicale aix en provence",
-        "position": 17.8,
+        "keyword": "avocat accident trottinettes électriques",
+        "position": 17,
         "clicks": 0,
-        "impressions": 42,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat erreur médicale aix en provence",
+        "position": 17.6,
+        "clicks": 0,
+        "impressions": 44,
         "prev_position": null,
         "site": "victime"
       },
@@ -1025,9 +1041,17 @@
       },
       {
         "keyword": "avocat erreur medicale aix en provence",
-        "position": 22.4,
+        "position": 21.4,
         "clicks": 0,
-        "impressions": 7,
+        "impressions": 8,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident de trottinette électrique",
+        "position": 22,
+        "clicks": 0,
+        "impressions": 1,
         "prev_position": null,
         "site": "victime"
       },
@@ -1096,26 +1120,10 @@
         "site": "victime"
       },
       {
-        "keyword": "indemnisation dommage corporel aix en provence",
-        "position": 40,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
         "keyword": "article 2226 du code civil",
         "position": 42,
         "clicks": 0,
         "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "indemnisation corporelle",
-        "position": 42.3,
-        "clicks": 0,
-        "impressions": 3,
         "prev_position": null,
         "site": "victime"
       },
@@ -1137,9 +1145,17 @@
       },
       {
         "keyword": "avocats accident de bus en espagne",
-        "position": 46.6,
+        "position": 46.4,
         "clicks": 0,
-        "impressions": 7,
+        "impressions": 8,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident de ski aix en provence",
+        "position": 48,
+        "clicks": 0,
+        "impressions": 2,
         "prev_position": null,
         "site": "victime"
       },
@@ -1148,14 +1164,6 @@
         "position": 49,
         "clicks": 0,
         "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocats accident de bus à l'étranger",
-        "position": 49.8,
-        "clicks": 0,
-        "impressions": 6,
         "prev_position": null,
         "site": "victime"
       },
@@ -1180,6 +1188,14 @@
         "position": 51,
         "clicks": 0,
         "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocats accident de bus à l'étranger",
+        "position": 51.4,
+        "clicks": 0,
+        "impressions": 7,
         "prev_position": null,
         "site": "victime"
       },
@@ -1216,18 +1232,10 @@
         "site": "victime"
       },
       {
-        "keyword": "indemnisation dommage corporel",
-        "position": 61,
+        "keyword": "erreur médicale / responsabilité médicale mont-de-marsan",
+        "position": 63,
         "clicks": 0,
         "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocats accident de transport en espagne",
-        "position": 63.7,
-        "clicks": 0,
-        "impressions": 6,
         "prev_position": null,
         "site": "victime"
       }
@@ -1243,9 +1251,9 @@
       },
       {
         "keyword": "lex vox",
-        "position": 7.5,
+        "position": 5,
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 1,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1347,25 +1355,17 @@
       },
       {
         "keyword": "avocat divorce pension alimentaire",
-        "position": 31.6,
+        "position": 31.3,
         "clicks": 0,
-        "impressions": 18,
+        "impressions": 19,
         "prev_position": null,
         "site": "divorce"
       },
       {
         "keyword": "pension alimentaire avocat",
-        "position": 36.3,
+        "position": 35.5,
         "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "divorce"
-      },
-      {
-        "keyword": "avocat pension alimentaire",
-        "position": 39.6,
-        "clicks": 0,
-        "impressions": 34,
+        "impressions": 4,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1374,6 +1374,14 @@
         "position": 39.7,
         "clicks": 0,
         "impressions": 3,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat pension alimentaire",
+        "position": 40,
+        "clicks": 0,
+        "impressions": 31,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1472,14 +1480,6 @@
         "position": 6.3,
         "clicks": 0,
         "impressions": 4,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "délai envoi avis de contravention vidéo verbalisation centre national de traitement",
-        "position": 6.3,
-        "clicks": 0,
-        "impressions": 7,
         "prev_position": null,
         "site": "permis"
       },
@@ -1642,8 +1642,16 @@
         "impressions": 1,
         "prev_position": null,
         "site": "permis"
+      },
+      {
+        "keyword": "avocat permis de conduire miramas",
+        "position": 14.3,
+        "clicks": 0,
+        "impressions": 3,
+        "prev_position": null,
+        "site": "permis"
       }
     ]
   },
-  "gsc_updated_at": "2026-05-18T12:29:30.712Z"
+  "gsc_updated_at": "2026-05-19T12:10:18.621Z"
 }
