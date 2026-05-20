@@ -396,13 +396,6 @@
   "traffic": {
     "by_date": [
       {
-        "date": "2026-04-17",
-        "divorce": {
-          "clicks": 0,
-          "impressions": 8
-        }
-      },
-      {
         "date": "2026-04-18",
         "victime": {
           "clicks": 0,
@@ -836,6 +829,21 @@
           "clicks": 1,
           "impressions": 29
         }
+      },
+      {
+        "date": "2026-05-17",
+        "victime": {
+          "clicks": 0,
+          "impressions": 15
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 4
+        },
+        "permis": {
+          "clicks": 0,
+          "impressions": 37
+        }
       }
     ],
     "top_pages": {
@@ -843,7 +851,7 @@
         {
           "page": "https://lexvox-victime.com/",
           "clicks": 3,
-          "impressions": 348
+          "impressions": 354
         },
         {
           "page": "https://lexvox-victime.com/cabinet/salon-de-provence",
@@ -853,7 +861,7 @@
         {
           "page": "https://lexvox-victime.com/indemnisation-prejudice-corporel",
           "clicks": 1,
-          "impressions": 237
+          "impressions": 239
         },
         {
           "page": "https://lexvox-victime.com/accident-de-la-route",
@@ -873,7 +881,7 @@
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-bus-indemnisation-a-aix-en-proven",
           "clicks": 0,
-          "impressions": 28
+          "impressions": 31
         },
         {
           "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-arles-expert-en-dommage-c",
@@ -895,12 +903,12 @@
         {
           "page": "https://lexvox-divorce.com/",
           "clicks": 1,
-          "impressions": 105
+          "impressions": 104
         },
         {
           "page": "https://lexvox-divorce.com/cabinet/arles",
           "clicks": 1,
-          "impressions": 86
+          "impressions": 84
         },
         {
           "page": "https://lexvox-divorce.com/actualites/autorite-parentale-conjointe-avocat-a-aix-en-provenc",
@@ -935,7 +943,7 @@
         {
           "page": "https://lexvox-divorce.com/avocat-pension-alimentaire",
           "clicks": 0,
-          "impressions": 91
+          "impressions": 90
         },
         {
           "page": "https://lexvox-divorce.com/villes/aix-en-provence",
@@ -947,17 +955,17 @@
         {
           "page": "https://lexvox-permis.com/",
           "clicks": 1,
-          "impressions": 54
+          "impressions": 56
         },
         {
           "page": "https://lexvox-permis.com/actualites/avocat-permis-suspendu-aix-en-provence",
           "clicks": 1,
-          "impressions": 11
+          "impressions": 12
         },
         {
           "page": "https://lexvox-permis.com/alcool-au-volant",
           "clicks": 1,
-          "impressions": 81
+          "impressions": 92
         },
         {
           "page": "https://lexvox-permis.com/actualites/actualites-avocat-permis-suspendu-marignane",
@@ -977,12 +985,12 @@
         {
           "page": "https://lexvox-permis.com/actualites/avocat-stupefiants-au-volant-marignane",
           "clicks": 0,
-          "impressions": 22
+          "impressions": 26
         },
         {
           "page": "https://lexvox-permis.com/actualites/combien-de-temps-pour-recevoir-une-amende-de-video",
           "clicks": 0,
-          "impressions": 1437
+          "impressions": 1456
         },
         {
           "page": "https://lexvox-permis.com/actualites/contestation-amende-video-verbalisation-a-france--procedure-en",
@@ -1017,9 +1025,9 @@
       },
       {
         "keyword": "avocat erreur médicale aix en provence",
-        "position": 17.6,
+        "position": 17.3,
         "clicks": 0,
-        "impressions": 44,
+        "impressions": 48,
         "prev_position": null,
         "site": "victime"
       },
@@ -1120,6 +1128,14 @@
         "site": "victime"
       },
       {
+        "keyword": "avocat accident de ski aix en provence",
+        "position": 39.3,
+        "clicks": 0,
+        "impressions": 3,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
         "keyword": "article 2226 du code civil",
         "position": 42,
         "clicks": 0,
@@ -1145,17 +1161,9 @@
       },
       {
         "keyword": "avocats accident de bus en espagne",
-        "position": 46.4,
+        "position": 46,
         "clicks": 0,
-        "impressions": 8,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat accident de ski aix en provence",
-        "position": 48,
-        "clicks": 0,
-        "impressions": 2,
+        "impressions": 9,
         "prev_position": null,
         "site": "victime"
       },
@@ -1192,18 +1200,18 @@
         "site": "victime"
       },
       {
-        "keyword": "avocats accident de bus à l'étranger",
-        "position": 51.4,
-        "clicks": 0,
-        "impressions": 7,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
         "keyword": "avocat dommage corporel aix en provence",
         "position": 52,
         "clicks": 0,
         "impressions": 4,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocats accident de bus à l'étranger",
+        "position": 52.6,
+        "clicks": 0,
+        "impressions": 8,
         "prev_position": null,
         "site": "victime"
       },
@@ -1235,7 +1243,7 @@
         "keyword": "erreur médicale / responsabilité médicale mont-de-marsan",
         "position": 63,
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 2,
         "prev_position": null,
         "site": "victime"
       }
@@ -1275,9 +1283,9 @@
       },
       {
         "keyword": "lexvox avocat",
-        "position": 8.8,
+        "position": 9.2,
         "clicks": 0,
-        "impressions": 13,
+        "impressions": 12,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1298,18 +1306,18 @@
         "site": "divorce"
       },
       {
-        "keyword": "raybaud avocat",
+        "keyword": "cédrine raybaud",
         "position": 11,
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 3,
         "prev_position": null,
         "site": "divorce"
       },
       {
-        "keyword": "cédrine raybaud",
-        "position": 11.5,
+        "keyword": "raybaud avocat",
+        "position": 11,
         "clicks": 0,
-        "impressions": 4,
+        "impressions": 1,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1355,17 +1363,17 @@
       },
       {
         "keyword": "avocat divorce pension alimentaire",
-        "position": 31.3,
+        "position": 31,
         "clicks": 0,
-        "impressions": 19,
+        "impressions": 20,
         "prev_position": null,
         "site": "divorce"
       },
       {
         "keyword": "pension alimentaire avocat",
-        "position": 35.5,
+        "position": 35.2,
         "clicks": 0,
-        "impressions": 4,
+        "impressions": 5,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1379,9 +1387,9 @@
       },
       {
         "keyword": "avocat pension alimentaire",
-        "position": 40,
+        "position": 40.6,
         "clicks": 0,
-        "impressions": 31,
+        "impressions": 28,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1429,9 +1437,9 @@
       },
       {
         "keyword": "\"2 à 3 mois\" \"vidéo-verbalisation\" avis de contravention",
-        "position": 2.5,
+        "position": 2.4,
         "clicks": 0,
-        "impressions": 4,
+        "impressions": 5,
         "prev_position": null,
         "site": "permis"
       },
@@ -1567,7 +1575,7 @@
         "keyword": "\"vidéo-verbalisation\" \"avis de contravention\" \"10 jours\"",
         "position": 10,
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 2,
         "prev_position": null,
         "site": "permis"
       },
@@ -1653,5 +1661,5 @@
       }
     ]
   },
-  "gsc_updated_at": "2026-05-19T12:10:18.621Z"
+  "gsc_updated_at": "2026-05-20T11:48:49.344Z"
 }
