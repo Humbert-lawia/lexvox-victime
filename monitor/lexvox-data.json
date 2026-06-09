@@ -1257,5 +1257,207 @@
     ],
     "permis": []
   },
-  "gsc_updated_at": "2026-06-09T20:23:55.989Z"
+  "gsc_updated_at": "2026-06-09T20:39:02.756Z",
+  "audits": {
+    "lexvox-victime.com": {
+      "auditId": "cmq73bb6q000128ror20liqry",
+      "date": "2026-06-09T20:26:20.640Z",
+      "seoScore": 15,
+      "scoresByDim": {
+        "geo": 100,
+        "images": 100,
+        "onpage": 0,
+        "schema": 0,
+        "content": 0,
+        "technical": 0,
+        "performance": 0
+      },
+      "issuesCount": 287,
+      "criticalCount": 0
+    },
+    "lexvox-divorce.com": {
+      "auditId": "cmpautgyj000zqq01tmf3643r",
+      "date": "2026-05-18T06:59:53.756Z",
+      "seoScore": 67,
+      "scoresByDim": {},
+      "issuesCount": 6,
+      "criticalCount": 0
+    },
+    "lexvox-permis.com": {
+      "auditId": "cmpautgzm0011qq01iape0ntu",
+      "date": "2026-05-18T06:59:53.795Z",
+      "seoScore": 65,
+      "scoresByDim": {},
+      "issuesCount": 6,
+      "criticalCount": 0
+    }
+  },
+  "coverage": {
+    "lexvox-victime.com": {
+      "auditId": "cmpautgwj000xqq01vj8ma4vn",
+      "auditDate": "2026-05-18T07:00:23.929Z",
+      "robotsOk": true,
+      "sitemapOk": true,
+      "summary": {
+        "indexable": 86,
+        "indexed": 86,
+        "nonIndexed": 0,
+        "sitemapDead": 0,
+        "broken404": 0,
+        "orphan": 5,
+        "redirects": 6,
+        "slowPages": 0
+      },
+      "details": {
+        "brokenLinks": [],
+        "sitemapDead": [],
+        "nonIndexed": [],
+        "orphanPages": [
+          "https://lexvox-victime.com/actualites/actualites-accident-travail-victime-indemnisation",
+          "https://lexvox-victime.com/actualites/actualites-accident-de-la-route-aix-en-provence",
+          "https://lexvox-victime.com/actualites/actualites-avocat-accident-route-salon-de-provence",
+          "https://lexvox-victime.com/actualites/actualites-avocat-faute-medicale-paca",
+          "https://lexvox-victime.com/actualites/actualites-erreur-medicale-aix-en-provence"
+        ],
+        "redirects": [
+          {
+            "to": "https://lexvox-victime.com/",
+            "from": "https://lexvox-victime.com",
+            "status": 200
+          },
+          {
+            "to": "https://lexvox-victime.com/actualites/accident-travail-victime-indemnisation",
+            "from": "https://lexvox-victime.com/actualites/actualites-accident-travail-victime-indemnisation",
+            "status": 200
+          },
+          {
+            "to": "https://lexvox-victime.com/actualites/accident-de-la-route-aix-en-provence",
+            "from": "https://lexvox-victime.com/actualites/actualites-accident-de-la-route-aix-en-provence",
+            "status": 200
+          },
+          {
+            "to": "https://lexvox-victime.com/actualites/avocat-accident-route-salon-de-provence",
+            "from": "https://lexvox-victime.com/actualites/actualites-avocat-accident-route-salon-de-provence",
+            "status": 200
+          },
+          {
+            "to": "https://lexvox-victime.com/actualites/avocat-faute-medicale-paca",
+            "from": "https://lexvox-victime.com/actualites/actualites-avocat-faute-medicale-paca",
+            "status": 200
+          },
+          {
+            "to": "https://lexvox-victime.com/actualites/erreur-medicale-aix-en-provence",
+            "from": "https://lexvox-victime.com/actualites/actualites-erreur-medicale-aix-en-provence",
+            "status": 200
+          }
+        ],
+        "slowPages": []
+      }
+    },
+    "lexvox-divorce.com": {
+      "auditId": "cmpautgyj000zqq01tmf3643r",
+      "auditDate": "2026-05-18T07:00:22.902Z",
+      "robotsOk": true,
+      "sitemapOk": true,
+      "summary": {
+        "indexable": 60,
+        "indexed": 60,
+        "nonIndexed": 0,
+        "sitemapDead": 0,
+        "broken404": 0,
+        "orphan": 2,
+        "redirects": 3,
+        "slowPages": 0
+      },
+      "details": {
+        "brokenLinks": [],
+        "sitemapDead": [],
+        "nonIndexed": [],
+        "orphanPages": [
+          "https://lexvox-divorce.com/actualites/actualites-avocat-divorce-contentieux-aix-en-provence",
+          "https://lexvox-divorce.com/actualites/actualites-avocat-garde-enfants-divorce-salon-de-provence"
+        ],
+        "redirects": [
+          {
+            "to": "https://lexvox-divorce.com/",
+            "from": "https://lexvox-divorce.com",
+            "status": 200
+          },
+          {
+            "to": "https://lexvox-divorce.com/actualites/avocat-divorce-contentieux-aix-en-provence",
+            "from": "https://lexvox-divorce.com/actualites/actualites-avocat-divorce-contentieux-aix-en-provence",
+            "status": 200
+          },
+          {
+            "to": "https://lexvox-divorce.com/actualites/avocat-garde-enfants-divorce-salon-de-provence",
+            "from": "https://lexvox-divorce.com/actualites/actualites-avocat-garde-enfants-divorce-salon-de-provence",
+            "status": 200
+          }
+        ],
+        "slowPages": []
+      }
+    },
+    "lexvox-permis.com": {
+      "auditId": "cmpautgzm0011qq01iape0ntu",
+      "auditDate": "2026-05-18T07:00:26.787Z",
+      "robotsOk": true,
+      "sitemapOk": true,
+      "summary": {
+        "indexable": 73,
+        "indexed": 73,
+        "nonIndexed": 0,
+        "sitemapDead": 0,
+        "broken404": 0,
+        "orphan": 5,
+        "redirects": 6,
+        "slowPages": 0
+      },
+      "details": {
+        "brokenLinks": [],
+        "sitemapDead": [],
+        "nonIndexed": [],
+        "orphanPages": [
+          "https://lexvox-permis.com/actualites/actualites-avocat-exces-de-vitesse-salon-de-provence",
+          "https://lexvox-permis.com/actualites/actualites-avocat-stupefiants-au-volant-aix-en-provence",
+          "https://lexvox-permis.com/actualites/actualites-avocat-permis-suspendu-marignane",
+          "https://lexvox-permis.com/actualites/actualites-avocat-alcool-au-volant-marignane",
+          "https://lexvox-permis.com/actualites/actualites-avocat-delit-de-fuite-marignane"
+        ],
+        "redirects": [
+          {
+            "to": "https://lexvox-permis.com/",
+            "from": "https://lexvox-permis.com",
+            "status": 200
+          },
+          {
+            "to": "https://lexvox-permis.com/actualites/avocat-exces-de-vitesse-salon-de-provence",
+            "from": "https://lexvox-permis.com/actualites/actualites-avocat-exces-de-vitesse-salon-de-provence",
+            "status": 200
+          },
+          {
+            "to": "https://lexvox-permis.com/actualites/avocat-stupefiants-au-volant-aix-en-provence",
+            "from": "https://lexvox-permis.com/actualites/actualites-avocat-stupefiants-au-volant-aix-en-provence",
+            "status": 200
+          },
+          {
+            "to": "https://lexvox-permis.com/actualites/avocat-permis-suspendu-marignane",
+            "from": "https://lexvox-permis.com/actualites/actualites-avocat-permis-suspendu-marignane",
+            "status": 200
+          },
+          {
+            "to": "https://lexvox-permis.com/actualites/avocat-alcool-au-volant-marignane",
+            "from": "https://lexvox-permis.com/actualites/actualites-avocat-alcool-au-volant-marignane",
+            "status": 200
+          },
+          {
+            "to": "https://lexvox-permis.com/actualites/avocat-delit-de-fuite-marignane",
+            "from": "https://lexvox-permis.com/actualites/actualites-avocat-delit-de-fuite-marignane",
+            "status": 200
+          }
+        ],
+        "slowPages": []
+      }
+    }
+  },
+  "dashboard_updated_at": "2026-06-09T20:39:13.149Z"
 }
