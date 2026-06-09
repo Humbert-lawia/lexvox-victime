@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow, noarchive">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://lawia-worker-production.up.railway.app; frame-ancestors 'none'; base-uri 'self'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'">
 <title>LEXVOX Monitor — Dashboard SEO</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"
         integrity="sha384-8VQhNwPYcfUQyMruyYR7Rzu0Nxxl9/1FUd6Qza2HN4yELUx1nF1ZwHoh8CuJfYC/"
@@ -1181,7 +1181,10 @@ let currentAuditIds = [];
 let auditStartTime = null;
 
 function triggerAudit(){
-  document.getElementById('audit-modal').classList.add('open');
+  // Ex-worker Railway. Les audits tournent désormais via GitHub Actions
+  // (daily-seo-audit, quotidien + déclenchable). Le bouton ouvre la page
+  // "Run workflow" — clique "Run workflow" là-bas pour un audit à la demande.
+  window.open('https://github.com/Humbert-lawia/LAWIA-SEO/actions/workflows/daily-seo-audit.yml','_blank','noopener');
 }
 
 function closeAuditModal(){
@@ -1878,9 +1881,9 @@ async function loadCoverage(){
   const rows = [];
   const detailLines = [];
   for(const s of sites){
-    try{
-      const r = await fetch(`${WORKER_URL}/audit-ultime/coverage?domain=${s.domain}`);
-      const d = await r.json();
+    {
+      // Lu depuis lexvox-data.json (snapshot régénéré par daily-gsc-sync) — ex-worker Railway
+      const d = (gData && gData.coverage && gData.coverage[s.domain]) || {noData:true};
       if(d.noData){
         rows.push(`<tr><td>${s.domain}</td><td colspan="8" style="color:var(--muted)">Aucun audit</td></tr>`);
         continue;
@@ -1908,8 +1911,6 @@ async function loadCoverage(){
       if(d.details.sitemapDead?.length){
         detailLines.push(`<b>${s.domain}</b> sitemap dead (${d.details.sitemapDead.length}): ${d.details.sitemapDead.slice(0,3).join(', ')}${d.details.sitemapDead.length>3?'…':''}`);
       }
-    } catch(e){
-      rows.push(`<tr><td>${s.domain}</td><td colspan="8" style="color:var(--red)">Erreur ${e.message}</td></tr>`);
     }
   }
   tbody.innerHTML = rows.join('');
