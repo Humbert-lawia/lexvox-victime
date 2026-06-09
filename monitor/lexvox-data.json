@@ -396,306 +396,6 @@
   "traffic": {
     "by_date": [
       {
-        "date": "2026-04-18",
-        "victime": {
-          "clicks": 0,
-          "impressions": 8
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 6
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 0
-        }
-      },
-      {
-        "date": "2026-04-19",
-        "victime": {
-          "clicks": 0,
-          "impressions": 11
-        },
-        "divorce": {
-          "clicks": 1,
-          "impressions": 7
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 0
-        }
-      },
-      {
-        "date": "2026-04-20",
-        "victime": {
-          "clicks": 0,
-          "impressions": 44
-        },
-        "divorce": {
-          "clicks": 1,
-          "impressions": 13
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 2
-        }
-      },
-      {
-        "date": "2026-04-21",
-        "victime": {
-          "clicks": 0,
-          "impressions": 35
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 17
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 1
-        }
-      },
-      {
-        "date": "2026-04-22",
-        "victime": {
-          "clicks": 1,
-          "impressions": 29
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 11
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 1
-        }
-      },
-      {
-        "date": "2026-04-23",
-        "victime": {
-          "clicks": 0,
-          "impressions": 17
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 13
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 1
-        }
-      },
-      {
-        "date": "2026-04-24",
-        "victime": {
-          "clicks": 0,
-          "impressions": 16
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 9
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 0
-        }
-      },
-      {
-        "date": "2026-04-25",
-        "victime": {
-          "clicks": 0,
-          "impressions": 15
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 6
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 1
-        }
-      },
-      {
-        "date": "2026-04-26",
-        "victime": {
-          "clicks": 0,
-          "impressions": 23
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 11
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 0
-        }
-      },
-      {
-        "date": "2026-04-27",
-        "victime": {
-          "clicks": 0,
-          "impressions": 38
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 15
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 0
-        }
-      },
-      {
-        "date": "2026-04-28",
-        "victime": {
-          "clicks": 1,
-          "impressions": 20
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 9
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 0
-        }
-      },
-      {
-        "date": "2026-04-29",
-        "victime": {
-          "clicks": 2,
-          "impressions": 33
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 9
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 4
-        }
-      },
-      {
-        "date": "2026-04-30",
-        "victime": {
-          "clicks": 1,
-          "impressions": 18
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 8
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 4
-        }
-      },
-      {
-        "date": "2026-05-01",
-        "victime": {
-          "clicks": 0,
-          "impressions": 15
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 1
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 6
-        }
-      },
-      {
-        "date": "2026-05-02",
-        "victime": {
-          "clicks": 0,
-          "impressions": 13
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 7
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 1
-        }
-      },
-      {
-        "date": "2026-05-03",
-        "victime": {
-          "clicks": 0,
-          "impressions": 7
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 9
-        },
-        "permis": {
-          "clicks": 1,
-          "impressions": 11
-        }
-      },
-      {
-        "date": "2026-05-04",
-        "victime": {
-          "clicks": 0,
-          "impressions": 47
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 27
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 5
-        }
-      },
-      {
-        "date": "2026-05-05",
-        "victime": {
-          "clicks": 0,
-          "impressions": 17
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 20
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 4
-        }
-      },
-      {
-        "date": "2026-05-06",
-        "victime": {
-          "clicks": 0,
-          "impressions": 37
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 15
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 6
-        }
-      },
-      {
-        "date": "2026-05-07",
-        "victime": {
-          "clicks": 0,
-          "impressions": 76
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 6
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 9
-        }
-      },
-      {
         "date": "2026-05-08",
         "victime": {
           "clicks": 0,
@@ -704,10 +404,6 @@
         "divorce": {
           "clicks": 0,
           "impressions": 3
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 67
         }
       },
       {
@@ -719,10 +415,6 @@
         "divorce": {
           "clicks": 0,
           "impressions": 4
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 180
         }
       },
       {
@@ -734,10 +426,6 @@
         "divorce": {
           "clicks": 0,
           "impressions": 14
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 185
         }
       },
       {
@@ -749,10 +437,6 @@
         "divorce": {
           "clicks": 0,
           "impressions": 9
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 249
         }
       },
       {
@@ -764,10 +448,6 @@
         "divorce": {
           "clicks": 0,
           "impressions": 4
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 258
         }
       },
       {
@@ -779,10 +459,6 @@
         "divorce": {
           "clicks": 0,
           "impressions": 8
-        },
-        "permis": {
-          "clicks": 1,
-          "impressions": 277
         }
       },
       {
@@ -794,10 +470,6 @@
         "divorce": {
           "clicks": 0,
           "impressions": 6
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 296
         }
       },
       {
@@ -809,10 +481,6 @@
         "divorce": {
           "clicks": 0,
           "impressions": 6
-        },
-        "permis": {
-          "clicks": 0,
-          "impressions": 72
         }
       },
       {
@@ -824,10 +492,6 @@
         "divorce": {
           "clicks": 0,
           "impressions": 5
-        },
-        "permis": {
-          "clicks": 1,
-          "impressions": 29
         }
       },
       {
@@ -839,79 +503,300 @@
         "divorce": {
           "clicks": 0,
           "impressions": 4
-        },
-        "permis": {
+        }
+      },
+      {
+        "date": "2026-05-18",
+        "victime": {
           "clicks": 0,
-          "impressions": 37
+          "impressions": 22
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 6
+        }
+      },
+      {
+        "date": "2026-05-19",
+        "victime": {
+          "clicks": 0,
+          "impressions": 20
+        },
+        "divorce": {
+          "clicks": 1,
+          "impressions": 16
+        }
+      },
+      {
+        "date": "2026-05-20",
+        "victime": {
+          "clicks": 0,
+          "impressions": 23
+        },
+        "divorce": {
+          "clicks": 1,
+          "impressions": 8
+        }
+      },
+      {
+        "date": "2026-05-21",
+        "victime": {
+          "clicks": 0,
+          "impressions": 19
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 6
+        }
+      },
+      {
+        "date": "2026-05-22",
+        "victime": {
+          "clicks": 1,
+          "impressions": 38
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 19
+        }
+      },
+      {
+        "date": "2026-05-23",
+        "victime": {
+          "clicks": 0,
+          "impressions": 23
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 9
+        }
+      },
+      {
+        "date": "2026-05-24",
+        "victime": {
+          "clicks": 0,
+          "impressions": 10
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 6
+        }
+      },
+      {
+        "date": "2026-05-25",
+        "victime": {
+          "clicks": 0,
+          "impressions": 14
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 8
+        }
+      },
+      {
+        "date": "2026-05-26",
+        "victime": {
+          "clicks": 0,
+          "impressions": 36
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 7
+        }
+      },
+      {
+        "date": "2026-05-27",
+        "victime": {
+          "clicks": 0,
+          "impressions": 18
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 10
+        }
+      },
+      {
+        "date": "2026-05-28",
+        "victime": {
+          "clicks": 0,
+          "impressions": 29
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 4
+        }
+      },
+      {
+        "date": "2026-05-29",
+        "victime": {
+          "clicks": 0,
+          "impressions": 84
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 11
+        }
+      },
+      {
+        "date": "2026-05-30",
+        "victime": {
+          "clicks": 0,
+          "impressions": 33
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 7
+        }
+      },
+      {
+        "date": "2026-05-31",
+        "victime": {
+          "clicks": 0,
+          "impressions": 61
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 15
+        }
+      },
+      {
+        "date": "2026-06-01",
+        "victime": {
+          "clicks": 1,
+          "impressions": 62
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 13
+        }
+      },
+      {
+        "date": "2026-06-02",
+        "victime": {
+          "clicks": 2,
+          "impressions": 64
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 13
+        }
+      },
+      {
+        "date": "2026-06-03",
+        "victime": {
+          "clicks": 0,
+          "impressions": 59
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 5
+        }
+      },
+      {
+        "date": "2026-06-04",
+        "victime": {
+          "clicks": 1,
+          "impressions": 67
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 9
+        }
+      },
+      {
+        "date": "2026-06-05",
+        "victime": {
+          "clicks": 0,
+          "impressions": 165
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 14
+        }
+      },
+      {
+        "date": "2026-06-06",
+        "victime": {
+          "clicks": 4,
+          "impressions": 322
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 17
         }
       }
     ],
     "top_pages": {
       "victime": [
         {
-          "page": "https://lexvox-victime.com/",
-          "clicks": 3,
-          "impressions": 354
+          "page": "https://lexvox-victime.com/nomenclature-dintilhac",
+          "clicks": 2,
+          "impressions": 20
         },
         {
-          "page": "https://lexvox-victime.com/cabinet/salon-de-provence",
+          "page": "https://lexvox-victime.com/",
           "clicks": 1,
-          "impressions": 136
+          "impressions": 333
+        },
+        {
+          "page": "https://lexvox-victime.com/actualites/abdominoplastie",
+          "clicks": 1,
+          "impressions": 5
+        },
+        {
+          "page": "https://lexvox-victime.com/actualites/accident-de-bus-indemnisation-marignane",
+          "clicks": 1,
+          "impressions": 93
+        },
+        {
+          "page": "https://lexvox-victime.com/actualites/sapiteur",
+          "clicks": 1,
+          "impressions": 5
+        },
+        {
+          "page": "https://lexvox-victime.com/actualites/trotinnette-a-assistance-electrique",
+          "clicks": 1,
+          "impressions": 13
+        },
+        {
+          "page": "https://lexvox-victime.com/evaluateur-prejudices",
+          "clicks": 1,
+          "impressions": 2
         },
         {
           "page": "https://lexvox-victime.com/indemnisation-prejudice-corporel",
           "clicks": 1,
-          "impressions": 239
+          "impressions": 142
         },
         {
           "page": "https://lexvox-victime.com/accident-de-la-route",
           "clicks": 0,
-          "impressions": 69
+          "impressions": 8
         },
         {
-          "page": "https://lexvox-victime.com/actualites",
+          "page": "https://lexvox-victime.com/accident-du-travail",
           "clicks": 0,
-          "impressions": 19
-        },
-        {
-          "page": "https://lexvox-victime.com/actualites/accident-de-la-route-aix-en-provence",
-          "clicks": 0,
-          "impressions": 20
-        },
-        {
-          "page": "https://lexvox-victime.com/actualites/avocat-accident-de-bus-indemnisation-a-aix-en-proven",
-          "clicks": 0,
-          "impressions": 31
-        },
-        {
-          "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-arles-expert-en-dommage-c",
-          "clicks": 0,
-          "impressions": 4
-        },
-        {
-          "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-arles-votre-defense-apres",
-          "clicks": 0,
-          "impressions": 7
-        },
-        {
-          "page": "https://lexvox-victime.com/actualites/avocat-accident-de-indemnisation-a-salon-de-provence-experti",
-          "clicks": 0,
-          "impressions": 5
+          "impressions": 30
         }
       ],
       "divorce": [
         {
           "page": "https://lexvox-divorce.com/",
-          "clicks": 1,
-          "impressions": 104
+          "clicks": 2,
+          "impressions": 42
         },
         {
-          "page": "https://lexvox-divorce.com/cabinet/arles",
-          "clicks": 1,
-          "impressions": 84
+          "page": "https://lexvox-divorce.com/actualites/adoption-enfant-mineur-avocat-a-aix-en-provence-votr",
+          "clicks": 0,
+          "impressions": 1
         },
         {
           "page": "https://lexvox-divorce.com/actualites/autorite-parentale-conjointe-avocat-a-aix-en-provenc",
+          "clicks": 0,
+          "impressions": 1
+        },
+        {
+          "page": "https://lexvox-divorce.com/actualites/avocat-divorce-a-lamiable-arles",
           "clicks": 0,
           "impressions": 1
         },
@@ -921,159 +806,63 @@
           "impressions": 2
         },
         {
+          "page": "https://lexvox-divorce.com/actualites/avocat-divorce-amiable-procedure-a-arles-votre-guide",
+          "clicks": 0,
+          "impressions": 2
+        },
+        {
           "page": "https://lexvox-divorce.com/actualites/avocat-divorce-contentieux-aix-en-provence",
           "clicks": 0,
-          "impressions": 7
+          "impressions": 9
         },
         {
-          "page": "https://lexvox-divorce.com/actualites/avocat-violence-conjugale-procedure-a-aix-en-provence-accomp",
+          "page": "https://lexvox-divorce.com/actualites/avocat-droit-de-visite-et-hebergement-a-aix-en-prove",
+          "clicks": 0,
+          "impressions": 2
+        },
+        {
+          "page": "https://lexvox-divorce.com/actualites/avocat-garde-des-enfants-apres-divorce-aix-en-provence",
           "clicks": 0,
           "impressions": 6
         },
         {
-          "page": "https://lexvox-divorce.com/actualites/calcul-prestation-compensatoire-avocat-a-aix-en-provence-exp",
+          "page": "https://lexvox-divorce.com/actualites/avocat-garde-enfants-divorce-aix-en-provence",
           "clicks": 0,
-          "impressions": 6
-        },
-        {
-          "page": "https://lexvox-divorce.com/actualites/pension-alimentaire-enfant-avocat-a-aix-en-provence-expertis",
-          "clicks": 0,
-          "impressions": 4
-        },
-        {
-          "page": "https://lexvox-divorce.com/avocat-pension-alimentaire",
-          "clicks": 0,
-          "impressions": 90
-        },
-        {
-          "page": "https://lexvox-divorce.com/villes/aix-en-provence",
-          "clicks": 0,
-          "impressions": 1
+          "impressions": 2
         }
       ],
-      "permis": [
-        {
-          "page": "https://lexvox-permis.com/",
-          "clicks": 1,
-          "impressions": 56
-        },
-        {
-          "page": "https://lexvox-permis.com/actualites/avocat-permis-suspendu-aix-en-provence",
-          "clicks": 1,
-          "impressions": 12
-        },
-        {
-          "page": "https://lexvox-permis.com/alcool-au-volant",
-          "clicks": 1,
-          "impressions": 92
-        },
-        {
-          "page": "https://lexvox-permis.com/actualites/actualites-avocat-permis-suspendu-marignane",
-          "clicks": 0,
-          "impressions": 2
-        },
-        {
-          "page": "https://lexvox-permis.com/actualites/avocat-permis-suspendu-marignane",
-          "clicks": 0,
-          "impressions": 13
-        },
-        {
-          "page": "https://lexvox-permis.com/actualites/avocat-permis-suspendu-salon-de-provence",
-          "clicks": 0,
-          "impressions": 3
-        },
-        {
-          "page": "https://lexvox-permis.com/actualites/avocat-stupefiants-au-volant-marignane",
-          "clicks": 0,
-          "impressions": 26
-        },
-        {
-          "page": "https://lexvox-permis.com/actualites/combien-de-temps-pour-recevoir-une-amende-de-video",
-          "clicks": 0,
-          "impressions": 1456
-        },
-        {
-          "page": "https://lexvox-permis.com/actualites/contestation-amende-video-verbalisation-a-france--procedure-en",
-          "clicks": 0,
-          "impressions": 2
-        },
-        {
-          "page": "https://lexvox-permis.com/actualites/invalidation-du-permis-pour-solde-nul-a-france--recours-en",
-          "clicks": 0,
-          "impressions": 7
-        }
-      ]
+      "permis": []
     }
   },
   "positions": {
     "victime": [
       {
-        "keyword": "avocat accident",
-        "position": 11,
+        "keyword": "accident bus marignane",
+        "position": 8.3,
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 23,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "avocat accident trottinettes électriques",
+        "keyword": "avocat accident marignane",
+        "position": 14,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat dommage corporel gratuit",
         "position": 17,
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 3,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "avocat erreur médicale aix en provence",
-        "position": 17.3,
-        "clicks": 0,
-        "impressions": 48,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "fracture du sternum indemnisation",
-        "position": 20,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat accident salon de provence",
-        "position": 20.5,
-        "clicks": 0,
-        "impressions": 4,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat erreur medicale aix en provence",
-        "position": 21.4,
-        "clicks": 0,
-        "impressions": 8,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat accident de trottinette électrique",
-        "position": 22,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat des victimes salon de provence",
-        "position": 23.3,
-        "clicks": 0,
-        "impressions": 4,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat préjudice corporel aix en provence",
-        "position": 24,
+        "keyword": "avocat des victimes arles",
+        "position": 18,
         "clicks": 0,
         "impressions": 1,
         "prev_position": null,
@@ -1081,174 +870,222 @@
       },
       {
         "keyword": "avocat accident indemnisation aixenprovence",
-        "position": 32,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat accident de la route aix en provence",
-        "position": 32.1,
-        "clicks": 0,
-        "impressions": 29,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "indemnisation accident de la route aix en provence",
-        "position": 32.6,
-        "clicks": 0,
-        "impressions": 7,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "indemnisation accident corporel aix en provence",
-        "position": 33.4,
-        "clicks": 0,
-        "impressions": 5,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat accident collectif",
-        "position": 35.5,
-        "clicks": 0,
-        "impressions": 2,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "humbert patrice",
-        "position": 36,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat accident de ski aix en provence",
-        "position": 39.3,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "article 2226 du code civil",
-        "position": 42,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocats indemnisation accidents hélicoptère france espagne",
-        "position": 44.7,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat accident corporel aix en provence",
-        "position": 45,
-        "clicks": 0,
-        "impressions": 2,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocats accident de bus en espagne",
-        "position": 46,
+        "position": 20.7,
         "clicks": 0,
         "impressions": 9,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "avocats accident de train en espagne",
-        "position": 49,
+        "keyword": "avocat accident salon de provence",
+        "position": 21.6,
+        "clicks": 0,
+        "impressions": 7,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident de ski",
+        "position": 22,
         "clicks": 0,
         "impressions": 1,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "avocat dommage corporel aix-en-provence",
-        "position": 50,
+        "keyword": "avocat accident trottinettes électriques",
+        "position": 24.5,
+        "clicks": 0,
+        "impressions": 15,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident de trottinette électrique",
+        "position": 24.7,
+        "clicks": 0,
+        "impressions": 12,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat droit des victimes",
+        "position": 25.4,
+        "clicks": 0,
+        "impressions": 9,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat des victimes salon de provence",
+        "position": 26.5,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "accident corporel",
+        "position": 27,
         "clicks": 0,
         "impressions": 1,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "avocat evaluation dommages corporels aix en provence",
-        "position": 50.3,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat victimes",
-        "position": 51,
+        "keyword": "avocat accident de vélo",
+        "position": 28,
         "clicks": 0,
         "impressions": 1,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "avocat dommage corporel aix en provence",
-        "position": 52,
-        "clicks": 0,
-        "impressions": 4,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocats accident de bus à l'étranger",
-        "position": 52.6,
+        "keyword": "avocat accident du travail",
+        "position": 29.1,
         "clicks": 0,
         "impressions": 8,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "dommage corporel indemnisation",
-        "position": 54,
+        "keyword": "avocat accident",
+        "position": 30,
+        "clicks": 0,
+        "impressions": 3,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident de la route aix en provence",
+        "position": 30,
+        "clicks": 0,
+        "impressions": 23,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat des victimes aix en provence",
+        "position": 30,
         "clicks": 0,
         "impressions": 1,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "avocat préjudice corporel aix-en-provence",
-        "position": 57,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "bareme indemnisation préjudice corporel",
-        "position": 57,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "erreur médicale / responsabilité médicale mont-de-marsan",
-        "position": 63,
+        "keyword": "avocat cci erreur médicale",
+        "position": 30.5,
         "clicks": 0,
         "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat aléa thérapeutique",
+        "position": 30.7,
+        "clicks": 0,
+        "impressions": 7,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident trottinette",
+        "position": 31,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "accident corporel que faire",
+        "position": 31.5,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "accident de la route avocat",
+        "position": 31.5,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident cycliste",
+        "position": 33,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident travail",
+        "position": 33,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "accident médical fautif",
+        "position": 33.7,
+        "clicks": 0,
+        "impressions": 3,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident velo",
+        "position": 34,
+        "clicks": 0,
+        "impressions": 3,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat des accident de la route",
+        "position": 34.3,
+        "clicks": 0,
+        "impressions": 3,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident médical",
+        "position": 34.4,
+        "clicks": 0,
+        "impressions": 7,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident de ski aix en provence",
+        "position": 34.5,
+        "clicks": 0,
+        "impressions": 4,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident automobile",
+        "position": 35,
+        "clicks": 0,
+        "impressions": 3,
         "prev_position": null,
         "site": "victime"
       }
     ],
     "divorce": [
+      {
+        "keyword": "avocat dommage corporel",
+        "position": 1,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "divorce"
+      },
       {
         "keyword": "avocat droit de la famille aix en provence",
         "position": 1,
@@ -1258,8 +1095,8 @@
         "site": "divorce"
       },
       {
-        "keyword": "lex vox",
-        "position": 5,
+        "keyword": "avocat droit des affaires aix",
+        "position": 1,
         "clicks": 0,
         "impressions": 1,
         "prev_position": null,
@@ -1274,88 +1111,96 @@
         "site": "divorce"
       },
       {
-        "keyword": "lexvox",
-        "position": 8,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "divorce"
-      },
-      {
-        "keyword": "lexvox avocat",
-        "position": 9.2,
-        "clicks": 0,
-        "impressions": 12,
-        "prev_position": null,
-        "site": "divorce"
-      },
-      {
-        "keyword": "cedrine raybaud avocat",
-        "position": 10,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "divorce"
-      },
-      {
-        "keyword": "maitre raybaud arles",
-        "position": 10.6,
-        "clicks": 0,
-        "impressions": 8,
-        "prev_position": null,
-        "site": "divorce"
-      },
-      {
-        "keyword": "cédrine raybaud",
-        "position": 11,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "divorce"
-      },
-      {
-        "keyword": "raybaud avocat",
-        "position": 11,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "divorce"
-      },
-      {
         "keyword": "avocat divorce arles",
-        "position": 11.7,
+        "position": 9,
         "clicks": 0,
-        "impressions": 16,
+        "impressions": 2,
         "prev_position": null,
         "site": "divorce"
       },
       {
-        "keyword": "avocat arles divorce",
-        "position": 12.5,
+        "keyword": "luxembourg garde alternée pension alimentaire revenus égaux avocat",
+        "position": 11,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "recouvrement pension alimentaire aix en provence",
+        "position": 15.3,
         "clicks": 0,
         "impressions": 4,
         "prev_position": null,
         "site": "divorce"
       },
       {
-        "keyword": "avocat divorce par consentement mutuel arles",
-        "position": 16,
+        "keyword": "recouvrement pension alimentaire aix-en-provence",
+        "position": 15.3,
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 4,
         "prev_position": null,
         "site": "divorce"
       },
       {
         "keyword": "avocat salon de provence divorce",
-        "position": 19,
+        "position": 16,
         "clicks": 0,
         "impressions": 3,
         "prev_position": null,
         "site": "divorce"
       },
       {
+        "keyword": "pension alimentaire aix-en-provence",
+        "position": 16.8,
+        "clicks": 0,
+        "impressions": 10,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "cédrine raybaud",
+        "position": 17,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat divorce à nimes",
+        "position": 22,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "tarif avocat pension alimentaire 30",
+        "position": 23.5,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat specialiste pension alimentaire",
+        "position": 24,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
         "keyword": "avocat spécialisé pension alimentaire",
-        "position": 25,
+        "position": 26,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat pour pension alimentaire",
+        "position": 28,
         "clicks": 0,
         "impressions": 1,
         "prev_position": null,
@@ -1363,303 +1208,54 @@
       },
       {
         "keyword": "avocat divorce pension alimentaire",
-        "position": 31,
+        "position": 28.8,
         "clicks": 0,
-        "impressions": 20,
+        "impressions": 31,
         "prev_position": null,
         "site": "divorce"
       },
       {
         "keyword": "pension alimentaire avocat",
-        "position": 35.2,
+        "position": 30.6,
         "clicks": 0,
-        "impressions": 5,
-        "prev_position": null,
-        "site": "divorce"
-      },
-      {
-        "keyword": "tarif avocat pension alimentaire 30",
-        "position": 39.7,
-        "clicks": 0,
-        "impressions": 3,
+        "impressions": 17,
         "prev_position": null,
         "site": "divorce"
       },
       {
         "keyword": "avocat pension alimentaire",
-        "position": 40.6,
+        "position": 36.3,
         "clicks": 0,
-        "impressions": 28,
+        "impressions": 49,
         "prev_position": null,
         "site": "divorce"
       },
       {
-        "keyword": "avocat sur arles",
-        "position": 60,
+        "keyword": "avocat prestation compensatoire",
+        "position": 53.2,
         "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "divorce"
-      },
-      {
-        "keyword": "avocat pension alimentaire les angles",
-        "position": 78,
-        "clicks": 0,
-        "impressions": 1,
+        "impressions": 5,
         "prev_position": null,
         "site": "divorce"
       },
       {
         "keyword": "quel est le tarif d'un avocat pour une pension alimentaire",
-        "position": 84.7,
+        "position": 79,
         "clicks": 0,
-        "impressions": 3,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat procédure d expulsion aix-en-provence",
+        "position": 88,
+        "clicks": 0,
+        "impressions": 1,
         "prev_position": null,
         "site": "divorce"
       }
     ],
-    "permis": [
-      {
-        "keyword": "\"vidéo-verbalisation\" \"5\" \"15\" jours avis de contravention",
-        "position": 1.5,
-        "clicks": 0,
-        "impressions": 2,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "\"vidéo-verbalisation\" \"2 à 3 mois\" avis de contravention",
-        "position": 1.8,
-        "clicks": 0,
-        "impressions": 5,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "\"2 à 3 mois\" \"vidéo-verbalisation\" avis de contravention",
-        "position": 2.4,
-        "clicks": 0,
-        "impressions": 5,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "délai de réception avis de contravention vidéo verbalisation 5 à 15 jours",
-        "position": 3,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "\"vidéo-verbalisation\" \"avis de contravention\" délai 15 jours",
-        "position": 3.9,
-        "clicks": 0,
-        "impressions": 11,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "\"vidéo-verbalisation\" \"avis de contravention\" \"délai\"",
-        "position": 5.3,
-        "clicks": 0,
-        "impressions": 10,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "\"vidéo-verbalisation\" \"délai\" \"avis de contravention\"",
-        "position": 5.3,
-        "clicks": 0,
-        "impressions": 18,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "délai envoi avis de contravention vidéo verbalisation 1 mois",
-        "position": 6,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "délai d'envoi avis de contravention vidéo verbalisation centre national de traitement",
-        "position": 6.3,
-        "clicks": 0,
-        "impressions": 4,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "centre national de traitement délai envoi avis de contravention vidéo verbalisation",
-        "position": 6.7,
-        "clicks": 0,
-        "impressions": 7,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "centre national de traitement rennes délai avis de contravention vidéo verbalisation",
-        "position": 7,
-        "clicks": 0,
-        "impressions": 2,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "centre national de traitement rennes délai envoi avis de contravention vidéo verbalisation",
-        "position": 7.2,
-        "clicks": 0,
-        "impressions": 6,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "antai délai réception avis de contravention vidéo verbalisation 5 15 jours",
-        "position": 7.7,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "antai délai réception avis de contravention vidéo verbalisation 5 à 15 jours",
-        "position": 8,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "centre national de traitement vidéo verbalisation délai avis de contravention",
-        "position": 8,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "\"vidéo-verbalisation\" \"avis de contravention\" délai",
-        "position": 8.8,
-        "clicks": 0,
-        "impressions": 17,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "centre national de traitement vidéo verbalisation délai envoi avis de contravention",
-        "position": 9,
-        "clicks": 0,
-        "impressions": 2,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "délai envoi avis de contravention centre national de traitement cnt vidéo verbalisation",
-        "position": 9,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "antai délai envoi avis de contravention vidéo verbalisation combien de temps",
-        "position": 9.3,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "\"vidéo-verbalisation\" \"avis de contravention\" \"10 jours\"",
-        "position": 10,
-        "clicks": 0,
-        "impressions": 2,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "antai délai envoi avis de contravention vidéo-verbalisation combien de temps",
-        "position": 10,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "centre national de traitement cnt délai envoi avis de contravention vidéo verbalisation",
-        "position": 10,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "antai délai réception avis de contravention vidéo verbalisation",
-        "position": 10.3,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "délai d'envoi avis de contravention vidéo verbalisation centre national de traitement cnt",
-        "position": 10.3,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "délai d'envoi avis de contravention centre national de traitement cnt vidéo verbalisation",
-        "position": 10.7,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "antai délai réception avis de contravention vidéo-verbalisation",
-        "position": 12,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "centre national de traitement cnt avis de contravention vidéo verbalisation délai",
-        "position": 12,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "centre national de traitement délai avis de contravention vidéo verbalisation",
-        "position": 12,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "avocat radar automatique",
-        "position": 14,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "permis"
-      },
-      {
-        "keyword": "avocat permis de conduire miramas",
-        "position": 14.3,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "permis"
-      }
-    ]
+    "permis": []
   },
-  "gsc_updated_at": "2026-05-20T11:48:49.344Z"
+  "gsc_updated_at": "2026-06-09T20:23:55.989Z"
 }
