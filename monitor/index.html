@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow, noarchive">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'">
 <title>LEXVOX Monitor — Dashboard SEO</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"
-        integrity="sha384-8VQhNwPYcfUQyMruyYR7Rzu0Nxxl9/1FUd6Qza2HN4yELUx1nF1ZwHoh8CuJfYC/"
+        integrity="sha384-e6nUZLBkQ86NJ6TVVKAeSaK8jWa3NhkYWZFomE39AvDbQWeie9PlQqM3pmYW5d1g"
         crossorigin="anonymous"
         referrerpolicy="no-referrer"></script>
 <style>
@@ -463,6 +463,17 @@ td a:hover{text-decoration:underline}
       <div id="coverage-details" style="font-size:11px;color:var(--muted);padding:8px 12px;line-height:1.5"></div>
     </div>
 
+    <!-- NW Coverage : score articles par site (donut + bouton re-optim) -->
+    <div class="card full">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--blue)"></span>NeuronWriter Coverage — articles publiés</div>
+        <div style="font-size:11px;color:var(--muted);padding:4px 12px">Vert ≥ 70 · Orange 40-69 · Rouge &lt; 40 ou non évalué</div>
+      </div>
+      <div id="nw-coverage-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;padding:10px 12px">
+        <div class="loading" style="grid-column:1/-1">Chargement…</div>
+      </div>
+    </div>
+
     <!-- Checklist SEO -->
     <div class="card full">
       <div class="ch"><div class="ct"><span class="dot" style="background:var(--yellow)"></span>Checklist qualité SEO — état actuel</div></div>
@@ -620,19 +631,6 @@ td a:hover{text-decoration:underline}
   </div>
 </div>
 
-<!-- ═══════════════ MODAL TOKEN ═══════════════ -->
-<div class="amodal-overlay" id="token-modal" onclick="if(event.target===this)cancelTokenModal()">
-  <div class="amodal">
-    <h3>🔑 Token Railway requis</h3>
-    <p>Saisissez l'INTERNAL_API_TOKEN du worker Railway. Il sera stocké localement dans ce navigateur.</p>
-    <input id="token-modal-input" type="password" class="amod-email" placeholder="INTERNAL_API_TOKEN" style="margin-bottom:16px" onkeydown="if(event.key==='Enter')confirmTokenModal()">
-    <div class="amod-footer">
-      <button class="amod-cancel" onclick="cancelTokenModal()">Annuler</button>
-      <button class="amod-launch" onclick="confirmTokenModal()">✓ Confirmer</button>
-    </div>
-  </div>
-</div>
-
 <!-- ═══════════════ MODAL AUDIT ═══════════════ -->
 <div class="amodal-overlay" id="audit-modal" onclick="if(event.target===this)closeAuditModal()">
   <div class="amodal">
@@ -761,35 +759,40 @@ const DIMS = [
   {key:'ai_visibility',label:'Visib. IA', color:'#f97316'},
 ];
 
-// Scores réels 2026-04-28 — mis à jour après chaque sprint SEO
+// Scores post-migration 2026-05-03 — mis à jour après sprint 2 P1 Next.js+Sanity
 const DEFAULT_AUDIT = {
-  victime:{ technique:80, contenu:82, local:75, schema:88, performance:75, backlinks:35, ai_visibility:65, score:81 },
-  divorce:{ technique:78, contenu:80, local:72, schema:85, performance:72, backlinks:30, ai_visibility:60, score:80 },
-  permis: { technique:78, contenu:78, local:72, schema:82, performance:70, backlinks:25, ai_visibility:55, score:80 },
+  victime:{ technique:72, contenu:70, local:68, schema:75, performance:65, backlinks:35, ai_visibility:60, score:72 },
+  divorce:{ technique:73, contenu:70, local:68, schema:75, performance:65, backlinks:30, ai_visibility:58, score:73 },
+  permis: { technique:67, contenu:65, local:65, schema:72, performance:63, backlinks:25, ai_visibility:52, score:67 },
 };
 
-// État réel 2026-04-28 — maintenir ici dans le template source (LAWIA-SEO/src/dashboard/)
+// État réel 2026-05-03 — Sprint 2 P1 appliqué — maintenir dans LAWIA-SEO/src/dashboard/
 const CHECKLIST = [
-  {label:'Schema LegalService',         cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'Schema LocalBusiness',        cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'FAQPage schema articles',     cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'GeoJSON bureaux',             cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'GBP Salon-de-Provence',       cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'GBP Aix-en-Provence',         cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'Sitemap XML valide',          cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'robots.txt correct',          cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'llms.txt présent',            cat:'IA/GEO',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'H2/H3 CSS scopé articles',    cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'Image hero articles',         cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'Image milieu articles',       cat:'Contenu',   k:{victime:1,divorce:1,permis:0}, prio:'Haute'},
-  {label:'FAQ accordéon <details>',     cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'4+ liens internes/article',   cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'Liens Légifrance réels',      cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'Alt images + OG meta',        cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'Pages locales villes (4+)',   cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'Deploy auto Cloudflare',      cat:'Pipeline',  k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'NeuronWriter optimisation',   cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
-  {label:'Redirects 301 configurés',    cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Moyenne'},
+  {label:'Migration Next.js 15 + Sanity',     cat:'Pipeline',  k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Deploy auto CF Pages (new repo)',    cat:'Pipeline',  k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Monitor dashboard CF Pages live',   cat:'Pipeline',  k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Schema LegalService',               cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'BreadcrumbList JSON-LD (villes)',    cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'BreadcrumbList JSON-LD (cabinet)',   cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'BreadcrumbList JSON-LD (pages)',     cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'FAQPage schema articles',           cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'FAQPage schema villes',             cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'jsonLdArticle slug fix (no prefix)',cat:'Schema',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'overrideCanonical toutes pages',    cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Canonicals Sanity nettoyés (74)',   cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'__none__ filtré sitemap+noindex',   cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'frame-src Google Maps CSP',         cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Sitemap XML valide',                cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'robots.txt correct (IA bots)',      cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'llms.txt présent',                  cat:'IA/GEO',    k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'GBP sameAs (4 fiches)',             cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Pages locales villes (4+)',         cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Maps embed cabinet (CSP ok)',        cat:'Local',     k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'Image hero articles (Sanity)',      cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'4+ liens internes/article',         cat:'Contenu',   k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
+  {label:'NeuronWriter retro-audit ≥75',      cat:'Contenu',   k:{victime:0,divorce:0,permis:0}, prio:'Haute'},
+  {label:'/avocat-divorce redirect 301',       cat:'Technique', k:{victime:0,divorce:1,permis:0}, prio:'Moyenne'},
+  {label:'Redirects actualites-xxx 301',      cat:'Technique', k:{victime:1,divorce:1,permis:1}, prio:'Moyenne'},
 ];
 
 const PRIO_COLOR = {Haute:'var(--red)',Moyenne:'var(--yellow)',Basse:'var(--green)'};
@@ -852,6 +855,10 @@ async function loadData(){
   }
   renderAll(gData);
   updateAgeIndicator();
+  // Panneaux ex-worker — alimentés par le même snapshot
+  loadCoverage();
+  loadNwSummary();
+  loadCWVFromDimensions();
 }
 
 function updateAgeIndicator(){
@@ -1095,76 +1102,77 @@ function renderChecklist(audit){
 
 // ═══════════ CWV ═══════════
 function renderCWV(technical){
+  // technical = { victime: {lcp,cls,inp,mobile,psiSource}, divorce: {...} }
+  // Falls back to demo values only if no real data
   const demo={
-    victime:{lcp:1.8,cls:0.04,fid:12,mobile:82,perf:82},
-    divorce:{lcp:2.1,cls:0.06,fid:18,mobile:78,perf:78},
+    victime:{lcp:1.8,cls:0.04,inp:null,mobile:82},
+    divorce:{lcp:2.1,cls:0.06,inp:null,mobile:78},
   };
   ['victime','divorce'].forEach(site=>{
     const div=document.getElementById('cwv-'+site);
+    if(!div) return;
     const t=technical?.[site]??demo[site];
-    const lcpC=t.lcp<=2.5?'cwv-ok':t.lcp<=4?'cwv-mid':'cwv-bad';
-    const clsC=t.cls<=0.1?'cwv-ok':t.cls<=0.25?'cwv-mid':'cwv-bad';
-    const fidC=t.fid<=100?'cwv-ok':t.fid<=300?'cwv-mid':'cwv-bad';
+    const isReal=!!(technical?.[site]);
+    const lcpV=t.lcp!=null?t.lcp:'—';
+    const clsV=t.cls!=null?t.cls:'—';
+    const inpV=t.inp!=null?t.inp:'—';
+    const lcpC=t.lcp!=null?(t.lcp<=2.5?'cwv-ok':t.lcp<=4?'cwv-mid':'cwv-bad'):'';
+    const clsC=t.cls!=null?(t.cls<=0.1?'cwv-ok':t.cls<=0.25?'cwv-mid':'cwv-bad'):'';
+    const inpC=t.inp!=null?(t.inp<=200?'cwv-ok':t.inp<=500?'cwv-mid':'cwv-bad'):'';
+    const mob=t.mobile??0;
+    const src=t.psiSource??'';
+    const srcLabel=src==='psi-field'?'CrUX terrain':src==='psi-lab'?'Lighthouse lab':'PSI indisponible';
+    const srcColor=src==='psi-field'?'var(--green)':src==='psi-lab'?'var(--yellow)':'var(--muted)';
     div.innerHTML=`<div class="cwv-g">
-      <div class="cwv-i"><div class="cwv-n">LCP</div><div class="cwv-v ${lcpC}">${t.lcp}<span class="cwv-u">s</span></div><div class="cwv-u">Largest Paint</div></div>
-      <div class="cwv-i"><div class="cwv-n">CLS</div><div class="cwv-v ${clsC}">${t.cls}</div><div class="cwv-u">Layout Shift</div></div>
-      <div class="cwv-i"><div class="cwv-n">FID</div><div class="cwv-v ${fidC}">${t.fid}<span class="cwv-u">ms</span></div><div class="cwv-u">Input Delay</div></div>
+      <div class="cwv-i"><div class="cwv-n">LCP</div><div class="cwv-v ${lcpC}">${lcpV}${t.lcp!=null?'<span class="cwv-u">s</span>':''}</div><div class="cwv-u">Largest Paint</div></div>
+      <div class="cwv-i"><div class="cwv-n">CLS</div><div class="cwv-v ${clsC}">${clsV}</div><div class="cwv-u">Layout Shift</div></div>
+      <div class="cwv-i"><div class="cwv-n">INP</div><div class="cwv-v ${inpC}">${inpV}${t.inp!=null?'<span class="cwv-u">ms</span>':''}</div><div class="cwv-u">Interaction</div></div>
     </div>
     <div style="display:flex;align-items:center;gap:8px;margin-top:8px">
       <div style="font-size:10px;color:var(--muted)">Score mobile</div>
-      <div class="pb" style="flex:1;margin:0"><div class="pf ${t.mobile>=80?'green':t.mobile>=50?'yellow':'red'}" style="width:${t.mobile}%"></div></div>
-      <div style="font-size:12px;font-weight:700">${t.mobile}/100</div>
+      <div class="pb" style="flex:1;margin:0"><div class="pf ${mob>=80?'green':mob>=50?'yellow':'red'}" style="width:${mob}%"></div></div>
+      <div style="font-size:12px;font-weight:700">${mob>0?mob+'/100':'—'}</div>
     </div>
-    ${!technical?'<div style="font-size:10px;color:var(--muted);margin-top:7px;text-align:center">⚠ Valeurs estimées — lancez un audit pour les mesures réelles</div>':''}`;
+    ${isReal
+      ?`<div style="font-size:10px;margin-top:7px;text-align:right;color:${srcColor}">● ${srcLabel}</div>`
+      :'<div style="font-size:10px;color:var(--muted);margin-top:7px;text-align:center">⚠ Valeurs estimées — lancez un audit pour les mesures réelles</div>'
+    }`;
   });
 }
 
-// ═══════════ AUDIT TRIGGER ═══════════
-const WORKER_URL = 'https://lawia-worker-production.up.railway.app';
+// ═══════════ CWV (snapshot lexvox-data.json, régénéré par cron — ex-worker Railway) ═══════════
+function loadCWVFromDimensions(){
+  const SITES_CWV=[
+    {key:'victime',domain:'lexvox-victime.com'},
+    {key:'divorce',domain:'lexvox-divorce.com'},
+  ];
+  try {
+    const audits = gData?.audits;
+    if(!audits) return; // snapshot pas encore présent — laisser valeurs démo
+    const technical={};
+    for(const s of SITES_CWV){
+      const a = audits[s.domain];
+      if(!a || a.noData) continue;
+      const cwv = a.cwv ?? {};
+      const hasCWV = cwv.lcp!=null || cwv.cls!=null || cwv.inp!=null;
+      const mobile = cwv.mobile ?? a.scoresByDim?.performance ?? 0;
+      if(!hasCWV && !mobile) continue;
+      technical[s.key]={
+        lcp: cwv.lcp!=null ? Math.round(cwv.lcp*100)/100 : null,
+        cls: cwv.cls!=null ? Math.round(cwv.cls*1000)/1000 : null,
+        inp: cwv.inp!=null ? Math.round(cwv.inp) : null,
+        mobile,
+        psiSource: cwv.psiSource??'fallback',
+      };
+    }
+    if(Object.keys(technical).length) renderCWV(technical);
+  } catch(e){ console.warn('loadCWVFromDimensions error',e); }
+}
 
-// Token Railway — auto-seed au load (plus de modale par défaut)
-const DEFAULT_API_TOKEN = '221ec9f64dd9c3aab14524a138408b09e9953c3240811a50a478ea05e5285dd2';
-(function seedToken(){
-  const cur = localStorage.getItem('lawia_api_token');
-  if(!cur || !cur.trim()) localStorage.setItem('lawia_api_token', DEFAULT_API_TOKEN);
-})();
-
-let _tokenResolve = null;
-function getAuthTokenAsync(){
-  const stored = localStorage.getItem('lawia_api_token');
-  if(stored && stored.trim()) return Promise.resolve(stored.trim());
-  // Fallback ultime — seed token par défaut au lieu d'ouvrir modale
-  localStorage.setItem('lawia_api_token', DEFAULT_API_TOKEN);
-  return Promise.resolve(DEFAULT_API_TOKEN);
-}
-function confirmTokenModal(){
-  const inp = document.getElementById('token-modal-input');
-  const tok = (inp?.value||'').trim();
-  if(!tok) return;
-  localStorage.setItem('lawia_api_token', tok);
-  document.getElementById('token-modal')?.classList.remove('open');
-  if(inp) inp.value='';
-  if(_tokenResolve){ _tokenResolve(tok); _tokenResolve=null; }
-}
-function cancelTokenModal(){
-  document.getElementById('token-modal')?.classList.remove('open');
-  const inp = document.getElementById('token-modal-input');
-  if(inp) inp.value='';
-  if(_tokenResolve){ _tokenResolve(''); _tokenResolve=null; }
-}
-function resetAuthToken(){
-  localStorage.removeItem('lawia_api_token');
-  logAudit('Token effacé — il sera demandé au prochain audit.');
-}
-function authHeaders(){
-  // Sync fallback — token doit être déjà stocké. Pour le premier appel utiliser authHeadersAsync()
-  const tok = localStorage.getItem('lawia_api_token')||'';
-  return { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + tok };
-}
-async function authHeadersAsync(){
-  const tok = await getAuthTokenAsync();
-  return { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + tok };
-}
+// ═══════════ AUDIT TRIGGER (GitHub Actions — worker Railway décommissionné) ═══════════
+const GH_ACTIONS_BASE = 'https://github.com/Humbert-lawia/LAWIA-SEO/actions/workflows';
+// Purge du token legacy stocké par les anciennes versions (worker supprimé, token révoqué).
+try { localStorage.removeItem('lawia_api_token'); } catch(e) {}
 
 const SITES_DOMAINS = {
   victime: 'https://lexvox-victime.com/',
@@ -1181,10 +1189,7 @@ let currentAuditIds = [];
 let auditStartTime = null;
 
 function triggerAudit(){
-  // Ex-worker Railway. Les audits tournent désormais via GitHub Actions
-  // (daily-seo-audit, quotidien + déclenchable). Le bouton ouvre la page
-  // "Run workflow" — clique "Run workflow" là-bas pour un audit à la demande.
-  window.open('https://github.com/Humbert-lawia/LAWIA-SEO/actions/workflows/daily-seo-audit.yml','_blank','noopener');
+  document.getElementById('audit-modal').classList.add('open');
 }
 
 function closeAuditModal(){
@@ -1200,52 +1205,18 @@ function selectAuditSite(site){
 }
 
 async function launchAudit(){
-  const btn = document.getElementById('amod-launch-btn');
-  const email = document.getElementById('amod-email-input')?.value.trim() || null;
-  btn.disabled = true;
-  btn.textContent = '⏳ Envoi…';
-
-  const sites = auditSiteSelected === 'tous'
-    ? Object.keys(SITES_DOMAINS)
-    : [auditSiteSelected];
-
+  // L'audit 7 phases tourne désormais sur GitHub Actions (weekly-audit-ultime.yml,
+  // lundi 05:00 UTC + déclenchement manuel). Aucun secret côté navigateur :
+  // on ouvre la page du workflow, l'utilisateur clique "Run workflow".
   closeAuditModal();
-  sv('audit');          // s'assurer que le panneau audit est visible
-  showAuditProgress(sites);
-
-  currentAuditIds = [];
-  let allOk = true;
-
-  const hdrs = await authHeadersAsync();
-  for(const site of sites){
-    try{
-      const resp = await fetch(`${WORKER_URL}/webhook/audit-ultime`, {
-        method: 'POST',
-        headers: hdrs,
-        body: JSON.stringify({url: SITES_DOMAINS[site], email})
-      });
-      const data = await resp.json();
-      if(resp.ok && data.auditId){
-        currentAuditIds.push({site, auditId: data.auditId});
-        logAudit(`✅ ${site}: audit #${data.auditId.slice(-8)} en file d'attente`);
-      } else {
-        logAudit(`⚠ ${site}: ${data.error||'Erreur inconnue'}`);
-        allOk = false;
-      }
-    } catch(e){
-      logAudit(`❌ ${site}: ${e.message}`);
-      allOk = false;
-    }
-  }
-
-  btn.disabled = false;
-  btn.textContent = '🚀 Lancer l\'audit';
-
-  if(currentAuditIds.length > 0){
-    startAuditPolling();
-  } else {
-    setAuditStatus('❌ Erreur — vérifiez que le worker Railway est démarré');
-  }
+  sv('audit');
+  const panel = document.getElementById('audit-progress-panel');
+  if(panel) panel.style.display = 'block';
+  const site = auditSiteSelected === 'tous' ? '' : auditSiteSelected;
+  window.open(`${GH_ACTIONS_BASE}/weekly-audit-ultime.yml`, '_blank', 'noopener');
+  logAudit('ℹ Audit délégué à GitHub Actions — onglet ouvert, cliquez "Run workflow"' + (site?` (site: ${site})`:' (tous les sites)') + '.');
+  logAudit('Durée ~5 min/site. Rapport PDF envoyé par email, scores visibles ici après le sync quotidien.');
+  setAuditStatus('🚀 Audit via GitHub Actions — voir l\'onglet ouvert');
 }
 
 function showAuditProgress(sites){
@@ -1334,82 +1305,51 @@ function stopAuditTimers(){
   if(auditTimerInterval){   clearInterval(auditTimerInterval);   auditTimerInterval=null; }
 }
 
-function startAuditPolling(){
-  stopAuditTimers();
-  // Snapshot état par auditId pour ne logger qu'une fois "done"
-  const logged = new Set();
+// (Polling worker Railway supprimé — les scores arrivent via lexvox-data.json,
+//  régénéré par les crons GitHub Actions : daily-gsc-sync + daily-seo-audit.)
 
-  auditPollingInterval = setInterval(async ()=>{
-    const states = [];    // {site, phase, status, score}
-    let allDone   = true;
-    let anyFailed = false;
+// ═══════════ COUNTDOWN PROCHAIN SYNC CRON ═══════════
+let _countdownEl = null;
+let _countdownTimer = null;
 
-    for(const {site, auditId} of currentAuditIds){
-      try{
-        const resp = await fetch(`${WORKER_URL}/audit-ultime/${auditId}`,{cache:'no-store'});
-        if(!resp.ok){ allDone=false; continue; }
-        const audit = await resp.json();
-        const phase   = audit.currentPhase ?? 0;
-        const status  = audit.status ?? 'queued';
-        const score   = audit.seoScore;
-        states.push({site, phase, status, score, auditId});
+function startNextSyncCountdown(){
+  // Cron: every day at 05:00 UTC (nightly monitor data sync)
+  const now = new Date();
+  const nextSync = new Date(Date.UTC(
+    now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + (now.getUTCHours() >= 5 ? 1 : 0), 5, 0, 0
+  ));
+  const diffMs = nextSync - now;
+  if(diffMs < 0) return;
 
-        const isDone   = status==='done';
-        const isFailed = status==='failed';
-        if(!isDone && !isFailed) allDone=false;
-        if(isFailed) anyFailed=true;
+  if(_countdownTimer) clearInterval(_countdownTimer);
 
-        // Barre individuelle
-        const pct = phaseToPercent(phase, status);
-        const fillEl = document.getElementById(`ap-fill-${site}`);
-        const pctEl  = document.getElementById(`ap-pct-${site}`);
-        const stsEl  = document.getElementById(`ap-sts-${site}`);
-        if(fillEl) fillEl.style.width = pct+'%';
-        if(pctEl)  pctEl.textContent  = pct+'%';
-        if(isDone && fillEl){ fillEl.style.background='var(--green)'; }
-        if(isFailed && fillEl){ fillEl.style.background='var(--red)'; }
-        if(stsEl){
-          if(isDone)   stsEl.textContent=`✅ Score ${score??'—'}/100`;
-          else if(isFailed) stsEl.textContent='❌ Échec';
-          else stsEl.textContent=`Phase ${phase}/${AUDIT_TOTAL_PHASES} — ${AUDIT_PHASES[Math.min(phase,AUDIT_TOTAL_PHASES-1)]}`;
-        }
+  // Find or create countdown element in audit log
+  let banner = document.getElementById('ap-sync-countdown');
+  if(!banner){
+    const log = document.getElementById('ap-log');
+    if(!log) return;
+    banner = document.createElement('div');
+    banner.id = 'ap-sync-countdown';
+    banner.style.cssText = 'font-size:11px;color:var(--muted);margin-top:8px;padding:6px 8px;background:rgba(59,130,246,.08);border-radius:6px;border:1px solid rgba(59,130,246,.2);';
+    log.parentNode?.insertBefore(banner, log.nextSibling);
+  }
 
-        // Log unique par audit terminé
-        if(isDone && !logged.has(auditId)){
-          logged.add(auditId);
-          logAudit(`✅ ${site} terminé — score ${score??'—'}/100`);
-        }
-        if(isFailed && !logged.has(auditId)){
-          logged.add(auditId);
-          logAudit(`❌ ${site} échoué — vérifier logs Railway`);
-        }
-      } catch(e){ allDone=false; }
+  function update(){
+    const remaining = nextSync - new Date();
+    if(remaining <= 0){
+      if(_countdownTimer) clearInterval(_countdownTimer);
+      if(banner) banner.textContent = '🔄 Sync nightly disponible — rechargement…';
+      setTimeout(()=>{ loadData(); if(banner) banner.remove(); }, 2000);
+      return;
     }
+    const h = Math.floor(remaining / 3600000);
+    const m = Math.floor((remaining % 3600000) / 60000);
+    const s = Math.floor((remaining % 60000) / 1000);
+    banner.innerHTML = `🕐 Données complètes (articles, GSC) disponibles dans <strong>${h}h ${m}m ${s}s</strong> — cron 5h UTC`;
+  }
 
-    // Anneau global = moyenne des % de tous les sites
-    if(states.length){
-      const avgPct = states.reduce((s,a)=>s+phaseToPercent(a.phase,a.status),0)/states.length;
-      setAuditRing(avgPct);
-      // Phase courante = max des phases actives
-      const maxPhase = Math.max(...states.map(a=>a.phase));
-      const runningPhase = states.find(a=>a.status==='running')?.phase ?? maxPhase;
-      const donePhases   = states.every(a=>a.status==='done') ? AUDIT_PHASES.map((_,i)=>i) : [];
-      renderPhaseChips(donePhases, runningPhase);
-      const activePhaseLabel = AUDIT_PHASES[Math.min(runningPhase,AUDIT_TOTAL_PHASES-1)];
-      setAuditStatus(allDone ? (anyFailed?'Terminé avec erreurs':'Terminé ✅') : `${activePhaseLabel}…`);
-    }
-
-    if(allDone){
-      stopAuditTimers();
-      setAuditRing(100);
-      renderPhaseChips(AUDIT_PHASES.map((_,i)=>i));
-      const color = anyFailed ? 'var(--red)' : 'var(--green)';
-      const ring = document.getElementById('ap-ring-fill');
-      if(ring) ring.style.stroke = color;
-      logAudit(anyFailed?'⚠️ Audit terminé avec des erreurs.':'🎉 Tous les audits sont terminés !');
-      setTimeout(()=>loadData(), 3000);
-    }
-  }, 5000); // poll toutes les 5s
+  update();
+  _countdownTimer = setInterval(update, 1000);
 }
 
 // ═══════════ CHART HELPERS ═══════════
@@ -1869,7 +1809,7 @@ function initNwScores(d){
 }
 
 // ═══════════ INIT ═══════════
-async function loadCoverage(){
+function loadCoverage(){
   const tbody = document.getElementById('coverage-tbody');
   const details = document.getElementById('coverage-details');
   if(!tbody) return;
@@ -1878,54 +1818,106 @@ async function loadCoverage(){
     {key:'divorce', domain:'lexvox-divorce.com'},
     {key:'permis',  domain:'lexvox-permis.com'},
   ];
+  const cov = gData?.coverage;
   const rows = [];
   const detailLines = [];
+  // URLs de crawl/audit = données semi-fiables → esc() systématique
+  const escList = (arr,n)=>arr.slice(0,n).map(u=>esc(String(u))).join(', ')+(arr.length>n?'…':'');
   for(const s of sites){
-    {
-      // Lu depuis lexvox-data.json (snapshot régénéré par daily-gsc-sync) — ex-worker Railway
-      const d = (gData && gData.coverage && gData.coverage[s.domain]) || {noData:true};
-      if(d.noData){
-        rows.push(`<tr><td>${s.domain}</td><td colspan="8" style="color:var(--muted)">Aucun audit</td></tr>`);
-        continue;
-      }
-      const sm = d.summary;
-      const sitemapStatus = d.sitemapOk ? '✅' : '⚠️';
-      const robotsStatus = d.robotsOk ? '✅' : '⚠️';
-      rows.push(`<tr>
-        <td><a href="https://${s.domain}/sitemap.xml" target="_blank" style="color:var(--blue)">${s.domain}</a></td>
-        <td>${sitemapStatus} ${robotsStatus}</td>
-        <td>${sm.indexable}</td>
-        <td style="color:var(--green)">${sm.indexed}</td>
-        <td style="color:${sm.nonIndexed>0?'var(--red)':'var(--muted)'}">${sm.nonIndexed}</td>
-        <td style="color:${sm.broken404>0?'var(--red)':'var(--green)'}">${sm.broken404}</td>
-        <td style="color:${sm.sitemapDead>0?'var(--red)':'var(--muted)'}">${sm.sitemapDead}</td>
-        <td>${sm.orphan}</td>
-        <td>${sm.redirects}</td>
-      </tr>`);
-      if(d.details.brokenLinks?.length){
-        detailLines.push(`<b>${s.domain}</b> 404 (${d.details.brokenLinks.length}): ${d.details.brokenLinks.slice(0,5).join(', ')}${d.details.brokenLinks.length>5?'…':''}`);
-      }
-      if(d.details.nonIndexed?.length){
-        detailLines.push(`<b>${s.domain}</b> non-indexées (${d.details.nonIndexed.length}): ${d.details.nonIndexed.slice(0,3).join(', ')}${d.details.nonIndexed.length>3?'…':''}`);
-      }
-      if(d.details.sitemapDead?.length){
-        detailLines.push(`<b>${s.domain}</b> sitemap dead (${d.details.sitemapDead.length}): ${d.details.sitemapDead.slice(0,3).join(', ')}${d.details.sitemapDead.length>3?'…':''}`);
-      }
+    const d = cov?.[s.domain];
+    if(!d || d.noData){
+      rows.push(`<tr><td>${s.domain}</td><td colspan="8" style="color:var(--muted)">${cov?'Aucun audit':'Snapshot en attente (sync quotidien)'}</td></tr>`);
+      continue;
+    }
+    const sm = d.summary;
+    const sitemapStatus = d.sitemapOk ? '✅' : '⚠️';
+    const robotsStatus = d.robotsOk ? '✅' : '⚠️';
+    rows.push(`<tr>
+      <td><a href="https://${s.domain}/sitemap.xml" target="_blank" rel="noopener" style="color:var(--blue)">${s.domain}</a></td>
+      <td>${sitemapStatus} ${robotsStatus}</td>
+      <td>${sm.indexable}</td>
+      <td style="color:var(--green)">${sm.indexed}</td>
+      <td style="color:${sm.nonIndexed>0?'var(--red)':'var(--muted)'}">${sm.nonIndexed}</td>
+      <td style="color:${sm.broken404>0?'var(--red)':'var(--green)'}">${sm.broken404}</td>
+      <td style="color:${sm.sitemapDead>0?'var(--red)':'var(--muted)'}">${sm.sitemapDead}</td>
+      <td>${sm.orphan}</td>
+      <td>${sm.redirects}</td>
+    </tr>`);
+    if(d.details?.brokenLinks?.length){
+      detailLines.push(`<b>${s.domain}</b> 404 (${d.details.brokenLinks.length}): ${escList(d.details.brokenLinks,5)}`);
+    }
+    if(d.details?.nonIndexed?.length){
+      detailLines.push(`<b>${s.domain}</b> non-indexées (${d.details.nonIndexed.length}): ${escList(d.details.nonIndexed,3)}`);
+    }
+    if(d.details?.sitemapDead?.length){
+      detailLines.push(`<b>${s.domain}</b> sitemap dead (${d.details.sitemapDead.length}): ${escList(d.details.sitemapDead,3)}`);
     }
   }
   tbody.innerHTML = rows.join('');
   if(details) details.innerHTML = detailLines.join('<br>') || '<i>Aucun problème détecté</i>';
 }
 
+// ═══════════ NW Coverage ═══════════
+function loadNwSummary(){
+  const grid = document.getElementById('nw-coverage-grid');
+  if(!grid) return;
+  // Calculé côté client depuis nw_scores (snapshot quotidien) — ex-endpoint worker
+  const nw = gData?.nw_scores;
+  if(!nw){
+    grid.innerHTML = '<div style="grid-column:1/-1;color:var(--muted)">Données NW en attente du sync quotidien.</div>';
+    return;
+  }
+  const sites = ['victime','divorce','permis'];
+  const labels = {victime:'🔵 Victime', divorce:'🟣 Divorce', permis:'🔴 Permis'};
+  const cards = sites.map(k=>{
+    const list = Array.isArray(nw[k]) ? nw[k] : [];
+    const total = list.length;
+    const green  = list.filter(s=>(s.score||0)>=70).length;
+    const orange = list.filter(s=>{const v=s.score||0;return v>=40&&v<70;}).length;
+    const red    = total - green - orange;
+    const avgScore = total ? Math.round(list.reduce((a,s)=>a+(s.score||0),0)/total) : 0;
+    const dates = list.map(s=>s.usedAt||s.evaluatedAt).filter(Boolean).sort();
+    const oldest = dates.length ? new Date(dates[0]).toLocaleDateString('fr-FR') : '—';
+    const t = total || 1;
+    const gPct = Math.round((green/t)*100);
+    const oPct = Math.round((orange/t)*100);
+    const rPct = 100 - gPct - oPct;
+    return `<div style="border:1px solid #1e2630;border-radius:10px;padding:14px;background:#0f141b">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px">
+        <div style="font-weight:600">${labels[k]}</div>
+        <div style="font-size:11px;color:var(--muted)">${total} articles</div>
+      </div>
+      <div style="display:flex;height:14px;border-radius:7px;overflow:hidden;background:#1e2630;margin-bottom:8px">
+        <div title="Vert ≥70 (${green})" style="width:${gPct}%;background:#22c55e"></div>
+        <div title="Orange 40-69 (${orange})" style="width:${oPct}%;background:#f59e0b"></div>
+        <div title="Rouge <40 (${red})" style="width:${rPct}%;background:#ef4444"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-bottom:10px">
+        <span>Vert ${green} · Orange ${orange} · Rouge ${red}</span>
+        <span>Moy ${avgScore}/100</span>
+      </div>
+      <div style="font-size:10px;color:var(--muted);margin-bottom:10px">Plus ancien éval : ${oldest}</div>
+      <button class="fb" onclick="triggerNwReoptim('${k}')"
+        style="width:100%;padding:8px;font-size:12px">Re-optimize NW</button>
+    </div>`;
+  }).join('');
+  grid.innerHTML = cards;
+}
+
+function triggerNwReoptim(site){
+  // Worker décommissionné — la ré-optimisation tourne sur GitHub Actions (weekly-nw-retro.yml)
+  if(!confirm(`Re-optimisation NW pour ${site} : ouvre GitHub Actions (weekly-nw-retro).\nCliquez "Run workflow" sur la page.`)) return;
+  window.open(`${GH_ACTIONS_BASE}/weekly-nw-retro.yml`, '_blank', 'noopener');
+}
+
 window.addEventListener('DOMContentLoaded',()=>{
   const hash=location.hash.replace('#','');
   if(['overview','audit','articles','positions','technique','nw-scores'].includes(hash)) sv(hash);
-  loadData();
-  loadCoverage();
+  loadData(); // appelle aussi loadCoverage/loadNwSummary/loadCWVFromDimensions (snapshot)
 });
 
 setInterval(loadData, 5*60*1000);
-setInterval(loadCoverage, 5*60*1000);
+setInterval(loadCWVFromDimensions, 5*60*1000);
 </script>
 </body>
 </html>
