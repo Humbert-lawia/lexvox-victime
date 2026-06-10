@@ -269,6 +269,7 @@ td a:hover{text-decoration:underline}
     <button class="nav-tab" data-view="audit" onclick="sv('audit')">🔍 Audit</button>
     <button class="nav-tab" data-view="articles" onclick="sv('articles')">📝 Articles</button>
     <button class="nav-tab" data-view="positions" onclick="sv('positions')">📈 Positions</button>
+    <button class="nav-tab" data-view="opportunites" onclick="sv('opportunites')">💡 Opportunités</button>
     <button class="nav-tab" data-view="trafic" onclick="sv('trafic')">📉 Trafic GSC</button>
     <button class="nav-tab" data-view="technique" onclick="sv('technique')">⚙️ Technique</button>
     <button class="nav-tab" data-view="nw-scores" onclick="sv('nw-scores')">📊 Scores NW</button>
@@ -563,6 +564,40 @@ td a:hover{text-decoration:underline}
   </div>
 </div>
 
+<!-- ═══════════════ OPPORTUNITÉS ═══════════════ -->
+<div class="view" id="view-opportunites">
+  <div class="G">
+    <div class="full">
+      <div class="alert alert-info">💡 <strong>Opportunités d'articles</strong> — analyse GSC : requêtes très recherchées où vous êtes en page 2-3 (gain rapide), et sujets à fort potentiel sans article dédié. Trié par impact estimé. Cliquez « Générer » pour lancer le pipeline NeuronWriter.</div>
+    </div>
+
+    <!-- KPI résumé -->
+    <div class="card full" style="padding:14px 18px">
+      <div id="opp-kpi" style="display:flex;gap:24px;flex-wrap:wrap;font-size:13px;color:var(--muted)">
+        <span>Chargement des opportunités…</span>
+      </div>
+    </div>
+
+    <!-- Striking distance (pos 11-20) -->
+    <div class="card full">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--yellow)"></span>Quick wins — page 2 (positions 11-20, fortes impressions)</div>
+        <span style="font-size:11px;color:var(--muted)">Petit effort, fort impact : optimiser l'article existant suffit souvent</span>
+      </div>
+      <div id="opp-striking" style="overflow-x:auto"></div>
+    </div>
+
+    <!-- Nouveaux articles à créer -->
+    <div class="card full">
+      <div class="ch">
+        <div class="ct"><span class="dot" style="background:var(--green)"></span>Sujets à créer — fortes impressions, pas (ou peu) d'article dédié</div>
+        <span style="font-size:11px;color:var(--muted)">Requêtes où Google vous montre mais sans page ciblée</span>
+      </div>
+      <div id="opp-create" style="overflow-x:auto"></div>
+    </div>
+  </div>
+</div>
+
 <!-- ═══════════════ TECHNIQUE ═══════════════ -->
 <div class="view" id="view-technique">
   <div class="G">
@@ -759,14 +794,7 @@ const DIMS = [
   {key:'ai_visibility',label:'Visib. IA', color:'#f97316'},
 ];
 
-// Scores post-migration 2026-05-03 — mis à jour après sprint 2 P1 Next.js+Sanity
-const DEFAULT_AUDIT = {
-  victime:{ technique:72, contenu:70, local:68, schema:75, performance:65, backlinks:35, ai_visibility:60, score:72 },
-  divorce:{ technique:73, contenu:70, local:68, schema:75, performance:65, backlinks:30, ai_visibility:58, score:73 },
-  permis: { technique:67, contenu:65, local:65, schema:72, performance:63, backlinks:25, ai_visibility:52, score:67 },
-};
-
-// État réel 2026-05-03 — Sprint 2 P1 appliqué — maintenir dans LAWIA-SEO/src/dashboard/
+// Checklist SEO — état de référence (mis à jour manuellement dans LAWIA-SEO/src/dashboard/)
 const CHECKLIST = [
   {label:'Migration Next.js 15 + Sanity',     cat:'Pipeline',  k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
   {label:'Deploy auto CF Pages (new repo)',    cat:'Pipeline',  k:{victime:1,divorce:1,permis:1}, prio:'Haute'},
@@ -880,8 +908,9 @@ function renderAll(d){
   renderGSCSnap(d?.positions??null);
   renderArtsPreview(d?.articles??null);
   renderAllArts(d?.articles??null);
-  renderAudit(d?.audit??null);
+  renderAudit();
   renderChecklist(d?.audit??null);
+  renderOpportunities();
   renderCWV(d?.technical??null);
   if(d?.sites){
     const v=d.sites.victime;const dv=d.sites.divorce;
@@ -899,14 +928,10 @@ function renderMetrics(d){
   const arts=d?.articles?.total??0;
   document.getElementById('m-arts').textContent=arts;
   document.getElementById('m-arts-s').textContent=arts>0?('+'+( d?.articles?.this_week??0)+' cette semaine'):'Pipeline actif';
-  const audit=d?.audit;
-  if(audit?.sites){
-    const scores=Object.values(audit.sites).map(s=>s.score).filter(x=>x!=null);
-    const avg=scores.length?Math.round(scores.reduce((a,b)=>a+b,0)/scores.length):null;
-    document.getElementById('m-score').textContent=avg!=null?(avg+'/100'):'—';
-    const delta=audit.delta_avg;
-    if(delta) document.getElementById('m-score-d').innerHTML=delta>0?`<span class="du">▲ +${delta}</span>`:`<span class="dd2">▼ ${delta}</span>`;
-  }
+  // Score moyen depuis les vrais audits (gData.audits[domain].seoScore)
+  const auditScores=['victime','divorce','permis'].map(k=>auditForSite(k)?.score).filter(x=>x!=null);
+  const avg=auditScores.length?Math.round(auditScores.reduce((a,b)=>a+b,0)/auditScores.length):null;
+  document.getElementById('m-score').textContent=avg!=null?(avg+'/100'):'—';
   const nw=d?.nw;
   if(nw){ document.getElementById('m-nw').textContent=nw.used; document.getElementById('m-nw-s').textContent=nw.remaining+' restantes / '+nw.cap; }
   const plan=d?.plan;
@@ -1001,11 +1026,20 @@ function posRow(kw){
 }
 
 // ═══════════ ARTICLES PREVIEW ═══════════
+// Tri récent→ancien sur la meilleure date dispo (audit/optim/publication).
+function artDate(a){ return a.last_evaluated || a.last_optimized || a.date || a.usedAt || a.createdAt || ''; }
+function sortArtsDesc(list){
+  return [...(list||[])].sort((x,y)=>{
+    const dx=Date.parse(artDate(x))||0, dy=Date.parse(artDate(y))||0;
+    return dy-dx;
+  });
+}
+
 function renderArtsPreview(arts){
   if(!arts) return;
   document.getElementById('articles-count').textContent=(arts.total??0)+' total';
   const tbody=document.getElementById('articles-body');
-  const rows=(arts.recent??[]).slice(0,10);
+  const rows=sortArtsDesc(arts.all??arts.recent??[]).slice(0,10);
   if(!rows.length){ tbody.innerHTML='<tr><td colspan="6" style="text-align:center;color:var(--muted);padding:20px">Aucun article — pipeline actif</td></tr>'; return; }
   tbody.innerHTML=rows.map(a=>artRow(a,false)).join('');
 }
@@ -1013,7 +1047,7 @@ function renderArtsPreview(arts){
 // ═══════════ ALL ARTICLES ═══════════
 function renderAllArts(arts){
   if(!arts) return;
-  allArts=arts.all??arts.recent??[];
+  allArts=sortArtsDesc(arts.all??arts.recent??[]);
   document.getElementById('all-count').textContent=(arts.total??allArts.length)+' total';
   showArtsFiltered();
 }
@@ -1061,27 +1095,128 @@ function artRow(a,withScore){
 }
 
 // ═══════════ AUDIT SITES ═══════════
-function renderAudit(audit){
-  const data=audit?.sites??DEFAULT_AUDIT;
-  if(audit?.last_run) document.getElementById('audit-last-run').textContent='Dernier audit : '+new Date(audit.last_run).toLocaleString('fr-FR');
+// Lit le vrai audit depuis gData.audits[domain] (snapshot dérivé des phases).
+// Plus de DEFAULT_AUDIT : si pas de données, état vide honnête.
+function auditForSite(k){
+  const dom = SITE_META[k]?.domain;
+  const a = gData?.audits?.[dom];
+  if(!a || a.noData) return null;
+  const dim = a.scoresByDim || {};
+  return {
+    score: a.seoScore ?? null,
+    date: a.date || null,
+    technique: dim.technique, contenu: dim.contenu, local: dim.local,
+    schema: dim.schema, performance: dim.performance,
+    backlinks: dim.backlinks, ai_visibility: dim.ai_visibility,
+  };
+}
+
+function renderAudit(){
+  const dates = ['victime','divorce','permis'].map(k=>auditForSite(k)?.date).filter(Boolean).sort();
+  const lr = document.getElementById('audit-last-run');
+  if(lr) lr.textContent = dates.length
+    ? 'Dernier audit : '+new Date(dates[dates.length-1]).toLocaleString('fr-FR')
+    : 'Aucun audit terminé — lancez-en un via le bouton ci-dessus.';
   const grid=document.getElementById('audit-grid');
   grid.innerHTML=['victime','divorce','permis'].map(k=>{
-    const m=SITE_META[k];const s=data[k]??{};
-    const score=s.score??null;
+    const m=SITE_META[k];const s=auditForSite(k);
+    const score=s?.score??null;
     const scls=score===null?'sg-none':score>=70?'sg-ok':score>=50?'sg-mid':'sg-bad';
     const scoreH=score!==null?score:'—';
-    const dimsH=DIMS.map(dim=>{
-      const v=s[dim.key]??0;
-      return `<div class="adi"><div class="adl">${dim.label}</div><div class="adb"><div class="adf" style="width:${Math.min(100,v)}%;background:${dim.color}"></div></div><div class="adv" style="color:${dim.color}">${v||'—'}</div></div>`;
-    }).join('');
+    const dimsH = s ? DIMS.map(dim=>{
+      const v=s[dim.key];
+      const has = v!=null;
+      const w = has?Math.min(100,v):0;
+      return `<div class="adi"><div class="adl">${dim.label}</div><div class="adb"><div class="adf" style="width:${w}%;background:${dim.color}"></div></div><div class="adv" style="color:${has?dim.color:'var(--muted)'}">${has?v:'—'}</div></div>`;
+    }).join('') : '<div style="color:var(--muted);font-size:12px;padding:8px 0">Audit non encore exécuté pour ce site.</div>';
+    const dateH = s?.date ? `<div style="font-size:10px;color:var(--muted);margin-top:4px">${new Date(s.date).toLocaleDateString('fr-FR')}</div>` : '';
     return `<div class="asc" style="border-top-color:${m.color}">
       <div class="as-ring">
         <div class="as-num ${scls}" style="font-size:42px;padding:0;background:none">${scoreH}</div>
         <div class="as-lbl"><a href="${m.url}" target="_blank" rel="noopener" style="color:${m.color};text-decoration:none">${m.domain} ↗</a></div>
+        ${dateH}
       </div>
       <div class="ad">${dimsH}</div>
     </div>`;
   }).join('');
+}
+
+// ═══════════ OPPORTUNITÉS (analyse GSC) ═══════════
+// Lit gData.opportunities = { striking:[...], create:[...] } produit par le pipeline.
+// Fallback : calcul client depuis gData.positions si le pipeline n'a pas encore tourné.
+function computeOpportunitiesFromPositions(){
+  const pos = gData?.positions;
+  if(!pos) return null;
+  const striking=[], create=[];
+  const arts = gData?.articles?.all ?? gData?.articles?.recent ?? [];
+  const hasArticle = (kw)=>{
+    const k=String(kw||'').toLowerCase();
+    return arts.some(a=>{
+      const hay=((a.nw_keyword||'')+' '+(a.theme||'')+' '+(a.slug||'')).toLowerCase();
+      return hay && k.split(' ').filter(w=>w.length>3).every(w=>hay.includes(w));
+    });
+  };
+  for(const site of ['victime','divorce','permis']){
+    for(const r of (pos[site]||[])){
+      const p=+r.position||0, imp=+r.impressions||0;
+      if(p>=11 && p<=20 && imp>=30){
+        striking.push({site,keyword:r.keyword,position:Math.round(p*10)/10,impressions:imp,clicks:r.clicks||0,ctr:imp?Math.round((r.clicks||0)/imp*1000)/10:0});
+      } else if(p>20 && imp>=80 && !hasArticle(r.keyword)){
+        create.push({site,keyword:r.keyword,position:Math.round(p*10)/10,impressions:imp,clicks:r.clicks||0});
+      }
+    }
+  }
+  striking.sort((a,b)=>b.impressions-a.impressions);
+  create.sort((a,b)=>b.impressions-a.impressions);
+  return {striking:striking.slice(0,40), create:create.slice(0,40)};
+}
+
+function oppGenBtn(o){
+  // Délègue au workflow manual-article (GitHub Actions) — pré-remplit theme + site
+  const url=`${GH_ACTIONS_BASE}/manual-article.yml`;
+  return `<button class="fb" style="padding:5px 10px;font-size:11px" title="Ouvre GitHub Actions pour générer l'article (site=${esc(o.site)}, theme=${esc(o.keyword)})" onclick="window.open('${url}','_blank','noopener')">⚙ Générer</button>`;
+}
+
+function renderOpportunities(){
+  const data = gData?.opportunities || computeOpportunitiesFromPositions();
+  const kpi=document.getElementById('opp-kpi');
+  const striveEl=document.getElementById('opp-striking');
+  const createEl=document.getElementById('opp-create');
+  if(!striveEl||!createEl) return;
+  if(!data){
+    if(kpi) kpi.innerHTML='<span>⏳ En attente des données GSC (sync quotidien). Vérifiez que Search Console est connecté.</span>';
+    striveEl.innerHTML='<div class="empty"><div class="ei">🎯</div><p>Pas encore de données GSC.</p></div>';
+    createEl.innerHTML='';
+    return;
+  }
+  const fmtRow=(o,withGen)=>`<tr>
+    <td><span class="badge ${esc(SITE_META[o.site]?.badge||'')}">${esc(o.site)}</span></td>
+    <td style="max-width:340px"><a href="https://www.google.fr/search?q=${encodeURIComponent(o.keyword)}" target="_blank" rel="noopener noreferrer" style="color:var(--text)">${esc(o.keyword)}</a></td>
+    <td style="text-align:center;font-weight:700;color:${o.position<=15?'var(--yellow)':'var(--muted)'}">${o.position}</td>
+    <td style="text-align:right">${o.impressions.toLocaleString('fr-FR')}</td>
+    <td style="text-align:right">${o.clicks||0}</td>
+    ${o.ctr!=null?`<td style="text-align:right;color:${o.ctr<2?'var(--red)':'var(--muted)'}">${o.ctr}%</td>`:''}
+    <td style="text-align:right">${withGen?oppGenBtn(o):''}</td>
+  </tr>`;
+  const tbl=(rows,head)=>`<table style="width:100%;border-collapse:collapse;font-size:12px">
+    <thead><tr style="background:rgba(255,255,255,.04);color:var(--muted);text-align:left">${head}</tr></thead>
+    <tbody>${rows}</tbody></table>`;
+  // KPI
+  const totImp=[...data.striking,...data.create].reduce((a,o)=>a+(o.impressions||0),0);
+  if(kpi) kpi.innerHTML=`
+    <span><strong style="color:var(--yellow)">${data.striking.length}</strong> quick wins page 2</span>
+    <span><strong style="color:var(--green)">${data.create.length}</strong> sujets à créer</span>
+    <span><strong>${totImp.toLocaleString('fr-FR')}</strong> impressions cumulées en jeu</span>`;
+  // Striking
+  striveEl.innerHTML = data.striking.length
+    ? tbl(data.striking.map(o=>fmtRow(o,true)).join(''),
+        '<th style="padding:8px">Site</th><th style="padding:8px">Requête</th><th style="padding:8px;text-align:center">Pos.</th><th style="padding:8px;text-align:right">Impr.</th><th style="padding:8px;text-align:right">Clics</th><th style="padding:8px;text-align:right">CTR</th><th></th>')
+    : '<div class="empty"><div class="ei">✅</div><p>Aucune requête bloquée en page 2 — bon signe.</p></div>';
+  // Create
+  createEl.innerHTML = data.create.length
+    ? tbl(data.create.map(o=>fmtRow(o,true)).join(''),
+        '<th style="padding:8px">Site</th><th style="padding:8px">Requête</th><th style="padding:8px;text-align:center">Pos.</th><th style="padding:8px;text-align:right">Impr.</th><th style="padding:8px;text-align:right">Clics</th><th></th>')
+    : '<div class="empty"><div class="ei">📝</div><p>Aucun sujet orphelin détecté à fort potentiel.</p></div>';
 }
 
 // ═══════════ CHECKLIST ═══════════
@@ -1374,13 +1509,7 @@ function mk(id,type,data,opts){
 
 // ═══════════ SCORE EVOLUTION CHART ═══════════
 function initScoreChart(d){
-  const history=d?.audit_history??[
-    {date:'01 avr',victime:null,divorce:null,permis:null},
-    {date:'08 avr',victime:null,divorce:null,permis:null},
-    {date:'15 avr',victime:61,divorce:35,permis:null},
-    {date:'22 avr',victime:80,divorce:60,permis:null},
-    {date:'23 avr',victime:80,divorce:60,permis:null},
-  ];
+  const history=d?.audit_history??[];
   mk('scoreChart','line',{
     labels:history.map(h=>h.date),
     datasets:[
@@ -1417,12 +1546,22 @@ function initDistChart(d){
 
 // ═══════════ WEEKLY CHART ═══════════
 function initWeeklyChart(d){
-  const weekly=d?.articles?.by_week??[
-    {week:'S14',victime:0,divorce:0,permis:0},
-    {week:'S15',victime:0,divorce:0,permis:0},
-    {week:'S16',victime:3,divorce:2,permis:0},
-    {week:'S17',victime:7,divorce:5,permis:0},
-  ];
+  // Calculé depuis les articles si by_week absent (honnête, pas de démo)
+  let weekly=d?.articles?.by_week;
+  if(!weekly){
+    const all=d?.articles?.all??d?.articles?.recent??[];
+    const wk={};
+    for(const a of all){
+      const ds=artDate(a); if(!ds) continue;
+      const dt=new Date(ds); if(isNaN(dt)) continue;
+      const onejan=new Date(dt.getFullYear(),0,1);
+      const wnum=Math.ceil((((dt-onejan)/86400000)+onejan.getDay()+1)/7);
+      const key=dt.getFullYear()+'-S'+String(wnum).padStart(2,'0');
+      wk[key]=wk[key]||{week:'S'+wnum,victime:0,divorce:0,permis:0};
+      if(a.site in wk[key]) wk[key][a.site]++;
+    }
+    weekly=Object.keys(wk).sort().slice(-8).map(k=>wk[k]);
+  }
   ['weeklyChart','weeklyDetailChart'].forEach(id=>{
     mk(id,'bar',{
       labels:weekly.map(w=>w.week),
@@ -1617,7 +1756,7 @@ function initAuditCharts(){
   ['victime','divorce','permis'].forEach(k=>{
     const id='radar'+k.charAt(0).toUpperCase()+k.slice(1);
     if(C[id]) return;
-    const s=d?.audit?.sites?.[k]??DEFAULT_AUDIT[k];
+    const s=auditForSite(k)??{};
     const m=SITE_META[k];
     mk(id,'radar',{
       labels:DIMS.map(d=>d.label),
@@ -1629,7 +1768,7 @@ function initAuditCharts(){
   });
 
   if(!C.auditHistChart){
-    const hist=d?.audit_history??[{date:'15 avr',victime:61,divorce:35},{date:'22 avr',victime:80,divorce:60}];
+    const hist=d?.audit_history??[];
     mk('auditHistChart','bar',{
       labels:hist.map(h=>h.date),
       datasets:[
