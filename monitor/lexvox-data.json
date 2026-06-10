@@ -396,17 +396,6 @@
   "traffic": {
     "by_date": [
       {
-        "date": "2026-05-08",
-        "victime": {
-          "clicks": 0,
-          "impressions": 21
-        },
-        "divorce": {
-          "clicks": 0,
-          "impressions": 3
-        }
-      },
-      {
         "date": "2026-05-09",
         "victime": {
           "clicks": 0,
@@ -724,19 +713,35 @@
           "clicks": 0,
           "impressions": 17
         }
+      },
+      {
+        "date": "2026-06-07",
+        "victime": {
+          "clicks": 1,
+          "impressions": 451
+        },
+        "divorce": {
+          "clicks": 0,
+          "impressions": 31
+        }
       }
     ],
     "top_pages": {
       "victime": [
         {
+          "page": "https://lexvox-victime.com/actualites/sapiteur",
+          "clicks": 2,
+          "impressions": 10
+        },
+        {
           "page": "https://lexvox-victime.com/nomenclature-dintilhac",
           "clicks": 2,
-          "impressions": 20
+          "impressions": 22
         },
         {
           "page": "https://lexvox-victime.com/",
           "clicks": 1,
-          "impressions": 333
+          "impressions": 389
         },
         {
           "page": "https://lexvox-victime.com/actualites/abdominoplastie",
@@ -749,24 +754,19 @@
           "impressions": 93
         },
         {
-          "page": "https://lexvox-victime.com/actualites/sapiteur",
-          "clicks": 1,
-          "impressions": 5
-        },
-        {
           "page": "https://lexvox-victime.com/actualites/trotinnette-a-assistance-electrique",
           "clicks": 1,
-          "impressions": 13
+          "impressions": 14
         },
         {
           "page": "https://lexvox-victime.com/evaluateur-prejudices",
           "clicks": 1,
-          "impressions": 2
+          "impressions": 3
         },
         {
           "page": "https://lexvox-victime.com/indemnisation-prejudice-corporel",
           "clicks": 1,
-          "impressions": 142
+          "impressions": 151
         },
         {
           "page": "https://lexvox-victime.com/accident-de-la-route",
@@ -776,7 +776,7 @@
         {
           "page": "https://lexvox-victime.com/accident-du-travail",
           "clicks": 0,
-          "impressions": 30
+          "impressions": 34
         }
       ],
       "divorce": [
@@ -837,6 +837,14 @@
   "positions": {
     "victime": [
       {
+        "keyword": "(\"france\" or \"français\" or \"en france\") and (\"produits défectueux\" or \"rappel de produits\" or \"sinistre\" or \"dégâts\" or \"dégâts assurance\" or \"cybersécurité\" or \"cyberattaque\" or \"enquête concurrence\") and (\"perte\" or \"impact financier\" or \"provision\" or \"indemnisation\" or \"assureur\")",
+        "position": 8,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
         "keyword": "accident bus marignane",
         "position": 8.3,
         "clicks": 0,
@@ -853,14 +861,6 @@
         "site": "victime"
       },
       {
-        "keyword": "avocat dommage corporel gratuit",
-        "position": 17,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
         "keyword": "avocat des victimes arles",
         "position": 18,
         "clicks": 0,
@@ -869,18 +869,18 @@
         "site": "victime"
       },
       {
-        "keyword": "avocat accident indemnisation aixenprovence",
-        "position": 20.7,
-        "clicks": 0,
-        "impressions": 9,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
         "keyword": "avocat accident salon de provence",
         "position": 21.6,
         "clicks": 0,
         "impressions": 7,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident indemnisation aixenprovence",
+        "position": 21.9,
+        "clicks": 0,
+        "impressions": 10,
         "prev_position": null,
         "site": "victime"
       },
@@ -894,9 +894,9 @@
       },
       {
         "keyword": "avocat accident trottinettes électriques",
-        "position": 24.5,
+        "position": 24.4,
         "clicks": 0,
-        "impressions": 15,
+        "impressions": 16,
         "prev_position": null,
         "site": "victime"
       },
@@ -909,10 +909,10 @@
         "site": "victime"
       },
       {
-        "keyword": "avocat droit des victimes",
-        "position": 25.4,
+        "keyword": "accident avp",
+        "position": 25,
         "clicks": 0,
-        "impressions": 9,
+        "impressions": 1,
         "prev_position": null,
         "site": "victime"
       },
@@ -925,42 +925,18 @@
         "site": "victime"
       },
       {
-        "keyword": "accident corporel",
-        "position": 27,
+        "keyword": "avocat accident de la route aix en provence",
+        "position": 28.1,
         "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat accident de vélo",
-        "position": 28,
-        "clicks": 0,
-        "impressions": 1,
+        "impressions": 23,
         "prev_position": null,
         "site": "victime"
       },
       {
         "keyword": "avocat accident du travail",
-        "position": 29.1,
+        "position": 29.8,
         "clicks": 0,
-        "impressions": 8,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat accident",
-        "position": 30,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat accident de la route aix en provence",
-        "position": 30,
-        "clicks": 0,
-        "impressions": 23,
+        "impressions": 21,
         "prev_position": null,
         "site": "victime"
       },
@@ -973,18 +949,18 @@
         "site": "victime"
       },
       {
-        "keyword": "avocat cci erreur médicale",
-        "position": 30.5,
+        "keyword": "avocat aléa thérapeutique",
+        "position": 30.4,
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 9,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "avocat aléa thérapeutique",
-        "position": 30.7,
+        "keyword": "avocat accident de vélo",
+        "position": 30.5,
         "clicks": 0,
-        "impressions": 7,
+        "impressions": 2,
         "prev_position": null,
         "site": "victime"
       },
@@ -997,6 +973,22 @@
         "site": "victime"
       },
       {
+        "keyword": "avocat cci erreur médicale",
+        "position": 31,
+        "clicks": 0,
+        "impressions": 4,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "accident corporel",
+        "position": 31.3,
+        "clicks": 0,
+        "impressions": 6,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
         "keyword": "accident corporel que faire",
         "position": 31.5,
         "clicks": 0,
@@ -1005,74 +997,82 @@
         "site": "victime"
       },
       {
+        "keyword": "avocat accident corporel",
+        "position": 32,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
         "keyword": "accident de la route avocat",
-        "position": 31.5,
+        "position": 32.2,
         "clicks": 0,
-        "impressions": 2,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat accident cycliste",
-        "position": 33,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat accident travail",
-        "position": 33,
-        "clicks": 0,
-        "impressions": 1,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "accident médical fautif",
-        "position": 33.7,
-        "clicks": 0,
-        "impressions": 3,
+        "impressions": 6,
         "prev_position": null,
         "site": "victime"
       },
       {
         "keyword": "avocat accident velo",
-        "position": 34,
+        "position": 32.2,
         "clicks": 0,
-        "impressions": 3,
+        "impressions": 9,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "avocat des accident de la route",
-        "position": 34.3,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat accident médical",
-        "position": 34.4,
-        "clicks": 0,
-        "impressions": 7,
-        "prev_position": null,
-        "site": "victime"
-      },
-      {
-        "keyword": "avocat accident de ski aix en provence",
-        "position": 34.5,
+        "keyword": "avocat accident travail",
+        "position": 32.5,
         "clicks": 0,
         "impressions": 4,
         "prev_position": null,
         "site": "victime"
       },
       {
-        "keyword": "avocat accident automobile",
-        "position": 35,
+        "keyword": "avocat accident vélo",
+        "position": 33,
         "clicks": 0,
-        "impressions": 3,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident cycliste",
+        "position": 33.5,
+        "clicks": 0,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "accident médical fautif",
+        "position": 33.6,
+        "clicks": 0,
+        "impressions": 5,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat des accident de la route",
+        "position": 34,
+        "clicks": 0,
+        "impressions": 4,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident médical",
+        "position": 34.3,
+        "clicks": 0,
+        "impressions": 13,
+        "prev_position": null,
+        "site": "victime"
+      },
+      {
+        "keyword": "avocat accident de travail",
+        "position": 34.4,
+        "clicks": 0,
+        "impressions": 5,
         "prev_position": null,
         "site": "victime"
       }
@@ -1111,14 +1111,6 @@
         "site": "divorce"
       },
       {
-        "keyword": "avocat divorce arles",
-        "position": 9,
-        "clicks": 0,
-        "impressions": 2,
-        "prev_position": null,
-        "site": "divorce"
-      },
-      {
         "keyword": "luxembourg garde alternée pension alimentaire revenus égaux avocat",
         "position": 11,
         "clicks": 0,
@@ -1127,40 +1119,56 @@
         "site": "divorce"
       },
       {
-        "keyword": "recouvrement pension alimentaire aix en provence",
-        "position": 15.3,
+        "keyword": "prix avocat affaire familiale garde enfant",
+        "position": 11,
         "clicks": 0,
-        "impressions": 4,
+        "impressions": 2,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "recouvrement pension alimentaire aix en provence",
+        "position": 14.6,
+        "clicks": 0,
+        "impressions": 5,
         "prev_position": null,
         "site": "divorce"
       },
       {
         "keyword": "recouvrement pension alimentaire aix-en-provence",
-        "position": 15.3,
+        "position": 15.6,
+        "clicks": 0,
+        "impressions": 5,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat salon de provence divorce",
+        "position": 16.3,
         "clicks": 0,
         "impressions": 4,
         "prev_position": null,
         "site": "divorce"
       },
       {
-        "keyword": "avocat salon de provence divorce",
-        "position": 16,
-        "clicks": 0,
-        "impressions": 3,
-        "prev_position": null,
-        "site": "divorce"
-      },
-      {
         "keyword": "pension alimentaire aix-en-provence",
-        "position": 16.8,
+        "position": 16.9,
         "clicks": 0,
-        "impressions": 10,
+        "impressions": 11,
         "prev_position": null,
         "site": "divorce"
       },
       {
         "keyword": "cédrine raybaud",
         "position": 17,
+        "clicks": 0,
+        "impressions": 1,
+        "prev_position": null,
+        "site": "divorce"
+      },
+      {
+        "keyword": "avocat divorce salon de provence",
+        "position": 20,
         "clicks": 0,
         "impressions": 1,
         "prev_position": null,
@@ -1208,33 +1216,33 @@
       },
       {
         "keyword": "avocat divorce pension alimentaire",
-        "position": 28.8,
+        "position": 28.7,
         "clicks": 0,
-        "impressions": 31,
+        "impressions": 32,
         "prev_position": null,
         "site": "divorce"
       },
       {
         "keyword": "pension alimentaire avocat",
-        "position": 30.6,
+        "position": 30.5,
         "clicks": 0,
-        "impressions": 17,
+        "impressions": 19,
         "prev_position": null,
         "site": "divorce"
       },
       {
         "keyword": "avocat pension alimentaire",
-        "position": 36.3,
+        "position": 34.9,
         "clicks": 0,
-        "impressions": 49,
+        "impressions": 57,
         "prev_position": null,
         "site": "divorce"
       },
       {
         "keyword": "avocat prestation compensatoire",
-        "position": 53.2,
+        "position": 48.8,
         "clicks": 0,
-        "impressions": 5,
+        "impressions": 6,
         "prev_position": null,
         "site": "divorce"
       },
@@ -1257,23 +1265,22 @@
     ],
     "permis": []
   },
-  "gsc_updated_at": "2026-06-09T20:39:02.756Z",
+  "gsc_updated_at": "2026-06-10T08:15:26.049Z",
   "audits": {
     "lexvox-victime.com": {
-      "auditId": "cmq73bb6q000128ror20liqry",
-      "date": "2026-06-09T20:26:20.640Z",
-      "seoScore": 15,
-      "scoresByDim": {
-        "geo": 100,
-        "images": 100,
-        "onpage": 0,
-        "schema": 0,
-        "content": 0,
-        "technical": 0,
-        "performance": 0
-      },
-      "issuesCount": 287,
-      "criticalCount": 0
+      "auditId": "cmq7qmxwj000128d0leulxv4m",
+      "date": "2026-06-10T07:19:14.467Z",
+      "seoScore": 76,
+      "scoresByDim": {},
+      "issuesCount": 4,
+      "criticalCount": 0,
+      "cwv": {
+        "lcp": 2851,
+        "cls": null,
+        "inp": 5,
+        "mobile": 95,
+        "psiSource": "psi-lab"
+      }
     },
     "lexvox-divorce.com": {
       "auditId": "cmpautgyj000zqq01tmf3643r",
@@ -1281,7 +1288,14 @@
       "seoScore": 67,
       "scoresByDim": {},
       "issuesCount": 6,
-      "criticalCount": 0
+      "criticalCount": 0,
+      "cwv": {
+        "lcp": null,
+        "cls": null,
+        "inp": null,
+        "mobile": 0,
+        "psiSource": "fallback"
+      }
     },
     "lexvox-permis.com": {
       "auditId": "cmpautgzm0011qq01iape0ntu",
@@ -1289,65 +1303,41 @@
       "seoScore": 65,
       "scoresByDim": {},
       "issuesCount": 6,
-      "criticalCount": 0
+      "criticalCount": 0,
+      "cwv": {
+        "lcp": null,
+        "cls": null,
+        "inp": null,
+        "mobile": 0,
+        "psiSource": "fallback"
+      }
     }
   },
   "coverage": {
     "lexvox-victime.com": {
-      "auditId": "cmpautgwj000xqq01vj8ma4vn",
-      "auditDate": "2026-05-18T07:00:23.929Z",
+      "auditId": "cmq7qmxwj000128d0leulxv4m",
+      "auditDate": "2026-06-10T07:22:02.269Z",
       "robotsOk": true,
       "sitemapOk": true,
       "summary": {
-        "indexable": 86,
-        "indexed": 86,
+        "indexable": 333,
+        "indexed": 333,
         "nonIndexed": 0,
         "sitemapDead": 0,
         "broken404": 0,
-        "orphan": 5,
-        "redirects": 6,
+        "orphan": 0,
+        "redirects": 1,
         "slowPages": 0
       },
       "details": {
         "brokenLinks": [],
         "sitemapDead": [],
         "nonIndexed": [],
-        "orphanPages": [
-          "https://lexvox-victime.com/actualites/actualites-accident-travail-victime-indemnisation",
-          "https://lexvox-victime.com/actualites/actualites-accident-de-la-route-aix-en-provence",
-          "https://lexvox-victime.com/actualites/actualites-avocat-accident-route-salon-de-provence",
-          "https://lexvox-victime.com/actualites/actualites-avocat-faute-medicale-paca",
-          "https://lexvox-victime.com/actualites/actualites-erreur-medicale-aix-en-provence"
-        ],
+        "orphanPages": [],
         "redirects": [
           {
             "to": "https://lexvox-victime.com/",
             "from": "https://lexvox-victime.com",
-            "status": 200
-          },
-          {
-            "to": "https://lexvox-victime.com/actualites/accident-travail-victime-indemnisation",
-            "from": "https://lexvox-victime.com/actualites/actualites-accident-travail-victime-indemnisation",
-            "status": 200
-          },
-          {
-            "to": "https://lexvox-victime.com/actualites/accident-de-la-route-aix-en-provence",
-            "from": "https://lexvox-victime.com/actualites/actualites-accident-de-la-route-aix-en-provence",
-            "status": 200
-          },
-          {
-            "to": "https://lexvox-victime.com/actualites/avocat-accident-route-salon-de-provence",
-            "from": "https://lexvox-victime.com/actualites/actualites-avocat-accident-route-salon-de-provence",
-            "status": 200
-          },
-          {
-            "to": "https://lexvox-victime.com/actualites/avocat-faute-medicale-paca",
-            "from": "https://lexvox-victime.com/actualites/actualites-avocat-faute-medicale-paca",
-            "status": 200
-          },
-          {
-            "to": "https://lexvox-victime.com/actualites/erreur-medicale-aix-en-provence",
-            "from": "https://lexvox-victime.com/actualites/actualites-erreur-medicale-aix-en-provence",
             "status": 200
           }
         ],
@@ -1459,5 +1449,5 @@
       }
     }
   },
-  "dashboard_updated_at": "2026-06-09T20:39:13.149Z"
+  "dashboard_updated_at": "2026-06-10T08:15:38.555Z"
 }
