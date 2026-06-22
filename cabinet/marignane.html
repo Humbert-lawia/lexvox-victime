@@ -30,66 +30,92 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet"></noscript>
+  <noscript></noscript>
 
   <!-- CSS -->
   <link rel="stylesheet" href="/css/style.css?v=4">
 
   <!-- JSON-LD: LegalService -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LegalService",
-    "name": "LEXVOX AVOCATS — Avocat Dommage Corporel Marignane",
-    "description": "Cabinet d'avocats specialise en dommage corporel a Marignane. Defense exclusive des victimes d'accidents et d'erreurs medicales.",
-    "url": "https://lexvox-victime.com/cabinet/marignane",
-    "telephone": "+33-4-90-54-58-10",
-    "email": "contact@avocat-lexvox.com",
-    "image": "https://lexvox-victime.com/img/og-default.jpg",
-    "priceRange": "Consultation gratuite — Honoraires au resultat",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1 Bis Rue Antoine de Saint-Exupery, Bat. L'Eden",
-      "addressLocality": "Marignane",
-      "postalCode": "13700",
-      "addressRegion": "Bouches-du-Rhone",
-      "addressCountry": "FR"
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "LEXVOX AVOCATS — Avocat Dommage Corporel Marignane",
+  "description": "Cabinet d'avocats specialise en dommage corporel a Marignane. Defense exclusive des victimes d'accidents et d'erreurs medicales.",
+  "url": "https://lexvox-victime.com/cabinet/marignane",
+  "telephone": "+33-4-90-54-58-10",
+  "email": "contact@avocat-lexvox.com",
+  "image": "https://lexvox-victime.com/img/og-default.jpg",
+  "priceRange": "Consultation gratuite — Honoraires au resultat",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1 Bis Rue Antoine de Saint-Exupery, Bat. L'Eden",
+    "addressLocality": "Marignane",
+    "postalCode": "13700",
+    "addressRegion": "Bouches-du-Rhone",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.4175,
+    "longitude": 5.214
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "19:00"
+    }
+  ],
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Marignane"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 43.4175,
-      "longitude": 5.2140
+    {
+      "@type": "City",
+      "name": "Vitrolles"
     },
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "09:00",
-        "closes": "19:00"
-      }
-    ],
-    "areaServed": [
-      {"@type": "City", "name": "Marignane"},
-      {"@type": "City", "name": "Vitrolles"},
-      {"@type": "City", "name": "Les Pennes-Mirabeau"},
-      {"@type": "City", "name": "Saint-Victoret"},
-      {"@type": "City", "name": "Gignac-la-Nerthe"},
-      {"@type": "City", "name": "Chateauneuf-les-Martigues"},
-      {"@type": "City", "name": "Martigues"}
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "94",
-      "bestRating": "5",
-      "worstRating": "1"
+    {
+      "@type": "City",
+      "name": "Les Pennes-Mirabeau"
     },
-    "sameAs": [
-      "https://share.google/NTFDJBFnBEHSgsqUG",
-      "https://lexvox-victime.com/"
-    ]
-  }
-  </script>
+    {
+      "@type": "City",
+      "name": "Saint-Victoret"
+    },
+    {
+      "@type": "City",
+      "name": "Gignac-la-Nerthe"
+    },
+    {
+      "@type": "City",
+      "name": "Chateauneuf-les-Martigues"
+    },
+    {
+      "@type": "City",
+      "name": "Martigues"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "94",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "sameAs": [
+    "https://share.google/NTFDJBFnBEHSgsqUG",
+    "https://lexvox-victime.com/"
+  ],
+  "@id": "https://lexvox-victime.com/#legalservice"
+}</script>
 
   <!-- JSON-LD: BreadcrumbList -->
   <script type="application/ld+json">
