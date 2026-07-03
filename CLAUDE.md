@@ -56,3 +56,9 @@ et `/preflight` avant de pousser.
 
 `SUIVI-ACTIONS-CORRECTIVES.md` trace les actions issues des audits SEO — le
 mettre à jour quand une action listée est traitée.
+
+## Images à remplacer
+
+Image `img/articles/accident-de-moto-indemnisation-nimes.jpg` = placeholder
+réutilisé (visuel moto générique) — à remplacer par un visuel spécifique au
+sujet dès que possible.

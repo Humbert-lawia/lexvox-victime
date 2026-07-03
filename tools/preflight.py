@@ -5,7 +5,7 @@ Vérifie les classes d'erreurs qui ont déjà cassé la prod par le passé :
 marqueurs de conflit git committés, sitemap.xml invalide ou avec doublons,
 JSON-LD corrompu, images locales manquantes, meta SEO hors gabarit.
 
-Usage : python3 scripts/preflight.py
+Usage : python3 tools/preflight.py
 Code retour 0 = OK (les avertissements n'empêchent pas le push),
 1 = erreurs bloquantes à corriger avant de pousser.
 """

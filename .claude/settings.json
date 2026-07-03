@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 tools/preflight.py*)",
+      "Bash(npm start*)",
+      "Bash(git pull --rebase*)"
+    ]
+  }
+}
