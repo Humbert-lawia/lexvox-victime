@@ -18,3 +18,7 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy . --project-name=lexvox-victime --branch=main
+
+      - name: Ping IndexNow (Bing, Yandex, Seznam)
+        continue-on-error: true
+        run: python3 tools/indexnow_ping.py

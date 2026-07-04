@@ -32,8 +32,8 @@
 | T-04 | Moyenne | Ajouter meta description article Arles (content vide) | Meta tags | ✅ | 2026-04-06 | "Avocat dommage corporel à Arles (13200) — Me Humbert, LEXVOX AVOCATS…" 152 chars |
 | T-05 | Moyenne | Ajouter meta description article ONIAM Salon-de-Provence (content vide) | Meta tags | ✅ | 2026-04-06 | "Avocat ONIAM à Salon-de-Provence — Me Humbert, LEXVOX AVOCATS…" 153 chars |
 | T-06 | Moyenne | Activer compression Brotli/Gzip CSS (`Vary: Accept-Encoding` dans `_headers`) | Performance | ✅ | 2026-04-06 | Content-Type: text/css + Vary: Accept-Encoding ajouté sous `/css/*` |
-| T-07 | Moyenne | Activer Brotli sur Cloudflare Dashboard | Performance | ⚙️ | - | CF Dashboard → Speed > Optimization → Brotli → ON |
-| T-08 | Moyenne | Désactiver Email Obfuscation Cloudflare | Crawlabilité | ⚙️ | - | CF Dashboard → Scrape Shield → Email Address Obfuscation → OFF |
+| T-07 | Moyenne | Activer Brotli sur Cloudflare Dashboard | Performance | ⚙️ | - | Workflow `cloudflare-settings.yml` prêt (Actions → Run workflow) — sinon CF Dashboard → Speed > Optimization → Brotli → ON |
+| T-08 | Moyenne | Désactiver Email Obfuscation Cloudflare | Crawlabilité | ⚙️ | - | Workflow `cloudflare-settings.yml` prêt (Actions → Run workflow) — sinon CF Dashboard → Scrape Shield → Email Address Obfuscation → OFF |
 | T-09 | Faible | Corriger H1 trop long — article expertise Aix-en-Provence (> 100 chars) | Balises | ✅ | 2026-04-06 | "Avocat accident de la route à Aix-en-Provence : expertise en dommage corporel avec Me Patrice Humbert" → 91 chars |
 | T-10 | Faible | Corriger H1 trop long — article aléa thérapeutique Salon (> 100 chars) | Balises | ✅ | 2026-04-06 | "Aléa thérapeutique ONIAM à Salon-de-Provence : votre avocat spécialisé en dommage corporel" → 86 chars |
 | T-11 | Moyenne | Purger les 54 avertissements préflight (titles > 65, metas > 165 ou vides, H1 dupliqués, gabarits cassés « accident de indemnisation ») | Balises | ✅ | 2026-07-03 | 39 fichiers corrigés : 25 titles réécrits, 21 metas (dont 3 vides), 9 H1 doublons supprimés, og:/twitter: réalignés. Préflight : 0 avertissement |
@@ -44,7 +44,7 @@
 
 | ID | Priorité | Action | Catégorie | Statut | Date résolution | Notes |
 |----|----------|--------|-----------|--------|-----------------|-------|
-| I-01 | CRITIQUE | Vérifier pages non indexées sur Google | Indexation | ❌ | - | Vérifier GSC : soumission sitemap, pénalité manuelle |
+| I-01 | CRITIQUE | Vérifier pages non indexées sur Google | Indexation | ⚙️ | - | Sitemap réparé + en prod (2026-07-04), robots.txt le référence, GSC actif : re-crawl automatique. IndexNow pingé à chaque déploiement (`tools/indexnow_ping.py`). Vérifier le statut « Sitemaps » dans GSC sous ~1 semaine |
 | I-02 | CRITIQUE | Domain Trust faible / Backlinks limités | Autorité | ❌ | - | Stratégie netlinking : Légifrance, Ordre des avocats, ONIAM, partenaires |
 | I-03 | CRITIQUE | Configurer Google Search Console et soumettre sitemap | Indexation | ❌ | - | Soumettre https://lexvox-victime.com/sitemap.xml dans GSC |
 | I-04 | CRITIQUE | Configurer Google Analytics 4 | Analytics | ❌ | - | Lier GSC + GA4 pour monitoring trafic et performances |

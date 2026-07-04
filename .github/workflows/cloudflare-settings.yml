@@ -1,0 +1,43 @@
+name: Cloudflare zone settings
+
+# Applique les réglages zone recommandés par l'audit SEO (T-07 / T-08) :
+#   - Brotli : ON
+#   - Email Address Obfuscation : OFF (le script cdn-cgi bloquait la crawlabilité)
+# Se lance manuellement (Actions → Cloudflare zone settings → Run workflow).
+# Réutilise le token CLOUDFLARE_API_TOKEN déjà présent dans les secrets ;
+# si le token n'a pas les permissions Zone:Read + Zone Settings:Edit, le job
+# échoue avec un message explicite — ajouter ces permissions au token dans
+# le dashboard Cloudflare (My Profile → API Tokens) puis relancer.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    name: Brotli ON + Email Obfuscation OFF
+    steps:
+      - name: Appliquer les réglages via l'API Cloudflare
+        env:
+          CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          set -euo pipefail
+          api="https://api.cloudflare.com/client/v4"
+          auth="Authorization: Bearer $CF_API_TOKEN"
+
+          zone_id=$(curl -s -H "$auth" "$api/zones?name=lexvox-victime.com" \
+            | python3 -c "import sys,json;d=json.load(sys.stdin);r=d.get('result') or [];print(r[0]['id'] if r else '')")
+          if [ -z "$zone_id" ]; then
+            echo "::error::Zone lexvox-victime.com introuvable — le token n'a probablement pas la permission Zone:Read. Ajouter Zone:Read + Zone Settings:Edit au token dans le dashboard Cloudflare, puis relancer."
+            exit 1
+          fi
+          echo "Zone : $zone_id"
+
+          apply() {  # $1 = setting id, $2 = valeur
+            echo "→ $1 = $2"
+            curl -s -X PATCH -H "$auth" -H "Content-Type: application/json" \
+              --data "{\"value\":\"$2\"}" "$api/zones/$zone_id/settings/$1" \
+              | python3 -c "import sys,json;d=json.load(sys.stdin);ok=d.get('success');print('  OK' if ok else '  ERREUR: %s' % d.get('errors'));sys.exit(0 if ok else 1)"
+          }
+          apply brotli on
+          apply email_obfuscation off
