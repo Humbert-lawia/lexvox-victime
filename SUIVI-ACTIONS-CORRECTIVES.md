@@ -36,6 +36,7 @@
 | T-08 | Moyenne | Désactiver Email Obfuscation Cloudflare | Crawlabilité | ⚙️ | - | CF Dashboard → Scrape Shield → Email Address Obfuscation → OFF |
 | T-09 | Faible | Corriger H1 trop long — article expertise Aix-en-Provence (> 100 chars) | Balises | ✅ | 2026-04-06 | "Avocat accident de la route à Aix-en-Provence : expertise en dommage corporel avec Me Patrice Humbert" → 91 chars |
 | T-10 | Faible | Corriger H1 trop long — article aléa thérapeutique Salon (> 100 chars) | Balises | ✅ | 2026-04-06 | "Aléa thérapeutique ONIAM à Salon-de-Provence : votre avocat spécialisé en dommage corporel" → 86 chars |
+| T-11 | Moyenne | Purger les 54 avertissements préflight (titles > 65, metas > 165 ou vides, H1 dupliqués, gabarits cassés « accident de indemnisation ») | Balises | ✅ | 2026-07-03 | 39 fichiers corrigés : 25 titles réécrits, 21 metas (dont 3 vides), 9 H1 doublons supprimés, og:/twitter: réalignés. Préflight : 0 avertissement |
 
 ---
 
