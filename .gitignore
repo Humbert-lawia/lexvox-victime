@@ -5,3 +5,6 @@ serve.sh
 Gemini_Generated_Image_vdlz2zvdlz2zvdlz.png
 articles-bruts/
 scripts/
+
+# Brouillons / sauvegardes
+*.bak

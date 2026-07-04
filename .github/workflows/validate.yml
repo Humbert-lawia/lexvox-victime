@@ -1,0 +1,17 @@
+name: Validation site
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    name: Préflight (sitemap, JSON-LD, conflits, images)
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lancer le préflight
+        run: python3 tools/preflight.py
