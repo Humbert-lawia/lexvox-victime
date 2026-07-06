@@ -1,6 +1,6 @@
 ---
 name: article-aivf
-description: Produire un article de fond haut de gamme selon le PIPELINE LEXVOX-AIVF (gabarit augmente pour surpasser le concurrent AIVF) — analyse jurisprudentielle VERIFIEE via Openlegi avec backlink, 2+ tableaux, infographie SVG inline, couverture d'intent, cocon, maillage des 4 fichiers, puis publication directe sur main (prod). Utiliser pour tout article de queue-aivf.json ou quand l'utilisateur demande un article "qualite AIVF-killer".
+description: Produire un article de fond haut de gamme selon le PIPELINE LEXVOX-AIVF (gabarit augmente pour surpasser le concurrent AIVF) — optimisation NeuronWriter score >=85 (priorite non negociable, min 1900 mots), analyse jurisprudentielle VERIFIEE via Openlegi avec backlink, 2+ tableaux, infographie SVG inline, couverture d'intent, cocon, maillage des 4 fichiers, puis publication directe sur main (prod). Utiliser pour tout article de queue-aivf.json ou quand l'utilisateur demande un article "qualite AIVF-killer".
 ---
 
 # Produire un article — PIPELINE LEXVOX-AIVF
@@ -78,12 +78,14 @@ Contraintes bloquantes (comme `/nouvel-article`) : `<title>` <= 60 car. ; meta
 120–155 car. non vide ; 1 seul `<h1>` ; `canonical` = `og:url` =
 `https://lexvox-victime.com/actualites/<slug>` (.com, **sans** `.html`) ; 4 JSON-LD
 valides (`LegalService`, `Article` avec `image`, `FAQPage`, `BreadcrumbList`),
-JSON pur ; coordonnees = `mentions-legales.html`. Volume utile : feuille >= 1500
-mots, pilier >= 2500 (le chrome nav/footer ne compte pas).
+JSON pur ; coordonnees = `mentions-legales.html`. **Plancher de mots NON
+NEGOCIABLE : jamais moins de 1900 mots utiles** (2500 pour un pilier), chrome
+nav/footer exclu. Le volume peut MONTER au-dessus de 1900 si cela aide le score
+NeuronWriter, mais jamais descendre sous 1900.
 
-Priorite a la **couverture d'intent** sur le volume : chaque `<h2>` repond a une
-sous-question reelle (People Also Ask / FAQ). Ne pas delayer pour atteindre un
-quota de mots (anti Helpful Content).
+Priorite a la **couverture d'intent** sur le remplissage : chaque `<h2>` repond a
+une sous-question reelle (People Also Ask / FAQ). Ne pas delayer betement, mais
+couvrir les termes NLP attendus (cf. §5bis NeuronWriter).
 
 ## 3. L'infographie SVG inline (au moins une)
 
@@ -139,9 +141,34 @@ toujours le renseigner. Reference + n° de pourvoi = ceux renvoyes par Openlegi.
    nouvellement cree (id 2 silo A, id 42 silo G) EST le hub : il doit lister toutes
    ses feuilles. Mettre `queue-aivf.json` a jour (`status: "done"`, `date`).
 
+## 5bis. Optimiser avec NeuronWriter — score >= 85 (LA priorite, non negociable)
+
+C'est le critere le plus important : **aucun article publie sous 85**. Boucle
+d'optimisation avant validation :
+
+1. Creer/reutiliser une query NeuronWriter pour le mot-cle de l'article
+   (`_meta` / `keyword` de la file). Deux voies :
+   - **API** (full-auto) : `tools/neuronwriter.py` avec la cle en secret d'env
+     `NEURONWRITER_API_KEY` (jamais committee).
+     `python3 tools/neuronwriter.py new-query <project_id> "<keyword>"` -> `query_id` ;
+     recuperer les termes recommandes via `get-query`.
+   - **Connecteur** NeuronWriter s'il est autorise dans la session (MCP).
+2. Rediger/enrichir en couvrant les **termes NLP recommandes** (titres, corps,
+   FAQ, tableaux) sans bourrage — rester >= 1900 mots.
+3. Evaluer : `python3 tools/neuronwriter.py evaluate <query_id> actualites/<slug>.html`.
+   Si < 85 : ajouter/replacer les termes manquants et re-evaluer. Iterer jusqu'a >= 85.
+   Le volume peut augmenter pour cela ; il ne descend jamais sous 1900 mots.
+4. **Coller le score obtenu en marqueur** dans le `<head>` ou en haut du `<article>` :
+   `<!-- NEURONWRITER SCORE: 87 query=<query_id> le AAAA-MM-JJ -->`.
+   (Le QA lit ce marqueur et bloque si < 85 ou absent.)
+
+Si NeuronWriter est indisponible (ni API ni connecteur), NE PAS publier : signaler
+le blocage. Le score >= 85 est une condition de mise en ligne, pas une option.
+
 ## 6. Valider, puis publier directement sur main (auto)
 
 ```bash
+python3 tools/neuronwriter.py evaluate <query_id> actualites/<slug>.html   # >= 85 (BLOQUANT)
 python3 tools/preflight.py                                   # SEO de base — 0 erreur (BLOQUANT)
 python3 tools/qa_article_aivf.py actualites/<slug>.html [--pilier]   # standard AIVF-killer (BLOQUANT)
 python3 tools/qa_queue.py                                    # coherence de la file (BLOQUANT)
@@ -153,8 +180,9 @@ git push origin main                                         # => deploie en PRO
 ```
 
 Publication **directe sur `main`** = mise en production immediate ; la relecture de
-Me Humbert est faite a posteriori. **Ne jamais pousser un article qui echoue
-`preflight.py` ou `qa_article_aivf.py`** (ces deux garde-fous, dont la verification
-Openlegi des jurisprudences, remplacent le sas humain). Ne JAMAIS committer de
+Me Humbert est faite a posteriori. **Ne jamais pousser un article qui echoue le
+score NeuronWriter >= 85, `preflight.py` ou `qa_article_aivf.py`** (ces garde-fous,
+dont l'optimisation NeuronWriter et la verification Openlegi des jurisprudences,
+remplacent le sas humain). Ne JAMAIS committer de
 marqueur de conflit. Un commit = un article complet + ses 4 fichiers maillés
 (sitemap, actualites, llms.txt, cocon) + `queue-aivf.json` a jour (`done` + date).

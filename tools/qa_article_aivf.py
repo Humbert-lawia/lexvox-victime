@@ -11,7 +11,11 @@ differenciation face a AIVF imposes par le gabarit augmente :
   2. Donnees : >= 2 tableaux <table class="data-table">.
   3. Infographie : >= 1 <figure class="infographic"> contenant un <svg>.
   4. Couverture d'intent : >= 5 sections <h2> ET >= 6 questions FAQ (<details>).
-  5. Anti-thin (chrome exclu) : >= 1500 mots utiles (feuille) / 2500 (pilier).
+  5. Optimisation NeuronWriter (NON NEGOCIABLE) : marqueur
+     <!-- NEURONWRITER SCORE: N ... --> present et N >= 85.
+  6. Plancher de mots (chrome exclu) : >= 1900 mots utiles pour TOUT article
+     (limite non negociable), >= 2500 pour un pilier. Le volume peut monter
+     au-dessus de 1900 si cela ameliore le score, jamais descendre en dessous.
 
 Usage :
   python3 tools/qa_article_aivf.py actualites/mon-article.html
@@ -85,12 +89,22 @@ def check(path: Path, pilier: bool) -> list[str]:
     if n_faq < 6:
         problems.append(f"{n_faq} questions FAQ <details> (minimum 6)")
 
-    # 5. Anti-thin (chrome exclu)
+    # 5. Optimisation NeuronWriter — score >= 85 (non negociable)
+    m = re.search(r"<!--\s*NEURONWRITER\s+SCORE:\s*([0-9]+(?:\.[0-9]+)?)", html, re.I)
+    if not m:
+        problems.append(
+            "aucun marqueur de score NeuronWriter (<!-- NEURONWRITER SCORE: N ... -->) : "
+            "l'optimisation NeuronWriter >= 85 est obligatoire avant publication"
+        )
+    elif float(m.group(1)) < 85:
+        problems.append(f"score NeuronWriter {m.group(1)} < 85 (seuil non negociable)")
+
+    # 6. Plancher de mots (chrome exclu) — jamais moins de 1900 mots
     n = content_word_count(html)
-    floor = 2500 if pilier else 1500
+    floor = 2500 if pilier else 1900
     if n < floor:
         kind = "pilier" if pilier else "feuille"
-        problems.append(f"{n} mots utiles (minimum {floor} pour un {kind}, chrome exclu)")
+        problems.append(f"{n} mots utiles (minimum {floor} pour un {kind}, plancher absolu 1900, chrome exclu)")
 
     return problems
 

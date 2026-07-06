@@ -18,6 +18,12 @@ couvre des silos entiers absents chez Lexvox (calcul/barèmes, postes un par un,
 grand handicap…), met des tableaux partout, et Lexvox dilue son autorité dans
 81 % de déclinaisons locales dupliquées.
 
+**Contrainte n°1, non négociable (Me Humbert)** : chaque article doit être
+**optimisé NeuronWriter avec un score ≥ 85** avant publication, et faire **au
+minimum 1900 mots** (le volume peut monter pour gagner des points, jamais
+descendre sous 1900). C'est le critère prioritaire ; les trois armes ci-dessous
+s'y ajoutent, elles ne le remplacent pas.
+
 **Riposte** : ~52 articles de fond en 10 silos, chacun plus fort que son
 équivalent AIVF grâce à **trois armes qu'AIVF n'a pas** :
 
@@ -35,6 +41,7 @@ grand handicap…), met des tableaux partout, et Lexvox dilue son autorité dans
 
 | # | Correctif appliqué | Où |
 |---|--------------------|-----|
+| 0 | **Optimisation NeuronWriter ≥ 85 (priorité absolue)** + plancher **1900 mots**. Score obtenu via l'API (`tools/neuronwriter.py`, clé en secret) ou un connecteur, collé en marqueur `<!-- NEURONWRITER SCORE: N -->` ; le QA bloque si < 85 ou absent. | skill §5bis + QA |
 | B | **Vérification juridique câblée — Openlegi UNIQUEMENT** (pas Lexbase). Chaque arrêt est confirmé par un appel Openlegi ; son URL sert de **backlink** ; un marqueur `<!-- OPENLEGI VERIFIED: … -->` est collé par décision. | skill §1/§4 + QA |
 | C | **QA câblé en CI bloquante** (`qa_queue.py` dans `validate.yml`) + comptage de mots **hors chrome** (nav/footer exclus). | `validate.yml`, `qa_article_aivf.py` |
 | D | **Dédoublonnage de la file** : paires cannibales fusionnées (pretium↔souffrances → id 12 ; calcul-DFP↔DFP → id 11), en hub + ancres. 54 → 52 articles actifs. | `queue-aivf.json` |
@@ -104,10 +111,17 @@ Source : `AUDIT-COMPARATIF-AIVF-2026-07.md` §7 ; file exécutable `queue-aivf.j
 **Cocon** : chaque feuille lie vers le hub de son silo EN PREMIER + 2–3 feuilles
 sœurs ; le hub (id 2, id 42, ou page pilier existante) liste toutes ses feuilles.
 
-**Prérequis GSC/GA4 (correctif F)** : les `keyword` de la file sont des
-hypothèses (GSC/GA4 non configurés — actions I-03/I-04 du SUIVI). **Avant de
-lancer un silo, valider le volume réel** des mots-clés. Sans données, produire
-mais logguer l'hypothèse. C'est le seul point qui reste à câbler côté Me Humbert.
+**Prérequis à câbler côté Me Humbert** :
+- **NeuronWriter (bloquant, priorité 1)** : fournir la **clé API NeuronWriter**
+  comme **secret** `NEURONWRITER_API_KEY` (GitHub Actions secret ou variable
+  Cloudflare — **jamais committée**, règle 5 de CLAUDE.md) + l'ID de projet
+  NeuronWriter. Alternative : autoriser un **connecteur NeuronWriter** dans la
+  session. Sans l'un des deux, la prod ne peut pas atteindre le gate ≥ 85 →
+  publication impossible.
+- **GSC/GA4 (correctif F)** : les `keyword` de la file sont des hypothèses
+  (GSC/GA4 non configurés — actions I-03/I-04 du SUIVI). **Avant de lancer un
+  silo, valider le volume réel** des mots-clés. Sans données, produire mais
+  logguer l'hypothèse.
 
 ---
 
@@ -138,7 +152,8 @@ mais logguer l'hypothèse. C'est le seul point qui reste à câbler côté Me Hu
 | `PIPELINE-LEXVOX-AIVF.md` | ce manuel (architecture + roadmap + prompt) |
 | `queue-aivf.json` | file ordonnancée (52 actifs, 2 fusionnés) + carte des hubs |
 | `.claude/skills/article-aivf/SKILL.md` | skill `/article-aivf` (procédure augmentée) |
-| `tools/qa_article_aivf.py` | validateur d'un article (juris+backlink+Openlegi, 2 tableaux, SVG, intent, mots utiles) |
+| `tools/neuronwriter.py` | client API NeuronWriter (new-query / get-query / evaluate) — gate score ≥ 85 |
+| `tools/qa_article_aivf.py` | validateur d'un article (**NeuronWriter ≥ 85**, juris+backlink+Openlegi, 2 tableaux, SVG, intent, ≥ 1900 mots) |
 | `tools/qa_queue.py` | runner CI : valide les articles `done` de la file |
 | `.github/workflows/validate.yml` | CI : `preflight.py` + `qa_queue.py` (bloquants) |
 | `css/style.css` (ajout) | `.infographic` / `.ig-*` / `.juris-block` |
@@ -164,6 +179,15 @@ les status "merged"). L'item id 1 est l'article IA/Village de la Justice déjà
 rédigé au format .docx (article-village-justice-ia-dommage-corporel.docx, version
 longue) : publie-le en le convertissant au gabarit, ne le réécris pas.
 
+PRIORITÉ ABSOLUE, NON NÉGOCIABLE : chaque article doit être optimisé NeuronWriter
+avec un score >= 85 AVANT publication, et faire >= 1900 mots utiles (le volume peut
+monter pour gagner des points, jamais descendre sous 1900). Utilise tools/
+neuronwriter.py (clé secret NEURONWRITER_API_KEY) ou un connecteur NeuronWriter :
+crée une query sur le mot-clé, couvre les termes NLP recommandés, évalue, itère
+jusqu'à >= 85, puis colle le marqueur <!-- NEURONWRITER SCORE: N query=<id> -->.
+Sans NeuronWriter disponible, NE PUBLIE PAS (signale le blocage). Le QA refuse tout
+article < 85 ou sans marqueur.
+
 Chaque article DOIT surpasser l'équivalent AIVF via les 3 armes du standard :
   • ≥ 1 bloc d'analyse jurisprudentielle dont l'arrêt est VÉRIFIÉ via le MCP
     OPENLEGI UNIQUEMENT (pas Lexbase) — charge-le avec ToolSearch (serveur
@@ -179,6 +203,7 @@ Couverture d'intent : ≥ 5 H2 + FAQ 6 questions ; ≥ 1500 mots utiles (feuille
 2–3 feuilles sœurs. Invoque /article-aivf et déroule ses 6 étapes.
 
 VALIDATION avant chaque push (bloquant) :
+  python3 tools/neuronwriter.py evaluate <query_id> actualites/<slug>.html   (>= 85)
   python3 tools/preflight.py
   python3 tools/qa_article_aivf.py actualites/<slug>.html [--pilier]
   python3 tools/qa_queue.py
@@ -194,8 +219,9 @@ CADENCE : mets en place une diffusion d'1 article/jour ouvré via une routine
 quotidienne (trigger) qui prend le prochain item todo, le produit, le valide, le
 pousse sur main, puis s'arrête jusqu'au lendemain.
 
-PRÉREQUIS À SIGNALER : les volumes de mots-clés ne sont pas validés (GSC/GA4 non
-configurés). Produis quand même mais logue l'hypothèse de volume par silo.
+PRÉREQUIS : clé NEURONWRITER_API_KEY disponible en secret d'env (sinon demande-la
+et n'invente pas de score) ; volumes de mots-clés non validés (GSC/GA4 non
+configurés) — produis mais logue l'hypothèse de volume par silo.
 
 COMMENCE MAINTENANT : traite l'item id 1 de bout en bout et publie-le, puis
 enchaîne id 2 (le hub du silo A), et continue la file.
