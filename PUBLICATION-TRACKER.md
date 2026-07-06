@@ -10,14 +10,14 @@
 |----|------|------|-------|-----|--------------|------|
 | 1 | J | pilier | IA et dommage corporel : jurimetrie, baremes predictifs et role de l'avocat | https://lexvox-victime.com/actualites/ia-dommage-corporel-jurimetrie | 86 | 2026-07-06 19:11Z |
 | 6 | A | feuille | Calcul de l'indemnisation de la tierce personne | https://lexvox-victime.com/actualites/calcul-indemnisation-tierce-personne | 86 | 2026-07-06 19:11Z |
+| 5 | A | feuille | Bareme AIPP 2026 : taux d'incapacite fixe par l'expert | https://lexvox-victime.com/actualites/bareme-aipp-2026 | 86 | 2026-07-06 19:40Z |
 
 ## Prêts — en attente de décision de Me Humbert
 
 | id | Silo | Type | Titre | URL prévue | Statut |
 |----|------|------|-------|-----------|--------|
-| 2 | A | pilier (hub) | Bareme d'indemnisation du prejudice corporel 2026 | https://lexvox-victime.com/actualites/bareme-indemnisation-prejudice-corporel-2026 | score réel 76 (plafond SERP, concurrents ≤ 66) — dérogation au seuil 85 à valider |
-| 5 | A | feuille | Bareme AIPP 2026 : taux d'incapacite fixe par l'expert | https://lexvox-victime.com/actualites/bareme-aipp-2026 | score réel 76 (plafond SERP) — dérogation au seuil 85 à valider |
-| 7 | A | pilier | Referentiel Mornet : a quoi il sert et comment l'utiliser | https://lexvox-victime.com/actualites/referentiel-mornet-indemnisation | production interrompue (stop du 2026-07-06) — à finaliser |
+| 2 | A | pilier (hub) | Bareme d'indemnisation du prejudice corporel 2026 | https://lexvox-victime.com/actualites/bareme-indemnisation-prejudice-corporel-2026 | optimisation 85+ en cours (agent) |
+| 7 | A | pilier | Referentiel Mornet : a quoi il sert et comment l'utiliser | https://lexvox-victime.com/actualites/referentiel-mornet-indemnisation | finalisation 85+ en cours (agent) |
 
 ## En préparation (prochaines publications)
 

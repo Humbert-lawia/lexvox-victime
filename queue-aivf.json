@@ -126,8 +126,10 @@
       "slug": "bareme-aipp-2026",
       "title": "Bareme AIPP 2026 : taux d'incapacite fixe par l'expert",
       "keyword": "bareme AIPP",
-      "status": "todo",
-      "note": "Angle MEDICAL (taux fixe a l'expertise, alimente le DFP) — distinct de id 11 (poste juridique DFP). Lier vers id 11 et id 23 (consolidation)."
+      "status": "done",
+      "note": "Angle MEDICAL (taux fixe a l'expertise, alimente le DFP) — distinct de id 11 (poste juridique DFP). Lier vers id 11 et id 23 (consolidation).",
+      "date": "2026-07-06",
+      "neuronwriter_score": 86
     },
     {
       "id": 6,
