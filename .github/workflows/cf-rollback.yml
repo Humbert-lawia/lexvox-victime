@@ -1,0 +1,50 @@
+name: Cloudflare Pages — list & rollback (manuel)
+
+# Outil d'incident (2026-07-06) : permet de lister l'historique des
+# déploiements du projet Pages lexvox-victime et de restaurer un
+# déploiement antérieur, sans accès au dashboard. Déclenchement
+# strictement manuel.
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "list (afficher l'historique) ou rollback"
+        required: true
+        default: list
+        type: choice
+        options:
+          - list
+          - rollback
+      deployment_id:
+        description: "ID du déploiement à restaurer (requis si action=rollback)"
+        required: false
+        default: ""
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List deployments
+        if: ${{ inputs.action == 'list' }}
+        env:
+          CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          for page in 1 2; do
+            curl -sf "https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/pages/projects/lexvox-victime/deployments?per_page=25&page=${page}" \
+              -H "Authorization: Bearer ${CF_API_TOKEN}" \
+            | jq -r '.result[] | [.id, .created_on, .environment, (.deployment_trigger.type // "n/a"), (.deployment_trigger.metadata.commit_hash // "n/a")[0:9], (.deployment_trigger.metadata.commit_message // "n/a")[0:60]] | @tsv'
+          done
+
+      - name: Rollback
+        if: ${{ inputs.action == 'rollback' }}
+        env:
+          CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          DEPLOYMENT_ID: ${{ inputs.deployment_id }}
+        run: |
+          test -n "${DEPLOYMENT_ID}" || { echo "deployment_id manquant"; exit 1; }
+          curl -sf -X POST "https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/pages/projects/lexvox-victime/deployments/${DEPLOYMENT_ID}/rollback" \
+            -H "Authorization: Bearer ${CF_API_TOKEN}" \
+          | jq '{success, errors, restored: .result.id, created_on: .result.created_on}'
