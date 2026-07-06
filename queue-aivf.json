@@ -166,7 +166,9 @@
       "slug": "montant-indemnisation-accident-route",
       "title": "Combien pour un accident de la route ? Montants types d'indemnisation",
       "keyword": "montant indemnisation accident route",
-      "status": "todo"
+      "status": "done",
+      "date": "2026-07-06",
+      "neuronwriter_score": 100
     },
     {
       "id": 9,
