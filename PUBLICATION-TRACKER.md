@@ -13,13 +13,13 @@
 | 5 | A | feuille | Bareme AIPP 2026 : taux d'incapacite fixe par l'expert | https://lexvox-victime.com/actualites/bareme-aipp-2026 | 86 | 2026-07-06 19:40Z |
 | 7 | A | pilier | Referentiel Mornet : a quoi il sert et comment l'utiliser | https://lexvox-victime.com/actualites/referentiel-mornet-indemnisation | 86 | 2026-07-06 19:44Z |
 | 2 | A | pilier (hub) | Bareme d'indemnisation du dommage corporel 2026 | https://lexvox-victime.com/actualites/bareme-indemnisation-prejudice-corporel-2026 | 87 | 2026-07-06 19:50Z |
+| 9 | A | feuille | Bareme CCI / CRCI : l'indemnisation de l'accident medical | https://lexvox-victime.com/actualites/bareme-cci-crci-accident-medical | 87 | 2026-07-06 20:08Z |
 
 ## En préparation (prochaines publications)
 
 | id | Silo | Type | Titre | URL prévue | Statut |
 |----|------|------|-------|-----------|--------|
 | 8 | A | feuille | Combien pour un accident de la route ? Montants types d'indemnisation | https://lexvox-victime.com/actualites/montant-indemnisation-accident-route | à venir |
-| 9 | A | feuille | Bareme CCI / CRCI : l'indemnisation de l'accident medical | https://lexvox-victime.com/actualites/bareme-cci-crci-accident-medical | à venir |
 | 10 | B | feuille | Indemnisation du deficit fonctionnel temporaire (DFT) | https://lexvox-victime.com/actualites/indemnisation-deficit-fonctionnel-temporaire-dft | à venir |
 | 11 | B | pilier | Deficit fonctionnel permanent (DFP) : poste central, calcul et bareme | https://lexvox-victime.com/actualites/indemnisation-deficit-fonctionnel-permanent-dfp | à venir |
 | 12 | B | pilier | Souffrances endurees (pretium doloris) : echelle 1 a 7, evaluation et indemnisation | https://lexvox-victime.com/actualites/indemnisation-souffrances-endurees | à venir |

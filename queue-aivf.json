@@ -176,7 +176,9 @@
       "slug": "bareme-cci-crci-accident-medical",
       "title": "Bareme CCI / CRCI : l'indemnisation de l'accident medical",
       "keyword": "bareme CCI CRCI",
-      "status": "todo"
+      "status": "done",
+      "date": "2026-07-06",
+      "neuronwriter_score": 87
     },
     {
       "id": 10,
