@@ -208,8 +208,8 @@ Chaque article DOIT surpasser l'équivalent AIVF via les 3 armes du standard :
     vérifiables et signale-le.
   • ≥ 2 tableaux data-table (barème/fourchettes, comparatif, checklist chiffrée) ;
   • ≥ 1 infographie schéma SVG inline (<figure class="infographic"> + <svg>).
-Couverture d'intent : ≥ 5 H2 + FAQ 6 questions ; ≥ 1500 mots utiles (feuille) /
-2500 (pilier), sans délayage. Cocon : lie vers le hub du silo (_meta.silos) puis
+Couverture d'intent : ≥ 5 H2 + FAQ 6 questions ; ≥ 1900 mots utiles (feuille) /
+2500 (pilier), plancher absolu 1900, sans délayage. Cocon : lie vers le hub du silo (_meta.silos) puis
 2–3 feuilles sœurs. Invoque /article-aivf et déroule ses 6 étapes.
 
 VALIDATION avant chaque push (bloquant) :
