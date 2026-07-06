@@ -10,12 +10,14 @@ La cle vient de la variable d'environnement NEURONWRITER_API_KEY (SECRET : jamai
 committee — GitHub Actions secret ou variable Cloudflare, cf. regle 5 de CLAUDE.md).
 
 Endpoints utilises :
+  POST /list-projects    {}                                            -> [ { project, name, ... } ]
   POST /new-query        { project, keyword, engine, language }        -> { query }
   GET  /get-query        { query }                                     -> { status, terms... }
   POST /evaluate-content { query, html }                               -> { content_score, ... }
 
 Usage :
   export NEURONWRITER_API_KEY=xxxx
+  python3 tools/neuronwriter.py list-projects                         # decouvrir le project_id
   python3 tools/neuronwriter.py new-query <project_id> "bareme pretium doloris"
   python3 tools/neuronwriter.py evaluate <query_id> actualites/<slug>.html
       -> imprime le score et sort 0 si >= 85, 1 sinon (gate de publication).
@@ -53,6 +55,10 @@ def _post(path: str, payload: dict) -> dict:
         return json.loads(r.read().decode("utf-8"))
 
 
+def list_projects() -> dict:
+    return _post("list-projects", {})
+
+
 def new_query(project: str, keyword: str, engine: str = "google.fr", language: str = "French") -> dict:
     return _post("new-query", {"project": project, "keyword": keyword, "engine": engine, "language": language})
 
@@ -85,6 +91,9 @@ def main(argv: list[str]) -> int:
         return 1
     cmd = argv[0]
     try:
+        if cmd == "list-projects":
+            print(json.dumps(list_projects(), ensure_ascii=False, indent=2))
+            return 0
         if cmd == "new-query" and len(argv) >= 3:
             print(json.dumps(new_query(argv[1], " ".join(argv[2:])), ensure_ascii=False, indent=2))
             return 0

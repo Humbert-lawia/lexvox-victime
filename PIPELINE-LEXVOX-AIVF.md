@@ -188,15 +188,18 @@ longue) : publie-le en le convertissant au gabarit, ne le réécris pas.
 
 PRIORITÉ ABSOLUE, NON NÉGOCIABLE : chaque article doit être optimisé NeuronWriter
 avec un score >= 85 AVANT publication, et faire >= 1900 mots utiles (le volume peut
-monter pour gagner des points, jamais descendre sous 1900). Accès NeuronWriter :
-en PRIORITÉ le CONNECTEUR MCP NeuronWriter (charge ses outils avec ToolSearch,
-requête "neuronwriter" ; il ne passe pas par le proxy egress). À défaut, l'API
-tools/neuronwriter.py (clé secret NEURONWRITER_API_KEY, nécessite un environnement
-autorisant l'egress vers app.neuronwriter.com). Procédure : crée/ouvre une query
-sur le mot-clé, couvre les termes NLP recommandés, évalue le score, itère jusqu'à
->= 85, puis colle le marqueur <!-- NEURONWRITER SCORE: N query=<id> le AAAA-MM-JJ -->.
-Sans NeuronWriter disponible, NE PUBLIE PAS (signale le blocage). Le QA refuse tout
-article < 85 ou sans marqueur.
+monter pour gagner des points, jamais descendre sous 1900). Accès NeuronWriter via
+l'API tools/neuronwriter.py (il n'existe PAS de connecteur NeuronWriter). Requiert
+un environnement à réseau ouvert (egress vers app.neuronwriter.com autorisé) et la
+clé en secret NEURONWRITER_API_KEY. Procédure :
+  python3 tools/neuronwriter.py list-projects            # découvrir le project_id
+  python3 tools/neuronwriter.py new-query <project_id> "<keyword>"   # -> query_id
+  python3 tools/neuronwriter.py get-query <query_id>     # termes NLP recommandés
+puis rédige/enrichis en couvrant ces termes, évalue avec
+  python3 tools/neuronwriter.py evaluate <query_id> actualites/<slug>.html
+et itère jusqu'à >= 85. Colle alors le marqueur
+<!-- NEURONWRITER SCORE: N query=<id> le AAAA-MM-JJ -->. Sans NeuronWriter joignable,
+NE PUBLIE PAS (signale le blocage). Le QA refuse tout article < 85 ou sans marqueur.
 
 Chaque article DOIT surpasser l'équivalent AIVF via les 3 armes du standard :
   • ≥ 1 bloc d'analyse jurisprudentielle dont l'arrêt est VÉRIFIÉ via le MCP
@@ -208,8 +211,8 @@ Chaque article DOIT surpasser l'équivalent AIVF via les 3 armes du standard :
     vérifiables et signale-le.
   • ≥ 2 tableaux data-table (barème/fourchettes, comparatif, checklist chiffrée) ;
   • ≥ 1 infographie schéma SVG inline (<figure class="infographic"> + <svg>).
-Couverture d'intent : ≥ 5 H2 + FAQ 6 questions ; ≥ 1500 mots utiles (feuille) /
-2500 (pilier), sans délayage. Cocon : lie vers le hub du silo (_meta.silos) puis
+Couverture d'intent : ≥ 5 H2 + FAQ 6 questions ; ≥ 1900 mots utiles (feuille) /
+2500 (pilier), plancher absolu 1900, sans délayage. Cocon : lie vers le hub du silo (_meta.silos) puis
 2–3 feuilles sœurs. Invoque /article-aivf et déroule ses 6 étapes.
 
 VALIDATION avant chaque push (bloquant) :
@@ -229,13 +232,13 @@ CADENCE : mets en place une diffusion d'1 article/jour ouvré via une routine
 quotidienne (trigger) qui prend le prochain item todo, le produit, le valide, le
 pousse sur main, puis s'arrête jusqu'au lendemain.
 
-PRÉREQUIS (à faire par Me Humbert AVANT de coller ce prompt) : (1) autoriser le
-CONNECTEUR NeuronWriter dans les réglages de connecteurs claude.ai ; (2) le
-serveur MCP Openlegi doit être connecté (vérif jurisprudence). Vérifie les deux
-en début de session via ToolSearch ("neuronwriter" et "openlegi") ; si l'un
-manque, arrête-toi et demande son autorisation, n'invente ni score ni arrêt. Les
-volumes de mots-clés ne sont pas validés (GSC/GA4 non configurés) — produis mais
-logue l'hypothèse de volume par silo.
+PRÉREQUIS (déjà en place côté environnement de production) : (1) environnement web
+à RÉSEAU OUVERT autorisant l'egress vers app.neuronwriter.com ; (2) secret
+NEURONWRITER_API_KEY défini ; (3) serveur MCP Openlegi connecté (vérif
+jurisprudence). Vérifie-les en début de session : `python3 tools/neuronwriter.py
+list-projects` doit répondre, et ToolSearch "openlegi" doit trouver le serveur. Si
+l'un manque, arrête-toi et signale-le, n'invente ni score ni arrêt. Les volumes de
+mots-clés ne sont pas validés (GSC/GA4) — produis mais logue l'hypothèse par silo.
 
 COMMENCE MAINTENANT : traite l'item id 1 de bout en bout et publie-le, puis
 enchaîne id 2 (le hub du silo A), et continue la file.
