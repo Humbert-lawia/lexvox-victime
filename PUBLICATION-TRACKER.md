@@ -12,12 +12,7 @@
 | 6 | A | feuille | Calcul de l'indemnisation de la tierce personne | https://lexvox-victime.com/actualites/calcul-indemnisation-tierce-personne | 86 | 2026-07-06 19:11Z |
 | 5 | A | feuille | Bareme AIPP 2026 : taux d'incapacite fixe par l'expert | https://lexvox-victime.com/actualites/bareme-aipp-2026 | 86 | 2026-07-06 19:40Z |
 | 7 | A | pilier | Referentiel Mornet : a quoi il sert et comment l'utiliser | https://lexvox-victime.com/actualites/referentiel-mornet-indemnisation | 86 | 2026-07-06 19:44Z |
-
-## Prêts — en attente de décision de Me Humbert
-
-| id | Silo | Type | Titre | URL prévue | Statut |
-|----|------|------|-------|-----------|--------|
-| 2 | A | pilier (hub) | Bareme d'indemnisation du prejudice corporel 2026 | https://lexvox-victime.com/actualites/bareme-indemnisation-prejudice-corporel-2026 | optimisation 85+ en cours (agent) |
+| 2 | A | pilier (hub) | Bareme d'indemnisation du dommage corporel 2026 | https://lexvox-victime.com/actualites/bareme-indemnisation-prejudice-corporel-2026 | 87 | 2026-07-06 19:50Z |
 
 ## En préparation (prochaines publications)
 

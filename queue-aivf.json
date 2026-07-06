@@ -91,8 +91,10 @@
       "slug": "bareme-indemnisation-prejudice-corporel-2026",
       "title": "Bareme d'indemnisation du prejudice corporel 2026",
       "keyword": "bareme indemnisation dommage corporel",
-      "status": "todo",
-      "note": "HUB DU SILO A. Doit lier vers toutes les feuilles A (ancres) et etre lie en retour par elles."
+      "status": "done",
+      "note": "HUB DU SILO A. Doit lier vers toutes les feuilles A (ancres) et etre lie en retour par elles.",
+      "date": "2026-07-06",
+      "neuronwriter_score": 87
     },
     {
       "id": 3,
