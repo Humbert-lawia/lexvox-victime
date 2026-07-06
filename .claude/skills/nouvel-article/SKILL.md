@@ -1,9 +1,13 @@
 ---
 name: nouvel-article
-description: Publier un article actualités complet sur lexvox-victime.com — gabarit SEO, JSON-LD, maillage, sitemap, actualites.html, llms.txt, image, préflight. Utiliser dès que l'utilisateur demande de rédiger ou publier un article (pilier ou déclinaison locale).
+description: LEGACY (pré-Sanity, 2026-07-06) — ancien flux de publication du site statique. NE PLUS UTILISER pour publier (le site en prod est sur Sanity, utiliser /article-aivf). Conservé comme référence du gabarit HTML atelier.
 ---
 
-# Publier un article actualités
+# [LEGACY] Publier un article actualités
+
+> ⚠️ **Obsolète depuis le 2026-07-06** : la production est le frontend Next.js+Sanity.
+> Publier = `/article-aivf` (QA atelier + `tools/sanity_publish.py`). Ce document
+> reste utile pour le gabarit HTML de l'atelier uniquement.
 
 Dérouler ces étapes dans l'ordre. Ne jamais s'arrêter après la seule création
 du fichier HTML : un article non maillé est orphelin et invisible.

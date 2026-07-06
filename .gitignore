@@ -9,3 +9,4 @@ scripts/
 # Brouillons / sauvegardes
 *.bak
 __pycache__/
+*.sanity.json

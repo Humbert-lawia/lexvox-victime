@@ -1,32 +1,57 @@
 # lexvox-victime.com — mémoire projet
 
-Site vitrine statique du cabinet LEXVOX AVOCATS (Me Patrice Humbert, dommage
-corporel et responsabilité médicale, PACA). HTML/CSS/JS pur, sans framework ni
-build. Déployé sur **Cloudflare Pages** : **tout push sur `main` part
-immédiatement en production** (`.github/workflows/deploy.yml`).
+Dépôt **atelier éditorial** du cabinet LEXVOX AVOCATS (Me Patrice Humbert,
+dommage corporel et responsabilité médicale, PACA).
+
+## ⚠️ ARCHITECTURE RÉELLE (incident 2026-07-06 — à lire avant TOUT travail)
+
+**Ce dépôt statique n'est PLUS le site en production.** Le site
+https://lexvox-victime.com est un frontend **Next.js branché sur Sanity**
+(projet `jef1bcbo`, dataset `production`), servi par le projet Cloudflare
+Pages `lexvox-victime` (même architecture que lexvox-divorce.com). Le
+2026-07-06, un push sur `main` a déclenché `.github/workflows/deploy.yml`
+qui a écrasé ce site avec le vieux template statique ; il a été restauré
+par rollback Cloudflare (déploiement `de014c96`).
+
+Conséquences IMMUABLES, sauf demande expresse de Me Humbert :
+1. **`deploy.yml` est neutralisé** (`workflow_dispatch` uniquement).
+   **Ne JAMAIS le repasser sur `on: push`** et ne jamais lancer de
+   déploiement Cloudflare de ce dépôt : cela écraserait le site Sanity.
+2. **Publier un article = créer un document `article` dans Sanity**
+   (`python3 tools/sanity_publish.py`, jeton env `SANITY_API_TOKEN`),
+   PAS déployer du HTML. Le frontend affiche l'article dès que
+   `publishedAt <= now` (publication progressive native : ~2/jour à
+   09:00Z et 15:00Z, file déjà programmée jusqu'à mi-août 2026).
+3. Ce dépôt reste l'**atelier** : rédaction des articles au gabarit HTML
+   (`actualites/<slug>.html`), QA (`preflight`, `qa_article_aivf`,
+   NeuronWriter, Openlegi), archivage Git, puis conversion/publication
+   Sanity. `sitemap.xml`, `actualites.html`, `llms.txt` du dépôt ne sont
+   **plus servis** : leur maillage est géré par le frontend Sanity.
+4. Ne jamais modifier le template/design du site : toute évolution passe
+   par le projet Next.js/Sanity, sur demande expresse uniquement.
+
+## Sanity — repères techniques
+
+- Projet `jef1bcbo`, dataset `production` (lecture publique, écriture par
+  jeton `SANITY_API_TOKEN` — jamais committé, cf. règle secrets).
+- Types : `article` (body Portable Text : block normal/h2/h3/h4 + listes +
+  `srcsetImage` ; PAS de table ni de SVG inline — tableaux convertis en
+  listes, infographies uploadées en asset image), `faq` (champ dédié),
+  `heroImage`, `seo{metaTitle,metaDescription,canonicalUrl}`, `author`
+  (ref `author-humbert-victime`), `category` (refs `cat-accident-route`,
+  `cat-accident-travail`, `cat-erreur-medicale`, `cat-indemnisation`,
+  `cat-procedure`), `publishedAt`, `editorialStatus`.
+- Slug SANS préfixe `actualites-` → URL `lexvox-victime.com/actualites/<slug>`.
+- ~545 articles existants : vérifier l'absence de doublon/cannibalisation
+  avant de créer un slug (requête GROQ sur `slug.current`).
 
 ## Commandes
 
-- Prévisualiser localement : `npm start` (sert le site sur le port 8091) —
-  **toujours tester ici avant de pousser** un changement de `_headers`,
-  `_redirects` ou CSP ; ne pas déboguer en production à coups de commits.
-- Valider avant tout push : `python3 tools/preflight.py` (bloquant si
-  marqueurs de conflit, sitemap invalide/doublons, JSON-LD corrompu, image
-  locale manquante, secret en clair).
-
-## Règle IMMUABLE — ne jamais toucher au template/design (incident 2026-07-06)
-
-**Une publication d'article ne doit JAMAIS modifier le template, l'architecture
-ou le design du site.** Publier = UNIQUEMENT : (1) créer le fichier
-`actualites/<slug>.html`, (2) son image, (3) le référencer (`sitemap.xml`,
-carte dans `actualites.html`, `llms.txt`). Interdiction, **sauf demande expresse
-de Me Humbert**, de modifier `index.html`, les pages piliers/racine, la structure
-de `css/style.css` (on peut seulement AJOUTER des classes de composants d'article
-en fin de fichier), la nav, le footer ou le hero. Le design de référence est celui
-de **lexvox-divorce.com** ; toute évolution de template pour lexvox-victime est un
-chantier séparé, sur branche, prévisualisé, déployé **uniquement après accord
-explicite**. Rappel : tout push sur `main` redéploie immédiatement en prod
-(Cloudflare) — ne jamais pousser un changement de template non validé.
+- Prévisualiser l'atelier localement : `npm start` (port 8091).
+- Valider un article : `python3 tools/preflight.py` +
+  `python3 tools/qa_article_aivf.py actualites/<slug>.html [--pilier]`.
+- Convertir/publier vers Sanity : `python3 tools/sanity_publish.py
+  actualites/<slug>.html --dry-run` puis `--publish-at <ISO|now>`.
 
 ## Règles critiques (chacune vient d'un incident réel)
 
@@ -59,12 +84,15 @@ corrections en masse (103 titles régénérés, 20 meta descriptions, H1 dédupl
 - 4 blocs JSON-LD valides : `LegalService`, `Article` (avec champ `image`),
   `FAQPage`, `BreadcrumbList`. Jamais de HTML brut dans le JSON.
 - Image hero existante dans `img/articles/<slug>.jpg` + `og:image`/`twitter:image`.
-- Publier un article = mettre à jour **4 fichiers** : l'article,
-  `sitemap.xml` (lastmod du jour), `actualites.html` (carte + compteur de
-  catégorie), `llms.txt` (section articles récents).
+- Publier un article = (1) valider le HTML atelier (QA + NeuronWriter ≥ 85 +
+  Openlegi), (2) le pousser sur `main` (archive — ne déclenche plus aucun
+  déploiement), (3) le publier dans Sanity via `tools/sanity_publish.py`,
+  (4) mettre à jour `queue-aivf.json` et `PUBLICATION-TRACKER.md`.
+  (`sitemap.xml`/`actualites.html`/`llms.txt` du dépôt : maillage legacy,
+  plus servi en production — entretien facultatif.)
 
-Utiliser le skill projet `/nouvel-article` pour dérouler la checklist complète,
-et `/preflight` avant de pousser.
+Utiliser le skill projet `/article-aivf` pour dérouler la checklist complète
+(`/nouvel-article` est le legacy pré-Sanity), et `/preflight` avant de pousser.
 
 ## Suivi
 

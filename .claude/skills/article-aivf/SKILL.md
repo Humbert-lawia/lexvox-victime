@@ -1,21 +1,28 @@
 ---
 name: article-aivf
-description: Produire un article de fond haut de gamme selon le PIPELINE LEXVOX-AIVF (gabarit augmente pour surpasser le concurrent AIVF) — optimisation NeuronWriter score >=85 (priorite non negociable, min 1900 mots), analyse jurisprudentielle VERIFIEE via Openlegi avec backlink, 2+ tableaux, infographie SVG inline, couverture d'intent, cocon, maillage des 4 fichiers, puis publication directe sur main (prod). Utiliser pour tout article de queue-aivf.json ou quand l'utilisateur demande un article "qualite AIVF-killer".
+description: Produire un article de fond haut de gamme selon le PIPELINE LEXVOX-AIVF v2 (gabarit augmente pour surpasser le concurrent AIVF) — optimisation NeuronWriter score >=85 (priorite non negociable, min 1900 mots), analyse jurisprudentielle VERIFIEE via Openlegi avec backlink, 2+ tableaux, infographie SVG inline, couverture d'intent, cocon, puis PUBLICATION DANS SANITY (tools/sanity_publish.py) — le site en prod est un frontend Next.js+Sanity, plus ce depot statique. Utiliser pour tout article de queue-aivf.json ou quand l'utilisateur demande un article "qualite AIVF-killer".
 ---
 
-# Produire un article — PIPELINE LEXVOX-AIVF
+# Produire un article — PIPELINE LEXVOX-AIVF v2 (Sanity)
 
 Ce skill remplace `/nouvel-article` pour les articles du plan anti-AIVF.
-Il reprend la mecanique de maillage et ajoute les signatures de differenciation
+Il reprend la mecanique de production et ajoute les signatures de differenciation
 imposees par l'audit (`AUDIT-COMPARATIF-AIVF-2026-07.md`) et le manuel
 `PIPELINE-LEXVOX-AIVF.md`.
 
-Regle d'or de publication : **publication directe et automatique sur `main`
-(= production immediate via Cloudflare Pages), sans sas de relecture prealable.**
-La verification humaine se fait A POSTERIORI (Me Humbert relit une fois en ligne).
-Le seul garde-fou avant mise en ligne est donc la **verification Openlegi** de
-chaque jurisprudence (§1/§4) : aucun arret non confirme par Openlegi ne doit etre
-publie. Le QA (`preflight` + `qa_article_aivf`) doit passer avant chaque push.
+**ARCHITECTURE (incident 2026-07-06, lire la section dediee de CLAUDE.md) :**
+la production est le frontend **Next.js + Sanity** (projet `jef1bcbo`, dataset
+`production`). Ce depot est l'ATELIER : on y redige l'article au gabarit HTML,
+on y passe tous les QA, on l'archive sur `main` (aucun deploiement n'est
+declenche : `deploy.yml` est neutralise — NE JAMAIS le reactiver), puis on
+publie le document dans Sanity via `tools/sanity_publish.py`. Le frontend
+affiche l'article des que `publishedAt <= now` (publication progressive,
+cadence existante ~2/jour a 09:00Z et 15:00Z).
+
+Regle d'or : **aucun sas de relecture prealable** — la relecture de Me Humbert
+se fait a posteriori. Les garde-fous bloquants avant publication Sanity :
+verification **Openlegi** de chaque jurisprudence (§1/§4), **NeuronWriter >= 85**
+(§5bis), `preflight` + `qa_article_aivf` verts (§6).
 
 ## 0. Choisir le sujet dans la file
 
@@ -130,16 +137,23 @@ Un `.juris-block` minimum, avec **backlink** et **marqueur de verification** :
 Le paragraphe "Notre lecture de praticien" incarne l'expertise de Me Humbert :
 toujours le renseigner. Reference + n° de pourvoi = ceux renvoyes par Openlegi.
 
-## 5. Mailler les 4 fichiers + cocon (systematique)
+## 5. Cocon + suivi (systematique)
 
-1. `sitemap.xml` : `<url>` + `lastmod` du jour, sans doublon.
-2. `actualites.html` : carte dans la bonne categorie + compteur ; pilier => "A la une".
-3. `llms.txt` : ligne dans les articles recents.
-4. **Cocon** : lier vers le **HUB du silo** (voir `_meta.silos[<silo>].hub_url` dans
-   `queue-aivf.json`) EN PREMIER, + 2–3 liens vers les feuilles freres du meme silo,
-   + backlink depuis le hub si le hub est un article qu'on cree/maintient. Un pilier
-   nouvellement cree (id 2 silo A, id 42 silo G) EST le hub : il doit lister toutes
-   ses feuilles. Mettre `queue-aivf.json` a jour (`status: "done"`, `date`).
+1. **Cocon dans le corps de l'article** : lier vers le **HUB du silo** (voir
+   `_meta.silos[<silo>].hub_url` dans `queue-aivf.json`) EN PREMIER, + 2–3 liens
+   vers les feuilles freres du meme silo, + backlink depuis le hub si le hub est
+   un article qu'on cree/maintient. Un pilier nouvellement cree EST le hub : il
+   doit lister toutes ses feuilles. Liens internes en URL relative sans `.html`
+   (`/actualites/<slug>`, `/nomenclature-dintilhac`…) — `sanity_publish.py` les
+   convertit tels quels.
+2. **Anti-cannibalisation Sanity** : avant de creer un slug, verifier qu'aucun
+   des ~545 articles existants ne le prend deja :
+   `curl -s "https://jef1bcbo.apicdn.sanity.io/v2024-01-01/data/query/production?query=*%5Bslug.current%3D%3D%22<slug>%22%5D%7B_id%7D"`
+   (les slugs Sanity historiques peuvent porter un prefixe `actualites-` : tester les deux).
+3. `queue-aivf.json` a jour (`status: "done"`, `date`, `neuronwriter_score`).
+4. `PUBLICATION-TRACKER.md` a jour (tableau publies / en attente, avec URLs).
+5. Legacy (facultatif) : `sitemap.xml`, `actualites.html`, `llms.txt` du depot ne
+   sont plus servis en production — ne les maintenir que si demande.
 
 ## 5bis. Optimiser avec NeuronWriter — score >= 85 (LA priorite, non negociable)
 
@@ -166,24 +180,42 @@ d'optimisation avant validation :
 Si NeuronWriter est indisponible (ni API ni connecteur), NE PAS publier : signaler
 le blocage. Le score >= 85 est une condition de mise en ligne, pas une option.
 
-## 6. Valider, puis publier directement sur main (auto)
+## 6. Valider, archiver, puis publier dans SANITY
 
 ```bash
 python3 tools/neuronwriter.py evaluate <query_id> actualites/<slug>.html   # >= 85 (BLOQUANT)
 python3 tools/preflight.py                                   # SEO de base — 0 erreur (BLOQUANT)
 python3 tools/qa_article_aivf.py actualites/<slug>.html [--pilier]   # standard AIVF-killer (BLOQUANT)
 python3 tools/qa_queue.py                                    # coherence de la file (BLOQUANT)
+
+# 1) Archive Git (ne deploie RIEN : deploy.yml neutralise — ne pas le reactiver)
 git diff --check
 git checkout main
-git add -A && git commit -m "Article <silo>-<id> : <sujet>"
-git pull --rebase origin main                                # union+dedup si conflit sitemap
-git push origin main                                         # => deploie en PROD (Cloudflare Pages)
+git add actualites/<slug>.html img/articles/<slug>.jpg queue-aivf.json PUBLICATION-TRACKER.md
+git commit -m "Article <silo>-<id> : <sujet>"
+git pull --rebase origin main && git push origin main
+
+# 2) Publication SANITY (= mise en ligne reelle)
+python3 tools/sanity_publish.py actualites/<slug>.html --dry-run          # controle du JSON
+python3 tools/sanity_publish.py actualites/<slug>.html \
+    --publish-at <ISO-UTC|now> --category <cat-...>   # jeton env SANITY_API_TOKEN requis
+
+# 3) Verifier en ligne (des que publishedAt est passe)
+curl -s -o /dev/null -w "%{http_code}" https://lexvox-victime.com/actualites/<slug>
 ```
 
-Publication **directe sur `main`** = mise en production immediate ; la relecture de
-Me Humbert est faite a posteriori. **Ne jamais pousser un article qui echoue le
-score NeuronWriter >= 85, `preflight.py` ou `qa_article_aivf.py`** (ces garde-fous,
-dont l'optimisation NeuronWriter et la verification Openlegi des jurisprudences,
-remplacent le sas humain). Ne JAMAIS committer de
-marqueur de conflit. Un commit = un article complet + ses 4 fichiers maillés
-(sitemap, actualites, llms.txt, cocon) + `queue-aivf.json` a jour (`done` + date).
+Choisir `--publish-at` : "now" si Me Humbert veut l'article visible immediatement ;
+sinon le prochain creneau libre de la cadence (09:00Z / 15:00Z) APRES les articles
+deja programmes dans Sanity (requete GROQ `*[_type=="article"] | order(publishedAt desc)[0].publishedAt`).
+`--category` : choisir parmi cat-accident-route, cat-accident-travail,
+cat-erreur-medicale, cat-indemnisation, cat-procedure (silo A/B => cat-indemnisation ;
+E/F => cat-erreur-medicale ou cat-procedure ; C/D => cat-indemnisation ;
+G/H/I/J => selon sujet).
+
+**Ne jamais publier dans Sanity un article qui echoue NeuronWriter >= 85,
+`preflight.py` ou `qa_article_aivf.py`** (garde-fous remplacant le sas humain).
+Si `SANITY_API_TOKEN` est absent : s'arreter et le demander a Me Humbert
+(a ajouter dans les variables d'environnement de l'environnement Claude Code,
+jamais en clair dans le depot ni le chat). Limitations schema Sanity : les
+`<table class="data-table">` sont converties en listes, l'infographie SVG est
+uploadee en asset image — verifier le rendu apres publication.
