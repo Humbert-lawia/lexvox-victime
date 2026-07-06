@@ -151,8 +151,10 @@
       "slug": "referentiel-mornet-indemnisation",
       "title": "Referentiel Mornet : a quoi il sert et comment l'utiliser",
       "keyword": "referentiel Mornet indemnisation",
-      "status": "todo",
-      "note": "Le PDF 'Referentiel MORNET 2025.pdf' est dans le repo : l'exploiter comme source primaire (extraction one-shot, ne pas relire integralement a chaque run)."
+      "status": "done",
+      "note": "Le PDF 'Referentiel MORNET 2025.pdf' est dans le repo : l'exploiter comme source primaire (extraction one-shot, ne pas relire integralement a chaque run).",
+      "date": "2026-07-06",
+      "neuronwriter_score": 86
     },
     {
       "id": 8,
