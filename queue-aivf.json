@@ -10,74 +10,620 @@
     "optimisation": "NeuronWriter est LA priorite : score >=85 par article. Outil : API NeuronWriter via tools/neuronwriter.py (cle NEURONWRITER_API_KEY en secret d'env, jamais committee) OU connecteur NeuronWriter autorise. Le score obtenu est colle en marqueur <!-- NEURONWRITER SCORE: N query=<id> --> ; qa_article_aivf.py bloque si N<85 ou marqueur absent. Ajuster le contenu (termes NLP recommandes par NeuronWriter) jusqu'a >=85, en restant >=1900 mots.",
     "verification_juridique": "MCP Openlegi UNIQUEMENT (pas Lexbase). Chaque decision citee est confirmee par un appel Openlegi ; l'URL/source renvoyee sert de backlink <a href> dans le bloc juris ; un marqueur <!-- OPENLEGI VERIFIED: ... --> est colle par decision. Aucun n. de pourvoi non verifie.",
     "prerequis_bloquant": "Configurer Google Search Console + GA4 et valider le volume reel des mots-cles AVANT de lancer la prod d'un silo (actions I-03/I-04 du SUIVI). Sans donnee, produire mais logguer l'hypothese de volume.",
-    "statuts": ["todo", "in_progress", "done", "merged"],
+    "statuts": [
+      "todo",
+      "in_progress",
+      "done",
+      "merged"
+    ],
     "silos": {
-      "A": {"theme": "Calcul / baremes / montants", "hub_url": "/actualites/bareme-indemnisation-prejudice-corporel-2026", "hub_status": "a_creer (id 2)"},
-      "B": {"theme": "Postes de prejudice un par un", "hub_url": "/nomenclature-dintilhac", "hub_status": "existant"},
-      "C": {"theme": "Cas concrets de sequelles", "hub_url": "/indemnisation-prejudice-corporel", "hub_status": "existant"},
-      "D": {"theme": "Grand handicap", "hub_url": "/indemnisation-prejudice-corporel", "hub_status": "existant"},
-      "E": {"theme": "Expertise medicale detaillee", "hub_url": "/expertise-medicale", "hub_status": "existant"},
-      "F": {"theme": "Accident medical specifique", "hub_url": "/responsabilite-medicale", "hub_status": "existant"},
-      "G": {"theme": "Accident de la vie / GAV / sport", "hub_url": "/actualites/garantie-accidents-de-la-vie-gav", "hub_status": "a_creer (id 42)"},
-      "H": {"theme": "Agression / CIVI / FGTI", "hub_url": "/victime-agression", "hub_status": "existant"},
-      "I": {"theme": "Usagers vulnerables", "hub_url": "/accident-de-la-route", "hub_status": "existant"},
-      "J": {"theme": "Thought-leadership / differenciation", "hub_url": "/cabinet", "hub_status": "existant"}
+      "A": {
+        "theme": "Calcul / baremes / montants",
+        "hub_url": "/actualites/bareme-indemnisation-prejudice-corporel-2026",
+        "hub_status": "a_creer (id 2)"
+      },
+      "B": {
+        "theme": "Postes de prejudice un par un",
+        "hub_url": "/nomenclature-dintilhac",
+        "hub_status": "existant"
+      },
+      "C": {
+        "theme": "Cas concrets de sequelles",
+        "hub_url": "/indemnisation-prejudice-corporel",
+        "hub_status": "existant"
+      },
+      "D": {
+        "theme": "Grand handicap",
+        "hub_url": "/indemnisation-prejudice-corporel",
+        "hub_status": "existant"
+      },
+      "E": {
+        "theme": "Expertise medicale detaillee",
+        "hub_url": "/expertise-medicale",
+        "hub_status": "existant"
+      },
+      "F": {
+        "theme": "Accident medical specifique",
+        "hub_url": "/responsabilite-medicale",
+        "hub_status": "existant"
+      },
+      "G": {
+        "theme": "Accident de la vie / GAV / sport",
+        "hub_url": "/actualites/garantie-accidents-de-la-vie-gav",
+        "hub_status": "a_creer (id 42)"
+      },
+      "H": {
+        "theme": "Agression / CIVI / FGTI",
+        "hub_url": "/victime-agression",
+        "hub_status": "existant"
+      },
+      "I": {
+        "theme": "Usagers vulnerables",
+        "hub_url": "/accident-de-la-route",
+        "hub_status": "existant"
+      },
+      "J": {
+        "theme": "Thought-leadership / differenciation",
+        "hub_url": "/cabinet",
+        "hub_status": "existant"
+      }
     }
   },
   "articles": [
-    {"id": 1,  "silo": "J", "prio": "P1", "type": "pilier",   "slug": "ia-dommage-corporel-jurimetrie",                 "title": "IA et dommage corporel : jurimetrie, baremes predictifs et role de l'avocat", "keyword": "IA dommage corporel jurimetrie", "status": "done", "date": "2026-07-06", "neuronwriter_score": 86, "note": "Publier le .docx existant de Me Humbert (article-village-justice-ia-dommage-corporel.docx, version LONGUE) en le convertissant au gabarit. Ne pas le reecrire. E-E-A-T unique."},
-    {"id": 2,  "silo": "A", "prio": "P1", "type": "pilier",   "slug": "bareme-indemnisation-prejudice-corporel-2026",    "title": "Bareme d'indemnisation du prejudice corporel 2026", "keyword": "bareme indemnisation dommage corporel", "status": "todo", "note": "HUB DU SILO A. Doit lier vers toutes les feuilles A (ancres) et etre lie en retour par elles."},
-    {"id": 3,  "silo": "A", "prio": "P1", "type": "feuille",  "slug": "bareme-pretium-doloris-souffrances-endurees",     "title": "Bareme pretium doloris : l'echelle 1 a 7 des souffrances endurees", "keyword": "bareme pretium doloris", "status": "merged", "merged_into": 12, "note": "FUSIONNE avec id 12 (meme intent : souffrances endurees). L'echelle 1-7 devient une section ancree de id 12. Evite la cannibalisation."},
-    {"id": 4,  "silo": "A", "prio": "P1", "type": "feuille",  "slug": "calcul-deficit-fonctionnel-permanent-dfp",        "title": "Calcul du deficit fonctionnel permanent (DFP)", "keyword": "calcul DFP indemnisation", "status": "merged", "merged_into": 11, "note": "FUSIONNE avec id 11 (meme intent : DFP). Le calcul/bareme devient une section ancree de id 11. Evite la cannibalisation."},
-    {"id": 5,  "silo": "A", "prio": "P1", "type": "feuille",  "slug": "bareme-aipp-2026",                                "title": "Bareme AIPP 2026 : taux d'incapacite fixe par l'expert", "keyword": "bareme AIPP", "status": "todo", "note": "Angle MEDICAL (taux fixe a l'expertise, alimente le DFP) — distinct de id 11 (poste juridique DFP). Lier vers id 11 et id 23 (consolidation)."},
-    {"id": 6,  "silo": "A", "prio": "P1", "type": "feuille",  "slug": "calcul-indemnisation-tierce-personne",           "title": "Calcul de l'indemnisation de la tierce personne (rente viagere)", "keyword": "calcul tierce personne", "status": "todo"},
-    {"id": 7,  "silo": "A", "prio": "P1", "type": "pilier",   "slug": "referentiel-mornet-indemnisation",               "title": "Referentiel Mornet : a quoi il sert et comment l'utiliser", "keyword": "referentiel Mornet indemnisation", "status": "todo", "note": "Le PDF 'Referentiel MORNET 2025.pdf' est dans le repo : l'exploiter comme source primaire (extraction one-shot, ne pas relire integralement a chaque run)."},
-    {"id": 8,  "silo": "A", "prio": "P1", "type": "feuille",  "slug": "montant-indemnisation-accident-route",           "title": "Combien pour un accident de la route ? Montants types d'indemnisation", "keyword": "montant indemnisation accident route", "status": "todo"},
-    {"id": 9,  "silo": "A", "prio": "P2", "type": "feuille",  "slug": "bareme-cci-crci-accident-medical",               "title": "Bareme CCI / CRCI : l'indemnisation de l'accident medical", "keyword": "bareme CCI CRCI", "status": "todo"},
-    {"id": 10, "silo": "B", "prio": "P1", "type": "feuille",  "slug": "indemnisation-deficit-fonctionnel-temporaire-dft","title": "Indemnisation du deficit fonctionnel temporaire (DFT)", "keyword": "indemnisation DFT", "status": "todo"},
-    {"id": 11, "silo": "B", "prio": "P1", "type": "pilier",   "slug": "indemnisation-deficit-fonctionnel-permanent-dfp", "title": "Deficit fonctionnel permanent (DFP) : poste central, calcul et bareme", "keyword": "indemnisation DFP", "status": "todo", "note": "ABSORBE id 4 : couvre a la fois le POSTE (definition/reparation) ET le CALCUL/bareme (section ancree #calcul). Article unique anti-cannibalisation."},
-    {"id": 12, "silo": "B", "prio": "P1", "type": "pilier",   "slug": "indemnisation-souffrances-endurees",             "title": "Souffrances endurees (pretium doloris) : echelle 1 a 7, evaluation et indemnisation", "keyword": "indemnisation souffrances endurees", "status": "todo", "note": "ABSORBE id 3 : couvre l'echelle/bareme 1-7 (section ancree #echelle) ET l'indemnisation du poste. Article unique anti-cannibalisation."},
-    {"id": 13, "silo": "B", "prio": "P1", "type": "feuille",  "slug": "indemnisation-prejudice-esthetique",             "title": "Prejudice esthetique temporaire et permanent : indemnisation", "keyword": "indemnisation prejudice esthetique", "status": "todo"},
-    {"id": 14, "silo": "B", "prio": "P2", "type": "feuille",  "slug": "indemnisation-prejudice-agrement",               "title": "Prejudice d'agrement : perte de loisirs et indemnisation", "keyword": "prejudice d'agrement indemnisation", "status": "todo"},
-    {"id": 15, "silo": "B", "prio": "P2", "type": "feuille",  "slug": "indemnisation-prejudice-sexuel",                 "title": "Prejudice sexuel : reconnaissance et indemnisation", "keyword": "indemnisation prejudice sexuel", "status": "todo"},
-    {"id": 16, "silo": "B", "prio": "P2", "type": "feuille",  "slug": "indemnisation-prejudice-affection",              "title": "Prejudice d'affection : l'indemnisation des victimes indirectes", "keyword": "prejudice d'affection montant", "status": "todo"},
-    {"id": 17, "silo": "B", "prio": "P2", "type": "feuille",  "slug": "indemnisation-perte-gains-professionnels",       "title": "Perte de gains professionnels (PGPA et PGPF) : calcul et indemnisation", "keyword": "perte gains professionnels indemnisation", "status": "todo"},
-    {"id": 18, "silo": "B", "prio": "P2", "type": "feuille",  "slug": "calcul-incidence-professionnelle",               "title": "Incidence professionnelle : evaluer l'impact durable sur la carriere", "keyword": "calcul incidence professionnelle", "status": "todo"},
-    {"id": 19, "silo": "B", "prio": "P3", "type": "feuille",  "slug": "indemnisation-prejudice-scolaire",               "title": "Prejudice scolaire, universitaire et de formation", "keyword": "prejudice scolaire indemnisation", "status": "todo"},
-    {"id": 20, "silo": "B", "prio": "P3", "type": "feuille",  "slug": "indemnisation-prejudice-etablissement",          "title": "Prejudice d'etablissement : projet de vie familiale bouleverse", "keyword": "prejudice d'etablissement", "status": "todo"},
-    {"id": 21, "silo": "E", "prio": "P2", "type": "feuille",  "slug": "medecin-conseil-de-recours",                     "title": "Medecin conseil de recours : role, choix et interet pour la victime", "keyword": "medecin conseil de recours", "status": "todo"},
-    {"id": 22, "silo": "E", "prio": "P2", "type": "feuille",  "slug": "contester-rapport-expertise-medicale",           "title": "Contester le rapport d'expertise medicale : voies de recours", "keyword": "contester rapport expertise medicale", "status": "todo"},
-    {"id": 23, "silo": "E", "prio": "P2", "type": "feuille",  "slug": "consolidation-medicale-definition",              "title": "La consolidation medicale : definition, date et enjeux", "keyword": "consolidation medicale", "status": "todo"},
-    {"id": 24, "silo": "E", "prio": "P3", "type": "feuille",  "slug": "indemnite-provisionnelle-accident",              "title": "L'indemnite provisionnelle (provision) avant consolidation", "keyword": "indemnite provisionnelle accident", "status": "todo"},
-    {"id": 25, "silo": "E", "prio": "P3", "type": "feuille",  "slug": "deroule-expertise-medicale",                     "title": "Comment se passe l'expertise medicale : deroule etape par etape", "keyword": "deroule expertise medicale", "status": "todo"},
-    {"id": 26, "silo": "F", "prio": "P2", "type": "feuille",  "slug": "indemnisation-infection-nosocomiale",            "title": "Infection nosocomiale : droits et indemnisation de la victime", "keyword": "indemnisation infection nosocomiale", "status": "todo"},
-    {"id": 27, "silo": "F", "prio": "P2", "type": "feuille",  "slug": "negligence-medicale-recours",                    "title": "Negligence medicale : recours et indemnisation", "keyword": "negligence medicale indemnisation", "status": "todo"},
-    {"id": 28, "silo": "F", "prio": "P2", "type": "feuille",  "slug": "prescription-erreur-medicale",                   "title": "Delai de prescription d'une erreur medicale", "keyword": "prescription erreur medicale", "status": "todo"},
-    {"id": 29, "silo": "F", "prio": "P3", "type": "feuille",  "slug": "indemnisation-erreur-chirurgicale",              "title": "Erreur chirurgicale et erreur d'anesthesie : indemnisation", "keyword": "indemnisation erreur chirurgicale", "status": "todo"},
-    {"id": 30, "silo": "F", "prio": "P3", "type": "feuille",  "slug": "obtenir-dossier-medical",                        "title": "Obtenir son dossier medical (et que faire en cas de refus)", "keyword": "demande dossier medical", "status": "todo"},
-    {"id": 31, "silo": "F", "prio": "P2", "type": "pilier",   "slug": "procedure-cci-crci",                             "title": "Procedure CCI / CRCI pas a pas et saisine de l'ONIAM", "keyword": "procedure CCI CRCI", "status": "todo"},
-    {"id": 32, "silo": "C", "prio": "P2", "type": "feuille",  "slug": "indemnisation-fracture-cheville-poignet-vertebre","title": "Indemnisation d'une fracture (cheville, poignet, vertebre)", "keyword": "indemnisation fracture", "status": "todo"},
-    {"id": 33, "silo": "C", "prio": "P2", "type": "feuille",  "slug": "indemnisation-perte-oeil",                       "title": "Indemnisation de la perte d'un oeil", "keyword": "indemnisation perte oeil", "status": "todo"},
-    {"id": 34, "silo": "C", "prio": "P2", "type": "feuille",  "slug": "indemnisation-amputation",                       "title": "Indemnisation d'une amputation (membre superieur / inferieur)", "keyword": "indemnisation amputation", "status": "todo"},
-    {"id": 35, "silo": "C", "prio": "P2", "type": "feuille",  "slug": "indemnisation-algodystrophie-sdrc",              "title": "Algodystrophie (SDRC) : reconnaissance et indemnisation", "keyword": "indemnisation algodystrophie", "status": "todo"},
-    {"id": 36, "silo": "C", "prio": "P2", "type": "feuille",  "slug": "indemnisation-coup-du-lapin",                    "title": "Entorse cervicale / coup du lapin (whiplash) : indemnisation", "keyword": "indemnisation coup du lapin", "status": "todo"},
-    {"id": 37, "silo": "C", "prio": "P3", "type": "feuille",  "slug": "indemnisation-plexus-brachial",                  "title": "Lesion du plexus brachial apres accident de moto : indemnisation", "keyword": "indemnisation plexus brachial", "status": "todo"},
-    {"id": 38, "silo": "D", "prio": "P2", "type": "feuille",  "slug": "indemnisation-paraplegie",                       "title": "Indemnisation de la paraplegie", "keyword": "indemnisation paraplegie", "status": "todo"},
-    {"id": 39, "silo": "D", "prio": "P2", "type": "feuille",  "slug": "indemnisation-tetraplegie",                      "title": "Indemnisation de la tetraplegie", "keyword": "indemnisation tetraplegie", "status": "todo"},
-    {"id": 40, "silo": "D", "prio": "P3", "type": "feuille",  "slug": "indemnisation-hemiplegie",                       "title": "Indemnisation de l'hemiplegie", "keyword": "indemnisation hemiplegie", "status": "todo"},
-    {"id": 41, "silo": "D", "prio": "P3", "type": "feuille",  "slug": "indemnisation-coma-etat-vegetatif",              "title": "Coma et etat vegetatif : reparation du grand handicap", "keyword": "indemnisation coma accident", "status": "todo"},
-    {"id": 42, "silo": "G", "prio": "P2", "type": "pilier",   "slug": "garantie-accidents-de-la-vie-gav",               "title": "Garantie accidents de la vie (GAV) : ce qu'elle couvre vraiment", "keyword": "garantie accidents de la vie", "status": "todo", "note": "HUB DU SILO G."},
-    {"id": 43, "silo": "G", "prio": "P3", "type": "feuille",  "slug": "indemnisation-accident-domestique",              "title": "Indemnisation d'un accident domestique", "keyword": "indemnisation accident domestique", "status": "todo"},
-    {"id": 44, "silo": "G", "prio": "P3", "type": "feuille",  "slug": "indemnisation-accident-ski",                     "title": "Indemnisation d'un accident de sport ou de ski", "keyword": "indemnisation accident ski", "status": "todo"},
-    {"id": 45, "silo": "G", "prio": "P3", "type": "feuille",  "slug": "indemnisation-chute-rue-escalier",               "title": "Indemnisation d'une chute (rue, escalier, sol glissant)", "keyword": "indemnisation chute dans la rue", "status": "todo"},
-    {"id": 46, "silo": "H", "prio": "P2", "type": "pilier",   "slug": "indemnisation-civi",                             "title": "Indemnisation CIVI : saisir la commission d'indemnisation des victimes", "keyword": "indemnisation CIVI", "status": "todo"},
-    {"id": 47, "silo": "H", "prio": "P2", "type": "feuille",  "slug": "fgti-fonds-garantie-victimes",                   "title": "FGTI : le fonds de garantie des victimes d'infractions", "keyword": "FGTI indemnisation", "status": "todo"},
-    {"id": 48, "silo": "H", "prio": "P3", "type": "feuille",  "slug": "porter-plainte-agression",                       "title": "Porter plainte apres une agression : demarches et indemnisation", "keyword": "porter plainte agression", "status": "todo"},
-    {"id": 49, "silo": "H", "prio": "P3", "type": "feuille",  "slug": "indemnisation-coups-et-blessures",               "title": "Coups et blessures volontaires : indemnisation de la victime", "keyword": "indemnisation coups et blessures", "status": "todo"},
-    {"id": 50, "silo": "I", "prio": "P2", "type": "feuille",  "slug": "indemnisation-pieton-accident",                  "title": "Indemnisation du pieton victime (loi Badinter)", "keyword": "indemnisation pieton accident", "status": "todo"},
-    {"id": 51, "silo": "I", "prio": "P2", "type": "feuille",  "slug": "indemnisation-cycliste-accident",                "title": "Indemnisation du cycliste victime d'un accident", "keyword": "indemnisation cycliste accident", "status": "todo"},
-    {"id": 52, "silo": "I", "prio": "P3", "type": "feuille",  "slug": "indemnisation-accident-trottinette",             "title": "Accident de trottinette (EDPM) : indemnisation de la victime", "keyword": "indemnisation accident trottinette", "status": "todo"},
-    {"id": 53, "silo": "J", "prio": "P2", "type": "pilier",   "slug": "loi-badinter-indemnisation",                     "title": "La loi Badinter expliquee par un avocat qui plaide", "keyword": "loi Badinter indemnisation", "status": "todo"},
-    {"id": 54, "silo": "J", "prio": "P3", "type": "feuille",  "slug": "accident-delit-de-fuite-indemnisation",          "title": "Accident avec delit de fuite : indemnisation par le FGAO", "keyword": "accident delit de fuite indemnisation", "status": "todo"}
+    {
+      "id": 1,
+      "silo": "J",
+      "prio": "P1",
+      "type": "pilier",
+      "slug": "ia-dommage-corporel-jurimetrie",
+      "title": "IA et dommage corporel : jurimetrie, baremes predictifs et role de l'avocat",
+      "keyword": "IA dommage corporel jurimetrie",
+      "status": "done",
+      "date": "2026-07-06",
+      "neuronwriter_score": 86,
+      "note": "Publier le .docx existant de Me Humbert (article-village-justice-ia-dommage-corporel.docx, version LONGUE) en le convertissant au gabarit. Ne pas le reecrire. E-E-A-T unique."
+    },
+    {
+      "id": 2,
+      "silo": "A",
+      "prio": "P1",
+      "type": "pilier",
+      "slug": "bareme-indemnisation-prejudice-corporel-2026",
+      "title": "Bareme d'indemnisation du prejudice corporel 2026",
+      "keyword": "bareme indemnisation dommage corporel",
+      "status": "todo",
+      "note": "HUB DU SILO A. Doit lier vers toutes les feuilles A (ancres) et etre lie en retour par elles."
+    },
+    {
+      "id": 3,
+      "silo": "A",
+      "prio": "P1",
+      "type": "feuille",
+      "slug": "bareme-pretium-doloris-souffrances-endurees",
+      "title": "Bareme pretium doloris : l'echelle 1 a 7 des souffrances endurees",
+      "keyword": "bareme pretium doloris",
+      "status": "merged",
+      "merged_into": 12,
+      "note": "FUSIONNE avec id 12 (meme intent : souffrances endurees). L'echelle 1-7 devient une section ancree de id 12. Evite la cannibalisation."
+    },
+    {
+      "id": 4,
+      "silo": "A",
+      "prio": "P1",
+      "type": "feuille",
+      "slug": "calcul-deficit-fonctionnel-permanent-dfp",
+      "title": "Calcul du deficit fonctionnel permanent (DFP)",
+      "keyword": "calcul DFP indemnisation",
+      "status": "merged",
+      "merged_into": 11,
+      "note": "FUSIONNE avec id 11 (meme intent : DFP). Le calcul/bareme devient une section ancree de id 11. Evite la cannibalisation."
+    },
+    {
+      "id": 5,
+      "silo": "A",
+      "prio": "P1",
+      "type": "feuille",
+      "slug": "bareme-aipp-2026",
+      "title": "Bareme AIPP 2026 : taux d'incapacite fixe par l'expert",
+      "keyword": "bareme AIPP",
+      "status": "todo",
+      "note": "Angle MEDICAL (taux fixe a l'expertise, alimente le DFP) — distinct de id 11 (poste juridique DFP). Lier vers id 11 et id 23 (consolidation)."
+    },
+    {
+      "id": 6,
+      "silo": "A",
+      "prio": "P1",
+      "type": "feuille",
+      "slug": "calcul-indemnisation-tierce-personne",
+      "title": "Calcul de l'indemnisation de la tierce personne (rente viagere)",
+      "keyword": "calcul tierce personne",
+      "status": "done",
+      "date": "2026-07-06",
+      "neuronwriter_score": 86
+    },
+    {
+      "id": 7,
+      "silo": "A",
+      "prio": "P1",
+      "type": "pilier",
+      "slug": "referentiel-mornet-indemnisation",
+      "title": "Referentiel Mornet : a quoi il sert et comment l'utiliser",
+      "keyword": "referentiel Mornet indemnisation",
+      "status": "todo",
+      "note": "Le PDF 'Referentiel MORNET 2025.pdf' est dans le repo : l'exploiter comme source primaire (extraction one-shot, ne pas relire integralement a chaque run)."
+    },
+    {
+      "id": 8,
+      "silo": "A",
+      "prio": "P1",
+      "type": "feuille",
+      "slug": "montant-indemnisation-accident-route",
+      "title": "Combien pour un accident de la route ? Montants types d'indemnisation",
+      "keyword": "montant indemnisation accident route",
+      "status": "todo"
+    },
+    {
+      "id": 9,
+      "silo": "A",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "bareme-cci-crci-accident-medical",
+      "title": "Bareme CCI / CRCI : l'indemnisation de l'accident medical",
+      "keyword": "bareme CCI CRCI",
+      "status": "todo"
+    },
+    {
+      "id": 10,
+      "silo": "B",
+      "prio": "P1",
+      "type": "feuille",
+      "slug": "indemnisation-deficit-fonctionnel-temporaire-dft",
+      "title": "Indemnisation du deficit fonctionnel temporaire (DFT)",
+      "keyword": "indemnisation DFT",
+      "status": "todo"
+    },
+    {
+      "id": 11,
+      "silo": "B",
+      "prio": "P1",
+      "type": "pilier",
+      "slug": "indemnisation-deficit-fonctionnel-permanent-dfp",
+      "title": "Deficit fonctionnel permanent (DFP) : poste central, calcul et bareme",
+      "keyword": "indemnisation DFP",
+      "status": "todo",
+      "note": "ABSORBE id 4 : couvre a la fois le POSTE (definition/reparation) ET le CALCUL/bareme (section ancree #calcul). Article unique anti-cannibalisation."
+    },
+    {
+      "id": 12,
+      "silo": "B",
+      "prio": "P1",
+      "type": "pilier",
+      "slug": "indemnisation-souffrances-endurees",
+      "title": "Souffrances endurees (pretium doloris) : echelle 1 a 7, evaluation et indemnisation",
+      "keyword": "indemnisation souffrances endurees",
+      "status": "todo",
+      "note": "ABSORBE id 3 : couvre l'echelle/bareme 1-7 (section ancree #echelle) ET l'indemnisation du poste. Article unique anti-cannibalisation."
+    },
+    {
+      "id": 13,
+      "silo": "B",
+      "prio": "P1",
+      "type": "feuille",
+      "slug": "indemnisation-prejudice-esthetique",
+      "title": "Prejudice esthetique temporaire et permanent : indemnisation",
+      "keyword": "indemnisation prejudice esthetique",
+      "status": "todo"
+    },
+    {
+      "id": 14,
+      "silo": "B",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "indemnisation-prejudice-agrement",
+      "title": "Prejudice d'agrement : perte de loisirs et indemnisation",
+      "keyword": "prejudice d'agrement indemnisation",
+      "status": "todo"
+    },
+    {
+      "id": 15,
+      "silo": "B",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "indemnisation-prejudice-sexuel",
+      "title": "Prejudice sexuel : reconnaissance et indemnisation",
+      "keyword": "indemnisation prejudice sexuel",
+      "status": "todo"
+    },
+    {
+      "id": 16,
+      "silo": "B",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "indemnisation-prejudice-affection",
+      "title": "Prejudice d'affection : l'indemnisation des victimes indirectes",
+      "keyword": "prejudice d'affection montant",
+      "status": "todo"
+    },
+    {
+      "id": 17,
+      "silo": "B",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "indemnisation-perte-gains-professionnels",
+      "title": "Perte de gains professionnels (PGPA et PGPF) : calcul et indemnisation",
+      "keyword": "perte gains professionnels indemnisation",
+      "status": "todo"
+    },
+    {
+      "id": 18,
+      "silo": "B",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "calcul-incidence-professionnelle",
+      "title": "Incidence professionnelle : evaluer l'impact durable sur la carriere",
+      "keyword": "calcul incidence professionnelle",
+      "status": "todo"
+    },
+    {
+      "id": 19,
+      "silo": "B",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "indemnisation-prejudice-scolaire",
+      "title": "Prejudice scolaire, universitaire et de formation",
+      "keyword": "prejudice scolaire indemnisation",
+      "status": "todo"
+    },
+    {
+      "id": 20,
+      "silo": "B",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "indemnisation-prejudice-etablissement",
+      "title": "Prejudice d'etablissement : projet de vie familiale bouleverse",
+      "keyword": "prejudice d'etablissement",
+      "status": "todo"
+    },
+    {
+      "id": 21,
+      "silo": "E",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "medecin-conseil-de-recours",
+      "title": "Medecin conseil de recours : role, choix et interet pour la victime",
+      "keyword": "medecin conseil de recours",
+      "status": "todo"
+    },
+    {
+      "id": 22,
+      "silo": "E",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "contester-rapport-expertise-medicale",
+      "title": "Contester le rapport d'expertise medicale : voies de recours",
+      "keyword": "contester rapport expertise medicale",
+      "status": "todo"
+    },
+    {
+      "id": 23,
+      "silo": "E",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "consolidation-medicale-definition",
+      "title": "La consolidation medicale : definition, date et enjeux",
+      "keyword": "consolidation medicale",
+      "status": "todo"
+    },
+    {
+      "id": 24,
+      "silo": "E",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "indemnite-provisionnelle-accident",
+      "title": "L'indemnite provisionnelle (provision) avant consolidation",
+      "keyword": "indemnite provisionnelle accident",
+      "status": "todo"
+    },
+    {
+      "id": 25,
+      "silo": "E",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "deroule-expertise-medicale",
+      "title": "Comment se passe l'expertise medicale : deroule etape par etape",
+      "keyword": "deroule expertise medicale",
+      "status": "todo"
+    },
+    {
+      "id": 26,
+      "silo": "F",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "indemnisation-infection-nosocomiale",
+      "title": "Infection nosocomiale : droits et indemnisation de la victime",
+      "keyword": "indemnisation infection nosocomiale",
+      "status": "todo"
+    },
+    {
+      "id": 27,
+      "silo": "F",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "negligence-medicale-recours",
+      "title": "Negligence medicale : recours et indemnisation",
+      "keyword": "negligence medicale indemnisation",
+      "status": "todo"
+    },
+    {
+      "id": 28,
+      "silo": "F",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "prescription-erreur-medicale",
+      "title": "Delai de prescription d'une erreur medicale",
+      "keyword": "prescription erreur medicale",
+      "status": "todo"
+    },
+    {
+      "id": 29,
+      "silo": "F",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "indemnisation-erreur-chirurgicale",
+      "title": "Erreur chirurgicale et erreur d'anesthesie : indemnisation",
+      "keyword": "indemnisation erreur chirurgicale",
+      "status": "todo"
+    },
+    {
+      "id": 30,
+      "silo": "F",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "obtenir-dossier-medical",
+      "title": "Obtenir son dossier medical (et que faire en cas de refus)",
+      "keyword": "demande dossier medical",
+      "status": "todo"
+    },
+    {
+      "id": 31,
+      "silo": "F",
+      "prio": "P2",
+      "type": "pilier",
+      "slug": "procedure-cci-crci",
+      "title": "Procedure CCI / CRCI pas a pas et saisine de l'ONIAM",
+      "keyword": "procedure CCI CRCI",
+      "status": "todo"
+    },
+    {
+      "id": 32,
+      "silo": "C",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "indemnisation-fracture-cheville-poignet-vertebre",
+      "title": "Indemnisation d'une fracture (cheville, poignet, vertebre)",
+      "keyword": "indemnisation fracture",
+      "status": "todo"
+    },
+    {
+      "id": 33,
+      "silo": "C",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "indemnisation-perte-oeil",
+      "title": "Indemnisation de la perte d'un oeil",
+      "keyword": "indemnisation perte oeil",
+      "status": "todo"
+    },
+    {
+      "id": 34,
+      "silo": "C",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "indemnisation-amputation",
+      "title": "Indemnisation d'une amputation (membre superieur / inferieur)",
+      "keyword": "indemnisation amputation",
+      "status": "todo"
+    },
+    {
+      "id": 35,
+      "silo": "C",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "indemnisation-algodystrophie-sdrc",
+      "title": "Algodystrophie (SDRC) : reconnaissance et indemnisation",
+      "keyword": "indemnisation algodystrophie",
+      "status": "todo"
+    },
+    {
+      "id": 36,
+      "silo": "C",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "indemnisation-coup-du-lapin",
+      "title": "Entorse cervicale / coup du lapin (whiplash) : indemnisation",
+      "keyword": "indemnisation coup du lapin",
+      "status": "todo"
+    },
+    {
+      "id": 37,
+      "silo": "C",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "indemnisation-plexus-brachial",
+      "title": "Lesion du plexus brachial apres accident de moto : indemnisation",
+      "keyword": "indemnisation plexus brachial",
+      "status": "todo"
+    },
+    {
+      "id": 38,
+      "silo": "D",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "indemnisation-paraplegie",
+      "title": "Indemnisation de la paraplegie",
+      "keyword": "indemnisation paraplegie",
+      "status": "todo"
+    },
+    {
+      "id": 39,
+      "silo": "D",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "indemnisation-tetraplegie",
+      "title": "Indemnisation de la tetraplegie",
+      "keyword": "indemnisation tetraplegie",
+      "status": "todo"
+    },
+    {
+      "id": 40,
+      "silo": "D",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "indemnisation-hemiplegie",
+      "title": "Indemnisation de l'hemiplegie",
+      "keyword": "indemnisation hemiplegie",
+      "status": "todo"
+    },
+    {
+      "id": 41,
+      "silo": "D",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "indemnisation-coma-etat-vegetatif",
+      "title": "Coma et etat vegetatif : reparation du grand handicap",
+      "keyword": "indemnisation coma accident",
+      "status": "todo"
+    },
+    {
+      "id": 42,
+      "silo": "G",
+      "prio": "P2",
+      "type": "pilier",
+      "slug": "garantie-accidents-de-la-vie-gav",
+      "title": "Garantie accidents de la vie (GAV) : ce qu'elle couvre vraiment",
+      "keyword": "garantie accidents de la vie",
+      "status": "todo",
+      "note": "HUB DU SILO G."
+    },
+    {
+      "id": 43,
+      "silo": "G",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "indemnisation-accident-domestique",
+      "title": "Indemnisation d'un accident domestique",
+      "keyword": "indemnisation accident domestique",
+      "status": "todo"
+    },
+    {
+      "id": 44,
+      "silo": "G",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "indemnisation-accident-ski",
+      "title": "Indemnisation d'un accident de sport ou de ski",
+      "keyword": "indemnisation accident ski",
+      "status": "todo"
+    },
+    {
+      "id": 45,
+      "silo": "G",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "indemnisation-chute-rue-escalier",
+      "title": "Indemnisation d'une chute (rue, escalier, sol glissant)",
+      "keyword": "indemnisation chute dans la rue",
+      "status": "todo"
+    },
+    {
+      "id": 46,
+      "silo": "H",
+      "prio": "P2",
+      "type": "pilier",
+      "slug": "indemnisation-civi",
+      "title": "Indemnisation CIVI : saisir la commission d'indemnisation des victimes",
+      "keyword": "indemnisation CIVI",
+      "status": "todo"
+    },
+    {
+      "id": 47,
+      "silo": "H",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "fgti-fonds-garantie-victimes",
+      "title": "FGTI : le fonds de garantie des victimes d'infractions",
+      "keyword": "FGTI indemnisation",
+      "status": "todo"
+    },
+    {
+      "id": 48,
+      "silo": "H",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "porter-plainte-agression",
+      "title": "Porter plainte apres une agression : demarches et indemnisation",
+      "keyword": "porter plainte agression",
+      "status": "todo"
+    },
+    {
+      "id": 49,
+      "silo": "H",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "indemnisation-coups-et-blessures",
+      "title": "Coups et blessures volontaires : indemnisation de la victime",
+      "keyword": "indemnisation coups et blessures",
+      "status": "todo"
+    },
+    {
+      "id": 50,
+      "silo": "I",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "indemnisation-pieton-accident",
+      "title": "Indemnisation du pieton victime (loi Badinter)",
+      "keyword": "indemnisation pieton accident",
+      "status": "todo"
+    },
+    {
+      "id": 51,
+      "silo": "I",
+      "prio": "P2",
+      "type": "feuille",
+      "slug": "indemnisation-cycliste-accident",
+      "title": "Indemnisation du cycliste victime d'un accident",
+      "keyword": "indemnisation cycliste accident",
+      "status": "todo"
+    },
+    {
+      "id": 52,
+      "silo": "I",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "indemnisation-accident-trottinette",
+      "title": "Accident de trottinette (EDPM) : indemnisation de la victime",
+      "keyword": "indemnisation accident trottinette",
+      "status": "todo"
+    },
+    {
+      "id": 53,
+      "silo": "J",
+      "prio": "P2",
+      "type": "pilier",
+      "slug": "loi-badinter-indemnisation",
+      "title": "La loi Badinter expliquee par un avocat qui plaide",
+      "keyword": "loi Badinter indemnisation",
+      "status": "todo"
+    },
+    {
+      "id": 54,
+      "silo": "J",
+      "prio": "P3",
+      "type": "feuille",
+      "slug": "accident-delit-de-fuite-indemnisation",
+      "title": "Accident avec delit de fuite : indemnisation par le FGAO",
+      "keyword": "accident delit de fuite indemnisation",
+      "status": "todo"
+    }
   ]
 }
