@@ -188,10 +188,13 @@ longue) : publie-le en le convertissant au gabarit, ne le réécris pas.
 
 PRIORITÉ ABSOLUE, NON NÉGOCIABLE : chaque article doit être optimisé NeuronWriter
 avec un score >= 85 AVANT publication, et faire >= 1900 mots utiles (le volume peut
-monter pour gagner des points, jamais descendre sous 1900). Utilise tools/
-neuronwriter.py (clé secret NEURONWRITER_API_KEY) ou un connecteur NeuronWriter :
-crée une query sur le mot-clé, couvre les termes NLP recommandés, évalue, itère
-jusqu'à >= 85, puis colle le marqueur <!-- NEURONWRITER SCORE: N query=<id> -->.
+monter pour gagner des points, jamais descendre sous 1900). Accès NeuronWriter :
+en PRIORITÉ le CONNECTEUR MCP NeuronWriter (charge ses outils avec ToolSearch,
+requête "neuronwriter" ; il ne passe pas par le proxy egress). À défaut, l'API
+tools/neuronwriter.py (clé secret NEURONWRITER_API_KEY, nécessite un environnement
+autorisant l'egress vers app.neuronwriter.com). Procédure : crée/ouvre une query
+sur le mot-clé, couvre les termes NLP recommandés, évalue le score, itère jusqu'à
+>= 85, puis colle le marqueur <!-- NEURONWRITER SCORE: N query=<id> le AAAA-MM-JJ -->.
 Sans NeuronWriter disponible, NE PUBLIE PAS (signale le blocage). Le QA refuse tout
 article < 85 ou sans marqueur.
 
@@ -226,9 +229,13 @@ CADENCE : mets en place une diffusion d'1 article/jour ouvré via une routine
 quotidienne (trigger) qui prend le prochain item todo, le produit, le valide, le
 pousse sur main, puis s'arrête jusqu'au lendemain.
 
-PRÉREQUIS : clé NEURONWRITER_API_KEY disponible en secret d'env (sinon demande-la
-et n'invente pas de score) ; volumes de mots-clés non validés (GSC/GA4 non
-configurés) — produis mais logue l'hypothèse de volume par silo.
+PRÉREQUIS (à faire par Me Humbert AVANT de coller ce prompt) : (1) autoriser le
+CONNECTEUR NeuronWriter dans les réglages de connecteurs claude.ai ; (2) le
+serveur MCP Openlegi doit être connecté (vérif jurisprudence). Vérifie les deux
+en début de session via ToolSearch ("neuronwriter" et "openlegi") ; si l'un
+manque, arrête-toi et demande son autorisation, n'invente ni score ni arrêt. Les
+volumes de mots-clés ne sont pas validés (GSC/GA4 non configurés) — produis mais
+logue l'hypothèse de volume par silo.
 
 COMMENCE MAINTENANT : traite l'item id 1 de bout en bout et publie-le, puis
 enchaîne id 2 (le hub du silo A), et continue la file.

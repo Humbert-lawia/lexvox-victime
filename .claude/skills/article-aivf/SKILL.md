@@ -147,12 +147,14 @@ C'est le critere le plus important : **aucun article publie sous 85**. Boucle
 d'optimisation avant validation :
 
 1. Creer/reutiliser une query NeuronWriter pour le mot-cle de l'article
-   (`_meta` / `keyword` de la file). Deux voies :
-   - **API** (full-auto) : `tools/neuronwriter.py` avec la cle en secret d'env
-     `NEURONWRITER_API_KEY` (jamais committee).
-     `python3 tools/neuronwriter.py new-query <project_id> "<keyword>"` -> `query_id` ;
-     recuperer les termes recommandes via `get-query`.
-   - **Connecteur** NeuronWriter s'il est autorise dans la session (MCP).
+   (`_meta` / `keyword` de la file). Deux voies (priorite au connecteur) :
+   - **Connecteur MCP NeuronWriter** (voie recommandee, marche meme en reseau
+     restreint) : charger ses outils via ToolSearch (requete "neuronwriter"),
+     creer la query, recuperer les termes, evaluer le score.
+   - **API** (si l'environnement autorise l'egress vers app.neuronwriter.com) :
+     `tools/neuronwriter.py` avec la cle en secret d'env `NEURONWRITER_API_KEY`
+     (jamais committee). `python3 tools/neuronwriter.py new-query <project_id> "<keyword>"`
+     -> `query_id` ; `get-query` pour les termes ; `evaluate` pour le score.
 2. Rediger/enrichir en couvrant les **termes NLP recommandes** (titres, corps,
    FAQ, tableaux) sans bourrage — rester >= 1900 mots.
 3. Evaluer : `python3 tools/neuronwriter.py evaluate <query_id> actualites/<slug>.html`.
