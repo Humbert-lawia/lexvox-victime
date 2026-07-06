@@ -116,6 +116,7 @@ Var (83) : interventions ponctuelles sur demande.
 
 ## Articles & actualités récentes (sélection)
 
+- [IA et dommage corporel : jurimétrie, barèmes prédictifs et rôle de l'avocat](https://lexvox-victime.com/actualites/ia-dommage-corporel-jurimetrie) — par Me Patrice Humbert, premier avocat certifié IA en France : leçon DataJust, jurimétrie, égalité des armes face aux assureurs, AI Act.
 - [Avocat accident de la route Salon-de-Provence](https://lexvox-victime.com/actualites/avocat-accident-route-salon-de-provence)
 - [Avocat accident de la route Aix-en-Provence](https://lexvox-victime.com/actualites/avocat-accident-de-la-route-aix-en-provence)
 - [Accident de la route à Marseille — vos droits](https://lexvox-victime.com/actualites/accident-de-la-route-a-marseille-vos-droits)
