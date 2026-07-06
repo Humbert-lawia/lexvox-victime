@@ -22,3 +22,30 @@
 .procedure-block { background: var(--bleu-p, #eff6ff); border-left: 4px solid var(--bleu, #3b82f6); padding: 1.5rem; border-radius: 0 8px 8px 0; margin: 1.5rem 0; }
 .author-block { display: flex; align-items: center; gap: 1rem; padding: 1.2rem; background: var(--creme, #faf9f6); border-radius: 10px; margin: 2rem 0; }
 .active { font-weight: 700; color: var(--bleu, #3b82f6) !important; }
+
+/* ═══ PIPELINE LEXVOX-AIVF — schémas/infographies inline SVG + bloc jurisprudentiel ═══ */
+.infographic{margin:2.5rem 0;border:3px solid var(--dark);border-radius:var(--r);background:#fff;padding:1.5rem 1.5rem 1.2rem;box-shadow:var(--shadow)}
+.infographic figcaption{font-family:Calibri,sans-serif;font-size:.78rem;color:var(--gris);text-transform:uppercase;letter-spacing:1px;font-weight:700;margin-bottom:1rem;display:flex;align-items:center;gap:.4rem}
+.infographic figcaption::before{content:'';display:inline-block;width:22px;height:3px;background:var(--bleu-f)}
+.infographic svg{width:100%;height:auto;display:block;overflow:visible}
+.infographic .ig-source{font-size:.72rem;color:var(--gris);font-style:italic;margin-top:.8rem;margin-bottom:0}
+.infographic .ig-box{fill:#fff;stroke:var(--dark);stroke-width:2.5}
+.infographic .ig-box-accent{fill:var(--bleu-p);stroke:var(--dark);stroke-width:2.5}
+.infographic .ig-box-or{fill:#faf6eb;stroke:var(--dark);stroke-width:2.5}
+.infographic .ig-fill{fill:var(--bleu-f)}
+.infographic .ig-fill-or{fill:var(--or)}
+.infographic .ig-line{stroke:var(--dark);stroke-width:2.5;fill:none}
+.infographic .ig-arrow{stroke:var(--bleu-f);stroke-width:2.5;fill:none;marker-end:url(#igArrow)}
+.infographic .ig-t{font-family:Georgia,serif;font-weight:700;fill:var(--dark)}
+.infographic .ig-label{font-family:Calibri,sans-serif;fill:var(--dark);font-size:13px}
+.infographic .ig-num{font-family:Georgia,serif;font-weight:700;fill:#fff;font-size:15px}
+@media(max-width:600px){.infographic{padding:1rem}.infographic .ig-label{font-size:12px}}
+.section-dark .infographic{background:var(--code);border-color:#2a2a28}
+.section-dark .infographic .ig-box{fill:var(--code);stroke:var(--bleu-c)}
+.section-dark .infographic .ig-t,.section-dark .infographic .ig-label{fill:var(--creme)}
+.juris-block{border:3px solid var(--dark);border-left:8px solid var(--or);border-radius:var(--r);background:linear-gradient(135deg,#faf6eb 0,#fff 60%);padding:1.6rem 1.8rem;margin:2.2rem 0;box-shadow:var(--shadow)}
+.juris-block .juris-tag{display:inline-flex;align-items:center;gap:.4rem;font-family:Calibri,sans-serif;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:1.2px;color:var(--or);margin-bottom:.7rem}
+.juris-block .juris-tag::before{content:'\00a7';font-family:Georgia,serif;font-size:1.1rem;line-height:1}
+.juris-block h3{font-size:1.15rem;margin-bottom:.6rem}
+.juris-block .juris-ref{font-family:Consolas,monospace;font-size:.82rem;font-weight:700;color:var(--bleu-f);background:var(--bleu-p);padding:.15rem .5rem;border-radius:4px}
+.juris-block cite{display:block;margin-top:.8rem;font-size:.78rem;color:var(--gris);font-style:italic}
