@@ -14,6 +14,20 @@ immédiatement en production** (`.github/workflows/deploy.yml`).
   marqueurs de conflit, sitemap invalide/doublons, JSON-LD corrompu, image
   locale manquante, secret en clair).
 
+## Règle IMMUABLE — ne jamais toucher au template/design (incident 2026-07-06)
+
+**Une publication d'article ne doit JAMAIS modifier le template, l'architecture
+ou le design du site.** Publier = UNIQUEMENT : (1) créer le fichier
+`actualites/<slug>.html`, (2) son image, (3) le référencer (`sitemap.xml`,
+carte dans `actualites.html`, `llms.txt`). Interdiction, **sauf demande expresse
+de Me Humbert**, de modifier `index.html`, les pages piliers/racine, la structure
+de `css/style.css` (on peut seulement AJOUTER des classes de composants d'article
+en fin de fichier), la nav, le footer ou le hero. Le design de référence est celui
+de **lexvox-divorce.com** ; toute évolution de template pour lexvox-victime est un
+chantier séparé, sur branche, prévisualisé, déployé **uniquement après accord
+explicite**. Rappel : tout push sur `main` redéploie immédiatement en prod
+(Cloudflare) — ne jamais pousser un changement de template non validé.
+
 ## Règles critiques (chacune vient d'un incident réel)
 
 1. **Jamais de marqueurs de conflit committés.** Le sitemap.xml est resté

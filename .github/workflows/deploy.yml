@@ -1,9 +1,12 @@
 name: Deploy to Cloudflare Pages
 
+# DÉPLOIEMENT AUTOMATIQUE DÉSACTIVÉ le 2026-07-06 (incident template :
+# un push sur main a écrasé le site Sanity servi par le projet Cloudflare
+# Pages "lexvox-victime"). Ne réactiver le déclencheur "push" que sur
+# demande expresse de Me Humbert. Déploiement possible uniquement à la
+# main via l'onglet Actions (workflow_dispatch).
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   deploy:
