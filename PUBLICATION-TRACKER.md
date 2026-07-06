@@ -8,14 +8,29 @@
 |----|------|------|-------|-----|--------------|------|
 | 1 | J | pilier | IA et dommage corporel : jurimetrie, baremes predictifs et role de l'avocat | https://lexvox-victime.com/actualites/ia-dommage-corporel-jurimetrie | 86 | 2026-07-06 |
 
+## ⏸️ PUBLICATION EN PAUSE (décision Me Humbert, 2026-07-06, incident template Sanity)
+
+Rien ne sera publié tant que la pause n'est pas levée. Les articles prêts sont
+sauvegardés sur la branche `claude/lexvox-victime-editorial-zqjmz7` (PR #8, brouillon)
+et relisibles sur la preview : https://deploy-preview-8--lexvox-victime.netlify.app
+
+## Prêts, en attente de publication (branche PR #8)
+
+| id | Silo | Type | Titre | URL prévue | NeuronWriter | Statut |
+|----|------|------|-------|-----------|--------------|--------|
+| 2 | A | pilier (hub) | Bareme d'indemnisation du prejudice corporel 2026 | https://lexvox-victime.com/actualites/bareme-indemnisation-prejudice-corporel-2026 | 76 ⚠️ (plafond SERP, max concurrents 66) | prêt — en pause |
+| 5 | A | feuille | Bareme AIPP 2026 : taux d'incapacite fixe par l'expert | https://lexvox-victime.com/actualites/bareme-aipp-2026 | 76 ⚠️ (plafond SERP, max concurrents 65) | prêt — en pause |
+| 6 | A | feuille | Calcul de l'indemnisation de la tierce personne | https://lexvox-victime.com/actualites/calcul-indemnisation-tierce-personne | 86 ✅ | prêt — en pause |
+| 7 | A | pilier | Referentiel Mornet : a quoi il sert et comment l'utiliser | https://lexvox-victime.com/actualites/referentiel-mornet-indemnisation | en cours | agent en cours |
+
+⚠️ id 2 et id 5 : score NeuronWriter réel plafonné sous le seuil 85 malgré couverture
+NLP complète — les concurrents SERP plafonnent eux-mêmes à 65-66. Dérogation au seuil
+à valider par Me Humbert avant publication (l'alternative serait du keyword-stuffing).
+
 ## En préparation (prochaines publications)
 
 | id | Silo | Type | Titre | URL prévue | Statut |
 |----|------|------|-------|-----------|--------|
-| 2 | A | pilier | Bareme d'indemnisation du prejudice corporel 2026 | https://lexvox-victime.com/actualites/bareme-indemnisation-prejudice-corporel-2026 | à venir |
-| 5 | A | feuille | Bareme AIPP 2026 : taux d'incapacite fixe par l'expert | https://lexvox-victime.com/actualites/bareme-aipp-2026 | à venir |
-| 6 | A | feuille | Calcul de l'indemnisation de la tierce personne (rente viagere) | https://lexvox-victime.com/actualites/calcul-indemnisation-tierce-personne | à venir |
-| 7 | A | pilier | Referentiel Mornet : a quoi il sert et comment l'utiliser | https://lexvox-victime.com/actualites/referentiel-mornet-indemnisation | à venir |
 | 8 | A | feuille | Combien pour un accident de la route ? Montants types d'indemnisation | https://lexvox-victime.com/actualites/montant-indemnisation-accident-route | à venir |
 | 9 | A | feuille | Bareme CCI / CRCI : l'indemnisation de l'accident medical | https://lexvox-victime.com/actualites/bareme-cci-crci-accident-medical | à venir |
 | 10 | B | feuille | Indemnisation du deficit fonctionnel temporaire (DFT) | https://lexvox-victime.com/actualites/indemnisation-deficit-fonctionnel-temporaire-dft | à venir |
