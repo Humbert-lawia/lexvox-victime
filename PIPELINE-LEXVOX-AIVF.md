@@ -118,6 +118,13 @@ sœurs ; le hub (id 2, id 42, ou page pilier existante) liste toutes ses feuille
   NeuronWriter. Alternative : autoriser un **connecteur NeuronWriter** dans la
   session. Sans l'un des deux, la prod ne peut pas atteindre le gate ≥ 85 →
   publication impossible.
+  **⚠️ Réseau** : l'appel API vise `app.neuronwriter.com`. La session de
+  production doit tourner dans un **environnement dont la politique réseau
+  autorise cet hôte en egress** (cf. Network policy à la création de
+  l'environnement — https://code.claude.com/docs/en/claude-code-on-the-web).
+  L'environnement d'audit actuel le **bloque** (proxy egress → 403), donc le
+  scoring API n'y est pas testable ; utiliser un environnement à réseau ouvert
+  ou un **connecteur MCP NeuronWriter** (qui ne passe pas par ce proxy).
 - **GSC/GA4 (correctif F)** : les `keyword` de la file sont des hypothèses
   (GSC/GA4 non configurés — actions I-03/I-04 du SUIVI). **Avant de lancer un
   silo, valider le volume réel** des mots-clés. Sans données, produire mais
