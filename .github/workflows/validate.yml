@@ -15,3 +15,6 @@ jobs:
 
       - name: Lancer le préflight
         run: python3 tools/preflight.py
+
+      - name: QA standard LEXVOX-AIVF (articles publiés de la file)
+        run: python3 tools/qa_queue.py
