@@ -41,6 +41,37 @@ SERP, pas du rédacteur ; **H2** construire l'article à partir du budget de ter
 **H3** sur les familles « procédure », élargir l'angle éditorial (couvrir aussi le
 versant CPAM/assureur du sujet) relève le plafond de 10-15 points.
 
+### 1bis. Analyse structurelle des 12 articles mesurables (2026-07-07, hors API)
+
+Caractéristiques extraites des HTML (mots utiles, H2, tableaux, FAQ, mot-clé
+exact dans title/H1/H2/corps, densité de chiffres et de « € ») :
+
+| score | mots | h2 | tab | faq | kw dans title/H1 | tokens chiffrés | € |
+|---|---|---|---|---|---|---|---|
+| 100 (montant accident route) | 2492 | 8 | 2 | 7 | non | 117 | 21 |
+| 93 (DFT) | 2885 | 9 | 2 | 7 | non | 121 | 15 |
+| 90 (DFP) | 3262 | 10 | 2 | 6 | non | 101 | 30 |
+| 87 (PGP) | 2705 | 10 | 3 | 6 | non | 52 | 7 |
+| 86 (barème AIPP) | 2599 | 9 | 2 | 7 | oui | 87 | 19 |
+| 84 (médecin conseil) | 2739 | 11 | 3 | 7 | non | 58 | 10 |
+| 79 (esthétique) | 1918 | 10 | 2 | 6 | non | 142 | 27 |
+| 77 (contester rapport) | 3018 | 10 | 3 | 7 | non | 44 | 0 |
+| 77 (provision) | 2833 | 10 | 3 | 7 | non | 48 | 0 |
+| 66 (établissement) | 2699 | 9 | 2 | 6 | oui | 48 | 10 |
+| 65 (consolidation) | 3027 | 13 | 2 | 7 | oui | 38 | 0 |
+| 62 (déroulé expertise, v1) | 2486 | 11 | 2 | 8 | non | 64 | 0 |
+
+Constats : (a) la **structure ne discrimine pas** — tout le corpus respecte le
+même gabarit (8-13 H2, 2-3 tableaux, 6-8 FAQ, 1900-3300 mots) de 62 à 100 ;
+(b) le mot-clé exact dans title/H1 **ne prédit rien** (présent à 66 et 65,
+absent à 100) ; (c) le corrélat visible le plus net est la **densité de
+contenu chiffré/monétaire** : les ≥ 90 ont 101-121 tokens chiffrés et 15-30
+« € », les 4 pires en « procédure » ont ≤ 64 tokens et 0-10 « € » (l'exception
+esthétique 79, riche en chiffres mais plafonnée, confirme que la famille de
+SERP reste le premier facteur). D'où **H4** : sur mots-clés procéduraux,
+ajouter des sections chiffrées (coûts, délais en chiffres, fourchettes €,
+barème d'honoraires d'expertise) relève le score — variante à tester sur K2.
+
 ## 2. Plan d'expériences — séquences comparées
 
 Chaque séquence est exécutée sur les **3 mêmes mots-clés étalons** (un par famille) :
