@@ -1,0 +1,2576 @@
+{
+  "ideas": {
+    "suggest_questions": [],
+    "people_also_ask": [
+      {
+        "q": "Comment se comporter devant un expert médical ?"
+      },
+      {
+        "q": "Qu'est-ce qu'une convocation à une expertise médicale ?"
+      },
+      {
+        "q": "Combien de temps dure une expertise médicale ?"
+      },
+      {
+        "q": "Comment éviter les pièges lors d'une expertise médicale ?"
+      }
+    ],
+    "topic_matrix": {
+      "Comment se déroule une expertise médicale ?": {
+        "importance": 10
+      },
+      "Qu'est-ce qu'une convocation à une expertise médicale et comment s'y préparer ?": {
+        "importance": 9
+      },
+      "Combien de temps dure une expertise médicale ?": {
+        "importance": 9
+      },
+      "Comment se comporter et éviter les pièges lors d'une expertise médicale ?": {
+        "importance": 10
+      },
+      "Quels sont les différents types d'expertises médicales (amiable, judiciaire) ?": {
+        "importance": 8
+      },
+      "Pourquoi l'expertise médicale est-elle importante et quels sont ses enjeux ?": {
+        "importance": 8
+      },
+      "Qui réalise l'expertise médicale et quel est le rôle du médecin-conseil ?": {
+        "importance": 7
+      },
+      "Peut-on contester les conclusions d'une expertise médicale ?": {
+        "importance": 7
+      },
+      "Quels documents faut-il apporter le jour de l'expertise médicale ?": {
+        "importance": 6
+      },
+      "Qui prend en charge les frais d'une expertise médicale ?": {
+        "importance": 5
+      }
+    },
+    "content_questions": [
+      {
+        "q": "#MesDroitsAuQuotidien (44) : comment se passe une expertise médicale ?"
+      },
+      {
+        "q": "(44) : comment se passe une expertise médicale ?"
+      },
+      {
+        "q": "A quoi sert l'expertise médicale ?"
+      },
+      {
+        "q": "A quoi sert l'expertise médicale?"
+      },
+      {
+        "q": "A quoi sert l’expertise médicale ?"
+      },
+      {
+        "q": "COMMENT SE DÉROULE UNE EXPERTISE MÉDICALE ?"
+      },
+      {
+        "q": "Combien coûte une expertise médicale?"
+      },
+      {
+        "q": "Comment bien se préparer à l’expertise médicale ?"
+      },
+      {
+        "q": "Comment contester efficacement un rapport amiable rédigé par le médecin de l’assurance ?"
+      },
+      {
+        "q": "Comment contester une expertise médicale?"
+      },
+      {
+        "q": "Comment préparer l’expertise médicale ?"
+      },
+      {
+        "q": "Comment se déroule concrètement une expertise médicale judiciaire ?"
+      },
+      {
+        "q": "Comment se déroule le processus d’indemnisation ?"
+      },
+      {
+        "q": "Comment se déroule l’expertise médicale ?"
+      },
+      {
+        "q": "Comment se déroule une Expertise Médicale Judiciaire ?"
+      },
+      {
+        "q": "Comment se déroule une Expertise Médicale Judiciaire en matière de réparation de dommages corporels ?"
+      },
+      {
+        "q": "Comment se déroule une expertise médicale ?"
+      },
+      {
+        "q": "Comment être défendu face au Médecin Conseil de l’assurance ?"
+      },
+      {
+        "q": "En cas d'accident de la route, doit-on attendre d'obtenir le procès-verbal pour obtenir une provision ?"
+      },
+      {
+        "q": "Est-il possible de contester une expertise médicale ?"
+      },
+      {
+        "q": "Existe-t-il un seul type d’expertise médicale ?"
+      },
+      {
+        "q": "Expertise médicale : comment ça marche ?"
+      },
+      {
+        "q": "L’expert peut‑il être indépendant ?"
+      },
+      {
+        "q": "Mais qui réalise l’expertise médicale ?"
+      },
+      {
+        "q": "Peut-on critiquer le rapport définitif ?"
+      },
+      {
+        "q": "Pourquoi l’expertise médicale est-elle indispensable ?"
+      },
+      {
+        "q": "Pourquoi se faire assister ?"
+      },
+      {
+        "q": "Puis‑je refuser l’expertise de l’assureur ?"
+      },
+      {
+        "q": "Quel est le rôle de l’expert judiciaire par rapport au médecin de compagnie ou au médecin conseil de l’assurance ?"
+      },
+      {
+        "q": "Quel est le rôle de l’expert médical mandaté par la compagnie d’assurance ?"
+      },
+      {
+        "q": "Quel est le rôle de l’expert médical mandaté par la compagnie d’assurances ?"
+      },
+      {
+        "q": "Quelle est la différence entre une expertise médicale amiable et une expertise judiciaire ?"
+      },
+      {
+        "q": "Quelle étape après l’expertise médicale ?"
+      },
+      {
+        "q": "Quelles preuves sont indispensables pour préparer une expertise judiciaire ?"
+      },
+      {
+        "q": "Quelles sont les étapes de l’expertise judiciaire en cas de contestation du rapport amiable ?"
+      },
+      {
+        "q": "Quels sont les délais et les enjeux liés à l’expertise judiciaire ?"
+      },
+      {
+        "q": "Qui est le médecin conseil expert ?"
+      },
+      {
+        "q": "Qui réalise l’expertise médicale ?"
+      },
+      {
+        "q": "Qui va déterminer mon droit à indemnisation ?"
+      },
+      {
+        "q": "Qu’est ce qu’une expertise médicale ?"
+      },
+      {
+        "q": "Qu’est-ce que la notion de consolidation dans l’expertise médicale ?"
+      },
+      {
+        "q": "Qu’est-ce qu’un médecin conseil de victime ?"
+      },
+      {
+        "q": "Qu’est-ce qu’une expertise médicale et qui peut l’obtenir ?"
+      },
+      {
+        "q": "Qu’est-ce qu’une expertise médicale judiciaire ?"
+      },
+      {
+        "q": "Vous avez subi un accident ?"
+      },
+      {
+        "q": "Vous avez été victime d’un accident de la route, mais le responsable n’a pas été identifié ?"
+      },
+      {
+        "q": "Vous avez été victime d’un dommage corporel, d’un accident de la route, d’une erreur médicale ?"
+      },
+      {
+        "q": "Vous pensez savoir comment se déroule une expertise médicale ?"
+      },
+      {
+        "q": "Vous souhaitez demander l’aide d’un avocat spécialisé en dommage corporel ?"
+      },
+      {
+        "q": "Vous êtes convoqué par un médecin expert?"
+      },
+      {
+        "q": "l’expertise médicale ?"
+      },
+      {
+        "q": "« Quel est le préjudice sexuel ?"
+      }
+    ]
+  },
+  "competitors": [
+    {
+      "rank": 1,
+      "url": "https://www.benezra-victimesdelaroute.fr/comment-se-deroule-une-expertise-medicale-judiciaire/",
+      "title": "Comment se déroule une Expertise Médicale Judiciaire ? avocat",
+      "desc": "Une expertise médico-légale ou expertise médicale judiciaire pour évaluer les dommages corporels d'une victime de la route",
+      "headers": [
+        [
+          "h1",
+          "Expertise médicale judiciaire : les 3 heures qui déterminent toute votre indemnisation"
+        ],
+        [
+          "h2",
+          "1. Qu’est-ce qu’une expertise médicale judiciaire ? (et en quoi c’est différent d’une expertise amiable)"
+        ],
+        [
+          "h2",
+          "2. Pourquoi l’expertise judiciaire est le moment le plus important de votre dossier"
+        ],
+        [
+          "h2",
+          "3. Comment se déroule concrètement une expertise médicale judiciaire ? (les 7 étapes décisives)"
+        ],
+        [
+          "h2",
+          "4. Les 7 erreurs fatales à l’expertise judiciaire (et comment les éviter)"
+        ],
+        [
+          "h2",
+          "5. Notre méthode pour sécuriser votre expertise judiciaire (et maximiser votre indemnisation)"
+        ],
+        [
+          "h2",
+          "6. Prochaine étape : sécurisez votre expertise judiciaire (avant qu’il ne soit trop tard)"
+        ],
+        [
+          "h2",
+          ""
+        ]
+      ],
+      "content_score": 58,
+      "readability": 31,
+      "word_count": 4862,
+      "content_len": 30761
+    },
+    {
+      "rank": 2,
+      "url": "https://hadrienmuller-avocat.com/comment-se-deroule-une-expertise-medicale/",
+      "title": "Comment se déroule une expertise médicale ? - Hadrien Muller",
+      "desc": "Vous pensez savoir comment se déroule une expertise médicale ? Ou vous cherchez des conseils pour vous rassurer avant d'y aller ? Vous devez savoir ceci.",
+      "headers": [
+        [
+          "h2",
+          "Avocat spécialisé en préjudice corporel"
+        ],
+        [
+          "h2",
+          "Diplômé en évaluation des traumatismes crâniens"
+        ],
+        [
+          "h1",
+          "Comment se déroule une expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Table des matières"
+        ],
+        [
+          "h2",
+          "Ce que vous pourriez probablement vivre lors d’une expertise médicale"
+        ],
+        [
+          "h2",
+          "Comment se déroule une expertise médicale"
+        ],
+        [
+          "h2",
+          "Comment se déroule une expertise médicale correcte"
+        ],
+        [
+          "h2",
+          "Maître Hadrien MULLER"
+        ],
+        [
+          "h2",
+          "2 réponses"
+        ]
+      ],
+      "content_score": 57,
+      "readability": 40,
+      "word_count": 1228,
+      "content_len": 7703
+    },
+    {
+      "rank": 3,
+      "url": "https://www.groupama.fr/mutuelle-sante/conseils/expertise-medicale/",
+      "title": "Expertise médicale : comment ça marche ? - Groupama",
+      "desc": "Vous avez subi un accident ? Une expertise médicale permettra d’évaluer vos préjudices corporels afin d’être indemnisé.",
+      "headers": [
+        [
+          "h1",
+          "Expertise médicale : comment ça marche ?"
+        ],
+        [
+          "h2",
+          "Qu’est-ce qu’une expertise médicale et qui peut l’obtenir ?"
+        ],
+        [
+          "h2",
+          "Comment se déroule l’expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Qu’est-ce que la notion de consolidation dans l’expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Quelle étape après l’expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Découvrez nos infos et conseils pour votre santé"
+        ]
+      ],
+      "content_score": 45,
+      "readability": 29,
+      "word_count": 1201,
+      "content_len": 7835
+    },
+    {
+      "rank": 4,
+      "url": "https://ffamce.net/comment-se-deroule-une-expertise-medicale/",
+      "title": "COMMENT SE DÉROULE UNE EXPERTISE MÉDICALE ? - FFAMCE, associations des médecins experts en France",
+      "desc": "",
+      "headers": [
+        [
+          "h1",
+          "La référence en expertise médicale et évaluation du dommage corporel"
+        ],
+        [
+          "h1",
+          "La référence en évaluation du dommage corporel et expertises médicales"
+        ],
+        [
+          "h1",
+          "COMMENT SE DÉROULE UNE EXPERTISE MÉDICALE ?"
+        ],
+        [
+          "h2",
+          "Qui est le médecin conseil expert ?"
+        ],
+        [
+          "h2",
+          "Quel est son rôle ?"
+        ],
+        [
+          "h2",
+          "Déroulement de l’expertise au cabinet"
+        ],
+        [
+          "h2",
+          "Après le rendez-vous avec le médecin conseil expert"
+        ]
+      ],
+      "content_score": 44,
+      "readability": 42,
+      "word_count": 647,
+      "content_len": 4333
+    },
+    {
+      "rank": 5,
+      "url": "https://www.avocat-denis-peraldi.com/reparation-prejudice-corporel/lexpertise-medicale/",
+      "title": "L'expertise médicale - Laurent DENIS-PERALDI",
+      "desc": "",
+      "headers": [
+        [
+          "h2",
+          "Consultez également :"
+        ],
+        [
+          "h2",
+          "L’expertise médicale"
+        ],
+        [
+          "h2",
+          "L'ESSENTIEL"
+        ],
+        [
+          "h2",
+          "L’EXPERTISE MEDICALE : L’ETAPE INCONTOURNABLE ET ESSENTIELLE DE L’INDEMNISATION DU PREJUDICE CORPOREL"
+        ]
+      ],
+      "content_score": 43,
+      "readability": 26,
+      "word_count": 2723,
+      "content_len": 18231
+    },
+    {
+      "rank": 6,
+      "url": "https://www.dva-experts.com/expertise-medicale/",
+      "title": "Expertise Médicale, Indemnisation des Victimes | DVA Experts",
+      "desc": "A quoi sert l'expertise médicale? Comment se déroule l'expertise médicale amiable ou judiciaire?✅Quels sont les pièges à éviter ?✅DVA Experts vous répond!",
+      "headers": [
+        [
+          "h1",
+          "Vous êtes convoqué par un médecin expert?"
+        ],
+        [
+          "h2",
+          "Qu’est ce qu’une expertise médicale ?"
+        ],
+        [
+          "h2",
+          "A quoi sert l’expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Comment être défendu face au Médecin Conseil de l’assurance ?"
+        ],
+        [
+          "h2",
+          "Est-il possible de contester une expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Combien coûte une expertise médicale?"
+        ],
+        [
+          "h2",
+          "Vous serez intéressés par"
+        ],
+        [
+          "h2",
+          "Exemples d'indemnisation"
+        ],
+        [
+          "h2",
+          "Nous contacter"
+        ]
+      ],
+      "content_score": 47,
+      "readability": 35,
+      "word_count": 1817,
+      "content_len": 11263
+    },
+    {
+      "rank": 7,
+      "url": "https://www.victimes-solidaires.org/fr/indemnisation-victimes/id-50-expertise-medicale",
+      "title": "Victime d'agression ou d'accident : l'expertise médicale",
+      "desc": " Si vous avez &eacute;t&eacute; victime d&rsquo;un accident de la route, d&rsquo;un accident m&eacute;dical, d&rsquo;une agression, d&rsquo;un attentat, et que vous subissez des s&eacute;quelles du fait de cet accident ou de cette agression, il conviendra de faire &eacute;valuer l&rsquo;&eacute;tendue de votre dommage corporel au cours d&rsquo;une op&eacute;ration que l&rsquo;on appelle l&rsquo;expertise m&eacute;dicale. ",
+      "headers": [
+        [
+          "h1",
+          "Expertise médicale"
+        ],
+        [
+          "h2",
+          "Existe-t-il un seul type d’expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Comment se déroule une expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Comment préparer l’expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Quel est le rôle de l’expert médical mandaté par la compagnie d’assurance ?"
+        ],
+        [
+          "h2",
+          "Qu’appelle-t-on mission d’expertise ?"
+        ],
+        [
+          "h2",
+          "Quelle est la différence entre une expertise médicale amiable et une expertise judiciaire ?"
+        ],
+        [
+          "h2",
+          "Qu’est-ce qu’un médecin conseil de victime ?"
+        ],
+        [
+          "h2",
+          "Vos questions, nos réponses"
+        ],
+        [
+          "h2",
+          "Vous avez été victime d’un dommage corporel, d’un accident de la route, d’une erreur médicale ?"
+        ]
+      ],
+      "content_score": 61,
+      "readability": 24,
+      "word_count": 4414,
+      "content_len": 29926
+    },
+    {
+      "rank": 8,
+      "url": "https://www.victimes.org/laccident-guide-et-demarches/a-quoi-sert-lexpertise-medicale.htm",
+      "title": "A quoi sert l'expertise médicale ? | Association Victimes & Citoyens",
+      "desc": "L'association d'aide aux victimes Victimes & Citoyens vous informe sur l'expertise médicale en cas d'accident",
+      "headers": [
+        [
+          "h1",
+          "Victime d'un accident de la route, à quoi sert\nl’expertise médicale ? Comment ce préparer?"
+        ],
+        [
+          "h2",
+          "Pourquoi l’expertise médicale est-elle indispensable ?"
+        ],
+        [
+          "h2",
+          "Qui réalise l’expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Attention : l’expertise influence directement votre indemnisation"
+        ],
+        [
+          "h2",
+          "Pourquoi se faire assister ?"
+        ],
+        [
+          "h2",
+          "Comment bien se préparer à l’expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Vous êtes inquiet(e) pour votre expertise ? Nous sommes là pour vous"
+        ],
+        [
+          "h2",
+          "FAQ – Expertise médicale après un accident"
+        ]
+      ],
+      "content_score": 39,
+      "readability": 38,
+      "word_count": 681,
+      "content_len": 4704
+    },
+    {
+      "rank": 9,
+      "url": "https://www.youtube.com/shorts/dC4BFVgdTfE",
+      "title": "YouTube",
+      "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+      "headers": [
+        [
+          "h1",
+          ""
+        ],
+        [
+          "h2",
+          "Commentaires"
+        ],
+        [
+          "h2",
+          "Description"
+        ],
+        [
+          "h2",
+          ""
+        ],
+        [
+          "h1",
+          "#MesDroitsAuQuotidien (44) : comment se passe une expertise médicale ?"
+        ]
+      ],
+      "content_score": 7,
+      "readability": null,
+      "word_count": 0,
+      "content_len": 0
+    },
+    {
+      "rank": 10,
+      "url": "https://www.expertises-medicales.net/comment-se-deroule-une-expertise-medicale/",
+      "title": "Comment se déroule une expertise médicale ? - Expertises Medicales",
+      "desc": "Comment se déroule une expertise médicale : A ne pas confondre avec l’examen médical du premier jour de la proposition de rendez-vous où...",
+      "headers": [
+        [
+          "h1",
+          "Comment se déroule une expertise médicale"
+        ],
+        [
+          "h2",
+          "Phase préparatoire de l’expertise médicale"
+        ],
+        [
+          "h2",
+          "Déroulement de l’examen médical du jour de la convocation"
+        ],
+        [
+          "h2",
+          "Déroulement de l’expertise médicale"
+        ]
+      ],
+      "content_score": 47,
+      "readability": 41,
+      "word_count": 947,
+      "content_len": 6121
+    },
+    {
+      "rank": 11,
+      "url": "https://www.tiktok.com/@charnay_avocat/video/7197658859144547590",
+      "title": "Je vous dis tout sur le déroulement d’une expertise médicale ##avocat#... | TikTok",
+      "desc": "218 j'aime,26 commentaires.Vidéo TikTok de 👩🏻‍💼_NATH_L’AVOCATE_🥑 (@charnay_avocat) : « Je vous dis tout sur le déroulement d’une expertise médicale ##avocat##accident##accidentdecirculation##expertise##avocatspecialiste##lyon##avoctlyonnais##victime##blessure##evaluation##tiktokconseils##vosdroits ».son original - 👩🏻‍💼_NATH_L’AVOCATE_🥑.",
+      "headers": [],
+      "content_score": 10,
+      "readability": 75,
+      "word_count": 93,
+      "content_len": 564
+    },
+    {
+      "rank": 12,
+      "url": "https://www.medecin-dommage-corporel.expert/expertise-medicale-assurance/",
+      "title": "Comment se passe une expertise médicale?",
+      "desc": "l'expertise médicale amiable est la voie la plus utilisée pour évaluer le dommage corporel. Circuit plus rapide que l'expertise judiciaire, il convient néanmoins de préparer son dossier comme il se doit et d'y aller , assisté par un médecin conseil de recours",
+      "headers": [
+        [
+          "h1",
+          "EXPERTISE MÉDICALE SUITE A UN ACCIDENT"
+        ],
+        [
+          "h2",
+          ""
+        ],
+        [
+          "h2",
+          "Comment se passe une expertise médicale amiable?"
+        ],
+        [
+          "h2",
+          "Arbitrage amiable"
+        ],
+        [
+          "h2",
+          "Comment se passe une expertise médicale judiciaire ?"
+        ],
+        [
+          "h2",
+          "Expertise médicale du blessé en situation de handicap"
+        ],
+        [
+          "h2",
+          "3 cabinets dédiés aux victimes de dommages corporels pour l'évaluation médico légale du dommage et du handicap consécutifs à un accident"
+        ]
+      ],
+      "content_score": 39,
+      "readability": 13,
+      "word_count": 950,
+      "content_len": 6193
+    },
+    {
+      "rank": 13,
+      "url": "https://jmp-avocat-indemnisation.fr/blog-dommages-corporels/deroulement-expertise-medicale-etapes.html",
+      "title": "Le déroulement de l'expertise médicale : les 5 étapes clés | Avocat Nord",
+      "desc": "Découvrez le déroulement précis d'une expertise médicale : de l'accueil à la clôture, comprenez chaque étape (anamnèse, examen clinique, discussion contradictoire).",
+      "headers": [
+        [
+          "h1",
+          "Le déroulement de l'expertise médicale : étape par étape | Guide 2026"
+        ],
+        [
+          "h2",
+          "I. L'accueil et la vérification des présences"
+        ],
+        [
+          "h2",
+          "II. L'anamnèse : Le récit de l'accident et de ses suites"
+        ],
+        [
+          "h2",
+          "III. L'examen clinique : L'évaluation physique"
+        ],
+        [
+          "h2",
+          "IV. La discussion contradictoire : Le cœur du débat juridique"
+        ],
+        [
+          "h2",
+          "V. La clôture et les conclusions provisoires"
+        ],
+        [
+          "h2",
+          "Questions fréquentes - FAQ"
+        ],
+        [
+          "h2",
+          "Conclusion"
+        ],
+        [
+          "h2",
+          "Bibliographie et sources"
+        ]
+      ],
+      "content_score": 36,
+      "readability": 33,
+      "word_count": 3359,
+      "content_len": 22173
+    },
+    {
+      "rank": 14,
+      "url": "https://www.coppet-avocats.fr/actualites/medical/expertise-medicale-amiable-judiciaire-victime/",
+      "title": "Les différentes formes d'expertises médicales",
+      "desc": "L’expertise médicale, qu’elle soit de nature amiable ou judiciaire, consiste à évaluer les dommages corporels découlant d’un fait traumatique (accident de la route, agression, acte de terrorisme,…). Une expertise médicale permet d'évaluer et d'acter les préjudices subis et se place ainsi au coeur de votre parcours d'indemnisation.",
+      "headers": [
+        [
+          "h1",
+          "Les différentes formes d’expertises médicales"
+        ],
+        [
+          "h2",
+          "Définition et typologie d'expertise médicale"
+        ],
+        [
+          "h2",
+          "Le déroulement d'une expertise médicale"
+        ],
+        [
+          "h2",
+          "Comment contester les conclusions d'une expertise médicale ?"
+        ],
+        [
+          "h2",
+          "En résumé"
+        ]
+      ],
+      "content_score": 43,
+      "readability": 29,
+      "word_count": 1733,
+      "content_len": 11848
+    },
+    {
+      "rank": 15,
+      "url": "https://victime-accident.lexvox-avocat.fr/2020/04/10/comment-bien-preparer-lexpertise-medicale/",
+      "title": "Comment bien préparer l'expertise médicale ? - Victime Accident",
+      "desc": "L'expertise médicale est une étape essentielle dans l'évaluation des préjudices de l'accidenté. Il faut faire en sorte d'être pret le jour de l'expertise.",
+      "headers": [
+        [
+          "h1",
+          "Comment bien préparer l’expertise médicale ?"
+        ],
+        [
+          "h2",
+          "CONSEIL EXPERTISE : prise en charge et préparation des examens des victimes par votre avocat"
+        ],
+        [
+          "h2",
+          "CONSEIL EXPERTISE : la victime doit rencontrer son médecin-conseil avant l’examen"
+        ],
+        [
+          "h2",
+          "Le déroulement concret de la réunion d’expertise"
+        ],
+        [
+          "h2",
+          "Les postes de préjudice évalués lors de l’expertise"
+        ],
+        [
+          "h2",
+          "Jurisprudence récente"
+        ],
+        [
+          "h2",
+          "Points de procédure essentiels"
+        ],
+        [
+          "h2",
+          "Questions fréquentes sur la préparation de l’expertise médicale"
+        ]
+      ],
+      "content_score": 42,
+      "readability": 22,
+      "word_count": 3931,
+      "content_len": 25995
+    },
+    {
+      "rank": 16,
+      "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/contre-expertise-medicale",
+      "title": "Tout savoir sur le médecin-expert et l'expertise médicale - Association Victimes de France AIVF",
+      "desc": "Découvrez le rôle du médecin-expert et les enjeux de l'expertise médicale avec l'Association Aide Victimes France.",
+      "headers": [
+        [
+          "h1",
+          "Tout savoir sur le médecin-expert et l’expertise médicale"
+        ],
+        [
+          "h2",
+          "Les services de l'AIVF pour vous aider"
+        ],
+        [
+          "h2",
+          "❓ FAQ — Tout savoir sur le médecin-expert et l’expertise médicale"
+        ],
+        [
+          "h2",
+          "Essentiel à retenir – Médecin expert & expertise médicale"
+        ],
+        [
+          "h2",
+          "Tout savoir sur le médecin expert et l’expertise médicale"
+        ],
+        [
+          "h2",
+          "Exemples de questions sur l’expertise médicale"
+        ],
+        [
+          "h2",
+          "Exemples de réponses d’un avocat corporel du réseau de l’aivf"
+        ]
+      ],
+      "content_score": 45,
+      "readability": 29,
+      "word_count": 3497,
+      "content_len": 22705
+    },
+    {
+      "rank": 17,
+      "url": "https://www.le-guide-sante.org/actualites/sante-publique/quand-faire-appel-medecin-expert-independant",
+      "title": "Quand faire appel à un médecin expert indépendant ? | Le Guide Santé",
+      "desc": "Un médecin expert est un professionnel de la santé spécialisé dans la réparation juridique du dommage corporel (médico-légale) ; formé pour l'expertise médicale (cadre amiable, cadre judiciaire) auprès des victimes (reconnaissance des préjudices…).",
+      "headers": [
+        [
+          "h1",
+          "Quand faire appel à un médecin expert indépendant ?"
+        ],
+        [
+          "h2",
+          "Les enjeux de l'expertise médicale"
+        ],
+        [
+          "h2",
+          "Qu’est-ce-qu’un médecin expert ?"
+        ],
+        [
+          "h2",
+          "Qui peut demander une expertise médicale, quand et comment ?"
+        ],
+        [
+          "h2",
+          "Articles les plus lus"
+        ]
+      ],
+      "content_score": 36,
+      "readability": 24,
+      "word_count": 2650,
+      "content_len": 18526
+    },
+    {
+      "rank": 18,
+      "url": "https://www.medactionsante.com/ce-quil-faut-savoir/expertise-medicale",
+      "title": "Médaction-Santé - L'expertise médicale",
+      "desc": "",
+      "headers": [
+        [
+          "h1",
+          "PRéPARER L'expertise médicale"
+        ],
+        [
+          "h1",
+          "Bien préparer votre expertise MéDICALE"
+        ],
+        [
+          "h1",
+          "Bien vivre votre expertise MéDICALE"
+        ]
+      ],
+      "content_score": 27,
+      "readability": 28,
+      "word_count": 2069,
+      "content_len": 13062
+    },
+    {
+      "rank": 19,
+      "url": "https://association-aivf-faq.fr/expertise/expertise-medicale/comment-se-passe-expertise-medicale",
+      "title": "Comment se passe expertise médicale - Association Victimes de France AIVF",
+      "desc": "Comme se passe une expertise médicale pour une indemnisation suite à un accident corporel, questions de victimes",
+      "headers": [
+        [
+          "h1",
+          "Comment se passe une expertise médicale"
+        ],
+        [
+          "h2",
+          "Les services de l'AIVF pour vous aider"
+        ],
+        [
+          "h2",
+          "❓ FAQ — Comment se passe une expertise médicale"
+        ],
+        [
+          "h2",
+          "Questions sur comment se passe l’expertise médicale après un accident corporel ?"
+        ]
+      ],
+      "content_score": 41,
+      "readability": 47,
+      "word_count": 1598,
+      "content_len": 10130
+    },
+    {
+      "rank": 20,
+      "url": "https://www.troin-bensa-avocats.fr/articles/expertise-medicale-quoi-sert-elle-7623.htm",
+      "title": "Expertise médicale : évaluer les préjudices et garantir l’indemnisation",
+      "desc": "L'expertise médicale permet d'évaluer les séquelles d'un accident et d'établir une indemnisation juste. Découvrez ses étapes et les recours possibles.",
+      "headers": [
+        [
+          "h1",
+          "Expertise médicale : à quoi sert-elle ?"
+        ],
+        [
+          "h2",
+          "Qu’est-ce que l’expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Les différentes formes d’expertises"
+        ],
+        [
+          "h2",
+          "Les étapes de l’expertise médicale"
+        ],
+        [
+          "h2",
+          "Comment contester une expertise médicale ?"
+        ]
+      ],
+      "content_score": 33,
+      "readability": 30,
+      "word_count": 1085,
+      "content_len": 6848
+    },
+    {
+      "rank": 21,
+      "url": "https://www.defendstesdroits.fr/blog-posts/expertise-medicale-procedure-contentieux",
+      "title": "Expertise médicale: demande et utilisation en contentieux | Défends Tes Droits",
+      "desc": "Expertise médicale: demande, expert, rapport, coûts. Preuve médicale en cas de litige.",
+      "headers": [
+        [
+          "h1",
+          "Expertise médicale: demande et utilisation en contentieux"
+        ],
+        [
+          "h2",
+          "Qu'est-ce qu'une expertise médicale et dans quels cas est-elle nécessaire ?"
+        ],
+        [
+          "h2",
+          "Comment demander une expertise médicale dans le cadre d'un contentieux ?"
+        ],
+        [
+          "h2",
+          "Qui peut être nommé expert médical et quelles sont ses obligations ?"
+        ],
+        [
+          "h2",
+          "Comment se déroule concrètement une expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Que contient le rapport d'expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Pouvez-vous contester le rapport d'expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Qui prend en charge les frais d'expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Quelle est la valeur probante d'une expertise médicale devant le juge ?"
+        ],
+        [
+          "h2",
+          "L'expertise médicale est-elle obligatoire dans tous les litiges médicaux ?"
+        ],
+        [
+          "h2",
+          "Comment bien préparer son expertise médicale pour optimiser ses chances ?"
+        ],
+        [
+          "h2",
+          "Quel est le délai pour obtenir un rapport d'expertise et contester ses conclusions ?"
+        ],
+        [
+          "h2",
+          "Expertise médicale et assurance : comment sont fixées les indemnisations ?"
+        ],
+        [
+          "h2",
+          "FAQ : Expertise médicale en contentieux"
+        ],
+        [
+          "h2",
+          "Articles Récents"
+        ],
+        [
+          "h2",
+          "Nos équipes sont là pour vous guider !"
+        ]
+      ],
+      "content_score": 44,
+      "readability": 28,
+      "word_count": 2143,
+      "content_len": 14682
+    },
+    {
+      "rank": 22,
+      "url": "https://www.cabinet-zenou.fr/actualites/droit-de-la-securite-sociale/l-expertise-medicale-une-procedure-necessaire-pour-tout-type-d-accident.html",
+      "title": "L'expertise médicale une procédure nécessaire pour tout type d'accident",
+      "desc": "Vous faîtes l'objet d'une expertise médicale suite à une maladie professionelle ou à un accident du travail ? Sachez que vous pouvez vous faire assiter d'un médecin-conseil lors de cette expertise amiable ou judiciare",
+      "headers": [
+        [
+          "h1",
+          "L'expertise médicale une procédure nécessaire pour tout type d'accident"
+        ],
+        [
+          "h2",
+          "Qu’est-ce qu’une expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Que signifie la double expertise médicale diligentée par l’employeur ?"
+        ],
+        [
+          "h2",
+          "Comment vous défendre au mieux lors de l’expertise médicale ?"
+        ],
+        [
+          "h2",
+          "Ces articles pourraient vous intéresser…"
+        ]
+      ],
+      "content_score": 33,
+      "readability": 28,
+      "word_count": 2150,
+      "content_len": 13332
+    },
+    {
+      "rank": 23,
+      "url": "https://www.facebook.com/SarahSicardAvocate/videos/-quels-sont-les-diff%C3%A9rents-types-dexpertise-vous-avez-re%C3%A7u-une-convocation-%C3%A0-une/1368645863802285/",
+      "title": "🧐 🥼 Quels sont les différents types d’expertise ? 🥼🧐\n\nVous avez reçu une convocation à une expertise médicale d’évaluation du dommage corporel et vous vous demandez (à raison !) ce que ça veut dire 🤯.\n\nDans une expertise médicale, un médecin va vous examiner et à l’issue du rendez-vous, va rédiger un rapport.\n\nIl existe 3 grands types d’expertises médicales :\n\n1️⃣ L’expertise médicale judiciaire\n\nC’est une expertise qui est ordonnée par un juge qui demande à un médecin expert judiciaire de l’éclairer sur l’évaluation du préjudice corporel. L’expert judiciaire est impartial, c’est à dire qu’il est une sorte d’arbitre entre les parties au procès.\n\n2️⃣ L’expertise médicale amiable\n\nElle s’organise sans intervention du juge, c’est un assureur qui va désigner un médecin qui travaille pour elle afin de l’éclairer sur le dommage corporel de la victime.\n\n3️⃣ L’expertise médicale amiable contradictoire\n\nC’est une expertise amiable où la victime décide d’être accompagnée elle-même par un médecin pour l’assister et défendre ses intérêts lors de l’expertise. Il faut que les deux parties aient validé le caractère contradictoire de l’expertise.\n\nSelon le type d’expertise, le poids juridique du rapport d’expertise n’est pas le même et il faut garder en tête qu’il est 𝐩𝐨𝐬𝐬𝐢𝐛𝐥𝐞 𝐝𝐞 𝐜𝐨𝐧𝐭𝐞𝐬𝐭𝐞𝐫 𝐥𝐞𝐬 𝐜𝐨𝐧𝐜𝐥𝐮𝐬𝐢𝐨𝐧𝐬 𝐝𝐮 𝐫𝐚𝐩𝐩𝐨𝐫𝐭 avec l’aide d’un avocat. | Sarah Sicard - Avocate",
+      "desc": "🧐 🥼 Quels sont les différents types d’expertise ? 🥼🧐\n\nVous avez reçu une convocation à une expertise médicale d’évaluation du dommage corporel et vous...",
+      "headers": [],
+      "content_score": 21,
+      "readability": null,
+      "word_count": 0,
+      "content_len": 0
+    },
+    {
+      "rank": 24,
+      "url": "https://avf.fr/preparer-expertise-medicale",
+      "title": "Préparer son expertise médicale : guide complet pour les victimes",
+      "desc": "Comment bien préparer une expertise médicale après un accident ou une erreur médicale ? Conseils, pièges à éviter et droits de la victime.",
+      "headers": [
+        [
+          "h1",
+          "Préparer son expertise médicale : le guide pour défendre ses droits"
+        ],
+        [
+          "h2",
+          "Qu’est-ce que l’expertise médicale et pourquoi est-elle si importante ?"
+        ],
+        [
+          "h2",
+          "Comment préparer son expertise médicale étape par étape"
+        ],
+        [
+          "h2",
+          "Le jour de l’expertise : conseils pratiques"
+        ],
+        [
+          "h2",
+          "Les erreurs les plus fréquentes lors d’une expertise médicale"
+        ],
+        [
+          "h2",
+          "Que faire après l’expertise médicale ?"
+        ],
+        [
+          "h2",
+          "FAQ – Préparer son expertise médicale"
+        ],
+        [
+          "h2",
+          "Questions fréquentes"
+        ],
+        [
+          "h2",
+          "Témoignages"
+        ],
+        [
+          "h2",
+          "Merci de votre confiance"
+        ]
+      ],
+      "content_score": 41,
+      "readability": 42,
+      "word_count": 2306,
+      "content_len": 14878
+    },
+    {
+      "rank": 25,
+      "url": "https://www.youtube.com/watch?v=7pwws4p9_Fw",
+      "title": "L’expertise médicale : Son importance pour les victimes - YouTube",
+      "desc": "L’avocate du barreau de Nice, Me Marie-Pierre Lazard Pourcines et animatrice de l’émission « A votre avis Maître », anciennement diffusée sur Azur TV, vous p...",
+      "headers": [
+        [
+          "h1",
+          ""
+        ],
+        [
+          "h1",
+          "L’expertise médicale : Son importance pour les victimes"
+        ],
+        [
+          "h1",
+          "L’expertise médicale : Son importance pour les victimes"
+        ],
+        [
+          "h2",
+          "Commentaires"
+        ],
+        [
+          "h2",
+          "Commentaires\n      27"
+        ],
+        [
+          "h2",
+          "Dans cette vidéo"
+        ],
+        [
+          "h2",
+          "Description"
+        ],
+        [
+          "h2",
+          "Transcription"
+        ]
+      ],
+      "content_score": 16,
+      "readability": 31,
+      "word_count": 192,
+      "content_len": 1258
+    },
+    {
+      "rank": 26,
+      "url": "https://jmp-avocat-indemnisation.fr/victime-accident-bien-preparer-expertise-medicale.html",
+      "title": "Préparer son expertise médicale après un accident : médecin conseil, dossier, déroulement",
+      "desc": "Check-list complète pour réussir votre expertise médicale : documents à apporter, pièges à éviter, rôle de l’avocat et du médecin de recours pour maximiser votre indemnisation",
+      "headers": [
+        [
+          "h1",
+          "Expertise médicale : comment bien préparer votre dossier et choisir votre médecin conseil"
+        ],
+        [
+          "h2",
+          "L'expertise médicale, combien ça coûte ?"
+        ],
+        [
+          "h2",
+          "La meilleure option : se faire assister par un médecin de victimes (médecin-conseil)"
+        ],
+        [
+          "h2",
+          "De l'importance de communiquer son dossier aux médecins…"
+        ],
+        [
+          "h2",
+          "Se mettre en confiance avant l'expertise"
+        ],
+        [
+          "h2",
+          "Être soi-même et resté concentré durant l'expertise médicale"
+        ],
+        [
+          "h2",
+          "…Suite à l'expertise"
+        ]
+      ],
+      "content_score": 38,
+      "readability": 23,
+      "word_count": 2154,
+      "content_len": 13833
+    },
+    {
+      "rank": 27,
+      "url": "https://jlsavocats.fr/preparation-rigoureuse-pour-une-expertise-medicale-en-cas-de-dommages-corporels/",
+      "title": "Missions d’expertise médicale : comment bien s’y préparer en tant que victime ? - JLS AVOCATS - Indemnisation des préjudices corporels et de droit des assurances",
+      "desc": "En tant que victime d’un accident de la route, d’une erreur médicale ou d’un autre événement causant un dommage corporel, l’expertise médicale constitue une",
+      "headers": [
+        [
+          "h1",
+          "Missions d’expertise médicale : comment bien s’y préparer en tant que victime ?"
+        ],
+        [
+          "h2",
+          "Comprendre le déroulement de l’expertise médicale"
+        ],
+        [
+          "h2",
+          "Constituer un dossier solide pour l’expertise"
+        ],
+        [
+          "h2",
+          "Adopter la bonne attitude et suivre après l’expertise"
+        ]
+      ],
+      "content_score": 34,
+      "readability": 24,
+      "word_count": 885,
+      "content_len": 6532
+    },
+    {
+      "rank": 28,
+      "url": "https://aide-victimes.fr/accident-route/rapport-expertise-medicale/",
+      "title": "Rapport d'expertise médicale – AFAV",
+      "desc": "Le rapport d'expertise médicale suit à un accident corporel, la contestation du rapport d'expertise, le rôle du médecin conseil de victime",
+      "headers": [
+        [
+          "h1",
+          "Le rapport d’expertise médicale, indemnisation, accident"
+        ],
+        [
+          "h2",
+          "Composition du rapport d’expertise"
+        ],
+        [
+          "h2",
+          "Contester le rapport d’expertise médical"
+        ],
+        [
+          "h2",
+          "L’expertise médicale amiable contradictoire"
+        ]
+      ],
+      "content_score": 34,
+      "readability": 53,
+      "word_count": 890,
+      "content_len": 5676
+    }
+  ],
+  "metrics": {
+    "word_count": {
+      "median": 1214,
+      "target": 1214
+    },
+    "readability": {
+      "median": 35,
+      "target": 35
+    }
+  },
+  "terms": {
+    "title": [
+      {
+        "t": "expertise médicale",
+        "usage_pc": 90
+      },
+      {
+        "t": "une expertise médicale",
+        "usage_pc": 40
+      },
+      {
+        "t": "comment se déroule une expertise",
+        "usage_pc": 40
+      },
+      {
+        "t": "déroule une expertise médicale",
+        "usage_pc": 40
+      }
+    ],
+    "desc": [
+      {
+        "t": "expertise médicale",
+        "usage_pc": 60
+      },
+      {
+        "t": "une expertise médicale",
+        "usage_pc": 30
+      },
+      {
+        "t": "comment se déroule",
+        "usage_pc": 30
+      },
+      {
+        "t": "comment se déroule une expertise",
+        "usage_pc": 20
+      },
+      {
+        "t": "déroule une expertise médicale",
+        "usage_pc": 20
+      },
+      {
+        "t": "accident",
+        "usage_pc": 20
+      }
+    ],
+    "h1": [
+      {
+        "t": "expertise médicale",
+        "usage_pc": 80
+      },
+      {
+        "t": "une expertise médicale",
+        "usage_pc": 40
+      },
+      {
+        "t": "comment se déroule une expertise",
+        "usage_pc": 30
+      },
+      {
+        "t": "déroule une expertise médicale",
+        "usage_pc": 30
+      },
+      {
+        "t": "comment se déroule",
+        "usage_pc": 30
+      },
+      {
+        "t": "indemnisation",
+        "usage_pc": 10
+      },
+      {
+        "t": "expert",
+        "usage_pc": 10
+      },
+      {
+        "t": "médecin expert",
+        "usage_pc": 10
+      },
+      {
+        "t": "accident",
+        "usage_pc": 10
+      },
+      {
+        "t": "dommage corporel",
+        "usage_pc": 10
+      },
+      {
+        "t": "évaluation",
+        "usage_pc": 10
+      },
+      {
+        "t": "expertise médicale judiciaire",
+        "usage_pc": 10
+      },
+      {
+        "t": "médicale judiciaire",
+        "usage_pc": 10
+      },
+      {
+        "t": "un accident",
+        "usage_pc": 10
+      },
+      {
+        "t": "un médecin",
+        "usage_pc": 10
+      },
+      {
+        "t": "accident de la route",
+        "usage_pc": 10
+      },
+      {
+        "t": "un accident de la route",
+        "usage_pc": 10
+      }
+    ],
+    "h2": [
+      {
+        "t": "expertise médicale",
+        "usage_pc": 80
+      },
+      {
+        "t": "une expertise médicale",
+        "usage_pc": 50
+      },
+      {
+        "t": "indemnisation",
+        "usage_pc": 40
+      },
+      {
+        "t": "comment se déroule",
+        "usage_pc": 40
+      },
+      {
+        "t": "médecin conseil",
+        "usage_pc": 30
+      },
+      {
+        "t": "comment se déroule une expertise",
+        "usage_pc": 20
+      },
+      {
+        "t": "expert",
+        "usage_pc": 20
+      },
+      {
+        "t": "déroule une expertise médicale",
+        "usage_pc": 20
+      },
+      {
+        "t": "accident",
+        "usage_pc": 20
+      },
+      {
+        "t": "expertise judiciaire",
+        "usage_pc": 20
+      },
+      {
+        "t": "assurance",
+        "usage_pc": 20
+      },
+      {
+        "t": "un accident",
+        "usage_pc": 20
+      },
+      {
+        "t": "préjudice",
+        "usage_pc": 10
+      },
+      {
+        "t": "dommage corporel",
+        "usage_pc": 10
+      },
+      {
+        "t": "expertise amiable",
+        "usage_pc": 10
+      },
+      {
+        "t": "évaluation",
+        "usage_pc": 10
+      },
+      {
+        "t": "expertise médicale judiciaire",
+        "usage_pc": 10
+      },
+      {
+        "t": "médicale judiciaire",
+        "usage_pc": 10
+      },
+      {
+        "t": "une expertise amiable",
+        "usage_pc": 10
+      },
+      {
+        "t": "préjudice corporel",
+        "usage_pc": 10
+      },
+      {
+        "t": "un médecin",
+        "usage_pc": 10
+      },
+      {
+        "t": "une expertise judiciaire",
+        "usage_pc": 10
+      },
+      {
+        "t": "expert médical",
+        "usage_pc": 10
+      },
+      {
+        "t": "une expertise médicale judiciaire",
+        "usage_pc": 10
+      },
+      {
+        "t": "accident de la route",
+        "usage_pc": 10
+      },
+      {
+        "t": "faire assister",
+        "usage_pc": 10
+      },
+      {
+        "t": "mandater",
+        "usage_pc": 10
+      },
+      {
+        "t": "un accident de la route",
+        "usage_pc": 10
+      },
+      {
+        "t": "expertise médicale amiable",
+        "usage_pc": 10
+      },
+      {
+        "t": "un médecin conseil",
+        "usage_pc": 10
+      },
+      {
+        "t": "une erreur médicale",
+        "usage_pc": 10
+      }
+    ],
+    "content_basic": [
+      {
+        "t": "expertise médicale",
+        "usage_pc": 100,
+        "sugg_usage": [
+          4,
+          20
+        ]
+      },
+      {
+        "t": "une expertise médicale",
+        "usage_pc": 100,
+        "sugg_usage": [
+          2,
+          8
+        ]
+      },
+      {
+        "t": "indemnisation",
+        "usage_pc": 90,
+        "sugg_usage": [
+          3,
+          14
+        ]
+      },
+      {
+        "t": "comment se déroule une expertise",
+        "usage_pc": 50,
+        "sugg_usage": [
+          1,
+          2
+        ]
+      },
+      {
+        "t": "expert",
+        "usage_pc": 90,
+        "sugg_usage": [
+          5,
+          29
+        ]
+      },
+      {
+        "t": "déroule une expertise médicale",
+        "usage_pc": 50,
+        "sugg_usage": [
+          1,
+          2
+        ]
+      },
+      {
+        "t": "médecin expert",
+        "usage_pc": 90,
+        "sugg_usage": [
+          2,
+          6
+        ]
+      },
+      {
+        "t": "accident",
+        "usage_pc": 90,
+        "sugg_usage": [
+          5,
+          15
+        ]
+      },
+      {
+        "t": "préjudice",
+        "usage_pc": 80,
+        "sugg_usage": [
+          1,
+          19
+        ]
+      },
+      {
+        "t": "expertise judiciaire",
+        "usage_pc": 60,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "dommage corporel",
+        "usage_pc": 90,
+        "sugg_usage": [
+          2,
+          6
+        ]
+      },
+      {
+        "t": "expertise amiable",
+        "usage_pc": 70,
+        "sugg_usage": [
+          1,
+          4
+        ]
+      },
+      {
+        "t": "assurance",
+        "usage_pc": 70,
+        "sugg_usage": [
+          1,
+          23
+        ]
+      },
+      {
+        "t": "évaluation",
+        "usage_pc": 80,
+        "sugg_usage": [
+          1,
+          4
+        ]
+      },
+      {
+        "t": "assureur",
+        "usage_pc": 90,
+        "sugg_usage": [
+          1,
+          5
+        ]
+      },
+      {
+        "t": "expertise médicale judiciaire",
+        "usage_pc": 50,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "médecin conseil",
+        "usage_pc": 70,
+        "sugg_usage": [
+          1,
+          4
+        ]
+      },
+      {
+        "t": "médicale judiciaire",
+        "usage_pc": 50,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "préjudice corporel",
+        "usage_pc": 60,
+        "sugg_usage": [
+          1,
+          4
+        ]
+      },
+      {
+        "t": "contradictoire",
+        "usage_pc": 80,
+        "sugg_usage": [
+          1,
+          3
+        ]
+      },
+      {
+        "t": "un accident",
+        "usage_pc": 70,
+        "sugg_usage": [
+          1,
+          6
+        ]
+      },
+      {
+        "t": "un médecin",
+        "usage_pc": 90,
+        "sugg_usage": [
+          2,
+          4
+        ]
+      },
+      {
+        "t": "une expertise judiciaire",
+        "usage_pc": 60,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "séquelle",
+        "usage_pc": 80,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "expert médical",
+        "usage_pc": 50,
+        "sugg_usage": [
+          1,
+          2
+        ]
+      },
+      {
+        "t": "accident de la route",
+        "usage_pc": 70,
+        "sugg_usage": [
+          1,
+          2
+        ]
+      },
+      {
+        "t": "poste de préjudice",
+        "usage_pc": 60,
+        "sugg_usage": [
+          1,
+          2
+        ]
+      },
+      {
+        "t": "comment se déroule",
+        "usage_pc": 60,
+        "sugg_usage": [
+          1,
+          2
+        ]
+      },
+      {
+        "t": "dossier médical",
+        "usage_pc": 80,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "doléance",
+        "usage_pc": 50,
+        "sugg_usage": [
+          1,
+          3
+        ]
+      },
+      {
+        "t": "faire assister",
+        "usage_pc": 60,
+        "sugg_usage": [
+          1,
+          2
+        ]
+      },
+      {
+        "t": "mandater",
+        "usage_pc": 70,
+        "sugg_usage": [
+          1,
+          2
+        ]
+      },
+      {
+        "t": "médico-légale",
+        "usage_pc": 50,
+        "sugg_usage": [
+          1,
+          4
+        ]
+      },
+      {
+        "t": "un accident de la route",
+        "usage_pc": 50,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "les préjudices",
+        "usage_pc": 50,
+        "sugg_usage": [
+          1,
+          2
+        ]
+      },
+      {
+        "t": "indemniser",
+        "usage_pc": 60,
+        "sugg_usage": [
+          1,
+          2
+        ]
+      },
+      {
+        "t": "sapiteur",
+        "usage_pc": 60,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "accident de la circulation",
+        "usage_pc": 50,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "hospitalisation",
+        "usage_pc": 60,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "cette expertise",
+        "usage_pc": 50,
+        "sugg_usage": [
+          1,
+          2
+        ]
+      }
+    ],
+    "content_extended": [
+      {
+        "t": "une expertise amiable",
+        "usage_pc": 40,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "expert judiciaire",
+        "usage_pc": 40,
+        "sugg_usage": [
+          1,
+          2
+        ]
+      },
+      {
+        "t": "une expertise médicale judiciaire",
+        "usage_pc": 40,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "indemnisation des victimes",
+        "usage_pc": 40,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "expertise médicale doit",
+        "usage_pc": 40,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "expertise amiable contradictoire",
+        "usage_pc": 30,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "rapport définitif",
+        "usage_pc": 30,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "droit du dommage corporel",
+        "usage_pc": 40,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "une indemnisation",
+        "usage_pc": 40,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "cette expertise médicale",
+        "usage_pc": 30,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "les doléances",
+        "usage_pc": 40,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "expertise médicale amiable",
+        "usage_pc": 30,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "lors d’une expertise",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "lors d’une expertise médicale",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "qu’une expertise médicale",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "rapport d’expertise médicale",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "rapport d’expertise",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "qu’est-ce qu’une expertise médicale",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "cadre d’une expertise amiable",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "réalise l’expertise médicale",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "expertise médicale n’est",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "déroulement d’une expertise",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "victime d’accident",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "victime d’un accident",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "les conclusions d’un premier rapport",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "contenu du rapport d’expertise",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "compagnie d’assurance",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "déroulement de l’expertise",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "les circonstances de l’accident",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "médecin expert de l’assurance",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "médecin expert d’assurance",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "face à l’expert",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "conclusions de l’expert",
+        "usage_pc": 0,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "certificat médical",
+        "usage_pc": 40,
+        "sugg_usage": [
+          1,
+          2
+        ]
+      },
+      {
+        "t": "un médecin conseil",
+        "usage_pc": 40,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "indemnisation définitive",
+        "usage_pc": 40,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "expertise médicale doit être",
+        "usage_pc": 20,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "amiable ou judiciaire",
+        "usage_pc": 20,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "première expertise",
+        "usage_pc": 20,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "faire assister par un médecin-conseil",
+        "usage_pc": 30,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "un accident de la circulation",
+        "usage_pc": 40,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "demander une expertise judiciaire",
+        "usage_pc": 20,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "cadre de la mission",
+        "usage_pc": 30,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "indemnisation intégrale",
+        "usage_pc": 20,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "expertise judiciaire est ordonnée",
+        "usage_pc": 20,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "référé expertise",
+        "usage_pc": 20,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "médicale doit",
+        "usage_pc": 40,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "indemnisation du dommage corporel",
+        "usage_pc": 20,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "contester les conclusions du rapport",
+        "usage_pc": 20,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "indemnisation des préjudices",
+        "usage_pc": 20,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "juste indemnisation",
+        "usage_pc": 20,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "subis par les victimes",
+        "usage_pc": 20,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      },
+      {
+        "t": "une erreur médicale",
+        "usage_pc": 10,
+        "sugg_usage": [
+          1,
+          1
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "t": "Expertise médicale",
+        "importance": 92.05799999999999,
+        "relevance": 0.92058,
+        "confidence": 1.7216,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Expertise_médicale"
+          ]
+        ]
+      },
+      {
+        "t": "Dommage corporel",
+        "importance": 75.11,
+        "relevance": 0.7511,
+        "confidence": 4.919200000000001,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Dommage_corporel"
+          ]
+        ]
+      },
+      {
+        "t": "Médecin",
+        "importance": 57.812,
+        "relevance": 0.57812,
+        "confidence": 2.75,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Médecin"
+          ]
+        ]
+      },
+      {
+        "t": "Assurance",
+        "importance": 38.24,
+        "relevance": 0.3824,
+        "confidence": 5.5847999999999995,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Assurance"
+          ]
+        ]
+      },
+      {
+        "t": "Endommagement",
+        "importance": 20.342016,
+        "relevance": 0.317844,
+        "confidence": 1.1034000000000002,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Endommagement"
+          ]
+        ]
+      },
+      {
+        "t": "Expertise",
+        "importance": 14.64264,
+        "relevance": 0.40674,
+        "confidence": 0.74434,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Expertise"
+          ]
+        ]
+      },
+      {
+        "t": "Accident de la route",
+        "importance": 11.705599999999999,
+        "relevance": 0.1829,
+        "confidence": 5.777399999999999,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+          ]
+        ]
+      },
+      {
+        "t": "Dossier médical",
+        "importance": 10.662479999999999,
+        "relevance": 0.29618,
+        "confidence": 1.4738,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Dossier_médical"
+          ]
+        ]
+      },
+      {
+        "t": "Juge",
+        "importance": 10.5264,
+        "relevance": 0.29240000000000005,
+        "confidence": 0.836,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Juge"
+          ]
+        ]
+      },
+      {
+        "t": "Santé",
+        "importance": 10.309120000000002,
+        "relevance": 0.16108,
+        "confidence": 1.3456000000000001,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Santé"
+          ]
+        ]
+      },
+      {
+        "t": "Certificat médical",
+        "importance": 8.624376000000002,
+        "relevance": 0.23956600000000003,
+        "confidence": 1.0166,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Certificat_médical"
+          ]
+        ]
+      },
+      {
+        "t": "Tribunal",
+        "importance": 8.353024000000001,
+        "relevance": 0.13051600000000002,
+        "confidence": 1.9679600000000002,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Tribunal"
+          ]
+        ]
+      },
+      {
+        "t": "Compagnie d'assurances",
+        "importance": 3.2860799999999997,
+        "relevance": 0.20537999999999998,
+        "confidence": 0.5248,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Compagnie_d'assurances"
+          ]
+        ]
+      },
+      {
+        "t": "Dommage en droit civil français",
+        "importance": 2.9292799999999994,
+        "relevance": 0.18308,
+        "confidence": 0.9642,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Dommage_en_droit_civil_français"
+          ]
+        ]
+      },
+      {
+        "t": "Examen médical",
+        "importance": 2.645376,
+        "relevance": 0.16533599999999998,
+        "confidence": 1.0230000000000001,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Examen_médical"
+          ]
+        ]
+      },
+      {
+        "t": "Sapiteur",
+        "importance": 1.989728,
+        "relevance": 0.12435800000000001,
+        "confidence": 0.9278000000000001,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Sapiteur"
+          ]
+        ]
+      },
+      {
+        "t": "Avocat (métier)",
+        "importance": 1.7987200000000005,
+        "relevance": 0.11242,
+        "confidence": 0.6026,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+          ]
+        ]
+      },
+      {
+        "t": "Référé en droit français",
+        "importance": 1.46112,
+        "relevance": 0.09132,
+        "confidence": 0.45439999999999997,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Référé_en_droit_français"
+          ]
+        ]
+      },
+      {
+        "t": "Accident médical",
+        "importance": 1.3363200000000002,
+        "relevance": 0.08352,
+        "confidence": 0.8914,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Accident_médical"
+          ]
+        ]
+      },
+      {
+        "t": "Droit",
+        "importance": 0.9734400000000002,
+        "relevance": 0.060840000000000005,
+        "confidence": 0.8301999999999999,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Droit"
+          ]
+        ]
+      },
+      {
+        "t": "Examen clinique",
+        "importance": 0.9468799999999999,
+        "relevance": 0.059179999999999996,
+        "confidence": 1.7438000000000002,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Examen_clinique"
+          ]
+        ]
+      },
+      {
+        "t": "Laurent DENIS-PERALDI",
+        "importance": 0.666,
+        "relevance": 0.1665,
+        "confidence": 0.1,
+        "links": []
+      },
+      {
+        "t": "Expertise Médicale Judiciaire",
+        "importance": 0.63048,
+        "relevance": 0.15762,
+        "confidence": 0.1,
+        "links": []
+      },
+      {
+        "t": "Groupama",
+        "importance": 0.5688,
+        "relevance": 0.1422,
+        "confidence": 1.2648,
+        "links": [
+          [
+            "wikipedia",
+            "http://fr.wikipedia.org/wiki/Groupama"
+          ]
+        ]
+      },
+      {
+        "t": "Cabinet du médecin-expert judiciaire",
+        "importance": 0.5213599999999998,
+        "relevance": 0.13033999999999998,
+        "confidence": 0.1,
+        "links": []
+      }
+    ]
+  },
+  "terms_txt": {
+    "title": "expertise médicale\nune expertise médicale\ncomment se déroule une expertise\ndéroule une expertise médicale",
+    "desc_title": "expertise médicale\nune expertise médicale\ncomment se déroule\ncomment se déroule une expertise\ndéroule une expertise médicale\naccident",
+    "h1": "expertise médicale\nune expertise médicale\ncomment se déroule une expertise\ndéroule une expertise médicale\ncomment se déroule\nindemnisation\nexpert\nmédecin expert\naccident\ndommage corporel\névaluation\nexpertise médicale judiciaire\nmédicale judiciaire\nun accident\nun médecin\naccident de la route\nun accident de la route",
+    "h2": "expertise médicale\nune expertise médicale\nindemnisation\ncomment se déroule\nmédecin conseil\ncomment se déroule une expertise\nexpert\ndéroule une expertise médicale\naccident\nexpertise judiciaire\nassurance\nun accident\npréjudice\ndommage corporel\nexpertise amiable\névaluation\nexpertise médicale judiciaire\nmédicale judiciaire\nune expertise amiable\npréjudice corporel\nun médecin\nune expertise judiciaire\nexpert médical\nune expertise médicale judiciaire\naccident de la route\nfaire assister\nmandater\nun accident de la route\nexpertise médicale amiable\nun médecin conseil\nune erreur médicale",
+    "content_basic": "expertise médicale\nune expertise médicale\nindemnisation\ncomment se déroule une expertise\nexpert\ndéroule une expertise médicale\nmédecin expert\naccident\npréjudice\nexpertise judiciaire\ndommage corporel\nexpertise amiable\nassurance\névaluation\nassureur\nexpertise médicale judiciaire\nmédecin conseil\nmédicale judiciaire\npréjudice corporel\ncontradictoire\nun accident\nun médecin\nune expertise judiciaire\nséquelle\nexpert médical\naccident de la route\nposte de préjudice\ncomment se déroule\ndossier médical\ndoléance\nfaire assister\nmandater\nmédico-légale\nun accident de la route\nles préjudices\nindemniser\nsapiteur\naccident de la circulation\nhospitalisation\ncette expertise",
+    "content_basic_w_ranges": "expertise médicale: 4-20x\nune expertise médicale: 2-8x\nindemnisation: 3-14x\ncomment se déroule une expertise: 1-2x\nexpert: 5-29x\ndéroule une expertise médicale: 1-2x\nmédecin expert: 2-6x\naccident: 5-15x\npréjudice: 1-19x\nexpertise judiciaire: 1x\ndommage corporel: 2-6x\nexpertise amiable: 1-4x\nassurance: 1-23x\névaluation: 1-4x\nassureur: 1-5x\nexpertise médicale judiciaire: 1x\nmédecin conseil: 1-4x\nmédicale judiciaire: 1x\npréjudice corporel: 1-4x\ncontradictoire: 1-3x\nun accident: 1-6x\nun médecin: 2-4x\nune expertise judiciaire: 1x\nséquelle: 1x\nexpert médical: 1-2x\naccident de la route: 1-2x\nposte de préjudice: 1-2x\ncomment se déroule: 1-2x\ndossier médical: 1x\ndoléance: 1-3x\nfaire assister: 1-2x\nmandater: 1-2x\nmédico-légale: 1-4x\nun accident de la route: 1x\nles préjudices: 1-2x\nindemniser: 1-2x\nsapiteur: 1x\naccident de la circulation: 1x\nhospitalisation: 1x\ncette expertise: 1-2x",
+    "content_extended": "une expertise amiable\nexpert judiciaire\nune expertise médicale judiciaire\nindemnisation des victimes\nexpertise médicale doit\nexpertise amiable contradictoire\nrapport définitif\ndroit du dommage corporel\nune indemnisation\ncette expertise médicale\nles doléances\nexpertise médicale amiable\nlors d’une expertise\nlors d’une expertise médicale\nqu’une expertise médicale\nrapport d’expertise médicale\nrapport d’expertise\nqu’est-ce qu’une expertise médicale\ncadre d’une expertise amiable\nréalise l’expertise médicale\nexpertise médicale n’est\ndéroulement d’une expertise\nvictime d’accident\nvictime d’un accident\nles conclusions d’un premier rapport\ncontenu du rapport d’expertise\ncompagnie d’assurance\ndéroulement de l’expertise\nles circonstances de l’accident\nmédecin expert de l’assurance\nmédecin expert d’assurance\nface à l’expert\nconclusions de l’expert\ncertificat médical\nun médecin conseil\nindemnisation définitive\nexpertise médicale doit être\namiable ou judiciaire\npremière expertise\nfaire assister par un médecin-conseil\nun accident de la circulation\ndemander une expertise judiciaire\ncadre de la mission\nindemnisation intégrale\nexpertise judiciaire est ordonnée\nréféré expertise\nmédicale doit\nindemnisation du dommage corporel\ncontester les conclusions du rapport\nindemnisation des préjudices\njuste indemnisation\nsubis par les victimes\nune erreur médicale",
+    "content_extended_w_ranges": "une expertise amiable: 1x\nexpert judiciaire: 1-2x\nune expertise médicale judiciaire: 1x\nindemnisation des victimes: 1x\nexpertise médicale doit: 1x\nexpertise amiable contradictoire: 1x\nrapport définitif: 1x\ndroit du dommage corporel: 1x\nune indemnisation: 1x\ncette expertise médicale: 1x\nles doléances: 1x\nexpertise médicale amiable: 1x\nlors d’une expertise: 1x\nlors d’une expertise médicale: 1x\nqu’une expertise médicale: 1x\nrapport d’expertise médicale: 1x\nrapport d’expertise: 1x\nqu’est-ce qu’une expertise médicale: 1x\ncadre d’une expertise amiable: 1x\nréalise l’expertise médicale: 1x\nexpertise médicale n’est: 1x\ndéroulement d’une expertise: 1x\nvictime d’accident: 1x\nvictime d’un accident: 1x\nles conclusions d’un premier rapport: 1x\ncontenu du rapport d’expertise: 1x\ncompagnie d’assurance: 1x\ndéroulement de l’expertise: 1x\nles circonstances de l’accident: 1x\nmédecin expert de l’assurance: 1x\nmédecin expert d’assurance: 1x\nface à l’expert: 1x\nconclusions de l’expert: 1x\ncertificat médical: 1-2x\nun médecin conseil: 1x\nindemnisation définitive: 1x\nexpertise médicale doit être: 1x\namiable ou judiciaire: 1x\npremière expertise: 1x\nfaire assister par un médecin-conseil: 1x\nun accident de la circulation: 1x\ndemander une expertise judiciaire: 1x\ncadre de la mission: 1x\nindemnisation intégrale: 1x\nexpertise judiciaire est ordonnée: 1x\nréféré expertise: 1x\nmédicale doit: 1x\nindemnisation du dommage corporel: 1x\ncontester les conclusions du rapport: 1x\nindemnisation des préjudices: 1x\njuste indemnisation: 1x\nsubis par les victimes: 1x\nune erreur médicale: 1x",
+    "entities": "Expertise médicale\nDommage corporel\nMédecin\nAssurance\nEndommagement\nExpertise\nAccident de la route\nDossier médical\nJuge\nSanté\nCertificat médical\nTribunal\nCompagnie d'assurances\nDommage en droit civil français\nExamen médical\nSapiteur\nAvocat (métier)\nRéféré en droit français\nAccident médical\nDroit\nExamen clinique\nLaurent DENIS-PERALDI\nExpertise Médicale Judiciaire\nGroupama\nCabinet du médecin-expert judiciaire"
+  },
+  "status": "ready",
+  "keyword": "deroule expertise medicale",
+  "language": "French",
+  "engine": "google.fr",
+  "project": "49f477e9d390de9c",
+  "query": "a7e923cccd64fc29",
+  "serp_summary": {
+    "top_intent": "informational",
+    "intent_stats": {
+      "informational": 100.0
+    },
+    "top_content_type": "guide",
+    "content_type_stats": {
+      "guide": 75.0,
+      "educational": 50.0,
+      "short-answer": 14.3,
+      "video": 14.3,
+      "social-media": 7.1,
+      "blog-post": 25.0,
+      "listicle": 3.6
+    }
+  },
+  "query_url": "https://app.neuronwriter.com/analysis/view/a7e923cccd64fc29",
+  "share_url": "https://app.neuronwriter.com/analysis/share/a7e923cccd64fc29/58478d345dcc45d06be20e9132f8f69f4fa16",
+  "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/a7e923cccd64fc29/afe8fbcad78c231bd833a743b83288ec4fa16"
+}

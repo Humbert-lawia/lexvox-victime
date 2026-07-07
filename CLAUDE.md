@@ -52,6 +52,26 @@ Conséquences IMMUABLES, sauf demande expresse de Me Humbert :
   `python3 tools/qa_article_aivf.py actualites/<slug>.html [--pilier]`.
 - Convertir/publier vers Sanity : `python3 tools/sanity_publish.py
   actualites/<slug>.html --dry-run` puis `--publish-at <ISO|now>`.
+- Optimiser un score NeuronWriter : **toujours** via le skill `/nw-optimisation`
+  (`tools/nw_lab.py terms/audit/evaluate`) — voir la règle NeuronWriter ci-dessous.
+
+## NeuronWriter — méthode unique (validée 2026-07-07, 62 → 85)
+
+**Tout flux qui score un contenu avec NeuronWriter** (articles atelier
+`/article-aivf`, pipeline WordPress `PROMPT-PIPELINE-WP.md`, refontes,
+routines LEXVOX SEO Bot / LAWIA Pipeline, productions futures) applique le
+skill **`/nw-optimisation`** (`.claude/skills/nw-optimisation/SKILL.md`) :
+termes AVANT rédaction (`nw_lab.py terms`), rédaction en une passe sous
+contrat de termes, audit LOCAL (`nw_lab.py audit`, 0 appel API), puis
+**2 appels `evaluate` maximum** — jamais de boucle aveugle
+« rédiger-scorer-deviner » (rendement historique : 6-15 loops pour 62-84).
+Lois mesurées du scoreur : pure couverture de termes, aucune pénalité de
+sur-usage, chrome ignoré, longueur neutre, H2 comptés en ratio (un H2 pauvre
+en termes fait baisser le score). Objectifs par famille de mot-clé :
+« indemnisation/montant/barème » ≥ 90 ; « procédure/définition » 85 (plafond
+démontré). Aucun score inventé : le marqueur `<!-- NEURONWRITER SCORE: … -->`
+porte toujours le dernier score API réel, journalisé dans
+`nw-lab/runs-<query>.jsonl`.
 
 ## Règles critiques (chacune vient d'un incident réel)
 

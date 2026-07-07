@@ -157,24 +157,29 @@ toujours le renseigner. Reference + n° de pourvoi = ceux renvoyes par Openlegi.
 
 ## 5bis. Optimiser avec NeuronWriter — score >= 85 (LA priorite, non negociable)
 
-C'est le critere le plus important : **aucun article publie sous 85**. Boucle
-d'optimisation avant validation :
+C'est le critere le plus important : **aucun article publie sous 85**.
 
-1. Creer/reutiliser une query NeuronWriter pour le mot-cle de l'article
-   (`_meta` / `keyword` de la file), via l'**API** `tools/neuronwriter.py`
-   (il n'existe pas de connecteur NeuronWriter). Requiert un environnement a
-   reseau ouvert (egress `app.neuronwriter.com`) et la cle en secret d'env
-   `NEURONWRITER_API_KEY` (jamais committee) :
-   - `python3 tools/neuronwriter.py list-projects` -> decouvrir le `project_id` ;
-   - `python3 tools/neuronwriter.py new-query <project_id> "<keyword>"` -> `query_id` ;
-   - `python3 tools/neuronwriter.py get-query <query_id>` -> termes NLP recommandes.
-2. Rediger/enrichir en couvrant les **termes NLP recommandes** (titres, corps,
-   FAQ, tableaux) sans bourrage — rester >= 1900 mots.
-3. Evaluer : `python3 tools/neuronwriter.py evaluate <query_id> actualites/<slug>.html`.
-   Si < 85 : ajouter/replacer les termes manquants et re-evaluer. Iterer jusqu'a >= 85.
+**L'optimisation s'execute OBLIGATOIREMENT selon le skill `/nw-optimisation`**
+(`.claude/skills/nw-optimisation/SKILL.md`, methode "term-budget first + audit
+local" VALIDEE le 2026-07-07 : 62 -> 85 sur la query la plus dure du corpus,
+au lieu de 6-15 loops aveugles). En resume — le detail, les lois empiriques du
+scoreur et les objectifs par famille de mot-cle sont dans le skill :
+
+1. Recuperer les termes AVANT de rediger : `python3 tools/nw_lab.py terms
+   <query_id>` (query creee via `tools/neuronwriter.py new-query <project_id>
+   "<keyword>"` si absente ; cle en secret d'env `NEURONWRITER_API_KEY`, jamais
+   committee, egress `app.neuronwriter.com` requis — pas de connecteur).
+   En tirer le brief contractuel : termes title/H1/H2/desc + budget corps.
+2. Rediger EN UNE PASSE sous contrat (le §2 de ce skill reste le gabarit),
+   puis auditer LOCALEMENT (`python3 tools/nw_lab.py audit ...`, 0 appel API)
+   et solder tous les deficits de couverture.
+3. Scorer : `python3 tools/nw_lab.py evaluate <query_id> actualites/<slug>.html
+   --note "..."` — **budget 2 appels**, pas de boucle aveugle. Sous l'objectif :
+   une passe corrective (densifier H1/H2), 2e evaluate, puis acter le plafond.
    Le volume peut augmenter pour cela ; il ne descend jamais sous 1900 mots.
 4. **Coller le score obtenu en marqueur** dans le `<head>` ou en haut du `<article>` :
-   `<!-- NEURONWRITER SCORE: 87 query=<query_id> le AAAA-MM-JJ -->`.
+   `<!-- NEURONWRITER SCORE: 87 query=<query_id> le AAAA-MM-JJ -->` — toujours
+   le dernier score API reel, jamais un score invente.
    (Le QA lit ce marqueur et bloque si < 85 ou absent.)
 
 Si NeuronWriter est indisponible (ni API ni connecteur), NE PAS publier : signaler
