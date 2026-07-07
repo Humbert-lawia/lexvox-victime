@@ -28,54 +28,77 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet"></noscript>
+  <noscript></noscript>
 
   <!-- CSS -->
   <link rel="stylesheet" href="/css/style.css?v=4">
 
   <!-- JSON-LD: LegalService -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LegalService",
-    "name": "LEXVOX AVOCATS — Avocat Dommage Corporel Nîmes",
-    "description": "Cabinet d'avocats specialise en dommage corporel a Nimes. Defense exclusive des victimes d'accidents de la route, d'erreurs medicales et d'accidents du travail dans le Gard.",
-    "url": "https://lexvox-victime.com/cabinet/nimes",
-    "telephone": "+33-4-90-54-58-10",
-    "email": "contact@avocat-lexvox.com",
-    "image": "https://lexvox-victime.com/img/og-default.jpg",
-    "priceRange": "Consultation gratuite — Honoraires au resultat",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "6 Rue Crémieux",
-      "addressLocality": "Nimes",
-      "postalCode": "30000",
-      "addressRegion": "Gard",
-      "addressCountry": "FR"
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "LEXVOX AVOCATS — Avocat Dommage Corporel Nîmes",
+  "description": "Cabinet d'avocats specialise en dommage corporel a Nimes. Defense exclusive des victimes d'accidents de la route, d'erreurs medicales et d'accidents du travail dans le Gard.",
+  "url": "https://lexvox-victime.com/cabinet/nimes",
+  "telephone": "+33-4-90-54-58-10",
+  "email": "contact@avocat-lexvox.com",
+  "image": "https://lexvox-victime.com/img/og-default.jpg",
+  "priceRange": "Consultation gratuite — Honoraires au resultat",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "6 Rue Crémieux",
+    "addressLocality": "Nimes",
+    "postalCode": "30000",
+    "addressRegion": "Gard",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.83917,
+    "longitude": 4.36071
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "19:00"
+    }
+  ],
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Nimes"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 43.83917,
-      "longitude": 4.36071
+    {
+      "@type": "City",
+      "name": "Beaucaire"
     },
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "09:00",
-        "closes": "19:00"
-      }
-    ],
-    "areaServed": [
-      {"@type": "City", "name": "Nimes"},
-      {"@type": "City", "name": "Beaucaire"},
-      {"@type": "City", "name": "Lunel"},
-      {"@type": "City", "name": "Vauvert"},
-      {"@type": "City", "name": "Aigues-Mortes"},
-      {"@type": "City", "name": "Sommieres"}
-    ]
-  }
-  </script>
+    {
+      "@type": "City",
+      "name": "Lunel"
+    },
+    {
+      "@type": "City",
+      "name": "Vauvert"
+    },
+    {
+      "@type": "City",
+      "name": "Aigues-Mortes"
+    },
+    {
+      "@type": "City",
+      "name": "Sommieres"
+    }
+  ],
+  "@id": "https://lexvox-victime.com/#legalservice"
+}</script>
 
   <!-- JSON-LD: BreadcrumbList -->
   <script type="application/ld+json">
@@ -197,7 +220,7 @@
         <p class="overline">Notre bureau</p>
         <span class="ink"></span>
         <h1>Avocat dommage corporel <span class="accent">Nîmes</span></h1>
-        <img src="../img/og-default.jpg" alt="Cabinet avocat dommage corporel Nîmes — LEXVOX AVOCATS" width="1200" height="630" loading="lazy" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 12px; border: 3px solid var(--dark); margin: 1.5rem 0;">
+        <img fetchpriority="high" src="../img/og-default.jpg" alt="Cabinet avocat dommage corporel Nîmes — LEXVOX AVOCATS" width="1200" height="630" loading="eager" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 12px; border: 3px solid var(--dark); margin: 1.5rem 0;">
         <div class="quick-answer">
           <strong>Le cabinet LEXVOX AVOCATS vous accueille au 6 Rue Crémieux à Nîmes.</strong> Me Patrice Humbert, avocat titulaire de la mention de spécialisation en droit du dommage corporel délivrée par le Conseil National des Barreaux, défend exclusivement les victimes du Gard et des communes limitrophes. Première consultation gratuite de 30 minutes.
         </div>
