@@ -23,7 +23,7 @@
 
 | id | Silo | Type | Titre | URL prévue | Statut |
 |----|------|------|-------|-----------|--------|
-| 13 | B | feuille | Prejudice esthetique temporaire et permanent : indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-esthetique | à venir |
+| 13 | B | feuille | Prejudice esthetique temporaire et permanent : indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-esthetique | **prêt, archivé** — NW **79** (plafond structurel : SERP mince ~1006 mots médians ; ~40 évals). preflight/qa verts hors score. Publication Sanity **en attente décision** (seuil dérogation = >80 strict). |
 | 14 | B | feuille | Prejudice d'agrement : perte de loisirs et indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-agrement | à venir |
 | 15 | B | feuille | Prejudice sexuel : reconnaissance et indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-sexuel | à venir |
 | 16 | B | feuille | Prejudice d'affection : l'indemnisation des victimes indirectes | https://lexvox-victime.com/actualites/indemnisation-prejudice-affection | à venir |
