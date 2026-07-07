@@ -17,12 +17,12 @@
 | 8 | A | feuille | Combien pour un accident de la route ? Montants types d'indemnisation | https://lexvox-victime.com/actualites/montant-indemnisation-accident-route | 100 | 2026-07-06 20:16Z |
 | 10 | B | feuille | Indemnisation du deficit fonctionnel temporaire (DFT) | https://lexvox-victime.com/actualites/indemnisation-deficit-fonctionnel-temporaire-dft | 93 | 2026-07-06 20:24Z |
 | 11 | B | pilier | Deficit fonctionnel permanent (DFP) : poste central, calcul et bareme | https://lexvox-victime.com/actualites/indemnisation-deficit-fonctionnel-permanent-dfp | 90 | 2026-07-06 20:32Z |
+| 12 | B | pilier | Souffrances endurees (pretium doloris) : echelle 1 a 7, evaluation et indemnisation | https://lexvox-victime.com/actualites/indemnisation-souffrances-endurees | 86 | 2026-07-07 04:50Z |
 
 ## En préparation (prochaines publications)
 
 | id | Silo | Type | Titre | URL prévue | Statut |
 |----|------|------|-------|-----------|--------|
-| 12 | B | pilier | Souffrances endurees (pretium doloris) : echelle 1 a 7, evaluation et indemnisation | https://lexvox-victime.com/actualites/indemnisation-souffrances-endurees | à venir |
 | 13 | B | feuille | Prejudice esthetique temporaire et permanent : indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-esthetique | à venir |
 | 14 | B | feuille | Prejudice d'agrement : perte de loisirs et indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-agrement | à venir |
 | 15 | B | feuille | Prejudice sexuel : reconnaissance et indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-sexuel | à venir |

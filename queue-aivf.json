@@ -215,8 +215,10 @@
       "slug": "indemnisation-souffrances-endurees",
       "title": "Souffrances endurees (pretium doloris) : echelle 1 a 7, evaluation et indemnisation",
       "keyword": "indemnisation souffrances endurees",
-      "status": "todo",
-      "note": "ABSORBE id 3 : couvre l'echelle/bareme 1-7 (section ancree #echelle) ET l'indemnisation du poste. Article unique anti-cannibalisation."
+      "status": "done",
+      "note": "ABSORBE id 3 : couvre l'echelle/bareme 1-7 (section ancree #echelle) ET l'indemnisation du poste. Article unique anti-cannibalisation.",
+      "date": "2026-07-07",
+      "neuronwriter_score": 86
     },
     {
       "id": 13,
