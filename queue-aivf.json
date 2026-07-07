@@ -392,7 +392,9 @@
       "slug": "prescription-erreur-medicale",
       "title": "Delai de prescription d'une erreur medicale",
       "keyword": "prescription erreur medicale",
-      "status": "todo"
+      "status": "done",
+      "date": "2026-07-07",
+      "neuronwriter_score": 85
     },
     {
       "id": 29,

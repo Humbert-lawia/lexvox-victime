@@ -25,6 +25,7 @@
 | 18 | B | feuille | Incidence professionnelle : evaluer l'impact durable sur la carriere | https://lexvox-victime.com/actualites/calcul-incidence-professionnelle | 87 | 2026-07-07 10:40Z |
 | 19 | B | feuille | Prejudice scolaire, universitaire et de formation | https://lexvox-victime.com/actualites/indemnisation-prejudice-scolaire | 86 | 2026-07-07 10:58Z |
 | 21 | E | feuille | Medecin conseil de recours : role, choix et interet pour la victime | https://lexvox-victime.com/actualites/medecin-conseil-de-recours | 84* | 2026-07-07 11:36Z |
+| 28 | F | feuille | Delai de prescription d'une erreur medicale | https://lexvox-victime.com/actualites/prescription-erreur-medicale | 85 | 2026-07-07 16:35Z |
 
 ## En préparation (prochaines publications)
 
@@ -38,7 +39,6 @@
 | 25 | E | feuille | Comment se passe l'expertise medicale : deroule etape par etape | https://lexvox-victime.com/actualites/deroule-expertise-medicale | **prêt, archivé** — NW **62** (6 loops, plafond structurel). preflight/qa verts hors score. Publication Sanity **en attente décision** (< seuil 80). |
 | 26 | F | feuille | Infection nosocomiale : droits et indemnisation de la victime | https://lexvox-victime.com/actualites/indemnisation-infection-nosocomiale | **prêt, archivé** — NW **77** (5 loops, plafond structurel). preflight/qa verts hors score. Publication Sanity **en attente décision** (< seuil 80). |
 | 27 | F | feuille | Negligence medicale : recours et indemnisation | https://lexvox-victime.com/actualites/negligence-medicale-recours | **prêt, archivé** — NW **61** (6 loops, plafond structurel — mot-clé "négligence" absent des termes SERP, concurrents emploient "erreur médicale"). preflight/qa verts hors score. Publication Sanity **en attente décision** (< seuil 80). |
-| 28 | F | feuille | Delai de prescription d'une erreur medicale | https://lexvox-victime.com/actualites/prescription-erreur-medicale | à venir |
 | 29 | F | feuille | Erreur chirurgicale et erreur d'anesthesie : indemnisation | https://lexvox-victime.com/actualites/indemnisation-erreur-chirurgicale | à venir |
 | 30 | F | feuille | Obtenir son dossier medical (et que faire en cas de refus) | https://lexvox-victime.com/actualites/obtenir-dossier-medical | à venir |
 | 31 | F | pilier | Procedure CCI / CRCI pas a pas et saisine de l'ONIAM | https://lexvox-victime.com/actualites/procedure-cci-crci | à venir |
