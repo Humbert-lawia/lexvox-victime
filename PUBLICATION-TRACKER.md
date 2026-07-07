@@ -20,13 +20,13 @@
 | 12 | B | pilier | Souffrances endurees (pretium doloris) : echelle 1 a 7, evaluation et indemnisation | https://lexvox-victime.com/actualites/indemnisation-souffrances-endurees | 86 | 2026-07-07 04:50Z |
 | 14 | B | feuille | Prejudice d'agrement : perte de loisirs et indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-agrement | 86 | 2026-07-07 10:11Z |
 | 16 | B | feuille | Prejudice d'affection : l'indemnisation des victimes indirectes | https://lexvox-victime.com/actualites/indemnisation-prejudice-affection | 85 | 2026-07-07 10:25Z |
+| 15 | B | feuille | Prejudice sexuel : reconnaissance et indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-sexuel | 84* | 2026-07-07 10:29Z |
 
 ## En préparation (prochaines publications)
 
 | id | Silo | Type | Titre | URL prévue | Statut |
 |----|------|------|-------|-----------|--------|
 | 13 | B | feuille | Prejudice esthetique temporaire et permanent : indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-esthetique | **prêt, archivé** — NW **79** (plafond structurel : SERP mince ~1006 mots médians ; ~40 évals). preflight/qa verts hors score. Publication Sanity **en attente décision** (seuil dérogation = >80 strict). |
-| 15 | B | feuille | Prejudice sexuel : reconnaissance et indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-sexuel | à venir |
 | 17 | B | feuille | Perte de gains professionnels (PGPA et PGPF) : calcul et indemnisation | https://lexvox-victime.com/actualites/indemnisation-perte-gains-professionnels | à venir |
 | 18 | B | feuille | Incidence professionnelle : evaluer l'impact durable sur la carriere | https://lexvox-victime.com/actualites/calcul-incidence-professionnelle | à venir |
 | 19 | B | feuille | Prejudice scolaire, universitaire et de formation | https://lexvox-victime.com/actualites/indemnisation-prejudice-scolaire | à venir |
@@ -67,3 +67,5 @@
 | 54 | J | feuille | Accident avec delit de fuite : indemnisation par le FGAO | https://lexvox-victime.com/actualites/accident-delit-de-fuite-indemnisation | à venir |
 
 _Fusionnés (anti-cannibalisation, non publiés séparément) : id 3, id 4._
+
+_\* id 15 publié au titre de la dérogation Me Humbert (score > 80 strict après ≥ 5 loops) : plateau NeuronWriter 84 après 6 boucles, SERP saturée. id 13 reste NON publié (NW 79 < seuil 80) — archivé, en attente de décision._
