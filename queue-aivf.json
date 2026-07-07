@@ -190,7 +190,9 @@
       "slug": "indemnisation-deficit-fonctionnel-temporaire-dft",
       "title": "Indemnisation du deficit fonctionnel temporaire (DFT)",
       "keyword": "indemnisation DFT",
-      "status": "todo"
+      "status": "done",
+      "date": "2026-07-06",
+      "neuronwriter_score": 93
     },
     {
       "id": 11,
