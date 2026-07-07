@@ -202,8 +202,10 @@
       "slug": "indemnisation-deficit-fonctionnel-permanent-dfp",
       "title": "Deficit fonctionnel permanent (DFP) : poste central, calcul et bareme",
       "keyword": "indemnisation DFP",
-      "status": "todo",
-      "note": "ABSORBE id 4 : couvre a la fois le POSTE (definition/reparation) ET le CALCUL/bareme (section ancree #calcul). Article unique anti-cannibalisation."
+      "status": "done",
+      "note": "ABSORBE id 4 : couvre a la fois le POSTE (definition/reparation) ET le CALCUL/bareme (section ancree #calcul). Article unique anti-cannibalisation.",
+      "date": "2026-07-06",
+      "neuronwriter_score": 90
     },
     {
       "id": 12,
