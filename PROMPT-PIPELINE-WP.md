@@ -1,15 +1,21 @@
 # PROMPT PIPELINE LEXVOX-WP — à copier tel quel dans une NOUVELLE session Claude Code
 
-> Prérequis côté Me Humbert AVANT de lancer la session (une seule fois) :
-> 1. Créer un **Application Password** WordPress sur chaque site
->    (`/wp-admin/authorize-application.php`, utilisateur admin/éditeur) et les
->    fournir en **secrets d'environnement** (jamais dans le chat ni le dépôt) :
->    `WP_MEDICAL_USER`, `WP_MEDICAL_APP_PASSWORD`,
->    `WP_ACCIDENT_USER`, `WP_ACCIDENT_APP_PASSWORD`.
-> 2. Connecteur **NeuronWriter** autorisé (ou secret `NEURONWRITER_API_KEY` +
->    réseau ouvert vers app.neuronwriter.com).
-> 3. Serveur MCP **Openlegi** connecté.
-> 4. (Recommandé) Si l'écriture des métas Yoast échoue via REST, faire ajouter
+> ÉTAT DES PRÉREQUIS (vérifié le 2026-07-07 sur l'environnement de cet atelier) :
+> - **WordPress** ✅ Accès **administrateur** confirmé (HTTP 200) sur les DEUX
+>   sites avec le login **`3Macs`** (user id 2). Les deux Application Passwords
+>   « LEXVOX-WP-Pipeline » fonctionnent sur les deux sites (publish + upload_files).
+> - **NeuronWriter** ✅ `NEURONWRITER_API_KEY` présent + egress OK
+>   (`tools/neuronwriter.py list-projects` répond ; projet `avocat-lexvox.com`
+>   id `972165f229676370` réutilisable).
+> - **Openlegi** ✅ serveur MCP connecté.
+>
+> À FAIRE UNE FOIS AVANT DE LANCER LA NOUVELLE SESSION (variables d'environnement
+> de l'environnement Claude Code — jamais dans le chat ni le dépôt, règle 5) :
+>    `WP_MEDICAL_USER=3Macs`,  `WP_MEDICAL_APP_PASSWORD=<app password médical>`,
+>    `WP_ACCIDENT_USER=3Macs`, `WP_ACCIDENT_APP_PASSWORD=<app password accident>`.
+>    (Les app passwords exposés dans le chat doivent être RÉVOQUÉS puis régénérés
+>    directement dans ces variables — c'est ainsi que la session autonome les lit.)
+> - (Recommandé) Si l'écriture des métas Yoast échoue via REST, faire ajouter
 >    par le webmaster ce snippet dans le thème enfant / plugin maison des 2 sites :
 >    ```php
 >    add_action('init', function () {
