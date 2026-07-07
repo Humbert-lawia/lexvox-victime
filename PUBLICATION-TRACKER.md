@@ -24,6 +24,7 @@
 | 17 | B | feuille | Perte de gains professionnels (PGPA et PGPF) : calcul et indemnisation | https://lexvox-victime.com/actualites/indemnisation-perte-gains-professionnels | 87 | 2026-07-07 10:39Z |
 | 18 | B | feuille | Incidence professionnelle : evaluer l'impact durable sur la carriere | https://lexvox-victime.com/actualites/calcul-incidence-professionnelle | 87 | 2026-07-07 10:40Z |
 | 19 | B | feuille | Prejudice scolaire, universitaire et de formation | https://lexvox-victime.com/actualites/indemnisation-prejudice-scolaire | 86 | 2026-07-07 10:58Z |
+| 21 | E | feuille | Medecin conseil de recours : role, choix et interet pour la victime | https://lexvox-victime.com/actualites/medecin-conseil-de-recours | 84* | 2026-07-07 11:36Z |
 
 ## En préparation (prochaines publications)
 
@@ -31,7 +32,6 @@
 |----|------|------|-------|-----------|--------|
 | 13 | B | feuille | Prejudice esthetique temporaire et permanent : indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-esthetique | **prêt, archivé** — NW **79** (plafond structurel : SERP mince ~1006 mots médians ; ~40 évals). preflight/qa verts hors score. Publication Sanity **en attente décision** (seuil dérogation = >80 strict). |
 | 20 | B | feuille | Prejudice d'etablissement : projet de vie familiale bouleverse | https://lexvox-victime.com/actualites/indemnisation-prejudice-etablissement | **prêt, archivé** — NW **66** (plafond structurel extrême : SERP indigente, meilleur concurrent 57, article > 29 concurrents). preflight/qa verts hors score. Publication Sanity **en attente décision** (< seuil 80). |
-| 21 | E | feuille | Medecin conseil de recours : role, choix et interet pour la victime | https://lexvox-victime.com/actualites/medecin-conseil-de-recours | à venir |
 | 22 | E | feuille | Contester le rapport d'expertise medicale : voies de recours | https://lexvox-victime.com/actualites/contester-rapport-expertise-medicale | **prêt, archivé** — NW **77** (plafond structurel : SERP menée par concurrent AIVF). preflight/qa verts hors score. Publication Sanity **en attente décision** (< seuil 80). |
 | 23 | E | feuille | La consolidation medicale : definition, date et enjeux | https://lexvox-victime.com/actualites/consolidation-medicale-definition | à venir |
 | 24 | E | feuille | L'indemnite provisionnelle (provision) avant consolidation | https://lexvox-victime.com/actualites/indemnite-provisionnelle-accident | à venir |
