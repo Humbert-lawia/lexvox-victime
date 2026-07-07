@@ -33,7 +33,7 @@ sur les sujets qu'ils monopolisent, avec un standard qualité qu'ils n'ont pas.
 
 Lis d'abord, dans cet ordre :
   1. PLAN-EDITORIAL-WP-2026-07.md   (cartographie concurrentielle + gap + specs WP)
-  2. queue-wp.json                  (file ordonnancée : 82 articles, champs site/ville/note)
+  2. queue-wp.json                  (file ordonnancée : 150 articles (vague 1 = gap net, vague 2 = longue traîne), champs site/ville/note)
   3. PIPELINE-LEXVOX-AIVF.md + .claude/skills/article-aivf/SKILL.md
      (le STANDARD qualité — mais la publication décrite là-bas est Sanity :
       ici on publie en WordPress, ne touche JAMAIS à Sanity ni à lexvox-victime.com)
@@ -64,7 +64,8 @@ e) Méta Yoast : teste l'écriture de _yoast_wpseo_title/_yoast_wpseo_metadesc
 ════════ MISSION ════════
 Produire et publier les articles de queue-wp.json dans l'ordre du tableau,
 CADENCE 3 ARTICLES/JOUR (tous les jours), à partir d'AUJOURD'HUI et jusqu'à
-épuisement de la file (~28 jours). L'ordre encode ~2 accident + 1 médical/jour.
+épuisement de la file (~50 jours, dans la fenêtre de 2 mois fixée par Me Humbert).
+L'ordre encode ~2 accident + 1 médical/jour ; P1→P4 dans l'ordre du tableau.
 Chaque item précise : site cible, slug, title, keyword, ville d'ancrage local,
 priorité, et une note d'angle éventuelle (OBLIGATOIRE à respecter quand elle
 mentionne CANNIBALISATION, REFONTE, PILIER GEO ou FORMAT SIGNATURE).

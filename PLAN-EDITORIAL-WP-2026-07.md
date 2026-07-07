@@ -29,12 +29,13 @@ chiffrés + NeuronWriter ≥ 85) qu'aucun des deux n'applique.
 
 ## 2. Répartition et cadence
 
-- **82 articles** dans `queue-wp.json` : **57 → site ACCIDENT**, **25 → site MÉDICAL**
-  (35 P1 / 35 P2 / 12 P3 — bien sous le plafond de 200 fixé par Me Humbert :
-  qualité AIVF-killer plutôt que volume).
+- **150 articles** dans `queue-wp.json` : **90 → site ACCIDENT**, **60 → site MÉDICAL**
+  (35 P1 / 51 P2 / 47 P3 / 17 P4). Vague 1 (82, le gap net) au standard maximal ;
+  vague 2 (68) = longue traîne — cas concrets par blessure, typologie médicale
+  par acte (angle mort total des 2 concurrents), circonstances non couvertes.
 - L'ordre de la file entrelace ~2 accident + 1 médical par jour.
 - **Cadence : 3 articles/jour, tous les jours, à partir d'aujourd'hui → file
-  épuisée en ~28 jours** (début août 2026).
+  épuisée en ~50 jours** (~2 mois, dans la fenêtre fixée par Me Humbert).
 - Sources : gap Jullien (J), gap Benezra (B), transpositions médicales (B/J
   transposé — les concurrents ne couvrent pas le médical, on transpose leurs
   armes transverses), **Qwairy** (15 articles issus des 4 exports du
@@ -100,7 +101,7 @@ obligatoire** (décrit dans la note) : le pilier national reste sur
 lexvox-victime.com, le WP prend l'angle pratique/spécifique. Un lien
 cross-domaine vers le pilier Sanity est autorisé (1 max/article).
 
-## 6. Le tableau des 82 articles (gap non traité + répartition)
+## 6. Le tableau des 150 articles (gap non traité + répartition)
 
 Colonnes : site cible, ville d'ancrage local (rotation), priorité, source
 concurrentielle. La version exécutable (slugs, mots-clés, notes d'angle) est
@@ -185,11 +186,80 @@ dans `queue-wp.json` — c'est elle que la production consomme.
 | 75 | Combien nos clients ont obtenu après une erreur médicale : études de cas chiffrées (série) | `indemnisation erreur médicale montant` | **MÉDICAL** | arles | P2 | Jullien (format transposé) | FORMAT SIGNATURE  |
 | 76 | Dommage corporel : définition, préjudices couverts et fonctionnement de l'indemnisation | `dommage corporel définition` | **ACCIDENT** | avignon | P1 | Qwairy (gap 100%) |  |
 | 77 | Évaluer le montant de son indemnisation : la méthode des avocats de victimes | `évaluer montant indemnisation` | **ACCIDENT** | marignane | P1 | Qwairy (gap 100%) |  |
-| 78 | Procédure amiable d'indemnisation : étapes, frais, délais et erreurs à éviter | `procédure amiable indemnisation` | **ACCIDENT** | aix-en-provence | P1 | Qwairy (cluster 10 prompts) | PILIER GEO  |
-| 79 | Recours contre son assureur : le guide complet (amiable, judiciaire, documents, délais) | `recours contre assureur` | **ACCIDENT** | marseille | P1 | Qwairy (cluster 12 prompts) | PILIER GEO  |
-| 80 | Protection juridique et assistance après un accident : comment l'activer, ce qu'elle paie | `protection juridique accident` | **ACCIDENT** | nimes | P1 | Qwairy (cluster assistance juridique, gap 100%) | Couvre 4 prompts 100% gap (où trouver une assistance juridique, est-elle nécessaire, meilleurs services, avocat sans frais initiaux). |
-| 81 | Accident du travail : les documents à préparer et les pièges du dossier | `documents accident du travail avocat` | **ACCIDENT** | salon-de-provence | P2 | Qwairy (cluster accidents du travail) | Couvre les prompts 'documents à préparer', 'meilleures pratiques dossier', 'accidents fréquents au travail et comment se défendre'. |
-| 82 | Accidents de la vie : vos recours au-delà de la route et du travail | `accident de la vie indemnisation` | **ACCIDENT** | arles | P1 | Qwairy (gap 100%) | REFONTE  |
+| 78 | Retard de diagnostic d'un cancer : perte de chance et indemnisation | `retard diagnostic cancer indemnisation` | **MÉDICAL** | aix-en-provence | P2 | gap total J+B |  |
+| 79 | Procédure amiable d'indemnisation : étapes, frais, délais et erreurs à éviter | `procédure amiable indemnisation` | **ACCIDENT** | marseille | P1 | Qwairy (cluster 10 prompts) | PILIER GEO  |
+| 80 | Recours contre son assureur : le guide complet (amiable, judiciaire, documents, délais) | `recours contre assureur` | **ACCIDENT** | nimes | P1 | Qwairy (cluster 12 prompts) | PILIER GEO  |
+| 81 | Retard de diagnostic d'un infarctus ou d'un AVC aux urgences : recours | `retard diagnostic AVC urgences` | **MÉDICAL** | salon-de-provence | P2 | gap total J+B |  |
+| 82 | Protection juridique et assistance après un accident : comment l'activer, ce qu'elle paie | `protection juridique accident` | **ACCIDENT** | arles | P1 | Qwairy (cluster assistance juridique, gap 100%) | Couvre 4 prompts 100% gap (où trouver une assistance juridique, est-elle nécessaire, meilleurs services, avocat sans frais initiaux). |
+| 83 | Accident du travail : les documents à préparer et les pièges du dossier | `documents accident du travail avocat` | **ACCIDENT** | avignon | P2 | Qwairy (cluster accidents du travail) | Couvre les prompts 'documents à préparer', 'meilleures pratiques dossier', 'accidents fréquents au travail et comment se défendre'. |
+| 84 | Erreur médicamenteuse et surdosage : responsabilité et indemnisation | `erreur médicamenteuse indemnisation` | **MÉDICAL** | marignane | P2 | gap total J+B |  |
+| 85 | Accidents de la vie : vos recours au-delà de la route et du travail | `accident de la vie indemnisation` | **ACCIDENT** | aix-en-provence | P1 | Qwairy (gap 100%) | REFONTE  |
+| 86 | Indemnisation d'une fracture du fémur après un accident | `indemnisation fracture fémur` | **ACCIDENT** | marseille | P3 | Jullien |  |
+| 87 | Compresse ou instrument oublié après une opération : la faute présumée | `corps étranger oublié opération` | **MÉDICAL** | nimes | P2 | gap total J+B |  |
+| 88 | Fracture du bassin ou du cotyle : évaluation et indemnisation | `indemnisation fracture bassin` | **ACCIDENT** | salon-de-provence | P3 | Jullien |  |
+| 89 | Fracture de jambe (tibia-péroné) : séquelles et indemnisation | `indemnisation fracture jambe` | **ACCIDENT** | arles | P3 | Jullien |  |
+| 90 | Erreur de côté : opération du mauvais organe ou du mauvais membre | `erreur de côté chirurgie indemnisation` | **MÉDICAL** | avignon | P2 | gap total J+B |  |
+| 91 | Rupture des ligaments croisés du genou après accident : indemnisation | `indemnisation ligaments croisés genou` | **ACCIDENT** | marignane | P3 | Benezra |  |
+| 92 | Lésion de la coiffe des rotateurs (épaule) : indemnisation de la victime | `indemnisation coiffe des rotateurs` | **ACCIDENT** | aix-en-provence | P3 | Jullien |  |
+| 93 | Défaut d'information et consentement : le préjudice d'impréparation | `défaut information médicale préjudice` | **MÉDICAL** | marseille | P2 | gap total J+B |  |
+| 94 | Traumatisme de la main et des doigts : indemnisation (préhension, préjudice pro) | `indemnisation traumatisme main` | **ACCIDENT** | nimes | P3 | Jullien |  |
+| 95 | Fractures de côtes et volet thoracique : indemnisation après un accident | `indemnisation fracture côtes` | **ACCIDENT** | salon-de-provence | P3 | Benezra |  |
+| 96 | Erreur transfusionnelle et contamination (hépatite, VIH) : indemnisation | `contamination transfusion indemnisation` | **MÉDICAL** | arles | P2 | gap total J+B |  |
+| 97 | Fracture vertébrale lombaire et tassement : indemnisation | `indemnisation fracture vertèbre lombaire` | **ACCIDENT** | avignon | P3 | Benezra | Angle rachis lombaire distinct du 'fracture vertèbre' générique de la queue Sanity (id 32). |
+| 98 | Traumatisme facial et fractures du visage : préjudice esthétique et indemnisation | `indemnisation traumatisme facial` | **ACCIDENT** | marignane | P3 | Jullien |  |
+| 99 | Escarre et défaut de soins à l'hôpital ou en EHPAD : recours de la victime | `escarre défaut de soins indemnisation` | **MÉDICAL** | aix-en-provence | P2 | gap total J+B |  |
+| 100 | Perte d'audition et acouphènes après un accident : faire reconnaître le préjudice | `indemnisation acouphènes accident` | **ACCIDENT** | marseille | P3 | Benezra |  |
+| 101 | Brûlures, cicatrices et grand brûlé : indemnisation du préjudice esthétique et de la souffrance | `indemnisation brûlures accident` | **ACCIDENT** | nimes | P3 | Jullien |  |
+| 102 | Chute d'un patient à l'hôpital : défaut de surveillance et indemnisation | `chute patient hôpital responsabilité` | **MÉDICAL** | salon-de-provence | P2 | gap total J+B |  |
+| 103 | Traumatisme dentaire après un accident : indemnisation (prothèses, implants) | `indemnisation traumatisme dentaire` | **ACCIDENT** | arles | P4 | Jullien |  |
+| 104 | Lésion d'organes internes (rate, rein, poumon) : indemnisation après accident | `indemnisation lésion rate accident` | **ACCIDENT** | avignon | P4 | Benezra |  |
+| 105 | Défaut de surveillance post-opératoire : quand la clinique engage sa responsabilité | `défaut surveillance post-opératoire` | **MÉDICAL** | marignane | P2 | gap total J+B |  |
+| 106 | Syndrome post-commotionnel : troubles persistants après un choc à la tête | `syndrome post-commotionnel indemnisation` | **ACCIDENT** | aix-en-provence | P4 | Benezra |  |
+| 107 | Accident de quad : responsabilité et indemnisation de la victime | `indemnisation accident quad` | **ACCIDENT** | marseille | P3 | Benezra |  |
+| 108 | Lésion nerveuse ou névrome après une chirurgie : indemnisation | `lésion nerveuse post-chirurgie indemnisation` | **MÉDICAL** | nimes | P3 | gap total J+B |  |
+| 109 | Accident avec un poids lourd : spécificités de l'indemnisation | `indemnisation accident camion` | **ACCIDENT** | salon-de-provence | P3 | Jullien |  |
+| 110 | Accident de bus ou de transport en commun : quels droits pour les passagers ? | `indemnisation accident bus` | **ACCIDENT** | arles | P3 | Jullien |  |
+| 111 | Syndrome de la queue de cheval mal diagnostiqué : urgence manquée et indemnisation | `syndrome queue de cheval indemnisation` | **MÉDICAL** | avignon | P3 | gap total J+B |  |
+| 112 | Accident de bateau ou de jet-ski : régime d'indemnisation | `indemnisation accident bateau` | **ACCIDENT** | marignane | P4 | Benezra |  |
+| 113 | Accident d'équitation ou chute de cheval : indemnisation | `indemnisation accident cheval` | **ACCIDENT** | aix-en-provence | P4 | Benezra |  |
+| 114 | Erreur de radiologie : imagerie mal ou non interprétée | `erreur radiologie indemnisation` | **MÉDICAL** | marseille | P3 | gap total J+B |  |
+| 115 | Accident sur une structure gonflable ou un manège : responsabilité et indemnisation | `indemnisation accident manège` | **ACCIDENT** | nimes | P4 | Benezra |  |
+| 116 | Accident de trajet domicile-travail : accident du travail ou de la route ? | `accident de trajet indemnisation` | **ACCIDENT** | salon-de-provence | P3 | Benezra+Jullien |  |
+| 117 | Déficit neurologique après péridurale ou rachianesthésie : recours | `complication péridurale indemnisation` | **MÉDICAL** | arles | P3 | gap total J+B |  |
+| 118 | Faute inexcusable de l'employeur : la majoration d'indemnisation après un accident du travail grave | `faute inexcusable employeur indemnisation` | **ACCIDENT** | avignon | P3 | Jullien |  |
+| 119 | Accident causé par un véhicule volé ou non identifié : le rôle du FGAO | `accident véhicule volé indemnisation` | **ACCIDENT** | marignane | P4 | Benezra |  |
+| 120 | Brûlure au bloc opératoire (laser, bistouri électrique) : indemnisation | `brûlure bloc opératoire indemnisation` | **MÉDICAL** | aix-en-provence | P3 | gap total J+B |  |
+| 121 | Étude de cas : l'indemnisation détaillée d'un motard gravement blessé | `indemnisation motard montant exemple` | **ACCIDENT** | marseille | P3 | Jullien (format) |  |
+| 122 | Étude de cas : combien pour un piéton renversé et lourdement handicapé | `indemnisation piéton montant exemple` | **ACCIDENT** | nimes | P3 | Jullien (format) |  |
+| 123 | Retard de prise en charge aux urgences : caractériser la perte de chance | `retard prise en charge urgences` | **MÉDICAL** | salon-de-provence | P2 | gap total J+B |  |
+| 124 | Étude de cas : l'indemnisation d'un traumatisé crânien après un accident | `indemnisation traumatisme crânien montant` | **ACCIDENT** | arles | P4 | Jullien+Benezra (format) |  |
+| 125 | Accident en covoiturage ou VTC : qui indemnise le passager ? | `indemnisation accident covoiturage` | **ACCIDENT** | avignon | P4 | gap |  |
+| 126 | Erreur ophtalmologique et perte de vue post-opératoire : indemnisation | `erreur ophtalmologique indemnisation` | **MÉDICAL** | marignane | P3 | gap total J+B |  |
+| 127 | Entorse grave de la cheville ou du genou : quand elle laisse des séquelles indemnisables | `indemnisation entorse grave` | **ACCIDENT** | aix-en-provence | P4 | Benezra |  |
+| 128 | Accident dû au mauvais état de la route : engager la responsabilité du gestionnaire | `accident mauvais état route indemnisation` | **ACCIDENT** | marseille | P4 | Jullien |  |
+| 129 | Clinique ou praticien : qui est responsable de votre dommage ? (arbre de décision) | `responsabilité clinique ou médecin` | **MÉDICAL** | nimes | P2 | gap total J+B |  |
+| 130 | Troubles du sommeil et anxiété après un accident : des préjudices à ne pas négliger | `troubles anxiété après accident` | **ACCIDENT** | salon-de-provence | P4 | Benezra |  |
+| 131 | Accident de vélo d'un enfant : protection renforcée de la loi Badinter | `indemnisation accident vélo enfant` | **ACCIDENT** | arles | P4 | Benezra |  |
+| 132 | Produit de santé défectueux (prothèse, implant) : responsabilité et indemnisation | `prothèse défectueuse indemnisation` | **MÉDICAL** | avignon | P2 | gap total J+B |  |
+| 133 | Traumatisme du genou et arthrose post-traumatique : l'indemnisation dans la durée | `arthrose post-traumatique indemnisation` | **ACCIDENT** | marignane | P4 | Benezra |  |
+| 134 | Accident avec un engin de chantier ou agricole : quel régime d'indemnisation ? | `indemnisation accident engin chantier` | **ACCIDENT** | aix-en-provence | P4 | gap |  |
+| 135 | Accident vaccinal : l'indemnisation par l'ONIAM | `accident vaccinal indemnisation ONIAM` | **MÉDICAL** | marseille | P3 | gap total J+B |  |
+| 136 | Iatrogénie médicamenteuse et effet indésirable grave : quels recours ? | `iatrogénie médicamenteuse indemnisation` | **MÉDICAL** | nimes | P3 | gap total J+B |  |
+| 137 | Paralysie du plexus brachial du nouveau-né (paralysie d'Erb) : indemnisation | `paralysie plexus brachial nouveau-né` | **MÉDICAL** | salon-de-provence | P3 | gap total J+B | Angle néonatal distinct du cluster 'accouchement' existant du site (déchirure, forceps…)  |
+| 138 | Erreur de diagnostic prénatal et handicap non décelé : l'état du droit après la loi anti-Perruche | `erreur diagnostic prénatal indemnisation` | **MÉDICAL** | arles | P3 | gap total J+B |  |
+| 139 | Décès péri-opératoire : les recours des proches | `décès péri-opératoire indemnisation` | **MÉDICAL** | avignon | P3 | gap total J+B |  |
+| 140 | Calculer la perte de chance : le taux qui détermine votre indemnisation médicale | `calcul perte de chance médicale` | **MÉDICAL** | marignane | P2 | gap total J+B |  |
+| 141 | Barème d'indemnisation de l'accident médical : fourchettes par poste | `barème indemnisation accident médical` | **MÉDICAL** | aix-en-provence | P2 | gap total J+B |  |
+| 142 | Délais d'indemnisation d'une erreur médicale : combien de temps à chaque étape | `délai indemnisation erreur médicale` | **MÉDICAL** | marseille | P2 | Qwairy |  |
+| 143 | Erreur médicale : recours amiable (CCI) ou judiciaire, comment choisir | `recours amiable ou judiciaire erreur médicale` | **MÉDICAL** | nimes | P3 | Qwairy+Benezra |  |
+| 144 | Les documents à réunir pour un dossier d'erreur médicale | `documents dossier erreur médicale` | **MÉDICAL** | salon-de-provence | P3 | Qwairy |  |
+| 145 | Déficit fonctionnel permanent d'origine médicale : évaluation et indemnisation | `DFP accident médical indemnisation` | **MÉDICAL** | arles | P3 | gap total J+B | Transposition médicale du poste DFP — lier au pilier DFP national de lexvox-victime.com. |
+| 146 | Incidence professionnelle après un accident médical : reconversion et perte de carrière | `incidence professionnelle accident médical` | **MÉDICAL** | avignon | P3 | gap total J+B |  |
+| 147 | Souffrances endurées après une faute médicale : évaluation et indemnisation | `souffrances endurées accident médical` | **MÉDICAL** | marignane | P3 | gap total J+B |  |
+| 148 | Infection nosocomiale grave (septicémie, bactérie résistante) : indemnisation renforcée | `infection nosocomiale grave indemnisation` | **MÉDICAL** | aix-en-provence | P4 | gap | Angle 'forme grave' distinct des posts nosocomiale existants du site  |
+| 149 | Préjudice d'établissement après un grand handicap d'origine médicale | `préjudice établissement handicap médical` | **MÉDICAL** | marseille | P4 | gap total J+B |  |
+| 150 | Erreur et complications d'anesthésie : responsabilité et indemnisation | `erreur anesthésie indemnisation` | **MÉDICAL** | nimes | P3 | gap total J+B | Angle 100% anesthésie, distinct du pilier 'erreur chirurgicale/anesthésie' national (Sanity id 29). |
+
 
 ## 7. Suivi
 
