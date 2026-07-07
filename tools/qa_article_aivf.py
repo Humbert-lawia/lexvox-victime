@@ -12,7 +12,10 @@ differenciation face a AIVF imposes par le gabarit augmente :
   3. Infographie : >= 1 <figure class="infographic"> contenant un <svg>.
   4. Couverture d'intent : >= 5 sections <h2> ET >= 6 questions FAQ (<details>).
   5. Optimisation NeuronWriter (NON NEGOCIABLE) : marqueur
-     <!-- NEURONWRITER SCORE: N ... --> present et N >= 85.
+     <!-- NEURONWRITER SCORE: N ... --> present et N >= 85. Exception :
+     derogation editoriale documentee DANS le marqueur (mention "derogation"
+     + contexte, ex. "derogation >80 apres 15 loops, plafond SERP") acceptee
+     si N > 80 — trace ecrite obligatoire, jamais de derogation implicite.
   6. Plancher de mots (chrome exclu) : >= 1900 mots utiles pour TOUT article
      (limite non negociable), >= 2500 pour un pilier. Le volume peut monter
      au-dessus de 1900 si cela ameliore le score, jamais descendre en dessous.
@@ -89,15 +92,23 @@ def check(path: Path, pilier: bool) -> list[str]:
     if n_faq < 6:
         problems.append(f"{n_faq} questions FAQ <details> (minimum 6)")
 
-    # 5. Optimisation NeuronWriter — score >= 85 (non negociable)
-    m = re.search(r"<!--\s*NEURONWRITER\s+SCORE:\s*([0-9]+(?:\.[0-9]+)?)", html, re.I)
+    # 5. Optimisation NeuronWriter — score >= 85 (non negociable), sauf
+    # derogation editoriale explicite ecrite dans le marqueur (score > 80).
+    m = re.search(r"<!--\s*NEURONWRITER\s+SCORE:\s*([0-9]+(?:\.[0-9]+)?)(.*?)-->", html, re.I | re.S)
     if not m:
         problems.append(
             "aucun marqueur de score NeuronWriter (<!-- NEURONWRITER SCORE: N ... -->) : "
             "l'optimisation NeuronWriter >= 85 est obligatoire avant publication"
         )
-    elif float(m.group(1)) < 85:
-        problems.append(f"score NeuronWriter {m.group(1)} < 85 (seuil non negociable)")
+    else:
+        score = float(m.group(1))
+        derog = re.search(r"d[ée]rogation", m.group(2), re.I)
+        if score < 85 and not derog:
+            problems.append(f"score NeuronWriter {m.group(1)} < 85 (seuil non negociable, "
+                            "derogation possible >80 uniquement si documentee dans le marqueur)")
+        elif score <= 80 and derog:
+            problems.append(f"score NeuronWriter {m.group(1)} <= 80 : la derogation documentee "
+                            "ne s'applique qu'au-dessus de 80")
 
     # 6. Plancher de mots (chrome exclu) — jamais moins de 1900 mots
     n = content_word_count(html)
