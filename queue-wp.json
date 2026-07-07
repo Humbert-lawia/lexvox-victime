@@ -102,7 +102,13 @@
       "keyword": "faute de la victime accident",
       "source": "Benezra",
       "ville": "aix-en-provence",
-      "status": "todo"
+      "status": "done",
+      "date": "2026-07-07",
+      "neuronwriter_score": 85,
+      "url": "https://victime-accident.lexvox-avocat.fr/2026/07/07/faute-victime-accident-reduction-indemnisation/",
+      "wp_post_id": 7811,
+      "wp_media_id": 7810,
+      "yoast_meta_pending": true
     },
     {
       "id": 2,
@@ -115,7 +121,14 @@
       "keyword": "indemnisation conducteur fautif",
       "source": "Benezra",
       "ville": "marseille",
-      "status": "todo"
+      "status": "done",
+      "date": "2026-07-07",
+      "neuronwriter_score": 86,
+      "url": "https://victime-accident.lexvox-avocat.fr/2026/07/07/conducteur-fautif-victime-droits-indemnisation/",
+      "wp_post_id": 7813,
+      "wp_media_id": 7812,
+      "yoast_meta_pending": true,
+      "note_degrade": "Pas de categorie ville 'Marseille' existante sur le site accident (categories_existantes ne liste que Aix/Arles/Ales) : categorie ville non posee, conformement a l'interdiction de creer une categorie. Ancrage local assure par le corps du texte + image geolocalisee EXIF."
     },
     {
       "id": 3,
@@ -128,7 +141,13 @@
       "keyword": "perte de chance erreur médicale",
       "source": "gap concurrentiel (angle mort J+B)",
       "ville": "nimes",
-      "status": "todo"
+      "status": "done",
+      "date": "2026-07-07",
+      "neuronwriter_score": 88,
+      "url": "https://medical.lexvox-avocat.fr/2026/07/07/perte-de-chance-erreur-medicale-indemnisation/",
+      "wp_post_id": 5210,
+      "wp_media_id": 5209,
+      "yoast_meta_pending": true
     },
     {
       "id": 4,
