@@ -30,7 +30,7 @@
 |----|------|------|-------|-----------|--------|
 | 13 | B | feuille | Prejudice esthetique temporaire et permanent : indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-esthetique | **prêt, archivé** — NW **79** (plafond structurel : SERP mince ~1006 mots médians ; ~40 évals). preflight/qa verts hors score. Publication Sanity **en attente décision** (seuil dérogation = >80 strict). |
 | 19 | B | feuille | Prejudice scolaire, universitaire et de formation | https://lexvox-victime.com/actualites/indemnisation-prejudice-scolaire | à venir |
-| 20 | B | feuille | Prejudice d'etablissement : projet de vie familiale bouleverse | https://lexvox-victime.com/actualites/indemnisation-prejudice-etablissement | à venir |
+| 20 | B | feuille | Prejudice d'etablissement : projet de vie familiale bouleverse | https://lexvox-victime.com/actualites/indemnisation-prejudice-etablissement | **prêt, archivé** — NW **66** (plafond structurel extrême : SERP indigente, meilleur concurrent 57, article > 29 concurrents). preflight/qa verts hors score. Publication Sanity **en attente décision** (< seuil 80). |
 | 21 | E | feuille | Medecin conseil de recours : role, choix et interet pour la victime | https://lexvox-victime.com/actualites/medecin-conseil-de-recours | à venir |
 | 22 | E | feuille | Contester le rapport d'expertise medicale : voies de recours | https://lexvox-victime.com/actualites/contester-rapport-expertise-medicale | à venir |
 | 23 | E | feuille | La consolidation medicale : definition, date et enjeux | https://lexvox-victime.com/actualites/consolidation-medicale-definition | à venir |
