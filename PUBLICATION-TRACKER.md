@@ -18,13 +18,13 @@
 | 10 | B | feuille | Indemnisation du deficit fonctionnel temporaire (DFT) | https://lexvox-victime.com/actualites/indemnisation-deficit-fonctionnel-temporaire-dft | 93 | 2026-07-06 20:24Z |
 | 11 | B | pilier | Deficit fonctionnel permanent (DFP) : poste central, calcul et bareme | https://lexvox-victime.com/actualites/indemnisation-deficit-fonctionnel-permanent-dfp | 90 | 2026-07-06 20:32Z |
 | 12 | B | pilier | Souffrances endurees (pretium doloris) : echelle 1 a 7, evaluation et indemnisation | https://lexvox-victime.com/actualites/indemnisation-souffrances-endurees | 86 | 2026-07-07 04:50Z |
+| 14 | B | feuille | Prejudice d'agrement : perte de loisirs et indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-agrement | 86 | 2026-07-07 10:11Z |
 
 ## En préparation (prochaines publications)
 
 | id | Silo | Type | Titre | URL prévue | Statut |
 |----|------|------|-------|-----------|--------|
 | 13 | B | feuille | Prejudice esthetique temporaire et permanent : indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-esthetique | **prêt, archivé** — NW **79** (plafond structurel : SERP mince ~1006 mots médians ; ~40 évals). preflight/qa verts hors score. Publication Sanity **en attente décision** (seuil dérogation = >80 strict). |
-| 14 | B | feuille | Prejudice d'agrement : perte de loisirs et indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-agrement | à venir |
 | 15 | B | feuille | Prejudice sexuel : reconnaissance et indemnisation | https://lexvox-victime.com/actualites/indemnisation-prejudice-sexuel | à venir |
 | 16 | B | feuille | Prejudice d'affection : l'indemnisation des victimes indirectes | https://lexvox-victime.com/actualites/indemnisation-prejudice-affection | à venir |
 | 17 | B | feuille | Perte de gains professionnels (PGPA et PGPF) : calcul et indemnisation | https://lexvox-victime.com/actualites/indemnisation-perte-gains-professionnels | à venir |
