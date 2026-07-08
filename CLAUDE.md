@@ -187,3 +187,7 @@ disponible) — à remplacer dès que possible.
 Image `img/articles/indemnisation-plexus-brachial.jpg` (id 37) = copie de
 `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
 disponible) — à remplacer dès que possible.
+
+Image `img/articles/indemnisation-tetraplegie.jpg` (id 39) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer dès que possible.
