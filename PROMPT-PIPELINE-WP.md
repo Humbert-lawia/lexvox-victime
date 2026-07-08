@@ -79,8 +79,10 @@ priorité, et une note d'angle éventuelle (OBLIGATOIRE à respecter quand elle
 mentionne CANNIBALISATION, REFONTE, PILIER GEO ou FORMAT SIGNATURE).
 
 ════════ STANDARD PAR ARTICLE (identique AIVF, non négociable) ════════
-1. NEURONWRITER ≥ 85 AVANT publication, ≥ 1900 mots utiles (2500 pour un
-   "pilier") — le volume peut monter, jamais descendre sous 1900. La procédure
+1. NEURONWRITER ≥ 85 AVANT publication (cible : le score le plus haut, viser 95 ;
+   dérogation éditoriale > 80 acceptée UNIQUEMENT si documentée dans le marqueur —
+   politique Me Humbert 2026-07-08, cf. CLAUDE.md), ≥ 1900 mots utiles (2500 pour
+   un "pilier") — le volume peut monter, jamais descendre sous 1900. La procédure
    est celle du skill OBLIGATOIRE **`/nw-optimisation`** (« term-budget first +
    audit local », validée 62→85, budget 2 appels `evaluate` au lieu de 6-15),
    déclinée pour WordPress via `tools/nw_eval_wp.py` (page reconstituée

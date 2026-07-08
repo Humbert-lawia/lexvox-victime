@@ -73,6 +73,17 @@ démontré). Aucun score inventé : le marqueur `<!-- NEURONWRITER SCORE: … --
 porte toujours le dernier score API réel, journalisé dans
 `nw-lab/runs-<query>.jsonl`.
 
+**Seuil de publication (politique Me Humbert, 2026-07-08).** Cible = le score le
+plus haut possible (viser 95). On pousse via la méthode ci-dessus : audit local
+exhaustif (gratuit) + jusqu'à **6 cycles `evaluate` maximum** vers le plus haut
+score. Seuil de publication **≥ 85** ; en dessous, **dérogation éditoriale
+acceptée si score > 80** (jamais ≤ 80), à condition d'être **documentée dans le
+marqueur** (`… — derogation … : plafond de famille, score réel`). C'est la seule
+exception au seuil, et elle est tracée : `qa_article_aivf.py` / `qa_article_wp.py`
+la vérifient (mot « derogation » + score > 80). Rappel des lois mesurées :
+au-delà du plateau de la famille, le gain marginal des cycles est nul — les
+6 cycles sont un plafond de sécurité, pas une obligation de brûler 6 appels API.
+
 ## Règles critiques (chacune vient d'un incident réel)
 
 1. **Jamais de marqueurs de conflit committés.** Le sitemap.xml est resté
