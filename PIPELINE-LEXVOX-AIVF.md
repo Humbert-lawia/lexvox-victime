@@ -41,7 +41,7 @@ s'y ajoutent, elles ne le remplacent pas.
 
 | # | Correctif appliqué | Où |
 |---|--------------------|-----|
-| 0 | **Optimisation NeuronWriter ≥ 85 (priorité absolue)** + plancher **1900 mots**. Score obtenu via l'API (`tools/neuronwriter.py`, clé en secret) ou un connecteur, collé en marqueur `<!-- NEURONWRITER SCORE: N -->` ; le QA bloque si < 85 ou absent. | skill §5bis + QA |
+| 0 | **Optimisation NeuronWriter ≥ 85 (priorité absolue)** + plancher **1900 mots**. Méthode unique : skill **`/nw-optimisation`** (term-budget first + audit local, validée 2026-07-07 : 62 → 85 en ≤ 2 evaluate au lieu de 6-15 loops). Score API réel collé en marqueur `<!-- NEURONWRITER SCORE: N -->` ; le QA bloque si < 85 ou absent. | skill nw-optimisation + skill §5bis + QA |
 | B | **Vérification juridique câblée — Openlegi UNIQUEMENT** (pas Lexbase). Chaque arrêt est confirmé par un appel Openlegi ; son URL sert de **backlink** ; un marqueur `<!-- OPENLEGI VERIFIED: … -->` est collé par décision. | skill §1/§4 + QA |
 | C | **QA câblé en CI bloquante** (`qa_queue.py` dans `validate.yml`) + comptage de mots **hors chrome** (nav/footer exclus). | `validate.yml`, `qa_article_aivf.py` |
 | D | **Dédoublonnage de la file** : paires cannibales fusionnées (pretium↔souffrances → id 12 ; calcul-DFP↔DFP → id 11), en hub + ancres. 54 → 52 articles actifs. | `queue-aivf.json` |
@@ -160,6 +160,9 @@ sœurs ; le hub (id 2, id 42, ou page pilier existante) liste toutes ses feuille
 | `queue-aivf.json` | file ordonnancée (52 actifs, 2 fusionnés) + carte des hubs |
 | `.claude/skills/article-aivf/SKILL.md` | skill `/article-aivf` (procédure augmentée) |
 | `tools/neuronwriter.py` | client API NeuronWriter (new-query / get-query / evaluate) — gate score ≥ 85 |
+| `.claude/skills/nw-optimisation/SKILL.md` | **méthode d'optimisation NW obligatoire** (term-budget first + audit local, validée 62 → 85) |
+| `tools/nw_lab.py` | outillage NW : cache de termes, audit local 0 appel API, evaluate journalisé (`nw-lab/runs-<query>.jsonl`) |
+| `PROTOCOLE-NW-LAB.md` | protocole d'expérimentation NW + résultats mesurés (lois du scoreur, verdicts H1-H4) |
 | `tools/qa_article_aivf.py` | validateur d'un article (**NeuronWriter ≥ 85**, juris+backlink+Openlegi, 2 tableaux, SVG, intent, ≥ 1900 mots) |
 | `tools/qa_queue.py` | runner CI : valide les articles `done` de la file |
 | `.github/workflows/validate.yml` | CI : `preflight.py` + `qa_queue.py` (bloquants) |
@@ -179,7 +182,8 @@ PIPELINE LEXVOX-AIVF. Lis d'abord, dans cet ordre :
   2. AUDIT-COMPARATIF-AIVF-2026-07.md   (forces/faiblesses vs AIVF)
   3. queue-aivf.json                    (file ordonnancée + hubs de silo)
   4. .claude/skills/article-aivf/SKILL.md   (la procédure détaillée)
-  5. CLAUDE.md                          (règles critiques du dépôt)
+  5. .claude/skills/nw-optimisation/SKILL.md (méthode NeuronWriter OBLIGATOIRE)
+  6. CLAUDE.md                          (règles critiques du dépôt)
 
 MISSION : produire les articles de queue-aivf.json dans l'ordre du tableau (ignore
 les status "merged"). L'item id 1 est l'article IA/Village de la Justice déjà
@@ -191,14 +195,23 @@ avec un score >= 85 AVANT publication, et faire >= 1900 mots utiles (le volume p
 monter pour gagner des points, jamais descendre sous 1900). Accès NeuronWriter via
 l'API tools/neuronwriter.py (il n'existe PAS de connecteur NeuronWriter). Requiert
 un environnement à réseau ouvert (egress vers app.neuronwriter.com autorisé) et la
-clé en secret NEURONWRITER_API_KEY. Procédure :
+clé en secret NEURONWRITER_API_KEY.
+
+MÉTHODE D'OPTIMISATION OBLIGATOIRE : le skill /nw-optimisation
+(.claude/skills/nw-optimisation/SKILL.md — validée le 2026-07-07 : 62 → 85 en
+<= 2 evaluate au lieu de 6-15 loops aveugles). Séquence :
   python3 tools/neuronwriter.py list-projects            # découvrir le project_id
   python3 tools/neuronwriter.py new-query <project_id> "<keyword>"   # -> query_id
-  python3 tools/neuronwriter.py get-query <query_id>     # termes NLP recommandés
-puis rédige/enrichis en couvrant ces termes, évalue avec
-  python3 tools/neuronwriter.py evaluate <query_id> actualites/<slug>.html
-et itère jusqu'à >= 85. Colle alors le marqueur
-<!-- NEURONWRITER SCORE: N query=<id> le AAAA-MM-JJ -->. Sans NeuronWriter joignable,
+  python3 tools/nw_lab.py terms <query_id>     # termes + fourchettes AVANT rédaction
+puis rédige EN UNE PASSE sous contrat de termes (title/H1/H2 denses), audite en
+LOCAL (0 appel API) et corrige tous les déficits :
+  python3 tools/nw_lab.py audit nw-lab/terms-<query_id>.json actualites/<slug>.html
+et seulement alors évalue (budget 2 appels, journalisés — JAMAIS de boucle
+aveugle rédiger-scorer-deviner) :
+  python3 tools/nw_lab.py evaluate <query_id> actualites/<slug>.html --note "loop1"
+Colle alors le marqueur
+<!-- NEURONWRITER SCORE: N query=<id> le AAAA-MM-JJ --> (toujours le dernier score
+API réel, jamais inventé). Sans NeuronWriter joignable,
 NE PUBLIE PAS (signale le blocage). Le QA refuse tout article < 85 ou sans marqueur.
 
 Chaque article DOIT surpasser l'équivalent AIVF via les 3 armes du standard :
