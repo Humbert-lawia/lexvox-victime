@@ -155,3 +155,7 @@ Image `img/articles/indemnisation-erreur-chirurgicale.jpg` (id 29) = copie de
 `faute-chirurgicale-indemnisation-aix-en-provence.jpg` (pas de visuel dédié
 au moment de la rédaction) — à remplacer par un visuel spécifique dès que
 possible.
+
+Image `img/articles/obtenir-dossier-medical.jpg` (id 30) = copie de
+`erreur-medicale-que-faire.jpg` (pas de visuel dédié au moment de la
+rédaction) — à remplacer par un visuel spécifique dès que possible.
