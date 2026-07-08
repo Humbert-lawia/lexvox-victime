@@ -171,3 +171,7 @@ visuel dédié disponible) — à remplacer dès que possible.
 Image `img/articles/indemnisation-perte-oeil.jpg` (id 33) = copie de
 `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
 disponible) — à remplacer dès que possible.
+
+Image `img/articles/indemnisation-amputation.jpg` (id 34) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer dès que possible.
