@@ -167,3 +167,7 @@ d'un autre article) — à remplacer par un visuel dédié dès que possible.
 Image `img/articles/indemnisation-fracture-cheville-poignet-vertebre.jpg`
 (id 32) = copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun
 visuel dédié disponible) — à remplacer dès que possible.
+
+Image `img/articles/indemnisation-perte-oeil.jpg` (id 33) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer dès que possible.
