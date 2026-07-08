@@ -1,3 +1,3043 @@
 {
- "status": "in progress"
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quel est le montant d'une indemnisation pour coup du lapin ?"
+   },
+   {
+    "q": "Quel montant pouvez-vous réclamer pour un coup du lapin  ?"
+   },
+   {
+    "q": "Quel est le taux d'indemnisation Aipp pour un coup du lapin ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quel est le montant moyen d'indemnisation pour un coup du lapin ?": {
+    "importance": 10
+   },
+   "Quels sont les préjudices indemnisables pour un coup du lapin ?": {
+    "importance": 10
+   },
+   "Comment est calculé le taux d'AIPP (Atteinte à l'Intégrité Physique et Psychique) pour un coup du lapin ?": {
+    "importance": 9
+   },
+   "Qu'est-ce qu'un coup du lapin et est-il toujours indemnisable ?": {
+    "importance": 8
+   },
+   "Quelles sont les étapes de la procédure d'indemnisation après un coup du lapin ?": {
+    "importance": 8
+   },
+   "Faut-il un avocat pour obtenir une indemnisation suite à un coup du lapin ?": {
+    "importance": 7
+   },
+   "Que faire si l'offre d'indemnisation de l'assureur est jugée insuffisante ?": {
+    "importance": 7
+   },
+   "Peut-on être indemnisé si les symptômes du coup du lapin apparaissent tardivement ou si l'imagerie est normale ?": {
+    "importance": 6
+   },
+   "Quels sont les délais pour recevoir une offre d'indemnisation après un coup du lapin ?": {
+    "importance": 6
+   },
+   "Comment prouver un coup du lapin après un accident ?": {
+    "importance": 5
+   }
+  },
+  "content_questions": [
+   {
+    "q": "- À quel montant d'indemnisation puis-je prétendre  pour un accident de la route du type «coup du lapin» ?"
+   },
+   {
+    "q": "Accident grave avec décès ou incapacité à Saint Maximin : pourquoi contacter un avocat immédiatement ?"
+   },
+   {
+    "q": "Aggravation après coup du lapin : est-ce possible ?"
+   },
+   {
+    "q": "Avocat indemnisation accident de la route La Ciotat 13600 - Risque de prescription: combien de temps reste-t-il ?"
+   },
+   {
+    "q": "Besoin d'aide pour un coup du lapin ?"
+   },
+   {
+    "q": "Combien de temps ai-je pour agir après l'accident ?"
+   },
+   {
+    "q": "Combien de temps après l’accident l’assureur doit-il faire une offre d’indemnisation pour un coup du lapin ?"
+   },
+   {
+    "q": "Combien de temps dure la procédure d'indemnisation pour un coup du lapin ?"
+   },
+   {
+    "q": "Combien vais-je toucher pour un coup du lapin ?"
+   },
+   {
+    "q": "Comment calculer le montant d’indemnisation pour un coup du lapin ?"
+   },
+   {
+    "q": "Comment est évaluée l’AIPP après un coup du lapin ?"
+   },
+   {
+    "q": "Comment prouver les séquelles du coup du lapin ?"
+   },
+   {
+    "q": "Comment prouver un coup du lapin ou des douleurs dorsales après un accident ?"
+   },
+   {
+    "q": "Comment savoir si la proposition que l’assurance va me faire est correcte ou non ?"
+   },
+   {
+    "q": "Dois-je prendre un avocat spécialisé ou mon avocat habituel suffit-il ?"
+   },
+   {
+    "q": "Définition du traumatisme cervical ou, du coup du lapin ?"
+   },
+   {
+    "q": "Est-ce que j’ai droit à une indemnisation du travail et une autre avec l’assurance du conducteur ?"
+   },
+   {
+    "q": "Faut-il la payer dans le cas d'un accident non responsable ?"
+   },
+   {
+    "q": "Faut-il obligatoirement un avocat pour obtenir l'indemnisation d'un coup du lapin ?"
+   },
+   {
+    "q": "Faut-il un avocat pour obtenir une indemnisation suite à un traumatisme cervical et dorsal ?"
+   },
+   {
+    "q": "Il y a quelques jours, l’assurance du conducteur me contacte pour que je lui transmette un dossier complet de mes soins pour me faire une proposition d’indemnisation, ce qui m’amène à pousser mes recherches plus loin sur Google et je me rends compte que je peux percevoir une bonne indemnisation en faisan valoir mon taux d’IPP, mais je ne sais vraiment pas comment m’y prendre : dois-je prendre un avocat ?"
+   },
+   {
+    "q": "Indemnisation des préjudices corporels : quels droits pour les victimes ?"
+   },
+   {
+    "q": "L'assurance peut-elle invoquer mon état antérieur pour tout refuser ?"
+   },
+   {
+    "q": "L'assureur peut-il refuser d'indemniser un coup du lapin ?"
+   },
+   {
+    "q": "Le coup du lapin ?"
+   },
+   {
+    "q": "Le coup du lapin est-il indemnisable ?"
+   },
+   {
+    "q": "Le coup du lapin est-il reconnu juridiquement comme un préjudice indemnisable ?"
+   },
+   {
+    "q": "Le traumatisme cervical en pratique chez la victime ?"
+   },
+   {
+    "q": "L’assureur propose une somme, dois-je l’accepter ?"
+   },
+   {
+    "q": "L’indemnisation est-elle automatique ?"
+   },
+   {
+    "q": "Mais comment obtenir une indemnisation pour le préjudice subi ?"
+   },
+   {
+    "q": "Notre article Combien vais-je toucher après un accident ?"
+   },
+   {
+    "q": "Peut-on contester l’offre de l’assureur ?"
+   },
+   {
+    "q": "Peut-on obtenir une indemnisation pour un coup du lapin si l’on souffrait déjà d’arthrose cervicale avant l’accident ?"
+   },
+   {
+    "q": "Peut-on être indemnisé si le coup du lapin a été causé par un véhicule en fuite ?"
+   },
+   {
+    "q": "Pourquoi ne pas faire confiance à son assureur ?"
+   },
+   {
+    "q": "Pourquoi s’entourer d’avocats en droit médical et accident de la route ?"
+   },
+   {
+    "q": "Puis-je contester le rapport de l'expert de l'assurance ?"
+   },
+   {
+    "q": "Puis-je contester une offre d’indemnisation ?"
+   },
+   {
+    "q": "Qu'est-ce qu'un accident de la vie ?"
+   },
+   {
+    "q": "Qu'est-ce qu'un traumatisme cervical ?"
+   },
+   {
+    "q": "Que faire en cas d’accident auto ?"
+   },
+   {
+    "q": "Que faire si l’offre de l’assureur est insuffisante après un coup du lapin ?"
+   },
+   {
+    "q": "Que vos douleurs cervicales passeraient avec quelques séances de kinésithérapie ?"
+   },
+   {
+    "q": "Quel délai pour percevoir une indemnisation après un accident de voiture ?"
+   },
+   {
+    "q": "Quel est le montant moyen d'indemnisation pour un coup du lapin ?"
+   },
+   {
+    "q": "Quel est le montant moyen d’une indemnisation pour coup du lapin ?"
+   },
+   {
+    "q": "Quel est le rôle de l’avocat lors de l’expertise médicale pour un traumatisme cervical ?"
+   },
+   {
+    "q": "Quel montant d’indemnisation pour un coup du lapin ?"
+   },
+   {
+    "q": "Quel pourrait être le montant d’indemnisation pour un coup du lapin ?"
+   },
+   {
+    "q": "Quelle indemnisation pour une entorse cervicale ?"
+   },
+   {
+    "q": "Quelles démarches entreprendre après un coup du lapin ?"
+   },
+   {
+    "q": "Quelles sont les démarches réalisées par notre cabinet d'avocat pour permettre à la victime d'accident de la route en voiture à Marseille d'être indemnisée de son dommage corporel?"
+   },
+   {
+    "q": "Quelles sont les démarches à effectuer pour prétendre à une indemnisation ?"
+   },
+   {
+    "q": "Quels documents fournir pour obtenir une indemnisation ?"
+   },
+   {
+    "q": "Quels postes de préjudice peuvent être indemnisés ?"
+   },
+   {
+    "q": "Quels sont les délais pour être indemnisé ?"
+   },
+   {
+    "q": "Quels sont les postes indemnisables après un coup du lapin ?"
+   },
+   {
+    "q": "Quels sont les postes indemnisés pour un coup du lapin ?"
+   },
+   {
+    "q": "Quels symptômes peuvent apparaître après l'accident ?"
+   },
+   {
+    "q": "Question 1 Comment connaître le montant d’indemnisation après un coup du lapin?"
+   },
+   {
+    "q": "Qui doit les payer et quelles sont les conditions pour être indemnisé ?"
+   },
+   {
+    "q": "Qui indemnise la victime ?"
+   },
+   {
+    "q": "Qu’est-ce que le coup du lapin ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un coup du lapin (entorse cervicale) ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un coup du lapin ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un coup du lapin exactement ?"
+   },
+   {
+    "q": "Un coup du lapin sans dégâts visibles sur le véhicule peut-il être indemnisé ?"
+   },
+   {
+    "q": "Une expertise médicale est-elle obligatoire ?"
+   },
+   {
+    "q": "Urgence : comment réagir efficacement à un refus d’indemnisation rapide de la part de votre assurance à Toulon ?"
+   },
+   {
+    "q": "Vous avez reçu une proposition d’indemnités suite à un accident de la route avec dommage corporel ?"
+   },
+   {
+    "q": "Vous avez été blessé dans un accident de la route ?"
+   },
+   {
+    "q": "Vous avez été percuté à l’arrière de votre véhicule pendant un accident de la circulation ?"
+   },
+   {
+    "q": "Vous avez été victime d’un grave accident de la circulation ?"
+   },
+   {
+    "q": "Vous estimez que le montant de l’indemnisation de votre accident de la route n’est pas suffisant ?"
+   },
+   {
+    "q": "Vous recherchez une assurance auto pouvant vous couvrir en toutes circonstances ?"
+   },
+   {
+    "q": "Y a-t-il une procédure d’indemnisation des victimes d’accidents de la route ?"
+   },
+   {
+    "q": "Zoom sur le coup du lapin : quelle indemnisation prévoir ?"
+   },
+   {
+    "q": "sur les \"préjudices des victimes\" ?"
+   },
+   {
+    "q": "trong&gt;- Comment obtenir une indemnisation pour une entorse cervicale ou coup du lapin après un accident de voiture à Marseille, Aix, Toulon, Grasse ou Nice ?"
+   },
+   {
+    "q": "À lire : Hernie discale post-accident : état antérieur ou préjudice indemnisable ?"
+   },
+   {
+    "q": "À quel moment intervient l’indemnisation ?"
+   },
+   {
+    "q": "❓ « L’assureur me propose 1 000 € pour un coup du lapin, est-ce normal ?"
+   },
+   {
+    "q": "❓ « L’imagerie est normale, puis-je quand même être indemnisé ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/indemnisation-accident-de-la-route/indemnisations-accident-coup-du-lapin",
+   "title": "Coup du lapin Indemnisation - Association Victimes de France AIVF",
+   "desc": "Obtenez une indemnisation juste pour un coup du lapin. L'Association Aide Victimes France vous guide face aux assurances.",
+   "headers": [
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h1",
+     "Montant d’indemnisation du coup du lapin"
+    ],
+    [
+     "h2",
+     "🔎 À retenir – L’essentiel"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un coup du lapin (entorse cervicale) ?"
+    ],
+    [
+     "h2",
+     "Le coup du lapin est-il indemnisable ?"
+    ],
+    [
+     "h2",
+     "À quel moment intervient l’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Quels sont les postes indemnisés pour un coup du lapin ?"
+    ],
+    [
+     "h2",
+     "Montant d’indemnisation : ordres de grandeur"
+    ],
+    [
+     "h2",
+     "Expertise médicale : point clé du dossier"
+    ],
+    [
+     "h2",
+     "Pourquoi un taux d’AIPP est essentiel"
+    ],
+    [
+     "h2",
+     "Aggravation après coup du lapin : est-ce possible ?"
+    ],
+    [
+     "h2",
+     "Conseils essentiels aux victimes"
+    ],
+    [
+     "h2",
+     "Questions de victimes – Coup du lapin"
+    ],
+    [
+     "h2",
+     "🎯 Conclusion – Montant d’indemnisation du coup du lapin"
+    ]
+   ],
+   "content_score": 68,
+   "readability": 22,
+   "word_count": 1452,
+   "content_len": 8885
+  },
+  {
+   "rank": 2,
+   "url": "https://www.avocatjullien.fr/details-l+indemnisation+du+coup+du+lapin+resultant+d+un+accident+corporel+de+la+route+en+voiture+par+la+cour+d+appel+d+aix+en+provence-102",
+   "title": "L’indemnisation du coup du lapin résultant d’un accident corporel de la route en voiture par la Cour d’Appel d’Aix en Provence - Maître Laurent JULLIEN",
+   "desc": "La victime de coup du lapin en voiture résultant d’un accident de la route à Aix en Provence a droit à l’indemnisation de son dommage corporel.▶ 14.590 euros alloué à une victime de coups du lapin en voiture \r\nPar procès-verbal de transaction en date du 1er novembre 2022, notre cabinet d’avocat a ...",
+   "headers": [
+    [
+     "h1",
+     "L’indemnisation du coup du lapin résultant d’un accident corporel de la route en voiture par la Cour d’Appel d’Aix en Provence"
+    ],
+    [
+     "h2",
+     "Les frais d'adaptation de la voiture au handicap de victime d’accident corporel de la route à Marseille"
+    ],
+    [
+     "h2",
+     "Quelles sont les démarches réalisées par notre cabinet d'avocat pour permettre à la victime d'accident de la route en voiture à Marseille d'être indemnisée de son dommage corporel?"
+    ],
+    [
+     "h2",
+     "La prise en compte des séquelles psychologiques dans l’indemnisation du traumatisme cervical suite à un accident de la route en voiture à Marseille"
+    ]
+   ],
+   "content_score": 66,
+   "readability": 15,
+   "word_count": 1366,
+   "content_len": 8405
+  },
+  {
+   "rank": 3,
+   "url": "https://www.groupama.fr/assurance-auto/conseils/accident/indemnisation/mal-de-dos/",
+   "title": "Coup du lapin : indemnisation après un accident - Groupama",
+   "desc": "En cas de coup du lapin, découvrez les montants d'indemnisation de l'assurance et les procédures à suivre après l’accident.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation du coup du lapin et du mal de dos après un accident"
+    ],
+    [
+     "h2",
+     "Accident de voiture : des lésions cervicales et dorsales fréquentes"
+    ],
+    [
+     "h2",
+     "Quels symptômes peuvent apparaître après l'accident ?"
+    ],
+    [
+     "h2",
+     "Indemnisation des préjudices corporels : quels droits pour les victimes ?"
+    ],
+    [
+     "h2",
+     "Les démarches à suivre après l'accident"
+    ],
+    [
+     "h2",
+     "Zoom sur le coup du lapin : quelle indemnisation prévoir ?"
+    ],
+    [
+     "h2",
+     "FAQ - Vos questions sur l’indemnisation après un coup du lapin"
+    ],
+    [
+     "h2",
+     "Découvrez notre offre d’assurance auto"
+    ],
+    [
+     "h2",
+     "Découvrez nos infos et conseils auto"
+    ]
+   ],
+   "content_score": 78,
+   "readability": 33,
+   "word_count": 1944,
+   "content_len": 12176
+  },
+  {
+   "rank": 4,
+   "url": "https://www.oliviercohenavocat.fr/details-avocat+pour+indemnisation+des+victimes+du+coup+du+lapin+entorse+cervicale+a+marseille+aix+en+provence+draguignan+grasse+nice-477",
+   "title": "Avocat pour indemnisation des victimes du « coup du lapin », entorse cervicale à Marseille, Aix en Provence, Draguignan, Grasse, Nice - Olivier Cohen Avocat",
+   "desc": "Le « coup du lapin » est un traumatisme cervical fréquent lors d’accidents de la route, y compris les collisions légères. Malgré leur apparente banalité, ces lésions peuvent ouvrir droit à une certaine indemnisation. Pour optimiser vos droits, contactez Me COHEN à Marseille, Aix, Toulon, Draguignan, Grasse ou Nice.",
+   "headers": [
+    [
+     "h1",
+     "Avocat pour indemnisation des victimes du « coup du lapin », entorse cervicale à Marseille, Aix en Provence, Draguignan, Grasse, Nice"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 25,
+   "word_count": 1085,
+   "content_len": 7122
+  },
+  {
+   "rank": 5,
+   "url": "https://victime-accident.lexvox-avocat.fr/2023/06/07/indemnisation-coup-du-lapin-2/",
+   "title": "Indemnisation coup du lapin : guide complet pour la victime d'un traumatisme cervical - Victime Accident",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation coup du lapin : guide complet pour la victime d’un traumatisme cervical"
+    ],
+    [
+     "h2",
+     "Les postes de préjudice indemnisables après un coup du lapin"
+    ],
+    [
+     "h2",
+     "Points de procédure essentiels"
+    ],
+    [
+     "h2",
+     "Jurisprudence récente sur l’indemnisation du traumatisme cervical"
+    ],
+    [
+     "h2",
+     "Données chiffrées sur les traumatismes cervicaux post-accidentels"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur l’indemnisation d’un coup du lapin"
+    ]
+   ],
+   "content_score": 78,
+   "readability": 20,
+   "word_count": 3774,
+   "content_len": 24848
+  },
+  {
+   "rank": 6,
+   "url": "https://association-aivf-faq.fr/prejudices-corporels-faq/calcul-prejudice-corporel-et-indemnisation/montant-indemnisation-coup-du-lapin",
+   "title": "Montant indemnisation coup du lapin - Association Victimes de France AIVF",
+   "desc": "Montant d'indemnisation du coup du lapin suite à un accident de la route, loi Badinter, consolidation, questions de victimes",
+   "headers": [
+    [
+     "h1",
+     "Montant indemnisation coup du lapin"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Montant indemnisation coup du lapin"
+    ],
+    [
+     "h2",
+     "Questions concernant le montant d’indemnisation du coup du lapin"
+    ]
+   ],
+   "content_score": 69,
+   "readability": 42,
+   "word_count": 1780,
+   "content_len": 11108
+  },
+  {
+   "rank": 7,
+   "url": "https://www.benezra-victimesdelaroute.fr/indemniser-le-traumatisme-cervical-apres-un-accident-de-la-route/",
+   "title": "Indemniser le traumatisme cervical après un accident de la route -",
+   "desc": "AVOCATS DOMMAGES CORPORELS ☎ 0145240040 - traumatisme cervical - Indemnisation préjudices - Contact sans engagement",
+   "headers": [
+    [
+     "h1",
+     "INDEMNISER LE TRAUMATISME CERVICAL DE LA VICTIME DE LA ROUTE"
+    ],
+    [
+     "h2",
+     "Rachis cervical | Avocat traumatisme cervical | Avocat coup du lapin"
+    ]
+   ],
+   "content_score": 30,
+   "readability": 22,
+   "word_count": 1139,
+   "content_len": 7288
+  },
+  {
+   "rank": 8,
+   "url": "https://jmp-avocat-indemnisation.fr/blog-dommages-corporels/coup-du-lapin-assurance-minimise-douleurs",
+   "title": "Coup du lapin : quand l'assurance minimise vos douleurs",
+   "desc": "IRM normale, « état antérieur », offre dérisoire… L'assurance a un arsenal pour nier votre coup du lapin. Découvrez comment riposter et obtenir une juste indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Coup du lapin lors d'un accident : pourquoi l'assurance minimise vos douleurs (et comment riposter)"
+    ],
+    [
+     "h2",
+     "Le piège de la « lésion invisible » : pourquoi l'expert vous sous-estime"
+    ],
+    [
+     "h2",
+     "La bataille de l'imputabilité : établir le lien entre l'accident et vos douleurs"
+    ],
+    [
+     "h2",
+     "Les enjeux financiers : un « simple » coup du lapin peut coûter cher"
+    ],
+    [
+     "h2",
+     "Comment constituer un dossier « indéboulonnable » ?"
+    ],
+    [
+     "h2",
+     "FAQ — Vos questions sur le coup du lapin et l'indemnisation"
+    ],
+    [
+     "h2",
+     "Bibliographie et sources"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 25,
+   "word_count": 2247,
+   "content_len": 14667
+  },
+  {
+   "rank": 9,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/differents-postes-prejudice-corporel/prejudice-corporel-victime-directe/aipp-htm/aipp-coup-du-lapin-indemnisation-accident-de-la-route",
+   "title": "Aipp coup du lapin indemnisation accident de la route - Association Victimes de France AIVF",
+   "desc": "Obtenez une indemnisation optimale pour le coup du lapin après un accident de la route avec l'aide de l'Association Aide Victimes France.",
+   "headers": [
+    [
+     "h1",
+     "Aipp coup du lapin indemnisation accident de la route"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — AIPP, coup du lapin et indemnisation après un accident de la route"
+    ],
+    [
+     "h2",
+     "Aipp coup du lapin"
+    ]
+   ],
+   "content_score": 73,
+   "readability": 55,
+   "word_count": 1500,
+   "content_len": 8669
+  },
+  {
+   "rank": 10,
+   "url": "https://victime-info.fr/indemnisation/accident-de-la-circulation/indemnisations-accident-coup-du-lapin",
+   "title": "Indemnisation coup du lapin après accident de la route | victime-info.fr",
+   "desc": "Coup du lapin après un accident : montants d'indemnisation, démarches, expertise médicale et recours. Guide complet pour obtenir une juste réparation.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d’un coup du lapin suite à un accident de la route"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un coup du lapin exactement ?"
+    ],
+    [
+     "h2",
+     "Le cadre juridique de l’indemnisation d’un coup du lapin"
+    ],
+    [
+     "h2",
+     "Les postes de préjudice indemnisables pour un coup du lapin"
+    ],
+    [
+     "h2",
+     "Montant d’indemnisation suite à un coup du lapin : exemples concrets"
+    ],
+    [
+     "h2",
+     "Simulateur d’indemnisation pour un coup du lapin"
+    ],
+    [
+     "h2",
+     "Les étapes de l’indemnisation d’un coup du lapin"
+    ],
+    [
+     "h2",
+     "Contester l’indemnisation d’un coup du lapin"
+    ],
+    [
+     "h2",
+     "Les pièges à éviter en cas de coup du lapin"
+    ],
+    [
+     "h2",
+     "Questions spécifiques sur le coup du lapin"
+    ],
+    [
+     "h2",
+     "Les délais de prescription à connaître"
+    ],
+    [
+     "h2",
+     "FAQ — Indemnisation du coup du lapin"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 84,
+   "readability": 33,
+   "word_count": 4079,
+   "content_len": 26053
+  },
+  {
+   "rank": 11,
+   "url": "https://www.touboulavocats.fr/details-avocat+en+indemnisation+du+coup+du+lapin+obtenir+reparation+apres+une+entorse+cervicale+due+a+un+accident+de+la+route-64",
+   "title": "Avocat en indemnisation du coup du lapin : obtenir réparation après une entorse cervicale due à un accident de la route - Cabinet Touboul",
+   "desc": "Le coup du lapin ou entorse cervicale est l’une des lésions les plus fréquentes après un accident de la route. Les victimes peuvent obtenir une indemnisation complète : douleurs, arrêts de travail, séquelles et pertes de revenus.",
+   "headers": [
+    [
+     "h1",
+     "Avocat en indemnisation du coup du lapin : obtenir réparation après une entorse cervicale due à un accident de la route"
+    ],
+    [
+     "h2",
+     "Avocats - Victime conducteur - Constat et PV de police"
+    ],
+    [
+     "h2",
+     "Comment se déroule la procédure amiable d’indemnisation à la suite d’un accident de la circulation ?"
+    ],
+    [
+     "h2",
+     "Avocat en indemnisation des victimes d’accidents de la route : obtenir une réparation complète après un accident non responsable"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 33,
+   "word_count": 824,
+   "content_len": 5373
+  },
+  {
+   "rank": 12,
+   "url": "https://www.tcn-avocats.com/indemnisation-coup-lapin/",
+   "title": "Indemnisation du coup du lapin – TCN Avocats",
+   "desc": "Le cabinet TCN Avocats se tient à vos côtés pour trouver la solution adaptée à vos besoins après un traumatisme du rachis cervical.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation du coup du lapin"
+    ],
+    [
+     "h2",
+     "Le coup du lapin, ou traumatisme cervical"
+    ],
+    [
+     "h2",
+     "Quelle procédure pour obtenir une indemnisation coup du lapin ?"
+    ],
+    [
+     "h2",
+     "Un cabinet d’avocats expert pour votre indemnisation coup du lapin"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 35,
+   "word_count": 1288,
+   "content_len": 7967
+  },
+  {
+   "rank": 13,
+   "url": "https://aide-victimes.fr/accident-route/montant-indemnisation-coup-du-lapin/",
+   "title": "Montant indemnisation coup du lapin – AFAV",
+   "desc": "Montant d'indemnisation du coup du lapin suite à un accident de voiture, expertise médicale et taux d'AIPP ou DFP, loi Badinter",
+   "headers": [
+    [
+     "h1",
+     "Montant d’indemnisation du coup du lapin"
+    ],
+    [
+     "h2",
+     "Coup du lapin et expertise médicale"
+    ],
+    [
+     "h2",
+     "Montant d’indemnisation du coup du lapin, taux d’AIPP et préjudices corporels"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 50,
+   "word_count": 677,
+   "content_len": 4212
+  },
+  {
+   "rank": 14,
+   "url": "https://www.duteilavocats.com/details-quelles+sont+les+indemnisations+possibles+apres+un+coup+du+lapin-270",
+   "title": "Quelles sont les indemnisations possibles après un coup du lapin ? - Cabinet Duteil",
+   "desc": "Les accidents de voiture impliquent souvent des traumatismes du rachis cervical plus ou moins dangereux. L’un d’eux s’appelle le coup du lapin : il s’agit d’un traumatisme causé par un choc subi généralement à l’arrière du véhicule, projetant le tronc des occupants vers l’avant tandis que la tête ...",
+   "headers": [
+    [
+     "h1",
+     "Quelles sont les indemnisations possibles après un coup du lapin ?"
+    ],
+    [
+     "h2",
+     "L'indemnisation après un coup du lapin"
+    ],
+    [
+     "h2",
+     "Maître Duteil vous aide à obtenir une indemnisation suite à un coup du lapin en voiture"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 34,
+   "word_count": 653,
+   "content_len": 4065
+  },
+  {
+   "rank": 15,
+   "url": "https://www.indemnisationprejudice.fr/sequelles-et-indemnites-blessures-accident/indemnisation-coup-du-lapin/",
+   "title": "Indemnisation : Indemnisation coup du lapin : montant, calcul et démarches après un accident - Indemnisation Préjudice Corporel",
+   "desc": "Indemnisation coup du lapin : montant, calcul et démarches après un accident - Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation coup du lapin : montant, calcul et démarches après un accident"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un coup du lapin sur le plan médical"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Qui indemnise un coup du lapin après un accident"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Montant de l’indemnisation coup du lapin : ce que l’on peut dire de façon fiable"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Calcul de l’indemnisation coup du lapin : la méthode réellement utilisée"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Preuve médicale et dossier : la règle déterminante"
+    ],
+    [
+     "h2",
+     "Expertise médicale et risque de sous-évaluation du coup du lapin"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Délais d’offre d’indemnisation et provision"
+    ],
+    [
+     "h2",
+     "Erreurs fréquentes qui réduisent l’indemnisation d’un coup du lapin"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "FAQ Indemnisation Coup du lapin"
+    ]
+   ],
+   "content_score": 70,
+   "readability": 29,
+   "word_count": 1329,
+   "content_len": 8894
+  },
+  {
+   "rank": 16,
+   "url": "https://www.expertises-medicales.net/indemnisation-apres-un-coup-du-lapin/",
+   "title": "Expertise médicale et indemnisation après un \"coup du lapin\"",
+   "desc": "Expertise médicale et indemnisation après un \"coup du lapin\" ou entorse cervicale : le \"coup du lapin\" s’accompagne de douleurs appelées...",
+   "headers": [
+    [
+     "h1",
+     "Expertise médicale et indemnisation après un \"coup du lapin\" ou entorse cervicale"
+    ],
+    [
+     "h2",
+     "Quels sont les séquelles d'un \"coup du lapin\" ?"
+    ],
+    [
+     "h2",
+     "Pour une victime, quelles sont les conditions d’indemnisation après un \"coup du lapin\" ?"
+    ],
+    [
+     "h2",
+     "Quels sont les préjudices indemnisables pour un \"coup du lapin\" ?"
+    ],
+    [
+     "h2",
+     "Barème et montant d’indemnisation pour une entorse cervicale"
+    ],
+    [
+     "h2",
+     "Objectif et déroulement d’une expertise médicale et indemnisation après un \"coup du lapin\" avec le Dr Dubois"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 28,
+   "word_count": 985,
+   "content_len": 5868
+  },
+  {
+   "rank": 17,
+   "url": "https://www.youtube.com/watch?v=IoyZOcMUBFk",
+   "title": "Le COUP du LAPIN - YouTube",
+   "desc": "Vous êtes victime d'un accident corporel ? Vous avez eu un coup du lapin ? Dans cette vidéo, nous vous expliquons ce qu'est un coup du lapin. Comment cela ar...",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Le COUP du LAPIN"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h1",
+     "Le COUP du LAPIN"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      11"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Chapitres"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 28,
+   "readability": 64,
+   "word_count": 329,
+   "content_len": 2091
+  },
+  {
+   "rank": 18,
+   "url": "https://www.avocatjullien.fr/details-montants+des+dommages+et+interets+en+reparation+du+coup+du+lapin+cervical+subi+par+un+passager+de+voiture+lors+d+un+accident+de+la+route+par+le+tribunal+judiciaire+de+toulon-262",
+   "title": "Montants des dommages et intérêts en réparation du coup du lapin cervical subi par un passager de voiture lors d’un accident de la route par le tribunal judiciaire de Toulon - Maître Laurent JULLIEN",
+   "desc": "Le passager victime d’un accident de la route en voiture, ayant subi un coup du lapin ou une entorse cervicale, à Toulon, a droit à la réparation de son dommage corporel, sous forme de dommages intérêts.Par jugement du 6 décembre 2023, le tribunal judiciaire de Toulon a fixé le montant des dommage...",
+   "headers": [
+    [
+     "h1",
+     "Montants des dommages et intérêts en réparation du coup du lapin cervical subi par un passager de voiture lors d’un accident de la route par le tribunal judiciaire de Toulon"
+    ],
+    [
+     "h2",
+     "Les frais d’adaptation du logement au handicap corporel de la victime d'accident de la route à Marseille"
+    ],
+    [
+     "h2",
+     "Les frais d'adaptation de la voiture au handicap de victime d’accident corporel de la route à Marseille"
+    ],
+    [
+     "h2",
+     "Quelles sont les démarches réalisées par notre cabinet d'avocat pour permettre à la victime d'accident de la route en voiture à Marseille d'être indemnisée de son dommage corporel?"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 19,
+   "word_count": 1098,
+   "content_len": 6705
+  },
+  {
+   "rank": 19,
+   "url": "https://association-aivf-faq.fr/prejudices-corporels-faq/prejudice-corporel-victime-directe/indemnisation-coup-du-lapin",
+   "title": "Indemnisation coup du lapin - Association Victimes de France AIVF",
+   "desc": "Questions de victimes concernant l'indemnisation du coup du lapin suite à un accident de la route dans le cadre de la loi Badinter",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation du coup du lapin"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation du coup du lapin"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 46,
+   "word_count": 1132,
+   "content_len": 7139
+  },
+  {
+   "rank": 20,
+   "url": "https://www.dianedorsobiancheri.fr/details-itt+suite+a+un+coup+du+lapin+quelle+indemnisation+votre+avocat+proche+d+aix-en-provence+vous+explique-201.html",
+   "title": "ITT suite à un coup du lapin, quelle indemnisation ? Votre avocat proche d’Aix-en-Provence vous explique - Diane D'Orso Biancheri Avocat - Diane D'Orso Biancheri Avocat",
+   "desc": "Notre cabinet d’avocat dirigé par Maître Diane D’Orso Biancheri, proche d’Aix-en-Provence, vous éclaire sur la notion d’ITT (Incapacité Totale de Travail) et sur son indemnisation en cas de coup du lapin.\r\nLors d’un accident de la route le coup du lapin, désigne un traumatisme cervical dû à un mou...",
+   "headers": [
+    [
+     "h1",
+     "ITT suite à un coup du lapin, quelle indemnisation ? Votre avocat proche d’Aix-en-Provence vous explique"
+    ],
+    [
+     "h2",
+     "Accident de la route dont le conducteur est responsable : quelle indemnisation pour le passager ? Votre avocat proche d’Aix-en-Provence vous explique"
+    ],
+    [
+     "h2",
+     "Accident de voiture : quelle indemnisation pour des soins médicaux à long terme ? Votre avocat proche d’Aix-en-Provence vous explique"
+    ],
+    [
+     "h2",
+     "Avocat pour négocier une offre d’indemnisation après un accident de la route à Aix-en-Provence"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 41,
+   "word_count": 720,
+   "content_len": 4690
+  },
+  {
+   "rank": 21,
+   "url": "https://www.youtube.com/watch?v=klvtbOHM_JE",
+   "title": "🚗 Coup du lapin : l'erreur qui peut vous faire perdre votre indemnisation ! - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "🚗 Coup du lapin : l'erreur qui peut vous faire perdre votre indemnisation !"
+    ],
+    [
+     "h2",
+     "Replay du chat en direct"
+    ],
+    [
+     "h1",
+     "🚗 Coup du lapin : l'erreur qui peut vous faire perdre votre indemnisation !"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 37,
+   "readability": 43,
+   "word_count": 208,
+   "content_len": 1474
+  },
+  {
+   "rank": 22,
+   "url": "https://www.avocat-lexvox.com/montant-d-indemnisation-suite-a-un-coup-du-lapin_ad1442.html",
+   "title": "Montant d indemnisation suite à un coup du lapin",
+   "desc": " Les accidents de la route sont malheureusement fréquents et peuvent entraîner divers types de dommages. Le type de blessures courantes résultant d'un accident de voiture est le coup du lapin,",
+   "headers": [
+    [
+     "h1",
+     "Montant d indemnisation suite à un coup du lapin"
+    ],
+    [
+     "h2",
+     "Ce qui faut savoir sur le montant d'un dossier indemnisation suite à un coup du lapin lors d'un accident de la route avec préjudice corporel et moral"
+    ],
+    [
+     "h2",
+     "Définition du coup du lapin"
+    ],
+    [
+     "h2",
+     "Cabinet d'avocats pour accident corporel et indemnisation des préjudices"
+    ],
+    [
+     "h2",
+     "Votre guide gratuit !"
+    ]
+   ],
+   "content_score": 65,
+   "readability": 23,
+   "word_count": 1787,
+   "content_len": 11393
+  },
+  {
+   "rank": 23,
+   "url": "https://www.monindemnite.com/indemnisation-coup-du-lapin/",
+   "title": "Indemnisation coup du lapin : comprenez comment l'exiger",
+   "desc": "Indemnisation coup du lapin : comment s'y prendre pour l'obtenir ? Retrouvez ici toutes les explications sur le droit à une indemnité.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation coup du lapin : comprenez comment l’exiger"
+    ],
+    [
+     "h2",
+     "Qu’est ce que le coup du lapin ?"
+    ],
+    [
+     "h2",
+     "L’indemnisation après un coup du lapin"
+    ],
+    [
+     "h2",
+     "Montant indemnisation coup du lapin ?"
+    ],
+    [
+     "h2",
+     "Pour résumer"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 50,
+   "word_count": 1226,
+   "content_len": 7655
+  },
+  {
+   "rank": 24,
+   "url": "https://victime-accident.lexvox-avocat.fr/2023/06/07/indemnisation-coup-du-lapin/",
+   "title": "Indemnisation coup du lapin : traumatisme cervical et réparation du préjudice - Victime Accident",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation coup du lapin : traumatisme cervical et réparation du préjudice"
+    ],
+    [
+     "h2",
+     "Les postes de préjudice indemnisables (Nomenclature Dintilhac)"
+    ],
+    [
+     "h2",
+     "Points de procédure essentiels"
+    ],
+    [
+     "h2",
+     "Jurisprudence récente"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur l’indemnisation du coup du lapin"
+    ]
+   ],
+   "content_score": 76,
+   "readability": 21,
+   "word_count": 3763,
+   "content_len": 24448
+  },
+  {
+   "rank": 25,
+   "url": "https://www.burzio-consolin-avocats.fr/indemnisation-coup-lapin/",
+   "title": "Montant de l'indemnisation en cas de coup du lapin : éléments à considérer - B - C - A",
+   "desc": "Le coup du lapin, souvent sous-estimé, engendre des conséquences qui peuvent profondément affecter la vie d'une victime. Ce traumatisme cervical, conséquence d'un choc brutal, nécessite une attention particulière, notamment en ce qui concerne le montant de l'indemnisation. Divers éléments doivent être scrutés pour évaluer avec précision les dommages subis, allant…",
+   "headers": [
+    [
+     "h1",
+     "Montant de l’indemnisation en cas de coup du lapin : éléments à considérer"
+    ],
+    [
+     "h2",
+     "Définition du coup du lapin"
+    ],
+    [
+     "h2",
+     "Critères d’évaluation de l’indemnisation"
+    ],
+    [
+     "h2",
+     "Le processus d’expertise médicale"
+    ],
+    [
+     "h2",
+     "Les démarches pour obtenir l’indemnisation"
+    ],
+    [
+     "h2",
+     "Conclusion sur le montant d’indemnisation du coup du lapin"
+    ],
+    [
+     "h2",
+     "FAQ : Montant de l’indemnisation en cas de coup du lapin"
+    ],
+    [
+     "h2",
+     "Publications similaires"
+    ],
+    [
+     "h2",
+     "Catégories"
+    ]
+   ],
+   "content_score": 60,
+   "readability": 33,
+   "word_count": 1416,
+   "content_len": 9672
+  },
+  {
+   "rank": 26,
+   "url": "https://mcg-avocat.fr/jai-eu-le-coup-du-lapin-lors-dun-accident-de-la-route-que-dois-je-faire/",
+   "title": "Coup du lapin lors d’un accident de la route | MCG Avocat",
+   "desc": "J’ai eu le « coup du lapin » lors d’un accident de la route, que dois-je faire ?",
+   "headers": [
+    [
+     "h1",
+     "J’ai eu le « coup du lapin » lors d’un accident de la route, que dois-je faire ?"
+    ],
+    [
+     "h1",
+     "0 commentaires"
+    ]
+   ],
+   "content_score": 36,
+   "readability": 21,
+   "word_count": 285,
+   "content_len": 1910
+  },
+  {
+   "rank": 27,
+   "url": "https://www.youtube.com/watch?v=KnZJCONpiEo",
+   "title": "Coup du lapin : que faire pour se soigner ? Le traitement - YouTube",
+   "desc": "📥 Commencez votre programme d'exercices pour soulager vos douleurs cervicales (PDF) : https://toutpourmasante.fr/produit/douleur-cervicale/00:00 - Introduct...",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Coup du lapin : que faire pour se soigner ? Le traitement"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h1",
+     "Coup du lapin : que faire pour se soigner ? Le traitement"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      62"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Chapitres"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 30,
+   "readability": 40,
+   "word_count": 446,
+   "content_len": 2651
+  },
+  {
+   "rank": 28,
+   "url": "https://www.hug.ch/atlas-sante/pathologie/traumatisme-cranio-cervical",
+   "title": "Traumatisme cranio-cervical (coup du lapin) - HUG",
+   "desc": "Une blessure appelée coup du lapin (traumatisme cranio-cervical) est plus couramment causée par des accidents de voiture, lorsque la force d’un coup provenant de derrière amène la tête à basculer d’arrière en avant très violemment.",
+   "headers": [
+    [
+     "h1",
+     "Traumatisme cranio-cervical (coup du lapin)"
+    ],
+    [
+     "h2",
+     "Anatomie de la colonne vertébrale"
+    ],
+    [
+     "h2",
+     "Coup du lapin : une blessure cervicale"
+    ],
+    [
+     "h2",
+     "Découvrez nos suggestions"
+    ],
+    [
+     "h2",
+     "Explorez les systèmes humains"
+    ],
+    [
+     "h2",
+     "PARTIES\nDU CORPS HUMAIN"
+    ],
+    [
+     "h2",
+     "SYSTÈME\nCIRCULATOIRE"
+    ],
+    [
+     "h2",
+     "SYSTÈME\nENDOCRINIEN"
+    ],
+    [
+     "h2",
+     "SYSTÈME\nNERVEUX"
+    ],
+    [
+     "h2",
+     "SYSTÈME\nOSSEUX"
+    ]
+   ],
+   "content_score": 28,
+   "readability": 37,
+   "word_count": 410,
+   "content_len": 2648
+  },
+  {
+   "rank": 29,
+   "url": "https://www.avocatjullien.fr/details-l+indemnisation+du+traumatisme+cervical+ou+coup+du+lapin+du+conducteur+de+voiture+victime+d+accident+de+la+route+a+brignoles-244",
+   "title": "L’indemnisation du traumatisme cervical ou coup du lapin du conducteur de voiture victime d’accident de la route à Brignoles - Maître Laurent JULLIEN",
+   "desc": "La victime d’un traumatisme cervical ou coup du lapin lors d’un accident de la route en tant que conducteur ou passager d’une voiture, a droit à la réparation intégrale de son dommage corporel, conformément à la loi du 5 juillet 1985.\r\nLa procédure engagée par l’avocat peut être amiable ou judicia...",
+   "headers": [
+    [
+     "h1",
+     "L’indemnisation du traumatisme cervical ou coup du lapin du conducteur de voiture victime d’accident de la route à Brignoles"
+    ],
+    [
+     "h2",
+     "La procédure d'indemnisation de la victime d'accident corporel de la  route sur le trajet du travail à Marseille Centre ville 13006"
+    ],
+    [
+     "h2",
+     "L'indemnisation du traumatisme cervical ou coup du lapin de victime d'accident de la route avec Avocat devant le tribunal judiciaire de Marseille"
+    ],
+    [
+     "h2",
+     "La réparation financière de l’incidence professionnelle en cas d’accident corporel de la route à Marseille en voiture."
+    ]
+   ],
+   "content_score": 60,
+   "readability": 24,
+   "word_count": 873,
+   "content_len": 5495
+  },
+  {
+   "rank": 30,
+   "url": "https://maitre-morin-avocat.fr/faq/questions-accident-de-la-route/expertise-med/accident-de-la-route-et-coup-du-lapin",
+   "title": "Accident de la route et coup du lapin",
+   "desc": "Découvrez comment Maître Oscar Morin vous aide à obtenir réparation après un accident de la route causant un coup du lapin. Expertise juridique assurée.",
+   "headers": [
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "❓ Accident de la route & « coup du lapin » (entorse cervicale) — les 3 questions les plus posées"
+    ],
+    [
+     "h1",
+     "Accident de la route et coup du lapin : réflexes, soins et indemnisation"
+    ],
+    [
+     "h2",
+     "1) Mécanisme du coup du lapin"
+    ],
+    [
+     "h2",
+     "2) Signes fréquents"
+    ],
+    [
+     "h2",
+     "3) Drapeaux rouges = urgence"
+    ],
+    [
+     "h2",
+     "4) Examens et diagnostic"
+    ],
+    [
+     "h2",
+     "5) Traitement initial"
+    ],
+    [
+     "h2",
+     "6) Prévenir la chronicité"
+    ],
+    [
+     "h2",
+     "7) Certificat médical initial (CMI) : indispensable"
+    ],
+    [
+     "h2",
+     "8) Indemnisation après accident de la route"
+    ],
+    [
+     "h2",
+     "9) Expertise médicale et négociation"
+    ],
+    [
+     "h2",
+     "10) Exemple pratique"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "Liste de questions sur la coup du lapin et son indemnisation"
+    ]
+   ],
+   "content_score": 60,
+   "readability": 33,
+   "word_count": 2734,
+   "content_len": 17752
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1640,
+   "target": 1640
+  },
+  "readability": {
+   "median": 25,
+   "target": 25
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "coup du lapin",
+    "usage_pc": 90
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 80
+   },
+   {
+    "t": "accident",
+    "usage_pc": 60
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 30
+   },
+   {
+    "t": "cervical",
+    "usage_pc": 30
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "indemnisation coup du lapin",
+    "usage_pc": 30
+   }
+  ],
+  "desc": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 90
+   },
+   {
+    "t": "coup du lapin",
+    "usage_pc": 80
+   },
+   {
+    "t": "accident",
+    "usage_pc": 60
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 40
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 40
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 30
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 30
+   },
+   {
+    "t": "montant d'indemnisation",
+    "usage_pc": 30
+   },
+   {
+    "t": "cervical",
+    "usage_pc": 20
+   },
+   {
+    "t": "traumatisme cervical",
+    "usage_pc": 20
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "coup du lapin",
+    "usage_pc": 90
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 80
+   },
+   {
+    "t": "accident",
+    "usage_pc": 50
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 40
+   },
+   {
+    "t": "cervical",
+    "usage_pc": 30
+   },
+   {
+    "t": "indemnisation du coup du lapin",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 20
+   },
+   {
+    "t": "traumatisme cervical",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation coup du lapin",
+    "usage_pc": 20
+   },
+   {
+    "t": "un coup du lapin",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 10
+   },
+   {
+    "t": "entorse cervicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "un traumatisme cervical",
+    "usage_pc": 10
+   },
+   {
+    "t": "coup du lapin indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation accident de la route",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "lapin suite à un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "coup du lapin suite",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "coup du lapin",
+    "usage_pc": 80
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 80
+   },
+   {
+    "t": "cervical",
+    "usage_pc": 50
+   },
+   {
+    "t": "accident",
+    "usage_pc": 40
+   },
+   {
+    "t": "un coup du lapin",
+    "usage_pc": 40
+   },
+   {
+    "t": "traumatisme cervical",
+    "usage_pc": 30
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 30
+   },
+   {
+    "t": "indemnisation du coup du lapin",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 20
+   },
+   {
+    "t": "lésion",
+    "usage_pc": 20
+   },
+   {
+    "t": "après un coup du lapin",
+    "usage_pc": 20
+   },
+   {
+    "t": "séquelle",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation coup du lapin",
+    "usage_pc": 10
+   },
+   {
+    "t": "entorse cervicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de voiture",
+    "usage_pc": 10
+   },
+   {
+    "t": "rachis cervical",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "cas de coup du lapin",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation après un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "cas de coup",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation pour un coup",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "coup du lapin",
+    "usage_pc": 100,
+    "sugg_usage": [
+     9,
+     20
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     13,
+     26
+    ]
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     7
+    ]
+   },
+   {
+    "t": "cervical",
+    "usage_pc": 100,
+    "sugg_usage": [
+     6,
+     18
+    ]
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     11
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 100,
+    "sugg_usage": [
+     10,
+     28
+    ]
+   },
+   {
+    "t": "un coup du lapin",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "traumatisme cervical",
+    "usage_pc": 100,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 100,
+    "sugg_usage": [
+     8,
+     16
+    ]
+   },
+   {
+    "t": "séquelle",
+    "usage_pc": 100,
+    "sugg_usage": [
+     4,
+     8
+    ]
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     4
+    ]
+   },
+   {
+    "t": "entorse cervicale",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 90,
+    "sugg_usage": [
+     5,
+     10
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 80,
+    "sugg_usage": [
+     3,
+     9
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     5
+    ]
+   },
+   {
+    "t": "un avocat",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     5
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     6
+    ]
+   },
+   {
+    "t": "accident de la circulation",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     8
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     5
+    ]
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     4
+    ]
+   },
+   {
+    "t": "souffrances endurées",
+    "usage_pc": 80,
+    "sugg_usage": [
+     2,
+     3
+    ]
+   },
+   {
+    "t": "accident de voiture",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lésion",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "déficit fonctionnel permanent",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un traumatisme cervical",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les séquelles",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les douleurs",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "arrêt de travail",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "un avocat spécialisé",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "date de consolidation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "rachis cervical",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un accident de la circulation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "loi badinter",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un accident de voiture",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "séances de kinésithérapie",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "indemnisation coup du lapin",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation du coup du lapin",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "coup du lapin indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation accident de la route",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après un coup du lapin",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à une indemnisation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant d'indemnisation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime de coup du lapin",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident corporel",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lapin suite à un accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation intégrale",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemnisation juste",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime du coup du lapin",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lors d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un coup du lapin",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant de l’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "j’ai eu un coup",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accidents de la route",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "qu’est-ce qu’un coup du lapin",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "coup du lapin résultant d’un",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation d’un coup du lapin",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les victimes d’un coup",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant d’indemnisation du coup",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lapin résultant d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accidents",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation à la hauteur",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas de coup du lapin",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "séquelles durables",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lapin après un accident",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation après un accident",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de trajet",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "recours à un avocat",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lapin est un traumatisme",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "coup du lapin sans séquelles",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat spécialisé en accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation minimale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "choc arrière en voiture",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas de coup",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "grave accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "coup du lapin après",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les séquelles après",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "entorse cervicale grave",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant dépend de la gravité",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "coup du lapin suite",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment obtenir une indemnisation",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "coup du lapin sans",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation pour un coup",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Coup du lapin",
+    "importance": 95.89199999999998,
+    "relevance": 0.95892,
+    "confidence": 5.174199999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Coup_du_lapin"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 71.29199999999999,
+    "relevance": 0.7129199999999999,
+    "confidence": 10.440199999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Traumatisme cervical",
+    "importance": 70.36,
+    "relevance": 0.7036,
+    "confidence": 4.3908000000000005,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Traumatisme_cervical"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 58.176,
+    "relevance": 0.58176,
+    "confidence": 5.050199999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 54.07799999999999,
+    "relevance": 0.5407799999999999,
+    "confidence": 4.557799999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Lapin",
+    "importance": 41.4642,
+    "relevance": 0.414642,
+    "confidence": 1.6526,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Lapin"
+     ]
+    ]
+   },
+   {
+    "t": "Traumatisme (médecine)",
+    "importance": 20.012800000000002,
+    "relevance": 0.31270000000000003,
+    "confidence": 2.0538,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Traumatisme_(médecine)"
+     ]
+    ]
+   },
+   {
+    "t": "Loi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation",
+    "importance": 17.367040000000003,
+    "relevance": 0.27136,
+    "confidence": 3.199,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi_tendant_à_l'amélioration_de_la_situation_des_victimes_d'accidents_de_la_circulation_et_à_l'accélération_des_procédures_d'indemnisation"
+     ]
+    ]
+   },
+   {
+    "t": "Cou",
+    "importance": 11.58048,
+    "relevance": 0.32168,
+    "confidence": 1.3328,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cou"
+     ]
+    ]
+   },
+   {
+    "t": "Colonne vertébrale",
+    "importance": 11.376720000000002,
+    "relevance": 0.31602,
+    "confidence": 6.8172,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Colonne_vertébrale"
+     ]
+    ]
+   },
+   {
+    "t": "Vertèbre cervicale",
+    "importance": 9.793439999999999,
+    "relevance": 0.27204,
+    "confidence": 4.63514,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Vertèbre_cervicale"
+     ]
+    ]
+   },
+   {
+    "t": "Aix-en-Provence",
+    "importance": 6.886799999999998,
+    "relevance": 0.19129999999999997,
+    "confidence": 3.8936,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Aix-en-Provence"
+     ]
+    ]
+   },
+   {
+    "t": "Expertise médicale",
+    "importance": 4.416624,
+    "relevance": 0.12268399999999999,
+    "confidence": 0.7222,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expertise_médicale"
+     ]
+    ]
+   },
+   {
+    "t": "Entorse (médecine)",
+    "importance": 3.9081599999999996,
+    "relevance": 0.24425999999999998,
+    "confidence": 2.1712,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Entorse_(médecine)"
+     ]
+    ]
+   },
+   {
+    "t": "Symptôme",
+    "importance": 3.6409599999999998,
+    "relevance": 0.22755999999999998,
+    "confidence": 3.5061999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Symptôme"
+     ]
+    ]
+   },
+   {
+    "t": "Kinésithérapie",
+    "importance": 3.18888,
+    "relevance": 0.08858,
+    "confidence": 4.8260000000000005,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Kinésithérapie"
+     ]
+    ]
+   },
+   {
+    "t": "Loi",
+    "importance": 3.0304800000000003,
+    "relevance": 0.08418,
+    "confidence": 0.732,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi"
+     ]
+    ]
+   },
+   {
+    "t": "Euro",
+    "importance": 2.5041816000000003,
+    "relevance": 0.0695606,
+    "confidence": 1.06448,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Euro"
+     ]
+    ]
+   },
+   {
+    "t": "Véhicule (transport physique)",
+    "importance": 2.4863999999999997,
+    "relevance": 0.15539999999999998,
+    "confidence": 1.2024000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Véhicule_(transport_physique)"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage en droit civil français",
+    "importance": 2.4783999999999997,
+    "relevance": 0.15489999999999998,
+    "confidence": 1.426,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_en_droit_civil_français"
+     ]
+    ]
+   },
+   {
+    "t": "Cabinet d'avocat",
+    "importance": 2.4425600000000007,
+    "relevance": 0.15266000000000002,
+    "confidence": 0.8103999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cabinet_d'avocat"
+     ]
+    ]
+   },
+   {
+    "t": "Trouble du sommeil",
+    "importance": 2.306528,
+    "relevance": 0.144158,
+    "confidence": 5.2044,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Trouble_du_sommeil"
+     ]
+    ]
+   },
+   {
+    "t": "Cour d'appel (France)",
+    "importance": 2.25216,
+    "relevance": 0.14076,
+    "confidence": 0.9516,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cour_d'appel_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Cour d'appel d'Aix-en-Provence",
+    "importance": 2.2020159999999995,
+    "relevance": 0.137626,
+    "confidence": 2.6274,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cour_d'appel_d'Aix-en-Provence"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 2.1059200000000002,
+    "relevance": 0.13162000000000001,
+    "confidence": 0.5166000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Marseille",
+    "importance": 2.0662399999999996,
+    "relevance": 0.12913999999999998,
+    "confidence": 2.082,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Marseille"
+     ]
+    ]
+   },
+   {
+    "t": "Traumatisme psychologique",
+    "importance": 1.9904,
+    "relevance": 0.1244,
+    "confidence": 1.2228,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Traumatisme_psychologique"
+     ]
+    ]
+   },
+   {
+    "t": "Santé",
+    "importance": 1.784,
+    "relevance": 0.1115,
+    "confidence": 0.744,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Santé"
+     ]
+    ]
+   },
+   {
+    "t": "Vertèbre",
+    "importance": 1.571104,
+    "relevance": 0.098194,
+    "confidence": 1.748,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Vertèbre"
+     ]
+    ]
+   },
+   {
+    "t": "Cour de cassation (France)",
+    "importance": 1.20448,
+    "relevance": 0.07528,
+    "confidence": 2.4838,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cour_de_cassation_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Badinter",
+    "importance": 1.19168,
+    "relevance": 0.07448,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Handicap",
+    "importance": 1.11232,
+    "relevance": 0.06952,
+    "confidence": 1.7532,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Handicap"
+     ]
+    ]
+   },
+   {
+    "t": "Qualité de vie",
+    "importance": 0.8499200000000001,
+    "relevance": 0.05312,
+    "confidence": 1.3468,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Qualité_de_vie"
+     ]
+    ]
+   },
+   {
+    "t": "Douleur",
+    "importance": 0.73224,
+    "relevance": 0.18306,
+    "confidence": 1.6722000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Douleur"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 0.722688,
+    "relevance": 0.045168,
+    "confidence": 0.8211999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance automobile",
+    "importance": 0.6365599999999999,
+    "relevance": 0.15914,
+    "confidence": 0.4686,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Maître COHEN",
+    "importance": 0.6103199999999999,
+    "relevance": 0.15258,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Mal de dos",
+    "importance": 0.5804000000000001,
+    "relevance": 0.1451,
+    "confidence": 1.2524,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Mal_de_dos"
+     ]
+    ]
+   },
+   {
+    "t": "Politique de confidentialité",
+    "importance": 0.5725120000000001,
+    "relevance": 0.035782,
+    "confidence": 1.2622,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Politique_de_confidentialité"
+     ]
+    ]
+   },
+   {
+    "t": "Lombalgie",
+    "importance": 0.5578879999999999,
+    "relevance": 0.034867999999999996,
+    "confidence": 2.4524,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Lombalgie"
+     ]
+    ]
+   },
+   {
+    "t": "AIVF",
+    "importance": 0.5538400000000001,
+    "relevance": 0.13846,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Groupama",
+    "importance": 0.53776,
+    "relevance": 0.13444,
+    "confidence": 1.0084,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Groupama"
+     ]
+    ]
+   },
+   {
+    "t": "COHEN OLIVIER",
+    "importance": 0.5158400000000002,
+    "relevance": 0.12896000000000002,
+    "confidence": 0.1,
+    "links": []
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "coup du lapin\nindemnisation\naccident\naccident de la route\ncervical\nun accident\nindemnisation coup du lapin",
+  "desc_title": "indemnisation\ncoup du lapin\naccident\naccident de la route\nun accident\nun accident de la route\nassurance\nmontant d'indemnisation\ncervical\ntraumatisme cervical\naprès un accident\nobtenir une indemnisation",
+  "h1": "coup du lapin\nindemnisation\naccident\nun accident\ncervical\nindemnisation du coup du lapin\naccident de la route\ntraumatisme cervical\nindemnisation coup du lapin\nun coup du lapin\nun accident de la route\nentorse cervicale\naprès un accident\nassurance\nsuite à un accident\nindemniser\nun traumatisme cervical\ncoup du lapin indemnisation\nindemnisation accident de la route\naccident corporel\nlapin suite à un accident\ncoup du lapin suite",
+  "h2": "coup du lapin\nindemnisation\ncervical\naccident\nun coup du lapin\ntraumatisme cervical\npréjudice\nindemnisation du coup du lapin\naccident de la route\nun accident\nun accident de la route\nindemniser\nlésion\naprès un coup du lapin\nséquelle\nindemnisation coup du lapin\nentorse cervicale\naprès un accident\nassurance\nexpertise médicale\ndommage corporel\npréjudice corporel\nsuite à un accident\naccident de voiture\nrachis cervical\naccident corporel\ncas de coup du lapin\nindemnisation après un accident\ncas de coup\nindemnisation pour un coup",
+  "content_basic": "coup du lapin\nindemnisation\naccident de la route\ncervical\nun accident\naccident\nun coup du lapin\ntraumatisme cervical\npréjudice\nséquelle\nun accident de la route\nentorse cervicale\naprès un accident\nassurance\nassureur\nexpertise médicale\nun avocat\ndommage corporel\naccident de la circulation\npréjudice corporel\nobtenir une indemnisation\nune indemnisation\nsuite à un accident\nindemniser\nsouffrances endurées\naccident de voiture\nlésion\ndéficit fonctionnel permanent\nun traumatisme cervical\nles séquelles\nles douleurs\navocat spécialisé\narrêt de travail\nun avocat spécialisé\ndate de consolidation\nrachis cervical\nun accident de la circulation\nloi badinter\nun accident de voiture\nséances de kinésithérapie",
+  "content_basic_w_ranges": "coup du lapin: 9-20x\nindemnisation: 13-26x\naccident de la route: 3-7x\ncervical: 6-18x\nun accident: 3-11x\naccident: 10-28x\nun coup du lapin: 1-7x\ntraumatisme cervical: 1-4x\npréjudice: 8-16x\nséquelle: 4-8x\nun accident de la route: 2-4x\nentorse cervicale: 1-3x\naprès un accident: 1-2x\nassurance: 5-10x\nassureur: 3-9x\nexpertise médicale: 2-5x\nun avocat: 2-5x\ndommage corporel: 2-6x\naccident de la circulation: 1-2x\npréjudice corporel: 1-8x\nobtenir une indemnisation: 1x\nune indemnisation: 2-5x\nsuite à un accident: 1-3x\nindemniser: 2-4x\nsouffrances endurées: 2-3x\naccident de voiture: 1x\nlésion: 1-4x\ndéficit fonctionnel permanent: 1-2x\nun traumatisme cervical: 1-2x\nles séquelles: 1-2x\nles douleurs: 1-2x\navocat spécialisé: 1-2x\narrêt de travail: 1-3x\nun avocat spécialisé: 1x\ndate de consolidation: 1-2x\nrachis cervical: 1x\nun accident de la circulation: 1x\nloi badinter: 1-2x\nun accident de voiture: 1x\nséances de kinésithérapie: 1x",
+  "content_extended": "indemnisation coup du lapin\nindemnisation du coup du lapin\ndroit à indemnisation\ncoup du lapin indemnisation\nindemnisation accident de la route\naprès un coup du lapin\ndroit à une indemnisation\nmontant d'indemnisation\nvictime de coup du lapin\naccident corporel\nlapin suite à un accident\nindemnisation intégrale\nindemnisation juste\nvictime du coup du lapin\nlors d’un accident\nvictime d’un coup du lapin\nmontant de l’indemnisation\nj’ai eu un coup\nvictime d’un accident\nvictimes d’accidents de la route\nqu’est-ce qu’un coup du lapin\ncoup du lapin résultant d’un\nindemnisation d’un coup du lapin\nles victimes d’un coup\nmontant d’indemnisation du coup\nlapin résultant d’un accident\nvictimes d’accidents\nmontant d’indemnisation\nindemnisation à la hauteur\ncas de coup du lapin\nséquelles durables\nlapin après un accident\naprès accident\nindemnisation après un accident\naccident de trajet\nrecours à un avocat\nlapin est un traumatisme\ncoup du lapin sans séquelles\navocat spécialisé en accident\nindemnisation minimale\nchoc arrière en voiture\ncas de coup\ngrave accident\ncoup du lapin après\nles séquelles après\nentorse cervicale grave\nmontant dépend de la gravité\ncoup du lapin suite\ncomment obtenir une indemnisation\ncoup du lapin sans\nindemnisation pour un coup",
+  "content_extended_w_ranges": "indemnisation coup du lapin: 1x\nindemnisation du coup du lapin: 1x\ndroit à indemnisation: 1x\ncoup du lapin indemnisation: 1x\nindemnisation accident de la route: 1x\naprès un coup du lapin: 1x\ndroit à une indemnisation: 1x\nmontant d'indemnisation: 1x\nvictime de coup du lapin: 1x\naccident corporel: 1x\nlapin suite à un accident: 1x\nindemnisation intégrale: 1-2x\nindemnisation juste: 1x\nvictime du coup du lapin: 1x\nlors d’un accident: 1x\nvictime d’un coup du lapin: 1x\nmontant de l’indemnisation: 1x\nj’ai eu un coup: 1x\nvictime d’un accident: 1x\nvictimes d’accidents de la route: 1x\nqu’est-ce qu’un coup du lapin: 1x\ncoup du lapin résultant d’un: 1x\nindemnisation d’un coup du lapin: 1x\nles victimes d’un coup: 1x\nmontant d’indemnisation du coup: 1x\nlapin résultant d’un accident: 1x\nvictimes d’accidents: 1x\nmontant d’indemnisation: 1x\nindemnisation à la hauteur: 1x\ncas de coup du lapin: 1x\nséquelles durables: 1x\nlapin après un accident: 1x\naprès accident: 1x\nindemnisation après un accident: 1x\naccident de trajet: 1x\nrecours à un avocat: 1x\nlapin est un traumatisme: 1x\ncoup du lapin sans séquelles: 1x\navocat spécialisé en accident: 1x\nindemnisation minimale: 1x\nchoc arrière en voiture: 1x\ncas de coup: 1x\ngrave accident: 1x\ncoup du lapin après: 1x\nles séquelles après: 1x\nentorse cervicale grave: 1x\nmontant dépend de la gravité: 1x\ncoup du lapin suite: 1x\ncomment obtenir une indemnisation: 1x\ncoup du lapin sans: 1x\nindemnisation pour un coup: 1x",
+  "entities": "Coup du lapin\nAccident de la route\nTraumatisme cervical\nDommage corporel\nAssurance\nLapin\nTraumatisme (médecine)\nLoi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation\nCou\nColonne vertébrale\nVertèbre cervicale\nAix-en-Provence\nExpertise médicale\nEntorse (médecine)\nSymptôme\nKinésithérapie\nLoi\nEuro\nVéhicule (transport physique)\nDommage en droit civil français\nCabinet d'avocat\nTrouble du sommeil\nCour d'appel (France)\nCour d'appel d'Aix-en-Provence\nAvocat (métier)\nMarseille\nTraumatisme psychologique\nSanté\nVertèbre\nCour de cassation (France)\nBadinter\nHandicap\nQualité de vie\nDouleur\nEndommagement\nAssurance automobile\nMaître COHEN\nMal de dos\nPolitique de confidentialité\nLombalgie\nAIVF\nGroupama\nCOHEN OLIVIER"
+ },
+ "status": "ready",
+ "keyword": "indemnisation coup du lapin",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "60ae16008ba77411",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "transactional": 33.3
+  },
+  "top_content_type": "educational",
+  "content_type_stats": {
+   "educational": 30.0,
+   "guide": 23.3,
+   "blog-post": 23.3,
+   "case-study": 10.0,
+   "business": 23.3,
+   "landing-page": 13.3,
+   "short-answer": 13.3,
+   "video": 10.0
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/60ae16008ba77411",
+ "share_url": "https://app.neuronwriter.com/analysis/share/60ae16008ba77411/39496c70200f82f7c1dab43095537dbc4fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/60ae16008ba77411/57370e7175070f98f6a0d3a5d3107c354fa16"
 }
