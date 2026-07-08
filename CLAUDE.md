@@ -200,3 +200,7 @@ seuil de 80) — voir marqueur NEURONWRITER SCORE dans le fichier.
 Image `img/articles/indemnisation-coma-etat-vegetatif.jpg` (id 41) =
 copie de `indemnisation-tetraplegie.jpg` (aucun visuel dédié disponible)
 — à remplacer dès que possible.
+
+Image `img/articles/garantie-accidents-de-la-vie-gav.jpg` (id 42, pilier)
+= copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
+dédié disponible) — à remplacer par un visuel dédié dès que possible.
