@@ -19,7 +19,9 @@ Controles bloquants :
      avec role="img" et aria-label.
   5. Couverture d'intent : >= 5 <h2> ET FAQ >= 6 questions (bloc Yoast FAQ
      .schema-faq-section, ou a defaut <details>).
-  6. NeuronWriter (NON NEGOCIABLE) : <!-- NEURONWRITER SCORE: N --> avec N >= 85.
+  6. NeuronWriter : <!-- NEURONWRITER SCORE: N --> avec N >= 85 (cible : le score
+     le plus haut, viser 95). Derogation >80 acceptee UNIQUEMENT si documentee
+     dans le marqueur (mention "derogation" + contexte), jamais <= 80.
   7. Plancher de mots : >= 1900 mots utiles (>= 2500 avec --pilier).
   8. Hygiene : AUCUN <h1> dans le corps (le titre WP est le H1), aucun
      marqueur de conflit git, aucun secret evident.
@@ -152,14 +154,26 @@ def check(path: Path, pilier: bool) -> list[str]:
             f"{n_faq} questions FAQ (minimum 6 — bloc Yoast FAQ .schema-faq-section ou <details>)"
         )
 
-    # 6. NeuronWriter >= 85
-    m = re.search(r"<!--\s*NEURONWRITER\s+SCORE:\s*([0-9]+(?:\.[0-9]+)?)", html, re.I)
+    # 6. NeuronWriter — cible : le score le plus haut (viser 95), seuil >= 85.
+    # Derogation editoriale (politique Me Humbert 2026-07-08) : publication
+    # acceptee si score > 80 APRES optimisation vers le score le plus haut
+    # (audit local + jusqu'a 6 cycles evaluate), a condition qu'une derogation
+    # soit DOCUMENTEE dans le marqueur (mention "derogation" + contexte : plafond
+    # de famille, nb de cycles). Jamais de derogation implicite, jamais <= 80.
+    m = re.search(r"<!--\s*NEURONWRITER\s+SCORE:\s*([0-9]+(?:\.[0-9]+)?)(.*?)-->", html, re.I | re.S)
     if not m:
         problems.append(
             "aucun marqueur <!-- NEURONWRITER SCORE: N --> : l'optimisation >= 85 est obligatoire"
         )
-    elif float(m.group(1)) < 85:
-        problems.append(f"score NeuronWriter {m.group(1)} < 85 (seuil non negociable)")
+    else:
+        score = float(m.group(1))
+        derog = re.search(r"d[ée]rogation", m.group(2), re.I)
+        if score < 85 and not derog:
+            problems.append(f"score NeuronWriter {m.group(1)} < 85 (seuil non negociable, "
+                            "derogation possible >80 uniquement si documentee dans le marqueur)")
+        elif score <= 80 and derog:
+            problems.append(f"score NeuronWriter {m.group(1)} <= 80 : la derogation documentee "
+                            "ne s'applique qu'au-dessus de 80")
 
     # 7. Plancher de mots
     n = content_word_count(html)

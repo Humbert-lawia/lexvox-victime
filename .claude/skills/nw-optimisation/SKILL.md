@@ -119,6 +119,16 @@ python3 tools/nw_lab.py evaluate <query_id> actualites/<slug>.html --note "S1-lo
   flux appelant. NE PAS boucler à l'aveugle : au-delà de 2 appels identiques,
   le rendement marginal mesuré est nul (plateau 85 confirmé par 10 sondes).
 
+**Seuil de publication (politique Me Humbert, 2026-07-08).** Cible = le score le
+plus haut (viser 95). Budget de sécurité : audit local exhaustif (gratuit) +
+jusqu'à **6 cycles `evaluate` maximum** — s'arrêter dès le plateau (le gain
+au-delà est mesuré nul). Publication **≥ 85** ; sinon **dérogation acceptée si
+score > 80** (jamais ≤ 80), obligatoirement **documentée dans le marqueur** :
+`<!-- NEURONWRITER SCORE: 84 query=<id> le AAAA-MM-JJ — derogation >80 (plafond
+de famille mesure, N cycles) -->`. Les gates `qa_article_aivf.py` /
+`qa_article_wp.py` exigent le mot « derogation » + score > 80 ; toute dérogation
+implicite ou ≤ 80 est refusée.
+
 ### 5. Journal et traçabilité
 
 `nw-lab/runs-<query>.jsonl` contient l'historique loop par loop (réel). Le
