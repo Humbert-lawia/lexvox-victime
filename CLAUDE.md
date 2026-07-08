@@ -179,3 +179,7 @@ disponible) — à remplacer dès que possible.
 Image `img/articles/indemnisation-algodystrophie-sdrc.jpg` (id 35) = copie de
 `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
 disponible) — à remplacer dès que possible.
+
+Image `img/articles/indemnisation-coup-du-lapin.jpg` (id 36) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer dès que possible.
