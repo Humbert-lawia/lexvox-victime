@@ -48,7 +48,7 @@
 | 35 | C | feuille | Algodystrophie (SDRC) : reconnaissance et indemnisation | https://lexvox-victime.com/actualites/indemnisation-algodystrophie-sdrc | à venir |
 | 36 | C | feuille | Entorse cervicale / coup du lapin (whiplash) : indemnisation | https://lexvox-victime.com/actualites/indemnisation-coup-du-lapin | à venir |
 | 37 | C | feuille | Lesion du plexus brachial apres accident de moto : indemnisation | https://lexvox-victime.com/actualites/indemnisation-plexus-brachial | à venir |
-| 38 | D | feuille | Indemnisation de la paraplegie | https://lexvox-victime.com/actualites/indemnisation-paraplegie | à venir |
+| 38 | D | feuille | Indemnisation de la paraplegie | https://lexvox-victime.com/actualites/indemnisation-paraplegie | bloqué\*\* |
 | 39 | D | feuille | Indemnisation de la tetraplegie | https://lexvox-victime.com/actualites/indemnisation-tetraplegie | à venir |
 | 40 | D | feuille | Indemnisation de l'hemiplegie | https://lexvox-victime.com/actualites/indemnisation-hemiplegie | à venir |
 | 41 | D | feuille | Coma et etat vegetatif : reparation du grand handicap | https://lexvox-victime.com/actualites/indemnisation-coma-etat-vegetatif | à venir |
@@ -69,3 +69,5 @@
 _Fusionnés (anti-cannibalisation, non publiés séparément) : id 3, id 4._
 
 _\* id 15 publié au titre de la dérogation Me Humbert (score > 80 strict après ≥ 5 loops) : plateau NeuronWriter 84 après 6 boucles, SERP saturée. id 13 reste NON publié (NW 79 < seuil 80) — archivé, en attente de décision._
+
+_\*\* id 38 (paraplégie) bloqué à NW 72, plafond anormal et invariant sur 4 cycles substantiellement différents (réécriture term-budget, correction grammaticale, approfondissement médical avec échelle ASIA/complications, simplification de lisibilité — score exactement 72-73 à chaque fois, alors que les 6 articles précédents de la session avaient tous dépassé 88 dès le 1er ou 2e cycle). Score ≤ 80 : aucune dérogation possible sans autorisation explicite de Me Humbert (règle du 2026-07-08). Brouillon HTML complet et QA structurel conforme (tableaux, infographie, 2 jurisprudences Openlegi vérifiées — Cass. 2e civ. 13/01/2011 n°09-71.196 et Cass. 2e civ. 10/11/2009 n°08-16.920), mais NON committé. Piste à explorer : les données de la query NeuronWriter montrent une cible de longueur concurrente de ~1000 mots (médiane), très inférieure au plancher éditorial feuille (1900 mots) — tension entre les deux contraintes non résolue. En attente de décision : poursuivre les cycles restants (2/6), tester une réécriture courte hors politique de plancher, ou dérogation exceptionnelle explicite._
