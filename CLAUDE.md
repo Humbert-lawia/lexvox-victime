@@ -159,3 +159,7 @@ possible.
 Image `img/articles/obtenir-dossier-medical.jpg` (id 30) = copie de
 `erreur-medicale-que-faire.jpg` (pas de visuel dédié au moment de la
 rédaction) — à remplacer par un visuel spécifique dès que possible.
+
+Image `img/articles/procedure-cci-crci.jpg` (id 31, pilier) = copie de
+`bareme-cci-crci-accident-medical.jpg` (thématiquement proche mais issue
+d'un autre article) — à remplacer par un visuel dédié dès que possible.
