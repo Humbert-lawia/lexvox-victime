@@ -46,10 +46,12 @@ Lis d'abord, dans cet ordre :
   4. CLAUDE.md                      (règles critiques du dépôt : secrets, deploy.yml, rebase)
 
 ════════ ÉTAPE 0 — VÉRIFICATIONS BLOQUANTES (chaque session) ════════
-a) NeuronWriter : en PRIORITÉ le connecteur MCP (ToolSearch "neuronwriter") ;
-   à défaut l'API tools/neuronwriter.py (secret NEURONWRITER_API_KEY, egress
-   app.neuronwriter.com). Sans NeuronWriter joignable : STOP, signale, ne
-   publie rien, n'invente JAMAIS un score.
+a) NeuronWriter : API tools/neuronwriter.py + outillage de méthode tools/nw_lab.py
+   et tools/nw_eval_wp.py (secret NEURONWRITER_API_KEY, egress app.neuronwriter.com ;
+   tester `python3 tools/neuronwriter.py list-projects`). La méthode de scoring
+   est celle du skill **`/nw-optimisation`** (OBLIGATOIRE) — la charger en début
+   de session. Sans NeuronWriter joignable : STOP, signale, ne publie rien,
+   n'invente JAMAIS un score.
 b) Openlegi : ToolSearch "openlegi". Sans Openlegi : aucun bloc jurisprudence
    fabriqué (textes de loi vérifiables uniquement + signalement).
 c) Auth WordPress : pour chaque site, GET {api}/users/me en Basic Auth avec
@@ -78,10 +80,34 @@ mentionne CANNIBALISATION, REFONTE, PILIER GEO ou FORMAT SIGNATURE).
 
 ════════ STANDARD PAR ARTICLE (identique AIVF, non négociable) ════════
 1. NEURONWRITER ≥ 85 AVANT publication, ≥ 1900 mots utiles (2500 pour un
-   "pilier") — le volume peut monter, jamais descendre sous 1900. Procédure :
-   query sur le keyword de l'item, couvrir les termes NLP, évaluer, itérer
-   jusqu'à ≥ 85. Marqueur en commentaire HTML en tête de contenu :
-   <!-- NEURONWRITER SCORE: N query=<id> le AAAA-MM-JJ -->.
+   "pilier") — le volume peut monter, jamais descendre sous 1900. La procédure
+   est celle du skill OBLIGATOIRE **`/nw-optimisation`** (« term-budget first +
+   audit local », validée 62→85, budget 2 appels `evaluate` au lieu de 6-15),
+   déclinée pour WordPress via `tools/nw_eval_wp.py` (page reconstituée
+   title/meta/h1) au lieu du fragment brut :
+   a) Qualifier la famille du keyword (fixe l'objectif AVANT de rédiger) :
+      « indemnisation/montant/barème » → viser ≥ 90 ; « procédure/définition/
+      comment » → 85 = plafond démontré. Ne pas courir après un ≥ 90 non
+      démontré en famille procédure.
+   b) Termes AVANT rédaction : `python3 tools/neuronwriter.py new-query
+      <project_id> "<keyword>"` (si absente) puis `python3 tools/nw_lab.py
+      terms <query_id>` (cache local). En tirer un brief contractuel : title/H1
+      couvrent le max de termes (formulations gigognes), CHAQUE H2 reçoit sa
+      dotation, toutes les entities ≥ 1 fois.
+   c) Rédiger EN UNE PASSE sous contrat (H2 denses en termes, pas de H2
+      « éditorial » vide : les H2 comptent en RATIO — loi n° 5 du skill).
+   d) AUDIT LOCAL zéro-API, à répéter jusqu'à couverture maximale :
+      `python3 tools/nw_eval_wp.py audit <query_id> wp-atelier/<site>/<slug>.html`
+      → solder TOUS les déficits ; ignorer les excès (aucune pénalité de
+      sur-usage — loi n° 2). Ceci ne coûte AUCUN appel API.
+   e) Scorer (1er appel) : `python3 tools/nw_eval_wp.py score <query_id>
+      wp-atelier/<site>/<slug>.html --note S1-loop1` (journalisé dans
+      nw-lab/runs-<query>.jsonl). Objectif atteint → fini. Sinon UNE passe
+      corrective (densifier H1/H2 en termes manquants) puis 2e `score`. Deux
+      appels au même score + audit propre = plafond de la query atteint :
+      l'acter, ne PAS boucler à l'aveugle (rendement marginal mesuré nul).
+   Marqueur en commentaire HTML en tête de contenu, portant TOUJOURS le dernier
+   score API réel : <!-- NEURONWRITER SCORE: N query=<id> le AAAA-MM-JJ -->.
 2. ≥ 1 bloc d'analyse jurisprudentielle VÉRIFIÉ via MCP OPENLEGI UNIQUEMENT
    (pas Lexbase) : n° de pourvoi issu de la réponse Openlegi, JAMAIS inventé ;
    BACKLINK <a href> vers l'URL Légifrance renvoyée ; marqueur
@@ -129,7 +155,8 @@ meta Yoast si dispo}, (4) --dry-run = tout sauf les POST. Catégories : ids
 existants listés dans queue-wp.json _meta.sites — ne pas créer de catégorie.
 
 VALIDATION BLOQUANTE avant chaque publication :
-  score NeuronWriter ≥ 85 (connecteur ou API)
+  score NeuronWriter ≥ 85 via `python3 tools/nw_eval_wp.py score <query_id>
+    wp-atelier/<site>/<slug>.html` (page reconstituée, journalisé)
   python3 tools/qa_article_wp.py wp-atelier/<site>/<slug>.html [--pilier]
 Jamais de publication d'un article qui échoue. Pas de sas de relecture :
 Me Humbert vérifie a posteriori (garde-fous = QA + Openlegi + NeuronWriter).
