@@ -150,3 +150,8 @@ mettre à jour quand une action listée est traitée.
 Image `img/articles/accident-de-moto-indemnisation-nimes.jpg` = placeholder
 réutilisé (visuel moto générique) — à remplacer par un visuel spécifique au
 sujet dès que possible.
+
+Image `img/articles/indemnisation-erreur-chirurgicale.jpg` (id 29) = copie de
+`faute-chirurgicale-indemnisation-aix-en-provence.jpg` (pas de visuel dédié
+au moment de la rédaction) — à remplacer par un visuel spécifique dès que
+possible.
