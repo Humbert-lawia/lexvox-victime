@@ -204,3 +204,7 @@ copie de `indemnisation-tetraplegie.jpg` (aucun visuel dédié disponible)
 Image `img/articles/garantie-accidents-de-la-vie-gav.jpg` (id 42, pilier)
 = copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
 dédié disponible) — à remplacer par un visuel dédié dès que possible.
+
+Image `img/articles/indemnisation-accident-domestique.jpg` (id 43) =
+copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
+dédié disponible) — à remplacer dès que possible.
