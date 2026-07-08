@@ -163,3 +163,7 @@ rédaction) — à remplacer par un visuel spécifique dès que possible.
 Image `img/articles/procedure-cci-crci.jpg` (id 31, pilier) = copie de
 `bareme-cci-crci-accident-medical.jpg` (thématiquement proche mais issue
 d'un autre article) — à remplacer par un visuel dédié dès que possible.
+
+Image `img/articles/indemnisation-fracture-cheville-poignet-vertebre.jpg`
+(id 32) = copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun
+visuel dédié disponible) — à remplacer dès que possible.
