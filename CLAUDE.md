@@ -94,6 +94,21 @@ corrections en masse (103 titles régénérés, 20 meta descriptions, H1 dédupl
 Utiliser le skill projet `/article-aivf` pour dérouler la checklist complète
 (`/nouvel-article` est le legacy pré-Sanity), et `/preflight` avant de pousser.
 
+## Pipeline WordPress (sites satellites)
+
+Depuis 2026-07-07, un second pipeline éditorial vise les deux WordPress du
+cabinet : `medical.lexvox-avocat.fr` et `victime-accident.lexvox-avocat.fr`
+(publication via REST API WP + Application Passwords, secrets env
+`WP_MEDICAL_*`/`WP_ACCIDENT_*` — jamais committés). Fichiers :
+`PLAN-EDITORIAL-WP-2026-07.md` (gap concurrentiel avocatjullien.fr /
+benezra-victimesdelaroute.fr + opportunités Qwairy), `queue-wp.json` (file de
+82 articles, champ `site`), `PROMPT-PIPELINE-WP.md` (prompt de production
+autonome, cadence 3/jour). Même standard que LEXVOX-AIVF (NeuronWriter ≥ 85,
+jurisprudence Openlegi vérifiée, 2 tableaux, SVG inline) + SEO local 7 villes
+PACA avec image mise en avant géolocalisée (EXIF GPS). Ce pipeline ne touche
+NI Sanity NI lexvox-victime.com — anti-cannibalisation triple obligatoire
+(2 WP + Sanity) avant chaque slug.
+
 ## Suivi
 
 `SUIVI-ACTIONS-CORRECTIVES.md` trace les actions issues des audits SEO — le
