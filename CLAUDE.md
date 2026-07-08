@@ -208,3 +208,7 @@ dédié disponible) — à remplacer par un visuel dédié dès que possible.
 Image `img/articles/indemnisation-accident-domestique.jpg` (id 43) =
 copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
 dédié disponible) — à remplacer dès que possible.
+
+Image `img/articles/indemnisation-accident-ski.jpg` (id 44) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer dès que possible.
