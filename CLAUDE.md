@@ -196,3 +196,7 @@ Image `img/articles/indemnisation-hemiplegie.jpg` (id 40) = copie de
 `indemnisation-tetraplegie.jpg` (aucun visuel dédié disponible) — à
 remplacer dès que possible. Article par ailleurs bloqué (NW 77, sous le
 seuil de 80) — voir marqueur NEURONWRITER SCORE dans le fichier.
+
+Image `img/articles/indemnisation-coma-etat-vegetatif.jpg` (id 41) =
+copie de `indemnisation-tetraplegie.jpg` (aucun visuel dédié disponible)
+— à remplacer dès que possible.
