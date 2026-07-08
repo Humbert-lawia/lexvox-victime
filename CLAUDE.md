@@ -183,3 +183,7 @@ disponible) — à remplacer dès que possible.
 Image `img/articles/indemnisation-coup-du-lapin.jpg` (id 36) = copie de
 `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
 disponible) — à remplacer dès que possible.
+
+Image `img/articles/indemnisation-plexus-brachial.jpg` (id 37) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer dès que possible.
