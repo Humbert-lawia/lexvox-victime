@@ -1,3 +1,2653 @@
 {
- "status": "in progress"
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   },
+   {
+    "q": "Quel est le montant d'indemnisation suite à une erreur médicale ?"
+   },
+   {
+    "q": "Quel est le barème des souffrances endurées ?"
+   },
+   {
+    "q": "Quel est le montant de l'indemnisation pour faute médicale dans un hôpital ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quels sont les différents types de préjudices indemnisables après une erreur chirurgicale ?": {
+    "importance": 10
+   },
+   "Comment est calculé le montant d'indemnisation suite à une erreur chirurgicale ?": {
+    "importance": 10
+   },
+   "Existe-t-il un barème pour l'indemnisation des souffrances endurées ?": {
+    "importance": 9
+   },
+   "Quel est le montant d'indemnisation pour faute médicale dans un hôpital ?": {
+    "importance": 9
+   },
+   "Qu'est-ce qu'une erreur chirurgicale et comment la distinguer d'un aléa thérapeutique ?": {
+    "importance": 8
+   },
+   "Quelles sont les démarches à suivre pour obtenir une indemnisation après une erreur chirurgicale ?": {
+    "importance": 8
+   },
+   "Faut-il faire appel à un avocat pour une procédure d'indemnisation suite à une erreur chirurgicale ?": {
+    "importance": 7
+   },
+   "Quels sont les recours possibles en cas d'erreur chirurgicale ?": {
+    "importance": 7
+   },
+   "Comment prouver une erreur chirurgicale ?": {
+    "importance": 6
+   },
+   "Quel est le délai pour agir en cas d'erreur chirurgicale ?": {
+    "importance": 6
+   }
+  },
+  "content_questions": [
+   {
+    "q": "A la suite d'une prise en charge, vous estimez être victime d'une erreur médicale ?"
+   },
+   {
+    "q": "A la suite d’une prise en charge, vous estimez être vous-même victime d’une erreur ou d’une faute médicale ?"
+   },
+   {
+    "q": "Accident de la route : quelle indemnisation pour les victimes ?"
+   },
+   {
+    "q": "Accident médical, erreur chirurgicale ou médicale, que faire ?"
+   },
+   {
+    "q": "Comment faire valoir mon droit à indemnisation après erreur chirurgicale ?"
+   },
+   {
+    "q": "Comment prouver une erreur chirurgicale ?"
+   },
+   {
+    "q": "Comment prouver une erreur médicale ?"
+   },
+   {
+    "q": "Comment savoir s’il y a eu une erreur chirurgicale et quelles démarches entreprendre ?"
+   },
+   {
+    "q": "Comment se déroule l'expertise médicale de la CRCI ?"
+   },
+   {
+    "q": "En ce cas à quelle indemnisation je peux prétendre ?"
+   },
+   {
+    "q": "Erreur chirurgicale : que faire ?"
+   },
+   {
+    "q": "Erreur chirurgicale que faire ?"
+   },
+   {
+    "q": "Erreur médicale : pourquoi faire appel à un avocat ?"
+   },
+   {
+    "q": "Erreur médicale : que faire ?"
+   },
+   {
+    "q": "Erreur médicale : quels recours ?"
+   },
+   {
+    "q": "Erreur médicale, chirurgicale, accident médical : que faire ?"
+   },
+   {
+    "q": "Est-ce que je peux obtenir une indemnisation pour les préjudices d’une erreur médicale sans engager de procès ?"
+   },
+   {
+    "q": "Faut-il engager un avocat en cas d’erreur médicale ?"
+   },
+   {
+    "q": "Faut-il obligatoirement un avocat pour une procédure en erreur chirurgicale ?"
+   },
+   {
+    "q": "Faut-il recourir à un avocat spécialisé en faute médicale ?"
+   },
+   {
+    "q": "Il s’agit à l’évidence d’une faute médicale non ?"
+   },
+   {
+    "q": "Indemnisation de l’erreur médicale : quel est son montant ?"
+   },
+   {
+    "q": "Indemnisation erreur médicale : quel montant ?"
+   },
+   {
+    "q": "Indemnisation, recours ?"
+   },
+   {
+    "q": "Le fonds d’indemnisation en danger ?"
+   },
+   {
+    "q": "Lorsqu’une intervention ne se déroule pas comme prévu, une question essentielle se pose : que faire après une erreur chirurgicale et comment être indemnisé ?"
+   },
+   {
+    "q": "Peut-on agir si l'erreur chirurgicale remonte à plusieurs années ?"
+   },
+   {
+    "q": "Pourquoi faire appel à Maître Coralie Fournier à la suite d’un accident médical ?"
+   },
+   {
+    "q": "Pourquoi se faire assister d’un avocat spécialisé ?"
+   },
+   {
+    "q": "Qu'est-ce que la Commission de Conciliation et d'Indemnisation ?"
+   },
+   {
+    "q": "Que faire après une erreur chirurgicale ?"
+   },
+   {
+    "q": "Que faire en cas d’erreur médicale ?"
+   },
+   {
+    "q": "Que faire pour faire reconnaître une erreur chirurgicale ?"
+   },
+   {
+    "q": "Quel est le délai de prescription d’une erreur médicale ?"
+   },
+   {
+    "q": "Quel est le délai de prescription pour une erreur médicale ?"
+   },
+   {
+    "q": "Quel est le montant de l’indemnisation ?"
+   },
+   {
+    "q": "Quelle différence avec un aléa thérapeutique ?"
+   },
+   {
+    "q": "Quelle différence entre erreur chirurgicale et aléa thérapeutique ?"
+   },
+   {
+    "q": "Quelle indemnisation ?"
+   },
+   {
+    "q": "Quelle indemnisation en cas d'infection nosocomiale ?"
+   },
+   {
+    "q": "Quelle indemnisation en cas d’erreur médicale ?"
+   },
+   {
+    "q": "Quelle procédure d’indemnisation après un accident médical ?"
+   },
+   {
+    "q": "Quels postes de préjudices sont indemnisés ?"
+   },
+   {
+    "q": "Quels préjudices peuvent être indemnisés en cas d’erreur médicale ?"
+   },
+   {
+    "q": "Quels préjudices sont indemnisables ?"
+   },
+   {
+    "q": "Quels préjudices sont indemnisés après une erreur chirurgicale ?"
+   },
+   {
+    "q": "Quels recours en cas d’erreur médicale ?"
+   },
+   {
+    "q": "Quels sont les différents types d’erreur médicale, ou faute médicale ?"
+   },
+   {
+    "q": "Quels sont les moyens d'indemnisation en matière d'aléa thérapeutique ?"
+   },
+   {
+    "q": "Quels sont les préjudices provoqués par une erreur médicale ?"
+   },
+   {
+    "q": "Qui indemnise les victimes d’accident médical ?"
+   },
+   {
+    "q": "Qui verse l’indemnisation ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un accident médical ?"
+   },
+   {
+    "q": "Qu’est-ce qu’une erreur chirurgicale ?"
+   },
+   {
+    "q": "Qu’est-ce qu’une erreur médicale ?"
+   },
+   {
+    "q": "Qu’est-ce qu’une erreur médicale indemnisable ?"
+   },
+   {
+    "q": "Recours erreur médicale : quels sont les pièges à éviter ?"
+   },
+   {
+    "q": "Victime d'une erreur chirurgicale ?"
+   },
+   {
+    "q": "Victime d’une erreur chirurgicale ?"
+   },
+   {
+    "q": "Vous pensez déposer un dossier d’indemnisation auprès de la CRCI ?"
+   },
+   {
+    "q": "Vous êtes victime d’un accident ou d’une erreur médicale tels qu’une infection à la suite d’une intervention chirurgicale ou de lourds effets indésirables après avoir pris un médicament ?"
+   },
+   {
+    "q": "Vous êtes victime d’une erreur médicale, d’une infection nosocomiale, d’une affection iatrogène ou d’un accident médical ?"
+   },
+   {
+    "q": "quelle indemnisation ?"
+   },
+   {
+    "q": "⚖️ Indemnisation d’une erreur médicale : quel montant ?"
+   },
+   {
+    "q": "❓ Erreur chirurgicale : que faire en premier ?"
+   },
+   {
+    "q": "❓ FAQ — Erreur chirurgicale : que faire ?"
+   },
+   {
+    "q": "❓ Qu’est-ce qu’une erreur chirurgicale ?"
+   },
+   {
+    "q": "❓ Une erreur chirurgicale est-elle toujours une faute médicale ?"
+   },
+   {
+    "q": "📌 À retenir – Erreur chirurgicale : que faire ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/responsabilite-medicale-accident-medical/erreur-chirurgicale-que-faire",
+   "title": "Erreur chirurgicale que faire ?",
+   "desc": "Découvrez vos droits et les démarches à suivre après une erreur chirurgicale avec l'Association Aide Victimes France. Obtenez l'aide nécessaire.",
+   "headers": [
+    [
+     "h1",
+     "Erreur chirurgicale que faire ?"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Erreur chirurgicale : que faire ? Démarches, indemnisation et recours pour les victimes"
+    ],
+    [
+     "h2",
+     "❓ Erreur chirurgicale : que faire en premier ?"
+    ],
+    [
+     "h2",
+     "❓ Qu’est-ce qu’une erreur chirurgicale ?"
+    ],
+    [
+     "h2",
+     "❓ Une erreur chirurgicale est-elle toujours une faute médicale ?"
+    ],
+    [
+     "h2",
+     "❓ Question de victime : erreur médicale et chirurgicale"
+    ],
+    [
+     "h2",
+     "✅ Réponse de l’AIVF sur l’erreur chirurgicale"
+    ],
+    [
+     "h2",
+     "🧑‍⚖️ Démarches en cas d’erreur chirurgicale"
+    ],
+    [
+     "h2",
+     "📌 À retenir – Erreur chirurgicale : que faire ?"
+    ],
+    [
+     "h2",
+     "🩺 Exemples fréquents d’erreurs chirurgicales"
+    ],
+    [
+     "h2",
+     "⚖️ Jurisprudence — erreur chirurgicale et responsabilité médicale"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Erreur chirurgicale : que faire ?"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 40,
+   "word_count": 1425,
+   "content_len": 9053
+  },
+  {
+   "rank": 2,
+   "url": "https://france-assos-sante.org/66-millions-dimpatients/la-qualite-de-vos-soins/victime-dun-accident-medical-quels-recours/",
+   "title": "Erreur médicale, chirurgicale, accident médical : que faire ? Indemnisation, recours ?",
+   "desc": "Accident médical, erreur chirurgicale ou médicale, que faire ? Quel recours ? Quelle indemnisation ? Mieux comprendre avec 66 Millions d'Impatients.",
+   "headers": [],
+   "content_score": 46,
+   "readability": 27,
+   "word_count": 1130,
+   "content_len": 7663
+  },
+  {
+   "rank": 3,
+   "url": "https://sanajuris.fr/obtenez-une-indemnisation-a-la-suite-dune-erreur-chirurgicale-avec-votre-cabinet-sanajuris-a-toulouse-et-a-paris/",
+   "title": "Erreur chirurgicale : Indemnisation - Sana Juris",
+   "desc": "Victime d’une erreur chirurgicale ? Nos avocats vous assistent pour obtenir une indemnisation juste et adaptée à votre préjudice corporel.",
+   "headers": [
+    [
+     "h1",
+     "OBTENEZ UNE INDEMNISATION À LA SUITE D’UNE ERREUR CHIRURGICALE AVEC VOTRE CABINET SANAJURIS À TOULOUSE ET À PARIS"
+    ],
+    [
+     "h2",
+     "D’AUTRES ARTICLES QUI POURRAIENT VOUS INTÉRESSER"
+    ],
+    [
+     "h2",
+     "Diagnostic erroné par téléphone ou téléconsultation : un nouveau terrain de responsabilité médicale"
+    ],
+    [
+     "h2",
+     "Confusion de dossiers médicaux entre deux patients : un cas de faute médicale grave"
+    ],
+    [
+     "h2",
+     "AVC mal diagnostiqué aux urgences : quelles conséquences juridiques pour l’établissement ?"
+    ],
+    [
+     "h2",
+     "En savoir plus sur Avocats en Indemnisation, Faute Médicale, Accident de la Route, Intoxication Alimentaire et Agression | Sana Juris - Toulouse et Paris"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 43,
+   "word_count": 981,
+   "content_len": 6144
+  },
+  {
+   "rank": 4,
+   "url": "https://avf.fr/erreur-chirurgicale",
+   "title": "Erreur chirurgicale : recours et indemnisation des victimes",
+   "desc": "Victime d'une erreur chirurgicale ? Découvrez les recours possibles, les démarches d'indemnisation et comment être accompagné par un avocat spécialisé.",
+   "headers": [
+    [
+     "h1",
+     "Erreur chirurgicale : comprendre ses droits et obtenir une indemnisation"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’une erreur chirurgicale ?"
+    ],
+    [
+     "h2",
+     "Responsabilité médicale et fondements juridiques"
+    ],
+    [
+     "h2",
+     "Les démarches pour obtenir une indemnisation après une erreur chirurgicale"
+    ],
+    [
+     "h2",
+     "Quels préjudices sont indemnisés après une erreur chirurgicale ?"
+    ],
+    [
+     "h2",
+     "Erreur chirurgicale et médicaments défectueux : des situations distinctes"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur l’erreur chirurgicale"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 80,
+   "readability": 43,
+   "word_count": 2006,
+   "content_len": 13191
+  },
+  {
+   "rank": 5,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N10253",
+   "title": "Préjudice médical | Service Public",
+   "desc": "Face à un dommage corporel, moral ou matériel résultant d'un acte médical ou chirurgical, il existe plusieurs moyens d'action légaux.",
+   "headers": [
+    [
+     "h1",
+     "Préjudice médical"
+    ],
+    [
+     "h2",
+     "Procédure générale"
+    ],
+    [
+     "h2",
+     "Préjudices spécifiques"
+    ],
+    [
+     "h2",
+     "Services en ligne et formulaires"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ]
+   ],
+   "content_score": 11,
+   "readability": 33,
+   "word_count": 253,
+   "content_len": 1684
+  },
+  {
+   "rank": 6,
+   "url": "https://commission-conciliation-indemnisation-aivf.fr/faq-faute-medicale/erreur-chirurgicale/droit-a-indemnisation-suite-a-une-erreur-chirurgicale",
+   "title": "Droit indemnisation erreur chirurgicale - Association AIVF",
+   "desc": "Droit indemnisation erreur chirurgicale, procédure CCI CRCI, loi Kouchner, responsabilité médicale pour faute ou ONIAM, expertise médicale",
+   "headers": [
+    [
+     "h1",
+     "Droit à indemnisation suite à une erreur chirurgicale"
+    ],
+    [
+     "h2",
+     "Questions de victimes concernant le droit à indemnisation suite à une erreur chirurgicale"
+    ]
+   ],
+   "content_score": 72,
+   "readability": 45,
+   "word_count": 666,
+   "content_len": 4316
+  },
+  {
+   "rank": 7,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/responsabilite-medicale-accident-medical/faute-erreur-medicale-victimes/indemnisation-erreur-medicale-montant",
+   "title": "Indemnisation erreur médicale : quel montant ? - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France vous accompagne pour obtenir une indemnisation juste en cas d'erreur médicale.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation erreur médicale : quel montant ?"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Indemnisation de l’erreur médicale"
+    ],
+    [
+     "h2",
+     "Indemnisation de l’erreur médicale : quel est son montant ? Explication"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 33,
+   "word_count": 2295,
+   "content_len": 14467
+  },
+  {
+   "rank": 8,
+   "url": "https://cherrier-bodineau.fr/indemnisation-erreur-chirurgicale/",
+   "title": "Indemnisation après une erreur de chirurgie : vos droits et démarches",
+   "desc": "Victime d’une erreur chirurgicale ? Découvrez vos droits, les démarches pour être indemnisé et le montant des réparations possibles.",
+   "headers": [
+    [
+     "h1",
+     "Erreur chirurgicale : obtenir une indemnisation"
+    ],
+    [
+     "h2",
+     "Comprendre l’erreur chirurgicale et ses conséquences juridiques"
+    ],
+    [
+     "h2",
+     "Les étapes clés pour obtenir une indemnisation"
+    ],
+    [
+     "h2",
+     "Les différentes procédures d’indemnisation possibles"
+    ],
+    [
+     "h2",
+     "Comment le cabinet Cherrier-Bodineau maximise votre indemnisation"
+    ],
+    [
+     "h2",
+     "En cas d’erreur chirurgical, pensez au cabinet Cherrier Bodineau"
+    ]
+   ],
+   "content_score": 76,
+   "readability": 31,
+   "word_count": 2359,
+   "content_len": 16278
+  },
+  {
+   "rank": 9,
+   "url": "https://coraliefournier-avocat.fr/indemnisation-accident-medical/",
+   "title": "Erreur médicale : procédure d'indemnisation - Coralie Fournier Avocate à Bordeaux",
+   "desc": "A la suite d'une prise en charge, vous estimez être victime d'une erreur médicale ? Différentes voies de recours sont envisageables.",
+   "headers": [
+    [
+     "h1",
+     "Accident médical/erreur médicale : procédure d’indemnisation"
+    ],
+    [
+     "h2",
+     "L’accident médical"
+    ],
+    [
+     "h2",
+     "L’accident médical fautif"
+    ],
+    [
+     "h2",
+     "L’accident médical non fautif / aléa thérapeutique"
+    ],
+    [
+     "h2",
+     "Qui indemnise les victimes d’accident médical ?"
+    ],
+    [
+     "h2",
+     "Quelle procédure d’indemnisation après un accident médical ?"
+    ],
+    [
+     "h2",
+     "Erreur médicale : pourquoi faire appel à un avocat ?"
+    ],
+    [
+     "h2",
+     "A retenir sur la procédure d’indemnisation à la suite d’un accident médical"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 24,
+   "word_count": 2148,
+   "content_len": 14008
+  },
+  {
+   "rank": 10,
+   "url": "https://reassurez-moi.fr/guide/mutuelle-sante/erreur-medicale",
+   "title": "Erreur médicale : que faire ? quelle indemnisation ?",
+   "desc": "En cas d’erreur médicale, il est possible d’effectuer des recours et d’obtenir une indemnisation. Nos conseils d’experts !",
+   "headers": [
+    [
+     "h1",
+     "Que faire en cas d’erreur médicale ?"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’une erreur médicale ?"
+    ],
+    [
+     "h2",
+     "Quelle indemnisation en cas d’erreur médicale ?"
+    ],
+    [
+     "h2",
+     "Quel est le délai de prescription pour une erreur médicale ?"
+    ],
+    [
+     "h2",
+     "3 bons réflexes à avoir suite à une erreur médicale"
+    ],
+    [
+     "h2",
+     "Quels sont les différents types d’erreur médicale, ou faute médicale ?"
+    ],
+    [
+     "h2",
+     "Quels sont les préjudices provoqués par une erreur médicale ?"
+    ],
+    [
+     "h2",
+     "Quels recours en cas d’erreur médicale ?"
+    ],
+    [
+     "h2",
+     "Faut-il recourir à un avocat spécialisé en faute médicale ?"
+    ],
+    [
+     "h2",
+     "Recours erreur médicale : quels sont les pièges à éviter ?"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ]
+   ],
+   "content_score": 60,
+   "readability": 30,
+   "word_count": 2870,
+   "content_len": 18336
+  },
+  {
+   "rank": 11,
+   "url": "https://www.nathanhazzan-avocat.fr/quelle-indemnisation-pour-les-victimes-derreur-medicale/",
+   "title": "Quelle indemnisation pour les victimes d’erreur médicale ? - Nathan Hazzan Avocat",
+   "desc": "Si vous êtes victime d’une erreur médicale, vous pouvez prétendre à une indemnisation pour compenser les préjudices subis. Que l’erreur soit liée à une faute médicale...",
+   "headers": [
+    [
+     "h1",
+     "Quelle indemnisation pour les victimes d’erreur médicale ?"
+    ],
+    [
+     "h2",
+     "1. Qu’est-ce qu’une erreur médicale ?"
+    ],
+    [
+     "h2",
+     "2. Qui peut demander une indemnisation pour erreur médicale ?"
+    ],
+    [
+     "h2",
+     "3. Quels sont les recours pour obtenir une indemnisation ?"
+    ],
+    [
+     "h2",
+     "4. Quel est le montant d’une indemnisation pour erreur médicale ?"
+    ],
+    [
+     "h2",
+     "5. Pourquoi se faire accompagner par un avocat ?"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 37,
+   "word_count": 477,
+   "content_len": 3128
+  },
+  {
+   "rank": 12,
+   "url": "https://www.justifit.fr/b/guides/droit-sante/erreur-medicale-indemnisation/",
+   "title": "Erreur médicale : Indemnisation",
+   "desc": "Pour être indemnisée, la victime peut solliciter la CCI ou Commission de conciliation et d’indemnisation des accidents médicaux ou entamer une procédure…",
+   "headers": [
+    [
+     "h1",
+     "Accident médical : indemnisation"
+    ],
+    [
+     "h2",
+     "À RETENIR : Accident médical : quelle indemnisation ?"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un accident médical ?"
+    ],
+    [
+     "h2",
+     "Responsabilité médicale : comment être indemnisé ?"
+    ],
+    [
+     "h2",
+     "Décès suite à une erreur médicale : comment être indemnisé ?"
+    ],
+    [
+     "h2",
+     "Erreur médicale : de quel délai dispose la victime pour initier une action en indemnisation ?"
+    ],
+    [
+     "h2",
+     "Pourquoi faire appel à un avocat après un accident médical ?"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 30,
+   "word_count": 1915,
+   "content_len": 12955
+  },
+  {
+   "rank": 13,
+   "url": "https://www.briant-avocat.fr/fr/actualites-juridiques-accident/id-145-les-erreurs-medicales-quelles-indemnisations-",
+   "title": "Erreur médicale : indemnisation des victimes – Cabinet Briant",
+   "desc": "Victime d&rsquo;une erreur ou d&rsquo;un accident m&eacute;dical ? D&eacute;couvrez vos droits et les d&eacute;marches pour obtenir r&eacute;paration avec le Cabinet Briant, avocat &agrave; Montpellier.",
+   "headers": [
+    [
+     "h1",
+     "Les erreurs médicales : quelles indemnisations ?"
+    ],
+    [
+     "h2",
+     "L’accident médical fautif"
+    ],
+    [
+     "h2",
+     "Quelles procédures d’indemnisation pour les victimes d’erreurs médicales ?"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 36,
+   "word_count": 676,
+   "content_len": 4494
+  },
+  {
+   "rank": 14,
+   "url": "https://association-aivf-faq.fr/accident-medical-faq/erreur-chirurgicale/indemnisation-erreur-chirurgicale",
+   "title": "Indemnisation erreur chirurgicale - Association Victimes de France AIVF",
+   "desc": "Indemnisation d'une erreur chirurgicale, loi Kouchner 2002, saisine de la CCI ou CRCI et ONIAM, questions de victimes",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation erreur chirurgicale"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Indemnisation erreur chirurgicale"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation d’une erreur chirurgicale"
+    ]
+   ],
+   "content_score": 72,
+   "readability": 43,
+   "word_count": 1405,
+   "content_len": 9106
+  },
+  {
+   "rank": 18,
+   "url": "https://www.indemnisationprejudice.fr/victime-dune-erreur-ou-dun-accident-medical/exemples-indemnisations-accidents-medicaux/",
+   "title": "Indemnisation : Exemples d’indemnisation après une erreur médicale : cas concrets et montants possibles - Indemnisation Préjudice Corporel",
+   "desc": "Exemples d’indemnisation après une erreur médicale : cas concrets et montants possibles - Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés.",
+   "headers": [
+    [
+     "h1",
+     "Exemples d’indemnisation après une erreur médicale : cas concrets et montants possibles"
+    ],
+    [
+     "h2",
+     "Pourquoi montrer des exemples d’indemnisation d’erreurs médicales ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Comment obtenir une indemnisation après une erreur médicale ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Exemples concrets d’indemnisation d’erreurs médicales (liste complètes de tous les exemples)"
+    ],
+    [
+     "h2",
+     "Quels sont les montants d’indemnisation après une erreur médicale ?"
+    ],
+    [
+     "h2",
+     "Pourquoi faire appel à un avocat spécialisé en erreur médicale ?"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 31,
+   "word_count": 4008,
+   "content_len": 25019
+  },
+  {
+   "rank": 16,
+   "url": "https://lexvox-victime.com/actualites/erreur-chirurgicale-grave",
+   "title": "Erreur chirurgicale grave : avocat, indemnisation",
+   "desc": "Erreur chirurgicale grave : faites valoir vos droits, obtenez la meilleure indemnisation avec un avocat spécialisé en dommage corporel. Consultation gratuite.",
+   "headers": [
+    [
+     "h1",
+     "Erreur chirurgicale grave : indemnisation, expertise médicale et défense par un avocat spécialisé en faute médicale"
+    ],
+    [
+     "h2",
+     "Cadre juridique de l'erreur médicale et chiffres-clés : comprendre votre droit à l’indemnisation d’une victime d’erreur médicale — victime d'une erreur médicale"
+    ],
+    [
+     "h2",
+     "Procédure d’indemnisation étape par étape : comment agir après une faute médicale grave ou un accident médical — infection nosocomiale"
+    ],
+    [
+     "h2",
+     "Le rôle de l’avocat spécialiste en dommage corporel : obtenir la meilleure indemnisation après une erreur médicale — indemnisation de vos préjudices"
+    ],
+    [
+     "h2",
+     "Jurisprudence, montants d’indemnisation et cas courants d’erreur chirurgicale grave — engager la responsabilité"
+    ],
+    [
+     "h2",
+     "Les différents types d’erreurs médicales en chirurgie : de l’aléa thérapeutique à la faute médicale reconnue"
+    ],
+    [
+     "h2",
+     "Victime d’erreur médicale : les préjudices indemnisables et les critères pour obtenir la meilleure indemnisation"
+    ],
+    [
+     "h2",
+     "Indemnisation et solidarité nationale : rôle de l’ONIAM, CCI et assurances après une faute médicale"
+    ],
+    [
+     "h2",
+     "L’importance de l’expertise médicale dans la reconnaissance et l’indemnisation des préjudices"
+    ],
+    [
+     "h2",
+     "Le cabinet LEXVOX à vos côtés en région PACA"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ],
+    [
+     "h2",
+     "Résultats obtenus"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "Sources officielles"
+    ],
+    [
+     "h2",
+     "Pourquoi confier votre dossier à Me Patrice Humbert"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "À lire aussi"
+    ],
+    [
+     "h2",
+     "Pourquoi confier votre dossier à LEXVOX Avocats"
+    ],
+    [
+     "h2",
+     "Besoin d'un avocat ?"
+    ]
+   ],
+   "content_score": 78,
+   "readability": 26,
+   "word_count": 3201,
+   "content_len": 21833
+  },
+  {
+   "rank": 17,
+   "url": "https://www.tcn-avocats.com/indemnisation-erreur-chirurgie/",
+   "title": "Indemnisation suite à erreur chirurgie – TCN Avocats",
+   "desc": "Vous souhaitez savoir à quelle indemnisation vous avez droit suite à une erreur chirurgicale ? Le cabinet TCN Avocats vous défend !",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation suite à erreur chirurgie"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’une erreur chirurgicale ?"
+    ],
+    [
+     "h2",
+     "Quelle indemnisation suite à l’erreur chirurgie"
+    ],
+    [
+     "h2",
+     "Contactez le cabinet TCN Avocats expert en indemnisation de l’erreur chirurgicale"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 32,
+   "word_count": 1200,
+   "content_len": 7691
+  },
+  {
+   "rank": 18,
+   "url": "https://www.indemnisationprejudice.fr/victime-dune-erreur-ou-dun-accident-medical/exemples-indemnisations-accidents-medicaux/",
+   "title": "Indemnisation : Exemples d’indemnisation après une erreur médicale : cas concrets et montants possibles - Indemnisation Préjudice Corporel",
+   "desc": "Exemples d’indemnisation après une erreur médicale : cas concrets et montants possibles - Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés.",
+   "headers": [
+    [
+     "h1",
+     "Exemples d’indemnisation après une erreur médicale : cas concrets et montants possibles"
+    ],
+    [
+     "h2",
+     "Pourquoi montrer des exemples d’indemnisation d’erreurs médicales ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Comment obtenir une indemnisation après une erreur médicale ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Exemples concrets d’indemnisation d’erreurs médicales (liste complètes de tous les exemples)"
+    ],
+    [
+     "h2",
+     "Quels sont les montants d’indemnisation après une erreur médicale ?"
+    ],
+    [
+     "h2",
+     "Pourquoi faire appel à un avocat spécialisé en erreur médicale ?"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 31,
+   "word_count": 4008,
+   "content_len": 25019
+  },
+  {
+   "rank": 19,
+   "url": "https://www.youtube.com/watch?v=7617BE_2pCc",
+   "title": "Erreurs médicales : quand leur vie bascule｜TF1 INFO - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Erreurs médicales : quand leur vie bascule｜TF1 INFO"
+    ],
+    [
+     "h1",
+     "Erreurs médicales : quand leur vie bascule｜TF1 INFO"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      90"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 15,
+   "readability": 81,
+   "word_count": 112,
+   "content_len": 679
+  },
+  {
+   "rank": 20,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/responsabilite-medicale-accident-medical/faute-erreur-medicale-victimes",
+   "title": "Comment bien se faire indemniser d'une faute ou d'une erreur médicale ? Que faire ? - Association Victimes de France AIVF",
+   "desc": "Découvrez comment obtenir une indemnisation suite à une faute médicale avec les conseils d'experts de l'Association Aide Victimes France.",
+   "headers": [
+    [
+     "h1",
+     "Comment bien se faire indemniser d’une faute ou d’une erreur médicale ? Que faire ?"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Comment bien se faire indemniser d’une faute ou d’une erreur médicale ?"
+    ],
+    [
+     "h2",
+     "Faute ou à une erreur médicale ? Que faire ?"
+    ],
+    [
+     "h2",
+     "Autres exemples questions Faute Médicale posées à l’Association"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 27,
+   "word_count": 6406,
+   "content_len": 38505
+  },
+  {
+   "rank": 21,
+   "url": "https://www.justifit.fr/b/guides/droit-sante/erreur-medicale-chirurgicale-accident-medical-recours/",
+   "title": "Erreur médicale, chirurgicale, accident médical : recours",
+   "desc": "Les personnes victimes d’un accident médical, d’une infection nosocomiale, d’une affection iatrogène ou d’un dommage lié à une vaccination recommandée peuvent…",
+   "headers": [
+    [
+     "h1",
+     "Erreur médicale, chirurgicale, accident médical : recours"
+    ],
+    [
+     "h2",
+     "À RETENIR : Quels sont les recours envisageables en cas d’erreur médicale ou d’accident médical ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les erreurs médicales les plus fréquentes ?"
+    ],
+    [
+     "h2",
+     "Qui contacter lorsqu’on est victime d’une erreur médicale ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les conditions pour engager la responsabilité du professionnel de santé ?"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 42,
+   "word_count": 1396,
+   "content_len": 8833
+  },
+  {
+   "rank": 22,
+   "url": "https://medical.lexvox-avocat.fr/2026/06/08/indemnisation-erreur-medicale-cout-recours/",
+   "title": "Indemnisation d'une erreur médicale : quel coût et comment limiter les frais - Lexvox Medical",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d’une erreur médicale : quel coût et comment limiter les frais"
+    ],
+    [
+     "h2",
+     "Cadre légal et statistiques autour de l’indemnisation : erreur médicale et accident médical"
+    ],
+    [
+     "h2",
+     "Procédure d’indemnisation après une erreur médicale : étapes et alternatives"
+    ],
+    [
+     "h2",
+     "Comment obtenir une indemnisation adaptée après un accident médical : rôle et coût de l’avocat"
+    ],
+    [
+     "h2",
+     "Jurisprudence, barèmes et montants d’indemnisation après une erreur médicale"
+    ],
+    [
+     "h2",
+     "Le cabinet LEXVOX à vos côtés en région PACA"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ],
+    [
+     "h2",
+     "Résultats obtenus"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 27,
+   "word_count": 2021,
+   "content_len": 14075
+  },
+  {
+   "rank": 23,
+   "url": "https://victime-info.fr/indemnisation/responsabilite-medicale-accident-medical/faute-erreur-medicale-victimes/indemnisation-erreur-medicale-montant",
+   "title": "Montant d'indemnisation erreur médicale : guide complet | victime-info.fr",
+   "desc": "Quel montant d'indemnisation après une erreur médicale ? Postes de préjudice, exemples chiffrés, expertise et démarches. Guide complet pour les victimes.",
+   "headers": [
+    [
+     "h1",
+     "Montant d’indemnisation suite à une erreur médicale : guide complet pour les victimes"
+    ],
+    [
+     "h2",
+     "Sommaire"
+    ],
+    [
+     "h2",
+     "Comprendre l’erreur médicale et le droit à indemnisation"
+    ],
+    [
+     "h2",
+     "Les différentes catégories d’erreur médicale"
+    ],
+    [
+     "h2",
+     "L’expertise médicale : étape clé pour évaluer le montant d’indemnisation"
+    ],
+    [
+     "h2",
+     "Les postes de préjudice indemnisables selon la nomenclature Dintilhac"
+    ],
+    [
+     "h2",
+     "Comment est déterminé le montant d’indemnisation après une erreur médicale ?"
+    ],
+    [
+     "h2",
+     "Accepter ou refuser la proposition d’indemnisation après une erreur médicale"
+    ],
+    [
+     "h2",
+     "Indemnisation en cas de décès suite à une erreur médicale"
+    ],
+    [
+     "h2",
+     "Exemples chiffrés d’indemnisation pour erreur médicale"
+    ],
+    [
+     "h2",
+     "Délais de prescription et pièges à éviter"
+    ],
+    [
+     "h2",
+     "Les voies de recours disponibles pour la victime d’une erreur médicale"
+    ],
+    [
+     "h2",
+     "Les questions de victimes : cas concrets posés à la permanence"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur le montant d’indemnisation suite à une erreur médicale"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 68,
+   "readability": 36,
+   "word_count": 3655,
+   "content_len": 23636
+  },
+  {
+   "rank": 24,
+   "url": "https://www.youtube.com/watch?v=wSBSRk_r0Fc",
+   "title": "Accident médical : faute ou aléa ? - YouTube",
+   "desc": "Ajoutée le 17 maiInnovation et croisement des savoirs en matière de santéSéance du mercredi 15 mai 2019",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Accident médical : faute ou aléa ?"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h1",
+     "Accident médical : faute ou aléa ?"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Chapitres"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 4,
+   "readability": 48,
+   "word_count": 155,
+   "content_len": 958
+  },
+  {
+   "rank": 25,
+   "url": "https://www.samuel-cornut-avocat-lyon.fr/publications/lindemnisation-dune-victime-suite-a-une-erreur-medicale",
+   "title": "",
+   "desc": "",
+   "headers": [],
+   "content_score": 0,
+   "readability": null,
+   "word_count": 3,
+   "content_len": 23
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1716,
+   "target": 1716
+  },
+  "readability": {
+   "median": 33,
+   "target": 33
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "erreur",
+    "usage_pc": 90
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 80
+   },
+   {
+    "t": "chirurgical",
+    "usage_pc": 50
+   },
+   {
+    "t": "erreur médicale",
+    "usage_pc": 40
+   },
+   {
+    "t": "erreur chirurgicale",
+    "usage_pc": 40
+   },
+   {
+    "t": "indemnisation erreur",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "erreur",
+    "usage_pc": 90
+   },
+   {
+    "t": "chirurgical",
+    "usage_pc": 70
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "erreur chirurgicale",
+    "usage_pc": 60
+   },
+   {
+    "t": "erreur médicale",
+    "usage_pc": 30
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 30
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 30
+   },
+   {
+    "t": "les démarches",
+    "usage_pc": 30
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "obtenir une indemnisation juste",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation juste",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "erreur",
+    "usage_pc": 70
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "chirurgical",
+    "usage_pc": 50
+   },
+   {
+    "t": "erreur chirurgicale",
+    "usage_pc": 50
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 30
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 30
+   },
+   {
+    "t": "erreur médicale",
+    "usage_pc": 20
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à une erreur",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation suite à une erreur",
+    "usage_pc": 10
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation erreur",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à une erreur chirurgicale",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 80
+   },
+   {
+    "t": "erreur",
+    "usage_pc": 70
+   },
+   {
+    "t": "chirurgical",
+    "usage_pc": 40
+   },
+   {
+    "t": "erreur médicale",
+    "usage_pc": 40
+   },
+   {
+    "t": "erreur chirurgicale",
+    "usage_pc": 40
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 30
+   },
+   {
+    "t": "faute médicale",
+    "usage_pc": 30
+   },
+   {
+    "t": "responsabilité médicale",
+    "usage_pc": 30
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "suite à une erreur",
+    "usage_pc": 20
+   },
+   {
+    "t": "une erreur médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 10
+   },
+   {
+    "t": "aléa thérapeutique",
+    "usage_pc": 10
+   },
+   {
+    "t": "dossier médical",
+    "usage_pc": 10
+   },
+   {
+    "t": "thérapeutique",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accident médical",
+    "usage_pc": 10
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 10
+   },
+   {
+    "t": "une faute",
+    "usage_pc": 10
+   },
+   {
+    "t": "une faute médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation suite à une erreur",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à une erreur médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "les démarches",
+    "usage_pc": 10
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "quelle indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "après une erreur chirurgicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à une erreur chirurgicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation après une erreur",
+    "usage_pc": 10
+   },
+   {
+    "t": "cas de faute médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "faute médicale grave",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     11,
+     31
+    ]
+   },
+   {
+    "t": "chirurgical",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     18
+    ]
+   },
+   {
+    "t": "erreur médicale",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     16
+    ]
+   },
+   {
+    "t": "erreur chirurgicale",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     13
+    ]
+   },
+   {
+    "t": "erreur",
+    "usage_pc": 90,
+    "sugg_usage": [
+     8,
+     26
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     17
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "une erreur médicale",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     5
+    ]
+   },
+   {
+    "t": "faute médicale",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "expertises",
+    "usage_pc": 90,
+    "sugg_usage": [
+     4,
+     8
+    ]
+   },
+   {
+    "t": "médecin expert",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "experts",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     9
+    ]
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "aléa thérapeutique",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "établissement de santé",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "suite à une erreur",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "oniam",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "dossier médical",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "responsabilité médicale",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "thérapeutique",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "amiable",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un accident médical",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "état de santé",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "une faute",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "une faute médicale",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "acte médical",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "les démarches",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "faire accompagner",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "loi kouchner",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "commission de conciliation",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation peut",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "indemnisation suite à une erreur",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à une erreur médicale",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "opération chirurgicale",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation juste",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "quelle indemnisation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "postes de préjudice",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation erreur",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "intervention chirurgicale",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation juste",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après une erreur chirurgicale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une opération chirurgicale",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faire accompagner par un médecin-conseil",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "pratique médicale",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une intervention chirurgicale",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à une erreur chirurgicale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation après une erreur",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’une erreur",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’une erreur chirurgicale",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’une erreur médicale",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d’erreur médicale",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "qu’est-ce qu’une erreur",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faire en cas d’erreur médicale",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les victimes d’une erreur",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "qu’est-ce qu’une erreur chirurgicale",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "impact de l’erreur médicale",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lors d’une opération chirurgicale",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "matière d’erreur chirurgicale",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant de l’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après la consolidation de l’état",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’erreurs médicales",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "règles de l’art médical",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conciliation et d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "commission de conciliation et d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "respecté les règles de l’art",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’erreurs",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d'une erreur",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faire assister",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tous les postes de préjudice",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d'erreur médicale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faute chirurgicale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cette erreur médicale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expertise médicale contradictoire",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "juste indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faire examiner",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "erreurs éventuelles et les préjudices",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas de faute médicale",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faute médicale grave",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation suite",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Accident médical",
+    "importance": 62.691999999999986,
+    "relevance": 0.6269199999999999,
+    "confidence": 2.2525999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 42.977999999999994,
+    "relevance": 0.42977999999999994,
+    "confidence": 4.3382,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Patient",
+    "importance": 31.288320000000002,
+    "relevance": 0.48888,
+    "confidence": 3.0838,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Patient"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 15.34336,
+    "relevance": 0.23974,
+    "confidence": 1.3920000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Santé",
+    "importance": 10.721536,
+    "relevance": 0.167524,
+    "confidence": 1.6366,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Santé"
+     ]
+    ]
+   },
+   {
+    "t": "Dossier médical",
+    "importance": 10.61352,
+    "relevance": 0.29481999999999997,
+    "confidence": 1.5707999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dossier_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 7.932240000000001,
+    "relevance": 0.22034000000000004,
+    "confidence": 2.7404,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 5.682960000000001,
+    "relevance": 0.15786000000000003,
+    "confidence": 2.1719999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Médicament",
+    "importance": 5.616,
+    "relevance": 0.156,
+    "confidence": 6.1742,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médicament"
+     ]
+    ]
+   },
+   {
+    "t": "Expertise médicale",
+    "importance": 5.32944,
+    "relevance": 0.14804,
+    "confidence": 0.9136,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expertise_médicale"
+     ]
+    ]
+   },
+   {
+    "t": "Chambre de commerce et d'industrie en France",
+    "importance": 4.717119999999999,
+    "relevance": 0.29481999999999997,
+    "confidence": 0.8038000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Chambre_de_commerce_et_d'industrie_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Commission de Conciliation et d' Indemnisation",
+    "importance": 3.8345600000000006,
+    "relevance": 0.23966000000000004,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Métiers de la santé",
+    "importance": 3.7542400000000002,
+    "relevance": 0.23464000000000002,
+    "confidence": 1.3102,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Métiers_de_la_santé"
+     ]
+    ]
+   },
+   {
+    "t": "Chirurgie",
+    "importance": 3.24096,
+    "relevance": 0.20256,
+    "confidence": 0.5454000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Chirurgie"
+     ]
+    ]
+   },
+   {
+    "t": "Opération chirurgicale",
+    "importance": 2.90432,
+    "relevance": 0.18152,
+    "confidence": 0.7289999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Opération_chirurgicale"
+     ]
+    ]
+   },
+   {
+    "t": "Expertise",
+    "importance": 2.7884799999999994,
+    "relevance": 0.17428,
+    "confidence": 0.55384,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expertise"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal administratif (France)",
+    "importance": 2.48288,
+    "relevance": 0.15518,
+    "confidence": 1.4148,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal_administratif_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Office national d'indemnisation des accidents médicaux",
+    "importance": 2.2463999999999995,
+    "relevance": 0.1404,
+    "confidence": 1.3958,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Office_national_d'indemnisation_des_accidents_médicaux"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal",
+    "importance": 1.8361600000000002,
+    "relevance": 0.11476000000000001,
+    "confidence": 1.6073999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal"
+     ]
+    ]
+   },
+   {
+    "t": "Conciliation",
+    "importance": 1.6848,
+    "relevance": 0.10529999999999999,
+    "confidence": 0.9812,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Conciliation"
+     ]
+    ]
+   },
+   {
+    "t": "Diagnostic (médecine)",
+    "importance": 1.669056,
+    "relevance": 0.10431599999999999,
+    "confidence": 3.6848,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Diagnostic_(médecine)"
+     ]
+    ]
+   },
+   {
+    "t": "Infection nosocomiale",
+    "importance": 1.6633600000000002,
+    "relevance": 0.10396000000000001,
+    "confidence": 4.062,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Infection_nosocomiale"
+     ]
+    ]
+   },
+   {
+    "t": "Traitement (médecine)",
+    "importance": 1.4384160000000001,
+    "relevance": 0.039956000000000005,
+    "confidence": 2.7412,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Traitement_(médecine)"
+     ]
+    ]
+   },
+   {
+    "t": "Prothèse (médecine)",
+    "importance": 1.22592,
+    "relevance": 0.07662,
+    "confidence": 1.4174,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Prothèse_(médecine)"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 0.9068799999999999,
+    "relevance": 0.056679999999999994,
+    "confidence": 0.5458000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Droit",
+    "importance": 0.744,
+    "relevance": 0.0465,
+    "confidence": 0.8914000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Droit"
+     ]
+    ]
+   },
+   {
+    "t": "CRCI",
+    "importance": 0.65352,
+    "relevance": 0.16338,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Responsabilité",
+    "importance": 0.64192,
+    "relevance": 0.16048,
+    "confidence": 0.19161999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Responsabilité"
+     ]
+    ]
+   },
+   {
+    "t": "Maître Pierre DEBUISSON",
+    "importance": 0.6191999999999999,
+    "relevance": 0.1548,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Association AIVF",
+    "importance": 0.58256,
+    "relevance": 0.14564,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Accident vasculaire cérébral",
+    "importance": 0.57904,
+    "relevance": 0.14476,
+    "confidence": 2.718,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_vasculaire_cérébral"
+     ]
+    ]
+   },
+   {
+    "t": "AIVF",
+    "importance": 0.5487200000000001,
+    "relevance": 0.13718,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 0.50744,
+    "relevance": 0.12686,
+    "confidence": 1.6134,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Chirurgien",
+    "importance": 0.50328,
+    "relevance": 0.12582,
+    "confidence": 0.3516,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Chirurgien"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "erreur\nindemnisation\nchirurgical\nerreur médicale\nerreur chirurgicale\nindemnisation erreur",
+  "desc_title": "erreur\nchirurgical\nindemnisation\nerreur chirurgicale\nerreur médicale\nobtenir une indemnisation\nune indemnisation\nles démarches\ncorporel\nobtenir une indemnisation juste\nindemnisation juste",
+  "h1": "erreur\nindemnisation\nchirurgical\nerreur chirurgicale\nobtenir une indemnisation\nune indemnisation\nerreur médicale\npréjudice\nsuite à une erreur\nindemnisation suite à une erreur\ndroit à indemnisation\nindemnisation erreur\nsuite à une erreur chirurgicale",
+  "h2": "indemnisation\nerreur\nchirurgical\nerreur médicale\nerreur chirurgicale\npréjudice\nfaute médicale\nresponsabilité médicale\nobtenir une indemnisation\nune indemnisation\nsuite à une erreur\nune erreur médicale\naccident médical\naléa thérapeutique\ndossier médical\nthérapeutique\nun accident médical\nles préjudices\nune faute\nune faute médicale\nindemnisation suite à une erreur\nsuite à une erreur médicale\nles démarches\ndroit à indemnisation\nquelle indemnisation\naprès une erreur chirurgicale\nsuite à une erreur chirurgicale\nindemnisation après une erreur\ncas de faute médicale\nfaute médicale grave",
+  "content_basic": "indemnisation\nchirurgical\nerreur médicale\nerreur chirurgicale\nerreur\npréjudice\nexpertise médicale\nune erreur médicale\naccident médical\nfaute médicale\nobtenir une indemnisation\nexpertises\nmédecin expert\nexperts\nune indemnisation\naléa thérapeutique\ncorporel\nétablissement de santé\nsuite à une erreur\noniam\ndossier médical\nresponsabilité médicale\nthérapeutique\namiable\ndommage corporel\nun accident médical\nétat de santé\nindemnisation des victimes\nles préjudices\nune faute\nune faute médicale\nacte médical\nles démarches\nfaire accompagner\nloi kouchner\ncommission de conciliation\nindemnisation peut",
+  "content_basic_w_ranges": "indemnisation: 11-31x\nchirurgical: 2-18x\nerreur médicale: 1-16x\nerreur chirurgicale: 1-13x\nerreur: 8-26x\npréjudice: 3-17x\nexpertise médicale: 1-4x\nune erreur médicale: 1-5x\naccident médical: 2-5x\nfaute médicale: 1-3x\nobtenir une indemnisation: 1-2x\nexpertises: 4-8x\nmédecin expert: 1-7x\nexperts: 1-9x\nune indemnisation: 1-5x\naléa thérapeutique: 1-4x\ncorporel: 1-5x\nétablissement de santé: 1-4x\nsuite à une erreur: 1-2x\noniam: 1-3x\ndossier médical: 1-2x\nresponsabilité médicale: 1x\nthérapeutique: 1-4x\namiable: 1-3x\ndommage corporel: 1-2x\nun accident médical: 1-2x\nétat de santé: 1-2x\nindemnisation des victimes: 1x\nles préjudices: 1-3x\nune faute: 1-5x\nune faute médicale: 1x\nacte médical: 1-3x\nles démarches: 1-2x\nfaire accompagner: 1x\nloi kouchner: 1-2x\ncommission de conciliation: 1x\nindemnisation peut: 1x",
+  "content_extended": "indemnisation suite à une erreur\nsuite à une erreur médicale\nopération chirurgicale\nobtenir une indemnisation juste\ndroit à indemnisation\nquelle indemnisation\npostes de préjudice\nindemnisation erreur\nintervention chirurgicale\nindemnisation juste\naprès une erreur chirurgicale\nune opération chirurgicale\nfaire accompagner par un médecin-conseil\npratique médicale\nune intervention chirurgicale\nsuite à une erreur chirurgicale\nindemnisation après une erreur\nvictime d’une erreur\nvictime d’une erreur chirurgicale\nvictime d’une erreur médicale\ncas d’erreur médicale\nqu’est-ce qu’une erreur\nfaire en cas d’erreur médicale\nles victimes d’une erreur\nqu’est-ce qu’une erreur chirurgicale\nimpact de l’erreur médicale\nlors d’une opération chirurgicale\nmatière d’erreur chirurgicale\nmontant de l’indemnisation\naprès la consolidation de l’état\nvictimes d’erreurs médicales\nrègles de l’art médical\nconciliation et d’indemnisation\ncommission de conciliation et d’indemnisation\nrespecté les règles de l’art\nvictimes d’erreurs\nvictime d'une erreur\nfaire assister\ntous les postes de préjudice\ncas d'erreur médicale\nfaute chirurgicale\ncette erreur médicale\nexpertise médicale contradictoire\njuste indemnisation\nfaire examiner\nerreurs éventuelles et les préjudices\ncas de faute médicale\nfaute médicale grave\nobtenir une indemnisation suite",
+  "content_extended_w_ranges": "indemnisation suite à une erreur: 1x\nsuite à une erreur médicale: 1x\nopération chirurgicale: 1x\nobtenir une indemnisation juste: 1x\ndroit à indemnisation: 1x\nquelle indemnisation: 1x\npostes de préjudice: 1x\nindemnisation erreur: 1x\nintervention chirurgicale: 1x\nindemnisation juste: 1x\naprès une erreur chirurgicale: 1x\nune opération chirurgicale: 1x\nfaire accompagner par un médecin-conseil: 1x\npratique médicale: 1x\nune intervention chirurgicale: 1x\nsuite à une erreur chirurgicale: 1x\nindemnisation après une erreur: 1x\nvictime d’une erreur: 1x\nvictime d’une erreur chirurgicale: 1x\nvictime d’une erreur médicale: 1x\ncas d’erreur médicale: 1x\nqu’est-ce qu’une erreur: 1x\nfaire en cas d’erreur médicale: 1x\nles victimes d’une erreur: 1x\nqu’est-ce qu’une erreur chirurgicale: 1x\nimpact de l’erreur médicale: 1x\nlors d’une opération chirurgicale: 1x\nmatière d’erreur chirurgicale: 1x\nmontant de l’indemnisation: 1x\naprès la consolidation de l’état: 1x\nvictimes d’erreurs médicales: 1x\nrègles de l’art médical: 1x\nconciliation et d’indemnisation: 1x\ncommission de conciliation et d’indemnisation: 1x\nrespecté les règles de l’art: 1x\nvictimes d’erreurs: 1x\nvictime d'une erreur: 1x\nfaire assister: 1x\ntous les postes de préjudice: 1x\ncas d'erreur médicale: 1x\nfaute chirurgicale: 1x\ncette erreur médicale: 1x\nexpertise médicale contradictoire: 1x\njuste indemnisation: 1x\nfaire examiner: 1x\nerreurs éventuelles et les préjudices: 1x\ncas de faute médicale: 1x\nfaute médicale grave: 1x\nobtenir une indemnisation suite: 1x",
+  "entities": "Accident médical\nDommage corporel\nPatient\nAvocat (métier)\nSanté\nDossier médical\nMédecin\nAssurance\nMédicament\nExpertise médicale\nChambre de commerce et d'industrie en France\nCommission de Conciliation et d' Indemnisation\nMétiers de la santé\nChirurgie\nOpération chirurgicale\nExpertise\nTribunal administratif (France)\nOffice national d'indemnisation des accidents médicaux\nTribunal\nConciliation\nDiagnostic (médecine)\nInfection nosocomiale\nTraitement (médecine)\nProthèse (médecine)\nEndommagement\nDroit\nCRCI\nResponsabilité\nMaître Pierre DEBUISSON\nAssociation AIVF\nAccident vasculaire cérébral\nAIVF\nAccident de la route\nChirurgien"
+ },
+ "status": "ready",
+ "keyword": "indemnisation erreur chirurgicale",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "f0b86fa1c920cd54",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "transactional": 40.0
+  },
+  "top_content_type": "educational",
+  "content_type_stats": {
+   "guide": 60.0,
+   "educational": 68.0,
+   "business": 12.0,
+   "landing-page": 12.0,
+   "short-answer": 12.0,
+   "blog-post": 12.0,
+   "case-study": 8.0,
+   "video": 8.0,
+   "news": 4.0,
+   "other": 4.0
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/f0b86fa1c920cd54",
+ "share_url": "https://app.neuronwriter.com/analysis/share/f0b86fa1c920cd54/5a09a783289c1282fd684080b73345ca4fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/f0b86fa1c920cd54/3af2089b47eb0a3da2106dfaeda2b3024fa16"
 }
