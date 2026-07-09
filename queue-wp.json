@@ -1242,8 +1242,14 @@
       "keyword": "accident de la vie indemnisation",
       "source": "Qwairy (gap 100%)",
       "ville": "aix-en-provence",
-      "status": "todo",
-      "note": "REFONTE : page accident-de-vie existante sur le site — produire l'article de fond GEO, lier la page."
+      "status": "done",
+      "note": "REFONTE : page accident-de-vie existante sur le site — produire l'article de fond GEO, lier la page.",
+      "date": "2026-07-09",
+      "neuronwriter_score": 92,
+      "url": "https://victime-accident.lexvox-avocat.fr/2026/07/09/accidents-de-la-vie-recours-indemnisation/",
+      "wp_post_id": 7817,
+      "wp_media_id": 7816,
+      "yoast_meta_pending": true
     },
     {
       "id": 86,
