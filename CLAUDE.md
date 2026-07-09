@@ -241,6 +241,10 @@ Image `img/articles/loi-badinter-indemnisation.jpg` (id 53, pilier) =
 copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
 dédié disponible) — à remplacer par un visuel dédié dès que possible.
 
+Image `img/articles/accident-delit-de-fuite-indemnisation.jpg` (id 54) =
+copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
+dédié disponible) — à remplacer par un visuel dédié dès que possible.
+
 Image `img/articles/indemnisation-chute-rue-escalier.jpg` (id 45) =
 copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
 dédié disponible) — à remplacer dès que possible.
