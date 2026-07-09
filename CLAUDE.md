@@ -233,6 +233,10 @@ Image `img/articles/indemnisation-cycliste-accident.jpg` (id 51) =
 copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
 dédié disponible) — à remplacer par un visuel dédié dès que possible.
 
+Image `img/articles/indemnisation-accident-trottinette.jpg` (id 52) =
+copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
+dédié disponible) — à remplacer par un visuel dédié dès que possible.
+
 Image `img/articles/indemnisation-chute-rue-escalier.jpg` (id 45) =
 copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
 dédié disponible) — à remplacer dès que possible.
