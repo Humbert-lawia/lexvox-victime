@@ -1,0 +1,3102 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quelle est l'indemnité pour une trottinette électrique ?"
+   },
+   {
+    "q": "Quelle responsabilité civile pour une trottinette ?"
+   },
+   {
+    "q": "Comment se faire rembourser une trottinette électrique ?"
+   },
+   {
+    "q": "Quelle est la loi pour les trottinettes ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quelle est l'indemnisation pour un accident de trottinette électrique et comment est-elle calculée ?": {
+    "importance": 10
+   },
+   "Quelle est la responsabilité civile de l'utilisateur d'une trottinette électrique en cas d'accident ?": {
+    "importance": 10
+   },
+   "Comment se faire rembourser les dommages matériels ou corporels après un accident de trottinette électrique ?": {
+    "importance": 9
+   },
+   "Quelle est la réglementation et la loi applicable aux trottinettes électriques en France ?": {
+    "importance": 9
+   },
+   "L'assurance est-elle obligatoire pour une trottinette électrique et que couvre-t-elle en cas d'accident ?": {
+    "importance": 8
+   },
+   "Quels sont les différents types d'accidents de trottinette électrique et leurs conséquences sur l'indemnisation ?": {
+    "importance": 8
+   },
+   "Quelles sont les démarches à suivre immédiatement après un accident de trottinette électrique ?": {
+    "importance": 7
+   },
+   "Que faire si l'indemnisation proposée après un accident de trottinette est jugée insuffisante ?": {
+    "importance": 7
+   },
+   "Quel est le rôle d'un avocat spécialisé dans l'indemnisation des victimes d'accidents de trottinette ?": {
+    "importance": 6
+   },
+   "Que se passe-t-il en cas d'accident de trottinette électrique sans tiers impliqué (chute seule) ?": {
+    "importance": 6
+   }
+  },
+  "content_questions": [
+   {
+    "q": "A LIRE : L’utilisation de la trottinette électrique : les risques, les dangers ?"
+   },
+   {
+    "q": "A LIRE : Un décret pour les trottinettes électriques ?"
+   },
+   {
+    "q": "Accident de gyropode ?"
+   },
+   {
+    "q": "Accident de trottinette : Connaissez-vous vos droits ?"
+   },
+   {
+    "q": "Accident de trottinette ou EDPM ?"
+   },
+   {
+    "q": "Accident de trottinette électrique : que faire ?"
+   },
+   {
+    "q": "Accident de trottinette électrique ?"
+   },
+   {
+    "q": "Accident en trottinette électrique : comment réagir ?"
+   },
+   {
+    "q": "Ai-je souscrit une assurance EDPM spécifique ?"
+   },
+   {
+    "q": "Assurance trottinette électrique & EDPM : est-ce obligatoire ?"
+   },
+   {
+    "q": "Assurance trottinette électrique, EDPM... pourquoi souscrire ?"
+   },
+   {
+    "q": "Assurance trottinette électrique, gyroroue, draisienne électrique : quelle formule choisir ?"
+   },
+   {
+    "q": "Cette assurance inclut-elle une garantie du conducteur (pour mes propres blessures) ?"
+   },
+   {
+    "q": "Combien coûte une assurance Allianz pour trottinette électrique ?"
+   },
+   {
+    "q": "Combien coûte une assurance pour trottinette électrique ?"
+   },
+   {
+    "q": "Combien de temps dure la procédure d'indemnisation ?"
+   },
+   {
+    "q": "Comment actionner l’assurance ou le Fonds de Garantie ?"
+   },
+   {
+    "q": "Comment assurer une trottinette électrique, un EDPM ou un cyclomobile léger ?"
+   },
+   {
+    "q": "Comment avoir une attestation d’assurance scolaire ?"
+   },
+   {
+    "q": "Comment bien choisir sa trottinette électrique ?"
+   },
+   {
+    "q": "Comment bien utiliser les nouveaux engins de déplacement personnels motorisés ?"
+   },
+   {
+    "q": "Comment déclarer un accident ou un sinistre ?"
+   },
+   {
+    "q": "Comment maximiser votre indemnisation ?"
+   },
+   {
+    "q": "Comment obtenir réparation de ses préjudices ?"
+   },
+   {
+    "q": "Comment obtenir une vraie indemnisation de mes préjudices ?"
+   },
+   {
+    "q": "Comment payer moins cher son assurance auto jeune conducteur ?"
+   },
+   {
+    "q": "Dois-je vraiment être assuré pour circuler en trottinette électrique ?"
+   },
+   {
+    "q": "Engins de Déplacement Personnel Motorisés (EDPM), cyclomobiles légers, de quoi s'agit-il ?"
+   },
+   {
+    "q": "Est-ce qu'il y a une assurance vol pour la trottinette électrique ?"
+   },
+   {
+    "q": "Est-il obligatoire d'avoir une assurance pour une trottinette électrique ?"
+   },
+   {
+    "q": "Et pour les chutes ou accidents seuls ?"
+   },
+   {
+    "q": "Et si la trottinette n'est pas assurée ?"
+   },
+   {
+    "q": "Faut-il assurer une trottinette électrique ?"
+   },
+   {
+    "q": "Faut-il souscrire une garantie Responsabilité civile pour utiliser un hoverboard ?"
+   },
+   {
+    "q": "Faut-il une assurance ?"
+   },
+   {
+    "q": "Indemnisation d'accident de trottinette : quels droits ?"
+   },
+   {
+    "q": "Je viens d'avoir un accident en trottinette, que faire dans les 48H ?"
+   },
+   {
+    "q": "L'assurance habitation couvre-t-elle la trottinette électrique ?"
+   },
+   {
+    "q": "La trottinette n'est pas immatriculée : est-ce un obstacle à mon indemnisation ?"
+   },
+   {
+    "q": "Le conducteur était-il assuré ?"
+   },
+   {
+    "q": "Les plafonds d’indemnisation sont-ils suffisants ?"
+   },
+   {
+    "q": "Les questions fusent :\r\n\r\nSuis-je vraiment couvert par une assurance ?"
+   },
+   {
+    "q": "Loi Badinter : quelle prise en charge en cas d'accident de trottinette ?"
+   },
+   {
+    "q": "Loi Badinter : quelle prise en charge en cas d’accident de trottinette ?"
+   },
+   {
+    "q": "L’assurance de la trottinette louée (Lime, Dott, Tier…) va-t-elle intervenir ?"
+   },
+   {
+    "q": "L’assurance est-elle obligatoire en trottinette électrique ?"
+   },
+   {
+    "q": "L’assurance est-elle obligatoire pour une trottinette ?"
+   },
+   {
+    "q": "Mon assurance habitation me couvre-t-elle ?"
+   },
+   {
+    "q": "Mon assurance habitation ou ma carte bancaire peut-elle me couvrir ?"
+   },
+   {
+    "q": "Où trouver mes attestations d’assurance ?"
+   },
+   {
+    "q": "Pour les dommages matériels subis par le piéton, tout dépendra en revanche de son droit à indemnisation (a-t-il commis une faute ?"
+   },
+   {
+    "q": "Pourquoi choisir le Cabinet BENEZRA pour votre accident de trottinette ?"
+   },
+   {
+    "q": "Pourquoi choisir le cabinet BENEZRA pour votre accident de trottinette ou EDPM ?"
+   },
+   {
+    "q": "Pourquoi les assurances proposent des transactions rapides ?"
+   },
+   {
+    "q": "Puis-je recevoir une amende si je ne respecte pas les règles de circulation avec ma trottinette électrique ?"
+   },
+   {
+    "q": "QUI VA VOUS INDEMNISER ?"
+   },
+   {
+    "q": "Qu'est ce qu'un EDPM ?"
+   },
+   {
+    "q": "Qu'est-ce que la Loi Badinter ?"
+   },
+   {
+    "q": "Qu'est-ce que le bonus-malus assurance auto et comment le calculer ?"
+   },
+   {
+    "q": "Que faire en cas d'accident en trottinette électrique ?"
+   },
+   {
+    "q": "Que faire en cas d’accident avec une trottinette électrique ?"
+   },
+   {
+    "q": "Que faire en cas d’accident en trottinette électrique ?"
+   },
+   {
+    "q": "Que faire juste après un accident de trottinette ?"
+   },
+   {
+    "q": "Que faire si je viens d’avoir un accident ?"
+   },
+   {
+    "q": "Que se passe-t-il lors d’un accident avec une trottinette électrique ?"
+   },
+   {
+    "q": "Que se passe-t-il si le conducteur du véhicule responsable de l’accident présente un défaut d’assurance, ou s’il prend la fuite ?"
+   },
+   {
+    "q": "Que signifient NVEI et EDPM ?"
+   },
+   {
+    "q": "Quel recours si l’indemnisation proposée est insuffisante ?"
+   },
+   {
+    "q": "Quelle assurance doit intervenir (loueur, assurance personnelle, assurance du tiers…) ?"
+   },
+   {
+    "q": "Quelle est la principale cause des accidents impliquant des trottinettes électriques ?"
+   },
+   {
+    "q": "Quelle indemnisation pour une victime d’accident de trottinette électrique ?"
+   },
+   {
+    "q": "Quelle indemnisation pour une victime d’accident d’EDPM ?"
+   },
+   {
+    "q": "Quelle procédure d'indemnisation après un accident mortel ?"
+   },
+   {
+    "q": "Quelle responsabilité civile pour un usager de trottinette électrique ?"
+   },
+   {
+    "q": "Quelles sont les conditions d’indemnisation ?"
+   },
+   {
+    "q": "Quelles sont les démarches à suivre après un accident ?"
+   },
+   {
+    "q": "Quelles sont les obligations pour rouler en trottinette électrique ?"
+   },
+   {
+    "q": "Quelles sont les séquelles permanentes que vous conserverez suite à l'accident ?"
+   },
+   {
+    "q": "Quels accidents impliquent une trottinette électrique ?"
+   },
+   {
+    "q": "Quels préjudices sont indemnisés ?"
+   },
+   {
+    "q": "Quels sont les types d'accidents et les droits à indemnisation associés ?"
+   },
+   {
+    "q": "Quels sont les équipements obligatoires en trottinette électrique et autres EDPM ?"
+   },
+   {
+    "q": "Quels sont les équipements obligatoires sur un EDPM ?"
+   },
+   {
+    "q": "Qui indemnise ?"
+   },
+   {
+    "q": "Qui indemnise la victime ?"
+   },
+   {
+    "q": "Qu’est-ce que la Loi Badinter ?"
+   },
+   {
+    "q": "Rouler en trottinette électrique sous la pluie, une idée à oublier ?"
+   },
+   {
+    "q": "Suis-je indemnisé si je ne portais pas de casque ?"
+   },
+   {
+    "q": "Suis-je vraiment couvert par une assurance ?"
+   },
+   {
+    "q": "Trottinette en libre-service : qui est responsable ?"
+   },
+   {
+    "q": "Un piéton renversé par une trottinette est-il indemnisé ?"
+   },
+   {
+    "q": "Une trottinette électrique doit-elle être assurée ?"
+   },
+   {
+    "q": "Victime d'un accident de trottinette ou d'un autre EDPM ?"
+   },
+   {
+    "q": "Victime d'un accident de trottinette électrique impliquant un véhicule ?"
+   },
+   {
+    "q": "Victime d’un accident ?"
+   },
+   {
+    "q": "Victime d’un accident de trottinette électrique impliquant un véhicule ?"
+   },
+   {
+    "q": "Victime d’un accident, d’une agression, proche de victime ?"
+   },
+   {
+    "q": "Violences volontaires : comment obtenir l’indemnisation de vos préjudices ?"
+   },
+   {
+    "q": "Vos équipements de protection sont endommagés en même temps que votre trottinette électrique ou autre EDPM ?"
+   },
+   {
+    "q": "Votre trottinette électrique (ou autre EDPM) est endommagée lors d'un accident ?"
+   },
+   {
+    "q": "Votre trottinette électrique (ou autre EDPM) est endommagée/ détruite par un attentat ?"
+   },
+   {
+    "q": "Votre trottinette électrique (ou autre EDPM) est totalement détruite lors d'un incendie ?"
+   },
+   {
+    "q": "Votre trottinette électrique (ou autre EDPM) est volée dans votre cave, avec effraction ?"
+   },
+   {
+    "q": "Votre trottinette électrique (ou tout autre EDPM) est endommagée/détruite suite à un évènement climatique qualifié de catastrophe naturelle ou technologique ?"
+   },
+   {
+    "q": "Vous causez un accident dont vous êtes reconnu responsable ?"
+   },
+   {
+    "q": "Vous faites une chute en percutant une voiture stationnée, entrainant des dommages sur votre trottinette et vos équipements de sécurité ?"
+   },
+   {
+    "q": "Vous vous demandez combien coûte une assurance trottinette électrique ?"
+   },
+   {
+    "q": "Vous êtes victime ou responsable d’un accident ?"
+   },
+   {
+    "q": "pour un accident de trottinette ?"
+   },
+   {
+    "q": "sur les « accidents de trottinettes » ?"
+   },
+   {
+    "q": "Étiez-vous assuré au moment de l’accident ?"
+   },
+   {
+    "q": "✓ Comment actionner l’assurance ou le FGAO ?"
+   },
+   {
+    "q": "✓ Comment maximiser votre indemnisation ?"
+   },
+   {
+    "q": "✓ Le conducteur était-il assuré ?"
+   },
+   {
+    "q": "✓ Quelle assurance doit intervenir ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.avocats-scp-schmitzberger-hoffer-colette.fr/indemnisation-accident-trottinette",
+   "title": "Indemnisation d'accident de trottinette : quels droits ?",
+   "desc": "Découvrez vos droits, les indemnisations possibles, l’importance d’être bien assuré et d'être accompagné par un avocat en cas d'accident de trottinette.",
+   "headers": [
+    [
+     "h1",
+     "Quelle indemnisationpour un accident de trottinette ?"
+    ],
+    [
+     "h2",
+     "Les droits des victimes d’accidents de trottinette"
+    ],
+    [
+     "h2",
+     "Les démarches à suivre pour obtenir une indemnisation"
+    ],
+    [
+     "h2",
+     "Accident de trottinette : l’importance d’un accompagnement juridique"
+    ],
+    [
+     "h2",
+     "Accident de trottinette : conclusion sur l’importance des démarches"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 27,
+   "word_count": 1997,
+   "content_len": 13225
+  },
+  {
+   "rank": 2,
+   "url": "https://www.coppet-avocats.fr/actualites/accidents-de-la-route/victime-accident-trottinette-indemnisation/",
+   "title": "Indemnisation après un accident de trottinette : démarches et prise en charge",
+   "desc": "Accident de trottinette électrique ou manuelle : régimes juridiques, loi Badinter, démarches après l'accident et étapes du processus d'indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Victime d’un accident de trottinette : démarches, prise en charge, et indemnisation"
+    ],
+    [
+     "h2",
+     "Loi Badinter : quelle prise en charge en cas d’accident de trottinette ?"
+    ],
+    [
+     "h2",
+     "Accidents de trottinette électrique : typologie, particularités, indemnisation"
+    ],
+    [
+     "h2",
+     "Accidents de trottinette : responsabilités et obligations"
+    ],
+    [
+     "h2",
+     "Victime d’un accident de trottinette électrique impliquant un véhicule ?"
+    ],
+    [
+     "h2",
+     "Accidents de trottinette électrique : étapes du processus indemnitaire"
+    ],
+    [
+     "h2",
+     "Victime d’un accident de trottinette électrique : un accompagnement pour une juste indemnisation"
+    ],
+    [
+     "h2",
+     "En résumé :"
+    ]
+   ],
+   "content_score": 78,
+   "readability": 25,
+   "word_count": 3818,
+   "content_len": 25381
+  },
+  {
+   "rank": 3,
+   "url": "https://jmp-avocat-indemnisation.fr/accidents-de-trottinette-gyropode-gyroroue-roller-hoverboard.html",
+   "title": "Accident de trottinette (EDPM) : indemnisation et recours",
+   "desc": "Accident de trottinette ou EDPM : qui est responsable, faut-il une assurance, comment obtenir réparation de vos préjudices corporels. Le guide complet.",
+   "headers": [
+    [
+     "h1",
+     "Accident de trottinette, gyroroue ou autre EDPM : responsabilité et indemnisation des victimes"
+    ],
+    [
+     "h2",
+     "Trottinette, gyroroue, hoverboard : de quels engins parle-t-on ?"
+    ],
+    [
+     "h2",
+     "Le régime applicable : la loi Badinter protège les victimes"
+    ],
+    [
+     "h2",
+     "Qui est responsable ? Toutes les configurations « qui est en tort »"
+    ],
+    [
+     "h2",
+     "Trottinette en libre-service : un régime particulier"
+    ],
+    [
+     "h2",
+     "Enfant ou adolescent victime en trottinette"
+    ],
+    [
+     "h2",
+     "Et si la trottinette n'est pas assurée ? Le rôle du FGAO"
+    ],
+    [
+     "h2",
+     "Que faire juste après un accident de trottinette ? La marche à suivre"
+    ],
+    [
+     "h2",
+     "Quels préjudices sont indemnisés ? La nomenclature Dintilhac"
+    ],
+    [
+     "h2",
+     "L'expertise médicale, l'étape qui détermine tout"
+    ],
+    [
+     "h2",
+     "Les délais à ne pas manquer"
+    ],
+    [
+     "h2",
+     "Cas particulier : l'accident de trajet en trottinette"
+    ],
+    [
+     "h2",
+     "Pourquoi vous faire accompagner par un avocat"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Références juridiques"
+    ]
+   ],
+   "content_score": 70,
+   "readability": 38,
+   "word_count": 2971,
+   "content_len": 19071
+  },
+  {
+   "rank": 4,
+   "url": "https://www.benezra.fr/avocats-accident-de-gyropode-victime.html",
+   "title": "Accident de trottinette, segway, overboard, monowheel, gyropode, EDM...",
+   "desc": "Victime d'un accident de trottinette et plus généralement de gyropode :(segway, overboard, monowheel...,) vos droits, et obtenez une indemnisation - avocat",
+   "headers": [
+    [
+     "h1",
+     "TROTTINETTE ÉLECTRIQUE : Le moyen de transport qui a changé la ville… et multiplié les accidents graves"
+    ],
+    [
+     "h2",
+     "Victime ou responsable d’un accident d’EDPM : vos droits, vos risques, votre indemnisation"
+    ],
+    [
+     "h2",
+     "1. Ce que 95% des conducteurs de trottinettes ignorent (et qui va leur coûter cher)"
+    ],
+    [
+     "h2",
+     "2. Les 5 situations d’accidents de trottinettes (et comment les gérer)"
+    ],
+    [
+     "h2",
+     "3. Les 7 graves erreurs après un accident de trottinette"
+    ],
+    [
+     "h2",
+     "4. Notre méthode SPÉCIFIQUE aux accidents de trottinettes"
+    ],
+    [
+     "h2",
+     "5. Pourquoi choisir le Cabinet BENEZRA pour votre accident de trottinette ?"
+    ],
+    [
+     "h2",
+     "6. FAQ Accidents de Trottinettes"
+    ],
+    [
+     "h2",
+     "7. Votre reconstruction commence MAINTENANT"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 36,
+   "word_count": 4448,
+   "content_len": 28302
+  },
+  {
+   "rank": 5,
+   "url": "https://www.assu2000.fr/conseils-infos-pratiques/que-faire-accident-trottinette-electrique",
+   "title": "Que faire en cas d’accident en trottinette électrique ? | ASSU 2000",
+   "desc": "Les dangers de la trottinette électriqueLes trottinettes électriques, bien que pratiques, comportent des risques importants. Les usagers peuvent subir des blessures graves, notamment au niveau de la tête, en raison de chutes fréquentes.La vitesse excessive et le non-respect du Code de la route augmentent le risque d'accidents. Les collisions avec les piétons ou d'autres véhicules sont également courantes. Ces incidents entraînent souvent des conséquences sévères pour les utilisateurs et les piétons.",
+   "headers": [
+    [
+     "h1",
+     "Que faire en cas d’accident en trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "Les dangers de la trottinette électrique"
+    ],
+    [
+     "h2",
+     "Un nombre d’accidents en hausse"
+    ],
+    [
+     "h2",
+     "Quelle est la principale cause des accidents impliquant des trottinettes électriques ?"
+    ],
+    [
+     "h2",
+     "Les obligations et responsabilités des utilisateurs"
+    ],
+    [
+     "h2",
+     "Le rôle de l'assurance en cas d'accident"
+    ],
+    [
+     "h2",
+     "Les risques encourus en l'absence d'assurance"
+    ],
+    [
+     "h2",
+     "Que faire en cas d'accident en trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "La prise en charge par un avocat suite à un accident"
+    ],
+    [
+     "h2",
+     "Quelle procédure d'indemnisation après un accident mortel ?"
+    ],
+    [
+     "h2",
+     "Nos conseils pour rouler en toute sécurité au guidon d’une trottinette électrique"
+    ]
+   ],
+   "content_score": 64,
+   "readability": 34,
+   "word_count": 1666,
+   "content_len": 11035
+  },
+  {
+   "rank": 6,
+   "url": "https://www.mae.fr/famille/guides/responsabilite-accident-en-edpm",
+   "title": "Accident de trottinette électrique : que faire ?",
+   "desc": "Accident trottinette électrique : assurance, responsabilité, constat amiable et indemnisation. Découvrez tout ce qu'il y a à savoir !",
+   "headers": [
+    [
+     "h1",
+     "Accident en trottinette électrique : assurance et démarches à suivre"
+    ],
+    [
+     "h2",
+     "Sommaire"
+    ],
+    [
+     "h2",
+     "L’essentiel à retenir"
+    ],
+    [
+     "h2",
+     "Quels accidents impliquent une trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "L’assurance est-elle obligatoire pour une trottinette ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les démarches à suivre après un accident ?"
+    ],
+    [
+     "h2",
+     "Qui est responsable ? Qui indemnise ?"
+    ],
+    [
+     "h2",
+     "Assurance Trottinette & Plus MAE : roulez protégé, tous les jours"
+    ],
+    [
+     "h2",
+     "Nos guides conseils associés"
+    ],
+    [
+     "h2",
+     "Trouvez l’offre qui vous correspond"
+    ]
+   ],
+   "content_score": 67,
+   "readability": 36,
+   "word_count": 2551,
+   "content_len": 16383
+  },
+  {
+   "rank": 7,
+   "url": "https://www.matmut.fr/assurance/nvei/conseils/accident-trottinette-comment-reagir",
+   "title": "Accident de trottinette électrique : que faire ? | Matmut",
+   "desc": "Un accident en trottinette ou en trottinette électrique peut avoir de lourdes conséquences (blessures graves, accident mortel...) et engager votre responsabilité. Être bien couvert est essentiel.",
+   "headers": [
+    [
+     "h1",
+     "Accident en trottinette électrique : comment réagir ?"
+    ],
+    [
+     "h2",
+     "L’accident en trottinette électrique"
+    ],
+    [
+     "h2",
+     "L’accident en trottinette non motorisée"
+    ],
+    [
+     "h2",
+     "Que faire en cas d’accident avec une trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "Faut-il remplir un constat avec une trottinette ?"
+    ],
+    [
+     "h2",
+     "L’assurance est-elle obligatoire en trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "Pour aller plus loin"
+    ]
+   ],
+   "content_score": 65,
+   "readability": 40,
+   "word_count": 1349,
+   "content_len": 8716
+  },
+  {
+   "rank": 8,
+   "url": "https://www.allianz.fr/assurance-particulier/vehicules/assurance-autres-vehicules/nouvelles-mobilites.html",
+   "title": "Assurance trottinette électrique 🛴 - Assurance hoverboard - Allianz",
+   "desc": "Trottinette électrique, hoverboard, gyroroue : assurez votre engin avec Allianz. ✔️Garanties adaptées, responsabilité civile incluse. ✔️Devis gratuit en ligne",
+   "headers": [
+    [
+     "h1",
+     "Assurance trottinette électrique, EDPM et cyclomobiles légers"
+    ],
+    [
+     "h2",
+     "Partez du bon pied !"
+    ],
+    [
+     "h2",
+     "Assurance trottinette électrique, EDPM... pourquoi souscrire ?"
+    ],
+    [
+     "h2",
+     "Sommaire"
+    ],
+    [
+     "h2",
+     "Assurance trottinette électrique, gyroroue, draisienne électrique : quelle formule choisir ?"
+    ],
+    [
+     "h2",
+     "Combien coûte une assurance pour trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "En savoir plus sur les nouvelles mobilités"
+    ],
+    [
+     "h2",
+     "Trottinette électrique"
+    ],
+    [
+     "h2",
+     "Hoverboard"
+    ],
+    [
+     "h2",
+     "Gyroroue"
+    ],
+    [
+     "h2",
+     "Draisienne électrique"
+    ],
+    [
+     "h2",
+     "Une protection maximale"
+    ],
+    [
+     "h2",
+     "Comment assurer une trottinette électrique, un EDPM ou un cyclomobile léger ?"
+    ],
+    [
+     "h2",
+     "Bon à savoir"
+    ],
+    [
+     "h2",
+     "Assurance trottinette électrique : consultez nos questions réponses"
+    ],
+    [
+     "h2",
+     "Quelles sont les règles à suivre ?"
+    ],
+    [
+     "h2",
+     "Assurance trottinette électrique : découvrez nos conseils pratiques"
+    ],
+    [
+     "h2",
+     "Ces offres peuvent également vous intéresser"
+    ]
+   ],
+   "content_score": 42,
+   "readability": 28,
+   "word_count": 3764,
+   "content_len": 24471
+  },
+  {
+   "rank": 9,
+   "url": "https://www.indemnisationprejudice.fr/indemnisation-accident-route/accident-trottinette-electrique-lois-et-indemnisation/",
+   "title": "Indemnisation : Accident de trottinette électrique : Lois et Indemnisation - Indemnisation Préjudice Corporel",
+   "desc": "Accident de trottinette électrique : Lois et Indemnisation - Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés.",
+   "headers": [
+    [
+     "h1",
+     "Accident de trottinette électrique : Lois et Indemnisation"
+    ]
+   ],
+   "content_score": 48,
+   "readability": 23,
+   "word_count": 657,
+   "content_len": 4325
+  },
+  {
+   "rank": 10,
+   "url": "https://www.benezra-victimesdelaroute.fr/accident-de-gyropode-accident-de-trottinette.html",
+   "title": "Accident de trottinette ou EDPM ? Indemnisation intégrale !",
+   "desc": "Un accident de trottinette électrique ou EDPM : Chute violente, collision avec un véhicule, traumatisme crânien, fractures multiples…",
+   "headers": [
+    [
+     "h1",
+     "Accident de trottinette électrique : Vous avez droit à une indemnisation intégrale"
+    ],
+    [
+     "h2",
+     "1° Le problème : un vide juridique qui laisse les victimes seules"
+    ],
+    [
+     "h2",
+     "2° La solution : le cabinet BENEZRA maîtrise parfaitement le droit des EDPM"
+    ],
+    [
+     "h2",
+     "3° Comment nous vous aidons concrètement : notre méthode en 4 étapes"
+    ],
+    [
+     "h2",
+     "4° Les situations les plus fréquentes (et comment nous les traitons)"
+    ],
+    [
+     "h2",
+     "5° Ce que vous devez absolument savoir sur les assurances trottinettes"
+    ],
+    [
+     "h2",
+     "6° Pourquoi choisir le cabinet BENEZRA pour votre accident de trottinette ou EDPM ?"
+    ]
+   ],
+   "content_score": 68,
+   "readability": 41,
+   "word_count": 4413,
+   "content_len": 28326
+  },
+  {
+   "rank": 11,
+   "url": "https://association-aivf-faq.fr/prejudices-corporels-faq/montant-indemnisation-accident-trottinette",
+   "title": "Montant indemnisation accident trottinette - Association Victimes de France AIVF",
+   "desc": "Montant indemnisation accident trottinette, loi Badinter, réparation intégrale, expertise médicale, chiffrage préjudice, négocier offre",
+   "headers": [
+    [
+     "h1",
+     "Montant indemnisation accident trottinette"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant le montant d’indemnisation d’un accident de trottinette"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 41,
+   "word_count": 947,
+   "content_len": 6290
+  },
+  {
+   "rank": 12,
+   "url": "https://www.mobilityurban.fr/accident-de-trottinette-electrique-que-faut-il-faire.html",
+   "title": "ACCIDENT DE TROTTINETTE ÉLECTRIQUE : QUE FAUT-IL FAIRE ?",
+   "desc": "A qui s'adresser? quelle Assurance ? Prise en charge ? Garantie ? Réparation ? Que faire si vous êtes victime (ou la cause) d'un accident en trottinette électrique ?",
+   "headers": [
+    [
+     "h1",
+     "ACCIDENT DE TROTTINETTE ÉLECTRIQUE : QUE FAUT-IL FAIRE ?"
+    ],
+    [
+     "h2",
+     "QUELS SONT LES TYPES D'ACCIDENTS EN TROTTINETTE ÉLECTRIQUE ?"
+    ],
+    [
+     "h2",
+     "J'ai eu un accident de trottinette électrique tout seul, ma trottinette est cassée, que faire ?"
+    ],
+    [
+     "h2",
+     "JE SUIS VICTIME D'UN ACCIDENT DE TROTTINETTE ÉLECTRIQUE AVEC UNE VOITURE RESPONSABLE?"
+    ],
+    [
+     "h2",
+     "OU FAIRE EXPERTISER MA TROTTINETTE ACCIDENTEE?"
+    ],
+    [
+     "h2",
+     "QUE FAIRE SI JE SUIS RESPONSABLE D'UN ACCIDENT EN TROTTINETTE ÉLECTRIQUE ?"
+    ],
+    [
+     "h2",
+     "Je suis victime d'un accident en trottinette, mais je ne suis pas assuré... Que faire ?"
+    ],
+    [
+     "h2",
+     "Je suis responsable d'un accident en trottinette avec un tiers, mais je ne suis pas assuré... Que faire ?"
+    ],
+    [
+     "h2",
+     "Suite à un accident en patinette, le conducteur de la voiture a pris la fuite : délit de fuite, comment réagir ?"
+    ],
+    [
+     "h2",
+     "En cas d'accident la garantie couvre t-elle les dégâts subis par mon EDPM ?"
+    ],
+    [
+     "h2",
+     "COMMENT ÉVITER UN ACCIDENT ? PENSEZ À VOS ÉQUIPEMENTS DE SÉCURITÉ !"
+    ],
+    [
+     "h2",
+     "Quelle assurance en cas d'accident de trottinette?"
+    ],
+    [
+     "h2",
+     "EN RESUME: ACCIDENT DE TROTTINETTE ÉLECTRIQUE : RÉPARATION ? GARANTIE ? ASSURANCE ? QUE FAUT-IL SAVOIR...?"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 27,
+   "word_count": 4489,
+   "content_len": 28049
+  },
+  {
+   "rank": 13,
+   "url": "https://www.groupama.fr/assurance-trottinette-electrique/conseils/accident/",
+   "title": "Accident de trottinette : que faire ? - Groupama",
+   "desc": "Suivez notre guide pour connaître les causes fréquentes d’accident en trottinette, la réglementation et les bonnes pratiques pour éviter un choc.",
+   "headers": [
+    [
+     "h1",
+     "Accident de trottinette : causes, conséquences et prévention"
+    ],
+    [
+     "h2",
+     "Accidents en trottinette : un phénomène en forte hausse"
+    ],
+    [
+     "h2",
+     "Quels sont les différents types d'accidents possibles à trottinette ?"
+    ],
+    [
+     "h2",
+     "Que faire en cas d'accident de trottinette ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les obligations en trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "Accident en trottinette électrique et assurance"
+    ],
+    [
+     "h2",
+     "Que dit la loi en 2025 sur les trottinettes ?"
+    ],
+    [
+     "h2",
+     "Comment éviter un accident en trottinette ?"
+    ],
+    [
+     "h2",
+     "Découvrez notre offre d’assurance trottinette électrique"
+    ],
+    [
+     "h2",
+     "Découvrez nos infos et conseils"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 34,
+   "word_count": 1741,
+   "content_len": 11096
+  },
+  {
+   "rank": 14,
+   "url": "https://www.maif.fr/vehicule-mobilite/guide-nouvelles-mobilites/accident-trottinette",
+   "title": "Accident de trottinette : ce qu'il faut savoir - MAIF",
+   "desc": "Découvrez tous les types d'accidents de trottinette électrique (avec piéton, seul, avec une voiture), ce que dit la loi, qui a la priorité, quid de l'assurance et de sa prise en charge notamment en location.",
+   "headers": [
+    [
+     "h1",
+     "Accident de trottinette : ce qu'il faut savoir"
+    ],
+    [
+     "h2",
+     "1\n                Que dit la loi en cas d'accident de trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "2\n                Quels sont les différents accidents qui peuvent arriver ?"
+    ],
+    [
+     "h2",
+     "3\n                Exemple : je loue une trottinette à Paris, comment fonctionne l'assurance en cas d'accident ?"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 37,
+   "word_count": 717,
+   "content_len": 4683
+  },
+  {
+   "rank": 15,
+   "url": "https://www.magnolia.fr/assurance-habitation/garanties/trotinette-electrique/accident",
+   "title": "Accident trottinette : que faire avec l’assurance ? - Magnolia.fr",
+   "desc": "Adoptez les bons réflexes après un accident de trottinette et identifiez le rôle réel de votre assurance habitation.",
+   "headers": [
+    [
+     "h1",
+     "Accident trottinette : démarches auprès de l'assurance habitation"
+    ],
+    [
+     "h2",
+     "Que faire immédiatement après un accident de trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "Quelles informations faut-il recueillir après l’accident ?"
+    ],
+    [
+     "h2",
+     "Faut-il déclarer l’accident à son assurance habitation ?"
+    ],
+    [
+     "h2",
+     "Qui prend en charge les dommages après un accident ?"
+    ],
+    [
+     "h2",
+     "Que se passe-t-il en cas de chute seule ?"
+    ],
+    [
+     "h2",
+     "Quels risques si vous ne déclarez pas l’accident ?"
+    ],
+    [
+     "h2",
+     "FAQ — Accident de trottinette électrique et assurance habitation"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 40,
+   "word_count": 1779,
+   "content_len": 12400
+  },
+  {
+   "rank": 16,
+   "url": "https://www.tcn-avocats.com/accident-trottinette-voiture/",
+   "title": "Accident entre une trottinette électrique et une voiture – TCN Avocats",
+   "desc": "Que dit le code de la route en matière d'accident de trottinette électrique avec une voiture ? Retrouvez les principales lois.",
+   "headers": [
+    [
+     "h1",
+     "Accident entre une trottinette électrique et une voiture"
+    ],
+    [
+     "h2",
+     "​Les types d’accidents impliquant une trottinette électrique et une voiture"
+    ],
+    [
+     "h2",
+     "​L’importance d’être conseillé par un avocat à la suite d’un accident"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 31,
+   "word_count": 912,
+   "content_len": 5777
+  },
+  {
+   "rank": 17,
+   "url": "https://marilyneletessier-avocat.fr/fr/indemnisation-accident-trottinette/",
+   "title": "Accident de trottinette : qui est responsable et comment être indemnisé ?",
+   "desc": "Accident de trottinette : responsabilité, assurance et indemnisation. Découvrez vos droits et comment obtenir réparation.",
+   "headers": [
+    [
+     "h1",
+     "Accident de trottinette : qui est responsable et comment être indemnisé ?"
+    ],
+    [
+     "h2",
+     "Points clés"
+    ],
+    [
+     "h2",
+     "Accident de trottinette : quelles situations peuvent se présenter ?"
+    ],
+    [
+     "h2",
+     "Qui est responsable après un accident de trottinette ?"
+    ],
+    [
+     "h2",
+     "L’utilisateur d’une trottinette peut-il être indemnisé ?"
+    ],
+    [
+     "h2",
+     "Quel rôle joue l’assurance dans un accident de trottinette ?"
+    ],
+    [
+     "h2",
+     "Quels préjudices peuvent être indemnisés ?"
+    ],
+    [
+     "h2",
+     "Quel est le rôle de l’expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Comment obtenir une indemnisation après un accident de trottinette ?"
+    ],
+    [
+     "h2",
+     "Pourquoi le montant de l’indemnisation peut-il varier ?"
+    ],
+    [
+     "h2",
+     "Accident de trottinette à Nice : quelle indemnisation ?"
+    ],
+    [
+     "h2",
+     "Sources et informations utiles"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ],
+    [
+     "h2",
+     "Vous êtes victime d’un accident de trottinette ?"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 71,
+   "word_count": 961,
+   "content_len": 6639
+  },
+  {
+   "rank": 18,
+   "url": "https://www.joris-caunes-avocat-dommage-corporel.fr/blog/indemnisation-accident-trottinette-electrique",
+   "title": "Accident en trottinette électrique : indemnisation et responsabilité",
+   "desc": "Victime d’un accident en trottinette électrique ? Découvrez vos droits, les démarches à suivre et comment obtenir une indemnisation juste et complète.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation accident trottinette électrique : droits, démarches, et cadre légal"
+    ],
+    [
+     "h2",
+     "1. Démarches à suivre après un accident de trottinette électrique"
+    ],
+    [
+     "h2",
+     "2. Régime juridique applicable et obligations de l’utilisateur"
+    ],
+    [
+     "h2",
+     "3. Responsabilités en cas d’accident"
+    ],
+    [
+     "h2",
+     "4. Vos droits à indemnisation, selon le scénario"
+    ],
+    [
+     "h2",
+     "5. Étapes pour obtenir votre indemnisation"
+    ],
+    [
+     "h2",
+     "6. Pourquoi recourir à un avocat en dommage corporel ?"
+    ],
+    [
+     "h2",
+     "7. Cadre légal synthétique et obligations"
+    ],
+    [
+     "h2",
+     "Besoin d’aide pour votre indemnisation après un accident de trottinette ?"
+    ],
+    [
+     "h2",
+     "FAQ - Dommage corporel"
+    ],
+    [
+     "h2",
+     "Vous recherchez une expertise juridique pour votre dossier ?"
+    ],
+    [
+     "h2",
+     "Les autres articles du cabinet"
+    ]
+   ],
+   "content_score": 71,
+   "readability": 27,
+   "word_count": 1668,
+   "content_len": 10914
+  },
+  {
+   "rank": 19,
+   "url": "https://charles-tanguy-avocat-lyon.fr/accident-trottinette-electrique/",
+   "title": "Accident de trottinette électrique : quelle indemnisation pour les victimes ?",
+   "desc": "Indemnisation des victimes d’accident de trottinette électrique : Quel est le régime juridique applicable ? On vous explique tout dans cet article détaillé.",
+   "headers": [
+    [
+     "h1",
+     "Accident de trottinette électrique : quelle indemnisation pour les victimes ?"
+    ],
+    [
+     "h2",
+     "Partagez cet article ➡️"
+    ],
+    [
+     "h2",
+     "1. Accident de la circulation : quels sont les enjeux liés au statut juridique accordé à la trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "2. Accident de la route : la trottinette électrique est-elle un véhicule terrestre à moteur ?"
+    ],
+    [
+     "h2",
+     "3. Les conséquences pratiques de ce statut de véhicule terrestre à moteur accordé à la trottinette électrique"
+    ]
+   ],
+   "content_score": 60,
+   "readability": 30,
+   "word_count": 1749,
+   "content_len": 10911
+  },
+  {
+   "rank": 20,
+   "url": "https://www.dailymotion.com/video/x8lrbtq",
+   "title": "Avis d'expert : Que faire après avoir été percuté par une trottinette ou un vélo sur un trottoir ? - Vidéo Dailymotion",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Avis d'expert : Que faire après avoir été percuté par une trottinette ou un vélo sur un trottoir ?"
+    ],
+    [
+     "h1",
+     "Video cannot be played."
+    ]
+   ],
+   "content_score": 10,
+   "readability": 46,
+   "word_count": 86,
+   "content_len": 478
+  },
+  {
+   "rank": 21,
+   "url": "https://association-aivf-faq.fr/accident-de-la-route-faq/calcul-indemnisation-accident-trottinette-electrique",
+   "title": "Calcul indemnisation accident trottinette - Association Victimes de France AIVF",
+   "desc": "Calcul indemnisation accident trottinette, loi Badinter ou Garantie du conducteur, expertise médicale, préjudices Nomenclature Dintilhac",
+   "headers": [
+    [
+     "h1",
+     "Calcul indemnisation accident trottinette électrique"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Calcul indemnisation accident trottinette électrique"
+    ],
+    [
+     "h2",
+     "Questions concernant le calcul d’indemnisation d’un accident de trottinette électrique"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 58,
+   "word_count": 1385,
+   "content_len": 9026
+  },
+  {
+   "rank": 22,
+   "url": "https://hadrienmuller-avocat.com/pourrais-je-etre-indemnise-en-cas-daccidents-avec-une-trottinette/",
+   "title": "Accident trottinette : quelles indemnisations ? -H Muller",
+   "desc": "Pourrai-je être indemnisé en cas d'accident avec une trottinette ? Réponse ici.",
+   "headers": [
+    [
+     "h2",
+     "Avocat spécialisé en préjudice corporel"
+    ],
+    [
+     "h2",
+     "Diplômé en évaluation des traumatismes crâniens"
+    ],
+    [
+     "h1",
+     "Pourrais-je être indemnisé en cas d’accidents avec une trottinette ?"
+    ],
+    [
+     "h2",
+     "Table des matières"
+    ],
+    [
+     "h2",
+     "TROTTINETTE SANS MOTEUR"
+    ],
+    [
+     "h2",
+     "Un piéton est percuté par la trottinette ou inversement ?"
+    ],
+    [
+     "h2",
+     "Le conducteur de la trottinette est percuté par un véhicule à moteur ?"
+    ],
+    [
+     "h2",
+     "Le conducteur de la trottinette se blesse seul ?"
+    ],
+    [
+     "h2",
+     "TROTTINETTES A MOTEUR HOMOLOGUEES"
+    ],
+    [
+     "h2",
+     "Un piéton est percuté par une trottinette ou inversement ?"
+    ],
+    [
+     "h2",
+     "Le conducteur de la trottinette est percuté par un autre véhicule à moteur ?"
+    ],
+    [
+     "h2",
+     "Le conducteur de la trottinette se blesse seul ?"
+    ],
+    [
+     "h2",
+     "TROTTINETTES A MOTEUR NON HOMOLOGUEES"
+    ],
+    [
+     "h2",
+     "Un piéton est percuté par une trottinette ou inversement ?"
+    ],
+    [
+     "h2",
+     "Le conducteur de la trottinette est percuté par un véhicule à moteur ?"
+    ],
+    [
+     "h2",
+     "Le conducteur de la trottinette est percuté par un piéton ?"
+    ],
+    [
+     "h2",
+     "Le conducteur de la trottinette se blesse seul ?"
+    ],
+    [
+     "h2",
+     "Maître Hadrien MULLER"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 32,
+   "word_count": 1479,
+   "content_len": 9322
+  },
+  {
+   "rank": 23,
+   "url": "https://www.avibitton.com/avocat-accident-trottinettes-electriques/",
+   "title": "Indemnisation d'un accident de trottinette électrique | Avi Bitton Avocats & Associés",
+   "desc": "Avi Bitton Avocats assiste les victimes d’accidents de trottinette dans les négociations avec les compagnies d’assurances et, en cas d’échec, dans les procès",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d’un accident de trottinette électrique"
+    ],
+    [
+     "h2",
+     "Avocat accident de trottinette"
+    ],
+    [
+     "h2",
+     "Vous êtes victime ou proche d’une victime d’un accident de trottinette ? Prenez conseil auprès d’un avocat :"
+    ]
+   ],
+   "content_score": 66,
+   "readability": 28,
+   "word_count": 695,
+   "content_len": 4543
+  },
+  {
+   "rank": 24,
+   "url": "https://aide-victimes.fr/accident-route/indemnisation-accident-trottinette/",
+   "title": "Indemnisation accident trottinette – AFAV",
+   "desc": "Indemnisation accident trottinette électrique ou non, loi Badinter, Garantie du conducteur, droit commun ou Garantie accident de la vie",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d’un accident de trottinette"
+    ],
+    [
+     "h2",
+     "Statistiques en France concernant les accidents de trottinette"
+    ],
+    [
+     "h2",
+     "Conclusion de l’indemnisation d’un accident de trottinette"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 47,
+   "word_count": 986,
+   "content_len": 6502
+  },
+  {
+   "rank": 25,
+   "url": "https://conseil-auto-moto.fr/assurance/indemnisation-accident-trottinette-electrique/",
+   "title": "Indemnisation accident trottinette électrique : ce qu’il faut savoir",
+   "desc": "Découvrez comment fonctionne l’indemnisation après un accident en trottinette électrique, les assurances et les démarches à suivre.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation accident trottinette électrique : ce qu’il faut savoir"
+    ],
+    [
+     "h2",
+     "Comment fonctionne l’indemnisation après un accident en trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "Qui paie les dommages lors d’un accident en trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "L’assurance est-elle obligatoire pour une trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "Quels dommages peuvent être indemnisés après un accident en trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "Que faire immédiatement après un accident en trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "Comment obtenir une indemnisation plus rapidement ?"
+    ],
+    [
+     "h2",
+     "Que se passe-t-il en cas d’accident sans assurance ?"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "FAQ — Indemnisation accident trottinette électrique : ce qu’il faut savoir"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 48,
+   "word_count": 1894,
+   "content_len": 13209
+  },
+  {
+   "rank": 26,
+   "url": "https://www.youtube.com/watch?v=i2Ho2Z1uGko",
+   "title": "Accident de trottinette électrique ? Un avocat répond à vos questions ! - YouTube",
+   "desc": "Un avocat d'un cabinet d'avocats intervenant exclusivement en droit routier et dommages corporels, répond aux questions qu'il reçoit en relation avec les acc...",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Accident de trottinette électrique ? Un avocat répond à vos questions !"
+    ],
+    [
+     "h1",
+     "Accident de trottinette électrique ? Un avocat répond à vos questions !"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      2"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 34,
+   "readability": 42,
+   "word_count": 205,
+   "content_len": 1297
+  },
+  {
+   "rank": 27,
+   "url": "https://www.benezra.fr/accident-de-trottinette-evaluation-et-indemnisation-des-prejudices.html",
+   "title": "Accident de trottinette - Evaluation et Indemnisation des préjudices",
+   "desc": "Vous êtes victime d'un accident de trottinette ? Traumatisme crânien ou autres... Evaluation et indemnisation de vos préjudices",
+   "headers": [
+    [
+     "h1",
+     "ACCIDENT DE TROTTINETTE & INDEMNISATION DES PRÉJUDICES"
+    ],
+    [
+     "h2",
+     "Avocat accidents trottinettes électriques | préjudice corporel"
+    ],
+    [
+     "h2",
+     "→ Accident de trottinette & procédure d’indemnisation des victimes"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Projet d’immatriculation des EDPM ?"
+    ],
+    [
+     "h2",
+     "1° Alerte Info – 2 mai 2019 – Nouvelle loi EDPM"
+    ],
+    [
+     "h2",
+     "2° Quel Régime, pour la trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "3° Quelle indemnisation pour les victimes d’accident de trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "3° Quelle indemnisation pour les victimes d’accident de trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "→ Le piéton victime percuté par une trottinette"
+    ],
+    [
+     "h2",
+     "→ Le conducteur d’une trottinette percuté par un véhicule à moteur"
+    ],
+    [
+     "h2",
+     "→ Le conducteur d’une trottinette percuté par un piéton"
+    ],
+    [
+     "h2",
+     "→ Le conducteur d’une trottinette qui chute seul"
+    ],
+    [
+     "h2",
+     "4° En résumé, ce qu’il faut retenir :"
+    ],
+    [
+     "h2",
+     "5° L’indemnisation de la victime ? :"
+    ],
+    [
+     "h2",
+     "6° La trottinette en questions"
+    ],
+    [
+     "h2",
+     "Accident en trottinette électrique en libre service : vos droits & … obligations"
+    ],
+    [
+     "h2",
+     "Victime d’un accident de Segway"
+    ],
+    [
+     "h2",
+     "Accident de trottinette – Evaluation et Indemnisation des préjudices"
+    ],
+    [
+     "h2",
+     "→ Votre Avocat Accident De La Route #VAADLR"
+    ],
+    [
+     "h2",
+     "→ Votre Avocat Accident De La Route #VAADLR"
+    ]
+   ],
+   "content_score": 66,
+   "readability": 26,
+   "word_count": 2195,
+   "content_len": 14039
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 2761,
+   "target": 2761
+  },
+  "readability": {
+   "median": 35,
+   "target": 35
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "accidents",
+    "usage_pc": 90
+   },
+   {
+    "t": "accident de trottinette",
+    "usage_pc": 80
+   },
+   {
+    "t": "trottinette électrique",
+    "usage_pc": 50
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 50
+   },
+   {
+    "t": "accident de trottinette électrique",
+    "usage_pc": 30
+   }
+  ],
+  "desc": [
+   {
+    "t": "accidents",
+    "usage_pc": 90
+   },
+   {
+    "t": "trottinette électrique",
+    "usage_pc": 70
+   },
+   {
+    "t": "accident de trottinette",
+    "usage_pc": 60
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 50
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 40
+   },
+   {
+    "t": "accident de trottinette électrique",
+    "usage_pc": 30
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 20
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "edpm",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident de trottinette",
+    "usage_pc": 20
+   },
+   {
+    "t": "collision",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "accidents",
+    "usage_pc": 90
+   },
+   {
+    "t": "trottinette électrique",
+    "usage_pc": 70
+   },
+   {
+    "t": "accident de trottinette",
+    "usage_pc": 50
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 50
+   },
+   {
+    "t": "accident en trottinette électrique",
+    "usage_pc": 30
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident de trottinette électrique",
+    "usage_pc": 20
+   },
+   {
+    "t": "edpm",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident de trottinette",
+    "usage_pc": 20
+   },
+   {
+    "t": "autre edpm",
+    "usage_pc": 10
+   },
+   {
+    "t": "les accidents",
+    "usage_pc": 10
+   },
+   {
+    "t": "assurance trottinette",
+    "usage_pc": 10
+   },
+   {
+    "t": "assurance trottinette électrique",
+    "usage_pc": 10
+   },
+   {
+    "t": "droit à une indemnisation",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "accidents",
+    "usage_pc": 80
+   },
+   {
+    "t": "trottinette électrique",
+    "usage_pc": 50
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 50
+   },
+   {
+    "t": "accident de trottinette",
+    "usage_pc": 50
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 50
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 40
+   },
+   {
+    "t": "une trottinette électrique",
+    "usage_pc": 40
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 40
+   },
+   {
+    "t": "edpm",
+    "usage_pc": 30
+   },
+   {
+    "t": "un accident de trottinette",
+    "usage_pc": 30
+   },
+   {
+    "t": "assurance trottinette",
+    "usage_pc": 30
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 20
+   },
+   {
+    "t": "loi badinter",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident en trottinette électrique",
+    "usage_pc": 20
+   },
+   {
+    "t": "après un accident de trottinette",
+    "usage_pc": 20
+   },
+   {
+    "t": "les démarches",
+    "usage_pc": 20
+   },
+   {
+    "t": "cabinet benezra pour votre accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident de trottinette électrique",
+    "usage_pc": 10
+   },
+   {
+    "t": "conducteur",
+    "usage_pc": 10
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "conducteurs de trottinette",
+    "usage_pc": 10
+   },
+   {
+    "t": "motoriser",
+    "usage_pc": 10
+   },
+   {
+    "t": "souscrire",
+    "usage_pc": 10
+   },
+   {
+    "t": "cas d'accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "assurance trottinette électrique",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident mortel",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation après un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de trottinette ou edpm",
+    "usage_pc": 10
+   },
+   {
+    "t": "trottinette non motorisée",
+    "usage_pc": 10
+   },
+   {
+    "t": "trottinette en libre-service",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accident impliquant",
+    "usage_pc": 10
+   },
+   {
+    "t": "si la trottinette",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "trottinette électrique",
+    "usage_pc": 100,
+    "sugg_usage": [
+     8,
+     27
+    ]
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 100,
+    "sugg_usage": [
+     17,
+     44
+    ]
+   },
+   {
+    "t": "accident de trottinette",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     9
+    ]
+   },
+   {
+    "t": "accidents",
+    "usage_pc": 100,
+    "sugg_usage": [
+     21,
+     30
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     6,
+     27
+    ]
+   },
+   {
+    "t": "accident de trottinette électrique",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "conducteur",
+    "usage_pc": 90,
+    "sugg_usage": [
+     9,
+     21
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     18
+    ]
+   },
+   {
+    "t": "dommage",
+    "usage_pc": 100,
+    "sugg_usage": [
+     7,
+     15
+    ]
+   },
+   {
+    "t": "piéton",
+    "usage_pc": 100,
+    "sugg_usage": [
+     4,
+     11
+    ]
+   },
+   {
+    "t": "edpm",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     11
+    ]
+   },
+   {
+    "t": "responsabilité civile",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     5
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     13
+    ]
+   },
+   {
+    "t": "conducteur de la trottinette",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "assurance responsabilité civile",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 100,
+    "sugg_usage": [
+     5,
+     10
+    ]
+   },
+   {
+    "t": "un accident de trottinette",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "véhicule terrestre à moteur",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "conducteurs de trottinette",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "motoriser",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "souscrire",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     5
+    ]
+   },
+   {
+    "t": "loi badinter",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "engin de déplacement personnel",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "souscrire une assurance",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "code de la route",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "les trottinettes électriques",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "assurance obligatoire",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "collision",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "déplacement personnel",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "autre edpm",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les accidents",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "une trottinette électrique",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "cas d'accident",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les démarches",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "fonds de garantie des assurances",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garantie des assurances obligatoires",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les accidents de trottinette",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurance spécifique",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les dommages corporels",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident mortel",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "accident en trottinette électrique",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "après un accident de trottinette",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurance trottinette",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d'un accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurance trottinette électrique",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit du dommage corporel",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "sans tiers",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "accident de la circulation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conducteur de trottinette électrique",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation après un accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d'un accident de trottinette",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "impliquant une trottinette électrique",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "couvert par une assurance",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d'accident de trottinette",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "engins de déplacement personnel motorisé",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contre le conducteur",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "voiture ou une moto",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de trottinette ou edpm",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsable d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime ou responsable d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "usage d’une trottinette électrique",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident d’edpm",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conducteur de la trottinette électrique",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "trottinette non motorisée",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conduire une trottinette",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "trottinette en libre-service",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avoir un accident de trottinette",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cabinet benezra pour votre accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "rouler en trottinette électrique",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "défaut de la trottinette elle-même",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "entretien de la trottinette",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurer sa trottinette",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "utilisation de votre trottinette électrique",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "trottinette électrique peut",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "trottinette classique",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "autre trottinette",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un accident impliquant",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "trottinette électrique doit",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si la trottinette",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Trottinette",
+    "importance": 93.026,
+    "relevance": 0.93026,
+    "confidence": 7.021000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Trottinette"
+     ]
+    ]
+   },
+   {
+    "t": "Trottinette électrique",
+    "importance": 92.81799999999998,
+    "relevance": 0.92818,
+    "confidence": 9.806999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Trottinette_électrique"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 61.698000000000015,
+    "relevance": 0.6169800000000001,
+    "confidence": 6.365800000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Piéton",
+    "importance": 61.04000000000001,
+    "relevance": 0.6104,
+    "confidence": 5.596,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Piéton"
+     ]
+    ]
+   },
+   {
+    "t": "Véhicule (transport physique)",
+    "importance": 44.52,
+    "relevance": 0.4452,
+    "confidence": 4.6914,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Véhicule_(transport_physique)"
+     ]
+    ]
+   },
+   {
+    "t": "Loi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation",
+    "importance": 37.5616,
+    "relevance": 0.5869,
+    "confidence": 6.1666,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi_tendant_à_l'amélioration_de_la_situation_des_victimes_d'accidents_de_la_circulation_et_à_l'accélération_des_procédures_d'indemnisation"
+     ]
+    ]
+   },
+   {
+    "t": "Engin de déplacement personnel",
+    "importance": 32.3968,
+    "relevance": 0.5062,
+    "confidence": 5.0286,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Engin_de_déplacement_personnel"
+     ]
+    ]
+   },
+   {
+    "t": "Conduite automobile",
+    "importance": 29.24672,
+    "relevance": 0.45698,
+    "confidence": 1.3228,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Conduite_automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Trottoir",
+    "importance": 22.09408,
+    "relevance": 0.34522,
+    "confidence": 2.7407999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Trottoir"
+     ]
+    ]
+   },
+   {
+    "t": "Loi",
+    "importance": 21.08608,
+    "relevance": 0.32947,
+    "confidence": 1.3452,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 17.13528,
+    "relevance": 0.47598,
+    "confidence": 7.198599999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 15.856767999999999,
+    "relevance": 0.24776199999999998,
+    "confidence": 1.1713999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Responsabilité civile",
+    "importance": 13.696256,
+    "relevance": 0.214004,
+    "confidence": 1.545,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Responsabilité_civile"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance responsabilité civile",
+    "importance": 13.421520000000001,
+    "relevance": 0.37282000000000004,
+    "confidence": 1.332,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_responsabilité_civile"
+     ]
+    ]
+   },
+   {
+    "t": "Badinter",
+    "importance": 12.61296,
+    "relevance": 0.35035999999999995,
+    "confidence": 0.4,
+    "links": []
+   },
+   {
+    "t": "Fonds de garantie des assurances obligatoires de dommages",
+    "importance": 9.75456,
+    "relevance": 0.27096,
+    "confidence": 2.2334,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fonds_de_garantie_des_assurances_obligatoires_de_dommages"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 7.221600000000001,
+    "relevance": 0.20060000000000003,
+    "confidence": 2.0702,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Collision",
+    "importance": 3.7772799999999997,
+    "relevance": 0.23607999999999998,
+    "confidence": 0.8496,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Collision"
+     ]
+    ]
+   },
+   {
+    "t": "Automobile",
+    "importance": 3.12336,
+    "relevance": 0.08675999999999999,
+    "confidence": 3.8322000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Gyropode",
+    "importance": 2.8617600000000003,
+    "relevance": 0.17886000000000002,
+    "confidence": 2.386,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Gyropode"
+     ]
+    ]
+   },
+   {
+    "t": "Responsabilité civile en droit français",
+    "importance": 2.4332799999999994,
+    "relevance": 0.15208,
+    "confidence": 0.44939999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Responsabilité_civile_en_droit_français"
+     ]
+    ]
+   },
+   {
+    "t": "Transport",
+    "importance": 2.3634000000000004,
+    "relevance": 0.06565,
+    "confidence": 1.008,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Transport"
+     ]
+    ]
+   },
+   {
+    "t": "France",
+    "importance": 2.2386239999999997,
+    "relevance": 0.062183999999999996,
+    "confidence": 3.2674,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/France"
+     ]
+    ]
+   },
+   {
+    "t": "Code de la route (France)",
+    "importance": 2.17568,
+    "relevance": 0.13598,
+    "confidence": 1.8969999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Code_de_la_route_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 1.49024,
+    "relevance": 0.09314,
+    "confidence": 0.8128,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Frein",
+    "importance": 1.2112,
+    "relevance": 0.0757,
+    "confidence": 1.4148,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Frein"
+     ]
+    ]
+   },
+   {
+    "t": "Mobilité spatiale",
+    "importance": 1.0316800000000004,
+    "relevance": 0.06448000000000001,
+    "confidence": 0.5132,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Mobilité_spatiale"
+     ]
+    ]
+   },
+   {
+    "t": "Espace public",
+    "importance": 0.99264,
+    "relevance": 0.06204,
+    "confidence": 0.7724,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Espace_public"
+     ]
+    ]
+   },
+   {
+    "t": "Euro",
+    "importance": 0.90048,
+    "relevance": 0.05628,
+    "confidence": 0.4918,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Euro"
+     ]
+    ]
+   },
+   {
+    "t": "Décret en France",
+    "importance": 0.8667520000000001,
+    "relevance": 0.054172,
+    "confidence": 0.41581999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Décret_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Amende",
+    "importance": 0.6598720000000001,
+    "relevance": 0.041242,
+    "confidence": 1.0668,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Amende"
+     ]
+    ]
+   },
+   {
+    "t": "Lime (entreprise)",
+    "importance": 0.62944,
+    "relevance": 0.15736,
+    "confidence": 0.38639999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Lime_(entreprise)"
+     ]
+    ]
+   },
+   {
+    "t": "Traumatisme crânien",
+    "importance": 0.6253599999999998,
+    "relevance": 0.15633999999999998,
+    "confidence": 2.368,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Traumatisme_crânien"
+     ]
+    ]
+   },
+   {
+    "t": "Moto",
+    "importance": 0.5785600000000001,
+    "relevance": 0.036160000000000005,
+    "confidence": 5.7506,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Moto"
+     ]
+    ]
+   },
+   {
+    "t": "Pierre",
+    "importance": 0.5751199999999999,
+    "relevance": 0.14378,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Gyroroue",
+    "importance": 0.5573600000000001,
+    "relevance": 0.13934,
+    "confidence": 1.7260000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Gyroroue"
+     ]
+    ]
+   },
+   {
+    "t": "Traumatisme (médecine)",
+    "importance": 0.5003199999999999,
+    "relevance": 0.12508,
+    "confidence": 0.45940000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Traumatisme_(médecine)"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "accidents\naccident de trottinette\ntrottinette électrique\nindemnisation\naccident de trottinette électrique",
+  "desc_title": "accidents\ntrottinette électrique\naccident de trottinette\nindemnisation\nun accident\naccident de trottinette électrique\nassurance\npréjudice\nedpm\nun accident de trottinette\ncollision",
+  "h1": "accidents\ntrottinette électrique\naccident de trottinette\nindemnisation\naccident en trottinette électrique\nassurance\naccident de trottinette électrique\nedpm\nun accident\nun accident de trottinette\nautre edpm\nles accidents\nassurance trottinette\nassurance trottinette électrique\ndroit à une indemnisation",
+  "h2": "accidents\ntrottinette électrique\nassurance\naccident de trottinette\nun accident\nindemnisation\nune trottinette électrique\naprès un accident\nedpm\nun accident de trottinette\nassurance trottinette\nindemniser\nloi badinter\naccident en trottinette électrique\naprès un accident de trottinette\nles démarches\ncabinet benezra pour votre accident\naccident de trottinette électrique\nconducteur\npréjudice\nconducteurs de trottinette\nmotoriser\nsouscrire\ncas d'accident\nassurance trottinette électrique\naccident mortel\nindemnisation après un accident\naccident de trottinette ou edpm\ntrottinette non motorisée\ntrottinette en libre-service\nsuite à un accident\nun accident impliquant\nsi la trottinette",
+  "content_basic": "trottinette électrique\nassurance\naccident de trottinette\naccidents\nindemnisation\naccident de trottinette électrique\nconducteur\npréjudice\ndommage\npiéton\nedpm\nresponsabilité civile\nindemniser\nconducteur de la trottinette\nassurance responsabilité civile\nun accident\nun accident de trottinette\nvéhicule terrestre à moteur\nconducteurs de trottinette\nmotoriser\nassureur\nsouscrire\nloi badinter\nengin de déplacement personnel\nsouscrire une assurance\ncode de la route\nles trottinettes électriques\nassurance obligatoire\npréjudice corporel\ncollision\ndéplacement personnel\nautre edpm\nles accidents\nune trottinette électrique\ncas d'accident\nles démarches\nfonds de garantie des assurances\ngarantie des assurances obligatoires\nles accidents de trottinette\ndroit à indemnisation\nassurance spécifique\nles dommages corporels\naccident mortel\naprès un accident",
+  "content_basic_w_ranges": "trottinette électrique: 8-27x\nassurance: 17-44x\naccident de trottinette: 1-9x\naccidents: 21-30x\nindemnisation: 6-27x\naccident de trottinette électrique: 1-3x\nconducteur: 9-21x\npréjudice: 3-18x\ndommage: 7-15x\npiéton: 4-11x\nedpm: 1-11x\nresponsabilité civile: 3-5x\nindemniser: 1-13x\nconducteur de la trottinette: 1-3x\nassurance responsabilité civile: 1-3x\nun accident: 5-10x\nun accident de trottinette: 1-4x\nvéhicule terrestre à moteur: 1-4x\nconducteurs de trottinette: 1-3x\nmotoriser: 1-6x\nassureur: 1-5x\nsouscrire: 2-5x\nloi badinter: 1-6x\nengin de déplacement personnel: 1-3x\nsouscrire une assurance: 1-3x\ncode de la route: 1-3x\nles trottinettes électriques: 1-4x\nassurance obligatoire: 1-2x\npréjudice corporel: 1-3x\ncollision: 1-3x\ndéplacement personnel: 1-3x\nautre edpm: 1x\nles accidents: 1-2x\nune trottinette électrique: 1-5x\ncas d'accident: 1x\nles démarches: 1-2x\nfonds de garantie des assurances: 1x\ngarantie des assurances obligatoires: 1x\nles accidents de trottinette: 1x\ndroit à indemnisation: 1x\nassurance spécifique: 1x\nles dommages corporels: 1x\naccident mortel: 1x\naprès un accident: 1-2x",
+  "content_extended": "accident en trottinette électrique\naprès un accident de trottinette\nassurance trottinette\nvictime d'un accident\nassurance trottinette électrique\ndroit du dommage corporel\nsans tiers\naccident de la circulation\nconducteur de trottinette électrique\nindemnisation après un accident\nvictime d'un accident de trottinette\nimpliquant une trottinette électrique\ndroit à une indemnisation\ncouvert par une assurance\ncas d'accident de trottinette\nengins de déplacement personnel motorisé\ncontre le conducteur\nvoiture ou une moto\naccident de trottinette ou edpm\nresponsable d’un accident\nvictime d’un accident\nvictime ou responsable d’un accident\nusage d’une trottinette électrique\naccident d’edpm\ncas d’accident\nconducteur de la trottinette électrique\ntrottinette non motorisée\nconduire une trottinette\ntrottinette en libre-service\navoir un accident de trottinette\ncabinet benezra pour votre accident\nrouler en trottinette électrique\ndéfaut de la trottinette elle-même\nentretien de la trottinette\nassurer sa trottinette\nutilisation de votre trottinette électrique\ntrottinette électrique peut\ntrottinette classique\nautre trottinette\nsuite à un accident\nun accident impliquant\ntrottinette électrique doit\nsi la trottinette",
+  "content_extended_w_ranges": "accident en trottinette électrique: 1-2x\naprès un accident de trottinette: 1x\nassurance trottinette: 1x\nvictime d'un accident: 1x\nassurance trottinette électrique: 1x\ndroit du dommage corporel: 1-2x\nsans tiers: 1-2x\naccident de la circulation: 1x\nconducteur de trottinette électrique: 1x\nindemnisation après un accident: 1x\nvictime d'un accident de trottinette: 1x\nimpliquant une trottinette électrique: 1x\ndroit à une indemnisation: 1x\ncouvert par une assurance: 1x\ncas d'accident de trottinette: 1x\nengins de déplacement personnel motorisé: 1x\ncontre le conducteur: 1x\nvoiture ou une moto: 1x\naccident de trottinette ou edpm: 1x\nresponsable d’un accident: 1x\nvictime d’un accident: 1x\nvictime ou responsable d’un accident: 1x\nusage d’une trottinette électrique: 1x\naccident d’edpm: 1x\ncas d’accident: 1x\nconducteur de la trottinette électrique: 1x\ntrottinette non motorisée: 1x\nconduire une trottinette: 1x\ntrottinette en libre-service: 1x\navoir un accident de trottinette: 1x\ncabinet benezra pour votre accident: 1x\nrouler en trottinette électrique: 1x\ndéfaut de la trottinette elle-même: 1x\nentretien de la trottinette: 1x\nassurer sa trottinette: 1x\nutilisation de votre trottinette électrique: 1x\ntrottinette électrique peut: 1x\ntrottinette classique: 1x\nautre trottinette: 1x\nsuite à un accident: 1x\nun accident impliquant: 1x\ntrottinette électrique doit: 1x\nsi la trottinette: 1x",
+  "entities": "Trottinette\nTrottinette électrique\nAssurance\nPiéton\nVéhicule (transport physique)\nLoi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation\nEngin de déplacement personnel\nConduite automobile\nTrottoir\nLoi\nAccident de la route\nEndommagement\nResponsabilité civile\nAssurance responsabilité civile\nBadinter\nFonds de garantie des assurances obligatoires de dommages\nDommage corporel\nCollision\nAutomobile\nGyropode\nResponsabilité civile en droit français\nTransport\nFrance\nCode de la route (France)\nAvocat (métier)\nFrein\nMobilité spatiale\nEspace public\nEuro\nDécret en France\nAmende\nLime (entreprise)\nTraumatisme crânien\nMoto\nPierre\nGyroroue\nTraumatisme (médecine)"
+ },
+ "status": "ready",
+ "keyword": "indemnisation accident trottinette",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "cdd4c7998e9056e3",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "transactional": 3.7
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "guide": 88.9,
+   "business": 33.3,
+   "educational": 29.6,
+   "product-page": 3.7,
+   "landing-page": 3.7,
+   "short-answer": 14.8,
+   "blog-post": 11.1,
+   "video": 7.4
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/cdd4c7998e9056e3",
+ "share_url": "https://app.neuronwriter.com/analysis/share/cdd4c7998e9056e3/16fd52647cfedc961c25982fe5154bc24fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/cdd4c7998e9056e3/3b82e4e6093c2a08670a8b4090d15a9c4fa16"
+}
