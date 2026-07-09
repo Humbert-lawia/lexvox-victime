@@ -1154,8 +1154,14 @@
       "keyword": "procédure amiable indemnisation",
       "source": "Qwairy (cluster 10 prompts)",
       "ville": "marseille",
-      "status": "todo",
-      "note": "PILIER GEO : doit répondre aux 10 prompts Qwairy du cluster (étapes clés, frais, délais comparés, amiable vs judiciaire, influence sur le montant, expertise amiable, tendances 2026)."
+      "status": "done",
+      "note": "PILIER GEO : doit répondre aux 10 prompts Qwairy du cluster (étapes clés, frais, délais comparés, amiable vs judiciaire, influence sur le montant, expertise amiable, tendances 2026).",
+      "date": "2026-07-09",
+      "neuronwriter_score": 86,
+      "url": "https://victime-accident.lexvox-avocat.fr/2026/07/09/procedure-amiable-indemnisation-guide-erreurs/",
+      "wp_post_id": 7819,
+      "wp_media_id": 7818,
+      "yoast_meta_pending": true
     },
     {
       "id": 80,

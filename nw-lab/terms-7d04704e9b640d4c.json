@@ -1,0 +1,2587 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Qu'est-ce qu'une procédure amiable ?"
+   },
+   {
+    "q": "Qu'est-ce que la commission d'indemnisation amiable ?"
+   },
+   {
+    "q": "Qu'est-ce que la procédure d'indemnisation ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   }
+  ],
+  "topic_matrix": {
+   "Qu'est-ce qu'une procédure amiable d'indemnisation et comment fonctionne-t-elle ?": {
+    "importance": 10
+   },
+   "Quels sont les avantages et les inconvénients de la procédure amiable par rapport à la voie judiciaire ?": {
+    "importance": 9
+   },
+   "Quels types de préjudices sont indemnisables dans le cadre d'une procédure amiable ?": {
+    "importance": 10
+   },
+   "Quel est le rôle de la commission d'indemnisation amiable (CCI ou ONIAM) ?": {
+    "importance": 9
+   },
+   "Dans quels délais l'assureur doit-il faire une offre d'indemnisation amiable ?": {
+    "importance": 8
+   },
+   "Que faire en cas de désaccord sur l'expertise ou l'offre d'indemnisation amiable ?": {
+    "importance": 8
+   },
+   "Est-il nécessaire de faire appel à un avocat pour une procédure amiable d'indemnisation ?": {
+    "importance": 7
+   },
+   "Peut-on se rétracter d'une offre amiable acceptée ou revenir sur une transaction signée ?": {
+    "importance": 7
+   },
+   "Quels sont les frais à prévoir lors d'une procédure amiable d'indemnisation ?": {
+    "importance": 6
+   },
+   "Comment obtenir une avance sur l'indemnisation (provision) ?": {
+    "importance": 6
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Accident de la route en Paca : comment choisir le meilleur avocat spécialisé en dommage corporel pour indemnisation, expertise et défense des victimes ?"
+   },
+   {
+    "q": "Accident de la route en Paca : comment choisir son avocat ?"
+   },
+   {
+    "q": "Ai-je besoin d'un avocat pour négocier à l'amiable ?"
+   },
+   {
+    "q": "Après un accident, accepter l'offre de l'assureur ou saisir le juge ?"
+   },
+   {
+    "q": "Après un accident, la question du mode de résolution se pose vite : faut-il signer tout de suite avec l’assureur ou risquer un procès ?"
+   },
+   {
+    "q": "Après un accident, presque toutes les victimes finissent par se poser la même question : faut-il accepter ce que propose l'assureur et clore le dossier rapidement, ou engager une procédure pour obtenir davantage, au risque d'attendre des années ?"
+   },
+   {
+    "q": "Assurance protection juridique : peut-elle financer votre avocat après un accident ?"
+   },
+   {
+    "q": "Comment acheter un timbre fiscal pour engager une procédure civile ou faire appel d’une décision civile ?"
+   },
+   {
+    "q": "Comment choisir un avocat après un accident de la route ?"
+   },
+   {
+    "q": "Comment réagir si je juge l’offre d’indemnisation de l’assurance insuffisante ?"
+   },
+   {
+    "q": "Comment se déroule la procédure amiable d’indemnisation à la suite d’un accident de la circulation ?"
+   },
+   {
+    "q": "Comment se passe l’expertise, comment être bien assisté ?"
+   },
+   {
+    "q": "Conducteur fautif : quels droits à indemnisation ?"
+   },
+   {
+    "q": "Conducteur fautif après un accident : quelle indemnisation reste possible ?"
+   },
+   {
+    "q": "Dans quels délais l'assureur doit-il me faire une offre ?"
+   },
+   {
+    "q": "Est ce que il est plus judicieux d’entamer une procédure amiable puis une procédure judiciaire ?"
+   },
+   {
+    "q": "Est-ce qu’il est nécessaire d’aller devant une juridiction pénale ?"
+   },
+   {
+    "q": "Est-il préférable de choisir une résolution amiable ou de porter l’affaire devant le tribunal ?"
+   },
+   {
+    "q": "Faute de la victime : quand réduit-elle l’indemnisation ?"
+   },
+   {
+    "q": "Faute de la victime d'un accident : quand réduit-elle l'indemnisation du dommage corporel ?"
+   },
+   {
+    "q": "Infirmière libérale victime d’un accident ?"
+   },
+   {
+    "q": "Infirmière libérale victime d’un accident ?"
+   },
+   {
+    "q": "L'expertise judiciaire retarde-t-elle vraiment mon indemnisation ?"
+   },
+   {
+    "q": "La justice donne-t-elle toujours plus que l'amiable ?"
+   },
+   {
+    "q": "La mauvaise question : « amiable OU judiciaire ?"
+   },
+   {
+    "q": "Négociation amiable avec l’assurance ou procédure judiciaire : que choisir ?"
+   },
+   {
+    "q": "Ou bien est-il mieux de mettre en œuvre une procédure devant les juridictions civiles ?"
+   },
+   {
+    "q": "Pourquoi est-il conseillé de se faire assister par un avocat lors d’une expertise médicale ?"
+   },
+   {
+    "q": "Procédure amiable après un accident ?"
+   },
+   {
+    "q": "Puis-je me rétracter d’une offre amiable acceptée, sous quels délais ?"
+   },
+   {
+    "q": "Puis-je refuser l'offre de mon assurance sans perdre mes droits ?"
+   },
+   {
+    "q": "Puis-je revenir sur une transaction déjà signée ?"
+   },
+   {
+    "q": "Puis-je transiger après avoir saisi le tribunal ?"
+   },
+   {
+    "q": "Que faire en cas de désaccord sur les conclusions de l’expertise amiable ?"
+   },
+   {
+    "q": "Que faire en cas de désaccord sur l’offre d’indemnisation amiable ?"
+   },
+   {
+    "q": "Quelle est la procédure la mieux adaptée pour votre indemnisation ?"
+   },
+   {
+    "q": "Quelles sont les avantages de la procédure amiable, ses inconvénients ?"
+   },
+   {
+    "q": "Quels avis consulter avant de choisir un avocat en accident de la route ?"
+   },
+   {
+    "q": "Quels sont les délais moyens pour percevoir une indemnisation de la part de l’assurance ?"
+   },
+   {
+    "q": "Qui doit me présenter une offre d’indemnisation ?"
+   },
+   {
+    "q": "Saviez-vous qu’une procédure devant le tribunal  peut prolonger votre attente de 18 à 24 mois supplémentaires par rapport à un accord direct ?"
+   },
+   {
+    "q": "Suis-je obligé de passer par la voie amiable avant d'aller en justice ?"
+   },
+   {
+    "q": "Un accord signé à l’amiable avec mon assureur a-t-il une valeur contraignante ?"
+   },
+   {
+    "q": "Victime d’un accident de la route ?"
+   },
+   {
+    "q": "Voie amiable ou voie judiciaire : comment obtenir une meilleure indemnisation après un accident ?"
+   },
+   {
+    "q": "», mais « jusqu'où accepter la voie amiable, et à partir de quel signal basculer vers le juge ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.cabinet-roussel.fr/la-procedure-amiable/",
+   "title": "La procédure amiable, comment ça marche ?⎮Cabinet Roussel",
+   "desc": "Le Cabinet Roussel vous informe sur la procédure amiable et vous accompagne lors de vos démarches pour vous faire indemniser. Retrouvez ici toutes les explications. ⎮Cabinet Roussel",
+   "headers": [
+    [
+     "h1",
+     "La procédure amiable"
+    ],
+    [
+     "h2",
+     "DE QUOI S’AGIT-IL ?"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 23,
+   "word_count": 1409,
+   "content_len": 9152
+  },
+  {
+   "rank": 2,
+   "url": "https://www.oniam.fr/indemnisation-accidents-medicaux-oniam",
+   "title": "Quelle procédure d’indemnisation - Oniam",
+   "desc": "Ecouter cette page \r\nLa procédure de règlement amiable est décrite dans les documents d'information que vous pouvez consulter en cliquant sur les liens ci-après :\r\n\r\ns'il s'agit d'un accident médical non fautif relevant directement de la compétence de[..]",
+   "headers": [
+    [
+     "h1",
+     "L'indemnisation par l'ONIAM"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "L’évaluation des préjudices"
+    ],
+    [
+     "h2",
+     "L’offre d’indemnisation"
+    ],
+    [
+     "h2",
+     "En cas d’acceptation de l’offre d’indemnisation"
+    ]
+   ],
+   "content_score": 31,
+   "readability": 37,
+   "word_count": 421,
+   "content_len": 2741
+  },
+  {
+   "rank": 3,
+   "url": "https://association-aivf-faq.fr/indemnisation-procedure-amiable",
+   "title": "Indemnisation procédure amiable - Association Victimes de France AIVF",
+   "desc": "Indemnisation dans une procédure amiable d'un accident corporel, accident de la route, de la vie, accident médical, réparation du préjudice",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation procédure amiable"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation dans le cadre d’une procédure amiable"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 45,
+   "word_count": 858,
+   "content_len": 5453
+  },
+  {
+   "rank": 4,
+   "url": "https://jmp-avocat-indemnisation.fr/blog-dommages-corporels/blog-dommages-corporels-voie-amiable-ou-voie-judiciaire-indemnisation-accident",
+   "title": "Voie amiable ou voie judiciaire : comment obtenir une meilleure indemnisation après un accident ?",
+   "desc": "Après un accident, accepter l'offre de l'assureur ou saisir le juge ? Une avocate compare voie amiable et judiciaire et la stratégie qui maximise l'indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Voie amiable ou voie judiciaire : comment obtenir la meilleure indemnisation après un accident corporel"
+    ],
+    [
+     "h2",
+     "La voie amiable : rapide et simple, mais sous le contrôle de l'assureur"
+    ],
+    [
+     "h2",
+     "Le rôle méconnu — et décisif — de l'avocat dès la phase amiable"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "La voie judiciaire : plus longue, mais un cadre réellement protecteur"
+    ],
+    [
+     "h2",
+     "Avant même de choisir : l'expertise et la consolidation décident de presque tout"
+    ],
+    [
+     "h2",
+     "Voie amiable et voie judiciaire : le comparatif"
+    ],
+    [
+     "h2",
+     "La mauvaise question : « amiable OU judiciaire ? »"
+    ],
+    [
+     "h2",
+     "La stratégie gagnante : négocier à l'amiable sous la menace crédible du juge"
+    ],
+    [
+     "h2",
+     "Un exemple concret de basculement"
+    ],
+    [
+     "h2",
+     "Combien de temps, et à quel coût ?"
+    ],
+    [
+     "h2",
+     "Les erreurs qui coûtent le plus cher"
+    ],
+    [
+     "h2",
+     "Quand le parcours change : pas d'assureur, infraction, accident médical"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "En résumé"
+    ],
+    [
+     "h2",
+     "Bibliographie et ressources utiles"
+    ]
+   ],
+   "content_score": 73,
+   "readability": 30,
+   "word_count": 3594,
+   "content_len": 21783
+  },
+  {
+   "rank": 5,
+   "url": "https://victime-accident.lexvox-avocat.fr/les-procedures-dindemnisation/",
+   "title": "Les procédures d'indemnisation - Victime Accident",
+   "desc": "Si vous êtes victime d'un accident, vous pouvez bénéficier de plusieurs procédures d'indemnisation, que ce soit amiable ou devant le Tribunal judiciaire",
+   "headers": [
+    [
+     "h1",
+     "Quelle est la procédure la mieux adaptée pour votre indemnisation ?"
+    ],
+    [
+     "h2",
+     "Les différentes procédures d’indemnisation en cas d’accident"
+    ],
+    [
+     "h2",
+     "Pour aller plus loin :"
+    ],
+    [
+     "h2",
+     "LES PROCEDURES D'INDEMNISATION"
+    ],
+    [
+     "h2",
+     "DOSSIER SUR LES EXPERTISES"
+    ],
+    [
+     "h2",
+     "LES PREJUDICES INDEMNISABLES"
+    ],
+    [
+     "h2",
+     "NOS RESULTATS OBTENUS"
+    ],
+    [
+     "h2",
+     "La procédure d’indemnisation amiable"
+    ],
+    [
+     "h2",
+     "Avantages et inconvénients de la procédure amiable"
+    ],
+    [
+     "h2",
+     "Besoin d’aide ?"
+    ],
+    [
+     "h2",
+     "Prendre rendez-vous en cabinet"
+    ],
+    [
+     "h2",
+     "Etre rappelé par téléphone"
+    ],
+    [
+     "h2",
+     "Avantages et inconvénients de la procédure amiable"
+    ],
+    [
+     "h2",
+     "Contactez-nous"
+    ],
+    [
+     "h2",
+     "Email"
+    ],
+    [
+     "h2",
+     "Téléphone"
+    ],
+    [
+     "h2",
+     "Horaires"
+    ],
+    [
+     "h2",
+     "Nos conseils"
+    ]
+   ],
+   "content_score": 64,
+   "readability": 35,
+   "word_count": 3030,
+   "content_len": 20045
+  },
+  {
+   "rank": 6,
+   "url": "https://www.frederique-mocquenicoloff-rouen-fmn-avocat.fr/indemnisation-amiable-ou-judiciaire-que-choisir/",
+   "title": "Négociation amiable avec l’assurance ou procédure judiciaire : que choisir ? – Maître Frédérique Mocque Nicoloff Avocate à Rouen",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Négociation amiable avec l’assurance ou procédure judiciaire : que choisir ?"
+    ],
+    [
+     "h2",
+     "Choisir entre l’accord amiable et le Tribunal pour votre indemnisation"
+    ],
+    [
+     "h2",
+     "L’expertise médicale comme socle de l’évaluation des préjudices"
+    ],
+    [
+     "h2",
+     "Les pièges des négociations directes avec les compagnies d’assurance"
+    ],
+    [
+     "h2",
+     "Transformer la phase amiable en levier de négociation efficace"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ],
+    [
+     "h2",
+     "Première consultation gratuite"
+    ],
+    [
+     "h2",
+     "Ces articles pourraient vous intéresser"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 36,
+   "word_count": 2020,
+   "content_len": 13123
+  },
+  {
+   "rank": 7,
+   "url": "https://sante.gouv.fr/IMG/pdf/Fiche_25-2.pdf",
+   "title": "",
+   "desc": "",
+   "headers": [],
+   "content_score": "",
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 8,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1422",
+   "title": "Obtenir une indemnisation en cas de préjudice causé par une autre personne | Service Public",
+   "desc": "La personne qui subit un préjudice causé par la faute, la négligence ou l'infraction commise par un tiers peut obtenir des dommages et intérêts.",
+   "headers": [
+    [
+     "h1",
+     "Obtenir une indemnisation en cas de préjudice causé par une autre personne"
+    ],
+    [
+     "h2",
+     "Affaire civile"
+    ],
+    [
+     "h2",
+     "Affaire pénale"
+    ],
+    [
+     "h2",
+     "Où s’adresser ?"
+    ],
+    [
+     "h2",
+     "Où s’adresser ?"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Services en ligne et formulaires"
+    ],
+    [
+     "h2",
+     "Questions ? Réponses !"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 31,
+   "readability": 34,
+   "word_count": 6703,
+   "content_len": 41170
+  },
+  {
+   "rank": 9,
+   "url": "https://www.touboulavocats.fr/details-comment+se+deroule+la+procedure+amiable+d+indemnisation+a+la+suite+d+un+accident+de+la+circulation-75",
+   "title": "Comment se déroule la procédure amiable d’indemnisation à la suite d’un accident de la circulation ? - Cabinet Touboul",
+   "desc": "La procédure d’indemnisation des préjudices corporels subis à la suite d’un accident de la circulation est une procédure complexe, dont les étapes sont fixées par la Loi Badinter du 5 juillet 1985, dite « loi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation ».",
+   "headers": [
+    [
+     "h1",
+     "Comment se déroule la procédure amiable d’indemnisation à la suite d’un accident de la circulation ?"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 23,
+   "word_count": 926,
+   "content_len": 5934
+  },
+  {
+   "rank": 10,
+   "url": "https://www.youtube.com/watch?v=L69nssnYHlQ",
+   "title": "Procédure amiable après un accident ? À certaines conditions ! - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Procédure amiable après un accident ? À certaines conditions !"
+    ],
+    [
+     "h1",
+     "Procédure amiable après un accident ? À certaines conditions !"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      3"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 50,
+   "word_count": 155,
+   "content_len": 1070
+  },
+  {
+   "rank": 11,
+   "url": "https://avocat-nakache.fr/indemnisation-procedure-amiable/",
+   "title": "Indemnisation du dommage corporel : la procédure amiable - Cabinet d'avocats Pascal Nakache : Préjudice corporel, droit du handicap, droit de l'autisme",
+   "desc": "L’indemnisation des dommages corporels et professionnels obéit à des règles complexes.Faites vous assister d'un avocat aguéri avant d'accepter une proposition d'indemnisation.",
+   "headers": [
+    [
+     "h2",
+     "La constitution du dossier"
+    ],
+    [
+     "h1",
+     "LA PROCÉDURE AMIABLE"
+    ],
+    [
+     "h1",
+     "Faites-vous rappeler"
+    ],
+    [
+     "h2",
+     "Accouchements traumatiques : le juge des référés peut accorder des provisions importantes"
+    ],
+    [
+     "h2",
+     "Résumé : La réparation intégrale des préjudices causés par les erreurs médicales à l’hôpital : encore un effort Mesdames et Messieurs les juges administratifs"
+    ],
+    [
+     "h2",
+     "La réparation intégrale des préjudices causés par les erreurs médicales à l’hôpital : encore un effort, mesdames et messieurs les juges administratifs"
+    ],
+    [
+     "h2",
+     "La perte de gains professionnels futurs dans le cas d’un accident de la circulation"
+    ],
+    [
+     "h2",
+     "Responsabilité médicale non fautive et droit à indemnisation du conjoint survivant"
+    ],
+    [
+     "h2",
+     "L’indemnisation des proches des victimes"
+    ],
+    [
+     "h2",
+     "L’Express : associations de victimes du coronavirus : gare aux mirages !"
+    ],
+    [
+     "h2",
+     "Un commerce peut être tenu de réparer les conséquences de la chute de l’un de ses clients."
+    ],
+    [
+     "h2",
+     "L’ONIAM doit indemniser tous les préjudices sans déduire la PCH non demandée"
+    ],
+    [
+     "h2",
+     "Vidéo France 3 Responsabilité médicale Antonin Bridard"
+    ],
+    [
+     "h1",
+     "Nous vous rappelons"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 25,
+   "word_count": 1120,
+   "content_len": 7566
+  },
+  {
+   "rank": 12,
+   "url": "https://www.avocat-denis-peraldi.com/lindemnisation-amiable-des-accidents-medicaux-a-prendre-ou-a-laisser/",
+   "title": "L’INDEMNISATION AMIABLE DES ACCIDENTS MEDICAUX – A PRENDRE OU A LAISSER",
+   "desc": "",
+   "headers": [
+    [
+     "h2",
+     "L’INDEMNISATION AMIABLE DES ACCIDENTS MEDICAUX – A PRENDRE OU A LAISSER"
+    ],
+    [
+     "h2",
+     "Articles récents"
+    ]
+   ],
+   "content_score": 39,
+   "readability": 22,
+   "word_count": 983,
+   "content_len": 6373
+  },
+  {
+   "rank": 13,
+   "url": "https://www.coppet-avocats.fr/actualites/legislation-droit/procedure-amiable-judiciaire-accident-indemnisation/",
+   "title": "Procédure amiable ou judiciaire après un accident de la route ?",
+   "desc": "Procédure amiable ou judiciaire après un accident de la route ? Découvrez les avantages, risques et critères de choix. Avocats spécialistes en droit du dommage corporel à Paris.",
+   "headers": [
+    [
+     "h1",
+     "Procédure amiable ou judiciaire après un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Indemnisation après un accident : cadre juridique"
+    ],
+    [
+     "h2",
+     "Voie amiable : qu'est-ce que c'est ?"
+    ],
+    [
+     "h2",
+     "Voie judiciaire : dans quels cas saisir le tribunal ?"
+    ],
+    [
+     "h2",
+     "Différences entre la procédure amiable et contentieuse"
+    ],
+    [
+     "h2",
+     "Pourquoi se faire accompagner par un avocat en droit du dommage corporel ?"
+    ],
+    [
+     "h2",
+     "Amiable, judiciaire : exemples concrets"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ],
+    [
+     "h2",
+     "En résumé"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 24,
+   "word_count": 2500,
+   "content_len": 16484
+  },
+  {
+   "rank": 14,
+   "url": "https://www.oniam.fr/procedure-indemnisation",
+   "title": "Procédure d’indemnisation - Oniam",
+   "desc": "L’ONIAM et les CCI, au titre de la Solidarité nationale, offrent une procédure d’indemnisation amiable, rapide et gratuite, aux victimes d’accidents médicaux :\r\n\r\n    dont le degré de gravité est supérieur au seuil fixé par le décret du 4 avril 2003 ;\r\n    lorsque la date de l’acte médical en cause est postérieure au 5 septembre 2001.",
+   "headers": [
+    [
+     "h1",
+     "Les dispositifs d’indemnisation"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Une procédure amiable, rapide et gratuite pour toutes les victimes"
+    ],
+    [
+     "h2",
+     "Pour saisir l’ONIAM ou une Commission de conciliation et d’indemnisation (CCI)"
+    ],
+    [
+     "h2",
+     "Les délais d’instruction des dossiers"
+    ],
+    [
+     "h2",
+     "L’offre d’indemnisation"
+    ]
+   ],
+   "content_score": 36,
+   "readability": 18,
+   "word_count": 746,
+   "content_len": 4718
+  },
+  {
+   "rank": 15,
+   "url": "https://association-aide-victimes.com/indemnisation/indemnisation-procedure-amiable",
+   "title": "Indemnisation Procédure Amiable - Association AAV",
+   "desc": "L'Association d'Aide aux Victimes AAV vous explique comment se déroule la procédure d'indemnisation dans un cadre amiable. Permanence téléphonique gratuite.",
+   "headers": [
+    [
+     "h1",
+     "Procédure amiable"
+    ],
+    [
+     "h2",
+     "Procédure Amiable : négociation de l’indemnisation"
+    ],
+    [
+     "h2",
+     "Quel est le but de la procédure amiable ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule la procédure amiable ?"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 34,
+   "word_count": 478,
+   "content_len": 3152
+  },
+  {
+   "rank": 17,
+   "url": "https://www.avocat-debuisson.com/la-procedure-d-indemnisation-amiable-d-un-prejudice-corporel_ad104.html",
+   "title": "LA PROCÉDURE D'INDEMNISATION AMIABLE D'UN PRÉJUDICE CORPOREL",
+   "desc": "Le choix d'une procédure amiable peut être intéressant quand il s'agit d'obtenir une juste indemnisation des préjudices subis à la suite d'un accident ou d'une agression. Maître Pierre",
+   "headers": [
+    [
+     "h1",
+     "LA PROCÉDURE D'INDEMNISATION AMIABLE D'UN PRÉJUDICE CORPOREL"
+    ],
+    [
+     "h2",
+     "La procédure amiable d’indemnisation des personnes paraplégiques et tétraplégiques auprès de la compagnie d’assurance de l’auteur d’un accident par Maître Pierre DEBUISSON avocat en dommages corporels"
+    ],
+    [
+     "h2",
+     "La procédure d’indemnisation des préjudices subis par la personne paraplégique ou tétraplégique en cas d’agression par Maître Pierre DEBUISSON avocat en droit de la santé"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 27,
+   "word_count": 728,
+   "content_len": 4751
+  },
+  {
+   "rank": 19,
+   "url": "https://www.perier-avocat.fr/actualite/procedure-amiable-dindemnisation-des-accidents-medicaux-une-reparation-low-cost-selon-les-associations/",
+   "title": "Procédure amiable d’indemnisation des accidents médicaux : une réparation « low cost » selon les associations",
+   "desc": "Le Collectif interassociatif sur la santé (CISS) est une importante fédération d’associations de lutte pour les droits des malades. Dans un communiqué en date du 22 avril 2015, le CISS dénonce la pratique des indemnisations amiables pratiquées par l’ONIAM.  La démarche du Collectif interassociatif sur la santé (CISS) Le Collectif…",
+   "headers": [
+    [
+     "h1",
+     "Procédure amiable d’indemnisation des accidents médicaux : une réparation « low cost » selon les associations"
+    ],
+    [
+     "h2",
+     "La démarche du Collectif interassociatif sur la santé (CISS)"
+    ],
+    [
+     "h2",
+     "Le problème du montant des indemnisations accordées par l’ONIAM"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 30,
+   "word_count": 416,
+   "content_len": 2714
+  },
+  {
+   "rank": 20,
+   "url": "https://www.weka.fr/sante/base-documentaire/responsabilite-hospitaliere-wk332/les-voies-de-recours-contentieux-sl9308256/le-reglement-amiable-par-les-commissions-de-conciliation-et-d-indemnisation-sl9308261.html",
+   "title": "Les voies de recours contentieux - Le règlement amiable par les commissions de conciliation et d'indemnisation - Éditions Weka",
+   "desc": "Éditions Weka",
+   "headers": [
+    [
+     "h1",
+     "- Le règlement amiable par les commissions de conciliation et d'indemnisation"
+    ]
+   ],
+   "content_score": 27,
+   "readability": 20,
+   "word_count": 358,
+   "content_len": 2487
+  },
+  {
+   "rank": 21,
+   "url": "https://www.roussineau-avocats-paris.fr/avocat-erreur-medicale/avocat-procedure-indemnisation-erreur-medicale/",
+   "title": "La procédure d'indemnisation - Thomas Roussineau",
+   "desc": "La procédure d'indemnisation",
+   "headers": [
+    [
+     "h1",
+     "La procédure d’indemnisation"
+    ],
+    [
+     "h2",
+     "1- Indemnisation de l’erreur médicale : la réunion des preuves"
+    ],
+    [
+     "h2",
+     "2- Indemnisation de l’erreur médicale : la phase amiable"
+    ],
+    [
+     "h2",
+     "3- Indemnisation de l’erreur médicale : la phase judiciaire"
+    ],
+    [
+     "h2",
+     "Prenez contact avec notre cabinet d’avocat pour l’indemnisation d’une erreur médicale."
+    ]
+   ],
+   "content_score": 44,
+   "readability": 38,
+   "word_count": 1102,
+   "content_len": 6948
+  },
+  {
+   "rank": 22,
+   "url": "https://www.meimonnisenbaum.com/fr/indemnisations/parcours-de-reparation",
+   "title": "Procédure d’indemnisation dommage corporel",
+   "desc": "Quelle est la procédure d’indemnisation d’un dommage corporel ? Découvrez les étapes clés : procédure amiable ou judiciaire, expertise médicale, provisions et transaction.",
+   "headers": [
+    [
+     "h1",
+     "Procédure d'indemnisation"
+    ],
+    [
+     "h2",
+     "Procédure judiciaire ou amiable : quel choix pour la victime ?"
+    ],
+    [
+     "h2",
+     "L'espertise médical, l'expertise technique et les provisions"
+    ],
+    [
+     "h2",
+     "Procès ou transaction : comment se passe l'indemnisation corporelle au terme de la procédure ?"
+    ],
+    [
+     "h2",
+     "Défendre ses droits dans une procédure d'indemnisation"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 51,
+   "word_count": 884,
+   "content_len": 5782
+  },
+  {
+   "rank": 23,
+   "url": "https://www.youtube.com/watch?v=i6xir1RYjT0",
+   "title": "Replay - Webinaire \"Accident médical : se faire indemniser sans faire de procès\" - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Replay - Webinaire \"Accident médical : se faire indemniser sans faire de procès\""
+    ],
+    [
+     "h1",
+     "Replay - Webinaire \"Accident médical : se faire indemniser sans faire de procès\""
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 6,
+   "readability": 61,
+   "word_count": 256,
+   "content_len": 1552
+  },
+  {
+   "rank": 24,
+   "url": "https://lexvox-victime.com/actualites/frais-procedure-amiable-indemnisation",
+   "title": "Procédure amiable : avocat, dommages corporels",
+   "desc": "Tout savoir sur les frais et coûts d'une procédure amiable d'indemnisation. Cabinet LEXVOX : avocat dommage corporel, rendez-vous gratuit, défense des victimes.",
+   "headers": [
+    [
+     "h1",
+     "Procédure amiable : y a-t-il des frais ?"
+    ],
+    [
+     "h2",
+     "Procédure amiable : y a-t-il des frais ?"
+    ],
+    [
+     "h2",
+     "Contexte juridique de la procédure amiable : droit du dommage corporel, responsabilités et indemnisation — avocat dommage corporel, accident de la route, un accident — un avocat dommages corporels"
+    ],
+    [
+     "h2",
+     "Procédure amiable d’indemnisation des victimes de dommages corporels : étapes, coûts et acteurs — victimes de dommage corporel, rdv gratuit, accident médical"
+    ],
+    [
+     "h2",
+     "Faire appel à un avocat en dommage corporel : quand, pourquoi, et à quel coût ? — premier rendez-vous, poste de préjudice, défense des victimes"
+    ],
+    [
+     "h2",
+     "Jurisprudence, montants d’indemnisation et garantie du droit des victimes — accident de la vie, choisir un avocat, avocat dommages corporels"
+    ],
+    [
+     "h2",
+     "Le cabinet LEXVOX à vos côtés en région PACA — défend les victimes, droit des assurances, victimes d’accidents"
+    ],
+    [
+     "h2",
+     "FAQ — gratuit et sans engagement, accident corporel, les victimes d'accidents"
+    ],
+    [
+     "h2",
+     "Résultats obtenus — droit à indemnisation, réparation juridique du dommage corporel"
+    ],
+    [
+     "h2",
+     "Conclusion : agir dès maintenant pour défendre vos droits de victime"
+    ],
+    [
+     "h2",
+     "Sources officielles"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "À lire aussi"
+    ],
+    [
+     "h2",
+     "Pourquoi confier votre dossier à LEXVOX Avocats"
+    ],
+    [
+     "h2",
+     "Besoin d'un avocat ?"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 27,
+   "word_count": 3612,
+   "content_len": 23633
+  },
+  {
+   "rank": 25,
+   "url": "https://victime-info.fr/indemnisation/procedures/amiable-vs-judiciaire",
+   "title": "Procédure amiable vs judiciaire : quel choix pour l'indemnisation ? | victime-info.fr",
+   "desc": "Procédure amiable ou judiciaire après un accident ? Avantages, inconvénients, délais, coûts et stratégie optimale. Guide complet pour les victimes.",
+   "headers": [
+    [
+     "h1",
+     "Procédure amiable vs judiciaire : quelle voie choisir pour obtenir la meilleure indemnisation ?"
+    ],
+    [
+     "h2",
+     "La procédure amiable : négocier directement avec l’assureur"
+    ],
+    [
+     "h2",
+     "La procédure judiciaire : saisir le tribunal"
+    ],
+    [
+     "h2",
+     "Tableau comparatif : procédure amiable vs procédure judiciaire"
+    ],
+    [
+     "h2",
+     "Quelle stratégie adopter pour maximiser l’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Comment financer sa procédure d’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Les délais de prescription : ne pas perdre ses droits"
+    ],
+    [
+     "h2",
+     "Cas particuliers selon le type d’accident"
+    ],
+    [
+     "h2",
+     "Que faire en cas de refus d’indemnisation de l’assureur ?"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur le choix de procédure"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Procédure amiable ou judiciaire : une décision stratégique qui mérite un accompagnement"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 74,
+   "readability": 34,
+   "word_count": 4309,
+   "content_len": 28028
+  },
+  {
+   "rank": 26,
+   "url": "https://www.lemoniteurdespharmacies.fr/legislation/droit-du-travail/licenciement/accidents-medicaux-la-procedure-amiable-a-son-decret",
+   "title": "Accidents médicaux : la procédure amiable a son décret",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Accidents médicaux : la procédure amiable a son décret"
+    ]
+   ],
+   "content_score": 29,
+   "readability": 37,
+   "word_count": 542,
+   "content_len": 3419
+  },
+  {
+   "rank": 27,
+   "url": "https://hadrienmuller-avocat.com/indemnisation-transactionnelle-ou-judiciaire-du-prejudice-corporel/",
+   "title": "Indemnisation amiable ou judiciaire ? - Hadrien Muller",
+   "desc": "Indemnisation amiable ou judiciaire du dommage corporel ? Comment choisir sa stratégie ? L'avocat spécialiste Hadrien Muller répond",
+   "headers": [
+    [
+     "h2",
+     "Avocat spécialisé en préjudice corporel"
+    ],
+    [
+     "h2",
+     "Diplômé en évaluation des traumatismes crâniens"
+    ],
+    [
+     "h1",
+     "Indemnisation amiable ou judiciaire du dommage corporel?"
+    ],
+    [
+     "h2",
+     "Table des matières"
+    ],
+    [
+     "h2",
+     "1 – Lorsque la voie contentieuse est nécessaire pour faire reconnaître le droit à réparation."
+    ],
+    [
+     "h2",
+     "2 – Lorsque le droit à réparation n’est pas contesté, la voie transactionnelle est une possibilité qui ne doit pas être négligée."
+    ],
+    [
+     "h2",
+     "Un cas réel : victime jeune, accident lourd de conséquences"
+    ],
+    [
+     "h2",
+     "L’assureur ne reconnaît pas le préjudice professionnel"
+    ],
+    [
+     "h2",
+     "La première étape du dossier : tenter une transaction"
+    ],
+    [
+     "h2",
+     "Une nouvelle proposition amiable : pourquoi elle peut être intéressante"
+    ],
+    [
+     "h2",
+     "Maître Hadrien MULLER"
+    ],
+    [
+     "h2",
+     "Une réponse"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 31,
+   "word_count": 1859,
+   "content_len": 12004
+  },
+  {
+   "rank": 28,
+   "url": "https://www.justice-corporelle.fr/blog/procedure-indemnisation-accident-corporel/",
+   "title": "Etapes de la procédure d’indemnisation d'un accident corporel -",
+   "desc": "La procédure d’indemnisation après un accident corporel suit un processus structuré qui garantit une réparation des préjudices subis par les victimes. Explorez chaque étape, de la déclaration de l’accident à l’indemnisation finale, pour mieux défendre vos droits.",
+   "headers": [
+    [
+     "h1",
+     "Etapes de la procédure d’indemnisation d’un accident corporel"
+    ],
+    [
+     "h2",
+     "La procédure d’indemnisation après un accident corporel suit un processus structuré qui garantit une réparation des préjudices subis par les victimes. Explorez chaque étape, de la déclaration de l’acc"
+    ],
+    [
+     "h2",
+     "Recent Posts"
+    ],
+    [
+     "h2",
+     "Recent Comments"
+    ],
+    [
+     "h2",
+     "Archives"
+    ],
+    [
+     "h2",
+     "Categories"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 40,
+   "word_count": 917,
+   "content_len": 6202
+  },
+  {
+   "rank": 29,
+   "url": "https://www.youtube.com/watch?v=X0pREtwSvqU",
+   "title": "Le recours amiable en droit de la sécurité sociale - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Le recours amiable en droit de la sécurité sociale"
+    ],
+    [
+     "h2",
+     "Moments clés\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h1",
+     "Le recours amiable en droit de la sécurité sociale"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      11"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Moments clés"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Moments clés\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 14,
+   "readability": 79,
+   "word_count": 376,
+   "content_len": 2071
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1168,
+   "target": 1168
+  },
+  "readability": {
+   "median": 35,
+   "target": 35
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 67
+   },
+   {
+    "t": "amiable",
+    "usage_pc": 67
+   },
+   {
+    "t": "procédure amiable",
+    "usage_pc": 44
+   },
+   {
+    "t": "accident",
+    "usage_pc": 44
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 33
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 22
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 11
+   }
+  ],
+  "desc": [
+   {
+    "t": "amiable",
+    "usage_pc": 56
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 56
+   },
+   {
+    "t": "accident",
+    "usage_pc": 56
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 44
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 33
+   },
+   {
+    "t": "procédure amiable",
+    "usage_pc": 22
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 22
+   },
+   {
+    "t": "une procédure",
+    "usage_pc": 22
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 22
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 11
+   },
+   {
+    "t": "avocat",
+    "usage_pc": 11
+   },
+   {
+    "t": "offre",
+    "usage_pc": 11
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 11
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 11
+   },
+   {
+    "t": "un avocat",
+    "usage_pc": 11
+   }
+  ],
+  "h1": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 67
+   },
+   {
+    "t": "amiable",
+    "usage_pc": 67
+   },
+   {
+    "t": "procédure amiable",
+    "usage_pc": 44
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 33
+   },
+   {
+    "t": "accident",
+    "usage_pc": 33
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 22
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 11
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 11
+   },
+   {
+    "t": "procédure judiciaire",
+    "usage_pc": 11
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 11
+   },
+   {
+    "t": "négociation amiable",
+    "usage_pc": 11
+   },
+   {
+    "t": "accidents de la circulation",
+    "usage_pc": 11
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 11
+   },
+   {
+    "t": "voie amiable",
+    "usage_pc": 11
+   },
+   {
+    "t": "accident corporel",
+    "usage_pc": 11
+   },
+   {
+    "t": "obtenir la meilleure indemnisation",
+    "usage_pc": 11
+   },
+   {
+    "t": "voie judiciaire",
+    "usage_pc": 11
+   }
+  ],
+  "h2": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 44
+   },
+   {
+    "t": "amiable",
+    "usage_pc": 44
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 33
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 22
+   },
+   {
+    "t": "procédure amiable",
+    "usage_pc": 22
+   },
+   {
+    "t": "accident",
+    "usage_pc": 22
+   },
+   {
+    "t": "évaluation",
+    "usage_pc": 22
+   },
+   {
+    "t": "phase amiable",
+    "usage_pc": 22
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 11
+   },
+   {
+    "t": "avocat",
+    "usage_pc": 11
+   },
+   {
+    "t": "offre",
+    "usage_pc": 11
+   },
+   {
+    "t": "une procédure",
+    "usage_pc": 11
+   },
+   {
+    "t": "consolidation",
+    "usage_pc": 11
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 11
+   },
+   {
+    "t": "indemnisation amiable",
+    "usage_pc": 11
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 11
+   },
+   {
+    "t": "voie amiable",
+    "usage_pc": 11
+   },
+   {
+    "t": "voie judiciaire",
+    "usage_pc": 11
+   },
+   {
+    "t": "amiable ou judiciaire",
+    "usage_pc": 11
+   },
+   {
+    "t": "formulaire",
+    "usage_pc": 11
+   },
+   {
+    "t": "accord amiable",
+    "usage_pc": 11
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     10,
+     20
+    ]
+   },
+   {
+    "t": "amiable",
+    "usage_pc": 100,
+    "sugg_usage": [
+     4,
+     18
+    ]
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     5
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 100,
+    "sugg_usage": [
+     5,
+     11
+    ]
+   },
+   {
+    "t": "procédure amiable",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 89,
+    "sugg_usage": [
+     3,
+     20
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 100,
+    "sugg_usage": [
+     4,
+     16
+    ]
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 89,
+    "sugg_usage": [
+     2,
+     8
+    ]
+   },
+   {
+    "t": "avocat",
+    "usage_pc": 89,
+    "sugg_usage": [
+     8,
+     16
+    ]
+   },
+   {
+    "t": "offre",
+    "usage_pc": 89,
+    "sugg_usage": [
+     2,
+     11
+    ]
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 89,
+    "sugg_usage": [
+     1,
+     8
+    ]
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un avocat",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "une procédure",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "procédure judiciaire",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "consolidation",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "transaction",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "évaluation",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "juridiction",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "loi badinter",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "négociation amiable",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accidents de la circulation",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemnisation amiable",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "séquelle",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "expert judiciaire",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les délais",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "présenter une offre",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un expert",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les offres",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "devant le tribunal",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "procès-verbal de transaction",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "action en justice",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assureur doit",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expertise amiable",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "voie amiable",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident corporel",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir la meilleure indemnisation",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "voie judiciaire",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "amiable ou judiciaire",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "saisir le tribunal",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime accident",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation juste",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "délai de 5",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "formulaire",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "doit présenter une offre",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médecin expert",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médecin conseil",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "phase amiable",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "devant le tribunal judiciaire",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "offre d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "procédure d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "procédure amiable d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "désignation d’un expert judiciaire",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les offres d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les propositions d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cadre d’une procédure",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conseil auprès d’un avocat",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "compagnies d’assurance",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les cinq mois",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d'un accident",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat expert",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accord amiable",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "formuler une offre",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "devant le juge",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "offre d'indemnisation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lors d'un accident",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "engager une procédure",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "délai de rétractation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "début de la procédure",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "procédure civile",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "juste indemnisation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "certificat médical",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "procédure de référé",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les propositions",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les postes",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "première provision",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "santé de la victime",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "procédure amiable peut",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expert indépendant",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "procédure devant",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "délai de 5 mois",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cadre amiable",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les postes de préjudice",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "long de la procédure",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "amiable se révèle",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "certains postes de préjudice",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les autres cas",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Assurance",
+    "importance": 65.00399999999999,
+    "relevance": 0.65004,
+    "confidence": 5.3318,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 21.236480000000004,
+    "relevance": 0.33182,
+    "confidence": 4.8614,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 9.0468,
+    "relevance": 0.25129999999999997,
+    "confidence": 1.877,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Juge",
+    "importance": 7.2842400000000005,
+    "relevance": 0.20234000000000002,
+    "confidence": 1.0312,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Juge"
+     ]
+    ]
+   },
+   {
+    "t": "Expert judiciaire",
+    "importance": 4.843439999999999,
+    "relevance": 0.13454,
+    "confidence": 1.4502,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expert_judiciaire"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 3.76896,
+    "relevance": 0.23556,
+    "confidence": 0.7545999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Expertise",
+    "importance": 3.7052799999999997,
+    "relevance": 0.23157999999999998,
+    "confidence": 0.75574,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expertise"
+     ]
+    ]
+   },
+   {
+    "t": "Procédure civile en France",
+    "importance": 3.4092800000000003,
+    "relevance": 0.21308000000000002,
+    "confidence": 0.6492,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Procédure_civile_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 2.8655999999999997,
+    "relevance": 0.07959999999999999,
+    "confidence": 0.8674,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Référé en droit français",
+    "importance": 2.02464,
+    "relevance": 0.12654,
+    "confidence": 0.4596,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Référé_en_droit_français"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal",
+    "importance": 1.8518399999999997,
+    "relevance": 0.11574,
+    "confidence": 1.8638,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal"
+     ]
+    ]
+   },
+   {
+    "t": "Incapacité totale de travail",
+    "importance": 1.7504,
+    "relevance": 0.10940000000000001,
+    "confidence": 0.9490000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Incapacité_totale_de_travail"
+     ]
+    ]
+   },
+   {
+    "t": "Office national d'indemnisation des accidents médicaux",
+    "importance": 0.73248,
+    "relevance": 0.18312,
+    "confidence": 0.9178000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Office_national_d'indemnisation_des_accidents_médicaux"
+     ]
+    ]
+   },
+   {
+    "t": "AIVF",
+    "importance": 0.66632,
+    "relevance": 0.16658,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Fonds de garantie des victimes des actes de terrorisme et d'autres infractions",
+    "importance": 0.55232,
+    "relevance": 0.13808,
+    "confidence": 0.5092,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fonds_de_garantie_des_victimes_des_actes_de_terrorisme_et_d'autres_infractions"
+     ]
+    ]
+   },
+   {
+    "t": "Commission d'indemnisation des victimes d'infractions",
+    "importance": 0.51344,
+    "relevance": 0.12836,
+    "confidence": 0.7386,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Commission_d'indemnisation_des_victimes_d'infractions"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "indemnisation\namiable\nprocédure amiable\naccident\nun accident\naprès un accident\npréjudice",
+  "desc_title": "amiable\nun accident\naccident\nindemnisation\npréjudice\nprocédure amiable\ncorporel\nune procédure\naccident médical\nassureur\navocat\noffre\naccident de la route\naprès un accident\nun avocat",
+  "h1": "indemnisation\namiable\nprocédure amiable\nun accident\naccident\naprès un accident\npréjudice\ncorporel\nprocédure judiciaire\nune indemnisation\nnégociation amiable\naccidents de la circulation\nobtenir une indemnisation\nvoie amiable\naccident corporel\nobtenir la meilleure indemnisation\nvoie judiciaire",
+  "h2": "indemnisation\namiable\nexpertise\npréjudice\nprocédure amiable\naccident\névaluation\nphase amiable\nassureur\navocat\noffre\nune procédure\nconsolidation\naccident médical\nindemnisation amiable\nexpertise médicale\nvoie amiable\nvoie judiciaire\namiable ou judiciaire\nformulaire\naccord amiable",
+  "content_basic": "indemnisation\namiable\nun accident\npréjudice\nprocédure amiable\nassureur\naccident\nexpertise\navocat\noffre\naccident de la route\ncorporel\naprès un accident\nun avocat\nune procédure\nprocédure judiciaire\nune indemnisation\npréjudice corporel\nconsolidation\ndommage corporel\ntransaction\névaluation\naccident médical\njuridiction\nun accident de la route\nloi badinter\nnégociation amiable\naccidents de la circulation\nles préjudices\nindemnisation amiable\nexpertise médicale\nséquelle\nexpert judiciaire\nles délais\nprésenter une offre\nun expert\nles offres\ndevant le tribunal\nprocès-verbal de transaction\naction en justice\nassureur doit",
+  "content_basic_w_ranges": "indemnisation: 10-20x\namiable: 4-18x\nun accident: 2-5x\npréjudice: 5-11x\nprocédure amiable: 1-6x\nassureur: 3-20x\naccident: 4-16x\nexpertise: 2-8x\navocat: 8-16x\noffre: 2-11x\naccident de la route: 1-4x\ncorporel: 1-8x\naprès un accident: 1-2x\nun avocat: 1-5x\nune procédure: 1-5x\nprocédure judiciaire: 1-2x\nune indemnisation: 1-4x\npréjudice corporel: 1x\nconsolidation: 1-2x\ndommage corporel: 1-4x\ntransaction: 1-3x\névaluation: 1-2x\naccident médical: 1x\njuridiction: 1-3x\nun accident de la route: 1-2x\nloi badinter: 1-2x\nnégociation amiable: 1x\naccidents de la circulation: 1-2x\nles préjudices: 1-2x\nindemnisation amiable: 1x\nexpertise médicale: 1-2x\nséquelle: 1-2x\nexpert judiciaire: 1x\nles délais: 1-2x\nprésenter une offre: 1-2x\nun expert: 1x\nles offres: 1x\ndevant le tribunal: 1x\nprocès-verbal de transaction: 1x\naction en justice: 1x\nassureur doit: 1x",
+  "content_extended": "poste de préjudice\nobtenir une indemnisation\nexpertise amiable\nvoie amiable\naccident corporel\nobtenir la meilleure indemnisation\nvoie judiciaire\namiable ou judiciaire\nsaisir le tribunal\nvictime accident\nindemnisation juste\ndélai de 5\nformulaire\ndoit présenter une offre\nmédecin expert\nmédecin conseil\nphase amiable\navocat spécialisé\ndevant le tribunal judiciaire\noffre d’indemnisation\nvictime d’un accident\nprocédure d’indemnisation\nprocédure amiable d’indemnisation\ndésignation d’un expert judiciaire\nles offres d’indemnisation\nles propositions d’indemnisation\ncadre d’une procédure\nconseil auprès d’un avocat\ncompagnies d’assurance\nles cinq mois\nvictime d'un accident\navocat expert\naccord amiable\nformuler une offre\ndevant le juge\noffre d'indemnisation\nlors d'un accident\nengager une procédure\ndélai de rétractation\ndébut de la procédure\nprocédure civile\njuste indemnisation\ncertificat médical\nprocédure de référé\nles propositions\nles postes\npremière provision\nsanté de la victime\nprocédure amiable peut\nexpert indépendant\nprocédure devant\ndélai de 5 mois\ncadre amiable\nles postes de préjudice\nlong de la procédure\namiable se révèle\ncertains postes de préjudice\nles autres cas",
+  "content_extended_w_ranges": "poste de préjudice: 1-3x\nobtenir une indemnisation: 1x\nexpertise amiable: 1-2x\nvoie amiable: 1x\naccident corporel: 1x\nobtenir la meilleure indemnisation: 1x\nvoie judiciaire: 1x\namiable ou judiciaire: 1x\nsaisir le tribunal: 1x\nvictime accident: 1x\nindemnisation juste: 1x\ndélai de 5: 1x\nformulaire: 1x\ndoit présenter une offre: 1x\nmédecin expert: 1x\nmédecin conseil: 1x\nphase amiable: 1x\navocat spécialisé: 1-2x\ndevant le tribunal judiciaire: 1x\noffre d’indemnisation: 1x\nvictime d’un accident: 1x\nprocédure d’indemnisation: 1x\nprocédure amiable d’indemnisation: 1x\ndésignation d’un expert judiciaire: 1x\nles offres d’indemnisation: 1x\nles propositions d’indemnisation: 1x\ncadre d’une procédure: 1x\nconseil auprès d’un avocat: 1x\ncompagnies d’assurance: 1x\nles cinq mois: 1x\nvictime d'un accident: 1x\navocat expert: 1x\naccord amiable: 1x\nformuler une offre: 1x\ndevant le juge: 1x\noffre d'indemnisation: 1x\nlors d'un accident: 1x\nengager une procédure: 1x\ndélai de rétractation: 1x\ndébut de la procédure: 1x\nprocédure civile: 1x\njuste indemnisation: 1x\ncertificat médical: 1x\nprocédure de référé: 1x\nles propositions: 1x\nles postes: 1x\npremière provision: 1x\nsanté de la victime: 1x\nprocédure amiable peut: 1x\nexpert indépendant: 1x\nprocédure devant: 1x\ndélai de 5 mois: 1x\ncadre amiable: 1x\nles postes de préjudice: 1x\nlong de la procédure: 1x\namiable se révèle: 1x\ncertains postes de préjudice: 1x\nles autres cas: 1x",
+  "entities": "Assurance\nAccident de la route\nDommage corporel\nJuge\nExpert judiciaire\nAvocat (métier)\nExpertise\nProcédure civile en France\nMédecin\nRéféré en droit français\nTribunal\nIncapacité totale de travail\nOffice national d'indemnisation des accidents médicaux\nAIVF\nFonds de garantie des victimes des actes de terrorisme et d'autres infractions\nCommission d'indemnisation des victimes d'infractions"
+ },
+ "status": "ready",
+ "keyword": "procédure amiable indemnisation",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "972165f229676370",
+ "query": "7d04704e9b640d4c",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "navigational": 6.9
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "guide": 55.2,
+   "blog-post": 27.6,
+   "comparison": 17.2,
+   "other": 6.9,
+   "video": 10.3,
+   "whitepaper": 3.4,
+   "news": 6.9,
+   "educational": 3.4
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/7d04704e9b640d4c",
+ "share_url": "https://app.neuronwriter.com/analysis/share/7d04704e9b640d4c/b8de1f15b9ece9e1d4d88325b6bf1f764fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/7d04704e9b640d4c/3386e1c7a08459aa97700ca2a4e49f9c4fa16"
+}

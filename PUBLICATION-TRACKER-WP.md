@@ -15,6 +15,7 @@ Git. Ne jamais toucher à Sanity ni à `lexvox-victime.com` depuis ce pipeline.
 | 2026-07-07 | medical | perte-de-chance-erreur-medicale-indemnisation | 88 (pilier) | https://medical.lexvox-avocat.fr/2026/07/07/perte-de-chance-erreur-medicale-indemnisation/ |
 | 2026-07-09 | accident | recours-contre-assureur-guide-complet | 86 (pilier) | https://victime-accident.lexvox-avocat.fr/2026/07/09/recours-contre-assureur-guide-complet/ |
 | 2026-07-09 | accident | accidents-de-la-vie-recours-indemnisation | 92 | https://victime-accident.lexvox-avocat.fr/2026/07/09/accidents-de-la-vie-recours-indemnisation/ |
+| 2026-07-09 | accident | procedure-amiable-indemnisation-guide-erreurs | 86 (pilier) | https://victime-accident.lexvox-avocat.fr/2026/07/09/procedure-amiable-indemnisation-guide-erreurs/ |
 
 Les scores NeuronWriter ci-dessus sont mesurés sur la **page reconstituée**
 (title + meta description + h1 injectés autour du corps atelier, cf.
@@ -41,6 +42,7 @@ manuellement dans Yoast (à faire par Me Humbert ou le webmaster) :
 | medical #5210 — perte-de-chance-erreur-medicale-indemnisation | Perte de chance en responsabilité médicale : indemnisation | Perte de chance en erreur médicale : évaluation, barème et indemnisation de la chance perdue par la victime. Jurisprudence et rôle de l'ONIAM. |
 | accident #7815 — recours-contre-assureur-guide-complet | Recours contre l'assureur : litige, médiation, indemnisation | Recours contre son assureur après un accident : réclamation, médiateur de l'assurance, action en justice, délais et documents. Guide d'un avocat à Nîmes. |
 | accident #7817 — accidents-de-la-vie-recours-indemnisation | Accident de la vie courante : indemnisation et recours | Accident de la vie courante : qui indemnise la victime ? Garantie accidents de la vie (GAV), tiers responsable, expertise et recours. Avocat à Aix. |
+| accident #7819 — procedure-amiable-indemnisation-guide-erreurs | Procédure amiable d'indemnisation : étapes et erreurs | Procédure amiable d'indemnisation après un accident : étapes, expertise, offre de l'assureur, délais, erreurs et voie judiciaire. Avocat à Marseille. |
 
 En attendant, le `title` WordPress (H1 affiché) et l'`excerpt` du post portent
 déjà ce contenu optimisé — seul le rendu du snippet Google (title/desc dans
