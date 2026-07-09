@@ -357,8 +357,9 @@
       "keyword": "FGAO délit de fuite indemnisation",
       "source": "Benezra+Jullien",
       "ville": "arles",
-      "status": "todo",
-      "note": "CANNIBALISATION lexvox-victime id 54 : angle WP = procédure pratique + délais de saisine, pas le pilier FGAO."
+      "status": "redige_valide_publication_bloquee",
+      "note": "CANNIBALISATION lexvox-victime id 54 : angle WP = procédure pratique + délais de saisine, pas le pilier FGAO. STATUT 2026-07-09 : redige+QA OK, NW 83 (derogation, plafond famille procedure/delais), publication bloquee (secrets WP_ACCIDENT_* absents).",
+      "nw_score": 83
     },
     {
       "id": 20,

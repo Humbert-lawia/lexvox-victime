@@ -1,0 +1,2505 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Qui est éligible à la CIVI ?"
+   },
+   {
+    "q": "Montant maximum indemnisation civi ?"
+   },
+   {
+    "q": "Quel est le délai de paiement de la CIVI ?"
+   },
+   {
+    "q": "Comment être indemnisé par la CIVI ?"
+   }
+  ],
+  "topic_matrix": {
+   "Qu'est-ce que la CIVI et quel est son rôle ?": {
+    "importance": 8
+   },
+   "Qui est éligible à la CIVI et quelles sont les conditions pour être indemnisé ?": {
+    "importance": 10
+   },
+   "Comment faire une demande d'indemnisation auprès de la CIVI ?": {
+    "importance": 10
+   },
+   "Quel est le montant maximum de l'indemnisation par la CIVI ?": {
+    "importance": 9
+   },
+   "Quel est le délai pour saisir la CIVI et combien de temps dure la procédure ?": {
+    "importance": 10
+   },
+   "Quels types de dommages ou d'infractions sont indemnisés par la CIVI ?": {
+    "importance": 8
+   },
+   "Que se passe-t-il en cas de refus ou de contestation de la décision de la CIVI ?": {
+    "importance": 7
+   },
+   "Faut-il un avocat pour saisir la CIVI et se faire accompagner ?": {
+    "importance": 7
+   },
+   "La CIVI indemnise-t-elle si l'auteur de l'infraction n'est pas identifié ou est insolvable ?": {
+    "importance": 6
+   },
+   "Quelle est la différence entre la CIVI et le SARVI ?": {
+    "importance": 5
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Alors, en quoi consiste la Civi ?"
+   },
+   {
+    "q": "CIVI ou SARVI, qui saisir ?"
+   },
+   {
+    "q": "Civi : Comment obtenir une indemnisation en tant que victime d’infraction ?"
+   },
+   {
+    "q": "Civi : Quelle indemnisation pour les victimes d’infraction ?"
+   },
+   {
+    "q": "Combien de temps dure la procédure devant la CIVI ?"
+   },
+   {
+    "q": "Combien de temps dure la procédure devant la Commission d’Indemnisation des Victimes d’Infractions (CIVI) ?"
+   },
+   {
+    "q": "Comment est calculé le montant de l'indemnisation ?"
+   },
+   {
+    "q": "Comment faire la demande d'indemnisation auprès de la Civi ?"
+   },
+   {
+    "q": "Comment la demande d'indemnisation est-elle traitée par le fonds de garantie ?"
+   },
+   {
+    "q": "Comment obtenir une indemnisation à la suite d’une erreur médicale ?"
+   },
+   {
+    "q": "Comment saisir la CIVI ?"
+   },
+   {
+    "q": "Dans quel cas peut-on saisir la Civi ?"
+   },
+   {
+    "q": "Dans quel délai faut-il saisir la Civi ?"
+   },
+   {
+    "q": "Dommage et intérêt compétence CIVI ?"
+   },
+   {
+    "q": "Est-ce que toutes les infractions sont indemnisables par la CIVI ?"
+   },
+   {
+    "q": "I- Quelles sont les conditions de saisine de la CIVI ?"
+   },
+   {
+    "q": "II- Quelle est la CIVI compétente ?"
+   },
+   {
+    "q": "III- Dans quel délai faut-il saisir la CIVI ?"
+   },
+   {
+    "q": "L'assistance d'un avocat est-elle obligatoire pour saisir la CIVI ?"
+   },
+   {
+    "q": "La CIVI indemnise-t-elle toutes les infractions ?"
+   },
+   {
+    "q": "La CIVI peut-elle m’aider à remplir le formulaire de demande ?"
+   },
+   {
+    "q": "La Civi peut-elle prendre en charge cette somme dans sa totalité ?"
+   },
+   {
+    "q": "La procédure devant la CIVI est-elle une procédure \"écrite\" ou bien \"orale\", au sens du code de procédure civile ?"
+   },
+   {
+    "q": "Le requérant qui saisit la CIVI sans avocat peut-il s’abstenir de se rendre à l’audience, dès lors que ses moyens et prétentions ressortent parfaitement de sa requête ?"
+   },
+   {
+    "q": "L’indemnisation est-elle forfaitaire ?"
+   },
+   {
+    "q": "Merci de me dire comment saisir la CIVI et si la CIVI va m’indemniser ?"
+   },
+   {
+    "q": "Mon mari refuse de prendre un avocat pour le divorce : que faire ?"
+   },
+   {
+    "q": "Où s’adresser ?"
+   },
+   {
+    "q": "Pourquoi se faire assister d’un avocat ?"
+   },
+   {
+    "q": "Pourriez-vous m’indiquer le nom du Bureau auquel s’adresser au sein de ladite juridiction ?"
+   },
+   {
+    "q": "Pourriez-vous s’il vous plaît me fournir des indications sur la façon de contacter la CIVI ?"
+   },
+   {
+    "q": "Pouvez-vous m’indiquer à qui je dois m’adresser pour m’assister dans la rédaction de cette requête ?"
+   },
+   {
+    "q": "Puis-je faire une demande d’indemnisation auprès de la CIVI en demandant par exemple 15000e de dommage ?"
+   },
+   {
+    "q": "Puis-je être indemnisé pour un préjudice psychologique ?"
+   },
+   {
+    "q": "Puis-je être indemnisé si l'auteur de l'infraction n'a pas été identifié ?"
+   },
+   {
+    "q": "Qu'est-ce que la CIVI et quel est son rôle ?"
+   },
+   {
+    "q": "Quand la CIVI est-elle ouverte ?"
+   },
+   {
+    "q": "Que se passe-t-il en cas de contestation de la décision du fonds de garantie ?"
+   },
+   {
+    "q": "Quel est le plafond d’indemnisation de la Civi ?"
+   },
+   {
+    "q": "Quelle est la différence entre la Civi et la Sarvi ?"
+   },
+   {
+    "q": "Quelles sont les infractions pour lesquelles il y a une indemnisation ?"
+   },
+   {
+    "q": "Quels dommages peuvent être indemnisés par la Commission d’indemnisation et quelles sont les démarches pour bénéficier d’une indemnisation ?"
+   },
+   {
+    "q": "Quels préjudices sont indemnisés ?"
+   },
+   {
+    "q": "Quels sont les délais pour déposer une demande d'indemnisation ?"
+   },
+   {
+    "q": "Quels types de dommages peuvent être indemnisés ?"
+   },
+   {
+    "q": "Qui peut saisir la CIVI ?"
+   },
+   {
+    "q": "Qui peut être indemnisé par le fonds de garantie des victimes ?"
+   },
+   {
+    "q": "Qui va déterminer mon droit à indemnisation ?"
+   },
+   {
+    "q": "Qu’est-ce que la CIVI ?"
+   },
+   {
+    "q": "Qu’est-ce que la Commission d’indemnisation des victimes d’infraction (Civi) ?"
+   },
+   {
+    "q": "Saisir la Commission d’indemnisation des victimes d’infraction : quelles sont les démarches ?"
+   },
+   {
+    "q": "Sous quel délai l’indemnisation est-elle versée ?"
+   },
+   {
+    "q": "Victime d'une infraction ?"
+   },
+   {
+    "q": "Vous avez été victime d’un dommage corporel, d’un accident de la route, d’une erreur médicale ?"
+   },
+   {
+    "q": "Vous avez été victime d’une infraction ?"
+   },
+   {
+    "q": "d'une personne décédée des suites d'une infraction ?"
+   },
+   {
+    "q": "et confrontée à des préjudices physiques, psychologiques ou matériels ?"
+   },
+   {
+    "q": "qui vous a causé un préjudice ?"
+   },
+   {
+    "q": "À quel moment saisir la CIVI ?"
+   },
+   {
+    "q": "Êtes-vous éligible à la CIVI ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2313",
+   "title": "Victime d'infraction : indemnisation par le fonds de garantie des victimes | Service Public",
+   "desc": "La victime directe ou indirecte d'une infraction peut demander une indemnisation à la Civi pour que son préjudice soit réparé.",
+   "headers": [
+    [
+     "h1",
+     "Victime d'infraction : indemnisation par le fonds de garantie des victimes"
+    ],
+    [
+     "h2",
+     "Qui peut être indemnisé par le fonds de garantie des victimes ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les infractions pour lesquelles il y a une indemnisation ?"
+    ],
+    [
+     "h2",
+     "Dans quel délai faut-il saisir la Civi ?"
+    ],
+    [
+     "h2",
+     "Comment faire la demande d'indemnisation auprès de la Civi ?"
+    ],
+    [
+     "h2",
+     "Comment la demande d'indemnisation est-elle traitée par le fonds de garantie ?"
+    ],
+    [
+     "h2",
+     "Que se passe-t-il en cas de contestation de la décision du fonds de garantie ?"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Services en ligne et formulaires"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 65,
+   "readability": 45,
+   "word_count": 3181,
+   "content_len": 19293
+  },
+  {
+   "rank": 2,
+   "url": "https://www.jplouton-avocat.fr/post/indemnisation-civi-2025-guide-complet-pour-les-victimes-d-infractions",
+   "title": "Indemnisation CIVI : montants et démarches 2026",
+   "desc": "Victime d'une infraction ? La CIVI indemnise même si l'auteur est \ninconnu ou insolvable. Montants 2026, conditions, délai de 3 ans, \ndossier : le guide d'un avocat.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation CIVI : le guide 2026 pour les victimes d'infractions"
+    ],
+    [
+     "h2",
+     "Qu'est-ce que la CIVI et quel est son rôle ?"
+    ],
+    [
+     "h2",
+     "Quels types de dommages peuvent être indemnisés ?"
+    ],
+    [
+     "h2",
+     "Conditions d'éligibilité à l'indemnisation CIVI en 2026"
+    ],
+    [
+     "h2",
+     "Plafonds d'indemnisation 2025 : ce que vous pouvez obtenir"
+    ],
+    [
+     "h2",
+     "Comment constituer votre dossier de demande ?"
+    ],
+    [
+     "h2",
+     "Délais et voies de recours : ce qu'il faut savoir"
+    ],
+    [
+     "h2",
+     "Cas pratique : indemnisation d'une victime d'agression"
+    ],
+    [
+     "h2",
+     "Le Cabinet Plouton : votre allié pour l'indemnisation CIVI"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur l'indemnisation CIVI"
+    ]
+   ],
+   "content_score": 71,
+   "readability": 49,
+   "word_count": 1698,
+   "content_len": 11202
+  },
+  {
+   "rank": 3,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/aide-victime-agression/civi-commission-indemnisation-victimes-infraction",
+   "title": "Se faire indemniser par la CIVI (commission indemnisation victimes infraction) - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France vous aide à obtenir une indemnisation via la CIVI pour les victimes d'infractions.",
+   "headers": [
+    [
+     "h1",
+     "Se faire indemniser par la CIVI (commission indemnisation victimes infraction)"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Se faire indemniser par la CIVI (Commission d’Indemnisation des Victimes d’Infractions)"
+    ],
+    [
+     "h2",
+     "Comment se faire indemniser suite à une agression : CIVI (commission-indemnisation-victimes-infractions)"
+    ]
+   ],
+   "content_score": 78,
+   "readability": 29,
+   "word_count": 3338,
+   "content_len": 21214
+  },
+  {
+   "rank": 4,
+   "url": "https://www.cdad-meurtheetmoselle.justice.fr/la-c-i-v-i.html",
+   "title": "La Commission d'Indemnisation des Victimes d'Infractions (CIVI)",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Conseil Départemental\r\n\tde l’Accès au Droit de\r\n\tMeurthe-et-Moselle"
+    ],
+    [
+     "h2",
+     "Informations sur les droits"
+    ],
+    [
+     "h2",
+     "Fiches Pratiques"
+    ],
+    [
+     "h1",
+     "La Commission d'Indemnisation des Victimes d'Infractions (CIVI)"
+    ],
+    [
+     "h2",
+     "La Commission d'Indemnisation des Victimes d'Infractions (CIVI)"
+    ],
+    [
+     "h2",
+     "Les actualités"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 33,
+   "word_count": 508,
+   "content_len": 3280
+  },
+  {
+   "rank": 5,
+   "url": "https://www.oliviercohenavocat.fr/details-quand+saisir+la+civi+et+comment+obtenir+une+indemnisation-678",
+   "title": "Quand saisir la CIVI et comment obtenir une indemnisation - Olivier Cohen Avocat",
+   "desc": "La CIVI indemnise l’ensemble des préjudices, selon une logique de réparation intégrale, poste par poste. La Commission d’Indemnisation des Victimes d’Infractions (CIVI) est une juridiction civile spécialisée qui permet à une victime d’obtenir une indemnisation même lorsque l’auteur de l’infraction est insolvable, ",
+   "headers": [
+    [
+     "h1",
+     "Quand saisir la CIVI et comment obtenir une indemnisation"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 28,
+   "word_count": 790,
+   "content_len": 5482
+  },
+  {
+   "rank": 6,
+   "url": "https://www.village-justice.com/articles/commission-indemnisation-des-victimes-infractions-civi,40938.html",
+   "title": "La Commission d’Indemnisation des Victimes d’Infractions (CIVI). Par Gauthier Lecocq, Avocat.",
+   "desc": "I- Quelles sont les conditions de saisine de la CIVI ? II- Quelle est la CIVI compétente ? III- Dans quel délai faut-il saisir la CIVI ?",
+   "headers": [
+    [
+     "h1",
+     "La Commission d’Indemnisation des Victimes d’Infractions (CIVI)."
+    ],
+    [
+     "h2",
+     "Interagir avec l'auteur !"
+    ]
+   ],
+   "content_score": 72,
+   "readability": 16,
+   "word_count": 2763,
+   "content_len": 18601
+  },
+  {
+   "rank": 7,
+   "url": "https://www.aide-sociale.fr/civi/",
+   "title": "Civi : Quelle indemnisation pour les victimes d’infraction ?",
+   "desc": "Vous avez été victime d’une infraction ? La commission d’indemnisation des victimes d’infraction (Civi) peut vous dédommager.",
+   "headers": [
+    [
+     "h1",
+     "Civi : Comment obtenir une indemnisation en tant que victime d’infraction ?"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que la Commission d’indemnisation des victimes d’infraction (Civi) ?"
+    ],
+    [
+     "h2",
+     "Dans quel cas peut-on saisir la Civi ?"
+    ],
+    [
+     "h2",
+     "Saisir la Commission d’indemnisation des victimes d’infraction : quelles sont les démarches ?"
+    ]
+   ],
+   "content_score": 80,
+   "readability": 37,
+   "word_count": 1656,
+   "content_len": 10201
+  },
+  {
+   "rank": 8,
+   "url": "https://www.victimes-solidaires.org/fr/agressions-attentats/id-33-la-civi",
+   "title": "La CIVI",
+   "desc": " La Commission d&rsquo;Indemnisation des Victimes d&rsquo;Infraction statue sur les demandes d&rsquo;indemnisation formul&eacute;es par les victimes d&rsquo;infractions p&eacute;nales ou par leurs ayants droit. ",
+   "headers": [
+    [
+     "h1",
+     "La CIVI"
+    ],
+    [
+     "h2",
+     "Juridiction dédiée à l’indemnisation des victimes d’agression et d’infractions pénales"
+    ],
+    [
+     "h2",
+     "Indemnisation intégrale par la Commission d’Indemnisation des Victimes d’Infractions (CIVI)"
+    ],
+    [
+     "h2",
+     "Indemnisation partielle et plafonnée par la Commission d’Indemnisation des Victimes d’Infractions (CIVI)"
+    ],
+    [
+     "h2",
+     "Combien de temps dure la procédure devant la Commission d’Indemnisation des Victimes d’Infractions (CIVI) ?"
+    ],
+    [
+     "h2",
+     "Vos questions, nos réponses"
+    ],
+    [
+     "h2",
+     "Vous avez été victime d’un dommage corporel, d’un accident de la route, d’une erreur médicale ?"
+    ]
+   ],
+   "content_score": 58,
+   "readability": 21,
+   "word_count": 2128,
+   "content_len": 14204
+  },
+  {
+   "rank": 9,
+   "url": "https://www.tiktok.com/@maitrebem/video/7404424991946607904",
+   "title": "Indemnisation des Victimes : Guide sur la CIVI | TikTok",
+   "desc": "1064 j'aime,40 commentaires.Vidéo TikTok de Anthony BEM (@maitrebem) : « Découvrez comment la CIVI aide les victimes d'infractions à obtenir justice et réparation pour leurs préjudices. #Justice #Victimes #Indemnisation #CIVI ».",
+   "headers": [],
+   "content_score": 29,
+   "readability": 27,
+   "word_count": 224,
+   "content_len": 1468
+  },
+  {
+   "rank": 10,
+   "url": "https://fr.wikipedia.org/wiki/Commission_d%27indemnisation_des_victimes_d%27infractions",
+   "title": "Commission d'indemnisation des victimes d'infractions — Wikipédia",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Commission d'indemnisation des victimes d'infractions"
+    ],
+    [
+     "h2",
+     "Conditions"
+    ],
+    [
+     "h2",
+     "Procédure"
+    ],
+    [
+     "h2",
+     "Références"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 38,
+   "word_count": 1271,
+   "content_len": 8177
+  },
+  {
+   "rank": 11,
+   "url": "https://www.service-public.gouv.fr/simulateur/calcul/12825",
+   "title": "12825*05 - Demande d’indemnisation adressée à la Commission d’Indemnisation des Victimes d’Infractions (C.I.V.I) - Service-Public.fr",
+   "desc": "Service Public - Vos droits et démarches plus simplement",
+   "headers": [
+    [
+     "h1",
+     "Simulateur Particuliers"
+    ],
+    [
+     "h1",
+     "12825*05 - Demande d’indemnisation adressée à la Commission d’Indemnisation des Victimes d’Infractions (C.I.V.I)"
+    ],
+    [
+     "h2",
+     "Les étapes de votre simulation"
+    ],
+    [
+     "h2",
+     "Votre identité (étape 1/5)"
+    ],
+    [
+     "h2",
+     "Recevoir la lettre de Service Public"
+    ],
+    [
+     "h2",
+     "Suivez-nous\n               sur les réseaux sociaux"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 25,
+   "word_count": 2705,
+   "content_len": 16874
+  },
+  {
+   "rank": 12,
+   "url": "https://www.bessonavocat.fr/l-indemnisation-du-prejudice-des-victimes-par-la-civi-avocat-chambery",
+   "title": "L'indemnisation du préjudice des victimes par la CIVI - Avocat CHAMBERY",
+   "desc": "Afin de garantir une réparation aux victimes d’infractions placées dans des situations particulièrement graves, la loi a mis en place un dispositif autonome d’indemnisation : la CIVI pourra être saisie sous conditions concernant l’infraction visée et le plafond de ressources de la victime",
+   "headers": [
+    [
+     "h1",
+     "L'indemnisation du préjudice des victimes par la CIVI - Avocat CHAMBERY"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 21,
+   "word_count": 1218,
+   "content_len": 7648
+  },
+  {
+   "rank": 13,
+   "url": "https://alter-via.fr/l-indemnisation-des-victimes-d-infractions-penales-devant-la-civi-commission-d",
+   "title": "La CIVI, comment être indemnisé en cas d’infraction pénale ? - ALTER VIA Avocats",
+   "desc": "Présentation des procédures ouvertes aux victimes d'infractions pénales afin d'obtenir effectivement l'indemnisation de ses dommages.",
+   "headers": [
+    [
+     "h1",
+     "ALTER VIA Avocats"
+    ],
+    [
+     "h1",
+     "La CIVI, comment être indemnisé en cas d’infraction pénale ?"
+    ],
+    [
+     "h1",
+     "Cabinet ALTER VIA Avocats"
+    ],
+    [
+     "h2",
+     "Les conditions relatives à la victime"
+    ],
+    [
+     "h2",
+     "Les conditions relatives à l’infraction ↑"
+    ],
+    [
+     "h2",
+     "La procédure d’indemnisation devant la CIVI ↑"
+    ],
+    [
+     "h2",
+     "Le service d’aide au recouvrement (SARVI)↑"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 26,
+   "word_count": 1633,
+   "content_len": 10403
+  },
+  {
+   "rank": 14,
+   "url": "https://avocat-baron.fr/civi-indemnisation-victimes-infractions-guide/",
+   "title": "CIVI Indemnisation Victimes Infractions, Guide 2026",
+   "desc": "La CIVI indemnise les victimes d'infractions même si l'auteur est insolvable. Conditions, procédure, Fonds de Garantie. Guide par avocat spécialisé.",
+   "headers": [
+    [
+     "h1",
+     "CIVI, Guide Complet pour l’Indemnisation des Victimes d’Infractions"
+    ],
+    [
+     "h2",
+     "Votre agresseur est insolvable ou en fuite : comment la CIVI prend le relais"
+    ],
+    [
+     "h2",
+     "Etes-vous eligible ? Votre droit a indemnisation en 30 secondes"
+    ],
+    [
+     "h2",
+     "Combien pouvez-vous obtenir ? Ordres de grandeur"
+    ],
+    [
+     "h2",
+     "CIVI ou SARVI : quelle procedure pour votre situation"
+    ],
+    [
+     "h2",
+     "La procedure CIVI pas a pas"
+    ],
+    [
+     "h2",
+     "Delais de prescription : agissez dans les temps"
+    ],
+    [
+     "h2",
+     "Le role de l’avocat devant la CIVI : pourquoi ca change tout"
+    ],
+    [
+     "h2",
+     "Les 4 erreurs qui coutent le plus cher aux victimes"
+    ],
+    [
+     "h2",
+     "Pourquoi me confier votre dossier CIVI"
+    ],
+    [
+     "h2",
+     "Questions frequentes"
+    ]
+   ],
+   "content_score": 58,
+   "readability": 36,
+   "word_count": 2390,
+   "content_len": 14813
+  },
+  {
+   "rank": 15,
+   "url": "https://avf.fr/agression/civi-indemnisation",
+   "title": "CIVI : indemnisation des victimes d'infractions pénales",
+   "desc": "Comment saisir la CIVI pour obtenir l'indemnisation d'un préjudice corporel lié à une infraction pénale ? Conditions, procédure, délais et recours.",
+   "headers": [
+    [
+     "h1",
+     "CIVI : indemnisation des victimes d’infractions pénales"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que la CIVI et à quoi sert-elle ?"
+    ],
+    [
+     "h2",
+     "Conditions pour saisir la CIVI : qui peut en bénéficier ?"
+    ],
+    [
+     "h2",
+     "Procédure de saisine de la CIVI : les étapes concrètes"
+    ],
+    [
+     "h2",
+     "Délais de saisine : attention à la prescription"
+    ],
+    [
+     "h2",
+     "Quels préjudices sont indemnisés par la CIVI ?"
+    ],
+    [
+     "h2",
+     "L’expertise médicale devant la CIVI : une étape décisive"
+    ],
+    [
+     "h2",
+     "CIVI et avocat : un accompagnement souvent indispensable"
+    ],
+    [
+     "h2",
+     "Les erreurs fréquentes à éviter dans une procédure CIVI"
+    ],
+    [
+     "h2",
+     "CIVI et autres voies d’indemnisation"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 78,
+   "readability": 41,
+   "word_count": 2290,
+   "content_len": 14678
+  },
+  {
+   "rank": 16,
+   "url": "https://association-aide-victimes.com/fonds-de-garantie/civi",
+   "title": "CIVI - Indemnisation des victimes d'agression",
+   "desc": "L'Association d'Aide aux Victimes AAV vous explique tout sur la CIVI : Comment obtenir une indemnisation en cas d'agression ? Quelles démarches ?",
+   "headers": [
+    [
+     "h1",
+     "CIVI"
+    ],
+    [
+     "h2",
+     "Conditions d’indemnisation de la CIVI"
+    ],
+    [
+     "h2",
+     "Comment saisir la CIVI ?"
+    ],
+    [
+     "h2",
+     "Le délai de saisine de la CIVI"
+    ],
+    [
+     "h2",
+     "Déroulement de la procédure CIVI"
+    ],
+    [
+     "h2",
+     "Indemnisation des victimes par la CIVI"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 37,
+   "word_count": 458,
+   "content_len": 2895
+  },
+  {
+   "rank": 17,
+   "url": "https://www.youtube.com/watch?v=zxUiAVyWndk",
+   "title": "Indemnisation la devant Civi par Maitre Claudine Bernfeld, présidente de l'ANADAVI - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Indemnisation la devant Civi par Maitre Claudine Bernfeld, présidente de l'ANADAVI"
+    ],
+    [
+     "h2",
+     "Moments clés\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h1",
+     "Indemnisation la devant Civi par Maitre Claudine Bernfeld, présidente de l'ANADAVI"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      8"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Moments clés"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Moments clés\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 35,
+   "readability": 33,
+   "word_count": 178,
+   "content_len": 1126
+  },
+  {
+   "rank": 18,
+   "url": "https://www.indemnisationprejudice.fr/lois-et-organismes/civi-commission-indemnisation-victimes-infractions/",
+   "title": "Comment saisir la CIVI et être indemnisé en cas d'infractions - Indemnisation Préjudice Corporel",
+   "desc": "Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés. Avances sur vos premiers frais. - Indemnisation Préjudice Corporel",
+   "headers": [
+    [
+     "h1",
+     "CIVI : Commission d’Indemnisation des Victimes d’Infractions"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que la CIVI ?"
+    ],
+    [
+     "h2",
+     "Quand faire appel à la CIVI ?"
+    ],
+    [
+     "h2",
+     "Comment saisir la CIVI ?"
+    ],
+    [
+     "h2",
+     "Conditions pour être éligible à la CIVI  ?"
+    ],
+    [
+     "h2",
+     "FAQ Indemnisation CIVI"
+    ]
+   ],
+   "content_score": 73,
+   "readability": 25,
+   "word_count": 2158,
+   "content_len": 14165
+  },
+  {
+   "rank": 19,
+   "url": "https://www.herault.gouv.fr/index.php/Demarches/Association/Toutes-les-demarches-sur-les-associations/Service-Public-pour-les-associations#!/particuliers/page/F2313",
+   "title": "Service-Public pour les associations -\n                                Toutes les démarches sur les associations -\n                                Association -\n                                Démarches -\n                                                            Les services de l'État  dans l' Hérault",
+   "desc": "Portail de l'Etat dans l'Hérault Les services de l'État  dans l' Hérault",
+   "headers": [
+    [
+     "h1",
+     "Service-Public pour les associations"
+    ],
+    [
+     "h2",
+     "Suivez-nous\n                         sur les réseaux sociaux"
+    ]
+   ],
+   "content_score": 0,
+   "readability": 64,
+   "word_count": 85,
+   "content_len": 651
+  },
+  {
+   "rank": 20,
+   "url": "https://www.expertise-medicale-recours.com/lexique-medico-juridique/commission-dindemnisation-des-victimes-dinfractions-civi/",
+   "title": "Commission d’Indemnisation des Victimes d’Infractions (CIVI) - Expertise médicale RECOURS",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Commission d’Indemnisation des Victimes d’Infractions (CIVI)"
+    ]
+   ],
+   "content_score": 48,
+   "readability": 30,
+   "word_count": 92,
+   "content_len": 661
+  },
+  {
+   "rank": 21,
+   "url": "https://www.redac-recours.com/lexique/civi/",
+   "title": "CIVI indemnisation : Guide Pratique pour les Victimes d'Infractions",
+   "desc": "Victime d'une infraction ? Découvrez comment la CIVI peut vous indemniser. Conseils d'experts, démarches et assistance pour vos droits.",
+   "headers": [
+    [
+     "h1",
+     "CIVI (Commission d'Indemnisation des Victimes d'Infraction) indemnisation"
+    ],
+    [
+     "h2",
+     "Quels types d’infractions sont couvertes par la CIVI ?"
+    ]
+   ],
+   "content_score": 66,
+   "readability": 31,
+   "word_count": 1182,
+   "content_len": 7561
+  },
+  {
+   "rank": 22,
+   "url": "https://www.avocat-delhomme.fr/actualites/droit-penal-procedure-penale-2.html",
+   "title": "Victimes d’infractions : comment obtenir une indemnisation ? - Audrey Delhomme - Avocat à la cour à Bordeaux",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Victimes d’infractions : comment obtenir une indemnisation ?"
+    ]
+   ],
+   "content_score": 48,
+   "readability": 28,
+   "word_count": 1250,
+   "content_len": 7591
+  },
+  {
+   "rank": 23,
+   "url": "https://beaubourg-avocats.fr/civi/",
+   "title": "CIVI : comment ça marche ?",
+   "desc": "CIVI (Commission d'Indemnisation des Victimes d'Infraction) : Comment ça marche ? Quelle procédure ? Quel montant d'indemnisation ?",
+   "headers": [
+    [
+     "h1",
+     "Commission d’Indemnisation des Victimes d’Infractions (CIVI) : l'essentiel"
+    ],
+    [
+     "h2",
+     "CIVI : quelles démarches et quelles indemnisations ?"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que la CIVI ?"
+    ],
+    [
+     "h2",
+     "Comment se passe la saisine de la CIVI ?"
+    ],
+    [
+     "h2",
+     "Comment formuler une demande d’indemnisation auprès de la CIVI ?"
+    ],
+    [
+     "h2",
+     "Quelle est la procédure devant la CIVI ?"
+    ],
+    [
+     "h2",
+     "Arnaque par virement bancaire : démarches et prévention"
+    ],
+    [
+     "h2",
+     "Avocat en fraude bancaire : quels leviers pour obtenir réparation ?"
+    ],
+    [
+     "h2",
+     "Porter plainte pour escroquerie : les recours possibles"
+    ]
+   ],
+   "content_score": 64,
+   "readability": 29,
+   "word_count": 2086,
+   "content_len": 12469
+  },
+  {
+   "rank": 24,
+   "url": "https://www.avocat-jalain.fr/lindemnisation-des-victimes-dinfractions-penales-par-la-civi/",
+   "title": "L'indemnisation des victimes d'infractions pénales par la CIVI - Avocat Jalain",
+   "desc": "La loi du 3 janvier 1977 a institué un régime d’indemnisation par l’Etat des victimes de dommages corporels graves résultant d’une infraction.",
+   "headers": [],
+   "content_score": 23,
+   "readability": 16,
+   "word_count": 2670,
+   "content_len": 20006
+  },
+  {
+   "rank": 25,
+   "url": "https://www.youtube.com/shorts/jht3VPkdB3E",
+   "title": "L’indemnisation des victimes peut être rendue effective par la CIVI ou le SARVI #avocat #penal - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h1",
+     "L’indemnisation des victimes peut être rendue effective par la CIVI ou le SARVI #avocat #penal"
+    ]
+   ],
+   "content_score": 34,
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 26,
+   "url": "https://www.avocatcline.com/details-qu+est-ce+que+la+commission+d+indemnisation+des+victimes+d+infractions+penales+civi-24",
+   "title": "Qu’est-ce que la commission d’indemnisation des victimes d’infractions pénales (CIVI) ? - Maître Mélissa CLINE",
+   "desc": "La commission d’indemnisation des victimes d’infractions (CIVI) est un Tribunal de Grande Instance. La CIVI est composée de deux Magistrats et d’une personne qui s’intéresse aux problèmes des victimes.\r\nSon rôle est de statuer sur les demandes...",
+   "headers": [
+    [
+     "h1",
+     "Qu’est-ce que la commission d’indemnisation des victimes d’infractions pénales (CIVI) ?"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 56,
+   "word_count": 506,
+   "content_len": 3266
+  },
+  {
+   "rank": 27,
+   "url": "https://www.hello-victimes.fr/l-aide-aux-victimes/l-indemnisation-des-agressions/",
+   "title": "CIVI : La procédure d'indemnisation des victimes d'agressions - Association d'aide aux victimes d'accident de la route. Association d''aide aux victimes d'erreur/faute médicale. Association d'aide aux victimes d'accident de la vie ou d'agression.",
+   "desc": "Comment être indemnisé après une agression ? Plusieurs procédures d'indemnisation existent pour les victimes d'agression. La procédure judiciaire ou la procédure devant le CIVI. L'association d'aide aux victimes vous assiste dans vos démarches.",
+   "headers": [
+    [
+     "h1",
+     "La CIVI : Procédure d'indemnisation des victimes d'agression"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 22,
+   "word_count": 2044,
+   "content_len": 13514
+  },
+  {
+   "rank": 28,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18782",
+   "title": "Demande d'indemnisation auprès de la Commission d'indemnisation des victimes d'infractions (Civi) | Service Public",
+   "desc": "Demande d'indemnisation auprès de la Commission d'indemnisation des victimes d'infractions (Civi) - Formulaire",
+   "headers": [
+    [
+     "h1",
+     "Demande d'indemnisation auprès de la Commission d'indemnisation des victimes d'infractions (Civi)"
+    ],
+    [
+     "h2",
+     "Pour toute explication, consulter les fiches pratiques :"
+    ],
+    [
+     "h2",
+     "J'ai réalisé une démarche administrative"
+    ]
+   ],
+   "content_score": 43,
+   "readability": 61,
+   "word_count": 294,
+   "content_len": 1837
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1677,
+   "target": 1677
+  },
+  "readability": {
+   "median": 31,
+   "target": 31
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 90
+   },
+   {
+    "t": "civi",
+    "usage_pc": 80
+   },
+   {
+    "t": "infraction",
+    "usage_pc": 60
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 40
+   },
+   {
+    "t": "commission d'indemnisation des victimes d'infractions",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "civi",
+    "usage_pc": 70
+   },
+   {
+    "t": "infraction",
+    "usage_pc": 70
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 30
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 30
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 30
+   },
+   {
+    "t": "une infraction",
+    "usage_pc": 30
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 20
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "réparation",
+    "usage_pc": 20
+   },
+   {
+    "t": "civi indemnise",
+    "usage_pc": 20
+   },
+   {
+    "t": "les victimes d'infractions",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 80
+   },
+   {
+    "t": "civi",
+    "usage_pc": 70
+   },
+   {
+    "t": "infraction",
+    "usage_pc": 70
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 30
+   },
+   {
+    "t": "commission d'indemnisation des victimes d'infractions",
+    "usage_pc": 20
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "comment obtenir une indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "saisir la civi",
+    "usage_pc": 10
+   },
+   {
+    "t": "fonds de garantie",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "fonds de garantie des victimes",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation civi",
+    "usage_pc": 10
+   },
+   {
+    "t": "les victimes d'infractions",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "civi",
+    "usage_pc": 60
+   },
+   {
+    "t": "infraction",
+    "usage_pc": 50
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 40
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 30
+   },
+   {
+    "t": "saisir la civi",
+    "usage_pc": 20
+   },
+   {
+    "t": "fonds de garantie",
+    "usage_pc": 10
+   },
+   {
+    "t": "commission d'indemnisation des victimes d'infractions",
+    "usage_pc": 10
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "fonds de garantie des victimes",
+    "usage_pc": 10
+   },
+   {
+    "t": "pénal",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation civi",
+    "usage_pc": 10
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "juridiction",
+    "usage_pc": 10
+   },
+   {
+    "t": "formulaire",
+    "usage_pc": 10
+   },
+   {
+    "t": "demande d'indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 10
+   },
+   {
+    "t": "auprès de la civi",
+    "usage_pc": 10
+   },
+   {
+    "t": "une victime",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation intégrale",
+    "usage_pc": 10
+   },
+   {
+    "t": "voies de recours",
+    "usage_pc": 10
+   },
+   {
+    "t": "délai faut-il saisir la civi",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     15,
+     35
+    ]
+   },
+   {
+    "t": "civi",
+    "usage_pc": 100,
+    "sugg_usage": [
+     6,
+     22
+    ]
+   },
+   {
+    "t": "infraction",
+    "usage_pc": 100,
+    "sugg_usage": [
+     7,
+     26
+    ]
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 100,
+    "sugg_usage": [
+     4,
+     7
+    ]
+   },
+   {
+    "t": "saisir la civi",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 90,
+    "sugg_usage": [
+     5,
+     12
+    ]
+   },
+   {
+    "t": "fonds de garantie",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     6
+    ]
+   },
+   {
+    "t": "commission d'indemnisation des victimes d'infractions",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "fonds de garantie des victimes",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "pénal",
+    "usage_pc": 100,
+    "sugg_usage": [
+     1,
+     11
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "civi peut",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fgti",
+    "usage_pc": 80,
+    "sugg_usage": [
+     2,
+     6
+    ]
+   },
+   {
+    "t": "réparation",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "une infraction",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "indemnité",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     3
+    ]
+   },
+   {
+    "t": "un avocat",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "incapacité totale de travail",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "adresser",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "juridiction",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "actes de terrorisme",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "formulaire",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "code de procédure pénale",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "victimes des actes de terrorisme",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "incapacité permanente",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tribunal judiciaire",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "garantie des victimes des actes",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "permettre aux victimes",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "atteintes à la personne",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "plafond de ressources",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lettre recommandée",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "notification de la décision",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les demandes",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "sécurité sociale",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "an à compter",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demande doit être",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "prend fin",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "chaque tribunal",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "indemnisation civi",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "décision de la civi",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment obtenir une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "président de la civi",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "demander une indemnisation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demande d'indemnisation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "auprès de la civi",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "devant la civi",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une victime",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "greffe de la civi",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation intégrale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "civi indemnise",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "civi compétente",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation effective",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les victimes d'infractions",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "délai de 3 ans",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "incapacité permanente ou une incapacité",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "permanente ou une incapacité totale",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lorsque la civi",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "commission d’indemnisation des victimes d’infractions",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "commission d’indemnisation des victimes d’infraction",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’une",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "offre d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "associations d’aide aux victimes",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation des victimes d’infraction statue",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’infraction statue sur les",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les problèmes des victimes d’infractions",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "devant la commission d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "pouvoir saisir la commission d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les demandes d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "entraîné une incapacité",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "formulaire cerfa",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "infraction peut",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "compter de la date",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "procédure civi",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "compter de la notification",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "extorsion de fonds",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faits volontaires ou non",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "pouvez pas obtenir une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accusé de réception",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "auprès de la commission",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "président de la commission",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "offre d'indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation effective et suffisante",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les demandes d'indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "voies de recours",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "délai faut-il saisir la civi",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "civi est une juridiction",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "réparation ou une indemnisation effective",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation définitive",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "civi si",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "civi peut être",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation formulées par les victimes",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les civi",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation en dépend",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "résoudre les problèmes des victimes",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Commission d'indemnisation des victimes d'infractions",
+    "importance": 97.228,
+    "relevance": 0.9722799999999999,
+    "confidence": 4.1617999999999995,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Commission_d'indemnisation_des_victimes_d'infractions"
+     ]
+    ]
+   },
+   {
+    "t": "Infraction",
+    "importance": 36.6592,
+    "relevance": 0.5728,
+    "confidence": 2.3136,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Infraction"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 35.87400000000001,
+    "relevance": 0.35874000000000006,
+    "confidence": 1.6872,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Fonds de garantie des victimes des actes de terrorisme et d'autres infractions",
+    "importance": 15.184080000000002,
+    "relevance": 0.42178000000000004,
+    "confidence": 2.9332000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fonds_de_garantie_des_victimes_des_actes_de_terrorisme_et_d'autres_infractions"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 13.675391999999999,
+    "relevance": 0.21367799999999998,
+    "confidence": 1.107,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 8.288640000000001,
+    "relevance": 0.23024,
+    "confidence": 2.3798000000000004,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Incapacité totale de travail",
+    "importance": 7.752815999999999,
+    "relevance": 0.21535599999999996,
+    "confidence": 1.8868000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Incapacité_totale_de_travail"
+     ]
+    ]
+   },
+   {
+    "t": "Victime",
+    "importance": 5.735040000000001,
+    "relevance": 0.35844,
+    "confidence": 0.43,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Victime"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal",
+    "importance": 4.141368,
+    "relevance": 0.115038,
+    "confidence": 2.1380000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal"
+     ]
+    ]
+   },
+   {
+    "t": "Procédure pénale en France",
+    "importance": 3.3372799999999994,
+    "relevance": 0.20858,
+    "confidence": 0.7872,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Procédure_pénale_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Agression sexuelle",
+    "importance": 3.1081600000000003,
+    "relevance": 0.19426000000000002,
+    "confidence": 2.4904,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Agression_sexuelle"
+     ]
+    ]
+   },
+   {
+    "t": "Dommages matériels",
+    "importance": 2.9769840000000003,
+    "relevance": 0.082694,
+    "confidence": 1.0298,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommages_matériels"
+     ]
+    ]
+   },
+   {
+    "t": "Incapacité permanente en France",
+    "importance": 2.9603200000000003,
+    "relevance": 0.18502000000000002,
+    "confidence": 0.6704,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Incapacité_permanente_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Procédure civile en France",
+    "importance": 2.6240000000000006,
+    "relevance": 0.164,
+    "confidence": 0.5018,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Procédure_civile_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Pourvoi en cassation",
+    "importance": 2.55552,
+    "relevance": 0.15972,
+    "confidence": 2.4202000000000004,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Pourvoi_en_cassation"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal judiciaire (France)",
+    "importance": 2.26752,
+    "relevance": 0.14172,
+    "confidence": 1.459,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal_judiciaire_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "SARVI",
+    "importance": 1.8137599999999998,
+    "relevance": 0.11335999999999999,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Code de procédure pénale (France)",
+    "importance": 1.713568,
+    "relevance": 0.107098,
+    "confidence": 2.4018,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Code_de_procédure_pénale_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Viol",
+    "importance": 1.6067200000000001,
+    "relevance": 0.10042,
+    "confidence": 4.4786,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Viol"
+     ]
+    ]
+   },
+   {
+    "t": "Loi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation",
+    "importance": 1.2488735999999998,
+    "relevance": 0.0780546,
+    "confidence": 0.9118,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi_tendant_à_l'amélioration_de_la_situation_des_victimes_d'accidents_de_la_circulation_et_à_l'accélération_des_procédures_d'indemnisation"
+     ]
+    ]
+   },
+   {
+    "t": "Justice",
+    "importance": 1.08352,
+    "relevance": 0.06772,
+    "confidence": 1.0304,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Justice"
+     ]
+    ]
+   },
+   {
+    "t": "Cour d'appel (France)",
+    "importance": 1.02976,
+    "relevance": 0.06436,
+    "confidence": 0.5791999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cour_d'appel_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Certificat médical",
+    "importance": 0.94496,
+    "relevance": 0.05906,
+    "confidence": 0.5744,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Certificat_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Expertise",
+    "importance": 0.698368,
+    "relevance": 0.043648,
+    "confidence": 0.618,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expertise"
+     ]
+    ]
+   },
+   {
+    "t": "Madame L.",
+    "importance": 0.6456,
+    "relevance": 0.16140000000000002,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Agression",
+    "importance": 0.50216,
+    "relevance": 0.12554,
+    "confidence": 0.5132,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Agression"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "indemnisation\ncivi\ninfraction\nindemnisation des victimes\ncommission d'indemnisation des victimes d'infractions",
+  "desc_title": "civi\ninfraction\nindemnisation\nindemnisation des victimes\npréjudice\nune indemnisation\nune infraction\nindemniser\nobtenir une indemnisation\nréparation\ncivi indemnise\nles victimes d'infractions",
+  "h1": "indemnisation\ncivi\ninfraction\nindemnisation des victimes\ncommission d'indemnisation des victimes d'infractions\nune indemnisation\nobtenir une indemnisation\ncomment obtenir une indemnisation\nsaisir la civi\nfonds de garantie\nindemniser\nfonds de garantie des victimes\nindemnisation civi\nles victimes d'infractions",
+  "h2": "indemnisation\ncivi\ninfraction\nindemnisation des victimes\nindemniser\nsaisir la civi\nfonds de garantie\ncommission d'indemnisation des victimes d'infractions\nune indemnisation\nfonds de garantie des victimes\npénal\nindemnisation civi\ncorporel\njuridiction\nformulaire\ndemande d'indemnisation\nêtre indemnisé\nauprès de la civi\nune victime\nindemnisation intégrale\nvoies de recours\ndélai faut-il saisir la civi",
+  "content_basic": "indemnisation\ncivi\ninfraction\nindemnisation des victimes\nsaisir la civi\npréjudice\nfonds de garantie\nindemniser\ncommission d'indemnisation des victimes d'infractions\nune indemnisation\nfonds de garantie des victimes\npénal\nobtenir une indemnisation\ncivi peut\nfgti\nréparation\nune infraction\nindemnité\nun avocat\nincapacité totale de travail\ncorporel\nadresser\njuridiction\nactes de terrorisme\nformulaire\ncode de procédure pénale\nvictimes des actes de terrorisme\nincapacité permanente\ntribunal judiciaire\nêtre indemnisé\ngarantie des victimes des actes\npermettre aux victimes\nles préjudices\natteintes à la personne\nplafond de ressources\nlettre recommandée\nnotification de la décision\nles demandes\nsécurité sociale\nan à compter\ndemande doit être\nprend fin\nchaque tribunal",
+  "content_basic_w_ranges": "indemnisation: 15-35x\ncivi: 6-22x\ninfraction: 7-26x\nindemnisation des victimes: 4-7x\nsaisir la civi: 1-3x\npréjudice: 5-12x\nfonds de garantie: 1-6x\nindemniser: 2-6x\ncommission d'indemnisation des victimes d'infractions: 1-3x\nune indemnisation: 1-6x\nfonds de garantie des victimes: 1-3x\npénal: 1-11x\nobtenir une indemnisation: 1-2x\ncivi peut: 1x\nfgti: 2-6x\nréparation: 1-3x\nune infraction: 1-4x\nindemnité: 2-3x\nun avocat: 1-4x\nincapacité totale de travail: 1-2x\ncorporel: 1-5x\nadresser: 1-4x\njuridiction: 1-2x\nactes de terrorisme: 1-3x\nformulaire: 1-2x\ncode de procédure pénale: 1-3x\nvictimes des actes de terrorisme: 1-2x\nincapacité permanente: 1x\ntribunal judiciaire: 1-2x\nêtre indemnisé: 1-2x\ngarantie des victimes des actes: 1-2x\npermettre aux victimes: 1x\nles préjudices: 1x\natteintes à la personne: 1x\nplafond de ressources: 1x\nlettre recommandée: 1-2x\nnotification de la décision: 1x\nles demandes: 1x\nsécurité sociale: 1x\nan à compter: 1x\ndemande doit être: 1x\nprend fin: 1x\nchaque tribunal: 1x",
+  "content_extended": "indemnisation civi\ndécision de la civi\ncomment obtenir une indemnisation\nprésident de la civi\ndemander une indemnisation\ndemande d'indemnisation\nauprès de la civi\ndevant la civi\nune victime\ngreffe de la civi\nindemnisation intégrale\ncivi indemnise\ncivi compétente\nindemnisation effective\nles victimes d'infractions\ndélai de 3 ans\nincapacité permanente ou une incapacité\npermanente ou une incapacité totale\nlorsque la civi\ncommission d’indemnisation des victimes d’infractions\ncommission d’indemnisation des victimes d’infraction\nvictime d’une\noffre d’indemnisation\nassociations d’aide aux victimes\nindemnisation des victimes d’infraction statue\nvictimes d’infraction statue sur les\nles problèmes des victimes d’infractions\ndevant la commission d’indemnisation\npouvoir saisir la commission d’indemnisation\nles demandes d’indemnisation\nentraîné une incapacité\nformulaire cerfa\ninfraction peut\ncompter de la date\nprocédure civi\ncompter de la notification\ndroit à indemnisation\nextorsion de fonds\nfaits volontaires ou non\npouvez pas obtenir une indemnisation\naccusé de réception\nauprès de la commission\nprésident de la commission\noffre d'indemnisation\nindemnisation effective et suffisante\nles demandes d'indemnisation\nvoies de recours\ndélai faut-il saisir la civi\ncivi est une juridiction\nréparation ou une indemnisation effective\nindemnisation définitive\ncivi si\ncivi peut être\nindemnisation formulées par les victimes\nles civi\nindemnisation en dépend\nrésoudre les problèmes des victimes",
+  "content_extended_w_ranges": "indemnisation civi: 1x\ndécision de la civi: 1x\ncomment obtenir une indemnisation: 1x\nprésident de la civi: 1-2x\ndemander une indemnisation: 1x\ndemande d'indemnisation: 1-2x\nauprès de la civi: 1x\ndevant la civi: 1x\nune victime: 1x\ngreffe de la civi: 1x\nindemnisation intégrale: 1x\ncivi indemnise: 1x\ncivi compétente: 1x\nindemnisation effective: 1x\nles victimes d'infractions: 1x\ndélai de 3 ans: 1x\nincapacité permanente ou une incapacité: 1x\npermanente ou une incapacité totale: 1x\nlorsque la civi: 1x\ncommission d’indemnisation des victimes d’infractions: 1x\ncommission d’indemnisation des victimes d’infraction: 1x\nvictime d’une: 1x\noffre d’indemnisation: 1x\nassociations d’aide aux victimes: 1x\nindemnisation des victimes d’infraction statue: 1x\nvictimes d’infraction statue sur les: 1x\nles problèmes des victimes d’infractions: 1x\ndevant la commission d’indemnisation: 1x\npouvoir saisir la commission d’indemnisation: 1x\nles demandes d’indemnisation: 1x\nentraîné une incapacité: 1x\nformulaire cerfa: 1x\ninfraction peut: 1x\ncompter de la date: 1x\nprocédure civi: 1x\ncompter de la notification: 1x\ndroit à indemnisation: 1x\nextorsion de fonds: 1x\nfaits volontaires ou non: 1x\npouvez pas obtenir une indemnisation: 1x\naccusé de réception: 1x\nauprès de la commission: 1x\nprésident de la commission: 1x\noffre d'indemnisation: 1x\nindemnisation effective et suffisante: 1x\nles demandes d'indemnisation: 1x\nvoies de recours: 1x\ndélai faut-il saisir la civi: 1x\ncivi est une juridiction: 1x\nréparation ou une indemnisation effective: 1x\nindemnisation définitive: 1x\ncivi si: 1x\ncivi peut être: 1x\nindemnisation formulées par les victimes: 1x\nles civi: 1x\nindemnisation en dépend: 1x\nrésoudre les problèmes des victimes: 1x",
+  "entities": "Commission d'indemnisation des victimes d'infractions\nInfraction\nAvocat (métier)\nFonds de garantie des victimes des actes de terrorisme et d'autres infractions\nEndommagement\nDommage corporel\nIncapacité totale de travail\nVictime\nTribunal\nProcédure pénale en France\nAgression sexuelle\nDommages matériels\nIncapacité permanente en France\nProcédure civile en France\nPourvoi en cassation\nTribunal judiciaire (France)\nSARVI\nCode de procédure pénale (France)\nViol\nLoi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation\nJustice\nCour d'appel (France)\nCertificat médical\nExpertise\nMadame L.\nAgression"
+ },
+ "status": "ready",
+ "keyword": "indemnisation civi",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "02ac5b707602289a",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 92.9,
+   "transactional": 14.3,
+   "navigational": 7.1
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "educational": 25.0,
+   "guide": 46.4,
+   "blog-post": 28.6,
+   "business": 32.1,
+   "video": 10.7,
+   "social-media": 7.1,
+   "tool": 7.1,
+   "other": 10.7,
+   "short-answer": 7.1
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/02ac5b707602289a",
+ "share_url": "https://app.neuronwriter.com/analysis/share/02ac5b707602289a/896ca17e88b056fdceb5850dec1bfbe64fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/02ac5b707602289a/331ec12c30ddb3e8a121c70ec55371c04fa16"
+}

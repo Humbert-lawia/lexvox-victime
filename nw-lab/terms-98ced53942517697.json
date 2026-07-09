@@ -1,0 +1,2969 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quel est le délai pour porter plainte après une agression ?"
+   },
+   {
+    "q": "Qu'est-ce qui est considéré comme une agression ?"
+   },
+   {
+    "q": "Quels sont les risques de porter plainte ?"
+   },
+   {
+    "q": "Comment déposer plainte pour agression ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quel est le délai pour porter plainte après une agression ?": {
+    "importance": 10
+   },
+   "Qu'est-ce qui est considéré comme une agression et quels sont les différents types ?": {
+    "importance": 9
+   },
+   "Comment déposer plainte pour agression et où s'adresser ?": {
+    "importance": 10
+   },
+   "Quels sont les risques ou les conséquences de porter plainte ?": {
+    "importance": 8
+   },
+   "Que se passe-t-il après le dépôt de plainte ?": {
+    "importance": 8
+   },
+   "Peut-on retirer une plainte après l'avoir déposée ?": {
+    "importance": 7
+   },
+   "Combien coûte le dépôt d'une plainte pour agression ?": {
+    "importance": 6
+   },
+   "Qui peut m'aider ou m'accompagner dans les démarches de dépôt de plainte ?": {
+    "importance": 7
+   },
+   "Peut-on porter plainte sans certificat médical ou sans connaître l'identité de l'agresseur ?": {
+    "importance": 7
+   },
+   "Comment obtenir une indemnisation après une agression ?": {
+    "importance": 7
+   }
+  },
+  "content_questions": [
+   {
+    "q": "A quoi sert de déposer plainte ?"
+   },
+   {
+    "q": "Agression – Fracture de l’humérus droite  : Comment dois-je procéder pour saisir la justice suite à mon agression ?"
+   },
+   {
+    "q": "Combien coûte le dépôt d'une plainte ?"
+   },
+   {
+    "q": "Comment accompagner les victimes de violences conjugales ?"
+   },
+   {
+    "q": "Comment porter plainte ?"
+   },
+   {
+    "q": "Comment retirer une plainte ?"
+   },
+   {
+    "q": "Comment saisir la justice et être indemnisé correctement suite à une agression ?"
+   },
+   {
+    "q": "Comment saisir la justice suite à une agression ?"
+   },
+   {
+    "q": "Comment se passe le dépôt de plainte d’une victime de violences sexuelles et sexistes ?"
+   },
+   {
+    "q": "Comment sont définies les violences physiques ou psychologiques ?"
+   },
+   {
+    "q": "Comment un mineur peut-il porter plainte ?"
+   },
+   {
+    "q": "Dans quel délai peut-on porter plainte ?"
+   },
+   {
+    "q": "Infographie - Comment déposer plainte ?"
+   },
+   {
+    "q": "Infractions pénales : comment distinguer une contravention, un délit et un crime ?"
+   },
+   {
+    "q": "Justice pénale : quels sont les délais de prescription ?"
+   },
+   {
+    "q": "L'avocat est-il obligatoire dans un procès pénal ?"
+   },
+   {
+    "q": "Le procureur doit-il engager des poursuites à la suite d'une plainte ?"
+   },
+   {
+    "q": "Le procureur est-il tenu d’engager des poursuites à la suite d’une plainte ?"
+   },
+   {
+    "q": "Les poursuites s'arrêtent-elles après le retrait d'une plainte ?"
+   },
+   {
+    "q": "Où déposer plainte pour une agression ?"
+   },
+   {
+    "q": "Peut-on porter plainte contre l'auteur des violences physiques ou psychologiques ?"
+   },
+   {
+    "q": "Peut-on refuser la plainte d'une victime ?"
+   },
+   {
+    "q": "Peut-on retirer une plainte ?"
+   },
+   {
+    "q": "Peut-on retirer une plainte et quelle en est la conséquence ?"
+   },
+   {
+    "q": "Plainte et après ?"
+   },
+   {
+    "q": "Pour quels faits peut-on porter plainte ?"
+   },
+   {
+    "q": "Pourquoi ne pas parler aussi de la plainte possible, même si l'agresseur est décédé ?"
+   },
+   {
+    "q": "Pourquoi porter plainte même lorsque les faits sont prescrits ?"
+   },
+   {
+    "q": "Procès pénal : qu'est-ce qu'une partie civile ?"
+   },
+   {
+    "q": "Que contient une plainte adressée au procureur ?"
+   },
+   {
+    "q": "Que devient la plainte ?"
+   },
+   {
+    "q": "Que faire si la plainte est classée sans suite ?"
+   },
+   {
+    "q": "Que peut faire la victime d'une infraction pénale ?"
+   },
+   {
+    "q": "Que se passe-t-il après un dépôt de plainte ?"
+   },
+   {
+    "q": "Quel est le coût d'une plainte ?"
+   },
+   {
+    "q": "Quelle aide pour les victimes d’agression ?"
+   },
+   {
+    "q": "Quelle procédure pour la victime d’une agression ?"
+   },
+   {
+    "q": "Quelles démarches immédiates après une agression ?"
+   },
+   {
+    "q": "Quels sont les délais pour porter plainte ?"
+   },
+   {
+    "q": "Qui peut déposer plainte ?"
+   },
+   {
+    "q": "Qui peut porter plainte ?"
+   },
+   {
+    "q": "Qu’est-ce qu’une constitution de partie civile ?"
+   },
+   {
+    "q": "Un mineur peut-il porter plainte ?"
+   },
+   {
+    "q": "Victime d’une agression : quelles étapes pour la procédure ?"
+   },
+   {
+    "q": "Violences sexuelles : pourquoi porter plainte même lorsque les faits sont prescrits ?"
+   },
+   {
+    "q": "Vous ou l’un de vos proches avez été victime d’une agression ?"
+   },
+   {
+    "q": "Vous êtes victime d’une agression ?"
+   },
+   {
+    "q": "et vous voulez porter plainte ?"
+   },
+   {
+    "q": "À quoi sert une plainte ?"
+   },
+   {
+    "q": "❓ FAQ — Comment saisir la justice suite à une agression ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1435",
+   "title": "Porter plainte | Service Public",
+   "desc": "Le dépôt de plainte se fait au commissariat de police ou à la gendarmerie ou en ligne pour certaines infractions.",
+   "headers": [
+    [
+     "h1",
+     "Porter plainte"
+    ],
+    [
+     "h2",
+     "Comment porter plainte ?"
+    ],
+    [
+     "h2",
+     "Où s’adresser ?"
+    ],
+    [
+     "h2",
+     "Qui peut porter plainte ?"
+    ],
+    [
+     "h2",
+     "Pour quels faits peut-on porter plainte ?"
+    ],
+    [
+     "h2",
+     "Dans quel délai peut-on porter plainte ?"
+    ],
+    [
+     "h2",
+     "Quel est le coût d'une plainte ?"
+    ],
+    [
+     "h2",
+     "À quoi sert une plainte ?"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Services en ligne et formulaires"
+    ],
+    [
+     "h2",
+     "Questions ? Réponses !"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 68,
+   "readability": 32,
+   "word_count": 3448,
+   "content_len": 20903
+  },
+  {
+   "rank": 2,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/aide-victime-agression/saisir-justice-suite-agression",
+   "title": "Comment saisir la justice suite à une agression ? - Association Victimes de France AIVF",
+   "desc": "Découvrez les étapes essentielles pour saisir la justice après une agression avec l'expertise de l'Association Aide Victimes France.",
+   "headers": [
+    [
+     "h1",
+     "Comment saisir la justice suite à une agression ?"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Comment saisir la justice suite à une agression ?"
+    ],
+    [
+     "h2",
+     "Comment saisir la justice suite à une agression ? Explications"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 30,
+   "word_count": 2050,
+   "content_len": 12416
+  },
+  {
+   "rank": 3,
+   "url": "https://www.plus.transformation.gouv.fr/experiences/6455650_depot-de-plainte",
+   "title": "Dépôt de plainte | Services Publics +",
+   "desc": "PEL, les usagers en parlent : Besoin de déposer une plainte pour agression verbale et gestuelle d'une personne m'ayant agressé physiquement début mai, avec dépôt de plainte pour agression physique avec perte de capacité physique.",
+   "headers": [
+    [
+     "h1",
+     "Dépôt de plainte"
+    ],
+    [
+     "h2",
+     "Avez-vous vécu une expérience similaire ?"
+    ],
+    [
+     "h2",
+     "Réponse du service\n                                              Plainte en ligne (PEL)"
+    ]
+   ],
+   "content_score": 26,
+   "readability": 45,
+   "word_count": 264,
+   "content_len": 1694
+  },
+  {
+   "rank": 4,
+   "url": "https://www.avocats-coubris-et-associes.fr/guides/victime-dune-agression/",
+   "title": "Victime d’une agression : quelles étapes pour la procédure ? - Avocats Coubris & Associés",
+   "desc": "Vous êtes victime d’une agression ? Dépôt de plainte, enquête de police, audience pénale… Découvrez la procédure avec le cabinet Coubris & Associés.",
+   "headers": [
+    [
+     "h1",
+     "Quelle procédure pour la victime d’une agression ?"
+    ],
+    [
+     "h2",
+     "Découvrez les étapes en vidéo"
+    ],
+    [
+     "h2",
+     "Le dépôt de plainte"
+    ],
+    [
+     "h2",
+     "L’enquête de police"
+    ],
+    [
+     "h2",
+     "L’audience pénale"
+    ],
+    [
+     "h2",
+     "L’indemnisation de vos préjudices"
+    ],
+    [
+     "h2",
+     "Suivez l’actualité du Cabinet"
+    ],
+    [
+     "h2",
+     "Retrouvez nos articles sur les dossiers,les procès en cours et l’activité du Cabinet"
+    ]
+   ],
+   "content_score": 42,
+   "readability": 26,
+   "word_count": 1713,
+   "content_len": 10723
+  },
+  {
+   "rank": 5,
+   "url": "https://www.justice.fr/themes/porter-plainte",
+   "title": "Porter plainte | Justice.fr",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Porter plainte"
+    ],
+    [
+     "h2",
+     "L'essentiel"
+    ],
+    [
+     "h2",
+     "Comment porter plainte ?"
+    ],
+    [
+     "h2",
+     "Quels sont les délais pour porter plainte ?"
+    ],
+    [
+     "h2",
+     "Que se passe-t-il ensuite ?"
+    ],
+    [
+     "h2",
+     "Peut-on retirer une plainte ?"
+    ],
+    [
+     "h2",
+     "Combien coûte le dépôt d'une plainte ?"
+    ],
+    [
+     "h2",
+     "En savoir plus"
+    ]
+   ],
+   "content_score": 60,
+   "readability": 30,
+   "word_count": 965,
+   "content_len": 6116
+  },
+  {
+   "rank": 6,
+   "url": "https://www.masecurite.interieur.gouv.fr/fr/fiches-pratiques/famille-et-aides-aux-victimes/comment-se-passe-depot-plainte-victime-violences-sexuelles-sexistes",
+   "title": "Comment se passe le dépôt de plainte d’une victime de violences sexuelles et sexistes | Ma Sécurité",
+   "desc": "Plusieurs étapes sont nécessaires pour être accompagné lors d’un dépôt de plainte.",
+   "headers": [
+    [
+     "h1",
+     "Comment se passe le dépôt de plainte d’une victime de violences sexuelles et sexistes ?"
+    ],
+    [
+     "h2",
+     "Le choix de la démarche"
+    ],
+    [
+     "h2",
+     "Transcription - Plainte-main-courante-3.jpg"
+    ],
+    [
+     "h2",
+     "Avez-vous trouvé ces informations utiles ?"
+    ],
+    [
+     "h2",
+     "Merci pour votre réponse !"
+    ],
+    [
+     "h1",
+     "Paramètres d'affichage"
+    ],
+    [
+     "h1",
+     "Aidez-nous à améliorer ce service"
+    ],
+    [
+     "h1",
+     "Aidez-nous à améliorer ce service"
+    ],
+    [
+     "h1",
+     "Choisir mon point d’accueil"
+    ],
+    [
+     "h1",
+     "Choisissez un point d’accueil"
+    ],
+    [
+     "h1",
+     "Pour échanger avec un gendarme ou un policier, 24h/24 et 7j/7"
+    ],
+    [
+     "h1",
+     "Pour trouver vos contacts utiles de proximité"
+    ],
+    [
+     "h1",
+     "Pour en savoir plus sur le point d'accueil"
+    ],
+    [
+     "h1",
+     "Choisir mon point d’accueil"
+    ],
+    [
+     "h1",
+     "Choisir mon interlocuteur"
+    ],
+    [
+     "h1",
+     "Vous souhaitez consulter les informations locales ?"
+    ],
+    [
+     "h1",
+     "Vous souhaitez supprimer cet interlocuteur ?"
+    ],
+    [
+     "h1",
+     "Vous souhaitez supprimer ce point d’accueil ?"
+    ],
+    [
+     "h1",
+     "Choisir mon point d’accueil"
+    ]
+   ],
+   "content_score": 34,
+   "readability": 29,
+   "word_count": 1751,
+   "content_len": 11285
+  },
+  {
+   "rank": 7,
+   "url": "https://www.facebook.com/lemonde.fr/posts/violences-sexuelles-pourquoi-porter-plainte-m%C3%AAme-lorsque-les-faits-sont-prescrit/1430192312475393/",
+   "title": "Violences sexuelles : pourquoi porter plainte même lorsque les faits sont prescrits ? Vidéo : Chloé Denis #vss #violences #violencessexuelles #justice #prescription | Le Monde | Facebook",
+   "desc": "Violences sexuelles : pourquoi porter plainte même lorsque les faits sont prescrits ? Vidéo : Chloé Denis #vss #violences #violencessexuelles #justice...",
+   "headers": [
+    [
+     "h1",
+     "Vidéo"
+    ],
+    [
+     "h2",
+     "Le Monde Compte vérifié"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Reels similaires"
+    ],
+    [
+     "h2",
+     "Vidéos connexes"
+    ]
+   ],
+   "content_score": 17,
+   "readability": 37,
+   "word_count": 586,
+   "content_len": 2992
+  },
+  {
+   "rank": 9,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1524",
+   "title": "Violences physiques ou psychologiques | Service Public",
+   "desc": "Les violences se manifestent par tout acte ou comportement ayant pour but de nuire à l'intégrité physique ou psychologique de la victime.",
+   "headers": [
+    [
+     "h1",
+     "Violences physiques ou psychologiques"
+    ],
+    [
+     "h2",
+     "Comment sont définies les violences physiques ou psychologiques ?"
+    ],
+    [
+     "h2",
+     "Que peut-on faire face à un acte de violences physiques ou psychologiques ?"
+    ],
+    [
+     "h2",
+     "Comment signaler des violences physiques ou psychologiques sur un mineur ?"
+    ],
+    [
+     "h2",
+     "Peut-on porter plainte contre l'auteur des violences physiques ou psychologiques ?"
+    ],
+    [
+     "h2",
+     "Où s’adresser ?"
+    ],
+    [
+     "h2",
+     "À quelles sanctions l'auteur de violences peut-il être condamné ?"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Questions ? Réponses !"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 21,
+   "word_count": 4849,
+   "content_len": 29382
+  },
+  {
+   "rank": 10,
+   "url": "https://www.victimes-solidaires.org/fr/agressions-attentats/id-27-deposer-plainte",
+   "title": "Agression : déposer plainte",
+   "desc": " Vous avez &eacute;t&eacute; victime d&rsquo;une agression physique et vous pr&eacute;sentez des blessures &agrave; la suite de celles-ci. Afin de pouvoir pr&eacute;tendre &agrave; l&rsquo;indemnisation de vos dommages corporels, il est indispensable de d&eacute;poser plainte afin de permettre de solliciter ult&eacute;rieurement l&rsquo;indemnisation du pr&eacute;judice. ",
+   "headers": [
+    [
+     "h1",
+     "Déposer plainte"
+    ],
+    [
+     "h2",
+     "Qui peut déposer plainte ?"
+    ],
+    [
+     "h2",
+     "Peut-on refuser la plainte d'une victime ?"
+    ],
+    [
+     "h2",
+     "A quoi sert de déposer plainte ?"
+    ],
+    [
+     "h2",
+     "Preuve du dépot de plainte"
+    ],
+    [
+     "h2",
+     "Dépot de plainte en cours d'enquête"
+    ],
+    [
+     "h2",
+     "Suites de la plainte de la victimes"
+    ],
+    [
+     "h2",
+     "Recours à une avocat en cas d'agression"
+    ],
+    [
+     "h2",
+     "Vos questions, nos réponses"
+    ],
+    [
+     "h2",
+     "Vous avez été victime d’un dommage corporel, d’un accident de la route, d’une erreur médicale ?"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 26,
+   "word_count": 1881,
+   "content_len": 12239
+  },
+  {
+   "rank": 11,
+   "url": "https://www.justifit.fr/b/guides/droit-penal/porter-plainte-pour-agression/",
+   "title": "Comment porter plainte pour une agression ?",
+   "desc": "La plainte constitue une démarche essentielle pour obtenir la réparation du préjudice résultant d’une agression physique au travail ou une agression morale.…",
+   "headers": [
+    [
+     "h1",
+     "Porter plainte pour une agression"
+    ],
+    [
+     "h2",
+     "À RETENIR : Quelles sont les démarches à suivre suite à une agression ?"
+    ],
+    [
+     "h2",
+     "Quels sont les différents types d’agression ?"
+    ],
+    [
+     "h2",
+     "Comment porter plainte après une agression ?"
+    ],
+    [
+     "h2",
+     "Quelles sanctions pour une agression physique ?"
+    ],
+    [
+     "h2",
+     "Porter plainte pour agression verbale"
+    ],
+    [
+     "h2",
+     "Comment un avocat peut-il intervenir en cas d’agression et accompagner la victime dans le dépôt de plainte ?"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 38,
+   "word_count": 1606,
+   "content_len": 10124
+  },
+  {
+   "rank": 12,
+   "url": "https://www.masecurite.interieur.gouv.fr/fr/actualites/site-officiel-gratuit-porter-plainte-en-ligne",
+   "title": "Le site officiel et gratuit pour porter plainte en ligne | Ma Sécurité",
+   "desc": "Déposer une plainte est un service qui ne nécessite aucun paiement. Depuis le 15&nbsp;octobre 2024, un site officiel unique et gratuit permet de porter plainte ",
+   "headers": [
+    [
+     "h1",
+     "Le site officiel et gratuit pour porter plainte en ligne"
+    ],
+    [
+     "h2",
+     "Attention aux sites payants"
+    ],
+    [
+     "h2",
+     "Transcription :"
+    ],
+    [
+     "h2",
+     "Les avantages de ce service numérique"
+    ],
+    [
+     "h2",
+     "Nos actualités"
+    ],
+    [
+     "h1",
+     "Paramètres d'affichage"
+    ],
+    [
+     "h1",
+     "Aidez-nous à améliorer ce service"
+    ],
+    [
+     "h1",
+     "Aidez-nous à améliorer ce service"
+    ],
+    [
+     "h1",
+     "Choisir mon point d’accueil"
+    ],
+    [
+     "h1",
+     "Choisissez un point d’accueil"
+    ],
+    [
+     "h1",
+     "Pour échanger avec un gendarme ou un policier, 24h/24 et 7j/7"
+    ],
+    [
+     "h1",
+     "Pour trouver vos contacts utiles de proximité"
+    ],
+    [
+     "h1",
+     "Pour en savoir plus sur le point d'accueil"
+    ],
+    [
+     "h1",
+     "Choisir mon point d’accueil"
+    ],
+    [
+     "h1",
+     "Choisir mon interlocuteur"
+    ],
+    [
+     "h1",
+     "Vous souhaitez consulter les informations locales ?"
+    ],
+    [
+     "h1",
+     "Vous souhaitez supprimer cet interlocuteur ?"
+    ],
+    [
+     "h1",
+     "Vous souhaitez supprimer ce point d’accueil ?"
+    ],
+    [
+     "h1",
+     "Choisir mon point d’accueil"
+    ]
+   ],
+   "content_score": 35,
+   "readability": 36,
+   "word_count": 691,
+   "content_len": 4626
+  },
+  {
+   "rank": 13,
+   "url": "https://www.facebook.com/PoliceNationale/posts/-besoin-de-d%C3%A9poser-plainte-cest-d%C3%A9sormais-possible-en-quelques-clics-gagnez-du-t/1368270962000118/",
+   "title": "📝 Besoin de déposer plainte ? C’est désormais possible en quelques clics !\n\nGagnez du temps grâce à la prise de rendez-vous en ligne sur MaSécurité :\n\n↘️ renseignez votre situation\n↘️ choisissez votre créneau\n↘️ évitez l’attente en commissariat\n\n👉 Rendez-vous sur Ma Sécurité \n\n🚨 En cas d’urgence, composez le 17, le 112 ou envoyez un SMS au 114 (sourds et malentendants). | Police Nationale | Facebook",
+   "desc": "📝 Besoin de déposer plainte ? C’est désormais possible en quelques clics !\n\nGagnez du temps grâce à la prise de rendez-vous en ligne sur MaSécurité :\n\n↘️...",
+   "headers": [
+    [
+     "h1",
+     "Vidéo"
+    ],
+    [
+     "h2",
+     "Police Nationale Compte vérifié"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Reels similaires"
+    ],
+    [
+     "h2",
+     "Vidéos connexes"
+    ]
+   ],
+   "content_score": 11,
+   "readability": 29,
+   "word_count": 856,
+   "content_len": 5237
+  },
+  {
+   "rank": 14,
+   "url": "https://avf.fr/agression/porter-plainte-pour-agression",
+   "title": "Porter plainte pour agression : démarches, délais et recours",
+   "desc": "Porter plainte pour agression : démarches au commissariat, délais de prescription, preuves à réunir et recours possibles pour obtenir une indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Porter plainte pour agression : guide complet des démarches et recours"
+    ],
+    [
+     "h2",
+     "Comment porter plainte pour agression ?"
+    ],
+    [
+     "h2",
+     "Délais de prescription pour porter plainte après une agression"
+    ],
+    [
+     "h2",
+     "Les preuves à réunir avant de porter plainte pour agression"
+    ],
+    [
+     "h2",
+     "Porter plainte pour agression : les recours en cas de classement sans suite"
+    ],
+    [
+     "h2",
+     "Pourquoi se faire accompagner par un avocat pour porter plainte"
+    ],
+    [
+     "h2",
+     "Les sanctions encourues par l’auteur d’une agression"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 74,
+   "readability": 50,
+   "word_count": 2099,
+   "content_len": 13103
+  },
+  {
+   "rank": 15,
+   "url": "https://www.dailymotion.com/video/xaez9hy",
+   "title": "Violences sexuelles : pourquoi porter plainte même lorsque les faits sont prescrits ? - Vidéo Dailymotion",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Violences sexuelles : pourquoi porter plainte même lorsque les faits sont prescrits ?"
+    ],
+    [
+     "h2",
+     "Category"
+    ],
+    [
+     "h1",
+     "Video cannot be played."
+    ]
+   ],
+   "content_score": 31,
+   "readability": 62,
+   "word_count": 493,
+   "content_len": 2764
+  },
+  {
+   "rank": 16,
+   "url": "https://arretonslesviolences.gouv.fr/je-suis-temoin/que-faire-quand-j-assiste-a-une-agression",
+   "title": "Que faire quand j'assiste à une agression ? | Arrêtons les violences",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Que faire quand j'assiste à une agression ?"
+    ],
+    [
+     "h2",
+     "Introduction"
+    ],
+    [
+     "h2",
+     "Comment réagir au moment des faits ?"
+    ],
+    [
+     "h2",
+     "Quelle attitude adopter vis-à-vis de la victime ?"
+    ],
+    [
+     "h2",
+     "En tant que témoin, vous devez savoir…"
+    ]
+   ],
+   "content_score": 18,
+   "readability": 30,
+   "word_count": 1136,
+   "content_len": 6859
+  },
+  {
+   "rank": 17,
+   "url": "https://www.youtube.com/watch?v=-7nA_2jFne8",
+   "title": "Comment déposer plainte ? | On a tous besoin d'un avocat pénaliste - Ep. 3 - YouTube",
+   "desc": "Si vous êtes #victime d'une #infraction pénale et que vous souhaitez déposer #plainte il est important d'être bien conseillé.Vous pouvez être assisté par un ...",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Comment déposer plainte ? | On a tous besoin d'un avocat pénaliste - Ep. 3"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h1",
+     "Comment déposer plainte ? | On a tous besoin d'un avocat pénaliste - Ep. 3"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Chapitres"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 21,
+   "readability": 42,
+   "word_count": 472,
+   "content_len": 2793
+  },
+  {
+   "rank": 18,
+   "url": "https://www.instagram.com/p/DZhZ8Y_FVTj/",
+   "title": "Instagram",
+   "desc": "79 likes, 8 comments - eclats_de_femme le  June 13, 2026: \"Dépôt de plainte, main courante : quelle est la différence ?\n\nBeaucoup de victimes hésitent ou ne savent pas quelle démarche entreprendre après des violences. Comprendre ces dispositifs permet de faire un choix éclairé et adapté à sa situation.\n\n💜 Quelle que soit votre décision, vous avez le droit d'être écoutée, accompagnée et soutenue.\n\n#violencessexuelles #violencesconjugales #plainte #maincourante #justice #droitsdesvictimes #VSS #eclatsdefemme #paroledesvictimes #sensibilisation\". ",
+   "headers": [],
+   "content_score": 1,
+   "readability": 61,
+   "word_count": 184,
+   "content_len": 1246
+  },
+  {
+   "rank": 19,
+   "url": "https://www.justice.fr/je-suis-victime/violences/verbales",
+   "title": "Je suis victime de violences verbales | Justice.fr",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h1",
+     "Je suis victime de violences verbales"
+    ]
+   ],
+   "content_score": 8,
+   "readability": 57,
+   "word_count": 383,
+   "content_len": 2545
+  },
+  {
+   "rank": 20,
+   "url": "https://www.justice.gouv.fr/documentation/etudes-et-statistiques/se-declarer-victime-latteinte-subie-au-depot-plainte",
+   "title": "Se déclarer victime : de l’atteinte subie au dépôt de plainte | Ministère de la justice",
+   "desc": "2010 - n°110 | Laure Chaussebourg",
+   "headers": [
+    [
+     "h2",
+     "Typologie de contenus:\n                  \n                  Infostat justice"
+    ],
+    [
+     "h1",
+     "Se déclarer victime : de l’atteinte subie au dépôt de plainte"
+    ],
+    [
+     "h2",
+     "Autres publications"
+    ],
+    [
+     "h2",
+     "Suivez-nous\n          \n        sur les réseaux sociaux"
+    ]
+   ],
+   "content_score": 19,
+   "readability": 36,
+   "word_count": 423,
+   "content_len": 2648
+  },
+  {
+   "rank": 21,
+   "url": "https://victime-info.fr/indemnisation/victime-agression/porter-plainte-agression",
+   "title": "Porter plainte pour agression : guide complet des démarches | victime-info.fr",
+   "desc": "Comment porter plainte pour agression physique ? Commissariat, procureur, plainte en ligne : procédure complète, délais de prescription et droits des victimes.",
+   "headers": [
+    [
+     "h1",
+     "Porter plainte pour une agression : guide complet des démarches et droits des victimes"
+    ],
+    [
+     "h2",
+     "Pourquoi porter plainte est essentiel après une agression"
+    ],
+    [
+     "h2",
+     "Où et comment porter plainte pour agression"
+    ],
+    [
+     "h2",
+     "Quels éléments apporter lors du dépôt de plainte"
+    ],
+    [
+     "h2",
+     "La plainte avec constitution de partie civile"
+    ],
+    [
+     "h2",
+     "Les délais de prescription pour porter plainte"
+    ],
+    [
+     "h2",
+     "Les suites données à la plainte"
+    ],
+    [
+     "h2",
+     "Les droits de la victime durant la procédure pénale"
+    ],
+    [
+     "h2",
+     "L’indemnisation après le dépôt de plainte"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur le dépôt de plainte pour agression"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Conclusion : ne pas rester seul face aux démarches"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 73,
+   "readability": 33,
+   "word_count": 3586,
+   "content_len": 22717
+  },
+  {
+   "rank": 22,
+   "url": "https://www.aveyron.gouv.fr/layout/set/print/Demarches/Particuliers/Toutes-les-demarches-pour-les-particuliers#!/Particuliers/page/F1526",
+   "title": "Toutes les démarches pour les particuliers -\n                                Particuliers -\n                                Démarches -\n                                                            Les services de l'État  en Aveyron",
+   "desc": "Portail de l'Etat en Les services de l'État  en Aveyron",
+   "headers": [
+    [
+     "h1",
+     "Toutes les démarches pour les particuliers"
+    ]
+   ],
+   "content_score": 0,
+   "readability": 64,
+   "word_count": 53,
+   "content_len": 401
+  },
+  {
+   "rank": 23,
+   "url": "https://www.facebook.com/lemonde.fr/videos/pourquoi-porter-plainte-m%C3%AAme-lorsque-les-faits-sont-prescrits-/1887397518554739/",
+   "title": "Violences sexuelles : pourquoi porter plainte même lorsque les faits sont prescrits ? Vidéo : Chloé Denis #vss #violences #violencessexuelles #justice #prescription | Le Monde | Facebook",
+   "desc": "Violences sexuelles : pourquoi porter plainte même lorsque les faits sont prescrits ? Vidéo : Chloé Denis #vss #violences #violencessexuelles #justice...",
+   "headers": [
+    [
+     "h1",
+     "Vidéo"
+    ],
+    [
+     "h2",
+     "Le Monde Compte vérifié"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Reels similaires"
+    ],
+    [
+     "h2",
+     "Vidéos connexes"
+    ]
+   ],
+   "content_score": 17,
+   "readability": 37,
+   "word_count": 586,
+   "content_len": 2992
+  },
+  {
+   "rank": 24,
+   "url": "https://aparte.juripop.org/plainte-dagression-comment-se-passe-le-processus/",
+   "title": "Plainte d’agression : comment se passe le processus ? – L'Aparté",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Plainte d’agression : comment se passe le processus ?"
+    ]
+   ],
+   "content_score": 30,
+   "readability": 38,
+   "word_count": 815,
+   "content_len": 5198
+  },
+  {
+   "rank": 25,
+   "url": "https://www.somme.gouv.fr/Demarches/Guide-des-autres-demarches-Particuliers#!/Particuliers/page/F34550",
+   "title": "Guide des autres démarches : Particuliers                                                            -\n                                Démarches -\n                                                            Les services de l'État dans la Somme",
+   "desc": "Portail de l'Etat dans la Somme Les services de l'État dans la Somme",
+   "headers": [
+    [
+     "h1",
+     "Guide des autres démarches : Particuliers"
+    ],
+    [
+     "h2",
+     "Abonnez-vous à notre lettre d’information"
+    ],
+    [
+     "h2",
+     "Suivez-nous\n                         sur les réseaux sociaux"
+    ]
+   ],
+   "content_score": 0,
+   "readability": 64,
+   "word_count": 87,
+   "content_len": 680
+  },
+  {
+   "rank": 26,
+   "url": "https://aab.plainte-en-ligne.masecurite.interieur.gouv.fr/trouvez-la-demarche-adaptee-a-votre-situation",
+   "title": "Trouvez la démarche adaptée à votre situation\n - Parcours Plainte en ligne",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Trouvez la démarche adaptée à votre situation"
+    ],
+    [
+     "h2",
+     "Type d’infraction"
+    ],
+    [
+     "h2",
+     "Ma situation"
+    ],
+    [
+     "h1",
+     "Retour à la page d'accueil ?"
+    ],
+    [
+     "h1",
+     "Sans FranceConnect, votre plainte en ligne va nécessiter un rendez-vous physique"
+    ],
+    [
+     "h1",
+     "Sans FranceConnect, votre plainte en ligne va nécessiter un rendez-vous physique"
+    ],
+    [
+     "h1",
+     "Déclarer une arnaque sur internet"
+    ],
+    [
+     "h1",
+     "Déclarer une fraude à la carte bancaire"
+    ],
+    [
+     "h1",
+     "Paramètres d’affichage"
+    ],
+    [
+     "h1",
+     "Formulaire invalide"
+    ]
+   ],
+   "content_score": 18,
+   "readability": 29,
+   "word_count": 380,
+   "content_len": 2444
+  },
+  {
+   "rank": 27,
+   "url": "https://www.justice.fr/je-suis-victime",
+   "title": "Je suis victime | Justice.fr",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Je suis victime"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h1",
+     "Je suis victime"
+    ],
+    [
+     "h2",
+     "Je m’informe selon ma situation"
+    ],
+    [
+     "h2",
+     "J'obtiens une aide"
+    ]
+   ],
+   "content_score": 8,
+   "readability": 51,
+   "word_count": 476,
+   "content_len": 3262
+  },
+  {
+   "rank": 28,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R48395",
+   "title": "Signaler un viol ou une agression sexuelle | Service Public",
+   "desc": "Une messagerie instantanée (tchat) vous permet de dialoguer avec un policier ou un gendarme spécialement formé pour ce type d'infraction. Ce professionnel vous aidera dans vos démarches et pourra vous orienter si vous souhaitez déposer plainte. À savoir : À tout moment, l'historique de discussion pourra être effacé de votre ordinateur, téléphone portable ou tablette.",
+   "headers": [
+    [
+     "h1",
+     "Signaler un viol ou une agression sexuelle"
+    ],
+    [
+     "h2",
+     "Pour toute explication, consulter les fiches pratiques :"
+    ],
+    [
+     "h2",
+     "J'ai réalisé une démarche administrative"
+    ]
+   ],
+   "content_score": 16,
+   "readability": 55,
+   "word_count": 402,
+   "content_len": 2398
+  },
+  {
+   "rank": 29,
+   "url": "https://www.justifit.fr/b/guides/droit-penal/menace/",
+   "title": "Porter plainte pour menace et intimidation",
+   "desc": "Si vous êtes victime d’une menace, vous pouvez porter plainte, même si vous ne connaissez pas l'identité de la personne qui tente de vous nuire.",
+   "headers": [
+    [
+     "h1",
+     "Porter plainte pour menace et intimidation"
+    ],
+    [
+     "h2",
+     "Quand peut-on parler de menace ?"
+    ],
+    [
+     "h2",
+     "Quelle est la différence entre menace, injure et diffamation ?"
+    ],
+    [
+     "h2",
+     "Les différentes formes de menace"
+    ],
+    [
+     "h2",
+     "Menace : que dit la loi s’agissant des sanctions ?"
+    ],
+    [
+     "h2",
+     "Comment porter plainte en cas de menace ?"
+    ],
+    [
+     "h2",
+     "Pourquoi les preuves sont-elles importantes ?"
+    ],
+    [
+     "h2",
+     "Comment un avocat peut-il aider à porter plainte en cas de menace ?"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 31,
+   "word_count": 2855,
+   "content_len": 17992
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1751,
+   "target": 1751
+  },
+  "readability": {
+   "median": 30,
+   "target": 30
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "plainte",
+    "usage_pc": 67
+   },
+   {
+    "t": "porter plainte",
+    "usage_pc": 33
+   },
+   {
+    "t": "agression",
+    "usage_pc": 33
+   },
+   {
+    "t": "dépôt de plainte",
+    "usage_pc": 22
+   },
+   {
+    "t": "violences sexuelles",
+    "usage_pc": 22
+   },
+   {
+    "t": "déposer plainte",
+    "usage_pc": 11
+   },
+   {
+    "t": "victime de violences",
+    "usage_pc": 11
+   }
+  ],
+  "desc": [
+   {
+    "t": "plainte",
+    "usage_pc": 67
+   },
+   {
+    "t": "dépôt de plainte",
+    "usage_pc": 44
+   },
+   {
+    "t": "agression",
+    "usage_pc": 44
+   },
+   {
+    "t": "agression physique",
+    "usage_pc": 22
+   },
+   {
+    "t": "porter plainte",
+    "usage_pc": 11
+   },
+   {
+    "t": "infraction",
+    "usage_pc": 11
+   },
+   {
+    "t": "commissariat",
+    "usage_pc": 11
+   },
+   {
+    "t": "gendarmerie",
+    "usage_pc": 11
+   },
+   {
+    "t": "une plainte",
+    "usage_pc": 11
+   },
+   {
+    "t": "commissariat de police",
+    "usage_pc": 11
+   },
+   {
+    "t": "déposer une plainte",
+    "usage_pc": 11
+   },
+   {
+    "t": "violences sexuelles",
+    "usage_pc": 11
+   }
+  ],
+  "h1": [
+   {
+    "t": "plainte",
+    "usage_pc": 56
+   },
+   {
+    "t": "porter plainte",
+    "usage_pc": 22
+   },
+   {
+    "t": "dépôt de plainte",
+    "usage_pc": 22
+   },
+   {
+    "t": "agression",
+    "usage_pc": 22
+   },
+   {
+    "t": "déposer plainte",
+    "usage_pc": 11
+   },
+   {
+    "t": "victime de violences",
+    "usage_pc": 11
+   },
+   {
+    "t": "violences sexuelles",
+    "usage_pc": 11
+   }
+  ],
+  "h2": [
+   {
+    "t": "plainte",
+    "usage_pc": 67
+   },
+   {
+    "t": "porter plainte",
+    "usage_pc": 33
+   },
+   {
+    "t": "une plainte",
+    "usage_pc": 22
+   },
+   {
+    "t": "agression",
+    "usage_pc": 22
+   },
+   {
+    "t": "peut-on porter plainte",
+    "usage_pc": 22
+   },
+   {
+    "t": "comment porter plainte",
+    "usage_pc": 22
+   },
+   {
+    "t": "dépôt de plainte",
+    "usage_pc": 11
+   },
+   {
+    "t": "déposer plainte",
+    "usage_pc": 11
+   },
+   {
+    "t": "pénal",
+    "usage_pc": 11
+   },
+   {
+    "t": "plainte en ligne",
+    "usage_pc": 11
+   },
+   {
+    "t": "peut porter plainte",
+    "usage_pc": 11
+   },
+   {
+    "t": "plainte contre",
+    "usage_pc": 11
+   },
+   {
+    "t": "services en ligne",
+    "usage_pc": 11
+   },
+   {
+    "t": "porter plainte contre",
+    "usage_pc": 11
+   },
+   {
+    "t": "les violences physiques",
+    "usage_pc": 11
+   },
+   {
+    "t": "délais pour porter plainte",
+    "usage_pc": 11
+   },
+   {
+    "t": "peut déposer plainte",
+    "usage_pc": 11
+   },
+   {
+    "t": "découvrez les étapes",
+    "usage_pc": 11
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "plainte",
+    "usage_pc": 100,
+    "sugg_usage": [
+     8,
+     23
+    ]
+   },
+   {
+    "t": "porter plainte",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "dépôt de plainte",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "infraction",
+    "usage_pc": 78,
+    "sugg_usage": [
+     4,
+     12
+    ]
+   },
+   {
+    "t": "déposer plainte",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "procureur de la république",
+    "usage_pc": 78,
+    "sugg_usage": [
+     3,
+     7
+    ]
+   },
+   {
+    "t": "commissariat",
+    "usage_pc": 89,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "pénal",
+    "usage_pc": 89,
+    "sugg_usage": [
+     2,
+     7
+    ]
+   },
+   {
+    "t": "gendarmerie",
+    "usage_pc": 78,
+    "sugg_usage": [
+     3,
+     6
+    ]
+   },
+   {
+    "t": "auteur des faits",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "une plainte",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "une infraction",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "agression",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "partie civile",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "plainte auprès",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "certificats médicaux",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "commissariat de police",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "déposer une plainte",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "aide aux victimes",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "poursuite",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "brigade de gendarmerie",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un commissariat",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "constituer partie civile",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "peut porter plainte",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une enquête",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "instruction",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les contraventions",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les délits",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contre x",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "plainte contre",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "plainte avec constitution de partie",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les crimes",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "prescription",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "police ou de gendarmerie",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "sans suite",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "constitution de partie civile",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "juridiction de jugement",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "information judiciaire",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une brigade de gendarmerie",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "arrêts de travail",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "signalement",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tribunal de police",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "transmise au procureur",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déposée contre",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "plainte en ligne",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "délai de prescription",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "victime de violences",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "violences sexuelles",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "si vous êtes victime",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "agression physique",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "services de police",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "plainte est transmise au procureur",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "services en ligne",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "plainte doit être",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dont vous avez été victime",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "peut-on porter plainte",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contre une personne",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si la victime",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’une agression",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "peut porter plainte auprès d’un",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "porter plainte auprès d’un commissariat",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’une agression physique",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "commissariat de police ou d’une",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’une",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’une infraction",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "association d’aide aux victimes",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "commission d’indemnisation des victimes d’infractions",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "auprès d’un commissariat de police",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "police ou d’une brigade",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "n’est pas obligatoire",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tribunal judiciaire du lieu",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les infractions",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "porter plainte contre",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les violences physiques",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment porter plainte",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "ans pour les délits",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dépôt de plainte est recevable",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "réparation du préjudice",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faits de violences",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "copie de votre plainte",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "devant le juge",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "délais pour porter plainte",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fonds de garantie des victimes",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "plainte est recevable si",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déposer plainte contre",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "peut déposer plainte",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "personne majeure",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "personne morale",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les services de police",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si l'auteur des faits",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "selon la gravité",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cette agression",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contre l'auteur des faits",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tant que victime",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contre x si",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avis à victime",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les faits dont",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "découvrez les étapes",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "long de la procédure",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Plainte",
+    "importance": 48.675839999999994,
+    "relevance": 0.7605599999999999,
+    "confidence": 2.2962,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Plainte"
+     ]
+    ]
+   },
+   {
+    "t": "Dépôt de plainte",
+    "importance": 40.53376,
+    "relevance": 0.63334,
+    "confidence": 2.6211999999999995,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dépôt_de_plainte"
+     ]
+    ]
+   },
+   {
+    "t": "Infraction",
+    "importance": 37.30816,
+    "relevance": 0.58294,
+    "confidence": 2.7446,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Infraction"
+     ]
+    ]
+   },
+   {
+    "t": "Police (institution)",
+    "importance": 36.178,
+    "relevance": 0.36178,
+    "confidence": 7.575799999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Police_(institution)"
+     ]
+    ]
+   },
+   {
+    "t": "Procureur de la République (France)",
+    "importance": 34.129920000000006,
+    "relevance": 0.5332800000000001,
+    "confidence": 11.052,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Procureur_de_la_République_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Procureur",
+    "importance": 24.464639999999996,
+    "relevance": 0.38225999999999993,
+    "confidence": 7.556,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Procureur"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal",
+    "importance": 18.88256,
+    "relevance": 0.29504,
+    "confidence": 4.345599999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal"
+     ]
+    ]
+   },
+   {
+    "t": "Gendarmerie nationale (France)",
+    "importance": 18.20288,
+    "relevance": 0.28442,
+    "confidence": 5.7652,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Gendarmerie_nationale_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Victime",
+    "importance": 13.670639999999999,
+    "relevance": 0.37974,
+    "confidence": 0.6418,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Victime"
+     ]
+    ]
+   },
+   {
+    "t": "Prescription (droit)",
+    "importance": 13.163759999999998,
+    "relevance": 0.36566,
+    "confidence": 1.7862000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Prescription_(droit)"
+     ]
+    ]
+   },
+   {
+    "t": "Crime",
+    "importance": 11.453184,
+    "relevance": 0.178956,
+    "confidence": 6.853,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Crime"
+     ]
+    ]
+   },
+   {
+    "t": "Justice",
+    "importance": 11.08656,
+    "relevance": 0.30796,
+    "confidence": 3.2946,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Justice"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 10.960560000000001,
+    "relevance": 0.30446,
+    "confidence": 1.5486,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Contravention en droit pénal français",
+    "importance": 10.07784,
+    "relevance": 0.27994,
+    "confidence": 2.7208,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contravention_en_droit_pénal_français"
+     ]
+    ]
+   },
+   {
+    "t": "Sévice physique",
+    "importance": 7.578647999999999,
+    "relevance": 0.21051799999999998,
+    "confidence": 1.0872,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Sévice_physique"
+     ]
+    ]
+   },
+   {
+    "t": "Police nationale (France)",
+    "importance": 6.6211199999999995,
+    "relevance": 0.18392,
+    "confidence": 1.5686,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Police_nationale_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Délit pénal en France",
+    "importance": 6.382079999999998,
+    "relevance": 0.17728,
+    "confidence": 0.784,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Délit_pénal_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Partie civile en France",
+    "importance": 6.3060480000000005,
+    "relevance": 0.175168,
+    "confidence": 2.2386,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Partie_civile_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Plainte en droit pénal français",
+    "importance": 5.541440000000001,
+    "relevance": 0.34634,
+    "confidence": 1.2178,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Plainte_en_droit_pénal_français"
+     ]
+    ]
+   },
+   {
+    "t": "Juge",
+    "importance": 4.933439999999999,
+    "relevance": 0.13704,
+    "confidence": 1.4093999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Juge"
+     ]
+    ]
+   },
+   {
+    "t": "Agression",
+    "importance": 4.83264,
+    "relevance": 0.30204,
+    "confidence": 0.6406000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Agression"
+     ]
+    ]
+   },
+   {
+    "t": "Droit pénal",
+    "importance": 4.374,
+    "relevance": 0.12149999999999998,
+    "confidence": 0.9958,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Droit_pénal"
+     ]
+    ]
+   },
+   {
+    "t": "Fonds de garantie des victimes des actes de terrorisme et d'autres infractions",
+    "importance": 4.05184,
+    "relevance": 0.25324,
+    "confidence": 1.0128,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fonds_de_garantie_des_victimes_des_actes_de_terrorisme_et_d'autres_infractions"
+     ]
+    ]
+   },
+   {
+    "t": "Instruction en procédure pénale française",
+    "importance": 3.5824,
+    "relevance": 0.2239,
+    "confidence": 1.4562000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Instruction_en_procédure_pénale_française"
+     ]
+    ]
+   },
+   {
+    "t": "Commission d'indemnisation des victimes d'infractions",
+    "importance": 3.3542399999999994,
+    "relevance": 0.20964,
+    "confidence": 1.645,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Commission_d'indemnisation_des_victimes_d'infractions"
+     ]
+    ]
+   },
+   {
+    "t": "Commissariat de police",
+    "importance": 3.229056,
+    "relevance": 0.089696,
+    "confidence": 0.7102,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Commissariat_de_police"
+     ]
+    ]
+   },
+   {
+    "t": "Plainte avec constitution de partie civile en France",
+    "importance": 3.09216,
+    "relevance": 0.19326,
+    "confidence": 2.7738,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Plainte_avec_constitution_de_partie_civile_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Enquête de police",
+    "importance": 3.04768,
+    "relevance": 0.19048,
+    "confidence": 0.7879999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Enquête_de_police"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal de police (France)",
+    "importance": 2.8425599999999993,
+    "relevance": 0.17765999999999998,
+    "confidence": 2.1178,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal_de_police_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Escroquerie",
+    "importance": 2.7744,
+    "relevance": 0.1734,
+    "confidence": 2.6561999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Escroquerie"
+     ]
+    ]
+   },
+   {
+    "t": "Juge d'instruction en France",
+    "importance": 2.4435200000000004,
+    "relevance": 0.15272000000000002,
+    "confidence": 2.1356,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Juge_d'instruction_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal judiciaire (France)",
+    "importance": 2.2038400000000005,
+    "relevance": 0.13774000000000003,
+    "confidence": 1.6439999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal_judiciaire_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Fraude",
+    "importance": 2.0432000000000006,
+    "relevance": 0.1277,
+    "confidence": 2.1658,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fraude"
+     ]
+    ]
+   },
+   {
+    "t": "Prison",
+    "importance": 1.7632000000000003,
+    "relevance": 0.1102,
+    "confidence": 0.4768,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Prison"
+     ]
+    ]
+   },
+   {
+    "t": "Coups et blessures",
+    "importance": 1.70016,
+    "relevance": 0.10626,
+    "confidence": 0.6306,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Coups_et_blessures"
+     ]
+    ]
+   },
+   {
+    "t": "Procès",
+    "importance": 1.5776,
+    "relevance": 0.0986,
+    "confidence": 1.4364000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Procès"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal correctionnel",
+    "importance": 1.36096,
+    "relevance": 0.08506,
+    "confidence": 1.1103999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://en.wikipedia.org/wiki/Tribunal_correctionnel"
+     ]
+    ]
+   },
+   {
+    "t": "Amende en droit pénal français",
+    "importance": 1.1523199999999998,
+    "relevance": 0.07202,
+    "confidence": 0.4901999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Amende_en_droit_pénal_français"
+     ]
+    ]
+   },
+   {
+    "t": "Cour d'assises (France)",
+    "importance": 1.136,
+    "relevance": 0.071,
+    "confidence": 2.7494,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cour_d'assises_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Personne morale en droit français",
+    "importance": 1.0614399999999997,
+    "relevance": 0.06634,
+    "confidence": 0.6606,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Personne_morale_en_droit_français"
+     ]
+    ]
+   },
+   {
+    "t": "Carte de paiement",
+    "importance": 1.0544,
+    "relevance": 0.0659,
+    "confidence": 0.8901999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Carte_de_paiement"
+     ]
+    ]
+   },
+   {
+    "t": "Courrier",
+    "importance": 0.8799680000000001,
+    "relevance": 0.054998000000000005,
+    "confidence": 0.596,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Courrier"
+     ]
+    ]
+   },
+   {
+    "t": "Terrorisme",
+    "importance": 0.712032,
+    "relevance": 0.044502,
+    "confidence": 2.7256,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Terrorisme"
+     ]
+    ]
+   },
+   {
+    "t": "Abus verbal",
+    "importance": 0.6551999999999999,
+    "relevance": 0.1638,
+    "confidence": 0.41859999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Abus_verbal"
+     ]
+    ]
+   },
+   {
+    "t": "Infraction en droit pénal français",
+    "importance": 0.6195999999999999,
+    "relevance": 0.15489999999999998,
+    "confidence": 0.2974,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Infraction_en_droit_pénal_français"
+     ]
+    ]
+   },
+   {
+    "t": "Cabinet Coubris & Associés",
+    "importance": 0.5686400000000001,
+    "relevance": 0.14216,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Crime en France",
+    "importance": 0.5657600000000002,
+    "relevance": 0.14144,
+    "confidence": 0.27480000000000004,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Crime_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Sanction pénale en France",
+    "importance": 0.55216,
+    "relevance": 0.13804,
+    "confidence": 0.9982,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Sanction_pénale_en_France"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "plainte\nporter plainte\nagression\ndépôt de plainte\nviolences sexuelles\ndéposer plainte\nvictime de violences",
+  "desc_title": "plainte\ndépôt de plainte\nagression\nagression physique\nporter plainte\ninfraction\ncommissariat\ngendarmerie\nune plainte\ncommissariat de police\ndéposer une plainte\nviolences sexuelles",
+  "h1": "plainte\nporter plainte\ndépôt de plainte\nagression\ndéposer plainte\nvictime de violences\nviolences sexuelles",
+  "h2": "plainte\nporter plainte\nune plainte\nagression\npeut-on porter plainte\ncomment porter plainte\ndépôt de plainte\ndéposer plainte\npénal\nplainte en ligne\npeut porter plainte\nplainte contre\nservices en ligne\nporter plainte contre\nles violences physiques\ndélais pour porter plainte\npeut déposer plainte\ndécouvrez les étapes",
+  "content_basic": "plainte\nporter plainte\ndépôt de plainte\ninfraction\ndéposer plainte\nprocureur de la république\ncommissariat\npénal\ngendarmerie\nauteur des faits\nune plainte\nune infraction\nagression\npartie civile\nplainte auprès\ncertificats médicaux\ncommissariat de police\ndéposer une plainte\naide aux victimes\npoursuite\nbrigade de gendarmerie\nun commissariat\nconstituer partie civile\npeut porter plainte\nune enquête\ninstruction\nles contraventions\nles délits\ncontre x\nplainte contre\nplainte avec constitution de partie\nles crimes\nprescription\npolice ou de gendarmerie\nsans suite\nconstitution de partie civile\njuridiction de jugement\ninformation judiciaire\nune brigade de gendarmerie\narrêts de travail\nsignalement\ntribunal de police\ntransmise au procureur\ndéposée contre",
+  "content_basic_w_ranges": "plainte: 8-23x\nporter plainte: 1-6x\ndépôt de plainte: 1-3x\ninfraction: 4-12x\ndéposer plainte: 1-4x\nprocureur de la république: 3-7x\ncommissariat: 1-5x\npénal: 2-7x\ngendarmerie: 3-6x\nauteur des faits: 1-2x\nune plainte: 1-4x\nune infraction: 1-3x\nagression: 1-7x\npartie civile: 1-3x\nplainte auprès: 1-2x\ncertificats médicaux: 1-2x\ncommissariat de police: 1-2x\ndéposer une plainte: 1x\naide aux victimes: 1-3x\npoursuite: 1-3x\nbrigade de gendarmerie: 1-2x\nun commissariat: 1-2x\nconstituer partie civile: 1-2x\npeut porter plainte: 1x\nune enquête: 1-2x\ninstruction: 1-2x\nles contraventions: 1x\nles délits: 1x\ncontre x: 1x\nplainte contre: 1x\nplainte avec constitution de partie: 1x\nles crimes: 1x\nprescription: 1-2x\npolice ou de gendarmerie: 1x\nsans suite: 1x\nconstitution de partie civile: 1x\njuridiction de jugement: 1x\ninformation judiciaire: 1x\nune brigade de gendarmerie: 1x\narrêts de travail: 1x\nsignalement: 1x\ntribunal de police: 1x\ntransmise au procureur: 1x\ndéposée contre: 1x",
+  "content_extended": "plainte en ligne\ndélai de prescription\nvictime de violences\nviolences sexuelles\nsi vous êtes victime\nagression physique\nservices de police\nplainte est transmise au procureur\nservices en ligne\nplainte doit être\ndont vous avez été victime\npeut-on porter plainte\ncontre une personne\nsi la victime\nvictime d’une agression\npeut porter plainte auprès d’un\nporter plainte auprès d’un commissariat\nvictime d’une agression physique\ncommissariat de police ou d’une\nvictime d’une\nvictime d’une infraction\nassociation d’aide aux victimes\ncommission d’indemnisation des victimes d’infractions\nauprès d’un commissariat de police\npolice ou d’une brigade\nn’est pas obligatoire\ntribunal judiciaire du lieu\nles infractions\nporter plainte contre\nles violences physiques\ncomment porter plainte\nans pour les délits\ndépôt de plainte est recevable\nréparation du préjudice\nfaits de violences\ncopie de votre plainte\ndevant le juge\ndélais pour porter plainte\nfonds de garantie des victimes\nplainte est recevable si\ndéposer plainte contre\npeut déposer plainte\npersonne majeure\npersonne morale\nles services de police\nsi l'auteur des faits\nselon la gravité\ncette agression\ncontre l'auteur des faits\ntant que victime\ncontre x si\navis à victime\nles faits dont\ndécouvrez les étapes\nlong de la procédure",
+  "content_extended_w_ranges": "plainte en ligne: 1-2x\ndélai de prescription: 1-2x\nvictime de violences: 1x\nviolences sexuelles: 1-2x\nsi vous êtes victime: 1-2x\nagression physique: 1x\nservices de police: 1-2x\nplainte est transmise au procureur: 1x\nservices en ligne: 1x\nplainte doit être: 1x\ndont vous avez été victime: 1x\npeut-on porter plainte: 1x\ncontre une personne: 1x\nsi la victime: 1x\nvictime d’une agression: 1x\npeut porter plainte auprès d’un: 1x\nporter plainte auprès d’un commissariat: 1x\nvictime d’une agression physique: 1x\ncommissariat de police ou d’une: 1x\nvictime d’une: 1x\nvictime d’une infraction: 1x\nassociation d’aide aux victimes: 1x\ncommission d’indemnisation des victimes d’infractions: 1x\nauprès d’un commissariat de police: 1x\npolice ou d’une brigade: 1x\nn’est pas obligatoire: 1x\ntribunal judiciaire du lieu: 1x\nles infractions: 1x\nporter plainte contre: 1x\nles violences physiques: 1x\ncomment porter plainte: 1x\nans pour les délits: 1x\ndépôt de plainte est recevable: 1x\nréparation du préjudice: 1x\nfaits de violences: 1x\ncopie de votre plainte: 1x\ndevant le juge: 1x\ndélais pour porter plainte: 1x\nfonds de garantie des victimes: 1x\nplainte est recevable si: 1x\ndéposer plainte contre: 1x\npeut déposer plainte: 1x\npersonne majeure: 1x\npersonne morale: 1x\nles services de police: 1x\nsi l'auteur des faits: 1x\nselon la gravité: 1x\ncette agression: 1x\ncontre l'auteur des faits: 1x\ntant que victime: 1x\ncontre x si: 1x\navis à victime: 1x\nles faits dont: 1x\ndécouvrez les étapes: 1x\nlong de la procédure: 1x",
+  "entities": "Plainte\nDépôt de plainte\nInfraction\nPolice (institution)\nProcureur de la République (France)\nProcureur\nTribunal\nGendarmerie nationale (France)\nVictime\nPrescription (droit)\nCrime\nJustice\nAvocat (métier)\nContravention en droit pénal français\nSévice physique\nPolice nationale (France)\nDélit pénal en France\nPartie civile en France\nPlainte en droit pénal français\nJuge\nAgression\nDroit pénal\nFonds de garantie des victimes des actes de terrorisme et d'autres infractions\nInstruction en procédure pénale française\nCommission d'indemnisation des victimes d'infractions\nCommissariat de police\nPlainte avec constitution de partie civile en France\nEnquête de police\nTribunal de police (France)\nEscroquerie\nJuge d'instruction en France\nTribunal judiciaire (France)\nFraude\nPrison\nCoups et blessures\nProcès\nTribunal correctionnel\nAmende en droit pénal français\nCour d'assises (France)\nPersonne morale en droit français\nCarte de paiement\nCourrier\nTerrorisme\nAbus verbal\nInfraction en droit pénal français\nCabinet Coubris & Associés\nCrime en France\nSanction pénale en France"
+ },
+ "status": "ready",
+ "keyword": "porter plainte agression",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "98ced53942517697",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 89.7,
+   "navigational": 24.1,
+   "transactional": 13.8
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "guide": 55.2,
+   "other": 6.9,
+   "landing-page": 13.8,
+   "social-media": 13.8,
+   "video": 13.8,
+   "news": 3.4,
+   "case-study": 3.4,
+   "blog-post": 3.4,
+   "tool": 6.9
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/98ced53942517697",
+ "share_url": "https://app.neuronwriter.com/analysis/share/98ced53942517697/bacf8cb2f8451bb5426b463f8113aa134fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/98ced53942517697/a9a80a4ab1bbb90c6fb7ce4acc3100374fa16"
+}

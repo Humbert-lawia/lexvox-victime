@@ -1,0 +1,2894 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Montant indemnisation coup et blessure ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   },
+   {
+    "q": "Quelle est l'indemnisation possible suite à une agression physique ?"
+   },
+   {
+    "q": "Quelle est la compensation possible pour une blessure ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quel est le montant de l'indemnisation pour des coups et blessures ou une agression physique ?": {
+    "importance": 10
+   },
+   "Quels sont les différents types de préjudices indemnisables suite à des coups et blessures ?": {
+    "importance": 9
+   },
+   "Comment obtenir une indemnisation suite à une agression physique ou des coups et blessures ?": {
+    "importance": 9
+   },
+   "Quelles sont les premières démarches à effectuer après avoir subi des coups et blessures ou une agression ?": {
+    "importance": 8
+   },
+   "Qui peut indemniser une victime de coups et blessures ou d'agression physique ?": {
+    "importance": 8
+   },
+   "Peut-on être indemnisé si l'agresseur n'est pas identifié ou est insolvable ?": {
+    "importance": 7
+   },
+   "Quel est le rôle de l'avocat dans la procédure d'indemnisation pour coups et blessures ?": {
+    "importance": 7
+   },
+   "Comment sont évalués les préjudices pour calculer l'indemnisation ?": {
+    "importance": 6
+   },
+   "Quels sont les délais pour demander une indemnisation après des coups et blessures ?": {
+    "importance": 6
+   },
+   "Qu'est-ce que la CIVI et comment peut-elle intervenir pour l'indemnisation ?": {
+    "importance": 6
+   }
+  },
+  "content_questions": [
+   {
+    "q": "A quelle indemnisation puis-je prétendre ?"
+   },
+   {
+    "q": "Agression physique : comment être indemnisé ?"
+   },
+   {
+    "q": "CIVI ou SARVI : quelle procédure choisir après une agression grave ?"
+   },
+   {
+    "q": "Choisir la bonne voie d’indemnisation : tribunal ou CIVI ?"
+   },
+   {
+    "q": "Combien de temps dure la procédure CIVI pour une agression grave ?"
+   },
+   {
+    "q": "Combien de temps faut-il pour être indemnisé après une agression ?"
+   },
+   {
+    "q": "Comment contester une offre d’indemnisation ?"
+   },
+   {
+    "q": "Comment est déterminé le barème d’indemnisation pour les victimes d’agression ?"
+   },
+   {
+    "q": "Comment obtenir des dommages et intérêts en cas de coup et blessures ?"
+   },
+   {
+    "q": "Comment obtenir réparation du préjudice ?"
+   },
+   {
+    "q": "Comment pouvons-nous gérer les frais médicaux et obtenir une indemnisation ?"
+   },
+   {
+    "q": "Comment saisir la CIVI ?"
+   },
+   {
+    "q": "Comment se faire indemniser suite à une agression ?"
+   },
+   {
+    "q": "Comment sont évalués les différents types de préjudices suite à une agression ?"
+   },
+   {
+    "q": "Comment traite-t-on les préjudices scolaires et professionnels ?"
+   },
+   {
+    "q": "Comment un avocat peut-il intervenir en cas de coups et blessures pour réclamer des dommages et intérêts ?"
+   },
+   {
+    "q": "Comment être indemnisé de mes préjudices corporels et financiers ?"
+   },
+   {
+    "q": "Comment être indemnisé d’une agression physique ?"
+   },
+   {
+    "q": "Coups et blessures : qu’est-ce que c’est ?"
+   },
+   {
+    "q": "Dans ce cas, y a-t-il préjudice moral ?"
+   },
+   {
+    "q": "Dans quels cas est-il recommandé de faire appel à un avocat spécialisé ?"
+   },
+   {
+    "q": "Dommages et intérêts pour agression : quels montants ?"
+   },
+   {
+    "q": "Dommages et intérêts pour agression physique : quelle est la procédure à suivre ?"
+   },
+   {
+    "q": "En cas de coups et blessures volontaires, comment être indemnisé des conséquences ?"
+   },
+   {
+    "q": "En cas de séquelles permanentes, comment le barème d’indemnisation est-il ajusté ?"
+   },
+   {
+    "q": "Est ce que les démarches de la civi peut m’aider dans cette affaire ?"
+   },
+   {
+    "q": "Est ce que mon indemnisation de dommages et intérêts sera exactement la meme ou pas ?"
+   },
+   {
+    "q": "Et pour les dossiers ONIAM/CRCI, CIVI, GAV ?"
+   },
+   {
+    "q": "Faut-il obligatoirement un avocat pour saisir la CIVI ?"
+   },
+   {
+    "q": "Idem en ce concerne les délais d’indemnisation , sont ils les même pour les assises et le correctionnel?"
+   },
+   {
+    "q": "Indemnisation de victime d'agression physique : coups et blessures, violences, viol, vous voulez savoir quels seront vos dommages et intérêts pour agression ?"
+   },
+   {
+    "q": "Indemnisation via le tribunal : dans quels cas ?"
+   },
+   {
+    "q": "Indemnisation, coups et blessures volontaires : comment procéder ?"
+   },
+   {
+    "q": "Je n’est pas déposé plainte c’est récent de 24h, que me conseillez vous de faire ?"
+   },
+   {
+    "q": "J’ai porté plainte pour agression physique en réunion pour vengeance sur quelque chose que je ne sais même pas de son existence le médecin légiste ma donner 15 jours d’itt fracture d’une arc et depuis 10 mois et toujours sous traitement dépressif et dans 6 mois y a première audience pénal Dans des cas similaires vous estimez les préjudices minimum a combien ?"
+   },
+   {
+    "q": "J’ai été victime d’une agression physique, que faire ?"
+   },
+   {
+    "q": "La CIVI indemnise-t-elle le préjudice psychologique après une agression ?"
+   },
+   {
+    "q": "La CIVI indemnise-t-elle « bien » ?"
+   },
+   {
+    "q": "Le barème d’indemnisation est-il différent pour les victimes mineures ?"
+   },
+   {
+    "q": "Le fonds d’indemnisation en danger ?"
+   },
+   {
+    "q": "Les dommages et intérêts sont-ils imposables ?"
+   },
+   {
+    "q": "Nomenclature Dintilhac : à quoi sert-elle ?"
+   },
+   {
+    "q": "Peut-on obtenir des dommages et intérêts sans certificat médical ?"
+   },
+   {
+    "q": "Peut-on obtenir une avance sur indemnisation ?"
+   },
+   {
+    "q": "Peut-on saisir la CIVI si l'agresseur n'a jamais été retrouvé ?"
+   },
+   {
+    "q": "Peut-on être indemnisé si l’agresseur ne paie pas ?"
+   },
+   {
+    "q": "Peut-on être indemnisé si l’agresseur n’est pas identifié ou est insolvable ?"
+   },
+   {
+    "q": "Pourquoi se faire accompagner par un avocat spécialisé ?"
+   },
+   {
+    "q": "Pouvez-vous me guidez dans les démarches à effectuer s’il vous plaît ?"
+   },
+   {
+    "q": "Puis je être indemnisée par la CIVI quand même malgré les classements sans suite ?"
+   },
+   {
+    "q": "Puis-je contester le montant de l’indemnisation proposé si je le trouve insuffisant ?"
+   },
+   {
+    "q": "Quand saisir la CIVI ?"
+   },
+   {
+    "q": "Que faire en cas d’agression ?"
+   },
+   {
+    "q": "Que peut faire la victime d'une infraction pénale ?"
+   },
+   {
+    "q": "Que sont les coups et blessures volontaires ?"
+   },
+   {
+    "q": "Quel est le montant des dommages et intérêts pour ce que vous avez subi ?"
+   },
+   {
+    "q": "Quel est le montant maximum d'indemnisation devant la CIVI ?"
+   },
+   {
+    "q": "Quel est le rôle d’un avocat spécialisé dans une procédure d’indemnisation ?"
+   },
+   {
+    "q": "Quel montant d'indemnisation pour coups et blessures ?"
+   },
+   {
+    "q": "Quel peut être le montant de l'indemnisation de coups et blessures ?"
+   },
+   {
+    "q": "Quelle est l’échelle des montants d’indemnisation applicables après une agression ?"
+   },
+   {
+    "q": "Quelle peine pour coups et blessures volontaires ?"
+   },
+   {
+    "q": "Quelle somme demander pour une agression ?"
+   },
+   {
+    "q": "Quelles sont les démarches à suivre pour obtenir une indemnisation après un accident domestique ?"
+   },
+   {
+    "q": "Quelles sont les premières démarches à effectuer après une agression physique ?"
+   },
+   {
+    "q": "Quels montants obtiendrez-vous en dommages et intérêts pour agression grave ?"
+   },
+   {
+    "q": "Quels préjudices peuvent être indemnisés ?"
+   },
+   {
+    "q": "Quels sont les délais pour agir ?"
+   },
+   {
+    "q": "Quels sont les délais pour saisir la CIVI ?"
+   },
+   {
+    "q": "Quels sont les montants typiques d’indemnisation pour une agression physique ?"
+   },
+   {
+    "q": "Quels types de préjudices sont pris en compte dans le barème d’indemnisation ?"
+   },
+   {
+    "q": "Qu’appelle-t-on « barème d’indemnisation des victimes » ?"
+   },
+   {
+    "q": "Qu’est ce que la CIVI ?"
+   },
+   {
+    "q": "Qu’est-ce que la CIVI ?"
+   },
+   {
+    "q": "Qu’est-ce qu’une agression physique grave au sens de la CIVI ?"
+   },
+   {
+    "q": "Si l’auteur est inconnu ou insolvable, y a-t-il une solution d’indemnisation ?"
+   },
+   {
+    "q": "Victime d'une agression physique grave ?"
+   },
+   {
+    "q": "Victime d’une agression grave : à quoi avez-vous droit ?"
+   },
+   {
+    "q": "Vous allez sans doute vous demander quelle indemnisation est prévue pour une victime d’agression physique ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/aide-victime-agression/indemnisation-coups-et-blessures-volontaire",
+   "title": "Indemnisation coups et blessures volontaires - Association Victimes de France AIVF",
+   "desc": "Obtenez une indemnisation pour coups et blessures volontaires avec l'aide de l'Association Aide Victimes France. Contactez nos avocats experts.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation coups et blessures volontaires"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Indemnisation coups et blessures volontaires"
+    ],
+    [
+     "h2",
+     "Indemnisation, coups et blessures volontaires : comment procéder ?"
+    ]
+   ],
+   "content_score": 67,
+   "readability": 50,
+   "word_count": 1705,
+   "content_len": 10735
+  },
+  {
+   "rank": 2,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1422",
+   "title": "Obtenir une indemnisation en cas de préjudice causé par une autre personne | Service Public",
+   "desc": "La personne qui subit un préjudice causé par la faute, la négligence ou l'infraction commise par un tiers peut obtenir des dommages et intérêts.",
+   "headers": [
+    [
+     "h1",
+     "Obtenir une indemnisation en cas de préjudice causé par une autre personne"
+    ],
+    [
+     "h2",
+     "Affaire civile"
+    ],
+    [
+     "h2",
+     "Affaire pénale"
+    ],
+    [
+     "h2",
+     "Où s’adresser ?"
+    ],
+    [
+     "h2",
+     "Où s’adresser ?"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Services en ligne et formulaires"
+    ],
+    [
+     "h2",
+     "Questions ? Réponses !"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 31,
+   "readability": 34,
+   "word_count": 6703,
+   "content_len": 41170
+  },
+  {
+   "rank": 3,
+   "url": "https://www.justifit.fr/b/guides/droit-penal/coups-et-blessures-dommages-interets/",
+   "title": "Coups et blessures : dommages et intérêt",
+   "desc": "En cas de coups et blessures, la victime peut obtenir des dommages et intérêts si elle parvient à prouver les faits et l’ampleur de son préjudice. Cela suppose…",
+   "headers": [
+    [
+     "h1",
+     "Coups et blessures : dommages et intérêts"
+    ],
+    [
+     "h2",
+     "Coups et blessures : qu’est-ce que c’est ?"
+    ],
+    [
+     "h2",
+     "Comment obtenir des dommages et intérêts en cas de coup et blessures ?"
+    ],
+    [
+     "h2",
+     "Quelle peine pour coups et blessures volontaires ?"
+    ],
+    [
+     "h2",
+     "Comment un avocat peut-il intervenir en cas de coups et blessures pour réclamer des dommages et intérêts ?"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 31,
+   "word_count": 1532,
+   "content_len": 9872
+  },
+  {
+   "rank": 4,
+   "url": "https://www.legajuris-avocats.fr/blog/indemnisation-coup-et-blessure-reunion",
+   "title": "Quel montant d'indemnisation pour coups et blessures ?",
+   "desc": "Quel peut être le montant de l'indemnisation de coups et blessures ? Découvrez des explications et des exemples réels chiffrés.",
+   "headers": [
+    [
+     "h1",
+     "Quel montant d'indemnisation pour coups et blessures ?"
+    ],
+    [
+     "h2",
+     "Les premiers reflexes après une agression"
+    ],
+    [
+     "h2",
+     "Les différentes voies d'indemnisation"
+    ],
+    [
+     "h2",
+     "Les postes de préjudice indemnisables"
+    ],
+    [
+     "h2",
+     "L'expertise judiciaire : une étape déterminante"
+    ],
+    [
+     "h2",
+     "Exemples d’indemnisations par la CIVI"
+    ],
+    [
+     "h2",
+     "Laisser un commentaire"
+    ],
+    [
+     "h2",
+     "Nos derniers articles"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 37,
+   "word_count": 1500,
+   "content_len": 9959
+  },
+  {
+   "rank": 5,
+   "url": "https://www.dva-experts.com/indemnisation-des-victimes-agression/",
+   "title": "Indemnisation des victimes d'agression physique | DVA Experts",
+   "desc": "Vous avez été victime d'une agression et vous avez déposez plainte ✅ Vous pouvez obtenir l'indemnisation victime d'agression physique",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation des victimes d’agression physique"
+    ],
+    [
+     "h2",
+     "Comment être indemnisé d’une agression physique ?"
+    ],
+    [
+     "h2",
+     "Nous contacter"
+    ],
+    [
+     "h2",
+     "L'actu Agression physique"
+    ]
+   ],
+   "content_score": 42,
+   "readability": 23,
+   "word_count": 1247,
+   "content_len": 7941
+  },
+  {
+   "rank": 6,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/calcul-prejudice-corporel-indemnisation/bareme-indemnisation",
+   "title": "Barème Indemnisation Victimes - Association Victimes de France AIVF",
+   "desc": "Découvrez le barème d'indemnisation des victimes avec l'Association Aide Victimes France, votre allié en justice.",
+   "headers": [
+    [
+     "h1",
+     "Barème Indemnisation Victimes"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Barème d’indemnisation des victimes"
+    ],
+    [
+     "h2",
+     "Barème d’Indemnisation"
+    ]
+   ],
+   "content_score": 31,
+   "readability": 29,
+   "word_count": 1743,
+   "content_len": 11282
+  },
+  {
+   "rank": 7,
+   "url": "https://hadrienmuller-avocat.com/quels-montants-en-dommages-et-interets-pour-agression/",
+   "title": "Dommages et intérêts pour agression : quels montants ? - H Muller",
+   "desc": "Indemnisation de victime d'agression physique : coups et blessures, violences, viol, vous voulez savoir quels seront vos dommages et intérêts pour agression ?",
+   "headers": [
+    [
+     "h2",
+     "Avocat spécialisé en préjudice corporel"
+    ],
+    [
+     "h2",
+     "Diplômé en évaluation des traumatismes crâniens"
+    ],
+    [
+     "h1",
+     "Quels montants obtiendrez-vous en dommages et intérêts pour agression grave ?"
+    ],
+    [
+     "h2",
+     "Table des matières"
+    ],
+    [
+     "h2",
+     "Victime d’une agression grave : à quoi avez-vous droit ?"
+    ],
+    [
+     "h2",
+     "Dommages et intérêts pour agression physique : quelle est la procédure à suivre ?"
+    ],
+    [
+     "h2",
+     "Quelle somme demander pour une agression ?"
+    ],
+    [
+     "h2",
+     "Comment se faire indemniser suite à une agression ?"
+    ],
+    [
+     "h2",
+     "Quelle est l’échelle des montants d’indemnisation applicables après une agression ?"
+    ],
+    [
+     "h2",
+     "Un avocat, ses honoraires, ça coûte cher ?"
+    ],
+    [
+     "h2",
+     "Maître Hadrien MULLER"
+    ],
+    [
+     "h2",
+     "48 réponses"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 25,
+   "word_count": 5249,
+   "content_len": 31446
+  },
+  {
+   "rank": 8,
+   "url": "https://cherrier-bodineau.fr/indemnisation-victime-agression/",
+   "title": "Indemnisation d’une agression physique : ce qu’il faut savoir",
+   "desc": "Agression physique : comment être indemnisé ? Nos conseils pour défendre vos droits et obtenir la réparation de votre préjudice.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation après une agression physique : Guide pratique par un avocat expert"
+    ],
+    [
+     "h2",
+     "Comprendre vos droits après une agression physique"
+    ],
+    [
+     "h2",
+     "Premières démarches à effectuer après l’agression"
+    ],
+    [
+     "h2",
+     "Choisir la bonne voie d’indemnisation : tribunal ou CIVI ?"
+    ],
+    [
+     "h2",
+     "Évaluer les préjudices et calculer l’indemnisation"
+    ],
+    [
+     "h2",
+     "Pourquoi se faire accompagner par un avocat spécialisé ?"
+    ],
+    [
+     "h2",
+     "Vous accompagner sur le chemin de la réparation"
+    ],
+    [
+     "h2",
+     "FAQ sur l’indemnisation des victimes d’agression"
+    ],
+    [
+     "h2",
+     "Démarches à suivre pour obtenir une indemnisation"
+    ],
+    [
+     "h2",
+     "Quand et pourquoi faire appel à un avocat ?"
+    ],
+    [
+     "h2",
+     "Quels recours en cas de litige avec l’assurance ?"
+    ],
+    [
+     "h2",
+     "Votre accompagnement face à l’accident domestique"
+    ],
+    [
+     "h2",
+     "FAQ sur l’indemnisation des accidents domestiques"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 24,
+   "word_count": 5006,
+   "content_len": 34849
+  },
+  {
+   "rank": 10,
+   "url": "https://avf.fr/civi-indemnisation-victimes-infractions-penales/civi-agression-physique-grave",
+   "title": "CIVI et agression physique grave : indemnisation des victimes",
+   "desc": "Victime d'une agression physique grave ? Découvrez comment saisir la CIVI pour obtenir une indemnisation intégrale de tous les préjudices subis.",
+   "headers": [
+    [
+     "h1",
+     "CIVI et agression physique grave : obtenir une indemnisation complète"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’une agression physique grave au sens de la CIVI ?"
+    ],
+    [
+     "h2",
+     "Conditions pour saisir la CIVI après une agression grave"
+    ],
+    [
+     "h2",
+     "Postes de préjudice indemnisés après une agression physique grave"
+    ],
+    [
+     "h2",
+     "Déroulement de la procédure CIVI pour agression grave"
+    ],
+    [
+     "h2",
+     "L’importance de l’expertise médicale dans une agression grave"
+    ],
+    [
+     "h2",
+     "CIVI ou SARVI : quelle procédure choisir après une agression grave ?"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur la CIVI et l’agression physique grave"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 37,
+   "word_count": 2098,
+   "content_len": 13593
+  },
+  {
+   "rank": 10,
+   "url": "https://avf.fr/civi-indemnisation-victimes-infractions-penales/civi-agression-physique-grave",
+   "title": "CIVI et agression physique grave : indemnisation des victimes",
+   "desc": "Victime d'une agression physique grave ? Découvrez comment saisir la CIVI pour obtenir une indemnisation intégrale de tous les préjudices subis.",
+   "headers": [
+    [
+     "h1",
+     "CIVI et agression physique grave : obtenir une indemnisation complète"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’une agression physique grave au sens de la CIVI ?"
+    ],
+    [
+     "h2",
+     "Conditions pour saisir la CIVI après une agression grave"
+    ],
+    [
+     "h2",
+     "Postes de préjudice indemnisés après une agression physique grave"
+    ],
+    [
+     "h2",
+     "Déroulement de la procédure CIVI pour agression grave"
+    ],
+    [
+     "h2",
+     "L’importance de l’expertise médicale dans une agression grave"
+    ],
+    [
+     "h2",
+     "CIVI ou SARVI : quelle procédure choisir après une agression grave ?"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur la CIVI et l’agression physique grave"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 37,
+   "word_count": 2098,
+   "content_len": 13593
+  },
+  {
+   "rank": 11,
+   "url": "https://association-aivf-faq.fr/accident-de-la-vie-faq/indemnisation-suite-a-une-agression/indemnisation-coups-et-blessures-volontaires",
+   "title": "Indemnisation coups et blessures volontaires - Association Victimes de France AIVF",
+   "desc": "L'indemnisation de coups et blessures volontaires, évaluation du préjudice, dommages et intérêts, Fonds de Garantie FGTI",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation coups et blessures volontaires"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Indemnisation coups et blessures volontaires"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation de coups et blessures volontaires"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 49,
+   "word_count": 1421,
+   "content_len": 8996
+  },
+  {
+   "rank": 12,
+   "url": "https://www.hello-victimes.fr/l-aide-aux-victimes/l-indemnisation-des-agressions/",
+   "title": "CIVI : La procédure d'indemnisation des victimes d'agressions - Association d'aide aux victimes d'accident de la route. Association d''aide aux victimes d'erreur/faute médicale. Association d'aide aux victimes d'accident de la vie ou d'agression.",
+   "desc": "Comment être indemnisé après une agression ? Plusieurs procédures d'indemnisation existent pour les victimes d'agression. La procédure judiciaire ou la procédure devant le CIVI. L'association d'aide aux victimes vous assiste dans vos démarches.",
+   "headers": [
+    [
+     "h1",
+     "La CIVI : Procédure d'indemnisation des victimes d'agression"
+    ]
+   ],
+   "content_score": 39,
+   "readability": 22,
+   "word_count": 2044,
+   "content_len": 13514
+  },
+  {
+   "rank": 13,
+   "url": "https://penal.avocatia.com/details-procedure+juridique+pour+l+indemnisation+de+victimes+de+dommages+corporels+suite+a+une+agression+violente+a+marseille-1087",
+   "title": "Procédure juridique pour l’indemnisation de victimes de dommages corporels suite à une agression violente à Marseille - AVOCATIA - AVOCATIA",
+   "desc": "La violence dans notre société devient de plus en plus fréquente. S’il faut prier pour ne pas être victime, il est encore mieux de savoir quoi faire pour bénéficier d’une indemnisation du préjudice en cas d’agression. Avez-vous déjà subi un dommage corporel suite à une agression à Marseille ? Notre cabinet d’avocats Avocatia vous accompagne tout au long de la procédure pour obtenir une indemnisation du préjudice.    ",
+   "headers": [
+    [
+     "h1",
+     "Procédure juridique pour l’indemnisation de victimes de dommages corporels suite à une agression violente à Marseille"
+    ]
+   ],
+   "content_score": 28,
+   "readability": 49,
+   "word_count": 1017,
+   "content_len": 6540
+  },
+  {
+   "rank": 14,
+   "url": "https://marineboulanger-avocat.fr/victime-agression-droits-indemnisation-avocat-dommage-corporel-lille/",
+   "title": "Victime d'agression : vos droits à indemnisation",
+   "desc": "Victime d'agression ? Bénéficiez de l'accompagnement de Maître Marine Boulanger, Avocat à Lille, pour une indemnisation juste et entière.",
+   "headers": [
+    [
+     "h1",
+     "Victime d’agression : vos droits à indemnisation"
+    ],
+    [
+     "h2",
+     "1. Quels types d’agression ouvrent droit à indemnisation ?"
+    ],
+    [
+     "h2",
+     "2. Les premières démarches à effectuer"
+    ],
+    [
+     "h2",
+     "3. L’indemnisation par le Fonds de Garantie des Victimes (FGTI)"
+    ],
+    [
+     "h2",
+     "4. Le rôle de l’avocat dans la procédure"
+    ],
+    [
+     "h2",
+     "En résumé"
+    ],
+    [
+     "h2",
+     "A propos"
+    ]
+   ],
+   "content_score": 30,
+   "readability": 39,
+   "word_count": 555,
+   "content_len": 3606
+  },
+  {
+   "rank": 15,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/aide-victime-agression/dommage-et-interet-pour-agression",
+   "title": "Dommages et intérêts pour agression - Association Victimes de France AIVF",
+   "desc": "Obtenez des conseils juridiques sur les dommages et intérêts pour agression avec l'Association Aide Victimes France. Soutien et expertise.",
+   "headers": [
+    [
+     "h1",
+     "Dommages et intérêts pour agression"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Définition des dommages et intérêts suite à une agression"
+    ],
+    [
+     "h2",
+     "Définition dommages intérêts suite à une agression"
+    ]
+   ],
+   "content_score": 37,
+   "readability": 37,
+   "word_count": 3381,
+   "content_len": 20381
+  },
+  {
+   "rank": 16,
+   "url": "https://www.arcadioavocats.fr/actualites/comment-obtenir-des-indemnites-en-cas-dagression-physique,345",
+   "title": "Indemnisation agression physique",
+   "desc": "Victime d’agression physique ? Apprenez comment porter plainte, constituer un dossier solide et faire valoir vos droits pour obtenir une indemnisation juste. |",
+   "headers": [
+    [
+     "h1",
+     "Comment obtenir des indemnités en cas d'agression physique ?"
+    ],
+    [
+     "h2",
+     "Etape 1 pour avoir des indemnités en cas d'agression physique : déposer plainte"
+    ],
+    [
+     "h2",
+     "Étape 2 : réaliser une expertise médicale"
+    ],
+    [
+     "h2",
+     "Étape 3 : identifier les voies d'indemnisation existantes pour une victime d'agression physique"
+    ],
+    [
+     "h2",
+     "Étape 4 : préparer un dossier complet pour obtenir des indemnités en cas d'agression physique"
+    ],
+    [
+     "h2",
+     "Étape 5 : faire appel à un avocat"
+    ]
+   ],
+   "content_score": 34,
+   "readability": 65,
+   "word_count": 749,
+   "content_len": 4919
+  },
+  {
+   "rank": 17,
+   "url": "https://victime-info.fr/indemnisation",
+   "title": "Indemnisation des victimes : guide complet pour comprendre ses droits | victime-info.fr",
+   "desc": "Comment obtenir une indemnisation après un accident ou une agression ? Guide complet : définition, conditions, réparation intégrale et démarches.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation des victimes : le guide complet pour comprendre ses droits"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’une indemnisation ? Définition et principes de base"
+    ],
+    [
+     "h2",
+     "Le fondement juridique de l’indemnisation : l’article 1240 du Code civil"
+    ],
+    [
+     "h2",
+     "Les trois conditions indispensables pour obtenir une indemnisation"
+    ],
+    [
+     "h2",
+     "Le principe de la réparation intégrale du préjudice"
+    ],
+    [
+     "h2",
+     "Les différentes procédures d’indemnisation"
+    ],
+    [
+     "h2",
+     "L’expertise médicale : une étape clé de l’indemnisation"
+    ],
+    [
+     "h2",
+     "Combien peut-on obtenir ? Ordre de grandeur des indemnisations"
+    ],
+    [
+     "h2",
+     "Pages thématiques sur l’indemnisation"
+    ],
+    [
+     "h2",
+     "Les outils et ressources à disposition des victimes"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 32,
+   "word_count": 3585,
+   "content_len": 23254
+  },
+  {
+   "rank": 18,
+   "url": "https://www.youtube.com/watch?v=Js6ytUlsQ84",
+   "title": "Porter plainte pour coups et blessures (violences volontaires) : guide victime complet - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Porter plainte pour coups et blessures (violences volontaires) : guide victime complet"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h1",
+     "Porter plainte pour coups et blessures (violences volontaires) : guide victime complet"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      6"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Chapitres"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 23,
+   "readability": 24,
+   "word_count": 505,
+   "content_len": 3332
+  },
+  {
+   "rank": 19,
+   "url": "https://maitre-morin-avocat.fr/accueil/indemnisation-accident-de-la-vie/indemnisation-suite-a-une-agression/indemnisation-victime-agression-physique",
+   "title": "Indemnisation victime agression physique",
+   "desc": "Obtenez justice avec Maître Oscar Morin. Spécialiste en indemnisation des victimes d'agression physique. Contactez-nous dès aujourd'hui.",
+   "headers": [
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "❓ Victime d’une agression physique — qui indemnise, quelles démarches, quelles preuves ?"
+    ],
+    [
+     "h1",
+     "Indemnisation d’une victime d’agression physique : démarches, preuves et organismes payeurs"
+    ],
+    [
+     "h2",
+     "1) Qui peut vous indemniser ?"
+    ],
+    [
+     "h2",
+     "2) Réflexes immédiats (J0–J2)"
+    ],
+    [
+     "h2",
+     "3) CIVI ou SARVI ? (choisir le bon guichet)"
+    ],
+    [
+     "h2",
+     "4) Délais utiles (repères)"
+    ],
+    [
+     "h2",
+     "5) Dossier à constituer (check-list)"
+    ],
+    [
+     "h2",
+     "6) Indemnisation « poste par poste » (méthode)"
+    ],
+    [
+     "h2",
+     "7) Questions clés d’expertise"
+    ],
+    [
+     "h2",
+     "8) Parcours type de demande"
+    ],
+    [
+     "h2",
+     "9) Modèles brefs (à adapter)"
+    ],
+    [
+     "h2",
+     "10) Cas pratique"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "J'ai été victime d'une agression physique. Comment va se passer l'indemnisation ? Philippe M"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 41,
+   "word_count": 2553,
+   "content_len": 16450
+  },
+  {
+   "rank": 20,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19679",
+   "title": "Indemnisation du préjudice | Service Public",
+   "desc": "Lorsque vous subissez un préjudice (vol, blessures...), vous pouvez faire une demande de dommages-intérêts en justice et être indemnisé par le responsable du fait à l'origine du préjudice. En cas d'absence de responsable, vous pouvez dans certains cas être indemnisé par un fonds de garantie spécialisé.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation du préjudice"
+    ],
+    [
+     "h2",
+     "Questions ? Réponses !"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ]
+   ],
+   "content_score": 15,
+   "readability": 40,
+   "word_count": 187,
+   "content_len": 1164
+  },
+  {
+   "rank": 21,
+   "url": "https://www.village-justice.com/articles/indemnisation-des-prejudices-victime-agression-violences,34411.html",
+   "title": "L'indemnisation des préjudices de la victime d'agression ou de violences. Par Avi Bitton, Avocat.",
+   "desc": "I. Définition de l'infraction de violences volontaires. II. L'indemnisation d'une victime de violences ou d'agressions. III. La Commission d'Indemnisation des Victimes d'Infractions (CIVI).",
+   "headers": [
+    [
+     "h1",
+     "L’indemnisation des préjudices de la victime d’agression ou de violences."
+    ],
+    [
+     "h2",
+     "Interagir avec l'auteur !"
+    ]
+   ],
+   "content_score": 36,
+   "readability": 24,
+   "word_count": 3153,
+   "content_len": 21545
+  },
+  {
+   "rank": 22,
+   "url": "https://www.oliviercohenavocat.fr/details-je+suis+victime+d+une+agression+a+quel+montant+d+indemnisation+ai-je+droit-492",
+   "title": "Je suis victime d'une agression, à quel montant d’indemnisation ai-je droit ? - Olivier Cohen Avocat",
+   "desc": "Vous êtes victime d'une agression à Marseille, Aix en Provence, Draguignan, Grasse ou Nice. Le certificat médical des urgences indique des jours ITT. Vous venez de recevoir un avis à victime et en plus des nombreuses blessures physiques causées par votre agresseur, il subsiste un fort stress post traumatique. Vous devez être indemnisé pour vous reconstruire. Me COHEN peut vous défendre et vous obtenir la meilleure indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Je suis victime d'une agression, à quel montant d’indemnisation ai-je droit ?"
+    ]
+   ],
+   "content_score": 30,
+   "readability": 34,
+   "word_count": 800,
+   "content_len": 5451
+  },
+  {
+   "rank": 23,
+   "url": "https://www.youtube.com/shorts/1UQpxaMm4ko",
+   "title": "Avant d'accéder à YouTube",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Avant d'accéder à YouTube"
+    ]
+   ],
+   "content_score": 0,
+   "readability": 3,
+   "word_count": 488,
+   "content_len": 3240
+  },
+  {
+   "rank": 24,
+   "url": "https://association-aide-victimes.com/accident-corporel/agression",
+   "title": "Agression : Comment obtenir une bonne indemnisation ?",
+   "desc": "L'association d'aide aux victimes AAV vous explique comment obtenir une bonne indemnisation de votre agression - Permanence téléphonique gratuite.",
+   "headers": [
+    [
+     "h1",
+     "Agression"
+    ],
+    [
+     "h2",
+     "Agression : Le pénal et le civil"
+    ],
+    [
+     "h2",
+     "Agression : La procédure pénale"
+    ],
+    [
+     "h2",
+     "Agression : La procédure civile"
+    ],
+    [
+     "h2",
+     "Indemnisation de l’Agression"
+    ]
+   ],
+   "content_score": 25,
+   "readability": 44,
+   "word_count": 552,
+   "content_len": 3506
+  },
+  {
+   "rank": 25,
+   "url": "https://www.indemnisationprejudice.fr/victime-dune-agression-ou-dun-attentat/exemples-indemnisations-agression/",
+   "title": "Indemnisation : Exemples d’indemnisations après une agression : cas réels et démarches - Indemnisation Préjudice Corporel",
+   "desc": "Exemples d’indemnisations après une agression : cas réels et démarches - Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés.",
+   "headers": [
+    [
+     "h1",
+     "Exemples d’indemnisations après une agression : cas réels et démarches"
+    ],
+    [
+     "h2",
+     "Pourquoi montrer des exemples d’indemnisation après une agression ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Exemples d’indemnisations obtenues après une agression"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Quels types de préjudices peuvent être indemnisés ?"
+    ],
+    [
+     "h2",
+     "Comment obtenir une indemnisation après une agression ?"
+    ],
+    [
+     "h2",
+     "Être accompagné pour maximiser son indemnisation"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 43,
+   "word_count": 1883,
+   "content_len": 12304
+  },
+  {
+   "rank": 26,
+   "url": "https://www.charentelibre.fr/societe/justice/comment-la-justice-calcule-t-elle-vraiment-l-indemnisation-des-victimes-video-28772001.php",
+   "title": "Comment la justice calcule-t-elle vraiment l’indemnisation des victimes ? (vidéo) - Charente Libre.fr",
+   "desc": "Comment la justice évalue-t-elle concrètement le préjudice d’une victime ? Entre expertise médicale, preuves matérielles et rôle décisif du juge, les réponses sont loin d’être uniformes. Dans ce",
+   "headers": [
+    [
+     "h1",
+     "Comment la justice calcule-t-elle vraiment l’indemnisation des victimes ? (vidéo)"
+    ],
+    [
+     "h2",
+     "Le principe de réparation intégrale"
+    ]
+   ],
+   "content_score": 19,
+   "readability": 44,
+   "word_count": 727,
+   "content_len": 5109
+  },
+  {
+   "rank": 27,
+   "url": "https://www.instagram.com/reel/DPtJKkXkbjB/",
+   "title": "Instagram",
+   "desc": "90 likes, 4 comments - maitre_bem le  October 12, 2025: \"⚖️ Indemnisation des victimes de préjudices corporels : que prévoit la loi ?\n\nLes victimes de préjudices corporels peuvent souvent être indemnisées bien au-delà de ce qu’elles imaginent.\n\n➡️ Deux voies existent pour fixer l’indemnité :\n\n 1️⃣ Amiable : l’assurance mandate son médecin expert.\n 2️⃣ Judiciaire : un juge désigne un médecin expert.\n\n⚠️ Problème : le médecin de l’assurance peut être en conflit d’intérêts, car la compagnie cherche rarement à indemniser totalement la victime.\n\n👉 Solution : se faire accompagner par son propre médecin expert et par un avocat.\n\n ➡️ Leurs honoraires sont pris en charge, en tout ou partie, par l’assurance.\n\nLa nomenclature Dintilhac (2005) recense 20 postes de préjudices indemnisables :\npréjudices extra-patrimoniaux (souffrances, troubles psychologiques, préjudice sexuel…),\n\npréjudices patrimoniaux (adaptation du logement, véhicule, aide humaine, perte de gains…).\n\n⏳ Prescription : 10 ans à compter de la consolidation (stabilisation des séquelles).\n\n⚠️ En pratique, une bonne défense est indispensable pour obtenir une indemnisation juste et complète de l’ensemble des préjudices subis.\n\n#PréjudicesCorporels #Indemnisation #Justice #Avocat #Accident #MaitreBem #Apprendresurtiktok #Assurance\". ",
+   "headers": [],
+   "content_score": 5,
+   "readability": 43,
+   "word_count": 259,
+   "content_len": 1744
+  },
+  {
+   "rank": 28,
+   "url": "https://www.yanous.com/pratique/droits/droits150109.html",
+   "title": "L'indemnisation d'une victime d'agression - Yanous ! Le magazine francophone du handicap",
+   "desc": "Si l'auteur d'une agression est jugé pénalement, sa victime a tout intérêt à faire indemniser ses préjudices corporels par une commission spécialisée, la CIVI. Explications.",
+   "headers": [
+    [
+     "h1",
+     "L’indemnisation d’une victime d’agression"
+    ],
+    [
+     "h2",
+     "Dans la rubrique Vos droits"
+    ],
+    [
+     "h2",
+     "Suivez Yanous !"
+    ],
+    [
+     "h2",
+     "Vous aimez nous lire ?"
+    ]
+   ],
+   "content_score": 27,
+   "readability": 22,
+   "word_count": 986,
+   "content_len": 6341
+  },
+  {
+   "rank": 29,
+   "url": "https://www.youtube.com/watch?v=wo-g31LXyzw",
+   "title": "Accident de la route : victimes, demandez une indemnisation juste ! Guide juridique complet (+PDF) - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Accident de la route : victimes, demandez une indemnisation juste ! Guide juridique complet (+PDF)"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h1",
+     "Accident de la route : victimes, demandez une indemnisation juste ! Guide juridique complet (+PDF)"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      11"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Chapitres"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 18,
+   "readability": 30,
+   "word_count": 504,
+   "content_len": 3391
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1920,
+   "target": 1920
+  },
+  "readability": {
+   "median": 32,
+   "target": 32
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 78
+   },
+   {
+    "t": "agression",
+    "usage_pc": 44
+   },
+   {
+    "t": "coups et blessures",
+    "usage_pc": 33
+   },
+   {
+    "t": "agression physique",
+    "usage_pc": 33
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 22
+   }
+  ],
+  "desc": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 67
+   },
+   {
+    "t": "agression",
+    "usage_pc": 44
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 44
+   },
+   {
+    "t": "coups et blessures",
+    "usage_pc": 44
+   },
+   {
+    "t": "agression physique",
+    "usage_pc": 44
+   },
+   {
+    "t": "dommages et intérêts",
+    "usage_pc": 33
+   },
+   {
+    "t": "une agression",
+    "usage_pc": 22
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 22
+   },
+   {
+    "t": "obtenir des dommages et intérêts",
+    "usage_pc": 22
+   },
+   {
+    "t": "victime d'une agression",
+    "usage_pc": 22
+   }
+  ],
+  "h1": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 78
+   },
+   {
+    "t": "agression",
+    "usage_pc": 44
+   },
+   {
+    "t": "coups et blessures",
+    "usage_pc": 33
+   },
+   {
+    "t": "agression physique",
+    "usage_pc": 33
+   },
+   {
+    "t": "dommages et intérêts",
+    "usage_pc": 22
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 22
+   },
+   {
+    "t": "montant",
+    "usage_pc": 22
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 11
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 11
+   },
+   {
+    "t": "une agression",
+    "usage_pc": 11
+   },
+   {
+    "t": "civi",
+    "usage_pc": 11
+   },
+   {
+    "t": "une agression physique",
+    "usage_pc": 11
+   },
+   {
+    "t": "coups et blessures volontaires",
+    "usage_pc": 11
+   },
+   {
+    "t": "après une agression",
+    "usage_pc": 11
+   },
+   {
+    "t": "dommages et intérêts pour agression",
+    "usage_pc": 11
+   },
+   {
+    "t": "physique grave",
+    "usage_pc": 11
+   },
+   {
+    "t": "après une agression physique",
+    "usage_pc": 11
+   },
+   {
+    "t": "indemnisation après une agression",
+    "usage_pc": 11
+   }
+  ],
+  "h2": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 56
+   },
+   {
+    "t": "agression",
+    "usage_pc": 56
+   },
+   {
+    "t": "une agression",
+    "usage_pc": 56
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 44
+   },
+   {
+    "t": "agression physique",
+    "usage_pc": 44
+   },
+   {
+    "t": "après une agression",
+    "usage_pc": 44
+   },
+   {
+    "t": "civi",
+    "usage_pc": 33
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 33
+   },
+   {
+    "t": "une agression physique",
+    "usage_pc": 33
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 22
+   },
+   {
+    "t": "coups et blessures",
+    "usage_pc": 22
+   },
+   {
+    "t": "dommages et intérêts",
+    "usage_pc": 22
+   },
+   {
+    "t": "coups et blessures volontaires",
+    "usage_pc": 22
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 22
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 22
+   },
+   {
+    "t": "après une agression physique",
+    "usage_pc": 22
+   },
+   {
+    "t": "une agression grave",
+    "usage_pc": 22
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 11
+   },
+   {
+    "t": "pénal",
+    "usage_pc": 11
+   },
+   {
+    "t": "montant",
+    "usage_pc": 11
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 11
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 11
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 11
+   },
+   {
+    "t": "saisir la civi",
+    "usage_pc": 11
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 11
+   },
+   {
+    "t": "obtenir des dommages et intérêts",
+    "usage_pc": 11
+   },
+   {
+    "t": "cas de coups et blessures",
+    "usage_pc": 11
+   },
+   {
+    "t": "suite à une agression",
+    "usage_pc": 11
+   },
+   {
+    "t": "dommages et intérêts pour agression",
+    "usage_pc": 11
+   },
+   {
+    "t": "physique grave",
+    "usage_pc": 11
+   },
+   {
+    "t": "après une agression grave",
+    "usage_pc": 11
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     20,
+     42
+    ]
+   },
+   {
+    "t": "agression",
+    "usage_pc": 100,
+    "sugg_usage": [
+     5,
+     37
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 100,
+    "sugg_usage": [
+     13,
+     31
+    ]
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     6
+    ]
+   },
+   {
+    "t": "coups et blessures",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "dommages et intérêts",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     6
+    ]
+   },
+   {
+    "t": "une agression",
+    "usage_pc": 89,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "agression physique",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     13
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "civi",
+    "usage_pc": 100,
+    "sugg_usage": [
+     4,
+     14
+    ]
+   },
+   {
+    "t": "pénal",
+    "usage_pc": 89,
+    "sugg_usage": [
+     8,
+     11
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     5
+    ]
+   },
+   {
+    "t": "montant",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     12
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 100,
+    "sugg_usage": [
+     5,
+     8
+    ]
+   },
+   {
+    "t": "infraction",
+    "usage_pc": 89,
+    "sugg_usage": [
+     8,
+     14
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     10
+    ]
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     8
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     4
+    ]
+   },
+   {
+    "t": "une agression physique",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "coups et blessures volontaires",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "saisir la civi",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "après une agression",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "certificat médical",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "perte de revenus",
+    "usage_pc": 89,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "fonds de garantie",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "devant le tribunal",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "dépôt de plainte",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les délais",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "fonds de garantie des victimes",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "spécialisé en dommage corporel",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déposer plainte",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "nomenclature dintilhac",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "avocat spécialisé en dommage corporel",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déficit fonctionnel permanent",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "procès pénal",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les démarches",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "gravité des blessures",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "aide au recouvrement des victimes",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "préjudice subi",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "violence physique",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à une agression",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "selon la gravité",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "devant la civi",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les préjudices subis",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tous les préjudices",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "verser des dommages et intérêts",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "physique et psychique",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "obtenir des dommages et intérêts",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les coups et blessures",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes de france",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas de coups et blessures",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dommages et intérêts pour agression",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "physique grave",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant des dommages et intérêts",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après une agression physique",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demander des dommages et intérêts",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d'une agression",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d'agression physique",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation après une agression",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "selon la gravité des blessures",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une agression grave",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "atteinte à l’intégrité physique",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "commission d’indemnisation des victimes d’infractions",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’agression physique",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’une agression",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant de l’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’une agression physique",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "porter atteinte à l’intégrité physique",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "recouvrement des victimes d’infractions",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’agression",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "influencer le montant de l’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime de coups et blessures",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à une indemnisation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "agression sexuelle",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demander une indemnisation",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "porté plainte pour agression physique",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avance sur indemnisation",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant final",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation juste",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accorder une indemnisation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "calcul des dommages et intérêts",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "juste indemnisation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à une agression physique",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après une agression grave",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant final de votre indemnisation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "civi indemnise les victimes",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "blessures constatées",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Infraction",
+    "importance": 47.78600000000001,
+    "relevance": 0.47786000000000006,
+    "confidence": 3.1358,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Infraction"
+     ]
+    ]
+   },
+   {
+    "t": "Victime",
+    "importance": 47.48032,
+    "relevance": 0.74188,
+    "confidence": 1.1552,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Victime"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 43.556000000000004,
+    "relevance": 0.43556000000000006,
+    "confidence": 4.957,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Commission d'indemnisation des victimes d'infractions",
+    "importance": 40.762879999999996,
+    "relevance": 0.6369199999999999,
+    "confidence": 3.9308,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Commission_d'indemnisation_des_victimes_d'infractions"
+     ]
+    ]
+   },
+   {
+    "t": "Agression",
+    "importance": 37.47072,
+    "relevance": 0.58548,
+    "confidence": 1.5879999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Agression"
+     ]
+    ]
+   },
+   {
+    "t": "Plainte",
+    "importance": 34.51648,
+    "relevance": 0.53932,
+    "confidence": 2.3088,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Plainte"
+     ]
+    ]
+   },
+   {
+    "t": "Coups et blessures",
+    "importance": 33.0752,
+    "relevance": 0.5168,
+    "confidence": 1.7158000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Coups_et_blessures"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal",
+    "importance": 32.751999999999995,
+    "relevance": 0.32752,
+    "confidence": 4.844799999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal"
+     ]
+    ]
+   },
+   {
+    "t": "Incapacité totale de travail",
+    "importance": 25.608960000000003,
+    "relevance": 0.40014000000000005,
+    "confidence": 3.0952,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Incapacité_totale_de_travail"
+     ]
+    ]
+   },
+   {
+    "t": "Sévice physique",
+    "importance": 19.985152,
+    "relevance": 0.312268,
+    "confidence": 1.2855999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Sévice_physique"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 19.46368,
+    "relevance": 0.30412,
+    "confidence": 1.1869999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage (droit)",
+    "importance": 19.165824,
+    "relevance": 0.299466,
+    "confidence": 0.8834,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_(droit)"
+     ]
+    ]
+   },
+   {
+    "t": "Dommages-intérêts",
+    "importance": 18.115920000000003,
+    "relevance": 0.50322,
+    "confidence": 2.4943999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommages-intérêts"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 14.90944,
+    "relevance": 0.23296,
+    "confidence": 1.214,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 8.252640000000003,
+    "relevance": 0.22924000000000003,
+    "confidence": 2.7314,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Justice",
+    "importance": 7.6753919999999995,
+    "relevance": 0.11992799999999999,
+    "confidence": 2.866,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Justice"
+     ]
+    ]
+   },
+   {
+    "t": "Partie civile en France",
+    "importance": 7.127280000000001,
+    "relevance": 0.19798000000000002,
+    "confidence": 1.8725999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Partie_civile_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Gendarmerie nationale (France)",
+    "importance": 4.86072,
+    "relevance": 0.13502,
+    "confidence": 1.3832,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Gendarmerie_nationale_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Police (institution)",
+    "importance": 4.17528,
+    "relevance": 0.11598000000000001,
+    "confidence": 4.4142,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Police_(institution)"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal correctionnel",
+    "importance": 3.654,
+    "relevance": 0.1015,
+    "confidence": 1.4440000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://en.wikipedia.org/wiki/Tribunal_correctionnel"
+     ]
+    ]
+   },
+   {
+    "t": "Procès",
+    "importance": 3.4140960000000007,
+    "relevance": 0.094836,
+    "confidence": 1.9328000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Procès"
+     ]
+    ]
+   },
+   {
+    "t": "Fonds de garantie des victimes des actes de terrorisme et d'autres infractions",
+    "importance": 3.2003199999999996,
+    "relevance": 0.20002,
+    "confidence": 1.4422000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fonds_de_garantie_des_victimes_des_actes_de_terrorisme_et_d'autres_infractions"
+     ]
+    ]
+   },
+   {
+    "t": "Animal",
+    "importance": 3.0502399999999996,
+    "relevance": 0.19063999999999998,
+    "confidence": 0.6716,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Animal"
+     ]
+    ]
+   },
+   {
+    "t": "Dépôt de plainte",
+    "importance": 2.51712,
+    "relevance": 0.15732,
+    "confidence": 1.5010000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dépôt_de_plainte"
+     ]
+    ]
+   },
+   {
+    "t": "Violence",
+    "importance": 2.431456,
+    "relevance": 0.151966,
+    "confidence": 1.6192,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Violence"
+     ]
+    ]
+   },
+   {
+    "t": "Plainte avec constitution de partie civile en France",
+    "importance": 1.9952,
+    "relevance": 0.12469999999999999,
+    "confidence": 2.4328000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Plainte_avec_constitution_de_partie_civile_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal judiciaire (France)",
+    "importance": 1.7990400000000002,
+    "relevance": 0.11244000000000001,
+    "confidence": 1.9532,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal_judiciaire_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Droit pénal",
+    "importance": 1.4947199999999996,
+    "relevance": 0.09341999999999999,
+    "confidence": 1.8274000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Droit_pénal"
+     ]
+    ]
+   },
+   {
+    "t": "Certificat médical",
+    "importance": 1.45216,
+    "relevance": 0.09076,
+    "confidence": 1.0828,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Certificat_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Juge",
+    "importance": 1.3952,
+    "relevance": 0.0872,
+    "confidence": 0.6908,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Juge"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 1.3920000000000001,
+    "relevance": 0.08700000000000001,
+    "confidence": 1.0042,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal de grande instance (France)",
+    "importance": 1.0112,
+    "relevance": 0.06319999999999999,
+    "confidence": 2.217,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal_de_grande_instance_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Contravention en droit pénal français",
+    "importance": 0.794592,
+    "relevance": 0.049662,
+    "confidence": 1.3603999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contravention_en_droit_pénal_français"
+     ]
+    ]
+   },
+   {
+    "t": "Constitution",
+    "importance": 0.5650752,
+    "relevance": 0.0353172,
+    "confidence": 0.664,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Constitution"
+     ]
+    ]
+   },
+   {
+    "t": "Mr X",
+    "importance": 0.5478400000000001,
+    "relevance": 0.13696,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Sanction pénale en France",
+    "importance": 0.54664,
+    "relevance": 0.13666,
+    "confidence": 0.47140000000000004,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Sanction_pénale_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Mehdi",
+    "importance": 0.5283200000000001,
+    "relevance": 0.13208,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "AIVF",
+    "importance": 0.5200799999999999,
+    "relevance": 0.13002,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Dommages-intérêts en droit français",
+    "importance": 0.5144,
+    "relevance": 0.1286,
+    "confidence": 0.4646,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommages-intérêts_en_droit_français"
+     ]
+    ]
+   },
+   {
+    "t": "Responsabilité pénale en France",
+    "importance": 0.5028,
+    "relevance": 0.12569999999999998,
+    "confidence": 0.6122,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Responsabilité_pénale_en_France"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "indemnisation\nagression\ncoups et blessures\nagression physique\nindemnisation des victimes",
+  "desc_title": "indemnisation\nagression\npréjudice\ncoups et blessures\nagression physique\ndommages et intérêts\nune agression\nobtenir une indemnisation\nobtenir des dommages et intérêts\nvictime d'une agression",
+  "h1": "indemnisation\nagression\ncoups et blessures\nagression physique\ndommages et intérêts\nobtenir une indemnisation\nmontant\npréjudice\nindemnisation des victimes\nune agression\ncivi\nune agression physique\ncoups et blessures volontaires\naprès une agression\ndommages et intérêts pour agression\nphysique grave\naprès une agression physique\nindemnisation après une agression",
+  "h2": "indemnisation\nagression\nune agression\npréjudice\nagression physique\naprès une agression\ncivi\nindemniser\nune agression physique\nindemnisation des victimes\ncoups et blessures\ndommages et intérêts\ncoups et blessures volontaires\navocat spécialisé\nposte de préjudice\naprès une agression physique\nune agression grave\nobtenir une indemnisation\npénal\nmontant\ncorporel\nles préjudices\npréjudice corporel\nsaisir la civi\nexpertise médicale\nobtenir des dommages et intérêts\ncas de coups et blessures\nsuite à une agression\ndommages et intérêts pour agression\nphysique grave\naprès une agression grave",
+  "content_basic": "indemnisation\nagression\npréjudice\nindemnisation des victimes\ncoups et blessures\ndommages et intérêts\nune agression\nagression physique\nobtenir une indemnisation\ncivi\npénal\ndommage corporel\nmontant\ncorporel\ninfraction\nindemniser\nles préjudices\npréjudice corporel\nune agression physique\ncoups et blessures volontaires\nsaisir la civi\naprès une agression\nexpertise médicale\ncertificat médical\nperte de revenus\navocat spécialisé\nfonds de garantie\ndevant le tribunal\ndépôt de plainte\nles délais\nfonds de garantie des victimes\nspécialisé en dommage corporel\ndéposer plainte\nnomenclature dintilhac\nposte de préjudice\navocat spécialisé en dommage corporel\ndéficit fonctionnel permanent\nprocès pénal\nles démarches\ngravité des blessures\naide au recouvrement des victimes\npréjudice subi\nviolence physique\nsuite à une agression\nselon la gravité\ndevant la civi\nles préjudices subis\ntous les préjudices\nverser des dommages et intérêts\nphysique et psychique",
+  "content_basic_w_ranges": "indemnisation: 20-42x\nagression: 5-37x\npréjudice: 13-31x\nindemnisation des victimes: 2-6x\ncoups et blessures: 1-2x\ndommages et intérêts: 2-6x\nune agression: 1-6x\nagression physique: 1-13x\nobtenir une indemnisation: 1-2x\ncivi: 4-14x\npénal: 8-11x\ndommage corporel: 2-5x\nmontant: 2-12x\ncorporel: 5-8x\ninfraction: 8-14x\nindemniser: 3-10x\nles préjudices: 3-8x\npréjudice corporel: 2-4x\nune agression physique: 1-2x\ncoups et blessures volontaires: 1x\nsaisir la civi: 1-4x\naprès une agression: 1x\nexpertise médicale: 1-6x\ncertificat médical: 1-4x\nperte de revenus: 1-3x\navocat spécialisé: 1-3x\nfonds de garantie: 1-3x\ndevant le tribunal: 1-2x\ndépôt de plainte: 1-2x\nles délais: 1-3x\nfonds de garantie des victimes: 1x\nspécialisé en dommage corporel: 1x\ndéposer plainte: 1x\nnomenclature dintilhac: 1-2x\nposte de préjudice: 1-2x\navocat spécialisé en dommage corporel: 1x\ndéficit fonctionnel permanent: 1x\nprocès pénal: 1x\nles démarches: 1x\ngravité des blessures: 1x\naide au recouvrement des victimes: 1-2x\npréjudice subi: 1x\nviolence physique: 1x\nsuite à une agression: 1x\nselon la gravité: 1x\ndevant la civi: 1x\nles préjudices subis: 1x\ntous les préjudices: 1x\nverser des dommages et intérêts: 1x\nphysique et psychique: 1x",
+  "content_extended": "obtenir des dommages et intérêts\nles coups et blessures\nvictimes de france\ncas de coups et blessures\ndommages et intérêts pour agression\nphysique grave\nmontant des dommages et intérêts\naprès une agression physique\ndemander des dommages et intérêts\nvictime d'une agression\nvictime d'agression physique\nindemnisation après une agression\nselon la gravité des blessures\nune agression grave\natteinte à l’intégrité physique\ncommission d’indemnisation des victimes d’infractions\nvictime d’agression physique\nvictime d’une agression\nmontant de l’indemnisation\nvictime d’une agression physique\nporter atteinte à l’intégrité physique\nrecouvrement des victimes d’infractions\nvictimes d’agression\ninfluencer le montant de l’indemnisation\nvictime de coups et blessures\ndroit à une indemnisation\nagression sexuelle\ndemander une indemnisation\nporté plainte pour agression physique\navance sur indemnisation\nmontant final\nindemnisation juste\naccorder une indemnisation\ncalcul des dommages et intérêts\njuste indemnisation\nsuite à une agression physique\naprès une agression grave\nmontant final de votre indemnisation\ncivi indemnise les victimes\nblessures constatées",
+  "content_extended_w_ranges": "obtenir des dommages et intérêts: 1x\nles coups et blessures: 1x\nvictimes de france: 1x\ncas de coups et blessures: 1x\ndommages et intérêts pour agression: 1x\nphysique grave: 1x\nmontant des dommages et intérêts: 1x\naprès une agression physique: 1x\ndemander des dommages et intérêts: 1x\nvictime d'une agression: 1x\nvictime d'agression physique: 1x\nindemnisation après une agression: 1x\nselon la gravité des blessures: 1x\nune agression grave: 1x\natteinte à l’intégrité physique: 1x\ncommission d’indemnisation des victimes d’infractions: 1x\nvictime d’agression physique: 1x\nvictime d’une agression: 1x\nmontant de l’indemnisation: 1x\nvictime d’une agression physique: 1x\nporter atteinte à l’intégrité physique: 1x\nrecouvrement des victimes d’infractions: 1x\nvictimes d’agression: 1x\ninfluencer le montant de l’indemnisation: 1x\nvictime de coups et blessures: 1x\ndroit à une indemnisation: 1x\nagression sexuelle: 1x\ndemander une indemnisation: 1x\nporté plainte pour agression physique: 1x\navance sur indemnisation: 1x\nmontant final: 1x\nindemnisation juste: 1x\naccorder une indemnisation: 1x\ncalcul des dommages et intérêts: 1x\njuste indemnisation: 1x\nsuite à une agression physique: 1x\naprès une agression grave: 1x\nmontant final de votre indemnisation: 1x\ncivi indemnise les victimes: 1x\nblessures constatées: 1x",
+  "entities": "Infraction\nVictime\nDommage corporel\nCommission d'indemnisation des victimes d'infractions\nAgression\nPlainte\nCoups et blessures\nTribunal\nIncapacité totale de travail\nSévice physique\nEndommagement\nDommage (droit)\nDommages-intérêts\nAvocat (métier)\nAssurance\nJustice\nPartie civile en France\nGendarmerie nationale (France)\nPolice (institution)\nTribunal correctionnel\nProcès\nFonds de garantie des victimes des actes de terrorisme et d'autres infractions\nAnimal\nDépôt de plainte\nViolence\nPlainte avec constitution de partie civile en France\nTribunal judiciaire (France)\nDroit pénal\nCertificat médical\nJuge\nMédecin\nTribunal de grande instance (France)\nContravention en droit pénal français\nConstitution\nMr X\nSanction pénale en France\nMehdi\nAIVF\nDommages-intérêts en droit français\nResponsabilité pénale en France"
+ },
+ "status": "ready",
+ "keyword": "indemnisation coups et blessures",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "f9ce855a235dac6b",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "transactional": 24.1,
+   "local": 10.3
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "guide": 51.7,
+   "blog-post": 20.7,
+   "business": 17.2,
+   "landing-page": 17.2,
+   "video": 17.2,
+   "short-answer": 3.4,
+   "case-study": 3.4,
+   "news": 3.4,
+   "social-media": 3.4
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/f9ce855a235dac6b",
+ "share_url": "https://app.neuronwriter.com/analysis/share/f9ce855a235dac6b/9bf6ff4cee4c674f57a1cd86420fbaa94fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/f9ce855a235dac6b/0e0f04e1ac20744de1deb801fed6a6334fa16"
+}

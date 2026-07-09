@@ -1,0 +1,2783 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quel est le taux d'invalidité pour l'algodystrophie ?"
+   },
+   {
+    "q": "Est-ce que l'algodystrophie est reconnue par la MDPH ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   },
+   {
+    "q": "Comment prouver une algodystrophie ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quel est le taux d'invalidité ou d'AIPP pour l'algodystrophie et comment est-il calculé ?": {
+    "importance": 10
+   },
+   "L'algodystrophie est-elle reconnue par la MDPH ou comme maladie professionnelle/accident du travail ?": {
+    "importance": 10
+   },
+   "Quels sont les différents types de préjudices indemnisables en cas d'algodystrophie ?": {
+    "importance": 10
+   },
+   "Comment prouver une algodystrophie pour obtenir une indemnisation ?": {
+    "importance": 10
+   },
+   "Quel est le montant moyen d'indemnisation pour une algodystrophie ?": {
+    "importance": 9
+   },
+   "Dans quels cas peut-on être indemnisé pour une algodystrophie (accident, opération, erreur médicale) ?": {
+    "importance": 9
+   },
+   "Quelles sont les démarches à suivre pour obtenir une indemnisation pour algodystrophie ?": {
+    "importance": 8
+   },
+   "Quels sont les pièges à éviter lors de la procédure d'indemnisation de l'algodystrophie ?": {
+    "importance": 8
+   },
+   "Quelles sont les conséquences de l'algodystrophie sur la capacité de travail et quels sont les droits des salariés ?": {
+    "importance": 7
+   },
+   "Comment l'expertise médicale est-elle réalisée pour l'algodystrophie et quel est le rôle de l'avocat ?": {
+    "importance": 7
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Algodystrophie après accident : Comment obtenir une indemnisation juste ?"
+   },
+   {
+    "q": "Algodystrophie après accident ?"
+   },
+   {
+    "q": "Algodystrophie et inaptitude au travail : quel impact réel ?"
+   },
+   {
+    "q": "Après un accident grave : qui évalue le besoin en aide humaine ?"
+   },
+   {
+    "q": "Combien de temps dure une procédure d’indemnisation pour algodystrophie ?"
+   },
+   {
+    "q": "Combien de temps faut-il pour être indemnisé ?"
+   },
+   {
+    "q": "Comment est calculée l’indemnisation d’un préjudice corporel ?"
+   },
+   {
+    "q": "Comment prouver l'imputabilité directe entre l'accident et le SDRC ?"
+   },
+   {
+    "q": "Comment prouver le lien entre l’accident et l’algodystrophie ?"
+   },
+   {
+    "q": "Comment se déroule l'expertise médicale de la CRCI ?"
+   },
+   {
+    "q": "Est-ce indemnisable ?"
+   },
+   {
+    "q": "Faut-il obligatoirement un avocat pour obtenir une juste indemnisation ?"
+   },
+   {
+    "q": "L'algodystrophie est-elle une maladie qui peut être prévenue ?"
+   },
+   {
+    "q": "L'algodystrophie peut-elle être guérie ?"
+   },
+   {
+    "q": "L'assurance me propose une provision dérisoire en attendant la consolidation, que faire ?"
+   },
+   {
+    "q": "L’algodystrophie est-elle toujours reconnue par les assureurs ?"
+   },
+   {
+    "q": "L’algodystrophie peut-elle être indemnisée ?"
+   },
+   {
+    "q": "L’assurance peut-elle refuser l’indemnisation ?"
+   },
+   {
+    "q": "Peut-il y avoir une aggravation au niveau de son algodystrophie ?"
+   },
+   {
+    "q": "Peut-on déceler une algodystrophie à la radio ?"
+   },
+   {
+    "q": "Peut-on indemniser une algodystrophie ?"
+   },
+   {
+    "q": "Peut-on obtenir une avance d’indemnisation ?"
+   },
+   {
+    "q": "Peut-on être indemnisé si l'algodystrophie survient après une opération ratée ?"
+   },
+   {
+    "q": "Pourquoi choisir le Cabinet JMP pour votre dossier d'algodystrophie ?"
+   },
+   {
+    "q": "Pourquoi choisir un avocat droit de la santé pour son indemnisation algodystrophie ?"
+   },
+   {
+    "q": "Pourquoi faire appel à un avocat dommage corporel ?"
+   },
+   {
+    "q": "Pourquoi s'entourer d'un médecin conseil de victimes ?"
+   },
+   {
+    "q": "Pourquoi se faire accompagner par un avocat spécialisé ?"
+   },
+   {
+    "q": "Puis-je obtenir une indemnisation pour l'algodystrophie suite à une opération ?"
+   },
+   {
+    "q": "Qu'est-ce que l'algodystrophie ?"
+   },
+   {
+    "q": "Quel est le montant moyen d'indemnisation pour un SDRC ?"
+   },
+   {
+    "q": "Quelle est la différence entre une indemnisation en capital et en rente ?"
+   },
+   {
+    "q": "Quelle est la procédure pour être indemnisé après une algodystrophie ?"
+   },
+   {
+    "q": "Quelle indemnisation en cas d'infection nosocomiale ?"
+   },
+   {
+    "q": "Quelles démarches administratives en cas d’inaptitude liée à l’algodystrophie ?"
+   },
+   {
+    "q": "Quelles sont les séquelles d'une algodystrophie ?"
+   },
+   {
+    "q": "Quelles sont les séquelles permanentes que vous conserverez suite à l'accident ?"
+   },
+   {
+    "q": "Quels barèmes sont utilisés pour chiffrer l’indemnisation du dommage corporel ?"
+   },
+   {
+    "q": "Quels facteurs influencent le montant de l’indemnisation ?"
+   },
+   {
+    "q": "Quels préjudices sont pris en compte ?"
+   },
+   {
+    "q": "Quels sont les droits des salariés touchés par l’algodystrophie et l’inaptitude au travail ?"
+   },
+   {
+    "q": "Quels sont les déclencheurs de l'algodystrophie ?"
+   },
+   {
+    "q": "Quels sont les moyens d'indemnisation en matière d'aléa thérapeutique ?"
+   },
+   {
+    "q": "Quels sont les premiers symptômes de l'algodystrophie ?"
+   },
+   {
+    "q": "Quels sont les préjudices indemnisables en cas d’algodystrophie ?"
+   },
+   {
+    "q": "Qui détermine le taux d’incapacité en cas d’algodystrophie ?"
+   },
+   {
+    "q": "Qui indemnise en cas d'affection iatrogène?"
+   },
+   {
+    "q": "Qui évalue l’algodystrophie ?"
+   },
+   {
+    "q": "Qu’est ce que l’algodystrophie?"
+   },
+   {
+    "q": "Qu’est ce qu’une algodystrophie?"
+   },
+   {
+    "q": "Qu’est-ce que le préjudice corporel ?"
+   },
+   {
+    "q": "Qu’est-ce qu’une algodystrophie ?"
+   },
+   {
+    "q": "Qu’est-ce qu’une algodystrophie après un accident ?"
+   },
+   {
+    "q": "Vous êtes victime d’une erreur médicale, d’une infection nosocomiale, d’une affection iatrogène ou d’un accident médical ?"
+   },
+   {
+    "q": "⚖️ Quels sont mes droits en cas d’inaptitude liée à l’algodystrophie ?"
+   },
+   {
+    "q": "💶 Quelles aides financières peut-on obtenir en cas d’inaptitude pour algodystrophie ?"
+   },
+   {
+    "q": "📋 L’algodystrophie peut-elle être reconnue comme maladie professionnelle ou accident du travail ?"
+   },
+   {
+    "q": "📝 Comment faire reconnaître sa qualité de travailleur handicapé avec une algodystrophie ?"
+   },
+   {
+    "q": "🦵 Quelles démarches suivre si l’algodystrophie rend le travail impossible ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://jmp-avocat-indemnisation.fr/blog-dommages-corporels/algodystrophie-indemnisation-accident",
+   "title": "Algodystrophie après accident : Ne laissez pas l'assurance vous spolier (Guide 2026)",
+   "desc": "Algodystrophie après accident ? Les assurances minimisent vos souffrances. Découvrez comment obtenir une vraie indemnisation : DFP, pretium doloris, ATP. Guide avocat 2026",
+   "headers": [
+    [
+     "h1",
+     "Algodystrophie après accident : Comment obtenir une indemnisation juste ?"
+    ],
+    [
+     "h2",
+     "1. Comprendre l'Algodystrophie (SDRC) dans le cadre d'un accident"
+    ],
+    [
+     "h2",
+     "2. Les critères de Budapest : Le standard médical pour faire reconnaître votre algodystrophie"
+    ],
+    [
+     "h2",
+     "3. La tactique des assurances : L'attaque sur « l'état antérieur »"
+    ],
+    [
+     "h2",
+     "4. Les postes de préjudices à ne pas oublier"
+    ],
+    [
+     "h2",
+     "5. L'importance cruciale de l'expertise médicale contradictoire"
+    ],
+    [
+     "h2",
+     "6. Les pièges à éviter lors de la procédure"
+    ],
+    [
+     "h2",
+     "7. Quand saisir la justice ?"
+    ],
+    [
+     "h2",
+     "FAQ : Vos questions sur l'algodystrophie et l'indemnisation"
+    ],
+    [
+     "h2",
+     "Pourquoi choisir le Cabinet JMP pour votre dossier d'algodystrophie ?"
+    ],
+    [
+     "h2",
+     "Conclusion : Ne restez pas seul face à l'injustice"
+    ],
+    [
+     "h2",
+     "Bibliographie – Algodystrophie & indemnisation des victimes"
+    ]
+   ],
+   "content_score": 76,
+   "readability": 29,
+   "word_count": 4488,
+   "content_len": 29226
+  },
+  {
+   "rank": 2,
+   "url": "https://www.indemnisationprejudice.fr/sequelles-et-indemnites-blessures-accident/algodystrophie-et-indemnisations/",
+   "title": "Indemnisation Algodystrophie : se faire demniser suite à une erreur médicale ou accident du travail",
+   "desc": "Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés. - Indemnisation de l’algodystrophie",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation de l’algodystrophie"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que le préjudice corporel ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Comment est calculée l’indemnisation d’un préjudice corporel ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Quels facteurs influencent le montant de l’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Les formes d’indemnisation possibles"
+    ],
+    [
+     "h2",
+     "Exemples concrets d’indemnisation de préjudices corporels"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Pourquoi se faire accompagner par un avocat spécialisé ?"
+    ]
+   ],
+   "content_score": 79,
+   "readability": 27,
+   "word_count": 2327,
+   "content_len": 15631
+  },
+  {
+   "rank": 3,
+   "url": "https://forum-assures.ameli.fr/questions/3366478-algodystrophie",
+   "title": "algodystrophie - Résolue",
+   "desc": "bonjour suite as un accident du travail fracture du poignet et épaule qui en découle as une algodystrophie vérifier par scintigraphie, je voudrais savoir si je peux prétende as une rente ou autre de la cpam. Si oui comment faire les démarches ? et ^pour info .Je suis salarié dans le privé en cdi\r...",
+   "headers": [
+    [
+     "h2",
+     "Rechercher dans le forum"
+    ],
+    [
+     "h2",
+     "Les thématiques"
+    ],
+    [
+     "h2",
+     "Cette question a été résolue"
+    ],
+    [
+     "h1",
+     "algodystrophie"
+    ],
+    [
+     "h2",
+     "Autres réponses"
+    ]
+   ],
+   "content_score": 27,
+   "readability": 33,
+   "word_count": 787,
+   "content_len": 4893
+  },
+  {
+   "rank": 4,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/forum-des-victimes/question-de-victimes-accidents-de-la-vie/chute-algodystrophie-accident-de-la-vie",
+   "title": "Chute, algodystrophie, accident de la vie - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France soutient les victimes de chutes et d'algodystrophie. Obtenez des conseils juridiques.",
+   "headers": [
+    [
+     "h1",
+     "Chute, algodystrophie, accident de la vie"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Chute, algodystrophie et indemnisation d’un accident de la vie"
+    ],
+    [
+     "h2",
+     "Victime Accident de la vie : Chutes"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 35,
+   "word_count": 1775,
+   "content_len": 10488
+  },
+  {
+   "rank": 5,
+   "url": "https://association-aivf-faq.fr/prejudices-corporels-faq/prejudice-corporel-victime-directe/indemnisation-algodystrophie",
+   "title": "Indemnisation algodystrophie - Association Victimes de France AIVF",
+   "desc": "Indemnisation pour de l'algodystrophie suite à un accident corporel, consolidation et expertise médicale, questions de victimes",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation pour algodystrophie"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Indemnisation pour algodystrophie"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation pour algodystrophie"
+    ]
+   ],
+   "content_score": 82,
+   "readability": 52,
+   "word_count": 1840,
+   "content_len": 11796
+  },
+  {
+   "rank": 6,
+   "url": "https://udsp91.fr/algodystrophie-inaptitude-travail/",
+   "title": "Algodystrophie et inaptitude au travail : droits, indemnisation, démarches",
+   "desc": "Algodystrophie et inaptitude au travail : comprenez vos droits, démarches et aides pour mieux gérer votre situation professionnelle.",
+   "headers": [
+    [
+     "h1",
+     "Algodystrophie et inaptitude au travail : vos droits, démarches et aides"
+    ],
+    [
+     "h2",
+     "Algodystrophie et inaptitude au travail : quel impact réel ?"
+    ],
+    [
+     "h2",
+     "Conséquences de l’algodystrophie sur la capacité à exercer une activité professionnelle"
+    ],
+    [
+     "h2",
+     "Quels sont les droits des salariés touchés par l’algodystrophie et l’inaptitude au travail ?"
+    ],
+    [
+     "h2",
+     "Quelles démarches administratives en cas d’inaptitude liée à l’algodystrophie ?"
+    ],
+    [
+     "h2",
+     "Aides et indemnités disponibles en cas d’algodystrophie et d’inaptitude : ce qu’il faut savoir"
+    ],
+    [
+     "h2",
+     "Reconnaissance de l’algodystrophie en accident du travail ou maladie professionnelle"
+    ],
+    [
+     "h2",
+     "Foire aux questions ❓"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 37,
+   "word_count": 1950,
+   "content_len": 12644
+  },
+  {
+   "rank": 7,
+   "url": "https://www.medecin-dommage-corporel.expert/algodystrophie-posttraumatique/",
+   "title": "Médecin expert algodystrophie suite à un accident",
+   "desc": "lors de l'expertise médicale, les séquelles d'une algodystrophie sont difficiles à faire reconnaître . L'assistance de la victime par un médecin de recours expert en dommage corporel permet de faire reconnaître tous les préjudices subis.",
+   "headers": [
+    [
+     "h1",
+     "Qu’est ce qu’une algodystrophie?"
+    ],
+    [
+     "h2",
+     "Expertise médicale de l’algodystrophie post traumatique"
+    ],
+    [
+     "h2",
+     "3 cabinets dédiés aux victimes de dommages corporels pour l'évaluation médico légale du dommage et du handicap consécutifs à un accident"
+    ]
+   ],
+   "content_score": 45,
+   "readability": 35,
+   "word_count": 417,
+   "content_len": 2861
+  },
+  {
+   "rank": 8,
+   "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000033128541",
+   "title": "Un instant…",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "www.legifrance.gouv.fr"
+    ],
+    [
+     "h2",
+     "Vérification de sécurité en cours"
+    ],
+    [
+     "h2",
+     "Vérification réussie. En attente de la réponse de www.legifrance.gouv.fr."
+    ]
+   ],
+   "content_score": 0,
+   "readability": 61,
+   "word_count": 58,
+   "content_len": 407
+  },
+  {
+   "rank": 9,
+   "url": "https://commission-conciliation-indemnisation-aivf.fr/faq-alea-therapeutique/accident-medical-non-fautif/algodystrophie-suite-operation",
+   "title": "Algodystrophie suite opération - Association AIVF",
+   "desc": "Algodystrophie suite opération, complications post-opératoires, aléa thérapeutique, erreur médicale, procédure indemnisation CCI ONIAM,",
+   "headers": [
+    [
+     "h1",
+     "Algodystrophie suite opération"
+    ],
+    [
+     "h2",
+     "Questions de victimes concernant l'algodystrophie suite à une opération chirurgicale"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 44,
+   "word_count": 732,
+   "content_len": 4828
+  },
+  {
+   "rank": 10,
+   "url": "https://www.avocat-lexvox.com/avocat-droit-de-la-sante-et-indemnisation-pour-algodystrophie-a-marignane_ad459.html",
+   "title": "Avocat droit de la santé et indemnisation pour algodystrophie à Marignane",
+   "desc": " Vous souffrez de SDRC ? L'algodystrophie ou Syndrome Douloureux Régional Complexe se définit par une douleur continue. Cette douleur se situe bien souvent aux extrémités du corps. Zoom sur",
+   "headers": [
+    [
+     "h1",
+     "Avocat droit de la santé et indemnisation pour algodystrophie à Marignane"
+    ],
+    [
+     "h2",
+     "Qu'est-ce que l'algodystrophie ?"
+    ],
+    [
+     "h2",
+     "Indemnisation algodystrophie"
+    ],
+    [
+     "h2",
+     "Votre guide gratuit !"
+    ]
+   ],
+   "content_score": 68,
+   "readability": 43,
+   "word_count": 1932,
+   "content_len": 12464
+  },
+  {
+   "rank": 11,
+   "url": "https://association-aivf-faq.fr/accident-medical-faq/indemnisation-alea-therapeutique/algodystrophie-apres-operation",
+   "title": "Algodystrophie après opération - Association Victimes de France AIVF",
+   "desc": "Algodystrophie après opération, complications, accident médical, procédure CCI CRCI, indemnisation ONIAM, responsabilité médicale",
+   "headers": [
+    [
+     "h1",
+     "Algodystrophie après opération"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Algodystrophie après opération"
+    ],
+    [
+     "h2",
+     "Questions concernant l’algodystrophie après opération"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 42,
+   "word_count": 1962,
+   "content_len": 12837
+  },
+  {
+   "rank": 12,
+   "url": "https://www.arc-formation.fr/algodystrophie-et-inaptitude-au-travail/",
+   "title": "Algodystrophie et inaptitude au travail : vos droits en 2026",
+   "desc": "Votre algodystrophie suite à un accident de travail vous ouvre des droits spécifiques et des solutions concrètes de reprise. Cette complication est",
+   "headers": [
+    [
+     "h1",
+     "Algodystrophie et travail : quels droits et solutions pour votre reprise ?"
+    ],
+    [
+     "h2",
+     "Algodystrophie au travail, quels sont vos droits ?"
+    ],
+    [
+     "h2",
+     "Durée d’arrêt de travail, les chiffres réels"
+    ],
+    [
+     "h2",
+     "Évaluation de votre taux d’invalidité et montants d’indemnisation"
+    ],
+    [
+     "h2",
+     "Vos options concrètes pour reprendre le travail"
+    ],
+    [
+     "h2",
+     "Inaptitude au travail, comprendre la procédure"
+    ],
+    [
+     "h2",
+     "Stratégies pour optimiser votre dossier et votre indemnisation"
+    ],
+    [
+     "h2",
+     "Nos articles récents"
+    ],
+    [
+     "h2",
+     "Ces articles peuvent vous intéresser"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 50,
+   "word_count": 1384,
+   "content_len": 9897
+  },
+  {
+   "rank": 13,
+   "url": "https://www.elsan.care/fr/pathologie-et-traitement/maladies-des-os/algodystrophie-definition-cause-traitement",
+   "title": "Algodystrophie : définition, causes, traitements | Elsan",
+   "desc": "L’algodystrophie désigne une douleur persistante et invalidante touchant un membre après une blessure ou une opération. Elle est due à une mauvaise information transmise par le système nerveux. L’algodystrophie est également appelée « syndrome douloureux régional complexe » (SDRC) ou « algodystrophie post-traumatique ».",
+   "headers": [
+    [
+     "h1",
+     "Algodystrophie"
+    ],
+    [
+     "h2",
+     "Définition : qu’est-ce que l’algodystrophie ou algoneurodystrophie ? main, pied, genou, cheville..."
+    ],
+    [
+     "h2",
+     "Quelles sont les phases de l’algodystrophie ?"
+    ],
+    [
+     "h2",
+     "Quels sont les causes et facteurs de risques de l’algodystrophie ?"
+    ],
+    [
+     "h2",
+     "Quels sont les symptômes et douleurs de l’algodystrophie ?"
+    ],
+    [
+     "h2",
+     "Quel diagnostic pour déterminer l'algodystrophie ?"
+    ],
+    [
+     "h2",
+     "Quels sont les traitements pour l’algodystrophie ?"
+    ],
+    [
+     "h2",
+     "Comment prévenir l’algodystrophie du pied, genou, cheville, épaule, main, poignet ?"
+    ],
+    [
+     "h2",
+     "L'algodystrophie : 3 choses à retenir !"
+    ],
+    [
+     "h2",
+     "Vos questions fréquemment posées :"
+    ],
+    [
+     "h2",
+     "Pathologies associées à l'Orthopédie"
+    ],
+    [
+     "h2",
+     "Traitements associés à l'Orthopédie"
+    ],
+    [
+     "h2",
+     "Nos chirurgiens orthopédistes à proximité"
+    ],
+    [
+     "h2",
+     "Algologie"
+    ]
+   ],
+   "content_score": 28,
+   "readability": 36,
+   "word_count": 1559,
+   "content_len": 10910
+  },
+  {
+   "rank": 14,
+   "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000031183910",
+   "title": "Un instant…",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "www.legifrance.gouv.fr"
+    ],
+    [
+     "h2",
+     "Vérification de sécurité en cours"
+    ],
+    [
+     "h2",
+     "Vérification réussie. En attente de la réponse de www.legifrance.gouv.fr."
+    ]
+   ],
+   "content_score": 0,
+   "readability": 61,
+   "word_count": 58,
+   "content_len": 407
+  },
+  {
+   "rank": 15,
+   "url": "https://aide-victimes.fr/accident-route/indemnisation-algodystrophie/",
+   "title": "Indemnisation algodystrophie – AFAV",
+   "desc": "L'indemnisation d'une algodystrophie suite à un accident de la route, accident de la vie, loi Badinter ou Garantie accident de la vie GAV",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation algodystrophie"
+    ],
+    [
+     "h2",
+     "Causes de l’algodystrophie."
+    ],
+    [
+     "h2",
+     "Indemnisation d’une algodystrophie."
+    ]
+   ],
+   "content_score": 56,
+   "readability": 35,
+   "word_count": 711,
+   "content_len": 4672
+  },
+  {
+   "rank": 16,
+   "url": "https://www.avocat-lexvox.com/taux-invalidite-pour-algodystrophie-_ad1973.html",
+   "title": "Taux invalidité pour algodystrophie",
+   "desc": " En France, le taux d'invalidité pour algodystrophie est déterminé au cas par cas, souvent via expertise médicale. L'article R. 434-32 du Code de la Sécurité Sociale sert de référence. Les",
+   "headers": [
+    [
+     "h1",
+     "Taux invalidité pour algodystrophie"
+    ],
+    [
+     "h2",
+     "Algodystrophies et taux IPP : les causes, conséquences et les circonstances de ce type de maladies professionnelles"
+    ],
+    [
+     "h2",
+     "Algodystrophies : IPP, séquelles et invalidité"
+    ],
+    [
+     "h2",
+     "Cabinet d'avocats droit médical : expertises, reconnaissances des maladies professionnelles et rôle des avocats pour indemnisation du salarié"
+    ],
+    [
+     "h2",
+     "Exemple algodystrophie et accident corporel : entre la théorie et la pratique"
+    ],
+    [
+     "h2",
+     "Votre guide gratuit !"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 28,
+   "word_count": 2465,
+   "content_len": 16171
+  },
+  {
+   "rank": 17,
+   "url": "https://www.facebook.com/clinique.axium.almaviva.sante/videos/lalgodystrophie-quest-ce-que-cest-clinique-sante-sant%C3%A9-aix-aixmaville-douleur-al/1226660585705488/",
+   "title": "L’algodystrophie, qu’est ce que c’est ? 🤕\n\n#clinique #sante #santé #aix #aixmaville #douleur #algodystrophie #conseils | Clinique Axium - Almaviva Santé | Facebook",
+   "desc": "L’algodystrophie, qu’est ce que c’est ? 🤕\n\n#clinique #sante #santé #aix #aixmaville #douleur #algodystrophie #conseils",
+   "headers": [
+    [
+     "h1",
+     "Vidéo"
+    ],
+    [
+     "h2",
+     "Clinique Axium - Almaviva Santé"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Reels similaires"
+    ],
+    [
+     "h2",
+     "Vidéos connexes"
+    ]
+   ],
+   "content_score": 12,
+   "readability": 36,
+   "word_count": 924,
+   "content_len": 5618
+  },
+  {
+   "rank": 18,
+   "url": "https://association-aivf-faq.fr/expertise/evaluation-des-sequelles-permanentes/algodystrophie-accident-de-la-route",
+   "title": "Algodystrophie accident de la route - Association Victimes de France AIVF",
+   "desc": "Algodystrophie suite à un accident de la route, indemisation loi Badinter, Garantie corporelle conducteur, expertise médicale, consolidation,",
+   "headers": [
+    [
+     "h1",
+     "Algodystrophie accident de la route"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Algodystrophie après un accident de la route"
+    ],
+    [
+     "h2",
+     "Questions concernant l’algodystrophie suite accident de la route"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 41,
+   "word_count": 1553,
+   "content_len": 10081
+  },
+  {
+   "rank": 19,
+   "url": "https://www.plateforme-achats-fehap.fr/indemnisation-algodystrophie/",
+   "title": "En quoi consiste l’indemnisation des malades d’algodystrophie ?",
+   "desc": "Le droit a prévu une allocation pour les personnes atteintes d’algodystrophie, afin de faciliter leur convalescence. Celle-ci est sujette à certaines conditions. Découvrez l’essentiel sur l’indemnisation pour algodystrophie !",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation Algodystrophie : Tout ce qu’il faut savoir"
+    ],
+    [
+     "h2",
+     "L’Algodystrophie : qu’est-ce que c’est ?"
+    ],
+    [
+     "h2",
+     "Quel montant pour l’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Dans quel cas bénéficier de l’indemnisation ?"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 46,
+   "word_count": 542,
+   "content_len": 3508
+  },
+  {
+   "rank": 20,
+   "url": "https://www.monindemnite.com/indemnisation-pour-algodystrophie/",
+   "title": "Indemnisation pour algodystrophie - MonIndemnite",
+   "desc": "Indemnisation pour algodystrophie : quel montant ? Dans quel cas ? Quelle procédure à suivre pour obtenir une réparation ?",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation pour algodystrophie"
+    ],
+    [
+     "h2",
+     "Algodystrophie : définition"
+    ],
+    [
+     "h2",
+     "Indemnisation et algodystrophie : dans quels cas ?"
+    ],
+    [
+     "h2",
+     "Indemnisation pour algodystrophie : quel montant ?"
+    ],
+    [
+     "h2",
+     "Taux IPP pour algodystrophie"
+    ],
+    [
+     "h2",
+     "Indemnisation pour algodystrophie : exemples"
+    ],
+    [
+     "h2",
+     "Condition d’obtention d’une indemnisation"
+    ],
+    [
+     "h2",
+     "Foire aux questions"
+    ],
+    [
+     "h2",
+     "Pour résumer"
+    ]
+   ],
+   "content_score": 64,
+   "readability": 43,
+   "word_count": 2132,
+   "content_len": 13764
+  },
+  {
+   "rank": 21,
+   "url": "https://www.cabinetbenayoun-avocats.fr/fr/lexique/medico-legal/id-115-algoneurodystrophie-ou-algodystrophie-syndrome-",
+   "title": "Algoneurodystrophie ou algodystrophie (syndrome)",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Algoneurodystrophie ou algodystrophie (syndrome)"
+    ],
+    [
+     "h2",
+     "BL- mars 2026"
+    ],
+    [
+     "h2",
+     "SM - mars 2025"
+    ],
+    [
+     "h2",
+     "BS janvier 2025"
+    ],
+    [
+     "h2",
+     "JL Octobre 2024"
+    ]
+   ],
+   "content_score": 28,
+   "readability": 53,
+   "word_count": 392,
+   "content_len": 2436
+  },
+  {
+   "rank": 22,
+   "url": "https://www.chirurgien-orthopedique-normandie.fr/pathologies/algodystrophie/",
+   "title": "Algodystrophie : causes et traitements | Dr Polle | Normandie",
+   "desc": "À la suite d'un traumatisme, vous souffrez d'algodystrophie ? Plusieurs options thérapeutiques existent pour soigner cette affection invalidante. Découvrez les traitements pratiqués dans notre cabinet de Rouen",
+   "headers": [
+    [
+     "h1",
+     "Algodystrophie"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que l’algodystrophie?"
+    ],
+    [
+     "h2",
+     "Quels sont les symptômes de l’algodystrophie?"
+    ],
+    [
+     "h2",
+     "Qui est concerné par l’algodystrophie?"
+    ],
+    [
+     "h2",
+     "Comment soigner l’algodystrophie?"
+    ]
+   ],
+   "content_score": 28,
+   "readability": 43,
+   "word_count": 1458,
+   "content_len": 9311
+  },
+  {
+   "rank": 23,
+   "url": "https://www.youtube.com/watch?v=0anLhBp0hFU",
+   "title": "L'algodystrophie ou Syndrome Douloureux Régional Complexe - Film destiné aux enfants et familles - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "L'algodystrophie ou Syndrome Douloureux Régional Complexe - Film destiné aux enfants et familles"
+    ],
+    [
+     "h1",
+     "L'algodystrophie ou Syndrome Douloureux Régional Complexe - Film destiné aux enfants et familles"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      35"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 19,
+   "readability": 18,
+   "word_count": 398,
+   "content_len": 2612
+  },
+  {
+   "rank": 24,
+   "url": "https://www.pmss.fr/algodystrophie-arret-travail/",
+   "title": "Algodystrophie et arrêt de travail : combien de temps d'indemnisation prévoir ? - PMSS",
+   "desc": "Découvrez la durée d'indemnisation en cas d'algodystrophie et arrêt de travail : conseils pour mieux anticiper votre prise en charge.",
+   "headers": [
+    [
+     "h1",
+     "Algodystrophie et arrêt de travail : combien de temps d’indemnisation prévoir ?"
+    ],
+    [
+     "h2",
+     "L’essentiel à retenir sur la durée d’indemnisation en cas d’algodystrophie"
+    ],
+    [
+     "h2",
+     "Algodystrophie et arrêt de travail : comprendre la maladie et son impact professionnel"
+    ],
+    [
+     "h2",
+     "Combien de temps d’arrêt de travail pour une algodystrophie ? Durées, critères et exemples réels"
+    ],
+    [
+     "h2",
+     "Procédures administratives : CPAM, ALD et démarches Ameli pour l’indemnisation"
+    ],
+    [
+     "h2",
+     "Reprise du travail après algodystrophie : stratégies, reconversion et maintien dans l’emploi"
+    ],
+    [
+     "h2",
+     "Conseils pratiques et accompagnement pour réussir son arrêt et favoriser la récupération"
+    ],
+    [
+     "h2",
+     "Eczéma qui récidive : comprendre la signification émotionnelle des poussées"
+    ],
+    [
+     "h2",
+     "Eczéma qui récidive : comprendre la signification émotionnelle des poussées"
+    ],
+    [
+     "h2",
+     "Demandez votre analyse gratuite"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 23,
+   "word_count": 1970,
+   "content_len": 13436
+  },
+  {
+   "rank": 25,
+   "url": "https://informations.handicap.fr/a-algodystrophie-francais-en-lutte-contre-douleur-12687.php",
+   "title": "Algodystrophie : 50 000 Français en lutte contre la douleur",
+   "desc": "Algodystrophie, syndrome douloureux régional complexe... Plusieurs noms pour une même pathologie aux innombrables symptômes : douleur chronique, gonflements, raideurs. 50 000 Français seraient touchés par cette maladie orpheline complexe et méconnue.",
+   "headers": [
+    [
+     "h1",
+     "Algodystrophie : 50 000 Français en lutte contre la douleur"
+    ],
+    [
+     "h2",
+     "Signal d'alarme actif en permanence"
+    ],
+    [
+     "h2",
+     "Deux types de SDRC"
+    ],
+    [
+     "h2",
+     "Isolement social"
+    ],
+    [
+     "h2",
+     "Origine inconnue"
+    ],
+    [
+     "h2",
+     "Thèmes :"
+    ]
+   ],
+   "content_score": 22,
+   "readability": 31,
+   "word_count": 978,
+   "content_len": 6251
+  },
+  {
+   "rank": 26,
+   "url": "https://www.seniors-en-mission.org/algodystrophie-du-genou-comment-optimiser-lindemnisation-apres-un-accident/",
+   "title": "Algodystrophie du genou : comment optimiser l'indemnisation après un accident - Seniors en Mission",
+   "desc": "Découvrez comment optimiser votre indemnisation après un accident lié à l'algodystrophie du genou. Suivez nos conseils pour mieux comprendre cette pathologie",
+   "headers": [
+    [
+     "h1",
+     "Algodystrophie du genou : comment optimiser l’indemnisation après un accident"
+    ],
+    [
+     "h2",
+     "Comprendre l’algodystrophie du genou"
+    ],
+    [
+     "h2",
+     "Les démarches pour obtenir une indemnisation"
+    ],
+    [
+     "h2",
+     "Optimiser son indemnisation après un accident"
+    ]
+   ],
+   "content_score": 58,
+   "readability": 36,
+   "word_count": 799,
+   "content_len": 5694
+  },
+  {
+   "rank": 27,
+   "url": "https://www.youtube.com/watch?v=jzFCXSRr-H8",
+   "title": "Prévention de l'algodystrophie (résumé) - YouTube",
+   "desc": "Ma page insta : @tessa_kiné_main",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Prévention de l'algodystrophie (résumé)"
+    ],
+    [
+     "h1",
+     "Prévention de l'algodystrophie (résumé)"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      2"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 17,
+   "readability": 80,
+   "word_count": 56,
+   "content_len": 348
+  },
+  {
+   "rank": 28,
+   "url": "https://association-aivf-faq.fr/prejudices-corporels-faq/prejudice-corporel-victime-directe/taux-aipp-algodystrophie",
+   "title": "Taux AIPP algodystrophie - Association Victimes de France AIVF",
+   "desc": "Taux AIPP algodystrophie suite accident corporel, expertise médicale, consolidation, Nomenclature Dintilhac, indemnisation du préjudice",
+   "headers": [
+    [
+     "h1",
+     "Taux AIPP algodystrophie"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Taux AIPP et indemnisation en cas d’algodystrophie"
+    ],
+    [
+     "h2",
+     "Questions concernant le taux d’AIPP de l’algodystrophie"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 38,
+   "word_count": 1955,
+   "content_len": 12854
+  },
+  {
+   "rank": 29,
+   "url": "https://www.legifrance.gouv.fr/juri/id/CETATEXT000047446397",
+   "title": "CAA de PARIS, 8ème chambre, 11/04/2023, 22PA00289, Inédit au recueil Lebon - Légifrance",
+   "desc": "CAA de PARIS, 8ème chambre, 11/04/2023, 22PA00289, Inédit au recueil Lebon",
+   "headers": [
+    [
+     "h2",
+     "Rechercher sur Légifrance"
+    ],
+    [
+     "h1",
+     "CAA de PARIS, 8ème chambre, 11/04/2023, 22PA00289, Inédit au recueil Lebon"
+    ],
+    [
+     "h2",
+     "CAA de PARIS - 8ème chambre"
+    ],
+    [
+     "h2",
+     "L'aide Légifrance"
+    ],
+    [
+     "h2",
+     "Abonnez-vous au Journal officiel de la République française"
+    ]
+   ],
+   "content_score": 13,
+   "readability": 4,
+   "word_count": 3737,
+   "content_len": 22808
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1808,
+   "target": 1808
+  },
+  "readability": {
+   "median": 36,
+   "target": 36
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "algodystrophie",
+    "usage_pc": 90
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 40
+   },
+   {
+    "t": "accident",
+    "usage_pc": 40
+   },
+   {
+    "t": "indemnisation algodystrophie",
+    "usage_pc": 20
+   },
+   {
+    "t": "algodystrophie suite",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "algodystrophie",
+    "usage_pc": 90
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 40
+   },
+   {
+    "t": "accident",
+    "usage_pc": 40
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 30
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 30
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "une algodystrophie",
+    "usage_pc": 20
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "algodystrophie suite",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "algodystrophie",
+    "usage_pc": 90
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 40
+   },
+   {
+    "t": "accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation pour algodystrophie",
+    "usage_pc": 20
+   },
+   {
+    "t": "une algodystrophie",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 10
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "algodystrophie suite",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation juste",
+    "usage_pc": 10
+   },
+   {
+    "t": "obtenir une indemnisation juste",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "algodystrophie",
+    "usage_pc": 70
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 50
+   },
+   {
+    "t": "accident",
+    "usage_pc": 40
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 20
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 20
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident du travail",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation algodystrophie",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 10
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 10
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 10
+   },
+   {
+    "t": "un avocat",
+    "usage_pc": 10
+   },
+   {
+    "t": "algodystrophie suite",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation pour algodystrophie",
+    "usage_pc": 10
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnité",
+    "usage_pc": 10
+   },
+   {
+    "t": "préjudices corporels",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à une opération",
+    "usage_pc": 10
+   },
+   {
+    "t": "faire reconnaître",
+    "usage_pc": 10
+   },
+   {
+    "t": "les postes de préjudices",
+    "usage_pc": 10
+   },
+   {
+    "t": "opération chirurgicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "questions de victimes",
+    "usage_pc": 10
+   },
+   {
+    "t": "restez pas seul face",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "algodystrophie",
+    "usage_pc": 90,
+    "sugg_usage": [
+     10,
+     23
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     18
+    ]
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 80,
+    "sugg_usage": [
+     2,
+     6
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 90,
+    "sugg_usage": [
+     5,
+     27
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     14
+    ]
+   },
+   {
+    "t": "une algodystrophie",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "accident du travail",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "séquelle",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "syndrome douloureux régional complexe",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     9
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "consolidation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "traumatisme",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "douleur chronique",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "un avocat",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "médecin expert",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "médecin conseil",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "raideur",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "arrêt de travail",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "algodystrophie peut",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les séquelles",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "dfp",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "invalidité",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "articulaire",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "perte de mobilité",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après un traumatisme",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier médical",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisable",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "prolonger",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "indemnisation algodystrophie",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "algodystrophie suite",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation pour algodystrophie",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation juste",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnité",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation juste",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes de france aivf",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudices corporels",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un accident du travail",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faute médicale",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "souffrances endurées",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "contester",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "médecin conseil de victimes",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une faute",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "raideur articulaire",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déficit fonctionnel permanent",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fonctionnel temporaire",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "taux d’aipp",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "entre l’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si l’algodystrophie",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si l’algodystrophie est une complication",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à une opération",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un accident de la circulation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit médical",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "réparation intégrale",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "certificat médical",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cette pathologie",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déficit fonctionnel temporaire",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lien de causalité",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faire reconnaître",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lors de l'expertise médicale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les postes de préjudices",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime peut",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "consolidation médicale",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de travail",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "traumatisme initial",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "opération chirurgicale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "meilleure indemnisation",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "10 ans à compter",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "compter de la consolidation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "pendant toute cette période",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à une réparation intégrale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déficit fonctionnel temporaire et permanent",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fonction du taux",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "survient après un traumatisme",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "manifeste par des douleurs",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte de mobilité et les",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "questions de victimes",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "peut durer plusieurs mois",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fixe le taux",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "aivf met à disposition",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "restez pas seul face",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "plus de 5 mois",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si vous avez souscrit",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "peut engager une procédure",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Syndrome douloureux régional complexe",
+    "importance": 93.556,
+    "relevance": 0.93556,
+    "confidence": 4.739400000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Syndrome_douloureux_régional_complexe"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 35.13216,
+    "relevance": 0.54894,
+    "confidence": 4.1598,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 20.78848,
+    "relevance": 0.32482,
+    "confidence": 3.8958,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 11.9412,
+    "relevance": 0.3317,
+    "confidence": 5.4702,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Expertise médicale",
+    "importance": 11.17512,
+    "relevance": 0.31042000000000003,
+    "confidence": 0.8242,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expertise_médicale"
+     ]
+    ]
+   },
+   {
+    "t": "Accident du travail",
+    "importance": 9.268559999999999,
+    "relevance": 0.25745999999999997,
+    "confidence": 1.9933999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_du_travail"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 7.73136,
+    "relevance": 0.21476,
+    "confidence": 2.1066,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Syndrome",
+    "importance": 6.066000000000001,
+    "relevance": 0.1685,
+    "confidence": 1.5695999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Syndrome"
+     ]
+    ]
+   },
+   {
+    "t": "Traumatisme psychologique",
+    "importance": 5.61528,
+    "relevance": 0.15598,
+    "confidence": 1.443,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Traumatisme_psychologique"
+     ]
+    ]
+   },
+   {
+    "t": "Fracture",
+    "importance": 5.0281920000000015,
+    "relevance": 0.13967200000000002,
+    "confidence": 2.5416,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fracture"
+     ]
+    ]
+   },
+   {
+    "t": "Douleur",
+    "importance": 4.28384,
+    "relevance": 0.26774,
+    "confidence": 3.9822,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Douleur"
+     ]
+    ]
+   },
+   {
+    "t": "AIVF",
+    "importance": 4.2528000000000015,
+    "relevance": 0.26580000000000004,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Association Victimes de France AIVF",
+    "importance": 3.55168,
+    "relevance": 0.22198,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Incapacité permanente en France",
+    "importance": 3.3449600000000004,
+    "relevance": 0.20906000000000002,
+    "confidence": 0.7182000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Incapacité_permanente_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Loi",
+    "importance": 2.7873792,
+    "relevance": 0.0774272,
+    "confidence": 0.7394000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi"
+     ]
+    ]
+   },
+   {
+    "t": "Diagnostic (médecine)",
+    "importance": 2.7376,
+    "relevance": 0.1711,
+    "confidence": 2.157,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Diagnostic_(médecine)"
+     ]
+    ]
+   },
+   {
+    "t": "Pathologie",
+    "importance": 2.03936,
+    "relevance": 0.12746,
+    "confidence": 2.3518,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Pathologie"
+     ]
+    ]
+   },
+   {
+    "t": "Loi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation",
+    "importance": 1.8397119999999998,
+    "relevance": 0.114982,
+    "confidence": 2.3137999999999996,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi_tendant_à_l'amélioration_de_la_situation_des_victimes_d'accidents_de_la_circulation_et_à_l'accélération_des_procédures_d'indemnisation"
+     ]
+    ]
+   },
+   {
+    "t": "Douleur chronique",
+    "importance": 1.7520000000000004,
+    "relevance": 0.10950000000000001,
+    "confidence": 1.2617999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Douleur_chronique"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 1.6742400000000002,
+    "relevance": 0.10464,
+    "confidence": 0.5538000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Inflammation",
+    "importance": 1.40608,
+    "relevance": 0.08788,
+    "confidence": 6.9194,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Inflammation"
+     ]
+    ]
+   },
+   {
+    "t": "Traumatisme crânien",
+    "importance": 1.3136,
+    "relevance": 0.08209999999999999,
+    "confidence": 4.257,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Traumatisme_crânien"
+     ]
+    ]
+   },
+   {
+    "t": "Invalidité en France",
+    "importance": 1.1664,
+    "relevance": 0.0729,
+    "confidence": 0.5714,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Invalidité_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Symptôme",
+    "importance": 1.1533760000000002,
+    "relevance": 0.07208600000000001,
+    "confidence": 1.8381999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Symptôme"
+     ]
+    ]
+   },
+   {
+    "t": "Médecine physique et de réadaptation",
+    "importance": 1.1411200000000001,
+    "relevance": 0.07132000000000001,
+    "confidence": 0.9926,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecine_physique_et_de_réadaptation"
+     ]
+    ]
+   },
+   {
+    "t": "Qualité de vie",
+    "importance": 0.9849599999999998,
+    "relevance": 0.06155999999999999,
+    "confidence": 1.4316,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Qualité_de_vie"
+     ]
+    ]
+   },
+   {
+    "t": "Infirmier",
+    "importance": 0.90912,
+    "relevance": 0.05682,
+    "confidence": 1.2604,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Infirmier"
+     ]
+    ]
+   },
+   {
+    "t": "Genou",
+    "importance": 0.8928,
+    "relevance": 0.0558,
+    "confidence": 1.3154,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Genou"
+     ]
+    ]
+   },
+   {
+    "t": "Séquelle",
+    "importance": 0.838976,
+    "relevance": 0.052435999999999997,
+    "confidence": 0.4584,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Séquelle"
+     ]
+    ]
+   },
+   {
+    "t": "Peau",
+    "importance": 0.7434879999999999,
+    "relevance": 0.046467999999999995,
+    "confidence": 2.4202,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Peau"
+     ]
+    ]
+   },
+   {
+    "t": "Entorse (médecine)",
+    "importance": 0.7227264,
+    "relevance": 0.0451704,
+    "confidence": 1.6918,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Entorse_(médecine)"
+     ]
+    ]
+   },
+   {
+    "t": "Accident médical",
+    "importance": 0.6168,
+    "relevance": 0.1542,
+    "confidence": 0.517,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Lésion (médecine)",
+    "importance": 0.60448,
+    "relevance": 0.03778,
+    "confidence": 0.5114,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Lésion_(médecine)"
+     ]
+    ]
+   },
+   {
+    "t": "Charge de la preuve (droit)",
+    "importance": 0.58312,
+    "relevance": 0.14578,
+    "confidence": 0.5602,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Charge_de_la_preuve_(droit)"
+     ]
+    ]
+   },
+   {
+    "t": "Garantie des accidents de la vie",
+    "importance": 0.5764,
+    "relevance": 0.1441,
+    "confidence": 0.4384,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Garantie_des_accidents_de_la_vie"
+     ]
+    ]
+   },
+   {
+    "t": "Budapest",
+    "importance": 0.5706400000000001,
+    "relevance": 0.14266,
+    "confidence": 0.9808,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Budapest"
+     ]
+    ]
+   },
+   {
+    "t": "GAV",
+    "importance": 0.5448000000000001,
+    "relevance": 0.13620000000000002,
+    "confidence": 0.3,
+    "links": []
+   },
+   {
+    "t": "Défense Solide",
+    "importance": 0.5316,
+    "relevance": 0.1329,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Sens (physiologie)",
+    "importance": 0.50776,
+    "relevance": 0.12694,
+    "confidence": 0.19963999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Sens_(physiologie)"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "algodystrophie\nindemnisation\naccident\nindemnisation algodystrophie\nalgodystrophie suite",
+  "desc_title": "algodystrophie\nindemnisation\naccident\nun accident\nexpertise\nexpertise médicale\npréjudice\nune algodystrophie\ncorporel\nalgodystrophie suite",
+  "h1": "algodystrophie\nindemnisation\naccident\nindemnisation pour algodystrophie\nune algodystrophie\naccident de la vie\nobtenir une indemnisation\nalgodystrophie suite\nindemnisation juste\nobtenir une indemnisation juste",
+  "h2": "algodystrophie\nindemnisation\naccident\nun accident\npréjudice\nexpertise\nexpertise médicale\ncorporel\naccident du travail\nindemnisation algodystrophie\naccident de la vie\ndommage corporel\nles préjudices\navocat spécialisé\nun avocat\nalgodystrophie suite\nindemnisation pour algodystrophie\nposte de préjudice\nindemnité\npréjudices corporels\nsuite à une opération\nfaire reconnaître\nles postes de préjudices\nopération chirurgicale\nquestions de victimes\nrestez pas seul face",
+  "content_basic": "algodystrophie\nindemnisation\nun accident\naccident\npréjudice\nune algodystrophie\naccident du travail\nséquelle\nexpertise\nexpertise médicale\nsyndrome douloureux régional complexe\ncorporel\ndommage corporel\nsuite à un accident\nles préjudices\nconsolidation\ntraumatisme\ndouleur chronique\navocat spécialisé\nun avocat\nmédecin expert\nindemniser\nmédecin conseil\nraideur\naccident médical\narrêt de travail\nposte de préjudice\nalgodystrophie peut\nles séquelles\ndfp\ninvalidité\narticulaire\nperte de mobilité\naprès un traumatisme\ndossier médical\nindemnisable\nprolonger",
+  "content_basic_w_ranges": "algodystrophie: 10-23x\nindemnisation: 1-18x\nun accident: 2-6x\naccident: 5-27x\npréjudice: 1-14x\nune algodystrophie: 1-3x\naccident du travail: 1-3x\nséquelle: 1-4x\nexpertise: 1-7x\nexpertise médicale: 1-4x\nsyndrome douloureux régional complexe: 1x\ncorporel: 1-9x\ndommage corporel: 1-6x\nsuite à un accident: 1x\nles préjudices: 1-5x\nconsolidation: 1-3x\ntraumatisme: 1-3x\ndouleur chronique: 1-2x\navocat spécialisé: 1-3x\nun avocat: 1-4x\nmédecin expert: 1-2x\nindemniser: 1-3x\nmédecin conseil: 1-2x\nraideur: 1-2x\naccident médical: 1-2x\narrêt de travail: 1x\nposte de préjudice: 1-2x\nalgodystrophie peut: 1-2x\nles séquelles: 1-2x\ndfp: 1x\ninvalidité: 1-2x\narticulaire: 1-2x\nperte de mobilité: 1x\naprès un traumatisme: 1x\ndossier médical: 1x\nindemnisable: 1x\nprolonger: 1x",
+  "content_extended": "indemnisation algodystrophie\naccident de la vie\naccident de la route\nobtenir une indemnisation\nalgodystrophie suite\nindemnisation pour algodystrophie\nindemnisation juste\nindemnité\nobtenir une indemnisation juste\nvictimes de france aivf\npréjudices corporels\nun accident de la route\nun accident du travail\nfaute médicale\nsouffrances endurées\ncontester\nmédecin conseil de victimes\nune faute\nraideur articulaire\ndéficit fonctionnel permanent\nfonctionnel temporaire\nsuite d’un accident\nvictime d’un accident\ntaux d’aipp\nentre l’accident\nsi l’algodystrophie\nsi l’algodystrophie est une complication\nsuite à une opération\nun accident de la circulation\ndroit médical\nréparation intégrale\nêtre indemnisé\ncertificat médical\ncette pathologie\ndéficit fonctionnel temporaire\nlien de causalité\nfaire reconnaître\nlors de l'expertise médicale\ndroit à indemnisation\nles postes de préjudices\nvictime peut\nconsolidation médicale\naccident de travail\ntraumatisme initial\nopération chirurgicale\nmeilleure indemnisation\n10 ans à compter\ncompter de la consolidation\npendant toute cette période\ndroit à une réparation intégrale\ndéficit fonctionnel temporaire et permanent\nfonction du taux\nsurvient après un traumatisme\nmanifeste par des douleurs\nperte de mobilité et les\nquestions de victimes\npeut durer plusieurs mois\nfixe le taux\naivf met à disposition\nrestez pas seul face\nplus de 5 mois\nsi vous avez souscrit\npeut engager une procédure",
+  "content_extended_w_ranges": "indemnisation algodystrophie: 1x\naccident de la vie: 1-5x\naccident de la route: 1-3x\nobtenir une indemnisation: 1x\nalgodystrophie suite: 1x\nindemnisation pour algodystrophie: 1x\nindemnisation juste: 1x\nindemnité: 1-2x\nobtenir une indemnisation juste: 1x\nvictimes de france aivf: 1x\npréjudices corporels: 1-2x\nun accident de la route: 1x\nun accident du travail: 1x\nfaute médicale: 1-2x\nsouffrances endurées: 1-3x\ncontester: 1-2x\nmédecin conseil de victimes: 1x\nune faute: 1-2x\nraideur articulaire: 1x\ndéficit fonctionnel permanent: 1x\nfonctionnel temporaire: 1x\nsuite d’un accident: 1x\nvictime d’un accident: 1x\ntaux d’aipp: 1x\nentre l’accident: 1x\nsi l’algodystrophie: 1x\nsi l’algodystrophie est une complication: 1x\nsuite à une opération: 1x\nun accident de la circulation: 1x\ndroit médical: 1x\nréparation intégrale: 1x\nêtre indemnisé: 1x\ncertificat médical: 1x\ncette pathologie: 1x\ndéficit fonctionnel temporaire: 1x\nlien de causalité: 1x\nfaire reconnaître: 1x\nlors de l'expertise médicale: 1x\ndroit à indemnisation: 1x\nles postes de préjudices: 1x\nvictime peut: 1x\nconsolidation médicale: 1x\naccident de travail: 1x\ntraumatisme initial: 1x\nopération chirurgicale: 1x\nmeilleure indemnisation: 1x\n10 ans à compter: 1x\ncompter de la consolidation: 1x\npendant toute cette période: 1x\ndroit à une réparation intégrale: 1x\ndéficit fonctionnel temporaire et permanent: 1x\nfonction du taux: 1x\nsurvient après un traumatisme: 1x\nmanifeste par des douleurs: 1x\nperte de mobilité et les: 1x\nquestions de victimes: 1x\npeut durer plusieurs mois: 1x\nfixe le taux: 1x\naivf met à disposition: 1x\nrestez pas seul face: 1x\nplus de 5 mois: 1x\nsi vous avez souscrit: 1x\npeut engager une procédure: 1x",
+  "entities": "Syndrome douloureux régional complexe\nDommage corporel\nAssurance\nAccident de la route\nExpertise médicale\nAccident du travail\nMédecin\nSyndrome\nTraumatisme psychologique\nFracture\nDouleur\nAIVF\nAssociation Victimes de France AIVF\nIncapacité permanente en France\nLoi\nDiagnostic (médecine)\nPathologie\nLoi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation\nDouleur chronique\nEndommagement\nInflammation\nTraumatisme crânien\nInvalidité en France\nSymptôme\nMédecine physique et de réadaptation\nQualité de vie\nInfirmier\nGenou\nSéquelle\nPeau\nEntorse (médecine)\nAccident médical\nLésion (médecine)\nCharge de la preuve (droit)\nGarantie des accidents de la vie\nBudapest\nGAV\nDéfense Solide\nSens (physiologie)"
+ },
+ "status": "ready",
+ "keyword": "indemnisation algodystrophie",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "0c3a94447ce4abe8",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "local": 3.4
+  },
+  "top_content_type": "educational",
+  "content_type_stats": {
+   "blog-post": 17.2,
+   "guide": 37.9,
+   "business": 13.8,
+   "landing-page": 6.9,
+   "short-answer": 13.8,
+   "educational": 58.6,
+   "other": 10.3,
+   "video": 10.3,
+   "social-media": 3.4,
+   "news": 3.4,
+   "case-study": 3.4
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/0c3a94447ce4abe8",
+ "share_url": "https://app.neuronwriter.com/analysis/share/0c3a94447ce4abe8/785fa349d05175de57bcb2b3fa3e4c254fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/0c3a94447ce4abe8/844b363771a6e0db40f34cde99fb4aff4fa16"
+}

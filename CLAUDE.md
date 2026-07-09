@@ -150,3 +150,105 @@ mettre à jour quand une action listée est traitée.
 Image `img/articles/accident-de-moto-indemnisation-nimes.jpg` = placeholder
 réutilisé (visuel moto générique) — à remplacer par un visuel spécifique au
 sujet dès que possible.
+
+Image `img/articles/indemnisation-erreur-chirurgicale.jpg` (id 29) = copie de
+`faute-chirurgicale-indemnisation-aix-en-provence.jpg` (pas de visuel dédié
+au moment de la rédaction) — à remplacer par un visuel spécifique dès que
+possible.
+
+Image `img/articles/obtenir-dossier-medical.jpg` (id 30) = copie de
+`erreur-medicale-que-faire.jpg` (pas de visuel dédié au moment de la
+rédaction) — à remplacer par un visuel spécifique dès que possible.
+
+Image `img/articles/procedure-cci-crci.jpg` (id 31, pilier) = copie de
+`bareme-cci-crci-accident-medical.jpg` (thématiquement proche mais issue
+d'un autre article) — à remplacer par un visuel dédié dès que possible.
+
+Image `img/articles/indemnisation-fracture-cheville-poignet-vertebre.jpg`
+(id 32) = copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun
+visuel dédié disponible) — à remplacer dès que possible.
+
+Image `img/articles/indemnisation-perte-oeil.jpg` (id 33) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer dès que possible.
+
+Image `img/articles/indemnisation-amputation.jpg` (id 34) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer dès que possible.
+
+Image `img/articles/indemnisation-algodystrophie-sdrc.jpg` (id 35) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer dès que possible.
+
+Image `img/articles/indemnisation-coup-du-lapin.jpg` (id 36) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer dès que possible.
+
+Image `img/articles/indemnisation-plexus-brachial.jpg` (id 37) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer dès que possible.
+
+Image `img/articles/indemnisation-tetraplegie.jpg` (id 39) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer dès que possible.
+
+Image `img/articles/indemnisation-hemiplegie.jpg` (id 40) = copie de
+`indemnisation-tetraplegie.jpg` (aucun visuel dédié disponible) — à
+remplacer dès que possible. Article par ailleurs bloqué (NW 77, sous le
+seuil de 80) — voir marqueur NEURONWRITER SCORE dans le fichier.
+
+Image `img/articles/indemnisation-coma-etat-vegetatif.jpg` (id 41) =
+copie de `indemnisation-tetraplegie.jpg` (aucun visuel dédié disponible)
+— à remplacer dès que possible.
+
+Image `img/articles/garantie-accidents-de-la-vie-gav.jpg` (id 42, pilier)
+= copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
+dédié disponible) — à remplacer par un visuel dédié dès que possible.
+
+Image `img/articles/indemnisation-accident-domestique.jpg` (id 43) =
+copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
+dédié disponible) — à remplacer dès que possible.
+
+Image `img/articles/indemnisation-accident-ski.jpg` (id 44) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer dès que possible.
+
+Image `img/articles/fgti-fonds-garantie-victimes.jpg` (id 47) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer par un visuel dédié dès que possible.
+
+Image `img/articles/porter-plainte-agression.jpg` (id 48) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer par un visuel dédié dès que possible.
+
+Image `img/articles/indemnisation-coups-et-blessures.jpg` (id 49) =
+copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
+dédié disponible) — à remplacer par un visuel dédié dès que possible.
+
+Image `img/articles/indemnisation-pieton-accident.jpg` (id 50) =
+copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
+dédié disponible) — à remplacer par un visuel dédié dès que possible.
+
+Image `img/articles/indemnisation-cycliste-accident.jpg` (id 51) =
+copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
+dédié disponible) — à remplacer par un visuel dédié dès que possible.
+
+Image `img/articles/indemnisation-accident-trottinette.jpg` (id 52) =
+copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
+dédié disponible) — à remplacer par un visuel dédié dès que possible.
+
+Image `img/articles/loi-badinter-indemnisation.jpg` (id 53, pilier) =
+copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
+dédié disponible) — à remplacer par un visuel dédié dès que possible.
+
+Image `img/articles/accident-delit-de-fuite-indemnisation.jpg` (id 54) =
+copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
+dédié disponible) — à remplacer par un visuel dédié dès que possible.
+
+Image `img/articles/indemnisation-chute-rue-escalier.jpg` (id 45) =
+copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
+dédié disponible) — à remplacer dès que possible.
+
+Image `img/articles/indemnisation-civi.jpg` (id 46, pilier) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer par un visuel dédié dès que possible.

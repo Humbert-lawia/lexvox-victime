@@ -1,0 +1,2447 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quelles sont les conséquences possibles d'un coma suite à un accident de voiture ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   },
+   {
+    "q": "Quel est le montant de l'indemnisation pour un accident corporel ?"
+   },
+   {
+    "q": "Quelle est l'indemnisation possible pour une victime d'un accident médical ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quelles sont les conséquences possibles d'un coma suite à un accident (notamment de voiture) et comment sont-elles indemnisées ?": {
+    "importance": 10
+   },
+   "Quels sont les différents préjudices indemnisables après un accident corporel, y compris en cas de coma ou d'état végétatif ?": {
+    "importance": 10
+   },
+   "Comment est calculé le montant de l'indemnisation pour un accident corporel ou un coma, et existe-t-il des barèmes ?": {
+    "importance": 9
+   },
+   "Quelle est l'indemnisation possible pour une victime d'un accident médical ou d'un accident de la vie ?": {
+    "importance": 8
+   },
+   "Quelles sont les démarches à entreprendre pour obtenir une indemnisation après un accident ?": {
+    "importance": 7
+   },
+   "Qui peut aider une victime ou ses proches à obtenir une juste indemnisation (avocat, association) ?": {
+    "importance": 7
+   },
+   "Qu'est-ce qu'un traumatisme crânien et comment est-il indemnisé ?": {
+    "importance": 6
+   },
+   "Quels sont les délais pour demander et recevoir une indemnisation après un accident ?": {
+    "importance": 6
+   },
+   "Peut-on refuser une offre d'indemnisation de l'assureur et comment optimiser l'indemnisation ?": {
+    "importance": 6
+   },
+   "Quelles sont les différentes phases d'un coma et les séquelles fréquentes après l'éveil ?": {
+    "importance": 5
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Combien de temps dure la procédure d’indemnisation ?"
+   },
+   {
+    "q": "Comment défendre l’indemnisation d’une victime d’un traumatisme crânien ?"
+   },
+   {
+    "q": "Comment est calculé le montant de l’indemnisation ?"
+   },
+   {
+    "q": "Comment est calculée l'indemnisation d’un accident de la vie ?"
+   },
+   {
+    "q": "Comment faire la demande d'indemnisation à l'assureur à la suite d'un accident de la route ?"
+   },
+   {
+    "q": "Comment faire prendre en charge mon traumatisme crânien ?"
+   },
+   {
+    "q": "Comment faire reconnaître son droit à réparation des dommages corporels ?"
+   },
+   {
+    "q": "Comment prouver les préjudices dans un cas de coma prolongé ?"
+   },
+   {
+    "q": "Comment se déroule l’expertise médicale ?"
+   },
+   {
+    "q": "Dois-je faire un recours pour les conséquences de mon traumatisme crânien ?"
+   },
+   {
+    "q": "Indemnisation, comment percevoir une provision après un accident ?"
+   },
+   {
+    "q": "L'état végétatif exclut-il l'indemnisation des souffrances endurées ?"
+   },
+   {
+    "q": "Le compte rendu du chirurgien suffira pour son dossier d’indemnisation même s’il n’évoque que le poignet et le traumatisme crânien ?"
+   },
+   {
+    "q": "Le monsieur semblait être déjà au téléphone avant même l’accident de voiture, je l’ai signalé au gendarme lors de l’audition, mais il ne la pas notée, ma question est-ce que sachant que je souffre encore de ma côte cassée et que je ne connais pas entièrement mes droits puis-je porter plainte contre le véhicule qui nous a heurté pour excès de vitesse et pour le téléphone en main ?"
+   },
+   {
+    "q": "Peut-on accepter ou refuser une offre d'indemnisation à la suite d'un accident de la route ?"
+   },
+   {
+    "q": "Peut-on obtenir une avance sur l’indemnisation ?"
+   },
+   {
+    "q": "Pourquoi connaître ses droits en matière d’indemnisation ?"
+   },
+   {
+    "q": "Pourquoi faire appel à un avocat en cas de coma végétatif ?"
+   },
+   {
+    "q": "Quel est le délai pour demander une indemnisation à la suite d'un accident de la route ?"
+   },
+   {
+    "q": "Quelle différence entre une assurance classique et la Garantie Accidents de la Vie (GAV) ?"
+   },
+   {
+    "q": "Quelle démarche effectuer et quels sont les préjudices indemnisés ?"
+   },
+   {
+    "q": "Quelle est l’importance de l’expertise médicale ?"
+   },
+   {
+    "q": "Quelle indemnisation pour une victime d’un dommage corporel ?"
+   },
+   {
+    "q": "Quelle loi s’applique à l’indemnisation après un coma végétatif ?"
+   },
+   {
+    "q": "Quelle victime peut être indemnisée à la suite d'un accident de la route ?"
+   },
+   {
+    "q": "Quelles démarches effectuer après un accident ?"
+   },
+   {
+    "q": "Quelles sont les différentes règles de l’indemnisation après un accident ?"
+   },
+   {
+    "q": "Quels droits à indemnisation après un accident de la route (loi Badinter) ?"
+   },
+   {
+    "q": "Quels délais pour être indemnisé ?"
+   },
+   {
+    "q": "Quels postes de préjudice sont indemnisables ?"
+   },
+   {
+    "q": "Quels préjudices sont indemnisables ?"
+   },
+   {
+    "q": "Quels sont les accidents qui peuvent entraîner la réparation de tous les dommages subis ?"
+   },
+   {
+    "q": "Quels sont les degrés du traumatisme crânien ?"
+   },
+   {
+    "q": "Quels sont les délais pour recevoir l’indemnisation ?"
+   },
+   {
+    "q": "Quels sont les préjudices indemnisables à la suite d'un accident de la route ?"
+   },
+   {
+    "q": "Quels sont les éléments du dommage corporel pris en compte dans l’indemnisation de la victime ?"
+   },
+   {
+    "q": "Qui peut demander une indemnisation en cas de coma végétatif ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un accident de la vie ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un coma végétatif après un accident de la route ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un traumatisme crânien ?"
+   },
+   {
+    "q": "S’il est difficile d’apprécier le degré de souffrance pour ces victimes, peut-on pour autant nier son existence au motif que l'indemnisation de la douleur suppose la conscience de la victime ?"
+   },
+   {
+    "q": "Victime d’un accident de la route, quelle indemnisation ?"
+   },
+   {
+    "q": "Vous posez-vous encore des questions sur votre indemnisation ?"
+   },
+   {
+    "q": "peut elle être indemnisée de sa douleur ?"
+   },
+   {
+    "q": "peut-elle être indemnisée de sa douleur ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.briant-avocat.fr/fr/actualites-juridiques-accident/id-66-l-etat-vegetatif-exclut-il-l-indemnisation-des-souffrances-endurees-",
+   "title": "L'indemnisation des souffrances endurées",
+   "desc": "Ma&icirc;tre Briant pr&eacute;cise si une victime dans le coma ou en &eacute;tat v&eacute;g&eacute;tatif chronique peut-elle &ecirc;tre indemnis&eacute;e des souffrances endur&eacute;es.",
+   "headers": [
+    [
+     "h1",
+     "L'état végétatif exclut-il l'indemnisation des souffrances endurées ?"
+    ],
+    [
+     "h2",
+     "L'indemnisation des souffrances endurées par une victime en état végétatif chronique"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 11,
+   "word_count": 821,
+   "content_len": 5290
+  },
+  {
+   "rank": 2,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/indemnisation-accident-de-la-route/traumatisme-cranien-indemnisation",
+   "title": "Traumatisme Crânien Indemnisation - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France vous aide à obtenir une indemnisation après un traumatisme crânien.",
+   "headers": [
+    [
+     "h1",
+     "Traumatisme Crânien Indemnisation"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Traumatisme crânien & indemnisation"
+    ],
+    [
+     "h2",
+     "Indemnisation du Traumatisme Crânien : explications"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 32,
+   "word_count": 3195,
+   "content_len": 20369
+  },
+  {
+   "rank": 3,
+   "url": "https://amespero.com/victime-accident-corporel/",
+   "title": "Victime d'un accident corporel, l'avocat spécialiste vous aide",
+   "desc": "Les cas d'accident corporel exposés, ont été choisis pour permettre à chacun de comprendre les bénéfices du recours rapide à un avocat spécialisé en droit du Dommage Corporel, en comparant l’indemnisation proposée par l’assureur et celle obtenue par notre cabinet.",
+   "headers": [
+    [
+     "h1",
+     "Nos victoires aux côtés des victimes, l’actualité du cabinet et les cas particuliers"
+    ]
+   ],
+   "content_score": 33,
+   "readability": 31,
+   "word_count": 1077,
+   "content_len": 6431
+  },
+  {
+   "rank": 4,
+   "url": "https://publications-prairial.fr/bacaly/index.php?id=725",
+   "title": "Réparation des préjudices subis par une personne dans le coma – Bulletin des arrêts de la Cour d'appel de Lyon",
+   "desc": "Créée par l’équipe de recherche de droit privé Louis Josserand de l’Université Jean Moulin Lyon 3, en partenariat avec la cour d’appel de Lyon et l’ordre des avocats de Lyon, la revue BACALY - Bulletin des Arrêts de la Cour d’Appel de Lyon, rassemble, à chaque numéro, une sélection des arrêts les plus importants rendus par la cour d’appel, des chroniques annuelles de jurisprudence et une étude de données quantitative.",
+   "headers": [
+    [
+     "h1",
+     "Menu principal"
+    ],
+    [
+     "h1",
+     "Réparation des préjudices subis par une personne dans le coma"
+    ],
+    [
+     "h2",
+     "Index"
+    ],
+    [
+     "h2",
+     "Texte"
+    ],
+    [
+     "h2",
+     "Document annexe"
+    ],
+    [
+     "h2",
+     "Citer cet article"
+    ],
+    [
+     "h2",
+     "Auteur"
+    ]
+   ],
+   "content_score": 23,
+   "readability": 19,
+   "word_count": 952,
+   "content_len": 5956
+  },
+  {
+   "rank": 5,
+   "url": "https://www.cabello-avocats.fr/indemnisation/souffrances-endurees/",
+   "title": "Souffrances endurées : indemnisation même en état végétatif",
+   "desc": "Le barème 2013 garantit une juste indemnisation des préjudices futurs. Taux à 1,20 % et tables INSEE récentes pour préserver les droits des victimes.",
+   "headers": [
+    [
+     "h1",
+     "L’état végétatif n’exclut aucun chef d’indemnisation, notamment celui des souffrances endurées."
+    ],
+    [
+     "h2",
+     "Prendre rendez-vous"
+    ]
+   ],
+   "content_score": 28,
+   "readability": 26,
+   "word_count": 214,
+   "content_len": 1450
+  },
+  {
+   "rank": 6,
+   "url": "https://www.indemnisation.com/indemnisation-des-accidents-de-la-vie/",
+   "title": "Indemnisation des accidents de la vie : barèmes et exemples",
+   "desc": "Simulez votre indemnisation facilement grâce à nos outils, conseils et exemples concrets. Indemnsation.com vous accompagne dans vos démarches",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation des accidents de la vie"
+    ],
+    [
+     "h2",
+     "Indemnisation des accidents de la vie"
+    ],
+    [
+     "h2",
+     "Les barèmes d'indemnisation pour les accidents de la vie"
+    ],
+    [
+     "h2",
+     "Tableau d'indemnisation des accidents de la vie"
+    ],
+    [
+     "h2",
+     "FAQ – Tout savoir sur l’indemnisation des accidents de la vie"
+    ],
+    [
+     "h2",
+     "En conclusion"
+    ],
+    [
+     "h2",
+     "🚀 Nos réponses en vidéo"
+    ]
+   ],
+   "content_score": 58,
+   "readability": 35,
+   "word_count": 3442,
+   "content_len": 22155
+  },
+  {
+   "rank": 7,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2677",
+   "title": "Accident de la route : indemnisation des victimes de dommages corporels | Service Public",
+   "desc": "La victime non conductrice d'un accident de la circulation (piéton ou passager), doit être indemnisée. Pour le conducteur, il y a des règles particulières.",
+   "headers": [
+    [
+     "h1",
+     "Accident de la route : indemnisation des victimes de dommages corporels"
+    ],
+    [
+     "h2",
+     "Quelle victime peut être indemnisée à la suite d'un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Quels sont les préjudices indemnisables à la suite d'un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Comment faire la demande d'indemnisation à l'assureur à la suite d'un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Quel est le délai pour demander une indemnisation à la suite d'un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Peut-on accepter ou refuser une offre d'indemnisation à la suite d'un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Services en ligne et formulaires"
+    ],
+    [
+     "h2",
+     "Questions ? Réponses !"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 60,
+   "readability": 43,
+   "word_count": 1953,
+   "content_len": 12426
+  },
+  {
+   "rank": 8,
+   "url": "https://www.collardetassocies.org/prejudices-indemnisables-avocat/",
+   "title": "Indemnisation des dommages d’une victime d’accident corporel et Préjudices indemnisables - Jehanne Collard et Associés",
+   "desc": "Les avocats du cabinet Jehanne Collard et Associés, spécialisés en droit du dommage corporel, répondent ici aux questions les plus couramment rencontrées sur",
+   "headers": [
+    [
+     "h1",
+     "Indemnsiation des dommages d'une victime d'accident corporel"
+    ],
+    [
+     "h2",
+     "L'indemnisation du préjudice corporel"
+    ],
+    [
+     "h2",
+     "L'indemnisation du préjudice corporel"
+    ],
+    [
+     "h2",
+     "Les préjudices corporels et l'expertise médicale"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "quels sont les prejudices indemnisables ?"
+    ],
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h2",
+     "quels sont les prejudices indemnisables ?"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 25,
+   "word_count": 1868,
+   "content_len": 12281
+  },
+  {
+   "rank": 9,
+   "url": "https://hadrienmuller-avocat.com/le-processus-pour-obtenir-l-indemnisation-de-son-prejudice-corporel-en-matiere-d-accident-de-la-circulation-d-accident-medical-d-agression-d-accident-de-la-vie-privee-droit-a-reparation-examen-medical/",
+   "title": "Dommage corporel, le processus d'indemnisation - Hadrien Muller",
+   "desc": "Quelle que soit l'origine de l'accident corporel, la phase d'indemnisation suppose trois éléments.",
+   "headers": [
+    [
+     "h2",
+     "Avocat spécialisé en préjudice corporel"
+    ],
+    [
+     "h2",
+     "Diplômé en évaluation des traumatismes crâniens"
+    ],
+    [
+     "h1",
+     "Dommage corporel, le processus d’indemnisation"
+    ],
+    [
+     "h2",
+     "Table des matières"
+    ],
+    [
+     "h2",
+     "Maître Hadrien MULLER"
+    ],
+    [
+     "h2",
+     "Une réponse"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 24,
+   "word_count": 1346,
+   "content_len": 9052
+  },
+  {
+   "rank": 10,
+   "url": "https://association-aivf-faq.fr/grand-handicap/handicap-moteur/coma-vegetatif",
+   "title": "Coma végétatif - Association Victimes de France AIVF",
+   "desc": "Coma végétatif suite à un accident corporel, indemnisation du préjudice, droit commun ou contractuel, grand handicap",
+   "headers": [
+    [
+     "h1",
+     "Coma végétatif"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Coma végétatif après un accident de la route"
+    ],
+    [
+     "h2",
+     "Questions concernant le coma végétatif suite à un accident corporel"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 48,
+   "word_count": 1431,
+   "content_len": 8949
+  },
+  {
+   "rank": 11,
+   "url": "https://www.avocat-aoun.fr/letat-vegetatif-exclut-il-lindemnisation-des-souffrances-endurees%E2%80%89/",
+   "title": "L’état végétatif exclut-il d'indemniser la souffrance ? | Cabinet Estelle Aoun",
+   "desc": "En état végétatif ou dans le coma, une personne peut souffrir. Pour les tribunaux, cet état de conscience altérée ne doit pas empêcher l'indemnisation de la douleur.",
+   "headers": [],
+   "content_score": 20,
+   "readability": 29,
+   "word_count": 387,
+   "content_len": 2384
+  },
+  {
+   "rank": 12,
+   "url": "https://www.justice-corporelle.fr/blog/prejudice-coma/",
+   "title": "Le préjudice lié au coma et aux états végétatifs persistants -",
+   "desc": "L’indemnisation du préjudice lié au coma doit couvrir l’ensemble des préjudices subis par la victime et sa famille, incluant les soins médicaux, la perte d’autonomie et l’impact psychologique sur les proches.",
+   "headers": [
+    [
+     "h1",
+     "Le préjudice lié au coma et aux états végétatifs persistants : indemnisation et droits des victimes"
+    ],
+    [
+     "h2",
+     "L’indemnisation du préjudice lié au coma doit couvrir l’ensemble des préjudices subis par la victime et sa famille, incluant les soins médicaux, la perte d’autonomie et l’impact psychologique sur les "
+    ],
+    [
+     "h2",
+     "Recent Posts"
+    ],
+    [
+     "h2",
+     "Recent Comments"
+    ],
+    [
+     "h2",
+     "Archives"
+    ],
+    [
+     "h2",
+     "Categories"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 35,
+   "word_count": 1058,
+   "content_len": 6887
+  },
+  {
+   "rank": 13,
+   "url": "https://www.coppet-avocats.fr/actualites/accidents-de-la-vie-privee/gav-accident-vie-indemnisation/",
+   "title": "Garantie des accidents de la vie (GAV) : quelle indemnisation après un accident de la vie ?",
+   "desc": "Un accident de la vie privée correspond à tout accident qui peut vous arriver dans votre vie privée, en dehors d’un accident de la circulation. L’accident qui se produit dans le cadre professionnel est quant à lui, un accident du travail. Les accidents de la vie représentent un risque majeur du quotidien : chute, brûlure, blessure domestique, accident de sport ou de loisir…, autant de situations qui peuvent causer des préjudices importants sans qu’un tiers responsable soit identifiable. En fonction des circonstances de votre accident de la vie, à quelle indemnisation prétendre ?",
+   "headers": [
+    [
+     "h1",
+     "GAV : quelle indemnisation après un accident de la vie ?"
+    ],
+    [
+     "h2",
+     "Accident de la vie : deux cas d’indemnisation possibles"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’une Garantie des Accidents de la Vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "Indemnisation par une GAV : principes essentiels"
+    ],
+    [
+     "h2",
+     "Évaluation de l’indemnisation d’un accident de la vie privée"
+    ],
+    [
+     "h2",
+     "Procédure d’indemnisation d’un accident de la vie privée"
+    ],
+    [
+     "h2",
+     "Comment obtenir une juste indemnisation suite à votre accident ?"
+    ],
+    [
+     "h2",
+     "Accident de la vie privée : décès de la victime"
+    ],
+    [
+     "h2",
+     "En résumé :"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 26,
+   "word_count": 3155,
+   "content_len": 21371
+  },
+  {
+   "rank": 14,
+   "url": "https://www.benezra.fr/calcul-negociation-indemnisation-victime-accident.html",
+   "title": "Quels préjudices corporels indemnisables après un accident de la route ?",
+   "desc": "Après un accident de la route, les victimes doivent être indemnisées... Mais quels préjudices corporels sont indemnisables ?",
+   "headers": [
+    [
+     "h1",
+     "L’indemnisation que VOUS AVEZ LE DROIT DE RÉCLAMER APRÈS UN ACCIDENT DE LA ROUTE"
+    ],
+    [
+     "h2",
+     "1° Ce que beaucoup de victimes de savent pas ?"
+    ],
+    [
+     "h2",
+     "2° Le cas réel qui dit tout : 134.000 ou 650.000 euros ?"
+    ],
+    [
+     "h2",
+     "3° Le principe que tout dossier doit respecter : l’indemnisation intégrale !"
+    ],
+    [
+     "h2",
+     "4° Les provisions : l’arme que vous devez utiliser sans attendre !"
+    ],
+    [
+     "h2",
+     "5° Les postes que les assureurs sous-évaluent systématiquement, et comment ils sont réellement calculés"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "8° Pourquoi Benezra avocats et pas un autre ?"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 32,
+   "word_count": 3814,
+   "content_len": 24993
+  },
+  {
+   "rank": 15,
+   "url": "https://www.levert-avocats.fr/accident-de-la-route/",
+   "title": "Avocat accident de la route — indemnisation victime | LEVERT AVOCATS",
+   "desc": "Victime d'un accident de la circulation ? Maître LEVERT, avocat exclusivement dédié aux victimes, défend conducteurs, passagers, piétons et cyclistes sur tout le territoire national.",
+   "headers": [
+    [
+     "h2",
+     "Vos intérêts, notre mission pour protéger vos droits"
+    ],
+    [
+     "h2",
+     "LEVERT AVOCATS"
+    ],
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Vous êtes victime d’un"
+    ],
+    [
+     "h1",
+     "accident de la route"
+    ],
+    [
+     "h2",
+     "Votre droit à indemnisation"
+    ],
+    [
+     "h2",
+     "Notre accompagnement à l'expertise médicale"
+    ],
+    [
+     "h2",
+     "Chiffrage des préjudices et négociation avec l'assurance"
+    ],
+    [
+     "h2",
+     "Saisir le juge en cas de litige avec l'assurance"
+    ],
+    [
+     "h2",
+     "Pourquoi choisir le cabinet Levert : humanité, expertise, transparence"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 39,
+   "word_count": 1538,
+   "content_len": 10199
+  },
+  {
+   "rank": 16,
+   "url": "https://www.groupama.fr/garantie-accidents-vie-gav/conseils/accident-corporel-indemnisation/",
+   "title": "Montant d'indemnisation pour un accident corporel - Groupama",
+   "desc": "Découvrez quel est le montant de l'indemnisation à la suite d’un accident corporel ou le plafond d’indemnisation au titre des dommages corporels.",
+   "headers": [
+    [
+     "h1",
+     "Quel est le montant de l'indemnisation suite à un accident corporel ?"
+    ],
+    [
+     "h2",
+     "Qu'est-ce qui est considéré comme un accident corporel ?"
+    ],
+    [
+     "h2",
+     "Qui peut indemniser un accident corporel ?"
+    ],
+    [
+     "h2",
+     "Comment est calculée l'indemnisation pour un préjudice corporel ?"
+    ],
+    [
+     "h2",
+     "Exemples de montants d'indemnisation pour des dommages corporels"
+    ],
+    [
+     "h2",
+     "Quel est le plafond du montant garanti au titre des dommages corporels ?"
+    ],
+    [
+     "h2",
+     "Comment être indemnisé en cas d'accident corporel ?"
+    ],
+    [
+     "h2",
+     "Découvrez notre offre Garantie Accidents de la Vie (GAV)"
+    ],
+    [
+     "h2",
+     "Découvrez nos infos et conseils prévoyance"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 32,
+   "word_count": 1943,
+   "content_len": 12486
+  },
+  {
+   "rank": 17,
+   "url": "https://www.instagram.com/reel/DPtJKkXkbjB/",
+   "title": "Instagram",
+   "desc": "90 likes, 4 comments - maitre_bem le  October 12, 2025: \"⚖️ Indemnisation des victimes de préjudices corporels : que prévoit la loi ?\n\nLes victimes de préjudices corporels peuvent souvent être indemnisées bien au-delà de ce qu’elles imaginent.\n\n➡️ Deux voies existent pour fixer l’indemnité :\n\n 1️⃣ Amiable : l’assurance mandate son médecin expert.\n 2️⃣ Judiciaire : un juge désigne un médecin expert.\n\n⚠️ Problème : le médecin de l’assurance peut être en conflit d’intérêts, car la compagnie cherche rarement à indemniser totalement la victime.\n\n👉 Solution : se faire accompagner par son propre médecin expert et par un avocat.\n\n ➡️ Leurs honoraires sont pris en charge, en tout ou partie, par l’assurance.\n\nLa nomenclature Dintilhac (2005) recense 20 postes de préjudices indemnisables :\npréjudices extra-patrimoniaux (souffrances, troubles psychologiques, préjudice sexuel…),\n\npréjudices patrimoniaux (adaptation du logement, véhicule, aide humaine, perte de gains…).\n\n⏳ Prescription : 10 ans à compter de la consolidation (stabilisation des séquelles).\n\n⚠️ En pratique, une bonne défense est indispensable pour obtenir une indemnisation juste et complète de l’ensemble des préjudices subis.\n\n#PréjudicesCorporels #Indemnisation #Justice #Avocat #Accident #MaitreBem #Apprendresurtiktok #Assurance\". ",
+   "headers": [],
+   "content_score": 10,
+   "readability": 43,
+   "word_count": 259,
+   "content_len": 1744
+  },
+  {
+   "rank": 18,
+   "url": "https://www.village-justice.com/articles/necessaire-conscience-etat-sante-victime-pour-indemnisation-prejudice-angoisse,48665.html",
+   "title": "La nécessaire conscience de l'état de santé de la victime pour l'indemnisation du préjudice d'angoisse de mort imminente. Par Caroline Carré-Paupart, Avocat.",
+   "desc": "Le pourvoi en cassation : demande d'indemnisation du préjudice d'angoisse de mort imminente. La Cour de cassation rappelle que le préjudice d'angoisse de mort ne doit pas être confondu avec les souffrances endurées.",
+   "headers": [
+    [
+     "h1",
+     "La nécessaire conscience de l’état de santé de la victime pour l’indemnisation du préjudice d’angoisse de mort imminente."
+    ],
+    [
+     "h2",
+     "Le pourvoi en cassation : demande d’indemnisation du préjudice d’angoisse de mort imminente."
+    ],
+    [
+     "h2",
+     "La Cour de cassation rappelle que le préjudice d’angoisse de mort ne doit pas être confondu avec les souffrances endurées."
+    ],
+    [
+     "h2",
+     "Interagir avec l'auteur !"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 21,
+   "word_count": 2144,
+   "content_len": 13757
+  },
+  {
+   "rank": 19,
+   "url": "https://www.nathanhazzan-avocat.fr/les-demarches-a-suivre-pour-etre-indemnise-apres-un-accident-corporel/",
+   "title": "Dommage corporel : les étapes pour une indemnisation | Nathan Hazzan",
+   "desc": "Accident corporel, agression... Découvrez les démarches à suivre pour obtenir une expertise médicale et une indemnisation complète.",
+   "headers": [
+    [
+     "h1",
+     "Les démarches à suivre pour être indemnisé après un accident corporel"
+    ],
+    [
+     "h2",
+     "1. Faire constater les blessures dès le début"
+    ],
+    [
+     "h2",
+     "2. Identifier le bon interlocuteur"
+    ],
+    [
+     "h2",
+     "3. Se faire assister rapidement"
+    ],
+    [
+     "h2",
+     "4. Préparer l’expertise médicale"
+    ],
+    [
+     "h2",
+     "5. Obtenir l’indemnisation intégrale des préjudices"
+    ],
+    [
+     "h2",
+     "6. En cas de désaccord : saisir le juge"
+    ],
+    [
+     "h2",
+     "Se faire indemniser : un droit, pas une faveur"
+    ]
+   ],
+   "content_score": 43,
+   "readability": 52,
+   "word_count": 736,
+   "content_len": 4772
+  },
+  {
+   "rank": 20,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/bareme-calcul-indemnisation-accident/bareme-indemnisation-accident-de-la-route",
+   "title": "Barème indemnisation accident de la route - Association Victimes de France AIVF",
+   "desc": "Découvrez le barème d'indemnisation pour les accidents de la route avec l'aide de l'Association Aide Victimes France, experts en droit routier.",
+   "headers": [
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h1",
+     "Barème d’indemnisation d’un accident de la route"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Barème d’indemnisation accident de la route : l’essentiel"
+    ],
+    [
+     "h2",
+     "Barème d’indemnisation accident de la route : explications essentielles"
+    ],
+    [
+     "h2",
+     "Barème d’indemnisation et loi Badinter"
+    ],
+    [
+     "h2",
+     "Barème d’indemnisation et victime d’un accident de la route"
+    ],
+    [
+     "h2",
+     "Conseil de l’Association AIVF aux victimes"
+    ],
+    [
+     "h2",
+     "Barème indicatif des principaux postes de préjudice"
+    ],
+    [
+     "h2",
+     "À retenir absolument"
+    ],
+    [
+     "h2",
+     "⚖️ Jurisprudence —Barème d’indemnisation (accident de la route)"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 52,
+   "word_count": 1571,
+   "content_len": 9588
+  },
+  {
+   "rank": 21,
+   "url": "https://www.youtube.com/watch?v=i6xir1RYjT0",
+   "title": "Replay - Webinaire \"Accident médical : se faire indemniser sans faire de procès\" - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Replay - Webinaire \"Accident médical : se faire indemniser sans faire de procès\""
+    ],
+    [
+     "h1",
+     "Replay - Webinaire \"Accident médical : se faire indemniser sans faire de procès\""
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 15,
+   "readability": 61,
+   "word_count": 256,
+   "content_len": 1552
+  },
+  {
+   "rank": 22,
+   "url": "https://www.securite-routiere.gouv.fr/accompagnement-des-victimes-de-la-route/recours-aux-assurances/indemnisation",
+   "title": "Indemnisation | Sécurité Routière",
+   "desc": "Le plus souvent, en cas d’accident de la circulation, un accord est trouvé entre la victime ou ses proches et l’assureur. Quelle que soit la nature du dommage, dans le cas où la responsabilité n’est pas contestée et le dommage entièrement quantifié, l’assureur qui garantit la responsabilité civile d’un véhicule terrestre à moteur est tenu de présenter une offre d’indemnité dans un délai de trois mois.",
+   "headers": [],
+   "content_score": 10,
+   "readability": 44,
+   "word_count": 87,
+   "content_len": 545
+  },
+  {
+   "rank": 23,
+   "url": "https://victime-info.fr/indemnisation/dossiers/traumatisme-cranien/eveil-coma-traumatisme-cranien-indemnisation",
+   "title": "Éveil de coma après traumatisme crânien : parcours et indemnisation | victime-info.fr",
+   "desc": "Éveil de coma après un traumatisme crânien : phases de réveil, rééducation, droits à indemnisation et démarches. Guide complet pour les victimes et familles.",
+   "headers": [
+    [
+     "h1",
+     "Éveil de coma après traumatisme crânien : parcours de réveil et indemnisation"
+    ],
+    [
+     "h2",
+     "Sommaire"
+    ],
+    [
+     "h2",
+     "Comprendre le coma après un traumatisme crânien"
+    ],
+    [
+     "h2",
+     "Les différentes phases de l’éveil de coma"
+    ],
+    [
+     "h2",
+     "L’unité d’éveil de coma : rôle et fonctionnement"
+    ],
+    [
+     "h2",
+     "Rééducation et réadaptation après l’éveil"
+    ],
+    [
+     "h2",
+     "Séquelles fréquentes après l’éveil de coma"
+    ],
+    [
+     "h2",
+     "Indemnisation de la victime de traumatisme crânien après un coma"
+    ],
+    [
+     "h2",
+     "Les postes de préjudice indemnisables après un éveil de coma"
+    ],
+    [
+     "h2",
+     "Démarches pour la famille pendant le coma"
+    ],
+    [
+     "h2",
+     "Protection juridique de la victime dans le coma"
+    ],
+    [
+     "h2",
+     "La consolidation après un traumatisme crânien grave"
+    ],
+    [
+     "h2",
+     "Les professionnels indispensables pour une juste indemnisation"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur l’éveil de coma et l’indemnisation"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Conclusion : protéger les droits de la victime dès le coma"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 64,
+   "readability": 30,
+   "word_count": 5178,
+   "content_len": 33708
+  },
+  {
+   "rank": 24,
+   "url": "https://www.rocheblave.com/avocat/quelle-indemnisation-en-cas-daccident/",
+   "title": "Quelle indemnisation en cas d'accident ? Avocat Spécialiste en Droit du Travail et Droit de la Sécurité Sociale | Eric ROCHEBLAVE",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Quelle indemnisation en cas d’accident ?"
+    ],
+    [
+     "h2",
+     "Quelle indemnisation en cas d’accident de la route ?"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 13,
+   "word_count": 475,
+   "content_len": 3252
+  },
+  {
+   "rank": 25,
+   "url": "https://www.justiweb.fr/decisions/6a2bfb00cdc6046d470d94c5",
+   "title": "Quelles sont les conditions d'indemnisation d'une victime d'accident de la circulation par son assureur ? — Justiweb",
+   "desc": "La victime d'un accident de la circulation a droit à une indemnisation de son préjudice corporel, conformément aux dispositions de la loi du 5 juillet 1985. L'assureur est tenu de verser une provision",
+   "headers": [
+    [
+     "h1",
+     "Tribunal judiciaire, chambre 1, 11 juin 2026 — n° 25/01233"
+    ],
+    [
+     "h2",
+     "Synthèse de la décision"
+    ],
+    [
+     "h2",
+     "Articles cités"
+    ],
+    [
+     "h2",
+     "Exposé du litige"
+    ],
+    [
+     "h2",
+     "Motivations de la décision"
+    ],
+    [
+     "h2",
+     "Dispositif"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Une question similaire ? Posez-la à Justiweb"
+    ],
+    [
+     "h2",
+     "Connectez ou Inscrivez-vous"
+    ]
+   ],
+   "content_score": 34,
+   "readability": 12,
+   "word_count": 2872,
+   "content_len": 18343
+  },
+  {
+   "rank": 26,
+   "url": "https://www.youtube.com/watch?v=zvDD30lThrc",
+   "title": "PROVISION - CONSOLIDATION : COMMENT PERCEVOIR UNE INDEMNISATION APRES UN ACCIDENT ? - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "PROVISION - CONSOLIDATION : COMMENT PERCEVOIR UNE INDEMNISATION APRES UN ACCIDENT ?"
+    ],
+    [
+     "h2",
+     "Musique\n      1 titre"
+    ],
+    [
+     "h1",
+     "Background Corporate Inspiring"
+    ],
+    [
+     "h2",
+     "Lieux mentionnés"
+    ],
+    [
+     "h1",
+     "Avocats Jehanne Collard et Associés | Droit du dommage corporel | Paris"
+    ],
+    [
+     "h1",
+     "PROVISION - CONSOLIDATION : COMMENT PERCEVOIR UNE INDEMNISATION APRES UN ACCIDENT ?"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Musique\n      1 titre"
+    ],
+    [
+     "h1",
+     "Background Corporate Inspiring"
+    ],
+    [
+     "h2",
+     "Lieux mentionnés"
+    ],
+    [
+     "h1",
+     "Avocats Jehanne Collard et Associés | Droit du dommage corporel | Paris"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 35,
+   "readability": 47,
+   "word_count": 245,
+   "content_len": 1558
+  },
+  {
+   "rank": 27,
+   "url": "https://www.avocat-denis-peraldi.com/indemnisation-du-prejudice-corporel-laide-de-la-victime-hospitalisee/",
+   "title": "Indemnisation du préjudice corporel : l'aide de la victime hospitalisée.",
+   "desc": "",
+   "headers": [
+    [
+     "h2",
+     "Indemnisation du préjudice corporel : l’aide de la victime hospitalisée."
+    ],
+    [
+     "h2",
+     "Articles récents"
+    ]
+   ],
+   "content_score": 30,
+   "readability": 22,
+   "word_count": 886,
+   "content_len": 5914
+  },
+  {
+   "rank": 28,
+   "url": "https://www.tcn-avocats.com/indemnisation-prejudice-corporel/",
+   "title": "Indemnisation du préjudice corporel – TCN Avocats",
+   "desc": "À la suite d’un accident, d’une agression ou d’un attentat, vous avez subi un préjudice corporel ? Obtenez une indemnisation de votre préjudice corporel.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation du préjudice corporel"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un dommage corporel ?"
+    ],
+    [
+     "h2",
+     "Quel régime d’indemnisation pour vos préjudices corporels ?"
+    ],
+    [
+     "h2",
+     "Pourquoi contacter un avocat en dommage corporel ?"
+    ],
+    [
+     "h2",
+     "Quelles démarches d’indemnisation à la suite d’un préjudice corporel ?"
+    ],
+    [
+     "h2",
+     "​Quelle indemnisation de votre préjudice corporel pouvez-vous obtenir ?"
+    ],
+    [
+     "h2",
+     "​Le rôle de l’avocat compétent en indemnisation du préjudice corporel"
+    ],
+    [
+     "h2",
+     "Solliciter le cabinet TCN Avocats, expert en dommage corporel"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 32,
+   "word_count": 2675,
+   "content_len": 17182
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1388,
+   "target": 1388
+  },
+  "readability": {
+   "median": 28,
+   "target": 28
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 70
+   },
+   {
+    "t": "accidents",
+    "usage_pc": 40
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "coma",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "végétatif",
+    "usage_pc": 20
+   },
+   {
+    "t": "souffrances endurées",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "accidents",
+    "usage_pc": 40
+   },
+   {
+    "t": "accident corporel",
+    "usage_pc": 30
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "coma",
+    "usage_pc": 20
+   },
+   {
+    "t": "droit du dommage corporel",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "accidents",
+    "usage_pc": 30
+   },
+   {
+    "t": "végétatif",
+    "usage_pc": 30
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "coma",
+    "usage_pc": 20
+   },
+   {
+    "t": "état végétatif",
+    "usage_pc": 20
+   },
+   {
+    "t": "souffrances endurées",
+    "usage_pc": 20
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "traumatisme crânien",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 50
+   },
+   {
+    "t": "accidents",
+    "usage_pc": 30
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 20
+   },
+   {
+    "t": "traumatisme crânien",
+    "usage_pc": 20
+   },
+   {
+    "t": "végétatif",
+    "usage_pc": 20
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 10
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 10
+   },
+   {
+    "t": "coma",
+    "usage_pc": 10
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "état végétatif",
+    "usage_pc": 10
+   },
+   {
+    "t": "souffrances endurées",
+    "usage_pc": 10
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "barème",
+    "usage_pc": 10
+   },
+   {
+    "t": "état végétatif chronique",
+    "usage_pc": 10
+   },
+   {
+    "t": "victime en état végétatif",
+    "usage_pc": 10
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     6,
+     28
+    ]
+   },
+   {
+    "t": "accidents",
+    "usage_pc": 100,
+    "sugg_usage": [
+     6,
+     37
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 100,
+    "sugg_usage": [
+     7,
+     16
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "accident de la circulation",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "coma",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "séquelle",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     8
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les séquelles",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice moral",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "cour de cassation",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "lésions",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "accident corporel",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "traumatisme crânien",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "végétatif",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "état végétatif",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "souffrances endurées",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d'un accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit du dommage corporel",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte de revenus",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "barème",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "état végétatif chronique",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice subi",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "réparation intégrale",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déficit fonctionnel permanent",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les préjudices subis",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les proches",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un grave accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faire l’objet d’une indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d’accident de la route",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conséquences de l’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "compagnie d’assurance",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsabilité médicale",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droits des victimes",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat en dommage corporel",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les experts",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "état de la victime",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemniser la victime",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime en état végétatif",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "traumatisme crânien sévère",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas de faute",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "séquelles du traumatisme crânien",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de moto",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les proches de la victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation intégrale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conscience de la victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "spécialisé en droit du dommage",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d'accident corporel",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation des préjudices",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "vie courante",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "a commis une faute",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après un traumatisme crânien",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "état de conscience minimale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les préjudices personnels",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les droits des victimes",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice doit être réparé",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de vélo",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les souffrances physiques",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Coma",
+    "importance": 44.39600000000001,
+    "relevance": 0.44396,
+    "confidence": 4.583799999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Coma"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 15.34464,
+    "relevance": 0.23975999999999997,
+    "confidence": 3.6656,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 13.11984,
+    "relevance": 0.36444,
+    "confidence": 2.7001999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 10.272959999999998,
+    "relevance": 0.28535999999999995,
+    "confidence": 5.4152000000000005,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Cour de cassation (France)",
+    "importance": 4.3264,
+    "relevance": 0.2704,
+    "confidence": 4.518,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cour_de_cassation_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Traumatisme crânien",
+    "importance": 4.01952,
+    "relevance": 0.25122,
+    "confidence": 8.574,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Traumatisme_crânien"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin anesthésiste-réanimateur",
+    "importance": 3.6774399999999994,
+    "relevance": 0.22984,
+    "confidence": 2.0976,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin_anesthésiste-réanimateur"
+     ]
+    ]
+   },
+   {
+    "t": "Anesthésie générale",
+    "importance": 3.1731199999999995,
+    "relevance": 0.19832,
+    "confidence": 3.7969999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Anesthésie_générale"
+     ]
+    ]
+   },
+   {
+    "t": "Anesthésiste",
+    "importance": 3.15008,
+    "relevance": 0.19688,
+    "confidence": 0.7472,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Anesthésiste"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 2.90656,
+    "relevance": 0.18166,
+    "confidence": 0.5888,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Anesthésie-réanimation",
+    "importance": 2.89056,
+    "relevance": 0.18066,
+    "confidence": 1.8146,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Anesthésie-réanimation"
+     ]
+    ]
+   },
+   {
+    "t": "Douleur",
+    "importance": 2.4968960000000004,
+    "relevance": 0.156056,
+    "confidence": 1.889,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Douleur"
+     ]
+    ]
+   },
+   {
+    "t": "Anesthésie",
+    "importance": 2.40832,
+    "relevance": 0.15052,
+    "confidence": 3.7966,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Anesthésie"
+     ]
+    ]
+   },
+   {
+    "t": "Cour d'appel (France)",
+    "importance": 2.39584,
+    "relevance": 0.14974,
+    "confidence": 0.623,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cour_d'appel_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Risque",
+    "importance": 1.8103039999999997,
+    "relevance": 0.113144,
+    "confidence": 0.8995999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Risque"
+     ]
+    ]
+   },
+   {
+    "t": "Jurisprudence",
+    "importance": 1.3943360000000002,
+    "relevance": 0.087146,
+    "confidence": 1.0782,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Jurisprudence"
+     ]
+    ]
+   },
+   {
+    "t": "Souffrance",
+    "importance": 1.338048,
+    "relevance": 0.08362800000000001,
+    "confidence": 0.8352,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Souffrance"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 1.0813760000000001,
+    "relevance": 0.067586,
+    "confidence": 0.9458,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Anoxie (biologie)",
+    "importance": 0.883968,
+    "relevance": 0.055248000000000005,
+    "confidence": 1.1272,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Anoxie_(biologie)"
+     ]
+    ]
+   },
+   {
+    "t": "Mme Y …",
+    "importance": 0.62104,
+    "relevance": 0.15526,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Traumatisme psychologique",
+    "importance": 0.6003999999999998,
+    "relevance": 0.15009999999999998,
+    "confidence": 1.3128,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Traumatisme_psychologique"
+     ]
+    ]
+   },
+   {
+    "t": "Préjudice d'anxiété",
+    "importance": 0.5866399999999999,
+    "relevance": 0.14665999999999998,
+    "confidence": 0.2314,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Préjudice_d'anxiété"
+     ]
+    ]
+   },
+   {
+    "t": "Jacques",
+    "importance": 0.5546399999999999,
+    "relevance": 0.13866,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Paul",
+    "importance": 0.554,
+    "relevance": 0.1385,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "AIVF",
+    "importance": 0.5192,
+    "relevance": 0.1298,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Cour d'appel de Lyon",
+    "importance": 0.51616,
+    "relevance": 0.12904,
+    "confidence": 0.6566,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cour_d'appel_de_Lyon"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "indemnisation\naccidents\npréjudice\ndommage corporel\ncoma\naccident corporel\nvégétatif\nsouffrances endurées",
+  "desc_title": "indemnisation\naccidents\naccident corporel\npréjudice\ndommage corporel\ncoma\ndroit du dommage corporel",
+  "h1": "indemnisation\naccidents\nvégétatif\ndommage corporel\ncoma\nétat végétatif\nsouffrances endurées\npréjudice\naccident de la route\naccident de la vie\naccident corporel\ntraumatisme crânien\nindemnisation des victimes",
+  "h2": "indemnisation\naccidents\npréjudice\naccident de la route\ntraumatisme crânien\nvégétatif\npréjudice corporel\nun accident de la route\naccident de la vie\nles préjudices\ncoma\nassureur\naccident corporel\nindemniser\nétat végétatif\nsouffrances endurées\nune indemnisation\naprès un accident\nsuite à un accident\nbarème\nétat végétatif chronique\nvictime en état végétatif\navocat spécialisé",
+  "content_basic": "indemnisation\naccidents\npréjudice\ndommage corporel\naccident de la route\naccident de la circulation\naccident de la vie\nles préjudices\ncoma\nséquelle\nassureur\nexpertise\ndroit à indemnisation\nindemniser\npréjudice corporel\nles séquelles\nposte de préjudice\npréjudice moral\nexpertise médicale\ncour de cassation\nune indemnisation\nlésions\nun accident de la route",
+  "content_basic_w_ranges": "indemnisation: 6-28x\naccidents: 6-37x\npréjudice: 7-16x\ndommage corporel: 1-3x\naccident de la route: 1-4x\naccident de la circulation: 1-2x\naccident de la vie: 1x\nles préjudices: 1-5x\ncoma: 1-4x\nséquelle: 1-6x\nassureur: 1-6x\nexpertise: 1-8x\ndroit à indemnisation: 1x\nindemniser: 1-4x\npréjudice corporel: 1x\nles séquelles: 1-2x\nposte de préjudice: 1x\npréjudice moral: 1-2x\nexpertise médicale: 1-3x\ncour de cassation: 1-2x\nune indemnisation: 1-5x\nlésions: 1-2x\nun accident de la route: 1-2x",
+  "content_extended": "accident corporel\ntraumatisme crânien\nvégétatif\nétat végétatif\nsouffrances endurées\nindemnisation des victimes\nvictime d'un accident\naprès un accident\ndroit du dommage corporel\nsuite à un accident\nperte de revenus\nobtenir une indemnisation\nbarème\nétat végétatif chronique\npréjudice subi\nréparation intégrale\ndéficit fonctionnel permanent\nles préjudices subis\nles proches\nvictime d’un accident\nvictime d’un grave accident\nfaire l’objet d’une indemnisation\nvictime d’accident\ncas d’accident de la route\nconséquences de l’accident\ncas d’accident\ncompagnie d’assurance\nresponsabilité médicale\nêtre indemnisé\ndroits des victimes\navocat en dommage corporel\nles experts\nétat de la victime\nindemniser la victime\nvictime en état végétatif\ntraumatisme crânien sévère\ncas de faute\nséquelles du traumatisme crânien\naccident de moto\navocat spécialisé\nles proches de la victime\nindemnisation intégrale\nconscience de la victime\nspécialisé en droit du dommage\ncas d'accident corporel\nindemnisation des préjudices\nvie courante\na commis une faute\naprès un traumatisme crânien\nétat de conscience minimale\nles préjudices personnels\nles droits des victimes\npréjudice doit être réparé\naccident de vélo\nles souffrances physiques",
+  "content_extended_w_ranges": "accident corporel: 1-2x\ntraumatisme crânien: 1-2x\nvégétatif: 1-4x\nétat végétatif: 1-3x\nsouffrances endurées: 1-2x\nindemnisation des victimes: 1x\nvictime d'un accident: 1x\naprès un accident: 1x\ndroit du dommage corporel: 1x\nsuite à un accident: 1x\nperte de revenus: 1-2x\nobtenir une indemnisation: 1x\nbarème: 1x\nétat végétatif chronique: 1x\npréjudice subi: 1x\nréparation intégrale: 1x\ndéficit fonctionnel permanent: 1x\nles préjudices subis: 1x\nles proches: 1x\nvictime d’un accident: 1x\nvictime d’un grave accident: 1x\nfaire l’objet d’une indemnisation: 1x\nvictime d’accident: 1x\ncas d’accident de la route: 1x\nconséquences de l’accident: 1x\ncas d’accident: 1x\ncompagnie d’assurance: 1x\nresponsabilité médicale: 1x\nêtre indemnisé: 1x\ndroits des victimes: 1x\navocat en dommage corporel: 1x\nles experts: 1x\nétat de la victime: 1x\nindemniser la victime: 1x\nvictime en état végétatif: 1x\ntraumatisme crânien sévère: 1x\ncas de faute: 1x\nséquelles du traumatisme crânien: 1x\naccident de moto: 1x\navocat spécialisé: 1x\nles proches de la victime: 1x\nindemnisation intégrale: 1x\nconscience de la victime: 1x\nspécialisé en droit du dommage: 1x\ncas d'accident corporel: 1x\nindemnisation des préjudices: 1x\nvie courante: 1x\na commis une faute: 1x\naprès un traumatisme crânien: 1x\nétat de conscience minimale: 1x\nles préjudices personnels: 1x\nles droits des victimes: 1x\npréjudice doit être réparé: 1x\naccident de vélo: 1x\nles souffrances physiques: 1x",
+  "entities": "Coma\nAssurance\nDommage corporel\nAccident de la route\nCour de cassation (France)\nTraumatisme crânien\nMédecin anesthésiste-réanimateur\nAnesthésie générale\nAnesthésiste\nAvocat (métier)\nAnesthésie-réanimation\nDouleur\nAnesthésie\nCour d'appel (France)\nRisque\nJurisprudence\nSouffrance\nMédecin\nAnoxie (biologie)\nMme Y …\nTraumatisme psychologique\nPréjudice d'anxiété\nJacques\nPaul\nAIVF\nCour d'appel de Lyon"
+ },
+ "status": "ready",
+ "keyword": "indemnisation coma accident",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "5ae0338f60c68034",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "transactional": 10.7
+  },
+  "top_content_type": "educational",
+  "content_type_stats": {
+   "blog-post": 21.4,
+   "educational": 67.9,
+   "guide": 46.4,
+   "business": 21.4,
+   "case-study": 3.6,
+   "other": 3.6,
+   "tool": 3.6,
+   "landing-page": 10.7,
+   "social-media": 3.6,
+   "short-answer": 7.1,
+   "news": 3.6,
+   "video": 7.1
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/5ae0338f60c68034",
+ "share_url": "https://app.neuronwriter.com/analysis/share/5ae0338f60c68034/fa4e2304b005be08a9bffed59ae7844a4fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/5ae0338f60c68034/3fb08c745d1bfd05f071de09905de0a64fa16"
+}

@@ -1,0 +1,2180 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Comment se passe l'indemnisation ?"
+   },
+   {
+    "q": "Quel est le délai de paiement du FGTI ?"
+   },
+   {
+    "q": "Quel est le montant maximum de l'indemnisation par le fond d'indemnisation des victimes ?"
+   },
+   {
+    "q": "Contribution FGTI c'est quoi ?"
+   }
+  ],
+  "topic_matrix": {
+   "Comment se passe l'indemnisation par le FGTI ?": {
+    "importance": 10
+   },
+   "Quel est le délai de paiement ou de versement des indemnités par le FGTI ?": {
+    "importance": 10
+   },
+   "Quel est le montant maximum de l'indemnisation par le FGTI ?": {
+    "importance": 9
+   },
+   "Qu'est-ce que le FGTI et quel est son rôle ?": {
+    "importance": 10
+   },
+   "Qui peut être indemnisé par le FGTI ?": {
+    "importance": 8
+   },
+   "Quels sont les préjudices indemnisés par le FGTI ?": {
+    "importance": 7
+   },
+   "Comment saisir le FGTI ou la CIVI pour une demande d'indemnisation ?": {
+    "importance": 8
+   },
+   "Peut-on contester une offre d'indemnisation du FGTI ?": {
+    "importance": 7
+   },
+   "Faut-il un avocat pour être indemnisé par le FGTI ?": {
+    "importance": 6
+   },
+   "Quelle est la différence entre le FGTI et la CIVI ?": {
+    "importance": 6
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Comment faire la demande d'indemnisation auprès de la Civi ?"
+   },
+   {
+    "q": "Comment la demande d'indemnisation est-elle traitée par le fonds de garantie ?"
+   },
+   {
+    "q": "Dans quel délai faut-il saisir la Civi ?"
+   },
+   {
+    "q": "En cas d'accident de la route, doit-on attendre d'obtenir le procès-verbal pour obtenir une provision ?"
+   },
+   {
+    "q": "Quelles sont les infractions pour lesquelles il y a une indemnisation ?"
+   },
+   {
+    "q": "Qui peut être indemnisé par le fonds de garantie des victimes ?"
+   },
+   {
+    "q": "Qui va déterminer mon droit à indemnisation ?"
+   },
+   {
+    "q": "Sans procès-verbal, comment démontrer la qualité de piétons, de cyclistes ou de passagers afin d'obtenir rapidement une provision ?"
+   },
+   {
+    "q": "Vous avez été victime d’un dommage corporel, d’un accident de la route, d’une erreur médicale ?"
+   },
+   {
+    "q": "d'une personne décédée des suites d'une infraction ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2313",
+   "title": "Victime d'infraction : indemnisation par le fonds de garantie des victimes | Service Public",
+   "desc": "La victime directe ou indirecte d'une infraction peut demander une indemnisation à la Civi pour que son préjudice soit réparé.",
+   "headers": [
+    [
+     "h1",
+     "Victime d'infraction : indemnisation par le fonds de garantie des victimes"
+    ],
+    [
+     "h2",
+     "Qui peut être indemnisé par le fonds de garantie des victimes ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les infractions pour lesquelles il y a une indemnisation ?"
+    ],
+    [
+     "h2",
+     "Dans quel délai faut-il saisir la Civi ?"
+    ],
+    [
+     "h2",
+     "Comment faire la demande d'indemnisation auprès de la Civi ?"
+    ],
+    [
+     "h2",
+     "Comment la demande d'indemnisation est-elle traitée par le fonds de garantie ?"
+    ],
+    [
+     "h2",
+     "Que se passe-t-il en cas de contestation de la décision du fonds de garantie ?"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Services en ligne et formulaires"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 45,
+   "word_count": 3181,
+   "content_len": 19293
+  },
+  {
+   "rank": 2,
+   "url": "https://www.fondsdegarantie.fr/",
+   "title": "Accueil | Fonds de garantie des victimes",
+   "desc": "Le Fonds de Garantie des Victimes est un service public dédié à l'indemnisation des victimes d'actes de terrorisme, d'infractions de droit commun et d'accidents de la route causés par des conducteurs en défaut d'assurance ou inconnus.",
+   "headers": [
+    [
+     "h2",
+     "Les actualités"
+    ],
+    [
+     "h2",
+     "L'essentiel à savoir sur le Fonds de Garantie des Victimes"
+    ],
+    [
+     "h2",
+     "Vous avez été victime :"
+    ],
+    [
+     "h2",
+     "J'ai été victime de :"
+    ],
+    [
+     "h2",
+     "Nos missions"
+    ],
+    [
+     "h2",
+     "Les victimes témoignent"
+    ],
+    [
+     "h2",
+     "Mon centre d’aide le plus proche"
+    ],
+    [
+     "h2",
+     "Les actualités"
+    ],
+    [
+     "h2",
+     "Contactez-nous"
+    ]
+   ],
+   "content_score": 37,
+   "readability": 20,
+   "word_count": 1005,
+   "content_len": 6165
+  },
+  {
+   "rank": 3,
+   "url": "https://www.info.gouv.fr/guide-victimes/beneficier-d-une-indemnisation-par-le-fonds-de-garantie-fgti",
+   "title": "Bénéficier d'une indemnisation par le fonds de garantie (FGTI) - Vous avez été victime de terrorisme (FR - en - es) | info.gouv.fr",
+   "desc": "Toute l'information sur les politiques publiques et l'action du Gouvernement",
+   "headers": [
+    [
+     "h2",
+     "Paramètres d’affichage"
+    ],
+    [
+     "h1",
+     "Bénéficier d'une indemnisation par le fonds de garantie (FGTI)"
+    ],
+    [
+     "h2",
+     "CONTACT AU FGTI"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 25,
+   "word_count": 367,
+   "content_len": 2570
+  },
+  {
+   "rank": 4,
+   "url": "https://www.justice.gouv.fr/actualites/espace-presse/archives-fgti-20-ans-dindemnisation-victimes-dinfractions",
+   "title": "[Archives] FGTI : 20 ans d’indemnisation des victimes d'infractions | Ministère de la justice",
+   "desc": "Discours de Michel Mercier, garde des Sceaux, ministre de la Justice et des Libertés",
+   "headers": [
+    [
+     "h1",
+     "[Archives] FGTI : 20 ans d’indemnisation des victimes d'infractions"
+    ],
+    [
+     "h2",
+     "Suivez-nous\n          \n        sur les réseaux sociaux"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 26,
+   "word_count": 1562,
+   "content_len": 10035
+  },
+  {
+   "rank": 5,
+   "url": "https://www.victimes-solidaires.org/fr/agressions-attentats/id-32-fonds-garantie-victimes-actes-terrorisme-autres-infractions",
+   "title": "Fonds de Garantie des victimes des actes de Terrorisme et d’autres Infractions",
+   "desc": " Souvent appel&eacute; simplement fond de garantie, le FGTI a &eacute;t&eacute; initialement cr&eacute;&eacute; afin de permettre l&rsquo;indemnisation des victimes d&rsquo;attentats. Ce fonds de garantie se trouve au c&oelig;ur d&rsquo;un dispositif indemnitaire particulier. ",
+   "headers": [
+    [
+     "h1",
+     "FGTI"
+    ],
+    [
+     "h2",
+     "FGTI et indemnisation des victimes au titre de la solidarité nationale"
+    ],
+    [
+     "h2",
+     "FGTI et CIVI :Obtenir une indemnisation suite à une agression ou un attentat"
+    ],
+    [
+     "h2",
+     "FGTI et SARVI : aide au recouvrement des indemnités allouées par le tribunal"
+    ],
+    [
+     "h2",
+     "Vos questions, nos réponses"
+    ],
+    [
+     "h2",
+     "Vous avez été victime d’un dommage corporel, d’un accident de la route, d’une erreur médicale ?"
+    ]
+   ],
+   "content_score": 64,
+   "readability": 23,
+   "word_count": 1995,
+   "content_len": 13024
+  },
+  {
+   "rank": 6,
+   "url": "https://fr.wikipedia.org/wiki/Fonds_de_garantie_des_victimes_des_actes_de_terrorisme_et_d%27autres_infractions",
+   "title": "Fonds de garantie des victimes des actes de terrorisme et d'autres infractions — Wikipédia",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Fonds de garantie des victimes des actes de terrorisme et d'autres infractions"
+    ],
+    [
+     "h2",
+     "Organisation et financement du FGTI"
+    ],
+    [
+     "h2",
+     "Historique de l'évolution des compétences du FGTI"
+    ],
+    [
+     "h2",
+     "Champ d'intervention du FGTI"
+    ],
+    [
+     "h2",
+     "Procédure d'indemnisation"
+    ],
+    [
+     "h2",
+     "Notes et références"
+    ],
+    [
+     "h2",
+     "Annexes"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 18,
+   "word_count": 7398,
+   "content_len": 44016
+  },
+  {
+   "rank": 8,
+   "url": "https://www.somme.gouv.fr/Vous-etes/Particulier#!/Particuliers/page/F1527",
+   "title": "Particulier -\n                                Vous êtes... -\n                                                            Les services de l'État dans la Somme",
+   "desc": "Portail de l'Etat dans la Somme Les services de l'État dans la Somme",
+   "headers": [
+    [
+     "h1",
+     "Particulier"
+    ],
+    [
+     "h2",
+     "Abonnez-vous à notre lettre d’information"
+    ],
+    [
+     "h2",
+     "Suivez-nous\n                         sur les réseaux sociaux"
+    ]
+   ],
+   "content_score": 0,
+   "readability": 64,
+   "word_count": 82,
+   "content_len": 642
+  },
+  {
+   "rank": 9,
+   "url": "https://www.france-victimes.fr/index.php/categories-inavem/123-federation-inavem/domaines-d-intervention/183-fgti",
+   "title": "Fonds de Garantie Infractions et Terrorisme - France Victimes",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Fonds de Garantie Infractions et Terrorisme"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 21,
+   "word_count": 777,
+   "content_len": 4841
+  },
+  {
+   "rank": 10,
+   "url": "https://www.fondsdegarantie.fr/vous-etes-responsable/fonds-reclame-une-somme-dargent",
+   "title": "Le Fonds vous réclame une somme d’argent | Fonds de garantie des victimes",
+   "desc": "Le Fonds vous réclame une somme d’argent",
+   "headers": [],
+   "content_score": 31,
+   "readability": 29,
+   "word_count": 330,
+   "content_len": 2101
+  },
+  {
+   "rank": 11,
+   "url": "https://www.bourdet-avocat.fr/lexique-juridique/fonds-garantie-victimes-actes-terrorisme-autres-infractions-fgti-indemnisation/",
+   "title": "Avocat Fonds de Garantie des victimes des actes de Terrorisme et d’autres Infractions (FGTI) Rouen | Bourdet Avocat",
+   "desc": "Aujourd’hui, le Fonds de Garantie des victimes des actes de Terrorisme et d’autres Infractions (FGTI) indemnise les victimes d’actes de terrorisme, d’infractions pénales (dispositif SARVI) et les propriétaires de véhicules incendiés sous certaines conditions.",
+   "headers": [
+    [
+     "h1",
+     "Fonds de Garantie des victimes des actes de Terrorisme et d’autres Infractions (FGTI)"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 22,
+   "word_count": 112,
+   "content_len": 747
+  },
+  {
+   "rank": 12,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R72046",
+   "title": "Demande d'indemnisation au FGTI - proche d'une victime d'acte terroriste (personne blessée) | Service Public",
+   "desc": "Permet aux proches d'une personne blessée en raison d'un attentat terroriste de demander une indemnisation au FGTI.",
+   "headers": [
+    [
+     "h1",
+     "Demande d'indemnisation au FGTI - proche d'une victime d'acte terroriste (personne blessée)"
+    ],
+    [
+     "h2",
+     "Pour toute explication, consulter les fiches pratiques :"
+    ],
+    [
+     "h2",
+     "J'ai réalisé une démarche administrative"
+    ]
+   ],
+   "content_score": 36,
+   "readability": 42,
+   "word_count": 339,
+   "content_len": 2084
+  },
+  {
+   "rank": 13,
+   "url": "https://www.info.gouv.fr/guide-victimes/fonds-de-garantie-des-victimes-des-actes-de-terrorisme-et-d-autres-infractions-fgti",
+   "title": "Le Fonds de Garantie des victimes des actes de terrorisme et d’autres infractions (FGTI) - Vous avez été victime de terrorisme (FR - en - es) | info.gouv.fr",
+   "desc": "Toute l'information sur les politiques publiques et l'action du Gouvernement",
+   "headers": [
+    [
+     "h2",
+     "Paramètres d’affichage"
+    ],
+    [
+     "h1",
+     "Le Fonds de Garantie des victimes des actes de terrorisme et d’autres infractions (FGTI)"
+    ],
+    [
+     "h2",
+     "CONTACT AU FGTI"
+    ],
+    [
+     "h2",
+     "Abonnez-vous à nos lettres d'information"
+    ],
+    [
+     "h2",
+     "Suivez le Gouvernement"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 28,
+   "word_count": 319,
+   "content_len": 2235
+  },
+  {
+   "rank": 14,
+   "url": "https://avf.fr/agression/fgti",
+   "title": "FGTI : indemnisation des victimes de terrorisme en France",
+   "desc": "Le FGTI indemnise les victimes d'actes de terrorisme. Démarches, délais, montants et recours possibles. Guide complet pour faire valoir ses droits.",
+   "headers": [
+    [
+     "h1",
+     "FGTI : Fonds de Garantie des victimes d’actes de Terrorisme et d’autres Infractions"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que le FGTI et quel est son rôle ?"
+    ],
+    [
+     "h2",
+     "Qui peut être indemnisé par le FGTI après un attentat ?"
+    ],
+    [
+     "h2",
+     "Comment fonctionne la procédure d’indemnisation du FGTI ?"
+    ],
+    [
+     "h2",
+     "Quels préjudices sont indemnisés par le FGTI ?"
+    ],
+    [
+     "h2",
+     "Contester une offre du FGTI : les recours possibles"
+    ],
+    [
+     "h2",
+     "Le rôle du FGTI par rapport aux autres dispositifs d’indemnisation"
+    ],
+    [
+     "h2",
+     "L’importance de l’accompagnement juridique pour les victimes de terrorisme"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur le FGTI et l’indemnisation des victimes de terrorisme"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 60,
+   "readability": 37,
+   "word_count": 2252,
+   "content_len": 14764
+  },
+  {
+   "rank": 15,
+   "url": "https://www.fondsdegarantie.fr/notre-gouvernance",
+   "title": "Notre gouvernance | Fonds de garantie des victimes",
+   "desc": "FGAO et FGTI : deux fonds mais un seul instrument d'indemnisation des victimes",
+   "headers": [
+    [
+     "h2",
+     "Le conseil d'administration du FGAO"
+    ],
+    [
+     "h2",
+     "Les membres du conseil d'administration du FGAO"
+    ],
+    [
+     "h2",
+     "Le conseil d'administration du FGTI"
+    ],
+    [
+     "h2",
+     "Les membres du Conseil d'administration du FGTI"
+    ]
+   ],
+   "content_score": 22,
+   "readability": 34,
+   "word_count": 863,
+   "content_len": 5992
+  },
+  {
+   "rank": 16,
+   "url": "https://www.april.fr/assurance/lexique/fonds-de-garantie-des-victimes-des-actes-de-terrorisme-et-dautres-infractions",
+   "title": "Définition Fonds de garantie des victimes des actes de terrorisme et d’autres infractions (FGTI) - Lexique de l'assurance | APRIL",
+   "desc": "Retrouvez la définition du terme Fonds de garantie des victimes des actes de terrorisme et d’autres infractions (FGTI) dans notre lexique sur l'assurance.",
+   "headers": [
+    [
+     "h1",
+     "Fonds de garantie des victimes des actes de terrorisme et d’autres infractions (FGTI)"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 33,
+   "word_count": 232,
+   "content_len": 1523
+  },
+  {
+   "rank": 17,
+   "url": "https://www.indemnisationprejudice.fr/lois-et-organismes/agression-et-attentat-calcul-dindemnites-et-prejudices-incalculables/",
+   "title": "FGTI : Indemnisation après un Attentat",
+   "desc": "Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés. Avances sur vos premiers frais. - FGTI - Agression et attentat : calcul d’indemnités et préjudices incalculables",
+   "headers": [
+    [
+     "h1",
+     "FGTI – Agression et attentat : calcul d’indemnités et préjudices incalculables"
+    ],
+    [
+     "h2",
+     "Agression et attentat : calcul d’indemnités et préjudices incalculables"
+    ],
+    [
+     "h2",
+     "Quel système d’indemnisation des victimes d’infractions ?"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 26,
+   "word_count": 1075,
+   "content_len": 7093
+  },
+  {
+   "rank": 18,
+   "url": "https://consultation.avocat.fr/blog/elodie-dhenry/article-2969762-victimes-d-infraction-et-fonds-de-garantie-des-victimes-d-infractions-fgti.html",
+   "title": "Victimes d’infraction et fonds de garantie des victimes d'infractions, FGTI | par Me Elodie DHENRY",
+   "desc": "ARTICLE JURIDIQUE par Me Dhenry, Avocat : Le FGTI indemnise les victimes d’infractions. Explications par Maître DHENRY, avocate en dommage corporel ☎ 09.81.69.87.22 @ : elodie.dhenry@avocat.fr Rendez-vous en ...",
+   "headers": [
+    [
+     "h1",
+     "Maître Elodie DHENRY"
+    ],
+    [
+     "h2",
+     "Avocat au barreau de Paris"
+    ],
+    [
+     "h1",
+     "Victimes d’infraction et fonds de garantie des victimes d'infractions, FGTI"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Contacter Me Dhenry"
+    ],
+    [
+     "h2",
+     "Dernières publications"
+    ],
+    [
+     "h2",
+     "Derniers commentaires"
+    ],
+    [
+     "h2",
+     "Recherche"
+    ],
+    [
+     "h1",
+     "S'identifier avec FranceConnect"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 0,
+   "word_count": 1655,
+   "content_len": 22293
+  },
+  {
+   "rank": 19,
+   "url": "https://victime-info.fr/indemnisation/victime-agression/fgti-fonds-garantie",
+   "title": "FGTI : Fonds de Garantie des victimes d'infractions | victime-info.fr",
+   "desc": "Le FGTI indemnise les victimes d'infractions pénales. Rôle, fonctionnement, procédure et montants : guide complet pour obtenir une juste indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "FGTI : le Fonds de Garantie des victimes du Terrorisme et d’autres Infractions"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que le FGTI ?"
+    ],
+    [
+     "h2",
+     "Rôle et missions du FGTI"
+    ],
+    [
+     "h2",
+     "Conditions pour être indemnisé par le FGTI"
+    ],
+    [
+     "h2",
+     "Comment fonctionne la procédure d’indemnisation par le FGTI"
+    ],
+    [
+     "h2",
+     "Les postes de préjudice indemnisés par le FGTI"
+    ],
+    [
+     "h2",
+     "Montants d’indemnisation versés par le FGTI"
+    ],
+    [
+     "h2",
+     "Délais de saisine et de prescription"
+    ],
+    [
+     "h2",
+     "Les erreurs fréquentes à éviter face au FGTI"
+    ],
+    [
+     "h2",
+     "FGTI et CIVI : quelle différence ?"
+    ],
+    [
+     "h2",
+     "Se faire accompagner pour obtenir une juste indemnisation"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur le FGTI"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 32,
+   "word_count": 3692,
+   "content_len": 23479
+  },
+  {
+   "rank": 20,
+   "url": "https://bcvlex.com/fr/blog/indemnisation-victimes-fgti/",
+   "title": "FGTI : système d'indemnisation des victimes d'infractions",
+   "desc": "Le FGTI, alimenté par la solidarité nationale, peut pourvoir à l'indemnisation des victimes d'infractions dans plusieurs cas.",
+   "headers": [],
+   "content_score": 43,
+   "readability": 22,
+   "word_count": 1073,
+   "content_len": 6930
+  },
+  {
+   "rank": 21,
+   "url": "https://www.cours-appel.justice.fr/nancy/lindemnisation-par-le-fonds-de-garantie",
+   "title": "L'indemnisation par le Fonds de garantie | Cour d'appel de Nancy",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "L'indemnisation par le Fonds de garantie"
+    ]
+   ],
+   "content_score": 42,
+   "readability": 14,
+   "word_count": 1149,
+   "content_len": 7532
+  },
+  {
+   "rank": 22,
+   "url": "https://www.preziosi-handicap.org/fr/lexique-juridique/id-121-fond-garantie-victimes-infractions-terrorisme",
+   "title": "Définition Fonds de garantie des victimes d’infractions",
+   "desc": " Qu'est que les fonds de garantie des victimes d'infractions et de terrorisme (FGTI) ? D&eacute;couvrez la d&eacute;finition juridique compl&egrave;te. ",
+   "headers": [
+    [
+     "h1",
+     "Fonds de garantie des victimes d’infractions et terrorisme (FGTI)"
+    ]
+   ],
+   "content_score": 27,
+   "readability": 23,
+   "word_count": 303,
+   "content_len": 2076
+  },
+  {
+   "rank": 23,
+   "url": "https://avf.fr/civi-indemnisation-victimes-infractions-penales/fgti-fonds-garantie-victimes",
+   "title": "FGTI : rôle, missions et indemnisation des victimes | AVF",
+   "desc": "Le FGTI indemnise les victimes d'infractions pénales et d'actes terroristes. Rôle, fonctionnement, procédures CIVI et SARVI : guide complet.",
+   "headers": [
+    [
+     "h1",
+     "FGTI : le Fonds de Garantie des victimes, rôle et indemnisation"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que le FGTI et quel est son rôle ?"
+    ],
+    [
+     "h2",
+     "Comment le FGTI intervient dans la procédure CIVI"
+    ],
+    [
+     "h2",
+     "FGTI et action récursoire : le fonds se retourne contre l’auteur"
+    ],
+    [
+     "h2",
+     "FGTI, CIVI et SARVI : quelles différences ?"
+    ],
+    [
+     "h2",
+     "Comment contester une décision impliquant le FGTI"
+    ],
+    [
+     "h2",
+     "Les délais à connaître face au FGTI"
+    ],
+    [
+     "h2",
+     "Le FGTI et les victimes mineures"
+    ],
+    [
+     "h2",
+     "Que faire après avoir été indemnisé par le FGTI ?"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 40,
+   "word_count": 2184,
+   "content_len": 13224
+  },
+  {
+   "rank": 24,
+   "url": "https://www.info.gouv.fr/guide-victimes/beneficier-d-une-indemnisation",
+   "title": "Indemnisations - Vous avez été victime de terrorisme (FR - en - es) | info.gouv.fr",
+   "desc": "Des règles spécifiques s’appliquent pour les victimes d’actes de terrorisme. Le FGTI peut indemniser, sous certaines conditions, les proches des victimes blessées.",
+   "headers": [
+    [
+     "h2",
+     "Paramètres d’affichage"
+    ],
+    [
+     "h1",
+     "Indemnisations"
+    ],
+    [
+     "h2",
+     "L’INDEMNISATION PAR LE FGTI"
+    ],
+    [
+     "h2",
+     "L’INDEMNISATION PAR LES ASSUREURS"
+    ]
+   ],
+   "content_score": 36,
+   "readability": 23,
+   "word_count": 449,
+   "content_len": 3199
+  },
+  {
+   "rank": 25,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1527",
+   "title": "Victime de terrorisme : indemnisation par le Fonds de garantie des victimes | Service Public",
+   "desc": "Les victimes d'un acte de terrorisme et leurs proches peuvent demander une indemnisation au FGTI.",
+   "headers": [
+    [
+     "h1",
+     "Victime de terrorisme : indemnisation par le Fonds de garantie des victimes"
+    ],
+    [
+     "h2",
+     "Vous avez été blessé"
+    ],
+    [
+     "h2",
+     "Un de vos proches a été blessé"
+    ],
+    [
+     "h2",
+     "Un de vos proches est décédé"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Services en ligne et formulaires"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ],
+    [
+     "h2",
+     "Fiches pratiques par événement de vie"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 23,
+   "word_count": 7413,
+   "content_len": 45921
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1005,
+   "target": 1005
+  },
+  "readability": {
+   "median": 25,
+   "target": 25
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "fonds de garantie des victimes",
+    "usage_pc": 56
+   },
+   {
+    "t": "infraction",
+    "usage_pc": 56
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 33
+   },
+   {
+    "t": "fgti",
+    "usage_pc": 22
+   },
+   {
+    "t": "victimes des actes de terrorisme",
+    "usage_pc": 22
+   }
+  ],
+  "desc": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 33
+   },
+   {
+    "t": "infraction",
+    "usage_pc": 22
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 22
+   },
+   {
+    "t": "fonds de garantie des victimes",
+    "usage_pc": 11
+   },
+   {
+    "t": "fgti",
+    "usage_pc": 11
+   },
+   {
+    "t": "acte de terrorisme",
+    "usage_pc": 11
+   },
+   {
+    "t": "civi",
+    "usage_pc": 11
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 11
+   },
+   {
+    "t": "victimes d'actes de terrorisme",
+    "usage_pc": 11
+   },
+   {
+    "t": "attentats",
+    "usage_pc": 11
+   },
+   {
+    "t": "infractions de droit commun",
+    "usage_pc": 11
+   }
+  ],
+  "h1": [
+   {
+    "t": "infraction",
+    "usage_pc": 44
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 33
+   },
+   {
+    "t": "fgti",
+    "usage_pc": 33
+   },
+   {
+    "t": "fonds de garantie des victimes",
+    "usage_pc": 22
+   },
+   {
+    "t": "indemnisation par le fonds",
+    "usage_pc": 22
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 11
+   },
+   {
+    "t": "victimes des actes de terrorisme",
+    "usage_pc": 11
+   },
+   {
+    "t": "garantie des victimes des actes",
+    "usage_pc": 11
+   },
+   {
+    "t": "autres infractions",
+    "usage_pc": 11
+   },
+   {
+    "t": "acte de terrorisme",
+    "usage_pc": 11
+   },
+   {
+    "t": "victimes d'infractions",
+    "usage_pc": 11
+   },
+   {
+    "t": "terrorisme et d'autres infractions",
+    "usage_pc": 11
+   },
+   {
+    "t": "actes de terrorisme et d'autres",
+    "usage_pc": 11
+   },
+   {
+    "t": "bénéficier d'une indemnisation",
+    "usage_pc": 11
+   }
+  ],
+  "h2": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 33
+   },
+   {
+    "t": "fgti",
+    "usage_pc": 33
+   },
+   {
+    "t": "fonds de garantie des victimes",
+    "usage_pc": 22
+   },
+   {
+    "t": "civi",
+    "usage_pc": 22
+   },
+   {
+    "t": "infraction",
+    "usage_pc": 11
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 11
+   },
+   {
+    "t": "dommage",
+    "usage_pc": 11
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 11
+   },
+   {
+    "t": "indemnité",
+    "usage_pc": 11
+   },
+   {
+    "t": "attentats",
+    "usage_pc": 11
+   },
+   {
+    "t": "sarvi",
+    "usage_pc": 11
+   },
+   {
+    "t": "aide au recouvrement",
+    "usage_pc": 11
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 11
+   },
+   {
+    "t": "solidarité nationale",
+    "usage_pc": 11
+   },
+   {
+    "t": "titre de la solidarité nationale",
+    "usage_pc": 11
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 11
+   },
+   {
+    "t": "les infractions",
+    "usage_pc": 11
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "fonds de garantie des victimes",
+    "usage_pc": 89,
+    "sugg_usage": [
+     2,
+     10
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 89,
+    "sugg_usage": [
+     2,
+     31
+    ]
+   },
+   {
+    "t": "infraction",
+    "usage_pc": 89,
+    "sugg_usage": [
+     4,
+     19
+    ]
+   },
+   {
+    "t": "fgti",
+    "usage_pc": 89,
+    "sugg_usage": [
+     3,
+     12
+    ]
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     8
+    ]
+   },
+   {
+    "t": "victimes des actes de terrorisme",
+    "usage_pc": 89,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "garantie des victimes des actes",
+    "usage_pc": 89,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "dommage",
+    "usage_pc": 89,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "autres infractions",
+    "usage_pc": 89,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 89,
+    "sugg_usage": [
+     2,
+     7
+    ]
+   },
+   {
+    "t": "acte de terrorisme",
+    "usage_pc": 89,
+    "sugg_usage": [
+     3,
+     6
+    ]
+   },
+   {
+    "t": "civi",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "victimes d'infractions",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "victimes d'actes de terrorisme",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "verser",
+    "usage_pc": 89,
+    "sugg_usage": [
+     2,
+     3
+    ]
+   },
+   {
+    "t": "terrorisme et d'autres infractions",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "actes de terrorisme et d'autres",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "aide au recouvrement des victimes",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "recouvrement des victimes",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemnité",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "attentats",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "fonds de garantie des assurances",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "pénal",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "sarvi",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "indemniser les victimes",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "aide au recouvrement",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "les victimes d'actes de terrorisme",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "provision",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "garantie des assurances obligatoires",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de la circulation",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "obligatoire",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "solidarité nationale",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "fgao",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "décision de justice",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "infractions de droit commun",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit commun",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "dommages et intérêts",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "indemnisation par le fonds",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "commission d'indemnisation des victimes d'infractions",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "bénéficier d'une indemnisation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "situation matérielle ou psychologique grave",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droits des victimes",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurances obligatoires de dommages",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes du terrorisme",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "extorsion de fonds",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "président de la civi",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "atteinte à la personne",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "actes de terrorisme et autres",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "terrorisme et autres infractions",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes de certaines infractions",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "devant la civi",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation des victimes d'actes",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garde des sceaux",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les droits des victimes",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes de dommages corporels",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "incapacité totale de travail",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "civi compétente est celle",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garantie des victimes peut",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "personnes victimes",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d'accidents de la circulation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "titre de la solidarité nationale",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "créé le fonds de garantie",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnités que le fonds",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garantie des victimes d'actes",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "actes de terrorisme et d’autres",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "terrorisme et d’autres infractions",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’infractions",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "commission d’indemnisation des victimes d’infractions",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accidents de la circulation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "recouvrement des victimes d’infractions",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’actes de terrorisme",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation des victimes d’infractions",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "service d’aide au recouvrement",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les victimes d’accidents",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "associations d’aide aux victimes",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemniser les victimes d’accidents",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les victimes d’attentats",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "système d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "devant la commission d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accompagnée des pièces justificatives",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lieu de la juridiction pénale",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation effective et suffisante",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les victimes d'accidents",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les victimes d'infractions",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "versées aux victimes",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "toutes les victimes",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "être pris en charge",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les infractions",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "nom de la solidarité nationale",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "réparation intégrale des dommages résultant",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suffisante de leur préjudice",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Fonds de garantie des victimes des actes de terrorisme et d'autres infractions",
+    "importance": 94.16399999999997,
+    "relevance": 0.9416399999999999,
+    "confidence": 6.369400000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fonds_de_garantie_des_victimes_des_actes_de_terrorisme_et_d'autres_infractions"
+     ]
+    ]
+   },
+   {
+    "t": "Terrorisme",
+    "importance": 46.441999999999986,
+    "relevance": 0.46441999999999994,
+    "confidence": 6.763599999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Terrorisme"
+     ]
+    ]
+   },
+   {
+    "t": "Commission d'indemnisation des victimes d'infractions",
+    "importance": 16.26696,
+    "relevance": 0.45186000000000004,
+    "confidence": 1.9718,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Commission_d'indemnisation_des_victimes_d'infractions"
+     ]
+    ]
+   },
+   {
+    "t": "Infraction",
+    "importance": 12.052799999999998,
+    "relevance": 0.3348,
+    "confidence": 1.2153999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Infraction"
+     ]
+    ]
+   },
+   {
+    "t": "Décision de justice",
+    "importance": 8.568703999999999,
+    "relevance": 0.133886,
+    "confidence": 1.2804,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Décision_de_justice"
+     ]
+    ]
+   },
+   {
+    "t": "Justice",
+    "importance": 6.550559999999998,
+    "relevance": 0.18195999999999998,
+    "confidence": 3.4512,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Justice"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 5.060159999999999,
+    "relevance": 0.14056,
+    "confidence": 2.3988,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Fonds de garantie des assurances obligatoires de dommages",
+    "importance": 3.9718400000000003,
+    "relevance": 0.24824000000000002,
+    "confidence": 1.6030000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fonds_de_garantie_des_assurances_obligatoires_de_dommages"
+     ]
+    ]
+   },
+   {
+    "t": "Solidarité (notion sociologique)",
+    "importance": 3.5357039999999995,
+    "relevance": 0.098214,
+    "confidence": 1.2795999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Solidarité_(notion_sociologique)"
+     ]
+    ]
+   },
+   {
+    "t": "Dommages-intérêts",
+    "importance": 3.2522400000000005,
+    "relevance": 0.09034,
+    "confidence": 1.3573999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommages-intérêts"
+     ]
+    ]
+   },
+   {
+    "t": "Attentat",
+    "importance": 3.18976,
+    "relevance": 0.19935999999999998,
+    "confidence": 1.7560000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Attentat"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 3.175200000000001,
+    "relevance": 0.08820000000000001,
+    "confidence": 1.5238,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 2.512,
+    "relevance": 0.157,
+    "confidence": 2.9268,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 2.42944,
+    "relevance": 0.15184,
+    "confidence": 1.4515999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "France",
+    "importance": 2.268792,
+    "relevance": 0.063022,
+    "confidence": 2.8076,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/France"
+     ]
+    ]
+   },
+   {
+    "t": "Crime",
+    "importance": 2.17024,
+    "relevance": 0.13564,
+    "confidence": 0.5035999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Crime"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 1.58496,
+    "relevance": 0.09906,
+    "confidence": 0.6414,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Loi",
+    "importance": 1.3174400000000002,
+    "relevance": 0.08234,
+    "confidence": 0.8086,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi"
+     ]
+    ]
+   },
+   {
+    "t": "Procès",
+    "importance": 0.91712,
+    "relevance": 0.05732,
+    "confidence": 0.60122,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Procès"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal",
+    "importance": 0.7308479999999999,
+    "relevance": 0.045678,
+    "confidence": 1.4212,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal"
+     ]
+    ]
+   },
+   {
+    "t": "F GTI",
+    "importance": 0.5741599999999999,
+    "relevance": 0.14354,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "fonds de garantie",
+    "importance": 0.5544,
+    "relevance": 0.1386,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Politique",
+    "importance": 0.52352,
+    "relevance": 0.13088,
+    "confidence": 0.3658,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Politique"
+     ]
+    ]
+   },
+   {
+    "t": "Ministère de la Justice (France)",
+    "importance": 0.51688,
+    "relevance": 0.12922,
+    "confidence": 1.45,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Ministère_de_la_Justice_(France)"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "fonds de garantie des victimes\ninfraction\nindemnisation\nfgti\nvictimes des actes de terrorisme",
+  "desc_title": "indemnisation\ninfraction\nindemnisation des victimes\nfonds de garantie des victimes\nfgti\nacte de terrorisme\ncivi\nassurance\nvictimes d'actes de terrorisme\nattentats\ninfractions de droit commun",
+  "h1": "infraction\nindemnisation\nfgti\nfonds de garantie des victimes\nindemnisation par le fonds\nindemnisation des victimes\nvictimes des actes de terrorisme\ngarantie des victimes des actes\nautres infractions\nacte de terrorisme\nvictimes d'infractions\nterrorisme et d'autres infractions\nactes de terrorisme et d'autres\nbénéficier d'une indemnisation",
+  "h2": "indemnisation\nfgti\nfonds de garantie des victimes\ncivi\ninfraction\nindemnisation des victimes\ndommage\nindemniser\nindemnité\nattentats\nsarvi\naide au recouvrement\ndommage corporel\nsolidarité nationale\ntitre de la solidarité nationale\nobtenir une indemnisation\nles infractions",
+  "content_basic": "fonds de garantie des victimes\nindemnisation\ninfraction\nfgti\nindemnisation des victimes\nvictimes des actes de terrorisme\ngarantie des victimes des actes\ndommage\nautres infractions\nindemniser\nacte de terrorisme\ncivi\nassurance\nvictimes d'infractions\nvictimes d'actes de terrorisme\nverser\nterrorisme et d'autres infractions\nactes de terrorisme et d'autres\naide au recouvrement des victimes\nrecouvrement des victimes\nindemnité\nattentats\nfonds de garantie des assurances\npénal\nsarvi\nindemniser les victimes\naide au recouvrement\nles victimes d'actes de terrorisme\nprovision\ndommage corporel\ngarantie des assurances obligatoires\naccident de la circulation\nobligatoire\nsolidarité nationale\nfgao\ndécision de justice\ninfractions de droit commun\ndroit commun\ndommages et intérêts",
+  "content_basic_w_ranges": "fonds de garantie des victimes: 2-10x\nindemnisation: 2-31x\ninfraction: 4-19x\nfgti: 3-12x\nindemnisation des victimes: 1-8x\nvictimes des actes de terrorisme: 1-2x\ngarantie des victimes des actes: 1-2x\ndommage: 1-7x\nautres infractions: 1-4x\nindemniser: 2-7x\nacte de terrorisme: 3-6x\ncivi: 1-6x\nassurance: 1-3x\nvictimes d'infractions: 1-3x\nvictimes d'actes de terrorisme: 1-3x\nverser: 2-3x\nterrorisme et d'autres infractions: 1x\nactes de terrorisme et d'autres: 1x\naide au recouvrement des victimes: 1-2x\nrecouvrement des victimes: 1-2x\nindemnité: 1-2x\nattentats: 1-6x\nfonds de garantie des assurances: 1x\npénal: 1-5x\nsarvi: 1-4x\nindemniser les victimes: 1-2x\naide au recouvrement: 1-3x\nles victimes d'actes de terrorisme: 1x\nprovision: 1-2x\ndommage corporel: 1-2x\ngarantie des assurances obligatoires: 1x\naccident de la circulation: 1-2x\nobligatoire: 1x\nsolidarité nationale: 1-2x\nfgao: 1x\ndécision de justice: 1x\ninfractions de droit commun: 1x\ndroit commun: 1-2x\ndommages et intérêts: 1x",
+  "content_extended": "indemnisation par le fonds\ncommission d'indemnisation des victimes d'infractions\nbénéficier d'une indemnisation\nsituation matérielle ou psychologique grave\ndroits des victimes\nassurances obligatoires de dommages\nvictimes du terrorisme\nextorsion de fonds\nprésident de la civi\natteinte à la personne\nactes de terrorisme et autres\nterrorisme et autres infractions\nvictimes de certaines infractions\ndroit à indemnisation\ndevant la civi\nindemnisation des victimes d'actes\ngarde des sceaux\nles droits des victimes\nvictimes de dommages corporels\nincapacité totale de travail\ncivi compétente est celle\ngarantie des victimes peut\npersonnes victimes\nvictimes d'accidents de la circulation\ntitre de la solidarité nationale\ncréé le fonds de garantie\nindemnités que le fonds\ngarantie des victimes d'actes\nactes de terrorisme et d’autres\nterrorisme et d’autres infractions\nvictimes d’infractions\ncommission d’indemnisation des victimes d’infractions\nvictimes d’accidents de la circulation\nrecouvrement des victimes d’infractions\nvictimes d’actes de terrorisme\nindemnisation des victimes d’infractions\nservice d’aide au recouvrement\nles victimes d’accidents\nassociations d’aide aux victimes\nindemniser les victimes d’accidents\nles victimes d’attentats\nsystème d’indemnisation\ndevant la commission d’indemnisation\nobtenir une indemnisation\naccompagnée des pièces justificatives\nlieu de la juridiction pénale\nindemnisation effective et suffisante\nles victimes d'accidents\nles victimes d'infractions\nversées aux victimes\ntoutes les victimes\nêtre pris en charge\nles infractions\nnom de la solidarité nationale\nréparation intégrale des dommages résultant\nsuffisante de leur préjudice",
+  "content_extended_w_ranges": "indemnisation par le fonds: 1x\ncommission d'indemnisation des victimes d'infractions: 1x\nbénéficier d'une indemnisation: 1x\nsituation matérielle ou psychologique grave: 1x\ndroits des victimes: 1x\nassurances obligatoires de dommages: 1x\nvictimes du terrorisme: 1x\nextorsion de fonds: 1x\nprésident de la civi: 1x\natteinte à la personne: 1x\nactes de terrorisme et autres: 1x\nterrorisme et autres infractions: 1x\nvictimes de certaines infractions: 1x\ndroit à indemnisation: 1x\ndevant la civi: 1x\nindemnisation des victimes d'actes: 1x\ngarde des sceaux: 1x\nles droits des victimes: 1x\nvictimes de dommages corporels: 1x\nincapacité totale de travail: 1x\ncivi compétente est celle: 1x\ngarantie des victimes peut: 1x\npersonnes victimes: 1x\nvictimes d'accidents de la circulation: 1x\ntitre de la solidarité nationale: 1x\ncréé le fonds de garantie: 1x\nindemnités que le fonds: 1x\ngarantie des victimes d'actes: 1x\nactes de terrorisme et d’autres: 1x\nterrorisme et d’autres infractions: 1x\nvictimes d’infractions: 1x\ncommission d’indemnisation des victimes d’infractions: 1x\nvictimes d’accidents de la circulation: 1x\nrecouvrement des victimes d’infractions: 1x\nvictimes d’actes de terrorisme: 1x\nindemnisation des victimes d’infractions: 1x\nservice d’aide au recouvrement: 1x\nles victimes d’accidents: 1x\nassociations d’aide aux victimes: 1x\nindemniser les victimes d’accidents: 1x\nles victimes d’attentats: 1x\nsystème d’indemnisation: 1x\ndevant la commission d’indemnisation: 1x\nobtenir une indemnisation: 1x\naccompagnée des pièces justificatives: 1x\nlieu de la juridiction pénale: 1x\nindemnisation effective et suffisante: 1x\nles victimes d'accidents: 1x\nles victimes d'infractions: 1x\nversées aux victimes: 1x\ntoutes les victimes: 1x\nêtre pris en charge: 1x\nles infractions: 1x\nnom de la solidarité nationale: 1x\nréparation intégrale des dommages résultant: 1x\nsuffisante de leur préjudice: 1x",
+  "entities": "Fonds de garantie des victimes des actes de terrorisme et d'autres infractions\nTerrorisme\nCommission d'indemnisation des victimes d'infractions\nInfraction\nDécision de justice\nJustice\nAssurance\nFonds de garantie des assurances obligatoires de dommages\nSolidarité (notion sociologique)\nDommages-intérêts\nAttentat\nEndommagement\nAccident de la route\nDommage corporel\nFrance\nCrime\nAvocat (métier)\nLoi\nProcès\nTribunal\nF GTI\nfonds de garantie\nPolitique\nMinistère de la Justice (France)"
+ },
+ "status": "ready",
+ "keyword": "fgti indemnisation",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "e86d14f9709409fb",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "navigational": 8.0,
+   "transactional": 8.0
+  },
+  "top_content_type": "educational",
+  "content_type_stats": {
+   "educational": 76.0,
+   "guide": 44.0,
+   "business": 12.0,
+   "news": 4.0,
+   "whitepaper": 4.0,
+   "other": 8.0,
+   "landing-page": 8.0,
+   "tool": 4.0,
+   "short-answer": 8.0,
+   "blog-post": 8.0
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/e86d14f9709409fb",
+ "share_url": "https://app.neuronwriter.com/analysis/share/e86d14f9709409fb/5ba8ae1e063f8e2c9fcf11f064c050b74fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/e86d14f9709409fb/0793f2cdbd841a368e37ae42d50da0c64fa16"
+}

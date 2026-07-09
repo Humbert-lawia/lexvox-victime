@@ -1,0 +1,2516 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quelles aides pour une personne amputée ?"
+   },
+   {
+    "q": "Quelles amputations donnent droit à une invalidité ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   },
+   {
+    "q": "Montant indemnisation préjudice corporel ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quelles aides spécifiques sont disponibles pour une personne amputée et comment sont-elles indemnisées ?": {
+    "importance": 10
+   },
+   "Quelles amputations donnent droit à une invalidité ou à un taux d'incapacité, et comment cela est-il évalué ?": {
+    "importance": 9
+   },
+   "Quels sont les principaux préjudices indemnisés après une amputation (patrimoniaux et extra-patrimoniaux) ?": {
+    "importance": 10
+   },
+   "Quel est le montant moyen ou les exemples d'indemnisation pour un préjudice corporel lié à une amputation ?": {
+    "importance": 10
+   },
+   "Comment se déroule la procédure d'indemnisation après une amputation et quels sont les droits de la victime ?": {
+    "importance": 8
+   },
+   "Quel est le rôle de l'avocat spécialisé et des experts (médicaux, prothésistes) dans l'obtention d'une indemnisation juste ?": {
+    "importance": 8
+   },
+   "Comment sont pris en compte les besoins spécifiques comme les prothèses, l'aide humaine et l'adaptation du logement dans l'indemnisation ?": {
+    "importance": 9
+   },
+   "L'indemnisation diffère-t-elle selon la cause de l'amputation (accident de la route, du travail, erreur médicale) ?": {
+    "importance": 7
+   },
+   "Comment sont évalués et indemnisés les préjudices psychologiques et les douleurs fantômes ?": {
+    "importance": 7
+   },
+   "Que faire en cas d'aggravation de l'état après l'indemnisation ou si l'offre de l'assureur est jugée insuffisante ?": {
+    "importance": 7
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Amputation : pourquoi l'exigence d'une indemnisation intégrale ?"
+   },
+   {
+    "q": "Amputation : quels montants d’indemnisation espérer ?"
+   },
+   {
+    "q": "Après un accident grave : qui évalue le besoin en aide humaine ?"
+   },
+   {
+    "q": "Combien coûte un avocat spécialisé et comment sont payés ses honoraires ?"
+   },
+   {
+    "q": "Combien de temps dure la procédure d'indemnisation après une amputation ?"
+   },
+   {
+    "q": "Combien pour une amputation de la main ?"
+   },
+   {
+    "q": "Combien vaut une amputation ?"
+   },
+   {
+    "q": "Comment imposer l’indemnisation de tous les préjudices de la victime amputée ?"
+   },
+   {
+    "q": "Comment obtenir réparation ?"
+   },
+   {
+    "q": "Comment sont valorisées les douleurs fantômes dans l'indemnisation ?"
+   },
+   {
+    "q": "Cotation du prejudice esthetique : le moignon est-il visible (porte de short, de jupe, de manche courte) ?"
+   },
+   {
+    "q": "Et si mon état s’aggrave après l’indemnisation ?"
+   },
+   {
+    "q": "Faut-il indemniser aussi les équipements complémentaires ?"
+   },
+   {
+    "q": "Indemnisation amputation : combien vaut votre préjudice après un accident ?"
+   },
+   {
+    "q": "J’ai été amputé : Quels sont mes droits ?"
+   },
+   {
+    "q": "L'indemnisation diffère-t-elle selon le contexte de l'accident ?"
+   },
+   {
+    "q": "La prothese de course pour amputation tibiale est-elle indemnisee ?"
+   },
+   {
+    "q": "La victime amputée doit-elle être accompagnée par un avocat spécialisé ?"
+   },
+   {
+    "q": "Le niveau d'amputation influence-t-il le montant de l'indemnisation ?"
+   },
+   {
+    "q": "Les préjudices psychologiques sont-ils vraiment reconnus et indemnisés ?"
+   },
+   {
+    "q": "L’AAH est-elle compatible avec l’indemnisation amputation ?"
+   },
+   {
+    "q": "L’amputation entraîne-t-elle d’autres préjudices indemnisables ?"
+   },
+   {
+    "q": "L’amputation est-elle consideree comme un grand handicap ?"
+   },
+   {
+    "q": "L’utilisation d’une prothèse influence-t-elle le taux ?"
+   },
+   {
+    "q": "Mais comment re-faire de la mécanique, travailler dans un garage, avec une jambe en moins ?"
+   },
+   {
+    "q": "Mon conjoint peut-il être indemnisé pour l'aide qu'il m'apporte ?"
+   },
+   {
+    "q": "Mon employeur peut-il me licencier apres amputation ?"
+   },
+   {
+    "q": "Pourquoi choisir le cabinet BENEZRA pour votre accident corporel ?"
+   },
+   {
+    "q": "Puis-je attaquer mon ancien employeur pour obtenir une rente ou aide financière ?"
+   },
+   {
+    "q": "Puis-je être indemnisé même si j'ai une prothèse performante ?"
+   },
+   {
+    "q": "Que faire si l’expert sous-evalue mon DFP ?"
+   },
+   {
+    "q": "Que se passe-t-il si mon état s'aggrave après l'indemnisation définitive ?"
+   },
+   {
+    "q": "Quel est le rôle de l’AIVF pour les victimes amputées ?"
+   },
+   {
+    "q": "Quelles démarches sont nécessaires pour obtenir une indemnisation après une amputation traumatique ?"
+   },
+   {
+    "q": "Quelles sont les causes principales d'une amputation traumatique ?"
+   },
+   {
+    "q": "Quelles sont les causes principales d’une amputation de la jambe ?"
+   },
+   {
+    "q": "Quels sont  vos droits à \nindemnisation après une amputation ?"
+   },
+   {
+    "q": "Quels sont les types d'indemnisation possibles après une amputation traumatique ?"
+   },
+   {
+    "q": "Quels sont les types d’amputation du membre inférieur ?"
+   },
+   {
+    "q": "Seul face aux médecins experts?"
+   },
+   {
+    "q": "Victime d’une amputation après un accident ?"
+   },
+   {
+    "q": "Vous ou un proche avez subi une amputation ?"
+   },
+   {
+    "q": "Vous ou un proche avez subi une amputation apres un accident ?"
+   },
+   {
+    "q": "Vous venez d’avoir un accident de voiture ou de camion ?"
+   },
+   {
+    "q": "Vous êtes victime d’un accident grave ?"
+   },
+   {
+    "q": "Vous êtes victime d’une amputation ?"
+   },
+   {
+    "q": "« On m’a amputé bien plus que ma jambe, à quoi ai-je droit ?"
+   },
+   {
+    "q": "° Indemnisations multipliées par 5 à 20 par rapport aux offres initiales – voir un cas probant ?"
+   },
+   {
+    "q": "° Plusieurs millions d’euros obtenus pour nos clients chaque année – voir nos résultats obtenus ?"
+   },
+   {
+    "q": "À lire : Comment savoir si l'offre d'indemnisation est sous-évaluée ?"
+   },
+   {
+    "q": "À quel moment dois-je contacter un avocat après mon amputation ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://cabinetviandier.fr/amputation-quels-droits-indemisation/",
+   "title": "J’ai été amputé : Quels sont mes droits ? - Cabinet Viandier",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "J’ai été amputé : Quels sont mes droits ?"
+    ],
+    [
+     "h2",
+     "Comment obtenir réparation ?"
+    ],
+    [
+     "h2",
+     "Laurent : c’est ma vie qui était amputée."
+    ],
+    [
+     "h2",
+     "Le travail de l’Avocat : permettre des perspectives, grâce une indemnisation argumentée"
+    ],
+    [
+     "h2",
+     "Un dossier qui se ferme chez nous, ce sont des fenêtres qui se sont ouvertes dans la vie de nos clients"
+    ]
+   ],
+   "content_score": 39,
+   "readability": 40,
+   "word_count": 1538,
+   "content_len": 9647
+  },
+  {
+   "rank": 2,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/cellule-grand-handicap-aivf/amputation-jambe",
+   "title": "Amputation jambe - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France soutient les victimes d'amputation de jambe dans leurs démarches juridiques.",
+   "headers": [
+    [
+     "h1",
+     "Amputation jambe"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Taux d’AIPP ou de DFP : Amputation de la jambe"
+    ],
+    [
+     "h2",
+     "Amputation de la Jambe : Causes, Conséquences et Indemnisation"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 34,
+   "word_count": 2084,
+   "content_len": 13544
+  },
+  {
+   "rank": 3,
+   "url": "https://www.nathanhazzan-avocat.fr/indemnisation-amputation-combien-vaut-votre-prejudice-apres-un-accident/",
+   "title": "Indemnisation amputation : combien vaut le préjudice",
+   "desc": "Amputation : quels montants d’indemnisation espérer ? Découvrez des cas réels à plus de 1,8 M€, les postes clés (prothèses, aide humaine, logement, revenus) et les erreurs qui réduisent l’indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation amputation : combien vaut votre préjudice après un accident ?"
+    ],
+    [
+     "h2",
+     "Amputation : un des préjudices les plus graves en droit du dommage corporel"
+    ],
+    [
+     "h2",
+     "Exemples réels d’indemnisation"
+    ],
+    [
+     "h2",
+     "Combien vaut une amputation ?"
+    ],
+    [
+     "h2",
+     "Les postes essentiels en cas d’amputation"
+    ],
+    [
+     "h2",
+     "Pourquoi les indemnisations sont souvent insuffisantes"
+    ],
+    [
+     "h2",
+     "Ce qui fait la différence"
+    ],
+    [
+     "h2",
+     "Vous êtes victime d’une amputation ?"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 57,
+   "word_count": 418,
+   "content_len": 2870
+  },
+  {
+   "rank": 4,
+   "url": "https://www.benezra-victimesdelaroute.fr/1-million-900-mille-euros-pour-lindemnisation-dun-ampute-victime-dun-accident/",
+   "title": "Exemple d'indemnisation d’une victime amputée de sa jambe - Benezra Avocats - Droit routier et dommages corporels",
+   "desc": "Alors qu’il tentait de sauver ses enfants après avoir perdu le contrôle de son véhicule. Sa jambe, n’a pas pu être sauvée. Il a été amputé.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h2",
+     "1° Les difficultés d’indemnisation de la victime : une faute"
+    ],
+    [
+     "h2",
+     "2° Négocier le droit à indemnisation malgré la faute"
+    ],
+    [
+     "h2",
+     "3° Obtenir une indemnisation exceptionnelle"
+    ],
+    [
+     "h2",
+     "Pourquoi choisir le cabinet BENEZRA pour votre accident corporel ?"
+    ],
+    [
+     "h2",
+     "Pourquoi choisir le cabinet BENEZRA pour votre accident corporel ?"
+    ]
+   ],
+   "content_score": 45,
+   "readability": 38,
+   "word_count": 1284,
+   "content_len": 8188
+  },
+  {
+   "rank": 5,
+   "url": "https://www.medecin-dommage-corporel.expert/amputation-dun-membre-et-indemnisation/",
+   "title": "Amputation d'un membre et indemnisation",
+   "desc": "l'amputation d'un membre est parfois la conséquence d'un accident de la circulation ou d'un geste opératoire mal réalisé ou d'une infection nosocomiale",
+   "headers": [
+    [
+     "h1",
+     "Amputation d’un membre et indemnisation"
+    ],
+    [
+     "h1",
+     "Le savez vous?"
+    ],
+    [
+     "h2",
+     "3 cabinets dédiés aux victimes de dommages corporels pour l'évaluation médico légale du dommage et du handicap consécutifs à un accident"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 25,
+   "word_count": 563,
+   "content_len": 3768
+  },
+  {
+   "rank": 6,
+   "url": "https://www.collardetassocies.org/indemnisation-suite-a-une-amputation/",
+   "title": "indemnisation suite à une amputation - Jehanne Collard et Associés",
+   "desc": "Indemnisation en cas d'amputation : des préjudices spécifiques. La victime amputée doit voir l'intégralité de ses préjudices indemnisés.",
+   "headers": [
+    [
+     "h1",
+     "L'indemnisation suite à une amputation Victime, quels sont vos droits ?"
+    ],
+    [
+     "h2",
+     "Quels sont  vos droits à \nindemnisation après une amputation ?"
+    ]
+   ],
+   "content_score": 71,
+   "readability": 28,
+   "word_count": 1334,
+   "content_len": 8931
+  },
+  {
+   "rank": 7,
+   "url": "https://jmp-avocat-indemnisation.fr/blog-dommages-corporels/indemnisation-amputation-avocat",
+   "title": "Indemnisation amputation : obtenir une réparation juste | Avocat",
+   "desc": "Victime d’une amputation après un accident ? Prothèses, aide humaine, pertes de revenus : je défends une indemnisation juste et complète. RDV sans engagement.",
+   "headers": [
+    [
+     "h1",
+     "Amputation et indemnisation : défendre la dignité, sécuriser l’avenir, obtenir une réparation juste"
+    ],
+    [
+     "h2",
+     "L’amputation : une violence qui dépasse largement la perte d’un membre"
+    ],
+    [
+     "h2",
+     "Ce que vivent réellement les personnes amputées (et que les assureurs minimisent)"
+    ],
+    [
+     "h2",
+     "L’amputation, un traumatisme psychique majeur"
+    ],
+    [
+     "h2",
+     "« Indemniser un préjudice corporel, c’est mettre un prix sur ce qui n’en a pas »"
+    ],
+    [
+     "h2",
+     "L’enjeu central des prothèses : un combat financier sur le long terme"
+    ],
+    [
+     "h2",
+     "L’assistance humaine : préserver l’autonomie sans culpabiliser"
+    ],
+    [
+     "h2",
+     "Amputation et travail : quand la carrière est brisée"
+    ],
+    [
+     "h2",
+     "Le rôle déterminant de l’avocat dans les dossiers d’amputation"
+    ],
+    [
+     "h2",
+     "Une indemnisation juste, ce n’est pas « trop » demander"
+    ],
+    [
+     "h2",
+     "Questions Fréquentes sur l'Indemnisation des Personnes Amputées"
+    ]
+   ],
+   "content_score": 82,
+   "readability": 31,
+   "word_count": 2803,
+   "content_len": 18276
+  },
+  {
+   "rank": 8,
+   "url": "https://www.benezra.fr/exemple-indemnisation-victime-amputee-jambe.html",
+   "title": "Exemple d'indemnisation d’une victime amputée de sa jambe - Benezra Avocats - Droit routier et dommages corporels",
+   "desc": "Alors qu’il tentait de sauver ses enfants après avoir perdu le contrôle de son véhicule. Sa jambe, n’a pas pu être sauvée. Il a été amputé.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h2",
+     "1° Les difficultés d’indemnisation de la victime : une faute"
+    ],
+    [
+     "h2",
+     "2° Négocier le droit à indemnisation malgré la faute"
+    ],
+    [
+     "h2",
+     "3° Obtenir une indemnisation exceptionnelle"
+    ],
+    [
+     "h2",
+     "Pourquoi choisir le cabinet BENEZRA pour votre accident corporel ?"
+    ],
+    [
+     "h2",
+     "Pourquoi choisir le cabinet BENEZRA pour votre accident corporel ?"
+    ]
+   ],
+   "content_score": 45,
+   "readability": 38,
+   "word_count": 1284,
+   "content_len": 8188
+  },
+  {
+   "rank": 9,
+   "url": "https://avocat-baron.fr/indemnisation-amputation/",
+   "title": "Indemnisation amputation, guide complet 2026 | Avocat Baron",
+   "desc": "Amputation membre supérieur, inférieur, bilatérale, prothèse à vie, retentissement professionnel, préjudice esthétique majeur. Avocat dommage corporel Toulouse.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation amputation, guide complet 2026"
+    ],
+    [
+     "h2",
+     "Indemnisation amputation : ce que vous pouvez obtenir et comment"
+    ],
+    [
+     "h2",
+     "Les types d’amputation et leurs consequences"
+    ],
+    [
+     "h2",
+     "Combien pouvez-vous obtenir : les principaux postes"
+    ],
+    [
+     "h2",
+     "La prothese : un poste a vie"
+    ],
+    [
+     "h2",
+     "L’aide humaine apres amputation"
+    ],
+    [
+     "h2",
+     "Le prejudice professionnel : un enjeu majeur"
+    ],
+    [
+     "h2",
+     "Prejudice d’etablissement et amputation chez le sujet jeune"
+    ],
+    [
+     "h2",
+     "Expertise medicale apres amputation : preparer chaque detail"
+    ],
+    [
+     "h2",
+     "Refere-provision : financer la prothese rapidement"
+    ],
+    [
+     "h2",
+     "Amputation et accident du travail"
+    ],
+    [
+     "h2",
+     "Amputation et accident medical"
+    ],
+    [
+     "h2",
+     "Questions frequentes"
+    ],
+    [
+     "h2",
+     "Les bases juridiques mobilisees"
+    ]
+   ],
+   "content_score": 69,
+   "readability": 22,
+   "word_count": 3185,
+   "content_len": 21197
+  },
+  {
+   "rank": 10,
+   "url": "https://www.nathanhazzan-avocat.fr/amputation_apres_accident_grave_indemnisation_conjoint/",
+   "title": "Indemnisation amputation après accident grave | Avocat Hazzan",
+   "desc": "Accident grave avec amputation : découvrez comment une indemnisation de 1,88 M€ a été obtenue grâce à une évaluation complète des préjudices (prothèses, aide humaine, logement, pertes de revenus, préjudice du conjoint).",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation accident grave : 1,88 million € + logement adapté + indemnisation du conjoint après amputation"
+    ],
+    [
+     "h2",
+     "Un accident grave avec amputation et handicap lourd"
+    ],
+    [
+     "h2",
+     "Une indemnisation exceptionnelle : plus de 1,8 million d’euros"
+    ],
+    [
+     "h2",
+     "Un poste majeur : les prothèses et leur renouvellement à vie"
+    ],
+    [
+     "h2",
+     "Une aide humaine importante"
+    ],
+    [
+     "h2",
+     "Adaptation du logement : un poste déterminant"
+    ],
+    [
+     "h2",
+     "Une approche technique : architectes spécialisés"
+    ],
+    [
+     "h2",
+     "Préjudice professionnel et pertes de revenus"
+    ],
+    [
+     "h2",
+     "Des préjudices personnels importants"
+    ],
+    [
+     "h2",
+     "Indemnisation du conjoint : un point essentiel"
+    ],
+    [
+     "h2",
+     "Amputation : un contentieux spécifique"
+    ],
+    [
+     "h2",
+     "Pourquoi ces dossiers sont souvent sous-indemnisés"
+    ],
+    [
+     "h2",
+     "Ce qui fait la différence dans un dossier lourd"
+    ],
+    [
+     "h2",
+     "Vous êtes victime d’un accident grave ?"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 55,
+   "word_count": 544,
+   "content_len": 3631
+  },
+  {
+   "rank": 11,
+   "url": "https://www.hello-victimes.fr/l-aide-aux-victimes/obtenir-des-dommages-et-int%C3%A9r%C3%AAts-apr%C3%A8s-une-amputation/",
+   "title": "Obtenir des dommages et intérêts après une amputation - Association d'aide aux victimes d'accident de la route. Association d''aide aux victimes d'erreur/faute médicale. Association d'aide aux victimes d'accident de la vie ou d'agression.",
+   "desc": "La réparation d'une séquelle aussi grave qu'une amputation impose à la victime d'être accompagnée dans  toute les phases de la procédure. Hello Victimes met à votre disposition des médecins conseils et des avocats pour vous accompagner.",
+   "headers": [
+    [
+     "h1",
+     "Obtenir des dommages et intérêts après une amputation"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 22,
+   "word_count": 1726,
+   "content_len": 11932
+  },
+  {
+   "rank": 12,
+   "url": "https://www.alagybret.com/details-amputation+et+indemnisation+quels+droits+pour+les+victimes-3000",
+   "title": "Amputation et indemnisation : quels droits pour les victimes ? - Alagy Bret & Associés",
+   "desc": "Une amputation entraîne des conséquences physiques, psychologiques et financières importantes. L’indemnisation dépend de l’origine du dommage (accident, travail, erreur médicale) et nécessite une expertise juridique pour obtenir une réparation intégrale des préjudices.",
+   "headers": [
+    [
+     "h1",
+     "Amputation et indemnisation : quels droits pour les victimes ?"
+    ],
+    [
+     "h2",
+     "Quels préjudices peuvent être indemnisés ?"
+    ],
+    [
+     "h2",
+     "Quelle est la procédure d’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Indemnisation par type d’accident"
+    ],
+    [
+     "h2",
+     "Frais d'expertise en cas d'Accident du Travail : quel remboursement ?"
+    ],
+    [
+     "h2",
+     "La Faute Inexcusable de l'Employeur : Conditions et Conséquences"
+    ],
+    [
+     "h2",
+     "Comment obtenir l’indemnisation des préjudices suite à un accident médical non fautif : un avocat à Lyon vous explique"
+    ],
+    [
+     "h2",
+     "Expertise médicale : comment éviter les pièges ?"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 29,
+   "word_count": 1256,
+   "content_len": 8385
+  },
+  {
+   "rank": 13,
+   "url": "https://www.facebook.com/JehanneCollardAssocies/videos/-amputation-pourquoi-une-indemnisation-compl%C3%A8te-est-cruciale-que-ce-soit-suite-%C3%A0/1288046955442850/",
+   "title": "🚨 Amputation : Pourquoi une indemnisation complète est cruciale ?Que ce soit suite à un accident de la circulation, une agression ou une erreur médicale ou encore un accident du travail, une victime amputée doit recevoir une indemnisation intégrale pour tous ses préjudices. Souvent, on sous-estime l'impact d'une amputation sur la vie quotidienne.💡 Pour garantir une indemnisation juste, il est essentiel de bien préparer la phase d'expertise médicale. C'est à ce moment que tous les préjudices doivent être identifiés.🔑 Prothèse = Éléments clés de l'indemnisationLa prothèse joue un rôle central dans la vie d'une personne amputée. Choisir le bon appareillage, déterminer les accessoires nécessaires et leur renouvellement est essentiel pour assurer confort, sécurité et autonomie.⚠️ Les prothèses les plus performantes, celles qui permettent de reprendre une vie active, sont souvent très coûteuses et non remboursées par la Sécurité sociale.Pour obtenir l'indemnisation nécessaire, la collaboration entre la victime, son avocat, et les experts médicaux est primordiale. 💔 Chaque cas est unique, et bénéficier d'une juste compensation permet d'accéder aux soins et aux adaptations nécessaires pour vivre dignement. De plus, comprendre les droits en matière de dommage corporel est un élément clé pour une vie digne après un accident. 🔍 Partagez ce message pour sensibiliser davantage à cette réalité ! Vos expériences et pensées nous intéressent, alors n’hésitez pas à commenter ci-dessous. Pour d’autres conseils et infos utiles, restez connecté(e) à notre compte ! 💬✨#avocat #dommagecorporel #amputation #accidentdel Route #accidentvélo #accidentmoto #accidentdutravail #handicap #indemnisation #accident ✊#Amputation #Indemnisation #avocatdommagecorporel | Jehanne Collard et Associés",
+   "desc": "🚨 Amputation : Pourquoi une indemnisation complète est cruciale ?Que ce soit suite à un accident de la circulation, une agression ou une erreur médicale...",
+   "headers": [],
+   "content_score": 36,
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 14,
+   "url": "https://www.coppet-avocats.fr/actualites/handicaps-dommages-corporels/quelle-indemnisation-apres-lamputation-dun-membre-dun-doigt-coupe-a-la-perte-dune-jambe/",
+   "title": "Quelle indemnisation après l’amputation d’un membre : d'un doigt à une jambe ?",
+   "desc": "L’amputation d’un membre, inférieur ou supérieur, constitue une atteinte grave à l'intégrité physique d'une personne victime d'un évènement traumatique (accident de la route, accident de la vie, accident du travail, agression, acte de terrorisme). Que faire dans le cas d’une amputation à la suite d’un accident de la route ? Quelles sont les répercussions d’une amputation sur la vie de la victime ? Quelles sont les démarches à effectuer pour être indemnisé ? Comment sont évalués les postes de préjudices liés à une amputation ? L’enjeu de l’expertise médicale après une amputation ? Le rôle déterminant de l’avocat spécialiste en droit du dommage corporel ?",
+   "headers": [
+    [
+     "h1",
+     "Quelle indemnisation après l’amputation d’un membre : d’un doigt à une jambe ?"
+    ],
+    [
+     "h2",
+     "Amputation et accidents de la route"
+    ],
+    [
+     "h2",
+     "Répercussions d'une amputation sur la vie de la victime"
+    ],
+    [
+     "h2",
+     "Amputation : démarches à effectuer pour être indemnisé"
+    ],
+    [
+     "h2",
+     "Evaluation des postes de préjudices : un enjeu central pour l'indemnisation d'une amputation"
+    ],
+    [
+     "h2",
+     "Cas concret : prise en charge des préjudices d'une victime amputée"
+    ],
+    [
+     "h2",
+     "L’accompagnement de l’avocat spécialiste : un rôle déterminant"
+    ],
+    [
+     "h2",
+     "Amputation et indemnisation : conclusion"
+    ],
+    [
+     "h2",
+     "En résumé :"
+    ]
+   ],
+   "content_score": 69,
+   "readability": 21,
+   "word_count": 2638,
+   "content_len": 17917
+  },
+  {
+   "rank": 15,
+   "url": "https://association-aivf-faq.fr/grand-handicap/indemnisation-des-victimes-amputees",
+   "title": "Indemnisation victimes amputées - Association Victimes de France AIVF",
+   "desc": "Indemnisation victimes amputées suite accident corporel, grand handicap, appareillage prothétique, avocat dommage corporel",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation des victimes amputées"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ Questions fréquentes – Indemnisation des victimes amputées"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation des victimes amputées suite à un accident corporel"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 44,
+   "word_count": 1883,
+   "content_len": 12761
+  },
+  {
+   "rank": 16,
+   "url": "https://www.bigre.fr/accidents-et-amputation-parcours-medical-reeducation-protheses-et-accompagnement-dun-avocat-specialise/",
+   "title": "Indemnisation après une amputation suite à un accident",
+   "desc": "Victime d’une amputation après un accident ? Informez-vous sur le parcours médical, la rééducation et les prothèses pour une indemnisation complète.",
+   "headers": [
+    [
+     "h1",
+     "Accidents et amputation : parcours médical, rééducation, prothèses et accompagnement d’un avocat spécialisé"
+    ],
+    [
+     "h2",
+     "Accidents : une cause majeure d’amputation en France"
+    ],
+    [
+     "h2",
+     "L’épreuve de l’amputation après un accident"
+    ],
+    [
+     "h2",
+     "La rééducation : étape clé après une amputation"
+    ],
+    [
+     "h2",
+     "Les prothèses : un espoir pour les victimes d’accidents"
+    ],
+    [
+     "h2",
+     "Accès aux prothèses et financement en France"
+    ],
+    [
+     "h2",
+     "Accompagnement juridique : le rôle central de l’avocat"
+    ],
+    [
+     "h2",
+     "Pourquoi un avocat spécialisé est indispensable après une amputation ?"
+    ],
+    [
+     "h2",
+     "Exemples de victimes assistées par le Cabinet de Maître Cécile Bigre"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 24,
+   "word_count": 987,
+   "content_len": 6670
+  },
+  {
+   "rank": 17,
+   "url": "https://www.avocat-nicolau.fr/actualites/indemnisation-des-victimes-damputation-demarches-et-droits-essentiels/",
+   "title": "Indemnisation amputation : démarches et droits des victimes - Nicolau avocats - Grenoble",
+   "desc": "Amputation après accident : expertise médicale, préjudices indemnisables et accompagnement par un avocat en dommage corporel pour une réparation complète.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation des victimes d’amputation : démarches et droits essentiels"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 28,
+   "word_count": 1337,
+   "content_len": 9067
+  },
+  {
+   "rank": 18,
+   "url": "https://www.avocats-scp-schmitzberger-hoffer-colette.fr/indemnisation-amputation",
+   "title": "Indemnisation après une amputation : quels droits ?",
+   "desc": "Découvrez vos droits à indemnisation après une amputation : préjudices indemnisables, démarches à suivre et rôle clé d’un avocat spécialisé.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation en cas d’amputation : quels sont vos droits ?"
+    ],
+    [
+     "h2",
+     "Quels préjudices peuvent être indemnisés après une amputation ?"
+    ],
+    [
+     "h2",
+     "Quelles démarches entreprendre pour obtenir une indemnisation ?"
+    ],
+    [
+     "h2",
+     "Quels sont vos recours en cas de refus ou de désaccord ?"
+    ],
+    [
+     "h2",
+     "Pourquoi faire appel à un avocat pour obtenir réparation du préjudice ?"
+    ],
+    [
+     "h2",
+     "Indemnisation à la suite d’une amputation : conclusion"
+    ]
+   ],
+   "content_score": 65,
+   "readability": 32,
+   "word_count": 1874,
+   "content_len": 12763
+  },
+  {
+   "rank": 19,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/cellule-grand-handicap-aivf/indemnisation-perte-jambe",
+   "title": "Indemnisation perte jambe - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France vous accompagne dans l'indemnisation pour la perte d'une jambe. Expertise et soutien.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation perte jambe"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Indemnisation suite à la perte d’une jambe (amputation)"
+    ],
+    [
+     "h2",
+     "Indemnisation Suite à la Perte d’une Jambe"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 34,
+   "word_count": 2811,
+   "content_len": 18615
+  },
+  {
+   "rank": 20,
+   "url": "https://www.vjp-avocat.com/fr/actualites/id-95-quelle-indemnisation-pour-une-victime-amputee",
+   "title": "L'indemnisation des victimes amputées",
+   "desc": "Tout comme les atteintes médullaires et les atteintes neurologiques, l’amputation touche à la question de l’indemnisation du Grand Handicap.",
+   "headers": [
+    [
+     "h1",
+     "Quelle indemnisation pour une victime amputée?"
+    ],
+    [
+     "h2",
+     "Indemnisation en cas d'amputation : des préjudices spécifiques"
+    ],
+    [
+     "h2",
+     "Toutes les prothèses ne se valent pas"
+    ],
+    [
+     "h2",
+     "La nécessaire évaluation de l'ensemble des besoins de la victime d'amputation"
+    ],
+    [
+     "h2",
+     "Amputation : le bon appareillage ne fait pas tout"
+    ],
+    [
+     "h2",
+     "Cabinet d'avocats spécialisé en amputation et indemnisation des victimes amputées"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 33,
+   "word_count": 1020,
+   "content_len": 6579
+  },
+  {
+   "rank": 21,
+   "url": "https://www.benezra-victimesdelaroute.fr/la-victime-amputee-apres-un-accident-de-la-route-partie-1/",
+   "title": "Les préjudices de la victime amputée après un accident de la route",
+   "desc": "La victime amputée après un accident de la route a de nombreux préjudices liés au handicap lourd qu'il faut indemniser : prothèse, logement",
+   "headers": [
+    [
+     "h1",
+     "Les préjudices de la victime amputée après un accident de la route ?"
+    ],
+    [
+     "h2",
+     "→ L’amputation d’un membre après un accident"
+    ],
+    [
+     "h2",
+     "→ Comment est posé le diagnostic de l’amputation ?"
+    ],
+    [
+     "h2",
+     "→ Comment se déroule la rééducation de la victime amputée ?"
+    ],
+    [
+     "h2",
+     "→ Quels sont les préjudices spécifiques aux amputés et comment les indemniser ?"
+    ],
+    [
+     "h2",
+     "→ Comment appareiller la victime amputée et quel appareillage prothétique ?"
+    ],
+    [
+     "h2",
+     "→ Pourquoi il est impératif d’évaluer l’environnement de la victime amputée ?"
+    ],
+    [
+     "h2",
+     "→ Pourquoi choisir le cabinet Benezra dans le cadre de l’indemnisation des victimes amputées ?"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 20,
+   "word_count": 4772,
+   "content_len": 30451
+  },
+  {
+   "rank": 22,
+   "url": "https://www.briant-avocat.fr/fr/actualites-juridiques-accident/id-94-blesse-ampute-apres-un-accident-l-indemnisation-des-protheses",
+   "title": "l'indemnisation des prothèses pour les blessés amputé après un accident",
+   "desc": "Ma&icirc;tre Briant pr&eacute;cise comment calculer l'indemnisation des proth&egrave;ses pour les bless&eacute;s amput&eacute; apr&egrave;s un accident. .",
+   "headers": [
+    [
+     "h1",
+     "Blessé amputé après un accident : l'indemnisation des prothèses"
+    ],
+    [
+     "h2",
+     "L'indemnisation des frais d'appareillage : prothèse esthétique"
+    ],
+    [
+     "h2",
+     "La prothèse esthétique indemnisée au titre des \"DSF\""
+    ]
+   ],
+   "content_score": 35,
+   "readability": 9,
+   "word_count": 455,
+   "content_len": 2855
+  },
+  {
+   "rank": 23,
+   "url": "https://www.brg-avocats.fr/victime-dommages-corporels-amputation-fgti-prestation-de-compensation-du-handicap-et-civi/",
+   "title": "Victime - dommages corporels - amputation - FGTI : Prestation de compensation du handicap et CIVI - BRG Avocats",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Victime – dommages corporels – amputation – FGTI : Prestation de compensation du handicap et CIVI"
+    ]
+   ],
+   "content_score": 27,
+   "readability": 22,
+   "word_count": 500,
+   "content_len": 2972
+  },
+  {
+   "rank": 24,
+   "url": "https://www.maitre-mouhou.com/actu/chronique-dune-victime-amputee-a-la-suite-dun-accident-indemnisee-a-la-somme-de-15-millions-deuros-12405/",
+   "title": "Chronique d'une victime amputée à la suite d'un accident, indemnisée à la somme de 1,5 millions d'euros - Maître Mouhou - Avocat - Défense des victimes",
+   "desc": "Comment obtenir la meilleure indemnisation pour une victime amputée aprés un accident de la route.",
+   "headers": [
+    [
+     "h1",
+     "Chronique d’une victime amputée à la suite d’un accident, indemnisée à la somme de 1,5 millions d’euros"
+    ]
+   ],
+   "content_score": 22,
+   "readability": 41,
+   "word_count": 793,
+   "content_len": 4637
+  },
+  {
+   "rank": 25,
+   "url": "https://www.medecin-dommage-corporel.expert/indemnisation-amputation/",
+   "title": "Amputation de jambe suite à un accident de la circulation",
+   "desc": "Une victime présente un carcinome de jambe et subit une amputation de jambe 33 ans après un accident de la circulation. L'expertise médicale judiciaire confirme l’imputabilité du cancer et de l'amputation à l'accident de la route. La victime obtient une indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d’une amputation"
+    ],
+    [
+     "h1",
+     "Indemnisation  après une amputation de la jambe"
+    ],
+    [
+     "h2",
+     "L’expertise médicale judiciaire"
+    ],
+    [
+     "h2",
+     "L’indemnisation de l’amputation de la jambe"
+    ]
+   ],
+   "content_score": 42,
+   "readability": 27,
+   "word_count": 237,
+   "content_len": 1477
+  },
+  {
+   "rank": 26,
+   "url": "https://www.youtube.com/watch?v=JJwsfFjMjI4",
+   "title": "La Minute inclu’ – Quand amputation rime avec nouvelle vie Ep. 6 - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "La Minute inclu’ – Quand amputation rime avec nouvelle vie Ep. 6"
+    ],
+    [
+     "h1",
+     "La Minute inclu’ – Quand amputation rime avec nouvelle vie Ep. 6"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      2"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 15,
+   "readability": 35,
+   "word_count": 174,
+   "content_len": 1052
+  },
+  {
+   "rank": 27,
+   "url": "https://www.nathanhazzan-avocat.fr/indemnisation-apres-amputation-calcul-et-evaluation-a-long-terme/",
+   "title": "Indemnisation après amputation : calcul et évaluation à long terme",
+   "desc": "Amputation et indemnisation du préjudice corporel : conséquences, prothèses, assistance humaine et impact professionnel. Une évaluation globale et à long terme pour garantir une réparation intégrale adaptée.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation après une amputation : calcul, prothèses, assistance humaine et évaluation à long terme"
+    ],
+    [
+     "h2",
+     "1. Les conséquences d’une amputation"
+    ],
+    [
+     "h2",
+     "2. Les besoins spécifiques liés à l’amputation"
+    ],
+    [
+     "h2",
+     "3. Les postes d’indemnisation"
+    ],
+    [
+     "h2",
+     "4. L’enjeu majeur : l’évaluation à long terme"
+    ],
+    [
+     "h2",
+     "5. Étude de cas (dossier en cours)"
+    ],
+    [
+     "h2",
+     "6. L’impact professionnel"
+    ],
+    [
+     "h2",
+     "7. Difficultés fréquentes"
+    ],
+    [
+     "h2",
+     "8. L’importance de l’expertise"
+    ],
+    [
+     "h2",
+     "9. Approche"
+    ],
+    [
+     "h2",
+     "10. FAQ – Amputation et indemnisation"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 34,
+   "word_count": 566,
+   "content_len": 4173
+  },
+  {
+   "rank": 28,
+   "url": "https://www.facebook.com/doctissimo/videos/cest-comme-une-double-peine-pour-les-amput%C3%A9s-apr%C3%A8s-une-maladie/1894564534740202/",
+   "title": "Lorsqu’une amputation survient à la suite d’une maladie, comme un cancer, l’accès à certains appareillages reste encore très limité. Les prothèses les plus avancées ne sont pas toujours remboursées par la Sécurité sociale.\n\nUne inégalité que dénonce Matthieu Lartot, journaliste sportif, lui-même amputé, qui parle d’une véritable “double peine” pour les patients concernés.\n\n🎥 Un extrait de notre série Santé en confiance, à retrouver sur la chaîne YouTube de Doctissimo ! \n\nAvec le soutien de notre partenaire Sanofi \n\n#Cancer #maladie #handicap #MatthieuLartot #SecuriteSociale | Doctissimo",
+   "desc": "Lorsqu’une amputation survient à la suite d’une maladie, comme un cancer, l’accès à certains appareillages reste encore très limité. Les prothèses les...",
+   "headers": [],
+   "content_score": 12,
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 29,
+   "url": "https://www.briant-avocat.fr/fr/actualites-juridiques-accident/id-100-indemnisation-victime-amputee",
+   "title": "Accident victime amputée indemnisation Caen",
+   "desc": "Quelle indemnisation pour les Victimes amput&eacute;es apr&egrave;s un accident ? L&rsquo;indemnisation des pr&eacute;judices esth&eacute;tiques permanent et des pr&eacute;judices d'agr&eacute;ment....",
+   "headers": [
+    [
+     "h1",
+     "Victime amputée après un accident"
+    ],
+    [
+     "h2",
+     "Quelle indemnisation pour les Victimes amputées après un accident ?"
+    ],
+    [
+     "h2",
+     "Quel est le droit à indemnisation de la victime d’un accident, amputée ?"
+    ],
+    [
+     "h2",
+     "Le droit à indemnisation du préjudice esthétique et des prothèses"
+    ],
+    [
+     "h2",
+     "L’indemnisation d’une prothèse de sport en plus du préjudice d’agrément"
+    ]
+   ],
+   "content_score": 32,
+   "readability": 14,
+   "word_count": 613,
+   "content_len": 4015
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1309,
+   "target": 1309
+  },
+  "readability": {
+   "median": 36,
+   "target": 36
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 80
+   },
+   {
+    "t": "amputation",
+    "usage_pc": 70
+   },
+   {
+    "t": "avocat",
+    "usage_pc": 50
+   },
+   {
+    "t": "indemnisation amputation",
+    "usage_pc": 40
+   },
+   {
+    "t": "amputé",
+    "usage_pc": 30
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommages corporels",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "amputation",
+    "usage_pc": 70
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 40
+   },
+   {
+    "t": "prothèse",
+    "usage_pc": 40
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "amputé",
+    "usage_pc": 30
+   },
+   {
+    "t": "aide humaine",
+    "usage_pc": 30
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "a été amputé",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "amputation",
+    "usage_pc": 70
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "indemnisation amputation",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "amputé",
+    "usage_pc": 10
+   },
+   {
+    "t": "une amputation",
+    "usage_pc": 10
+   },
+   {
+    "t": "obtenir",
+    "usage_pc": 10
+   },
+   {
+    "t": "un membre",
+    "usage_pc": 10
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident grave",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 90
+   },
+   {
+    "t": "amputation",
+    "usage_pc": 60
+   },
+   {
+    "t": "accident",
+    "usage_pc": 50
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 50
+   },
+   {
+    "t": "obtenir",
+    "usage_pc": 40
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 30
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 30
+   },
+   {
+    "t": "indemnisation exceptionnelle",
+    "usage_pc": 30
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "prothèse",
+    "usage_pc": 20
+   },
+   {
+    "t": "amputé",
+    "usage_pc": 20
+   },
+   {
+    "t": "une amputation",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommages corporels",
+    "usage_pc": 20
+   },
+   {
+    "t": "avocat",
+    "usage_pc": 20
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "aide humaine",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation amputation",
+    "usage_pc": 10
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 10
+   },
+   {
+    "t": "droit du dommage corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 10
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident du travail",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "un membre",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident grave",
+    "usage_pc": 10
+   },
+   {
+    "t": "les prothèses",
+    "usage_pc": 10
+   },
+   {
+    "t": "amputation de la jambe",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation après une amputation",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     10,
+     19
+    ]
+   },
+   {
+    "t": "amputation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     26
+    ]
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 90,
+    "sugg_usage": [
+     3,
+     8
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 90,
+    "sugg_usage": [
+     5,
+     7
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 90,
+    "sugg_usage": [
+     5,
+     20
+    ]
+   },
+   {
+    "t": "prothèse",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     9
+    ]
+   },
+   {
+    "t": "amputé",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     9
+    ]
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     6
+    ]
+   },
+   {
+    "t": "une amputation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "dommages corporels",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "avocat",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     8
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime amputée",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "obtenir",
+    "usage_pc": 90,
+    "sugg_usage": [
+     3,
+     6
+    ]
+   },
+   {
+    "t": "droit du dommage corporel",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "aide humaine",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "expert",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident du travail",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "accidents de la route",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "séquelle",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un membre",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accidents de la vie",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un avocat",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "appareillage",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "moignon",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "loi badinter",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "indemnisation amputation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une jambe",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident grave",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les prothèses",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "amputation de la jambe",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "vie courante",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de la circulation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les amputations",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "a été amputé",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lors des expertises médicales",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation exceptionnelle",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médecin conseil",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "amputation d’une jambe",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’une amputation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte d’autonomie",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "rapport d’expertise",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "national d’indemnisation des accidents",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "commission de conciliation et d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "n’a pas pu être sauvée",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fauteuil roulant",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation complète",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les expertises",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation juste et complète",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "amputation d'un membre",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "origine du premier accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "gains professionnels futurs",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation après une amputation",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garantir une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "refusait toute indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "stress post-traumatique",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "pertes de gains professionnels futurs",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "personne amputée",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les actes de la vie",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "actes de la vie quotidienne",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte de chance",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudices subis",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "séquelles invisibles",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "vie de la victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "chaque année en france",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les coûts de renouvellement",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "besoins de la victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "vie du patient",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "sauver la vie",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte de contrôle",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cabinet benezra avocats",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit des assurances",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "charge par les organismes sociaux",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "liste des produits et prestations",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "produits et prestations remboursables",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "vie intime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "vie restante",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Amputation",
+    "importance": 79.238,
+    "relevance": 0.79238,
+    "confidence": 5.822,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Amputation"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 50.738000000000014,
+    "relevance": 0.50738,
+    "confidence": 3.7520000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Prothèse (médecine)",
+    "importance": 43.93820000000001,
+    "relevance": 0.439382,
+    "confidence": 6.437399999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Prothèse_(médecine)"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 25.259520000000006,
+    "relevance": 0.39468000000000003,
+    "confidence": 4.5304,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Handicap",
+    "importance": 13.170688,
+    "relevance": 0.20579200000000003,
+    "confidence": 4.1786,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Handicap"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 11.746080000000001,
+    "relevance": 0.32628,
+    "confidence": 5.952,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Véhicule (transport physique)",
+    "importance": 5.883839999999999,
+    "relevance": 0.16343999999999997,
+    "confidence": 1.412,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Véhicule_(transport_physique)"
+     ]
+    ]
+   },
+   {
+    "t": "Loi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation",
+    "importance": 2.7030400000000006,
+    "relevance": 0.16894,
+    "confidence": 1.9984000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi_tendant_à_l'amélioration_de_la_situation_des_victimes_d'accidents_de_la_circulation_et_à_l'accélération_des_procédures_d'indemnisation"
+     ]
+    ]
+   },
+   {
+    "t": "Autonomie",
+    "importance": 2.581696,
+    "relevance": 0.161356,
+    "confidence": 1.7793999999999996,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Autonomie"
+     ]
+    ]
+   },
+   {
+    "t": "Infection nosocomiale",
+    "importance": 2.0545088,
+    "relevance": 0.1284068,
+    "confidence": 3.9384,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Infection_nosocomiale"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 1.937568,
+    "relevance": 0.121098,
+    "confidence": 0.9204000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Accident du travail",
+    "importance": 1.54688,
+    "relevance": 0.09668,
+    "confidence": 1.2376,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_du_travail"
+     ]
+    ]
+   },
+   {
+    "t": "Psychologie",
+    "importance": 1.4761599999999997,
+    "relevance": 0.09225999999999998,
+    "confidence": 2.5946,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Psychologie"
+     ]
+    ]
+   },
+   {
+    "t": "Fauteuil roulant",
+    "importance": 1.4387200000000002,
+    "relevance": 0.08992,
+    "confidence": 3.082,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fauteuil_roulant"
+     ]
+    ]
+   },
+   {
+    "t": "Microprocesseur",
+    "importance": 1.2592000000000003,
+    "relevance": 0.0787,
+    "confidence": 2.0602,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Microprocesseur"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 1.2172800000000004,
+    "relevance": 0.07608000000000001,
+    "confidence": 0.8214,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Kinésithérapie",
+    "importance": 0.879552,
+    "relevance": 0.054972,
+    "confidence": 4.0242,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Kinésithérapie"
+     ]
+    ]
+   },
+   {
+    "t": "Monsieur L.",
+    "importance": 0.7408,
+    "relevance": 0.1852,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Laurent",
+    "importance": 0.6673600000000001,
+    "relevance": 0.16684000000000002,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "AIVF",
+    "importance": 0.66184,
+    "relevance": 0.16546,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Jambe",
+    "importance": 0.6172,
+    "relevance": 0.1543,
+    "confidence": 0.9118,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Jambe"
+     ]
+    ]
+   },
+   {
+    "t": "Patient",
+    "importance": 0.56248,
+    "relevance": 0.14062,
+    "confidence": 0.8135999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Patient"
+     ]
+    ]
+   },
+   {
+    "t": "Douleur",
+    "importance": 0.562,
+    "relevance": 0.1405,
+    "confidence": 1.588,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Douleur"
+     ]
+    ]
+   },
+   {
+    "t": "Association AIVF",
+    "importance": 0.5546399999999999,
+    "relevance": 0.13866,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Maître Benezra",
+    "importance": 0.5476,
+    "relevance": 0.1369,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Préjudice professionnel",
+    "importance": 0.54552,
+    "relevance": 0.13638,
+    "confidence": 0.3266,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Préjudice_professionnel"
+     ]
+    ]
+   },
+   {
+    "t": "BENEZRA",
+    "importance": 0.53976,
+    "relevance": 0.13494,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "cabinet BENEZRA",
+    "importance": 0.53488,
+    "relevance": 0.13372,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Benezra Avocats",
+    "importance": 0.5259199999999999,
+    "relevance": 0.13147999999999999,
+    "confidence": 0.1,
+    "links": []
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "indemnisation\namputation\navocat\nindemnisation amputation\namputé\ncorporel\ndommages corporels",
+  "desc_title": "amputation\nindemnisation\nprothèse\npréjudice\naccident\namputé\naide humaine\nun accident\na été amputé",
+  "h1": "amputation\nindemnisation\nindemnisation amputation\naccident\nun accident\npréjudice\namputé\nune amputation\nobtenir\nun membre\naprès un accident\naccident grave",
+  "h2": "indemnisation\namputation\naccident\ncorporel\nobtenir\npréjudice\ndroit à indemnisation\nindemnisation exceptionnelle\nun accident\nprothèse\namputé\nune amputation\ndommages corporels\navocat\nobtenir une indemnisation\naide humaine\nindemnisation amputation\nexpertise\ndroit du dommage corporel\nassureur\npréjudice corporel\naccident du travail\nindemniser\nun membre\naccident grave\nles prothèses\namputation de la jambe\nindemnisation après une amputation",
+  "content_basic": "indemnisation\namputation\nun accident\npréjudice\naccident\nprothèse\namputé\nexpertise\ncorporel\nune amputation\ndommages corporels\navocat\nobtenir une indemnisation\nvictime amputée\nobtenir\ndroit du dommage corporel\naide humaine\nexpert\nassureur\npréjudice corporel\naccident du travail\naccidents de la route\nséquelle\nindemniser\nun membre\naccidents de la vie\nun accident de la route\nun avocat\nexpertise médicale\nappareillage\nles préjudices\nmoignon\nloi badinter",
+  "content_basic_w_ranges": "indemnisation: 10-19x\namputation: 3-26x\nun accident: 3-8x\npréjudice: 5-7x\naccident: 5-20x\nprothèse: 2-9x\namputé: 1-9x\nexpertise: 1-7x\ncorporel: 3-6x\nune amputation: 1-5x\ndommages corporels: 1-5x\navocat: 1-8x\nobtenir une indemnisation: 1x\nvictime amputée: 1-5x\nobtenir: 3-6x\ndroit du dommage corporel: 1-3x\naide humaine: 1-2x\nexpert: 1-5x\nassureur: 1-3x\npréjudice corporel: 1x\naccident du travail: 1-2x\naccidents de la route: 1-2x\nséquelle: 1-2x\nindemniser: 1-2x\nun membre: 1x\naccidents de la vie: 1-2x\nun accident de la route: 1-2x\nun avocat: 1-2x\nexpertise médicale: 1-2x\nappareillage: 1-2x\nles préjudices: 1x\nmoignon: 1x\nloi badinter: 1-2x",
+  "content_extended": "indemnisation amputation\ndroit à indemnisation\nune jambe\naprès un accident\naccident grave\nles prothèses\namputation de la jambe\nvie courante\naccident de la circulation\nles amputations\na été amputé\nlors des expertises médicales\nindemnisation exceptionnelle\nmédecin conseil\nvictime d’un accident\nsuite d’un accident\namputation d’une jambe\nvictime d’une amputation\nperte d’autonomie\nrapport d’expertise\nnational d’indemnisation des accidents\ncommission de conciliation et d’indemnisation\nn’a pas pu être sauvée\nfauteuil roulant\nindemnisation complète\navocat spécialisé\nles expertises\nindemnisation juste et complète\namputation d'un membre\norigine du premier accident\ngains professionnels futurs\nindemnisation après une amputation\ngarantir une indemnisation\nrefusait toute indemnisation\nstress post-traumatique\npertes de gains professionnels futurs\nsuite à un accident\npersonne amputée\nles actes de la vie\nactes de la vie quotidienne\nperte de chance\npréjudices subis\nséquelles invisibles\nvie de la victime\nchaque année en france\nles coûts de renouvellement\nbesoins de la victime\nvie du patient\nsauver la vie\nperte de contrôle\ncabinet benezra avocats\ndroit des assurances\ncharge par les organismes sociaux\nliste des produits et prestations\nproduits et prestations remboursables\nvie intime\nvie restante",
+  "content_extended_w_ranges": "indemnisation amputation: 1x\ndroit à indemnisation: 1x\nune jambe: 1x\naprès un accident: 1x\naccident grave: 1x\nles prothèses: 1-2x\namputation de la jambe: 1x\nvie courante: 1x\naccident de la circulation: 1x\nles amputations: 1x\na été amputé: 1x\nlors des expertises médicales: 1x\nindemnisation exceptionnelle: 1x\nmédecin conseil: 1x\nvictime d’un accident: 1x\nsuite d’un accident: 1x\namputation d’une jambe: 1x\nvictime d’une amputation: 1x\nperte d’autonomie: 1x\nrapport d’expertise: 1x\nnational d’indemnisation des accidents: 1x\ncommission de conciliation et d’indemnisation: 1x\nn’a pas pu être sauvée: 1x\nfauteuil roulant: 1x\nindemnisation complète: 1x\navocat spécialisé: 1x\nles expertises: 1x\nindemnisation juste et complète: 1x\namputation d'un membre: 1x\norigine du premier accident: 1x\ngains professionnels futurs: 1x\nindemnisation après une amputation: 1x\ngarantir une indemnisation: 1x\nrefusait toute indemnisation: 1x\nstress post-traumatique: 1x\npertes de gains professionnels futurs: 1x\nsuite à un accident: 1x\npersonne amputée: 1x\nles actes de la vie: 1x\nactes de la vie quotidienne: 1x\nperte de chance: 1x\npréjudices subis: 1x\nséquelles invisibles: 1x\nvie de la victime: 1x\nchaque année en france: 1x\nles coûts de renouvellement: 1x\nbesoins de la victime: 1x\nvie du patient: 1x\nsauver la vie: 1x\nperte de contrôle: 1x\ncabinet benezra avocats: 1x\ndroit des assurances: 1x\ncharge par les organismes sociaux: 1x\nliste des produits et prestations: 1x\nproduits et prestations remboursables: 1x\nvie intime: 1x\nvie restante: 1x",
+  "entities": "Amputation\nDommage corporel\nProthèse (médecine)\nAssurance\nHandicap\nAccident de la route\nVéhicule (transport physique)\nLoi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation\nAutonomie\nInfection nosocomiale\nMédecin\nAccident du travail\nPsychologie\nFauteuil roulant\nMicroprocesseur\nEndommagement\nKinésithérapie\nMonsieur L.\nLaurent\nAIVF\nJambe\nPatient\nDouleur\nAssociation AIVF\nMaître Benezra\nPréjudice professionnel\nBENEZRA\ncabinet BENEZRA\nBenezra Avocats"
+ },
+ "status": "ready",
+ "keyword": "indemnisation amputation",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "f567085b2f3b3ba1",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "transactional": 62.1
+  },
+  "top_content_type": "business",
+  "content_type_stats": {
+   "educational": 48.3,
+   "business": 89.7,
+   "guide": 20.7,
+   "case-study": 24.1,
+   "video": 10.3,
+   "social-media": 6.9
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/f567085b2f3b3ba1",
+ "share_url": "https://app.neuronwriter.com/analysis/share/f567085b2f3b3ba1/ab4cdf7f559954b0473682782898dbbb4fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/f567085b2f3b3ba1/8825b02f09096cf2a7ebc9c805b7f8e44fa16"
+}
