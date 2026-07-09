@@ -217,6 +217,10 @@ Image `img/articles/fgti-fonds-garantie-victimes.jpg` (id 47) = copie de
 `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
 disponible) — à remplacer par un visuel dédié dès que possible.
 
+Image `img/articles/porter-plainte-agression.jpg` (id 48) = copie de
+`indemnisation-prejudice-corporel-grave.jpg` (aucun visuel dédié
+disponible) — à remplacer par un visuel dédié dès que possible.
+
 Image `img/articles/indemnisation-chute-rue-escalier.jpg` (id 45) =
 copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
 dédié disponible) — à remplacer dès que possible.
