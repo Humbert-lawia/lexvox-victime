@@ -1168,8 +1168,14 @@
       "keyword": "recours contre assureur",
       "source": "Qwairy (cluster 12 prompts)",
       "ville": "nimes",
-      "status": "todo",
-      "note": "PILIER GEO : couvre les 12 prompts du cluster (documents nécessaires, délais, honoraires/résultat, stratégies, erreurs, amiable vs judiciaire, quand un avocat est utile)."
+      "status": "done",
+      "note": "PILIER GEO : couvre les 12 prompts du cluster (documents nécessaires, délais, honoraires/résultat, stratégies, erreurs, amiable vs judiciaire, quand un avocat est utile).",
+      "date": "2026-07-09",
+      "neuronwriter_score": 86,
+      "url": "https://victime-accident.lexvox-avocat.fr/2026/07/09/recours-contre-assureur-guide-complet/",
+      "wp_post_id": 7815,
+      "wp_media_id": 7814,
+      "yoast_meta_pending": true
     },
     {
       "id": 81,

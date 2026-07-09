@@ -13,6 +13,7 @@ Git. Ne jamais toucher à Sanity ni à `lexvox-victime.com` depuis ce pipeline.
 | 2026-07-07 | accident | faute-victime-accident-reduction-indemnisation | 85 | https://victime-accident.lexvox-avocat.fr/2026/07/07/faute-victime-accident-reduction-indemnisation/ |
 | 2026-07-07 | accident | conducteur-fautif-victime-droits-indemnisation | 86 | https://victime-accident.lexvox-avocat.fr/2026/07/07/conducteur-fautif-victime-droits-indemnisation/ |
 | 2026-07-07 | medical | perte-de-chance-erreur-medicale-indemnisation | 88 (pilier) | https://medical.lexvox-avocat.fr/2026/07/07/perte-de-chance-erreur-medicale-indemnisation/ |
+| 2026-07-09 | accident | recours-contre-assureur-guide-complet | 86 (pilier) | https://victime-accident.lexvox-avocat.fr/2026/07/09/recours-contre-assureur-guide-complet/ |
 
 Les scores NeuronWriter ci-dessus sont mesurés sur la **page reconstituée**
 (title + meta description + h1 injectés autour du corps atelier, cf.
@@ -37,6 +38,7 @@ manuellement dans Yoast (à faire par Me Humbert ou le webmaster) :
 | accident #7811 — faute-victime-accident-reduction-indemnisation | Faute de la victime : quand réduit-elle l'indemnisation ? | Faute de la victime d'un accident : quand réduit-elle l'indemnisation du dommage corporel ? Loi Badinter, jurisprudence et recours pratiques. |
 | accident #7813 — conducteur-fautif-victime-droits-indemnisation | Conducteur fautif : quels droits à indemnisation ? | Conducteur fautif après un accident : quelle indemnisation reste possible ? Loi Badinter, garantie conducteur, jurisprudence. |
 | medical #5210 — perte-de-chance-erreur-medicale-indemnisation | Perte de chance en responsabilité médicale : indemnisation | Perte de chance en erreur médicale : évaluation, barème et indemnisation de la chance perdue par la victime. Jurisprudence et rôle de l'ONIAM. |
+| accident #7815 — recours-contre-assureur-guide-complet | Recours contre l'assureur : litige, médiation, indemnisation | Recours contre son assureur après un accident : réclamation, médiateur de l'assurance, action en justice, délais et documents. Guide d'un avocat à Nîmes. |
 
 En attendant, le `title` WordPress (H1 affiché) et l'`excerpt` du post portent
 déjà ce contenu optimisé — seul le rendu du snippet Google (title/desc dans
