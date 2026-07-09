@@ -225,6 +225,10 @@ Image `img/articles/indemnisation-coups-et-blessures.jpg` (id 49) =
 copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
 dédié disponible) — à remplacer par un visuel dédié dès que possible.
 
+Image `img/articles/indemnisation-pieton-accident.jpg` (id 50) =
+copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
+dédié disponible) — à remplacer par un visuel dédié dès que possible.
+
 Image `img/articles/indemnisation-chute-rue-escalier.jpg` (id 45) =
 copie de `indemnisation-prejudice-corporel-grave.jpg` (aucun visuel
 dédié disponible) — à remplacer dès que possible.
