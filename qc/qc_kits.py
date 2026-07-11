@@ -35,12 +35,18 @@ def load_referentiel():
     allowed_articles = set()   # ex: "l211-9", "1240", "d1142-1", "l221-28"
     allowed_pourvois = set()   # ex: "12-22.123"
     allowed_urls = set()
+    art_pat = re.compile(r'\b((?:l|r|d)?\d+(?:-\d+)*)\b')
     for ref in data["references"]:
         label = strip_accents(ref["reference"]).lower()
-        # numeros d'article : L211-9, L1142-1-1, D1142-1, 1240, 202, L221-28, L311-1
-        for m in re.findall(r'\b([ld]?\d+[-\d]*)\b', label):
+        # numeros d'article dans l'intitule : L211-9, L1142-1-1, D1142-1, 1240, 202, R4127-46...
+        for m in art_pat.findall(label):
             if any(ch.isdigit() for ch in m):
                 allowed_articles.add(m)
+        # articles cites A L'INTERIEUR du texte verifie (renvois internes de Legifrance) :
+        # ils font partie d'une citation exacte verifiee, pas d'assertions autonomes.
+        cite = strip_accents(ref.get("citation_exacte") or "").lower()
+        for m in re.findall(r'\barticle[s]?\s+((?:l|r|d)\.?\s?\d+(?:-\d+)*)', cite):
+            allowed_articles.add(m.replace(" ", "").replace(".", ""))
         # numeros de pourvoi
         for m in re.findall(r'\b(\d{2}-\d{2}\.\d{3})\b', label):
             allowed_pourvois.add(m)
@@ -65,10 +71,22 @@ def norm_article(a):
     a = a.replace(" ", "").replace(".", "").lower()
     return a
 
+HEADING_ART_RE = re.compile(r'(?m)(?:^\s*#+\s*|\*\*)?article\s+(\d{1,2})\s*[.:]', re.IGNORECASE)
+
 def extract_refs(text):
-    arts = set(norm_article(a) for a in ART_RE.findall(text))
+    # articles de loi cites : on ignore les intitules de clauses des CGV
+    # ("Article 6. Palier premium") qui sont des titres de section, pas des lois.
+    heading_nums = set(HEADING_ART_RE.findall(text))
+    arts = set()
+    for a in ART_RE.findall(text):
+        na = norm_article(a)
+        # un article a numero simple (<=2 chiffres, sans prefixe L/R/D) suivi d'un point
+        # et sans code cite est un titre de clause : on ne le compte pas comme reference.
+        if na.isdigit() and len(na) <= 2 and na in heading_nums:
+            continue
+        arts.add(na)
     pourvois = set(POURVOI_RE.findall(text))
-    urls = set(u.rstrip(').,;') for u in URL_RE.findall(text))
+    urls = set(u.rstrip('*).,;:"\'>') for u in URL_RE.findall(text))
     lois = set(LOI_RE.findall(text))
     return arts, pourvois, urls, lois
 
@@ -85,7 +103,13 @@ AVERT_KIT = "ne constitue pas une consultation juridique"
 AVERT_URGENCE = "appelez le 15"
 
 def has(text, needle):
-    return strip_accents(needle).lower() in strip_accents(text).lower()
+    # normalise les espaces/retours a la ligne : les disclaimers sont souvent
+    # replies sur plusieurs lignes dans les blockquotes markdown.
+    def norm(x):
+        x = strip_accents(x).lower()
+        x = re.sub(r'[>*#`_]', ' ', x)   # retire le chrome markdown (blockquotes, gras...)
+        return re.sub(r'\s+', ' ', x)
+    return norm(needle) in norm(text)
 
 def check_file(path, allowed_articles, allowed_pourvois, allowed_urls):
     with open(path, encoding="utf-8") as f:
@@ -96,11 +120,8 @@ def check_file(path, allowed_articles, allowed_pourvois, allowed_urls):
 
     # references non tracees
     for a in sorted(arts):
-        base = a  # ex l211-9
-        if base not in allowed_articles:
-            # tolerance : certains numeros composes (l1142-1-1) ou refs internes
-            if base.lstrip("lrd") not in allowed_articles and base not in allowed_articles:
-                findings.append(("REF_NON_TRACEE", f"article {a}"))
+        if a not in allowed_articles:
+            findings.append(("REF_NON_TRACEE", f"article {a}"))
     for p in sorted(pourvois):
         if p not in allowed_pourvois:
             findings.append(("POURVOI_NON_TRACE", p))
