@@ -1,0 +1,45 @@
+{
+  "projet": "Kits LEXVOX Victime — Accident & Erreur medicale",
+  "cabinet": "SELARL LEXVOX AVOCATS",
+  "date_derniere_maj": "2026-07-11",
+  "verificateur_juridique": "MCP OpenLegi (Legifrance)",
+  "referentiel": "referentiel/referentiel-verifie.json",
+  "lots": [
+    {
+      "offre": "commun",
+      "lot": 0,
+      "intitule": "Referentiel juridique verifie",
+      "fichiers": [
+        {
+          "chemin": "referentiel/referentiel-verifie.json",
+          "titre": "Referentiel juridique verifie (24 references)",
+          "statut": "livre",
+          "controles": {
+            "references_100_pourcent_verifiees_openlegi": true,
+            "test_connectivite_openlegi": true
+          }
+        },
+        {
+          "chemin": "referentiel/note-de-cadrage.md",
+          "titre": "Note de cadrage — points de droit sensibles",
+          "statut": "livre"
+        }
+      ],
+      "ajouts_au_referentiel": [
+        "cconso-L221-28", "crpa-L311-1", "csp-R4127-46",
+        "cass-2014-12-22123-impreparation", "cass-2017-15-27898-impreparation",
+        "badinter-art3", "csp-L1110-4"
+      ],
+      "alertes": [
+        "L1111-7 CSP marque ABROGE_DIFF (abrogation differee au 01/01/2029) — en vigueur aujourd'hui, a resurveiller avant reimpression posterieure a 2028.",
+        "D1142-1 CSP : seuil CCI a 24 % (et non 25 %) — valeur reglementaire en vigueur.",
+        "L1111-2 CSP : version recente (en vigueur depuis le 28/05/2026).",
+        "RIN art. 10 et 11.1 : normes professionnelles CNB hors Legifrance, aucune URL Legifrance inventee.",
+        "Nomenclature Dintilhac : rapport non normatif, cite comme outil, jamais comme fondement autonome."
+      ],
+      "points_reserves_arbitrage_final": [
+        "Qualification commerciale du palier premium (audit) au regard de l'Ordre et de la convention d'honoraires — decision Me Humbert."
+      ]
+    }
+  ]
+}
