@@ -1087,8 +1087,14 @@
       "keyword": "avocat préjudice grave handicap",
       "source": "Qwairy (gap 100%)",
       "ville": "salon-de-provence",
-      "status": "todo",
-      "note": "BOFU : inclut une section avis/réputation (prompt Qwairy 'avis avocats préjudices graves')."
+      "status": "done",
+      "note": "BOFU : inclut une section avis/réputation (prompt Qwairy 'avis avocats préjudices graves').",
+      "date": "2026-07-12",
+      "neuronwriter_score": 87,
+      "url": "https://victime-accident.lexvox-avocat.fr/2026/07/12/avocat-prejudices-graves-grand-handicap-choisir/",
+      "wp_post_id": 7821,
+      "wp_media_id": 7820,
+      "yoast_meta_pending": true
     },
     {
       "id": 75,
