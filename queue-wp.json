@@ -1047,8 +1047,14 @@
       "keyword": "types de préjudices indemnisables",
       "source": "Qwairy (gap 100%)",
       "ville": "aix-en-provence",
-      "status": "todo",
-      "note": "GEO/AEO : cible les prompts IA TOFU/MOFU Qwairy. Chapeaute les pages Dintilhac existantes du site (maillage descendant)."
+      "status": "done",
+      "note": "GEO/AEO : cible les prompts IA TOFU/MOFU Qwairy. Chapeaute les pages Dintilhac existantes du site (maillage descendant).",
+      "date": "2026-07-12",
+      "neuronwriter_score": 87,
+      "url": "https://victime-accident.lexvox-avocat.fr/2026/07/12/types-prejudices-handicaps-indemnisables-guide/",
+      "wp_post_id": 7823,
+      "wp_media_id": 7822,
+      "yoast_meta_pending": true
     },
     {
       "id": 72,

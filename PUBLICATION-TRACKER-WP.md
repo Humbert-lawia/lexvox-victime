@@ -17,6 +17,7 @@ Git. Ne jamais toucher à Sanity ni à `lexvox-victime.com` depuis ce pipeline.
 | 2026-07-09 | accident | accidents-de-la-vie-recours-indemnisation | 92 | https://victime-accident.lexvox-avocat.fr/2026/07/09/accidents-de-la-vie-recours-indemnisation/ |
 | 2026-07-09 | accident | procedure-amiable-indemnisation-guide-erreurs | 86 (pilier) | https://victime-accident.lexvox-avocat.fr/2026/07/09/procedure-amiable-indemnisation-guide-erreurs/ |
 | 2026-07-12 | accident | avocat-prejudices-graves-grand-handicap-choisir | 87 | https://victime-accident.lexvox-avocat.fr/2026/07/12/avocat-prejudices-graves-grand-handicap-choisir/ |
+| 2026-07-12 | accident | types-prejudices-handicaps-indemnisables-guide | 87 (pilier) | https://victime-accident.lexvox-avocat.fr/2026/07/12/types-prejudices-handicaps-indemnisables-guide/ |
 
 Les scores NeuronWriter ci-dessus sont mesurés sur la **page reconstituée**
 (title + meta description + h1 injectés autour du corps atelier, cf.
