@@ -1,0 +1,2930 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Comment est indemnisé un accident de la vie ?"
+   },
+   {
+    "q": "Quel est le montant de l'indemnisation de consolidation avec séquelles ?"
+   },
+   {
+    "q": "Est-ce intéressant de prendre une assurance accident de la vie ?"
+   },
+   {
+    "q": "Délai indemnisation accident de la vie ?"
+   }
+  ],
+  "topic_matrix": {
+   "Qu'est-ce qu'un accident de la vie et quels types d'accidents sont couverts par une assurance GAV ?": {
+    "importance": 8
+   },
+   "Comment est indemnisé un accident de la vie et qui prend en charge l'indemnisation ?": {
+    "importance": 10
+   },
+   "Quel est le montant de l'indemnisation pour un accident de la vie, notamment en cas de séquelles ou d'invalidité ?": {
+    "importance": 9
+   },
+   "Quel est le délai pour obtenir une indemnisation après un accident de la vie ?": {
+    "importance": 9
+   },
+   "Est-il intéressant de souscrire une assurance accident de la vie (GAV) et quels sont ses avantages ?": {
+    "importance": 10
+   },
+   "Comment fonctionne une Garantie Accidents de la Vie (GAV) et que couvre-t-elle exactement ?": {
+    "importance": 8
+   },
+   "Comment déclarer un accident de la vie à son assurance et quelles sont les étapes de la procédure d'indemnisation ?": {
+    "importance": 7
+   },
+   "Quelles sont les différences entre une assurance accident de la vie et d'autres assurances (Sécurité Sociale, mutuelle, responsabilité civile) ?": {
+    "importance": 7
+   },
+   "Comment choisir la meilleure assurance accident de la vie et quels sont les critères à considérer (coût, plafond d'indemnisation, exclusions) ?": {
+    "importance": 6
+   },
+   "Peut-on être indemnisé sans responsable identifié et que faire en cas de désaccord avec l'assureur ?": {
+    "importance": 5
+   }
+  },
+  "content_questions": [
+   {
+    "q": "11 millions d’accidents de la vie privée se produisent chaque année (source : Wikidépendance : « Les accidents de la vie sont la 1re cause d’accident en France » – 2019), causant 21 000 décès (source : Santé Publique France : « Des traumatismes aux accidents de la vie courante » – 2019) : c’est 6 fois plus meurtriers que les accidents de la route (source : Fidroit  »Accidents de la vie : êtes-vous bien couverts ?"
+   },
+   {
+    "q": "Accidents de la vie courante : quelle couverture ?"
+   },
+   {
+    "q": "Assurance habitation : comment se déroule l'expertise ?"
+   },
+   {
+    "q": "Assurance habitation : qu'est-ce que la garantie responsabilité civile ?"
+   },
+   {
+    "q": "Assurance multirisques habitation : que faire en cas de sinistre ?"
+   },
+   {
+    "q": "Avec les différents calculs de préjudice ?"
+   },
+   {
+    "q": "Combien coûte une assurance accidents de la vie ?"
+   },
+   {
+    "q": "Comment assurer la prévention des accidents de la vie courante ?"
+   },
+   {
+    "q": "Comment bien choisir son assurance prévoyance ?"
+   },
+   {
+    "q": "Comment calcule-t-on l’indemnisation d’un préjudice corporel suite à un accident de la vie ?"
+   },
+   {
+    "q": "Comment choisir la meilleure assurance Accidents de la vie ?"
+   },
+   {
+    "q": "Comment déclarer un accident de la vie courante et obtenir une indemnisation ?"
+   },
+   {
+    "q": "Comment déclarer un accident de la vie courante à son assurance ?"
+   },
+   {
+    "q": "Comment est calculée l’indemnisation d’un accident de la vie ?"
+   },
+   {
+    "q": "Comment fonctionne la garantie protection juridique ?"
+   },
+   {
+    "q": "Comment fonctionne une Garantie accident de la vie ?"
+   },
+   {
+    "q": "Comment la Garantie accident de la vie se déclenche-t-elle ?"
+   },
+   {
+    "q": "Comment se déroule l’expertise médicale dans le cadre d’une garantie accidents de la vie (GAV) ?"
+   },
+   {
+    "q": "Comment se déroule l’indemnisation avec une garantie accidents de la vie (GAV) ?"
+   },
+   {
+    "q": "Comment se déroule l’indemnisation si un tiers est responsable de l’accident de vie courante ?"
+   },
+   {
+    "q": "Comment se passe le calcul de l’indemnisation ?"
+   },
+   {
+    "q": "Concrètement, qu'est-ce qu'un accident de la vie ?"
+   },
+   {
+    "q": "Dois-je me faire aider pour l’indemnisation ?"
+   },
+   {
+    "q": "Dois-je prendre rdv avec un avocat spécialisé dans l’indemnisation corporelle ou c’est peine perdue ?"
+   },
+   {
+    "q": "Doit-on être assuré lorsqu’on a un animal de compagnie ?"
+   },
+   {
+    "q": "En cas d'accident de la route, doit-on attendre d'obtenir le procès-verbal pour obtenir une provision ?"
+   },
+   {
+    "q": "En cas d’accident de la vie courante, peut-on être indemnisé sans responsable identifié ?"
+   },
+   {
+    "q": "Est-ce que l’AVC est considéré comme un accident de la vie ?"
+   },
+   {
+    "q": "Est-ce que tout le monde peut souscrire une assurance accidents de la vie ?"
+   },
+   {
+    "q": "Est-ce qu’un cancer est considéré comme un accident de la vie ?"
+   },
+   {
+    "q": "Et si on vous expliquait à quoi sert la garantie accident de la vie ?"
+   },
+   {
+    "q": "Garantie accident de la vie : qu'est-ce que c'est ?"
+   },
+   {
+    "q": "Garantie accident de la vie : quels sont les montants et délais d’indemnisation ?"
+   },
+   {
+    "q": "Garantie accident de la vie : à quoi ça sert ?"
+   },
+   {
+    "q": "Je suis sans doute couvert par ma Responsabilité Civile ?"
+   },
+   {
+    "q": "L'indemnisation est de quel montant ?"
+   },
+   {
+    "q": "La Sécurité Sociale et la mutuelle prennent-elles  en charge un accident de la vie ?"
+   },
+   {
+    "q": "La Sécurité Sociale et la mutuelle prennent-elles en charge un accident de la vie ?"
+   },
+   {
+    "q": "La Sécurité sociale et ma mutuelle santé me protègent elles en cas d’accident domestique, d’agression ?"
+   },
+   {
+    "q": "Le montant de l’indemnisation est-il plafonné ?"
+   },
+   {
+    "q": "Les accidents de la vie sont-ils courants ?"
+   },
+   {
+    "q": "Les accidents de voiture sont-ils des accidents de la vie ?"
+   },
+   {
+    "q": "Les assurances proposées pour se protéger des conséquences de ces accidents sont-elles utiles ?"
+   },
+   {
+    "q": "Les indemnités sont elles les mêmes pour tous, pour un même accident ?"
+   },
+   {
+    "q": "Mais savez-vous vraiment ce que couvre l’assurance Accidents de la vie ?"
+   },
+   {
+    "q": "Peut-on cumuler plusieurs indemnisations en cas d’accident de la vie courante ?"
+   },
+   {
+    "q": "Pourquoi est-il important de souscrire une assurance Accidents de la vie ?"
+   },
+   {
+    "q": "Pourquoi la Garantie des Accidents de la Vie ?"
+   },
+   {
+    "q": "Pourquoi se faire accompagner par un avocat et un médecin expert ?"
+   },
+   {
+    "q": "Pourquoi souscrire une assurance accidents de la vie ?"
+   },
+   {
+    "q": "Prêt à souscrire une assurance accidents de la vie ?"
+   },
+   {
+    "q": "Q2- Est-il possible de remettre en cause le rapport de l’expert de l’assurance et de demander à April de poursuivre sa prise en charge ?"
+   },
+   {
+    "q": "Qu'est-ce qu'un accident de la vie ?"
+   },
+   {
+    "q": "Qu'indemnise exactement une assurance accidents de la vie ?"
+   },
+   {
+    "q": "Quand intervient une assurance accidents de la vie ?"
+   },
+   {
+    "q": "Que couvre l'assurance accidents de la vie ?"
+   },
+   {
+    "q": "Que couvre la garantie accident de la vie ?"
+   },
+   {
+    "q": "Que faire en cas de désaccord avec l’assureur concernant l’indemnisation d’un accident de la vie courante ?"
+   },
+   {
+    "q": "Quel délai pour une indemnisation par la Garantie accident de la vie ?"
+   },
+   {
+    "q": "Quel est le plafond d’indemnisation de ma Garantie Accidents de la Vie (GAV) ?"
+   },
+   {
+    "q": "Quel est le seuil de déclenchement de ma Garantie Accidents de la Vie (GAV), également appelé franchise ?"
+   },
+   {
+    "q": "Quel sera le calcul d’indemnisation suite à un accident de la vie ?"
+   },
+   {
+    "q": "Quelle assurance couvre les accidents de la vie courante ?"
+   },
+   {
+    "q": "Quelle différence entre la garantie accidents de la vie et la responsabilité civile ?"
+   },
+   {
+    "q": "Quelle différence entre une indemnisation amiable et judiciaire ?"
+   },
+   {
+    "q": "Quelle est la définition d’un accident de la vie courante ?"
+   },
+   {
+    "q": "Quelle indemnisation avec une Garantie accident de la vie ?"
+   },
+   {
+    "q": "Quelle indemnisation pour un accident de la vie courante ?"
+   },
+   {
+    "q": "Quelle indemnisation prévoit mon contrat Garantie des Accidents de la Vie ?"
+   },
+   {
+    "q": "Quelles assurances indemnisent ?"
+   },
+   {
+    "q": "Quelles différences entre une assurance Accidents de la vie et les autres assurances ?"
+   },
+   {
+    "q": "Quelles peuvent être les conséquences d'un accident de la vie ?"
+   },
+   {
+    "q": "Quelles sont les exclusions fréquentes de la garantie accidents de la vie ?"
+   },
+   {
+    "q": "Quelles sont les modalités de mon indemnisation par ma Garantie Accident de la Vie (GAV) ?"
+   },
+   {
+    "q": "Quels accidents sont couverts par la garantie accidents de la vie (GAV) ?"
+   },
+   {
+    "q": "Quels délais pour demander une indemnisation ?"
+   },
+   {
+    "q": "Quels postes de préjudices sont pris en compte ?"
+   },
+   {
+    "q": "Quels préjudices peuvent être indemnisés par la garantie accidents de la vie (GAV) ?"
+   },
+   {
+    "q": "Quels sont les avantages d’une assurance Accidents de la vie ?"
+   },
+   {
+    "q": "Quels sont les avantages d’une assurance accident de la vie ?"
+   },
+   {
+    "q": "Quels sont les montants et les délais d'indemnisation des GAV ?"
+   },
+   {
+    "q": "Quels sont les risques et conséquences des accidents de la vie courante ?"
+   },
+   {
+    "q": "Quels sont mes recours possibles par rapport à mon assureur ?"
+   },
+   {
+    "q": "Qui est couvert par cette assurance ?"
+   },
+   {
+    "q": "Qui est couvert par la garantie accidents de la vie (GAV) ?"
+   },
+   {
+    "q": "Qui indemnise un accident de la vie courante ?"
+   },
+   {
+    "q": "Qui peut la souscrire ?"
+   },
+   {
+    "q": "Qui peut souscrire une Assurance Accidents de la vie ?"
+   },
+   {
+    "q": "Qui va déterminer mon droit à indemnisation ?"
+   },
+   {
+    "q": "Qui évalue les séquelles médicales ?"
+   },
+   {
+    "q": "Qu’appelle-t-on « accidents de la vie » ?"
+   },
+   {
+    "q": "Qu’est ce que la GAV ?"
+   },
+   {
+    "q": "Qu’est ce qu’un accident de la vie ?"
+   },
+   {
+    "q": "Qu’est-ce que la garantie accidents de la vie (GAV) ?"
+   },
+   {
+    "q": "Qu’est-ce que l’Assurance Accident de la vie ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un accident de la vie courante ?"
+   },
+   {
+    "q": "Qu’est-ce qu’une garantie accident de la vie ?"
+   },
+   {
+    "q": "Si oui, celle-ci peut-elle être valable pour plusieurs compagnies d’assurances ?"
+   },
+   {
+    "q": "Sont-ils couverts au titre de mon contrat GAV ?"
+   },
+   {
+    "q": "Un seul contrat pour toute la famille qui vous protège financièrement en cas d’accident de tous les jours, cela vous intéresse ?"
+   },
+   {
+    "q": "Vous avez été victime d’un dommage corporel, d’un accident de la route, d’une erreur médicale ?"
+   },
+   {
+    "q": "Vous êtes victime d’un accident dans votre vie quotidienne (chute, bricolage, sport…) ?"
+   },
+   {
+    "q": "Y a-t-il des conditions à remplir pour bénéficier de la GAV ?"
+   },
+   {
+    "q": "un préjudice corporel ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3077",
+   "title": "Accident de la vie courante : indemnisation par l'assurance | Service Public",
+   "desc": "L'accident de la vie courante peut être couvert par votre assurance « accidents de la vie » ou par l'assurance « responsabilité civile » du tiers responsable.",
+   "headers": [
+    [
+     "h1",
+     "Accident de la vie courante : indemnisation par l'assurance"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un accident de la vie courante ?"
+    ],
+    [
+     "h2",
+     "Qui indemnise un accident de la vie courante ?"
+    ],
+    [
+     "h2",
+     "En cas d’accident de la vie courante, peut-on être indemnisé sans responsable identifié ?"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que la garantie accidents de la vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "Qui est couvert par la garantie accidents de la vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "Quels accidents sont couverts par la garantie accidents de la vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "Quels préjudices peuvent être indemnisés par la garantie accidents de la vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "Comment déclarer un accident de la vie courante à son assurance ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule l’expertise médicale dans le cadre d’une garantie accidents de la vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule l’indemnisation avec une garantie accidents de la vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule l’indemnisation si un tiers est responsable de l’accident de vie courante ?"
+    ],
+    [
+     "h2",
+     "Peut-on cumuler plusieurs indemnisations en cas d’accident de la vie courante ?"
+    ],
+    [
+     "h2",
+     "Que faire en cas de désaccord avec l’assureur concernant l’indemnisation d’un accident de la vie courante ?"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Questions ? Réponses !"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 83,
+   "readability": 52,
+   "word_count": 1975,
+   "content_len": 12506
+  },
+  {
+   "rank": 2,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/bareme-calcul-indemnisation-accident/calcul-indemnisation-accident-de-la-vie",
+   "title": "Calcul indemnisation accident de la vie - Association Victimes de France AIVF",
+   "desc": "Obtenez une estimation rapide de votre indemnisation pour accident de la vie avec l'Association Aide Victimes France. Expertise et soutien garantis.",
+   "headers": [
+    [
+     "h1",
+     "Calcul indemnisation accident de la vie"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Calcul de l’indemnisation d’un accident de la vie : explications"
+    ],
+    [
+     "h2",
+     "Calcul indemnisation accident de la vie explication"
+    ]
+   ],
+   "content_score": 70,
+   "readability": 34,
+   "word_count": 2972,
+   "content_len": 17843
+  },
+  {
+   "rank": 3,
+   "url": "https://www.ag2rlamondiale.fr/gav-garantie-accidents-de-la-vie/conseil-quels-sont-les-montants-et-les-delais-d-indemnisation-des-gav",
+   "title": "Quels sont les montants et les délais d'indemnisation des GAV ?",
+   "desc": "La Garantie accident de la vie (GAV) est un contrat d’assurance qui vous couvre en cas d’accident de la vie courante et privée. En cas de sinistre corporel, l’assuré perçoit une indemnisation pour le préjudice subi. Toutefois, les montants et les modalités d’indemnisation diffèrent selon les types de contrats d’assurance accident de la vie. Explications.",
+   "headers": [
+    [
+     "h1",
+     "Garantie accident de la vie : quels sont les montants et délais d’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Comment fonctionne une Garantie accident de la vie ?"
+    ],
+    [
+     "h2",
+     "Comment la Garantie accident de la vie se déclenche-t-elle ?"
+    ],
+    [
+     "h2",
+     "Quelle indemnisation avec une Garantie accident de la vie ?"
+    ],
+    [
+     "h2",
+     "Quel délai pour une indemnisation par la Garantie accident de la vie ?"
+    ],
+    [
+     "h2",
+     "Découvrez nos conseils sur la même thématique"
+    ],
+    [
+     "h2",
+     "Des questions ?"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 34,
+   "word_count": 1489,
+   "content_len": 9265
+  },
+  {
+   "rank": 4,
+   "url": "https://www.caisse-epargne.fr/assurer/garantie-des-accidents-de-la-vie/",
+   "title": "Garantie des Accidents de la Vie | Caisse d'Épargne",
+   "desc": "Découvrez la Garantie des Accidents de la Vie de la Caisse d'Epargne : une assurance permettant de protéger votre avenir financier et celui de vos proches.",
+   "headers": [
+    [
+     "h1",
+     "Garantie des Accidents de la Vie"
+    ],
+    [
+     "h2",
+     "Découvrez l’utilité du contrat"
+    ],
+    [
+     "h2",
+     "Que vous propose la Caisse d’Epargne ?"
+    ],
+    [
+     "h2",
+     "L’accompagnement Caisse d’Epargne"
+    ],
+    [
+     "h2",
+     "Pour aller plus loin"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ]
+   ],
+   "content_score": 60,
+   "readability": 26,
+   "word_count": 1726,
+   "content_len": 10764
+  },
+  {
+   "rank": 5,
+   "url": "http://www.mnh.fr/actualite/que-couvre-lassurance-accidents-vie",
+   "title": "Que couvre l'assurance accidents de la vie ? | MNH",
+   "desc": "Le saviez-vous ? Chaque année en France, les accidents de la vie courante sont à l’origine de près de 5 millions de recours aux urgences, de centaines de milliers d’hospitalisations et de plus de 20 000 décès.",
+   "headers": [
+    [
+     "h1",
+     "Que couvre l'assurance accidents de la vie ?"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que l’Assurance Accident de la vie ?"
+    ],
+    [
+     "h2",
+     "Quelles différences entre une assurance Accidents de la vie et les autres assurances ?"
+    ],
+    [
+     "h2",
+     "Pourquoi est-il important de souscrire une assurance Accidents de la vie ?"
+    ],
+    [
+     "h2",
+     "Les accidents courants inclus dans la couverture"
+    ],
+    [
+     "h2",
+     "Les exclusions de l’assurance Accidents de la vie"
+    ],
+    [
+     "h2",
+     "Quels sont les avantages d’une assurance Accidents de la vie ?"
+    ],
+    [
+     "h2",
+     "Qui peut souscrire une Assurance Accidents de la vie ?"
+    ],
+    [
+     "h2",
+     "Comment choisir la meilleure assurance Accidents de la vie ?"
+    ],
+    [
+     "h2",
+     "Lire aussi."
+    ],
+    [
+     "h2",
+     "Actus santé, vie à l'hôpital...\r\nRester informé avec la newsletter MNH."
+    ]
+   ],
+   "content_score": 66,
+   "readability": 31,
+   "word_count": 1245,
+   "content_len": 7823
+  },
+  {
+   "rank": 6,
+   "url": "https://www.victimes-solidaires.org/fr/accident-vie/id-24-garantie-accident-vie",
+   "title": "Garantie accident de la vie : qu'est-ce que c'est ?",
+   "desc": " Votre contrat de responsabilit&eacute; civile ne couvre que les dommages que vous pourriez &eacute;ventuellement causer &agrave; des tiers. Il ne vous couvre pas des dommages que vous pourriez vous causer &agrave; vous-m&ecirc;me. La seule possibilit&eacute; pour obtenir l&rsquo;indemnisation de vos pr&eacute;judices est l&rsquo;existence d&rsquo;une Garantie Accident de la Vie. ",
+   "headers": [
+    [
+     "h1",
+     "Garantie accidents de la vie"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’une garantie accident de la vie ?"
+    ],
+    [
+     "h2",
+     "Bien comprendre son contrat pour anticiper son indemnisation"
+    ],
+    [
+     "h2",
+     "Les points clés d’une garantie accidents de la vie (GAV)"
+    ],
+    [
+     "h2",
+     "Déclencher la garantie et faire valoir vos droits"
+    ],
+    [
+     "h2",
+     "Vos questions, nos réponses"
+    ],
+    [
+     "h2",
+     "Vous avez été victime d’un dommage corporel, d’un accident de la route, d’une erreur médicale ?"
+    ]
+   ],
+   "content_score": 71,
+   "readability": 26,
+   "word_count": 3090,
+   "content_len": 20242
+  },
+  {
+   "rank": 7,
+   "url": "https://www.macif.fr/assurance/particuliers/complementaire-sante-prevoyance/garantie-accident",
+   "title": "macif.fr",
+   "desc": "",
+   "headers": [],
+   "content_score": 0,
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 8,
+   "url": "https://www.groupama.fr/garantie-accidents-vie-gav/conseils/accident-vie-courante/",
+   "title": "Accidents de la vie courante : quelle couverture ?",
+   "desc": "Les accidents de la vie courante sont à l’origine de multiples hospitalisations chaque année. Découvrez comment les prévenir et vous protéger.",
+   "headers": [
+    [
+     "h1",
+     "Les accidents de la vie courante et leur indemnisation"
+    ],
+    [
+     "h2",
+     "Quelle est la définition d’un accident de la vie courante ?"
+    ],
+    [
+     "h2",
+     "Quels sont les risques et conséquences des accidents de la vie courante ?"
+    ],
+    [
+     "h2",
+     "Comment assurer la prévention des accidents de la vie courante ?"
+    ],
+    [
+     "h2",
+     "Quelle assurance couvre les accidents de la vie courante ?"
+    ],
+    [
+     "h2",
+     "Comment déclarer un accident de la vie courante et obtenir une indemnisation ?"
+    ],
+    [
+     "h2",
+     "FAQ – Vos questions sur la couverture de l’assurance accidents de la vie"
+    ],
+    [
+     "h2",
+     "Découvrez notre offre Garantie Accidents de la Vie (GAV)"
+    ],
+    [
+     "h2",
+     "Découvrez nos infos et conseils prévoyance"
+    ]
+   ],
+   "content_score": 75,
+   "readability": 35,
+   "word_count": 1526,
+   "content_len": 9398
+  },
+  {
+   "rank": 9,
+   "url": "https://www.abeille-assurances.fr/particulier/assurance-sante-prevoyance/assurance-prevoyance/assurance-accidents-de-la-vie.html",
+   "title": "Assurance accidents de la vie - Abeille Assurances",
+   "desc": "Découvrez notre assurance pour vous protéger contre les conséquences des accidents de la vie privée. Une couverture dès 1 % d'incapacité permanente !",
+   "headers": [
+    [
+     "h1",
+     "Assurance accidents de la vie"
+    ],
+    [
+     "h2",
+     "Pourquoi souscrire une assurance accidents de la vie ?"
+    ],
+    [
+     "h2",
+     "Qu’appelle-t-on « accidents de la vie » ?"
+    ],
+    [
+     "h2",
+     "Et si on vous expliquait à quoi sert la garantie accident de la vie ?"
+    ],
+    [
+     "h2",
+     "Une assurance accidents de la vie qui a tout prévu !"
+    ],
+    [
+     "h2",
+     "Notre contrat d’assurance accidents de la vie récompensé"
+    ],
+    [
+     "h2",
+     "Label d’Excellence 2024"
+    ],
+    [
+     "h2",
+     "Abeille Protection Accident : une assurance adaptée à vos besoins"
+    ],
+    [
+     "h2",
+     "Prêt à souscrire une assurance accidents de la vie ?"
+    ],
+    [
+     "h2",
+     "Assurance accidents de la vie : nos conseils pratiques"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h1",
+     "Une erreur s'est produite."
+    ]
+   ],
+   "content_score": 67,
+   "readability": 32,
+   "word_count": 1049,
+   "content_len": 6514
+  },
+  {
+   "rank": 10,
+   "url": "https://www.youtube.com/watch?v=6da-ENPeCpI",
+   "title": "Accidents de la vie : mieux vaut être assuré | le 5' des experts - SG - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Accidents de la vie : mieux vaut être assuré | le 5' des experts - SG"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h1",
+     "Accidents de la vie : mieux vaut être assuré | le 5' des experts - SG"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Chapitres"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 70,
+   "word_count": 569,
+   "content_len": 3493
+  },
+  {
+   "rank": 11,
+   "url": "https://www.labanquepostale.fr/particulier/assurer/protection-de-la-famille/assurance-accident-de-la-vie.html",
+   "title": "Assurance des Accidents de la Vie -Dès 12€/mois.* - La Banque Postale",
+   "desc": "Une indemnisation sur-mesure . Une couverture pour de nombreux types d'accidents. Label excellence 2025",
+   "headers": [
+    [
+     "h1",
+     "Assurance des Accidents de la Vie : se protéger de l’imprévu"
+    ],
+    [
+     "h2",
+     "L’Assurance des Accidents de la Vie : la protection au quotidien"
+    ],
+    [
+     "h2",
+     "Des garanties et services pour faire face à l’imprévisible"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Comment faire un devis ou souscrire une Assurance Accidents de la Vie auprès de La Banque Postale ?"
+    ],
+    [
+     "h2",
+     "Le Serious Game assurance et prévoyance"
+    ],
+    [
+     "h2",
+     "Les avantages de l'Assurance des Accidents de la Vie en cas de sinistre"
+    ],
+    [
+     "h2",
+     "Exemples de prise en charge de l'Assurance Accidents de la Vie"
+    ],
+    [
+     "h2",
+     "Pourquoi souscrire une Assurance Accidents de la Vie à La Banque Postale ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Pour aller plus loin"
+    ]
+   ],
+   "content_score": 64,
+   "readability": 21,
+   "word_count": 5063,
+   "content_len": 32099
+  },
+  {
+   "rank": 12,
+   "url": "https://www.indemnisationprejudice.fr/indemnisation-accident-de-la-vie/baremes-calcul-indemnisation-accident-vie/",
+   "title": "Calcul et barème de l'indemnisation pour accident de la vie : explications et simulation",
+   "desc": "Barème et Calcul des indemnisations pour un accident de la Vie - Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés.",
+   "headers": [
+    [
+     "h1",
+     "Barème et Calcul des indemnisations pour un accident de la Vie"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Comprendre le taux d’IPP en cas d’accident de la vie"
+    ],
+    [
+     "h2",
+     "Comment fonctionne le barème d’indemnisation des contrats GAV ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Exemples de barèmes et montants d’indemnisation"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Quels préjudices sont indemnisés selon le taux d’IPP ?"
+    ],
+    [
+     "h2",
+     "Procédure pour obtenir une indemnisation après un accident de la vie"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Exemple d’indemnisation accident de la vie"
+    ],
+    [
+     "h2",
+     "FAQ INDEMNISATION ACCIDENT DE LA VIE"
+    ]
+   ],
+   "content_score": 74,
+   "readability": 28,
+   "word_count": 2960,
+   "content_len": 19151
+  },
+  {
+   "rank": 13,
+   "url": "https://courrier-type-maladie-accident.fnath.org/courrier-type/lindemnisation-des-prejudices-dun-accident-de-la-vie-courante-par-une-garantie-accident-de-la-vie",
+   "title": "FNATH - Courrier L'indemnisation des préjudices d'un accident de la vie courante par une garantie accident de la vie",
+   "desc": "Je déclare un accident de la vie courante à ma compagnie d'assurance",
+   "headers": [
+    [
+     "h1",
+     "L'indemnisation des préjudices d'un accident de la vie courante par une garantie accident de la vie"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 28,
+   "word_count": 395,
+   "content_len": 2430
+  },
+  {
+   "rank": 14,
+   "url": "https://www.facebook.com/GroupamaRhoneAlpesAuvergne/videos/les-conseils-de-cerise-la-garantie-des-accidents-de-la-vie/455696921719164/",
+   "title": "Quelle est l'utilité de la Garantie des Accidents de la Vie pour vous et vos proches ? | Groupama Rhône-Alpes Auvergne | Facebook",
+   "desc": "Quelle est l'utilité de la Garantie des Accidents de la Vie pour vous et vos proches ?",
+   "headers": [
+    [
+     "h1",
+     "Vidéo"
+    ],
+    [
+     "h2",
+     "Groupama Rhône-Alpes Auvergne"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Reels similaires"
+    ],
+    [
+     "h2",
+     "Vidéos connexes"
+    ]
+   ],
+   "content_score": 22,
+   "readability": 36,
+   "word_count": 955,
+   "content_len": 5848
+  },
+  {
+   "rank": 15,
+   "url": "https://www.gan.fr/produit/assurance-accident-de-la-vie/",
+   "title": "Assurance Accident de la Vie - Gan.fr",
+   "desc": "Complétez votre couverture avec l' assurance accident de la vie et protégez votre famille en cas d'accident. Parlez en à votre agent général.",
+   "headers": [
+    [
+     "h1",
+     "Assurance Accident de la Vie"
+    ],
+    [
+     "h2",
+     "Parole\nd’expert assurance GAV !"
+    ],
+    [
+     "h2",
+     "Besoin d’un devis assurance GAV ?"
+    ],
+    [
+     "h2",
+     "DEMANDE DE DEVIS"
+    ],
+    [
+     "h2",
+     "Les atouts de l’assurance\nAccident de la Vie"
+    ],
+    [
+     "h2",
+     "Comment souscrire une assurance GAV ?"
+    ],
+    [
+     "h2",
+     "Et aussi !"
+    ]
+   ],
+   "content_score": 58,
+   "readability": 39,
+   "word_count": 845,
+   "content_len": 5250
+  },
+  {
+   "rank": 16,
+   "url": "https://www.gmf.fr/sante-prevoyance/prevoyance-sante/conseils-prevoyance/guide-garantie-accidents-vie",
+   "title": "Faut-il prendre une assurance accident de la vie ? - GMF",
+   "desc": "Faut-il prendre une assurance accident de la vie ? Découvrez comment protéger votre famille face aux imprévus du quotidien.",
+   "headers": [
+    [
+     "h1",
+     "Faut-il prendre une assurance accidents de la vie ?"
+    ],
+    [
+     "h2",
+     "Pourquoi a-t-on besoin d’une Garantie des Accidents de la Vie ?"
+    ],
+    [
+     "h2",
+     "Un contrat GAV est-il inutile par rapport aux autres assurances de la vie quotidienne ?"
+    ],
+    [
+     "h2",
+     "Quels types d’accidents sont couverts par la GAV ?"
+    ],
+    [
+     "h2",
+     "À qui s’adresse la GAV ?"
+    ],
+    [
+     "h2",
+     "Les indemnisations : une protection financière indispensable en cas d’accident"
+    ],
+    [
+     "h2",
+     "Pourquoi prendre un contrat Assurance accidents de la vie chez GMF ?"
+    ],
+    [
+     "h2",
+     "FAQ assurance accidents de la vie"
+    ],
+    [
+     "h2",
+     "Ces articles peuvent vous intéresser"
+    ]
+   ],
+   "content_score": 72,
+   "readability": 22,
+   "word_count": 3013,
+   "content_len": 19608
+  },
+  {
+   "rank": 17,
+   "url": "https://www.generali.fr/garantie-accidents-vie/",
+   "title": "La garantie des accidents de la vie Generali",
+   "desc": "Generali Accidents de la Vie : une protection contre les risques de la vie quotidienne. Sécurisez votre quotidien et celui de votre famille !",
+   "headers": [
+    [
+     "h1",
+     "Assurance accidents de la vie"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h2",
+     "Qu'est-ce que la Garantie Accidents de la Vie ?\n\n          \n        \n                  \n              La GAV vous couvre en cas d'accidents domestiques, de loisirs et de sports, ainsi que les catastro"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Comment souscrire une Garantie Accidents de la Vie ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ]
+   ],
+   "content_score": 68,
+   "readability": 31,
+   "word_count": 2271,
+   "content_len": 14291
+  },
+  {
+   "rank": 18,
+   "url": "https://www.axa.fr/particuliers/sante/services-et-garanties/garantie-accident-vie.html",
+   "title": "Garantie accident de la vie",
+   "desc": "A la recherche d'une Assurance Garanties Accidents de la Vie (GAV), découvrez Ma Protection Accident AXA.",
+   "headers": [
+    [
+     "h1",
+     "Ma Protection Accident"
+    ],
+    [
+     "h2",
+     "Consultez les documents d'informations"
+    ],
+    [
+     "h2",
+     "Ce qui fait la différence"
+    ],
+    [
+     "h2",
+     "Vous et votre entourage\n                êtes couverts"
+    ],
+    [
+     "h2",
+     "Vous souffrez de séquelles\n                permanentes"
+    ],
+    [
+     "h2",
+     "Votre quotidien facilité  en cas\n                d'immobilisation"
+    ],
+    [
+     "h2",
+     "Ma Protection Accident, est-ce vraiment utile ?"
+    ],
+    [
+     "h2",
+     "Pour eux, elle est essentielle..."
+    ],
+    [
+     "h2",
+     "Que retenir de Ma Protection Accident ?"
+    ],
+    [
+     "h2",
+     "A chacun son besoin d'assurance"
+    ],
+    [
+     "h2",
+     "Quel est le vôtre ?"
+    ],
+    [
+     "h2",
+     "Les services pour aller plus loin"
+    ],
+    [
+     "h2",
+     "Vous choisissez une  assurance citoyenne"
+    ],
+    [
+     "h2",
+     "Vous choisissez une  assurance citoyenne"
+    ],
+    [
+     "h2",
+     "Vous informer, vous inspirer"
+    ],
+    [
+     "h2",
+     "Nos réponses \"clés en main\""
+    ]
+   ],
+   "content_score": 45,
+   "readability": 31,
+   "word_count": 1348,
+   "content_len": 8442
+  },
+  {
+   "rank": 19,
+   "url": "https://fr.wikipedia.org/wiki/Garantie_des_accidents_de_la_vie",
+   "title": "Garantie des accidents de la vie — Wikipédia",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Garantie des accidents de la vie"
+    ],
+    [
+     "h2",
+     "Création"
+    ],
+    [
+     "h2",
+     "La garantie"
+    ],
+    [
+     "h2",
+     "Indemnisation"
+    ],
+    [
+     "h2",
+     "Quelques chiffres"
+    ],
+    [
+     "h2",
+     "Notes et références"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 52,
+   "word_count": 1224,
+   "content_len": 7943
+  },
+  {
+   "rank": 20,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/accident-de-la-vie-htm",
+   "title": "Indemnisation d'un Accident de la Vie - Association Victimes de France AIVF",
+   "desc": "Obtenez une indemnisation équitable après un accident de la vie avec l'aide de l'Association Aide Victimes France. Guidance experte assurée.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d’un Accident de la Vie"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Indemnisation d’un Accident de la Vie (GAV)"
+    ],
+    [
+     "h2",
+     "Victime d’un accident de la vie : comment se faire indemniser ?"
+    ]
+   ],
+   "content_score": 71,
+   "readability": 38,
+   "word_count": 3214,
+   "content_len": 19323
+  },
+  {
+   "rank": 21,
+   "url": "https://www.ag2rlamondiale.fr/gav-garantie-accidents-de-la-vie/conseil-quels-sont-les-avantages-d-une-assurance-accident-de-la-vie",
+   "title": "Quels sont les avantages d’une assurance individuelle accident de la vie ?",
+   "desc": "La garantie accidents de la vie (GAV) protège l'assuré et sa famille des  conséquences des accidents de la vie quotidienne. Quels sont les avantages  d’un tel contrat ? Quels sont les risques couverts ?.",
+   "headers": [
+    [
+     "h1",
+     "Garantie des accidents de la vie : à quoi ça sert ?"
+    ],
+    [
+     "h2",
+     "L’assurance accident de la vie : c’est quoi ?"
+    ],
+    [
+     "h2",
+     "Quelle est la prise en charge d’une garantie accident de la vie ?"
+    ],
+    [
+     "h2",
+     "Quels accidents sont couverts par la Garantie Accident de la Vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "Quel est le niveau d'indemnisation d’une Garantie des Accident de la Vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "La Garantie des Accidents de la Vie prévoit-elle une indemnisation en cas de décès ?"
+    ],
+    [
+     "h2",
+     "Quel est le coût d’une Garantie des Accidents de la Vie ?"
+    ],
+    [
+     "h2",
+     "Quels sont les autres services offerts par une Garantie des Accidents de la Vie ?"
+    ],
+    [
+     "h2",
+     "En résumé, les nombreux avantages de la Garantie des Accidents de la Vie"
+    ],
+    [
+     "h2",
+     "Pourquoi est-il important de souscrire une Garantie des Accidents de la Vie ?"
+    ],
+    [
+     "h2",
+     "Et pour vos enfants, l’assurance scolaire et responsabilité civile suffisent-elles ?"
+    ],
+    [
+     "h2",
+     "Découvrez nos conseils sur la même thématique"
+    ],
+    [
+     "h2",
+     "Des questions ?"
+    ]
+   ],
+   "content_score": 70,
+   "readability": 27,
+   "word_count": 2221,
+   "content_len": 13847
+  },
+  {
+   "rank": 22,
+   "url": "https://www.mma.fr/assurance-famille/garantie-accidents-vie.html",
+   "title": "Erreur - Indisponibilité",
+   "desc": "",
+   "headers": [],
+   "content_score": 0,
+   "readability": 50,
+   "word_count": 51,
+   "content_len": 325
+  },
+  {
+   "rank": 23,
+   "url": "https://www.assurances.societegenerale.com/fr/investisseur-journaliste/presse/nos-videos/details/video/assurance-accidents-vie/",
+   "title": "Assurance Accidents de la Vie",
+   "desc": "Dans #ParlonsAssurance, Arthur, expert Société Générale Assurances, vous explique en moins de 2min en quoi consiste l'#Assurance Accidents de la Vie e",
+   "headers": [
+    [
+     "h1",
+     "Assurance Accidents de la Vie"
+    ],
+    [
+     "h2",
+     ""
+    ]
+   ],
+   "content_score": 32,
+   "readability": 31,
+   "word_count": 55,
+   "content_len": 343
+  },
+  {
+   "rank": 24,
+   "url": "https://www.youtube.com/watch?v=eAUe_X0JG18",
+   "title": "A QUOI SERT UNE ASSURANCE GARANTIE ACCIDENTS DE LA VIE ? #consomag - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "A QUOI SERT UNE ASSURANCE GARANTIE ACCIDENTS DE LA VIE ? #consomag"
+    ],
+    [
+     "h1",
+     "A QUOI SERT UNE ASSURANCE GARANTIE ACCIDENTS DE LA VIE ? #consomag"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      1"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 37,
+   "readability": 47,
+   "word_count": 121,
+   "content_len": 680
+  },
+  {
+   "rank": 25,
+   "url": "https://www.altima-assurances.fr/public-documents/gav-altima/Conditions_Generales.pdf",
+   "title": "",
+   "desc": "",
+   "headers": [],
+   "content_score": "",
+   "readability": 0,
+   "word_count": 32267,
+   "content_len": 418909
+  },
+  {
+   "rank": 26,
+   "url": "https://www.facebook.com/Caisse.Epargne/videos/avec-la-garantie-des-accidents-de-la-vie-caisse-depargne-vous-%C3%AAtes-prot%C3%A9g%C3%A9s-face/2332836267218926/",
+   "title": "Avec la Garantie des Accidents de la Vie Caisse d’Epargne, vous êtes protégés face aux accidents de la vie quotidienne :\n\n✔️ Une aide financière si l’accident entraîne une incapacité ou une hospitalisation\n✔️ Une indemnisation adaptée aux préjudices subis\n✔️ Des services d’assistance pratiques : garde d’enfants, aide-ménagère, soutien scolaire, accompagnement psychologique…\n✔️ Un accompagnement pour vous aider à retourner à la vie active si nécessaire\n\nBref, une assurance qui aide toute la famille à faire face aux imprévus du quotidien.\n\nEn ce moment, du 12/01/26 au 07/02/26, 2 mois offerts pour toute nouvelle souscription à la Garantie des Accidents de la Vie.\n\n#PUB #Assurance #Accidents #Quotidien | Caisse d'Epargne",
+   "desc": "Avec la Garantie des Accidents de la Vie Caisse d’Epargne, vous êtes protégés face aux accidents de la vie quotidienne :\n\n✔️ Une aide financière si...",
+   "headers": [],
+   "content_score": 28,
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 27,
+   "url": "https://www.groupama.fr/garantie-accidents-vie-gav/",
+   "title": "Garantie Accidents de la vie Groupama : 50€ offerts",
+   "desc": "Protégez-vous contre les accidents de la vie privée et leurs conséquences graves (invalidité, décès) avec la garantie accidents de la vie de Groupama.",
+   "headers": [
+    [
+     "h1",
+     "Assurance accident de la vie"
+    ],
+    [
+     "h2",
+     "Simulez votre tarif assurance GAV gratuitement en 3 minutes"
+    ],
+    [
+     "h2",
+     "Les points forts de l’assurance Accident de la vie Groupama"
+    ],
+    [
+     "h2",
+     "Les niveaux de protection de la Garantie Accident de la Vie"
+    ],
+    [
+     "h2",
+     "Simulez votre tarif assurance GAV gratuitement en 3 minutes"
+    ],
+    [
+     "h2",
+     "Qu'est ce qui est considéré comme accident de la vie courante ?"
+    ],
+    [
+     "h2",
+     "Comment fonctionne notre assurance des accidents de la vie privée ?"
+    ],
+    [
+     "h2",
+     "Simulez votre tarif assurance GAV gratuitement en 3 minutes"
+    ],
+    [
+     "h2",
+     "Indemnisation et garanties de l'assurance des accidents de la vie"
+    ],
+    [
+     "h2",
+     "Assurance des accidents de la vie : comment être pris en charge ?"
+    ],
+    [
+     "h2",
+     "Assurance accident de la vie : vos questions"
+    ],
+    [
+     "h2",
+     "Comment souscrire notre assurance Accident de la vie ?"
+    ],
+    [
+     "h2",
+     "Simulez votre tarif assurance GAV gratuitement en 3 minutes"
+    ],
+    [
+     "h2",
+     "Nos infos et conseils prévoyance"
+    ]
+   ],
+   "content_score": 67,
+   "readability": 26,
+   "word_count": 2957,
+   "content_len": 17772
+  },
+  {
+   "rank": 28,
+   "url": "https://www.youtube.com/watch?v=IuCezIenGOQ",
+   "title": "🎥 Tableau d’Indemnisation des Accidents de la Vie : Tout ce qu’il faut savoir en BTS Assurance - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "🎥 Tableau d’Indemnisation des Accidents de la Vie : Tout ce qu’il faut savoir en BTS Assurance"
+    ],
+    [
+     "h1",
+     "🎥 Tableau d’Indemnisation des Accidents de la Vie : Tout ce qu’il faut savoir en BTS Assurance"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 20,
+   "word_count": 346,
+   "content_len": 2202
+  },
+  {
+   "rank": 29,
+   "url": "https://aide-victimes.fr/accident-vie/delai-indemnisation-accident-vie/",
+   "title": "Délai indemnisation accident vie – AFAV",
+   "desc": "Délai d'indemnisation d'un accident de la vie dans le cadre d'un Garantie des Accidents de la vie, contrat GAV",
+   "headers": [
+    [
+     "h1",
+     "Le délai d’indemnisation d’un accident de la vie,"
+    ],
+    [
+     "h2",
+     "Accident de la vie et Garantie des accidents de la vie GAV"
+    ],
+    [
+     "h2",
+     "Délai d’indemnisation d’un accident de la vie, procédure"
+    ],
+    [
+     "h2",
+     "Rapport d’expertise et offre d’indemnisation contrat GAV"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 41,
+   "word_count": 784,
+   "content_len": 4866
+  },
+  {
+   "rank": 30,
+   "url": "https://www.tf1info.fr/societe/videos/video-assurance-accident-de-la-vie-des-contrats-trop-couteux-9572-2308123.html",
+   "title": "Assurance accident de la vie : des contrats trop coûteux ? | TF1 Info",
+   "desc": "▶️ On appelle cela \"les accidents de la vie\", \"chute dans l'escalier\" ou \"blessure de bricolage\". Les assurances sont très présentes sur ce marché. Un tiers sont des assurances scolaires. Mais pour les autres, est-ce bien utile ? (Sujets de société).",
+   "headers": [
+    [
+     "h1",
+     "Assurance accident de la vie : des contrats trop coûteux ?"
+    ],
+    [
+     "h2",
+     "Climatiseurs : les fabricants chinois accélèrent les livraisons"
+    ],
+    [
+     "h2",
+     "Sous l’eau ou en altitude : les ouvriers de l’extrême"
+    ],
+    [
+     "h2",
+     "Le JT de 20 heures de TF1 du mercredi 8 juillet 2026"
+    ],
+    [
+     "h2",
+     "Marine Le Pen candidate : premier déplacement de campagne"
+    ],
+    [
+     "h2",
+     "Incendie : un site Seveso menacé dans le Cher"
+    ],
+    [
+     "h2",
+     "Crèmes solaires : attention aux étiquettes mensongères"
+    ],
+    [
+     "h2",
+     "Incendies : ces indispensables pompiers volontaires"
+    ],
+    [
+     "h2",
+     "Les sinistrés face aux dégâts dans les Pyrénées-Orientales"
+    ],
+    [
+     "h2",
+     "Téléphones, réfrigérateurs : nos appareils en surchauffe"
+    ],
+    [
+     "h2",
+     "Recharge électrique : la jungle des prix sur la route des vacances"
+    ]
+   ],
+   "content_score": 36,
+   "readability": 82,
+   "word_count": 320,
+   "content_len": 1754
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1508,
+   "target": 1508
+  },
+  "readability": {
+   "median": 34,
+   "target": 34
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "accidents de la vie",
+    "usage_pc": 80
+   },
+   {
+    "t": "accident",
+    "usage_pc": 80
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 30
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident de la vie courante",
+    "usage_pc": 20
+   },
+   {
+    "t": "vie courante",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "accidents de la vie",
+    "usage_pc": 80
+   },
+   {
+    "t": "accident",
+    "usage_pc": 80
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 40
+   },
+   {
+    "t": "accident de la vie courante",
+    "usage_pc": 40
+   },
+   {
+    "t": "vie courante",
+    "usage_pc": 40
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 30
+   },
+   {
+    "t": "garanties",
+    "usage_pc": 30
+   },
+   {
+    "t": "garantie accident de la vie",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident de la vie",
+    "usage_pc": 20
+   },
+   {
+    "t": "les accidents de la vie",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "accidents de la vie",
+    "usage_pc": 90
+   },
+   {
+    "t": "accident",
+    "usage_pc": 90
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 40
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 30
+   },
+   {
+    "t": "garanties",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident de la vie courante",
+    "usage_pc": 20
+   },
+   {
+    "t": "vie courante",
+    "usage_pc": 20
+   },
+   {
+    "t": "garantie accident de la vie",
+    "usage_pc": 20
+   },
+   {
+    "t": "assurance accidents de la vie",
+    "usage_pc": 20
+   },
+   {
+    "t": "assuré",
+    "usage_pc": 10
+   },
+   {
+    "t": "les accidents de la vie",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "accidents de la vie",
+    "usage_pc": 70
+   },
+   {
+    "t": "accident",
+    "usage_pc": 70
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 50
+   },
+   {
+    "t": "garantie accident de la vie",
+    "usage_pc": 50
+   },
+   {
+    "t": "garanties",
+    "usage_pc": 50
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 40
+   },
+   {
+    "t": "assurance accidents de la vie",
+    "usage_pc": 30
+   },
+   {
+    "t": "gav",
+    "usage_pc": 30
+   },
+   {
+    "t": "un accident de la vie",
+    "usage_pc": 30
+   },
+   {
+    "t": "une garantie accidents",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident de la vie courante",
+    "usage_pc": 20
+   },
+   {
+    "t": "vie courante",
+    "usage_pc": 20
+   },
+   {
+    "t": "souscrire",
+    "usage_pc": 20
+   },
+   {
+    "t": "une assurance accidents",
+    "usage_pc": 20
+   },
+   {
+    "t": "souscrire une assurance",
+    "usage_pc": 20
+   },
+   {
+    "t": "souscrire une assurance accidents",
+    "usage_pc": 20
+   },
+   {
+    "t": "comment déclarer un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "assuré",
+    "usage_pc": 10
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 10
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 10
+   },
+   {
+    "t": "un tiers",
+    "usage_pc": 10
+   },
+   {
+    "t": "les accidents de la vie",
+    "usage_pc": 10
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "conséquences des accidents",
+    "usage_pc": 10
+   },
+   {
+    "t": "cas de désaccord",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "accidents de la vie",
+    "usage_pc": 90,
+    "sugg_usage": [
+     11,
+     28
+    ]
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 90,
+    "sugg_usage": [
+     13,
+     14
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 90,
+    "sugg_usage": [
+     3,
+     21
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 90,
+    "sugg_usage": [
+     27,
+     50
+    ]
+   },
+   {
+    "t": "accident de la vie courante",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "vie courante",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "garantie accident de la vie",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "assurance accidents de la vie",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "garanties",
+    "usage_pc": 80,
+    "sugg_usage": [
+     3,
+     13
+    ]
+   },
+   {
+    "t": "gav",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     11
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     11
+    ]
+   },
+   {
+    "t": "accident domestique",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un accident de la vie",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     10
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "les contrats",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "garantie des accidents",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "assuré",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     6
+    ]
+   },
+   {
+    "t": "souscrire",
+    "usage_pc": 80,
+    "sugg_usage": [
+     2,
+     4
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "subir",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "aipp",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "souscription",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "séquelle",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "invalidité",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "un tiers",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les dommages",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "sécurité sociale",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les accidents de la vie",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les garanties",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsabilité civile",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "évaluer",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "les accidents domestiques",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conditions générales",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "intégrité physique et psychique",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "physique et psychique",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas de décès",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "une assurance accidents",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "accidents de la vie privée",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "souscrire une assurance",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "médecin expert",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "souscrire une assurance accidents",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une garantie accidents",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d’accident de la vie",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "millions d’accidents de la vie",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "bénéficier d’une indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contrat d’assurance",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsable de l’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conséquences de l’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les modalités d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurance responsabilité civile",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "tiers responsable",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les séquelles",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accidents de la circulation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conséquences financières",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "invalidité permanente",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment déclarer un accident",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les conditions générales",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contrat garantie",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conséquences des accidents",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accidents du travail",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les assureurs",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurance gav",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice subi",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les dommages corporels",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contrat garantie des accidents",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "membres de sa famille",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de ski",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un accident de jardinage",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas de désaccord",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les frais médicaux",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les postes de préjudice",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les accidents de la circulation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les contrats gav",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les souffrances endurées",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les membres de sa famille",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les conséquences des accidents",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Assurance",
+    "importance": 73.952,
+    "relevance": 0.73952,
+    "confidence": 5.2378,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 44.09400000000001,
+    "relevance": 0.44094,
+    "confidence": 2.5844,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "GAV",
+    "importance": 32.39808000000001,
+    "relevance": 0.50622,
+    "confidence": 0.5,
+    "links": []
+   },
+   {
+    "t": "Contrat d'assurance",
+    "importance": 28.865280000000006,
+    "relevance": 0.45102000000000003,
+    "confidence": 1.0555999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contrat_d'assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Sécurité sociale (France)",
+    "importance": 21.143040000000003,
+    "relevance": 0.33036000000000004,
+    "confidence": 2.6674,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Sécurité_sociale_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Garantie des accidents de la vie",
+    "importance": 17.573759999999996,
+    "relevance": 0.48816,
+    "confidence": 1.3848,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Garantie_des_accidents_de_la_vie"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 15.0128768,
+    "relevance": 0.2345762,
+    "confidence": 4.7356,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Contrat",
+    "importance": 11.98728,
+    "relevance": 0.33298,
+    "confidence": 0.74064,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contrat"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la vie courante",
+    "importance": 8.14104,
+    "relevance": 0.22614,
+    "confidence": 0.9394,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_vie_courante"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance responsabilité civile",
+    "importance": 3.8083200000000006,
+    "relevance": 0.23802000000000004,
+    "confidence": 0.8183999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_responsabilité_civile"
+     ]
+    ]
+   },
+   {
+    "t": "Responsabilité civile",
+    "importance": 3.7737600000000007,
+    "relevance": 0.23586000000000001,
+    "confidence": 0.8792,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Responsabilité_civile"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 3.215808,
+    "relevance": 0.08932799999999999,
+    "confidence": 0.9343999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Santé",
+    "importance": 2.541096,
+    "relevance": 0.070586,
+    "confidence": 1.288,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Santé"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 2.4244416,
+    "relevance": 0.0673456,
+    "confidence": 0.9975999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Vie privée",
+    "importance": 2.020064,
+    "relevance": 0.126254,
+    "confidence": 0.9076000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Vie_privée"
+     ]
+    ]
+   },
+   {
+    "t": "Famille (biologie)",
+    "importance": 1.5734400000000004,
+    "relevance": 0.09834000000000001,
+    "confidence": 0.8,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Famille_(biologie)"
+     ]
+    ]
+   },
+   {
+    "t": "France",
+    "importance": 1.5516800000000002,
+    "relevance": 0.09698,
+    "confidence": 2.9044000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/France"
+     ]
+    ]
+   },
+   {
+    "t": "Mutuelle de santé en France",
+    "importance": 1.15296,
+    "relevance": 0.07206,
+    "confidence": 0.47219999999999995,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Mutuelle_de_santé_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance automobile",
+    "importance": 1.0030399999999997,
+    "relevance": 0.06269,
+    "confidence": 0.7097999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Hôpital",
+    "importance": 0.8908799999999999,
+    "relevance": 0.05567999999999999,
+    "confidence": 1.3856,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Hôpital"
+     ]
+    ]
+   },
+   {
+    "t": "Garantie accident de la vie",
+    "importance": 0.7390399999999999,
+    "relevance": 0.18475999999999998,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Accidents de la vie",
+    "importance": 0.6852800000000001,
+    "relevance": 0.17132,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "assurance Accidents de la vie",
+    "importance": 0.66656,
+    "relevance": 0.16664,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "garantie accidents de la vie",
+    "importance": 0.6632,
+    "relevance": 0.1658,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Caisse d'épargne (banque)",
+    "importance": 0.6472800000000001,
+    "relevance": 0.16182000000000002,
+    "confidence": 1.5646,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Caisse_d'épargne_(banque)"
+     ]
+    ]
+   },
+   {
+    "t": "Caisse d'épargne",
+    "importance": 0.61152,
+    "relevance": 0.15288,
+    "confidence": 0.9648,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Caisse_d'épargne"
+     ]
+    ]
+   },
+   {
+    "t": "assurance accident de la vie",
+    "importance": 0.59344,
+    "relevance": 0.14836,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Assurance Accidents de la vie",
+    "importance": 0.548,
+    "relevance": 0.137,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Services d'assistance",
+    "importance": 0.5431199999999999,
+    "relevance": 0.13577999999999998,
+    "confidence": 0.2142,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Services_d'assistance"
+     ]
+    ]
+   },
+   {
+    "t": "AIVF",
+    "importance": 0.53088,
+    "relevance": 0.13272,
+    "confidence": 0.1,
+    "links": []
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "accidents de la vie\naccident\nassurance\nindemnisation\naccident de la vie courante\nvie courante",
+  "desc_title": "accidents de la vie\naccident\nassurance\naccident de la vie courante\nvie courante\nindemnisation\ngaranties\ngarantie accident de la vie\nun accident de la vie\nles accidents de la vie",
+  "h1": "accidents de la vie\naccident\nindemnisation\nassurance\ngaranties\naccident de la vie courante\nvie courante\ngarantie accident de la vie\nassurance accidents de la vie\nassuré\nles accidents de la vie",
+  "h2": "accidents de la vie\naccident\nindemnisation\ngarantie accident de la vie\ngaranties\nassurance\nassurance accidents de la vie\ngav\nun accident de la vie\nune garantie accidents\naccident de la vie courante\nvie courante\nsouscrire\nune assurance accidents\nsouscrire une assurance\nsouscrire une assurance accidents\ncomment déclarer un accident\npréjudice\nindemniser\nassuré\nassureur\ncorporel\nêtre indemnisé\nun tiers\nles accidents de la vie\ndommage corporel\nexpertise médicale\nconséquences des accidents\ncas de désaccord",
+  "content_basic": "accidents de la vie\nassurance\nindemnisation\naccident\naccident de la vie courante\nvie courante\ngarantie accident de la vie\nassurance accidents de la vie\ngaranties\ngav\npréjudice\naccident domestique\nun accident de la vie\nindemniser\nles contrats\ngarantie des accidents\nassuré\nsouscrire\nassureur\nsubir\naipp\ncorporel\nsouscription\nêtre indemnisé\nséquelle\ninvalidité\nun tiers\nles dommages\nsécurité sociale\nles accidents de la vie\nles garanties\nresponsabilité civile\névaluer\nles accidents domestiques\nconditions générales\nintégrité physique et psychique\nphysique et psychique\ncas de décès",
+  "content_basic_w_ranges": "accidents de la vie: 11-28x\nassurance: 13-14x\nindemnisation: 3-21x\naccident: 27-50x\naccident de la vie courante: 1-3x\nvie courante: 1-3x\ngarantie accident de la vie: 1-5x\nassurance accidents de la vie: 1-5x\ngaranties: 3-13x\ngav: 1-11x\npréjudice: 1-11x\naccident domestique: 1-2x\nun accident de la vie: 2-10x\nindemniser: 1-4x\nles contrats: 1-6x\ngarantie des accidents: 1-2x\nassuré: 2-6x\nsouscrire: 2-4x\nassureur: 1-7x\nsubir: 1-4x\naipp: 1-3x\ncorporel: 1-5x\nsouscription: 1-2x\nêtre indemnisé: 1-2x\nséquelle: 1x\ninvalidité: 1-3x\nun tiers: 1-2x\nles dommages: 1-3x\nsécurité sociale: 1-2x\nles accidents de la vie: 1-2x\nles garanties: 1x\nresponsabilité civile: 1-3x\névaluer: 1-3x\nles accidents domestiques: 1x\nconditions générales: 1-2x\nintégrité physique et psychique: 1x\nphysique et psychique: 1x\ncas de décès: 1x",
+  "content_extended": "une assurance accidents\naccidents de la vie privée\nsouscrire une assurance\nmédecin expert\nsouscrire une assurance accidents\nune garantie accidents\ncas d’accident de la vie\nmillions d’accidents de la vie\nvictime d’un accident\nindemnisation d’un accident\nbénéficier d’une indemnisation\ncontrat d’assurance\ncas d’accident\nresponsable de l’accident\nconséquences de l’accident\nles modalités d’indemnisation\nassurance responsabilité civile\ndommage corporel\nexpertise médicale\ntiers responsable\nles séquelles\naccidents de la circulation\nconséquences financières\ndroit à indemnisation\ninvalidité permanente\ncomment déclarer un accident\nles conditions générales\ncontrat garantie\nconséquences des accidents\naccidents du travail\nles assureurs\nassurance gav\npréjudice subi\nles dommages corporels\ncontrat garantie des accidents\nmembres de sa famille\naccident de ski\nun accident de jardinage\ncas de désaccord\nles frais médicaux\nles postes de préjudice\nles accidents de la circulation\nsuite à un accident\nles contrats gav\nles souffrances endurées\nles membres de sa famille\nles conséquences des accidents",
+  "content_extended_w_ranges": "une assurance accidents: 1-2x\naccidents de la vie privée: 1x\nsouscrire une assurance: 1-2x\nmédecin expert: 1-3x\nsouscrire une assurance accidents: 1x\nune garantie accidents: 1x\ncas d’accident de la vie: 1x\nmillions d’accidents de la vie: 1x\nvictime d’un accident: 1x\nindemnisation d’un accident: 1x\nbénéficier d’une indemnisation: 1x\ncontrat d’assurance: 1x\ncas d’accident: 1x\nresponsable de l’accident: 1x\nconséquences de l’accident: 1x\nles modalités d’indemnisation: 1x\nassurance responsabilité civile: 1x\ndommage corporel: 1x\nexpertise médicale: 1-3x\ntiers responsable: 1x\nles séquelles: 1x\naccidents de la circulation: 1x\nconséquences financières: 1x\ndroit à indemnisation: 1x\ninvalidité permanente: 1x\ncomment déclarer un accident: 1x\nles conditions générales: 1x\ncontrat garantie: 1x\nconséquences des accidents: 1x\naccidents du travail: 1x\nles assureurs: 1x\nassurance gav: 1x\npréjudice subi: 1x\nles dommages corporels: 1x\ncontrat garantie des accidents: 1x\nmembres de sa famille: 1x\naccident de ski: 1x\nun accident de jardinage: 1x\ncas de désaccord: 1x\nles frais médicaux: 1x\nles postes de préjudice: 1x\nles accidents de la circulation: 1x\nsuite à un accident: 1x\nles contrats gav: 1x\nles souffrances endurées: 1x\nles membres de sa famille: 1x\nles conséquences des accidents: 1x",
+  "entities": "Assurance\nDommage corporel\nGAV\nContrat d'assurance\nSécurité sociale (France)\nGarantie des accidents de la vie\nAccident de la route\nContrat\nAccident de la vie courante\nAssurance responsabilité civile\nResponsabilité civile\nEndommagement\nSanté\nMédecin\nVie privée\nFamille (biologie)\nFrance\nMutuelle de santé en France\nAssurance automobile\nHôpital\nGarantie accident de la vie\nAccidents de la vie\nassurance Accidents de la vie\ngarantie accidents de la vie\nCaisse d'épargne (banque)\nCaisse d'épargne\nassurance accident de la vie\nAssurance Accidents de la vie\nServices d'assistance\nAIVF"
+ },
+ "status": "ready",
+ "keyword": "accident de la vie indemnisation",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "972165f229676370",
+ "query": "2d90ca8b0e5ad2d6",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 93.3,
+   "transactional": 36.7,
+   "navigational": 3.3
+  },
+  "top_content_type": "educational",
+  "content_type_stats": {
+   "educational": 43.3,
+   "guide": 30.0,
+   "tool": 10.0,
+   "product-page": 26.7,
+   "landing-page": 23.3,
+   "video": 23.3,
+   "social-media": 6.7,
+   "other": 6.7,
+   "short-answer": 3.3,
+   "news": 3.3
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/2d90ca8b0e5ad2d6",
+ "share_url": "https://app.neuronwriter.com/analysis/share/2d90ca8b0e5ad2d6/79541a3c83ec7195898cef21b26dc3dc4fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/2d90ca8b0e5ad2d6/cf1b5c84c4f0bae06c410c894d554df44fa16"
+}

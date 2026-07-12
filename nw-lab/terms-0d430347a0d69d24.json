@@ -1,0 +1,2230 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   },
+   {
+    "q": "Quels sont les 3 types de préjudice ?"
+   },
+   {
+    "q": "Quels sont les 3 types de dommages ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quels sont les principaux types de préjudices indemnisables ?": {
+    "importance": 10
+   },
+   "Quels sont les préjudices patrimoniaux et extra-patrimoniaux ?": {
+    "importance": 9
+   },
+   "Quels sont les différents préjudices corporels ?": {
+    "importance": 8
+   },
+   "Qu'est-ce que la nomenclature Dintilhac et quels préjudices couvre-t-elle ?": {
+    "importance": 8
+   },
+   "Comment distinguer les préjudices temporaires et permanents ?": {
+    "importance": 7
+   },
+   "Quels sont les préjudices indemnisables pour les victimes directes et indirectes ?": {
+    "importance": 7
+   },
+   "Comment prouver un préjudice pour obtenir une indemnisation ?": {
+    "importance": 6
+   },
+   "Quelle est la différence entre un dommage et un préjudice ?": {
+    "importance": 5
+   },
+   "Quel est le rôle d'un avocat dans l'indemnisation des préjudices ?": {
+    "importance": 4
+   },
+   "Quelles sont les conditions pour qu'un préjudice soit indemnisable ?": {
+    "importance": 4
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Accident de la route, accident de la vie courante, accident médical : quels préjudices pouvez-vous faire indemniser ?"
+   },
+   {
+    "q": "Autrement dit, le système français de la réparation est-il un système ouvert, accueillant par principe toute atteinte à un intérêt, ou un système clos, n’indemnisant que des préjudices préalablement typés ?"
+   },
+   {
+    "q": "Comment prouver un préjudice ?"
+   },
+   {
+    "q": "Comment, en effet, évaluer le préjudice moral d’une mère qui vient de perdre son enfant dans un accident de voiture ?"
+   },
+   {
+    "q": "C’est, en réalité ce type de question qui est au cœur de la controverse née de l’arrêt Perruche : peut-on considérer qu’être né, certes handicapé, constitue un préjudice en soi ?"
+   },
+   {
+    "q": "Dans cette perspective, une définition du préjudice se fait sentir, ne serait-ce que pour pouvoir échapper à la question posée par l’arrêt Perruche à savoir : peut-on indemniser un enfant du fait d’être né handicapé ?"
+   },
+   {
+    "q": "Est-ce à dire que dès lors qu’un préjudice revêt ces caractères, la victime est fondée à agir en réparation ?"
+   },
+   {
+    "q": "Existe-t-il des préjudices spécifiques ?"
+   },
+   {
+    "q": "La victime d’un acte de concurrence déloyale est-elle dispensée de prouver son préjudice, ou doit-elle l’établir lorsqu’elle réclame, au-delà du dommage moral, l’indemnisation d’un dommage matériel ?"
+   },
+   {
+    "q": "L’assurance responsabilité civile couvre-t-elle tous les préjudices ?"
+   },
+   {
+    "q": "Que signifie « poste de préjudice corporel » ?"
+   },
+   {
+    "q": "Quelle est la différence entre préjudice matériel et préjudice moral ?"
+   },
+   {
+    "q": "Quels préjudices peuvent être indemnisés, et dans quelle mesure ?"
+   },
+   {
+    "q": "Quels sont les 3 catégories de préjudices indemnisés ?"
+   },
+   {
+    "q": "Quels sont les préjudices extra-patrimoniaux permanents ?"
+   },
+   {
+    "q": "Quels sont les préjudices extra-patrimoniaux temporaires ?"
+   },
+   {
+    "q": "Quels sont les préjudices patrimoniaux permanents ?"
+   },
+   {
+    "q": "Quels sont les préjudices patrimoniaux temporaires ?"
+   },
+   {
+    "q": "Quels sont les types de préjudices ?"
+   },
+   {
+    "q": "Quid lorsqu’un dommage ne s’insère dans aucune des catégories sus-énoncées ?"
+   },
+   {
+    "q": "Quid, en revanche, lorsque le préjudice invoqué par la victime ne consiste, ni en une perte, ni en un manque à gagner ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un préjudice ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un préjudice en droit ?"
+   },
+   {
+    "q": "Tous les préjudices doivent-ils être indemnisés ?"
+   },
+   {
+    "q": "Un enfant né handicapé en raison d’une faute médicale ayant empêché sa mère d’exercer son choix d’interrompre sa grossesse peut-il obtenir, en son nom propre, réparation du préjudice résultant de son handicap ?"
+   },
+   {
+    "q": "Vous êtes victime d'un préjudice corporel, d'un préjudice matériel ou bien d'un préjudice économique ?"
+   },
+   {
+    "q": "Vous êtes victime d’un accident entraînant un dommage corporel ?"
+   },
+   {
+    "q": "du fait invoqué par l’enfant : la naissance peut-elle être tenue pour un préjudice ?"
+   },
+   {
+    "q": "Êtes-vous une victime directe ou indirecte ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.cabinetaci.com/les-differents-prejudices/",
+   "title": "Les différents préjudices en droit français - Avocat droit pénal",
+   "desc": "Les différents préjudices : ils concernent en droit français le préjudice corporel, le préjudice moral, le préjudice esthétique, le préjudice d’agrément",
+   "headers": [
+    [
+     "h1",
+     "Les différents préjudices en droit français"
+    ],
+    [
+     "h2",
+     "I).  —  Les différents préjudices : victime directe ou"
+    ],
+    [
+     "h2",
+     "indirecte"
+    ],
+    [
+     "h2",
+     "II – La preuve des différents préjudices"
+    ],
+    [
+     "h2",
+     "(corporel ou d’agrément, moral, matériel et esthétique)"
+    ],
+    [
+     "h2",
+     "(Les différents préjudices en droit français)"
+    ],
+    [
+     "h2",
+     "III. La preuve (art 427 cpp )"
+    ],
+    [
+     "h2",
+     "(Les différents préjudices en droit français)"
+    ],
+    [
+     "h2",
+     "IV).  —  Contactez un avocat"
+    ],
+    [
+     "h2",
+     "(Les différents préjudices en droit français)"
+    ],
+    [
+     "h2",
+     "Cabinet d’avocats pénalistes parisiens"
+    ],
+    [
+     "h2",
+     "(Les différents préjudices en droit français)"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 0,
+   "word_count": 5567,
+   "content_len": 44901
+  },
+  {
+   "rank": 2,
+   "url": "https://www.bourdet-avocat.fr/droit-victimes-prejudice-corporel/prejudices-indemnisables/",
+   "title": "Avocat victimes, Indemnisation dommage corporel, Evaluation préjudice, Rouen | Bourdet Avocat",
+   "desc": "Vous êtes victime d'un préjudice corporel, d'un préjudice matériel ou bien d'un préjudice économique ? Maître Bourdet, Avocat spécialisé à Rouen, vous permet d'obtenir une juste et totale indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Les postes de préjudice indemnisables"
+    ],
+    [
+     "h2",
+     "Le principe de la réparation intégrale des préjudices"
+    ],
+    [
+     "h2",
+     "La notion de « préjudice indemnisable »"
+    ],
+    [
+     "h2",
+     "Les préjudices indemnisables selon la nomenclature DINTILHAC"
+    ],
+    [
+     "h2",
+     "Les préjudices patrimoniaux"
+    ],
+    [
+     "h2",
+     "Les préjudices extra-patrimoniaux"
+    ]
+   ],
+   "content_score": 70,
+   "readability": 15,
+   "word_count": 3194,
+   "content_len": 21288
+  },
+  {
+   "rank": 3,
+   "url": "https://www.meetlaw.fr/articles/differents-types-prejudices-1624.htm",
+   "title": "Les différents types de préjudices | Meet law",
+   "desc": " Quand une personne est victime d’un incident, qu’il s’agisse d’une infraction, d’un accident ou de tout autre événement, elle subit un dommage...",
+   "headers": [
+    [
+     "h1",
+     "Les différents types de préjudices"
+    ],
+    [
+     "h2",
+     "Les préjudices patrimoniaux"
+    ],
+    [
+     "h2",
+     "Les préjudices extra-patrimoniaux"
+    ],
+    [
+     "h2",
+     "L'indemnisation de toutes les victimes"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 48,
+   "word_count": 847,
+   "content_len": 5075
+  },
+  {
+   "rank": 4,
+   "url": "https://jurislogic.fr/dictionnaire-juridique/prejudice-definition/",
+   "title": "Préjudice définition - Dictionnaire Juridique JurisLogic",
+   "desc": "Préjudice définition : se réfère à toute atteinte portée aux intérêts d'une personne. Cette atteinte peut résulter d'un fait volontaire ou involontaire.",
+   "headers": [
+    [
+     "h2",
+     "Préjudice"
+    ],
+    [
+     "h1",
+     "Définition de “préjudice”"
+    ],
+    [
+     "h2",
+     "Sommaire"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un préjudice ?"
+    ],
+    [
+     "h2",
+     "Caractéristiques du préjudice indemnisable"
+    ],
+    [
+     "h2",
+     "Exemples de préjudices et leur réparation"
+    ],
+    [
+     "h2",
+     "Le rôle des assurances dans l’indemnisation des préjudices"
+    ],
+    [
+     "h2",
+     "FAQ sur le préjudice"
+    ],
+    [
+     "h2",
+     "Définitions de termes similaires"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 36,
+   "word_count": 961,
+   "content_len": 6536
+  },
+  {
+   "rank": 5,
+   "url": "https://gdroit.fr/responsabilite-extracontractuelle/les-varietes-de-prejudices/",
+   "title": "Les variétés de préjudices - Gdroit",
+   "desc": "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": }",
+   "headers": [
+    [
+     "h1",
+     "Les variétés de préjudices"
+    ],
+    [
+     "h2",
+     "Une réponse"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 12,
+   "word_count": 16645,
+   "content_len": 103700
+  },
+  {
+   "rank": 6,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/differents-postes-prejudice-corporel",
+   "title": "Je découvre les différents postes de préjudice corporel - Association Victimes de France AIVF",
+   "desc": "Découvrez les divers types de préjudices corporels avec l'Association Aide Victimes France et informez-vous sur vos droits.",
+   "headers": [
+    [
+     "h1",
+     "Je découvre les différents postes de préjudice corporel"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Les différents postes de préjudice corporel"
+    ],
+    [
+     "h2",
+     "Essentiel à retenir – Postes de préjudice corporel"
+    ],
+    [
+     "h2",
+     "Comprendre les postes de préjudice corporel, que vous soyez une victime directe ou indirecte"
+    ]
+   ],
+   "content_score": 66,
+   "readability": 42,
+   "word_count": 1303,
+   "content_len": 8804
+  },
+  {
+   "rank": 7,
+   "url": "https://www.recours-assistance.fr/actualites/liste-des-prejudices-indemnisables/",
+   "title": "Liste des Préjudices Indemnisables - Recours Assistance",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Liste des Préjudices Indemnisables"
+    ],
+    [
+     "h2",
+     "Découvrez d'autres victoires & actualités"
+    ]
+   ],
+   "content_score": 38,
+   "readability": 73,
+   "word_count": 257,
+   "content_len": 1918
+  },
+  {
+   "rank": 8,
+   "url": "https://www.delbez-joly-avocats.fr/fr/idemnisation-prejudices-corporels",
+   "title": "Indemnisation : les différents postes de préjudices corporels",
+   "desc": "On retrouve diff&eacute;rents types de pr&eacute;judices pour lesquels vous pouvez &ecirc;tre indemnis&eacute; : les pr&eacute;judices patrimoniaux et les pr&eacute;judices extra-patrimoniaux.",
+   "headers": [
+    [
+     "h1",
+     "Votre indemnisation"
+    ],
+    [
+     "h2",
+     "LES PRINCIPAUX POSTES DE PREJUDICES INDEMNISABLES"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 20,
+   "word_count": 1611,
+   "content_len": 10806
+  },
+  {
+   "rank": 9,
+   "url": "https://www.benezra-victimesdelaroute.fr/faq-items/quels-sont-les-3-categories-de-prejudices-indemnises/",
+   "title": "Quels sont les 3 catégories de préjudices indemnisés ? - Avocat dommage corporel | Avocat accident de la route | Avocat victime",
+   "desc": "Selon la nomenclature Dintilhac, les préjudices sont répartis en trois catégories principales : Préjudices patrimoniaux, Préjudices extra",
+   "headers": [],
+   "content_score": 24,
+   "readability": 41,
+   "word_count": 79,
+   "content_len": 590
+  },
+  {
+   "rank": 10,
+   "url": "https://avocat-nakache.fr/droit-des-victimes-les-prejudices-indemnisables/",
+   "title": "Les préjudices indemnisables - Cabinet d'avocats Pascal Nakache : Préjudice corporel, droit du handicap, droit de l'autisme",
+   "desc": "Les préjudices indemnisables pour les victimes corporelles peuvent être nombreux. Ils varient selon la durée des affections et selon qu'ils affectent le patrimoine ou le corporel proprement dit.",
+   "headers": [
+    [
+     "h2",
+     "La réparation du préjudice corporel"
+    ],
+    [
+     "h1",
+     "Les préjudices indemnisables"
+    ],
+    [
+     "h1",
+     "Nous vous rappelons"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 26,
+   "word_count": 814,
+   "content_len": 5819
+  },
+  {
+   "rank": 11,
+   "url": "https://www.weka.fr/fiches-et-outils/qu-est-ce-qu-un-prejudice-indemnisable-quels-sont-les-differents-chefs-de-prejudices-indemnisables-8065/",
+   "title": "Qu’est-ce qu’un préjudice indemnisable ? Quels sont les différents chefs de préjudices indemnisables ?",
+   "desc": "Quels préjudices sont indemnisables en cas de faute médicale ? Découvrez les critères et procédures pour obtenir réparation.",
+   "headers": [
+    [
+     "h1",
+     "Qu’est-ce qu’un préjudice indemnisable ? Quels sont les différents chefs de préjudices indemnisables ?"
+    ],
+    [
+     "h2",
+     "Vérifier si les conditions d’engagement de la responsabilité sont remplies"
+    ],
+    [
+     "h2",
+     "Fiche associée (1)"
+    ],
+    [
+     "h2",
+     "Actualité associée"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 39,
+   "word_count": 611,
+   "content_len": 3936
+  },
+  {
+   "rank": 12,
+   "url": "https://justice.pagesjaunes.fr/astuce/voir/434515/prejudice",
+   "title": "Préjudice",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Préjudice"
+    ],
+    [
+     "h1",
+     "Faites un choix pour vos données"
+    ],
+    [
+     "h2",
+     "Quels sont les types de préjudices ?"
+    ],
+    [
+     "h2",
+     "Préjudice : indemnisation"
+    ]
+   ],
+   "content_score": 32,
+   "readability": 37,
+   "word_count": 866,
+   "content_len": 5475
+  },
+  {
+   "rank": 13,
+   "url": "https://olifangroup.com/differents-types-de-prejudices-corporels/",
+   "title": "Les Différents Types de Préjudice Corporel",
+   "desc": "Découvrez notre guide sur les différents postes de préjudices corporels. Avec des informations sur son indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Les différents types de préjudice corporel"
+    ],
+    [
+     "h2",
+     "Distinction entre les différents types de préjudices"
+    ],
+    [
+     "h2",
+     "Les préjudices patrimoniaux"
+    ],
+    [
+     "h2",
+     "Les préjudices extra-patrimoniaux"
+    ],
+    [
+     "h2",
+     "Le préjudice par ricochet"
+    ],
+    [
+     "h2",
+     "Évaluation et indemnisation des préjudices corporels"
+    ],
+    [
+     "h2",
+     "Je souhaite prendre contact avec un conseiller Olifan Group"
+    ]
+   ],
+   "content_score": 70,
+   "readability": 23,
+   "word_count": 2481,
+   "content_len": 17202
+  },
+  {
+   "rank": 14,
+   "url": "https://williamtaiebavocat.fr/quels-sont-les-prejudices-indemnisables/",
+   "title": "Quels sont les préjudices indemnisables ? | Maitre William Taieb",
+   "desc": "Il est primordial de faire une distinction claire entre les différents types de préjudices possibles dans le cadre d'un accident : - Les préjudices ind ...",
+   "headers": [
+    [
+     "h1",
+     "Quels sont les préjudices indemnisables ?"
+    ],
+    [
+     "h2",
+     "Articles associés"
+    ]
+   ],
+   "content_score": 38,
+   "readability": 40,
+   "word_count": 516,
+   "content_len": 3337
+  },
+  {
+   "rank": 15,
+   "url": "https://association-aide-victimes.com/les-prejudices-corporels",
+   "title": "Liste des préjudices corporels & économiques",
+   "desc": "L'Association d'Aide aux Victimes AAV liste tous les préjudices corporels : AIPP, DFP, Pretium Doloris, Préjudice esthétique...Permanence téléphonique gratuite",
+   "headers": [
+    [
+     "h1",
+     "Liste des préjudices corporels & économiques"
+    ],
+    [
+     "h2",
+     "L’indemnisation du préjudice corporel"
+    ],
+    [
+     "h2",
+     "Les préjudices corporels et l’expertise médicale"
+    ],
+    [
+     "h2",
+     "Les différents postes de préjudices"
+    ],
+    [
+     "h2",
+     "Le préjudice corporel selon la nomenclature Dintilhac"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 30,
+   "word_count": 2064,
+   "content_len": 12862
+  },
+  {
+   "rank": 16,
+   "url": "https://www.vjp-avocat.com/fr/prejudices-indemnisables",
+   "title": "Préjudices indemnisables",
+   "desc": "Les préjudices subis suite à un accident ou à une infraction pénale subie constituent des distinctions : préjudices patrimoniaux, préjudices extra-patrimoniaux, permanents, temporaires...",
+   "headers": [
+    [
+     "h1",
+     "Les postes de préjudices indemnisables"
+    ],
+    [
+     "h2",
+     "Préjudices : les distinctions"
+    ],
+    [
+     "h2",
+     "Vincent Julé-Parade"
+    ],
+    [
+     "h2",
+     "Valérie Davranche"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 26,
+   "word_count": 797,
+   "content_len": 5515
+  },
+  {
+   "rank": 17,
+   "url": "https://maitre-morin-avocat.fr/accueil/indemnisation-prejudice-corporel-a-savoir/quels-sont-les-differents-prejudices-corporels",
+   "title": "Quels sont les différents préjudices corporels ? Se renseigner",
+   "desc": "A partir du moment où la victime a droit à la réparation intégrale de son préjudice, il n'y a pas de liste officielle découpant ce préjudice.",
+   "headers": [
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "❓ Quels sont les différents préjudices corporels ? — les 3 questions les plus posées"
+    ],
+    [
+     "h1",
+     "Quels sont les différents préjudices corporels ?"
+    ],
+    [
+     "h2",
+     "1. Les préjudices patrimoniaux"
+    ],
+    [
+     "h2",
+     "2. Les préjudices extra-patrimoniaux"
+    ],
+    [
+     "h2",
+     "3. L’évaluation des préjudices"
+    ],
+    [
+     "h2",
+     "4. Le rôle du médecin-conseil et de l’avocat"
+    ],
+    [
+     "h2",
+     "5. L’engagement de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "Principe de l'indemnisation corporelle"
+    ],
+    [
+     "h2",
+     "Exemples de questions de victimes sur les préjudices"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 36,
+   "word_count": 2523,
+   "content_len": 16689
+  },
+  {
+   "rank": 18,
+   "url": "https://association-francaise-aide-victimes-accidents.fr/les-prejudices-indemnisables/",
+   "title": "Les préjudices indemnisables - Association d'Aide aux Victimes",
+   "desc": "Quelles sont les préjudices indemnisables lorsque l'on a été victime d'un accident de la route? L'association peut vous aider dans vos actions.",
+   "headers": [
+    [
+     "h1",
+     "Les préjudices indemnisables"
+    ],
+    [
+     "h2",
+     "Les préjudices indemnisables"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 24,
+   "word_count": 323,
+   "content_len": 2145
+  },
+  {
+   "rank": 19,
+   "url": "https://www.avocatmarchand.com/post/quels-sont-les-pr%C3%A9judices-indemnisables-apr%C3%A8s-un-accident",
+   "title": "Quels sont les préjudices indemnisables après un accident ?",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Quels sont les préjudices indemnisables après un accident ?"
+    ]
+   ],
+   "content_score": 35,
+   "readability": 64,
+   "word_count": 619,
+   "content_len": 3931
+  },
+  {
+   "rank": 20,
+   "url": "https://jmp-avocat-indemnisation.fr/nomenclature-dintilhac-prejudices-patrimoniaux-extrapatrimoniaux-permanents-temporaires.html",
+   "title": "Nomenclature Dintilhac : guide complet des préjudices corporels indemnisables",
+   "desc": "Qu'est-ce que la nomenclature Dintilhac ? Découvrez tous les postes de préjudices corporels reconnus par la loi — patrimoniaux, extra-patrimoniaux, temporaires, permanents — expliqués simplement pour défendre votre indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Nomenclature Dintilhac : le guide complet des préjudices corporels indemnisables"
+    ],
+    [
+     "h2",
+     "1. Dommage et préjudice : une distinction fondamentale"
+    ],
+    [
+     "h2",
+     "2. Qu'est-ce que la nomenclature Dintilhac ?"
+    ],
+    [
+     "h2",
+     "3. La logique de la nomenclature : deux grands axes"
+    ],
+    [
+     "h2",
+     "4. Tableau complet — Victimes directes"
+    ],
+    [
+     "h2",
+     "5. Les préjudices patrimoniaux — ce qui vous coûte de l'argent"
+    ],
+    [
+     "h2",
+     "6. Les préjudices extra-patrimoniaux — ce que vous endurez personnellement"
+    ],
+    [
+     "h2",
+     "7. Les victimes indirectes ont aussi des droits"
+    ],
+    [
+     "h2",
+     "8. Ce que les assureurs font de la nomenclature Dintilhac"
+    ],
+    [
+     "h2",
+     "9. Pourquoi l'avocat est indispensable à chaque étape"
+    ],
+    [
+     "h2",
+     "10. Questions fréquentes"
+    ],
+    [
+     "h2",
+     "11. Pour aller plus loin"
+    ],
+    [
+     "h2",
+     "Avocat dommage corporel Lille et Paris — Me Joëlle Marteau-Péretié"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 28,
+   "word_count": 3233,
+   "content_len": 22935
+  },
+  {
+   "rank": 21,
+   "url": "https://crozatier-avocats.com/les-prejudices-indemnisables/",
+   "title": "Les préjudices indemnisables - Maître Elsa Crozatier - Avocat de victimes",
+   "desc": "Les préjudices indemnisables, qu'ils soient corporels ou patrimoniaux, extra-patrimoniaux. Maître Elsa Crozatier afin de synthétiser les différents préjudices indemnisables",
+   "headers": [
+    [
+     "h1",
+     "Les préjudices indemnisables"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 27,
+   "word_count": 1305,
+   "content_len": 8681
+  },
+  {
+   "rank": 22,
+   "url": "https://www.youtube.com/watch?v=WH9bLO_0lA8",
+   "title": "Les préjudices extra-patrimoniaux - YouTube",
+   "desc": "Conférence du 17 septembre 2021Sous la direction scientiﬁque de Mme Mireille Bacache, conseiller en service extraordinaire à la Cour de cassation, et Mme Ann...",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Les préjudices extra-patrimoniaux"
+    ],
+    [
+     "h1",
+     "Les préjudices extra-patrimoniaux"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      5"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 17,
+   "readability": 34,
+   "word_count": 192,
+   "content_len": 1207
+  },
+  {
+   "rank": 24,
+   "url": "https://www.justifit.fr/b/guides/differents-types-de-prejudice-corporel/",
+   "title": "Quels sont les différents types de préjudice corporel ?",
+   "desc": "Dès lors que le dommage résulte d’un accident du travail, de la route, de la vie courante, de sport, médical ou encore d’une agression, il s’agit d’un…",
+   "headers": [
+    [
+     "h1",
+     "Quels sont les différents types de préjudice corporel ?"
+    ],
+    [
+     "h2",
+     "À RETENIR : Quels sont les préjudices corporels ?"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un préjudice corporel ?"
+    ],
+    [
+     "h2",
+     "Quels sont les types de préjudices corporels ?"
+    ],
+    [
+     "h2",
+     "Comment évaluer un préjudice corporel ?"
+    ],
+    [
+     "h2",
+     "Comment réparer un préjudice corporel ?"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 48,
+   "word_count": 1322,
+   "content_len": 8572
+  },
+  {
+   "rank": 25,
+   "url": "https://www.weka.fr/fiches-et-outils/typologie-des-prejudices-reparables-10493/",
+   "title": "Typologie des préjudices réparables",
+   "desc": "Quels préjudices sont réparables en droit administratif et comment s'évalue leur indemnisation ? Découvrez les clés de la réparation intégrale.",
+   "headers": [
+    [
+     "h1",
+     "Typologie des préjudices réparables"
+    ],
+    [
+     "h2",
+     "Les préjudices indemnisables"
+    ],
+    [
+     "h2",
+     "Actualité associée"
+    ]
+   ],
+   "content_score": 27,
+   "readability": 35,
+   "word_count": 436,
+   "content_len": 2948
+  },
+  {
+   "rank": 26,
+   "url": "https://avicenne-avocats-sante.fr/principes-indemnisation/",
+   "title": "Les principes de l'indemnisation",
+   "desc": "L'indemnisation répond à plusieurs grands principes qu'il est important de connaître pour être mieux armé pour faire face à la procédure.",
+   "headers": [
+    [
+     "h1",
+     "Principes d’indemnisation"
+    ],
+    [
+     "h1",
+     "Les principes d’indemnisation du préjudice corporel"
+    ],
+    [
+     "h2",
+     "La réparation est basée sur plusieurs grands principes"
+    ],
+    [
+     "h2",
+     "Plusieurs étapes pour arriver à l’indemnisation"
+    ],
+    [
+     "h2",
+     "Il est important d’avoir conscience de 2 points fondamentaux :"
+    ]
+   ],
+   "content_score": 19,
+   "readability": 48,
+   "word_count": 1084,
+   "content_len": 6743
+  },
+  {
+   "rank": 27,
+   "url": "https://abelia-avocats.fr/quels-prejudices-indemnisables-a-la-suite-dun-dommage-corporel/",
+   "title": "Quels préjudices indemnisables à la suite d'un dommage corporel ? | Abelia Avocats",
+   "desc": "La victime blessée lors d’un accident de la route, un accident médical, un accident de la vie (chute, pratique sportive…) ou encore lors d’une agression, peut s",
+   "headers": [
+    [
+     "h1",
+     "Quels préjudices indemnisables à la suite d’un dommage corporel ?"
+    ],
+    [
+     "h2",
+     "Camille CLOAREC"
+    ],
+    [
+     "h2",
+     "Avocate Associée"
+    ],
+    [
+     "h2",
+     "Marion PLÉ"
+    ],
+    [
+     "h2",
+     "Avocate Associée"
+    ],
+    [
+     "h2",
+     "Aurore CHALARD"
+    ],
+    [
+     "h2",
+     "Avocate Associée"
+    ],
+    [
+     "h2",
+     "Caroline CATZ"
+    ],
+    [
+     "h2",
+     "Avocate Associée"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 17,
+   "word_count": 999,
+   "content_len": 6819
+  },
+  {
+   "rank": 28,
+   "url": "https://victime-info.fr/indemnisation/dossiers/lexique-indemnisation-prejudice-corporel",
+   "title": "Lexique indemnisation préjudice corporel : 50+ termes expliqués | victime-info.fr",
+   "desc": "Lexique complet de l'indemnisation du préjudice corporel : définitions, postes de préjudice, procédures et termes juridiques expliqués simplement aux victimes.",
+   "headers": [
+    [
+     "h1",
+     "Lexique de l’indemnisation du préjudice corporel : tous les termes expliqués"
+    ],
+    [
+     "h2",
+     "Lexique général de l’indemnisation des victimes"
+    ],
+    [
+     "h2",
+     "Lexique des différents postes de préjudice"
+    ],
+    [
+     "h2",
+     "Lexique de l’expertise médicale"
+    ],
+    [
+     "h2",
+     "Les voies de réparation du préjudice"
+    ],
+    [
+     "h2",
+     "Lexique des procédures et termes juridiques courants"
+    ],
+    [
+     "h2",
+     "Contestation du montant de l’indemnisation"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur le lexique de l’indemnisation du préjudice corporel"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Conclusion : maîtriser le vocabulaire pour mieux défendre ses droits"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 60,
+   "readability": 30,
+   "word_count": 4210,
+   "content_len": 27607
+  },
+  {
+   "rank": 29,
+   "url": "https://www.youtube.com/watch?v=J0VFGuLyVoA",
+   "title": "L'indemnisation des préjudices des victimes d'accidents ? Nos résultats : la preuve par les actes ! - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "L'indemnisation des préjudices des victimes d'accidents ? Nos résultats : la preuve par les actes !"
+    ],
+    [
+     "h1",
+     "L'indemnisation des préjudices des victimes d'accidents ? Nos résultats : la preuve par les actes !"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Description"
+    ]
+   ],
+   "content_score": 9,
+   "readability": 46,
+   "word_count": 273,
+   "content_len": 1964
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1132,
+   "target": 1132
+  },
+  "readability": {
+   "median": 31,
+   "target": 31
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "préjudice",
+    "usage_pc": 100
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 50
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 30
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "préjudice",
+    "usage_pc": 60
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 40
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 30
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 30
+   }
+  ],
+  "h1": [
+   {
+    "t": "préjudice",
+    "usage_pc": 80
+   },
+   {
+    "t": "indemnisable",
+    "usage_pc": 30
+   },
+   {
+    "t": "préjudice indemnisable",
+    "usage_pc": 30
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 10
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "un préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "droit français",
+    "usage_pc": 10
+   },
+   {
+    "t": "type de préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "différents postes de préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "postes de préjudice corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "les préjudices indemnisables",
+    "usage_pc": 10
+   },
+   {
+    "t": "différents postes",
+    "usage_pc": 10
+   },
+   {
+    "t": "les postes de préjudice",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "préjudice",
+    "usage_pc": 60
+   },
+   {
+    "t": "indemnisable",
+    "usage_pc": 40
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 30
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 30
+   },
+   {
+    "t": "un préjudice",
+    "usage_pc": 30
+   },
+   {
+    "t": "préjudice patrimonial",
+    "usage_pc": 20
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "préjudice indemnisable",
+    "usage_pc": 20
+   },
+   {
+    "t": "les préjudices patrimoniaux",
+    "usage_pc": 20
+   },
+   {
+    "t": "victime directe",
+    "usage_pc": 20
+   },
+   {
+    "t": "les préjudices extra-patrimoniaux",
+    "usage_pc": 20
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "droit français",
+    "usage_pc": 10
+   },
+   {
+    "t": "dintilhac",
+    "usage_pc": 10
+   },
+   {
+    "t": "réparation du préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "différents postes de préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "nomenclature dintilhac",
+    "usage_pc": 10
+   },
+   {
+    "t": "postes de préjudice corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "les préjudices indemnisables",
+    "usage_pc": 10
+   },
+   {
+    "t": "différents postes",
+    "usage_pc": 10
+   },
+   {
+    "t": "les postes de préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "réparation du préjudice corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "catégorie des préjudices",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "préjudice",
+    "usage_pc": 100,
+    "sugg_usage": [
+     19,
+     118
+    ]
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 90,
+    "sugg_usage": [
+     8,
+     20
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     11
+    ]
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "préjudice patrimonial",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "préjudice esthétique",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "préjudice moral",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     9
+    ]
+   },
+   {
+    "t": "un préjudice",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     10
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "droit français",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemnisable",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "type de préjudice",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "préjudice sexuel",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les préjudices patrimoniaux",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "victime directe",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "un dommage",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "dintilhac",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "préjudice scolaire",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "préjudice esthétique temporaire",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les atteintes",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "préjudice esthétique permanent",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "préjudice indemnisable",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "réparation du préjudice",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice matériel",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "différents postes de préjudice",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "nomenclature dintilhac",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "postes de préjudice corporel",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les préjudices extra-patrimoniaux",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice économique",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudices permanents",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "préjudices permanents exceptionnels",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les préjudices indemnisables",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "différents postes",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice d’agrément",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice d’établissement",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice lié à l’acte sexuel",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "troubles dans les conditions d’existence",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice d’affection",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice professionnel",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les pertes",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "préjudice subi",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les postes de préjudice",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudices extra-patrimoniaux permanents",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudices liés à des pathologies",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les préjudices permanents",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les pertes de gains professionnels",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice extrapatrimonial",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les préjudices extrapatrimoniaux",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les préjudices patrimoniaux permanents",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les préjudices patrimoniaux temporaires",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation préjudice",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation dommage corporel",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice morphologique",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les frais de véhicule adapté",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cause à autrui un dommage",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "réparation des préjudices",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudices patrimoniaux et extrapatrimoniaux",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à la réparation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice causé",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisables pour les victimes",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les dépenses de santé actuelles",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les dépenses de santé futures",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "réparation du préjudice corporel",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit commun",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demander la réparation du préjudice",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "prouver son préjudice",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les types de préjudice",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudices peuvent être indemnisés",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit de la responsabilité civile",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "liste des postes de préjudice",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "notion de préjudice",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "constitue un préjudice",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "chef de préjudice distinct",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat en dommage",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit civil",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "quels préjudices",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "catégorie des préjudices",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "caractères du préjudice",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Dommage corporel",
+    "importance": 65.76799999999999,
+    "relevance": 0.6576799999999999,
+    "confidence": 5.7194,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage en droit civil français",
+    "importance": 33.53344,
+    "relevance": 0.52396,
+    "confidence": 3.901,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_en_droit_civil_français"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 6.775919999999999,
+    "relevance": 0.18822,
+    "confidence": 4.694800000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 4.2212879999999995,
+    "relevance": 0.117258,
+    "confidence": 0.8413999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Responsabilité civile en droit français",
+    "importance": 3.6128,
+    "relevance": 0.2258,
+    "confidence": 0.6986,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Responsabilité_civile_en_droit_français"
+     ]
+    ]
+   },
+   {
+    "t": "Droit français",
+    "importance": 3.4944,
+    "relevance": 0.2184,
+    "confidence": 1.367,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Droit_français"
+     ]
+    ]
+   },
+   {
+    "t": "Victime",
+    "importance": 3.272,
+    "relevance": 0.2045,
+    "confidence": 0.45999999999999996,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Victime"
+     ]
+    ]
+   },
+   {
+    "t": "Préjudice d'agrément",
+    "importance": 2.9568,
+    "relevance": 0.1848,
+    "confidence": 0.41459999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Préjudice_d'agrément"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 2.1759999999999997,
+    "relevance": 0.13599999999999998,
+    "confidence": 0.8859999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Jurisprudence",
+    "importance": 2.05856,
+    "relevance": 0.12866,
+    "confidence": 1.7483999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Jurisprudence"
+     ]
+    ]
+   },
+   {
+    "t": "Code civil (France)",
+    "importance": 1.9993600000000002,
+    "relevance": 0.12496,
+    "confidence": 2.8314,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Code_civil_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Handicap",
+    "importance": 1.8128,
+    "relevance": 0.1133,
+    "confidence": 3.6762,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Handicap"
+     ]
+    ]
+   },
+   {
+    "t": "Santé",
+    "importance": 1.50304,
+    "relevance": 0.09394,
+    "confidence": 1.0366,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Santé"
+     ]
+    ]
+   },
+   {
+    "t": "Harcèlement",
+    "importance": 1.4665599999999996,
+    "relevance": 0.09165999999999999,
+    "confidence": 0.5266,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Harcèlement"
+     ]
+    ]
+   },
+   {
+    "t": "Véhicule (transport physique)",
+    "importance": 1.2559999999999998,
+    "relevance": 0.07849999999999999,
+    "confidence": 1.0936,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Véhicule_(transport_physique)"
+     ]
+    ]
+   },
+   {
+    "t": "Anxiété",
+    "importance": 1.1468800000000001,
+    "relevance": 0.07168000000000001,
+    "confidence": 4.0456,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Anxiété"
+     ]
+    ]
+   },
+   {
+    "t": "Logement",
+    "importance": 1.1408,
+    "relevance": 0.0713,
+    "confidence": 0.4948,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Logement"
+     ]
+    ]
+   },
+   {
+    "t": "Code du travail (France)",
+    "importance": 0.8198079999999998,
+    "relevance": 0.05123799999999999,
+    "confidence": 2.2314,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Code_du_travail_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "France",
+    "importance": 0.5943360000000001,
+    "relevance": 0.037146,
+    "confidence": 1.1592,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/France"
+     ]
+    ]
+   },
+   {
+    "t": "Stress",
+    "importance": 0.554368,
+    "relevance": 0.034648,
+    "confidence": 2.1782,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Stress"
+     ]
+    ]
+   },
+   {
+    "t": "Droit",
+    "importance": 0.5130879999999999,
+    "relevance": 0.032068,
+    "confidence": 0.7045999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Droit"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "préjudice\ncorporel\npréjudice corporel\nposte de préjudice\nindemnisation\ndommage corporel",
+  "desc_title": "préjudice\ncorporel\nles préjudices\npréjudice corporel",
+  "h1": "préjudice\nindemnisable\npréjudice indemnisable\nposte de préjudice\nles préjudices\ncorporel\npréjudice corporel\nindemnisation\nun préjudice\ndroit français\ntype de préjudice\ndifférents postes de préjudice\npostes de préjudice corporel\nles préjudices indemnisables\ndifférents postes\nles postes de préjudice",
+  "h2": "préjudice\nindemnisable\nles préjudices\ncorporel\nun préjudice\npréjudice patrimonial\npréjudice corporel\nindemnisation\npréjudice indemnisable\nles préjudices patrimoniaux\nvictime directe\nles préjudices extra-patrimoniaux\nposte de préjudice\ndroit français\ndintilhac\nréparation du préjudice\ndifférents postes de préjudice\nnomenclature dintilhac\npostes de préjudice corporel\nles préjudices indemnisables\ndifférents postes\nles postes de préjudice\nréparation du préjudice corporel\ncatégorie des préjudices",
+  "content_basic": "préjudice\nles préjudices\ncorporel\nposte de préjudice\npréjudice patrimonial\npréjudice corporel\npréjudice esthétique\npréjudice moral\nindemnisation\nun préjudice\ndommage corporel\ndroit français\nindemnisable\ntype de préjudice\npréjudice sexuel\nles préjudices patrimoniaux\nvictime directe\nun dommage\ndintilhac\npréjudice scolaire\naccident de la route\npréjudice esthétique temporaire\nles atteintes\npréjudice esthétique permanent",
+  "content_basic_w_ranges": "préjudice: 19-118x\nles préjudices: 8-20x\ncorporel: 2-11x\nposte de préjudice: 1-7x\npréjudice patrimonial: 1-5x\npréjudice corporel: 1-5x\npréjudice esthétique: 1-4x\npréjudice moral: 1-4x\nindemnisation: 2-9x\nun préjudice: 1-10x\ndommage corporel: 1-4x\ndroit français: 1-2x\nindemnisable: 1-4x\ntype de préjudice: 1-3x\npréjudice sexuel: 1-2x\nles préjudices patrimoniaux: 1-2x\nvictime directe: 1-4x\nun dommage: 1-2x\ndintilhac: 1-5x\npréjudice scolaire: 1-2x\naccident de la route: 1-2x\npréjudice esthétique temporaire: 1x\nles atteintes: 1-2x\npréjudice esthétique permanent: 1x",
+  "content_extended": "préjudice indemnisable\nréparation du préjudice\npréjudice matériel\ndifférents postes de préjudice\nnomenclature dintilhac\npostes de préjudice corporel\nles préjudices extra-patrimoniaux\npréjudice économique\npréjudices permanents\npréjudices permanents exceptionnels\nles préjudices indemnisables\ndifférents postes\npréjudice d’agrément\npréjudice d’établissement\npréjudice lié à l’acte sexuel\ntroubles dans les conditions d’existence\npréjudice d’affection\npréjudice professionnel\nles pertes\npréjudice subi\nles postes de préjudice\npréjudices extra-patrimoniaux permanents\npréjudices liés à des pathologies\nles préjudices permanents\nles pertes de gains professionnels\npréjudice extrapatrimonial\nles préjudices extrapatrimoniaux\nles préjudices patrimoniaux permanents\nles préjudices patrimoniaux temporaires\nindemnisation préjudice\nindemnisation dommage corporel\npréjudice morphologique\nles frais de véhicule adapté\ncause à autrui un dommage\nréparation des préjudices\npréjudices patrimoniaux et extrapatrimoniaux\ndroit à la réparation\npréjudice causé\nindemnisables pour les victimes\nles dépenses de santé actuelles\nles dépenses de santé futures\nréparation du préjudice corporel\ndroit commun\ndemander la réparation du préjudice\nprouver son préjudice\nles types de préjudice\npréjudices peuvent être indemnisés\ndroit de la responsabilité civile\nliste des postes de préjudice\nnotion de préjudice\nconstitue un préjudice\nchef de préjudice distinct\navocat en dommage\ndroit civil\nquels préjudices\ncatégorie des préjudices\ncaractères du préjudice",
+  "content_extended_w_ranges": "préjudice indemnisable: 1-4x\nréparation du préjudice: 1x\npréjudice matériel: 1-2x\ndifférents postes de préjudice: 1x\nnomenclature dintilhac: 1-5x\npostes de préjudice corporel: 1x\nles préjudices extra-patrimoniaux: 1x\npréjudice économique: 1x\npréjudices permanents: 1-2x\npréjudices permanents exceptionnels: 1-2x\nles préjudices indemnisables: 1x\ndifférents postes: 1x\npréjudice d’agrément: 1x\npréjudice d’établissement: 1x\npréjudice lié à l’acte sexuel: 1x\ntroubles dans les conditions d’existence: 1x\npréjudice d’affection: 1x\npréjudice professionnel: 1-2x\nles pertes: 1-2x\npréjudice subi: 1x\nles postes de préjudice: 1x\npréjudices extra-patrimoniaux permanents: 1x\npréjudices liés à des pathologies: 1x\nles préjudices permanents: 1x\nles pertes de gains professionnels: 1x\npréjudice extrapatrimonial: 1x\nles préjudices extrapatrimoniaux: 1x\nles préjudices patrimoniaux permanents: 1x\nles préjudices patrimoniaux temporaires: 1x\nindemnisation préjudice: 1x\nindemnisation dommage corporel: 1x\npréjudice morphologique: 1x\nles frais de véhicule adapté: 1x\ncause à autrui un dommage: 1x\nréparation des préjudices: 1x\npréjudices patrimoniaux et extrapatrimoniaux: 1x\ndroit à la réparation: 1x\npréjudice causé: 1x\nindemnisables pour les victimes: 1x\nles dépenses de santé actuelles: 1x\nles dépenses de santé futures: 1x\nréparation du préjudice corporel: 1x\ndroit commun: 1x\ndemander la réparation du préjudice: 1x\nprouver son préjudice: 1x\nles types de préjudice: 1x\npréjudices peuvent être indemnisés: 1x\ndroit de la responsabilité civile: 1x\nliste des postes de préjudice: 1x\nnotion de préjudice: 1x\nconstitue un préjudice: 1x\nchef de préjudice distinct: 1x\navocat en dommage: 1x\ndroit civil: 1x\nquels préjudices: 1x\ncatégorie des préjudices: 1x\ncaractères du préjudice: 1x",
+  "entities": "Dommage corporel\nDommage en droit civil français\nAccident de la route\nEndommagement\nResponsabilité civile en droit français\nDroit français\nVictime\nPréjudice d'agrément\nAssurance\nJurisprudence\nCode civil (France)\nHandicap\nSanté\nHarcèlement\nVéhicule (transport physique)\nAnxiété\nLogement\nCode du travail (France)\nFrance\nStress\nDroit"
+ },
+ "status": "ready",
+ "keyword": "types de préjudices indemnisables",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "972165f229676370",
+ "query": "0d430347a0d69d24",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0
+  },
+  "top_content_type": "educational",
+  "content_type_stats": {
+   "educational": 100.0,
+   "listicle": 40.0,
+   "business": 20.0,
+   "short-answer": 20.0,
+   "blog-post": 20.0
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/0d430347a0d69d24",
+ "share_url": "https://app.neuronwriter.com/analysis/share/0d430347a0d69d24/8d68fa866f9b24189a5a79c6a428061f4fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/0d430347a0d69d24/aaa20e3d35e823648e2bdfdb063995cd4fa16"
+}

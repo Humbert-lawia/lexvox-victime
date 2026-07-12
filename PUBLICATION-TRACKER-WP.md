@@ -13,6 +13,11 @@ Git. Ne jamais toucher à Sanity ni à `lexvox-victime.com` depuis ce pipeline.
 | 2026-07-07 | accident | faute-victime-accident-reduction-indemnisation | 85 | https://victime-accident.lexvox-avocat.fr/2026/07/07/faute-victime-accident-reduction-indemnisation/ |
 | 2026-07-07 | accident | conducteur-fautif-victime-droits-indemnisation | 86 | https://victime-accident.lexvox-avocat.fr/2026/07/07/conducteur-fautif-victime-droits-indemnisation/ |
 | 2026-07-07 | medical | perte-de-chance-erreur-medicale-indemnisation | 88 (pilier) | https://medical.lexvox-avocat.fr/2026/07/07/perte-de-chance-erreur-medicale-indemnisation/ |
+| 2026-07-09 | accident | recours-contre-assureur-guide-complet | 86 (pilier) | https://victime-accident.lexvox-avocat.fr/2026/07/09/recours-contre-assureur-guide-complet/ |
+| 2026-07-09 | accident | accidents-de-la-vie-recours-indemnisation | 92 | https://victime-accident.lexvox-avocat.fr/2026/07/09/accidents-de-la-vie-recours-indemnisation/ |
+| 2026-07-09 | accident | procedure-amiable-indemnisation-guide-erreurs | 86 (pilier) | https://victime-accident.lexvox-avocat.fr/2026/07/09/procedure-amiable-indemnisation-guide-erreurs/ |
+| 2026-07-12 | accident | avocat-prejudices-graves-grand-handicap-choisir | 87 | https://victime-accident.lexvox-avocat.fr/2026/07/12/avocat-prejudices-graves-grand-handicap-choisir/ |
+| 2026-07-12 | accident | types-prejudices-handicaps-indemnisables-guide | 87 (pilier) | https://victime-accident.lexvox-avocat.fr/2026/07/12/types-prejudices-handicaps-indemnisables-guide/ |
 
 Les scores NeuronWriter ci-dessus sont mesurés sur la **page reconstituée**
 (title + meta description + h1 injectés autour du corps atelier, cf.
@@ -37,12 +42,32 @@ manuellement dans Yoast (à faire par Me Humbert ou le webmaster) :
 | accident #7811 — faute-victime-accident-reduction-indemnisation | Faute de la victime : quand réduit-elle l'indemnisation ? | Faute de la victime d'un accident : quand réduit-elle l'indemnisation du dommage corporel ? Loi Badinter, jurisprudence et recours pratiques. |
 | accident #7813 — conducteur-fautif-victime-droits-indemnisation | Conducteur fautif : quels droits à indemnisation ? | Conducteur fautif après un accident : quelle indemnisation reste possible ? Loi Badinter, garantie conducteur, jurisprudence. |
 | medical #5210 — perte-de-chance-erreur-medicale-indemnisation | Perte de chance en responsabilité médicale : indemnisation | Perte de chance en erreur médicale : évaluation, barème et indemnisation de la chance perdue par la victime. Jurisprudence et rôle de l'ONIAM. |
+| accident #7815 — recours-contre-assureur-guide-complet | Recours contre l'assureur : litige, médiation, indemnisation | Recours contre son assureur après un accident : réclamation, médiateur de l'assurance, action en justice, délais et documents. Guide d'un avocat à Nîmes. |
+| accident #7817 — accidents-de-la-vie-recours-indemnisation | Accident de la vie courante : indemnisation et recours | Accident de la vie courante : qui indemnise la victime ? Garantie accidents de la vie (GAV), tiers responsable, expertise et recours. Avocat à Aix. |
+| accident #7819 — procedure-amiable-indemnisation-guide-erreurs | Procédure amiable d'indemnisation : étapes et erreurs | Procédure amiable d'indemnisation après un accident : étapes, expertise, offre de l'assureur, délais, erreurs et voie judiciaire. Avocat à Marseille. |
 
 En attendant, le `title` WordPress (H1 affiché) et l'`excerpt` du post portent
 déjà ce contenu optimisé — seul le rendu du snippet Google (title/desc dans
 les SERP) reste à corriger une fois Yoast inscriptible.
 
 ## Écarts documentés (mode dégradé)
+
+- **Item 73 (documenter-prejudice-grave-avant-avocat-checklist, ville Nîmes) — BLOQUÉ, NON PUBLIÉ** :
+  méthode `/nw-optimisation` appliquée intégralement (termes AVANT rédaction,
+  audit local, 6 cycles `evaluate` — le plafond de sécurité). Plafond réel
+  mesuré : **79/100**, stable sur les 2 derniers appels (78→79→79), malgré
+  4 passes correctives successives (titre refondu, 2 sections ajoutées,
+  ~2900 mots finaux, tous les déficits `content_basic`/`h1` non-entités
+  soldés). Cause probable : la SERP de la requête « documenter préjudice
+  grave » est polluée par des pages sur les obligations de l'employeur
+  (DUERP, contrat de travail, salariat) — hors du périmètre victime civile
+  de ce site. Politique Me Humbert (2026-07-08) : dérogation < 85 acceptée
+  **uniquement si score > 80** — 79 ≤ 80, donc **aucune dérogation
+  possible**. Article conservé dans `wp-atelier/accident/` (non publié),
+  item repassé en statut `"blocked"` dans `queue-wp.json` avec le détail.
+  À reprendre avec un angle ou un mot-clé différent si republication
+  souhaitée (ex. cibler explicitement « victime accident » dans le
+  keyword pour écarter la SERP emploi/DUERP).
 
 - **Item 2 (conducteur-fautif-victime-droits-indemnisation, ville Marseille)** :
   aucune catégorie WordPress « Marseille » n'existe sur le site accident
