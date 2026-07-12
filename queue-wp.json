@@ -1080,7 +1080,10 @@
       "keyword": "documenter préjudice grave",
       "source": "Qwairy (gap 100%)",
       "ville": "nimes",
-      "status": "todo"
+      "status": "blocked",
+      "date": "2026-07-12",
+      "neuronwriter_score": 79,
+      "note": "BLOQUE : plafond NW mesure 79/100 sur 6 cycles (54,67,75,78,79,79), <=80 donc pas de derogation possible (politique score>80 obligatoire). SERP polluee par entites accident du travail/DUERP hors-sujet. A reprendre avec angle/mot-cle different."
     },
     {
       "id": 74,

@@ -52,6 +52,23 @@ les SERP) reste à corriger une fois Yoast inscriptible.
 
 ## Écarts documentés (mode dégradé)
 
+- **Item 73 (documenter-prejudice-grave-avant-avocat-checklist, ville Nîmes) — BLOQUÉ, NON PUBLIÉ** :
+  méthode `/nw-optimisation` appliquée intégralement (termes AVANT rédaction,
+  audit local, 6 cycles `evaluate` — le plafond de sécurité). Plafond réel
+  mesuré : **79/100**, stable sur les 2 derniers appels (78→79→79), malgré
+  4 passes correctives successives (titre refondu, 2 sections ajoutées,
+  ~2900 mots finaux, tous les déficits `content_basic`/`h1` non-entités
+  soldés). Cause probable : la SERP de la requête « documenter préjudice
+  grave » est polluée par des pages sur les obligations de l'employeur
+  (DUERP, contrat de travail, salariat) — hors du périmètre victime civile
+  de ce site. Politique Me Humbert (2026-07-08) : dérogation < 85 acceptée
+  **uniquement si score > 80** — 79 ≤ 80, donc **aucune dérogation
+  possible**. Article conservé dans `wp-atelier/accident/` (non publié),
+  item repassé en statut `"blocked"` dans `queue-wp.json` avec le détail.
+  À reprendre avec un angle ou un mot-clé différent si republication
+  souhaitée (ex. cibler explicitement « victime accident » dans le
+  keyword pour écarter la SERP emploi/DUERP).
+
 - **Item 2 (conducteur-fautif-victime-droits-indemnisation, ville Marseille)** :
   aucune catégorie WordPress « Marseille » n'existe sur le site accident
   (`_meta.sites.accident.categories_existantes` ne liste que Aix/Arles/Ales ;
