@@ -30,73 +30,96 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet"></noscript>
+  <noscript></noscript>
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css?v=4">
 
   <!-- JSON-LD: LocalBusiness -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LegalService",
-    "name": "SELARL LEXVOX AVOCATS",
-    "description": "Cabinet d'avocats spécialisé en dommage corporel et responsabilité médicale. Indemnisation des victimes.",
-    "url": "https://lexvox-victime.com",
-    "telephone": "+33-4-90-54-58-10",
-    "email": "contact@avocat-lexvox.com",
-    "priceRange": "Consultation gratuite — Honoraires au résultat",
-    "address": [
-      {
-        "@type": "PostalAddress",
-        "streetAddress": "4 Rue du Quatre-Septembre",
-        "addressLocality": "Aix-en-Provence",
-        "postalCode": "13100",
-        "addressCountry": "FR"
-      },
-      {
-        "@type": "PostalAddress",
-        "streetAddress": "282 Boulevard Maréchal Foch",
-        "addressLocality": "Salon-de-Provence",
-        "postalCode": "13300",
-        "addressCountry": "FR"
-      },
-      {
-        "@type": "PostalAddress",
-        "streetAddress": "11 Boulevard Émile Combes",
-        "addressLocality": "Arles",
-        "postalCode": "13200",
-        "addressCountry": "FR"
-      },
-      {
-        "@type": "PostalAddress",
-        "streetAddress": "1 Bis Rue Antoine de Saint-Exupéry, Bât. L'Eden",
-        "addressLocality": "Marignane",
-        "postalCode": "13700",
-        "addressCountry": "FR"
-      }
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "SELARL LEXVOX AVOCATS",
+  "description": "Cabinet d'avocats spécialisé en dommage corporel et responsabilité médicale. Indemnisation des victimes.",
+  "url": "https://lexvox-victime.com",
+  "telephone": "+33-4-90-54-58-10",
+  "email": "contact@avocat-lexvox.com",
+  "priceRange": "Consultation gratuite — Honoraires au résultat",
+  "address": [
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "4 Rue du Quatre-Septembre",
+      "addressLocality": "Aix-en-Provence",
+      "postalCode": "13100",
+      "addressCountry": "FR"
+    },
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "282 Boulevard Maréchal Foch",
+      "addressLocality": "Salon-de-Provence",
+      "postalCode": "13300",
+      "addressCountry": "FR"
+    },
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "11 Boulevard Émile Combes",
+      "addressLocality": "Arles",
+      "postalCode": "13200",
+      "addressCountry": "FR"
+    },
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "1 Bis Rue Antoine de Saint-Exupéry, Bât. L'Eden",
+      "addressLocality": "Marignane",
+      "postalCode": "13700",
+      "addressCountry": "FR"
+    }
+  ],
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.5297,
+    "longitude": 5.4474
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
     ],
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 43.5297,
-      "longitude": 5.4474
+    "opens": "09:00",
+    "closes": "18:00"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Aix-en-Provence"
     },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-      "opens": "09:00",
-      "closes": "18:00"
+    {
+      "@type": "City",
+      "name": "Salon-de-Provence"
     },
-    "areaServed": [
-      {"@type": "City", "name": "Aix-en-Provence"},
-      {"@type": "City", "name": "Salon-de-Provence"},
-      {"@type": "City", "name": "Arles"},
-      {"@type": "City", "name": "Marignane"},
-      {"@type": "AdministrativeArea", "name": "Bouches-du-Rhône"},
-      {"@type": "AdministrativeArea", "name": "Provence-Alpes-Côte d'Azur"}
-    ]
-  }
-  </script>
+    {
+      "@type": "City",
+      "name": "Arles"
+    },
+    {
+      "@type": "City",
+      "name": "Marignane"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Bouches-du-Rhône"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Provence-Alpes-Côte d'Azur"
+    }
+  ],
+  "@id": "https://lexvox-victime.com/#legalservice"
+}</script>
 
   <!-- JSON-LD: BreadcrumbList -->
   <script type="application/ld+json">
