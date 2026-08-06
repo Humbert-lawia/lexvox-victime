@@ -2,6 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(python3 tools/preflight.py*)",
+      "Bash(python3 tools/queue_lease.py status*)",
+      "Bash(python3 tools/queue_lease.py next*)",
+      "Bash(python3 tools/queue_lease.py validate*)",
       "Bash(npm start*)",
       "Bash(git pull --rebase*)"
     ]

@@ -88,7 +88,25 @@
       "in_progress",
       "done",
       "blocked"
-    ]
+    ],
+    "verrou": {
+      "principe": "Trois acteurs ecrivent sur main (sessions interactives, LEXVOX SEO Bot, LAWIA Pipeline). Le status seul ne dit pas QUI travaille sur un item : d'ou les doublons et les collisions au rebase. Chaque item peut donc porter un verrou cooperatif 'claim' {by, at, expires} et une decision en attente 'gate' {question, since, by}.",
+      "outil": "tools/queue_lease.py — OBLIGATOIRE avant de produire un item. Les commandes mutantes font pull --rebase avant et commit + push apres, pour que le verrou soit VISIBLE des autres acteurs (sans push, il ne protege rien).",
+      "cycle": [
+        "python3 tools/queue_lease.py next --queue <aivf|wp> -n <N>",
+        "python3 tools/queue_lease.py claim --queue <aivf|wp> -n <N> --actor <nom>",
+        "production + preflight + qa_article + NeuronWriter",
+        "python3 tools/queue_lease.py done --queue <aivf|wp> --id <N> --score <NW reel> [--url <URL>]",
+        "en cas d'abandon : release --id <N> ; en cas de question a Me Humbert : gate --id <N> --question \"...\""
+      ],
+      "regles": [
+        "Un item est PRENABLE s'il est 'todo' (ou 'in_progress' a lease expiree), sans gate ouverte, sans lease vivante d'un autre acteur.",
+        "Une lease expire (TTL 180 min AIVF / 120 min WP) : une routine interrompue ne bloque jamais sa tranche, l'item redevient prenable.",
+        "Un item sous 'gate' sort de la selection automatique jusqu'a decision de Me Humbert (ungate) : c'est le sas humain.",
+        "'done' refuse un score NeuronWriter < 85 sans derogation documentee, et toute derogation <= 80 (politique Me Humbert 2026-07-08).",
+        "La coherence des verrous est verifiee en CI : tools/queue_lease.py validate dans .github/workflows/validate.yml."
+      ]
+    }
   },
   "articles": [
     {

@@ -138,15 +138,25 @@ sœurs ; le hub (id 2, id 42, ou page pilier existante) liste toutes ses feuille
   déclinaisons locales des bots. ~52 articles en ~11 semaines.
 - **Mécanisme** : la nouvelle session met en place une **routine planifiée**
   (trigger quotidien) qui, à chaque déclenchement :
-  1. lit `queue-aivf.json`, prend le 1er `todo` (ignore les `merged`) ;
+  1. **réserve** son item — `python3 tools/queue_lease.py claim --queue aivf
+     --actor <nom>` — au lieu de lire la file à la main : le verrou est poussé
+     sur `origin`, donc visible des deux autres acteurs (`merged`, items sous
+     décision et items déjà pris sont exclus d'office) ;
   2. déroule `/article-aivf` (sourcing **vérifié Openlegi** → rédaction → SVG →
      cocon → 4 fichiers) ;
   3. `preflight.py` + `qa_article_aivf.py` + `qa_queue.py` verts ;
   4. `git pull --rebase` puis **push direct `main` (prod)** ;
-  5. passe l'item en `done` (+ date) et s'arrête jusqu'au lendemain.
-- **Cohabitation bots** : `git pull --rebase origin main` avant push ; conflits
+  5. clôt l'item — `queue_lease.py done --queue aivf --id <N> --score <NW réel>`
+     (pose `done` + date, libère le verrou, refuse un score < 85 sans dérogation
+     documentée) — et s'arrête jusqu'au lendemain.
+- **Cohabitation bots** : le verrou `claim`/`done` est la première ligne de
+  défense (il empêche deux acteurs de produire le même item) ; `git pull
+  --rebase origin main` avant push reste obligatoire. Conflits
   `sitemap.xml`/`actualites.html`/`llms.txt` = **union + déduplication**, jamais
   de suppression (règle CLAUDE.md). Jamais de marqueur de conflit committé.
+- **Interruption** : une lease expire au bout de 180 min, donc une session
+  recyclée ne bloque jamais définitivement son item. Abandon volontaire :
+  `release --id <N>` ; question à Me Humbert : `gate --id <N> --question "..."`.
 - **Limite d'automatisation à connaître** : l'environnement de session est
   éphémère ; si le container est recyclé, relancer une session avec le prompt §8.
 
@@ -165,7 +175,8 @@ sœurs ; le hub (id 2, id 42, ou page pilier existante) liste toutes ses feuille
 | `PROTOCOLE-NW-LAB.md` | protocole d'expérimentation NW + résultats mesurés (lois du scoreur, verdicts H1-H4) |
 | `tools/qa_article_aivf.py` | validateur d'un article (**NeuronWriter ≥ 85**, juris+backlink+Openlegi, 2 tableaux, SVG, intent, ≥ 1900 mots) |
 | `tools/qa_queue.py` | runner CI : valide les articles `done` de la file |
-| `.github/workflows/validate.yml` | CI : `preflight.py` + `qa_queue.py` (bloquants) |
+| `tools/queue_lease.py` | **verrou coopératif** des files (`claim`/`done`/`release`/`gate`) + contrôle de cohérence CI |
+| `.github/workflows/validate.yml` | CI : `preflight.py` + `qa_queue.py` + `queue_lease.py validate` (bloquants) |
 | `css/style.css` (ajout) | `.infographic` / `.ig-*` / `.juris-block` |
 
 ---
