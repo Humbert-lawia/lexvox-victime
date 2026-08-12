@@ -1047,8 +1047,14 @@
       "keyword": "types de préjudices indemnisables",
       "source": "Qwairy (gap 100%)",
       "ville": "aix-en-provence",
-      "status": "todo",
-      "note": "GEO/AEO : cible les prompts IA TOFU/MOFU Qwairy. Chapeaute les pages Dintilhac existantes du site (maillage descendant)."
+      "status": "done",
+      "note": "GEO/AEO : cible les prompts IA TOFU/MOFU Qwairy. Chapeaute les pages Dintilhac existantes du site (maillage descendant).",
+      "date": "2026-07-12",
+      "neuronwriter_score": 87,
+      "url": "https://victime-accident.lexvox-avocat.fr/2026/07/12/types-prejudices-handicaps-indemnisables-guide/",
+      "wp_post_id": 7823,
+      "wp_media_id": 7822,
+      "yoast_meta_pending": true
     },
     {
       "id": 72,
@@ -1074,7 +1080,10 @@
       "keyword": "documenter préjudice grave",
       "source": "Qwairy (gap 100%)",
       "ville": "nimes",
-      "status": "todo"
+      "status": "blocked",
+      "date": "2026-07-12",
+      "neuronwriter_score": 79,
+      "note": "BLOQUE : plafond NW mesure 79/100 sur 6 cycles (54,67,75,78,79,79), <=80 donc pas de derogation possible (politique score>80 obligatoire). SERP polluee par entites accident du travail/DUERP hors-sujet. A reprendre avec angle/mot-cle different."
     },
     {
       "id": 74,
@@ -1087,8 +1096,14 @@
       "keyword": "avocat préjudice grave handicap",
       "source": "Qwairy (gap 100%)",
       "ville": "salon-de-provence",
-      "status": "todo",
-      "note": "BOFU : inclut une section avis/réputation (prompt Qwairy 'avis avocats préjudices graves')."
+      "status": "done",
+      "note": "BOFU : inclut une section avis/réputation (prompt Qwairy 'avis avocats préjudices graves').",
+      "date": "2026-07-12",
+      "neuronwriter_score": 87,
+      "url": "https://victime-accident.lexvox-avocat.fr/2026/07/12/avocat-prejudices-graves-grand-handicap-choisir/",
+      "wp_post_id": 7821,
+      "wp_media_id": 7820,
+      "yoast_meta_pending": true
     },
     {
       "id": 75,
@@ -1154,8 +1169,14 @@
       "keyword": "procédure amiable indemnisation",
       "source": "Qwairy (cluster 10 prompts)",
       "ville": "marseille",
-      "status": "todo",
-      "note": "PILIER GEO : doit répondre aux 10 prompts Qwairy du cluster (étapes clés, frais, délais comparés, amiable vs judiciaire, influence sur le montant, expertise amiable, tendances 2026)."
+      "status": "done",
+      "note": "PILIER GEO : doit répondre aux 10 prompts Qwairy du cluster (étapes clés, frais, délais comparés, amiable vs judiciaire, influence sur le montant, expertise amiable, tendances 2026).",
+      "date": "2026-07-09",
+      "neuronwriter_score": 86,
+      "url": "https://victime-accident.lexvox-avocat.fr/2026/07/09/procedure-amiable-indemnisation-guide-erreurs/",
+      "wp_post_id": 7819,
+      "wp_media_id": 7818,
+      "yoast_meta_pending": true
     },
     {
       "id": 80,
@@ -1168,8 +1189,14 @@
       "keyword": "recours contre assureur",
       "source": "Qwairy (cluster 12 prompts)",
       "ville": "nimes",
-      "status": "todo",
-      "note": "PILIER GEO : couvre les 12 prompts du cluster (documents nécessaires, délais, honoraires/résultat, stratégies, erreurs, amiable vs judiciaire, quand un avocat est utile)."
+      "status": "done",
+      "note": "PILIER GEO : couvre les 12 prompts du cluster (documents nécessaires, délais, honoraires/résultat, stratégies, erreurs, amiable vs judiciaire, quand un avocat est utile).",
+      "date": "2026-07-09",
+      "neuronwriter_score": 86,
+      "url": "https://victime-accident.lexvox-avocat.fr/2026/07/09/recours-contre-assureur-guide-complet/",
+      "wp_post_id": 7815,
+      "wp_media_id": 7814,
+      "yoast_meta_pending": true
     },
     {
       "id": 81,
@@ -1236,8 +1263,14 @@
       "keyword": "accident de la vie indemnisation",
       "source": "Qwairy (gap 100%)",
       "ville": "aix-en-provence",
-      "status": "todo",
-      "note": "REFONTE : page accident-de-vie existante sur le site — produire l'article de fond GEO, lier la page."
+      "status": "done",
+      "note": "REFONTE : page accident-de-vie existante sur le site — produire l'article de fond GEO, lier la page.",
+      "date": "2026-07-09",
+      "neuronwriter_score": 92,
+      "url": "https://victime-accident.lexvox-avocat.fr/2026/07/09/accidents-de-la-vie-recours-indemnisation/",
+      "wp_post_id": 7817,
+      "wp_media_id": 7816,
+      "yoast_meta_pending": true
     },
     {
       "id": 86,

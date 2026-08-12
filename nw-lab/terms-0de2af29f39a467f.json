@@ -1,0 +1,2647 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Comment puis-je démontrer un préjudice ?"
+   },
+   {
+    "q": "Qu’est-ce qui est considéré comme un préjudice grave  ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   },
+   {
+    "q": "Comment faire une déclaration écrite de dommages ?"
+   }
+  ],
+  "topic_matrix": {
+   "Comment puis-je démontrer un préjudice et quels documents sont nécessaires ?": {
+    "importance": 10
+   },
+   "Qu'est-ce qui est considéré comme un préjudice grave ?": {
+    "importance": 10
+   },
+   "Quels sont les différents types de préjudices indemnisables (patrimoniaux, extra-patrimoniaux, etc.) ?": {
+    "importance": 9
+   },
+   "Comment faire une déclaration écrite de dommages ou constituer un dossier d'indemnisation ?": {
+    "importance": 9
+   },
+   "Comment évaluer le montant d'un préjudice ?": {
+    "importance": 8
+   },
+   "Quand et comment demander une indemnisation pour un préjudice moral ?": {
+    "importance": 8
+   },
+   "Quelles sont les étapes pour obtenir une indemnisation, à l'amiable ou par voie judiciaire ?": {
+    "importance": 7
+   },
+   "Que faire en cas d'aggravation du préjudice et comment rouvrir un dossier d'indemnisation ?": {
+    "importance": 7
+   },
+   "Qui peut m'aider à documenter et défendre mon dossier de préjudice ?": {
+    "importance": 6
+   },
+   "Quels sont les pièges à éviter lors de la constitution d'un dossier de préjudice ?": {
+    "importance": 6
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Comment identifier les éléments de preuve concrets qui permettent d’établir un préjudice matériel sans exiger exclusivement une facture acquittée ?"
+   },
+   {
+    "q": "Comment la jurisprudence récente confirme-t-elle que la victime n’a pas à produire une facture pour justifier son droit à indemnisation ?"
+   },
+   {
+    "q": "Comment obtenir une indemnisation à la suite d’une erreur médicale ?"
+   },
+   {
+    "q": "Comment se distingue-t-il des autres préjudices ?"
+   },
+   {
+    "q": "C’est quoi le préjudice moral ?"
+   },
+   {
+    "q": "Demande de Julien, ayant subi un traumatisme psychologique suite à une agression : « Est-il possible d’obtenir une indemnisation pour le préjudice moral même si les blessures physiques sont minimes mais les séquelles psychologiques graves ?"
+   },
+   {
+    "q": "Dois-je fournir les justificatifs avant ou après l'expertise ?"
+   },
+   {
+    "q": "Interrogation de Maxime, devenu paraplégique après un accident de moto : « Quels éléments seront pris en compte pour évaluer mon préjudice moral lié à mon déficit fonctionnel permanent et comment l’expertise médicale est-elle organisée ?"
+   },
+   {
+    "q": "La tierce personne : comment l’évaluer, comment l’indemniser ?"
+   },
+   {
+    "q": "Le montant de l’indemnisation : à quoi pouvez-vous prétendre ?"
+   },
+   {
+    "q": "Les attestations de mes proches ont-elles vraiment une valeur juridique ?"
+   },
+   {
+    "q": "Les documents produits sont-ils compatibles avec les expertises judiciaires ?"
+   },
+   {
+    "q": "Pourquoi ce préjudice est souvent oublié ?"
+   },
+   {
+    "q": "Pourquoi l’absence de facture ne suffit pas à écarter une demande d’indemnisation lorsque le dommage est établi juridiquement ?"
+   },
+   {
+    "q": "Pourquoi un avocat peut-il être utile lorsque le préjudice paraît réel mais que sa preuve est contestée ?"
+   },
+   {
+    "q": "Préjudice en l’absence de document unique ?"
+   },
+   {
+    "q": "Quand Peut-on demander un préjudice moral ?"
+   },
+   {
+    "q": "Quand peut-on demander un préjudice moral ?"
+   },
+   {
+    "q": "Que faire si l’assurance ou l’adversaire refuse d’indemniser au motif qu’aucune facture n’a encore été produite ?"
+   },
+   {
+    "q": "Que peut faire la victime d'une infraction pénale ?"
+   },
+   {
+    "q": "Que recouvre la réparation intégrale et pourquoi elle ne se confond pas avec le simple remboursement d’une dépense déjà réglée ?"
+   },
+   {
+    "q": "Quelles sont les étapes utiles pour documenter le dossier et éviter qu’un poste de préjudice soit minimisé ou écarté trop tôt ?"
+   },
+   {
+    "q": "Quels documents préparer après un dommage matériel pour soutenir une demande d’indemnisation sans facture ?"
+   },
+   {
+    "q": "Quels justificatifs pour chaque poste de préjudice ?"
+   },
+   {
+    "q": "Question de Laura, dont le père est décédé dans un accident de travail : « Comment puis-je prouver le préjudice d’affection et quel type de documentation est nécessaire pour appuyer ma demande d’indemnisation ?"
+   },
+   {
+    "q": "Question de Sophie, mère d’un enfant gravement blessé dans un accident de la circulation : « Puis-je demander une indemnisation pour le préjudice d’accompagnement si je dois réduire mon temps de travail pour m’occuper de mon enfant ?"
+   },
+   {
+    "q": "Question d’Émilie, dont le conjoint est décédé des suites d’une maladie contractée à l’hôpital : « En tant que partenaire de PACS, quels justificatifs dois-je fournir pour prouver notre lien affectif étroit et demander une indemnisation pour préjudice d’affection ?"
+   },
+   {
+    "q": "Qui peut prétendre à ce préjudice ?"
+   },
+   {
+    "q": "Une attestation d’architecte ou un devis peuvent-ils être suffisants pour demander une indemnisation ?"
+   },
+   {
+    "q": "Victime directe : quels postes couvrent le moral ?"
+   },
+   {
+    "q": "Victimes par ricochet (proches) : quand et qui ?"
+   },
+   {
+    "q": "Volume important de pièces, expertise à préparer ou chiffrage à structurer ?"
+   },
+   {
+    "q": "Votre service concerne-t-il uniquement les avocats titulaires d’un certificat de spécialisation en dommage corporel délivré par le CNB ?"
+   },
+   {
+    "q": "À lire : Épuisement de l'aidant familial : comment faire indemniser votre propre burn-out ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1422",
+   "title": "Obtenir une indemnisation en cas de préjudice causé par une autre personne | Service Public",
+   "desc": "La personne qui subit un préjudice causé par la faute, la négligence ou l'infraction commise par un tiers peut obtenir des dommages et intérêts.",
+   "headers": [
+    [
+     "h1",
+     "Obtenir une indemnisation en cas de préjudice causé par une autre personne"
+    ],
+    [
+     "h2",
+     "Affaire civile"
+    ],
+    [
+     "h2",
+     "Affaire pénale"
+    ],
+    [
+     "h2",
+     "Où s’adresser ?"
+    ],
+    [
+     "h2",
+     "Où s’adresser ?"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Services en ligne et formulaires"
+    ],
+    [
+     "h2",
+     "Questions ? Réponses !"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 34,
+   "word_count": 6703,
+   "content_len": 41170
+  },
+  {
+   "rank": 2,
+   "url": "https://www.preventionbtp.fr/ressources/juridique/jurisprudence/prejudice-en-l-absence-de-document-unique_DAszeA4GXabXswhD9QdbnS",
+   "title": "Préjudice en l’absence de document unique ? - Jurisprudence | Prévention BTP",
+   "desc": "Arrêt de la Cour de cassation, chambre sociale du 15 mai 2019 - n°17-22.224.",
+   "headers": [
+    [
+     "h1",
+     "Préjudice en l’absence de document unique ?"
+    ]
+   ],
+   "content_score": 27,
+   "readability": 30,
+   "word_count": 280,
+   "content_len": 1765
+  },
+  {
+   "rank": 3,
+   "url": "https://jmp-avocat-indemnisation.fr/blog-dommages-corporels/justificatifs-preuves-chaque-poste-prejudice",
+   "title": "Quels justificatifs pour chaque poste de préjudice ? La checklist complète",
+   "desc": "DFP, souffrances endurées, tierce personne, incidence professionnelle... Chaque poste Dintilhac exige des preuves précises. La checklist document par document, à constituer dès l'accident",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation : les justificatifs exacts pour chaque poste de préjudice — la checklist que votre assureur ne vous donnera jamais"
+    ],
+    [
+     "h2",
+     "La règle d'or : tout conserver, tout dater, tout classer dès le premier jour"
+    ],
+    [
+     "h2",
+     "Les préjudices patrimoniaux temporaires (avant consolidation)"
+    ],
+    [
+     "h2",
+     "Les préjudices patrimoniaux permanents (après consolidation)"
+    ],
+    [
+     "h2",
+     "Les préjudices extra-patrimoniaux temporaires"
+    ],
+    [
+     "h2",
+     "Les préjudices extra-patrimoniaux permanents"
+    ],
+    [
+     "h2",
+     "Les préjudices des victimes indirectes"
+    ],
+    [
+     "h2",
+     "Le document transversal : la fiche accident"
+    ],
+    [
+     "h2",
+     "Les erreurs les plus coûteuses dans la constitution du dossier"
+    ],
+    [
+     "h2",
+     "FAQ — Vos questions sur les justificatifs"
+    ],
+    [
+     "h2",
+     "À lire également"
+    ],
+    [
+     "h2",
+     "Sources et références"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 39,
+   "word_count": 3182,
+   "content_len": 21989
+  },
+  {
+   "rank": 4,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/bareme-calcul-indemnisation-accident/bareme-indemnisation-prejudice-moral/quand-peut-on-demander-un-prejudice-moral",
+   "title": "Quand Peut-on demander un préjudice moral ? - Association Victimes de France AIVF",
+   "desc": "Découvrez quand et comment demander un préjudice moral avec l'Association Aide Victimes France, votre guide juridique fiable.",
+   "headers": [
+    [
+     "h1",
+     "Quand Peut-on demander un préjudice moral ?"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Quand peut-on demander un préjudice moral ? (définition, preuves, procédures)"
+    ],
+    [
+     "h2",
+     "Quand peut-on demander un préjudice moral ?"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 30,
+   "word_count": 2070,
+   "content_len": 13147
+  },
+  {
+   "rank": 11,
+   "url": "https://www.indemnisationprejudice.fr/comment-etre-indemnise-de-son-prejudice-corporel/constituer-son-dossier-dindemnisation/",
+   "title": "Nos conseils pour constituer son dossier d'indemnisation après un préjudice",
+   "desc": "Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés. Avances sur vos premiers frais. - Constituer son dossier d’indemnisation : étapes, preuves et conseils pratiques",
+   "headers": [
+    [
+     "h1",
+     "Constituer son dossier d’indemnisation : étapes, preuves et conseils pratiques"
+    ],
+    [
+     "h2",
+     "Pourquoi un dossier d’indemnisation complet est essentiel ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Les éléments indispensables d’un dossier d’indemnisation"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Tenir un journal de bord après l’accident"
+    ],
+    [
+     "h2",
+     "Les spécificités selon le type d’accident"
+    ],
+    [
+     "h2",
+     "Vérifier les garanties de ses contrats d’assurance"
+    ],
+    [
+     "h2",
+     "GAV, assurance auto, multirisques habitation, protection juridique…"
+    ],
+    [
+     "h2",
+     "Être accompagné pour défendre ses droits"
+    ],
+    [
+     "h2",
+     "FAQ PREPARER SON DOSSIER D’INDEMNISATION"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 24,
+   "word_count": 2867,
+   "content_len": 19152
+  },
+  {
+   "rank": 6,
+   "url": "https://www.youtube.com/watch?v=Tn47ieFcAsU",
+   "title": "Préjudices résultant d'un dommage corporel : les outils d'aide à la décision (I. Sayn, V. Rivollier) - YouTube",
+   "desc": "Fixer un montant d’indemnisation des préjudices résultant d’un dommage corporel : le rôle des outils d’aide à la décisionLa recherche Les barèmes (et autres ...",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Préjudices résultant d'un dommage corporel : les outils d'aide à la décision (I. Sayn, V. Rivollier)"
+    ],
+    [
+     "h2",
+     "Moments clés\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h1",
+     "Préjudices résultant d'un dommage corporel : les outils d'aide à la décision (I. Sayn, V. Rivollier)"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Moments clés"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Moments clés\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 31,
+   "readability": 26,
+   "word_count": 428,
+   "content_len": 2774
+  },
+  {
+   "rank": 7,
+   "url": "https://www.consolin-avocats.fr/details-comment+obtenir+l+indemnisation+d+un+prejudice+sans+produire+de+facture+et+comment+apporter+la+preuve+d+un+dommage+materiel+grace+a+l+intervention+d+un+avocat+dedie+aux+victimes-1452",
+   "title": "Comment obtenir l’indemnisation d’un préjudice sans produire de facture et comment apporter la preuve d'un dommage matériel grâce à l'intervention d'un avocat dédié aux victimes - CONSOLIN ZANARINI",
+   "desc": "Lorsqu’un bien est endommagé, la victime se heurte souvent à une objection simple en apparence : sans facture, pas d’indemnisation. En pratique, cette difficulté revient régulièrement dans les dossiers d’indemnisation, notamment lorsque les travaux n’ont pas encore été réalisés ou que les dépenses n’ont pas encore été engagées.\r\n\r\nPourtant, la question n’est pas de savoir si la victime a déjà payé, mais si son dommage existe, comment il peut être prouvé, et sur quelle base il peut être évalué. Pour le Cabinet CONSOLIN ZANARINI, qui intervient en réparation du dommage corporel et en défense des victimes, l’enjeu consiste d’abord à structurer la preuve, puis à faire entrer le dossier dans la bonne logique indemnitaire.",
+   "headers": [
+    [
+     "h1",
+     "Comment obtenir l’indemnisation d’un préjudice sans produire de facture et comment apporter la preuve d'un dommage matériel grâce à l'intervention d'un avocat dédié aux victimes"
+    ],
+    [
+     "h2",
+     "Pourquoi l’absence de facture ne suffit pas à écarter une demande d’indemnisation lorsque le dommage est établi juridiquement ?"
+    ],
+    [
+     "h2",
+     "Comment identifier les éléments de preuve concrets qui permettent d’établir un préjudice matériel sans exiger exclusivement une facture acquittée ?"
+    ],
+    [
+     "h2",
+     "Que recouvre la réparation intégrale et pourquoi elle ne se confond pas avec le simple remboursement d’une dépense déjà réglée ?"
+    ],
+    [
+     "h2",
+     "Comment la jurisprudence récente confirme-t-elle que la victime n’a pas à produire une facture pour justifier son droit à indemnisation ?"
+    ],
+    [
+     "h2",
+     "Notre cabinet intervient principalement pour les victimes situées à Marseille, Paris, La Ciotat mais pas que..."
+    ]
+   ],
+   "content_score": 59,
+   "readability": 37,
+   "word_count": 1574,
+   "content_len": 10139
+  },
+  {
+   "rank": 8,
+   "url": "https://www.dictionnaire-juridique.com/definition/prejudice.php",
+   "title": "Préjudice - Définition - Dictionnaire juridique",
+   "desc": "Définition de Préjudice : Le préjudice est le dommage qui est causé à autrui d'une manière volontaire ou involontaire. Le préjudice peut être causé par le fait d'une personne, par le fait d'un animal ou d'une chose, ou encore par la survenance d'un événement naturel ; son existence comme son évaluation relèvent du pouvoir souverain d'appréciation des juges du fond...",
+   "headers": [
+    [
+     "h2",
+     "DICTIONNAIRE DU DROIT PRIVÉ"
+    ],
+    [
+     "h1",
+     "PREJUDICE DEFINITIONDictionnaire juridique"
+    ],
+    [
+     "h2",
+     "Définition de Préjudice"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 14,
+   "word_count": 3559,
+   "content_len": 22402
+  },
+  {
+   "rank": 9,
+   "url": "https://www.prejudices.fr/",
+   "title": "Pré-rapport dommage corporel en 24 h | Prejudices.fr",
+   "desc": "Sous-traitance en dommage corporel : structuration documentaire, analyse médico-légale et préparation de pré-rapports pour vos dossiers",
+   "headers": [
+    [
+     "h1",
+     "Service de préparation documentaire médico-légale à destination des professionnels du dommage corporel"
+    ],
+    [
+     "h2",
+     "Notre expertise"
+    ],
+    [
+     "h2",
+     "Sécurité & confidentialité des données"
+    ],
+    [
+     "h2",
+     "À qui s’adresse nos services ?"
+    ],
+    [
+     "h2",
+     "Que prenez-vous en charge dans un dossier médico-légal ?"
+    ],
+    [
+     "h2",
+     "Êtes-vous habilités à analyser des pièces médicales ?"
+    ],
+    [
+     "h2",
+     "Où vos données sont-elles hébergées et selon quelles normes ?"
+    ],
+    [
+     "h2",
+     "Quel est votre délai moyen de traitement d’un dossier ?"
+    ],
+    [
+     "h2",
+     "Comment garantissez-vous la qualité et l’homogénéité des dossiers produits ?"
+    ],
+    [
+     "h2",
+     "Un cabinet peut-il externaliser des dossiers en grand nombre ?"
+    ],
+    [
+     "h2",
+     "Intervenez-vous directement auprès des victimes ?"
+    ],
+    [
+     "h2",
+     "Fournissez-vous un avis médical ou juridique ?"
+    ],
+    [
+     "h2",
+     "Les documents produits sont-ils compatibles avec les expertises judiciaires ?"
+    ],
+    [
+     "h2",
+     "Votre service concerne-t-il uniquement les avocats titulaires d’un certificat de spécialisation en dommage corporel délivré par le CNB ?"
+    ],
+    [
+     "h2",
+     "Échangeons sur\n        la préparation de vos dossiers"
+    ]
+   ],
+   "content_score": 16,
+   "readability": 18,
+   "word_count": 3138,
+   "content_len": 22447
+  },
+  {
+   "rank": 10,
+   "url": "https://www.village-justice.com/articles/prejudice-etablissement-votre-guide-complet-pour-obtenir-reparation,55665.html",
+   "title": "Le préjudice d'établissement : votre guide complet pour obtenir réparation. Par Joëlle Marteau-Péretié, Avocate.",
+   "desc": "Comment se distingue-t-il des autres préjudices ?",
+   "headers": [
+    [
+     "h1",
+     "Le préjudice d’établissement : votre guide complet pour obtenir réparation."
+    ],
+    [
+     "h2",
+     "Comment se distingue-t-il des autres préjudices ?"
+    ],
+    [
+     "h2",
+     "Interagir avec l'auteur !"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 28,
+   "word_count": 3126,
+   "content_len": 21620
+  },
+  {
+   "rank": 11,
+   "url": "https://www.indemnisationprejudice.fr/comment-etre-indemnise-de-son-prejudice-corporel/constituer-son-dossier-dindemnisation/",
+   "title": "Nos conseils pour constituer son dossier d'indemnisation après un préjudice",
+   "desc": "Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés. Avances sur vos premiers frais. - Constituer son dossier d’indemnisation : étapes, preuves et conseils pratiques",
+   "headers": [
+    [
+     "h1",
+     "Constituer son dossier d’indemnisation : étapes, preuves et conseils pratiques"
+    ],
+    [
+     "h2",
+     "Pourquoi un dossier d’indemnisation complet est essentiel ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Les éléments indispensables d’un dossier d’indemnisation"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Tenir un journal de bord après l’accident"
+    ],
+    [
+     "h2",
+     "Les spécificités selon le type d’accident"
+    ],
+    [
+     "h2",
+     "Vérifier les garanties de ses contrats d’assurance"
+    ],
+    [
+     "h2",
+     "GAV, assurance auto, multirisques habitation, protection juridique…"
+    ],
+    [
+     "h2",
+     "Être accompagné pour défendre ses droits"
+    ],
+    [
+     "h2",
+     "FAQ PREPARER SON DOSSIER D’INDEMNISATION"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 24,
+   "word_count": 2867,
+   "content_len": 19152
+  },
+  {
+   "rank": 13,
+   "url": "https://www.bauer-mouton-avocats.fr/post/prouver-un-pr%C3%A9judice",
+   "title": "Un tiers a endommagé votre bien : comment prouver le préjudice ?",
+   "desc": "Votre bien a été endommagé ? Découvrez comment prouver le préjudice, constituer votre dossier et obtenir une indemnisation face au responsable.",
+   "headers": [
+    [
+     "h1",
+     "Un tiers a endommagé votre bien : comment prouver le préjudice ?"
+    ],
+    [
+     "h2",
+     "Identifier la nature du préjudice subi"
+    ],
+    [
+     "h2",
+     "Exemples concrets de dommages"
+    ],
+    [
+     "h2",
+     "Les preuves à rassembler pour obtenir réparation"
+    ],
+    [
+     "h2",
+     "Comment évaluer le préjudice ?"
+    ],
+    [
+     "h2",
+     "Qui est responsable du préjudice ?"
+    ],
+    [
+     "h2",
+     "Quels recours pour la victime ?"
+    ],
+    [
+     "h2",
+     "Quelle juridiction saisir ?"
+    ],
+    [
+     "h2",
+     "Peut-on obtenir des dommages et intérêts ?"
+    ],
+    [
+     "h2",
+     "Que faire si l’auteur est inconnu ou insolvable ?"
+    ],
+    [
+     "h2",
+     "Comment prouver un préjudice moral ?"
+    ],
+    [
+     "h2",
+     "Quelle est la durée pour agir en justice ?"
+    ]
+   ],
+   "content_score": 39,
+   "readability": 50,
+   "word_count": 920,
+   "content_len": 5729
+  },
+  {
+   "rank": 14,
+   "url": "https://avocat-nakache.fr/dossier-dindemnisation/",
+   "title": "Constitution du dossier d'indemnisation - Cabinet d'avocats Pascal Nakache : Préjudice corporel, droit du handicap, droit de l'autisme",
+   "desc": "Obtenir une indemnisation juste passe par la préparation dès le départ d’un dossier d'indemnisation le plus complet possible.",
+   "headers": [
+    [
+     "h2",
+     "La constitution du dossier"
+    ],
+    [
+     "h1",
+     "LA CONSTITUTION DU DOSSIER D’indemnisation"
+    ],
+    [
+     "h1",
+     "LES DOCUMENTS RELATIFS AUX CIRCONSTANCES DE L’ACCIDENT"
+    ],
+    [
+     "h1",
+     "LES PIÈCES MÉDICALES"
+    ],
+    [
+     "h1",
+     "LES DOCUMENTS RELATIFS AUX PRÉJUDICES"
+    ],
+    [
+     "h1",
+     "Faites-vous rappeler"
+    ],
+    [
+     "h1",
+     "Nous vous rappelons"
+    ],
+    [
+     "h1",
+     "Contactez-nous"
+    ]
+   ],
+   "content_score": 33,
+   "readability": 26,
+   "word_count": 601,
+   "content_len": 4136
+  },
+  {
+   "rank": 15,
+   "url": "https://www.avocats-picovschi.com/reparation-du-prejudice-corporel-moral-et-financier-de-la-victime_article_1948.html",
+   "title": "Réparation du préjudice corporel, moral et financier de la victime - Cabinet Avocats Picovschi",
+   "desc": "Les victimes d'un événement traumatique ayant entrainé un préjudice corporel, moral ou financier sont en droit de réclamer une indemnisation. Une réparation financière peut être ainsi obtenue en suivant une procédure bien établie. L'expertise d'un avocat est surtout nécessaire quand le préjudice, et donc les montants de l’indemnisation potentielle, sont importants. Avec Avocats Picovschi, découvrez ce qu'il faut faire pour obtenir la réparation d'un préjudice lorsque vous êtes victime.",
+   "headers": [
+    [
+     "h1",
+     "Réparation du préjudice corporel, moral et financier de la victime"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un préjudice ?"
+    ],
+    [
+     "h2",
+     "Comment se faire indemniser en tant que victime d'un préjudice ?"
+    ],
+    [
+     "h2",
+     "Comment évaluer un préjudice ?"
+    ],
+    [
+     "h2",
+     "Indemnisation à l'amiable ou par voie judiciaire ?"
+    ],
+    [
+     "h2",
+     "Avocats Picovschi, pour obtenir réparation des préjudices subis"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 34,
+   "word_count": 1309,
+   "content_len": 8483
+  },
+  {
+   "rank": 17,
+   "url": "https://documentation.ehesp.fr/doc_num.php?explnum_id=4855",
+   "title": "",
+   "desc": "",
+   "headers": [],
+   "content_score": 0,
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 18,
+   "url": "https://consultation.avocat.fr/blog/mathilde-goineau/article-46237-comment-preparer-son-dossier-pour-obtenir-l-indemnisation-d-un-dommage-corporel.html",
+   "title": "Comment préparer son dossier pour obtenir l'indemnisation d'un dommage corporel ? | par Me Mathilde GOINEAU",
+   "desc": "ARTICLE JURIDIQUE par Me Goineau, Avocat : Régulièrement, la Cour de cassation rappelle le principe de la réparation intégrale des préjudices subis. Selon ce dernier, la personne ayant subi ...",
+   "headers": [
+    [
+     "h1",
+     "Maître Mathilde GOINEAU"
+    ],
+    [
+     "h2",
+     "Avocat au barreau des Hauts-de-Seine - Nanterre"
+    ],
+    [
+     "h1",
+     "Comment préparer son dossier pour obtenir l'indemnisation d'un dommage corporel ?"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Contacter Me Goineau"
+    ],
+    [
+     "h2",
+     "Dernières publications"
+    ],
+    [
+     "h2",
+     "Recherche"
+    ],
+    [
+     "h1",
+     "S'identifier avec FranceConnect"
+    ]
+   ],
+   "content_score": 31,
+   "readability": 3,
+   "word_count": 1721,
+   "content_len": 22861
+  },
+  {
+   "rank": 19,
+   "url": "https://www.arize-leze.fr/Pour-les-particuliers-34?xml=F1422",
+   "title": "Pour les particuliers - Les services - Communauté de communes Arize-Lèze",
+   "desc": " Guide des droits et démarches des Particuliers Papiers - Citoyenneté - Élections (…) ",
+   "headers": [
+    [
+     "h1",
+     "Pour les particuliers"
+    ],
+    [
+     "h2",
+     "Obtenir une indemnisation en cas de préjudice causé par une autre personne"
+    ]
+   ],
+   "content_score": 28,
+   "readability": 38,
+   "word_count": 4991,
+   "content_len": 30581
+  },
+  {
+   "rank": 20,
+   "url": "https://www.benezra-victimesdelaroute.fr/la-victime-n-est-pas-tenue-de-limiter-son-prejudice-dans-l-interet-du-responsable/",
+   "title": "La victime n’est pas tenue de limiter son préjudice dans l'intérêt du fautif",
+   "desc": "La victime n’est pas tenue de limiter son préjudice dans l’intérêt du responsable et peut refuser des soins, des aménagements, un reclassement",
+   "headers": [
+    [
+     "h1",
+     "LA VICTIME N’EST PAS TENUE DE LIMITER SON PRÉJUDICE DANS L’INTÉRÊT DU RESPONSABLE"
+    ],
+    [
+     "h2",
+     "Refus de soins | Refus d’aménagement | Refus d’un reclassement"
+    ],
+    [
+     "h2",
+     "FICHES EN DOMMAGES CORPORELS & ACCIDENTS DE LA ROUTE"
+    ],
+    [
+     "h2",
+     "DÉPARTEMENTS EN DOMMAGES CORPORELS & ACCIDENTS DE LA ROUTE"
+    ]
+   ],
+   "content_score": 35,
+   "readability": 6,
+   "word_count": 2969,
+   "content_len": 18199
+  },
+  {
+   "rank": 21,
+   "url": "https://avocat-domcorp.fr/blog/comment-rouvrir-un-dossier-en-cas-daggravation-du-prejudice/",
+   "title": "Comment rouvrir un dossier en cas d'aggravation du préjudice ?",
+   "desc": "Dans cet article, nous allons voir comment rouvrir un dossier en cas d'aggravation du préjudice, et cela, de manière concrète.",
+   "headers": [
+    [
+     "h1",
+     "COMMENT ROUVRIR UN DOSSIER EN CAS D’AGGRAVATION DU PRÉJUDICE ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "1. QU’EST-CE QU’UNE AGGRAVATION DU PRÉJUDICE ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "2. LE CADRE JURIDIQUE DE LA RÉOUVERTURE DE DOSSIER"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "3. COMMENT PROUVER L’AGGRAVATION ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "4. COMMENT ROUVRIR LE DOSSIER ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "5. POURQUOI SE FAIRE ACCOMPAGNER PAR DOMCORP ?"
+    ],
+    [
+     "h2",
+     ""
+    ]
+   ],
+   "content_score": 32,
+   "readability": 66,
+   "word_count": 741,
+   "content_len": 4903
+  },
+  {
+   "rank": 22,
+   "url": "https://www.avocat-antebi.fr/droit-medical-comment-evaluer-le-prejudice-corporel/",
+   "title": "Comment évaluer le préjudice corporel ? - Droit médical",
+   "desc": "Selon la Cour de cassation, « l’auteur d’un dommage est tenu à la réparation intégrale du préjudice de telle sorte qu’il ne peut y avoir pour la victime ni perte ni profit » (civ 2, 9 novembre 1976, n°75-11.737). La loi impose de tenir compte des prestations versées par les organismes autres que l’auteur du dommage, la sécurité sociale en l’occurrence.",
+   "headers": [
+    [
+     "h1",
+     "Droit médical : comment évaluer le préjudice corporel ?"
+    ],
+    [
+     "h2",
+     "I. Les préjudices patrimoniaux"
+    ],
+    [
+     "h2",
+     "II. Les préjudices extra-patrimoniaux"
+    ]
+   ],
+   "content_score": 43,
+   "readability": 18,
+   "word_count": 1791,
+   "content_len": 11856
+  },
+  {
+   "rank": 23,
+   "url": "https://maitre-morin-avocat.fr/accueil/indemnisation-prejudice-corporel-a-savoir/quels-sont-les-differents-prejudices-corporels/prejudice-daffection-ou-prejudice-moral/comment-justifier-dun-prejudice-moral",
+   "title": "Comment justifier d'un préjudice moral ? - Maître Oscar Morin",
+   "desc": "Découvrez les conseils de Maître Oscar Morin pour comprendre et justifier un préjudice moral efficacement en toute légalité.",
+   "headers": [
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "❓ Comment justifier d’un préjudice moral ? — les 3 questions les plus posées"
+    ],
+    [
+     "h1",
+     "Comment justifier un préjudice moral ?"
+    ],
+    [
+     "h2",
+     "1) Les 4 piliers de la justification"
+    ],
+    [
+     "h2",
+     "2) Ce que regardent l’expert et le juge"
+    ],
+    [
+     "h2",
+     "3) Preuves utiles (check-list)"
+    ],
+    [
+     "h2",
+     "4) Décrire sans s’exposer aux objections"
+    ],
+    [
+     "h2",
+     "5) Modèle court à insérer dans vos doléances (à adapter)"
+    ],
+    [
+     "h2",
+     "6) Cas particuliers"
+    ],
+    [
+     "h2",
+     "7) Erreurs fréquentes à éviter"
+    ],
+    [
+     "h2",
+     "8) Quand et où le faire valoir ?"
+    ],
+    [
+     "h2",
+     "Le rôle de Maître Morin"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "Comment justifier un préjudice moral ? Bruno K."
+    ]
+   ],
+   "content_score": 50,
+   "readability": 37,
+   "word_count": 2321,
+   "content_len": 15495
+  },
+  {
+   "rank": 24,
+   "url": "https://www.matriskassurance.com/blog/prejudice-materiel",
+   "title": "Préjudice matériel : comment obtenir réparation ?",
+   "desc": "Découvrez ce qu’il faut savoir sur le préjudice matériel : définition, conséquences, évaluation, recours judiciaires, marche à suivre pour obtenir réparation.",
+   "headers": [
+    [
+     "h1",
+     "Comment obtenir réparation après un préjudice matériel ?"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un préjudice matériel ?"
+    ],
+    [
+     "h2",
+     "Comment est évalué un préjudice matériel ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule la réparation d’un préjudice matériel ?"
+    ],
+    [
+     "h2",
+     "FAQ : Préjudice matériel"
+    ],
+    [
+     "h2",
+     "Ces articles peuvent vous intéresser"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 37,
+   "word_count": 2026,
+   "content_len": 12529
+  },
+  {
+   "rank": 25,
+   "url": "https://www.hello-victimes.fr/l-aide-aux-victimes/comment-chiffrer-et-%C3%A9valuer-le-pr%C3%A9judice-moral/",
+   "title": "Comment chiffrer et évaluer le préjudice moral ? - Association d'aide aux victimes d'accident de la route. Association d''aide aux victimes d'erreur/faute médicale. Association d'aide aux victimes d'accident de la vie ou d'agression.",
+   "desc": "Le préjudice moral est une notion qui regroupe plusieurs préjudice. L'indemnisation du préjudice moral se calcul sur la base de barèmes et des montants pratiqués par les jurisprudences des tribunaux. L'association d'aide aux victimes vous assiste dans votre procédure.",
+   "headers": [
+    [
+     "h1",
+     "L'INDEMNISATION DU PRÉJUDICE MORAL : BARÈME ET CALCUL"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 23,
+   "word_count": 2098,
+   "content_len": 14060
+  },
+  {
+   "rank": 26,
+   "url": "https://www.coppet-avocats.fr/actualites/legislation-droit/aggravation-prejudices-corporels-indemnisation-victimes/",
+   "title": "Aggravation de vos préjudices corporels : reconnaissance et indemnisation",
+   "desc": "Aggravation du préjudice corporel : conditions, délais et preuves pour rouvrir votre dossier d'indemnisation. Coppet Avocats vous accompagne.",
+   "headers": [
+    [
+     "h1",
+     "Aggravation de vos préjudices corporels : reconnaissance et indemnisation"
+    ],
+    [
+     "h2",
+     "Aggravation du préjudice : qu’est-ce que c’est ?"
+    ],
+    [
+     "h2",
+     "Victimes de préjudices corporels : types d’aggravation possibles"
+    ],
+    [
+     "h2",
+     "Aggravation : conditions pour réouvrir un dossier d'indemnisation"
+    ],
+    [
+     "h2",
+     "Aggravation : quelles preuves apporter ?"
+    ],
+    [
+     "h2",
+     "Comment solliciter l'ouverture d'une nouvelle action en aggravation ?"
+    ],
+    [
+     "h2",
+     "Quels sont les postes de préjudice évalués lors de la réouverture de votre dossier en aggravation ?"
+    ],
+    [
+     "h2",
+     "Victime d'aggravation : exemple d'indemnisation"
+    ],
+    [
+     "h2",
+     "Pourquoi être accompagné par le cabinet Coppet Avocats ?"
+    ],
+    [
+     "h2",
+     "Victimes d’accidents de la route : l’accompagnement sur mesure au cœur de votre indemnisation"
+    ],
+    [
+     "h2",
+     "En résumé"
+    ]
+   ],
+   "content_score": 45,
+   "readability": 19,
+   "word_count": 3137,
+   "content_len": 21745
+  },
+  {
+   "rank": 27,
+   "url": "https://jmp-avocat-indemnisation.fr/blog-dommages-corporels/comment-prouver-prejudices-accident-corporel",
+   "title": "Comment prouver ses préjudices après un accident ? Guide complet",
+   "desc": "Obtenir une juste indemnisation exige des preuves solides. Découvrez comment prouver vos préjudices physiques, moraux et invisibles après un accident avec nos conseils d'experts.",
+   "headers": [
+    [
+     "h1",
+     "La Preuve du Préjudice Corporel : Le Guide Ultime pour Obtenir une Juste Indemnisation"
+    ],
+    [
+     "h2",
+     "L'Importance Cruciale du Certificat Médical Initial : Votre Première Preuve"
+    ],
+    [
+     "h2",
+     "La Continuité des Soins : Pourquoi le Silence est l'Ennemi de l'Indemnisation"
+    ],
+    [
+     "h2",
+     "Démystifier la Nomenclature Dintilhac : Donner un Nom à Chaque Douleur"
+    ],
+    [
+     "h2",
+     "Le Cas des Séquelles Invisibles : Un Défi de Preuve Majeur"
+    ],
+    [
+     "h2",
+     "L'Expertise Médicale : Le \"Procès\" de Votre Douleur"
+    ],
+    [
+     "h2",
+     "Stratégies pour Muscler votre Dossier de Preuve"
+    ],
+    [
+     "h2",
+     "Éviter les Pièges des Assurances : La Vigilance est une Preuve en Soi"
+    ],
+    [
+     "h2",
+     "FAQ : Vos Questions Fréquentes sur la Preuve"
+    ],
+    [
+     "h2",
+     "Bibliographie et Sources de Référence"
+    ],
+    [
+     "h2",
+     "⏰ AGISSEZ MAINTENANT : Chaque Jour Compte"
+    ]
+   ],
+   "content_score": 38,
+   "readability": 31,
+   "word_count": 2062,
+   "content_len": 12986
+  },
+  {
+   "rank": 28,
+   "url": "https://dictionnaire.lerobert.com/definition/prejudice-grave",
+   "title": "préjudice grave - Définitions, synonymes, prononciation, exemples | Dico en ligne Le Robert",
+   "desc": "Définition, exemples et prononciation de préjudice grave : Collocation…",
+   "headers": [
+    [
+     "h1",
+     "préjudice grave"
+    ],
+    [
+     "h2",
+     "exemples"
+    ],
+    [
+     "h2",
+     "définition"
+    ]
+   ],
+   "content_score": 27,
+   "readability": 26,
+   "word_count": 656,
+   "content_len": 4356
+  },
+  {
+   "rank": 29,
+   "url": "https://www.litige.fr/",
+   "title": "Litige.fr - Votre justice en ligne | faites valoir vos droits",
+   "desc": "Réglez tous vos litiges grâce à nos recours juridiques simplifiés : logement, travail, automobile, travaux, assurance, voyage... De la mise en demeure au Tribunal, seul ou avec avocat, huissier de justice, expert. Tout se fait en ligne.",
+   "headers": [
+    [
+     "h1",
+     "Votre Justice en ligne simplifiée"
+    ],
+    [
+     "h2",
+     "Nous vous accompagnons à chaque étape de votre démarche"
+    ],
+    [
+     "h2",
+     "L'INFO JURIDIQUE : Nos articles sur vos litiges et vos droits"
+    ],
+    [
+     "h2",
+     "Litige.fr dans Capital sur M6, présenté par Julien Courbet\n              Bons plans et arnaques : les secrets pour réussir ses vacances"
+    ],
+    [
+     "h2",
+     "Yoni Ohana au micro de Jean-Jacques Bourdin sur RMC\n              Serruriers, artisans : enquête sur les arnaques à domicile"
+    ],
+    [
+     "h2",
+     "Litige.fr dans La France Bouge sur Europe 1\n              La solution à tous vos conflits du quotidien"
+    ],
+    [
+     "h2",
+     "Litige.fr dans C'est Au Programme sur France 2\n              Reportage exclusif dans les coulisses de notre service"
+    ],
+    [
+     "h2",
+     "Mise en Demeure\n        \n        \n          Définition, modèles et mentions obligatoires"
+    ],
+    [
+     "h2",
+     "Facture impayée\n        \n        \n          Comment obtenir son règlement ?"
+    ],
+    [
+     "h2",
+     "Loyer impayé : définition, procédure de recouvrement\n        \n        \n          Comment agir contre le locataire mauvais payeur ?"
+    ],
+    [
+     "h2",
+     "Expertise automobile - définition, coût, obligations\n        \n        \n          Tout ce qu'il faut savoir"
+    ],
+    [
+     "h2",
+     "Expulsion du locataire pour loyers impayés\n        \n        \n          La procédure complète, étapes et délais"
+    ],
+    [
+     "h2",
+     "Procédure d’injonction de payer\n        \n        \n          Comment se déroule-t-elle ?"
+    ],
+    [
+     "h2",
+     "Je suis locataire et mon appartement est squatté :\n          Que faire légalement ?"
+    ],
+    [
+     "h2",
+     "Je suis locataire et mon propriétaire veut vendre :\n          Quels sont mes droits et que faire ?"
+    ],
+    [
+     "h2",
+     "Entretien toiture : \n          Qui du propriétaire ou du locataire est responsable ?"
+    ],
+    [
+     "h2",
+     "Entretien de la VMC : locataire ou propriétaire\n          Locataire ou propriétaire, qui doit s’en charger et payer ?"
+    ],
+    [
+     "h2",
+     "Entretien climatisation : \n          Qui doit payer ?"
+    ],
+    [
+     "h2",
+     "Dératisation :\n          Propriétaire ou locataire, qui doit payer ?"
+    ]
+   ],
+   "content_score": 3,
+   "readability": 22,
+   "word_count": 917,
+   "content_len": 5950
+  },
+  {
+   "rank": 30,
+   "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/protection-renseignement-personnels/politiques-directives-protection-renseignements-personnels/gestion-attentes-vie-privee/phase-2/effectuer-evaluation-risques-atteinte-vie-privee.html",
+   "title": "Effectuer une évaluation des risques de l’atteinte de la vie privée - Canada.ca",
+   "desc": "Cet outil peut être utilisé pour évaluer et documenter les risques posés par une atteinte à la vie privée pour les personnes dont les renseignements ont été touchés, ainsi que tout risque pour l’institution, dans le cadre d’une évaluation exhaustive de l’atteinte.",
+   "headers": [
+    [
+     "h1",
+     "Effectuer une évaluation des risques de l’atteinte de la vie privée"
+    ],
+    [
+     "h2",
+     "Instructions"
+    ],
+    [
+     "h2",
+     "Détails de la page"
+    ]
+   ],
+   "content_score": 2,
+   "readability": 30,
+   "word_count": 892,
+   "content_len": 5552
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 2996,
+   "target": 2996
+  },
+  "readability": {
+   "median": 29,
+   "target": 29
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "préjudice",
+    "usage_pc": 89
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 22
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 22
+   },
+   {
+    "t": "un dommage",
+    "usage_pc": 22
+   },
+   {
+    "t": "un préjudice",
+    "usage_pc": 22
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 11
+   },
+   {
+    "t": "justificatif",
+    "usage_pc": 11
+   }
+  ],
+  "desc": [
+   {
+    "t": "préjudice",
+    "usage_pc": 56
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 33
+   },
+   {
+    "t": "un préjudice",
+    "usage_pc": 33
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 22
+   },
+   {
+    "t": "un dommage",
+    "usage_pc": 22
+   },
+   {
+    "t": "accident",
+    "usage_pc": 11
+   },
+   {
+    "t": "évaluation",
+    "usage_pc": 11
+   },
+   {
+    "t": "réparation du dommage corporel",
+    "usage_pc": 11
+   },
+   {
+    "t": "cour de cassation",
+    "usage_pc": 11
+   },
+   {
+    "t": "dommages et intérêts",
+    "usage_pc": 11
+   },
+   {
+    "t": "dintilhac",
+    "usage_pc": 11
+   },
+   {
+    "t": "un dommage corporel",
+    "usage_pc": 11
+   }
+  ],
+  "h1": [
+   {
+    "t": "préjudice",
+    "usage_pc": 78
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 33
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 22
+   },
+   {
+    "t": "un dommage",
+    "usage_pc": 22
+   },
+   {
+    "t": "un préjudice",
+    "usage_pc": 22
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 11
+   },
+   {
+    "t": "justificatif",
+    "usage_pc": 11
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 11
+   },
+   {
+    "t": "établissement",
+    "usage_pc": 11
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 11
+   },
+   {
+    "t": "apporter la preuve",
+    "usage_pc": 11
+   },
+   {
+    "t": "document unique",
+    "usage_pc": 11
+   },
+   {
+    "t": "un dommage corporel",
+    "usage_pc": 11
+   }
+  ],
+  "h2": [
+   {
+    "t": "préjudice",
+    "usage_pc": 56
+   },
+   {
+    "t": "un préjudice",
+    "usage_pc": 22
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 11
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 11
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 11
+   },
+   {
+    "t": "accident",
+    "usage_pc": 11
+   },
+   {
+    "t": "justificatif",
+    "usage_pc": 11
+   },
+   {
+    "t": "jurisprudence",
+    "usage_pc": 11
+   },
+   {
+    "t": "pénal",
+    "usage_pc": 11
+   },
+   {
+    "t": "réparation intégrale",
+    "usage_pc": 11
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 11
+   },
+   {
+    "t": "formulaire",
+    "usage_pc": 11
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "préjudice",
+    "usage_pc": 100,
+    "sugg_usage": [
+     5,
+     52
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 89,
+    "sugg_usage": [
+     3,
+     10
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 89,
+    "sugg_usage": [
+     4,
+     19
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     8
+    ]
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     8
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     15
+    ]
+   },
+   {
+    "t": "justificatif",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "évaluation",
+    "usage_pc": 89,
+    "sugg_usage": [
+     2,
+     3
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "établissement",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "un dommage",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "indemnisation du préjudice",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "réparation du dommage corporel",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un préjudice",
+    "usage_pc": 100,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "jurisprudence",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "attestation",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "préjudice sexuel",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit du dommage corporel",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "juridiction",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cour de cassation",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déficit fonctionnel permanent",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "type de préjudice",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "pénal",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dintilhac",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "réparation intégrale",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte de chance",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les souffrances endurées",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "indemnisation du dommage",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dommages et intérêts",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice d'établissement",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demander une indemnisation",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice subi",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice d'agrément",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "réparation du préjudice",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dommage causé",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "apporter la preuve",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demande d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "preuve de l’existence",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime directe",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tout document",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "document unique",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les séquelles",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un dommage corporel",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "vie familiale",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice moral lié",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes par ricochet",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat en dommage corporel",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "projet de vie familiale",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "formulaire",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à une indemnisation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "preuve du préjudice",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "quels justificatifs",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice esthétique",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas de décès",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de la circulation",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "réaliser un projet de vie",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "saisir le tribunal compétent",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant de l'indemnité",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "état psychologique",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médecin-conseil de victimes",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "différents types de préjudices",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "sans perte ni profit",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "situation des victimes",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "nomenclature des préjudices corporels",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "a commis une faute",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tout document permettant",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte de qualité de vie",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "réparation de son dommage",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "5 juillet 1985 tendant",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "rapport du groupe de travail",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expertises médicales",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Dommage corporel",
+    "importance": 36.074239999999996,
+    "relevance": 0.5636599999999999,
+    "confidence": 4.2543999999999995,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 28.695040000000002,
+    "relevance": 0.44836,
+    "confidence": 5.3073999999999995,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal",
+    "importance": 6.998400000000001,
+    "relevance": 0.10935000000000002,
+    "confidence": 2.3360000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal"
+     ]
+    ]
+   },
+   {
+    "t": "Jurisprudence",
+    "importance": 4.530744,
+    "relevance": 0.125854,
+    "confidence": 3.1592000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Jurisprudence"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage en droit civil français",
+    "importance": 3.89152,
+    "relevance": 0.24322,
+    "confidence": 1.1052,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_en_droit_civil_français"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 3.5805600000000006,
+    "relevance": 0.09946,
+    "confidence": 1.2428000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 3.43296,
+    "relevance": 0.21456,
+    "confidence": 0.5591999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Droit",
+    "importance": 3.228624,
+    "relevance": 0.089684,
+    "confidence": 1.3918,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Droit"
+     ]
+    ]
+   },
+   {
+    "t": "Douleur",
+    "importance": 2.92064,
+    "relevance": 0.18254,
+    "confidence": 1.9896,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Douleur"
+     ]
+    ]
+   },
+   {
+    "t": "Employeur",
+    "importance": 2.7769599999999994,
+    "relevance": 0.17356,
+    "confidence": 1.4686,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Employeur"
+     ]
+    ]
+   },
+   {
+    "t": "Accident médical",
+    "importance": 2.7401600000000004,
+    "relevance": 0.17126000000000002,
+    "confidence": 0.8390000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Salariat",
+    "importance": 2.50848,
+    "relevance": 0.15678,
+    "confidence": 1.316,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Salariat"
+     ]
+    ]
+   },
+   {
+    "t": "Loi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation",
+    "importance": 2.4025599999999994,
+    "relevance": 0.15016,
+    "confidence": 2.0206,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi_tendant_à_l'amélioration_de_la_situation_des_victimes_d'accidents_de_la_circulation_et_à_l'accélération_des_procédures_d'indemnisation"
+     ]
+    ]
+   },
+   {
+    "t": "Contrat de travail en France",
+    "importance": 2.27968,
+    "relevance": 0.14248,
+    "confidence": 1.1922000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contrat_de_travail_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Expertise médicale",
+    "importance": 2.1334400000000002,
+    "relevance": 0.13334000000000001,
+    "confidence": 0.5886,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expertise_médicale"
+     ]
+    ]
+   },
+   {
+    "t": "Action en justice en procédure civile française",
+    "importance": 2.08,
+    "relevance": 0.13,
+    "confidence": 0.5993999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Action_en_justice_en_procédure_civile_française"
+     ]
+    ]
+   },
+   {
+    "t": "Handicap",
+    "importance": 1.8544,
+    "relevance": 0.1159,
+    "confidence": 3.2055999999999996,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Handicap"
+     ]
+    ]
+   },
+   {
+    "t": "DFP",
+    "importance": 1.7155200000000002,
+    "relevance": 0.10722000000000001,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Juge",
+    "importance": 1.51584,
+    "relevance": 0.09474,
+    "confidence": 0.6172000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Juge"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 1.5049599999999999,
+    "relevance": 0.09405999999999999,
+    "confidence": 0.8112,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Justice",
+    "importance": 1.504,
+    "relevance": 0.094,
+    "confidence": 1.3306,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Justice"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 1.4396799999999998,
+    "relevance": 0.08997999999999999,
+    "confidence": 4.093999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Certificat médical",
+    "importance": 1.259232,
+    "relevance": 0.07870200000000001,
+    "confidence": 1.1296,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Certificat_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Infraction",
+    "importance": 1.0553599999999999,
+    "relevance": 0.06595999999999999,
+    "confidence": 0.6872,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Infraction"
+     ]
+    ]
+   },
+   {
+    "t": "Stress",
+    "importance": 0.95168,
+    "relevance": 0.05948,
+    "confidence": 2.3396,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Stress"
+     ]
+    ]
+   },
+   {
+    "t": "Psychologie",
+    "importance": 0.8182400000000002,
+    "relevance": 0.051140000000000005,
+    "confidence": 2.1764,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Psychologie"
+     ]
+    ]
+   },
+   {
+    "t": "Dommages-intérêts",
+    "importance": 0.7847199999999999,
+    "relevance": 0.19618,
+    "confidence": 0.7842,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommages-intérêts"
+     ]
+    ]
+   },
+   {
+    "t": "Document unique d'évaluation des risques professionnels",
+    "importance": 0.71336,
+    "relevance": 0.17834,
+    "confidence": 0.5786,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Document_unique_d'évaluation_des_risques_professionnels"
+     ]
+    ]
+   },
+   {
+    "t": "Victime",
+    "importance": 0.65376,
+    "relevance": 0.16344,
+    "confidence": 0.20659999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Victime"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage (droit)",
+    "importance": 0.64328,
+    "relevance": 0.16082000000000002,
+    "confidence": 0.2206,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_(droit)"
+     ]
+    ]
+   },
+   {
+    "t": "Cour de cassation (France)",
+    "importance": 0.62184,
+    "relevance": 0.15546,
+    "confidence": 3.052,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cour_de_cassation_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Hôpital",
+    "importance": 0.60336,
+    "relevance": 0.03771,
+    "confidence": 0.8934000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Hôpital"
+     ]
+    ]
+   },
+   {
+    "t": "Souffrance",
+    "importance": 0.5228,
+    "relevance": 0.13069999999999998,
+    "confidence": 1.502,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Souffrance"
+     ]
+    ]
+   },
+   {
+    "t": "AIVF",
+    "importance": 0.51864,
+    "relevance": 0.12966,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Agression",
+    "importance": 0.5092800000000001,
+    "relevance": 0.12732000000000002,
+    "confidence": 0.6898,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Agression"
+     ]
+    ]
+   },
+   {
+    "t": "Préjudice d'anxiété",
+    "importance": 0.50048,
+    "relevance": 0.12512,
+    "confidence": 0.2182,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Préjudice_d'anxiété"
+     ]
+    ]
+   },
+   {
+    "t": "Animal",
+    "importance": 0.5004,
+    "relevance": 0.1251,
+    "confidence": 0.45039999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Animal"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "préjudice\ndommage corporel\nindemnisation\nun dommage\nun préjudice\nposte de préjudice\njustificatif",
+  "desc_title": "préjudice\ndommage corporel\nun préjudice\nindemnisation\nun dommage\naccident\névaluation\nréparation du dommage corporel\ncour de cassation\ndommages et intérêts\ndintilhac\nun dommage corporel",
+  "h1": "préjudice\nindemnisation\ndommage corporel\nun dommage\nun préjudice\nposte de préjudice\njustificatif\nassureur\nétablissement\nobtenir une indemnisation\napporter la preuve\ndocument unique\nun dommage corporel",
+  "h2": "préjudice\nun préjudice\ndommage corporel\nindemnisation\nexpertise\naccident\njustificatif\njurisprudence\npénal\nréparation intégrale\ndroit à indemnisation\nformulaire",
+  "content_basic": "préjudice\ndommage corporel\nindemnisation\npréjudice corporel\nindemniser\nexpertise\naccident\njustificatif\névaluation\nassureur\nétablissement\nun dommage\nindemnisation du préjudice\nréparation du dommage corporel\nun préjudice\njurisprudence\nattestation\npréjudice sexuel\ndroit du dommage corporel\njuridiction\ncour de cassation\ndéficit fonctionnel permanent\ntype de préjudice\npénal\ndintilhac\nréparation intégrale\nperte de chance\nles souffrances endurées",
+  "content_basic_w_ranges": "préjudice: 5-52x\ndommage corporel: 3-10x\nindemnisation: 4-19x\npréjudice corporel: 1-3x\nindemniser: 1-8x\nexpertise: 1-8x\naccident: 1-15x\njustificatif: 1x\névaluation: 2-3x\nassureur: 1-2x\nétablissement: 1-5x\nun dommage: 1-6x\nindemnisation du préjudice: 1x\nréparation du dommage corporel: 1x\nun préjudice: 1-6x\njurisprudence: 1-3x\nattestation: 1-4x\npréjudice sexuel: 1x\ndroit du dommage corporel: 1x\njuridiction: 1x\ncour de cassation: 1x\ndéficit fonctionnel permanent: 1x\ntype de préjudice: 1x\npénal: 1x\ndintilhac: 1-2x\nréparation intégrale: 1x\nperte de chance: 1x\nles souffrances endurées: 1x",
+  "content_extended": "poste de préjudice\nobtenir une indemnisation\nindemnisation du dommage\ndommages et intérêts\npréjudice d'établissement\ndemander une indemnisation\npréjudice subi\npréjudice d'agrément\nréparation du préjudice\ndommage causé\napporter la preuve\ndemande d’indemnisation\npreuve de l’existence\nvictime directe\ntout document\ndocument unique\nêtre indemnisé\nles séquelles\nun dommage corporel\nvie familiale\npréjudice moral lié\ndroit à indemnisation\nvictimes par ricochet\navocat en dommage corporel\nprojet de vie familiale\nformulaire\ndroit à une indemnisation\npreuve du préjudice\nquels justificatifs\npréjudice esthétique\ncas de décès\naccident de la circulation\nréaliser un projet de vie\nsaisir le tribunal compétent\nmontant de l'indemnité\nétat psychologique\nmédecin-conseil de victimes\naccident médical\ndifférents types de préjudices\nsans perte ni profit\nsituation des victimes\nnomenclature des préjudices corporels\na commis une faute\ntout document permettant\nperte de qualité de vie\nréparation de son dommage\n5 juillet 1985 tendant\nrapport du groupe de travail\nexpertises médicales",
+  "content_extended_w_ranges": "poste de préjudice: 1x\nobtenir une indemnisation: 1-3x\nindemnisation du dommage: 1x\ndommages et intérêts: 1x\npréjudice d'établissement: 1x\ndemander une indemnisation: 1x\npréjudice subi: 1x\npréjudice d'agrément: 1x\nréparation du préjudice: 1x\ndommage causé: 1x\napporter la preuve: 1x\ndemande d’indemnisation: 1x\npreuve de l’existence: 1x\nvictime directe: 1x\ntout document: 1x\ndocument unique: 1x\nêtre indemnisé: 1x\nles séquelles: 1-2x\nun dommage corporel: 1x\nvie familiale: 1x\npréjudice moral lié: 1x\ndroit à indemnisation: 1x\nvictimes par ricochet: 1x\navocat en dommage corporel: 1x\nprojet de vie familiale: 1x\nformulaire: 1x\ndroit à une indemnisation: 1x\npreuve du préjudice: 1x\nquels justificatifs: 1x\npréjudice esthétique: 1x\ncas de décès: 1x\naccident de la circulation: 1x\nréaliser un projet de vie: 1x\nsaisir le tribunal compétent: 1x\nmontant de l'indemnité: 1x\nétat psychologique: 1x\nmédecin-conseil de victimes: 1x\naccident médical: 1x\ndifférents types de préjudices: 1x\nsans perte ni profit: 1x\nsituation des victimes: 1x\nnomenclature des préjudices corporels: 1x\na commis une faute: 1x\ntout document permettant: 1x\nperte de qualité de vie: 1x\nréparation de son dommage: 1x\n5 juillet 1985 tendant: 1x\nrapport du groupe de travail: 1x\nexpertises médicales: 1x",
+  "entities": "Dommage corporel\nAssurance\nTribunal\nJurisprudence\nDommage en droit civil français\nMédecin\nEndommagement\nDroit\nDouleur\nEmployeur\nAccident médical\nSalariat\nLoi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation\nContrat de travail en France\nExpertise médicale\nAction en justice en procédure civile française\nHandicap\nDFP\nJuge\nAvocat (métier)\nJustice\nAccident de la route\nCertificat médical\nInfraction\nStress\nPsychologie\nDommages-intérêts\nDocument unique d'évaluation des risques professionnels\nVictime\nDommage (droit)\nCour de cassation (France)\nHôpital\nSouffrance\nAIVF\nAgression\nPréjudice d'anxiété\nAnimal"
+ },
+ "status": "ready",
+ "keyword": "documenter préjudice grave",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "972165f229676370",
+ "query": "0de2af29f39a467f",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 90.0,
+   "transactional": 13.3,
+   "navigational": 3.3
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "educational": 26.7,
+   "guide": 60.0,
+   "case-study": 3.3,
+   "news": 3.3,
+   "listicle": 3.3,
+   "business": 20.0,
+   "video": 3.3,
+   "short-answer": 6.7,
+   "landing-page": 3.3,
+   "other": 13.3,
+   "blog-post": 23.3,
+   "tool": 6.7
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/0de2af29f39a467f",
+ "share_url": "https://app.neuronwriter.com/analysis/share/0de2af29f39a467f/be2dddbfe5b2e61fa2f52f2766e31ea64fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/0de2af29f39a467f/6be947a744a77d5ccc32eb26fecdf5bb4fa16"
+}
