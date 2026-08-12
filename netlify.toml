@@ -1,15 +1,31 @@
+# Ce fichier ne configure QUE le projet Netlify "lexvox-victime", qui publie
+# la racine du dépôt sur https://lexvox-victime.netlify.app. Ce n'est pas le
+# site en production : lexvox-victime.com est un frontend Next.js/Sanity servi
+# par Cloudflare (cf. CLAUDE.md). Netlify n'expose donc qu'une copie figée et
+# partielle de l'atelier — 86 URLs contre 610 en production.
+#
+# Cloudflare Pages ignore netlify.toml mais honore _headers : les directives
+# propres à Netlify doivent rester ici, jamais dans _headers, sous peine
+# d'affecter aussi un déploiement Cloudflare manuel de deploy.yml.
+
 [build]
   publish = "."
 
-[[redirects]]
-  from = "https://www.lexvox-victime.com/*"
-  to = "https://lexvox-victime.com/:splat"
-  status = 301
-  force = true
+# Pas de règle de redirection pour www.lexvox-victime.com : le domaine n'est
+# pas rattaché à ce projet Netlify (il résout vers Cloudflare, qui assure
+# déjà le 301 de www vers l'apex). Une règle ici laisserait croire que Netlify
+# dessert le domaine de production — c'est exactement la confusion qui a
+# conduit à écraser le site le 2026-07-06.
 
 [[headers]]
   for = "/*"
   [headers.values]
+    # La copie Netlify duplique le contenu du cabinet sur un sous-domaine
+    # netlify.app. Les pages portent le bon canonical, mais un canonical n'est
+    # qu'un signal : on interdit explicitement l'indexation. Les deploy
+    # previews sont déjà en noindex par défaut côté Netlify ; cet en-tête
+    # couvre le déploiement de production du projet, qui ne l'était pas.
+    X-Robots-Tag = "noindex, nofollow, noarchive"
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
