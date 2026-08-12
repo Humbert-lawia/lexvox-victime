@@ -163,10 +163,26 @@ VALIDATION BLOQUANTE avant chaque publication :
 Jamais de publication d'un article qui échoue. Pas de sas de relecture :
 Me Humbert vérifie a posteriori (garde-fous = QA + Openlegi + NeuronWriter).
 
-APRÈS publication : vérifier HTTP 200 sur l'URL publiée ; mettre l'item en
-"done" + date + neuronwriter_score + url dans queue-wp.json ; mettre à jour
+AVANT de produire quoi que ce soit : POSER LE VERROU sur les items du lot.
+Trois acteurs écrivent sur main ; sans verrou, deux d'entre eux produisent le
+même article. Ne jamais lire la file « à la main » pour choisir un item :
+  python3 tools/queue_lease.py claim --queue wp -n 3 --actor lawia-pipeline
+La commande pousse le verrou sur origin (il ne protège rien tant qu'il n'est
+pas visible des autres). Elle ne rend QUE des items réellement libres : si elle
+n'en rend aucun, il n'y a rien à produire — ne pas forcer.
+
+APRÈS publication : vérifier HTTP 200 sur l'URL publiée ; clore l'item avec
+  python3 tools/queue_lease.py done --queue wp --id <N> --score <NW réel> --url <URL>
+(la commande pose "done" + date, libère le verrou, et REFUSE un score < 85 sans
+dérogation documentée ou toute dérogation ≤ 80) ; mettre à jour
 PUBLICATION-TRACKER-WP.md (créé au premier run : tableau date/site/slug/score/
 URL + section "Métas Yoast à poser" + hypothèses de volume par silo).
+
+Si un item doit être abandonné en cours de route, RENDRE LE VERROU
+(`release --id <N> --reason "..."`) : sinon il reste bloqué jusqu'à expiration
+de la lease (120 min). Si une décision revient à Me Humbert (dérogation NW,
+angle cannibalisé), utiliser `gate --id <N> --question "..."` : l'item sort de
+la sélection automatique jusqu'à sa réponse.
 
 ARCHIVE GIT (ce dépôt = atelier, il ne déploie RIEN ; deploy.yml reste
 neutralisé, NE JAMAIS le réactiver) : committer wp-atelier/<site>/<slug>.html
@@ -182,14 +198,18 @@ committé). Un commit = un lot du jour.
    nouvelle session sur cet environnement, create_new_session_on_fire=true)
    dont le prompt est : « Ouvre /home/user/lexvox-victime, lis
    PROMPT-PIPELINE-WP.md et exécute UNE itération quotidienne du PIPELINE
-   LEXVOX-WP : vérifications de l'ÉTAPE 0, puis prends les 3 premiers items
-   status "todo" de queue-wp.json, produis-les, valide-les, publie-les sur
-   leur site WordPress respectif, mets à jour queue-wp.json +
-   PUBLICATION-TRACKER-WP.md, committe et pousse (pull --rebase avant push).
-   S'il reste moins de 3 items todo, traite ce qui reste ; s'il n'en reste
-   AUCUN, envoie un rapport final et SUPPRIME cette routine (delete_trigger).
+   LEXVOX-WP : vérifications de l'ÉTAPE 0, puis RÉSERVE ta tranche avec
+   `python3 tools/queue_lease.py claim --queue wp -n 3 --actor lawia-pipeline`
+   (jamais de choix manuel dans la file : le verrou évite que deux acteurs
+   produisent le même article), produis-les, valide-les, publie-les sur
+   leur site WordPress respectif, clos chaque item avec
+   `tools/queue_lease.py done --queue wp --id <N> --score <NW réel> --url <URL>`,
+   mets à jour PUBLICATION-TRACKER-WP.md, committe et pousse (pull --rebase
+   avant push). Si `claim` ne rend aucun item, il n'y a rien à produire :
+   envoie un rapport final et SUPPRIME cette routine (delete_trigger).
    En cas de blocage (NeuronWriter/Openlegi/auth WP indisponible), ne publie
-   rien, marque les items "blocked" avec la raison et signale-le. »
+   rien, RENDS les verrous (`release --id <N> --reason "..."`), marque les
+   items "blocked" avec la raison et signale-le. »
 3. Pendant une session : si tu attends un événement externe, utilise les
    mécanismes de replanification (ScheduleWakeup/loop), jamais de sleep.
 4. ~1×/semaine (à intégrer dans l'itération du lundi) : si le connecteur

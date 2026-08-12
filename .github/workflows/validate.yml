@@ -18,3 +18,6 @@ jobs:
 
       - name: QA standard LEXVOX-AIVF (articles publiés de la file)
         run: python3 tools/qa_queue.py
+
+      - name: Cohérence des files (verrous, décisions en attente, dérogations)
+        run: python3 tools/queue_lease.py validate

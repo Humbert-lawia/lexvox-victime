@@ -50,6 +50,8 @@ Conséquences IMMUABLES, sauf demande expresse de Me Humbert :
 - Prévisualiser l'atelier localement : `npm start` (port 8091).
 - Valider un article : `python3 tools/preflight.py` +
   `python3 tools/qa_article_aivf.py actualites/<slug>.html [--pilier]`.
+- Réserver / clore un item de file : `python3 tools/queue_lease.py
+  status | next | claim | done | release | gate` (cf. règle 2 bis).
 - Convertir/publier vers Sanity : `python3 tools/sanity_publish.py
   actualites/<slug>.html --dry-run` puis `--publish-at <ISO|now>`.
 - Optimiser un score NeuronWriter : **toujours** via le skill `/nw-optimisation`
@@ -94,6 +96,15 @@ au-delà du plateau de la famille, le gain marginal des cycles est nul — les
    Pipeline) : les conflits sont fréquents, surtout sur `sitemap.xml`,
    `actualites.html` et `llms.txt`. En cas de conflit sur le sitemap :
    union des URLs des deux côtés + déduplication, jamais de suppression.
+2 bis. **Ne jamais prendre un item de file « à la main ».** `status: todo` ne
+   dit pas *qui* travaille dessus : c'est par ce trou que deux acteurs
+   produisent le même article. Réserver via `python3 tools/queue_lease.py
+   claim --queue <aivf|wp> [-n N] --actor <nom>`, clore via `… done --id <N>
+   --score <NW réel>`, rendre via `… release --id <N>`. Le verrou est poussé
+   sur `origin` (sinon il ne protège personne) et expire seul (180 min AIVF /
+   120 min WP), donc une session recyclée ne bloque jamais son item.
+   `… gate --id <N> --question "…"` retire un item de la sélection automatique
+   tant que Me Humbert n'a pas tranché. État des files : `… status`.
 3. **Domaine canonique : `https://lexvox-victime.com`** (jamais `.fr`).
    URLs internes et canonicals **sans extension `.html`**.
 4. **Identité légale (NAP)** : la source de vérité est `mentions-legales.html`

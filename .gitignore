@@ -10,3 +10,7 @@ scripts/
 *.bak
 __pycache__/
 *.sanity.json
+
+# Verrous locaux des files de production (tools/queue_lease.py) — jamais committes
+.queue-lease-*.lock
+queue-*.json.tmp
