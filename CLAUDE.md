@@ -54,6 +54,26 @@ Conséquences IMMUABLES, sauf demande expresse de Me Humbert :
   actualites/<slug>.html --dry-run` puis `--publish-at <ISO|now>`.
 - Optimiser un score NeuronWriter : **toujours** via le skill `/nw-optimisation`
   (`tools/nw_lab.py terms/audit/evaluate`) — voir la règle NeuronWriter ci-dessous.
+- Lire une page web publique en Markdown brut :
+  `python3 tools/web_read.py URL [--max-chars 0]`.
+- Rechercher sur le web en français : `python3 tools/exa_search.py "requête" -n 5`.
+
+## Recherche web — préférer les outils du dépôt
+
+Les outils web natifs ont deux limites mesurées : `WebSearch` interroge un index
+restreint aux États-Unis, donc faible sur les requêtes francophones ; `WebFetch`
+renvoie un *résumé* produit par un modèle intermédiaire, jamais le texte brut, et
+échoue sur les pages rendues en JavaScript. Pour toute analyse de concurrent,
+tout relevé de balisage Hn, tout comptage de mots ou toute collecte de termes
+avant un contrat NeuronWriter, utiliser `tools/web_read.py` et
+`tools/exa_search.py` (skill `/recherche-web`) — pas les outils natifs.
+
+Les deux passent par des services tiers gratuits et sans clé (`r.jina.ai`,
+`mcp.exa.ai`), qui reçoivent chaque URL et chaque requête. **Contenu public
+uniquement** : sites concurrents, jurisprudence publiée, pages du cabinet. Jamais
+d'URL d'extranet, de webmail, de RPVA/e-Barreau ni de dossier client, jamais de
+nom de client ni de donnée de santé identifiante dans une requête. `web_read.py`
+refuse les cas évidents (code retour 2), ce qui ne dispense pas de vérifier.
 
 ## NeuronWriter — méthode unique (validée 2026-07-07, 62 → 85)
 
