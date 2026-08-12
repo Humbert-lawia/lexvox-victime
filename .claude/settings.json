@@ -2,6 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(python3 tools/preflight.py*)",
+      "Bash(python3 tools/web_read.py*)",
+      "Bash(python3 tools/exa_search.py*)",
       "Bash(npm start*)",
       "Bash(git pull --rebase*)"
     ]
