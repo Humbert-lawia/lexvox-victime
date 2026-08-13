@@ -216,36 +216,64 @@ lexvox-victime.
 
 ## TEXTES PAR CHAÎNE
 
-Chacun tient sous la limite de 500 caractères du champ D3.
+⚠️ **Ces textes portent désormais la QUESTION DU JOUR** — ils changent donc à
+chaque épisode, alors que la version précédente était fixe. C'est la
+conséquence de l'intro en trois blocs : elle pose une question, puis lance
+« C'est parti ». Si le débat qui suit ne répond pas à cette question, la
+promesse est rompue dès la première seconde de l'épisode. Le débat étant
+généré à part, rien ne garantissait ce lien : il faut l'imposer.
 
-### Personnalisation — chaîne VICTIMES (462 caractères)
+Coller la **même question** que celle passée à `voix_script.py --question`.
 
-> Podcast animé par deux personnes : Nathalie, une FEMME, juriste pédagogue
-> (voix féminine), et Nicolas, un HOMME, journaliste curieux (voix masculine).
-> Ils s'appellent par leur prénom. Sources : l'article et la fiche cabinet,
-> rien d'autre. Vulgarisez chaque terme. Montrez les enjeux de l'article et
-> les pièges de sous-évaluation par les assureurs. Durée : moins de 5 min.
-> Concluez sur le fond, SANS message commercial ni coordonnées : l'avocat
-> parle juste après.
+Chaque cadre est mesuré pour tenir sous 500 caractères **question comprise**,
+y compris avec une question de 130 caractères — la borne haute autorisée par
+`PROMPT-INTRO-VOIX.md`.
 
-### Personnalisation — chaîne FAMILLE (454 caractères)
+| Chaîne | Cadre seul | Avec une question de 130 |
+|---|---|---|
+| victimes | 359 car | 489 car |
+| famille | 364 car | 494 car |
+| permis | 364 car | 494 car |
 
-> Podcast animé par deux personnes : Nathalie, une FEMME, juriste pédagogue
-> (voix féminine), et Nicolas, un HOMME, journaliste curieux (voix masculine).
-> Ils s'appellent par leur prénom. Sources : l'article et la fiche cabinet,
-> rien d'autre. Vulgarisez chaque terme. Montrez les enjeux concrets pour qui
-> traverse un divorce ou une séparation. Durée : moins de 5 min. Concluez sur
-> le fond, SANS message commercial ni coordonnées : l'avocat parle juste
-> après.
+*(La limite de 500 est celle du référentiel ; elle reste à confirmer au premier
+pilote — case prévue dans `podcasts/CALIBRATION-NOTEBOOKLM.md`.)*
 
-### Personnalisation — chaîne PERMIS (440 caractères)
+### Personnalisation — chaîne VICTIMES
 
-> Podcast animé par deux personnes : Nathalie, une FEMME, juriste pédagogue
-> (voix féminine), et Nicolas, un HOMME, journaliste curieux (voix masculine).
-> Ils s'appellent par leur prénom. Sources : l'article et la fiche cabinet,
-> rien d'autre. Vulgarisez chaque terme. Montrez les délais à ne pas manquer
-> et les recours possibles. Durée : moins de 5 min. Concluez sur le fond, SANS
-> message commercial ni coordonnées : l'avocat parle juste après.
+> Dialogue à deux : Nathalie, juriste pédagogue (FEMME), et Nicolas,
+> journaliste curieux (HOMME). Prénoms seuls. Répondez à : « **{QUESTION}** »
+> Sources : l'article et la fiche cabinet, rien d'autre. Vulgarisez tout terme
+> juridique. Montrez les pièges de sous-évaluation par les assureurs. Moins de
+> 5 min. Concluez sur le fond, SANS message commercial : l'avocat parle après.
+
+### Personnalisation — chaîne FAMILLE
+
+> Dialogue à deux : Nathalie, juriste pédagogue (FEMME), et Nicolas,
+> journaliste curieux (HOMME). Prénoms seuls. Répondez à : « **{QUESTION}** »
+> Sources : l'article et la fiche cabinet, rien d'autre. Vulgarisez tout terme
+> juridique. Montrez les enjeux concrets d'un divorce ou d'une séparation.
+> Moins de 5 min. Concluez sur le fond, SANS message commercial : l'avocat
+> parle après.
+
+### Personnalisation — chaîne PERMIS
+
+> Dialogue à deux : Nathalie, juriste pédagogue (FEMME), et Nicolas,
+> journaliste curieux (HOMME). Prénoms seuls. Répondez à : « **{QUESTION}** »
+> Sources : l'article et la fiche cabinet, rien d'autre. Vulgarisez tout terme
+> juridique. Montrez les délais à ne pas manquer et les recours possibles.
+> Moins de 5 min. Concluez sur le fond, SANS message commercial : l'avocat
+> parle après.
+
+### Ce que chaque phrase fait, et pourquoi ne pas la retirer
+
+| Phrase | Ce qu'elle empêche |
+|---|---|
+| `Nathalie … (FEMME)` / `Nicolas … (HOMME)` | deux voix du même genre, ou les prénoms intervertis d'un épisode à l'autre |
+| `Prénoms seuls` | des animateurs qui se donnent du « maître » et passent pour des avocats du cabinet |
+| `Répondez à : « … »` | un débat qui part ailleurs que la question annoncée en intro |
+| `Sources : l'article et la fiche cabinet, rien d'autre` | du droit inventé, ou puisé dans la culture générale du modèle |
+| `Vulgarisez tout terme juridique` | « DFP », « Dintilhac », « consolidation » lâchés sans explication |
+| `SANS message commercial` | un appel à l'action dit deux fois — le débat puis l'avocat dans l'outro |
 
 ### Fiches cabinet (source n° 2, PDF téléversé)
 
