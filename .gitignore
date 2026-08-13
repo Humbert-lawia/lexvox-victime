@@ -15,3 +15,6 @@ __pycache__/
 podcasts/**/*.mp3
 podcasts/**/*.m4a
 podcasts/**/*.wav
+
+# Configuration du service ffmpeg distant (peut contenir des URL privees)
+podcasts/ffmpeg-api.json

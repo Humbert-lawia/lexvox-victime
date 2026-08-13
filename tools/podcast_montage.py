@@ -26,10 +26,12 @@ import csv
 import json
 import re
 import shutil
-import subprocess
 import sys
 import unicodedata
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from ffmpeg_moteur import ErreurMoteur, charger  # noqa: E402
 
 # --- Configuration editoriale -------------------------------------------------
 CHAINES = {
@@ -53,13 +55,15 @@ TOLERANCE_DUREE = 0.5       # s
 
 
 # --- Utilitaires --------------------------------------------------------------
+MOTEUR = None   # renseigne par traiter() : MoteurLocal ou MoteurAPI
+
+
 def executer(commande, attendre_json=False):
-    """Lance ffmpeg/ffprobe. Retourne (code, stdout, stderr)."""
-    resultat = subprocess.run(commande, capture_output=True, text=True)
-    if attendre_json and resultat.returncode != 0:
-        raise RuntimeError(
-            f"echec de {commande[0]} : {resultat.stderr.strip()[:400]}")
-    return resultat.returncode, resultat.stdout, resultat.stderr
+    """Lance ffmpeg/ffprobe via le moteur courant (local ou API)."""
+    code, sortie, erreur = MOTEUR.executer(commande)
+    if attendre_json and code != 0:
+        raise RuntimeError(f"echec de {commande[0]} : {erreur.strip()[:400]}")
+    return code, sortie, erreur
 
 
 def sonder(fichier: Path) -> dict:
@@ -261,11 +265,16 @@ def controler(final: Path, sondage: dict, loudness, duree_attendue: float,
 
 # --- Traitement d'un episode --------------------------------------------------
 def traiter(options) -> int:
-    for binaire in ("ffmpeg", "ffprobe"):
-        if shutil.which(binaire) is None:
-            print(f"ECHEC — TRAITEMENT INTERROMPU : {binaire} introuvable sur "
-                  "ce poste.", file=sys.stderr)
-            return 3
+    global MOTEUR
+    MOTEUR = charger(options.moteur, options.config)
+    MOTEUR.verifier()
+    if not MOTEUR.journal_disponible:
+        raise ErreurMoteur(
+            "ce service ffmpeg ne rend pas le journal d'execution. Sans lui, "
+            "loudnorm ne peut pas fonctionner en deux passes (les mesures de "
+            "la 1re passe s'y trouvent) et les controles 11 (loudness) et 12 "
+            "(vrai pic) sont invérifiables. Choisir un service qui rend le "
+            "flux d'erreur de ffmpeg, ou monter en local.")
 
     csv_path = Path(options.csv)
     ligne = lire_ligne_csv(csv_path, options.chaine, options.slug)
@@ -492,6 +501,11 @@ def main() -> int:
                            default="auto")
     analyseur.add_argument("--pause", type=int, default=PAUSE_DEFAUT,
                            help="respiration entre segments, en ms")
+    analyseur.add_argument("--moteur", choices=("local", "api"),
+                           default="local",
+                           help="binaire local ou service ffmpeg distant")
+    analyseur.add_argument("--config", default="podcasts/ffmpeg-api.json",
+                           help="configuration du service (--moteur api)")
     analyseur.add_argument("--plateforme", default="[À DÉFINIR]")
     analyseur.add_argument("--json", help="ecrit le compte rendu en JSON")
     analyseur.add_argument("--dry-run", action="store_true")
@@ -505,6 +519,10 @@ def main() -> int:
         analyseur.error("--chaine et --slug sont requis")
     try:
         return traiter(options)
+    except ErreurMoteur as erreur:
+        print(f"\nECHEC — TRAITEMENT INTERROMPU (moteur) : {erreur}",
+              file=sys.stderr)
+        return 3
     except RuntimeError as erreur:
         print(f"\nECHEC — TRAITEMENT INTERROMPU : {erreur}", file=sys.stderr)
         return 2

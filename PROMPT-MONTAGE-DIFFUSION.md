@@ -134,10 +134,49 @@ légales, et c'est ce qui rend l'ensemble du dispositif défendable.
 ## 3. Phase B — Montage, contrôle, compte rendu
 
 ```bash
+# ffmpeg installé sur le poste
 python3 tools/podcast_montage.py --chaine victimes --slug <slug>
+
+# ffmpeg derrière une API
+python3 tools/podcast_montage.py --chaine victimes --slug <slug> \
+    --moteur api --config podcasts/ffmpeg-api.json
+
 # options : --debit 128 | --canaux stereo | --pause 0 | --outro <fichier>
-#           --json rapport.json | --dry-run
+#           --json rapport.json | --dry-run | --garder-travail
 ```
+
+### Le moteur d'exécution est interchangeable
+
+Toute la chaîne de traitement passe par une seule interface,
+`Moteur.executer(arguments)` (`tools/ffmpeg_moteur.py`). Deux implémentations :
+`MoteurLocal` appelle les binaires du poste, `MoteurAPI` délègue à un service
+HTTP. **La logique de montage et les quatorze contrôles sont identiques dans
+les deux cas** — seul le lieu d'exécution change.
+
+**Contrat minimal exigé du service** (à vérifier avant de le retenir) :
+
+| Exigence | Pourquoi elle est indispensable |
+|---|---|
+| 1. accepter une **ligne de commande ffmpeg arbitraire**, filtres compris (`loudnorm`, `alimiter`, `concat`, `anullsrc`, `filter_complex`) | un service limité à « convertir A en B » ne sait ni normaliser ni assembler |
+| 2. accepter des fichiers en entrée et rendre le fichier produit | — |
+| 3. **rendre le journal d'exécution** (flux d'erreur de ffmpeg) | `loudnorm` en deux passes lit dans ce journal les mesures de la 1re passe pour les injecter à la 2de |
+| 4. rendre la **sortie standard** pour les commandes `ffprobe` | c'est là qu'arrive le JSON des caractéristiques, sans quoi 8 des 14 contrôles tombent |
+
+⚠️ **Si le service ne rend pas le journal (point 3)**, la normalisation
+retombe à une seule passe — précision de l'ordre de 1 LU au lieu de 0,1 — et
+les contrôles 11 (loudness) et 12 (vrai pic) deviennent **invérifiables**.
+L'outil le détecte via `journal_disponible` et **s'arrête** plutôt que de
+produire un fichier dont la conformité serait invérifiée.
+
+Configuration : copier `podcasts/ffmpeg-api.exemple.json` en
+`podcasts/ffmpeg-api.json` (ignoré par git) et l'adapter. **La clé d'API n'y
+figure jamais** : le fichier ne porte que le *nom* de la variable
+d'environnement qui la contient (règle 5 du `CLAUDE.md`).
+
+Convention de lecture des arguments par `MoteurAPI` : les valeurs suivant
+`-i` sont des entrées à téléverser, le dernier argument est le fichier à
+récupérer — sauf `-` (passes de mesure, aucun fichier produit) et sauf pour
+`ffprobe`, dont le dernier argument est au contraire une entrée.
 
 Le script enchaîne, dans cet ordre :
 
@@ -163,7 +202,7 @@ entreraient en collision dans un même dossier ou un même flux.
 |---|---|
 | 0 | tous les contrôles passés — fichier prêt |
 | 2 | traitement interrompu (source absente, illisible, appariement incertain) |
-| 3 | ffmpeg ou ffprobe absent du poste |
+| 3 | panne de moteur : ffmpeg absent du poste, API injoignable ou mal configurée, clé absente de l'environnement, service ne rendant pas le journal |
 | 4 | fichier produit mais **un contrôle a échoué** — ne pas publier |
 
 ---
@@ -214,7 +253,9 @@ récolté) `→ monte` (MP3 final validé) `→ published` (Phase C).
 |---|---|
 | `tools/intro_script.py` | ✅ testé (8/8 vérifications, `--self-test`) |
 | `tools/podcast_montage.py` — logique hors ffmpeg | ✅ testée (11/11, `--self-test`) : nommage, appariement CSV, détection de sources concurrentes, déclenchement des contrôles |
-| `tools/podcast_montage.py` — chaîne ffmpeg réelle | ⚠️ **non exécutée** : ffmpeg est absent de l'environnement d'atelier et n'y est pas installable. À valider sur votre poste lors du premier épisode pilote, avec `--garder-travail` pour inspecter les fichiers intermédiaires |
+| `tools/ffmpeg_moteur.py` — convention entrées/sorties | ✅ testée (10/10) : passes de mesure sans sortie, encodage, assemblage à trois entrées, cas `ffprobe`, refus d'une clé absente de l'environnement |
+| `tools/podcast_montage.py` — chaîne ffmpeg réelle | ⚠️ **non exécutée** : ffmpeg est absent de l'environnement d'atelier et n'y est pas installable. À valider au premier épisode pilote, avec `--garder-travail` pour inspecter les fichiers intermédiaires |
+| `MoteurAPI` — dialogue HTTP réel | ⚠️ **non exécuté** : le service n'est pas encore désigné. Le transport (téléversement multipart, soumission, sondage d'état, récupération) est écrit contre le contrat ci-dessus et sera à confronter au service retenu |
 
 Le pilote de la chaîne victimes est donc aussi le test grandeur nature du
 montage : prévoir d'écouter le raccord intro → débat, et de vérifier le
