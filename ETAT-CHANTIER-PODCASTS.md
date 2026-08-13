@@ -220,10 +220,16 @@ le fichier, décroissance naturelle sur la dernière demi-seconde — il ne se
 coupe pas au milieu d'un mot.
 
 **Il dure 14 min 35, alors que la consigne demandait « moins de 5 min ».**
-L'épisode monté fait donc **16 min 02** au lieu des 6 à 7 minutes visées. Le
-carnet de calibration attendait 2:00–5:30. NotebookLM n'a pas suivi la
-contrainte de durée — décision éditoriale en attente : accepter des épisodes
-longs, ou resserrer la consigne et régénérer.
+L'épisode monté fait donc **16 min 02** au lieu des 6 à 7 minutes visées.
+
+→ **Arbitrage de Me Humbert (2026-08-13) : durée acceptée, à titre
+exceptionnel, pour cet épisode.** La consigne « Moins de 5 min » reste en
+vigueur pour la suite.
+
+Le texte du champ n'est donc pas le levier de la durée : il a été ignoré. Au
+prochain épisode, vérifier si le dialogue « Personnaliser » offre un choix de
+DURÉE (*Plus court* / *Shorter*) en français — le référentiel le donne comme
+parfois absent. C'est l'écart n° 1 du carnet de calibration.
 
 **Un cinquième défaut, révélé par ce contenu réel :** le montage a échoué sur
 le contrôle de vrai pic, à **−0,35 dBTP** pour un plafond de −1,5. Le limiteur
@@ -358,6 +364,21 @@ Arborescence attendue sous `--racine` :
    pas installer ffmpeg localement.
 7. **Mention « premier avocat certifié en IA de France »** : écartée, à sa
    main.
+8. **Durée des épisodes.** Le pilote fait 16 min 02 — accepté à titre
+   exceptionnel. Si NotebookLM continue d'ignorer la consigne « moins de
+   5 min », faut-il l'accepter comme format de la série, ou chercher le levier
+   dans le dialogue « Personnaliser » (choix de DURÉE) ? Un débat de quinze
+   minutes n'est pas le même produit qu'un épisode de six.
+
+### Décisions déjà prises, pour mémoire
+
+| Décision | Date | Effet |
+|---|---|---|
+| Le débat **oriente** vers l'avocat, l'outro **convertit** | 2026-08-13 | fiche cabinet + personnalisation réécrites |
+| Durée du pilote acceptée à 16 min | 2026-08-13 | exception ; consigne « moins de 5 min » maintenue |
+| Générique : *Intro YouTube* (Kulakovka, Pixabay), entrée à 11,70 s | 2026-08-13 | licence archivée, `--debut-musique 11.7` |
+| Voicebox remplace ElevenLabs, en local | 2026-08-13 | aucun texte ne sort de la machine |
+| Nathalie et Nicolas jamais présentés comme des voix de synthèse | 2026-08-13 | « ils ne sont pas avocats, ce sont les deux voix de l'émission » |
 
 ---
 
