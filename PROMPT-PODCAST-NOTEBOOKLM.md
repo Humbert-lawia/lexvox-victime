@@ -231,38 +231,67 @@ y compris avec une question de 130 caractères — la borne haute autorisée par
 
 | Chaîne | Cadre seul | Avec une question de 130 |
 |---|---|---|
-| victimes | 359 car | 489 car |
-| famille | 364 car | 494 car |
-| permis | 364 car | 494 car |
+| victimes | 312 car | 442 car |
+| famille | 301 car | 431 car |
+| permis | 287 car | 417 car |
 
 *(La limite de 500 est celle du référentiel ; elle reste à confirmer au premier
 pilote — case prévue dans `podcasts/CALIBRATION-NOTEBOOKLM.md`.)*
 
-### Personnalisation — chaîne VICTIMES
+### Le champ ne peut pas tout porter — la fiche prend le relais
+
+Le champ de personnalisation est étroit. Tout y mettre était impossible : la
+version complète, avec l'appel à l'action détaillé et la séparation des rôles
+de chaque source, atteignait **816 caractères**.
+
+D'où le partage retenu : **ce qui ne change pas d'un épisode à l'autre vit
+dans la fiche cabinet** — un PDF, sans limite de longueur, que NotebookLM lit
+comme source. Le champ ne garde que ce qu'il est seul à pouvoir porter.
+
+| Dans le champ (change à chaque épisode, ou indispensable) | Dans la fiche (invariant) |
+|---|---|
+| la question du jour | comment mener la discussion |
+| le genre des deux voix — irrécupérable autrement | l'explication de chaque terme juridique |
+| l'analyse tirée du seul article | l'angle éditorial de la chaîne |
+| l'orientation finale vers l'avocat | la formulation de conclusion, et ses interdits |
+
+Les deux se recoupent volontairement sur l'essentiel : le champ est le canal
+d'instruction, la fiche n'est qu'une source. Rien ne garantit qu'un modèle
+suive à la lettre une consigne écrite dans un document ; l'écrire aux deux
+endroits est la seule façon de ne pas dépendre de ce pari.
+
+### Personnalisation — chaîne VICTIMES (312 car + question)
 
 > Dialogue à deux : Nathalie, juriste pédagogue (FEMME), et Nicolas,
 > journaliste curieux (HOMME). Prénoms seuls. Répondez à : « **{QUESTION}** »
-> Sources : l'article et la fiche cabinet, rien d'autre. Vulgarisez tout terme
-> juridique. Montrez les pièges de sous-évaluation par les assureurs. Moins de
-> 5 min. Concluez sur le fond, SANS message commercial : l'avocat parle après.
+> Analyse tirée de l'ARTICLE seul. Concluez en orientant vers Maître Humbert,
+> spécialiste du dommage corporel depuis vingt ans — sans tarif ni téléphone,
+> il parle après. Moins de 5 min.
 
-### Personnalisation — chaîne FAMILLE
+### Personnalisation — chaîne FAMILLE (301 car + question)
 
-> Dialogue à deux : Nathalie, juriste pédagogue (FEMME), et Nicolas,
-> journaliste curieux (HOMME). Prénoms seuls. Répondez à : « **{QUESTION}** »
-> Sources : l'article et la fiche cabinet, rien d'autre. Vulgarisez tout terme
-> juridique. Montrez les enjeux concrets d'un divorce ou d'une séparation.
-> Moins de 5 min. Concluez sur le fond, SANS message commercial : l'avocat
-> parle après.
-
-### Personnalisation — chaîne PERMIS
+⚠️ Gabarit **non validé** : le signataire de cette chaîne est Me Cédrine
+Raybaud, et aucune spécialisation CNB n'y est revendiquée — d'où
+« expérimentée en droit de la famille », et non « spécialiste ». À valider
+par elle avant tout épisode.
 
 > Dialogue à deux : Nathalie, juriste pédagogue (FEMME), et Nicolas,
 > journaliste curieux (HOMME). Prénoms seuls. Répondez à : « **{QUESTION}** »
-> Sources : l'article et la fiche cabinet, rien d'autre. Vulgarisez tout terme
-> juridique. Montrez les délais à ne pas manquer et les recours possibles.
-> Moins de 5 min. Concluez sur le fond, SANS message commercial : l'avocat
-> parle après.
+> Analyse tirée de l'ARTICLE seul. Concluez en orientant vers Maître Raybaud,
+> expérimentée en droit de la famille — sans tarif ni téléphone, elle parle
+> après. Moins de 5 min.
+
+### Personnalisation — chaîne PERMIS (287 car + question)
+
+⚠️ Gabarit **non validé** : le signataire est l'associé de Me Humbert, dont
+le nom reste à arrêter. Aucune spécialisation CNB revendiquée en droit
+routier.
+
+> Dialogue à deux : Nathalie, juriste pédagogue (FEMME), et Nicolas,
+> journaliste curieux (HOMME). Prénoms seuls. Répondez à : « **{QUESTION}** »
+> Analyse tirée de l'ARTICLE seul. Concluez en orientant vers l'avocat du
+> cabinet qui signe l'article — sans tarif ni téléphone, il parle après.
+> Moins de 5 min.
 
 ### Ce que chaque phrase fait, et pourquoi ne pas la retirer
 
@@ -271,9 +300,9 @@ pilote — case prévue dans `podcasts/CALIBRATION-NOTEBOOKLM.md`.)*
 | `Nathalie … (FEMME)` / `Nicolas … (HOMME)` | deux voix du même genre, ou les prénoms intervertis d'un épisode à l'autre |
 | `Prénoms seuls` | des animateurs qui se donnent du « maître » et passent pour des avocats du cabinet |
 | `Répondez à : « … »` | un débat qui part ailleurs que la question annoncée en intro |
-| `Sources : l'article et la fiche cabinet, rien d'autre` | du droit inventé, ou puisé dans la culture générale du modèle |
-| `Vulgarisez tout terme juridique` | « DFP », « Dintilhac », « consolidation » lâchés sans explication |
-| `SANS message commercial` | un appel à l'action dit deux fois — le débat puis l'avocat dans l'outro |
+| `Analyse tirée de l'ARTICLE seul` | du droit inventé, ou puisé dans la culture générale du modèle — la fiche n'est pas une source de droit |
+| `Concluez en orientant vers…` | un épisode qui s'achève sans que l'auditeur sache vers qui aller |
+| `sans tarif ni téléphone, il parle après` | l'appel à l'action dit **deux fois de suite** — par les hôtes, puis par l'avocat dans l'outro |
 
 ### Fiches cabinet (source n° 2, PDF téléversé)
 

@@ -4,7 +4,9 @@
 
 Ce document accompagne l'article commenté dans cet épisode. Il ne contient
 aucune analyse juridique : il sert uniquement à présenter l'auteur de
-l'article et le cabinet, et il indique comment terminer l'émission. Toute l'analyse du sujet doit venir de l'article lui-même.
+l'article et le cabinet, à dire comment mener la discussion et comment
+terminer l'émission. **Toute l'analyse du sujet vient de l'article
+lui-même.**
 
 ## L'auteur des articles
 
@@ -54,13 +56,51 @@ Le débat est animé par deux personnes, les mêmes dans tous les épisodes :
 l'auditeur. Nathalie parle avec une voix féminine, Nicolas avec une voix
 masculine, et ils s'appellent par leur prénom au fil de la discussion.
 
+## Comment mener la discussion
+
+**Toute l'analyse du sujet vient de l'article, et de lui seul.** Le présent
+document ne contient aucune règle de droit : n'en tirez ni délai, ni
+condition, ni montant, ni procédure. Il sert uniquement à savoir qui est
+l'auteur de l'article et comment terminer l'émission.
+
+N'ajoutez rien qui ne figure ni dans l'article ni ici. Un point de droit
+inventé, même plausible, engage la responsabilité d'un avocat.
+
+Expliquez chaque terme juridique au moment où il apparaît — « déficit
+fonctionnel permanent », « consolidation », « nomenclature Dintilhac » ne
+disent rien à qui les entend pour la première fois. Montrez ce qui se joue
+concrètement pour la victime, et notamment les pièges de sous-évaluation des
+préjudices par les compagnies d'assurance.
+
 ## Comment terminer l'émission
 
-Les hôtes concluent la discussion sur le fond, en une ou deux phrases, puis
-s'arrêtent. Ils ne prononcent **aucun message commercial** : pas d'invitation
-à prendre rendez-vous, pas de tarif, pas de numéro de téléphone, pas
-d'adresse de cabinet. L'avocat reprend lui-même la parole juste après la fin
-du débat, avec sa propre voix, pour s'adresser aux auditeurs.
+Les hôtes concluent d'abord la discussion sur le fond, en une ou deux
+phrases. Puis ils invitent l'auditeur à ne pas rester seul avec son dossier
+et à se faire accompagner par l'auteur de l'article, **Maître Patrice
+Humbert**, avocat spécialiste en droit du dommage corporel, qui défend les
+victimes — et jamais les assureurs — depuis plus de vingt ans.
+
+Une formulation possible, à adapter :
+
+> « Un dernier mot : ce genre de dossier ne se joue pas tout seul. L'auteur
+> de cet article, Maître Patrice Humbert, est avocat spécialiste en droit du
+> dommage corporel ; il défend des victimes depuis plus de vingt ans, et
+> jamais les assureurs. Si vous êtes concerné, faites-vous accompagner. Il
+> vous en dit un mot tout de suite. »
+
+Ce qu'ils ne font **jamais** :
+
+- **aucun tarif, aucun numéro de téléphone, aucune adresse de cabinet, aucune
+  invitation à prendre rendez-vous.** L'avocat reprend la parole avec sa
+  propre voix immédiatement après, et dit tout cela lui-même. L'entendre deux
+  fois de suite sonnerait comme une réclame ;
+- **aucune promesse de résultat** : ni « vous obtiendrez », ni « il vous fera
+  gagner », ni montant d'indemnisation. On oriente vers un professionnel, on
+  ne garantit rien ;
+- **aucune comparaison** avec d'autres avocats ou cabinets.
+
+Les hôtes orientent vers l'avocat ; ils ne le vantent pas. Ils ne sont pas
+avocats eux-mêmes, et l'émission le dit en introduction.
 
 <!-- FIN DU DOCUMENT PDF -->
 
@@ -69,6 +109,15 @@ du débat, avec sa propre voix, pour s'adresser aux auditeurs.
 ## Notes internes (hors document diffusé)
 
 Statut : **contenu déontologique validé par Me Humbert le 2026-08-13.**
+
+**Modification du 2026-08-13 (demande de Me Humbert) : le débat oriente
+désormais vers l'avocat en fin d'émission**, alors qu'il se taisait
+entièrement sur ce point. L'appel à l'action opérationnel — rendez-vous
+gratuit, quatre bureaux, honoraires, téléphone — reste dans l'outro, dit par
+l'avocat lui-même : le débat *oriente*, l'outro *convertit*. Les deux hôtes
+n'étant pas avocats et étant produits par le cabinet, ils orientent sans
+vanter, sans comparer et sans rien promettre (RIN art. 10.2 ; art. 10 loi
+n° 71-1130).
 
 Arbitrages appliqués (cf. `PLAN-PODCASTS-2026-08.md` §2.4) :
 - **Mention IA** : variante factuelle (« avocat certifié en intelligence
