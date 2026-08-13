@@ -95,8 +95,12 @@ PRONONCIATION = (
 
 
 def appliquer_prononciation(texte: str) -> str:
+    """Applique la table, meme quand l'expression est coupee par un retour
+    a la ligne : les gabarits sont mis en forme pour l'oeil, et « LEXVOX
+    AVOCATS » se retrouve souvent a cheval sur deux lignes."""
     for ecrit, dit in PRONONCIATION:
-        texte = texte.replace(ecrit, dit)
+        motif = r"\s+".join(re.escape(mot) for mot in ecrit.split())
+        texte = re.sub(motif, dit, texte)
     return texte
 
 
@@ -121,9 +125,13 @@ def extraire_gabarit(chemin: Path) -> str:
 
 
 def composer(gabarit: str, titre: str, sujet: str, bloc: str = "intro",
-             question: str = "") -> str:
+             question: str = "", avocat: str = "") -> str:
     texte = (gabarit.replace("{titre}", titre).replace("{sujet}", sujet)
              .replace("{question}", question))
+    # {avocat} n'existe que la ou le signataire n'est pas fixe par la chaine.
+    # Laisse en place si non fourni : le controle ci-dessous le signalera.
+    if avocat:
+        texte = texte.replace("{avocat}", avocat)
     restants = re.findall(r"\{(\w+)\}", texte)
     if restants:
         raise RuntimeError(f"variables non remplacees : {', '.join(restants)}")
@@ -199,7 +207,14 @@ def generer(options) -> int:
     else:
         # l'outro est fixe par chaine : aucune variable d'episode
         titre, sujet = titre or "", sujet or ""
-    texte = composer(gabarit, titre, sujet, bloc, options.question or "")
+    if "{avocat}" in gabarit and not options.avocat:
+        raise RuntimeError(
+            f"la chaine « {options.chaine} » n'a pas de signataire fixe : "
+            "passer --avocat \"Maître Prénom Nom\". C'est l'avocat qui traite "
+            "cette matiere qui presente l'emission, et c'est sa voix clonee "
+            "qui doit la dire.")
+    texte = composer(gabarit, titre, sujet, bloc, options.question or "",
+                     options.avocat or "")
     dit = texte if options.sans_phonetique else appliquer_prononciation(texte)
 
     print(dit)
@@ -321,6 +336,14 @@ def self_test() -> int:
              == "Maître Patrice Imbert")
     verifier("sigle adouci",
              "Lexvox Avocats" in appliquer_prononciation("LEXVOX AVOCATS"))
+    verifier("sigle coupe par un retour a la ligne",
+             appliquer_prononciation("cabinet LEXVOX\nAVOCATS.")
+             == "cabinet Lexvox Avocats.")
+    verifier("aucun sigle majuscule residuel",
+             not any(mot in appliquer_prononciation(
+                 extraire_gabarit(GABARITS / f"SCRIPT-INTRO-{c}.md"))
+                 for c in ("victimes", "famille", "permis")
+                 for mot in ("LEXVOX", "AVOCATS", "LEXVICTIME")))
 
     # decoupage en segments
     segments = decouper(composer(gabarit, "T", "s", "intro", "Question ?"))
@@ -345,7 +368,7 @@ def self_test() -> int:
             try:
                 texte = composer(extraire_gabarit(chemin), "Titre d'essai",
                                  "un sujet d'essai", bloc,
-                                 "Une question d'essai ?")
+                                 "Une question d'essai ?", "Maître Essai")
                 if bloc == "intro":
                     for prenom in ("Nathalie", "Nicolas"):
                         if prenom not in texte:
@@ -379,6 +402,9 @@ def main() -> int:
     analyseur.add_argument("--question",
                            help="accroche interrogative dont la reponse est "
                                 "l'article (cf. PROMPT-INTRO-VOIX.md)")
+    analyseur.add_argument("--avocat",
+                           help="signataire de l'episode, pour les chaines "
+                                "dont le gabarit porte {avocat} (permis)")
     analyseur.add_argument("--csv", default="podcasts/queue-podcast.csv")
     analyseur.add_argument("--sortie", help="ecrit le script dans un fichier")
     analyseur.add_argument("--segments",

@@ -1,24 +1,15 @@
 # Script d'introduction — chaîne PERMIS
 
-> 🛑 **NE PAS ENREGISTRER EN L'ÉTAT — signataire à confirmer.**
->
-> Me Humbert a indiqué le 2026-08-13 qu'il s'occupe **exclusivement des
-> victimes** et que le droit routier est traité par un associé. Or
-> `lexvox-permis.com` dit l'inverse : il y est présenté avec « plus de 20 ans
-> d'expérience **exclusive en droit pénal routier** », et la page ajoute
-> « Me Humbert examine systématiquement la régularité de la procédure ». La
-> seule autre avocate nommée sur ce site est **Me Cédrine Raybaud**
-> (spécialiste en droit de la famille, Master en droit pénal,
-> co-fondatrice) — mais rien ne lui attribue le contentieux routier.
->
-> Le gabarit ci-dessous fait donc dire à Me Humbert une phrase qui est
-> peut-être fausse, et qui le serait 24 fois. Deux réponses à donner avant
-> d'aller plus loin : **qui présente la chaîne permis**, et **quel site
-> corriger** — celui qui revendique l'exclusivité victimes, ou celui qui
-> revendique l'exclusivité routière. Je répercute ensuite ici.
+Le droit routier est traité par **l'associé** de Me Humbert, qui s'occupe
+exclusivement des victimes. C'est donc l'associé qui présente cette chaîne :
+son nom se passe en paramètre, il n'est pas écrit en dur dans le gabarit.
 
-Texte lu par **Me Patrice Humbert** (sous réserve ci-dessus), avec sa voix
-clonée dans **Voicebox** (synthèse locale, sur le poste du cabinet).
+```bash
+--avocat "Maître Prénom Nom"
+```
+
+Texte lu avec la voix clonée de cet avocat dans **Voicebox** (synthèse
+locale, sur le poste du cabinet).
 
 Émission : **Permis en danger**. ⚠️ La chaîne victimes a été rebaptisée
 **LEXVICTIMES** ; dites-le si vous voulez une famille de titres cohérente.
@@ -56,8 +47,8 @@ l'introduction parle d'expérience, pas de titre.
 {question}
 
 Bienvenue dans « Permis en danger », le podcast du cabinet LEXVOX
-AVOCATS. Je suis Maître Patrice Humbert, avocat au Barreau
-d'Aix-en-Provence. Je défends les conducteurs depuis plus de vingt ans.
+AVOCATS. Je suis {avocat}, du Barreau d'Aix-en-Provence. Je défends les
+conducteurs devant le tribunal correctionnel et le tribunal de police.
 
 Aujourd'hui : {sujet}. Tout part de mon article « {titre} », que vous
 retrouvez sur le site du cabinet.

@@ -54,11 +54,16 @@ dossier** vers **le déséquilibre d'information**, qui est réel et vérifiable
 
 | | Version | Ton |
 |---|---|---|
-| **1** | *« Et je vais vous faire une confidence : en face, personne ne vous dira jamais ce que vous êtes en droit de demander. Alors ce sera moi. »* — **retenue** | audacieux, personnel ; la phrase justifie l'existence de l'émission |
-| 2 | *« L'assureur, lui, a ses experts, ses médecins et ses avocats. Vous, vous avez des droits — encore faut-il savoir lesquels. »* | pose le rapport de force, très factuel |
-| 3 | *« Retenez ceci : face à un assureur, ce que vous ignorez ne se retourne jamais contre lui. »* | le plus court, le plus tranchant |
-| 4 | *« Une conviction, après vingt ans : ce n'est pas le dossier le plus grave qui est le mieux indemnisé, c'est le mieux défendu. »* | le plus fort — **et le plus exposé** : il parle d'indemnisation, donc à manier en connaissance de cause |
+| **1** | *« Et je vais vous faire une confidence : ce n'est pas le dossier le plus grave qui est le mieux indemnisé, c'est le mieux défendu. »* — **RETENUE, choix de Me Humbert du 2026-08-13** | la plus forte : elle dit en une phrase pourquoi l'assistance change l'issue |
+| 2 | *« Et je vais vous faire une confidence : en face, personne ne vous dira jamais ce que vous êtes en droit de demander. Alors ce sera moi. »* | audacieux, personnel ; justifie l'existence de l'émission |
+| 3 | *« L'assureur, lui, a ses experts, ses médecins et ses avocats. Vous, vous avez des droits — encore faut-il savoir lesquels. »* | pose le rapport de force, très factuel |
+| 4 | *« Retenez ceci : face à un assureur, ce que vous ignorez ne se retourne jamais contre lui. »* | le plus court, le plus tranchant |
 | 5 | *« L'indemnisation, ça ne se demande pas poliment. Ça se prépare. »* | sec, mémorable, se retient dès le premier épisode |
+
+La formule retenue énonce une **règle générale sur la conduite d'un dossier**,
+au présent de vérité générale, sans « vous » ni promesse adressée à
+l'auditeur : c'est ce qui la distingue d'un engagement de résultat. Elle ne
+doit donc jamais être reformulée en « votre dossier sera mieux indemnisé ».
 
 ### Ce que le jingle met en avant, et d'où ça vient
 
@@ -123,8 +128,8 @@ Humbert, avocat au Barreau d'Aix-en-Provence, titulaire du certificat de
 spécialisation du Conseil national des barreaux en droit du dommage corporel.
 Depuis plus de vingt ans, je consacre mon activité à la seule défense des
 victimes — dommage corporel et responsabilité médicale — face aux compagnies
-d'assurance. Et je vais vous faire une confidence : en face, personne ne vous
-dira jamais ce que vous êtes en droit de demander. Alors ce sera moi.
+d'assurance. Et je vais vous faire une confidence : ce n'est pas le dossier le
+plus grave qui est le mieux indemnisé, c'est le mieux défendu.
 
 Aujourd'hui : {sujet}. Tout part de mon article « {titre} », que vous
 retrouvez sur le site du cabinet.
