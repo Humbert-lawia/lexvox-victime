@@ -104,7 +104,10 @@ les 24 épisodes de la chaîne.
 | `tools/voix_script.py` | produit les textes dits par l'avocat, découpe l'intro en 3 segments, applique la phonétique, refuse un script altéré. `--self-test` : **45/45** |
 | `tools/voix_moteur.py` | moteur de synthèse : `aucun` / `manuel` (écrit les .txt à coller) / `voicebox` (HTTP, local **ou distant authentifié**). `--self-test` : **35/35**, `--diagnostic` interroge l'instance |
 | `tools/podcast_episode.py` | **une seule commande** : outro + segments + montage. `--self-test` : **6/6** |
-| `CONNEXION-VOICEBOX.md` | comment piloter Voicebox depuis une session distante — tunnel **authentifié**, secrets en variables d'environnement |
+| `tools/poste_verifier.py` | vérifie que le poste a tout (ffmpeg, Voicebox, config, musique) et explique chaque manque en français. `--self-test` : **12/12** |
+| `tools/voicebox_tunnel.py` | publie Voicebox derrière Cloudflare Tunnel + Access, portail posé **avant** le DNS. `--self-test` : **9/9** |
+| `GUIDE-POSTE-MAC.md` | **la voie recommandée** : installer Claude sur le Mac du cabinet, 4 étapes, aucun tunnel |
+| `CONNEXION-VOICEBOX.md` | l'alternative : piloter Voicebox depuis une session distante — tunnel **authentifié**, secrets en variables d'environnement |
 | `tools/podcast_montage.py` | montage ffmpeg complet : appariement, loudness 2 passes, générique musical, concaténation, limiteur, MP3, 14 contrôles qualité. `--self-test` : **29/29** |
 | `tools/ffmpeg_moteur.py` | binaire local ou service HTTP distant, même contrat. `--self-test` : **10/10** (sans option) |
 | `PROMPT-INTRO-VOIX.md` | le prompt à copier une fois par épisode — produit **la question du jour**, rien d'autre |
