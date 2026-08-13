@@ -4,8 +4,7 @@
 
 Ce document accompagne l'article commenté dans cet épisode. Il ne contient
 aucune analyse juridique : il sert uniquement à présenter l'auteure de
-l'article et le cabinet, et il fournit la conclusion à prononcer à la fin de
-l'émission. Toute l'analyse du sujet doit venir de l'article lui-même.
+l'article et le cabinet, et il indique comment terminer l'émission. Toute l'analyse du sujet doit venir de l'article lui-même.
 
 ## L'auteure des articles
 
@@ -42,8 +41,6 @@ fixe, annoncé lors de la prise de rendez-vous. Si la personne décide ensuite
 de confier son dossier, une convention d'honoraires est signée avant toute
 intervention : tout est écrit et connu à l'avance.
 
-Le cabinet peut être joint au 04 90 54 58 10, et son site est
-lexvox-divorce.com.
 
 ## Précision à donner si l'épisode aborde des violences conjugales
 
@@ -60,20 +57,13 @@ Le débat est animé par deux personnes, les mêmes dans tous les épisodes :
 l'auditeur. Nathalie parle avec une voix féminine, Nicolas avec une voix
 masculine, et ils s'appellent par leur prénom au fil de la discussion.
 
-## Conclusion à prononcer à la fin de l'émission
+## Comment terminer l'émission
 
-Les hôtes consacrent les trente dernières secondes de l'émission à cette
-conclusion, dont ils reprennent fidèlement le contenu :
-
-> Un divorce ou une séparation se prépare : ne prenez pas seul les décisions
-> qui engageront vos années à venir. Maître Cédrine Raybaud, avocate
-> spécialiste en droit de la famille certifiée par le Conseil National des
-> Barreaux, vous reçoit dans les bureaux du cabinet LEXVOX à
-> Aix-en-Provence, Salon-de-Provence, Arles et Marignane, ou à distance. La
-> première consultation dure trente minutes, à un tarif fixe annoncé lors de
-> la prise de rendez-vous ; les honoraires sont ensuite fixés par une
-> convention signée à l'avance. Prenez rendez-vous sur lexvox-divorce.com,
-> ou appelez le 04 90 54 58 10.
+Les hôtes concluent la discussion sur le fond, en une ou deux phrases, puis
+s'arrêtent. Ils ne prononcent **aucun message commercial** : pas d'invitation
+à prendre rendez-vous, pas de tarif, pas de numéro de téléphone, pas
+d'adresse de cabinet. L'avocat reprend lui-même la parole juste après la fin
+du débat, avec sa propre voix, pour s'adresser aux auditeurs.
 
 <!-- FIN DU DOCUMENT PDF -->
 

@@ -6,7 +6,7 @@ Seules les variables `{titre}` et `{sujet}` changent d'un épisode à l'autre.
 Générer le texte d'un épisode :
 
 ```bash
-python3 tools/intro_script.py --chaine victimes --slug <slug> \
+python3 tools/voix_script.py --chaine victimes --slug <slug> \
   --sujet "la contre-visite médicale" --sortie intro-victimes-01-<slug>.txt
 ```
 

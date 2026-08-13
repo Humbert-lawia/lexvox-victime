@@ -5,7 +5,7 @@ Texte lu par **Me Patrice Humbert**, avec sa voix clonée dans ElevenLabs.
 Générer le texte d'un épisode :
 
 ```bash
-python3 tools/intro_script.py --chaine permis --slug <slug> \
+python3 tools/voix_script.py --chaine permis --slug <slug> \
   --sujet "la contestation d'un éthylomètre" --sortie intro-permis-01-<slug>.txt
 ```
 

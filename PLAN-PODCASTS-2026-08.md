@@ -11,9 +11,9 @@ Fichiers liés :
   dans une session Claude **sur le poste de Me Humbert** (voir §3.1).
 - `PROMPT-MONTAGE-DIFFUSION.md` — l'étape aval : intro ElevenLabs dans la
   voix de l'avocat + corps NotebookLM → MP3 diffusable, avec
-  `tools/intro_script.py` et `tools/podcast_montage.py`.
-- `podcasts/intro-elevenlabs/SCRIPT-INTRO-<chaine>.md` — les gabarits d'intro
-  lus par la voix clonée.
+  `tools/voix_script.py` et `tools/podcast_montage.py`.
+- `podcasts/voix-elevenlabs/SCRIPT-INTRO-<chaine>.md` et `SCRIPT-OUTRO-<chaine>.md`
+  — les gabarits lus par la voix clonée de l'avocat.
 - `podcasts/queue-podcast.csv` — **le** fichier d'état, unique pour les trois
   chaînes (colonne `chaine`), rempli une seule fois depuis Search Console.
 - `podcasts/fiche-cabinet-victimes.md` / `-famille.md` / `-permis.md` — la
@@ -42,9 +42,12 @@ Chaque chaîne = 24 épisodes (les 24 meilleurs articles GSC), un notebook
 NotebookLM par article, un épisode < 5 min par notebook. Total : 72 épisodes,
 soit **4 journées de production** au quota de 20 générations/jour (§3.4).
 
-Chaque épisode est composé de deux blocs assemblés : une **introduction de
-25–35 s dite par l'avocat lui-même** (voix clonée ElevenLabs), puis le débat
-NotebookLM. Les deux animateurs du débat sont les mêmes dans les trois
+Chaque épisode est composé de trois blocs assemblés : une **introduction de
+25–35 s dite par l'avocat lui-même** (voix clonée ElevenLabs), le débat
+NotebookLM, puis une **outro de 25–35 s** dans la même voix réelle, qui porte
+l'appel à l'action — le débat ne le récite donc plus, et l'outro étant
+identique pour toute une chaîne, trois enregistrements couvrent les
+72 épisodes. Les deux animateurs du débat sont les mêmes dans les trois
 chaînes : **Nathalie**, la juriste pédagogue, et **Nicolas**, le journaliste
 curieux — deux voix de synthèse que l'introduction présente nommément et
 annonce comme telles (cf. `PROMPT-MONTAGE-DIFFUSION.md` §1 et §A3).
@@ -297,7 +300,7 @@ et la Phase 4 (mise en ligne).
 | **1. Sélection** (1 fois/chaîne, ~30 min) | Sur votre poste (Claude in Chrome) : GSC › Performances › 12 mois › Pages › export ; fusion/filtre/tri ; top 24 ajoutés au CSV avec leur `chaine` | Claude in Chrome (vous en survol) | `podcasts/queue-podcast.csv` rempli et commité |
 | **2. Pilote autonome** (1 épisode) | L'agent computer use déroule seul UN épisode complet (MODE PILOTE du prompt v3), consigne l'interface réelle dans `podcasts/CALIBRATION-NOTEBOOKLM.md` ; puis **écoute et validation du pilote par vous** (ton, CTA, exactitude) — remplace la démonstration à l'écran, abandonnée (génération ~10 min) | Claude in Chrome, puis Me Humbert (écoute) | Carnet de calibration rempli ; épisode pilote validé |
 | **3. Production** (~2 journées/chaîne) | Claude in Chrome déroule `PROMPT-PODCAST-NOTEBOOKLM.md` en pipeline glissant, 20 générations/jour ; post-traitement ffmpeg ; QA ; CSV mis à jour et commité en fin de session | Claude (vous en survol) | 24 fichiers MP3 normalisés + CSV `done` |
-| **3 bis. Intro + montage** (en parallèle de la production) | Phase A : `tools/intro_script.py` rend le texte, ElevenLabs le fait lire par la voix clonée de l'avocat, fichier nommé au slug. Phase B : `tools/podcast_montage.py` normalise, assemble intro → débat, encode en MP3 et passe les 14 contrôles | Me Humbert (voix) + Claude | `mp3/podcast-<chaine>-<NN>-<slug>.mp3` validés |
+| **3 bis. Intro + montage** (en parallèle de la production) | Phase A : `tools/voix_script.py` rend le texte, ElevenLabs le fait lire par la voix clonée de l'avocat, fichier nommé au slug. Phase B : `tools/podcast_montage.py` normalise, assemble intro → débat, encode en MP3 et passe les 14 contrôles | Me Humbert (voix) + Claude | `mp3/podcast-<chaine>-<NN>-<slug>.mp3` validés |
 | **4. Publication & mesure** | Hébergeur RSS (Spotify for Creators gratuit, ou Ausha, français) → Spotify/Apple/Deezer/YouTube ; intégration `<audio>` + transcription + JSON-LD `AudioObject` sur les pages articles **WordPress** ; pour `lexvox-victime.com` (Sanity) l'intégration = évolution du frontend Next.js, **sur demande expresse uniquement** (règle CLAUDE.md) — en attendant, plateformes seulement ; liens UTM ; revue mensuelle des écoutes dans `podcasts/PODCAST-TRACKER.md` | Claude + webmaster | Épisodes en ligne + tracker |
 | **5. Déclinaison** | Rejouer Phases 1→4 pour Famille puis Permis avec leurs variables (fiches, CTA, sites) | idem | 3 chaînes actives |
 

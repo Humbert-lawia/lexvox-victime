@@ -218,34 +218,34 @@ lexvox-victime.
 
 Chacun tient sous la limite de 500 caractères du champ D3.
 
-### Personnalisation — chaîne VICTIMES (460 caractères)
+### Personnalisation — chaîne VICTIMES (462 caractères)
 
 > Podcast animé par deux personnes : Nathalie, une FEMME, juriste pédagogue
 > (voix féminine), et Nicolas, un HOMME, journaliste curieux (voix masculine).
-> Ils s'appellent par leur prénom. Utilisez uniquement les deux sources :
-> l'article et la fiche cabinet. Vulgarisez chaque terme. Montrez les enjeux
-> de l'article et les pièges de sous-évaluation par les assureurs. Durée :
-> moins de 5 min. Terminez les 30 dernières secondes par la conclusion de la
-> fiche cabinet.
+> Ils s'appellent par leur prénom. Sources : l'article et la fiche cabinet,
+> rien d'autre. Vulgarisez chaque terme. Montrez les enjeux de l'article et
+> les pièges de sous-évaluation par les assureurs. Durée : moins de 5 min.
+> Concluez sur le fond, SANS message commercial ni coordonnées : l'avocat
+> parle juste après.
 
-### Personnalisation — chaîne FAMILLE (452 caractères)
-
-> Podcast animé par deux personnes : Nathalie, une FEMME, juriste pédagogue
-> (voix féminine), et Nicolas, un HOMME, journaliste curieux (voix masculine).
-> Ils s'appellent par leur prénom. Utilisez uniquement les deux sources :
-> l'article et la fiche cabinet. Vulgarisez chaque terme. Montrez les enjeux
-> concrets pour qui traverse un divorce ou une séparation. Durée : moins de 5
-> min. Terminez les 30 dernières secondes par la conclusion de la fiche
-> cabinet.
-
-### Personnalisation — chaîne PERMIS (438 caractères)
+### Personnalisation — chaîne FAMILLE (454 caractères)
 
 > Podcast animé par deux personnes : Nathalie, une FEMME, juriste pédagogue
 > (voix féminine), et Nicolas, un HOMME, journaliste curieux (voix masculine).
-> Ils s'appellent par leur prénom. Utilisez uniquement les deux sources :
-> l'article et la fiche cabinet. Vulgarisez chaque terme. Montrez les délais à
-> ne pas manquer et les recours possibles. Durée : moins de 5 min. Terminez
-> les 30 dernières secondes par la conclusion de la fiche cabinet.
+> Ils s'appellent par leur prénom. Sources : l'article et la fiche cabinet,
+> rien d'autre. Vulgarisez chaque terme. Montrez les enjeux concrets pour qui
+> traverse un divorce ou une séparation. Durée : moins de 5 min. Concluez sur
+> le fond, SANS message commercial ni coordonnées : l'avocat parle juste
+> après.
+
+### Personnalisation — chaîne PERMIS (440 caractères)
+
+> Podcast animé par deux personnes : Nathalie, une FEMME, juriste pédagogue
+> (voix féminine), et Nicolas, un HOMME, journaliste curieux (voix masculine).
+> Ils s'appellent par leur prénom. Sources : l'article et la fiche cabinet,
+> rien d'autre. Vulgarisez chaque terme. Montrez les délais à ne pas manquer
+> et les recours possibles. Durée : moins de 5 min. Concluez sur le fond, SANS
+> message commercial ni coordonnées : l'avocat parle juste après.
 
 ### Fiches cabinet (source n° 2, PDF téléversé)
 

@@ -4,8 +4,7 @@
 
 Ce document accompagne l'article commenté dans cet épisode. Il ne contient
 aucune analyse juridique : il sert uniquement à présenter l'auteur de
-l'article et le cabinet, et il fournit la conclusion à prononcer à la fin de
-l'émission. Toute l'analyse du sujet doit venir de l'article lui-même.
+l'article et le cabinet, et il indique comment terminer l'émission. Toute l'analyse du sujet doit venir de l'article lui-même.
 
 ## L'auteur des articles
 
@@ -51,8 +50,6 @@ stratégie de défense. Si le conducteur décide ensuite de confier son
 dossier, une convention d'honoraires est signée avant toute intervention,
 comprenant une part fixe et un complément calculé sur le résultat obtenu.
 
-Le cabinet peut être joint au 04 90 54 58 10, et son site est
-lexvox-permis.com.
 
 ## Les deux voix de l'émission
 
@@ -62,20 +59,13 @@ Le débat est animé par deux personnes, les mêmes dans tous les épisodes :
 l'auditeur. Nathalie parle avec une voix féminine, Nicolas avec une voix
 masculine, et ils s'appellent par leur prénom au fil de la discussion.
 
-## Conclusion à prononcer à la fin de l'émission
+## Comment terminer l'émission
 
-Les hôtes consacrent les trente dernières secondes de l'émission à cette
-conclusion, dont ils reprennent fidèlement le contenu :
-
-> Si votre permis est en jeu, les délais sont très courts : chaque jour qui
-> passe ferme des options de défense. Maître Patrice Humbert, avocat au
-> Barreau d'Aix-en-Provence, analyse votre procès-verbal et la régularité de
-> la procédure lors d'une première consultation de trente minutes, à un
-> tarif fixe annoncé lors de la prise de rendez-vous. Les honoraires sont
-> ensuite fixés par une convention signée à l'avance, avec une part fixe et
-> un complément au résultat. Le cabinet vous reçoit à Aix-en-Provence,
-> Salon-de-Provence, Arles et Marignane, et répond sous vingt-quatre heures.
-> Prenez contact sur lexvox-permis.com, ou appelez le 04 90 54 58 10.
+Les hôtes concluent la discussion sur le fond, en une ou deux phrases, puis
+s'arrêtent. Ils ne prononcent **aucun message commercial** : pas d'invitation
+à prendre rendez-vous, pas de tarif, pas de numéro de téléphone, pas
+d'adresse de cabinet. L'avocat reprend lui-même la parole juste après la fin
+du débat, avec sa propre voix, pour s'adresser aux auditeurs.
 
 <!-- FIN DU DOCUMENT PDF -->
 

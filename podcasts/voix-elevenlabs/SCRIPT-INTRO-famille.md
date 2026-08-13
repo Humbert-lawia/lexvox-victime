@@ -9,7 +9,7 @@ nom du cabinet.)
 Générer le texte d'un épisode :
 
 ```bash
-python3 tools/intro_script.py --chaine famille --slug <slug> \
+python3 tools/voix_script.py --chaine famille --slug <slug> \
   --sujet "la prestation compensatoire" --sortie intro-famille-01-<slug>.txt
 ```
 

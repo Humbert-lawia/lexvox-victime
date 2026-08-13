@@ -1,4 +1,4 @@
-# PROMPT MONTAGE & DIFFUSION v2 — intro ElevenLabs + corps NotebookLM → MP3 diffusable
+# PROMPT MONTAGE & DIFFUSION v3 — intro + débat + outro → MP3 diffusable
 
 > Réécriture du prompt « Production, contrôle et diffusion automatisée d'un
 > épisode de podcast » (analyse critique en §0). Il s'exécute **sur le poste
@@ -28,7 +28,7 @@ trois statuts : tout cela est repris tel quel.
 1. **Une étape manquait en amont.** Le prompt commence à « deux fichiers
    existent ». Or l'intro ElevenLabs n'existe pas : il faut l'écrire, la faire
    lire par la voix clonée, puis la nommer correctement. C'est la **phase A**
-   ci-dessous, avec `tools/intro_script.py` qui rend le texte de chaque
+   ci-dessous, avec `tools/voix_script.py` qui rend le texte de chaque
    épisode depuis un gabarit.
 2. **Appariement par date = piège.** « Sélectionner les fichiers les plus
    récemment générés » casse dès qu'une génération est relancée ou qu'un
@@ -54,14 +54,32 @@ trois statuts : tout cela est repris tel quel.
    lecteurs. Sans ces options, la consigne §7 du prompt initial est
    silencieusement ignorée.
 
-### Une proposition qui vous appartient : l'outro
+### L'outro — ✅ adopté le 2026-08-13
 
-Le CTA — le moment qui transforme un auditeur en client — est aujourd'hui
-prononcé par NotebookLM, donc soumis à sa bonne volonté. Le dire **dans votre
-vraie voix**, en outro ElevenLabs, le rend certain au mot près et plus
-crédible. Le script accepte déjà `--outro`, l'ordre devenant
-intro → corps → outro (l'intro reste première, votre règle est respectée).
-Décision à prendre : oui/non.
+Le CTA était prononcé par NotebookLM, donc soumis à sa bonne volonté. Il est
+désormais dit **dans la vraie voix de l'avocat**, en outro ElevenLabs :
+certain au mot près, et plus crédible. L'ordre devient **intro → corps →
+outro** ; l'intro reste première, la règle initiale est respectée.
+
+Trois conséquences, dont la première est la plus importante :
+
+1. **Le débat ne récite plus aucune conclusion commerciale.** Sinon le CTA
+   serait dit deux fois, une fois mal par le modèle et une fois bien par
+   vous. La fiche cabinet ne contient donc plus le texte du CTA, ni le
+   numéro de téléphone, ni l'adresse du site : elle dit désormais aux hôtes
+   de conclure sur le fond et de s'arrêter là. La personnalisation le répète.
+2. **Trente secondes rendues au contenu.** Le débat n'a plus à consacrer ses
+   dernières secondes au message commercial : à budget égal (moins de cinq
+   minutes), l'auditeur reçoit plus de droit et moins de publicité.
+3. **Une seule prise de voix par chaîne.** L'outro ne dépend pas de
+   l'article : trois enregistrements ElevenLabs couvrent les 72 épisodes,
+   contre 72 pour les intros. Le montage cherche d'abord une outro propre à
+   l'épisode, puis se rabat sur celle de la chaîne.
+
+**L'outro est désormais obligatoire.** Le CTA n'existant plus nulle part
+ailleurs, un épisode monté sans elle n'aurait aucun appel à l'action : le
+montage s'arrête si elle est introuvable, à moins de passer `--sans-outro`
+en connaissance de cause.
 
 ---
 
@@ -124,7 +142,7 @@ L'introduction, dite dans la voix réelle de l'avocat, dit textuellement :
 *« Cette émission est animée par Nathalie et Nicolas. Nathalie, la juriste,
 vous explique le droit ; Nicolas, le journaliste, pose les questions que vous
 vous posez. Ce sont deux voix de synthèse… »*
-`tools/intro_script.py` **refuse de rendre un script** où l'un des deux
+`tools/voix_script.py` **refuse de rendre un script** où l'un des deux
 prénoms manquerait, ou d'où la mention « voix de synthèse » aurait disparu.
 
 **2. Côté NotebookLM — la configuration impose le genre de chaque voix.**
@@ -145,13 +163,29 @@ soit on renforce la consigne, soit on retire les prénoms de l'intro.
 
 ---
 
-## 2. Phase A — Fabriquer l'intro ElevenLabs
+## 2. Phase A — Fabriquer les voix ElevenLabs
 
-Pour chaque épisode, **avant** le montage :
+### A0 — L'outro : une fois par chaîne, avant tout le reste
 
 ```bash
-# 1. rendre le texte (contrôle automatique de la mention de transparence)
-python3 tools/intro_script.py --chaine victimes --slug <slug> \
+python3 tools/voix_script.py --bloc outro --chaine victimes \
+    --sortie ~/LEXVOX-PODCASTS/victimes/outro/outro-victimes.txt
+```
+
+Coller dans ElevenLabs (voix clonée), générer, écouter, enregistrer sous
+`~/LEXVOX-PODCASTS/<chaine>/outro/outro-<chaine>.mp3`. **C'est tout** : ce
+fichier sert les 24 épisodes de la chaîne. Trois enregistrements couvrent
+donc l'ensemble du projet.
+
+Une outro propre à un épisode reste possible et prime sur celle de la chaîne
+— utile par exemple pour les épisodes de la chaîne famille traitant de
+violences conjugales, qui ouvrent sur le 3919.
+
+### A1 — L'intro : une par épisode
+
+```bash
+# rendre le texte (contrôles automatiques : transparence + animateurs nommés)
+python3 tools/voix_script.py --chaine victimes --slug <slug> \
     --sujet "la contre-visite médicale" \
     --sortie ~/LEXVOX-PODCASTS/victimes/intro/intro-victimes-01-<slug>.txt
 ```
@@ -171,7 +205,7 @@ de durée du montage tolère jusqu'à 5 min 30 pour le corps seul.
 ### A3 — Mention de transparence, non négociable
 
 Chaque intro dit que les deux animateurs sont des **voix de synthèse**.
-`tools/intro_script.py` refuse de rendre un script d'où la mention aurait
+`tools/voix_script.py` refuse de rendre un script d'où la mention aurait
 disparu. Raison : deux voix artificielles qui discutent de droit, dont l'une
 présentée comme « juriste », peuvent laisser croire à l'auditeur qu'il écoute
 des avocats du cabinet. Votre voix réelle qui présente nommément deux voix
@@ -298,13 +332,16 @@ n'est choisie d'initiative, aucune publication à une date non définie.
 ```
 Search Console ──► CSV unique
         │
-        ├── Phase A  intro_script.py ──► ElevenLabs (voix du cabinet)
-        │                                   └► intro/intro-<chaine>-<NN>-<slug>.mp3
+        ├── Phase A0 voix_script.py --bloc outro ──► ElevenLabs
+        │              └► outro/outro-<chaine>.mp3   (1 fois par chaine)
+        │
+        ├── Phase A1 voix_script.py ──► ElevenLabs (voix du cabinet)
+        │              └► intro/intro-<chaine>-<NN>-<slug>.mp3  (par episode)
         │
         ├── NotebookLM (pipeline glissant, 20/jour) ──► brut/<slug>.<ext>
         │
         ├── Phase B  podcast_montage.py ──► mp3/podcast-<chaine>-<NN>-<slug>.mp3
-        │                                    + 14 contrôles + compte rendu
+        │              intro -> corps -> outro, + 14 contrôles + compte rendu
         │
         └── Phase C  plateforme [À DÉFINIR] ──► publication
 ```
@@ -318,7 +355,7 @@ récolté) `→ monte` (MP3 final validé) `→ published` (Phase C).
 
 | Élément | État |
 |---|---|
-| `tools/intro_script.py` | ✅ testé (8/8 vérifications, `--self-test`) |
+| `tools/voix_script.py` | ✅ testé (8/8 vérifications, `--self-test`) |
 | `tools/podcast_montage.py` — logique hors ffmpeg | ✅ testée (11/11, `--self-test`) : nommage, appariement CSV, détection de sources concurrentes, déclenchement des contrôles |
 | `tools/ffmpeg_moteur.py` — convention entrées/sorties | ✅ testée (10/10) : passes de mesure sans sortie, encodage, assemblage à trois entrées, cas `ffprobe`, refus d'une clé absente de l'environnement |
 | `tools/podcast_montage.py` — chaîne ffmpeg réelle | ⚠️ **non exécutée** : ffmpeg est absent de l'environnement d'atelier et n'y est pas installable. À valider au premier épisode pilote, avec `--garder-travail` pour inspecter les fichiers intermédiaires |

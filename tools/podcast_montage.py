@@ -2,7 +2,11 @@
 """Assemble l'intro ElevenLabs et le corps NotebookLM en un MP3 diffusable.
 
 Ordre de montage IMPERATIF : INTRO (ElevenLabs) -> CORPS (NotebookLM)
-                             [-> OUTRO (ElevenLabs), optionnelle].
+                             -> OUTRO (ElevenLabs).
+
+L'OUTRO porte l'appel a l'action, dit par l'avocat lui-meme. Le debat ne le
+recite plus : sans outro, l'episode n'en contient aucun — d'ou le refus de
+monter si elle manque, sauf --sans-outro explicite.
 
 Chaine de traitement :
   1. appariement DETERMINISTE des sources par (chaine, slug) via le CSV ;
@@ -205,6 +209,33 @@ def lire_ligne_csv(csv_path: Path, chaine: str, slug: str) -> dict:
         "appariement impossible, traitement interrompu")
 
 
+def trouver_outro(racine: Path, chaine: str, slug: str) -> Path:
+    """Cherche l'outro : d'abord propre a l'episode, sinon celle de la chaine.
+
+    L'outro porte l'appel a l'action et ne depend pas de l'article : une
+    seule prise de voix sert les 24 episodes d'une chaine. Une version
+    specifique reste possible (episodes sensibles, par exemple violences
+    conjugales) et prime alors sur la version commune.
+    """
+    dossier = racine / "outro"
+    for motif in (f"outro-*{slug}.*", f"outro-{chaine}.*"):
+        candidats = [c for c in sorted(dossier.glob(motif))
+                     if c.suffix.lower() in (".mp3", ".m4a", ".wav", ".aac",
+                                             ".flac", ".ogg", ".opus")]
+        if len({c.stem for c in candidats}) > 1:
+            raise RuntimeError(
+                f"plusieurs outros concurrentes dans {dossier} : "
+                f"{', '.join(c.name for c in candidats)} — correspondance "
+                "incertaine, traitement interrompu")
+        if candidats:
+            return candidats[0]
+    raise RuntimeError(
+        f"outro introuvable dans {dossier} (attendu outro-{chaine}.mp3, ou "
+        f"une version propre a l'episode). L'appel a l'action n'est plus "
+        "recite par le debat : sans outro, l'episode n'en contient aucun. "
+        "Enregistrer l'outro, ou passer --sans-outro en connaissance de cause.")
+
+
 def trouver_source(dossier: Path, motifs) -> Path:
     """Cherche un fichier par NOM (jamais par date) : appariement certain."""
     candidats = []
@@ -294,7 +325,12 @@ def traiter(options) -> int:
              else trouver_source(dossier_intro, [f"intro-*{options.slug}.*"]))
     corps = (Path(options.corps).expanduser() if options.corps
              else trouver_source(dossier_corps, [f"{options.slug}.*"]))
-    outro = Path(options.outro).expanduser() if options.outro else None
+    if options.outro:
+        outro = Path(options.outro).expanduser()
+    elif options.sans_outro:
+        outro = None
+    else:
+        outro = trouver_outro(racine, options.chaine, options.slug)
 
     sources = [("intro ElevenLabs", intro), ("corps NotebookLM", corps)]
     if outro:
@@ -370,7 +406,7 @@ def traiter(options) -> int:
         "ordre_de_montage": " -> ".join(e for e, _ in sources),
         "fichier_intro": intro.name,
         "fichier_corps": corps.name,
-        "fichier_outro": outro.name if outro else None,
+        "fichier_outro": outro.name if outro else "aucune (--sans-outro)",
         "fichier_final": final.name,
         "chemin_final": str(final),
         "duree_s": round(sondage_final["duree"], 2),
@@ -403,8 +439,7 @@ def afficher_rapport(rapport: dict):
     print(f"ordre de montage      : {rapport['ordre_de_montage']}")
     print(f"intro ElevenLabs      : {rapport['fichier_intro']}")
     print(f"corps NotebookLM      : {rapport['fichier_corps']}")
-    if rapport["fichier_outro"]:
-        print(f"outro ElevenLabs      : {rapport['fichier_outro']}")
+    print(f"outro ElevenLabs      : {rapport['fichier_outro']}")
     print(f"fichier final         : {rapport['fichier_final']}")
     print(f"chemin                : {rapport['chemin_final']}")
     print(f"duree / poids         : {rapport['duree_s']} s / "
@@ -495,7 +530,10 @@ def main() -> int:
     analyseur.add_argument("--racine", default="~/LEXVOX-PODCASTS")
     analyseur.add_argument("--intro", help="force le fichier d'introduction")
     analyseur.add_argument("--corps", help="force le fichier NotebookLM")
-    analyseur.add_argument("--outro", help="outro ElevenLabs (optionnelle)")
+    analyseur.add_argument("--outro",
+                           help="force l'outro (sinon cherchee dans outro/)")
+    analyseur.add_argument("--sans-outro", action="store_true",
+                           help="monte l'episode SANS appel a l'action final")
     analyseur.add_argument("--debit", type=int, default=DEBIT_DEFAUT)
     analyseur.add_argument("--canaux", choices=("auto", "mono", "stereo"),
                            default="auto")

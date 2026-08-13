@@ -4,8 +4,7 @@
 
 Ce document accompagne l'article commenté dans cet épisode. Il ne contient
 aucune analyse juridique : il sert uniquement à présenter l'auteur de
-l'article et le cabinet, et il fournit la conclusion à prononcer à la fin de
-l'émission. Toute l'analyse du sujet doit venir de l'article lui-même.
+l'article et le cabinet, et il indique comment terminer l'émission. Toute l'analyse du sujet doit venir de l'article lui-même.
 
 ## L'auteur des articles
 
@@ -46,7 +45,6 @@ convention d'honoraires est signée avant toute intervention : elle comprend
 une part fixe et un complément d'honoraires calculé sur le résultat obtenu.
 Tout est écrit et connu à l'avance.
 
-Le cabinet peut être joint au 04 90 54 58 10.
 
 ## Les deux voix de l'émission
 
@@ -56,20 +54,13 @@ Le débat est animé par deux personnes, les mêmes dans tous les épisodes :
 l'auditeur. Nathalie parle avec une voix féminine, Nicolas avec une voix
 masculine, et ils s'appellent par leur prénom au fil de la discussion.
 
-## Conclusion à prononcer à la fin de l'émission
+## Comment terminer l'émission
 
-Les hôtes consacrent les trente dernières secondes de l'émission à cette
-conclusion, dont ils reprennent fidèlement le contenu :
-
-> Pour faire valoir vos droits à la réparation intégrale de vos préjudices,
-> ne restez pas seul face aux assureurs. Maître Patrice Humbert, avocat
-> spécialiste en droit du dommage corporel, analyse votre dossier lors d'un
-> premier rendez-vous gratuit, dans ses bureaux d'Aix-en-Provence, de
-> Salon-de-Provence, d'Arles et de Marignane, ou partout en France en
-> visioconférence. Ensuite, tout est transparent : une convention
-> d'honoraires signée à l'avance, avec une part fixe et un complément au
-> résultat. Prenez rendez-vous sur le site du cabinet, ou appelez le
-> 04 90 54 58 10.
+Les hôtes concluent la discussion sur le fond, en une ou deux phrases, puis
+s'arrêtent. Ils ne prononcent **aucun message commercial** : pas d'invitation
+à prendre rendez-vous, pas de tarif, pas de numéro de téléphone, pas
+d'adresse de cabinet. L'avocat reprend lui-même la parole juste après la fin
+du débat, avec sa propre voix, pour s'adresser aux auditeurs.
 
 <!-- FIN DU DOCUMENT PDF -->
 
