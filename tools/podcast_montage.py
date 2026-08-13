@@ -67,6 +67,13 @@ EDITEUR = "SELARL LEXVOX AVOCATS"
 # --- Cible technique (PROMPT-MONTAGE-DIFFUSION.md §4) -------------------------
 LOUDNESS_CIBLE = -16.0      # LUFS
 VRAI_PIC_MAX = -1.5         # dBTP
+# `alimiter` borne le pic ECHANTILLON ; le controle mesure le VRAI pic, qui
+# compte les crêtes reconstituees ENTRE les echantillons (mesure suréchantillonnée
+# d'ebur128), et l'encodage MP3 en ajoute encore. Les deux grandeurs ne coincident
+# pas : sur l'episode pilote reel, un limiteur regle a -1,5 dB livrait -0,35 dBTP.
+# D'ou cette marge, mesuree sur ce contenu. Elle ne suffit pas toujours — la
+# boucle de finalisation verifie et corrige ce qui deborde encore.
+LIMITEUR_MARGE = 1.5        # dB
 ECHANTILLONNAGE = 44100     # Hz
 DEBIT_DEFAUT = 192          # kb/s CBR
 PAUSE_DEFAUT = 400          # ms de respiration entre les blocs
@@ -270,13 +277,53 @@ def assembler(segments, pauses_ms, destination: Path, canaux: int):
         raise RuntimeError(f"assemblage : {erreur.strip()[:300]}")
 
 
+def arbitrer(integre: float, vrai_pic: float) -> float:
+    """Correction de gain a appliquer, en decibels, ou 0 si le fichier convient.
+
+    Deux exigences qui peuvent s'opposer : atteindre le niveau vise, et ne pas
+    depasser le plafond de vrai pic. Quand elles s'opposent, **le plafond
+    gagne** — un depassement fait refuser ou retirer l'episode par certaines
+    plateformes, tandis qu'un demi-decibel de niveau en moins ne s'entend pas.
+    Le niveau, lui, a une tolerance ; le plafond n'en a pas.
+    """
+    manque = LOUDNESS_CIBLE - integre
+    depassement = vrai_pic - VRAI_PIC_MAX
+    ajustement = manque if abs(manque) > TOLERANCE_LOUDNESS else 0.0
+    if depassement > 0:
+        ajustement = min(ajustement, -depassement)
+    return ajustement if abs(ajustement) >= 0.05 else 0.0
+
+
+def finaliser(assemble: Path, final: Path, debit: int, canaux: int,
+              metadonnees: dict, tentatives: int = 3):
+    """Encode, mesure, corrige, jusqu'a tenir les deux cibles.
+
+    Une seule passe de correction ne suffit pas toujours : abaisser le gain pour
+    rentrer sous le plafond fait baisser le niveau, ce qui peut a son tour sortir
+    de la tolerance. Trois tentatives suffisent largement en pratique ; au-dela,
+    c'est que les deux exigences sont inconciliables sur ce contenu, et le
+    controle qualite le dira plutot que de boucler.
+    """
+    correction, integre, vrai_pic = 0.0, 0.0, 0.0
+    for _ in range(tentatives):
+        encoder(assemble, final, debit, canaux, metadonnees,
+                correction_db=correction)
+        integre, vrai_pic = mesurer_loudness(final)
+        ajustement = arbitrer(integre, vrai_pic)
+        if ajustement == 0.0:
+            break
+        correction += ajustement
+    return integre, vrai_pic, correction
+
+
 def encoder(source: Path, destination: Path, debit: int, canaux: int,
             metadonnees: dict, correction_db: float = 0.0):
     """Limiteur de securite puis encodage MP3 CBR avec etiquettes ID3v2.3."""
     filtres = []
     if abs(correction_db) > 0.01:
         filtres.append(f"volume={correction_db:.2f}dB")
-    filtres.append(f"alimiter=limit={VRAI_PIC_MAX}dB:level=disabled")
+    filtres.append(f"alimiter=limit={VRAI_PIC_MAX - LIMITEUR_MARGE}dB:"
+                   "level=disabled")
 
     commande = ["ffmpeg", "-hide_banner", "-nostats", "-y", "-i", str(source),
                 "-af", ",".join(filtres),
@@ -633,15 +680,8 @@ def traiter(options) -> int:
         "comment": ligne.get("notes") or "",
         "genre": "Podcast",
     }
-    encoder(assemble, final, options.debit, canaux, metadonnees)
-
-    integre, vrai_pic = mesurer_loudness(final)
-    correction = 0.0
-    if abs(integre - LOUDNESS_CIBLE) > TOLERANCE_LOUDNESS:
-        correction = LOUDNESS_CIBLE - integre
-        encoder(assemble, final, options.debit, canaux, metadonnees,
-                correction_db=correction)
-        integre, vrai_pic = mesurer_loudness(final)
+    integre, vrai_pic, correction = finaliser(
+        assemble, final, options.debit, canaux, metadonnees)
 
     sondage_final = sonder(final)
     controles = controler(final, sondage_final, (integre, vrai_pic),
@@ -794,6 +834,24 @@ def self_test() -> int:
             echecs.append(f"controle non declenche : {attendu}")
     faux_mp3.unlink(missing_ok=True)
     sans_lame.unlink(missing_ok=True)
+
+    # arbitrage niveau / plafond de vrai pic. Le limiteur borne le pic
+    # ECHANTILLON, le controle mesure le VRAI pic : les deux ne coincident pas,
+    # et sur le premier episode reel l'ecart valait 1,15 dB.
+    verifier("fichier conforme : aucune correction",
+             arbitrer(-16.2, -1.8), 0.0)
+    verifier("niveau trop bas : on remonte",
+             round(arbitrer(-17.4, -3.0), 2), 1.4)
+    verifier("niveau trop haut : on baisse",
+             round(arbitrer(-14.8, -2.6), 2), -1.2)
+    verifier("plafond depasse : on baisse meme si le niveau est bon",
+             round(arbitrer(-16.1, -0.35), 2), -1.15)
+    verifier("exigences opposees : le plafond prime sur le niveau",
+             round(arbitrer(-17.4, -0.5), 2), -1.0)
+    verifier("ecart negligeable : on ne rencode pas pour rien",
+             arbitrer(-16.4, -1.6), 0.0)
+    verifier("marge du limiteur sous le plafond",
+             VRAI_PIC_MAX - LIMITEUR_MARGE < VRAI_PIC_MAX, True)
 
     # decoupe du generique : le point d'entree doit se retrouver dans atrim,
     # et le fondu de sortie s'achever exactement a la fin de l'extrait.

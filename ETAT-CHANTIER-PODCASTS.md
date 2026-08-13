@@ -108,7 +108,7 @@ les 24 épisodes de la chaîne.
 | `tools/voicebox_tunnel.py` | publie Voicebox derrière Cloudflare Tunnel + Access, portail posé **avant** le DNS. `--self-test` : **9/9** |
 | `GUIDE-POSTE-MAC.md` | **la voie recommandée** : installer Claude sur le Mac du cabinet, 4 étapes, aucun tunnel |
 | `CONNEXION-VOICEBOX.md` | l'alternative : piloter Voicebox depuis une session distante — tunnel **authentifié**, secrets en variables d'environnement |
-| `tools/podcast_montage.py` | montage ffmpeg complet : appariement, loudness 2 passes, générique musical, concaténation, limiteur, MP3, 14 contrôles qualité. `--self-test` : **29/29** |
+| `tools/podcast_montage.py` | montage ffmpeg complet : appariement, loudness 2 passes, générique musical, concaténation, limiteur, MP3, 14 contrôles qualité. `--self-test` : **36/36** |
 | `tools/ffmpeg_moteur.py` | binaire local ou service HTTP distant, même contrat. `--self-test` : **10/10** (sans option) |
 | `PROMPT-INTRO-VOIX.md` | le prompt à copier une fois par épisode — produit **la question du jour**, rien d'autre |
 | `PROMPT-PODCAST-NOTEBOOKLM.md` | pilotage du débat NotebookLM (agent computer-use, **sur son poste**) |
@@ -127,7 +127,13 @@ MUSIQUE_DUREE = 6.0 s           MUSIQUE_NIVEAU = -20.0 LUFS (4 LU sous la voix)
 MUSIQUE_FONDU_ENTREE = 0.3 s    MUSIQUE_FONDU_SORTIE = 1.5 s
 MUSIQUE_PAUSE = 250 ms          TOLERANCE_LOUDNESS = 0.5 LU / DUREE = 0.5 s
 MUSIQUE_DEBUT = 0.0 s           point d'entrée (--debut-musique)
+LIMITEUR_MARGE = 1.5 dB         marge vrai pic / pic échantillon
 ```
+
+**Le limiteur et le contrôle ne mesurent pas la même chose.** `alimiter` borne
+le pic **échantillon** ; le contrôle mesure le **vrai pic**, suréchantillonné,
+qui compte les crêtes reconstituées entre les échantillons — et l'encodage MP3
+en ajoute. D'où la marge, et la boucle de finalisation qui vérifie après coup.
 
 **Ordre imposé pour le générique : découper → mettre au niveau → fondre.**
 Il a été établi à la mesure, pas par principe (cf. §5).
@@ -205,6 +211,41 @@ rejoué avec cette piste : **14/14 au vert**, générique à **−20,5 LUFS** co
    **−19,6 LUFS** hors montage et **−20,5 LUFS** dans le fichier final.
    *(Même angle mort que le défaut 3 : une source de test uniforme masque le
    problème, une vraie musique le révèle.)*
+
+### Le premier débat NotebookLM réel (2026-08-13)
+
+Fichier reçu : *Réussir l'expertise médicale pour être indemnisé*, **AAC en
+conteneur M4A**, stéréo 44,1 kHz, 875,5 s, −17,5 LUFS. Aucun silence dans tout
+le fichier, décroissance naturelle sur la dernière demi-seconde — il ne se
+coupe pas au milieu d'un mot.
+
+**Il dure 14 min 35, alors que la consigne demandait « moins de 5 min ».**
+L'épisode monté fait donc **16 min 02** au lieu des 6 à 7 minutes visées. Le
+carnet de calibration attendait 2:00–5:30. NotebookLM n'a pas suivi la
+contrainte de durée — décision éditoriale en attente : accepter des épisodes
+longs, ou resserrer la consigne et régénérer.
+
+**Un cinquième défaut, révélé par ce contenu réel :** le montage a échoué sur
+le contrôle de vrai pic, à **−0,35 dBTP** pour un plafond de −1,5. Le limiteur
+bornait le pic *échantillon* à −1,5 dB quand le contrôle mesure le *vrai* pic,
+suréchantillonné — deux grandeurs différentes, et l'encodage MP3 creuse encore
+l'écart. Avec du bruit rose l'écart était négligeable ; avec de la parole
+réelle il valait 1,15 dB. **Tout épisode réel aurait échoué en fin de chaîne.**
+
+Correction : marge de 1,5 dB sur le limiteur, plus une boucle qui mesure et
+corrige, en arbitrant explicitement — le plafond prime sur le niveau, car un
+dépassement fait retirer l'épisode quand un demi-décibel ne s'entend pas.
+
+Deux méthodes ont été comparées à la mesure sur l'assemblage réel :
+
+| | niveau | dynamique (LRA) | vrai pic |
+|---|---|---|---|
+| gain + limiteur à −3,0 dB *(retenue)* | −16,2 LUFS | 5,1 LU | −1,8 dBTP |
+| `loudnorm` à vrai pic, TP −2,0 | −16,5 LUFS | 4,9 LU | −2,1 dBTP |
+
+Contre l'intuition — un limiteur à vrai pic étant l'outil théoriquement juste —
+la première tient mieux le niveau **et** la dynamique. Résultat final :
+**14/14 au vert**, 962,72 s, −16,25 LUFS, −1,8 dBTP.
 
 ---
 
