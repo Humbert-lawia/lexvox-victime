@@ -1,0 +1,2937 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Comment contester un rapport d'expertise médicale ?"
+   },
+   {
+    "q": "Comment puis-je contester une expertise médicale ?"
+   },
+   {
+    "q": "Quel est le délai pour contester une expertise médicale ?"
+   },
+   {
+    "q": "Comment contester l'expertise du conseil médical ?"
+   }
+  ],
+  "topic_matrix": {
+   "Comment contester un rapport d'expertise médicale ou une expertise médicale ?": {
+    "importance": 10
+   },
+   "Quel est le délai pour contester une expertise médicale ou demander une contre-expertise ?": {
+    "importance": 9
+   },
+   "Comment contester l'expertise du conseil médical ou du médecin-expert d'assurance ?": {
+    "importance": 9
+   },
+   "Qu'est-ce qu'une contre-expertise médicale et dans quels cas la demander ?": {
+    "importance": 8
+   },
+   "Quels sont les différents types de recours pour contester une expertise médicale (amiable, judiciaire, arbitrale) ?": {
+    "importance": 8
+   },
+   "Pourquoi une expertise médicale peut-elle être défavorable ou contestée ?": {
+    "importance": 7
+   },
+   "Quel est le rôle de l'avocat et du médecin-conseil de victime dans la contestation d'une expertise médicale ?": {
+    "importance": 7
+   },
+   "Comment se déroule la procédure de contestation d'une expertise médicale ?": {
+    "importance": 7
+   },
+   "Combien coûte une contre-expertise médicale ?": {
+    "importance": 6
+   },
+   "Peut-on contester une expertise médicale après avoir signé un document ou accepté une offre d'indemnisation ?": {
+    "importance": 6
+   }
+  },
+  "content_questions": [
+   {
+    "q": "1) Qu’est-ce qu’une contre-expertise médicale ?"
+   },
+   {
+    "q": "1° De quel expert il s'agit, et surtout, de quel rapport médical il en ressort ?"
+   },
+   {
+    "q": "1° De quel expert il s’agit, et surtout, de quel rapport médical il en ressort ?"
+   },
+   {
+    "q": "2° Contester un rapport médical amiable unilatéral ?"
+   },
+   {
+    "q": "3° Contester un rapport médical amiable contradictoire ?"
+   },
+   {
+    "q": "Besoin d'accompagnement pour une contre-expertise ?"
+   },
+   {
+    "q": "Besoin d'aide pour contester une expertise ?"
+   },
+   {
+    "q": "COMMENT CONTESTER UNE EXPERTISE MÉDICALE après UN ACCIDENT DE LA ROUTE ?"
+   },
+   {
+    "q": "Combien coûte une contre-expertise médicale ?"
+   },
+   {
+    "q": "Combien de temps ai-je pour contester le rapport ?"
+   },
+   {
+    "q": "Comment allez-vous demander une contre-expertise médicale ?"
+   },
+   {
+    "q": "Comment bien préparer sa contre-expertise médicale ?"
+   },
+   {
+    "q": "Comment contester concrètement un rapport d’expertise ?"
+   },
+   {
+    "q": "Comment contester la décision rendue après l’expertise médicale ?"
+   },
+   {
+    "q": "Comment contester le rapport d'expertise ?"
+   },
+   {
+    "q": "Comment contester le rapport d'expertise médicale ?"
+   },
+   {
+    "q": "Comment contester le rapport d'expertise médicale amiable non contradictoire ?"
+   },
+   {
+    "q": "Comment contester les conclusions du médecin expert d'assurances ?"
+   },
+   {
+    "q": "Comment contester les conclusions du médecin expert d’assurances ?"
+   },
+   {
+    "q": "Comment contester les conclusions du médecin expert d’assurances qui estime que mon incapacité n’est pas un handicap dans mon travail malgré mes difficultés physiques ?"
+   },
+   {
+    "q": "Comment contester un rapport d’expertise médicale amiable unilatéral ?"
+   },
+   {
+    "q": "Comment contester un rapport d’expertise médicale après un accident de la route ?"
+   },
+   {
+    "q": "Comment contester une décision de la CNESST ?"
+   },
+   {
+    "q": "Comment contester une décision de la SAAQ ?"
+   },
+   {
+    "q": "Comment contester une décision de l’IVAC ?"
+   },
+   {
+    "q": "Comment contester une décision de l’assurance invalidité ?"
+   },
+   {
+    "q": "Comment contester une expertise médicale ?"
+   },
+   {
+    "q": "Comment contester une expertise médicale après un accident de la route ?"
+   },
+   {
+    "q": "Comment demander une contre-expertise médicale ?"
+   },
+   {
+    "q": "Comment faire pour contester cette expertise médicale ?"
+   },
+   {
+    "q": "Comment obtenir un rapport d’expertise médicale ?"
+   },
+   {
+    "q": "Comment puis contester le médecin expert de l’assurance ?"
+   },
+   {
+    "q": "Comment puis-je contester le rapport d’expertise et le montant de l’indemnisation ?"
+   },
+   {
+    "q": "Comment puis-je m’assurer que mes difficultés quotidiennes, notamment dans ma profession de photographe, sont correctement comprises et prises en compte par les experts médicaux ?"
+   },
+   {
+    "q": "Contester le rapport d'expertise médicale ?"
+   },
+   {
+    "q": "Contester le rapport d’expertise du médecin de la compagnie d’assurance ?"
+   },
+   {
+    "q": "Contre-expertise médicale : comment contester une expertise défavorable ?"
+   },
+   {
+    "q": "C’est pourquoi je viens vers vous pour savoir s’il faudrait que je demande aux chirurgiens une « analyse » de sa luxation afin qu’ils puissent juger des faiblesses de cette jambe ou est-ce que je dois passer directement par un autre médecin expert ?"
+   },
+   {
+    "q": "Dans quels cas contester une expertise ?"
+   },
+   {
+    "q": "Dois-je d’abord tenter une contre-expertise amiable ?"
+   },
+   {
+    "q": "En effet, le rapport d’expertise ne vient en effet jamais s’imposer au magistrat qui reste libre, en fonction des arguments avancés par les avocats de réaliser des expertises complémentaires, de réaliser des contre-expertises, d’approfondir tel ou tel point, de fixer un taux horaire dans les cas de besoin en tierce personne (Voir article La tierce personne : comment l’évaluer, comment l’indemniser ?"
+   },
+   {
+    "q": "En maladie professionnelle dans la fonction publique, je demande une contre expertise pour le taux d ipp et un rapport contradictoire de la première,  je n arrive pas à prendre rv avec la liste de l ars pour un médecin spécialisé car leurs réponses est qu ils doivent être saisis par un tribunal, une  assurance ou une administration…comment dois je procéder ?"
+   },
+   {
+    "q": "Existe-t-il des médecins-conseils spécialisés dans les contestations d’expertises médicales auxquels je pourrais faire appel pour obtenir un avis indépendant et éclairé sur ma situation ?"
+   },
+   {
+    "q": "Existe-t-il des recours pour contester cette restriction et obtenir une évaluation plus équitable de mon état de santé ?"
+   },
+   {
+    "q": "Expertise médicale bâclée ou expéditive : comment la contester ?"
+   },
+   {
+    "q": "Expertise médicale bâclée ou expéditive : comment la contester efficacement ?"
+   },
+   {
+    "q": "Expertise médicale trop rapide ou injuste ?"
+   },
+   {
+    "q": "Je peux faire une contre visite, mais je ne sais pas quel médecin expert choisir ?"
+   },
+   {
+    "q": "Je suis toujours en soin de kinésithérapie, je ne comprends donc pas les conclusions du médecin… La CPAM me demande de contester l’expertise pour poursuivre la kiné, quelles solutions ai-je pour poursuivre mes soins svp ?"
+   },
+   {
+    "q": "L'erreur médicale : quelle procédure ?"
+   },
+   {
+    "q": "La contre-expertise médicale est-elle obligatoire pour contester l'offre de l'assureur ?"
+   },
+   {
+    "q": "Le médecin-conseil de victime est-il indispensable ?"
+   },
+   {
+    "q": "L’expert judiciaire a oublié d’évaluer un préjudice : dois-je tout recommencer ?"
+   },
+   {
+    "q": "L’expertise judiciaire est-elle plus favorable ?"
+   },
+   {
+    "q": "Où s'adresser en cas d'erreur médicale ?"
+   },
+   {
+    "q": "Peut-on contester les conclusions du médecin expert de l’assurance ?"
+   },
+   {
+    "q": "Peut-on contester sans avocat ?"
+   },
+   {
+    "q": "Peut-on contester un rapport d’expertise médicale ?"
+   },
+   {
+    "q": "Peut-on contester une contre-expertise médicale ?"
+   },
+   {
+    "q": "Peut-on contester une expertise médicale et comment ?"
+   },
+   {
+    "q": "Peut-on contester une expertise médicale et comment faire ?"
+   },
+   {
+    "q": "Peut-on demander une contre-expertise après un accident de la vie ?"
+   },
+   {
+    "q": "Peut-on demander une nouvelle expertise ?"
+   },
+   {
+    "q": "Pourquoi contester une expertise médicale ?"
+   },
+   {
+    "q": "Pourquoi la première expertise peut-elle être défavorable ?"
+   },
+   {
+    "q": "Pourquoi les expertises d’assurance sont-elles souvent contestées ?"
+   },
+   {
+    "q": "Pourquoi l’assurance a-t-elle intérêt à une expertise « TGV » ?"
+   },
+   {
+    "q": "Pourquoi se faire assister par un avocat en dommage corporel ?"
+   },
+   {
+    "q": "Puis-je refuser de signer le compte rendu d’expertise ?"
+   },
+   {
+    "q": "Qu'est-ce qu'une contre-expertise médicale ?"
+   },
+   {
+    "q": "Quand saisir le juge pour une expertise judiciaire ?"
+   },
+   {
+    "q": "Quel est le coût d’une contre-expertise ?"
+   },
+   {
+    "q": "Quel est le délai pour demander une contre-expertise médicale ?"
+   },
+   {
+    "q": "Quelle est la procédure pour demander une contre-expertise médicale ?"
+   },
+   {
+    "q": "Quelles démarches puis-je entreprendre pour demander le rapport d’expertise et obtenir une contre-expertise afin de contester les décisions de l’assurance ?"
+   },
+   {
+    "q": "Quels sont les acteurs de votre expertise actuelle ?"
+   },
+   {
+    "q": "Quels sont mes droits pendant l’expertise ?"
+   },
+   {
+    "q": "Qui choisit le médecin pour la contre-expertise ?"
+   },
+   {
+    "q": "Quoi faire en cas d'erreur médicale ?"
+   },
+   {
+    "q": "Qu’est-ce qu’une contre-expertise médicale ?"
+   },
+   {
+    "q": "Qu’est-ce qu’une expertise contradictoire ?"
+   },
+   {
+    "q": "Qu’est-ce qu’une expertise unilatérale ?"
+   },
+   {
+    "q": "Rapport d’expertise et rapport d’expertise judiciaire : quel est leur poids respectif ?"
+   },
+   {
+    "q": "Sur quels motifs peut-on faire annuler un rapport d'expertise judiciaire ?"
+   },
+   {
+    "q": "Une expertise arbitrale, pourquoi faire ?"
+   },
+   {
+    "q": "Une expertise à distance peut-elle être contestée ?"
+   },
+   {
+    "q": "Victimes d’accident : comment vous préparer aux expertises médicales qui seront décisives pour votre avenir ?"
+   },
+   {
+    "q": "Votre expertise s’est mal passée ?"
+   },
+   {
+    "q": "comment puis-je contester cette décision?"
+   },
+   {
+    "q": "sur les « expertises » et « DFP » ?"
+   },
+   {
+    "q": "victime d'un accident de la route, vous souhaitez contester une expertise médicale réalisée par l'expert ?"
+   },
+   {
+    "q": "« Comment puis-je contester efficacement une expertise médicale si je considère que mon état de santé n’est pas correctement évalué ?"
+   },
+   {
+    "q": "« Dans quelles circonstances est-il indispensable de s’adjoindre un avocat spécialisé en plus d’un médecin expert de victimes pour contester une expertise médicale ?"
+   },
+   {
+    "q": "« Peut-on contester une expertise médicale pour erreur médicale et quelle est la meilleure stratégie pour assurer une indemnisation juste ?"
+   },
+   {
+    "q": "« Quelles informations dois-je fournir dans mon courrier à l’assureur pour contester une expertise médicale avant la consolidation de mon état ?"
+   },
+   {
+    "q": "« Quels sont les premiers pas à suivre pour organiser une expertise médicale contradictoire après avoir contesté l’expertise initiale de l’assureur ?"
+   },
+   {
+    "q": "À quoi sert la contre-expertise médicale ?"
+   },
+   {
+    "q": "→ L’expertise médicale ne vous convient pas, quels sont vos recours ?"
+   },
+   {
+    "q": "❓ FAQ — Comment contester les conclusions du médecin expert d’assurances ?"
+   },
+   {
+    "q": "❓ FAQ — Comment contester une expertise médicale ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/contre-expertise-medicale/comment-contester-une-expertise-medicale",
+   "title": "Comment contester une expertise médicale ? - Association Victimes de France AIVF",
+   "desc": "Découvrez les étapes pour contester une expertise médicale avec l'aide d'Association Aide Victimes France. Conseils juridiques et soutien.",
+   "headers": [
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Comment contester une expertise médicale ?"
+    ],
+    [
+     "h1",
+     "La contre-expertise médicale — Faire corriger une évaluation injuste"
+    ],
+    [
+     "h2",
+     "1) Qu’est-ce qu’une contre-expertise médicale ?"
+    ],
+    [
+     "h2",
+     "2) Dans quels cas la demander ?"
+    ],
+    [
+     "h2",
+     "3) Les types de contre-expertise"
+    ],
+    [
+     "h2",
+     "4) La procédure pas à pas"
+    ],
+    [
+     "h2",
+     "5) Importance du médecin-conseil"
+    ],
+    [
+     "h2",
+     "6) L’accompagnement par l’AIVF"
+    ],
+    [
+     "h2",
+     "Comment contester une expertise médicale : le désaccord médical"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 28,
+   "word_count": 4315,
+   "content_len": 27115
+  },
+  {
+   "rank": 2,
+   "url": "https://www.lecabinetm.com/contester-expertise-medicale/",
+   "title": "Peut-on contester une expertise médicale et comment ? | Le Cabinet M",
+   "desc": "Le Cabinet M vous explique comment contester une décision de l’IVAC, la SAAQ, la CNESST à l’aide d’une contre-expertise médicale objective.",
+   "headers": [
+    [
+     "h1",
+     "Peut-on contester une expertise médicale et comment faire ?"
+    ],
+    [
+     "h2",
+     "Le rôle de l’expertise médicale"
+    ],
+    [
+     "h2",
+     "Peut-on contester un rapport d’expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Comment contester la décision rendue après l’expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Comment obtenir un rapport d’expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Bien choisir le médecin-expert pour effectuer la contre-expertise médicale"
+    ],
+    [
+     "h2",
+     "Faites appel à un avocat spécialisé pour présenter un meilleur dossier médical"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 33,
+   "word_count": 1155,
+   "content_len": 7656
+  },
+  {
+   "rank": 3,
+   "url": "https://www.benezra-victimesdelaroute.fr/comment-contester-une-expertise-medicale/",
+   "title": "Comment contester une expertise médicale après un accident de la route ?",
+   "desc": "victime d'un accident de la route, vous souhaitez contester une expertise médicale réalisée par l'expert ? Erpertise judiciaire ou amiable...",
+   "headers": [
+    [
+     "h1",
+     "COMMENT CONTESTER UNE EXPERTISE MÉDICALE après UN ACCIDENT DE LA ROUTE ?"
+    ],
+    [
+     "h2",
+     "Contester le rapport d’expertise du médecin de la compagnie d’assurance ?"
+    ],
+    [
+     "h2",
+     "→ L’expertise médicale ne vous convient pas, quels sont vos recours ?"
+    ],
+    [
+     "h2",
+     "→ Contester une expertise médicale en sollicitant une Expertise amiable contradictoire"
+    ],
+    [
+     "h2",
+     "→ Contester une expertise médicale en sollicitant une Expertise judiciaire par voie de référé"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 26,
+   "word_count": 1722,
+   "content_len": 11341
+  },
+  {
+   "rank": 4,
+   "url": "https://hadrienmuller-avocat.com/comment-demander-une-contre-expertise-medicale/",
+   "title": "Comment demander une contre-expertise médicale - Hadrien Muller",
+   "desc": "Le rapport du médecin expert de l'assurance ne vous convient pas, voilà comment demander une contre-expertise médicale si vous êtes la victime.",
+   "headers": [
+    [
+     "h2",
+     "Avocat spécialisé en préjudice corporel"
+    ],
+    [
+     "h2",
+     "Diplômé en évaluation des traumatismes crâniens"
+    ],
+    [
+     "h1",
+     "Victime d’accident corporel : comment demander une contre-expertise médicale"
+    ],
+    [
+     "h2",
+     "Table des matières"
+    ],
+    [
+     "h2",
+     "Quels sont les acteurs de votre expertise actuelle ?"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’une contre-expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Une expertise arbitrale, pourquoi faire ?"
+    ],
+    [
+     "h2",
+     "La possibilité du tribunal"
+    ],
+    [
+     "h2",
+     "Comment demander une contre-expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Maître Hadrien MULLER"
+    ],
+    [
+     "h2",
+     "6 réponses"
+    ]
+   ],
+   "content_score": 29,
+   "readability": 35,
+   "word_count": 1233,
+   "content_len": 7921
+  },
+  {
+   "rank": 5,
+   "url": "https://www.hello-victimes.fr/conseils-pratiques/comment-contester-le-rapport-d-expertise-m%C3%A9dicale/",
+   "title": "Contester le rapport d'expertise médicale ? - Association d'aide aux victimes d'accident de la route. Association d''aide aux victimes d'erreur/faute médicale. Association d'aide aux victimes d'accident de la vie ou d'agression.",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Contester le rapport d'expertise médicale ?"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 26,
+   "word_count": 1606,
+   "content_len": 10876
+  },
+  {
+   "rank": 6,
+   "url": "https://victime-info.fr/indemnisation/dossiers/expertise-medicale/contre-expertise-medicale",
+   "title": "Contre-expertise médicale : droits, procédure et conseils | victime-info.fr",
+   "desc": "Contre-expertise médicale : comment contester une expertise défavorable ? Procédure amiable et judiciaire, rôle du médecin de recours, coût et délais.",
+   "headers": [
+    [
+     "h1",
+     "Contre-expertise médicale : guide complet pour contester une expertise défavorable"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’une contre-expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Le rôle du médecin expert dans la contre-expertise"
+    ],
+    [
+     "h2",
+     "À quoi sert la contre-expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Quelle est la procédure pour demander une contre-expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Contre-expertise médicale après un accident de la route"
+    ],
+    [
+     "h2",
+     "Contre-expertise médicale après un accident de la vie"
+    ],
+    [
+     "h2",
+     "Combien coûte une contre-expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Les délais de la contre-expertise médicale"
+    ],
+    [
+     "h2",
+     "Comment bien préparer sa contre-expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Peut-on contester une contre-expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur la contre-expertise médicale"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Conclusion : ne pas hésiter à demander une contre-expertise médicale"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 48,
+   "readability": 35,
+   "word_count": 3715,
+   "content_len": 24342
+  },
+  {
+   "rank": 7,
+   "url": "https://jmp-avocat-indemnisation.fr/blog-dommages-corporels/expertise-medicale-baclee-recours",
+   "title": "Expertise médicale bâclée ou expéditive : comment la contester ?",
+   "desc": "Expertise médicale trop rapide ou injuste ? Identifiez les signes d’un rapport bâclé et activez les bons recours pour préserver votre indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Expertise médicale bâclée ou expéditive : comment la contester efficacement ?"
+    ],
+    [
+     "h2",
+     "Une expertise expédiée, c’est une indemnisation amputée"
+    ],
+    [
+     "h2",
+     "Les signes qui trahissent une expertise bâclée"
+    ],
+    [
+     "h2",
+     "Pourquoi l’assurance a-t-elle intérêt à une expertise « TGV » ?"
+    ],
+    [
+     "h2",
+     "Réagir à chaud : les bons réflexes en sortant du cabinet"
+    ],
+    [
+     "h2",
+     "Les leviers juridiques pour « casser » une expertise insuffisante"
+    ],
+    [
+     "h2",
+     "Ce que change un avocat combatif face aux réseaux de l’assurance"
+    ],
+    [
+     "h2",
+     "Questions fréquentes – FAQ"
+    ],
+    [
+     "h2",
+     "En résumé"
+    ],
+    [
+     "h2",
+     "Bibliographie et sources"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 38,
+   "word_count": 3259,
+   "content_len": 20174
+  },
+  {
+   "rank": 8,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/forum-des-victimes/question-de-victime-expertise-medicale/comment-contester-conclusions-du-medecin-expert-dassurances",
+   "title": "Comment contester les conclusions du médecin expert d'assurances ? - Association Victimes de France AIVF",
+   "desc": "Découvrez comment contester efficacement les conclusions d'un médecin expert d'assurances avec l'aide de l'Association Aide Victimes France.",
+   "headers": [
+    [
+     "h1",
+     "Comment contester les conclusions du médecin expert d’assurances ?"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Comment contester les conclusions du médecin expert d’assurances ?"
+    ],
+    [
+     "h2",
+     "Question de victime : Comment contester conclusions du médecin expert d’assurances"
+    ],
+    [
+     "h2",
+     "Comment contester les conclusions du médecin expert d’assurances ?"
+    ],
+    [
+     "h2",
+     "Le rôle du médecin expert d’assurances"
+    ],
+    [
+     "h2",
+     "Pourquoi contester une expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Étape 1 : Analyser précisément le rapport d’expertise"
+    ],
+    [
+     "h2",
+     "Étape 2 : Se faire assister par un médecin-conseil de victime"
+    ],
+    [
+     "h2",
+     "Étape 3 : Demander une contre-expertise amiable"
+    ],
+    [
+     "h2",
+     "Étape 4 : Contester par écrit auprès de l’assurance"
+    ],
+    [
+     "h2",
+     "Étape 5 : Engager une expertise judiciaire"
+    ],
+    [
+     "h2",
+     "Le principe du contradictoire : un droit fondamental"
+    ],
+    [
+     "h2",
+     "Faut-il accepter l’indemnisation proposée malgré le désaccord ?"
+    ],
+    [
+     "h2",
+     "L’importance de l’accompagnement juridique"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 39,
+   "word_count": 2942,
+   "content_len": 19042
+  },
+  {
+   "rank": 9,
+   "url": "https://www.expertises-medicales.net/contester-une-expertise-medicale/",
+   "title": "Comment contester une expertise médicale ? - Expertises Medicales",
+   "desc": "Pourquoi contester une expertise médicale ? Comment contester une expertise médicale ? Comment demander une contre-expertise médicale ?...",
+   "headers": [
+    [
+     "h1",
+     "Comment contester une expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Pourquoi contester une expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Comment contester un rapport d’expertise médicale amiable unilatéral ?"
+    ],
+    [
+     "h2",
+     "Comment contester le rapport d'expertise médicale amiable non contradictoire ?"
+    ],
+    [
+     "h2",
+     "Comment demander une contre-expertise médicale ?"
+    ]
+   ],
+   "content_score": 64,
+   "readability": 23,
+   "word_count": 1148,
+   "content_len": 7461
+  },
+  {
+   "rank": 10,
+   "url": "https://www.village-justice.com/articles/comment-contester-rapport-expertise-medicale-apres-accident-route,36110.html",
+   "title": "Comment contester un rapport d’expertise médicale après un accident de la route ? Par Michel Benezra, Avocat.",
+   "desc": "1° De quel expert il s'agit, et surtout, de quel rapport médical il en ressort ? 2° Contester un rapport médical amiable unilatéral ? 3° Contester un rapport médical amiable contradictoire ?",
+   "headers": [
+    [
+     "h1",
+     "Comment contester un rapport d’expertise médicale après un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Interagir avec l'auteur !"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 21,
+   "word_count": 2585,
+   "content_len": 16651
+  },
+  {
+   "rank": 11,
+   "url": "https://www.avocats-scp-schmitzberger-hoffer-colette.fr/contester-expertise-medicale",
+   "title": "Peut-on contester une expertise médicale après un accident ?",
+   "desc": "Si vous êtes en désaccord avec les conclusions médicales, découvrez vos recours et l’importance d’un avocat pour obtenir une indemnisation juste.",
+   "headers": [
+    [
+     "h1",
+     "Contester une expertise médicale :quels sont vos droits ?"
+    ],
+    [
+     "h2",
+     "Les causes courantes de désaccords sur les conclusions médicales"
+    ],
+    [
+     "h2",
+     "Les options pour contester des conclusions médicales"
+    ],
+    [
+     "h2",
+     "Les étapes pour contester un rapport médical avec l’aide d’un avocat"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 35,
+   "word_count": 925,
+   "content_len": 6301
+  },
+  {
+   "rank": 12,
+   "url": "https://alexismorinavocat.fr/blog/expertise-medicale/contre-expertise-medicale/",
+   "title": "Contre-expertise médicale - Morin Avocat",
+   "desc": "Découvrez comment fonctionne la contre-expertise médicale et comment maximiser vos chances d'obtenir une réévaluation de vos préjudices.",
+   "headers": [
+    [
+     "h1",
+     "Contre-expertise médicale : contester une évaluation médicale après un accident"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’une contre-expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Dans quels cas demander une contre-expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule une contre-expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Quelle est la différence avec l’expertise contradictoire ?"
+    ],
+    [
+     "h2",
+     "Quels sont les enjeux de la contre-expertise ?"
+    ],
+    [
+     "h2",
+     "Faut-il être accompagné pour une contre-expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Délais et procédure après une contre-expertise"
+    ],
+    [
+     "h2",
+     "Pour résumer : la contre-expertise, un outil important"
+    ]
+   ],
+   "content_score": 29,
+   "readability": 39,
+   "word_count": 830,
+   "content_len": 5925
+  },
+  {
+   "rank": 13,
+   "url": "https://www.rsl-avocat.com/contestation-rapport-expertise-judiciaire/",
+   "title": "Contester un rapport d’expertise judiciaire en dommage corporel | RSL Avocat",
+   "desc": "Rapport d’expertise judiciaire incomplet, contestable ou irrégulier : découvrez les recours possibles en dommage corporel et les démarches à engager.",
+   "headers": [
+    [
+     "h1",
+     "Contester un rapport d’expertise judiciaire en dommage corporel : quels recours ?"
+    ],
+    [
+     "h2",
+     "Quand un rapport d’expertise judiciaire peut-il être contesté ?"
+    ],
+    [
+     "h2",
+     "Le rapport d’expertise judiciaire : à quoi sert-il en dommage corporel ?"
+    ],
+    [
+     "h2",
+     "Avant le dépôt du rapport : pourquoi les dires sont décisifs"
+    ],
+    [
+     "h2",
+     "Après le dépôt du rapport : quels recours sont possibles ?"
+    ],
+    [
+     "h2",
+     "Dans quels cas la nullité de l’expertise peut-elle être invoquée ?"
+    ],
+    [
+     "h2",
+     "Ce qui ne suffit pas pour contester utilement un rapport"
+    ],
+    [
+     "h2",
+     "Pourquoi il faut réagir rapidement"
+    ],
+    [
+     "h2",
+     "FAQ – Contester un rapport d’expertise judiciaire"
+    ],
+    [
+     "h2",
+     "En savoir plus sur les dommages corporels"
+    ],
+    [
+     "h2",
+     "RSL Avocat"
+    ],
+    [
+     "h2",
+     "Adresse"
+    ]
+   ],
+   "content_score": 37,
+   "readability": 37,
+   "word_count": 1670,
+   "content_len": 10967
+  },
+  {
+   "rank": 14,
+   "url": "https://delvecchioavocat-lyon.fr/dossier-medical-expertise/contester-expertise-medicale-indemnisation/",
+   "title": "Contester une expertise médicale et défendre son indemnisation",
+   "desc": "Une expertise médicale défavorable peut être contestée. Découvrez vos droits, les démarches possibles et les enjeux pour l’indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Contester une expertise médicale : droits, démarches et enjeux"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’une expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Pourquoi une expertise médicale peut-elle être contestée ?"
+    ],
+    [
+     "h2",
+     "Comment contester une expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Quels sont les enjeux d’une expertise médicale défavorable ?"
+    ],
+    [
+     "h2",
+     "Expertise médicale et indemnisation : points de vigilance"
+    ],
+    [
+     "h2",
+     "Questions fréquentes et démarches juridiques"
+    ],
+    [
+     "h2",
+     "Nos autres articles"
+    ]
+   ],
+   "content_score": 45,
+   "readability": 47,
+   "word_count": 461,
+   "content_len": 3258
+  },
+  {
+   "rank": 15,
+   "url": "https://expertise-medicale-contestee.fr/contester-expertise-medicale-recours-indemnisation",
+   "title": "contester-expertise-medicale-recours-indemnisation | Expertise Médicale Analytique",
+   "desc": "Plateforme d'analyse technique indépendante sur la contestation des expertises médicales.",
+   "headers": [
+    [
+     "h1",
+     "Contester un rapport d'expertise médicale — Analyse technique et procédurale"
+    ],
+    [
+     "h2",
+     "Introduction : l'expertise médicale comme terrain de contestation"
+    ],
+    [
+     "h2",
+     "Fonctionnement réel d'une expertise médicale"
+    ],
+    [
+     "h2",
+     "Méthodologie utilisée par les experts médicaux"
+    ],
+    [
+     "h2",
+     "Failles techniques fréquentes dans les rapports d'expertise"
+    ],
+    [
+     "h2",
+     "Erreurs d'évaluation de l'incapacité"
+    ],
+    [
+     "h2",
+     "Notion d'impartialité et conflits d'intérêts"
+    ],
+    [
+     "h2",
+     "Leviers juridiques mobilisables"
+    ],
+    [
+     "h2",
+     "Chronologie complète d'une contestation"
+    ],
+    [
+     "h2",
+     "Coûts détaillés et variables"
+    ],
+    [
+     "h2",
+     "Délais réalistes selon juridiction"
+    ],
+    [
+     "h2",
+     "Risques d'échec d'un recours"
+    ],
+    [
+     "h2",
+     "Conclusion stratégique"
+    ]
+   ],
+   "content_score": 38,
+   "readability": 18,
+   "word_count": 2189,
+   "content_len": 15300
+  },
+  {
+   "rank": 16,
+   "url": "https://victime-accident.lexvox-avocat.fr/2020/04/10/comment-contester-une-expertise-medicale-apres-un-accident/",
+   "title": "Comment contester une expertise médicale après un accident ? - Victime Accident",
+   "desc": "Comment contester une expertise médicale après un accident de la route ? Voici tout ce que vous devez savoir avant et pour le faire.",
+   "headers": [
+    [
+     "h1",
+     "Comment contester une expertise médicale après un accident ?"
+    ],
+    [
+     "h2",
+     "Entre assurance, indemnisation et accident : comment contester une expertise médicale ?"
+    ],
+    [
+     "h2",
+     "La contestation des expertises médicales à l’amiable"
+    ],
+    [
+     "h2",
+     "La contestation des expertises médicales à caractère judiciaire"
+    ],
+    [
+     "h2",
+     "Entre assurance, indemnisation et accident : obtenir une nouvelle expertise en référé"
+    ],
+    [
+     "h2",
+     "Les enjeux stratégiques entre contre-expertises et compléments d’expertises"
+    ],
+    [
+     "h2",
+     "Les postes de préjudice indemnisables après contestation d’expertise"
+    ],
+    [
+     "h2",
+     "Points de procédure essentiels : délais et pièces à réunir"
+    ],
+    [
+     "h2",
+     "Expertise amiable, expertise judiciaire, contre-expertise : tableau comparatif"
+    ],
+    [
+     "h2",
+     "Chiffres clés sur l’expertise médicale et l’indemnisation des victimes"
+    ],
+    [
+     "h2",
+     "Jurisprudence récente"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur la contestation d’expertise médicale"
+    ],
+    [
+     "h2",
+     "Contester votre expertise médicale avec le cabinet LEXVOX"
+    ]
+   ],
+   "content_score": 60,
+   "readability": 23,
+   "word_count": 3836,
+   "content_len": 24951
+  },
+  {
+   "rank": 17,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/contre-expertise-medicale",
+   "title": "Tout savoir sur le médecin-expert et l'expertise médicale - Association Victimes de France AIVF",
+   "desc": "Découvrez le rôle du médecin-expert et les enjeux de l'expertise médicale avec l'Association Aide Victimes France.",
+   "headers": [
+    [
+     "h1",
+     "Tout savoir sur le médecin-expert et l’expertise médicale"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Tout savoir sur le médecin-expert et l’expertise médicale"
+    ],
+    [
+     "h2",
+     "Essentiel à retenir – Médecin expert & expertise médicale"
+    ],
+    [
+     "h2",
+     "Tout savoir sur le médecin expert et l’expertise médicale"
+    ],
+    [
+     "h2",
+     "Exemples de questions sur l’expertise médicale"
+    ],
+    [
+     "h2",
+     "Exemples de réponses d’un avocat corporel du réseau de l’aivf"
+    ]
+   ],
+   "content_score": 36,
+   "readability": 29,
+   "word_count": 3497,
+   "content_len": 22705
+  },
+  {
+   "rank": 18,
+   "url": "https://maitre-morin-avocat.fr/questions-les-plus-courantes-apres-un-accident-de-la-route/a-quoi-sert-lexpertise-medicale-et-puis-je-la-contester",
+   "title": "Expertise médicale : à quoi sert-elle et peut-on la contester ? | Avocat",
+   "desc": "À quoi sert l’expertise médicale après un accident ? Peut-on contester celle de l’assureur ? Avocat en dommage corporel à Paris et en France entière.",
+   "headers": [
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h1",
+     "À quoi sert l’expertise médicale et peut-on la contester ?"
+    ],
+    [
+     "h2",
+     "À quoi sert une expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Dans quels cas une expertise médicale est-elle utilisée ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule une expertise médicale ?"
+    ],
+    [
+     "h2",
+     "⚠️ Expertise médicale de l’assureur : elle peut être contestée"
+    ],
+    [
+     "h2",
+     "Dans quels cas une contestation est possible ?"
+    ],
+    [
+     "h2",
+     "⚠️ Attention aux expertises organisées par les assureurs"
+    ],
+    [
+     "h2",
+     "Pourquoi être assisté par un avocat lors d’une expertise médicale ?"
+    ],
+    [
+     "h2",
+     "FAQ – Expertise médicale et contestation"
+    ],
+    [
+     "h2",
+     "Conclusion – Une étape décisive à ne pas subir"
+    ]
+   ],
+   "content_score": 38,
+   "readability": 27,
+   "word_count": 1049,
+   "content_len": 6738
+  },
+  {
+   "rank": 19,
+   "url": "https://www.sharongonzalezavocat.fr/blog/contre-expertise-medicale-delai-procedure/",
+   "title": "Demander une contre-expertise médicale : délais et étapes",
+   "desc": "Contre-expertise médicale après accident : délai légal pour contester, motifs recevables, procédure devant le juge et coût. Avocat Toulouse.",
+   "headers": [
+    [
+     "h1",
+     "Contre-expertise médicale : délai pour contester et procédure"
+    ],
+    [
+     "h2",
+     "Que faire si l’expertise médicale est défavorable à la victime ?"
+    ],
+    [
+     "h2",
+     "Quel est le délai pour demander une contre-expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Comment contester une expertise médicale après un accident ?"
+    ],
+    [
+     "h2",
+     "Les 4 motifs valables de contestation"
+    ],
+    [
+     "h2",
+     "Cas concret : reconstitution d’un dossier après rapport défavorable"
+    ],
+    [
+     "h2",
+     "Nullité d’une expertise médicale : quand l’obtenir et comment"
+    ],
+    [
+     "h2",
+     "Procédure de contre-expertise devant le juge"
+    ],
+    [
+     "h2",
+     "Coût et financement"
+    ],
+    [
+     "h2",
+     "Au cabinet à Toulouse : accompagnement contre-expertise"
+    ],
+    [
+     "h2",
+     "Pour aller plus loin"
+    ],
+    [
+     "h2",
+     "Questions frequentes"
+    ],
+    [
+     "h2",
+     "Estimez votre indemnisation"
+    ],
+    [
+     "h2",
+     "Articles similaires"
+    ]
+   ],
+   "content_score": 32,
+   "readability": 29,
+   "word_count": 2940,
+   "content_len": 19362
+  },
+  {
+   "rank": 20,
+   "url": "https://www.denicourt-avocat.fr/details-est-il+possible+de+contester+un+rapport+d+expertise+medicale-145.html",
+   "title": "Est-il possible de contester un rapport d'expertise médicale ? - Maître DENICOURT",
+   "desc": "=&gt;Si vous n'avez signé aucun procès-verbal de transaction, il est effectivement possible de contester un rapport d'expertise Comment faire ? =&gt;Consulter un médecin spécialiste de la réparation du préjudice corporel (médecin recours) avec son dossier médical et le rapport d'expertise à contes...",
+   "headers": [
+    [
+     "h1",
+     "Est-il possible de contester un rapport d'expertise médicale ?"
+    ]
+   ],
+   "content_score": 33,
+   "readability": 59,
+   "word_count": 407,
+   "content_len": 2590
+  },
+  {
+   "rank": 21,
+   "url": "https://www.avocat-crl.fr/details-comment+contester+un+rapport+d+expertise+medicale+defavorable+apres+un+accident-728",
+   "title": "Comment contester un rapport d’expertise médicale défavorable après un accident ? - Cabinet Rossi Laborie",
+   "desc": "Après un accident, il arrive qu’un rapport d’expertise médicale soit jugé défavorable par la victime, impactant ainsi l’indemnisation des préjudices. Si tel est votre cas, il existe des procédures précises pour contester un tel rapport et défendre vos droits suite à un accident.  Contestation d’un...",
+   "headers": [
+    [
+     "h1",
+     "Comment contester un rapport d’expertise médicale défavorable après un accident ?"
+    ],
+    [
+     "h2",
+     "Contestation d’un rapport d’expertise médicale : démarches et conseils pratiques"
+    ],
+    [
+     "h2",
+     "Un accompagnement juridique pour renforcer vos droits"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 29,
+   "word_count": 612,
+   "content_len": 4083
+  },
+  {
+   "rank": 22,
+   "url": "https://www.instagram.com/reel/DQuP_DTiN8Z/",
+   "title": "Instagram",
+   "desc": "20 likes, 0 comments - maitrehichemkhoury le  November 6, 2025: \"⚖️Comment contester un rapport d'expertise médical, lorsque vous n'êtes pas d'accord avec les conclusions de l'expert ?⚖️\nJe vous explique tout 👉📹\n\nPour en savoir plus abonnez vous !\nhttps://www.avocatkhoury.com/\n #obligations #dommage #conseils #affaires #assureurs #Contrat #prejudicecorporel #avocatmarseille #avocat #procédure #assurance #marseille #droit\". ",
+   "headers": [
+    [
+     "h2",
+     "Aucun commentaire pour l’instant."
+    ]
+   ],
+   "content_score": 5,
+   "readability": 37,
+   "word_count": 117,
+   "content_len": 858
+  },
+  {
+   "rank": 23,
+   "url": "https://jmp-avocat-indemnisation.fr/contester-une-expertise-medicale-avocat.html",
+   "title": "Contester Expertise Médicale Défavorable : Guide & Avocat Dommage Corporel",
+   "desc": "Rapport d'expertise sous-évalué ? Téléchargez notre modèle de lettre de refus et la check-list. Guide contestation amiable ou judiciaire (Juge des Référés) avec JMP Avocat.",
+   "headers": [
+    [
+     "h1",
+     "Rapport d'Expertise Médicale Défavorable : Ne Baissez Pas les Bras. Comment Contester l'Indemnisation ?"
+    ],
+    [
+     "h2",
+     "Le Drame : Votre expertise est faite, et c'est la douche froide. (Introduction empathique)"
+    ],
+    [
+     "h2",
+     "Étape 1 : Analyser et Refuser l’Offre (L’erreur à ne pas commettre)"
+    ],
+    [
+     "h2",
+     "Étape 2 : Le Modèle de Lettre pour Contester l’Expertise (Votre 1er Outil)"
+    ],
+    [
+     "h2",
+     "Étape 3 : Organiser la Contre-Expertise (La seule voie pour gagner)"
+    ],
+    [
+     "h2",
+     "Quand l'Amiable Échoue, le Recours Judiciaire (Dernière Ligne de Défense)"
+    ],
+    [
+     "h2",
+     "⏰ AGISSEZ MAINTENANT : Chaque Jour Compte"
+    ],
+    [
+     "h2",
+     "FAQ – Les questions que nous posent les victimes angoissées"
+    ],
+    [
+     "h2",
+     "Ne laissez pas l'assurance décider de votre avenir. Votre corps mérite une juste réparation."
+    ]
+   ],
+   "content_score": 45,
+   "readability": 51,
+   "word_count": 1720,
+   "content_len": 11645
+  },
+  {
+   "rank": 24,
+   "url": "https://www.facebook.com/SarahSicardAvocate/videos/-quels-sont-les-diff%C3%A9rents-types-dexpertise-vous-avez-re%C3%A7u-une-convocation-%C3%A0-une/1368645863802285/",
+   "title": "🧐 🥼 Quels sont les différents types d’expertise ? 🥼🧐\n\nVous avez reçu une convocation à une expertise médicale d’évaluation du dommage corporel et vous vous demandez (à raison !) ce que ça veut dire 🤯.\n\nDans une expertise médicale, un médecin va vous examiner et à l’issue du rendez-vous, va rédiger un rapport.\n\nIl existe 3 grands types d’expertises médicales :\n\n1️⃣ L’expertise médicale judiciaire\n\nC’est une expertise qui est ordonnée par un juge qui demande à un médecin expert judiciaire de l’éclairer sur l’évaluation du préjudice corporel. L’expert judiciaire est impartial, c’est à dire qu’il est une sorte d’arbitre entre les parties au procès.\n\n2️⃣ L’expertise médicale amiable\n\nElle s’organise sans intervention du juge, c’est un assureur qui va désigner un médecin qui travaille pour elle afin de l’éclairer sur le dommage corporel de la victime.\n\n3️⃣ L’expertise médicale amiable contradictoire\n\nC’est une expertise amiable où la victime décide d’être accompagnée elle-même par un médecin pour l’assister et défendre ses intérêts lors de l’expertise. Il faut que les deux parties aient validé le caractère contradictoire de l’expertise.\n\nSelon le type d’expertise, le poids juridique du rapport d’expertise n’est pas le même et il faut garder en tête qu’il est 𝐩𝐨𝐬𝐬𝐢𝐛𝐥𝐞 𝐝𝐞 𝐜𝐨𝐧𝐭𝐞𝐬𝐭𝐞𝐫 𝐥𝐞𝐬 𝐜𝐨𝐧𝐜𝐥𝐮𝐬𝐢𝐨𝐧𝐬 𝐝𝐮 𝐫𝐚𝐩𝐩𝐨𝐫𝐭 avec l’aide d’un avocat. | Sarah Sicard - Avocate",
+   "desc": "🧐 🥼 Quels sont les différents types d’expertise ? 🥼🧐\n\nVous avez reçu une convocation à une expertise médicale d’évaluation du dommage corporel et vous...",
+   "headers": [],
+   "content_score": 17,
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 25,
+   "url": "https://www.franck-cohen-avocat.fr/blog/comment-demander-une-contre-expertise-medicale.html",
+   "title": "Comment demander une contre expertise médicale ? | Franck Cohen Avocat",
+   "desc": "Comment demander une contre-expertise médicale ?Vous avez été victime de dommages corporels lors d'un accident de la route",
+   "headers": [
+    [
+     "h1",
+     "Comment demander une contre expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Dans quelles situations peut-on contester une expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Quelles démarches pour demander une contre-expertise médicale ?"
+    ]
+   ],
+   "content_score": 33,
+   "readability": 34,
+   "word_count": 1273,
+   "content_len": 7778
+  },
+  {
+   "rank": 26,
+   "url": "https://hadrienmuller-avocat.com/contester-un-rapport-dexpertise-comment-faire/",
+   "title": "Contester un rapport d'expertise judiciaire - H Muller",
+   "desc": "Comment contester un rapport d'expertise judiciaire ? Pour pouvoir faire valoir ses droits à l'indemnisation, voici ce qu'il faut faire",
+   "headers": [
+    [
+     "h2",
+     "Avocat spécialisé en préjudice corporel"
+    ],
+    [
+     "h2",
+     "Diplômé en évaluation des traumatismes crâniens"
+    ],
+    [
+     "h1",
+     "Contester un rapport d’expertise judiciaire : comment faire ?"
+    ],
+    [
+     "h2",
+     "Table des matières"
+    ],
+    [
+     "h2",
+     "À quoi correspond le premier rapport d’expertise ?"
+    ],
+    [
+     "h2",
+     "Pourquoi un rapport d’expertise judiciaire ?"
+    ],
+    [
+     "h2",
+     "Bien comprendre vos droits : le principe du contradictoire"
+    ],
+    [
+     "h2",
+     "Contester un rapport d’expertise judiciaire"
+    ],
+    [
+     "h2",
+     "Contester un rapport de médecin-conseil"
+    ],
+    [
+     "h2",
+     "Et si le rapport était bien contradictoire ?"
+    ],
+    [
+     "h2",
+     "Comprendre le rôle de l’expert judiciaire"
+    ],
+    [
+     "h2",
+     "Les motifs valables pour contester un rapport d’expertise"
+    ],
+    [
+     "h2",
+     "La procédure de contestation d’un rapport d’expertise"
+    ],
+    [
+     "h2",
+     "L’importance de l’assistance d’un avocat dans la contestation"
+    ],
+    [
+     "h2",
+     "Maître Hadrien MULLER"
+    ],
+    [
+     "h2",
+     "41 réponses"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 21,
+   "word_count": 5239,
+   "content_len": 31077
+  },
+  {
+   "rank": 27,
+   "url": "https://www.avocat-lexvox.com/contre-expertise-medicale---comment-contester-une-expertise-et-avoir-gain-de-cause--_ad1049.html",
+   "title": "Contre expertise médicale : comment contester une expertise et avoir gain de cause ?",
+   "desc": " Vous cherchez des informations sur la contre l’expertise médicale? En tant qu'avocat en préjudice, on vous apporte des réponses sur ce sujet, y compris les problèmes de compétence ou encore",
+   "headers": [
+    [
+     "h1",
+     "Contre expertise médicale : comment contester une expertise et avoir gain de cause ?"
+    ],
+    [
+     "h2",
+     "Les dommages que l'on peut rencontrer"
+    ],
+    [
+     "h2",
+     "Pourquoi demander une CEM ?"
+    ],
+    [
+     "h2",
+     "Quel délai pour les contestations d'expertises médicales (EM) ?"
+    ],
+    [
+     "h2",
+     "FAQs contre-expertise médicale"
+    ],
+    [
+     "h2",
+     "Votre guide gratuit !"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 29,
+   "word_count": 2138,
+   "content_len": 13465
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 2154,
+   "target": 2154
+  },
+  "readability": {
+   "median": 30,
+   "target": 30
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "conteste",
+    "usage_pc": 80
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 70
+   },
+   {
+    "t": "expertises",
+    "usage_pc": 70
+   },
+   {
+    "t": "comment contester",
+    "usage_pc": 50
+   },
+   {
+    "t": "contester une expertise",
+    "usage_pc": 40
+   },
+   {
+    "t": "contester une expertise médicale",
+    "usage_pc": 40
+   }
+  ],
+  "desc": [
+   {
+    "t": "conteste",
+    "usage_pc": 70
+   },
+   {
+    "t": "expertises",
+    "usage_pc": 50
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 40
+   },
+   {
+    "t": "contre-expertise",
+    "usage_pc": 40
+   },
+   {
+    "t": "contester une expertise",
+    "usage_pc": 40
+   },
+   {
+    "t": "expert",
+    "usage_pc": 40
+   },
+   {
+    "t": "contre-expertise médicale",
+    "usage_pc": 40
+   },
+   {
+    "t": "comment contester",
+    "usage_pc": 40
+   },
+   {
+    "t": "contester une expertise médicale",
+    "usage_pc": 30
+   },
+   {
+    "t": "une contre-expertise",
+    "usage_pc": 30
+   }
+  ],
+  "h1": [
+   {
+    "t": "conteste",
+    "usage_pc": 80
+   },
+   {
+    "t": "expertises",
+    "usage_pc": 70
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 60
+   },
+   {
+    "t": "contester une expertise",
+    "usage_pc": 40
+   },
+   {
+    "t": "comment contester",
+    "usage_pc": 40
+   },
+   {
+    "t": "contre-expertise",
+    "usage_pc": 30
+   },
+   {
+    "t": "contre-expertise médicale",
+    "usage_pc": 30
+   },
+   {
+    "t": "contester une expertise médicale",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 20
+   },
+   {
+    "t": "comment contester une expertise",
+    "usage_pc": 20
+   },
+   {
+    "t": "comment contester une expertise médicale",
+    "usage_pc": 20
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 20
+   },
+   {
+    "t": "médicale après un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "expert",
+    "usage_pc": 10
+   },
+   {
+    "t": "médecin expert",
+    "usage_pc": 10
+   },
+   {
+    "t": "une contre-expertise",
+    "usage_pc": 10
+   },
+   {
+    "t": "les conclusions",
+    "usage_pc": 10
+   },
+   {
+    "t": "conteste le rapport",
+    "usage_pc": 10
+   },
+   {
+    "t": "une contre-expertise médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "demander une contre-expertise médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "conteste les conclusions",
+    "usage_pc": 10
+   },
+   {
+    "t": "rapport d'expertise",
+    "usage_pc": 10
+   },
+   {
+    "t": "comment demander une contre-expertise médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "expertise défavorable",
+    "usage_pc": 10
+   },
+   {
+    "t": "peut-on contester",
+    "usage_pc": 10
+   },
+   {
+    "t": "contester le rapport d'expertise médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "contester efficacement",
+    "usage_pc": 10
+   },
+   {
+    "t": "contester une expertise défavorable",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "expertises",
+    "usage_pc": 70
+   },
+   {
+    "t": "conteste",
+    "usage_pc": 60
+   },
+   {
+    "t": "contre-expertise",
+    "usage_pc": 60
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 50
+   },
+   {
+    "t": "contre-expertise médicale",
+    "usage_pc": 50
+   },
+   {
+    "t": "une contre-expertise",
+    "usage_pc": 50
+   },
+   {
+    "t": "contester une expertise",
+    "usage_pc": 40
+   },
+   {
+    "t": "comment contester",
+    "usage_pc": 40
+   },
+   {
+    "t": "contester une expertise médicale",
+    "usage_pc": 40
+   },
+   {
+    "t": "une contre-expertise médicale",
+    "usage_pc": 40
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 30
+   },
+   {
+    "t": "demander une contre-expertise médicale",
+    "usage_pc": 30
+   },
+   {
+    "t": "expert",
+    "usage_pc": 20
+   },
+   {
+    "t": "médecin expert",
+    "usage_pc": 20
+   },
+   {
+    "t": "expertise judiciaire",
+    "usage_pc": 20
+   },
+   {
+    "t": "conteste le rapport",
+    "usage_pc": 20
+   },
+   {
+    "t": "comment demander une contre-expertise médicale",
+    "usage_pc": 20
+   },
+   {
+    "t": "peut-on contester",
+    "usage_pc": 20
+   },
+   {
+    "t": "expertise amiable",
+    "usage_pc": 10
+   },
+   {
+    "t": "les conclusions",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 10
+   },
+   {
+    "t": "comment contester une expertise",
+    "usage_pc": 10
+   },
+   {
+    "t": "comment contester une expertise médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 10
+   },
+   {
+    "t": "conteste les conclusions",
+    "usage_pc": 10
+   },
+   {
+    "t": "médecin-conseil de victime",
+    "usage_pc": 10
+   },
+   {
+    "t": "rapport d'expertise",
+    "usage_pc": 10
+   },
+   {
+    "t": "expertise amiable contradictoire",
+    "usage_pc": 10
+   },
+   {
+    "t": "contre-expertise amiable",
+    "usage_pc": 10
+   },
+   {
+    "t": "contester le rapport d'expertise médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "médicale après un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "demander une contre-expertise amiable",
+    "usage_pc": 10
+   },
+   {
+    "t": "expertise insuffisante",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "expertise médicale",
+    "usage_pc": 100,
+    "sugg_usage": [
+     5,
+     12
+    ]
+   },
+   {
+    "t": "conteste",
+    "usage_pc": 100,
+    "sugg_usage": [
+     6,
+     18
+    ]
+   },
+   {
+    "t": "expertises",
+    "usage_pc": 100,
+    "sugg_usage": [
+     22,
+     53
+    ]
+   },
+   {
+    "t": "contre-expertise",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     8
+    ]
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 100,
+    "sugg_usage": [
+     8,
+     18
+    ]
+   },
+   {
+    "t": "contester une expertise",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "expert",
+    "usage_pc": 100,
+    "sugg_usage": [
+     10,
+     35
+    ]
+   },
+   {
+    "t": "contre-expertise médicale",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "comment contester",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "contester une expertise médicale",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "médecin expert",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     22
+    ]
+   },
+   {
+    "t": "une contre-expertise",
+    "usage_pc": 80,
+    "sugg_usage": [
+     3,
+     6
+    ]
+   },
+   {
+    "t": "un médecin",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     11
+    ]
+   },
+   {
+    "t": "expertise amiable",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "expertise judiciaire",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "les conclusions",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "expertise contradictoire",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "conteste le rapport",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "une contre-expertise médicale",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "demander une contre-expertise médicale",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "rapport médical",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "réception du rapport",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "première expertise",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expert judiciaire",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "demander une expertise",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si le rapport",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "comment contester une expertise",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment contester une expertise médicale",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "nouvelle expertise",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "conteste les conclusions",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médicale contradictoire",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médecin-conseil de victime",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "erreur médicale",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "rapport d'expertise",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expertise amiable contradictoire",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "expertise médicale contradictoire",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment demander une contre-expertise médicale",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contre-expertise amiable",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expertise défavorable",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "peut-on contester",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "référé expertise",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contester le rapport d'expertise médicale",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contester efficacement",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "premier rapport",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contre expertise",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contester une expertise défavorable",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contester cette expertise",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir une contre-expertise",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médicale après un accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "rapport d’expertise",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "rapport d’expertise médicale",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contester un rapport d’expertise médicale",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conteste le rapport d’expertise",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contestation d’une expertise médicale",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment contester un rapport d’expertise",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "premier rapport d’expertise",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contester l’expertise",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "rapport d’expertise du médecin",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "réception du rapport d’expertise",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accidents de la route",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les conclusions de l’expert",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "rapport d’expertise amiable",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accidents",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "peut contester",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir une expertise",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "nouvelle évaluation médicale réalisée",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "rétablir la vérité médicale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les conclusions du rapport",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit de le contester",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demander une contre-expertise amiable",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expertise medicale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demander une expertise amiable contradictoire",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après réception du rapport",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expertise médicale réalisée",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comprendre comment contester",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expertise médicale initiale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "rapport du médecin expert",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "intérêt à contester",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expertise insuffisante",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Expertise médicale",
+    "importance": 86.45799999999998,
+    "relevance": 0.8645799999999999,
+    "confidence": 1.7262,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expertise_médicale"
+     ]
+    ]
+   },
+   {
+    "t": "Expertise",
+    "importance": 66.938,
+    "relevance": 0.6693800000000001,
+    "confidence": 1.2264599999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expertise"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 54.64759999999999,
+    "relevance": 0.546476,
+    "confidence": 5.054,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 47.972,
+    "relevance": 0.47972000000000004,
+    "confidence": 2.0878,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Expert",
+    "importance": 19.303919999999998,
+    "relevance": 0.5362199999999999,
+    "confidence": 0.92214,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expert"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 17.260544,
+    "relevance": 0.269696,
+    "confidence": 1.384,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal",
+    "importance": 16.30848,
+    "relevance": 0.25482,
+    "confidence": 2.4574,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 14.501247999999999,
+    "relevance": 0.226582,
+    "confidence": 4.387600000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Compagnie d'assurances",
+    "importance": 10.65528,
+    "relevance": 0.29598,
+    "confidence": 0.9724,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Compagnie_d'assurances"
+     ]
+    ]
+   },
+   {
+    "t": "Dossier médical",
+    "importance": 7.0106399999999995,
+    "relevance": 0.19473999999999997,
+    "confidence": 1.5493999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dossier_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Justice",
+    "importance": 6.99072,
+    "relevance": 0.10922999999999998,
+    "confidence": 2.7144000000000004,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Justice"
+     ]
+    ]
+   },
+   {
+    "t": "Juge",
+    "importance": 6.09408,
+    "relevance": 0.16928,
+    "confidence": 1.1603999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Juge"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 5.136624,
+    "relevance": 0.142684,
+    "confidence": 4.1292,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Droit",
+    "importance": 3.037823999999999,
+    "relevance": 0.08438399999999999,
+    "confidence": 1.6480000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Droit"
+     ]
+    ]
+   },
+   {
+    "t": "Examen médical",
+    "importance": 2.94176,
+    "relevance": 0.18386,
+    "confidence": 1.1416,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Examen_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Principe du contradictoire",
+    "importance": 1.3743360000000002,
+    "relevance": 0.085896,
+    "confidence": 0.755,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Principe_du_contradictoire"
+     ]
+    ]
+   },
+   {
+    "t": "Accident médical",
+    "importance": 1.0867520000000002,
+    "relevance": 0.06792200000000001,
+    "confidence": 0.7085999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Cour d'appel (France)",
+    "importance": 0.8617600000000001,
+    "relevance": 0.05386,
+    "confidence": 1.0116,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cour_d'appel_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Maladie professionnelle",
+    "importance": 0.7584000000000001,
+    "relevance": 0.0474,
+    "confidence": 1.1827999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Maladie_professionnelle"
+     ]
+    ]
+   },
+   {
+    "t": "Référé en droit français",
+    "importance": 0.69704,
+    "relevance": 0.17426,
+    "confidence": 0.3688,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Référé_en_droit_français"
+     ]
+    ]
+   },
+   {
+    "t": "Expert judiciaire",
+    "importance": 0.68016,
+    "relevance": 0.17004,
+    "confidence": 0.5248,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expert_judiciaire"
+     ]
+    ]
+   },
+   {
+    "t": "Maladie",
+    "importance": 0.648064,
+    "relevance": 0.040504,
+    "confidence": 1.154,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Maladie"
+     ]
+    ]
+   },
+   {
+    "t": "Cabinet M",
+    "importance": 0.6172799999999999,
+    "relevance": 0.15431999999999998,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "AIVF",
+    "importance": 0.60416,
+    "relevance": 0.15104,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Partie civile",
+    "importance": 0.54304,
+    "relevance": 0.13576,
+    "confidence": 0.5706,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Partie_civile"
+     ]
+    ]
+   },
+   {
+    "t": "Association d' aide aux victimes d' accident de la route",
+    "importance": 0.52904,
+    "relevance": 0.13226,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Arbitrage (droit)",
+    "importance": 0.51288,
+    "relevance": 0.12822,
+    "confidence": 0.8064,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Arbitrage_(droit)"
+     ]
+    ]
+   },
+   {
+    "t": "Expertise judiciaire",
+    "importance": 0.50352,
+    "relevance": 0.12588,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Santé",
+    "importance": 0.50096,
+    "relevance": 0.12524,
+    "confidence": 0.9452,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Santé"
+     ]
+    ]
+   },
+   {
+    "t": "Juge des référés en France",
+    "importance": 0.50072,
+    "relevance": 0.12518,
+    "confidence": 0.6092,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Juge_des_référés_en_France"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "conteste\nexpertise médicale\nexpertises\ncomment contester\ncontester une expertise\ncontester une expertise médicale",
+  "desc_title": "conteste\nexpertises\nexpertise médicale\ncontre-expertise\ncontester une expertise\nexpert\ncontre-expertise médicale\ncomment contester\ncontester une expertise médicale\nune contre-expertise",
+  "h1": "conteste\nexpertises\nexpertise médicale\ncontester une expertise\ncomment contester\ncontre-expertise\ncontre-expertise médicale\ncontester une expertise médicale\naccident de la route\ncomment contester une expertise\ncomment contester une expertise médicale\naprès un accident\nun accident de la route\nmédicale après un accident\nassurance\nexpert\nmédecin expert\nune contre-expertise\nles conclusions\nconteste le rapport\nune contre-expertise médicale\ndemander une contre-expertise médicale\nconteste les conclusions\nrapport d'expertise\ncomment demander une contre-expertise médicale\nexpertise défavorable\npeut-on contester\ncontester le rapport d'expertise médicale\ncontester efficacement\ncontester une expertise défavorable",
+  "h2": "expertises\nconteste\ncontre-expertise\nexpertise médicale\ncontre-expertise médicale\nune contre-expertise\ncontester une expertise\ncomment contester\ncontester une expertise médicale\nune contre-expertise médicale\nassurance\ndemander une contre-expertise médicale\nexpert\nmédecin expert\nexpertise judiciaire\nconteste le rapport\ncomment demander une contre-expertise médicale\npeut-on contester\nexpertise amiable\nles conclusions\naccident de la route\ncomment contester une expertise\ncomment contester une expertise médicale\naprès un accident\nun accident de la route\nconteste les conclusions\nmédecin-conseil de victime\nrapport d'expertise\nexpertise amiable contradictoire\ncontre-expertise amiable\ncontester le rapport d'expertise médicale\nmédicale après un accident\ndemander une contre-expertise amiable\nexpertise insuffisante",
+  "content_basic": "expertise médicale\nconteste\nexpertises\ncontre-expertise\nassurance\ncontester une expertise\nexpert\ncontre-expertise médicale\ncomment contester\ncontester une expertise médicale\nmédecin expert\nune contre-expertise\nun médecin\nexpertise amiable\nexpertise judiciaire\nles conclusions\naccident de la route\nexpertise contradictoire\ndommage corporel\nconteste le rapport\nune contre-expertise médicale\ndemander une contre-expertise médicale\naprès un accident\nun accident de la route\nrapport médical\nréception du rapport\npremière expertise\nexpert judiciaire\ndemander une expertise\nsi le rapport",
+  "content_basic_w_ranges": "expertise médicale: 5-12x\nconteste: 6-18x\nexpertises: 22-53x\ncontre-expertise: 3-8x\nassurance: 8-18x\ncontester une expertise: 1-5x\nexpert: 10-35x\ncontre-expertise médicale: 1-4x\ncomment contester: 1-3x\ncontester une expertise médicale: 1-3x\nmédecin expert: 1-22x\nune contre-expertise: 3-6x\nun médecin: 3-11x\nexpertise amiable: 1-3x\nexpertise judiciaire: 1-7x\nles conclusions: 1-4x\naccident de la route: 1-5x\nexpertise contradictoire: 1-5x\ndommage corporel: 1-6x\nconteste le rapport: 1-2x\nune contre-expertise médicale: 1-3x\ndemander une contre-expertise médicale: 1x\naprès un accident: 1-2x\nun accident de la route: 1-3x\nrapport médical: 1x\nréception du rapport: 1x\npremière expertise: 1x\nexpert judiciaire: 1-3x\ndemander une expertise: 1x\nsi le rapport: 1x",
+  "content_extended": "comment contester une expertise\ncomment contester une expertise médicale\nnouvelle expertise\nconteste les conclusions\nmédicale contradictoire\nmédecin-conseil de victime\nerreur médicale\nrapport d'expertise\nexpertise amiable contradictoire\nexpertise médicale contradictoire\ncomment demander une contre-expertise médicale\ncontre-expertise amiable\nexpertise défavorable\npeut-on contester\nréféré expertise\ncontester le rapport d'expertise médicale\ncontester efficacement\npremier rapport\ncontre expertise\ncontester une expertise défavorable\ncontester cette expertise\nobtenir une contre-expertise\nmédicale après un accident\nrapport d’expertise\nrapport d’expertise médicale\ncontester un rapport d’expertise médicale\nconteste le rapport d’expertise\ncontestation d’une expertise médicale\ncomment contester un rapport d’expertise\nvictime d’un accident\npremier rapport d’expertise\ncontester l’expertise\nrapport d’expertise du médecin\nréception du rapport d’expertise\nvictimes d’accidents de la route\nles conclusions de l’expert\nrapport d’expertise amiable\nvictime d’accident\nvictimes d’accidents\npeut contester\nobtenir une expertise\nnouvelle évaluation médicale réalisée\nrétablir la vérité médicale\nles conclusions du rapport\ndroit de le contester\ndemander une contre-expertise amiable\nexpertise medicale\ndemander une expertise amiable contradictoire\naprès réception du rapport\nexpertise médicale réalisée\ncomprendre comment contester\nexpertise médicale initiale\nrapport du médecin expert\nintérêt à contester\nexpertise insuffisante",
+  "content_extended_w_ranges": "comment contester une expertise: 1x\ncomment contester une expertise médicale: 1x\nnouvelle expertise: 1-3x\nconteste les conclusions: 1x\nmédicale contradictoire: 1x\nmédecin-conseil de victime: 1-2x\nerreur médicale: 1-2x\nrapport d'expertise: 1x\nexpertise amiable contradictoire: 1-2x\nexpertise médicale contradictoire: 1x\ncomment demander une contre-expertise médicale: 1x\ncontre-expertise amiable: 1x\nexpertise défavorable: 1x\npeut-on contester: 1x\nréféré expertise: 1x\ncontester le rapport d'expertise médicale: 1x\ncontester efficacement: 1x\npremier rapport: 1x\ncontre expertise: 1x\ncontester une expertise défavorable: 1x\ncontester cette expertise: 1x\nobtenir une contre-expertise: 1x\nmédicale après un accident: 1x\nrapport d’expertise: 1x\nrapport d’expertise médicale: 1x\ncontester un rapport d’expertise médicale: 1x\nconteste le rapport d’expertise: 1x\ncontestation d’une expertise médicale: 1x\ncomment contester un rapport d’expertise: 1x\nvictime d’un accident: 1x\npremier rapport d’expertise: 1x\ncontester l’expertise: 1x\nrapport d’expertise du médecin: 1x\nréception du rapport d’expertise: 1x\nvictimes d’accidents de la route: 1x\nles conclusions de l’expert: 1x\nrapport d’expertise amiable: 1x\nvictime d’accident: 1x\nvictimes d’accidents: 1x\npeut contester: 1x\nobtenir une expertise: 1x\nnouvelle évaluation médicale réalisée: 1x\nrétablir la vérité médicale: 1x\nles conclusions du rapport: 1x\ndroit de le contester: 1x\ndemander une contre-expertise amiable: 1x\nexpertise medicale: 1x\ndemander une expertise amiable contradictoire: 1x\naprès réception du rapport: 1x\nexpertise médicale réalisée: 1x\ncomprendre comment contester: 1x\nexpertise médicale initiale: 1x\nrapport du médecin expert: 1x\nintérêt à contester: 1x\nexpertise insuffisante: 1x",
+  "entities": "Expertise médicale\nExpertise\nAssurance\nMédecin\nExpert\nAvocat (métier)\nTribunal\nAccident de la route\nCompagnie d'assurances\nDossier médical\nJustice\nJuge\nDommage corporel\nDroit\nExamen médical\nPrincipe du contradictoire\nAccident médical\nCour d'appel (France)\nMaladie professionnelle\nRéféré en droit français\nExpert judiciaire\nMaladie\nCabinet M\nAIVF\nPartie civile\nAssociation d' aide aux victimes d' accident de la route\nArbitrage (droit)\nExpertise judiciaire\nSanté\nJuge des référés en France"
+ },
+ "status": "ready",
+ "keyword": "contester rapport expertise medicale",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "2916d2b965eff0ca",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "guide": 81.5,
+   "business": 33.3,
+   "blog-post": 29.6,
+   "landing-page": 3.7,
+   "educational": 3.7,
+   "short-answer": 7.4,
+   "social-media": 7.4,
+   "video": 7.4
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/2916d2b965eff0ca",
+ "share_url": "https://app.neuronwriter.com/analysis/share/2916d2b965eff0ca/6675377fc5abfb0da471e5d6d33abbbc4fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/2916d2b965eff0ca/32107527e83dc95edddb9a1116a274a04fa16"
+}

@@ -1,0 +1,2590 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quelle est l'indemnisation en cas d'accident avec délit de fuite ?"
+   },
+   {
+    "q": "Quelle est l'indemnisation en cas de délit de fuite ?"
+   },
+   {
+    "q": "Quelle est l'indemnisation pour un délit de fuite ?"
+   },
+   {
+    "q": "Qui paie en cas de délit de fuite ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quelle est l'indemnisation en cas d'accident avec délit de fuite ?": {
+    "importance": 10
+   },
+   "Qui paie l'indemnisation en cas de délit de fuite ?": {
+    "importance": 9
+   },
+   "Que faire si vous êtes victime d'un délit de fuite ?": {
+    "importance": 8
+   },
+   "Qu'est-ce qu'un délit de fuite ?": {
+    "importance": 7
+   },
+   "Quelles sont les sanctions pour un délit de fuite ?": {
+    "importance": 7
+   },
+   "Comment prouver un délit de fuite ?": {
+    "importance": 6
+   },
+   "Le Fonds de Garantie des Assurances Obligatoires (FGAO) indemnise-t-il les dommages matériels après un délit de fuite ?": {
+    "importance": 6
+   },
+   "Quel est le délai pour déposer plainte ou saisir le FGAO après un délit de fuite ?": {
+    "importance": 5
+   },
+   "Comment se déroule la procédure d'indemnisation après un délit de fuite ?": {
+    "importance": 5
+   },
+   "Peut-on être indemnisé sans témoin ni vidéo après un délit de fuite ?": {
+    "importance": 4
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Accident corporel : quelle indemnisation par l'assurance ?"
+   },
+   {
+    "q": "Accident sur un parking : qui est responsable ?"
+   },
+   {
+    "q": "Auteur en fuite, non identifié : comment être indemnisé ?"
+   },
+   {
+    "q": "Combien de temps dure l'enquête après un délit de fuite ?"
+   },
+   {
+    "q": "Comment allez-vous être indemnisé au titre de votre contrat d’assurance auto ?"
+   },
+   {
+    "q": "Comment réagir face à un délit de fuite ?"
+   },
+   {
+    "q": "Comment se faire indemniser en cas de délit de fuite ?"
+   },
+   {
+    "q": "Comment se faire rembourser suite à un délit de fuite ?"
+   },
+   {
+    "q": "Comment utiliser l’e-constat auto ?"
+   },
+   {
+    "q": "Doit-on remplir un constat dans le cas d’un délit de fuite ?"
+   },
+   {
+    "q": "Délit de fuite : comment obtenir une indemnisation quand l'auteur de l'accident n'est pas identifié ?"
+   },
+   {
+    "q": "Délit de fuite : connaissez-vous les risques ?"
+   },
+   {
+    "q": "Délit de fuite après un accident de voiture : quelles démarches ?"
+   },
+   {
+    "q": "Délit de fuite suite à un accident de voiture : que faut-il faire ?"
+   },
+   {
+    "q": "Délit de fuite : quelles conséquences sur votre contrat d’assurance auto ?"
+   },
+   {
+    "q": "Et quelles sont les démarches à effectuer lorsque le responsable d’un accident de la circulation prend la fuite ?"
+   },
+   {
+    "q": "Et si l’auteur de l'infraction est finalement identifié ?"
+   },
+   {
+    "q": "Indemnisation : qui paie en cas de délit de fuite ?"
+   },
+   {
+    "q": "Le FGAO indemnise-t-il les dommages matériels après un délit de fuite ?"
+   },
+   {
+    "q": "Peut-on être indemnisé par son assurance auto en cas d'accident sans contrôle technique ?"
+   },
+   {
+    "q": "Peut-on être indemnisé sans aucun témoin ni vidéo ?"
+   },
+   {
+    "q": "Pour mesurer la différence chiffrée : avocat ou pas avocat après un accident corporel ?"
+   },
+   {
+    "q": "Que couvre le FGAO ?"
+   },
+   {
+    "q": "Que faire en tant que victime d'un délit de fuite ?"
+   },
+   {
+    "q": "Que faire si le conducteur adverse prend la fuite après l’accident ?"
+   },
+   {
+    "q": "Que faire si l’auteur du délit de fuite est non identifié ?"
+   },
+   {
+    "q": "Que faire si l’on est victime d’un délit de fuite ?"
+   },
+   {
+    "q": "Que faire si vous êtes victime d’un délit de fuite ?"
+   },
+   {
+    "q": "Que se passe-t-il si le fuyard est retrouvé après que le FGAO m'a indemnisé ?"
+   },
+   {
+    "q": "Que sont les sanctions aggravées ?"
+   },
+   {
+    "q": "Quel est le délai pour saisir le FGAO après un délit de fuite ?"
+   },
+   {
+    "q": "Quel est le prix d’une assurance auto pour un taxi ?"
+   },
+   {
+    "q": "Quelle est la procédure après un délit de fuite ?"
+   },
+   {
+    "q": "Quelle indemnisation de l’assurance auto après un délit de fuite ?"
+   },
+   {
+    "q": "Quelle indemnisation pour la victime d’un délit de fuite ?"
+   },
+   {
+    "q": "Quelles sanctions prévoit le Code pénal pour un délit de fuite ?"
+   },
+   {
+    "q": "Quelles sont les autres conséquences d'un délit de fuite ?"
+   },
+   {
+    "q": "Quelles sont les sanctions et la peine encourue pour un délit de fuite ?"
+   },
+   {
+    "q": "Quelles sont les sanctions financières au délit de fuite ?"
+   },
+   {
+    "q": "Quelles sont les sanctions judiciaires au délit de fuite ?"
+   },
+   {
+    "q": "Quelles sont les sanctions pour un délit de fuite en voiture ?"
+   },
+   {
+    "q": "Quels recours en cas de délit de fuite ?"
+   },
+   {
+    "q": "Quels sont les premiers réflexes à avoir et quelle est la marche à suivre pour se faire indemniser ?"
+   },
+   {
+    "q": "Qui saisit le FGAO ?"
+   },
+   {
+    "q": "Qu’est ce qu’un délit de fuite ?"
+   },
+   {
+    "q": "Qu’est-ce que le délit de fuite ?"
+   },
+   {
+    "q": "Qu’est-ce qui caractérise un délit de fuite ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un délit de fuite en voiture ?"
+   },
+   {
+    "q": "Si le responsable d'un accident prend la fuite, que se passe-t-il concernant l'indemnisation de l'assurance ?"
+   },
+   {
+    "q": "Taxi malussé : quel est le prix d’une assurance auto ?"
+   },
+   {
+    "q": "Un accident sans contact est-il traité comme un délit de fuite ?"
+   },
+   {
+    "q": "Une indemnisation est-elle possible et à quelles conditions ?"
+   },
+   {
+    "q": "Victime de délit de fuite : que faire ?"
+   },
+   {
+    "q": "Vous êtes victime d'un accident et la personne responsable commet un délit de fuite ?"
+   },
+   {
+    "q": "Vous êtes victime d’un accident et le conducteur impliqué s’est enfui ?"
+   },
+   {
+    "q": "⚠️ Attention — FGAO ou FGTI ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.matmut.fr/assurance/auto/conseils/que-faire-en-cas-de-delit-de-fuite",
+   "title": "Délit de fuite suite à un accident de voiture : que faut-il faire ? | Matmut",
+   "desc": "Vous êtes victime d'un accident et la personne responsable commet un délit de fuite ? Quelle est la démarche à suivre ? Ce qu'il faut savoir - La Matmut",
+   "headers": [
+    [
+     "h1",
+     "Délit de fuite après un accident de voiture : quelles démarches ?"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un délit de fuite en voiture ?"
+    ],
+    [
+     "h2",
+     "Que faire si le conducteur adverse prend la fuite après l’accident ?"
+    ],
+    [
+     "h2",
+     "Que faire si ma voiture garée a été endommagée en mon absence ?"
+    ],
+    [
+     "h2",
+     "Quelle indemnisation de l’assurance auto après un délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les sanctions pour un délit de fuite en voiture ?"
+    ],
+    [
+     "h2",
+     "Pour aller plus loin"
+    ]
+   ],
+   "content_score": 76,
+   "readability": 33,
+   "word_count": 1332,
+   "content_len": 8014
+  },
+  {
+   "rank": 2,
+   "url": "https://www.macif.fr/assurance/particuliers/assurance-auto-moto-scooter/assurance-automobile/delit-de-fuite-accident",
+   "title": "macif.fr",
+   "desc": "",
+   "headers": [],
+   "content_score": 0,
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 3,
+   "url": "https://www.maaf.fr/fr/assurance-auto/delit-de-fuite",
+   "title": "Erreur - Indisponibilité",
+   "desc": "",
+   "headers": [],
+   "content_score": 0,
+   "readability": 49,
+   "word_count": 62,
+   "content_len": 420
+  },
+  {
+   "rank": 4,
+   "url": "https://www.securite-routiere.gouv.fr/delit-de-fuite-connaissez-vous-les-risques",
+   "title": "Délit de fuite : connaissez-vous les risques ? | Sécurité Routière",
+   "desc": "En 2019, 187 343 délits de fuite ont été constatés. Considéré comme circonstance aggravante en cas d’accident, le délit de fuite est un acte qui entraine de très lourdes sanctions financières et pénales.",
+   "headers": [],
+   "content_score": 17,
+   "readability": 44,
+   "word_count": 87,
+   "content_len": 545
+  },
+  {
+   "rank": 5,
+   "url": "https://www.generali.fr/actu/que-faire-victime-delit-fuite/",
+   "title": "Que faire si vous êtes victime d’un délit de fuite ?",
+   "desc": "Vous êtes victime d’un accident et le conducteur impliqué s’est enfui ? Voici les premiers réflexes et les démarches pour se faire indemniser.",
+   "headers": [
+    [
+     "h1",
+     "Que faire si vous êtes victime d’un délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Vous êtes victime d’un accident et le conducteur impliqué s’est enfui ? Quels sont les premiers réflexes à avoir et quelle est la marche à suivre pour se faire indemniser ?"
+    ],
+    [
+     "h2",
+     "Nos solutions"
+    ],
+    [
+     "h2",
+     "Actualités"
+    ]
+   ],
+   "content_score": 58,
+   "readability": 39,
+   "word_count": 1170,
+   "content_len": 7288
+  },
+  {
+   "rank": 6,
+   "url": "https://www.masecurite.interieur.gouv.fr/fr/fiches-pratiques/securite-routiere-et-transport/delit-de-fuite",
+   "title": "Le délit de fuite | Ma Sécurité",
+   "desc": "Le délit de fuite est le fait pour un conducteur de véhicule, sachant qu'il vient de causer ou d'occasionner un accident, de ne pas s'arrêter et de tenter ainsi",
+   "headers": [
+    [
+     "h1",
+     "Le délit de fuite"
+    ],
+    [
+     "h2",
+     "L'infraction"
+    ],
+    [
+     "h2",
+     "Les bons gestes"
+    ],
+    [
+     "h2",
+     "Avez-vous trouvé ces informations utiles ?"
+    ],
+    [
+     "h2",
+     "Merci pour votre réponse !"
+    ],
+    [
+     "h1",
+     "Paramètres d'affichage"
+    ],
+    [
+     "h1",
+     "Aidez-nous à améliorer ce service"
+    ],
+    [
+     "h1",
+     "Aidez-nous à améliorer ce service"
+    ],
+    [
+     "h1",
+     "Choisir mon point d’accueil"
+    ],
+    [
+     "h1",
+     "Choisissez un point d’accueil"
+    ],
+    [
+     "h1",
+     "Pour échanger avec un gendarme ou un policier, 24h/24 et 7j/7"
+    ],
+    [
+     "h1",
+     "Pour trouver vos contacts utiles de proximité"
+    ],
+    [
+     "h1",
+     "Pour en savoir plus sur le point d'accueil"
+    ],
+    [
+     "h1",
+     "Choisir mon point d’accueil"
+    ],
+    [
+     "h1",
+     "Choisir mon interlocuteur"
+    ],
+    [
+     "h1",
+     "Vous souhaitez consulter les informations locales ?"
+    ],
+    [
+     "h1",
+     "Vous souhaitez supprimer cet interlocuteur ?"
+    ],
+    [
+     "h1",
+     "Vous souhaitez supprimer ce point d’accueil ?"
+    ],
+    [
+     "h1",
+     "Choisir mon point d’accueil"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 29,
+   "word_count": 526,
+   "content_len": 3177
+  },
+  {
+   "rank": 7,
+   "url": "https://jmp-avocat-indemnisation.fr/accident-voie-publique-delit-de-fuite-fgao-indemnisation.html",
+   "title": "Délit de fuite : indemnisation quand l'auteur est inconnu",
+   "desc": "Auteur en fuite, non identifié : comment être indemnisé ? Enquête, preuves, délai de 3 ans, FGAO et rôle de l'avocat. Guide complet pour les victimes.",
+   "headers": [
+    [
+     "h1",
+     "Délit de fuite : comment obtenir une indemnisation quand l'auteur de l'accident n'est pas identifié ?"
+    ],
+    [
+     "h2",
+     "Ce que dit la loi : définition pénale du délit de fuite"
+    ],
+    [
+     "h2",
+     "L'enquête de police : le moment le plus critique pour la victime"
+    ],
+    [
+     "h2",
+     "Auteur retrouvé ou non : deux parcours d'indemnisation"
+    ],
+    [
+     "h2",
+     "Le cas particulier de l'accident sans contact"
+    ],
+    [
+     "h2",
+     "Les difficultés pratiques face aux assureurs et au FGAO"
+    ],
+    [
+     "h2",
+     "Le traumatisme spécifique du délit de fuite : quand il n'y a personne en face"
+    ],
+    [
+     "h2",
+     "Cas concrets traités par le cabinet"
+    ],
+    [
+     "h2",
+     "Pourquoi l'avocat est indispensable dès les premières heures"
+    ],
+    [
+     "h2",
+     "Le cabinet JMP Avocat Indemnisation à votre service"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ],
+    [
+     "h2",
+     "Bibliographie et références juridiques"
+    ]
+   ],
+   "content_score": 64,
+   "readability": 31,
+   "word_count": 3635,
+   "content_len": 22363
+  },
+  {
+   "rank": 8,
+   "url": "https://www.ornikar.com/assurance-auto/sinistre/circonstances-aggravantes-assurance/assurance-delit-fuite",
+   "title": "L'assurance auto en cas de délit de fuite - Ornikar",
+   "desc": "Si le responsable d'un accident prend la fuite, que se passe-t-il concernant l'indemnisation de l'assurance ? Plus d'informations avec Ornikar.",
+   "headers": [
+    [
+     "h1",
+     "L'assurance auto suite à un accident avec délit de fuite"
+    ],
+    [
+     "h2",
+     "Qu’est ce qu’un délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Comment réagir face à un délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Comment se faire indemniser en cas de délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Nos conseils d'experts"
+    ]
+   ],
+   "content_score": 65,
+   "readability": 33,
+   "word_count": 1560,
+   "content_len": 9562
+  },
+  {
+   "rank": 9,
+   "url": "https://www.sosmalus.eu/blog/delit-de-fuite-consequences-et-sanctions",
+   "title": "Délit de fuite en voiture : conséquences et sanctions",
+   "desc": "Un délit de fuite, c’est le fait de quitter volontairement les lieux d’un accident sans décliner son identité ni remplir les obligations légales imposées par le Code de la route.",
+   "headers": [
+    [
+     "h1",
+     "Délit de fuite : conséquences et sanctions"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que le délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les sanctions financières au délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les sanctions judiciaires au délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Que sont les sanctions aggravées ?"
+    ],
+    [
+     "h2",
+     "Découvrirnos offres"
+    ],
+    [
+     "h2",
+     "Quels recours en cas de délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Victime de délit de fuite : que faire ?"
+    ],
+    [
+     "h2",
+     "Synthèse"
+    ],
+    [
+     "h2",
+     "Tous nos conseils pour bien s’assurer"
+    ],
+    [
+     "h2",
+     "Simulation de devisen 5 minutes"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 35,
+   "word_count": 1662,
+   "content_len": 10743
+  },
+  {
+   "rank": 10,
+   "url": "https://www.groupama.fr/assurance-auto/conseils/accident-auto-et-delit-de-fuite/",
+   "title": "Délit de fuite suite à un accident - Groupama",
+   "desc": "A la suite d’un accident de la route, il faut faire face à ses responsabilités. Découvrez les conséquences et les sanctions d’un délit de fuite.",
+   "headers": [
+    [
+     "h1",
+     "L'assurance auto en cas de délit de fuite suite à un accident"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qui caractérise un délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Les sanctions pénales du délit de fuite"
+    ],
+    [
+     "h2",
+     "Que faire si l’on est victime d’un délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Délit de fuite : quelles conséquences sur votre contrat d’assurance auto ?"
+    ],
+    [
+     "h2",
+     "Découvrez notre offre d’assurance auto"
+    ],
+    [
+     "h2",
+     "Découvrez nos infos et conseils auto"
+    ]
+   ],
+   "content_score": 79,
+   "readability": 26,
+   "word_count": 1842,
+   "content_len": 11347
+  },
+  {
+   "rank": 11,
+   "url": "https://victime-info.fr/indemnisation/accident-de-la-circulation/accident-de-la-route-delit-fuite",
+   "title": "Indemnisation après un délit de fuite : droits et démarches | victime-info.fr",
+   "desc": "Victime d'un délit de fuite ? Découvrez les démarches, le rôle du FGAO et les montants d'indemnisation possibles même si l'auteur n'est pas retrouvé.",
+   "headers": [
+    [
+     "h1",
+     "Accident de la route et délit de fuite : indemnisation, démarches et droits des victimes"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un délit de fuite après un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Montant de l’indemnisation suite à un délit de fuite"
+    ],
+    [
+     "h2",
+     "Comment prouver un délit de fuite après un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Qui va indemniser la victime en cas de délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Démarches pour être indemnisé malgré un délit de fuite"
+    ],
+    [
+     "h2",
+     "Se constituer partie civile après un délit de fuite"
+    ],
+    [
+     "h2",
+     "Délit de fuite et non-assistance à personne en danger"
+    ],
+    [
+     "h2",
+     "Délais de prescription et recours"
+    ],
+    [
+     "h2",
+     "Conseils essentiels pour les victimes de délit de fuite"
+    ],
+    [
+     "h2",
+     "Sources légales"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur le délit de fuite et l’indemnisation"
+    ],
+    [
+     "h2",
+     "Conclusion : faire valoir ses droits après un délit de fuite"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 64,
+   "readability": 34,
+   "word_count": 3945,
+   "content_len": 24726
+  },
+  {
+   "rank": 12,
+   "url": "https://www.assurland.com/assurance-auto/legislation/delit-de-fuite/",
+   "title": "Délit de fuite : sanctions et conséquences",
+   "desc": "Accident avec délit de fuite ? Immatriculation relevée, découvrez les étapes pour déposer plainte et obtenir une indemnisation adéquate.",
+   "headers": [
+    [
+     "h1",
+     "Rétroviseur cassé :   délit de fuite  et recours"
+    ],
+    [
+     "h2",
+     "Délit de fuite : définition"
+    ],
+    [
+     "h2",
+     "Comment réagir en cas de délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Quelles sanctions après un délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Assurance auto et délit de fuite"
+    ],
+    [
+     "h2",
+     "Foire aux questions"
+    ],
+    [
+     "h2",
+     "Les dernières actualités de l'assurance auto"
+    ],
+    [
+     "h2",
+     "Les plus recherchés"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 41,
+   "word_count": 1889,
+   "content_len": 11333
+  },
+  {
+   "rank": 13,
+   "url": "https://www.lelynx.fr/assurance-auto/sinistre/accident/delit-fuite/",
+   "title": "lelynx.fr",
+   "desc": "",
+   "headers": [],
+   "content_score": 0,
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 14,
+   "url": "https://www.avocatjullien.fr/details-l+indemnisation+du+dommage+corporel+d+une+victime+d+accident+de+la+circulation+en+cas+de+delit+de+fuite+ou+de+voiture+non+assuree+par+le+fonds+de+garantie+automobile+a+marseille-26",
+   "title": "L’indemnisation du dommage corporel d'une victime d'accident de la circulation en cas de délit de fuite ou de voiture non assurée par le Fonds de garantie automobile à Marseille - Maître Laurent JULLIEN",
+   "desc": "En cas de délit de fuite du tiers responsable d'un accident de la circulation à Marseille, il convient de déposer plainte en vue de saisir le Fonds de garantie automobile, afin de permettre à la victime d'être indemnisée de son dommage corporel.  1/ La nécessité de déposer plainte  Lorsqu’un accid...",
+   "headers": [
+    [
+     "h1",
+     "L’indemnisation du dommage corporel d'une victime d'accident de la circulation en cas de délit de fuite ou de voiture non assurée par le Fonds de garantie automobile à Marseille"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 29,
+   "word_count": 814,
+   "content_len": 5179
+  },
+  {
+   "rank": 15,
+   "url": "https://www.coppet-avocats.fr/actualites/accidents-de-la-route/victime-accident-delit-fuite-indemnisation/",
+   "title": "Victime d’un accident de la route avec délit de fuite : quelle indemnisation ?",
+   "desc": "Le délit de fuite après un accident de la circulation constitue une infraction grave au regard du Code pénal, mais il ne prive pas les victimes de leurs droits à indemnisation. \r\nQuelles sont les démarches à suivre et les recours possibles pour obtenir la réparation intégrale de vos préjudices, si le responsable de votre accident de la route a pris la fuite ? Dans le cas où le responsable de votre accident de la route, reste inconnu ou n'est pas assuré, comment saisir le FGAO ? Quelles sont les erreurs à éviter pour préserver vos droits à indemnisation ?",
+   "headers": [
+    [
+     "h1",
+     "Victime d’un accident de la route avec délit de fuite : quelle indemnisation ?"
+    ],
+    [
+     "h2",
+     "Accident de la route : qu'est-ce qu’un délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Victime d'un accident avec délit de fuite : comment réagir ?"
+    ],
+    [
+     "h2",
+     "Indemnisation et accidents avec délit de fuite : comment ça marche ?"
+    ],
+    [
+     "h2",
+     "Victime d’un accident de la route : comment saisir le FGAO pour être indemnisée ?"
+    ],
+    [
+     "h2",
+     "Victimes d’accidents de la route avec délit de fuite : erreurs à éviter"
+    ],
+    [
+     "h2",
+     "En résumé :"
+    ]
+   ],
+   "content_score": 71,
+   "readability": 25,
+   "word_count": 3196,
+   "content_len": 20446
+  },
+  {
+   "rank": 16,
+   "url": "https://www.youtube.com/watch?v=jbbjcCrTfF0",
+   "title": "Accident et délit de fuite comment se défendre ? - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Accident et délit de fuite comment se défendre ?"
+    ],
+    [
+     "h1",
+     "Accident et délit de fuite comment se défendre ?"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 33,
+   "readability": 32,
+   "word_count": 198,
+   "content_len": 1204
+  },
+  {
+   "rank": 17,
+   "url": "https://www.hyperassur.com/assurance-auto/couverture/sinistres/accident-voiture/delit-fuite/",
+   "title": "Comment réagir face à un accident avec délit de fuite ?",
+   "desc": "Les accidents avec délit de fuite sont plus fréquents que l’on ne pense. Voici comment réagir si vous en êtes victime.",
+   "headers": [
+    [
+     "h1",
+     "Comment réagir si vous êtes victime d’un accident avec délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Après un accident, le conducteur adverse prend la fuite : comment réagir ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les sanctions encourues pour l’auteur des faits ?"
+    ],
+    [
+     "h2",
+     "Quelle indemnisation de l’assurance auto en cas de délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Comment nier un délit de fuite ?"
+    ]
+   ],
+   "content_score": 71,
+   "readability": 35,
+   "word_count": 1158,
+   "content_len": 7062
+  },
+  {
+   "rank": 18,
+   "url": "https://www.gendarmerie.interieur.gouv.fr/conseils/mobilites-et-transports/que-faire-face-a-un-delit-de-fuite",
+   "title": "Que faire face à un délit de fuite ? - Gendarmerie nationale",
+   "desc": "Le délit de fuite est le fait pour un conducteur de véhicule, sachant qu'il vient de causer ou d'occasionner un accident, de ne pas s'arrêter et de tenter ainsi d'échapper à sa responsabilité civile ou pénale. Voici les gestes à adopter.",
+   "headers": [
+    [
+     "h1",
+     "Que faire face à un délit de fuite ?"
+    ],
+    [
+     "h2",
+     "De quoi parle-t-on ?"
+    ],
+    [
+     "h2",
+     "Quels sont les gestes à adopter ?"
+    ],
+    [
+     "h2",
+     "Une question ?"
+    ],
+    [
+     "h2",
+     "Suivez-nous  sur les réseaux sociaux"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 26,
+   "word_count": 1132,
+   "content_len": 6873
+  },
+  {
+   "rank": 19,
+   "url": "https://association-aivf-faq.fr/accident-de-la-route-faq/loi-badinter/accident-route-delit-fuite",
+   "title": "Accident route délit fuite - Association Victimes de France AIVF",
+   "desc": "L'accident de la route avec délit de fuite, indemnisation du préjudice, Fonds de Garantie FGAO, questions de victimes",
+   "headers": [
+    [
+     "h1",
+     "Accident de la route et délit de fuite"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant l’accident de la route avec délit de fuite"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 40,
+   "word_count": 988,
+   "content_len": 6159
+  },
+  {
+   "rank": 20,
+   "url": "https://www.asdugrandlyon.com/assurance-auto/infractions/delit-de-fuite",
+   "title": "Délit de fuite : les conséquences sur votre assurance auto",
+   "desc": "Le délit de fuite entraîne de lourdes sanctions, mais aussi une résiliation possible par l’assureur. Informez-vous sur les risques, franchises et garanties.",
+   "headers": [
+    [
+     "h1",
+     "Délit de fuite : Guide pour les conducteurs en quête d’assurance"
+    ],
+    [
+     "h2",
+     "Démarches à suivre après un délit de fuite"
+    ],
+    [
+     "h2",
+     "Conséquences sur le malus et l’assurance"
+    ],
+    [
+     "h2",
+     "Sanctions légales liées au délit de fuite"
+    ],
+    [
+     "h2",
+     "Options d’indemnisation pour la victime de l’accident"
+    ],
+    [
+     "h2",
+     "Pourquoi choisir l’AS DU GRAND LYON ?"
+    ],
+    [
+     "h2",
+     "Comparer les offres des Banques, des Assurances et des spécialistes"
+    ],
+    [
+     "h2",
+     "Conseils pour éviter une hausse de la prime après une infraction"
+    ],
+    [
+     "h2",
+     "Foire Aux Questions Infractions et Situations Particulières"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 30,
+   "word_count": 1137,
+   "content_len": 7165
+  },
+  {
+   "rank": 21,
+   "url": "https://cabinetj2b.monaccident.fr/article/delit-de-fuite-comment-se-faire-indemniser-quand-lauteur-a-disparu",
+   "title": "Victime d'accident | Délit de fuite : comment être indemnisé — Mon Accident",
+   "desc": "Vous êtes victime d'un délit de fuite ou d'un conducteur non assuré ? Le Fonds de Garantie prend le relais. Mon Accident défend votre dossier, sans av",
+   "headers": [
+    [
+     "h1",
+     "Délit de fuite : comment se faire indemniser quand l'auteur a disparu"
+    ]
+   ],
+   "content_score": 42,
+   "readability": 29,
+   "word_count": 660,
+   "content_len": 4254
+  },
+  {
+   "rank": 22,
+   "url": "https://www.indemnisationprejudice.fr/lindemnisation-dun-cas-de-delit-de-fuite-ou-un-defaut-dassurance/",
+   "title": "Indemnisation d’une victime de délit de fuite : démarches, délais et montant des indemnisations - Indemnisation Préjudice Corporel",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d’une victime de délit de fuite : démarches, délais et montant des indemnisations"
+    ],
+    [
+     "h2",
+     "Que faire si vous êtes victime d’un délit de fuite ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Le rôle du Fonds de Garantie (FGAO) dans l’indemnisation des victimes"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Comment se déroule la procédure d’indemnisation après un délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Cas particuliers"
+    ],
+    [
+     "h2",
+     "Exemple concret d’indemnisation d’une victime de délit de fuite"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ]
+   ],
+   "content_score": 58,
+   "readability": 26,
+   "word_count": 2226,
+   "content_len": 13755
+  },
+  {
+   "rank": 23,
+   "url": "https://www.cqfd-avocats.com/categories/npu-responsabilite-accidents-de-la-route-11010/articles/accident-que-pouvez-vous-faire-cas-delit-fuite-16388.htm",
+   "title": "Accident : que pouvez-vous faire en cas de délit de fuite ? | CQFD avocats",
+   "desc": "Lors d’un accident de la route avec délit de fuite, le choc peut être double. Déstabilisé par le choc, les dégâts matériels et parfois corporels, ...",
+   "headers": [
+    [
+     "h1",
+     "Accident : que pouvez-vous faire en cas de délit de fuite ?"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 14,
+   "word_count": 6640,
+   "content_len": 40669
+  },
+  {
+   "rank": 24,
+   "url": "https://www.village-justice.com/articles/Que-Faire-cas-accident-corporel,19790.html",
+   "title": "Victime d'un accident corporel avec délit de fuite ou défaut d’assurance, que faire ? Par Mikaël Ikedjian, Juriste.",
+   "desc": "L'assurance est obligatoire pour les véhicules terrestres à moteur, notamment, pour la prise en charge des préjudices des victimes, préjudices qui peuvent (...)",
+   "headers": [
+    [
+     "h1",
+     "Victime d’un accident corporel avec délit de fuite ou défaut d’assurance, que faire ?"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 40,
+   "word_count": 2206,
+   "content_len": 15441
+  },
+  {
+   "rank": 25,
+   "url": "https://charles-tanguy-avocat-lyon.fr/accident-de-la-route-delit-de-fuite/",
+   "title": "Accident de la route et délit de fuite : comment se faire indemniser ?",
+   "desc": "Découvrez comment vous faire indemniser après un accident de la route, en cas de délit de fuite. En tant que victime, apprenez les démarches à suivre, la procédure FGAO, et comment un avocat spécialisé peut vous accompagner pour obtenir réparation des dommages corporels.",
+   "headers": [
+    [
+     "h1",
+     "Accident de la route et délit de fuite : comment se faire indemniser ?"
+    ],
+    [
+     "h2",
+     "Partagez cet article ➡️"
+    ],
+    [
+     "h2",
+     "1. La loi Badinter et l’indemnisation des victimes d’accident de la route"
+    ],
+    [
+     "h2",
+     "2. Le délit de fuite suite à un accident de la route : une situation complexe pour les victimes"
+    ],
+    [
+     "h2",
+     "3. Le rôle du FGAO dans l’indemnisation des victimes d’un accident de la route avec délit de fuite"
+    ],
+    [
+     "h2",
+     "4. La procédure d’indemnisation de l’accident de la route avec délit de fuite, par le FGAO"
+    ],
+    [
+     "h2",
+     "5. Les bons réflexes en cas d’accident de la route avec délit de fuite"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 25,
+   "word_count": 2136,
+   "content_len": 13251
+  },
+  {
+   "rank": 26,
+   "url": "https://www.lesfurets.com/assurance-auto/guide/delit-de-fuite-du-conducteur-responsable-quelle-indemnisation-reste-envisageable",
+   "title": "Un instant…",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "www.lesfurets.com"
+    ],
+    [
+     "h2",
+     "Vérification de sécurité en cours"
+    ],
+    [
+     "h2",
+     "Vérification réussie. En attente de la réponse de www.lesfurets.com."
+    ]
+   ],
+   "content_score": 1,
+   "readability": 61,
+   "word_count": 58,
+   "content_len": 397
+  },
+  {
+   "rank": 27,
+   "url": "https://auto.orange.fr/pratique/news/comment-etre-indemnise-lors-d-un-accident-avec-delit-de-fuite-CNT000002hGHiw.html",
+   "title": "Comment être indemnisé lors d'un accident avec délit de fuite ?  : Auto - Orange",
+   "desc": "null",
+   "headers": [
+    [
+     "h1",
+     "Pratique"
+    ],
+    [
+     "h2",
+     "Jusqu'à 7 ans d'emprisonnement et 100 000 euros d'amende !"
+    ],
+    [
+     "h2",
+     "Que faire juste après un accident avec délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Contactez votre assurance et les autorités le plus rapidement possible !"
+    ],
+    [
+     "h2",
+     "Quelles indemnisations en fonction de votre contrat d'assurance ?"
+    ],
+    [
+     "h2",
+     "Vidéos"
+    ],
+    [
+     "h2",
+     "L'auto en photos"
+    ],
+    [
+     "h2",
+     "Ailleurs sur le web"
+    ],
+    [
+     "h2",
+     "Rubriques News"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 36,
+   "word_count": 955,
+   "content_len": 5713
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1251,
+   "target": 1251
+  },
+  "readability": {
+   "median": 33,
+   "target": 33
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "délit de fuite",
+    "usage_pc": 80
+   },
+   {
+    "t": "délit",
+    "usage_pc": 80
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "fuite suite à un accident",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "accident",
+    "usage_pc": 70
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 60
+   },
+   {
+    "t": "délit de fuite",
+    "usage_pc": 50
+   },
+   {
+    "t": "délit",
+    "usage_pc": 50
+   },
+   {
+    "t": "un délit de fuite",
+    "usage_pc": 30
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "délit de fuite",
+    "usage_pc": 70
+   },
+   {
+    "t": "délit",
+    "usage_pc": 70
+   },
+   {
+    "t": "accident",
+    "usage_pc": 40
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "assurance auto",
+    "usage_pc": 20
+   },
+   {
+    "t": "auto",
+    "usage_pc": 20
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "un délit de fuite",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "fuite suite à un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "cas de délit de fuite",
+    "usage_pc": 10
+   },
+   {
+    "t": "délit de fuite suite",
+    "usage_pc": 10
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "auto en cas de délit",
+    "usage_pc": 10
+   },
+   {
+    "t": "après un accident de voiture",
+    "usage_pc": 10
+   },
+   {
+    "t": "assurance auto en cas",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "délit de fuite",
+    "usage_pc": 50
+   },
+   {
+    "t": "délit",
+    "usage_pc": 50
+   },
+   {
+    "t": "un délit de fuite",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "les sanctions",
+    "usage_pc": 30
+   },
+   {
+    "t": "assurance auto",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "auto",
+    "usage_pc": 20
+   },
+   {
+    "t": "pénal",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 20
+   },
+   {
+    "t": "cas de délit de fuite",
+    "usage_pc": 20
+   },
+   {
+    "t": "quelles sont les sanctions",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 10
+   },
+   {
+    "t": "fgao",
+    "usage_pc": 10
+   },
+   {
+    "t": "infraction",
+    "usage_pc": 10
+   },
+   {
+    "t": "délit de fuite en voiture",
+    "usage_pc": 10
+   },
+   {
+    "t": "prend la fuite",
+    "usage_pc": 10
+   },
+   {
+    "t": "les sanctions pour un délit",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "délit de fuite",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     17
+    ]
+   },
+   {
+    "t": "délit",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     19
+    ]
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "un délit de fuite",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     22
+    ]
+   },
+   {
+    "t": "assurance auto",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     10
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "fgao",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "auto",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     9
+    ]
+   },
+   {
+    "t": "dommage",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "pénal",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les sanctions",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "75 000",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "fonds de garantie des assurances",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "infraction",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les coordonnées des témoins",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garantie des assurances obligatoires",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les dommages",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "permis de conduire",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "immatriculation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "code de la route",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dommages corporels",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "sécurité routière",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "75 000 €",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "suite à un accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fuite suite à un accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas de délit de fuite",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "délit de fuite suite",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "délit de fuite en voiture",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tous risques",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "auto en cas de délit",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "constat amiable",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "après un accident de voiture",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une assurance",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "non assuré",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "ans de prison",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de la circulation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une assurance auto",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "article 434-10",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "prend la fuite",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "délit routier",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accrochage",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "poursuivi pour délit de fuite",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "commettre un délit",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déclarer le sinistre",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dommages matériels",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "causer ou d'occasionner un accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurance auto en cas",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un délit de fuite",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les lieux d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lors d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "volontairement les lieux d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "quitter les lieux d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsable d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contrat d’assurance auto",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsable de l’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "travail d’intérêt général",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "quitter volontairement les lieux d’un",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contrat d’assurance",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "plaque d’immatriculation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "être poursuivi pour délit",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conducteur en fuite",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "non identifié",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "points sur le permis",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "stage de sensibilisation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "sensibilisation à la sécurité routière",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "usager de la route",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "a pris la fuite",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "remplir un constat amiable",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "quelles sont les sanctions",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "circonstance aggravante",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "prend en charge",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsabilité pénale ou civile",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les dommages matériels",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les préjudices corporels",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fuite est une infraction pénale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assuré au tiers",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les sanctions pour un délit",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lors du délit",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Délit de fuite",
+    "importance": 99.67799999999998,
+    "relevance": 0.99678,
+    "confidence": 3.6574,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Délit_de_fuite"
+     ]
+    ]
+   },
+   {
+    "t": "Véhicule (transport physique)",
+    "importance": 52.844,
+    "relevance": 0.52844,
+    "confidence": 4.4346000000000005,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Véhicule_(transport_physique)"
+     ]
+    ]
+   },
+   {
+    "t": "Conduite automobile",
+    "importance": 39.920640000000006,
+    "relevance": 0.6237600000000001,
+    "confidence": 1.47622,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Conduite_automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Fonds de garantie des assurances obligatoires de dommages",
+    "importance": 33.64352000000001,
+    "relevance": 0.52568,
+    "confidence": 1.7167999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fonds_de_garantie_des_assurances_obligatoires_de_dommages"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 33.288959999999996,
+    "relevance": 0.5201399999999999,
+    "confidence": 6.9856,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 31.0208,
+    "relevance": 0.48469999999999996,
+    "confidence": 7.7794,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Plainte",
+    "importance": 29.37728,
+    "relevance": 0.45902000000000004,
+    "confidence": 1.6376000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Plainte"
+     ]
+    ]
+   },
+   {
+    "t": "Automobile",
+    "importance": 17.80736,
+    "relevance": 0.27824,
+    "confidence": 4.066599999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 16.784256,
+    "relevance": 0.262254,
+    "confidence": 1.2314000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Amende",
+    "importance": 13.500928,
+    "relevance": 0.21095199999999997,
+    "confidence": 2.4724,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Amende"
+     ]
+    ]
+   },
+   {
+    "t": "Permis de conduire",
+    "importance": 12.350879999999997,
+    "relevance": 0.34307999999999994,
+    "confidence": 1.9988,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Permis_de_conduire"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance automobile",
+    "importance": 10.67328,
+    "relevance": 0.29648,
+    "confidence": 1.7043999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Contrat d'assurance",
+    "importance": 10.48752,
+    "relevance": 0.29131999999999997,
+    "confidence": 0.8182,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contrat_d'assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Plainte en droit pénal français",
+    "importance": 10.44288,
+    "relevance": 0.29008,
+    "confidence": 1.6594000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Plainte_en_droit_pénal_français"
+     ]
+    ]
+   },
+   {
+    "t": "Constat amiable",
+    "importance": 10.194480000000002,
+    "relevance": 0.28318000000000004,
+    "confidence": 1.4904,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Constat_amiable"
+     ]
+    ]
+   },
+   {
+    "t": "Plaque d'immatriculation",
+    "importance": 7.10568,
+    "relevance": 0.19738,
+    "confidence": 5.5152,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Plaque_d'immatriculation"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 6.7007520000000005,
+    "relevance": 0.18613200000000002,
+    "confidence": 0.8751999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Police (institution)",
+    "importance": 6.580079999999999,
+    "relevance": 0.18278,
+    "confidence": 2.9168,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Police_(institution)"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance automobile en France",
+    "importance": 3.6243200000000004,
+    "relevance": 0.22652,
+    "confidence": 0.508,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_automobile_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Infraction",
+    "importance": 3.4761599999999997,
+    "relevance": 0.21726,
+    "confidence": 1.033,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Infraction"
+     ]
+    ]
+   },
+   {
+    "t": "Dépôt de plainte",
+    "importance": 3.11008,
+    "relevance": 0.19438,
+    "confidence": 0.7032,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dépôt_de_plainte"
+     ]
+    ]
+   },
+   {
+    "t": "Circonstance aggravante",
+    "importance": 2.78712,
+    "relevance": 0.07742,
+    "confidence": 1.5406,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Circonstance_aggravante"
+     ]
+    ]
+   },
+   {
+    "t": "Loi",
+    "importance": 2.34592,
+    "relevance": 0.14662,
+    "confidence": 0.6013999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi"
+     ]
+    ]
+   },
+   {
+    "t": "Responsabilité pénale en France",
+    "importance": 2.2976000000000005,
+    "relevance": 0.1436,
+    "confidence": 0.931,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Responsabilité_pénale_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Justice",
+    "importance": 2.2345599999999997,
+    "relevance": 0.13965999999999998,
+    "confidence": 1.4558,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Justice"
+     ]
+    ]
+   },
+   {
+    "t": "Code de la route (France)",
+    "importance": 2.05792,
+    "relevance": 0.12862,
+    "confidence": 2.3213999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Code_de_la_route_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Dommages matériels",
+    "importance": 1.9836800000000003,
+    "relevance": 0.12398,
+    "confidence": 0.6548,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommages_matériels"
+     ]
+    ]
+   },
+   {
+    "t": "Prisonnier",
+    "importance": 1.88832,
+    "relevance": 0.11802000000000001,
+    "confidence": 0.5776,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Prisonnier"
+     ]
+    ]
+   },
+   {
+    "t": "Piéton",
+    "importance": 1.8272,
+    "relevance": 0.1142,
+    "confidence": 0.68182,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Piéton"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance responsabilité civile",
+    "importance": 1.68608,
+    "relevance": 0.10538,
+    "confidence": 0.7442,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_responsabilité_civile"
+     ]
+    ]
+   },
+   {
+    "t": "Vidéosurveillance",
+    "importance": 1.5776,
+    "relevance": 0.0986,
+    "confidence": 1.2004000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Vidéosurveillance"
+     ]
+    ]
+   },
+   {
+    "t": "Responsabilité civile",
+    "importance": 1.5379200000000002,
+    "relevance": 0.09612000000000001,
+    "confidence": 0.6782,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Responsabilité_civile"
+     ]
+    ]
+   },
+   {
+    "t": "Code pénal (France)",
+    "importance": 1.2265280000000003,
+    "relevance": 0.076658,
+    "confidence": 1.6702,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Code_pénal_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Gendarmerie nationale (France)",
+    "importance": 1.097376,
+    "relevance": 0.068586,
+    "confidence": 1.8582,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Gendarmerie_nationale_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Prison",
+    "importance": 1.0166080000000002,
+    "relevance": 0.06353800000000001,
+    "confidence": 0.3872,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Prison"
+     ]
+    ]
+   },
+   {
+    "t": "France",
+    "importance": 1.01344,
+    "relevance": 0.06334,
+    "confidence": 2.434,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/France"
+     ]
+    ]
+   },
+   {
+    "t": "Enquête de flagrance en droit français",
+    "importance": 0.58816,
+    "relevance": 0.14704,
+    "confidence": 0.5916,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Enquête_de_flagrance_en_droit_français"
+     ]
+    ]
+   },
+   {
+    "t": "Infraction en droit pénal français",
+    "importance": 0.5640799999999999,
+    "relevance": 0.14101999999999998,
+    "confidence": 0.3534,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Infraction_en_droit_pénal_français"
+     ]
+    ]
+   },
+   {
+    "t": "Code postal",
+    "importance": 0.53464,
+    "relevance": 0.13366,
+    "confidence": 0.5192,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Code_postal"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "délit de fuite\ndélit\nun accident\naccident\nsuite à un accident\nfuite suite à un accident",
+  "desc_title": "accident\nun accident\ndélit de fuite\ndélit\nun délit de fuite\nindemniser",
+  "h1": "délit de fuite\ndélit\naccident\nun accident\nassurance auto\nauto\nsuite à un accident\nun délit de fuite\nindemnisation\nfuite suite à un accident\ncas de délit de fuite\ndélit de fuite suite\naprès un accident\nauto en cas de délit\naprès un accident de voiture\nassurance auto en cas",
+  "h2": "délit de fuite\ndélit\nun délit de fuite\naccident\nles sanctions\nassurance auto\nindemnisation\nauto\npénal\nindemniser\ncas de délit de fuite\nquelles sont les sanctions\nun accident\nassureur\nfgao\ninfraction\ndélit de fuite en voiture\nprend la fuite\nles sanctions pour un délit",
+  "content_basic": "délit de fuite\ndélit\nun accident\nun délit de fuite\naccident\nassurance auto\nassureur\nindemnisation\nfgao\nauto\ndommage\npénal\naccident de la route\nles sanctions\ncorporel\nindemniser\nun accident de la route\n75 000\nfonds de garantie des assurances\ninfraction\nles coordonnées des témoins\ngarantie des assurances obligatoires\nles dommages\npermis de conduire\nimmatriculation\ncode de la route\ndommages corporels\nsécurité routière\n75 000 €",
+  "content_basic_w_ranges": "délit de fuite: 1-17x\ndélit: 1-19x\nun accident: 1-7x\nun délit de fuite: 1-6x\naccident: 1-22x\nassurance auto: 1-5x\nassureur: 1-10x\nindemnisation: 1-4x\nfgao: 1-4x\nauto: 1-9x\ndommage: 1-6x\npénal: 1-6x\naccident de la route: 1x\nles sanctions: 1-2x\ncorporel: 1-4x\nindemniser: 1-4x\nun accident de la route: 1x\n75 000: 1-2x\nfonds de garantie des assurances: 1x\ninfraction: 1-2x\nles coordonnées des témoins: 1x\ngarantie des assurances obligatoires: 1x\nles dommages: 1x\npermis de conduire: 1x\nimmatriculation: 1-2x\ncode de la route: 1x\ndommages corporels: 1-2x\nsécurité routière: 1x\n75 000 €: 1x",
+  "content_extended": "suite à un accident\nfuite suite à un accident\ncas de délit de fuite\ndélit de fuite suite\ndélit de fuite en voiture\naprès un accident\ntous risques\nauto en cas de délit\nconstat amiable\naprès un accident de voiture\nune assurance\nnon assuré\nans de prison\naccident de la circulation\nune assurance auto\narticle 434-10\nprend la fuite\ndélit routier\naccrochage\npoursuivi pour délit de fuite\ncommettre un délit\ndéclarer le sinistre\ndommages matériels\ncauser ou d'occasionner un accident\nassurance auto en cas\nvictime d’un délit de fuite\nles lieux d’un accident\nlors d’un accident\nvolontairement les lieux d’un accident\nquitter les lieux d’un accident\nvictime d’un accident\nresponsable d’un accident\ncontrat d’assurance auto\nresponsable de l’accident\ntravail d’intérêt général\nquitter volontairement les lieux d’un\ncontrat d’assurance\nplaque d’immatriculation\nêtre poursuivi pour délit\nconducteur en fuite\nnon identifié\npoints sur le permis\nstage de sensibilisation\nsensibilisation à la sécurité routière\nusager de la route\na pris la fuite\nremplir un constat amiable\nquelles sont les sanctions\ncirconstance aggravante\nprend en charge\nresponsabilité pénale ou civile\nles dommages matériels\nles préjudices corporels\nfuite est une infraction pénale\nassuré au tiers\nles sanctions pour un délit\nlors du délit",
+  "content_extended_w_ranges": "suite à un accident: 1x\nfuite suite à un accident: 1x\ncas de délit de fuite: 1x\ndélit de fuite suite: 1x\ndélit de fuite en voiture: 1x\naprès un accident: 1x\ntous risques: 1-2x\nauto en cas de délit: 1x\nconstat amiable: 1-2x\naprès un accident de voiture: 1x\nune assurance: 1x\nnon assuré: 1x\nans de prison: 1x\naccident de la circulation: 1x\nune assurance auto: 1x\narticle 434-10: 1x\nprend la fuite: 1x\ndélit routier: 1x\naccrochage: 1-2x\npoursuivi pour délit de fuite: 1x\ncommettre un délit: 1x\ndéclarer le sinistre: 1x\ndommages matériels: 1x\ncauser ou d'occasionner un accident: 1x\nassurance auto en cas: 1x\nvictime d’un délit de fuite: 1x\nles lieux d’un accident: 1x\nlors d’un accident: 1x\nvolontairement les lieux d’un accident: 1x\nquitter les lieux d’un accident: 1x\nvictime d’un accident: 1x\nresponsable d’un accident: 1x\ncontrat d’assurance auto: 1x\nresponsable de l’accident: 1x\ntravail d’intérêt général: 1x\nquitter volontairement les lieux d’un: 1x\ncontrat d’assurance: 1x\nplaque d’immatriculation: 1x\nêtre poursuivi pour délit: 1x\nconducteur en fuite: 1x\nnon identifié: 1x\npoints sur le permis: 1x\nstage de sensibilisation: 1x\nsensibilisation à la sécurité routière: 1x\nusager de la route: 1x\na pris la fuite: 1x\nremplir un constat amiable: 1x\nquelles sont les sanctions: 1x\ncirconstance aggravante: 1x\nprend en charge: 1x\nresponsabilité pénale ou civile: 1x\nles dommages matériels: 1x\nles préjudices corporels: 1x\nfuite est une infraction pénale: 1x\nassuré au tiers: 1x\nles sanctions pour un délit: 1x\nlors du délit: 1x",
+  "entities": "Délit de fuite\nVéhicule (transport physique)\nConduite automobile\nFonds de garantie des assurances obligatoires de dommages\nAssurance\nAccident de la route\nPlainte\nAutomobile\nEndommagement\nAmende\nPermis de conduire\nAssurance automobile\nContrat d'assurance\nPlainte en droit pénal français\nConstat amiable\nPlaque d'immatriculation\nDommage corporel\nPolice (institution)\nAssurance automobile en France\nInfraction\nDépôt de plainte\nCirconstance aggravante\nLoi\nResponsabilité pénale en France\nJustice\nCode de la route (France)\nDommages matériels\nPrisonnier\nPiéton\nAssurance responsabilité civile\nVidéosurveillance\nResponsabilité civile\nCode pénal (France)\nGendarmerie nationale (France)\nPrison\nFrance\nEnquête de flagrance en droit français\nInfraction en droit pénal français\nCode postal"
+ },
+ "status": "ready",
+ "keyword": "accident delit de fuite indemnisation",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "9ccfbf30761c834f",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "navigational": 14.8
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "guide": 55.6,
+   "educational": 55.6,
+   "business": 33.3,
+   "other": 3.7,
+   "blog-post": 18.5,
+   "video": 3.7,
+   "news": 3.7
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/9ccfbf30761c834f",
+ "share_url": "https://app.neuronwriter.com/analysis/share/9ccfbf30761c834f/1e9b7e3ed849891cc7a97b68521028c84fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/9ccfbf30761c834f/0ea2d231195c2594fcf950de9108c5434fa16"
+}

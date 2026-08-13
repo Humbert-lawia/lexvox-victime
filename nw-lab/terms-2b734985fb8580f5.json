@@ -1,0 +1,2649 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Chute dans la rue qui est responsable ?"
+   },
+   {
+    "q": "Quel montant d'indemnisation recevez-vous en cas de chute  ?"
+   },
+   {
+    "q": "Montant indemnisation suite accident corporel ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   }
+  ],
+  "topic_matrix": {
+   "Chute dans la rue : qui est responsable et comment déterminer cette responsabilité ?": {
+    "importance": 10
+   },
+   "Quel est le montant de l'indemnisation que l'on peut recevoir après une chute dans la rue ?": {
+    "importance": 10
+   },
+   "Quels sont les différents types de préjudices indemnisables suite à une chute corporelle ?": {
+    "importance": 9
+   },
+   "Quelles sont les démarches à suivre pour obtenir une indemnisation après une chute sur la voie publique ?": {
+    "importance": 8
+   },
+   "Comment prouver la faute ou le défaut de voirie après une chute ?": {
+    "importance": 8
+   },
+   "L'administration ou la commune peut-elle refuser d'indemniser une victime de chute ?": {
+    "importance": 7
+   },
+   "Qu'est-ce qu'un accident de voirie et quels sont les défauts les plus fréquents ?": {
+    "importance": 6
+   },
+   "Combien de temps dure la procédure d'indemnisation après une chute dans la rue ?": {
+    "importance": 6
+   },
+   "Une assurance Garantie Accidents de la Vie (GAV) peut-elle couvrir une chute dans la rue ?": {
+    "importance": 7
+   },
+   "Quand faut-il faire appel à un avocat spécialisé pour une chute dans la rue ?": {
+    "importance": 5
+   }
+  },
+  "content_questions": [
+   {
+    "q": "- Dans quels cas un piéton est-il indemnisé par la mairie après une chute sur la chaussée ?"
+   },
+   {
+    "q": "Ai-je des chances d'être indemnisé si j'ai subi un accident de voirie ?"
+   },
+   {
+    "q": "Avez- vous vu une vidéo surveillance sur le lieu de votre accident ?"
+   },
+   {
+    "q": "Avez-vous une Garantie des Accidents de la Vie (GAV) ?"
+   },
+   {
+    "q": "Chute ou accident causé par une route ou un trottoir défectueux ?"
+   },
+   {
+    "q": "Chute sur un trottoir défoncé : Comment engager la responsabilité de la Mairie et se faire payer ?"
+   },
+   {
+    "q": "Comment calculer l’indemnisation de cette chute sur un trottoir ?"
+   },
+   {
+    "q": "Comment faire la demande d'indemnisation à l'assureur à la suite d'un accident de la route ?"
+   },
+   {
+    "q": "Dans le cas d'une lampe, mais aussi d'une racine d'un arbre qui dépasse, d'un trottoir déformé ou d'un pavé mal fixé... Peut-on être indemnisé par la mairie ?"
+   },
+   {
+    "q": "Dans quelles situations une indemnisation est-elle envisageable ?"
+   },
+   {
+    "q": "Dans quels cas un piéton est-il indemnisé par la mairie après une chute sur la chaussée ?"
+   },
+   {
+    "q": "Des personnes ont assisté à votre accident ?"
+   },
+   {
+    "q": "Des voitures se garent sur le trottoir juste sous mes fenêtres, comment les en empêcher ?"
+   },
+   {
+    "q": "En savoir plus : Piéton ou Cycliste percuté par un Bus ou Tramway : Coupable ou Victime ?"
+   },
+   {
+    "q": "Fracture après chute sur trottoir dégradé, indemnisation dérisoire ?"
+   },
+   {
+    "q": "J'ai été victime d'une chute dans un supermarché, à quel dédommagement ai-je droit ?"
+   },
+   {
+    "q": "L'assurance du magasin me demande mon dossier médical complet, je l'envoie ?"
+   },
+   {
+    "q": "Les rouleaux de la station de lavage ont endommagé ma voiture, puis-je être indemnisé ?"
+   },
+   {
+    "q": "Ma voiture est au fond de l'eau après avoir été emportée par les crues, puis-je être indemnisé ?"
+   },
+   {
+    "q": "Mon assurance peut-elle m'aider ?"
+   },
+   {
+    "q": "Peut-on accepter ou refuser une offre d'indemnisation à la suite d'un accident de la route ?"
+   },
+   {
+    "q": "Pollution de l’air et dommage corporel : dans quels cas une indemnisation est-elle possible ?"
+   },
+   {
+    "q": "Pourquoi choisir JMP Avocat Indemnisation ?"
+   },
+   {
+    "q": "Puis-je agir si personne n’a assisté à l’accident ?"
+   },
+   {
+    "q": "Puis-je être indemnisé en cas de chute à vélo ou à moto ?"
+   },
+   {
+    "q": "Puis-je être indemnisé pour des dégâts matériels uniquement ?"
+   },
+   {
+    "q": "Qu'est-ce qu'un accident de voirie ?"
+   },
+   {
+    "q": "Que faire si le défaut a été réparé depuis l'accident ?"
+   },
+   {
+    "q": "Quel est le délai pour demander une indemnisation à la suite d'un accident de la route ?"
+   },
+   {
+    "q": "Quelle démarche effectuer et quels sont les préjudices indemnisés ?"
+   },
+   {
+    "q": "Quelle victime peut être indemnisée à la suite d'un accident de la route ?"
+   },
+   {
+    "q": "Quels préjudices peuvent être réparés ?"
+   },
+   {
+    "q": "Quels sont les montants d'indemnisation habituels ?"
+   },
+   {
+    "q": "Quels sont les préjudices indemnisables à la suite d'un accident de la route ?"
+   },
+   {
+    "q": "Qui doit payer en cas de chute ?"
+   },
+   {
+    "q": "Qui peut être tenu de réparer vos préjudices après une chute ?"
+   },
+   {
+    "q": "Responsabilité et indemnisation en cas de chute sur sur la voie publique : quels recours pour la victime ?"
+   },
+   {
+    "q": "Trou dans la chaussée, pavé descellé, verglas ?"
+   },
+   {
+    "q": "Un établissement hôtelier doit-il toujours répondre d’un accident survenu dans une chambre ?"
+   },
+   {
+    "q": "Une commune doit-elle toujours réparer un accident survenu dans un parc ou sur un trottoir ?"
+   },
+   {
+    "q": "Victime d'une chute (trottoir, magasin, escalier, EHPAD) ?"
+   },
+   {
+    "q": "Vous avez été blessé à cause d’une route ou d’un trottoir défectueux ?"
+   },
+   {
+    "q": "À lire : Accident chez un ami : peut-on vraiment réclamer une indemnisation ?"
+   },
+   {
+    "q": "À lire : Accident de Bricolage ou Jardinage : Comment Obtenir Votre Indemnisation ?"
+   },
+   {
+    "q": "À lire : Accident du travail agricole : comment obtenir une réparation intégrale au-delà du forfait MSA ?"
+   },
+   {
+    "q": "À lire : Accident en magasin : qui paye l'indemnisation ?"
+   },
+   {
+    "q": "À lire : Accident et Dommages Corporels en Airbnb : Qui Paie Quand l'Assurance Fait la Sourde Oreille ?"
+   },
+   {
+    "q": "À lire : Bras ou jambe cassée après une chute : combien pouvez-vous vraiment obtenir ?"
+   },
+   {
+    "q": "À lire : Comment constituer un dossier d'indemnisation solide ?"
+   },
+   {
+    "q": "À lire : Faut-il souscrire l'assurance proposée par les stations de ski ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://association-aivf-faq.fr/accident-de-la-vie-faq/indemnisation-accident-vie/indemnisation-dune-chute-sur-un-trottoir",
+   "title": "Indemnisation d'une chute sur un trottoir - Association Victimes de France AIVF",
+   "desc": "L'indemnisation d'une chute sur un trottoir, accident de la vie, responsabilité d'un tiers ou Garantie accident de la vie",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d’une chute sur un trottoir"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation d’une chute sur un trottoir"
+    ]
+   ],
+   "content_score": 64,
+   "readability": 48,
+   "word_count": 1157,
+   "content_len": 7495
+  },
+  {
+   "rank": 2,
+   "url": "https://jmp-avocat-indemnisation.fr/blog-dommages-corporels/indemnisation-accident-voirie-defaut-entretien",
+   "title": "Indemnisation accident de voirie : défaut d’entretien, droits & montants",
+   "desc": "Chute ou accident causé par une route ou un trottoir défectueux ? Vérifiez si vous êtes indemnisable et découvrez les démarches pour obtenir la meilleure indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation pour Accident dû à un Défaut d'Entretien de la Voirie : Vos Droits et Démarches"
+    ],
+    [
+     "h2",
+     "Qu'est-ce qu'un accident de voirie ?"
+    ],
+    [
+     "h2",
+     "Le cadre juridique : une responsabilité présumée de l'administration"
+    ],
+    [
+     "h2",
+     "Constituer votre dossier : les preuves indispensables"
+    ],
+    [
+     "h2",
+     "La procédure d'indemnisation : étape par étape"
+    ],
+    [
+     "h2",
+     "Les causes d'exonération : comment l'administration peut se défendre"
+    ],
+    [
+     "h2",
+     "Calculer votre indemnisation : la nomenclature Dintilhac"
+    ],
+    [
+     "h2",
+     "Pourquoi choisir JMP Avocat Indemnisation ?"
+    ],
+    [
+     "h2",
+     "FAQ : Vos questions les plus fréquentes"
+    ],
+    [
+     "h2",
+     "Bibliographie et Sources :"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 31,
+   "word_count": 3504,
+   "content_len": 23431
+  },
+  {
+   "rank": 3,
+   "url": "https://www.rsl-avocat.com/indemnisation-des-victimes-de-chutes/",
+   "title": "Indemnisation après une chute : responsabilité, preuve et recours | RSL Avocat",
+   "desc": "Qui peut être tenu de réparer vos préjudices après une chute ? Hôtel, copropriété, parking, voie publique : preuves utiles, recours et indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation après une chute : responsabilité, preuve et recours"
+    ],
+    [
+     "h2",
+     "L’essentiel"
+    ],
+    [
+     "h2",
+     "Dans quelles situations une indemnisation est-elle envisageable ?"
+    ],
+    [
+     "h2",
+     "Quelles démarches accomplir rapidement ?"
+    ],
+    [
+     "h2",
+     "Quels éléments permettent d’établir les faits et leurs conséquences ?"
+    ],
+    [
+     "h2",
+     "Situations fréquemment rencontrées"
+    ],
+    [
+     "h2",
+     "Quels préjudices peuvent être réparés ?"
+    ],
+    [
+     "h2",
+     "Exemple réel : basculement d’une plaque dans un jardin"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Contact : RSL Avocat des victimes de dommage corporel"
+    ],
+    [
+     "h2",
+     "En savoir plus sur les domaines d’expertise en dommage corporel du cabinet RSL"
+    ],
+    [
+     "h2",
+     "RSL Avocat"
+    ],
+    [
+     "h2",
+     "Adresse"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 31,
+   "word_count": 2026,
+   "content_len": 13781
+  },
+  {
+   "rank": 4,
+   "url": "https://www.contre-expertise-medicale.fr/articles/fracture-apres-chute-sur-trottoir-degrade-comment-faire-reconnaitre-votre-dommage",
+   "title": "Chute sur trottoir dégradé : faire reconnaître son dommage",
+   "desc": "Fracture après chute sur trottoir dégradé, indemnisation dérisoire ? Stratégie médico-légale, rôle du médecin-conseil et étapes clés pour défendre vos droits en France.",
+   "headers": [
+    [
+     "h1",
+     "Fracture après chute sur trottoir dégradé : comment faire reconnaître votre dommage"
+    ],
+    [
+     "h2",
+     "À lire également"
+    ],
+    [
+     "h2",
+     "Prenons rendez-vous pour étudier votre situation"
+    ]
+   ],
+   "content_score": 39,
+   "readability": 36,
+   "word_count": 1798,
+   "content_len": 11332
+  },
+  {
+   "rank": 5,
+   "url": "https://www.favarel-eychenne-avocat.fr/chutes",
+   "title": "Avocat l Chute & Indemnisation des victimes",
+   "desc": "Avocat accident de la vie et chute",
+   "headers": [
+    [
+     "h2",
+     "Accident de la vie - Chute"
+    ],
+    [
+     "h1",
+     "Que faire en cas de chute ↓"
+    ],
+    [
+     "h2",
+     "Obtenez la meilleure indemnisation pour mon accident"
+    ],
+    [
+     "h2",
+     "Les étapes de la procédure indemnitaire après une chute"
+    ],
+    [
+     "h2",
+     "Demandez votre premier rendez-vous gratuit"
+    ],
+    [
+     "h2",
+     "Pour aller plus loin ?"
+    ]
+   ],
+   "content_score": 45,
+   "readability": 15,
+   "word_count": 1001,
+   "content_len": 6331
+  },
+  {
+   "rank": 6,
+   "url": "https://www.tf1info.fr/conso-argent/video-tf1-chute-de-pieton-en-ville-quelle-indemnisation-peut-on-obtenir-de-la-mairie-le-13h-a-vos-cotes-de-valentin-depret-2325152.html",
+   "title": "Dans quels cas un piéton est-il indemnisé par la mairie après une chute sur la chaussée ? Le 13H à vos côtés  | TF1 Info",
+   "desc": "[VIDÉO] ▶️ Dans \"Le 13H à vos côtés\", le JT de TF1 vous accompagne face aux problèmes du quotidien. Au menu ce jeudi, la question d'une habitante de Montpellier sur la responsabilité de la ville en cas de chute de piéton. Valentin Dépret lui répond sur le plateau de Marie-Sophie Lacarrau. - Dans quels cas un piéton est-il indemnisé par la mairie après une chute sur la chaussée ? Le 13H à vos côtés  (Mon argent et mes droits).",
+   "headers": [
+    [
+     "h1",
+     "Dans quels cas un piéton est-il indemnisé par la mairie après une chute sur la chaussée ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Dans \"Le 13H à vos côtés\", le JT de TF1 vous accompagne face aux problèmes du quotidien.Au menu ce jeudi, la question d'une habitante de Montpellier sur la responsabilité de la ville en cas de chute d"
+    ],
+    [
+     "h2",
+     "Défaut d'entretien de la commune"
+    ],
+    [
+     "h2",
+     "Posez vos questions en vidéo"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ]
+   ],
+   "content_score": 40,
+   "readability": 46,
+   "word_count": 2023,
+   "content_len": 11228
+  },
+  {
+   "rank": 7,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2677",
+   "title": "Accident de la route : indemnisation des victimes de dommages corporels | Service Public",
+   "desc": "La victime non conductrice d'un accident de la circulation (piéton ou passager), doit être indemnisée. Pour le conducteur, il y a des règles particulières.",
+   "headers": [
+    [
+     "h1",
+     "Accident de la route : indemnisation des victimes de dommages corporels"
+    ],
+    [
+     "h2",
+     "Quelle victime peut être indemnisée à la suite d'un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Quels sont les préjudices indemnisables à la suite d'un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Comment faire la demande d'indemnisation à l'assureur à la suite d'un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Quel est le délai pour demander une indemnisation à la suite d'un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Peut-on accepter ou refuser une offre d'indemnisation à la suite d'un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Services en ligne et formulaires"
+    ],
+    [
+     "h2",
+     "Questions ? Réponses !"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 43,
+   "word_count": 1953,
+   "content_len": 12426
+  },
+  {
+   "rank": 8,
+   "url": "https://jmp-avocat-indemnisation.fr/blog-dommages-corporels/chute-blessure-qui-indemnise-loi",
+   "title": "Chute avec Blessure : Qui doit Payer ? Guide d'Indemnisation Ultime (Loi et Procédure)",
+   "desc": "Victime d'une chute (trottoir, magasin, escalier, EHPAD) ? Ne perdez pas vos droits ! Découvrez qui est responsable (Loi + Procédure) et obtenez l'indemnisation maximale de vos blessures. STOP aux off",
+   "headers": [
+    [
+     "h1",
+     "Chute avec blessures, l'arnaque du « C'est la vie ». Voici comment obtenir votre indemnisation (et faire payer les responsables)"
+    ],
+    [
+     "h2",
+     "1. L’Escalier : Le Piège Mortel du Quotidien"
+    ],
+    [
+     "h2",
+     "2. Le Verglas et la Neige : La Glissade qui Coûte Cher"
+    ],
+    [
+     "h2",
+     "3. La Chute lors de \"Petits Travaux\" : Le Bricolage Sanglant"
+    ],
+    [
+     "h2",
+     "4. Sport en Club : \"Le Sport, c'est la Santé\"... Vraiment ?"
+    ],
+    [
+     "h2",
+     "5. Sports Extrêmes : La \"Décharge de Responsabilité\" est-elle un Bluff ?"
+    ],
+    [
+     "h2",
+     "6. EHPAD et Maisons de Retraite : Le Scandale Silencieux"
+    ],
+    [
+     "h2",
+     "7. Chute chez un Tiers : L'Assistance Bénévole"
+    ],
+    [
+     "h2",
+     "8. Chute au Travail : L'Accident et la Faute"
+    ],
+    [
+     "h2",
+     "9. L'Arme Absolue si \"Personne n'est Responsable\" : La GAV"
+    ],
+    [
+     "h2",
+     "L'Expertise Médicale : Ne vous faites pas avoir !"
+    ],
+    [
+     "h2",
+     "FAQ : Réponses Cash pour Victimes Pressées"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 58,
+   "word_count": 2441,
+   "content_len": 14247
+  },
+  {
+   "rank": 9,
+   "url": "https://aide-victimes.fr/accident-vie/indemnisation-chute-voie-publique/",
+   "title": "Indemnisation chute voie publique – AFAV",
+   "desc": "Indemnisation d'une chute sur la voie publique, accident de la vie, responsabilité d'un tiers ou Garantie accident de la vie GAV",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d’une chute sur la voie publique"
+    ],
+    [
+     "h2",
+     "Responsabilité et indemnisation en cas de chute sur sur la voie publique : quels recours pour la victime ?"
+    ]
+   ],
+   "content_score": 48,
+   "readability": 39,
+   "word_count": 581,
+   "content_len": 3664
+  },
+  {
+   "rank": 10,
+   "url": "https://ing-avocat.legal/article/hute-trottoir-responsabilite-mairie-indemnisation-procedure",
+   "title": "Chute trottoir : Attaquer la Mairie et être indemnisé (2026)",
+   "desc": "Trou dans la chaussée, pavé descellé, verglas ? Votre chute est due à un défaut d'entretien. Voici comment constituer les preuves contre la Mairie avant qu'ils ne rebouchent le trou.",
+   "headers": [
+    [
+     "h1",
+     "Chute sur un trottoir défoncé : Comment engager la responsabilité de la Mairie et se faire payer ?"
+    ],
+    [
+     "h2",
+     "La Règle Juridique : La \"Présomption de Défaut\""
+    ],
+    [
+     "h2",
+     "Le Plan d'Action : La Course contre la voirie"
+    ],
+    [
+     "h2",
+     "Le Conseil Stratégique Ingelaere"
+    ],
+    [
+     "h2",
+     "FAQ Stratégique : Vos questions d'accidenté"
+    ],
+    [
+     "h2",
+     "Nous contacter"
+    ]
+   ],
+   "content_score": 36,
+   "readability": 51,
+   "word_count": 775,
+   "content_len": 4468
+  },
+  {
+   "rank": 11,
+   "url": "https://mesdemarches.allianz.fr/basedoc/je-suis-tombe-dans-la-rue-a-cause-dun-trou-dans-le-trottoir-ai-je-un-recours_2282.htm",
+   "title": "Je suis tombé dans la rue à cause d'un trou dans le trottoir ? Ai-je un recours ? | Mesdemarches Allianz",
+   "desc": "Site Allianz de démarches administratives et juridiques gratuites",
+   "headers": [
+    [
+     "h1",
+     "Je suis tombé dans la rue à cause d'un trou dans le trottoir ? Ai-je un recours ?"
+    ],
+    [
+     "h2",
+     "La commune est-elle responsable ?"
+    ],
+    [
+     "h2",
+     "Comment engager la responsabilité de l’administration ?"
+    ],
+    [
+     "h2",
+     "La responsabilité de l’administration peut-elle être limitée ?"
+    ],
+    [
+     "h2",
+     "Référence(s) juridique(s) :"
+    ],
+    [
+     "h2",
+     "Nos autres fiches dans la catégorie Responsabilité de l’Etat et des collectivités"
+    ]
+   ],
+   "content_score": 27,
+   "readability": 30,
+   "word_count": 1783,
+   "content_len": 11847
+  },
+  {
+   "rank": 12,
+   "url": "https://www.matmut.fr/assurance/accident-vie/situation/accident-voie-publique",
+   "title": "Accident de la voie publique (AVP) : assurance et indemnisation",
+   "desc": "En matière d’assurance, pour être couvert en cas d'accident de la voie publique ou de la circulation, un contrat Accidents de la Vie est indispensable.",
+   "headers": [
+    [
+     "h1",
+     "Les accidents sur la voie publique (AVP)"
+    ],
+    [
+     "h2",
+     "Définition : accident de la voie publique ou de la circulation"
+    ],
+    [
+     "h2",
+     "Assurances Accidents de la vie - Tableau de garanties en cas d’accident sur la voie publique"
+    ],
+    [
+     "h2",
+     "Quelles indemnisations en cas d'accident de la voie publique ?"
+    ],
+    [
+     "h2",
+     "Les assurances Accidents de la vie Matmut"
+    ],
+    [
+     "h2",
+     "Les points forts des assurances Accidents de la vie"
+    ],
+    [
+     "h2",
+     "Les points forts des assurances Accidents de la vie"
+    ],
+    [
+     "h2",
+     "Les garanties des assurances Accidents de la vie au quotidien"
+    ],
+    [
+     "h2",
+     "Les conseils assurances Accidents de la vie"
+    ],
+    [
+     "h2",
+     "Documents utiles"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 25,
+   "word_count": 2876,
+   "content_len": 17689
+  },
+  {
+   "rank": 13,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/indemnisation-accident-de-la-route/accident-de-la-route-montant-indemnisation",
+   "title": "Accident de la route montant indemnisation - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France vous aide à maximiser l'indemnisation après un accident de la route.",
+   "headers": [
+    [
+     "h1",
+     "Accident de la route montant indemnisation"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Accident de la route : quel montant d’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Accident de la route, quel montant de l’indemnisation ?"
+    ]
+   ],
+   "content_score": 43,
+   "readability": 38,
+   "word_count": 2210,
+   "content_len": 13775
+  },
+  {
+   "rank": 14,
+   "url": "https://www.generali.fr/actu/chute-rue-chaussee-mal-entretenue/",
+   "title": "Chute dans la rue à cause d’une chaussée mal entretenue : que se passe-t-il ?",
+   "desc": "Trottoir verglacé, nids-de-poule, graviers… vous avez été victime d’une mauvaise chute sur la voie publique ?",
+   "headers": [
+    [
+     "h1",
+     "Chute dans la rue à cause d’une chaussée mal entretenue : que se passe-t-il ?"
+    ],
+    [
+     "h2",
+     "Trottoir verglacé, nids-de-poule, graviers… vous avez été victime d’une mauvaise chute sur la voie publique ? La responsabilité de la collectivité, voire du riverain, peut alors être engagée. Explicat"
+    ],
+    [
+     "h2",
+     "Nos solutions"
+    ],
+    [
+     "h2",
+     "Actualités"
+    ]
+   ],
+   "content_score": 37,
+   "readability": 33,
+   "word_count": 1403,
+   "content_len": 8747
+  },
+  {
+   "rank": 15,
+   "url": "https://www.tcn-avocats.com/indemnisation-accident-voirie/",
+   "title": "Indemnisation accident de la voirie – TCN Avocats",
+   "desc": "Victime d’un accident de la voirie, sollicitez un avocat expert en dommage corporel pour découvrir les recours possibles et obtenir réparation.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation accident de la voirie"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un accident de la voirie ?"
+    ],
+    [
+     "h2",
+     "Comment obtenir l’indemnisation accident de la voirie ?"
+    ],
+    [
+     "h2",
+     "Solliciter un avocat indemnisation accident de la voirie"
+    ]
+   ],
+   "content_score": 35,
+   "readability": 39,
+   "word_count": 1255,
+   "content_len": 8004
+  },
+  {
+   "rank": 16,
+   "url": "https://association-aivf-faq.fr/indemnisation-suite-a-une-chute",
+   "title": "Indemnisation suite à une chute - Association Victimes de France AIVF",
+   "desc": "Indemnisation suite à une chute, accident de la vie, accident sportif, réparation du préjudice, Garantie accident de la vie",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation suite à une chute"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation suite à une chute"
+    ]
+   ],
+   "content_score": 48,
+   "readability": 35,
+   "word_count": 902,
+   "content_len": 5746
+  },
+  {
+   "rank": 17,
+   "url": "https://www.tf1info.fr/conso-argent/videos/video-chute-sur-un-terrain-public-ai-je-droit-a-une-indemnisation-le-13h-a-vos-cotes-48238-2416289.html",
+   "title": "Chute sur un terrain public : ai-je droit à une indemnisation ? Le 13H à vos côtés | TF1 Info",
+   "desc": "▶️ Vincent a mis le pied dans un trou lors d'une manifestation sportive sur un terrain communal. Cette chute lui a valu une fracture. Peut-il être indemnisé pour ses huit mois d'arrêt de travail, ses pertes de revenu et ses frais médicaux ? C'est la commun auté de communes, propriétaire du terrain, qui est responsable. Pour recevoir une indemnisation, il faut prouver qu'il y a un défaut d'entretien sur le nid de poule ou le trou et prouver que la blessure est directement liée à celui-ci. (Mon argent et mes droits).",
+   "headers": [
+    [
+     "h1",
+     "Chute sur un terrain public : ai-je droit à une indemnisation ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Permis de conduire : le \"papier rose\" a-t-il une durée de validité ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Travaux en face de ma maison : trop de bruit, trop de poussière... que faire ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "J'ai installé une pergola : dois-je payer une taxe foncière ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Nuisances, un élevage s'installe à côté de chez moi : que faire ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Ma mutuelle augmente fortement ses tarifs, puis-je négocier ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Voitures d’occasion en panne : quels retours ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Loisirs, vacances : la canicule est-elle un motif d'annulation valable ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Vacances : la location n'est pas conforme aux photos, que faire ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Réservation annulée par l'hôtel : quels sont mes droits ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Mon quartier est envahi par les rats : la mairie responsable ? Le 13H à vos côtés"
+    ]
+   ],
+   "content_score": 29,
+   "readability": 52,
+   "word_count": 459,
+   "content_len": 2306
+  },
+  {
+   "rank": 18,
+   "url": "https://laurabaron-avocat.com/ressources/chute-trottoir-abime-reparation-droits",
+   "title": "Chute sur trottoir abîmé : Vos droits à réparation | Ressources Juridiques | Maître Laura Baron • Avocat Dommage Corporel Bayonne",
+   "desc": "Découvrez vos droits à réparation après une chute sur un trottoir abîmé. Conseils par Maître Laura Baron, avocat en dommage corporel à Bayonne.",
+   "headers": [
+    [
+     "h1",
+     "Chute sur trottoir abîmé : Vos droits à réparation"
+    ],
+    [
+     "h2",
+     "Introduction : La chute sur un trottoir abîmé"
+    ],
+    [
+     "h2",
+     "La responsabilité de la mairie dans l'entretien des trottoirs"
+    ],
+    [
+     "h2",
+     "Les démarches à suivre après une chute"
+    ],
+    [
+     "h2",
+     "Le recours à un avocat spécialisé"
+    ],
+    [
+     "h2",
+     "Les procédures d'indemnisation"
+    ],
+    [
+     "h2",
+     "Conclusion : Protégez vos droits"
+    ],
+    [
+     "h2",
+     "Continuer votre lecture"
+    ],
+    [
+     "h2",
+     "Besoin d'un conseil personnalisé ?"
+    ]
+   ],
+   "content_score": 39,
+   "readability": 43,
+   "word_count": 888,
+   "content_len": 5907
+  },
+  {
+   "rank": 19,
+   "url": "https://maitre-morin-avocat.fr/accueil/indemnisation-accident-de-la-vie/indemnisation-suite-a-un-accident-sur-la-voie-publique",
+   "title": "Indemnisation après à un accident sur la voie publique",
+   "desc": "Lorsqu'il s'agit d'un accident sur la voie publique à cause d'un défaut de la chaussée, le droit applicable est le droit public.",
+   "headers": [
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "❓ Indemnisation suite à un accident sur la voie publique — les 3 questions les plus posées"
+    ],
+    [
+     "h1",
+     "Indemnisation après un accident sur la voie publique : droits, responsabilités et démarches"
+    ],
+    [
+     "h2",
+     "1) Identifier la cause de l’accident"
+    ],
+    [
+     "h2",
+     "2) Les bons réflexes immédiats"
+    ],
+    [
+     "h2",
+     "3) Si un véhicule est impliqué : loi Badinter"
+    ],
+    [
+     "h2",
+     "4) Si aucun véhicule n’est en cause : responsabilité de la commune"
+    ],
+    [
+     "h2",
+     "5) Comment déclarer un accident de voirie"
+    ],
+    [
+     "h2",
+     "6) Les préjudices indemnisables"
+    ],
+    [
+     "h2",
+     "7) L’expertise médicale"
+    ],
+    [
+     "h2",
+     "8) Exemple concret"
+    ],
+    [
+     "h2",
+     "9) Le rôle de l’avocat"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "Comprendre les Différences entre les Types d'Accidents sur la Voie Publique"
+    ],
+    [
+     "h2",
+     "Exemples de questions de victimes suite à un accident sur la voie publique"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 38,
+   "word_count": 3192,
+   "content_len": 19894
+  },
+  {
+   "rank": 20,
+   "url": "https://www.cabinet-roussel.fr/video-lindemnisation-a-la-suite-dun-accident-sur-la-voie-publique/",
+   "title": "Vidéo : L’indemnisation à la suite d'un accident sur la voie publique - Cabinet Roussel",
+   "desc": "Dans cette nouvelle vidéo, Maître Roussel vous explique comment fonctionne l'indemnisation à la suite d'accidents sur la voie publique",
+   "headers": [
+    [
+     "h1",
+     "Vidéo : L’indemnisation à la suite d’un accident sur la voie publique"
+    ],
+    [
+     "h2",
+     "Découvrez  d'autres vidéos"
+    ]
+   ],
+   "content_score": 25,
+   "readability": 46,
+   "word_count": 97,
+   "content_len": 580
+  },
+  {
+   "rank": 21,
+   "url": "https://www.lecabinetm.com/quel-organisme-indemnise-blessure-chute/",
+   "title": "Responsabilité civile : À qui revient la faute en cas de chute ? | Cabinet M",
+   "desc": "Les experts du Cabinet M vous permettent d’identifier si votre chute est la cause d’un tiers, engageant ainsi sa responsabilité civile.",
+   "headers": [
+    [
+     "h1",
+     "À qui revient la faute en cas de blessures causées par une chute ?"
+    ],
+    [
+     "h2",
+     "Responsabilité civile : qui est responsable de votre chute ?"
+    ],
+    [
+     "h2",
+     "Responsabilité civile : que dit la Loi sur votre chute ?"
+    ],
+    [
+     "h2",
+     "Retraite Québec : le régisseur de la rente invalidité"
+    ],
+    [
+     "h2",
+     "Obtenez une indemnisation en cas de chute avec l’équipe juridique du Cabinet M"
+    ]
+   ],
+   "content_score": 34,
+   "readability": 34,
+   "word_count": 1972,
+   "content_len": 12299
+  },
+  {
+   "rank": 22,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F38817",
+   "title": "Demande d'indemnisation en cas de dommage causé par un objet | Service Public",
+   "desc": "Tout préjudice causé par une chose, un produit défectueux ou la chute d'un bâtiment peut entraîner le versement de dommages et intérêts.",
+   "headers": [
+    [
+     "h1",
+     "Demande d'indemnisation en cas de dommage causé par un objet"
+    ],
+    [
+     "h2",
+     "Objet en état de marche"
+    ],
+    [
+     "h2",
+     "Objet défectueux"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 30,
+   "readability": 49,
+   "word_count": 4092,
+   "content_len": 24863
+  },
+  {
+   "rank": 23,
+   "url": "https://www.youtube.com/watch?v=wo-g31LXyzw",
+   "title": "Accident de la route : victimes, demandez une indemnisation juste ! Guide juridique complet (+PDF) - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Accident de la route : victimes, demandez une indemnisation juste ! Guide juridique complet (+PDF)"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h1",
+     "Accident de la route : victimes, demandez une indemnisation juste ! Guide juridique complet (+PDF)"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      11"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Chapitres"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 31,
+   "readability": 30,
+   "word_count": 504,
+   "content_len": 3391
+  },
+  {
+   "rank": 24,
+   "url": "https://association-aivf-faq.fr/avp-accident-de-la-voie-publique/indemnisation-chute-dans-la-rue",
+   "title": "Indemnisation chute dans la rue - Association Victimes de France AIVF",
+   "desc": "Indemnisation d'une chute dans la rue, accident de la vie, responsabilité d'un tiers ou Garantie accident de la vie GAV",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation chute dans la rue"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation d’une chute dans la rue"
+    ]
+   ],
+   "content_score": 60,
+   "readability": 54,
+   "word_count": 855,
+   "content_len": 5545
+  },
+  {
+   "rank": 25,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/indemnisation-accident-de-la-route",
+   "title": "Indemnisation de l'accident de la route - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France vous accompagne pour obtenir une indemnisation optimale après un accident de la route.",
+   "headers": [
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Indemnisation d’un accident de la route : tout ce que les victimes doivent savoir"
+    ],
+    [
+     "h1",
+     "🛣️ Indemnisation après un accident de la route"
+    ],
+    [
+     "h2",
+     "Association AIVF"
+    ],
+    [
+     "h2",
+     "⚖️ Indemnisation accident de la route : vos droits"
+    ],
+    [
+     "h2",
+     "1️⃣ Qui peut être indemnisé après un accident de la route ?"
+    ],
+    [
+     "h2",
+     "2️⃣ Démarches à suivre après un accident de la route"
+    ],
+    [
+     "h2",
+     "3️⃣ Le rôle de l’Association AIVF"
+    ],
+    [
+     "h2",
+     "4️⃣ Quels préjudices sont indemnisables ?"
+    ],
+    [
+     "h2",
+     "5️⃣ Accident avec conducteur non assuré ou inconnu"
+    ],
+    [
+     "h2",
+     "6️⃣ Contacter l’Association AIVF"
+    ],
+    [
+     "h2",
+     "⚠️ Mise en garde importante – Protection juridique"
+    ],
+    [
+     "h2",
+     "📌 À retenir –Association d’aide à l’indemnisation"
+    ]
+   ],
+   "content_score": 37,
+   "readability": 33,
+   "word_count": 1061,
+   "content_len": 6825
+  },
+  {
+   "rank": 26,
+   "url": "https://aide-victimes.fr/accident-vie/indemnisation-chute-trottoir/",
+   "title": "Indemnisation chute trottoir – AFAV",
+   "desc": "Indemnisation suite à une chute sur un trottoir, accident de la vie, Garantie des accidents de la vie GAV ou responsabilité d'un tiers",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation suite à une chute sur un trottoir"
+    ],
+    [
+     "h2",
+     "Indemnisation suite à une chute sur le trottoir et responsabilité"
+    ],
+    [
+     "h2",
+     "Accident de la vie, Garantie des accidents de la vie GAV"
+    ],
+    [
+     "h2",
+     "Réparation du préjudice corporel et indemnisation"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 47,
+   "word_count": 921,
+   "content_len": 5662
+  },
+  {
+   "rank": 27,
+   "url": "https://www.assurbike.net/chute-de-plain-pied-sur-la-voie-publique-qui-est-responsable/",
+   "title": "Chute de Plain-Pied sur la voie publique : qui est responsable ? – assurbike",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Chute de Plain-Pied sur la voie publique : qui est responsable ?"
+    ],
+    [
+     "h2",
+     "Les acteurs potentiellement responsables"
+    ],
+    [
+     "h2",
+     "Le régime de preuve : comment démontrer la responsabilité ?"
+    ],
+    [
+     "h2",
+     "Les recours possibles"
+    ],
+    [
+     "h2",
+     "Prévenir les chutes : une responsabilité partagée"
+    ],
+    [
+     "h2",
+     "Besoin d’aide ? contactez un avocat spécialisé"
+    ],
+    [
+     "h2",
+     "Comment obtenir une indemnisation suite à une chute sur la voie publique ?"
+    ],
+    [
+     "h2",
+     "Comment déterminer qui est responsable en cas de chute ?"
+    ],
+    [
+     "h2",
+     "Quelle est la responsabilité du riverain en cas de chute sur le trottoir ?"
+    ]
+   ],
+   "content_score": 42,
+   "readability": 25,
+   "word_count": 2999,
+   "content_len": 19836
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1876,
+   "target": 1876
+  },
+  "readability": {
+   "median": 41,
+   "target": 41
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 70
+   },
+   {
+    "t": "trottoir",
+    "usage_pc": 30
+   },
+   {
+    "t": "une chute",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "après une chute",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "accident",
+    "usage_pc": 50
+   },
+   {
+    "t": "une chute",
+    "usage_pc": 50
+   },
+   {
+    "t": "trottoir",
+    "usage_pc": 40
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 30
+   },
+   {
+    "t": "voie publique",
+    "usage_pc": 20
+   },
+   {
+    "t": "après une chute",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 20
+   },
+   {
+    "t": "garantie accident de la vie",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation d'une chute",
+    "usage_pc": 20
+   },
+   {
+    "t": "piéton",
+    "usage_pc": 20
+   },
+   {
+    "t": "chaussée",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "une chute",
+    "usage_pc": 40
+   },
+   {
+    "t": "trottoir",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "chute sur un trottoir",
+    "usage_pc": 20
+   },
+   {
+    "t": "après une chute",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "voie publique",
+    "usage_pc": 10
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "défaut d'entretien",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "entretien",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 10
+   },
+   {
+    "t": "voirie",
+    "usage_pc": 10
+   },
+   {
+    "t": "un défaut",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 10
+   },
+   {
+    "t": "trottoir défoncé",
+    "usage_pc": 10
+   },
+   {
+    "t": "piéton",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation après une chute",
+    "usage_pc": 10
+   },
+   {
+    "t": "cas de chute",
+    "usage_pc": 10
+   },
+   {
+    "t": "chute sur un trottoir défoncé",
+    "usage_pc": 10
+   },
+   {
+    "t": "chaussée",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "accident",
+    "usage_pc": 40
+   },
+   {
+    "t": "une chute",
+    "usage_pc": 20
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 20
+   },
+   {
+    "t": "voirie",
+    "usage_pc": 20
+   },
+   {
+    "t": "cas de chute",
+    "usage_pc": 20
+   },
+   {
+    "t": "trottoir",
+    "usage_pc": 10
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 10
+   },
+   {
+    "t": "voie publique",
+    "usage_pc": 10
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "chute sur un trottoir",
+    "usage_pc": 10
+   },
+   {
+    "t": "défaut d'entretien",
+    "usage_pc": 10
+   },
+   {
+    "t": "après une chute",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "entretien",
+    "usage_pc": 10
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 10
+   },
+   {
+    "t": "piéton",
+    "usage_pc": 10
+   },
+   {
+    "t": "obtenir la meilleure indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "les preuves",
+    "usage_pc": 10
+   },
+   {
+    "t": "nomenclature dintilhac",
+    "usage_pc": 10
+   },
+   {
+    "t": "préjudices indemnisables",
+    "usage_pc": 10
+   },
+   {
+    "t": "demande d'indemnisation",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 90,
+    "sugg_usage": [
+     4,
+     19
+    ]
+   },
+   {
+    "t": "trottoir",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 100,
+    "sugg_usage": [
+     10,
+     26
+    ]
+   },
+   {
+    "t": "une chute",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     8
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     11
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "voie publique",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     9
+    ]
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     3
+    ]
+   },
+   {
+    "t": "défaut d'entretien",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "après une chute",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "entretien",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 100,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "garantie accident de la vie",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "séquelle",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un défaut",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "arrêt de travail",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte de revenus",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "consolidation",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "souscrire",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "endurer",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "chute sur un trottoir",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "voirie",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "trottoir défoncé",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation d'une chute",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "piéton",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemnisation après une chute",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "défaut d'entretien normal",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "cas de chute",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "chute sur un trottoir défoncé",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit du dommage corporel",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "chaussée",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "victimes d'accidents",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsabilité civile",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déficit fonctionnel",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "non signalé",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice professionnel",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir la meilleure indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "traumatisme crânien",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "souffrances endurées",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation en droit commun",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les preuves",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "défaut d’entretien",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation d’une chute",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déclarer l'accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lieu de la chute",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "entretien de la voie publique",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "nomenclature dintilhac",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après votre accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "état de la voirie",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fracture du poignet",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "col du fémur",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation pour les préjudices",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tiers responsable",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "prouver la faute",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation rapide",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "gestionnaire de la voirie",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lettre recommandée",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident du travail",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsabilité de la collectivité",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de la vie gav",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudices subis",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faute de la victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat en droit des victimes",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médecin conseil",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d'une chute",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médecin conseil de victimes",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "chute est due",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après la consolidation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudices indemnisables",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "appel à un avocat",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demande d'indemnisation",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "prenez un avocat",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d'accidents de la circulation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dizaines de milliers d'euros",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "trou dans la chaussée",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "favorable à la victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Trottoir",
+    "importance": 32.47744,
+    "relevance": 0.50746,
+    "confidence": 2.2670000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Trottoir"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 29.429759999999998,
+    "relevance": 0.45983999999999997,
+    "confidence": 3.8954,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 21.617919999999998,
+    "relevance": 0.33777999999999997,
+    "confidence": 3.2329999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Préjudice professionnel",
+    "importance": 5.834879999999999,
+    "relevance": 0.16208,
+    "confidence": 0.9773999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Préjudice_professionnel"
+     ]
+    ]
+   },
+   {
+    "t": "Voirie",
+    "importance": 5.43872,
+    "relevance": 0.33992,
+    "confidence": 0.6014,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Voirie"
+     ]
+    ]
+   },
+   {
+    "t": "Défaut d'entretien normal",
+    "importance": 4.01408,
+    "relevance": 0.25088,
+    "confidence": 0.8108000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Défaut_d'entretien_normal"
+     ]
+    ]
+   },
+   {
+    "t": "Fracture",
+    "importance": 3.17408,
+    "relevance": 0.19838,
+    "confidence": 1.391,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fracture"
+     ]
+    ]
+   },
+   {
+    "t": "Ordre administratif en France",
+    "importance": 2.38336,
+    "relevance": 0.14896,
+    "confidence": 0.6806,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Ordre_administratif_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Syndic",
+    "importance": 2.23232,
+    "relevance": 0.13952,
+    "confidence": 0.727,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Syndic"
+     ]
+    ]
+   },
+   {
+    "t": "Espace public",
+    "importance": 2.0556799999999997,
+    "relevance": 0.12847999999999998,
+    "confidence": 0.8987999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Espace_public"
+     ]
+    ]
+   },
+   {
+    "t": "France",
+    "importance": 1.7385600000000003,
+    "relevance": 0.10866,
+    "confidence": 3.0476,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/France"
+     ]
+    ]
+   },
+   {
+    "t": "Route",
+    "importance": 1.6886400000000001,
+    "relevance": 0.10554000000000001,
+    "confidence": 0.5740000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Route"
+     ]
+    ]
+   },
+   {
+    "t": "Chaussée",
+    "importance": 1.497184,
+    "relevance": 0.093574,
+    "confidence": 1.2356,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Chaussée"
+     ]
+    ]
+   },
+   {
+    "t": "Jardin public",
+    "importance": 1.1948800000000002,
+    "relevance": 0.07468,
+    "confidence": 0.5078,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Jardin_public"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 1.12448,
+    "relevance": 0.07028,
+    "confidence": 0.5504,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Gravitation",
+    "importance": 1.01824,
+    "relevance": 0.06364,
+    "confidence": 0.8106,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Gravitation"
+     ]
+    ]
+   },
+   {
+    "t": "Euro",
+    "importance": 0.9587199999999997,
+    "relevance": 0.059919999999999994,
+    "confidence": 0.4271,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Euro"
+     ]
+    ]
+   },
+   {
+    "t": "Île-de-France",
+    "importance": 0.9456,
+    "relevance": 0.0591,
+    "confidence": 1.0994,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Île-de-France"
+     ]
+    ]
+   },
+   {
+    "t": "Hôpital",
+    "importance": 0.86464,
+    "relevance": 0.05404,
+    "confidence": 1.6066000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Hôpital"
+     ]
+    ]
+   },
+   {
+    "t": "AIVF",
+    "importance": 0.6724,
+    "relevance": 0.1681,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Douleur chronique",
+    "importance": 0.6663359999999999,
+    "relevance": 0.041645999999999996,
+    "confidence": 0.8644000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Douleur_chronique"
+     ]
+    ]
+   },
+   {
+    "t": "Copropriété en droit français",
+    "importance": 0.60248,
+    "relevance": 0.15062,
+    "confidence": 0.5668,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Copropriété_en_droit_français"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 0.52776,
+    "relevance": 0.13194,
+    "confidence": 0.5352,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Code de la voirie routière",
+    "importance": 0.50536,
+    "relevance": 0.12634,
+    "confidence": 0.6444,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Code_de_la_voirie_routière"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "indemnisation\ntrottoir\nune chute\naccident\naprès une chute\nindemniser\nindemnisation des victimes",
+  "desc_title": "indemnisation\naccident\nune chute\ntrottoir\naccident de la vie\nvoie publique\naprès une chute\nindemniser\ngarantie accident de la vie\nindemnisation d'une chute\npiéton\nchaussée",
+  "h1": "indemnisation\nune chute\ntrottoir\naccident\nchute sur un trottoir\naprès une chute\ndommage corporel\nvoie publique\ncorporel\ndéfaut d'entretien\nindemniser\nentretien\nindemnisation des victimes\nvoirie\nun défaut\naccident de la route\ntrottoir défoncé\npiéton\nindemnisation après une chute\ncas de chute\nchute sur un trottoir défoncé\nchaussée",
+  "h2": "indemnisation\naccident\nune chute\npréjudice\nune indemnisation\nexpertise\nvoirie\ncas de chute\ntrottoir\ndommage corporel\naccident de la vie\nvoie publique\ncorporel\nchute sur un trottoir\ndéfaut d'entretien\naprès une chute\nindemniser\nun accident\nentretien\nexpertise médicale\nassureur\naccident de la route\npiéton\nobtenir la meilleure indemnisation\nles preuves\nnomenclature dintilhac\npréjudices indemnisables\ndemande d'indemnisation",
+  "content_basic": "indemnisation\ntrottoir\naccident\nune chute\nassurance\npréjudice\ndommage corporel\naccident de la vie\nvoie publique\nune indemnisation\ncorporel\nexpertise\ndéfaut d'entretien\naprès une chute\nindemniser\nun accident\nobtenir une indemnisation\nentretien\nexpertise médicale\nassureur\ngarantie accident de la vie\nséquelle\nun défaut\npréjudice corporel\narrêt de travail\nperte de revenus\nconsolidation\nsouscrire\nendurer",
+  "content_basic_w_ranges": "indemnisation: 4-19x\ntrottoir: 1-4x\naccident: 10-26x\nune chute: 1-4x\nassurance: 2-8x\npréjudice: 2-11x\ndommage corporel: 1-7x\naccident de la vie: 1-3x\nvoie publique: 1-2x\nune indemnisation: 1-6x\ncorporel: 1-9x\nexpertise: 2-3x\ndéfaut d'entretien: 1-2x\naprès une chute: 1x\nindemniser: 1-4x\nun accident: 1-3x\nobtenir une indemnisation: 1-2x\nentretien: 1-4x\nexpertise médicale: 1-2x\nassureur: 1-3x\ngarantie accident de la vie: 1-2x\nséquelle: 1-2x\nun défaut: 1-2x\npréjudice corporel: 1-2x\narrêt de travail: 1x\nperte de revenus: 1-2x\nconsolidation: 1x\nsouscrire: 1x\nendurer: 1x",
+  "content_extended": "chute sur un trottoir\nindemnisation des victimes\nvoirie\naccident de la route\ntrottoir défoncé\nindemnisation d'une chute\npiéton\nindemnisation après une chute\ndéfaut d'entretien normal\ncas de chute\nchute sur un trottoir défoncé\ndroit du dommage corporel\nchaussée\nvictimes d'accidents\nresponsabilité civile\ndéficit fonctionnel\nêtre indemnisé\nnon signalé\npréjudice professionnel\nobtenir la meilleure indemnisation\ntraumatisme crânien\ndroit à indemnisation\nsouffrances endurées\nindemnisation en droit commun\nles preuves\ndéfaut d’entretien\nindemnisation d’une chute\ndéclarer l'accident\nlieu de la chute\nentretien de la voie publique\nnomenclature dintilhac\naprès votre accident\nétat de la voirie\nfracture du poignet\ncol du fémur\nindemnisation pour les préjudices\ntiers responsable\nprouver la faute\nindemnisation rapide\ngestionnaire de la voirie\nlettre recommandée\naccident du travail\nresponsabilité de la collectivité\naccident de la vie gav\npréjudices subis\nfaute de la victime\navocat en droit des victimes\nmédecin conseil\nvictime d'une chute\nmédecin conseil de victimes\nchute est due\naprès la consolidation\npréjudices indemnisables\nappel à un avocat\ndemande d'indemnisation\nprenez un avocat\nvictimes d'accidents de la circulation\ndizaines de milliers d'euros\ntrou dans la chaussée\nfavorable à la victime",
+  "content_extended_w_ranges": "chute sur un trottoir: 1x\nindemnisation des victimes: 1x\nvoirie: 1-4x\naccident de la route: 1x\ntrottoir défoncé: 1x\nindemnisation d'une chute: 1x\npiéton: 1-2x\nindemnisation après une chute: 1x\ndéfaut d'entretien normal: 1-2x\ncas de chute: 1x\nchute sur un trottoir défoncé: 1x\ndroit du dommage corporel: 1-3x\nchaussée: 1-2x\nvictimes d'accidents: 1x\nresponsabilité civile: 1x\ndéficit fonctionnel: 1-2x\nêtre indemnisé: 1x\nnon signalé: 1x\npréjudice professionnel: 1x\nobtenir la meilleure indemnisation: 1x\ntraumatisme crânien: 1x\ndroit à indemnisation: 1x\nsouffrances endurées: 1x\nindemnisation en droit commun: 1x\nles preuves: 1x\ndéfaut d’entretien: 1x\nindemnisation d’une chute: 1x\ndéclarer l'accident: 1x\nlieu de la chute: 1x\nentretien de la voie publique: 1x\nnomenclature dintilhac: 1x\naprès votre accident: 1x\nétat de la voirie: 1x\nfracture du poignet: 1x\ncol du fémur: 1x\nindemnisation pour les préjudices: 1x\ntiers responsable: 1x\nprouver la faute: 1x\nindemnisation rapide: 1x\ngestionnaire de la voirie: 1x\nlettre recommandée: 1x\naccident du travail: 1x\nresponsabilité de la collectivité: 1x\naccident de la vie gav: 1x\npréjudices subis: 1x\nfaute de la victime: 1x\navocat en droit des victimes: 1x\nmédecin conseil: 1x\nvictime d'une chute: 1x\nmédecin conseil de victimes: 1x\nchute est due: 1x\naprès la consolidation: 1x\npréjudices indemnisables: 1x\nappel à un avocat: 1x\ndemande d'indemnisation: 1x\nprenez un avocat: 1x\nvictimes d'accidents de la circulation: 1x\ndizaines de milliers d'euros: 1x\ntrou dans la chaussée: 1x\nfavorable à la victime: 1x",
+  "entities": "Trottoir\nAssurance\nDommage corporel\nPréjudice professionnel\nVoirie\nDéfaut d'entretien normal\nFracture\nOrdre administratif en France\nSyndic\nEspace public\nFrance\nRoute\nChaussée\nJardin public\nAvocat (métier)\nGravitation\nEuro\nÎle-de-France\nHôpital\nAIVF\nDouleur chronique\nCopropriété en droit français\nMédecin\nCode de la voirie routière"
+ },
+ "status": "ready",
+ "keyword": "indemnisation chute dans la rue",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "2b734985fb8580f5",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "navigational": 7.4
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "guide": 74.1,
+   "short-answer": 22.2,
+   "blog-post": 40.7,
+   "business": 14.8,
+   "landing-page": 7.4,
+   "news": 7.4,
+   "video": 14.8,
+   "educational": 14.8,
+   "product-page": 3.7
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/2b734985fb8580f5",
+ "share_url": "https://app.neuronwriter.com/analysis/share/2b734985fb8580f5/4bc51db094607010eb0294e7960c645e4fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/2b734985fb8580f5/8ba4257a7f3179d24302d62a5c9235a64fa16"
+}

@@ -1,0 +1,2534 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quelle est la grille d'indemnisation pour le préjudice corporel ?"
+   },
+   {
+    "q": "Tétraplégie prise en charge ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   },
+   {
+    "q": "Quel est le montant de l'indemnité forfaitaire pour dommages corporels ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quelle est la grille ou le barème d'indemnisation pour le préjudice corporel lié à une tétraplégie ?": {
+    "importance": 10
+   },
+   "Comment la tétraplégie est-elle prise en charge et indemnisée après un accident ?": {
+    "importance": 10
+   },
+   "Quels sont les différents types de préjudices indemnisables en cas de tétraplégie (patrimoniaux et extra-patrimoniaux) ?": {
+    "importance": 9
+   },
+   "Quel est le montant moyen ou les montants réels d'indemnisation pour une tétraplégie ?": {
+    "importance": 9
+   },
+   "Quelles sont les étapes de la procédure d'indemnisation pour une victime tétraplégique ?": {
+    "importance": 8
+   },
+   "Comment se déroule l'expertise médicale pour évaluer les séquelles d'une tétraplégie ?": {
+    "importance": 8
+   },
+   "Qu'est-ce que la tétraplégie et quelles sont ses conséquences pour la victime ?": {
+    "importance": 7
+   },
+   "Qui paie l'indemnisation en cas de tétraplégie et quels sont les délais à connaître ?": {
+    "importance": 7
+   },
+   "Pourquoi faire appel à un avocat spécialisé pour l'indemnisation d'une tétraplégie ?": {
+    "importance": 6
+   },
+   "Peut-on obtenir des provisions rapidement en attendant l'indemnisation finale ?": {
+    "importance": 6
+   }
+  },
+  "content_questions": [
+   {
+    "q": "2- Pourquoi ne jamais se rendre seul à l'expertise ?"
+   },
+   {
+    "q": "2° Qu’est-ce que la tétraplégie après un accident de la route ?"
+   },
+   {
+    "q": "3° Quelles sont les causes et les conséquences médicales de la tétraplégie ?"
+   },
+   {
+    "q": "4° Quels sont les nouveaux besoins de la victime tétraplégique au quotidien ?"
+   },
+   {
+    "q": "5° Quel impact pour la famille de la victime tétraplégique ?"
+   },
+   {
+    "q": "6° Comment la nomenclature Dintilhac structure l’indemnisation d’une tétraplégie ?"
+   },
+   {
+    "q": "7° Pourquoi l’expertise médicale est-elle l’étape décisive de l’indemnisation ?"
+   },
+   {
+    "q": "8° Quelles sont les étapes pour obtenir une indemnisation complète ?"
+   },
+   {
+    "q": "Combien de temps dure une procédure d'indemnisation pour tétraplégie ?"
+   },
+   {
+    "q": "Comment contester une expertise medicale defavorable ?"
+   },
+   {
+    "q": "Comment est évaluée la tierce personne (aide humaine) pour un blessé médullaire ?"
+   },
+   {
+    "q": "Comment est évaluée l’indemnisation d’une victime tétraplégique ?"
+   },
+   {
+    "q": "Comment obtenir de l’aide financière et l’indemnisation nécessaire pour subvenir à ses besoins ?"
+   },
+   {
+    "q": "Définition : qu’est-ce que la tétraplégie ?"
+   },
+   {
+    "q": "Elle n’a eu d’autres choix que de saisir le cabinet Benezra qui a pu lui obtenir une provision de 167.600 euros – prendre connaissance de l’affaire ?"
+   },
+   {
+    "q": "Faut-il attendre la consolidation pour agir ?"
+   },
+   {
+    "q": "Indemnisation : quels postes Dintilhac ?"
+   },
+   {
+    "q": "L'aide humaine peut-elle être remplacée par de la technologie ?"
+   },
+   {
+    "q": "L'assureur me propose une rente plutôt qu'un capital : que faire ?"
+   },
+   {
+    "q": "Les indemnisations sont-elles imposables ?"
+   },
+   {
+    "q": "Les proches de la victime ont-ils des droits à l’indemnisation ?"
+   },
+   {
+    "q": "Mon état peut-il s'aggraver après la consolidation ?"
+   },
+   {
+    "q": "Peut-on négocier à l'amiable une indemnisation pour tétraplégie ou paraplégie ?"
+   },
+   {
+    "q": "Peut-on obtenir une provision avant la fin de la procédure ?"
+   },
+   {
+    "q": "Pourquoi Choisir Me Marteau-Péretié pour Votre Indemnisation ?"
+   },
+   {
+    "q": "Pourquoi cette situation se distingue-t-elle de la paraplégie ?"
+   },
+   {
+    "q": "Pourquoi faut-il refuser la négociation amiable dans les cas de handicap grave ?"
+   },
+   {
+    "q": "Pourquoi faut-il être accompagné d’un avocat avant l’expertise médicale ?"
+   },
+   {
+    "q": "Puis-je être indemnisé même si j'ai déjà accepté une première offre ?"
+   },
+   {
+    "q": "Qu'est-ce que la consolidation et pourquoi est-ce important ?"
+   },
+   {
+    "q": "Que se passe-t-il si l'assureur propose une expertise ?"
+   },
+   {
+    "q": "Quel est le montant moyen d’indemnisation pour une tetraplegie ?"
+   },
+   {
+    "q": "Quel montant pour l’indemnisation d’une victime paraplégique ou tétraplégique ?"
+   },
+   {
+    "q": "Quel rôle joue l’assureur dans l’indemnisation ?"
+   },
+   {
+    "q": "Quelle est la différence entre tétraplégie complète et incomplète ?"
+   },
+   {
+    "q": "Quelle est la place de la famille dans l’indemnisation ?"
+   },
+   {
+    "q": "Quelle loi s’applique à l’indemnisation d’une victime tétraplégique après un accident de la route ?"
+   },
+   {
+    "q": "Quelles sont les séquelles permanentes que vous conserverez suite à l'accident ?"
+   },
+   {
+    "q": "Quels préjudices peuvent être indemnisés après une tétraplégie, paraplégie ou hémiplégie ?"
+   },
+   {
+    "q": "Quels sont les principaux postes de préjudice indemnisables ?"
+   },
+   {
+    "q": "Qui paie l'indemnisation en cas de tétraplégie ?"
+   },
+   {
+    "q": "Qui peut demander une indemnisation en cas de tétraplégie ?"
+   },
+   {
+    "q": "Qui évalue le montant de l’indemnisation d’une victime tétraplégique ?"
+   },
+   {
+    "q": "Qu’est-ce que la tétraplégie ?"
+   },
+   {
+    "q": "Qu’est-ce qu’une tétraplégie après un accident ?"
+   },
+   {
+    "q": "Tétraplégie après un accident de la route : comment obtenir une indemnisation complète ?"
+   },
+   {
+    "q": "Tétraplégie, paraplégie, hémiplégie : quelles différences concrètes pour la victime ?"
+   },
+   {
+    "q": "Une victime tétraplégique peut-elle obtenir une nouvelle indemnisation en cas d’aggravation ?"
+   },
+   {
+    "q": "Victime de tétraplégie ?"
+   },
+   {
+    "q": "Victime d’un accident qui vous a rendu paraplégique ou tétraplégique ?"
+   },
+   {
+    "q": "Victime tétraplégique, paraplégique ou hémiplégique après un accident : comment défendre vos droits à l’expertise et être indemnisé ?"
+   },
+   {
+    "q": "Victime tétraplégique, paraplégique ou hémiplégique, évaluation des préjudices, indemnisation & expertise judiciare - Se défendre ?"
+   },
+   {
+    "q": "Vous avez été victime d’un accident de la circulation, d’un accident de la vie, d’une chute ou d’une agression qui a provoqué des dommages corporels lourds notamment en affectant votre moelle épinière ?"
+   },
+   {
+    "q": "se déroule l’expertise médicale pour une victime paraplégique ou tétraplégique ?"
+   },
+   {
+    "q": "À combien peut s’élever l’indemnisation d’une victime tétraplégique ou paraplégique ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.yanous.com/pratique/droits/droits240920.html",
+   "title": "Indemnisation record de 18,5M€ pour une victime d'accident de la route - Yanous ! Le magazine francophone du handicap",
+   "desc": "Accompagné jusqu'à sa majorité, un enfant devenu tétraplégique a bénéficié pendant une longue procédure des moyens nécessaires à sa réhabilitation : récit.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation record de 18,5M€ pour une victime d’accident de la route"
+    ],
+    [
+     "h2",
+     "Dans la rubrique Vos droits"
+    ],
+    [
+     "h2",
+     "Suivez Yanous !"
+    ],
+    [
+     "h2",
+     "Vous aimez nous lire ?"
+    ]
+   ],
+   "content_score": 42,
+   "readability": 33,
+   "word_count": 1360,
+   "content_len": 8715
+  },
+  {
+   "rank": 2,
+   "url": "https://jmp-avocat-indemnisation.fr/indemnisation-tetraplegie-avocat-dommage-corporel",
+   "title": "Tétraplégie : Indemnisation et Accompagnement Juridique | Me Marteau-Péretié",
+   "desc": "Victime de tétraplégie ? Obtenez l'indemnisation maximale avec Me Marteau-Péretié, avocate spécialisée en dommage corporel. Expertise reconnue, accompagnement personnalisé.",
+   "headers": [
+    [
+     "h1",
+     "Tétraplégie et Indemnisation : Obtenez la Réparation Intégrale que Vous Méritez"
+    ],
+    [
+     "h2",
+     "Comprendre la Tétraplégie : Un Handicap aux Conséquences Multiples"
+    ],
+    [
+     "h2",
+     "Les Préjudices Indemnisables : Une Évaluation Méticuleuse"
+    ],
+    [
+     "h2",
+     "Pourquoi Choisir Me Marteau-Péretié pour Votre Indemnisation ?"
+    ],
+    [
+     "h2",
+     "Les Étapes de Votre Indemnisation"
+    ],
+    [
+     "h2",
+     "Les Délais à Connaître"
+    ],
+    [
+     "h2",
+     "Les Montants d'Indemnisation"
+    ],
+    [
+     "h2",
+     "Vos Droits, Notre Combat"
+    ],
+    [
+     "h2",
+     "FAQ - Tétraplégie et Indemnisation"
+    ],
+    [
+     "h2",
+     "Bibliographie et Sources"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 28,
+   "word_count": 2398,
+   "content_len": 17949
+  },
+  {
+   "rank": 3,
+   "url": "https://www.benezra.fr/avocat-tetraplegie-indemnisation.html",
+   "title": "Tétraplégie après un accident de la route : comment être indemnisé",
+   "desc": "Après un accident de la route, une tétraplégie engage immédiatement un enjeu indemnitaire majeur : le rapport de l'expertise médicale",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "2° Qu’est-ce que la tétraplégie après un accident de la route ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "6° Comment la nomenclature Dintilhac structure l’indemnisation d’une tétraplégie ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Notre méthode pour défendre les victimes tétraplégiques"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 24,
+   "word_count": 2276,
+   "content_len": 15283
+  },
+  {
+   "rank": 4,
+   "url": "https://www.tcn-avocats.com/indemnisation-paraplegique-tetraplegique/",
+   "title": "Indemnisation paraplégique tétraplégique – TCN Avocats",
+   "desc": "Victime d’un accident qui vous a rendu paraplégique ou tétraplégique ? Ce bouleversement doit déboucher sur une juste indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation paraplégique tétraplégique"
+    ],
+    [
+     "h2",
+     "Être paraplégique ou tétraplégique"
+    ],
+    [
+     "h2",
+     "Indemnisation des victimes paraplégiques ou tétraplégiques"
+    ],
+    [
+     "h2",
+     "Faire appel à un avocat expert en paraplégie et tétraplégie"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 32,
+   "word_count": 1388,
+   "content_len": 9133
+  },
+  {
+   "rank": 5,
+   "url": "https://avocat-baron.fr/indemnisation-tetraplegie/",
+   "title": "Indemnisation tétraplégie, guide complet 2026 | Avocat Baron",
+   "desc": "Tétraplégie après accident, aide humaine 24h/24, logement adapté, DFP 85-95%, véhicule TPMR. Avocat spécialisé grand handicap à Toulouse. Consultation gratuite.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation tétraplégie, guide complet 2026"
+    ],
+    [
+     "h2",
+     "Tetraplegie : les montants reels d’indemnisation et vos droits en 2026"
+    ],
+    [
+     "h2",
+     "Tetraplegie : ce que ca signifie pour votre indemnisation"
+    ],
+    [
+     "h2",
+     "Combien pouvez-vous obtenir ? Les montants poste par poste"
+    ],
+    [
+     "h2",
+     "L’aide humaine : le poste qui change tout"
+    ],
+    [
+     "h2",
+     "Logement, vehicule, equipements : les postes concrets"
+    ],
+    [
+     "h2",
+     "Les voies d’indemnisation selon la cause"
+    ],
+    [
+     "h2",
+     "Les 4 erreurs qui coutent des millions aux victimes de tetraplegie"
+    ],
+    [
+     "h2",
+     "Comment se deroule la procedure"
+    ],
+    [
+     "h2",
+     "Capital ou rente : quel choix pour une tetraplegie ?"
+    ],
+    [
+     "h2",
+     "Pourquoi me confier votre dossier"
+    ],
+    [
+     "h2",
+     "Questions frequentes"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 23,
+   "word_count": 3005,
+   "content_len": 19481
+  },
+  {
+   "rank": 6,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/cellule-grand-handicap-aivf/paralysie-des-4-membres",
+   "title": "Paralysie des 4 membres - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France soutient les personnes atteintes de paralysie des 4 membres dans leurs démarches légales.",
+   "headers": [
+    [
+     "h1",
+     "Paralysie des 4 membres"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Paralysie des 4 membres (tétraplégie) & indemnisation"
+    ],
+    [
+     "h2",
+     "Paralysie des 4 Membres : Causes, Conséquences et Indemnisation"
+    ]
+   ],
+   "content_score": 33,
+   "readability": 31,
+   "word_count": 2205,
+   "content_len": 14816
+  },
+  {
+   "rank": 7,
+   "url": "https://www.favarel-eychenne-avocat.fr/grand-handicap-tetraplegie",
+   "title": "Indemnisation des victimes blessés médullaires l Avocat",
+   "desc": "indemnisation Grand handicap : Paraplégie et Tétraplégie",
+   "headers": [
+    [
+     "h2",
+     "Grand handicap - Tétraplégie"
+    ],
+    [
+     "h1",
+     "L'indemnisation des victimes tétraplégiques"
+    ],
+    [
+     "h2",
+     "Accompagnement et reconstruction après une tétraplégie"
+    ],
+    [
+     "h2",
+     "Demandez votre premier rendez-vous gratuit"
+    ],
+    [
+     "h2",
+     "Pour aller plus loin ?"
+    ]
+   ],
+   "content_score": 39,
+   "readability": 26,
+   "word_count": 681,
+   "content_len": 4655
+  },
+  {
+   "rank": 8,
+   "url": "https://www.indemnisationprejudice.fr/sequelles-et-indemnites-blessures-accident/paraplegie-et-tetraplegie-indemnisation-vitale-pour-un-nouvel-avenir/",
+   "title": "Indemnisation des polytraumatisés (Paraplégie et Tétraplégie) suite à un accident grave",
+   "desc": "Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés. Avances sur vos premiers frais. - Paraplégie et tétraplégie, une indemnisation vitale",
+   "headers": [
+    [
+     "h1",
+     "Paraplégie et tétraplégie, une indemnisation vitale"
+    ],
+    [
+     "h2",
+     "Paraplégie et tétraplégie : indemnisation vitale pour un nouvel avenir"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Ne restez pas seul dans vos démarches à la suite accident grave …"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 28,
+   "word_count": 872,
+   "content_len": 5539
+  },
+  {
+   "rank": 9,
+   "url": "https://association-aivf-faq.fr/grand-handicap/tetraplegie/indemnisation-victime-tetraplegique",
+   "title": "Indemnisation victime tétraplégique - Association Victimes de France AIVF",
+   "desc": "L'indemnisation d'une victime tétraplégique suite à un accident de la route ou accident de la vie, dispositif de grand handicap",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation victime tétraplégique"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Indemnisation victime tétraplégique"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation d’une victime tétraplégique"
+    ],
+    [
+     "h2",
+     "Question 3 Indemnisation suite à une agression avec risque de tétraplégie"
+    ]
+   ],
+   "content_score": 58,
+   "readability": 39,
+   "word_count": 1969,
+   "content_len": 12787
+  },
+  {
+   "rank": 10,
+   "url": "https://www.benezra-victimesdelaroute.fr/1-la-victime-dun-accident-de-la-route-devenue-tetraplegique-paraplegique-ou-hemiplegique-face-aux-experts/",
+   "title": "🔵 Indemnisation de la victime tétraplégique, paraplégique et hémiplégique",
+   "desc": "Victime tétraplégique, paraplégique ou hémiplégique, évaluation des préjudices, indemnisation & expertise judiciare - Se défendre ? AVOCATS",
+   "headers": [
+    [
+     "h1",
+     "Victime tétraplégique, paraplégique ou hémiplégique après un accident : comment défendre vos droits à l’expertise et être indemnisé ?"
+    ],
+    [
+     "h2",
+     "1° Tétraplégie, paraplégie, hémiplégie : quelles différences concrètes pour la victime ?"
+    ],
+    [
+     "h2",
+     "2° Pourquoi faut-il refuser la négociation amiable dans les cas de handicap grave ?"
+    ],
+    [
+     "h2",
+     "3° Comment la mission de l’expert judiciaire est-elle rédigée et pourquoi est-ce décisif ?"
+    ],
+    [
+     "h2",
+     "4° Comment se déroule l’expertise médicale pour une victime paraplégique ou tétraplégique ?"
+    ],
+    [
+     "h2",
+     "5° Comment est évaluée la tierce personne (aide humaine) pour un blessé médullaire ?"
+    ],
+    [
+     "h2",
+     "6° Quels préjudices peuvent être indemnisés après une tétraplégie, paraplégie ou hémiplégie ?"
+    ],
+    [
+     "h2",
+     "7° Les proches de la victime ont-ils des droits à l’indemnisation ?"
+    ],
+    [
+     "h2",
+     "8° À combien peut s’élever l’indemnisation d’une victime tétraplégique ou paraplégique ?"
+    ],
+    [
+     "h2",
+     "9° FAQ ?"
+    ],
+    [
+     "h2",
+     "Pas encore convaincu par notre cabinet ?"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 33,
+   "word_count": 2335,
+   "content_len": 15615
+  },
+  {
+   "rank": 11,
+   "url": "https://www.avocat-nicolau.fr/actualites/paraplegie-tetraplegie-un-bouleversement-total-une-indemnisation-essentielle/",
+   "title": "Paraplégie, tétraplégie : indemnisation et accompagnement par avocat - Nicolau avocats - Grenoble",
+   "desc": "Victime de paraplégie ou tétraplégie ? Obtenez une indemnisation complète avec l’accompagnement d’un avocat en dommage corporel.",
+   "headers": [
+    [
+     "h1",
+     "Paraplégie, tétraplégie :  Un bouleversement total, une indemnisation essentielle"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 29,
+   "word_count": 1510,
+   "content_len": 10330
+  },
+  {
+   "rank": 12,
+   "url": "https://www.meimonnisenbaum.com/fr/nos-proces/theme-23-paraplegie-tetraplegie",
+   "title": "Paraplégie Tétraplégie | Meimon Nisenbaum avocats",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Paraplégie Tétraplégie"
+    ]
+   ],
+   "content_score": 21,
+   "readability": 28,
+   "word_count": 779,
+   "content_len": 4967
+  },
+  {
+   "rank": 13,
+   "url": "https://www.sdraccidents.fr/post/indemnisation-parapl%C3%A9gique---t%C3%A9trapl%C3%A9gique",
+   "title": "Indemnisation Paraplégique / Tétraplégique",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "SDR Accidents"
+    ],
+    [
+     "h1",
+     "Indemnisation Paraplégique / Tétraplégique"
+    ]
+   ],
+   "content_score": 36,
+   "readability": 24,
+   "word_count": 608,
+   "content_len": 4158
+  },
+  {
+   "rank": 14,
+   "url": "https://www.nathanhazzan-avocat.fr/quelle-indemnisation-paraplegie-apres-un-accident-grave/",
+   "title": "Paraplégie : quelle indemnisation après un accident grave ? - HAZZAN Nathan Avocat indemnisation préjudice corporel",
+   "desc": "Paraplégie après un accident : découvrez comment est calculée votre indemnisation (DFP, aide humaine, logement adapté, préjudice sexuel…) et quels montants peuvent être obtenus. Analyse complète par avocat spécialisé.",
+   "headers": [
+    [
+     "h1",
+     "Paraplégie : quelle indemnisation après un accident grave ?"
+    ],
+    [
+     "h2",
+     "Une atteinte neurologique aux conséquences majeures"
+    ],
+    [
+     "h2",
+     "Les principaux postes de préjudice en cas de paraplégie"
+    ],
+    [
+     "h2",
+     "L’aide humaine : un poste central en cas de paraplégie"
+    ],
+    [
+     "h2",
+     "Le logement adapté : un enjeu majeur"
+    ],
+    [
+     "h2",
+     "Quel montant d’indemnisation pour une paraplégie ?"
+    ],
+    [
+     "h2",
+     "Une procédure nécessitant une approche structurée"
+    ],
+    [
+     "h2",
+     "Une approche globale du handicap lourd"
+    ]
+   ],
+   "content_score": 45,
+   "readability": 49,
+   "word_count": 691,
+   "content_len": 4991
+  },
+  {
+   "rank": 15,
+   "url": "https://www.preziosi-handicap.org/fr/actualites-a-la-une/id-193-indemnisation-d-une-victime-tetraplegique-par-un-avocat-specialise-dans-le-dommage-corporel",
+   "title": "Indemnisation d'une victime tétraplégique par un avocat spécialisé dans le dommage corporel",
+   "desc": " D&eacute;couvrez les actualit&eacute; &agrave; la une du Cabinet Preziosi-Ceccaldi-Albenois. Retrouvez des actualit&eacute;s &agrave; la une dans les domaines du droit des victimes et du handicap. Explorez dans les actualit&eacute;s &agrave; la une en droit social et p&eacute;nal du handicap. ",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d'une victime tétraplégique par un avocat spécialisé dans le dommage corporel"
+    ],
+    [
+     "h2",
+     "Indemnisation d'une victime tétraplégique"
+    ],
+    [
+     "h2",
+     "Obtenir une indemnisation pour les dommages corporels d'une victime tétraplégique avec un avocat spécialisé en indemnisation des dommages corporels"
+    ]
+   ],
+   "content_score": 33,
+   "readability": 35,
+   "word_count": 576,
+   "content_len": 3885
+  },
+  {
+   "rank": 16,
+   "url": "https://www.avocat-chambolle.com/indemnisation-victime-tetraplegique/",
+   "title": "Indemnisation préjudices d’une victime devenue tétraplégique",
+   "desc": "Le Cabinet a obtenu l’indemnisation intégrale des préjudices d’une victime devenue tétraplégique à la suite d’un accident de la circulation.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation intégrale des préjudices d’une victime devenue tétraplégique"
+    ]
+   ],
+   "content_score": 31,
+   "readability": 19,
+   "word_count": 1069,
+   "content_len": 6983
+  },
+  {
+   "rank": 17,
+   "url": "https://www.jplouton-avocat.fr/post/accident-de-la-circulation-indemnisation-%C3%A0-hauteur-de-2-millions-d-euros-pour-une-victime-t%C3%A9trapl%C3%A9g",
+   "title": "Tétraplégie après accident de la route : 2 M€ d'indemnisation obtenus au TGI de Nanterre (2015)",
+   "desc": "Victime d’un accident de la route, un homme tétraplégique a obtenu plus de 2 millions d’euros grâce à l’action du Cabinet Plouton. Retour sur cette affaire exemplaire en matière d’indemnisation des préjudices.",
+   "headers": [
+    [
+     "h1",
+     "Tétraplégie après accident de la route : 2 M€ d'indemnisation obtenus au TGI de Nanterre (2015)"
+    ],
+    [
+     "h2",
+     "Le contexte : un drame de la circulation"
+    ],
+    [
+     "h2",
+     "L’intervention du cabinet Plouton"
+    ],
+    [
+     "h2",
+     "Un combat judiciaire prolongé et un résultat probant"
+    ]
+   ],
+   "content_score": 34,
+   "readability": 52,
+   "word_count": 548,
+   "content_len": 3268
+  },
+  {
+   "rank": 18,
+   "url": "https://association-aivf-faq.fr/grand-handicap/tetraplegie/indemnisation-dune-tetraparesie",
+   "title": "Indemnisation tétraparésie - Association Victimes de France AIVF",
+   "desc": "L'indemnisation d'une tétraparésie suite à un accident corporel, accident de la vie, de la route ou accident médical",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d’une tétraparésie"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation d’une tétraparésie"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 42,
+   "word_count": 1072,
+   "content_len": 7061
+  },
+  {
+   "rank": 19,
+   "url": "https://www.vjp-avocat.com/fr/actualites/id-85-indemnsiation-accident-paraplegie",
+   "title": "Paraplégique suite à un accident - Comment se faire indemniser ?",
+   "desc": "Chaque année, plusieurs milliers de personnes sont victimes d'accidents de la circulation à l'origine d'importantes blessures et handicap. Parmi elle la paraplégie. La juste indemnisation d'une victime paraplégique ne doit rien au hasard. Le recours à un avocat spécialiste en droit de dommage corporel et dans la quasi-totalité des cas un prérequis indispensable.",
+   "headers": [
+    [
+     "h1",
+     "Quelle indemnisation en cas de paraplégie suite à un accident ?"
+    ],
+    [
+     "h2",
+     "Indemnisation paraplégie accident de la route et loi Badinter"
+    ],
+    [
+     "h2",
+     "Qu’est que la paraplégie suite à un accident ?"
+    ],
+    [
+     "h2",
+     "Conséquences de la paraplégie pour la victime"
+    ],
+    [
+     "h2",
+     "Quels sont les préjudices de la victimes paraplégiques ?"
+    ],
+    [
+     "h2",
+     "Comment sont évalués les préjudices de la paraplégie ?"
+    ],
+    [
+     "h2",
+     "Montant de l’indemnisation en cas de paraplégie"
+    ],
+    [
+     "h2",
+     "Procédure d’indemnisation en cas de paraplégie"
+    ],
+    [
+     "h2",
+     "Que faire en cas d’aggravation de l’état de la vie paraplégique ?"
+    ],
+    [
+     "h2",
+     "Avocat spécialisé en indemnisation de paraplégie suite à un accident"
+    ]
+   ],
+   "content_score": 38,
+   "readability": 24,
+   "word_count": 2541,
+   "content_len": 16670
+  },
+  {
+   "rank": 20,
+   "url": "https://www.medecin-dommage-corporel.expert/indemnisation-de-la-victime-tetraplegique/",
+   "title": "Indemnisation du préjudice d'une victime tétraplégique",
+   "desc": "Une victime tétraplégique doit être indemnisée de son risque futur de préjudice d'établissement car il recouvre, en cas de séparation ou de dissolution d'une précédente union, la perte de chance pour la victime handicapée de réaliser un nouveau projet de vie familiale",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation de la victime tétraplégique"
+    ],
+    [
+     "h1",
+     "QUELLE INDEMNISATION DU PREJUDICE D’ÉTABLISSEMENT DU BLESSÉ TÉTRAPLÉGIQUE?"
+    ],
+    [
+     "h2",
+     "Qu’en est il pour une victime tétraplégique ayant fondé une famille avant l’accident ?"
+    ]
+   ],
+   "content_score": 28,
+   "readability": 25,
+   "word_count": 293,
+   "content_len": 1884
+  },
+  {
+   "rank": 21,
+   "url": "https://www.expertises-medicales.net/indemnisation-de-la-victime-tetraplegique/",
+   "title": "Indemnisation de la victime tétraplégique et Expertise Médicale",
+   "desc": "Expertise Médicale et Indemnisation de la victime tétraplégique : Malheureusement parfois un accident se termine par un ...",
+   "headers": [
+    [
+     "h1",
+     "Expertise Médicale et Indemnisation de la victime tétraplégique"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que la tétraplégie après un accident ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les différentes catégories de la tétraplégie ?"
+    ],
+    [
+     "h2",
+     "Quels sont les droits de la victime tétraplégique ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les conditions d'indemnisation de la victime tétraplégique ?"
+    ],
+    [
+     "h2",
+     "Procédure d'indemnisation de la victime tétraplégique"
+    ],
+    [
+     "h2",
+     "Quel dédommagement pour les victimes de tétraplégie ?"
+    ],
+    [
+     "h2",
+     "Comment évaluer les préjudices d’un tétraplégique?"
+    ],
+    [
+     "h2",
+     "Expertise médicale en vue de l’évaluation des séquelles d’un blessé tétraplégique"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 26,
+   "word_count": 2001,
+   "content_len": 13173
+  },
+  {
+   "rank": 22,
+   "url": "https://www.youtube.com/watch?v=5CduvH0oojU",
+   "title": "Tétraplégiques : ils ne peuvent plus rien faire seuls - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Tétraplégiques : ils ne peuvent plus rien faire seuls"
+    ],
+    [
+     "h2",
+     "Musique\n      1 titre"
+    ],
+    [
+     "h1",
+     "Twinkle"
+    ],
+    [
+     "h1",
+     "Tétraplégiques : ils ne peuvent plus rien faire seuls"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      10"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Musique\n      1 titre"
+    ],
+    [
+     "h1",
+     "Twinkle"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 2,
+   "readability": 65,
+   "word_count": 175,
+   "content_len": 1025
+  },
+  {
+   "rank": 23,
+   "url": "https://www.yanous.com/pratique/droits/droits221216.html",
+   "title": "Une tétraplégie parfaitement indemnisée à près de 12 millions d'euros ! - Yanous ! Le magazine francophone du handicap",
+   "desc": "Au terme d'une procédure rapide, une jeune femme obtient les moyens de reconstruire sa vie : récit.",
+   "headers": [
+    [
+     "h1",
+     "Une tétraplégie parfaitement indemnisée à près de 12 millions d’euros !"
+    ],
+    [
+     "h2",
+     "Dans la rubrique Vos droits"
+    ],
+    [
+     "h2",
+     "Suivez Yanous !"
+    ],
+    [
+     "h2",
+     "Vous aimez nous lire ?"
+    ]
+   ],
+   "content_score": 19,
+   "readability": 25,
+   "word_count": 986,
+   "content_len": 6317
+  },
+  {
+   "rank": 24,
+   "url": "https://aide-victimes.fr/accident-route/indemnisation-tetraplegie-paraplegie/",
+   "title": "Indemnisation tétraplégie paraplégie – AFAV",
+   "desc": "L'indemnisation d'une tétraplégie ou paraplégie suite à un accident corporel, grand handicap, expertise médicale et avocat",
+   "headers": [
+    [
+     "h1",
+     "L’indemnisation en cas de tétraplégie ou de paraplégie"
+    ],
+    [
+     "h2",
+     "Indemnisation de victime de paraplégie, tétraplégie"
+    ],
+    [
+     "h2",
+     "L’indemnisation des postes de préjudices"
+    ],
+    [
+     "h2",
+     "Indemnisation préjudices tétraplégie, paraplégie"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 42,
+   "word_count": 896,
+   "content_len": 5913
+  },
+  {
+   "rank": 25,
+   "url": "https://www.village-justice.com/articles/expertise-victime-tetraplegique-paraplegique-hemiplegique-accident-route,30886.html",
+   "title": "L’expertise de la victime tétraplégique, paraplégique ou hémiplégique d’un accident de la route. Par Michel Benezra, Avocat.",
+   "desc": "Certaines start-up de type Mobileye, promettent un avenir meilleurs en visant le zéro accident, néanmoins, de tels projets commencent simplement à voir le (...)",
+   "headers": [
+    [
+     "h1",
+     "L’expertise de la victime tétraplégique, paraplégique ou hémiplégique d’un accident de la route."
+    ],
+    [
+     "h2",
+     "Interagir avec l'auteur !"
+    ]
+   ],
+   "content_score": 26,
+   "readability": 21,
+   "word_count": 3067,
+   "content_len": 19826
+  },
+  {
+   "rank": 26,
+   "url": "https://www.expertises-medicales.net/indemnisation-de-la-victime-quadriplegique/",
+   "title": "Indemnisation de la victime quadriplégique et expertise médicale",
+   "desc": "Lorsqu'on parle d'indemnisation de la victime quadriplégique, il convient de tenir compte de plusieurs facteurs, tels que le degré de...",
+   "headers": [
+    [
+     "h1",
+     "Expertise médicale et indemnisation de la victime quadriplégique"
+    ],
+    [
+     "h2",
+     "Quadriplégie : définition et caractéristique"
+    ],
+    [
+     "h2",
+     "Quelles sont les différences entre quadriplégie, tétraplégie et paraplégie?"
+    ],
+    [
+     "h2",
+     "Quels sont les droits de la victime quadriplégique?"
+    ],
+    [
+     "h2",
+     "Comment évaluer les séquelles d’une victime quadriplégique?"
+    ],
+    [
+     "h2",
+     "Quelles sont les conditions d'indemnisation de la victime quadriplégique ?"
+    ],
+    [
+     "h2",
+     "Quel dédommagement pour les victimes de quadriplégie ?"
+    ],
+    [
+     "h2",
+     "Déroulement de l’expertise médicale et procédure d'indemnisation de la victime quadriplégique avec le Dr Didier Dubois"
+    ]
+   ],
+   "content_score": 35,
+   "readability": 31,
+   "word_count": 1776,
+   "content_len": 11624
+  },
+  {
+   "rank": 27,
+   "url": "https://www.jplouton-avocat.fr/post/accident-de-la-circulation-victime-t%C3%A9trapl%C3%A9gique-indemnisation-%C3%A0-hauteur-de-2-millions-d-euros",
+   "title": "Accident de la circulation/victime tétraplégique: indemnisation supérieure 2 millions d'euros",
+   "desc": "Victime d'un accident de la route, un homme tétraplégique a obtenu plus de 2 millions d'euros d'indemnisation grâce au cabinet Plouton. Retour sur un jugement majeur du TGI de Nanterre.",
+   "headers": [
+    [
+     "h1",
+     "Accident de la circulation/victime tétraplégique: indemnisation supérieure 2 millions d'euros"
+    ],
+    [
+     "h2",
+     "Contexte : un accident lourd de conséquences"
+    ],
+    [
+     "h2",
+     "L’intervention du cabinet : une stratégie judiciaire rigoureuse"
+    ],
+    [
+     "h2",
+     "Le jugement : une réparation à la hauteur des préjudices"
+    ]
+   ],
+   "content_score": 33,
+   "readability": 59,
+   "word_count": 458,
+   "content_len": 2835
+  },
+  {
+   "rank": 28,
+   "url": "https://www.preziosi-handicap.org/fr/actualites/indemnisation-videos/id-15-dangers-de-l-indemnisation",
+   "title": "Dangers de l'indémnisation",
+   "desc": " Vid&eacute;os juridiques de l' indemnisation  du dommage corporel des victimes. Les chroniques juridiques r&eacute;alis&eacute;es par le cabinet d' avocats  Preziosi-Ceccaldi-Albenois. ",
+   "headers": [
+    [
+     "h1",
+     "Dangers de l'indémnisation"
+    ]
+   ],
+   "content_score": 2,
+   "readability": 51,
+   "word_count": 138,
+   "content_len": 883
+  },
+  {
+   "rank": 29,
+   "url": "https://association-aivf-faq.fr/grand-handicap/tetraplegie/tetraplegie-causes",
+   "title": "Tétraplégie causes - Association Victimes de France AIVF",
+   "desc": "Tétraplégie causes, accident de la route, accident de la vie, médical, indemnisation du préjudice, séquelles, grand handicap",
+   "headers": [
+    [
+     "h1",
+     "Tétraplégie causes"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant la tétraplégie, causes, séquelles et indemnisation du préjudice"
+    ]
+   ],
+   "content_score": 31,
+   "readability": 46,
+   "word_count": 985,
+   "content_len": 6517
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 2087,
+   "target": 2087
+  },
+  "readability": {
+   "median": 30,
+   "target": 30
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 80
+   },
+   {
+    "t": "tétraplégie",
+    "usage_pc": 40
+   },
+   {
+    "t": "accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "tétraplégique",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "tétraplégie",
+    "usage_pc": 50
+   },
+   {
+    "t": "accident",
+    "usage_pc": 50
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 40
+   },
+   {
+    "t": "tétraplégique",
+    "usage_pc": 40
+   },
+   {
+    "t": "grand handicap",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 20
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 20
+   },
+   {
+    "t": "paraplégie",
+    "usage_pc": 20
+   },
+   {
+    "t": "évaluation",
+    "usage_pc": 20
+   },
+   {
+    "t": "paraplégie et tétraplégie",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 70
+   },
+   {
+    "t": "tétraplégie",
+    "usage_pc": 30
+   },
+   {
+    "t": "tétraplégique",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 10
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 10
+   },
+   {
+    "t": "paralysie",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "paraplégie",
+    "usage_pc": 10
+   },
+   {
+    "t": "réparation intégrale",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 10
+   },
+   {
+    "t": "paraplégie et tétraplégie",
+    "usage_pc": 10
+   },
+   {
+    "t": "paralysie des 4 membres",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 80
+   },
+   {
+    "t": "tétraplégie",
+    "usage_pc": 80
+   },
+   {
+    "t": "tétraplégique",
+    "usage_pc": 30
+   },
+   {
+    "t": "paraplégie",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "aide humaine",
+    "usage_pc": 20
+   },
+   {
+    "t": "paraplégie et tétraplégie",
+    "usage_pc": 20
+   },
+   {
+    "t": "paraplégique ou tétraplégique",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 10
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 10
+   },
+   {
+    "t": "paralysie",
+    "usage_pc": 10
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "tierce personne",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "évaluer",
+    "usage_pc": 10
+   },
+   {
+    "t": "un avocat",
+    "usage_pc": 10
+   },
+   {
+    "t": "évaluation",
+    "usage_pc": 10
+   },
+   {
+    "t": "médullaire",
+    "usage_pc": 10
+   },
+   {
+    "t": "amiable",
+    "usage_pc": 10
+   },
+   {
+    "t": "nomenclature dintilhac",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 10
+   },
+   {
+    "t": "grand handicap",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 10
+   },
+   {
+    "t": "paralysie des 4 membres",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident grave",
+    "usage_pc": 10
+   },
+   {
+    "t": "poste par poste",
+    "usage_pc": 10
+   },
+   {
+    "t": "victime paraplégique ou tétraplégique",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     9,
+     18
+    ]
+   },
+   {
+    "t": "tétraplégie",
+    "usage_pc": 100,
+    "sugg_usage": [
+     4,
+     10
+    ]
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     5
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 100,
+    "sugg_usage": [
+     9,
+     16
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 90,
+    "sugg_usage": [
+     5,
+     23
+    ]
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     11
+    ]
+   },
+   {
+    "t": "tétraplégique",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     7
+    ]
+   },
+   {
+    "t": "paralysie",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "moelle épinière",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "aide humaine",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "assistance",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "tierce personne",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "paraplégie",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "évaluer",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "médecin expert",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "aménagement",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "provision",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "un avocat",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "droit du dommage corporel",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "consolidation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "évaluation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "paralysie des quatre membres",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "médullaire",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "fauteuil roulant",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "dfp",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "cervical",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "réparation intégrale",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "lésion de la moelle épinière",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "amiable",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "nomenclature dintilhac",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "perte de revenus",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "logement adapté",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déficit fonctionnel permanent",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte de gains professionnels",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "traumatisme",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "incidence professionnelle",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les assureurs",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "humaine permanente",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "grand handicap",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "tétraplégie complète",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "paraplégie et tétraplégie",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation juste",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "paralysie des 4 membres",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "paraplégique ou tétraplégique",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de la circulation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident grave",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "poste par poste",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "évaluation des préjudices",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assistance par tierce personne",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte de gains professionnels futurs",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident du travail",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "paralysie des membres",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation complémentaire",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "chaque poste de préjudice",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation d’une victime tétraplégique",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accidents de la route",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médecin conseil de victimes",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "santé de la victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation juste et complète",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tétraplégique après un accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les besoins de la victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "besoins réels de la victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "devenu tétraplégique",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "paralysie complète des quatre membres",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime paraplégique ou tétraplégique",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat en dommage corporel",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Tétraplégie",
+    "importance": 90.71800000000002,
+    "relevance": 0.90718,
+    "confidence": 7.416200000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tétraplégie"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 56.346,
+    "relevance": 0.56346,
+    "confidence": 9.156199999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Logement",
+    "importance": 37.848000000000006,
+    "relevance": 0.37848000000000004,
+    "confidence": 1.3928800000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Logement"
+     ]
+    ]
+   },
+   {
+    "t": "Paralysie",
+    "importance": 28.001280000000005,
+    "relevance": 0.43752,
+    "confidence": 4.1944,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Paralysie"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 21.74336,
+    "relevance": 0.33974,
+    "confidence": 3.3437999999999994,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Moelle spinale",
+    "importance": 20.73728,
+    "relevance": 0.32402,
+    "confidence": 19.814,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Moelle_spinale"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 16.695040000000002,
+    "relevance": 0.26086,
+    "confidence": 3.8507999999999996,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Paraplégie",
+    "importance": 13.414320000000002,
+    "relevance": 0.37262,
+    "confidence": 4.1533999999999995,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Paraplégie"
+     ]
+    ]
+   },
+   {
+    "t": "Santé",
+    "importance": 12.971520000000003,
+    "relevance": 0.20268000000000003,
+    "confidence": 1.464,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Santé"
+     ]
+    ]
+   },
+   {
+    "t": "Véhicule (transport physique)",
+    "importance": 11.701759999999998,
+    "relevance": 0.18284,
+    "confidence": 2.4532,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Véhicule_(transport_physique)"
+     ]
+    ]
+   },
+   {
+    "t": "Expertise médicale",
+    "importance": 10.772479999999998,
+    "relevance": 0.16832,
+    "confidence": 0.9842000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expertise_médicale"
+     ]
+    ]
+   },
+   {
+    "t": "Dintilhac",
+    "importance": 9.735552000000004,
+    "relevance": 0.15211800000000003,
+    "confidence": 0.4,
+    "links": []
+   },
+   {
+    "t": "Lésion (médecine)",
+    "importance": 8.627688000000001,
+    "relevance": 0.239658,
+    "confidence": 2.2874000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Lésion_(médecine)"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 4.66056,
+    "relevance": 0.12946,
+    "confidence": 1.4086,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Handicap",
+    "importance": 4.114871999999999,
+    "relevance": 0.11430199999999999,
+    "confidence": 5.0666,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Handicap"
+     ]
+    ]
+   },
+   {
+    "t": "Traumatisme médullaire",
+    "importance": 3.5961600000000007,
+    "relevance": 0.22476000000000002,
+    "confidence": 0.5854,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Traumatisme_médullaire"
+     ]
+    ]
+   },
+   {
+    "t": "Autonomie",
+    "importance": 3.5236799999999997,
+    "relevance": 0.09788,
+    "confidence": 2.1096,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Autonomie"
+     ]
+    ]
+   },
+   {
+    "t": "Ergothérapie",
+    "importance": 3.1236479999999998,
+    "relevance": 0.086768,
+    "confidence": 3.9143999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Ergothérapie"
+     ]
+    ]
+   },
+   {
+    "t": "Loi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation",
+    "importance": 2.49664,
+    "relevance": 0.15604,
+    "confidence": 2.181,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi_tendant_à_l'amélioration_de_la_situation_des_victimes_d'accidents_de_la_circulation_et_à_l'accélération_des_procédures_d'indemnisation"
+     ]
+    ]
+   },
+   {
+    "t": "Espérance de vie humaine",
+    "importance": 2.13216,
+    "relevance": 0.13326,
+    "confidence": 0.7894,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Espérance_de_vie_humaine"
+     ]
+    ]
+   },
+   {
+    "t": "Somme (département)",
+    "importance": 1.9606400000000002,
+    "relevance": 0.12254000000000001,
+    "confidence": 0.6519999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Somme_(département)"
+     ]
+    ]
+   },
+   {
+    "t": "Séquelle",
+    "importance": 1.552256,
+    "relevance": 0.097016,
+    "confidence": 0.6832,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Séquelle"
+     ]
+    ]
+   },
+   {
+    "t": "Kinésithérapie",
+    "importance": 1.364832,
+    "relevance": 0.037912,
+    "confidence": 4.7158,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Kinésithérapie"
+     ]
+    ]
+   },
+   {
+    "t": "Ventilation mécanique en médecine",
+    "importance": 1.35552,
+    "relevance": 0.08471999999999999,
+    "confidence": 0.7872,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Ventilation_mécanique_en_médecine"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 1.1536,
+    "relevance": 0.0721,
+    "confidence": 0.5564,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Dossier médical",
+    "importance": 1.124736,
+    "relevance": 0.070296,
+    "confidence": 0.8326,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dossier_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Architecte",
+    "importance": 1.09632,
+    "relevance": 0.06852,
+    "confidence": 0.9116,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Architecte"
+     ]
+    ]
+   },
+   {
+    "t": "France",
+    "importance": 1.0399999999999998,
+    "relevance": 0.06499999999999999,
+    "confidence": 2.0782,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/France"
+     ]
+    ]
+   },
+   {
+    "t": "Accident médical",
+    "importance": 0.8828799999999999,
+    "relevance": 0.05517999999999999,
+    "confidence": 0.41,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Cour de cassation (France)",
+    "importance": 0.8571839999999998,
+    "relevance": 0.053574,
+    "confidence": 2.5555999999999996,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cour_de_cassation_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Piéton",
+    "importance": 0.7869759999999998,
+    "relevance": 0.049186,
+    "confidence": 1.4034,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Piéton"
+     ]
+    ]
+   },
+   {
+    "t": "Jurisprudence",
+    "importance": 0.7305279999999998,
+    "relevance": 0.045658,
+    "confidence": 1.2886,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Jurisprudence"
+     ]
+    ]
+   },
+   {
+    "t": "Fauteuil roulant",
+    "importance": 0.717504,
+    "relevance": 0.044844,
+    "confidence": 2.6406,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fauteuil_roulant"
+     ]
+    ]
+   },
+   {
+    "t": "Ordre de grandeur",
+    "importance": 0.6212799999999999,
+    "relevance": 0.15531999999999999,
+    "confidence": 0.4314,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Ordre_de_grandeur"
+     ]
+    ]
+   },
+   {
+    "t": "Me Marteau-Péretié",
+    "importance": 0.59336,
+    "relevance": 0.14834,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Cabinet d'avocat",
+    "importance": 0.5804000000000001,
+    "relevance": 0.1451,
+    "confidence": 0.22999999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cabinet_d'avocat"
+     ]
+    ]
+   },
+   {
+    "t": "Droits de l'enfant",
+    "importance": 0.5179199999999999,
+    "relevance": 0.12947999999999998,
+    "confidence": 0.6195999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Droits_de_l'enfant"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "indemnisation\ntétraplégie\naccident\ntétraplégique\naccident de la route",
+  "desc_title": "indemnisation\ntétraplégie\naccident\nexpertise\ntétraplégique\ngrand handicap\naccident de la route\npréjudice\nexpertise médicale\nparaplégie\névaluation\nparaplégie et tétraplégie\nun accident de la route",
+  "h1": "indemnisation\ntétraplégie\ntétraplégique\naccident\naccident de la route\nexpertise\nparalysie\nindemniser\nparaplégie\nréparation intégrale\nindemnisation des victimes\nparaplégie et tétraplégie\nparalysie des 4 membres",
+  "h2": "indemnisation\ntétraplégie\ntétraplégique\nparaplégie\naccident\npréjudice\naide humaine\nparaplégie et tétraplégie\nparaplégique ou tétraplégique\naccident de la route\nexpertise\nparalysie\nexpertise médicale\ntierce personne\nindemniser\névaluer\nun avocat\névaluation\nmédullaire\namiable\nnomenclature dintilhac\nindemnisation des victimes\ngrand handicap\nun accident de la route\nparalysie des 4 membres\naccident grave\nposte par poste\nvictime paraplégique ou tétraplégique",
+  "content_basic": "indemnisation\ntétraplégie\naccident de la route\naccident\npréjudice\nexpertise\ntétraplégique\ndommage corporel\nparalysie\nmoelle épinière\naide humaine\nassistance\nexpertise médicale\ntierce personne\nassureur\nindemniser\nparaplégie\nposte de préjudice\névaluer\nmédecin expert\naménagement\nprovision\nun avocat\ndroit du dommage corporel\nconsolidation\npréjudice corporel\nobtenir une indemnisation\névaluation\nparalysie des quatre membres\nmédullaire\nfauteuil roulant\ndfp\ncervical\nréparation intégrale\nlésion de la moelle épinière\namiable\nnomenclature dintilhac\nperte de revenus\nlogement adapté\ndéficit fonctionnel permanent\nperte de gains professionnels\ntraumatisme\nun accident de la route\nincidence professionnelle\nles assureurs\nhumaine permanente",
+  "content_basic_w_ranges": "indemnisation: 9-18x\ntétraplégie: 4-10x\naccident de la route: 2-5x\naccident: 9-16x\npréjudice: 5-23x\nexpertise: 2-11x\ntétraplégique: 1-7x\ndommage corporel: 2-7x\nparalysie: 1-4x\nmoelle épinière: 1-3x\naide humaine: 1-3x\nassistance: 1-5x\nexpertise médicale: 1-2x\ntierce personne: 1-4x\nassureur: 1-7x\nindemniser: 1-3x\nparaplégie: 1-4x\nposte de préjudice: 1-2x\névaluer: 1-5x\nmédecin expert: 1-3x\naménagement: 1-4x\nprovision: 1-4x\nun avocat: 1-4x\ndroit du dommage corporel: 1-4x\nconsolidation: 1-4x\npréjudice corporel: 1-2x\nobtenir une indemnisation: 1-2x\névaluation: 1-4x\nparalysie des quatre membres: 1-2x\nmédullaire: 1-3x\nfauteuil roulant: 1-2x\ndfp: 1-2x\ncervical: 1-2x\nréparation intégrale: 1-2x\nlésion de la moelle épinière: 1x\namiable: 1-3x\nnomenclature dintilhac: 1-2x\nperte de revenus: 1-2x\nlogement adapté: 1x\ndéficit fonctionnel permanent: 1x\nperte de gains professionnels: 1-2x\ntraumatisme: 1-2x\nun accident de la route: 1-3x\nincidence professionnelle: 1x\nles assureurs: 1x\nhumaine permanente: 1x",
+  "content_extended": "indemnisation des victimes\ngrand handicap\ntétraplégie complète\nparaplégie et tétraplégie\nindemnisation juste\nparalysie des 4 membres\nparaplégique ou tétraplégique\naccident de la vie\navocat spécialisé\naccident de la circulation\naccident grave\nposte par poste\névaluation des préjudices\nassistance par tierce personne\nperte de gains professionnels futurs\naccident du travail\nparalysie des membres\nindemnisation complémentaire\nchaque poste de préjudice\ndroit à une indemnisation\nindemnisation d’une victime tétraplégique\nvictimes d’accidents de la route\nmédecin conseil de victimes\nsanté de la victime\nindemnisation juste et complète\ntétraplégique après un accident\nles besoins de la victime\nbesoins réels de la victime\ndevenu tétraplégique\nparalysie complète des quatre membres\nvictime paraplégique ou tétraplégique\navocat en dommage corporel",
+  "content_extended_w_ranges": "indemnisation des victimes: 1x\ngrand handicap: 1-2x\ntétraplégie complète: 1x\nparaplégie et tétraplégie: 1x\nindemnisation juste: 1x\nparalysie des 4 membres: 1x\nparaplégique ou tétraplégique: 1x\naccident de la vie: 1-2x\navocat spécialisé: 1x\naccident de la circulation: 1x\naccident grave: 1x\nposte par poste: 1x\névaluation des préjudices: 1x\nassistance par tierce personne: 1x\nperte de gains professionnels futurs: 1x\naccident du travail: 1x\nparalysie des membres: 1x\nindemnisation complémentaire: 1x\nchaque poste de préjudice: 1x\ndroit à une indemnisation: 1x\nindemnisation d’une victime tétraplégique: 1x\nvictimes d’accidents de la route: 1x\nmédecin conseil de victimes: 1x\nsanté de la victime: 1x\nindemnisation juste et complète: 1x\ntétraplégique après un accident: 1x\nles besoins de la victime: 1x\nbesoins réels de la victime: 1x\ndevenu tétraplégique: 1x\nparalysie complète des quatre membres: 1x\nvictime paraplégique ou tétraplégique: 1x\navocat en dommage corporel: 1x",
+  "entities": "Tétraplégie\nAccident de la route\nLogement\nParalysie\nDommage corporel\nMoelle spinale\nAssurance\nParaplégie\nSanté\nVéhicule (transport physique)\nExpertise médicale\nDintilhac\nLésion (médecine)\nMédecin\nHandicap\nTraumatisme médullaire\nAutonomie\nErgothérapie\nLoi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation\nEspérance de vie humaine\nSomme (département)\nSéquelle\nKinésithérapie\nVentilation mécanique en médecine\nAvocat (métier)\nDossier médical\nArchitecte\nFrance\nAccident médical\nCour de cassation (France)\nPiéton\nJurisprudence\nFauteuil roulant\nOrdre de grandeur\nMe Marteau-Péretié\nCabinet d'avocat\nDroits de l'enfant"
+ },
+ "status": "ready",
+ "keyword": "indemnisation tetraplegie",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "bebc5d78346226c7",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 96.6,
+   "transactional": 55.2
+  },
+  "top_content_type": "business",
+  "content_type_stats": {
+   "news": 6.9,
+   "case-study": 20.7,
+   "business": 55.2,
+   "landing-page": 13.8,
+   "guide": 34.5,
+   "educational": 34.5,
+   "blog-post": 20.7,
+   "video": 6.9
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/bebc5d78346226c7",
+ "share_url": "https://app.neuronwriter.com/analysis/share/bebc5d78346226c7/a5afcafbf3a69a538b9c0bd311788a694fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/bebc5d78346226c7/9a7d48c5ee28c39486cf28bebff7536d4fa16"
+}

@@ -1,0 +1,2784 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quel est le montant de l'indemnisation pour une fracture ?"
+   },
+   {
+    "q": "Montant indemnisation accident corporel ?"
+   },
+   {
+    "q": "Quelles aides en cas de fracture ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quel est le montant de l'indemnisation pour une fracture ?": {
+    "importance": 10
+   },
+   "Comment est calculée l'indemnisation après une fracture ou un accident corporel ?": {
+    "importance": 9
+   },
+   "Quels sont les différents préjudices indemnisables en cas de fracture ?": {
+    "importance": 10
+   },
+   "Quelles sont les aides ou assurances disponibles en cas de fracture ?": {
+    "importance": 9
+   },
+   "Dans quelles circonstances peut-on obtenir une indemnisation pour une fracture ?": {
+    "importance": 8
+   },
+   "Quel est le rôle de l'expertise médicale dans le processus d'indemnisation ?": {
+    "importance": 8
+   },
+   "Quels sont les délais pour réclamer et recevoir une indemnisation après une fracture ?": {
+    "importance": 7
+   },
+   "Faut-il accepter l'offre d'indemnisation de l'assurance ou consulter un avocat ?": {
+    "importance": 7
+   },
+   "Comment optimiser son indemnisation après une fracture ?": {
+    "importance": 7
+   },
+   "Qu'est-ce que le barème du prétium doloris et comment est-il évalué ?": {
+    "importance": 6
+   }
+  },
+  "content_questions": [
+   {
+    "q": "1) Un barème, c’est quoi en dommage corporel ?"
+   },
+   {
+    "q": "10) Comment optimiser son indemnisation ?"
+   },
+   {
+    "q": "2) Existe-t-il un barème officiel unique ?"
+   },
+   {
+    "q": "4) Comment les barèmes s’articulent-ils avec la nomenclature Dintilhac ?"
+   },
+   {
+    "q": "5) Qui utilise quels barèmes : assureurs, CCI/ONIAM, tribunaux ?"
+   },
+   {
+    "q": "6) Pourquoi des écarts de montants entre dossiers similaires ?"
+   },
+   {
+    "q": "8) AIPP/DFP : comment passer du taux au montant ?"
+   },
+   {
+    "q": "Assurance accident de la vie : quelle indemnisation en cas de décès de l’assuré ?"
+   },
+   {
+    "q": "Assurance accident de la vie : quelles démarches pour déclarer un accident et demander son indemnisation ?"
+   },
+   {
+    "q": "Assurance fracture : est-ce possible de percevoir des indemnités ?"
+   },
+   {
+    "q": "Barème et Estimation : Combien pouvez-vous obtenir ?"
+   },
+   {
+    "q": "Besoin d’un contrepoids face à l’expertise amiable ?"
+   },
+   {
+    "q": "Brûlure, agression, chute : quelle indemnisation avec l'assurance accident de la vie ?"
+   },
+   {
+    "q": "Cependant j’ai un autre question : qu’est-ce que « le préjudice d’agrément‘ ?"
+   },
+   {
+    "q": "Combien de temps ai-je pour réclamer une indemnisation après ma fracture ?"
+   },
+   {
+    "q": "Comment bien se faire indemniser en cas de fracture ?"
+   },
+   {
+    "q": "Comment est calculé le montant de l’indemnisation en cas d’accident de la vie ?"
+   },
+   {
+    "q": "Comment est calculée l'indemnisation d’un accident de la vie ?"
+   },
+   {
+    "q": "Comment est calculée l'indemnisation pour un préjudice corporel ?"
+   },
+   {
+    "q": "Comment est remboursée une fracture par l'assurance ?"
+   },
+   {
+    "q": "Comment faire pour demander une indemnisation à la suite d’un accident de la vie ?"
+   },
+   {
+    "q": "Comment se soigne une fracture ?"
+   },
+   {
+    "q": "Comment être indemnisé en cas d'accident corporel ?"
+   },
+   {
+    "q": "Dois-je me faire accompagner par un médecin expert de victimes ?"
+   },
+   {
+    "q": "Jusqu’à quand puis-je rester assuré(e) avec mon Assurance Hospitalisation ?"
+   },
+   {
+    "q": "L’assurance décès : obligatoire ou facultative ?"
+   },
+   {
+    "q": "Mon médecin traitant peut-il m'accompagner à l'expertise ?"
+   },
+   {
+    "q": "On m’a dit qu’il y avait un barème d’indemnisation par tribunal ?"
+   },
+   {
+    "q": "Où puis-je trouver ces barèmes ?"
+   },
+   {
+    "q": "Peut-on être indemnisé en cas d’accident de la vie sans tiers responsable ?"
+   },
+   {
+    "q": "Pourquoi choisir JMP Avocat pour votre fracture ?"
+   },
+   {
+    "q": "Pourquoi connaître ses droits en matière d’indemnisation ?"
+   },
+   {
+    "q": "Pourquoi souscrire une assurance prévoyance ?"
+   },
+   {
+    "q": "Pourquoi souscrire à une assurance accidents de la vie ?"
+   },
+   {
+    "q": "Puis-je être indemnisé en cas d’accident de la vie sans tiers responsable ?"
+   },
+   {
+    "q": "Puis-je être indemnisé si j'ai commis une faute lors de l'accident ?"
+   },
+   {
+    "q": "Qu'est-ce qu'un tableau d'indemnisation accident de la vie ?"
+   },
+   {
+    "q": "Qu'est-ce qui est considéré comme un accident corporel ?"
+   },
+   {
+    "q": "Que couvre l’indemnisation d’un contrat GAV en cas de décès ?"
+   },
+   {
+    "q": "Que veut dire au juste consolidation ?"
+   },
+   {
+    "q": "Quel est le barème d’indemnisation appliqué par la Garantie Accidents de la Vie (GAV) ?"
+   },
+   {
+    "q": "Quel est le délai d'indemnisation de l'assurance en cas d'accident corporel ?"
+   },
+   {
+    "q": "Quel est le délai d'indemnisation de l'assurance en cas d'accident corporel ?"
+   },
+   {
+    "q": "Quel est le délai d’indemnisation en cas d’accident de la vie ?"
+   },
+   {
+    "q": "Quel est le délai d’indemnisation en cas d’accident de la vie courante ?"
+   },
+   {
+    "q": "Quel est le mode de calcul de l’indemnisation d’une assurance accident de la vie ?"
+   },
+   {
+    "q": "Quel est le montant d'indemnisation suite à un accident corporel ?"
+   },
+   {
+    "q": "Quel est le montant de l'indemnisation pour une fracture ?"
+   },
+   {
+    "q": "Quel est le montant de l'indemnisation suite à un accident corporel ?"
+   },
+   {
+    "q": "Quel est le plafond du montant garanti au titre des dommages corporels ?"
+   },
+   {
+    "q": "Quel est le plafond d’indemnisation d’une Garantie Accidents de la Vie (GAV) ?"
+   },
+   {
+    "q": "Quelle différence entre une assurance classique et la Garantie Accidents de la Vie (GAV) ?"
+   },
+   {
+    "q": "Quelle est la meilleure assurance famille ?"
+   },
+   {
+    "q": "Quelle indemnisation d’un accident de la vie avec un tiers responsable ?"
+   },
+   {
+    "q": "Quelle indemnisation en cas d’accident de la vie ?"
+   },
+   {
+    "q": "Quelle indemnisation pourrais-je obtenir pour une fracture du poignet ?"
+   },
+   {
+    "q": "Quelles démarches effectuer après un accident ?"
+   },
+   {
+    "q": "Quelles sont les démarches à suivre pour déclarer un accident de la vie et en obtenir l’indemnisation ?"
+   },
+   {
+    "q": "Quelles sont les meilleures garanties accidents de la vie ?"
+   },
+   {
+    "q": "Quels sont les différents types de fractures ?"
+   },
+   {
+    "q": "Quels sont les délais pour recevoir l’indemnisation ?"
+   },
+   {
+    "q": "Quels sont les postes de préjudice indemnisables ?"
+   },
+   {
+    "q": "Quels sont les symptômes d’une fracture ?"
+   },
+   {
+    "q": "Qui peut indemniser un accident corporel ?"
+   },
+   {
+    "q": "Qu’en est-il des délais d’indemnisation ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un accident de la vie ?"
+   },
+   {
+    "q": "Qu’est-ce qu’une fracture ?"
+   },
+   {
+    "q": "Victime d'un accident médical non fautif ?"
+   },
+   {
+    "q": "Victime d'une fracture ?"
+   },
+   {
+    "q": "Vous posez-vous encore des questions sur votre indemnisation ?"
+   },
+   {
+    "q": "pour ma fracture du poignet ou de la cheville ?"
+   },
+   {
+    "q": "À lire également : Bras ou jambe cassée après un accident : combien pouvez-vous vraiment obtenir ?"
+   },
+   {
+    "q": "À partir de quel taux d’IPP l’indemnisation d’un contrat GAV est-elle accordée ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://jmp-avocat-indemnisation.fr/blog-dommages-corporels/indemnisation-fracture-poignet-cheville-avocat",
+   "title": "Fracture Poignet/Cheville : Obtenir une Vraie Indemnisation",
+   "desc": "Victime d'une fracture ? L'assurance vous propose 30 à 40% de moins que vos droits réels. Guide complet : DFP, algodystrophie, séquelles. ✓ Étude gratuite avocat.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation Fracture Poignet ou Cheville : Le Guide pour obtenir une réparation intégrale"
+    ],
+    [
+     "h2",
+     "1. Les circonstances ouvrant droit à indemnisation"
+    ],
+    [
+     "h2",
+     "2. Le rôle pivot de l'expertise médicale"
+    ],
+    [
+     "h2",
+     "3. Quels sont les postes de préjudice indemnisables ? (Nomenclature Dintilhac)"
+    ],
+    [
+     "h2",
+     "4. Barème et Estimation : Combien pouvez-vous obtenir ?"
+    ],
+    [
+     "h2",
+     "5. Pourquoi choisir JMP Avocat pour votre fracture ?"
+    ],
+    [
+     "h2",
+     "Conclusion & Appel à l'action"
+    ],
+    [
+     "h2",
+     "Foire Aux Questions (FAQ)"
+    ]
+   ],
+   "content_score": 79,
+   "readability": 26,
+   "word_count": 3668,
+   "content_len": 24332
+  },
+  {
+   "rank": 2,
+   "url": "https://www.acommeassure.com/guides/fractures-bien-les-comprendre-et-bien-se-faire-indemniser/",
+   "title": "Fractures : bien les comprendre et bien se faire indemniser",
+   "desc": "Lorsqu’on se fait une fracture, l’ampleur de celle-ci est plus ou moins importante et douloureuse. L’indemnisation suite à une fracture comprend",
+   "headers": [
+    [
+     "h1",
+     "Fractures : bien les comprendre et bien se faire indemniser"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’une fracture ?"
+    ],
+    [
+     "h2",
+     "Comment se soigne une fracture ?"
+    ],
+    [
+     "h2",
+     "Comment bien se faire indemniser en cas de fracture ?"
+    ]
+   ],
+   "content_score": 30,
+   "readability": 42,
+   "word_count": 899,
+   "content_len": 5582
+  },
+  {
+   "rank": 3,
+   "url": "https://www.indemnisation.com/indemnisation-des-accidents-de-la-vie/",
+   "title": "Indemnisation des accidents de la vie : barèmes et exemples",
+   "desc": "Simulez votre indemnisation facilement grâce à nos outils, conseils et exemples concrets. Indemnsation.com vous accompagne dans vos démarches",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation des accidents de la vie"
+    ],
+    [
+     "h2",
+     "Indemnisation des accidents de la vie"
+    ],
+    [
+     "h2",
+     "Les barèmes d'indemnisation pour les accidents de la vie"
+    ],
+    [
+     "h2",
+     "Tableau d'indemnisation des accidents de la vie"
+    ],
+    [
+     "h2",
+     "FAQ – Tout savoir sur l’indemnisation des accidents de la vie"
+    ],
+    [
+     "h2",
+     "En conclusion"
+    ],
+    [
+     "h2",
+     "🚀 Nos réponses en vidéo"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 35,
+   "word_count": 3442,
+   "content_len": 22155
+  },
+  {
+   "rank": 4,
+   "url": "https://www.benezra-victimesdelaroute.fr/1-000-000-deuros-pour-une-victime-de-fracture-du-pied-apres-un-accident/",
+   "title": "1.000.000 d'euros : indemnisation fracture du pied d'une victime",
+   "desc": "Hana 16 ans, a été percutée alors qu'elle attendait pour traverser la route. Bilan : fracture de son pied. Les conséquences ont été lourdes",
+   "headers": [
+    [
+     "h2",
+     "1° Une fracture du pied chez une jeune victime : ce que l’assurance a voulu résumer à un plâtre"
+    ],
+    [
+     "h2",
+     "2° Ce qu’est une expertise unilatérale, et pourquoi elle désavantage structurellement la victime"
+    ],
+    [
+     "h2",
+     "10K"
+    ],
+    [
+     "h1",
+     "CAS TRAITÉS"
+    ],
+    [
+     "h2",
+     "3° Consolidation prématurée : une notion juridique aux conséquences financières considérables"
+    ],
+    [
+     "h2",
+     "4° Ce que notre cabinet a identifié en analysant le dossier"
+    ],
+    [
+     "h2",
+     "5° L’expertise contradictoire et la pression exercée pour l’obtenir"
+    ],
+    [
+     "h2",
+     "6° Les préjudices d’une jeune victime s’évaluent sur toute une vie"
+    ],
+    [
+     "h2",
+     "7° Résultat : 1 000 000 € au terme de douze ans de procédure"
+    ],
+    [
+     "h2",
+     "8° Trois situations où une famille doit refuser l’offre et consulter avant de signer"
+    ],
+    [
+     "h2",
+     "1- Lorsque la victime est mineure ou jeune au moment de l'accident."
+    ],
+    [
+     "h2",
+     "2- Lorsque l'expertise a été organisée unilatéralement par l'assurance."
+    ],
+    [
+     "h2",
+     "3- Lorsque des préjudices psychiques existent sans figurer dans le rapport."
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "9° Notre cabinet peut analyser votre dossier, même si une offre a déjà été proposée"
+    ]
+   ],
+   "content_score": 48,
+   "readability": 36,
+   "word_count": 2215,
+   "content_len": 14492
+  },
+  {
+   "rank": 5,
+   "url": "https://www.floabank.fr/assurances/guide-pratique-assurance-prevoyance/indemnisation-assurance-fracture",
+   "title": "Assurance fracture : être indemnisé en cas de sinistre | FLOA Bank",
+   "desc": "Posséder une assurance fracture ne permet pas toujours de bénéficier d'un complément de revenu en cas de blessure ! Découvrez comment être indemnisé avec FLOA Bank.",
+   "headers": [
+    [
+     "h1",
+     "Assurance fracture : est-ce possible de percevoir des indemnités ?"
+    ],
+    [
+     "h2",
+     "La nécessité d'avoir souscrit une assurance blessure en amont"
+    ],
+    [
+     "h2",
+     "Assurance fracture : une couverture qui dépendra du contexte"
+    ],
+    [
+     "h2",
+     "Assurez-vous contre d'éventuelles fractures en souscrivant une assurance blessure avec Floa"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ],
+    [
+     "h2",
+     "Besoin d'Aide"
+    ],
+    [
+     "h2",
+     "Tout savoir sur nos assurances prévoyance"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 31,
+   "word_count": 1277,
+   "content_len": 8594
+  },
+  {
+   "rank": 6,
+   "url": "https://www.bedoisavocats.com/indemnisation",
+   "title": "Erreurs Médicales : Vos Recours | Bedois Avocats",
+   "desc": "Erreur de diagnostic, faute chirurgicale, défaut de soin : Me France Bedois engage la responsabilité médicale et défend votre indemnisation. Avocate à Marseille.",
+   "headers": [
+    [
+     "h1",
+     "ERREURS MÉDICALES"
+    ],
+    [
+     "h2",
+     "Erreurs médicales : comprendre, agir et obtenir réparation"
+    ],
+    [
+     "h2",
+     "Que faire et comment faire en cas d'erreur médicale ?"
+    ],
+    [
+     "h2",
+     "Phase n°1 : L'étude du dossier"
+    ],
+    [
+     "h2",
+     "Phase n°2 : L'Expertise"
+    ],
+    [
+     "h2",
+     "Phase n°3 : L'Indemnisation"
+    ],
+    [
+     "h2",
+     "NOS DIFFÉRENTS DOMAINES"
+    ],
+    [
+     "h2",
+     "ERREURS MÉDICALES"
+    ],
+    [
+     "h2",
+     "INFECTIONS NOSOCOMIALES"
+    ],
+    [
+     "h2",
+     "ACCIDENTS MÉDICAUX GRAVES"
+    ],
+    [
+     "h2",
+     "RECOURS APRÈS AVIS CCI"
+    ],
+    [
+     "h2",
+     "ALÉA THÉRAPEUTIQUE (ACCIDENT MÉDICAL NON-FAUTIF)"
+    ],
+    [
+     "h2",
+     "AMPUTATION ET RESPONSABILITÉ MÉDICALE"
+    ],
+    [
+     "h2",
+     "ASSISTANCE À L'EXPERTISE MÉDICALE"
+    ],
+    [
+     "h2",
+     "AVC ET RESPONSABILITÉ MÉDICALE"
+    ],
+    [
+     "h2",
+     "PROCÉDURES CCI ONIAM"
+    ]
+   ],
+   "content_score": 15,
+   "readability": 32,
+   "word_count": 1077,
+   "content_len": 7087
+  },
+  {
+   "rank": 7,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/bareme-calcul-indemnisation-accident/exemples-indemnisation-dommage-corporel",
+   "title": "Barèmes indemnisation dommage corporel - Association Victimes de France AIVF",
+   "desc": "Découvrez les barèmes d'indemnisation pour dommages corporels proposés par l'Association Aide Victimes France. Obtenez justice et soutien.",
+   "headers": [
+    [
+     "h1",
+     "Barèmes indemnisation dommage corporel"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Barèmes d’indemnisation du dommage corporel"
+    ],
+    [
+     "h2",
+     "Exemples d’indemnisations du préjudice corporel"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 48,
+   "word_count": 1569,
+   "content_len": 9648
+  },
+  {
+   "rank": 8,
+   "url": "https://www.groupama.fr/garantie-accidents-vie-gav/conseils/accident-corporel-indemnisation/",
+   "title": "Montant d'indemnisation pour un accident corporel - Groupama",
+   "desc": "Découvrez quel est le montant de l'indemnisation à la suite d’un accident corporel ou le plafond d’indemnisation au titre des dommages corporels.",
+   "headers": [
+    [
+     "h1",
+     "Quel est le montant de l'indemnisation suite à un accident corporel ?"
+    ],
+    [
+     "h2",
+     "Qu'est-ce qui est considéré comme un accident corporel ?"
+    ],
+    [
+     "h2",
+     "Qui peut indemniser un accident corporel ?"
+    ],
+    [
+     "h2",
+     "Comment est calculée l'indemnisation pour un préjudice corporel ?"
+    ],
+    [
+     "h2",
+     "Exemples de montants d'indemnisation pour des dommages corporels"
+    ],
+    [
+     "h2",
+     "Quel est le plafond du montant garanti au titre des dommages corporels ?"
+    ],
+    [
+     "h2",
+     "Comment être indemnisé en cas d'accident corporel ?"
+    ],
+    [
+     "h2",
+     "Découvrez notre offre Garantie Accidents de la Vie (GAV)"
+    ],
+    [
+     "h2",
+     "Découvrez nos infos et conseils prévoyance"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 32,
+   "word_count": 1943,
+   "content_len": 12486
+  },
+  {
+   "rank": 9,
+   "url": "https://association-aivf-faq.fr/indemnisation-fracture-poignet",
+   "title": "Indemnisation fracture poignet - Association Victimes de France AIVF",
+   "desc": "Indemnisation fracture du poignet suite à un accident de la route, accident de la vie, indemnisation du préjudice corporel,",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation fracture poignet"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation d’une fracture du poignet"
+    ]
+   ],
+   "content_score": 72,
+   "readability": 45,
+   "word_count": 1182,
+   "content_len": 7594
+  },
+  {
+   "rank": 10,
+   "url": "https://reassurez-moi.fr/guide/assurance-garantie-accidents-vie/indemnisation",
+   "title": "Quelle indemnisation en cas d’accident de la vie ?",
+   "desc": "L’indemnisation d’une assurance accident de la vie est notamment calculée suivant le taux d’IPP. Détails sur son calcul et son montant !",
+   "headers": [
+    [
+     "h1",
+     "Garantie Accidents de la Vie (GAV) : calcul et délai d’indemnisation"
+    ],
+    [
+     "h2",
+     "Comment est calculé le montant de l’indemnisation en cas d’accident de la vie ?"
+    ],
+    [
+     "h2",
+     "Tableau d’indemnisation d’un contrat GAV en fonction du taux d’IPP"
+    ],
+    [
+     "h2",
+     "Quel est le délai d’indemnisation en cas d’accident de la vie ?"
+    ],
+    [
+     "h2",
+     "Assurance accident de la vie : quelles démarches pour déclarer un accident et demander son indemnisation ?"
+    ],
+    [
+     "h2",
+     "Quel est le plafond d’indemnisation d’une Garantie Accidents de la Vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "Assurance accident de la vie : quelle indemnisation en cas de décès de l’assuré ?"
+    ],
+    [
+     "h2",
+     "5 conseils pour trouver une assurance accident de la vie avec un bon niveau d’indemnisation"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 26,
+   "word_count": 1833,
+   "content_len": 11077
+  },
+  {
+   "rank": 11,
+   "url": "https://victime-info.fr/indemnisation/dossiers/differents-postes-prejudice-corporel/indemnisation-des-souffrances-endurees/pretium-doloris-bareme",
+   "title": "Barème du prétium doloris : montants 2024 et indemnisation | victime-info.fr",
+   "desc": "Barème du prétium doloris de 1/7 à 7/7 : montants d'indemnisation, évaluation par le médecin expert et conseils pour obtenir une juste réparation.",
+   "headers": [
+    [
+     "h1",
+     "Barème du prétium doloris : guide complet des montants d’indemnisation des souffrances endurées"
+    ],
+    [
+     "h2",
+     "Sommaire"
+    ],
+    [
+     "h2",
+     "Que sont les souffrances endurées (prétium doloris) ?"
+    ],
+    [
+     "h2",
+     "Simulateur d’indemnisation du prétium doloris"
+    ],
+    [
+     "h2",
+     "Comment le médecin expert évalue le prétium doloris"
+    ],
+    [
+     "h2",
+     "Barème du prétium doloris : les montants de 1/7 à 7/7"
+    ],
+    [
+     "h2",
+     "Détail de chaque niveau de souffrances endurées"
+    ],
+    [
+     "h2",
+     "Les référentiels utilisés pour le barème du prétium doloris"
+    ],
+    [
+     "h2",
+     "Comment contester l’évaluation du prétium doloris"
+    ],
+    [
+     "h2",
+     "Exemples concrets d’indemnisation du barème du prétium doloris"
+    ],
+    [
+     "h2",
+     "Erreurs fréquentes à éviter lors de l’évaluation du prétium doloris"
+    ],
+    [
+     "h2",
+     "Questions de victimes sur le barème du prétium doloris"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Conclusion : obtenir une juste indemnisation du prétium doloris"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 35,
+   "word_count": 3640,
+   "content_len": 23561
+  },
+  {
+   "rank": 12,
+   "url": "https://www.favarel-eychenne-avocat.fr/quelle-indemnisation-pour-une-fracture-de-la-jambe",
+   "title": "Quelle indemnisation pour une fracture de la jambe ?",
+   "desc": "Quelle indemnisation pour une fracture de la jambe ?",
+   "headers": [
+    [
+     "h1",
+     "Quelle indemnisation pour une fracture de la jambe ?"
+    ],
+    [
+     "h1",
+     "Victime d'un accident ?"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 39,
+   "word_count": 993,
+   "content_len": 6616
+  },
+  {
+   "rank": 13,
+   "url": "https://www.rousselavocat.com/indemnisation-accident-de-la-route/",
+   "title": "Indemnisation accident de la route | Maître Aurore Roussel",
+   "desc": "Dossiers gagnés du cabinet d'avocatde Maître Roussel : indemnisation accident de la route, accident de trajet, accident de la circulation à Nantes",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation Accident de la route"
+    ],
+    [
+     "h2",
+     "Dossiers gagnés et indemnisés :\n\t\t\t\t\n\t\t\t\tAccident de la route - Accident de trajet"
+    ]
+   ],
+   "content_score": 31,
+   "readability": 25,
+   "word_count": 2261,
+   "content_len": 14280
+  },
+  {
+   "rank": 14,
+   "url": "https://www.indemnisationprejudice.fr/sequelles-et-indemnites-blessures-accident/traumatismes-et-fractures-des-bras-et-des-jambes/",
+   "title": "Indmenisation des fractures des bras et/ou des jambes - Vers qui se tourner ?",
+   "desc": "Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés. - Traumatismes et fractures des bras et des jambes, comment être indemnisé ?",
+   "headers": [
+    [
+     "h1",
+     "Traumatismes et fractures des bras et des jambes, comment être indemnisé ?"
+    ],
+    [
+     "h2",
+     "Indemnisation des fractures et des traumatismes. Que faire et vers qui se tourner ?"
+    ]
+   ],
+   "content_score": 34,
+   "readability": 32,
+   "word_count": 703,
+   "content_len": 4512
+  },
+  {
+   "rank": 15,
+   "url": "https://www.maif.fr/famille-vie-quotidienne/guide-accident-vie/montant-indemnisation-accident-corporel",
+   "title": "Montant des indemnisations suite à un accident corporel - MAIF",
+   "desc": "Calculez facilement le montant des indemnisations suite à un accident corporel grâce à nos barèmes, critères et exemples concrets en ligne.",
+   "headers": [
+    [
+     "h1",
+     "Montant des indemnisations en cas d’accident corporel : ce qu’il faut savoir"
+    ],
+    [
+     "h2",
+     "1\n                Qu’est-ce qu’un accident corporel ?"
+    ],
+    [
+     "h2",
+     "2\n                Quels sont les différents types d’accidents corporels ?"
+    ],
+    [
+     "h2",
+     "3\n                Quel est le cadre légal de l’indemnisation d'une assurance accident de la vie courante ?"
+    ],
+    [
+     "h2",
+     "4\n                Comment est calculé le barème d’indemnisation d'un préjudice corporel ?"
+    ],
+    [
+     "h2",
+     "5\n                Quel est le montant d'indemnisation d'une assurance dommage corporel ?"
+    ],
+    [
+     "h2",
+     "6\n                Quel type d’assurance couvre un accident corporel ?"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 41,
+   "word_count": 2510,
+   "content_len": 16304
+  },
+  {
+   "rank": 16,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/accident-de-la-vie-htm/indemnisation-accident-de-la-vie",
+   "title": "Indemnisation Accident de la Vie - Association Victimes de France AIVF",
+   "desc": "Obtenez des conseils d'experts sur l'indemnisation des accidents de la vie avec l'Association Aide Victimes France. Découvrez vos droits.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation Accident de la Vie"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Indemnisation d’un accident de la vie : présentation"
+    ],
+    [
+     "h2",
+     "Indemnisation accident de la vie présentation"
+    ]
+   ],
+   "content_score": 58,
+   "readability": 30,
+   "word_count": 3550,
+   "content_len": 21164
+  },
+  {
+   "rank": 17,
+   "url": "https://maitre-morin-avocat.fr/accueil/indemnisation-prejudice-corporel-a-savoir",
+   "title": "Indemnisation préjudice corporel à savoir : se documenter",
+   "desc": "Nous vous listons ici les différentes notions à connaitre en cas d'accident corporel. Culture minimale indispendable pour bien se défendre.",
+   "headers": [
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "❓ Indemnisation du préjudice corporel — À savoir"
+    ],
+    [
+     "h1",
+     "Indemnisation du préjudice corporel : l’essentiel à savoir"
+    ],
+    [
+     "h2",
+     "1) Principes de base"
+    ],
+    [
+     "h2",
+     "2) Démarche type (chronologie courte)"
+    ],
+    [
+     "h2",
+     "3) Expertise médicale : points à faire acter"
+    ],
+    [
+     "h2",
+     "4) Postes d’indemnisation (rappel Dintilhac)"
+    ],
+    [
+     "h2",
+     "5) Capitalisation & rentes"
+    ],
+    [
+     "h2",
+     "6) Déductions & tiers payeurs"
+    ],
+    [
+     "h2",
+     "7) Délais & leviers (repères)"
+    ],
+    [
+     "h2",
+     "8) Offres d’assureur : ce qu’il faut exiger"
+    ],
+    [
+     "h2",
+     "9) Check-list express (à joindre au dossier)"
+    ],
+    [
+     "h2",
+     "10) Modèle bref – Demande d’offre motivée"
+    ],
+    [
+     "h2",
+     "Liste des notions à connaître pour se défendre"
+    ],
+    [
+     "h2",
+     "Exemples de questions posées concernant l'indemnisation du préjudice corporel"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 43,
+   "word_count": 2746,
+   "content_len": 17529
+  },
+  {
+   "rank": 18,
+   "url": "https://hadrienmuller-avocat.com/quelle-indemnisation-pour-votre-fracture-de-la-cheville/",
+   "title": "Indemnisation : fracture cheville - Hadrien Muller",
+   "desc": "Indemnisation pour une fracture de la cheville : pouvez-vous en obtenir une ? Etes-vous dans le cas où cela est possible ? Lisez cet article avec une courte vidéo",
+   "headers": [
+    [
+     "h2",
+     "Avocat spécialisé en préjudice corporel"
+    ],
+    [
+     "h2",
+     "Diplômé en évaluation des traumatismes crâniens"
+    ],
+    [
+     "h1",
+     "Quelle indemnisation pour votre fracture de la cheville ?"
+    ],
+    [
+     "h2",
+     "Table des matières"
+    ],
+    [
+     "h2",
+     "Quel type de fracture de la cheville obtient une bonne indemnisation ?"
+    ],
+    [
+     "h2",
+     "Fracture de la cheville : qu’en dit votre médecin ?"
+    ],
+    [
+     "h2",
+     "Qui doit vous indemniser ?"
+    ],
+    [
+     "h2",
+     "Quelle indemnisation pouvez-vous réclamer ?"
+    ],
+    [
+     "h2",
+     "Maître Hadrien MULLER"
+    ],
+    [
+     "h2",
+     "25 réponses"
+    ]
+   ],
+   "content_score": 70,
+   "readability": 29,
+   "word_count": 2805,
+   "content_len": 17196
+  },
+  {
+   "rank": 19,
+   "url": "https://jmp-avocat-indemnisation.fr/blog-dommages-corporels/fracture-bras-jambe-accident-indemnisation",
+   "title": "Bras ou jambe cassée après un accident : combien pouvez-vous vraiment obtenir ?",
+   "desc": "Fracture du bras ou de la jambe après un accident : l'assureur propose toujours trop peu. DFP, séquelles, incidence professionnelle — le guide complet pour obtenir une indemnisation à la hauteur.",
+   "headers": [
+    [
+     "h1",
+     "Bras cassé, jambe cassée après un accident : l'assurance vous propose 30 % de ce que vous méritez. Voici comment obtenir le reste"
+    ],
+    [
+     "h2",
+     "Fracture du bras ou de la jambe : des réalités très différentes"
+    ],
+    [
+     "h2",
+     "⏰ AGISSEZ MAINTENANT : Chaque Jour Compte"
+    ],
+    [
+     "h2",
+     "Ce que l'assureur ne vous dit pas : les vrais postes à indemniser"
+    ],
+    [
+     "h2",
+     "Exemples réels d'indemnisation — fractures du bras et de la jambe"
+    ],
+    [
+     "h2",
+     "Les séquelles qui transforment une \"simple fracture\" en dossier lourd"
+    ],
+    [
+     "h2",
+     "L'état antérieur : le piège classique de l'assureur"
+    ],
+    [
+     "h2",
+     "Comment bien préparer votre expertise médicale"
+    ],
+    [
+     "h2",
+     "FAQ — Vos questions sur l'indemnisation d'une fracture du bras ou de la jambe"
+    ],
+    [
+     "h2",
+     "À lire également"
+    ],
+    [
+     "h2",
+     "Sources et bibliographie"
+    ]
+   ],
+   "content_score": 38,
+   "readability": 33,
+   "word_count": 2471,
+   "content_len": 16169
+  },
+  {
+   "rank": 20,
+   "url": "https://www.youtube.com/watch?v=vI3eRRGbhWk",
+   "title": "La Garantie Accident de la Vie - Solutions Jeunes | MACIF - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "La Garantie Accident de la Vie - Solutions Jeunes | MACIF"
+    ],
+    [
+     "h1",
+     "La Garantie Accident de la Vie - Solutions Jeunes | MACIF"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 10,
+   "readability": 59,
+   "word_count": 260,
+   "content_len": 1641
+  },
+  {
+   "rank": 21,
+   "url": "https://www.charentelibre.fr/societe/justice/comment-la-justice-calcule-t-elle-vraiment-l-indemnisation-des-victimes-video-28772001.php",
+   "title": "Comment la justice calcule-t-elle vraiment l’indemnisation des victimes ? (vidéo) - Charente Libre.fr",
+   "desc": "Comment la justice évalue-t-elle concrètement le préjudice d’une victime ? Entre expertise médicale, preuves matérielles et rôle décisif du juge, les réponses sont loin d’être uniformes. Dans ce",
+   "headers": [
+    [
+     "h1",
+     "Comment la justice calcule-t-elle vraiment l’indemnisation des victimes ? (vidéo)"
+    ],
+    [
+     "h2",
+     "Le principe de réparation intégrale"
+    ]
+   ],
+   "content_score": 29,
+   "readability": 44,
+   "word_count": 722,
+   "content_len": 5078
+  },
+  {
+   "rank": 22,
+   "url": "https://www.adjcourtage.fr/PrejudiceCorporel.html",
+   "title": "Le Préjudice Corporel",
+   "desc": "",
+   "headers": [
+    [
+     "h2",
+     "APPRECIATION  MEDICALE DU PREJUDICE"
+    ],
+    [
+     "h2",
+     "L’INDEMNISATION"
+    ]
+   ],
+   "content_score": 25,
+   "readability": 24,
+   "word_count": 1320,
+   "content_len": 8501
+  },
+  {
+   "rank": 23,
+   "url": "https://www.floabank.fr/assurances/guide-pratique-assurance-prevoyance/indemnisation-fracture",
+   "title": "Une indemnisation d’assurance suite à une fracture",
+   "desc": "Grâce à votre assurance blessure, vous pourrez bénéficier d’une indemnité bien utile, notamment si vous êtes immobilisé pendant plusieurs mois.",
+   "headers": [
+    [
+     "h1",
+     "Comment bénéficier d’une indemnisation d’assurance suite à une fracture ?"
+    ],
+    [
+     "h2",
+     "Qu'est-ce qu'une fracture ?"
+    ],
+    [
+     "h2",
+     "Indemnisation d’assurance en cas de fracture : une prise en charge partielle par l'Assurance maladie"
+    ],
+    [
+     "h2",
+     "Souscrire une assurance blessure : une solution pour profiter d'une indemnisation complémentaire en cas de fracture"
+    ],
+    [
+     "h2",
+     "Assurance  Plan Indemnités Blessure distribuée par FLOA* : une indemnisation d’assurance en cas de fracture jusqu'à 14 000 €"
+    ],
+    [
+     "h2",
+     "Besoin d'Aide"
+    ],
+    [
+     "h2",
+     "Tout savoir sur nos assurances prévoyance"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 40,
+   "word_count": 909,
+   "content_len": 5814
+  },
+  {
+   "rank": 24,
+   "url": "https://lexvox-victime.com/indemnisation-prejudice-corporel",
+   "title": "Indemnisation du Préjudice Corporel : Guide &",
+   "desc": "Comment est indemnisé un préjudice corporel ? Postes Dintilhac, consolidation, expertise médicale, recours. Guide du cabinet LEXVOX, avocat des victimes (Me Humbert).",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation du préjudice corporel : le guide complet pour les victimes"
+    ],
+    [
+     "h2",
+     "L'essentiel en bref"
+    ],
+    [
+     "h2",
+     "Simulateur d'indemnisation"
+    ],
+    [
+     "h2",
+     "Le principe de réparation intégrale"
+    ],
+    [
+     "h2",
+     "Vue d'ensemble de la nomenclature Dintilhac"
+    ],
+    [
+     "h2",
+     "Comment est calculée l'indemnisation"
+    ],
+    [
+     "h2",
+     "Pourquoi un avocat spécialisé fait la différence"
+    ],
+    [
+     "h2",
+     "Tout savoir sur l'indemnisation du préjudice corporel"
+    ],
+    [
+     "h2",
+     "Évaluez gratuitement votre indemnisation"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Pourquoi confier votre dossier à LEXVOX Avocats"
+    ],
+    [
+     "h2",
+     "Besoin d'un avocat ?"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 27,
+   "word_count": 3588,
+   "content_len": 23712
+  },
+  {
+   "rank": 25,
+   "url": "https://association-aivf-faq.fr/prejudices-corporels-faq/prejudices-extra-patrimoniaux/indemnisation-pretium-doloris",
+   "title": "Indemnisation pretium doloris - Association Victimes de France AIVF",
+   "desc": "L'indemnisation du pretium doloris, souffrances endurées suite à un accident corporel, préjudices extra-patrimoniaux temporaires",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation du pretium doloris"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation du pretium doloris"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 42,
+   "word_count": 1086,
+   "content_len": 7104
+  },
+  {
+   "rank": 26,
+   "url": "https://www.sante.gouv.fr/indemnisation-des-accidents-medicaux-des-affections-",
+   "title": "",
+   "desc": "",
+   "headers": [],
+   "content_score": 0,
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 27,
+   "url": "https://www.assurance-accident-de-la-vie.fr/indemnisation-capital-fracture/",
+   "title": "Capital fracture : comprendre l'indemnisation et ses enjeux",
+   "desc": "Découvrez les montants et conditions d'indemnisation du capital fracture : tout savoir pour optimiser votre couverture en cas d'accident.",
+   "headers": [
+    [
+     "h1",
+     "Capital fracture : montants et conditions d’indemnisation"
+    ],
+    [
+     "h2",
+     "Vue d'ensemble :"
+    ],
+    [
+     "h2",
+     "Indemnisation des fractures : conditions et montants expliqués"
+    ],
+    [
+     "h2",
+     "Les différentes formes d’indemnisation après une fracture"
+    ],
+    [
+     "h2",
+     "Comprendre l’impact de votre taux d’incapacité permanente sur vos droits"
+    ],
+    [
+     "h2",
+     "On vous répond"
+    ]
+   ],
+   "content_score": 58,
+   "readability": 36,
+   "word_count": 1688,
+   "content_len": 11019
+  },
+  {
+   "rank": 28,
+   "url": "https://www.youtube.com/watch?v=m5MMskJheZY",
+   "title": "Préjudice corporel : l'indemnisation des souffrances endurées - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Préjudice corporel : l'indemnisation des souffrances endurées"
+    ],
+    [
+     "h2",
+     "Musique\n      1 titre"
+    ],
+    [
+     "h1",
+     "Scouting"
+    ],
+    [
+     "h1",
+     "Préjudice corporel : l'indemnisation des souffrances endurées"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      52"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Musique\n      1 titre"
+    ],
+    [
+     "h1",
+     "Scouting"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 29,
+   "readability": 32,
+   "word_count": 366,
+   "content_len": 2526
+  },
+  {
+   "rank": 29,
+   "url": "https://www.mindeez.com/indemnisation-assurance-fracture/",
+   "title": "```{ 'MT': 'Indemnisation fracture: trouver l'assurance adaptée', 'MD': 'Optimisez votre indemnisation assurance fracture. Choisissez la meilleure couverture pour un remboursement efficace et sécurisé en cas de besoin.'}",
+   "desc": "```{ 'MT': 'Indemnisation fracture: trouver l'assurance adaptée', 'MD': 'Optimisez votre indemnisation assurance fracture. Choisissez la meilleure couverture pour un remboursement efficace et sécurisé en cas de besoin.'}",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation fracture : maximiser votre remboursement avec l’assurance adaptée"
+    ],
+    [
+     "h2",
+     "Le choix de l’assurance pour l’indemnisation des fractures"
+    ],
+    [
+     "h2",
+     "Les démarches pour obtenir une indemnisation efficace"
+    ],
+    [
+     "h2",
+     "L’évaluation des montants d’indemnisation"
+    ],
+    [
+     "h2",
+     "Les stratégies pour maximiser son remboursement"
+    ],
+    [
+     "h2",
+     "En guise de perspective"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 35,
+   "word_count": 1009,
+   "content_len": 6755
+  },
+  {
+   "rank": 30,
+   "url": "https://www.facebook.com/CabinetRousselAvocat/videos/comment-calculer-lindemnisation-dun-ou-plusieurs-postes-de-pr%C3%A9judice-en-mati%C3%A8re-/1120223225616653/",
+   "title": "Comment calculer l’indemnisation d’un ou plusieurs postes de préjudice en matière de dommages corporels ? Maître Roussel, avocat spécialiste, vous résume les démarches à mener dans une courte vidéo dont voici la première partie.\nPour visionner l’ensemble de cette vidéo, rendez-vous sur le site du Cabinet ➡️bit.ly/3rEOFMV | Avocat dommage corporel - Cabinet Roussel | Facebook",
+   "desc": "Comment calculer l’indemnisation d’un ou plusieurs postes de préjudice en matière de dommages corporels ? Maître Roussel, avocat spécialiste, vous résume...",
+   "headers": [
+    [
+     "h1",
+     "Vidéo"
+    ],
+    [
+     "h2",
+     "Avocat dommage corporel - Cabinet Roussel"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Reels similaires"
+    ],
+    [
+     "h2",
+     "Vidéos connexes"
+    ]
+   ],
+   "content_score": 19,
+   "readability": 32,
+   "word_count": 599,
+   "content_len": 3661
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1701,
+   "target": 1701
+  },
+  "readability": {
+   "median": 34,
+   "target": 34
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 70
+   },
+   {
+    "t": "fracture",
+    "usage_pc": 50
+   },
+   {
+    "t": "accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation fracture",
+    "usage_pc": 20
+   },
+   {
+    "t": "barème",
+    "usage_pc": 20
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 70
+   },
+   {
+    "t": "fracture",
+    "usage_pc": 50
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 20
+   },
+   {
+    "t": "montant",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "fracture",
+    "usage_pc": 40
+   },
+   {
+    "t": "accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation fracture",
+    "usage_pc": 20
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "poignet",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation fracture poignet",
+    "usage_pc": 20
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "montant",
+    "usage_pc": 10
+   },
+   {
+    "t": "barème",
+    "usage_pc": 10
+   },
+   {
+    "t": "garantie accident de la vie",
+    "usage_pc": 10
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "délai",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "garanties",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accident de la vie",
+    "usage_pc": 10
+   },
+   {
+    "t": "montant de l'indemnisation",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 70
+   },
+   {
+    "t": "fracture",
+    "usage_pc": 50
+   },
+   {
+    "t": "accident",
+    "usage_pc": 50
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 40
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 30
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 30
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 30
+   },
+   {
+    "t": "barème",
+    "usage_pc": 30
+   },
+   {
+    "t": "montant",
+    "usage_pc": 20
+   },
+   {
+    "t": "garantie accident de la vie",
+    "usage_pc": 20
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 20
+   },
+   {
+    "t": "garanties",
+    "usage_pc": 20
+   },
+   {
+    "t": "offres",
+    "usage_pc": 20
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 20
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "poignet",
+    "usage_pc": 10
+   },
+   {
+    "t": "délai",
+    "usage_pc": 10
+   },
+   {
+    "t": "fracture du poignet",
+    "usage_pc": 10
+   },
+   {
+    "t": "évaluer",
+    "usage_pc": 10
+   },
+   {
+    "t": "consolidation",
+    "usage_pc": 10
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 10
+   },
+   {
+    "t": "les délais",
+    "usage_pc": 10
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 10
+   },
+   {
+    "t": "postes de préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accident de la vie",
+    "usage_pc": 10
+   },
+   {
+    "t": "nomenclature dintilhac",
+    "usage_pc": 10
+   },
+   {
+    "t": "montant d'indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "quelle indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 10
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "cas de fracture",
+    "usage_pc": 10
+   },
+   {
+    "t": "les barèmes d'indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "les postes de préjudice indemnisables",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     10,
+     34
+    ]
+   },
+   {
+    "t": "fracture",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     16
+    ]
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     8
+    ]
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     18
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 100,
+    "sugg_usage": [
+     4,
+     43
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 80,
+    "sugg_usage": [
+     6,
+     18
+    ]
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 80,
+    "sugg_usage": [
+     2,
+     17
+    ]
+   },
+   {
+    "t": "montant",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     9
+    ]
+   },
+   {
+    "t": "séquelle",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     8
+    ]
+   },
+   {
+    "t": "barème",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "garantie accident de la vie",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "poignet",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "délai",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 80,
+    "sugg_usage": [
+     2,
+     5
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "évaluer",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "garanties",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "consolidation",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "offres",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     8
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "les séquelles",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "état de santé",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "médecin expert",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "les délais",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "perte de revenus",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "certificat médical",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déficit fonctionnel permanent",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "frais médicaux",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "indemnisation fracture",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fracture du poignet",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation fracture poignet",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à une fracture",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "postes de préjudice",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les assureurs",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un accident de la vie",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "accident de la circulation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation juste",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident domestique",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "prétendre à une indemnisation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant de l'indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant de l’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les barèmes d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "chirurgical",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "nomenclature dintilhac",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "type de fracture",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant d'indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "quelle indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les fractures",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les souffrances endurées",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "arrêt de travail",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fracture simple",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurance individuelle",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas de désaccord",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "vie courante",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas de fracture",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une activité sportive",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "col du fémur",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "gravité de la fracture",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation adaptée",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurance gav",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les barèmes d'indemnisation",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "santé de la victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "individuelle accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les gestes du quotidien",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas par cas",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "poignet gauche",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les postes de préjudice indemnisables",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Fracture",
+    "importance": 73.548,
+    "relevance": 0.73548,
+    "confidence": 6.4898,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fracture"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 58.388,
+    "relevance": 0.58388,
+    "confidence": 4.9456,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 14.29504,
+    "relevance": 0.22336,
+    "confidence": 2.1096,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Santé",
+    "importance": 7.6622208,
+    "relevance": 0.1197222,
+    "confidence": 1.6676000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Santé"
+     ]
+    ]
+   },
+   {
+    "t": "Poignet",
+    "importance": 3.098016,
+    "relevance": 0.193626,
+    "confidence": 2.27,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Poignet"
+     ]
+    ]
+   },
+   {
+    "t": "Invalidité en France",
+    "importance": 2.82176,
+    "relevance": 0.17636,
+    "confidence": 0.6186,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Invalidité_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 2.2502400000000002,
+    "relevance": 0.14064000000000002,
+    "confidence": 4.1792,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 1.86496,
+    "relevance": 0.11656,
+    "confidence": 0.6664,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Douleur",
+    "importance": 1.8352,
+    "relevance": 0.1147,
+    "confidence": 2.8926,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Douleur"
+     ]
+    ]
+   },
+   {
+    "t": "Famille (biologie)",
+    "importance": 1.7236800000000003,
+    "relevance": 0.10773000000000002,
+    "confidence": 0.6696,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Famille_(biologie)"
+     ]
+    ]
+   },
+   {
+    "t": "Hôpital",
+    "importance": 1.58848,
+    "relevance": 0.09928000000000001,
+    "confidence": 2.2008,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Hôpital"
+     ]
+    ]
+   },
+   {
+    "t": "Ostéosynthèse",
+    "importance": 1.4899200000000001,
+    "relevance": 0.09312000000000001,
+    "confidence": 4.654,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Ostéosynthèse"
+     ]
+    ]
+   },
+   {
+    "t": "Entorse (médecine)",
+    "importance": 1.416,
+    "relevance": 0.0885,
+    "confidence": 0.9882000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Entorse_(médecine)"
+     ]
+    ]
+   },
+   {
+    "t": "Opération chirurgicale",
+    "importance": 1.2601600000000002,
+    "relevance": 0.07876000000000001,
+    "confidence": 0.5978,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Opération_chirurgicale"
+     ]
+    ]
+   },
+   {
+    "t": "Salaire",
+    "importance": 1.020832,
+    "relevance": 0.063802,
+    "confidence": 0.8635999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Salaire"
+     ]
+    ]
+   },
+   {
+    "t": "Maladie infectieuse",
+    "importance": 0.9671039999999999,
+    "relevance": 0.060444,
+    "confidence": 3.0826000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Maladie_infectieuse"
+     ]
+    ]
+   },
+   {
+    "t": "Douleur chronique",
+    "importance": 0.8576959999999999,
+    "relevance": 0.053606,
+    "confidence": 0.8664000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Douleur_chronique"
+     ]
+    ]
+   },
+   {
+    "t": "Os",
+    "importance": 0.6768,
+    "relevance": 0.1692,
+    "confidence": 0.8364,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Os"
+     ]
+    ]
+   },
+   {
+    "t": "Cheville (anatomie)",
+    "importance": 0.6292,
+    "relevance": 0.1573,
+    "confidence": 0.6434,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cheville_(anatomie)"
+     ]
+    ]
+   },
+   {
+    "t": "Accident du travail",
+    "importance": 0.60424,
+    "relevance": 0.15106,
+    "confidence": 0.3532,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_du_travail"
+     ]
+    ]
+   },
+   {
+    "t": "Hana",
+    "importance": 0.58872,
+    "relevance": 0.14718,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Enfant",
+    "importance": 0.53664,
+    "relevance": 0.13416,
+    "confidence": 0.2464,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Enfant"
+     ]
+    ]
+   },
+   {
+    "t": "Fracture ouverte",
+    "importance": 0.5344,
+    "relevance": 0.1336,
+    "confidence": 0.4974,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fracture_ouverte"
+     ]
+    ]
+   },
+   {
+    "t": "Floa",
+    "importance": 0.5144,
+    "relevance": 0.1286,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Fièvre",
+    "importance": 0.51352,
+    "relevance": 0.12838,
+    "confidence": 1.8952000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fièvre"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "indemnisation\nfracture\naccident\naccident de la vie\nindemnisation fracture\nbarème\ncorporel",
+  "desc_title": "indemnisation\nfracture\nassurance\naccident\ncorporel\naccident de la vie\nmontant\ndommage corporel",
+  "h1": "indemnisation\nfracture\naccident\naccident de la vie\nindemnisation fracture\ncorporel\npoignet\nindemnisation fracture poignet\nassurance\nmontant\nbarème\ngarantie accident de la vie\ndommage corporel\ndélai\nindemniser\ngaranties\nsuite à un accident\nun accident de la vie\nmontant de l'indemnisation",
+  "h2": "indemnisation\nfracture\naccident\npréjudice\naccident de la vie\nassurance\nexpertise\nbarème\nmontant\ngarantie accident de la vie\ncorporel\ndommage corporel\nindemniser\ngaranties\noffres\nexpertise médicale\npréjudice corporel\npoignet\ndélai\nfracture du poignet\névaluer\nconsolidation\nles préjudices\nles délais\nêtre indemnisé\npostes de préjudice\nun accident de la vie\nnomenclature dintilhac\nmontant d'indemnisation\nquelle indemnisation\naccident médical\ndroit à indemnisation\ncas de fracture\nles barèmes d'indemnisation\nles postes de préjudice indemnisables",
+  "content_basic": "indemnisation\nfracture\naccident de la vie\nassurance\naccident\npréjudice\nexpertise\nmontant\nséquelle\nassureur\nbarème\ngarantie accident de la vie\ncorporel\ndommage corporel\npoignet\ndélai\nindemniser\nobtenir une indemnisation\névaluer\ngaranties\nconsolidation\noffres\nexpertise médicale\nles préjudices\nles séquelles\nétat de santé\nmédecin expert\nles délais\naccident de la route\npréjudice corporel\nperte de revenus\nêtre indemnisé\ncertificat médical\ndéficit fonctionnel permanent\nfrais médicaux",
+  "content_basic_w_ranges": "indemnisation: 10-34x\nfracture: 2-16x\naccident de la vie: 1-8x\nassurance: 1-18x\naccident: 4-43x\npréjudice: 6-18x\nexpertise: 2-17x\nmontant: 1-9x\nséquelle: 1-7x\nassureur: 1-8x\nbarème: 1-4x\ngarantie accident de la vie: 1x\ncorporel: 1-6x\ndommage corporel: 1-4x\npoignet: 1-2x\ndélai: 1-7x\nindemniser: 2-5x\nobtenir une indemnisation: 1-2x\névaluer: 1-5x\ngaranties: 1-7x\nconsolidation: 1-6x\noffres: 1-8x\nexpertise médicale: 1-3x\nles préjudices: 1-4x\nles séquelles: 1-3x\nétat de santé: 1-2x\nmédecin expert: 1-4x\nles délais: 1-2x\naccident de la route: 1-2x\npréjudice corporel: 1-2x\nperte de revenus: 1x\nêtre indemnisé: 1-2x\ncertificat médical: 1x\ndéficit fonctionnel permanent: 1x\nfrais médicaux: 1x",
+  "content_extended": "indemnisation fracture\nfracture du poignet\nindemnisation fracture poignet\nsuite à une fracture\nsuite à un accident\naprès un accident\npostes de préjudice\nles assureurs\nun accident de la vie\naccident de la circulation\nindemnisation juste\naccident domestique\nprétendre à une indemnisation\nmontant de l'indemnisation\nvictime d’un accident\nmontant de l’indemnisation\nsuite d’un accident\ncas d’accident\nles barèmes d’indemnisation\nchirurgical\nnomenclature dintilhac\ntype de fracture\nmontant d'indemnisation\nquelle indemnisation\naccident médical\nles fractures\ndroit à indemnisation\nles souffrances endurées\narrêt de travail\nfracture simple\nassurance individuelle\ncas de désaccord\ndroit à une indemnisation\nvie courante\ncas de fracture\nune activité sportive\ncol du fémur\ngravité de la fracture\nobtenir une indemnisation adaptée\nassurance gav\nles barèmes d'indemnisation\nsanté de la victime\nindividuelle accident\nles gestes du quotidien\ncas par cas\npoignet gauche\nles postes de préjudice indemnisables",
+  "content_extended_w_ranges": "indemnisation fracture: 1x\nfracture du poignet: 1x\nindemnisation fracture poignet: 1x\nsuite à une fracture: 1x\nsuite à un accident: 1x\naprès un accident: 1-3x\npostes de préjudice: 1x\nles assureurs: 1-2x\nun accident de la vie: 1-5x\naccident de la circulation: 1x\nindemnisation juste: 1x\naccident domestique: 1x\nprétendre à une indemnisation: 1x\nmontant de l'indemnisation: 1x\nvictime d’un accident: 1x\nmontant de l’indemnisation: 1x\nsuite d’un accident: 1x\ncas d’accident: 1x\nles barèmes d’indemnisation: 1x\nchirurgical: 1x\nnomenclature dintilhac: 1x\ntype de fracture: 1x\nmontant d'indemnisation: 1x\nquelle indemnisation: 1x\naccident médical: 1x\nles fractures: 1x\ndroit à indemnisation: 1x\nles souffrances endurées: 1x\narrêt de travail: 1x\nfracture simple: 1x\nassurance individuelle: 1x\ncas de désaccord: 1x\ndroit à une indemnisation: 1x\nvie courante: 1x\ncas de fracture: 1x\nune activité sportive: 1x\ncol du fémur: 1x\ngravité de la fracture: 1x\nobtenir une indemnisation adaptée: 1x\nassurance gav: 1x\nles barèmes d'indemnisation: 1x\nsanté de la victime: 1x\nindividuelle accident: 1x\nles gestes du quotidien: 1x\ncas par cas: 1x\npoignet gauche: 1x\nles postes de préjudice indemnisables: 1x",
+  "entities": "Fracture\nAssurance\nMédecin\nSanté\nPoignet\nInvalidité en France\nAccident de la route\nEndommagement\nDouleur\nFamille (biologie)\nHôpital\nOstéosynthèse\nEntorse (médecine)\nOpération chirurgicale\nSalaire\nMaladie infectieuse\nDouleur chronique\nOs\nCheville (anatomie)\nAccident du travail\nHana\nEnfant\nFracture ouverte\nFloa\nFièvre"
+ },
+ "status": "ready",
+ "keyword": "indemnisation fracture",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "7dced7f0bf8bfe7e",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "transactional": 30.0,
+   "navigational": 3.3
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "guide": 56.7,
+   "blog-post": 16.7,
+   "tool": 3.3,
+   "case-study": 6.7,
+   "business": 10.0,
+   "landing-page": 6.7,
+   "educational": 20.0,
+   "short-answer": 10.0,
+   "video": 16.7,
+   "news": 3.3,
+   "other": 6.7,
+   "social-media": 3.3
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/7dced7f0bf8bfe7e",
+ "share_url": "https://app.neuronwriter.com/analysis/share/7dced7f0bf8bfe7e/a5a9ad9107d091ef4080a7b3375e7e1c4fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/7dced7f0bf8bfe7e/c773aab3ddd9633fc631bae33f6ef6754fa16"
+}

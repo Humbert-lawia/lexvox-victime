@@ -1,0 +1,3090 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Accident domestique qui prend en charge ?"
+   },
+   {
+    "q": "Comment se passe l'indemnisation d'un sinistre habitation ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   },
+   {
+    "q": "Qu'est-ce qui est considéré comme accident domestique ?"
+   }
+  ],
+  "topic_matrix": {
+   "Qu'est-ce qui est considéré comme un accident domestique ?": {
+    "importance": 10
+   },
+   "Qui prend en charge l'indemnisation d'un accident domestique ?": {
+    "importance": 10
+   },
+   "Comment se déroule l'indemnisation d'un accident domestique ?": {
+    "importance": 9
+   },
+   "Quels sont les préjudices indemnisables suite à un accident domestique ?": {
+    "importance": 10
+   },
+   "Quelles assurances couvrent les accidents domestiques et quelles sont leurs limites ?": {
+    "importance": 9
+   },
+   "Quel est le délai pour déclarer un accident domestique à son assurance ?": {
+    "importance": 8
+   },
+   "Peut-on être indemnisé sans responsable identifié pour un accident domestique ?": {
+    "importance": 7
+   },
+   "Dans quels cas est-il recommandé de faire appel à un avocat pour un accident domestique ?": {
+    "importance": 6
+   },
+   "Comment contester une offre d'indemnisation de l'assurance ?": {
+    "importance": 5
+   },
+   "Comment éviter les accidents domestiques ?": {
+    "importance": 4
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Accident de la vie : que faire en cas d'électrisation ?"
+   },
+   {
+    "q": "Accident domestique : quelle prise en charge d'assurance MRH - Quelles démarches ?"
+   },
+   {
+    "q": "Accident domestique : quelle prise en charge par l’assurance ?"
+   },
+   {
+    "q": "Accident ménager domestique : quelle prise en charge ?"
+   },
+   {
+    "q": "Accidents domestiques : comment protéger les enfants ?"
+   },
+   {
+    "q": "Accidents domestiques : quelle assurance pour être bien protégé ?"
+   },
+   {
+    "q": "Accidents domestiques : quelle prise en charge par l'assurance ?"
+   },
+   {
+    "q": "Accidents domestiques assurance : laquelle choisir ?"
+   },
+   {
+    "q": "Afin de bénéficier d’une protection financière, faut-il prendre une garantie accident de la vie ?"
+   },
+   {
+    "q": "Assurance habitation : comment se déroule l'expertise ?"
+   },
+   {
+    "q": "Assurance habitation : qu'est-ce que la garantie responsabilité civile ?"
+   },
+   {
+    "q": "Assurance maintien de salaire : quelles garanties en cas d'accident ?"
+   },
+   {
+    "q": "Assurance multirisques habitation : que faire en cas de sinistre ?"
+   },
+   {
+    "q": "Combien coûte une assurance habitation ?"
+   },
+   {
+    "q": "Comment Maître BOURDET peut-il m’aider à obtenir l’indemnisation de mes préjudices ?"
+   },
+   {
+    "q": "Comment choisir une assurance des accidents de la vie ?"
+   },
+   {
+    "q": "Comment contester une offre d’indemnisation ?"
+   },
+   {
+    "q": "Comment déclarer un accident de la vie courante à son assurance ?"
+   },
+   {
+    "q": "Comment déclarer un accident ménager ?"
+   },
+   {
+    "q": "Comment et sous quel délai faire une déclaration d'accident domestique à l'assurance ?"
+   },
+   {
+    "q": "Comment faire une déclaration d’accident domestique ?"
+   },
+   {
+    "q": "Comment fonctionne la garantie accidents de la vie ?"
+   },
+   {
+    "q": "Comment limiter les risques d’accidents domestiques ?"
+   },
+   {
+    "q": "Comment obtenir une indemnisation sans tiers responsable après un accident domestique avec ?"
+   },
+   {
+    "q": "Comment réagir en cas d’accident domestique ?"
+   },
+   {
+    "q": "Comment s'assurer contre les accidents domestiques ?"
+   },
+   {
+    "q": "Comment se déroule l’expertise médicale dans le cadre d’une garantie accidents de la vie (GAV) ?"
+   },
+   {
+    "q": "Comment se déroule l’indemnisation ?"
+   },
+   {
+    "q": "Comment se déroule l’indemnisation avec une garantie accidents de la vie (GAV) ?"
+   },
+   {
+    "q": "Comment se déroule l’indemnisation lorsque la victime est seule à l’origine de l’accident ?"
+   },
+   {
+    "q": "Comment se déroule l’indemnisation lorsqu’un tiers est responsable de l’accident ?"
+   },
+   {
+    "q": "Comment se déroule l’indemnisation si un tiers est responsable de l’accident de vie courante ?"
+   },
+   {
+    "q": "Comment secourir et éviter les accidents d’électrisation ?"
+   },
+   {
+    "q": "Comment éviter les accidents domestiques ?"
+   },
+   {
+    "q": "Comment être indemnisé rapidement ?"
+   },
+   {
+    "q": "Dans quelles mesures les accidents ménagers sont couverts et quels biens sont protégés ?"
+   },
+   {
+    "q": "Dans quelles situations pouvez-vous être confronté à un accident de la vie privée ?"
+   },
+   {
+    "q": "En cas d'accident de la route, doit-on attendre d'obtenir le procès-verbal pour obtenir une provision ?"
+   },
+   {
+    "q": "En cas d'incendie, est-on indemnisé si aucun détecteur de fumée n'a été installé ?"
+   },
+   {
+    "q": "En cas d’accident de la vie courante, peut-on être indemnisé sans responsable identifié ?"
+   },
+   {
+    "q": "Est-ce que l'assurance habitation couvre les accidents de la vie ?"
+   },
+   {
+    "q": "Est-ce que la carte bancaire couvre les accidents domestiques ?"
+   },
+   {
+    "q": "Est-ce que mon assurance habitation couvre les chutes ?"
+   },
+   {
+    "q": "Et lorsqu’un tiers est responsable de l’accident ?"
+   },
+   {
+    "q": "Faut-il laisser le dossier entre les mains de mon assureur ?"
+   },
+   {
+    "q": "La sécurité sociale rembourse-t-elle les accidents ménagers ?"
+   },
+   {
+    "q": "Lire aussi :\r\n                Comment se protéger des accidents de\r\n                    la vie courante ?"
+   },
+   {
+    "q": "Litige propriétaire - locataire : que fait l’assurance habitation ?"
+   },
+   {
+    "q": "On vous explique comment être bien couvert en cas d'accidents domestiques : votre assurance habitation peut-elle jouer ?"
+   },
+   {
+    "q": "Peut-on cumuler plusieurs indemnisations en cas d’accident de la vie courante ?"
+   },
+   {
+    "q": "Pourquoi l’indemnisation d’un accident domestique par l’assurance habitation est-elle souvent insuffisante ?"
+   },
+   {
+    "q": "Pourquoi souscrire aux assurances accidents de la vie Matmut ?"
+   },
+   {
+    "q": "Qu'est-ce qu'un accident domestique ?"
+   },
+   {
+    "q": "Qu'est-ce qu'un accident ménager et comment est-il pris en charge ?"
+   },
+   {
+    "q": "Que couvre l’assurance habitation d’un locataire ?"
+   },
+   {
+    "q": "Que couvre l’assurance habitation en cas d’accident ménager ?"
+   },
+   {
+    "q": "Que faire en cas d'accident domestique ?"
+   },
+   {
+    "q": "Que faire en cas de désaccord avec l’assureur concernant l’indemnisation d’un accident de la vie courante ?"
+   },
+   {
+    "q": "Que faire en cas d’accident domestique ?"
+   },
+   {
+    "q": "Que fait mon assurance habitation en cas de nid de guêpes ?"
+   },
+   {
+    "q": "Que peut faire l'assurance habitation en cas de conflit de voisinage ?"
+   },
+   {
+    "q": "Que prend en charge l'assurance multirisques habitation (MRH) ?"
+   },
+   {
+    "q": "Que prend en charge l’assurance accidents de la vie (AAV) ?"
+   },
+   {
+    "q": "Que veut dire accident domestique (ou accident ménager) ?"
+   },
+   {
+    "q": "Que veut dire accident domestique ?"
+   },
+   {
+    "q": "Quel est le délai de déclaration d’un accident domestique ?"
+   },
+   {
+    "q": "Quel est le délai d’indemnisation par la garantie accident de la vie (GAV) ?"
+   },
+   {
+    "q": "Quel est le délai d’indemnisation par l’assurance des accidents de la vie ?"
+   },
+   {
+    "q": "Quel est le délai pour déclarer un accident domestique ?"
+   },
+   {
+    "q": "Quelle assurance couvre les accidents domestiques ?"
+   },
+   {
+    "q": "Quelle assurance habitation pour une location meublée ?"
+   },
+   {
+    "q": "Quelle assurance habitation souscrire pour une sous-location ?"
+   },
+   {
+    "q": "Quelle assurance permet d'indemniser les accidents domestiques ?"
+   },
+   {
+    "q": "Quelle assurance pour ma péniche ?"
+   },
+   {
+    "q": "Quelle assurance vous couvre en cas d’accident domestique ?"
+   },
+   {
+    "q": "Quelle est la définition d’un accident domestique ?"
+   },
+   {
+    "q": "Quelle est la meilleure solution d'assurance en cas d'accident domestique ?"
+   },
+   {
+    "q": "Quelle indemnisation suite à un accident domestique ?"
+   },
+   {
+    "q": "Quelle protection couvre les accidents domestiques ?"
+   },
+   {
+    "q": "Quelle sera l’indemnisation à la suite d’un accident domestique ?"
+   },
+   {
+    "q": "Quelles assurances couvrent les accidents domestiques ?"
+   },
+   {
+    "q": "Quelles conséquences financières l'accident domestique en assurance habitation compense-t-il ?"
+   },
+   {
+    "q": "Quelles différences entre accident domestique (ou ménager) et accident de la vie privée (ou de la vie courante) ?"
+   },
+   {
+    "q": "Quelles sont les conditions d’indemnisation par l’assurance habitation ou l’assurance accident de la vie, si vous avez souscrit ce type de police ?"
+   },
+   {
+    "q": "Quelles sont les démarches à suivre pour obtenir une indemnisation après un accident domestique ?"
+   },
+   {
+    "q": "Quelles sont les modalités d’indemnisation ?"
+   },
+   {
+    "q": "Quelles sont les principales assurances qui peuvent intervenir en cas d’accident domestique ?"
+   },
+   {
+    "q": "Quelles sont les principales précautions à prendre pour limiter les risques d’accidents domestiques pour les enfants ?"
+   },
+   {
+    "q": "Quels accidents ouvrent droit à une indemnisation ?"
+   },
+   {
+    "q": "Quels accidents sont couverts par la garantie accidents de la vie (GAV) ?"
+   },
+   {
+    "q": "Quels préjudices peuvent être indemnisés ?"
+   },
+   {
+    "q": "Quels préjudices peuvent être indemnisés par la garantie accidents de la vie (GAV) ?"
+   },
+   {
+    "q": "Quels recours en cas de litige avec l’assurance ?"
+   },
+   {
+    "q": "Quels risques sont réellement couverts par la garantie accident domestique de l’assurance habitation ?"
+   },
+   {
+    "q": "Quels sont les accidents de la vie courante qui ouvrent droit à une indemnisation ?"
+   },
+   {
+    "q": "Quels sont les accidents domestiques les plus fréquents ?"
+   },
+   {
+    "q": "Quels sont les différents types d'accidents domestiques ?"
+   },
+   {
+    "q": "Quels sont les différents types d’accidents domestiques ?"
+   },
+   {
+    "q": "Quels sont les recours possibles en cas de litige avec l’assurance ?"
+   },
+   {
+    "q": "Quels sont les risques couverts par un contrat d’assurance accidents de la vie (AAV) ?"
+   },
+   {
+    "q": "Quels sont les risques couverts par une assurance des accidents de la vie ?"
+   },
+   {
+    "q": "Quels types de sinistres sont couverts par l’assurance accident de la vie ?"
+   },
+   {
+    "q": "Quels types d’assurance peuvent intervenir ?"
+   },
+   {
+    "q": "Qui est couvert par la garantie accident domestique ?"
+   },
+   {
+    "q": "Qui est couvert par la garantie accidents de la vie (GAV) ?"
+   },
+   {
+    "q": "Qui est couvert par une assurance des accidents de la vie ?"
+   },
+   {
+    "q": "Qui est couvert par une garantie accident de la vie (GAV) ?"
+   },
+   {
+    "q": "Qui est touché par les accidents domestiques en France ?"
+   },
+   {
+    "q": "Qui indemnise un accident de la vie courante ?"
+   },
+   {
+    "q": "Qui va déterminer mon droit à indemnisation ?"
+   },
+   {
+    "q": "Qu’appelle-t-on un accident ménager ?"
+   },
+   {
+    "q": "Qu’est-ce que la garantie accidents de la vie (GAV) ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un accident de la vie courante ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un accident de la vie domestique ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un accident de la vie privée ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un accident domestique en termes d’assurance ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un accident domestique et comment est-il défini juridiquement ?"
+   },
+   {
+    "q": "Ramonage et assurance habitation : quelles sont les obligations ?"
+   },
+   {
+    "q": "Suite à un accident domestique, quels sont les préjudices qui peuvent être indemnisés ?"
+   },
+   {
+    "q": "Un accident domestique est-il toujours couvert par votre assurance habitation ?"
+   },
+   {
+    "q": "Victime d'un accident de la vie ou d'un accident domestique ?"
+   },
+   {
+    "q": "Victime d’un accident domestique, vous vous demandez si votre assurance habitation ou accident de la vie peut vous indemniser ?"
+   },
+   {
+    "q": "Vous avez subi un dommage corporel en vous blessant seul(e), sans pouvoir en reporter la faute sur un tiers ?"
+   },
+   {
+    "q": "Vous avez été victime d’un accident de la vie privée ?"
+   },
+   {
+    "q": "Vous avez été victime d’un dommage corporel, d’un accident de la route, d’une erreur médicale ?"
+   },
+   {
+    "q": "Vous cherchez à protéger votre famille avec un contrat d'assurance accidents de la vie ?"
+   },
+   {
+    "q": "Vous recherchez une assurance accident de la vie pour être protégé en cas d’accidents domestiques ?"
+   },
+   {
+    "q": "Vous êtes victime d’un accident dans votre vie quotidienne (chute, bricolage, sport…) ?"
+   },
+   {
+    "q": "les victimes, déjà impactées, ne savent pas comment réagir ni vers qui se tourner : puis-je être indemnisé(e) ?"
+   },
+   {
+    "q": "À lire aussi : Déclaration de sinistre à l'assureur : comment faire ?"
+   },
+   {
+    "q": "À lire également : Dommage électrique : quelle prise en charge par l'assurance habitation ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3077",
+   "title": "Accident de la vie courante : indemnisation par l'assurance | Service Public",
+   "desc": "L'accident de la vie courante peut être couvert par votre assurance « accidents de la vie » ou par l'assurance « responsabilité civile » du tiers responsable.",
+   "headers": [
+    [
+     "h1",
+     "Accident de la vie courante : indemnisation par l'assurance"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un accident de la vie courante ?"
+    ],
+    [
+     "h2",
+     "Qui indemnise un accident de la vie courante ?"
+    ],
+    [
+     "h2",
+     "En cas d’accident de la vie courante, peut-on être indemnisé sans responsable identifié ?"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que la garantie accidents de la vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "Qui est couvert par la garantie accidents de la vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "Quels accidents sont couverts par la garantie accidents de la vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "Quels préjudices peuvent être indemnisés par la garantie accidents de la vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "Comment déclarer un accident de la vie courante à son assurance ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule l’expertise médicale dans le cadre d’une garantie accidents de la vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule l’indemnisation avec une garantie accidents de la vie (GAV) ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule l’indemnisation si un tiers est responsable de l’accident de vie courante ?"
+    ],
+    [
+     "h2",
+     "Peut-on cumuler plusieurs indemnisations en cas d’accident de la vie courante ?"
+    ],
+    [
+     "h2",
+     "Que faire en cas de désaccord avec l’assureur concernant l’indemnisation d’un accident de la vie courante ?"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Questions ? Réponses !"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 52,
+   "word_count": 1975,
+   "content_len": 12506
+  },
+  {
+   "rank": 2,
+   "url": "https://www.credit-agricole.fr/particulier/conseils/magazine/tout-un-mag/accident-domestique-quelle-prise-en-charge-par-l-assurance.html",
+   "title": "Accident domestique assurance : indemnisation et déclaration - Crédit Agricole",
+   "desc": "Victime d’un accident domestique, vous vous demandez si votre assurance habitation ou accident de la vie peut vous indemniser ? Découvrez ce qu’il faut savoir.",
+   "headers": [
+    [
+     "h1",
+     "Accident domestique : quelle prise en charge par l’assurance ?"
+    ],
+    [
+     "h2",
+     "Que veut dire accident domestique (ou accident ménager) ?"
+    ],
+    [
+     "h2",
+     "Accidents domestiques : quelle prise en charge par l'assurance ?"
+    ],
+    [
+     "h2",
+     "Comment et sous quel délai faire une déclaration d'accident domestique à l'assurance ?"
+    ],
+    [
+     "h2",
+     "Comment réagir en cas d’accident domestique ?"
+    ],
+    [
+     "h2",
+     "Comment éviter ou limiter les risques domestiques ?"
+    ],
+    [
+     "h2",
+     ""
+    ]
+   ],
+   "content_score": 72,
+   "readability": 32,
+   "word_count": 3108,
+   "content_len": 19589
+  },
+  {
+   "rank": 3,
+   "url": "https://reassurez-moi.fr/guide/assurance-habitation/accident-domestique",
+   "title": "Quelle assurance vous couvre en cas d’accident domestique ?",
+   "desc": "Accident domestique : quelle prise en charge d'assurance MRH - Quelles démarches ? Conseils d'expert + Devis en ligne 100 % gratuit !",
+   "headers": [
+    [
+     "h1",
+     "Quelle assurance vous couvre en cas d’accident domestique ?"
+    ],
+    [
+     "h2",
+     "Quelle assurance permet d'indemniser les accidents domestiques ?"
+    ],
+    [
+     "h2",
+     "Un accident domestique est-il toujours couvert par votre assurance habitation ?"
+    ],
+    [
+     "h2",
+     "Quelle est la meilleure solution d'assurance en cas d'accident domestique ?"
+    ],
+    [
+     "h2",
+     "Quelle sera l’indemnisation à la suite d’un accident domestique ?"
+    ],
+    [
+     "h2",
+     "Quel est le délai de déclaration d’un accident domestique ?"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 37,
+   "word_count": 1324,
+   "content_len": 8475
+  },
+  {
+   "rank": 4,
+   "url": "https://www.victimes-solidaires.org/fr/accident-vie/id-22-accident-domestique",
+   "title": "Victimes d'accidents domestiques",
+   "desc": " L&rsquo;accident domestique va de la chute dans l&rsquo;escalier, &agrave; l&rsquo;accident de tron&ccedil;onneuse, en passant par l&rsquo;accident de bricolage. Un accident domestique est un accident de la vie courante qui peut engager la responsabilit&eacute; civile d&rsquo;un tiers, mais le plus souvent, survenir sans que quiconque d&rsquo;autre que la victime n&rsquo;a fait quoi que ce soit. ",
+   "headers": [
+    [
+     "h1",
+     "Accident domestique"
+    ],
+    [
+     "h2",
+     "Accident domestique causé par un tiers"
+    ],
+    [
+     "h2",
+     "Accident domestique sans tiers implique"
+    ],
+    [
+     "h2",
+     "Vos questions, nos réponses"
+    ],
+    [
+     "h2",
+     "Vous avez été victime d’un dommage corporel, d’un accident de la route, d’une erreur médicale ?"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 28,
+   "word_count": 2113,
+   "content_len": 13636
+  },
+  {
+   "rank": 5,
+   "url": "https://www.matmut.fr/assurance/accident-vie/situation/accident-domestique",
+   "title": "Assurance accidents domestiques et blessures accidentelles",
+   "desc": "Chute, brûlure, intoxication , les accidents courants sont nombreux. Découvrez les garanties des assurances Matmut en cas d'accident domestique.",
+   "headers": [
+    [
+     "h1",
+     "Accidents domestiques"
+    ],
+    [
+     "h2",
+     "Un accident domestique, c'est quoi : définition"
+    ],
+    [
+     "h2",
+     "Quels sont les accidents domestiques les plus fréquents ?"
+    ],
+    [
+     "h2",
+     "Qui sont les personnes les plus concernées ?"
+    ],
+    [
+     "h2",
+     "Comment éviter les accidents domestiques ?"
+    ],
+    [
+     "h2",
+     "Comment s'assurer contre les accidents domestiques ?"
+    ],
+    [
+     "h2",
+     "L’assurance accident domestique de la Matmut : points forts et principales garanties"
+    ],
+    [
+     "h2",
+     "Assurances Accidents de la vie - Tableau de garanties en cas d’accident domestique"
+    ],
+    [
+     "h2",
+     "Pourquoi souscrire aux assurances accidents de la vie Matmut ?"
+    ],
+    [
+     "h2",
+     "Les points forts des assurances Accidents de la vie"
+    ],
+    [
+     "h2",
+     "Les points forts des assurances Accidents de la vie"
+    ],
+    [
+     "h2",
+     "Les garanties des assurances Accidents de la vie au quotidien"
+    ],
+    [
+     "h2",
+     "Que faire en cas d'accident domestique ?"
+    ],
+    [
+     "h2",
+     "Les conseils assurances Accidents de la vie"
+    ],
+    [
+     "h2",
+     "Documents utiles"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 30,
+   "word_count": 2767,
+   "content_len": 17111
+  },
+  {
+   "rank": 6,
+   "url": "https://cherrier-bodineau.fr/indemnisation-accidents-domestiques-et-vie-courante/",
+   "title": "Indemnisation accident domestique : démarches et recours",
+   "desc": "Découvrez comment obtenir une indemnisation juste après un accident domestique. Nos conseils pour défendre vos droits efficacement.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation des accidents domestiques"
+    ],
+    [
+     "h2",
+     "Comprendre ce qu’est un accident domestique"
+    ],
+    [
+     "h2",
+     "Quels types d’assurance peuvent intervenir ?"
+    ],
+    [
+     "h2",
+     "Démarches à suivre pour obtenir une indemnisation"
+    ],
+    [
+     "h2",
+     "Quand et pourquoi faire appel à un avocat ?"
+    ],
+    [
+     "h2",
+     "Quels recours en cas de litige avec l’assurance ?"
+    ],
+    [
+     "h2",
+     "Votre accompagnement face à l’accident domestique"
+    ],
+    [
+     "h2",
+     "FAQ sur l’indemnisation des accidents domestiques"
+    ]
+   ],
+   "content_score": 70,
+   "readability": 27,
+   "word_count": 3119,
+   "content_len": 22293
+  },
+  {
+   "rank": 7,
+   "url": "https://www.bourdet-avocat.fr/droit-victimes-prejudice-corporel/indemnisation-victime-accident-de-la-vie/",
+   "title": "Indemnisation accident domestique ou vie courante, garantie assurance, Avocat Rouen | Bourdet Avocat",
+   "desc": "Victime d'un accident de la vie ou d'un accident domestique ? Maître Bourdet, Avocat spécialisé à Rouen, vous accompagne dans l'obtention d'une juste et totale indemnisation de vos préjudices.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation victime accident de la vie"
+    ],
+    [
+     "h2",
+     "Quels sont les accidents de la vie courante qui ouvrent droit à une indemnisation ?"
+    ],
+    [
+     "h2",
+     "Suite à un accident domestique, quels sont les préjudices qui peuvent être indemnisés ?"
+    ],
+    [
+     "h2",
+     "Comment Maître BOURDET peut-il m’aider à obtenir l’indemnisation de mes préjudices ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule l’indemnisation lorsque la victime est seule à l’origine de l’accident ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule l’indemnisation lorsqu’un tiers est responsable de l’accident ?"
+    ],
+    [
+     "h2",
+     "Votre avocat en droit de la réparation du préjudice corporel à Rouen"
+    ]
+   ],
+   "content_score": 67,
+   "readability": 26,
+   "word_count": 1282,
+   "content_len": 8257
+  },
+  {
+   "rank": 8,
+   "url": "https://www.lelynx.fr/assurance-habitation/sinistre/incendie/accident-menager-domestique/",
+   "title": "Accident ménager domestique : quelle prise en charge ?",
+   "desc": "Un accident ménager se définit comme un dommage provoqué au domicile.",
+   "headers": [
+    [
+     "h1",
+     "Qu'est-ce qu'un accident ménager et comment est-il pris en charge ?"
+    ],
+    [
+     "h2",
+     "Qu’appelle-t-on un accident ménager ?"
+    ],
+    [
+     "h2",
+     "Que couvre l’assurance habitation en cas d’accident ménager ?"
+    ],
+    [
+     "h2",
+     "Comment déclarer un accident ménager ?"
+    ],
+    [
+     "h2",
+     "Foire aux questions (FAQ)"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 36,
+   "word_count": 1910,
+   "content_len": 12682
+  },
+  {
+   "rank": 9,
+   "url": "https://particuliers.sg.fr/nos-conseils/assurer/accidents-domestiques-assurance",
+   "title": "Accidents domestiques assurance : laquelle choisir ? - SG",
+   "desc": "Découvrez la définition d’un accident ménager, les assurances pour être couvert en cas d’accident domestique ainsi que les modalités d’indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Accidents domestiques : quelle assurance pour être bien protégé ?"
+    ],
+    [
+     "h2",
+     "Qu'est-ce qu'un accident domestique ?"
+    ],
+    [
+     "h2",
+     "Vous recherchez une assurance accident de la vie pour être protégé en cas d’accidents domestiques ?"
+    ],
+    [
+     "h2",
+     "Quelles assurances couvrent les accidents domestiques ?"
+    ],
+    [
+     "h2",
+     "Quelle indemnisation suite à un accident domestique ?"
+    ],
+    [
+     "h2",
+     "Qui est couvert par une assurance des accidents de la vie ?"
+    ],
+    [
+     "h2",
+     "Quels sont les risques couverts par une assurance des accidents de la vie ?"
+    ],
+    [
+     "h2",
+     "Comment choisir une assurance des accidents de la vie ?"
+    ],
+    [
+     "h2",
+     "Accidents domestiques et assurance : ce qu'il faut retenir"
+    ],
+    [
+     "h2",
+     "Une assurance des accidents de la vie pour être protégé au quotidien."
+    ],
+    [
+     "h2",
+     "Accidents domestiques : vos questions, nos réponses"
+    ]
+   ],
+   "content_score": 73,
+   "readability": 29,
+   "word_count": 3149,
+   "content_len": 20410
+  },
+  {
+   "rank": 10,
+   "url": "https://www.magnolia.fr/assurance-habitation/sinistres/accident-domestique",
+   "title": "Accident domestique assurance habitation : indemnisation - Magnolia.fr",
+   "desc": "Accident domestique et assurance habitation : découvrez comment être indemnisé sans tiers responsable, les garanties à activer et les pièges à éviter.",
+   "headers": [
+    [
+     "h1",
+     "Accident domestique assurance habitation : indemnisation sans tiers"
+    ],
+    [
+     "h2",
+     "Pourquoi l’indemnisation d’un accident domestique par l’assurance habitation est-elle souvent insuffisante ?"
+    ],
+    [
+     "h2",
+     "Quels risques sont réellement couverts par la garantie accident domestique de l’assurance habitation ?"
+    ],
+    [
+     "h2",
+     "Comment obtenir une indemnisation sans tiers responsable après un accident domestique avec ?"
+    ],
+    [
+     "h2",
+     "Quelles conséquences financières l'accident domestique en assurance habitation compense-t-il ?"
+    ],
+    [
+     "h2",
+     "FAQ - Accident domestique et assurance habitation"
+    ]
+   ],
+   "content_score": 77,
+   "readability": 30,
+   "word_count": 1574,
+   "content_len": 10591
+  },
+  {
+   "rank": 11,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/accident-de-la-vie-htm/accidents-domestiques",
+   "title": "Accidents Domestiques - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France vous accompagne dans les démarches après un accident domestique.",
+   "headers": [
+    [
+     "h1",
+     "Accidents Domestiques"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Accidents domestiques : comprendre, prévenir et indemniser"
+    ],
+    [
+     "h2",
+     "Accidents Domestiques : l’essentiel à retenir"
+    ],
+    [
+     "h2",
+     "Accidents Domestiques : Comprendre, Prévenir et Indemniser"
+    ],
+    [
+     "h2",
+     "Les accidents domestiques, également appelés accidents de la vie courante (ACVC), sont des incidents imprévus qui surviennent dans le cadre de la vie quotidienne et qui peuvent causer des blessures pl"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 36,
+   "word_count": 2360,
+   "content_len": 15547
+  },
+  {
+   "rank": 12,
+   "url": "https://www.indemnisationprejudice.fr/indemnisation-accident-de-la-vie/indemnisation-accident-domestique/",
+   "title": "Indemnisation : Indemnisation suite à un accident domestique - Indemnisation Préjudice Corporel",
+   "desc": "Indemnisation suite à un accident domestique - Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation suite à un accident domestique"
+    ],
+    [
+     "h2",
+     "Victime d’un accident domestique ou accident de la vie courante"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 31,
+   "word_count": 584,
+   "content_len": 3866
+  },
+  {
+   "rank": 13,
+   "url": "https://avocat-nakache.fr/toulouse-indemnisation-victime/accident-domestique/",
+   "title": "Les accidents domestiques - Cabinet d'avocats Pascal Nakache : Préjudice corporel, droit du handicap, droit de l'autisme",
+   "desc": "Les accidents domestiques sont une source de préjudice corporel et un véritable fléau. Si un tiers est impliqué, il convient de prouver sa responsabilité.",
+   "headers": [
+    [
+     "h2",
+     "Les accidents de la vie courante"
+    ],
+    [
+     "h1",
+     "LES ACCIDENTS DE LA VIE COURANTE – Accidents domestiques"
+    ],
+    [
+     "h1",
+     "Si un tiers est impliqué"
+    ],
+    [
+     "h1",
+     "Si aucun tiers n’est impliqué"
+    ],
+    [
+     "h1",
+     "Nous vous rappelons"
+    ],
+    [
+     "h1",
+     "Faites-vous rappeler"
+    ],
+    [
+     "h1",
+     "Nous vous rappelons"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 29,
+   "word_count": 1039,
+   "content_len": 6721
+  },
+  {
+   "rank": 14,
+   "url": "https://association-aivf-faq.fr/accident-de-la-vie-faq/indemnisation-accident-vie/indemnisation-dun-accident-domestique",
+   "title": "Indemnisation d'un accident domestique - Association Victimes de France AIVF",
+   "desc": "L'indemnisation d'un accident domestique, accident de la vie privée, Garantie accident de la vie GAV ou responsabilité d'un tiers",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d’un accident domestique"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation d’un accident domestique"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 47,
+   "word_count": 1091,
+   "content_len": 7170
+  },
+  {
+   "rank": 15,
+   "url": "https://jmp-avocat-indemnisation.fr/victime-accident-domestique-accident-de-la-vie-chute-travaux-assurance-habitation-prevoyance.html",
+   "title": "Accident Domestique : Vos Droits à l'Indemnisation | GAV",
+   "desc": "Victime d'un accident domestique ? Chute, brûlure, bricolage... Découvrez comment obtenir votre indemnisation complète. GAV, responsabilité civile : guide 2026",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation des Accidents Domestiques & Accidents de la Vie : Vos Droits Expliqués"
+    ],
+    [
+     "h2",
+     "Les différents types d'accidents de la vie couverts"
+    ],
+    [
+     "h2",
+     "La Garantie Accidents de la Vie (GAV) : un dispositif d'indemnisation spécifique"
+    ],
+    [
+     "h2",
+     "Dans quels cas la GAV vous indemnise-t-elle ?"
+    ],
+    [
+     "h2",
+     "Dans quels cas la GAV ne fonctionne-t-elle PAS ?"
+    ],
+    [
+     "h2",
+     "L'alternative de la responsabilité civile : souvent plus avantageuse que la GAV"
+    ],
+    [
+     "h2",
+     "Les accidents pris en charge par l'assurance dommage ouvrage des professionnels"
+    ],
+    [
+     "h2",
+     "Que couvre concrètement l'indemnisation d'un accident domestique ?"
+    ],
+    [
+     "h2",
+     "Pourquoi faire appel à un avocat spécialisé après un accident de la vie ?"
+    ],
+    [
+     "h2",
+     "Cas spécifiques d'accidents domestiques et de la vie"
+    ],
+    [
+     "h2",
+     "FAQ : Vos questions sur l'indemnisation des accidents domestiques"
+    ],
+    [
+     "h2",
+     "Bibliographie et ressources juridiques"
+    ],
+    [
+     "h2",
+     "Besoin d'aide ? Contactez notre cabinet spécialisé"
+    ],
+    [
+     "h2",
+     "⏰ AGISSEZ MAINTENANT : Chaque Jour Compte"
+    ]
+   ],
+   "content_score": 71,
+   "readability": 28,
+   "word_count": 5147,
+   "content_len": 35125
+  },
+  {
+   "rank": 16,
+   "url": "https://www.lesfurets.com/assurance-habitation/sinistre/accident-menager-domestique",
+   "title": "Un instant…",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "www.lesfurets.com"
+    ],
+    [
+     "h2",
+     "Vérification de sécurité en cours"
+    ],
+    [
+     "h2",
+     "Vérification réussie. En attente de la réponse de www.lesfurets.com."
+    ]
+   ],
+   "content_score": 0,
+   "readability": 61,
+   "word_count": 58,
+   "content_len": 397
+  },
+  {
+   "rank": 17,
+   "url": "https://www.smatis.fr/particuliers/assurance-prevoyance/protection-accidents-de-la-vie-gav/comment-etre-assure-en-cas-daccident-domestique/",
+   "title": "Comment être assuré en cas d’accident domestique ?",
+   "desc": "Découvrez comment être assuré en cas d'accident domestique, quelles assurances couvrent ces incidents, et obtenez la meilleure couverture",
+   "headers": [
+    [
+     "h1",
+     "Quelle assurance vous couvre en cas d’accident domestique ?"
+    ],
+    [
+     "h2",
+     "Quelle assurance permet d’indemniser les accidents domestiques ?"
+    ],
+    [
+     "h2",
+     "Quelle est la meilleure assurance en cas d’accident domestique ?"
+    ],
+    [
+     "h2",
+     "Les accidents domestiques sont-ils couverts par votre assurance habitation ?"
+    ],
+    [
+     "h2",
+     "Comment se calcule l’indemnisation après un accident domestique ?"
+    ],
+    [
+     "h2",
+     "Quel est le délai pour déclarer un accident domestique ?"
+    ]
+   ],
+   "content_score": 67,
+   "readability": 34,
+   "word_count": 2395,
+   "content_len": 15776
+  },
+  {
+   "rank": 18,
+   "url": "https://hadrienmuller-avocat.com/comment-etre-indemnise-pour-les-blessures-corporelles-dues-a-un-accident-domestique/",
+   "title": "Indemnisation : accident domestique - Hadrien Muller",
+   "desc": "Victime d'un accident domestique ? Comment être indemnisé au titre du préjudice corporel ? Lisez ceci.",
+   "headers": [
+    [
+     "h2",
+     "Avocat spécialisé en préjudice corporel"
+    ],
+    [
+     "h2",
+     "Diplômé en évaluation des traumatismes crâniens"
+    ],
+    [
+     "h1",
+     "Comment être indemnisé pour les blessures corporelles dues à un accident domestique ?"
+    ],
+    [
+     "h2",
+     "Table des matières"
+    ],
+    [
+     "h2",
+     "Maître Hadrien MULLER"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 35,
+   "word_count": 1034,
+   "content_len": 6696
+  },
+  {
+   "rank": 19,
+   "url": "https://www.meilleurtaux.com/comparateur-assurance/assurance-habitation/garanties/accident-domestique-assurance-habitation.html",
+   "title": "Accident domestique et assurance habitation - Meilleurtaux",
+   "desc": "Les accidents domestiques sont des événements imprévus pouvant survenir dans notre vie quotidienne. Chutes, brûlures, intoxications ou encore électrocutions, ces accidents peuvent avoir de lourdes conséquences pour la santé et le bien-être. La garant...",
+   "headers": [],
+   "content_score": 18,
+   "readability": 26,
+   "word_count": 99,
+   "content_len": 749
+  },
+  {
+   "rank": 20,
+   "url": "https://maitre-morin-avocat.fr/accueil/indemnisation-accident-de-la-vie/indemnisation-suite-a-un-accident-domestique",
+   "title": "Indemnisation suite à un accident domestique : comment procéder ?",
+   "desc": "L'indemnisation d'un accident domestique dépend des circonstances de celui-ci. Accident seul ou responsabilité d'un tiers ?",
+   "headers": [
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "❓ Accident domestique — qui indemnise, démarches, calcul & modèles utiles"
+    ],
+    [
+     "h1",
+     "Indemnisation suite à un accident domestique : comprendre, prouver et obtenir réparation"
+    ],
+    [
+     "h2",
+     "1) Qu’est-ce qu’un accident domestique ?"
+    ],
+    [
+     "h2",
+     "2) Qui peut être responsable ?"
+    ],
+    [
+     "h2",
+     "3) Quelles assurances indemnisent ?"
+    ],
+    [
+     "h2",
+     "4) Preuves à réunir"
+    ],
+    [
+     "h2",
+     "5) Quels préjudices peuvent être indemnisés ?"
+    ],
+    [
+     "h2",
+     "6) Démarches & délais"
+    ],
+    [
+     "h2",
+     "7) Cas fréquents"
+    ],
+    [
+     "h2",
+     "8) Exemple concret (fictif)"
+    ],
+    [
+     "h2",
+     "9) Conseils pratiques"
+    ],
+    [
+     "h2",
+     "10) Rôle de l’avocat"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "Principes d'indemnisation de l'accident domestique"
+    ],
+    [
+     "h2",
+     "Exemples de questions de victimes concernant l'accident domestique"
+    ]
+   ],
+   "content_score": 72,
+   "readability": 35,
+   "word_count": 2945,
+   "content_len": 18826
+  },
+  {
+   "rank": 21,
+   "url": "https://victime-accident.lexvox-avocat.fr/accident-domestique/",
+   "title": "Accident domestique - Victime Accident",
+   "desc": "",
+   "headers": [
+    [
+     "h2",
+     "Comment être indemnisé en cas d’accident domestique ?"
+    ],
+    [
+     "h2",
+     "Comment être indemnisé en cas d’accident domestique ?"
+    ],
+    [
+     "h2",
+     "I. L’indemnisation d’un accident domestique"
+    ],
+    [
+     "h1",
+     "Pour aller plus loin :"
+    ],
+    [
+     "h2",
+     "LES PROCEDURES D'INDEMNISATION"
+    ],
+    [
+     "h2",
+     "DOSSIER SUR LES EXPERTISES"
+    ],
+    [
+     "h2",
+     "LES PREJUDICES INDEMNISABLES"
+    ],
+    [
+     "h2",
+     "NOS RESULTATS OBTENUS"
+    ],
+    [
+     "h2",
+     "Besoin d’aide ?"
+    ],
+    [
+     "h2",
+     "Prendre rendez-vous en cabinet"
+    ],
+    [
+     "h2",
+     "Etre rappelé par téléphone"
+    ],
+    [
+     "h2",
+     "Notre actualité"
+    ],
+    [
+     "h2",
+     "Accident de ski à la station Isola 2000"
+    ],
+    [
+     "h2",
+     "Accident de ski à la station Risoul"
+    ],
+    [
+     "h2",
+     "Accident de ski à la station Montgenèvre"
+    ],
+    [
+     "h2",
+     "Mariage Cantal : mort causée par l’effondrement d’une terrasse — droits et indemnisation des victimes"
+    ],
+    [
+     "h2",
+     "Victime indirecte : définition, droits et indemnisation"
+    ],
+    [
+     "h2",
+     "Délai de prescription assurance et paiement de l’indemnité"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 34,
+   "word_count": 1507,
+   "content_len": 9395
+  },
+  {
+   "rank": 22,
+   "url": "https://www.maif.fr/famille-vie-quotidienne/guide-accident-vie/montant-indemnisation-accident-corporel",
+   "title": "Montant des indemnisations suite à un accident corporel - MAIF",
+   "desc": "Calculez facilement le montant des indemnisations suite à un accident corporel grâce à nos barèmes, critères et exemples concrets en ligne.",
+   "headers": [
+    [
+     "h1",
+     "Montant des indemnisations en cas d’accident corporel : ce qu’il faut savoir"
+    ],
+    [
+     "h2",
+     "1\n                Qu’est-ce qu’un accident corporel ?"
+    ],
+    [
+     "h2",
+     "2\n                Quels sont les différents types d’accidents corporels ?"
+    ],
+    [
+     "h2",
+     "3\n                Quel est le cadre légal de l’indemnisation d'une assurance accident de la vie courante ?"
+    ],
+    [
+     "h2",
+     "4\n                Comment est calculé le barème d’indemnisation d'un préjudice corporel ?"
+    ],
+    [
+     "h2",
+     "5\n                Quel est le montant d'indemnisation d'une assurance dommage corporel ?"
+    ],
+    [
+     "h2",
+     "6\n                Quel type d’assurance couvre un accident corporel ?"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 41,
+   "word_count": 2510,
+   "content_len": 16304
+  },
+  {
+   "rank": 23,
+   "url": "https://assurance.carrefour.fr/assurance-protection-famille/toutes-vos-questions/qu-est-ce-qu-un-accident-domestique",
+   "title": "Accident domestique : définition, types et couverture assurance GAV",
+   "desc": "",
+   "headers": [
+    [
+     "h2",
+     "Sommaire"
+    ],
+    [
+     "h1",
+     "Qu'appelle-t-on accident domestique dans le jargon des assurances ?"
+    ],
+    [
+     "h2",
+     "Quels sont les divers types d'accidents domestiques ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Comment se protéger des accidents domestiques ?"
+    ],
+    [
+     "h2",
+     "Quels sont les préjudices pris en charge par une assurance accidents domestiques ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Comment déclarer un accident domestique ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Comment sont indemnisés les accidents de la vie domestique ?"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 36,
+   "word_count": 1606,
+   "content_len": 10219
+  },
+  {
+   "rank": 24,
+   "url": "https://www.mapa-assurances.fr/mag/assurance-garantie-accident-vie-privee-domestique-loisirs",
+   "title": "Accident domestique ou de la vie privée : quelle assurance ?",
+   "desc": "Protégez votre famille des accidents du quotidien avec la Garantie des Accidents de la Vie, une couverture essentielle et abordable.",
+   "headers": [
+    [
+     "h1",
+     "Êtes-vous assuré contre les accidents domestiques et de la vie privée ?"
+    ],
+    [
+     "h2",
+     "Quelle assurance pour un accident de la vie courante ?"
+    ],
+    [
+     "h2",
+     "Pourquoi prendre une Garantie des Accidents de la Vie, en complément à l'assurance habitation ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les autres extensions de garantie ?"
+    ],
+    [
+     "h2",
+     "Que choisir comme assurance de la vie ?"
+    ],
+    [
+     "h2",
+     "Déclaration d'un accident de la vie auprès de votre assurance"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 31,
+   "word_count": 1348,
+   "content_len": 8348
+  },
+  {
+   "rank": 25,
+   "url": "https://socialconsultingassur.com/support/est-ce-que-je-peux-etre-indemnise-en-cas-daccident-domestique",
+   "title": "Est-ce que je peux être indemnisé en cas d'accident domestique ?",
+   "desc": "Accident domestique : votre prévoyance peut vous indemniser en cas d’hospitalisation ou de blessures, selon vos garanties.",
+   "headers": [
+    [
+     "h1",
+     "Est-ce que je peux être indemnisé en cas d'accident domestique ?"
+    ],
+    [
+     "h2",
+     "Oui, les accidents de la vie courante, y compris les accidents domestiques, peuvent être couverts selon votre contrat."
+    ]
+   ],
+   "content_score": 44,
+   "readability": 54,
+   "word_count": 219,
+   "content_len": 1426
+  },
+  {
+   "rank": 26,
+   "url": "https://www.youtube.com/watch?v=w5vxIzd-_X0",
+   "title": "Victime d’un accident de la vie : Voici les étapes de la procédure pour obtenir une indemnisation - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Victime d’un accident de la vie : Voici les étapes de la procédure pour obtenir une indemnisation"
+    ],
+    [
+     "h1",
+     "Victime d’un accident de la vie : Voici les étapes de la procédure pour obtenir une indemnisation"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 27,
+   "readability": 58,
+   "word_count": 179,
+   "content_len": 1167
+  },
+  {
+   "rank": 27,
+   "url": "https://association-aivf-faq.fr/prejudices-corporels-faq/montant-indemnisation-accident-domestique",
+   "title": "Montant indemnisation accident domestique - Association Victimes de France AIVF",
+   "desc": "Montant indemnisation accident domestique, responsabilité civile, Garantie accident vie GAV, expertise médicale, chiffrage préjudice corporel",
+   "headers": [
+    [
+     "h1",
+     "Montant d’indemnisation d’un accident domestique"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Montant d’indemnisation d’un accident domestique"
+    ],
+    [
+     "h2",
+     "Questions concernant le montant d’indemnisation d’un accident domestique"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 37,
+   "word_count": 1595,
+   "content_len": 10443
+  },
+  {
+   "rank": 29,
+   "url": "https://medical.lexvox-avocat.fr/indemnisation-accident-domestique/",
+   "title": "Indemnisation en cas d’accident domestique - Lexvox Medical",
+   "desc": "",
+   "headers": [
+    [
+     "h2",
+     "Le cas particulier du locataire en cas d’accident domestique"
+    ],
+    [
+     "h2",
+     "En cas de vice ou de défaut de chose louée"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 26,
+   "word_count": 790,
+   "content_len": 4938
+  },
+  {
+   "rank": 30,
+   "url": "https://association-aivf-faq.fr/accident-de-la-vie-faq/garantie-accident-vie-gav/accidents-domestiques",
+   "title": "Accidents domestiques - Association Victimes de France AIVF",
+   "desc": "Accidents domestiques, accidents de la vie, indemnisation du préjudice, responsabilité civile d'un tiers, Garantie accident de la vie GAV",
+   "headers": [
+    [
+     "h1",
+     "Accidents domestiques : comment obtenir une indemnisation complète ?"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ Foire aux questions – Accidents domestiques"
+    ],
+    [
+     "h2",
+     "Questions concernant les accidents domestiques"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 45,
+   "word_count": 1638,
+   "content_len": 10801
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 2044,
+   "target": 2044
+  },
+  "readability": {
+   "median": 30,
+   "target": 30
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "accident",
+    "usage_pc": 100
+   },
+   {
+    "t": "accidents domestiques",
+    "usage_pc": 80
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 70
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 50
+   },
+   {
+    "t": "domestique assurance",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident domestique assurance",
+    "usage_pc": 30
+   }
+  ],
+  "desc": [
+   {
+    "t": "accident",
+    "usage_pc": 100
+   },
+   {
+    "t": "accidents domestiques",
+    "usage_pc": 80
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 60
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 60
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 40
+   },
+   {
+    "t": "un accident domestique",
+    "usage_pc": 40
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 30
+   },
+   {
+    "t": "assurance habitation",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident de la vie courante",
+    "usage_pc": 20
+   },
+   {
+    "t": "habitation",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident de la vie",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "accident",
+    "usage_pc": 100
+   },
+   {
+    "t": "accidents domestiques",
+    "usage_pc": 70
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 50
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 40
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 20
+   },
+   {
+    "t": "quelle assurance",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accident domestique",
+    "usage_pc": 10
+   },
+   {
+    "t": "assurance habitation",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de la vie courante",
+    "usage_pc": 10
+   },
+   {
+    "t": "habitation",
+    "usage_pc": 10
+   },
+   {
+    "t": "vie courante",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident ménager",
+    "usage_pc": 10
+   },
+   {
+    "t": "domestique assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident domestique assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "quelle prise en charge",
+    "usage_pc": 10
+   },
+   {
+    "t": "qu'est-ce qu'un accident",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "accident",
+    "usage_pc": 100
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 90
+   },
+   {
+    "t": "accidents domestiques",
+    "usage_pc": 80
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 80
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "un accident domestique",
+    "usage_pc": 60
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 40
+   },
+   {
+    "t": "les accidents",
+    "usage_pc": 40
+   },
+   {
+    "t": "assurance habitation",
+    "usage_pc": 30
+   },
+   {
+    "t": "habitation",
+    "usage_pc": 30
+   },
+   {
+    "t": "les accidents domestiques",
+    "usage_pc": 30
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 30
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident de la vie courante",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident de la vie",
+    "usage_pc": 20
+   },
+   {
+    "t": "vie courante",
+    "usage_pc": 20
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "assurance accident de la vie",
+    "usage_pc": 20
+   },
+   {
+    "t": "garantie accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident ménager",
+    "usage_pc": 20
+   },
+   {
+    "t": "assurance accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "cas d'accident domestique",
+    "usage_pc": 20
+   },
+   {
+    "t": "comment déclarer un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "suite à un accident domestique",
+    "usage_pc": 20
+   },
+   {
+    "t": "quels sont les accidents",
+    "usage_pc": 20
+   },
+   {
+    "t": "garantie accident de la vie",
+    "usage_pc": 10
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 10
+   },
+   {
+    "t": "les accidents de la vie",
+    "usage_pc": 10
+   },
+   {
+    "t": "souscrire",
+    "usage_pc": 10
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 10
+   },
+   {
+    "t": "couvrir les accidents",
+    "usage_pc": 10
+   },
+   {
+    "t": "assurance des accidents",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accident ménager",
+    "usage_pc": 10
+   },
+   {
+    "t": "quelle assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "quelle prise en charge",
+    "usage_pc": 10
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "droit à une indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "qu'est-ce qu'un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "couvert par votre assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "après un accident domestique",
+    "usage_pc": 10
+   },
+   {
+    "t": "comment obtenir une indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation suite",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "accidents domestiques",
+    "usage_pc": 100,
+    "sugg_usage": [
+     11,
+     25
+    ]
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 100,
+    "sugg_usage": [
+     16,
+     30
+    ]
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 100,
+    "sugg_usage": [
+     9,
+     28
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     8,
+     16
+    ]
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 100,
+    "sugg_usage": [
+     7,
+     17
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 100,
+    "sugg_usage": [
+     27,
+     73
+    ]
+   },
+   {
+    "t": "un accident domestique",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     8
+    ]
+   },
+   {
+    "t": "assurance habitation",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     9
+    ]
+   },
+   {
+    "t": "accident de la vie courante",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "contrat",
+    "usage_pc": 100,
+    "sugg_usage": [
+     9,
+     17
+    ]
+   },
+   {
+    "t": "habitation",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     15
+    ]
+   },
+   {
+    "t": "les accidents",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     10
+    ]
+   },
+   {
+    "t": "un accident de la vie",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "vie courante",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "garantie accident de la vie",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     8
+    ]
+   },
+   {
+    "t": "assurance accident de la vie",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 90,
+    "sugg_usage": [
+     3,
+     7
+    ]
+   },
+   {
+    "t": "les accidents domestiques",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     8
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     6
+    ]
+   },
+   {
+    "t": "garantie accident",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "les accidents de la vie",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "survenir",
+    "usage_pc": 100,
+    "sugg_usage": [
+     1,
+     8
+    ]
+   },
+   {
+    "t": "vie privée",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "accident de la vie privée",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "responsabilité civile",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "une indemnisation",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "souscrire",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     3
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "assurance accident",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "les dommages",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "intoxication",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "couvrir les accidents",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "prend en charge",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "accident ménager",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "indemnisation accident domestique",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "domestique assurance",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident domestique assurance",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurance des accidents",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un accident ménager",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "quelle assurance",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurance responsabilité civile",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "quelle prise en charge",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident survenant",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "souscrire une assurance",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident domestique survient",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garantie des accidents",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d’accident domestique",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident domestique",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d’accident de la vie",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garantie accident domestique de l’assurance",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident domestique de l’assurance habitation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déclaration d’un accident domestique",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation d’un accident domestique",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "qu’est-ce qu’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "définition d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contrat d’assurance multirisques habitation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les accidents domestiques peuvent",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contrat multirisque habitation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d'accident domestique",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de bricolage",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de jardinage",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment déclarer un accident",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident domestique peut",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à un accident domestique",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "qu'est-ce qu'un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "couvert par votre assurance",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accidents de la vie quotidienne",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "considéré comme un accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident domestique est un accident",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident domestique doit",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après un accident domestique",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment obtenir une indemnisation",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "quels sont les accidents",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si votre assurance habitation",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "vie domestique",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "maintenir votre niveau de vie",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation suite",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Assurance",
+    "importance": 71.384,
+    "relevance": 0.71384,
+    "confidence": 7.662400000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la vie courante",
+    "importance": 48.87423999999999,
+    "relevance": 0.76366,
+    "confidence": 1.5550000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_vie_courante"
+     ]
+    ]
+   },
+   {
+    "t": "Contrat",
+    "importance": 16.20352,
+    "relevance": 0.25318,
+    "confidence": 1.1352,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contrat"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 10.668288,
+    "relevance": 0.166692,
+    "confidence": 1.2002000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Intoxication",
+    "importance": 9.297152000000002,
+    "relevance": 0.145268,
+    "confidence": 1.7166000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Intoxication"
+     ]
+    ]
+   },
+   {
+    "t": "Brûlure",
+    "importance": 8.223120000000002,
+    "relevance": 0.22842,
+    "confidence": 3.8349999999999995,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Brûlure"
+     ]
+    ]
+   },
+   {
+    "t": "Contrat d'assurance",
+    "importance": 8.07156,
+    "relevance": 0.22421000000000002,
+    "confidence": 0.9244,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contrat_d'assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Responsabilité civile",
+    "importance": 7.392744,
+    "relevance": 0.20535399999999998,
+    "confidence": 1.2251999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Responsabilité_civile"
+     ]
+    ]
+   },
+   {
+    "t": "GAV",
+    "importance": 4.984,
+    "relevance": 0.3115,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Assurance habitation",
+    "importance": 4.4995199999999995,
+    "relevance": 0.28121999999999997,
+    "confidence": 0.7752000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_habitation"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance responsabilité civile",
+    "importance": 3.5584000000000007,
+    "relevance": 0.22240000000000001,
+    "confidence": 0.8523999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_responsabilité_civile"
+     ]
+    ]
+   },
+   {
+    "t": "Personne âgée",
+    "importance": 3.3728,
+    "relevance": 0.21080000000000002,
+    "confidence": 0.7034,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Personne_âgée"
+     ]
+    ]
+   },
+   {
+    "t": "Vie privée",
+    "importance": 3.340584,
+    "relevance": 0.092794,
+    "confidence": 1.2142,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Vie_privée"
+     ]
+    ]
+   },
+   {
+    "t": "Police (institution)",
+    "importance": 3.1550399999999996,
+    "relevance": 0.08764,
+    "confidence": 1.741,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Police_(institution)"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 2.94208,
+    "relevance": 0.18388,
+    "confidence": 1.3316000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance accident",
+    "importance": 2.5273600000000003,
+    "relevance": 0.15796000000000002,
+    "confidence": 0.8416,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_accident"
+     ]
+    ]
+   },
+   {
+    "t": "Risque",
+    "importance": 2.4418879999999996,
+    "relevance": 0.152618,
+    "confidence": 1.3434000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Risque"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 2.1602240000000004,
+    "relevance": 0.13501400000000002,
+    "confidence": 1.4484,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Véhicule (transport physique)",
+    "importance": 1.3372800000000002,
+    "relevance": 0.08358,
+    "confidence": 0.835,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Véhicule_(transport_physique)"
+     ]
+    ]
+   },
+   {
+    "t": "Incapacité permanente en France",
+    "importance": 1.3011199999999998,
+    "relevance": 0.08131999999999999,
+    "confidence": 0.6858000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Incapacité_permanente_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "France",
+    "importance": 1.29504,
+    "relevance": 0.08094,
+    "confidence": 2.8112000000000004,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/France"
+     ]
+    ]
+   },
+   {
+    "t": "Invalidité en France",
+    "importance": 1.060096,
+    "relevance": 0.066256,
+    "confidence": 0.7614,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Invalidité_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Jardinage",
+    "importance": 0.9340800000000001,
+    "relevance": 0.05838,
+    "confidence": 1.0353999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Jardinage"
+     ]
+    ]
+   },
+   {
+    "t": "Sécurité",
+    "importance": 0.8759359999999998,
+    "relevance": 0.054745999999999996,
+    "confidence": 0.74532,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Sécurité"
+     ]
+    ]
+   },
+   {
+    "t": "Responsabilité civile en droit français",
+    "importance": 0.7295200000000001,
+    "relevance": 0.18238000000000001,
+    "confidence": 0.429,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Responsabilité_civile_en_droit_français"
+     ]
+    ]
+   },
+   {
+    "t": "garantie accidents de la vie",
+    "importance": 0.6632,
+    "relevance": 0.1658,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Matmut",
+    "importance": 0.56296,
+    "relevance": 0.14074,
+    "confidence": 0.7304,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Matmut"
+     ]
+    ]
+   },
+   {
+    "t": "Incendie",
+    "importance": 0.554624,
+    "relevance": 0.034664,
+    "confidence": 0.7814,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Incendie"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal",
+    "importance": 0.5407679999999999,
+    "relevance": 0.033797999999999995,
+    "confidence": 0.9218,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 0.5353600000000002,
+    "relevance": 0.033460000000000004,
+    "confidence": 0.6529999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Garantie Accidents de la vie",
+    "importance": 0.52504,
+    "relevance": 0.13126,
+    "confidence": 0.1,
+    "links": []
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "accident\naccidents domestiques\nassurance\nindemnisation\ndomestique assurance\naccident domestique assurance",
+  "desc_title": "accident\naccidents domestiques\nassurance\nun accident\naccident de la vie\nun accident domestique\nindemnisation\nassurance habitation\naccident de la vie courante\nhabitation\nun accident de la vie",
+  "h1": "accident\naccidents domestiques\nassurance\nindemnisation\naccident de la vie\nquelle assurance\nun accident\nun accident domestique\nassurance habitation\naccident de la vie courante\nhabitation\nvie courante\naccident ménager\ndomestique assurance\naccident domestique assurance\nquelle prise en charge\nqu'est-ce qu'un accident",
+  "h2": "accident\nun accident\naccidents domestiques\nassurance\nindemnisation\nun accident domestique\naccident de la vie\nles accidents\nassurance habitation\nhabitation\nles accidents domestiques\nindemniser\nune indemnisation\naccident de la vie courante\nun accident de la vie\nvie courante\npréjudice\nassurance accident de la vie\ngarantie accident\ncorporel\naccident ménager\nassurance accident\nobtenir une indemnisation\nsuite à un accident\ncas d'accident domestique\ncomment déclarer un accident\nsuite à un accident domestique\nquels sont les accidents\ngarantie accident de la vie\nassureur\nles accidents de la vie\nsouscrire\nêtre indemnisé\ncouvrir les accidents\nassurance des accidents\nun accident ménager\nquelle assurance\nquelle prise en charge\naprès un accident\ndroit à une indemnisation\nqu'est-ce qu'un accident\ncouvert par votre assurance\naprès un accident domestique\ncomment obtenir une indemnisation\nindemnisation suite",
+  "content_basic": "accidents domestiques\nassurance\naccident de la vie\nindemnisation\nun accident\naccident\nun accident domestique\nassurance habitation\naccident de la vie courante\ncontrat\nhabitation\nles accidents\nun accident de la vie\nvie courante\ngarantie accident de la vie\npréjudice\nassurance accident de la vie\nassureur\nles accidents domestiques\nindemniser\ngarantie accident\nles accidents de la vie\nsurvenir\nvie privée\naccident de la vie privée\nresponsabilité civile\nune indemnisation\nsouscrire\ncorporel\nassurance accident\nles dommages\nintoxication\nêtre indemnisé\ncouvrir les accidents\nprend en charge",
+  "content_basic_w_ranges": "accidents domestiques: 11-25x\nassurance: 16-30x\naccident de la vie: 9-28x\nindemnisation: 8-16x\nun accident: 7-17x\naccident: 27-73x\nun accident domestique: 2-8x\nassurance habitation: 1-9x\naccident de la vie courante: 1-5x\ncontrat: 9-17x\nhabitation: 1-15x\nles accidents: 2-10x\nun accident de la vie: 1-6x\nvie courante: 1-5x\ngarantie accident de la vie: 1-5x\npréjudice: 2-8x\nassurance accident de la vie: 1-4x\nassureur: 3-7x\nles accidents domestiques: 1-8x\nindemniser: 2-6x\ngarantie accident: 1-5x\nles accidents de la vie: 1-2x\nsurvenir: 1-8x\nvie privée: 1-4x\naccident de la vie privée: 1-3x\nresponsabilité civile: 1-4x\nune indemnisation: 1-4x\nsouscrire: 2-3x\ncorporel: 1-7x\nassurance accident: 1-4x\nles dommages: 1-2x\nintoxication: 1-2x\nêtre indemnisé: 1-3x\ncouvrir les accidents: 1x\nprend en charge: 1x",
+  "content_extended": "accident ménager\nindemnisation accident domestique\ndomestique assurance\naccident domestique assurance\nobtenir une indemnisation\ndroit à indemnisation\nassurance des accidents\nun accident ménager\nquelle assurance\nassurance responsabilité civile\nquelle prise en charge\nsuite à un accident\naccident survenant\naprès un accident\nsouscrire une assurance\naccident domestique survient\ngarantie des accidents\ncas d’accident domestique\nvictime d’un accident\nvictime d’un accident domestique\nindemnisation d’un accident\ncas d’accident\ncas d’accident de la vie\ngarantie accident domestique de l’assurance\naccident domestique de l’assurance habitation\ndéclaration d’un accident domestique\nindemnisation d’un accident domestique\nqu’est-ce qu’un accident\ndéfinition d’un accident\ncontrat d’assurance multirisques habitation\nles accidents domestiques peuvent\ncontrat multirisque habitation\ndroit à une indemnisation\ncas d'accident domestique\naccident de bricolage\naccident de jardinage\ncomment déclarer un accident\naccident domestique peut\nsuite à un accident domestique\nqu'est-ce qu'un accident\ncouvert par votre assurance\naccidents de la vie quotidienne\nconsidéré comme un accident\naccident domestique est un accident\naccident domestique doit\naprès un accident domestique\ncomment obtenir une indemnisation\nquels sont les accidents\nsi votre assurance habitation\nvie domestique\nmaintenir votre niveau de vie\nindemnisation suite",
+  "content_extended_w_ranges": "accident ménager: 1-3x\nindemnisation accident domestique: 1x\ndomestique assurance: 1x\naccident domestique assurance: 1x\nobtenir une indemnisation: 1x\ndroit à indemnisation: 1x\nassurance des accidents: 1x\nun accident ménager: 1x\nquelle assurance: 1x\nassurance responsabilité civile: 1x\nquelle prise en charge: 1x\nsuite à un accident: 1x\naccident survenant: 1x\naprès un accident: 1x\nsouscrire une assurance: 1x\naccident domestique survient: 1x\ngarantie des accidents: 1x\ncas d’accident domestique: 1x\nvictime d’un accident: 1x\nvictime d’un accident domestique: 1x\nindemnisation d’un accident: 1x\ncas d’accident: 1x\ncas d’accident de la vie: 1x\ngarantie accident domestique de l’assurance: 1x\naccident domestique de l’assurance habitation: 1x\ndéclaration d’un accident domestique: 1x\nindemnisation d’un accident domestique: 1x\nqu’est-ce qu’un accident: 1x\ndéfinition d’un accident: 1x\ncontrat d’assurance multirisques habitation: 1x\nles accidents domestiques peuvent: 1x\ncontrat multirisque habitation: 1x\ndroit à une indemnisation: 1x\ncas d'accident domestique: 1x\naccident de bricolage: 1x\naccident de jardinage: 1x\ncomment déclarer un accident: 1x\naccident domestique peut: 1x\nsuite à un accident domestique: 1x\nqu'est-ce qu'un accident: 1x\ncouvert par votre assurance: 1x\naccidents de la vie quotidienne: 1x\nconsidéré comme un accident: 1x\naccident domestique est un accident: 1x\naccident domestique doit: 1x\naprès un accident domestique: 1x\ncomment obtenir une indemnisation: 1x\nquels sont les accidents: 1x\nsi votre assurance habitation: 1x\nvie domestique: 1x\nmaintenir votre niveau de vie: 1x\nindemnisation suite: 1x",
+  "entities": "Assurance\nAccident de la vie courante\nContrat\nEndommagement\nIntoxication\nBrûlure\nContrat d'assurance\nResponsabilité civile\nGAV\nAssurance habitation\nAssurance responsabilité civile\nPersonne âgée\nVie privée\nPolice (institution)\nDommage corporel\nAssurance accident\nRisque\nAccident de la route\nVéhicule (transport physique)\nIncapacité permanente en France\nFrance\nInvalidité en France\nJardinage\nSécurité\nResponsabilité civile en droit français\ngarantie accidents de la vie\nMatmut\nIncendie\nTribunal\nMédecin\nGarantie Accidents de la vie"
+ },
+ "status": "ready",
+ "keyword": "indemnisation accident domestique",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "2c9ec8d385bfad9e",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "transactional": 33.3
+  },
+  "top_content_type": "educational",
+  "content_type_stats": {
+   "educational": 53.3,
+   "guide": 40.0,
+   "landing-page": 23.3,
+   "comparison": 10.0,
+   "product-category": 6.7,
+   "business": 33.3,
+   "short-answer": 16.7,
+   "tool": 6.7,
+   "video": 3.3,
+   "other": 3.3
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/2c9ec8d385bfad9e",
+ "share_url": "https://app.neuronwriter.com/analysis/share/2c9ec8d385bfad9e/6d9402056e0b04f1274018ba2c213a444fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/2c9ec8d385bfad9e/1e79037183685556a02f7e1b78b0a3ef4fa16"
+}

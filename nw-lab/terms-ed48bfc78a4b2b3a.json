@@ -1,0 +1,2627 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quelle est l'indemnisation pour la perte d'un œil ?"
+   },
+   {
+    "q": "Quel est le montant de l'indemnisation pour la perte d'un œil  ?"
+   },
+   {
+    "q": "Quel taux d'invalidité pour la perte d'un œil ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quelle est l'indemnisation pour la perte d'un œil et comment est-elle calculée ?": {
+    "importance": 10
+   },
+   "Quel est le taux d'invalidité (AIPP/DFP) pour la perte d'un œil ?": {
+    "importance": 9
+   },
+   "Quels sont les différents préjudices indemnisables suite à la perte d'un œil ?": {
+    "importance": 9
+   },
+   "Peut-on être indemnisé pour la perte d'un œil suite à une erreur médicale ou un accident ?": {
+    "importance": 8
+   },
+   "Quelles sont les étapes de la procédure pour obtenir une indemnisation ?": {
+    "importance": 7
+   },
+   "Comment se déroule l'expertise médicale pour la perte d'un œil ?": {
+    "importance": 7
+   },
+   "Quelles sont les causes fréquentes de cécité post-traumatique ou de perte d'un œil ?": {
+    "importance": 6
+   },
+   "Quelles sont les erreurs à éviter lors d'une demande d'indemnisation ?": {
+    "importance": 6
+   },
+   "Est-il conseillé de se faire accompagner par un avocat spécialisé ?": {
+    "importance": 5
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Acceptez-vous un avocat qui traite votre dossier à distance ?"
+   },
+   {
+    "q": "Accident de voiture : Comment se déroule le procès ?"
+   },
+   {
+    "q": "Avez-vous déjà reçu une proposition d'indemnisation ?"
+   },
+   {
+    "q": "Avez-vous déjà saisi la CCI (commission de conciliation et d'indemnisation) pour ce dossier ?"
+   },
+   {
+    "q": "Avez-vous subi une perte de revenus ou un arrêt de travail ?"
+   },
+   {
+    "q": "Besoin d’un contrepoids face à l’expertise amiable ?"
+   },
+   {
+    "q": "Combien de temps dure une procédure d’indemnisation ?"
+   },
+   {
+    "q": "Comment est calculée l'indemnisation pour la perte partielle de la vue ?"
+   },
+   {
+    "q": "Comment est calculée son indemnisation ?"
+   },
+   {
+    "q": "Comment est évaluée l’acuité visuelle dans le cadre médico-légal ?"
+   },
+   {
+    "q": "Comment obtenir une indemnisation pour ce préjudice ?"
+   },
+   {
+    "q": "Comment savoir si l'on est victime d'une erreur médicale en ophtalmologie ?"
+   },
+   {
+    "q": "Comment se déroule l'expertise médicale de la CRCI ?"
+   },
+   {
+    "q": "Comment se déroule l’expertise ?"
+   },
+   {
+    "q": "Cécité après un accident : quelle indemnisation pour la perte de la vue ?"
+   },
+   {
+    "q": "Dans quelles situations une indemnisation est-elle possible ?"
+   },
+   {
+    "q": "Décès d'un parent : qui peut être indemnisé quand un proche aide à garder les enfants ?"
+   },
+   {
+    "q": "Existe-t-il un barème officiel unique ?"
+   },
+   {
+    "q": "Faute médicale ou aléa thérapeutique : comment faire la différence ?"
+   },
+   {
+    "q": "Incendie du Voisin : Qui Indemnise les Dommages à Votre Propriété ?"
+   },
+   {
+    "q": "Invalidité suite à la perte de la vision d’un œil?"
+   },
+   {
+    "q": "Je souhaite savoir quels sont mes droits à indemnisation de la perte d'un oeil ?"
+   },
+   {
+    "q": "L'ONIAM ou un assureur vous a-t-il déjà fait une proposition d'indemnisation ?"
+   },
+   {
+    "q": "L'indemnisation est-elle vraiment significative ?"
+   },
+   {
+    "q": "L'organisme de sécurité sociale (CPAM ou MSA) a-t-il reconnu l'accident du travail ou de trajet ?"
+   },
+   {
+    "q": "La personne mise en cause conduisait-elle le véhicule au moment de l'accident ?"
+   },
+   {
+    "q": "Le litige concerne-t-il un aléa thérapeutique (accident médical sans faute apparente) ?"
+   },
+   {
+    "q": "Le litige concerne-t-il une infection nosocomiale ?"
+   },
+   {
+    "q": "Le montant du préjudice a-t-il déjà été évalué ?"
+   },
+   {
+    "q": "Les atteintes du champ visuel sont-elles indemnisables ?"
+   },
+   {
+    "q": "Les troubles psychologiques liés à la perte de vision sont-ils pris en compte ?"
+   },
+   {
+    "q": "Peut-on être indemnisé après un LASIK raté même si l'on avait signé un consentement éclairé ?"
+   },
+   {
+    "q": "Peut-on être indemnisé pour la perte de la vue liée à un accident médical ?"
+   },
+   {
+    "q": "Pour comprendre, simplement, qui paie, sur quel fondement et quels recours existent, vous pouvez consulter notre page dédiée : Qui indemnise la victime d’un dommage corporel ?"
+   },
+   {
+    "q": "Pour quel type de problème juridique avez-vous besoin d'un avocat ?"
+   },
+   {
+    "q": "Pourquoi se faire accompagner par un avocat en dommage corporel ?"
+   },
+   {
+    "q": "Puis-je obtenir une indemnisation complémentaire ?"
+   },
+   {
+    "q": "Puis-je être indemnisé si je conduis encore avec une cécité monoculaire ?"
+   },
+   {
+    "q": "Qu'est-ce qu'un accident de la vie ?"
+   },
+   {
+    "q": "Quelle différence entre amiable et judiciaire ?"
+   },
+   {
+    "q": "Quelle indemnisation en cas d'infection nosocomiale ?"
+   },
+   {
+    "q": "Quelle indemnisation pour la perte de la vision d'un œil suite à une erreur médicale ?"
+   },
+   {
+    "q": "Quelle était votre situation au moment de l'accident ?"
+   },
+   {
+    "q": "Quels préjudices peuvent être indemnisés ?"
+   },
+   {
+    "q": "Quels sont les moyens d'indemnisation en matière d'aléa thérapeutique ?"
+   },
+   {
+    "q": "Quels sont les taux retenus pour une perte de vision partielle ?"
+   },
+   {
+    "q": "Quels sont mes droits pour recevoir une indemnisation ?"
+   },
+   {
+    "q": "Qui indemnise ?"
+   },
+   {
+    "q": "Qui indemnise en cas d'affection iatrogène?"
+   },
+   {
+    "q": "Qui indemnise la victime d’un dommage corporel ?"
+   },
+   {
+    "q": "Si l'accident à l'œil survient au travail, est-ce que seul l'INAIL paie ?"
+   },
+   {
+    "q": "Souhaitez-vous contester cette proposition d'indemnisation ?"
+   },
+   {
+    "q": "Souhaitez-vous contester le montant des préjudices réclamés ?"
+   },
+   {
+    "q": "Souhaitez-vous contester une expertise ?"
+   },
+   {
+    "q": "Souhaitez-vous contester une proposition d'indemnisation ?"
+   },
+   {
+    "q": "Souhaitez-vous demander la reconnaissance de l'accident comme accident du travail ou de trajet ?"
+   },
+   {
+    "q": "Souhaitez-vous demander une avance sur indemnisation ?"
+   },
+   {
+    "q": "Souhaitez-vous demander une indemnisation auprès de la CIVI ou du FGTI ?"
+   },
+   {
+    "q": "Souhaitez-vous exercer un recours en responsabilité médicale contre un médecin ou un établissement ?"
+   },
+   {
+    "q": "Souhaitez-vous faire reconnaître l'accident médical et les responsabilités engagées ?"
+   },
+   {
+    "q": "Souhaitez-vous obtenir l'indemnisation de votre préjudice ?"
+   },
+   {
+    "q": "Souhaitez-vous obtenir ou contester une indemnisation ?"
+   },
+   {
+    "q": "Un taux d'incapacité permanente vous a-t-il été notifié ?"
+   },
+   {
+    "q": "Une expertise a-t-elle déjà eu lieu ou est-elle prévue ?"
+   },
+   {
+    "q": "Une expertise médicale a-t-elle déjà eu lieu ou est-elle prévue ?"
+   },
+   {
+    "q": "Une expertise médicale ou psychologique a-t-elle déjà eu lieu ou est-elle prévue ?"
+   },
+   {
+    "q": "Une expertise médicale, technique ou amiable a-t-elle déjà eu lieu ?"
+   },
+   {
+    "q": "Une question en droit du dommage corporel ?"
+   },
+   {
+    "q": "Victime d'un accident de la route : pourquoi faire appel à un avocat ?"
+   },
+   {
+    "q": "Victime d’un accident ou d’un événement médical ?"
+   },
+   {
+    "q": "Votre compagnie a-t-elle déjà formulé une offre d'indemnisation ?"
+   },
+   {
+    "q": "Votre demande concerne-t-elle l'indemnisation (CCI ou l'ONIAM) ?"
+   },
+   {
+    "q": "Votre demande concerne-t-elle l'indemnisation après un accident de la circulation (loi Badinter) ?"
+   },
+   {
+    "q": "Votre demande concerne-t-elle un autre besoin lié à un accident de la circulation ?"
+   },
+   {
+    "q": "Votre demande concerne-t-elle un autre sujet lié à un accident de la vie courante ?"
+   },
+   {
+    "q": "Votre demande concerne-t-elle un autre sujet lié à un accident du travail ou de trajet ?"
+   },
+   {
+    "q": "Votre demande concerne-t-elle un autre sujet lié à un accident médical ?"
+   },
+   {
+    "q": "Votre demande concerne-t-elle une expertise ?"
+   },
+   {
+    "q": "Votre demande porte-t-elle sur la consolidation, le taux d'incapacité ou les séquelles reconnues ?"
+   },
+   {
+    "q": "Votre demande porte-t-elle sur la contestation ou l'analyse d'une expertise ?"
+   },
+   {
+    "q": "Votre demande porte-t-elle sur la rédaction, la vérification ou la contestation d'une offre d'indemnisation ?"
+   },
+   {
+    "q": "Votre demande porte-t-elle sur une rente, un capital ou une autre indemnisation ?"
+   },
+   {
+    "q": "Vous êtes victime d’une erreur médicale, d’une infection nosocomiale, d’une affection iatrogène ou d’un accident médical ?"
+   },
+   {
+    "q": "droit du dommage corporel ?"
+   },
+   {
+    "q": "🔹 Ai-je besoin d’un avocat pour défendre mes droits ?"
+   },
+   {
+    "q": "🔹 La perte d’un œil donne-t-elle toujours droit à une indemnisation ?"
+   },
+   {
+    "q": "🔹 Peut-on être indemnisé si la perte est due à une erreur médicale ?"
+   },
+   {
+    "q": "🔹 Quel est le taux d’AIPP en cas de perte d’un œil ?"
+   },
+   {
+    "q": "🔹 Quels sont les préjudices indemnisables en cas de perte d’un œil ?"
+   },
+   {
+    "q": "🔹 À quel moment intervient l’indemnisation définitive ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://association-aivf-faq.fr/indemnisation-perte-dun-oeil",
+   "title": "Indemnisation perte d'un oeil - Association Victimes de France AIVF",
+   "desc": "Indemnisation pour la perte d'un oeil suite à un accident corporel, consolidation et expertise médicale, taux d'AIPP, préjudice esthétique",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation perte d’un oeil"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ Questions fréquentes – Perte d’un œil et indemnisation"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation pour la perte d’un oeil"
+    ]
+   ],
+   "content_score": 76,
+   "readability": 39,
+   "word_count": 1409,
+   "content_len": 9004
+  },
+  {
+   "rank": 2,
+   "url": "https://jmp-avocat-indemnisation.fr/blog-dommages-corporels/cecite-perte-vue-accident-indemnisation",
+   "title": "Cécité après un accident : quelle indemnisation pour la perte de la vue ?",
+   "desc": "Accident de la route, du travail, agression : la perte de la vue est l'un des préjudices les plus graves. DFP, tierce personne, incidence professionnelle — le guide complet pour obtenir une réparation",
+   "headers": [
+    [
+     "h1",
+     "Perdre la vue après un accident : une catastrophe que les assureurs bradent — Comment l'imposer à sa juste valeur"
+    ],
+    [
+     "h2",
+     "Cécité post-traumatique : de quoi parle-t-on exactement ?"
+    ],
+    [
+     "h2",
+     "Les postes de préjudice indemnisables : ne rien laisser de côté"
+    ],
+    [
+     "h2",
+     "Tableau d'exemples d'indemnisation — cécité post-traumatique"
+    ],
+    [
+     "h2",
+     "L'expertise médicale : l'étape où tout se joue"
+    ],
+    [
+     "h2",
+     "Les pièges spécifiques aux dossiers de cécité"
+    ],
+    [
+     "h2",
+     "Ce que l'avocat spécialisé obtient de plus"
+    ],
+    [
+     "h2",
+     "FAQ — Vos questions sur l'indemnisation de la cécité"
+    ],
+    [
+     "h2",
+     "À lire également sur ce site"
+    ],
+    [
+     "h2",
+     "Sources et références"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 29,
+   "word_count": 2679,
+   "content_len": 17532
+  },
+  {
+   "rank": 3,
+   "url": "https://commission-conciliation-indemnisation-aivf.fr/faq-infection/sequelles-infection-nosocomiale/indemnisation-perte-dun-oeil",
+   "title": "Indemnisation perte d'un oeil - Association AIVF",
+   "desc": "Indemnisation perte d'un oeil suite aléa thérapeutique, erreur médicale, procédure CCI CRCI, indemnisation ONIAM, responsabilité pour faute",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation perte d’un oeil"
+    ],
+    [
+     "h2",
+     "Questions de victimes concernant l'indemnisation de la perte d'un oeil suite à un accident médical"
+    ]
+   ],
+   "content_score": 70,
+   "readability": 47,
+   "word_count": 770,
+   "content_len": 5062
+  },
+  {
+   "rank": 4,
+   "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000030274156",
+   "title": "Un instant…",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "www.legifrance.gouv.fr"
+    ],
+    [
+     "h2",
+     "Vérification de sécurité en cours"
+    ],
+    [
+     "h2",
+     "Vérification réussie. En attente de la réponse de www.legifrance.gouv.fr."
+    ]
+   ],
+   "content_score": 0,
+   "readability": 61,
+   "word_count": 58,
+   "content_len": 407
+  },
+  {
+   "rank": 5,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/calcul-prejudice-corporel-indemnisation/aipp-taux-aipp-dfp/aipp-dfp-fonction-visuelle",
+   "title": "Aipp dfp fonction visuelle - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'AIPP DFP Fonction Visuelle aide les victimes grâce aux avocats de l'Association Aide Victimes France.",
+   "headers": [
+    [
+     "h1",
+     "Aipp dfp fonction visuelle"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Taux d’AIPP ou de DFP : Fonction visuelle"
+    ],
+    [
+     "h2",
+     "Aipp et fonction visuelle DFP explications"
+    ]
+   ],
+   "content_score": 21,
+   "readability": 24,
+   "word_count": 1628,
+   "content_len": 9436
+  },
+  {
+   "rank": 6,
+   "url": "https://www.alexia.fr/questions/504609/aveugle-d-un-il.htm",
+   "title": "Aveugle d un il - Résolue par Yvan BELIGHA - Posée par Dada",
+   "desc": "Les montants d'indemnisation peuvent varier considérablement, mais pour des cas de cécité totale, les indemnisations peuvent aller de plusieurs dizaines de milliers d'euros à plus de cent mille euros, selon les circonstances spécifiques de chaque cas... - Résolue par Yvan BELIGHA - Posée par Dada",
+   "headers": [
+    [
+     "h1",
+     "Aveugle d un ilSujet  initié par  Dada,  il y a 1 an - 2072 vues"
+    ],
+    [
+     "h2",
+     "Avocats les plus actifs"
+    ],
+    [
+     "h2",
+     "Questions résolues"
+    ],
+    [
+     "h2",
+     "Les dernières fiches pratiques de nos avocats en droit du dommage corporel"
+    ]
+   ],
+   "content_score": 31,
+   "readability": 16,
+   "word_count": 14718,
+   "content_len": 94522
+  },
+  {
+   "rank": 7,
+   "url": "https://www.rsl-avocat.com/indemnisation-du-dommage-corporel/",
+   "title": "Indemnisation du dommage corporel : étapes & calcul | RSL Avocat",
+   "desc": "Comprendre la réparation du dommage corporel : étapes, expertise, preuves, délais et négociation. RSL Avocat vous aide à défendre chaque poste de préjudice.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation du dommage corporel : étapes, calcul et accompagnement d’avocat"
+    ],
+    [
+     "h2",
+     "Comprendre l’indemnisation du dommage corporel"
+    ],
+    [
+     "h2",
+     "Qui indemnise la victime d’un dommage corporel ?"
+    ],
+    [
+     "h2",
+     "Dans quelles situations une indemnisation est-elle possible ?"
+    ],
+    [
+     "h2",
+     "Quels préjudices peuvent être indemnisés ?"
+    ],
+    [
+     "h2",
+     "Certaines atteintes exigent une approche médico-légale renforcée"
+    ],
+    [
+     "h2",
+     "Comment est calculée l’indemnité ?"
+    ],
+    [
+     "h2",
+     "Les étapes de la procédure de réparation"
+    ],
+    [
+     "h2",
+     "Délais, transaction et aggravation : les points qui changent tout"
+    ],
+    [
+     "h2",
+     "Pourquoi se faire accompagner par un avocat en dommage corporel ?"
+    ],
+    [
+     "h2",
+     "Tableau indicatif de quelques postes de préjudice (méthode Dintilhac)"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur l’indemnisation"
+    ],
+    [
+     "h2",
+     "Références utiles"
+    ],
+    [
+     "h2",
+     "Contactez RSL Avocat"
+    ],
+    [
+     "h2",
+     "Conclusion : faire valoir vos droits"
+    ],
+    [
+     "h2",
+     "En savoir plus"
+    ],
+    [
+     "h2",
+     "Aller plus loin avec un avocat en dommage corporel"
+    ],
+    [
+     "h2",
+     "RSL Avocat"
+    ],
+    [
+     "h2",
+     "Adresse"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 54,
+   "word_count": 2179,
+   "content_len": 14627
+  },
+  {
+   "rank": 8,
+   "url": "https://www.studiolegalebianucci.it/fr/indemnisation-des-dommages-pour-lesions-oculaires-causees-par-des-corps-etrangers-au-travail-ou-dans-des-lieux-publics",
+   "title": "Indemnisation des dommages oculaires et accident de l'œil Milan | Avocat",
+   "desc": "Vous avez subi une lésion oculaire due à un corps étranger ? Me Marco Bianucci, expert en indemnisation des dommages à Milan, vous assiste pour obtenir la juste compensation.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation des dommages pour lésions oculaires causées par des corps étrangers au travail ou dans des lieux publics"
+    ],
+    [
+     "h2",
+     "La protection juridique en cas de lésion oculaire due à un corps étranger"
+    ],
+    [
+     "h2",
+     "Responsabilité civile et réglementation de référence"
+    ],
+    [
+     "h2",
+     "L'approche du Cabinet d'Avocats Bianucci dans la gestion des lésions oculaires"
+    ],
+    [
+     "h2",
+     "Questions Fréquentes"
+    ],
+    [
+     "h2",
+     "Demandez une évaluation de votre cas à Milan"
+    ],
+    [
+     "h2",
+     "Contactez-nous"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 24,
+   "word_count": 1358,
+   "content_len": 8897
+  },
+  {
+   "rank": 9,
+   "url": "https://forum-assures.ameli.fr/questions/1880817-invalidite-suite-perte-vision-oeil",
+   "title": "Invalidité suite à la perte de la vision d’un œil? - Résolue",
+   "desc": "Bonjour à tous, J’ai perdu la vision d’un œil (ne voit plus que la lumière) suite à des uvéites à répétition (uvéites de Fuchs). Aujourd’hui il n’y a plus d’amélioration possible.  Jusque là je ne m’en posais pas trop de questions, mais c’est vrai que cela occasionne une gêne au quotidien ( cha...",
+   "headers": [
+    [
+     "h2",
+     "Rechercher dans le forum"
+    ],
+    [
+     "h2",
+     "Les thématiques"
+    ],
+    [
+     "h2",
+     "Cette question a été résolue"
+    ],
+    [
+     "h1",
+     "Invalidité suite à la perte de la vision d’un œil?"
+    ],
+    [
+     "h2",
+     "Autres réponses"
+    ]
+   ],
+   "content_score": 24,
+   "readability": 28,
+   "word_count": 734,
+   "content_len": 4535
+  },
+  {
+   "rank": 10,
+   "url": "https://victime-info.fr/indemnisation/responsabilite-medicale/erreur-medicale-ophtalmologie-indemnisation",
+   "title": "Erreur médicale ophtalmologie : indemnisation LASIK, cataracte | victime-info.fr",
+   "desc": "Erreur médicale en ophtalmologie (LASIK, cataracte, glaucome) : droits, recours et indemnisation des victimes. Guide complet pour obtenir réparation.",
+   "headers": [
+    [
+     "h1",
+     "Erreur médicale en ophtalmologie : indemnisation après un LASIK, une cataracte ou une autre intervention oculaire"
+    ],
+    [
+     "h2",
+     "Sommaire"
+    ],
+    [
+     "h2",
+     "Les principales erreurs médicales en ophtalmologie"
+    ],
+    [
+     "h2",
+     "Erreur médicale et chirurgie LASIK : un contentieux fréquent"
+    ],
+    [
+     "h2",
+     "Erreur lors d’une opération de la cataracte"
+    ],
+    [
+     "h2",
+     "Autres erreurs ophtalmologiques : glaucome, rétine, injection intravitréenne"
+    ],
+    [
+     "h2",
+     "Faute médicale ou aléa thérapeutique : comment faire la différence ?"
+    ],
+    [
+     "h2",
+     "Les recours possibles pour la victime d’une erreur ophtalmologique"
+    ],
+    [
+     "h2",
+     "Les préjudices indemnisables après une erreur ophtalmologique"
+    ],
+    [
+     "h2",
+     "Exemples de montants d’indemnisation en ophtalmologie"
+    ],
+    [
+     "h2",
+     "L’expertise médicale : une étape décisive"
+    ],
+    [
+     "h2",
+     "Délais de prescription et erreurs à éviter"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur l’erreur médicale en ophtalmologie"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Conclusion : se faire accompagner pour obtenir une juste indemnisation"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 30,
+   "word_count": 4356,
+   "content_len": 29403
+  },
+  {
+   "rank": 11,
+   "url": "https://www.medecin-dommage-corporel.expert/indemnisation-oniam-deficit-fonctionnel-permanent/",
+   "title": "Indemnisation ONIAM seuil de gravité du dommage",
+   "desc": "L'indemnisation de l'aléa thérapeutique prévoyant la prise en charge par l'ONIAM au titre de la solidarité nationale, des conséquences dommageables d'un aléa thérapeutique, n'est possible que, lorsque cet aléa ne résulte pas d'une cause extérieure au traitement ou à l'intervention mais leur est intrinsèque, le taux d'atteinte permanente à l'intégrité physique ou psychique qui lui est imputable ne saurait s'apprécier que par rapport à la situation du patient en l'absence de traitement ou d'intervention et non par rapport à la situation qui aurait été la sienne en cas de succès de ceux-ci .",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation par l’ONIAM et déficit fonctionnel permanent"
+    ],
+    [
+     "h1",
+     "Demande d’indemnisation suite à une intervention pour cataracte"
+    ],
+    [
+     "h2",
+     "Expertise en responsabilité médicale ordonnée en référé"
+    ]
+   ],
+   "content_score": 26,
+   "readability": 12,
+   "word_count": 647,
+   "content_len": 3964
+  },
+  {
+   "rank": 12,
+   "url": "https://macgillivraylaw.com/fr/dommages-interets-generaux/yeux",
+   "title": "Yeux - Valeur de la réclamation pour blessure corporelle | MacGillivray Droit",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Yeux – Valeur de la réclamation pour blessure corporelle."
+    ],
+    [
+     "h2",
+     "Réservez une consultation gratuite"
+    ]
+   ],
+   "content_score": 7,
+   "readability": 76,
+   "word_count": 96,
+   "content_len": 664
+  },
+  {
+   "rank": 13,
+   "url": "https://maisondesvictimes.asso.fr/accidents_de_la_vie/temoignage_victime_accident_bricolage_perte_oeil.php",
+   "title": "Perte d'un œil en faisant du bricolage",
+   "desc": "Association d'aide aux victimes d'accident de la vie privée, d'accident domestique, de bricolage, de jardinage, de sport, de train, d'avion, des victimes d'agression ou d'attentat, de catastrophe naturelle, ...",
+   "headers": [
+    [
+     "h1",
+     "Perte d'un œil en faisant du bricolage"
+    ]
+   ],
+   "content_score": 34,
+   "readability": 18,
+   "word_count": 897,
+   "content_len": 5731
+  },
+  {
+   "rank": 14,
+   "url": "https://droit-finances.commentcamarche.com/forum/affich-5113719-deficience-visuelle-et-accident",
+   "title": "Déficience visuelle et accident",
+   "desc": "Bonjour, Mon père agé de 82 ans a perdu l'usage d'un oeil suite au diabète, l'oeil est complètement mort. De l'autre oeil ila une vision de 3/10ème, nous nous rendons compte dans les geste de la vie quotidienne qu'il a bien du mal a repérer les...",
+   "headers": [
+    [
+     "h1",
+     "Déficience visuelle et accident"
+    ]
+   ],
+   "content_score": 8,
+   "readability": 31,
+   "word_count": 469,
+   "content_len": 2913
+  },
+  {
+   "rank": 15,
+   "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000023224539",
+   "title": "Un instant…",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "www.legifrance.gouv.fr"
+    ],
+    [
+     "h2",
+     "Vérification de sécurité en cours"
+    ],
+    [
+     "h2",
+     "Vérification réussie. En attente de la réponse de www.legifrance.gouv.fr."
+    ]
+   ],
+   "content_score": 0,
+   "readability": 61,
+   "word_count": 58,
+   "content_len": 407
+  },
+  {
+   "rank": 16,
+   "url": "https://www.indemnisationprejudice.fr/sequelles-et-indemnites-blessures-accident/quid-des-sequelles-visuelles-apres-un-accident/",
+   "title": "Quid des séquelles visuelles après un accident",
+   "desc": "Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés. Avances sur vos premiers frais. - Quid des séquelles visuelles après un accident",
+   "headers": [
+    [
+     "h1",
+     "Quid des séquelles visuelles après un accident"
+    ],
+    [
+     "h2",
+     "Séquelles imputables à l’accident et indemnisation des préjudices"
+    ],
+    [
+     "h2",
+     "Quid des séquelles visuelles après un accident"
+    ]
+   ],
+   "content_score": 19,
+   "readability": 35,
+   "word_count": 359,
+   "content_len": 2318
+  },
+  {
+   "rank": 17,
+   "url": "https://www.philippe-gonet-avocat-mti.fr/indemnisation-et-bareme-forfaitaire---strict-respect-des-regles-_ad1417.html",
+   "title": "Indemnisation et barème forfaitaire : strict respect des règles",
+   "desc": "Recours de la victime - perte de gains futurs professionnels - existence de revenus antérieurs à l'accident - responsabilité - indemnisation - Indemnisation accident - réparation intégrale -",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation et barème forfaitaire : strict respect des règles"
+    ]
+   ],
+   "content_score": 24,
+   "readability": 27,
+   "word_count": 658,
+   "content_len": 4394
+  },
+  {
+   "rank": 19,
+   "url": "https://association-aide-victimes-france.fr/je-suis-victime-a-quoi-ai-je-droit/comment-etre-bien-indemnise-apres-un-accident",
+   "title": "Comment être bien indemnisé après un accident ? - Association Victimes de France AIVF",
+   "desc": "Obtenez des conseils d'experts pour maximiser votre indemnisation après un accident avec l'Association Aide Victimes France.",
+   "headers": [
+    [
+     "h1",
+     "Comment être bien indemnisé après un accident ?"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Comment être bien indemnisé après un accident ?"
+    ],
+    [
+     "h2",
+     "Comment Être Bien Indemnisé d’un Accident ?"
+    ]
+   ],
+   "content_score": 30,
+   "readability": 36,
+   "word_count": 1777,
+   "content_len": 11290
+  },
+  {
+   "rank": 20,
+   "url": "https://www.facebook.com/BFMTV/videos/victime-dune-erreur-m%C3%A9dicale-il-a-perdu-son-%C5%93il-suite-%C3%A0-une-op%C3%A9ration/1592383648482721/",
+   "title": "Victime d'une erreur médicale, il a perdu son œil suite à une opération | BFMTV | Facebook",
+   "desc": "Victime d'une erreur médicale, il a perdu son œil suite à une opération",
+   "headers": [
+    [
+     "h1",
+     "Vidéo"
+    ],
+    [
+     "h2",
+     "BFMTV Compte vérifié"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Reels similaires"
+    ],
+    [
+     "h2",
+     "Vidéos connexes"
+    ]
+   ],
+   "content_score": 5,
+   "readability": 40,
+   "word_count": 410,
+   "content_len": 1928
+  },
+  {
+   "rank": 21,
+   "url": "https://commission-conciliation-indemnisation-aivf.fr/faq-faute-medicale/erreur-chirurgicale/perte-vision-operation-cataracte",
+   "title": "Perte vision opération cataracte - Association AIVF",
+   "desc": "Perte de vision suite à une opération de la cataracte, indemnisation erreur chirurgicale ou aléa thérapeutique, procédure CCI CRCI",
+   "headers": [
+    [
+     "h1",
+     "Perte vision opération cataracte"
+    ],
+    [
+     "h2",
+     "Questions de victimes concernant la perte de vision suite à une opération de la cataracte"
+    ]
+   ],
+   "content_score": 25,
+   "readability": 31,
+   "word_count": 590,
+   "content_len": 3831
+  },
+  {
+   "rank": 22,
+   "url": "https://www.indemnisation.com/indemnisation-des-accidents-de-la-vie/",
+   "title": "Indemnisation des accidents de la vie : barèmes et exemples",
+   "desc": "Simulez votre indemnisation facilement grâce à nos outils, conseils et exemples concrets. Indemnsation.com vous accompagne dans vos démarches",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation des accidents de la vie"
+    ],
+    [
+     "h2",
+     "Indemnisation des accidents de la vie"
+    ],
+    [
+     "h2",
+     "Les barèmes d'indemnisation pour les accidents de la vie"
+    ],
+    [
+     "h2",
+     "Tableau d'indemnisation des accidents de la vie"
+    ],
+    [
+     "h2",
+     "FAQ – Tout savoir sur l’indemnisation des accidents de la vie"
+    ],
+    [
+     "h2",
+     "En conclusion"
+    ],
+    [
+     "h2",
+     "🚀 Nos réponses en vidéo"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 35,
+   "word_count": 3442,
+   "content_len": 22155
+  },
+  {
+   "rank": 23,
+   "url": "https://www.abe-infoservice.fr/fr/assurance/assurance-garantie-accident/comment-etre-indemnise",
+   "title": "Comment être indemnisé ? | ABE Infoservice",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Comment être indemnisé ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les démarches à accomplir pour mettre en jeu le contrat Garantie Accident ?"
+    ],
+    [
+     "h2",
+     "Quels préjudices seront indemnisés au titre du contrat Garantie Accident ?"
+    ],
+    [
+     "h2",
+     "Quand les préjudices de l’accident seront-ils évalués par l’assureur ?"
+    ],
+    [
+     "h2",
+     "Comment sont évalués les préjudices de l’accident ?"
+    ],
+    [
+     "h2",
+     "Comment contester l’évaluation des préjudices d’un accident ?"
+    ]
+   ],
+   "content_score": 17,
+   "readability": 24,
+   "word_count": 1084,
+   "content_len": 6933
+  },
+  {
+   "rank": 24,
+   "url": "https://association-aivf-faq.fr/accident-medical-faq/erreur-chirurgicale/indemnisation-erreur-chirurgicale",
+   "title": "Indemnisation erreur chirurgicale - Association Victimes de France AIVF",
+   "desc": "Indemnisation d'une erreur chirurgicale, loi Kouchner 2002, saisine de la CCI ou CRCI et ONIAM, questions de victimes",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation erreur chirurgicale"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Indemnisation erreur chirurgicale"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation d’une erreur chirurgicale"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 43,
+   "word_count": 1405,
+   "content_len": 9106
+  },
+  {
+   "rank": 25,
+   "url": "https://victime-info.fr/indemnisation/dossiers/traumatisme-cranien/troubles-visuels-traumatisme-cranien-indemnisation",
+   "title": "Troubles visuels après traumatisme crânien : droits et indemnisation | victime-info.fr",
+   "desc": "Troubles visuels après un traumatisme crânien : types de séquelles, taux d'AIPP, montants d'indemnisation et démarches. Guide complet pour les victimes.",
+   "headers": [
+    [
+     "h1",
+     "Troubles visuels après un traumatisme crânien : guide complet d’indemnisation"
+    ],
+    [
+     "h2",
+     "Sommaire"
+    ],
+    [
+     "h2",
+     "Les différents types de troubles visuels après un traumatisme crânien"
+    ],
+    [
+     "h2",
+     "Mécanismes neurologiques en cause"
+    ],
+    [
+     "h2",
+     "Évaluation et taux d’AIPP pour les troubles visuels"
+    ],
+    [
+     "h2",
+     "Les postes de préjudice indemnisables"
+    ],
+    [
+     "h2",
+     "L’expertise médicale : étape clé de l’indemnisation"
+    ],
+    [
+     "h2",
+     "Montants d’indemnisation : exemples et fourchettes"
+    ],
+    [
+     "h2",
+     "Démarches pour obtenir une indemnisation juste"
+    ],
+    [
+     "h2",
+     "Les erreurs à éviter"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 31,
+   "word_count": 3659,
+   "content_len": 24193
+  },
+  {
+   "rank": 26,
+   "url": "https://www.instagram.com/reel/DPtJKkXkbjB/",
+   "title": "Instagram",
+   "desc": "90 likes, 4 comments - maitre_bem le  October 12, 2025: \"⚖️ Indemnisation des victimes de préjudices corporels : que prévoit la loi ?\n\nLes victimes de préjudices corporels peuvent souvent être indemnisées bien au-delà de ce qu’elles imaginent.\n\n➡️ Deux voies existent pour fixer l’indemnité :\n\n 1️⃣ Amiable : l’assurance mandate son médecin expert.\n 2️⃣ Judiciaire : un juge désigne un médecin expert.\n\n⚠️ Problème : le médecin de l’assurance peut être en conflit d’intérêts, car la compagnie cherche rarement à indemniser totalement la victime.\n\n👉 Solution : se faire accompagner par son propre médecin expert et par un avocat.\n\n ➡️ Leurs honoraires sont pris en charge, en tout ou partie, par l’assurance.\n\nLa nomenclature Dintilhac (2005) recense 20 postes de préjudices indemnisables :\npréjudices extra-patrimoniaux (souffrances, troubles psychologiques, préjudice sexuel…),\n\npréjudices patrimoniaux (adaptation du logement, véhicule, aide humaine, perte de gains…).\n\n⏳ Prescription : 10 ans à compter de la consolidation (stabilisation des séquelles).\n\n⚠️ En pratique, une bonne défense est indispensable pour obtenir une indemnisation juste et complète de l’ensemble des préjudices subis.\n\n#PréjudicesCorporels #Indemnisation #Justice #Avocat #Accident #MaitreBem #Apprendresurtiktok #Assurance\". ",
+   "headers": [],
+   "content_score": 8,
+   "readability": 43,
+   "word_count": 259,
+   "content_len": 1744
+  },
+  {
+   "rank": 27,
+   "url": "https://www.youtube.com/watch?v=i6xir1RYjT0",
+   "title": "Replay - Webinaire \"Accident médical : se faire indemniser sans faire de procès\" - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Replay - Webinaire \"Accident médical : se faire indemniser sans faire de procès\""
+    ],
+    [
+     "h1",
+     "Replay - Webinaire \"Accident médical : se faire indemniser sans faire de procès\""
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 8,
+   "readability": 61,
+   "word_count": 256,
+   "content_len": 1552
+  },
+  {
+   "rank": 28,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/calcul-prejudice-corporel-indemnisation",
+   "title": "Calculez votre préjudice corporel barème indemnisation préjudice corporel - Association Victimes de France AIVF",
+   "desc": "Obtenez une estimation précise de votre indemnisation pour préjudice corporel avec l'Association Aide Victimes France. Calcul rapide et fiable.",
+   "headers": [
+    [
+     "h1",
+     "Calculez votre préjudice corporel barème indemnisation préjudice corporel"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Évaluer votre préjudice corporel : indemnisation, calcul et barème"
+    ],
+    [
+     "h2",
+     "Évaluez votre préjudice corporel Indemnisation Accident Corporel, calcul et barème"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 42,
+   "word_count": 2997,
+   "content_len": 18849
+  },
+  {
+   "rank": 29,
+   "url": "https://hadrienmuller-avocat.com/conseils/sommaire/",
+   "title": "Sommaire - Hadrien Muller",
+   "desc": "Sommaire",
+   "headers": [
+    [
+     "h2",
+     "Avocat spécialisé en préjudice corporel"
+    ],
+    [
+     "h2",
+     "Diplômé en évaluation des traumatismes crâniens"
+    ],
+    [
+     "h1",
+     "Sommaire"
+    ]
+   ],
+   "content_score": 26,
+   "readability": 43,
+   "word_count": 958,
+   "content_len": 6347
+  },
+  {
+   "rank": 30,
+   "url": "https://www.sante.gouv.fr/indemnisation-des-accidents-medicaux-des-affections-",
+   "title": "sante.gouv.fr",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "This sante.gouv.fr page can’t be found"
+    ]
+   ],
+   "content_score": 0,
+   "readability": 0,
+   "word_count": 28,
+   "content_len": 286
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1518,
+   "target": 1518
+  },
+  "readability": {
+   "median": 30,
+   "target": 30
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "un œil",
+    "usage_pc": 30
+   },
+   {
+    "t": "accidents",
+    "usage_pc": 20
+   },
+   {
+    "t": "victimes de france",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation perte d'un oeil",
+    "usage_pc": 20
+   },
+   {
+    "t": "victimes de france aivf",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 50
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 30
+   },
+   {
+    "t": "un œil",
+    "usage_pc": 30
+   },
+   {
+    "t": "accidents",
+    "usage_pc": 20
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 20
+   },
+   {
+    "t": "erreur médicale",
+    "usage_pc": 20
+   },
+   {
+    "t": "perte d'un oeil suite",
+    "usage_pc": 20
+   },
+   {
+    "t": "guide complet pour obtenir",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 50
+   },
+   {
+    "t": "un œil",
+    "usage_pc": 30
+   },
+   {
+    "t": "accidents",
+    "usage_pc": 10
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 10
+   },
+   {
+    "t": "erreur médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "perte de la vision",
+    "usage_pc": 10
+   },
+   {
+    "t": "invalidité",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à la perte",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation après",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 50
+   },
+   {
+    "t": "questions fréquentes",
+    "usage_pc": 40
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 30
+   },
+   {
+    "t": "un œil",
+    "usage_pc": 20
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 20
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "accidents",
+    "usage_pc": 10
+   },
+   {
+    "t": "un avocat",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "erreur médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation pour la perte",
+    "usage_pc": 10
+   },
+   {
+    "t": "aléa thérapeutique",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "droit du dommage corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "un dommage corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "perte d'un oeil suite",
+    "usage_pc": 10
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 10
+   },
+   {
+    "t": "les postes de préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "avocat en droit",
+    "usage_pc": 10
+   },
+   {
+    "t": "oeil suite à un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "faire accompagner par un avocat",
+    "usage_pc": 10
+   },
+   {
+    "t": "juste indemnisation",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 80,
+    "sugg_usage": [
+     5,
+     35
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 80,
+    "sugg_usage": [
+     4,
+     19
+    ]
+   },
+   {
+    "t": "accidents",
+    "usage_pc": 90,
+    "sugg_usage": [
+     3,
+     21
+    ]
+   },
+   {
+    "t": "un œil",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     14
+    ]
+   },
+   {
+    "t": "un avocat",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     9
+    ]
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "évaluer",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "un médecin",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     10
+    ]
+   },
+   {
+    "t": "accident du travail",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "préjudice esthétique",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "barème",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "médecin expert",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "erreur médicale",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "incapacité",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "amiable",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "les séquelles",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "infection nosocomiale",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "aléa thérapeutique",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "déficit fonctionnel permanent",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "commission de conciliation",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un dommage corporel",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "frais médicaux",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "perte de revenus",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte de la vision",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes de france",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemnisation pour la perte",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation perte d'un oeil",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte de vision",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit du dommage corporel",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "perte totale",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "victimes de france aivf",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "invalidité",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "perte de la vue",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "champ visuel",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "responsabilité médicale",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "arrêt de travail",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "suite à la perte",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tierce personne",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "perte d'un oeil suite",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation après",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment obtenir une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "vie courante",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "évaluer les séquelles",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "questions fréquentes",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les postes de préjudice",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte d’un œil",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "vision d’un œil",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte de la vision d’un",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte de l’œil",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte d’autonomie",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "atteinte à l’intégrité physique",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "commission de conciliation et d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "association d’aide aux victimes",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’une erreur médicale",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "selon l’âge",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant de l’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "saisine de la cci",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat en droit",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation juste",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demander une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "aide aux victimes de france",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas de faute",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après une intervention",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "oeil suite à un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "guide complet pour obtenir",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faire accompagner par un avocat",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "juste indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "orienter vers un avocat",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte visuelle",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "poste par poste",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat spécialisé en droit",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "retentissement sur la vie",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "actes de la vie courante",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation des victimes de france",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "vie professionnelle et personnelle",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "capacité à travailler",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "être indemnisée",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Dommage corporel",
+    "importance": 50.353999999999985,
+    "relevance": 0.5035399999999999,
+    "confidence": 4.3754,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Œil humain",
+    "importance": 33.731840000000005,
+    "relevance": 0.5270600000000001,
+    "confidence": 1.3190000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Œil_humain"
+     ]
+    ]
+   },
+   {
+    "t": "Cécité",
+    "importance": 31.95904,
+    "relevance": 0.4993600000000001,
+    "confidence": 6.4626,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cécité"
+     ]
+    ]
+   },
+   {
+    "t": "Œil",
+    "importance": 25.9904,
+    "relevance": 0.4061,
+    "confidence": 1.2715999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Œil"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 20.89984,
+    "relevance": 0.32656,
+    "confidence": 5.4732,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "AIVF",
+    "importance": 14.527439999999999,
+    "relevance": 0.40354,
+    "confidence": 0.3,
+    "links": []
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 12.799439999999999,
+    "relevance": 0.35553999999999997,
+    "confidence": 6.972800000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Accident médical",
+    "importance": 9.084960000000002,
+    "relevance": 0.25236000000000003,
+    "confidence": 1.3752,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Maladie infectieuse",
+    "importance": 8.468640000000002,
+    "relevance": 0.23524000000000003,
+    "confidence": 5.2228,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Maladie_infectieuse"
+     ]
+    ]
+   },
+   {
+    "t": "Infection nosocomiale",
+    "importance": 6.264,
+    "relevance": 0.174,
+    "confidence": 5.5346,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Infection_nosocomiale"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 5.687064,
+    "relevance": 0.157974,
+    "confidence": 1.983,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Accident du travail",
+    "importance": 4.54496,
+    "relevance": 0.28406000000000003,
+    "confidence": 1.2624,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_du_travail"
+     ]
+    ]
+   },
+   {
+    "t": "Association AIVF",
+    "importance": 3.8528,
+    "relevance": 0.2408,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Office national d'indemnisation des accidents médicaux",
+    "importance": 3.6508799999999995,
+    "relevance": 0.22818,
+    "confidence": 1.6649999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Office_national_d'indemnisation_des_accidents_médicaux"
+     ]
+    ]
+   },
+   {
+    "t": "Chambre de commerce et d'industrie en France",
+    "importance": 3.5132800000000004,
+    "relevance": 0.21958000000000003,
+    "confidence": 0.673,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Chambre_de_commerce_et_d'industrie_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "DFP",
+    "importance": 3.5008,
+    "relevance": 0.21880000000000002,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Association Victimes de France AIVF",
+    "importance": 3.4544,
+    "relevance": 0.21589999999999998,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Dépression (psychiatrie)",
+    "importance": 2.1096,
+    "relevance": 0.058600000000000006,
+    "confidence": 6.664399999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dépression_(psychiatrie)"
+     ]
+    ]
+   },
+   {
+    "t": "Champ visuel",
+    "importance": 2.06144,
+    "relevance": 0.12884,
+    "confidence": 2.2060000000000004,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Champ_visuel"
+     ]
+    ]
+   },
+   {
+    "t": "Santé",
+    "importance": 1.6492799999999999,
+    "relevance": 0.10307999999999999,
+    "confidence": 1.04,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Santé"
+     ]
+    ]
+   },
+   {
+    "t": "Maladie",
+    "importance": 1.6112,
+    "relevance": 0.10070000000000001,
+    "confidence": 1.1872,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Maladie"
+     ]
+    ]
+   },
+   {
+    "t": "Ophtalmologie",
+    "importance": 1.3884799999999997,
+    "relevance": 0.08678,
+    "confidence": 4.0822,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Ophtalmologie"
+     ]
+    ]
+   },
+   {
+    "t": "Gène",
+    "importance": 1.27904,
+    "relevance": 0.07994,
+    "confidence": 6.2766,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Gène"
+     ]
+    ]
+   },
+   {
+    "t": "Handicap",
+    "importance": 0.9232,
+    "relevance": 0.057699999999999994,
+    "confidence": 4.001399999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Handicap"
+     ]
+    ]
+   },
+   {
+    "t": "Acuité visuelle",
+    "importance": 0.7408799999999999,
+    "relevance": 0.18522,
+    "confidence": 3.222,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Acuité_visuelle"
+     ]
+    ]
+   },
+   {
+    "t": "Contrat de travail",
+    "importance": 0.63912,
+    "relevance": 0.15978,
+    "confidence": 0.869,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contrat_de_travail"
+     ]
+    ]
+   },
+   {
+    "t": "Diplopie",
+    "importance": 0.61584,
+    "relevance": 0.15396,
+    "confidence": 1.8794,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Diplopie"
+     ]
+    ]
+   },
+   {
+    "t": "AIPP DFP Fonction Visuelle",
+    "importance": 0.5818399999999999,
+    "relevance": 0.14545999999999998,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Téléphone",
+    "importance": 0.5781440000000001,
+    "relevance": 0.036134,
+    "confidence": 1.4327400000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Téléphone"
+     ]
+    ]
+   },
+   {
+    "t": "Maladie professionnelle",
+    "importance": 0.5,
+    "relevance": 0.125,
+    "confidence": 0.8009999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Maladie_professionnelle"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "indemnisation\nun œil\naccidents\nvictimes de france\nindemnisation perte d'un oeil\nvictimes de france aivf",
+  "desc_title": "indemnisation\npréjudice\nun œil\naccidents\nexpertise\nerreur médicale\nperte d'un oeil suite\nguide complet pour obtenir",
+  "h1": "indemnisation\nun œil\naccidents\ndommage corporel\nun accident\nassureur\nerreur médicale\naprès un accident\nperte de la vision\ninvalidité\nsuite à la perte\nindemnisation après",
+  "h2": "indemnisation\nquestions fréquentes\npréjudice\nun œil\nexpertise\nexpertise médicale\ndommage corporel\nposte de préjudice\naccidents\nun avocat\naccident médical\nun accident\nindemniser\nerreur médicale\nles préjudices\nindemnisation pour la perte\naléa thérapeutique\nsuite à un accident\ndroit du dommage corporel\nun dommage corporel\nperte d'un oeil suite\navocat spécialisé\nles postes de préjudice\navocat en droit\noeil suite à un accident\nfaire accompagner par un avocat\njuste indemnisation",
+  "content_basic": "indemnisation\npréjudice\naccidents\nun œil\nexpertise\nun avocat\nexpertise médicale\naccident médical\ndommage corporel\nun accident\naccident de la route\nposte de préjudice\névaluer\nun médecin\nobtenir une indemnisation\nassureur\naccident du travail\npréjudice esthétique\nindemniser\nbarème\nmédecin expert\ndroit à indemnisation\nerreur médicale\nincapacité\naprès un accident\namiable\nles préjudices\nles séquelles\ninfection nosocomiale\naléa thérapeutique\ndéficit fonctionnel permanent\ncommission de conciliation\nun dommage corporel\nfrais médicaux",
+  "content_basic_w_ranges": "indemnisation: 5-35x\npréjudice: 4-19x\naccidents: 3-21x\nun œil: 1-7x\nexpertise: 1-14x\nun avocat: 1-6x\nexpertise médicale: 1-5x\naccident médical: 1-4x\ndommage corporel: 1-9x\nun accident: 1-5x\naccident de la route: 1-3x\nposte de préjudice: 1-2x\névaluer: 1-5x\nun médecin: 1-3x\nobtenir une indemnisation: 1-2x\nassureur: 1-10x\naccident du travail: 1-2x\npréjudice esthétique: 1-4x\nindemniser: 1-4x\nbarème: 1-3x\nmédecin expert: 1-3x\ndroit à indemnisation: 1x\nerreur médicale: 1x\nincapacité: 1-2x\naprès un accident: 1x\namiable: 1-3x\nles préjudices: 1-4x\nles séquelles: 1-3x\ninfection nosocomiale: 1-2x\naléa thérapeutique: 1-5x\ndéficit fonctionnel permanent: 1-2x\ncommission de conciliation: 1-2x\nun dommage corporel: 1x\nfrais médicaux: 1x",
+  "content_extended": "perte de revenus\nperte de la vision\nvictimes de france\nindemnisation pour la perte\nindemnisation perte d'un oeil\nperte de vision\nsuite à un accident\ndroit du dommage corporel\nperte totale\naccident de la vie\npréjudice corporel\nvictimes de france aivf\ninvalidité\nperte de la vue\nchamp visuel\nresponsabilité médicale\narrêt de travail\nsuite à la perte\ntierce personne\nperte d'un oeil suite\nindemnisation après\ncomment obtenir une indemnisation\navocat spécialisé\nvie courante\névaluer les séquelles\nquestions fréquentes\nles postes de préjudice\nperte d’un œil\nvision d’un œil\nperte de la vision d’un\nperte de l’œil\nperte d’autonomie\natteinte à l’intégrité physique\ncommission de conciliation et d’indemnisation\nassociation d’aide aux victimes\nvictime d’une erreur médicale\nselon l’âge\nmontant de l’indemnisation\nsaisine de la cci\navocat en droit\nindemnisation juste\ndemander une indemnisation\naide aux victimes de france\ncas de faute\naprès une intervention\noeil suite à un accident\nguide complet pour obtenir\nfaire accompagner par un avocat\njuste indemnisation\norienter vers un avocat\nperte visuelle\nposte par poste\navocat spécialisé en droit\nretentissement sur la vie\nactes de la vie courante\nindemnisation des victimes de france\nvie professionnelle et personnelle\ncapacité à travailler\nêtre indemnisée",
+  "content_extended_w_ranges": "perte de revenus: 1x\nperte de la vision: 1x\nvictimes de france: 1-2x\nindemnisation pour la perte: 1x\nindemnisation perte d'un oeil: 1x\nperte de vision: 1x\nsuite à un accident: 1x\ndroit du dommage corporel: 1-2x\nperte totale: 1x\naccident de la vie: 1-2x\npréjudice corporel: 1-2x\nvictimes de france aivf: 1x\ninvalidité: 1-2x\nperte de la vue: 1x\nchamp visuel: 1-2x\nresponsabilité médicale: 1-2x\narrêt de travail: 1-2x\nsuite à la perte: 1x\ntierce personne: 1-2x\nperte d'un oeil suite: 1x\nindemnisation après: 1x\ncomment obtenir une indemnisation: 1x\navocat spécialisé: 1x\nvie courante: 1x\névaluer les séquelles: 1x\nquestions fréquentes: 1x\nles postes de préjudice: 1x\nperte d’un œil: 1x\nvision d’un œil: 1x\nperte de la vision d’un: 1x\nperte de l’œil: 1x\nperte d’autonomie: 1x\natteinte à l’intégrité physique: 1x\ncommission de conciliation et d’indemnisation: 1x\nassociation d’aide aux victimes: 1x\nvictime d’une erreur médicale: 1x\nselon l’âge: 1x\nmontant de l’indemnisation: 1x\nsaisine de la cci: 1x\navocat en droit: 1x\nindemnisation juste: 1x\ndemander une indemnisation: 1x\naide aux victimes de france: 1x\ncas de faute: 1x\naprès une intervention: 1x\noeil suite à un accident: 1x\nguide complet pour obtenir: 1x\nfaire accompagner par un avocat: 1x\njuste indemnisation: 1x\norienter vers un avocat: 1x\nperte visuelle: 1x\nposte par poste: 1x\navocat spécialisé en droit: 1x\nretentissement sur la vie: 1x\nactes de la vie courante: 1x\nindemnisation des victimes de france: 1x\nvie professionnelle et personnelle: 1x\ncapacité à travailler: 1x\nêtre indemnisée: 1x",
+  "entities": "Dommage corporel\nŒil humain\nCécité\nŒil\nAssurance\nAIVF\nAccident de la route\nAccident médical\nMaladie infectieuse\nInfection nosocomiale\nMédecin\nAccident du travail\nAssociation AIVF\nOffice national d'indemnisation des accidents médicaux\nChambre de commerce et d'industrie en France\nDFP\nAssociation Victimes de France AIVF\nDépression (psychiatrie)\nChamp visuel\nSanté\nMaladie\nOphtalmologie\nGène\nHandicap\nAcuité visuelle\nContrat de travail\nDiplopie\nAIPP DFP Fonction Visuelle\nTéléphone\nMaladie professionnelle"
+ },
+ "status": "ready",
+ "keyword": "indemnisation perte oeil",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "ed48bfc78a4b2b3a",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "transactional": 16.7,
+   "navigational": 6.7
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "educational": 40.0,
+   "guide": 60.0,
+   "other": 16.7,
+   "short-answer": 10.0,
+   "business": 10.0,
+   "case-study": 3.3,
+   "video": 10.0,
+   "news": 3.3,
+   "tool": 6.7,
+   "social-media": 3.3
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/ed48bfc78a4b2b3a",
+ "share_url": "https://app.neuronwriter.com/analysis/share/ed48bfc78a4b2b3a/e14957e37142a1bd89b9dca19eb08c854fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/ed48bfc78a4b2b3a/56d20d7f6947df20b44e214dca8f9d8e4fa16"
+}

@@ -1,0 +1,2843 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Qu'est-ce que la loi Badinter et qui a droit à une indemnisation ?"
+   },
+   {
+    "q": "Quels sont les préjudices indemnisables ?"
+   },
+   {
+    "q": "Comment sont indemnisées les victimes d'un accident corporel ?"
+   },
+   {
+    "q": "Quand la loi Badinter ne s'applique pas ?"
+   }
+  ],
+  "topic_matrix": {
+   "Qu'est-ce que la loi Badinter et qui peut être indemnisé ?": {
+    "importance": 10
+   },
+   "Quand la loi Badinter s'applique-t-elle et dans quels cas ne s'applique-t-elle pas ?": {
+    "importance": 9
+   },
+   "Quels sont les préjudices indemnisables selon la loi Badinter (corporels, matériels, etc.) ?": {
+    "importance": 10
+   },
+   "Comment se déroule la procédure d'indemnisation après un accident de la route ?": {
+    "importance": 9
+   },
+   "Quels sont les délais pour obtenir une indemnisation après un accident ?": {
+    "importance": 9
+   },
+   "La faute de la victime peut-elle réduire ou exclure son droit à indemnisation ?": {
+    "importance": 8
+   },
+   "Comment est calculé le montant de l'indemnisation ?": {
+    "importance": 7
+   },
+   "Que faire en cas de désaccord avec l'offre d'indemnisation de l'assureur ?": {
+    "importance": 7
+   },
+   "Qui indemnise les victimes en cas d'accident de la route ?": {
+    "importance": 6
+   },
+   "Quel est le rôle d'un avocat spécialisé dans l'indemnisation des victimes d'accidents ?": {
+    "importance": 6
+   }
+  },
+  "content_questions": [
+   {
+    "q": "2° Procédure et délais applicables sous la loi Badinter ?"
+   },
+   {
+    "q": "3° La loi Badinter en pratique cela donne quoi ?"
+   },
+   {
+    "q": "4° Le conducteur sous la loi Badinter ?"
+   },
+   {
+    "q": "5° La Loi du 5 juillet 1985 dite loi Badinter résumée, en tableau ?"
+   },
+   {
+    "q": "5° Les pièges de la Loi Badinter ?"
+   },
+   {
+    "q": "6° La jurisprudence sous la Loi Badinter ?"
+   },
+   {
+    "q": "Accident sur un parking : qui est responsable ?"
+   },
+   {
+    "q": "Comment contester une offre d’indemnisation ?"
+   },
+   {
+    "q": "Comment est calculée l’indemnisation ?"
+   },
+   {
+    "q": "Comment fonctionne l’indemnisation selon la loi Badinter ?"
+   },
+   {
+    "q": "Comment la Loi Badinter s’applique-t-elle aux piétons ?"
+   },
+   {
+    "q": "Comment optimiser son indemnisation ?"
+   },
+   {
+    "q": "Comment réagir lors d’un accident de la route ?"
+   },
+   {
+    "q": "Comment être indemnisé après un accident de la route selon la loi Badinter ?"
+   },
+   {
+    "q": "Délit de fuite après un accident de voiture : quelles démarches ?"
+   },
+   {
+    "q": "En quoi consiste la loi Badinter ?"
+   },
+   {
+    "q": "Et en cas de faute inexcusable, il se passe quoi ?"
+   },
+   {
+    "q": "La Loi Badinter s’applique-t-elle aux étrangers victimes d’un accident en France ?"
+   },
+   {
+    "q": "La victime est-elle indemnisée même si elle a commis une faute ?"
+   },
+   {
+    "q": "Loi Badinter : comment les victimes d’accidents sont-elles indemnisées ?"
+   },
+   {
+    "q": "Loi Badinter : quelles sont les exclusions de l’indemnisation ?"
+   },
+   {
+    "q": "Loi Badinter et accident : qui sont les victimes de la route concernées ?"
+   },
+   {
+    "q": "Loi Badinter et accident de la route : dans quel cas s’applique-t-elle ?"
+   },
+   {
+    "q": "Loi Badinter et assurance : qui gère concrètement mon dossier d’indemnisation ?"
+   },
+   {
+    "q": "Passager ou conducteur, vous avez été victime d’un accident de la route ?"
+   },
+   {
+    "q": "Peut-on contester une offre d’indemnisation ?"
+   },
+   {
+    "q": "Pourquoi choisir le cabinet BENEZRA pour votre accident corporel ?"
+   },
+   {
+    "q": "Proposition d’indemnisation suite à un accident de la route : dans quels délais ?"
+   },
+   {
+    "q": "Qu'est-ce que la loi Badinter de 1985 sur les accidents de la route ?"
+   },
+   {
+    "q": "Qu'est-ce que la loi Badinter de 1985 ?"
+   },
+   {
+    "q": "Quand est-ce que la loi Badinter de 1985 s'applique ?"
+   },
+   {
+    "q": "Que change la Loi Badinter pour un passager ?"
+   },
+   {
+    "q": "Que prévoit la Loi Badinter pour les accidents de moto ?"
+   },
+   {
+    "q": "Que prévoit la Loi Badinter pour un conducteur ?"
+   },
+   {
+    "q": "Que se passe-t-il si l’assureur dépasse ces délais ?"
+   },
+   {
+    "q": "Que se passe-t-il si vous avez un accident seul ?"
+   },
+   {
+    "q": "Quel est le principe d’indemnisation prévu par la Loi Badinter ?"
+   },
+   {
+    "q": "Quelles indemnisations avec la loi Badinter ?"
+   },
+   {
+    "q": "Quelles sont les séquelles permanentes que vous conserverez suite à l'accident ?"
+   },
+   {
+    "q": "Quelles suites données à l’offre d’indemnisation ?"
+   },
+   {
+    "q": "Quels accidents sont couverts par la Loi Badinter ?"
+   },
+   {
+    "q": "Quels délais l’assureur doit-il respecter ?"
+   },
+   {
+    "q": "Quels préjudices sont indemnisés ?"
+   },
+   {
+    "q": "Quels sont les délais imposés aux assureurs ?"
+   },
+   {
+    "q": "Qui est indemnisé selon la loi Badinter ?"
+   },
+   {
+    "q": "Qui est protégé par la Loi Badinter ?"
+   },
+   {
+    "q": "Qui peut bénéficier de la Loi Badinter ?"
+   },
+   {
+    "q": "Qui peut bénéficier de l’indemnisation ?"
+   },
+   {
+    "q": "Qui peut être indemnisé selon la loi Badinter ?"
+   },
+   {
+    "q": "Qu’en est-il des accidents de vélo ?"
+   },
+   {
+    "q": "Qu’est ce que la Loi Badinter ?"
+   },
+   {
+    "q": "Qu’est-ce que la Loi Badinter ?"
+   },
+   {
+    "q": "Qu’est-ce que la loi Badinter ?"
+   },
+   {
+    "q": "Qu’est-ce que la loi Badinter de 1985 sur les accidents de la route ?"
+   },
+   {
+    "q": "Qu’est-ce que la « faute inexcusable » ?"
+   },
+   {
+    "q": "Une indemnisation est-elle possible et à quelles conditions ?"
+   },
+   {
+    "q": "Victime directe ou indirecte d'un accident de la route (piéton, cycliste, passager, conducteur)?"
+   },
+   {
+    "q": "Vous avez été victime d’un accident de la route ?"
+   },
+   {
+    "q": "Vous venez d’avoir un accident de voiture ou de camion ?"
+   },
+   {
+    "q": "Vous êtes perdu face aux démarches avec les assurances ?"
+   },
+   {
+    "q": "Vous êtes victime d'un accident et la personne responsable commet un délit de fuite ?"
+   },
+   {
+    "q": "° Indemnisations multipliées par 5 à 20 par rapport aux offres initiales – voir un cas probant ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068902/",
+   "title": "Un instant…",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "www.legifrance.gouv.fr"
+    ],
+    [
+     "h2",
+     "Vérification de sécurité en cours"
+    ],
+    [
+     "h2",
+     "Vérification réussie. En attente de la réponse de www.legifrance.gouv.fr."
+    ]
+   ],
+   "content_score": 0,
+   "readability": 61,
+   "word_count": 58,
+   "content_len": 407
+  },
+  {
+   "rank": 2,
+   "url": "https://www.benezra-victimesdelaroute.fr/loi-badinter-indemnisation/",
+   "title": "Qu'est-ce que la loi Badinter de 1985 sur les accidents de la route ? - Benezra Avocats - Droit routier et dommages corporels",
+   "desc": "Intervention du cabinet dans le magazine enquête d'action sur les taxis et les coursiers - Droit routier et dommages corporels",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "2° Procédure et délais applicables sous la loi Badinter ?"
+    ],
+    [
+     "h2",
+     "Le Parcours de la Victime avec Benezra Avocats"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "5° La Loi du 5 juillet 1985 dite loi Badinter résumée, en tableau ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "8° Application de Badinter, en vidéo"
+    ],
+    [
+     "h2",
+     "Pourquoi choisir le cabinet BENEZRA pour votre accident corporel ?"
+    ],
+    [
+     "h2",
+     "Pourquoi choisir le cabinet BENEZRA pour votre accident corporel ?"
+    ],
+    [
+     "h2",
+     "Pas encore convaincu ? En savoir + sur le cabinet Benezra"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 17,
+   "word_count": 6084,
+   "content_len": 37540
+  },
+  {
+   "rank": 3,
+   "url": "https://www.matmut.fr/assurance/auto/conseils/accident-route-loi-badinter",
+   "title": "Loi Badinter, accident de la circulation et indemnisation | Matmut",
+   "desc": "Depuis 1985, la loi Badinter permet d’accélérer la procédure d’indemnisation pour les victimes d’accident de la route. Le point sur ce que dit la loi.",
+   "headers": [
+    [
+     "h1",
+     "Loi Badinter, accident de la circulation et indemnisation"
+    ],
+    [
+     "h2",
+     "Loi Badinter et accident de la route : dans quel cas s’applique-t-elle ?"
+    ],
+    [
+     "h2",
+     "Loi Badinter et accident : qui sont les victimes de la route concernées ?"
+    ],
+    [
+     "h2",
+     "Loi Badinter et indemnisation"
+    ],
+    [
+     "h2",
+     "Comment réagir lors d’un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Pour aller plus loin:"
+    ]
+   ],
+   "content_score": 72,
+   "readability": 41,
+   "word_count": 1235,
+   "content_len": 7271
+  },
+  {
+   "rank": 4,
+   "url": "https://www.groupama.fr/assurance-auto/conseils/loi-badinter/",
+   "title": "Loi Badinter : conditions et indemnisations - Groupama",
+   "desc": "La loi Badinter de 1985 facilite et accélère l’indemnisation des victimes d’accident de la route. Découvrez son fonctionnement.",
+   "headers": [
+    [
+     "h1",
+     "Qu'est-ce que la loi Badinter de 1985 ?"
+    ],
+    [
+     "h2",
+     "En quoi consiste la loi Badinter ?"
+    ],
+    [
+     "h2",
+     "Quand est-ce que la loi Badinter de 1985 s'applique ?"
+    ],
+    [
+     "h2",
+     "Quelles indemnisations avec la loi Badinter ?"
+    ],
+    [
+     "h2",
+     "Découvrez notre offre d’assurance auto"
+    ],
+    [
+     "h2",
+     "Découvrez nos infos et conseils pour votre auto"
+    ]
+   ],
+   "content_score": 70,
+   "readability": 31,
+   "word_count": 1589,
+   "content_len": 10019
+  },
+  {
+   "rank": 5,
+   "url": "https://association-aivf-faq.fr/questions-habituelles-accident-de-la-route/loi-badinter-indemnisation-des-victimes-daccident-de-la-route-droits-delais-montants",
+   "title": "Loi Badinter : indemnisation des victimes d’accident de la route (droits, délais, montants)",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Comment être indemnisé après un accident de la route selon la loi Badinter ?"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Vidéo explicative :"
+    ],
+    [
+     "h2",
+     "Comment fonctionne l’indemnisation selon la loi Badinter ?"
+    ],
+    [
+     "h2",
+     "Ce qu’il faut savoir immédiatement sur l’indemnisation selon la loi Badinter"
+    ],
+    [
+     "h2",
+     "Association AIVF – Information et aide aux victimes"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Indemnisation selon la loi Badinter"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que la loi Badinter ?"
+    ],
+    [
+     "h2",
+     "Qui peut être indemnisé selon la loi Badinter ?"
+    ],
+    [
+     "h2",
+     "Qui sont les victimes « super protégées » ?"
+    ],
+    [
+     "h2",
+     "Quels préjudices sont indemnisés ?"
+    ],
+    [
+     "h2",
+     "Quels délais l’assureur doit-il respecter ?"
+    ],
+    [
+     "h2",
+     "Peut-on être indemnisé si le responsable est inconnu ou non assuré ?"
+    ],
+    [
+     "h2",
+     "Que se passe-t-il si vous avez un accident seul ?"
+    ],
+    [
+     "h2",
+     "Peut-on contester une offre d’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Comment l’AIVF peut-elle vous aider ?"
+    ],
+    [
+     "h2",
+     "Erreurs fréquentes"
+    ],
+    [
+     "h2",
+     "À retenir"
+    ]
+   ],
+   "content_score": 82,
+   "readability": 35,
+   "word_count": 1916,
+   "content_len": 12576
+  },
+  {
+   "rank": 7,
+   "url": "https://www.retro.fr/blog/vehicules-quotidiens/loi-badinter",
+   "title": "Loi Badinter : comprendre les principes clés de l'indemnisation | Rétro+",
+   "desc": "La loi Badinter révolutionne l’indemnisation des victimes de la route. Comprenez ses objectifs et son champ d'application.",
+   "headers": [
+    [
+     "h1",
+     "Principes essentiels de la loi Badinter"
+    ],
+    [
+     "h2",
+     "Principes fondamentaux de la loi Badinter"
+    ],
+    [
+     "h2",
+     "Conditions d'indemnisation"
+    ],
+    [
+     "h2",
+     "Procédure d'indemnisation"
+    ]
+   ],
+   "content_score": 64,
+   "readability": 38,
+   "word_count": 994,
+   "content_len": 6118
+  },
+  {
+   "rank": 8,
+   "url": "https://www.indemnisationprejudice.fr/lois-et-organismes/loi-badinter-et-protection-renforcee-des-victimes-daccident-de-la-route/",
+   "title": "Loi Badinter 1985 : indemnisation des victimes d’accident de la route (piéton, cycliste, passager, conducteur)",
+   "desc": "Victime directe ou indirecte d'un accident de la route (piéton, cycliste, passager, conducteur)? Indemnisation Préjudice, vous accompagne dans vos démarches d'indemnisation notamment en matière de Loi Badinter",
+   "headers": [
+    [
+     "h1",
+     "Loi Badinter 1985 : indemnisation des victimes d’accident de la route (piéton, cycliste, passager, conducteur)"
+    ],
+    [
+     "h2",
+     "Qu’est ce que la Loi Badinter ?"
+    ],
+    [
+     "h2",
+     "Qui est protégé par la Loi Badinter ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Loi Badinter : quelles sont les exclusions de l’indemnisation ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Indemnisation Loi Badinter selon le statut de la victime (passager, conducteur, victime étrangère…)"
+    ],
+    [
+     "h2",
+     "Délais d’indemnisation : calendrier Loi Badinter"
+    ],
+    [
+     "h2",
+     "Procédure pratique d’indemnisation sous la loi Badinter"
+    ],
+    [
+     "h2",
+     "Rôle de l’avocat spécialisé Loi Badinter"
+    ],
+    [
+     "h2",
+     "Exemple d’indemnisation selon la Loi Badinter"
+    ],
+    [
+     "h2",
+     "FAQ Loi Badinter (1985)"
+    ]
+   ],
+   "content_score": 88,
+   "readability": 29,
+   "word_count": 5060,
+   "content_len": 33170
+  },
+  {
+   "rank": 9,
+   "url": "https://www.youtube.com/watch?v=CjH4v22WYR8",
+   "title": "Loi Badinter : comment les victimes d’accidents sont-elles indemnisées ? - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Loi Badinter : comment les victimes d’accidents sont-elles indemnisées ?"
+    ],
+    [
+     "h1",
+     "Loi Badinter : comment les victimes d’accidents sont-elles indemnisées ?"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      5"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 37,
+   "readability": 51,
+   "word_count": 247,
+   "content_len": 1641
+  },
+  {
+   "rank": 10,
+   "url": "https://actu.dalloz-etudiant.fr/a-la-une/article/loi-badinter-rappel-des-conditions-dexoneration-de-la-faute-contributive-de-la-victime-conduct/h/7223f5f8f2be196d6fb907dbff8b8872.html",
+   "title": "DALLOZ Etudiant - Actualité: Loi Badinter : rappel des conditions d’exonération de la faute contributive de la victime conductrice",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h2",
+     "À la une"
+    ],
+    [
+     "h2",
+     "Autres À la une"
+    ]
+   ],
+   "content_score": 35,
+   "readability": 22,
+   "word_count": 2080,
+   "content_len": 12258
+  },
+  {
+   "rank": 11,
+   "url": "https://www.rsl-avocat.com/loi-badinter-application/",
+   "title": "Loi Badinter : loi de 1985 et indemnisation accident route",
+   "desc": "Comprendre la loi Badinter du 5 juillet 1985 : conditions d’application, victimes protégées, faute, offre de l’assureur et indemnisation après accident.",
+   "headers": [
+    [
+     "h1",
+     "Loi Badinter : la loi de 1985 sur l’indemnisation des victimes d’accident de la route"
+    ],
+    [
+     "h2",
+     "Loi Badinter : ce qu’il faut retenir"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que la loi Badinter ?"
+    ],
+    [
+     "h2",
+     "Quand la loi Badinter s’applique-t-elle ?"
+    ],
+    [
+     "h2",
+     "Qui est protégé par la loi Badinter ?"
+    ],
+    [
+     "h2",
+     "La faute peut-elle réduire l’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Dans quels cas la loi Badinter ne s’applique-t-elle pas ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule l’indemnisation par l’assureur ?"
+    ],
+    [
+     "h2",
+     "Quels préjudices peuvent être indemnisés après un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Pourquoi consulter un avocat après un accident relevant de la loi Badinter ?"
+    ],
+    [
+     "h2",
+     "RSL Avocat accompagne les victimes d’accidents de la route"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur la loi Badinter"
+    ],
+    [
+     "h2",
+     "Indemnisation après un accident de la route : articles et ressources"
+    ],
+    [
+     "h2",
+     "RSL Avocat"
+    ],
+    [
+     "h2",
+     "Adresse"
+    ]
+   ],
+   "content_score": 75,
+   "readability": 31,
+   "word_count": 3420,
+   "content_len": 21844
+  },
+  {
+   "rank": 12,
+   "url": "https://www.maif.fr/vehicule-mobilite/guide-assurance-auto/loi-badinter",
+   "title": "Loi Badinter et assurance auto - MAIF",
+   "desc": "La loi Badinter permet d'indemniser les victimes lors d'un accident de la circulation. Que dit la loi ? Quelles sont les indemnisations et dans quelles conditions ?",
+   "headers": [
+    [
+     "h1",
+     "Loi Badinter et assurance auto : ce qu'il faut savoir"
+    ],
+    [
+     "h2",
+     "1\n                Loi Badinter et accident de la circulation : définition"
+    ],
+    [
+     "h2",
+     "2\n                Quand s'applique la loi Badinter du 5 juillet 1985 ?"
+    ],
+    [
+     "h2",
+     "3\n                Quelles sont les conditions d'indemnisation des victimes ?"
+    ],
+    [
+     "h2",
+     "4\n                Qui indemnise en cas d'accident de la route ?"
+    ],
+    [
+     "h2",
+     "5\n                Où se trouve la loi Badinter dans le code civil ?"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 36,
+   "word_count": 2253,
+   "content_len": 14216
+  },
+  {
+   "rank": 13,
+   "url": "https://www.lepermislibre.fr/assurance-auto/loi-badinter",
+   "title": "La loi Badinter : rôle et indemnisation des victimes de la route | Lepermislibre",
+   "desc": "Focus complet sur la loi Badinter : que dit cette loi ? Quel est son objectif ? Quand s'applique-t-elle ? Qui sont les victimes protégées par la loi Badinter ? Lepermislibre vous explique tout !",
+   "headers": [
+    [
+     "h1",
+     "La loi Badinter"
+    ],
+    [
+     "h2",
+     "﻿Que dit la loi Badinter ?"
+    ],
+    [
+     "h2",
+     "Quand s’applique la loi Badinter ?"
+    ],
+    [
+     "h2",
+     "Les victimes protégées par la loi Badinter"
+    ],
+    [
+     "h2",
+     "Comment se fait l’indemnisation des victimes ?﻿﻿﻿"
+    ]
+   ],
+   "content_score": 58,
+   "readability": 30,
+   "word_count": 1776,
+   "content_len": 11131
+  },
+  {
+   "rank": 14,
+   "url": "https://www.youtube.com/watch?v=--v6K93mlYg",
+   "title": "Comprendre la Faute de la Victime dans les Accidents de la Route - Loi Badinter Décryptée - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Comprendre la Faute de la Victime dans les Accidents de la Route - Loi Badinter Décryptée"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h1",
+     "Comprendre la Faute de la Victime dans les Accidents de la Route - Loi Badinter Décryptée"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      2"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Chapitres"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 38,
+   "readability": 22,
+   "word_count": 478,
+   "content_len": 3186
+  },
+  {
+   "rank": 15,
+   "url": "https://association-aivf-faq.fr/accident-de-la-route-faq/loi-badinter/loi-badinter-accident-de-la-circulation",
+   "title": "Loi Badinter accident de la circulation - Association Victimes de France AIVF",
+   "desc": "Loi Badinter et accident de la circulation, réparation intégrale du préjudice, véhicule terrestre à moteur, droit à indemnisation sans faute",
+   "headers": [
+    [
+     "h1",
+     "Loi Badinter, accident de la circulation"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Loi Badinter et indemnisation après un accident de la circulation"
+    ],
+    [
+     "h2",
+     "Questions concernant la loi Badinter et l’accident de la circulation"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 48,
+   "word_count": 1724,
+   "content_len": 10920
+  },
+  {
+   "rank": 16,
+   "url": "https://www.coppet-avocats.fr/actualites/accidents-de-la-route/loi-badinter-victime-accident-indemnisation/",
+   "title": "La loi Badinter de 1985 : vos droits à indemnisation après un accident de la route",
+   "desc": "Loi Badinter de 1985 : champ d'application, protection des victimes non conductrices, préjudices indemnisables, délais imposés aux assureurs et prescription de 10 ans.",
+   "headers": [
+    [
+     "h1",
+     "La loi Badinter de 1985 : vos droits à indemnisation après un accident de la route"
+    ],
+    [
+     "h2",
+     "Victimes d’accidents de la route : la loi Badinter et son champ d’application"
+    ],
+    [
+     "h2",
+     "Victimes d’accidents de la route : quelle prise en charge en fonction de votre qualité"
+    ],
+    [
+     "h2",
+     "Les préjudices indemnisables après un accident de la circulation"
+    ],
+    [
+     "h2",
+     "Loi Badinter : les délais à respecter par les assurances"
+    ],
+    [
+     "h2",
+     "A qui m’adresser pour obtenir une prise en charge en cas d’accident de la route ?"
+    ],
+    [
+     "h2",
+     "Victimes d’accidents de la route : absence d’assurance ou délit de fuite"
+    ],
+    [
+     "h2",
+     "Victimes d’accidents de la route : refus de l’offre d’indemnisation proposée"
+    ],
+    [
+     "h2",
+     "Les réflexes à adopter après un accident de la route"
+    ],
+    [
+     "h2",
+     "Loi Badinter : une protection légale essentielle pour les victimes de la route"
+    ],
+    [
+     "h2",
+     "En résumé :"
+    ]
+   ],
+   "content_score": 82,
+   "readability": 25,
+   "word_count": 4267,
+   "content_len": 27546
+  },
+  {
+   "rank": 17,
+   "url": "https://www.gmf.fr/vehicules/assurance-auto-moto/conseils-assurance-auto-moto/que-dit-la-loi-badinter",
+   "title": "Assurance auto et loi badinter : tout ce qu'il faut savoir - GMF",
+   "desc": "Accident de la circulation : tout savoir sur l’indemnisation, les démarches, les exclusions et les garanties pour être bien protégé au quotidien.",
+   "headers": [
+    [
+     "h1",
+     "Assurance auto et loi badinter : tout ce qu'il faut savoir"
+    ],
+    [
+     "h2",
+     "Comprendre la loi Badinter et son application"
+    ],
+    [
+     "h2",
+     "Quels sont les dommages indemnisables selon la loi Badinter ?"
+    ],
+    [
+     "h2",
+     "Cas particuliers et exclusions"
+    ],
+    [
+     "h2",
+     "Comment réagir face à un accident de la circulation ?"
+    ],
+    [
+     "h2",
+     "Comment être bien couvert en cas d’accident de la circulation ?"
+    ],
+    [
+     "h2",
+     "Ces articles peuvent vous intéresser"
+    ]
+   ],
+   "content_score": 58,
+   "readability": 24,
+   "word_count": 2048,
+   "content_len": 13201
+  },
+  {
+   "rank": 18,
+   "url": "https://www.avocats-coubris-et-associes.fr/dossiers/la-loi-badinter-indemnisation-des-victimes-dun-accident-de-la-route/",
+   "title": "La loi Badinter : indemnisation des victimes d’un accident de la route - Avocats Coubris & Associés",
+   "desc": "La loi Badinter a simplifié les modalités d’indemnisation pour les victimes de dommages suite à un accident de la route. Avocats spécialisés.",
+   "headers": [
+    [
+     "h1",
+     "La loi Badinter : indemnisation des victimes d’un accident de la route"
+    ],
+    [
+     "h2",
+     "Pouvez-vous être indemnisé si, en tant que conducteur, vous avez commis une faute de conduite ?"
+    ],
+    [
+     "h2",
+     "L’assurance peut-elle refuser d’indemniser si la victime, non conductrice, était en état d’ébriété, ne portait pas la ceinture, ne portait pas de casque, etc… ?"
+    ],
+    [
+     "h2",
+     "Suivez l’actualité du Cabinet"
+    ],
+    [
+     "h2",
+     "Retrouvez nos articles sur les dossiers,les procès en cours et l’activité du Cabinet"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 29,
+   "word_count": 918,
+   "content_len": 5703
+  },
+  {
+   "rank": 19,
+   "url": "https://avocat-domcorp.fr/blog/lois-badinter-indemnisatin-accident-de-la-route/",
+   "title": "Loi Badinter : Une procédure pour l'Indemnisation pour les Victimes",
+   "desc": "L’un de vos proches a été victime d’un accident de la route ? Découvrez quel est la procédure d’indemnisation prévue par la loi Badinter.",
+   "headers": [
+    [
+     "h1",
+     "Loi Badinter – Une procédure pour l’Indemnisation pour les Victimes"
+    ],
+    [
+     "h1",
+     "Loi Badinter : une procédure pour l’indemnisation pour les victimes ?"
+    ],
+    [
+     "h2",
+     "Que savez-vous de la loi Badinter ?"
+    ],
+    [
+     "h2",
+     "Que prévoit la loi Badinter à propos du montant d’indemnisation des victimes d’accidents routiers ?"
+    ],
+    [
+     "h2",
+     "Comment est calculé le montant de l’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Quels sont les conditions pour bénéficier d’une indemnisation selon la loi Badinter ?"
+    ]
+   ],
+   "content_score": 73,
+   "readability": 38,
+   "word_count": 1448,
+   "content_len": 9170
+  },
+  {
+   "rank": 20,
+   "url": "https://mn-avocats.fr/conseils/loi-badinter-indemnisation-accident-route-france/",
+   "title": "Loi Badinter et indemnisation des accidents de la route en France",
+   "desc": "La loi Badinter a amélioré les conditions d’indemnisation des victimes. Pourtant les assurances capitalisent sur le manque d'information des victimes. Faites vous accompagner d'un avocat spécialisé pour obtenir les meilleures indemnisations.",
+   "headers": [
+    [
+     "h1",
+     "Loi Badinter et indemnisation des accidents de la route"
+    ],
+    [
+     "h2",
+     "Contexte de la Loi Badinter : Une Réponse à une Urgence Sociétale"
+    ],
+    [
+     "h2",
+     "Principes Clés de la Loi Badinter"
+    ],
+    [
+     "h2",
+     "Les usagers protégés et les situations concernées"
+    ],
+    [
+     "h2",
+     "Les Assurances Face à la Loi Badinter"
+    ],
+    [
+     "h2",
+     "Tensions entre assureurs et victimes d'accident"
+    ],
+    [
+     "h2",
+     "Les Étapes de l’Indemnisation"
+    ],
+    [
+     "h2",
+     "Exemples d’accidents couverts par la loi Badinter"
+    ],
+    [
+     "h2",
+     "Bilan et perspectives de la Loi Badinter"
+    ]
+   ],
+   "content_score": 70,
+   "readability": 44,
+   "word_count": 1688,
+   "content_len": 11412
+  },
+  {
+   "rank": 21,
+   "url": "https://www.allianz.fr/assurance-particulier/vehicules/assurance-auto/conseils-pratiques/loi-badinter.html",
+   "title": "Loi Badinter : les enjeux et les implications pour les usagers de la route",
+   "desc": "Découvrez la Loi Badinter, ses implications pour les usagers de la route et comment elle facilite l’indemnisation des victimes d’accidents.",
+   "headers": [
+    [
+     "h1",
+     "Loi Badinter : les enjeux et les implications pour les usagers de la route"
+    ],
+    [
+     "h2",
+     "Comment fonctionne la Loi Badinter ?"
+    ],
+    [
+     "h2",
+     "Qui est concerné par la Loi du 5 juillet 1985 ?"
+    ],
+    [
+     "h2",
+     "Les délais d’indemnisation selon la Loi Badinter"
+    ],
+    [
+     "h2",
+     "Prévention et sensibilisation"
+    ],
+    [
+     "h2",
+     "Loi Badinter : consultez nos questions/réponses"
+    ],
+    [
+     "h2",
+     "Assurance auto :\ndécouvrez nos conseils pratiques"
+    ],
+    [
+     "h2",
+     "Cette offre peut également vous intéresser"
+    ],
+    [
+     "h2",
+     "Trouvez une agence près de chez vous"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 29,
+   "word_count": 2199,
+   "content_len": 13950
+  },
+  {
+   "rank": 22,
+   "url": "https://www.christin-avocat.fr/publications/lindemnisation-des-victimes-daccidents-de-la-circulation",
+   "title": "L'indemnisation des victimes d'accidents de la circulation",
+   "desc": "Les publications du cabinet",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h2",
+     "Quelles sont les victimes qui peuvent être indemnisées lors d’un accident de la circulation ?"
+    ],
+    [
+     "h2",
+     "Quels sont les organismes qui indemnisent les victimes d’un accident de la circulation"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ]
+   ],
+   "content_score": 36,
+   "readability": 22,
+   "word_count": 2469,
+   "content_len": 15660
+  },
+  {
+   "rank": 23,
+   "url": "https://www.benezra.fr/la-loi-badinter-en-questions.html",
+   "title": "Qu'est-ce que la loi Badinter ? 25 questions sur la loi Badinter ?",
+   "desc": "Un journaliste a posé à Maître benezra 25 questions sur la loi Badinter de 1985 sur les accidents de la circulation et les victimes",
+   "headers": [
+    [
+     "h1",
+     "LA LOI BADINTER en 25 QUESTIONS / réponses ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Pourquoi choisir le cabinet BENEZRA pour votre accident corporel ?"
+    ],
+    [
+     "h2",
+     "Pourquoi choisir le cabinet BENEZRA pour votre accident corporel ?"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 30,
+   "word_count": 3303,
+   "content_len": 21351
+  },
+  {
+   "rank": 24,
+   "url": "https://www.youtube.com/shorts/UteL-F51GRU",
+   "title": "Avant d'accéder à YouTube",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Avant d'accéder à YouTube"
+    ]
+   ],
+   "content_score": 0,
+   "readability": 3,
+   "word_count": 488,
+   "content_len": 3240
+  },
+  {
+   "rank": 25,
+   "url": "https://www.lecomparateurassurance.com/assurance-auto/contrat/indemnisation/focus-loi-badinter-indemnisation-assurance",
+   "title": "Loi Badinter et indemnisation d'assurance des victimes de la route",
+   "desc": "La loi Badinter vise à mieux protéger les victimes d’accidents de la route impliquant des véhicules. Découvrez comment être indemnisé en cas de sinistre !",
+   "headers": [
+    [
+     "h1",
+     "Loi Badinter sur l’indemnisation d’assurance : ce qu'il faut savoir"
+    ],
+    [
+     "h2",
+     "Qu'est-ce que la loi Badinter sur les accidents de la route ?"
+    ],
+    [
+     "h2",
+     "Qu'est-ce qu'une faute inexcusable ?"
+    ],
+    [
+     "h2",
+     "Exemples d'indemnisation selon la loi Badinter"
+    ],
+    [
+     "h2",
+     "Loi Badinter et indemnisation des victimes super privilégiées"
+    ],
+    [
+     "h2",
+     "L'offre d'indemnisation de la loi Badinter"
+    ],
+    [
+     "h2",
+     "Faire appel à un avocat pour faire valoir vos droits"
+    ],
+    [
+     "h2",
+     "Souscrire la meilleure assurance auto"
+    ]
+   ],
+   "content_score": 68,
+   "readability": 28,
+   "word_count": 1192,
+   "content_len": 7483
+  },
+  {
+   "rank": 26,
+   "url": "https://www.avocats-llm.com/accidents-de-la-route-la-loi-badinter-et-les-regles-dindemnisation/",
+   "title": "Accidents de la route : la loi BADINTER et les règles d’indemnisation - Avocats LLM",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Accidents de la route : la loi BADINTER et les règles d’indemnisation"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 24,
+   "word_count": 304,
+   "content_len": 1863
+  },
+  {
+   "rank": 27,
+   "url": "https://www.youtube.com/watch?v=UEnCcM6PsnQ",
+   "title": "La loi Badinter du 5 juillet 1985 relative aux accidents de la circulation - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "La loi Badinter du 5 juillet 1985 relative aux accidents de la circulation"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h1",
+     "Robert Badinter"
+    ],
+    [
+     "h1",
+     "La loi Badinter du 5 juillet 1985 relative aux accidents de la circulation"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      3"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Chapitres"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h1",
+     "Robert Badinter"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 29,
+   "readability": 78,
+   "word_count": 262,
+   "content_len": 1620
+  },
+  {
+   "rank": 28,
+   "url": "https://www.emeraude-avocats.fr/l-offre-d-indemnisation-dans-la-loi-badinter.php",
+   "title": "L’offre d’indemnisation dans la loi Badinter",
+   "desc": "Découvrez la loi Badinter, son fonctionnement et comment elle protège les victimes d'accidents de la circulation en France depuis 1985.",
+   "headers": [
+    [
+     "h1",
+     "Loi Badinter : Comprendre vos droits en cas d'accident de la route"
+    ],
+    [
+     "h2",
+     "L’offre d’indemnisation dans la loi Badinter"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 13,
+   "word_count": 473,
+   "content_len": 2866
+  },
+  {
+   "rank": 29,
+   "url": "https://maitre-morin-avocat.fr/accueil/indemnisation-accident-de-la-route/comment-fonctionne-la-loi-badinter",
+   "title": "Comment fonctionne la loi Badinter ? Indemnisation des victimes",
+   "desc": "La loi Badinter organise l’indemnisation des victimes d’accidents de la route. Qui est indemnisé, délais, assurances, expertise et droits.",
+   "headers": [
+    [
+     "h1",
+     "Comment fonctionne la loi Badinter pour indemniser les victimes d’un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "Auteur de cette page"
+    ],
+    [
+     "h2",
+     "🔎 En résumé (à retenir immédiatement) sur l'indemnisation des victimes d’accidents de la route"
+    ],
+    [
+     "h2",
+     "❓ Loi Badinter : comment ça fonctionne ? (les 3 questions essentielles)"
+    ],
+    [
+     "h2",
+     "📌 Quels préjudices sont indemnisés ?"
+    ],
+    [
+     "h2",
+     "⏱️ Délais et étapes clés de la procédure Badinter"
+    ],
+    [
+     "h2",
+     "📂 Quelles preuves réunir ?"
+    ],
+    [
+     "h2",
+     "⚠️ Cas particuliers fréquents"
+    ],
+    [
+     "h2",
+     "⚖️ Exemple concret"
+    ],
+    [
+     "h2",
+     "❓ Questions fréquentes des victimes"
+    ],
+    [
+     "h2",
+     "✅ Conclusion"
+    ]
+   ],
+   "content_score": 70,
+   "readability": 37,
+   "word_count": 1356,
+   "content_len": 8577
+  },
+  {
+   "rank": 30,
+   "url": "https://www.favarel-eychenne-avocat.fr/loi-badinter-comprendre-protection-victimes-accidents-route",
+   "title": "La loi Badinter : Protection des victimes d’accidents de la route",
+   "desc": "Comprendre la protection des victimes d’accidents de la route et l'application de la loi Badinter de 1985 en France",
+   "headers": [
+    [
+     "h1",
+     "La loi Badinter : Comprendre la protection des victimes d’accidents de la route"
+    ],
+    [
+     "h1",
+     "Victime d'un accident ?"
+    ],
+    [
+     "h2",
+     "Vous avez été victime d’un accident de la route ? Connaissez-vous réellement vos droits ?"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que la loi Badinter ?"
+    ],
+    [
+     "h2",
+     "Comment fonctionne l’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Exemple concret : Comment la loi Badinter protège une victime ?"
+    ],
+    [
+     "h2",
+     "Pourquoi faire appel à un avocat en dommage corporel ?"
+    ]
+   ],
+   "content_score": 60,
+   "readability": 64,
+   "word_count": 909,
+   "content_len": 5694
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1589,
+   "target": 1589
+  },
+  "readability": {
+   "median": 35,
+   "target": 35
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "loi badinter",
+    "usage_pc": 89
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 56
+   },
+   {
+    "t": "accident",
+    "usage_pc": 56
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 33
+   },
+   {
+    "t": "conducteur",
+    "usage_pc": 22
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 22
+   }
+  ],
+  "desc": [
+   {
+    "t": "loi badinter",
+    "usage_pc": 44
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 44
+   },
+   {
+    "t": "accident",
+    "usage_pc": 33
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 33
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 22
+   },
+   {
+    "t": "conducteur",
+    "usage_pc": 11
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 11
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 11
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 11
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 11
+   },
+   {
+    "t": "piéton",
+    "usage_pc": 11
+   },
+   {
+    "t": "loi badinter de 1985",
+    "usage_pc": 11
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 11
+   }
+  ],
+  "h1": [
+   {
+    "t": "loi badinter",
+    "usage_pc": 67
+   },
+   {
+    "t": "accident",
+    "usage_pc": 44
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 22
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 22
+   },
+   {
+    "t": "conducteur",
+    "usage_pc": 11
+   },
+   {
+    "t": "accident de la circulation",
+    "usage_pc": 11
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 11
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 11
+   },
+   {
+    "t": "piéton",
+    "usage_pc": 11
+   },
+   {
+    "t": "loi badinter de 1985",
+    "usage_pc": 11
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 11
+   },
+   {
+    "t": "qu'est-ce que la loi badinter",
+    "usage_pc": 11
+   },
+   {
+    "t": "principes essentiels de la loi",
+    "usage_pc": 11
+   },
+   {
+    "t": "essentiels de la loi badinter",
+    "usage_pc": 11
+   }
+  ],
+  "h2": [
+   {
+    "t": "loi badinter",
+    "usage_pc": 67
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 56
+   },
+   {
+    "t": "accident",
+    "usage_pc": 33
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 22
+   },
+   {
+    "t": "indemnisation selon la loi badinter",
+    "usage_pc": 22
+   },
+   {
+    "t": "sous la loi badinter",
+    "usage_pc": 22
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 11
+   },
+   {
+    "t": "conducteur",
+    "usage_pc": 11
+   },
+   {
+    "t": "5 juillet 1985",
+    "usage_pc": 11
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 11
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 11
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 11
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 11
+   },
+   {
+    "t": "loi du 5 juillet 1985",
+    "usage_pc": 11
+   },
+   {
+    "t": "loi badinter de 1985",
+    "usage_pc": 11
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 11
+   },
+   {
+    "t": "victimes de la route",
+    "usage_pc": 11
+   },
+   {
+    "t": "dite loi badinter",
+    "usage_pc": 11
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "loi badinter",
+    "usage_pc": 89,
+    "sugg_usage": [
+     5,
+     17
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 89,
+    "sugg_usage": [
+     8,
+     30
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 89,
+    "sugg_usage": [
+     11,
+     28
+    ]
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 78,
+    "sugg_usage": [
+     2,
+     9
+    ]
+   },
+   {
+    "t": "conducteur",
+    "usage_pc": 89,
+    "sugg_usage": [
+     5,
+     23
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 89,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "5 juillet 1985",
+    "usage_pc": 89,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     14
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 78,
+    "sugg_usage": [
+     2,
+     13
+    ]
+   },
+   {
+    "t": "accident de la circulation",
+    "usage_pc": 89,
+    "sugg_usage": [
+     2,
+     4
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 89,
+    "sugg_usage": [
+     2,
+     9
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 89,
+    "sugg_usage": [
+     2,
+     12
+    ]
+   },
+   {
+    "t": "véhicule terrestre à moteur",
+    "usage_pc": 89,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 78,
+    "sugg_usage": [
+     2,
+     7
+    ]
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemnisation des dommages",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "les conducteurs",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     8
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "piéton",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "faute inexcusable",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "loi du 5 juillet 1985",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un accident de la circulation",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "les délais",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "fonds de garantie",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les dommages corporels",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "cas de faute",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "commis une faute",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conducteur du véhicule",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de la circulation impliquant",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fonds de garantie des assurances",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garantie des assurances obligatoires",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "loi badinter de 1985",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "application de la loi badinter",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes de la route",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "qu'est-ce que la loi badinter",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dommages matériels",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation selon la loi badinter",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat loi badinter",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit du dommage corporel",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "sous la loi badinter",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation des dommages corporels",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les victimes non conductrices",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation pour les victimes",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime non conductrice",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "principes essentiels de la loi",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "essentiels de la loi badinter",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation victime accident",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "loi badinter protège",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cadre de la loi badinter",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "loi n°85-677 du 5 juillet",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "loi badinter du 5 juillet",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "badinter du 5 juillet 1985",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les préjudices corporels et matériels",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accidents de la route",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "loi badinter s’applique",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accidents de la circulation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accident de la route",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "champ d’application de la loi",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation des victimes d’accidents",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les victimes d’accidents",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cause exclusive de l’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tous les préjudices",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garantir une indemnisation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "toutes les victimes",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "n°85-677 du 5 juillet 1985",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "loi badinter garantit",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation conforme",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "sens de la loi badinter",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "exclure son droit à indemnisation",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les dommages matériels",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de la route impliquant",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tous les postes de préjudice",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation réduite en fonction",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation de ses dommages",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "loi badinter permet",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dite loi badinter",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "loi badinter a",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Loi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation",
+    "importance": 96.034,
+    "relevance": 0.9603400000000001,
+    "confidence": 8.4198,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi_tendant_à_l'amélioration_de_la_situation_des_victimes_d'accidents_de_la_circulation_et_à_l'accélération_des_procédures_d'indemnisation"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 82.67000000000003,
+    "relevance": 0.8267000000000001,
+    "confidence": 13.144,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 69.828,
+    "relevance": 0.69828,
+    "confidence": 7.9322,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Véhicule (transport physique)",
+    "importance": 67.548,
+    "relevance": 0.67548,
+    "confidence": 5.902200000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Véhicule_(transport_physique)"
+     ]
+    ]
+   },
+   {
+    "t": "Loi",
+    "importance": 60.144,
+    "relevance": 0.60144,
+    "confidence": 1.9726,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi"
+     ]
+    ]
+   },
+   {
+    "t": "Faute inexcusable de l'employeur",
+    "importance": 59.79000000000001,
+    "relevance": 0.5979000000000001,
+    "confidence": 3.7138,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Faute_inexcusable_de_l'employeur"
+     ]
+    ]
+   },
+   {
+    "t": "Badinter",
+    "importance": 59.066,
+    "relevance": 0.59066,
+    "confidence": 0.5,
+    "links": []
+   },
+   {
+    "t": "Conduite automobile",
+    "importance": 47.395999999999994,
+    "relevance": 0.47395999999999994,
+    "confidence": 1.6945999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Conduite_automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Piéton",
+    "importance": 41.128,
+    "relevance": 0.41128,
+    "confidence": 4.6422,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Piéton"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 29.834239999999998,
+    "relevance": 0.46616,
+    "confidence": 2.8876,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 18.111103999999997,
+    "relevance": 0.282986,
+    "confidence": 1.2744000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Automobile",
+    "importance": 17.788159999999998,
+    "relevance": 0.27793999999999996,
+    "confidence": 4.5396,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Moto",
+    "importance": 14.6876,
+    "relevance": 0.146876,
+    "confidence": 10.115799999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Moto"
+     ]
+    ]
+   },
+   {
+    "t": "Fonds de garantie des assurances obligatoires de dommages",
+    "importance": 10.5048,
+    "relevance": 0.2918,
+    "confidence": 2.3244,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fonds_de_garantie_des_assurances_obligatoires_de_dommages"
+     ]
+    ]
+   },
+   {
+    "t": "Dommages matériels",
+    "importance": 7.861679999999999,
+    "relevance": 0.21837999999999996,
+    "confidence": 0.9773999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommages_matériels"
+     ]
+    ]
+   },
+   {
+    "t": "Route",
+    "importance": 5.470560000000001,
+    "relevance": 0.15196,
+    "confidence": 1.192,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Route"
+     ]
+    ]
+   },
+   {
+    "t": "Tramway",
+    "importance": 4.266719999999999,
+    "relevance": 0.11852,
+    "confidence": 3.989,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tramway"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal",
+    "importance": 2.6636800000000003,
+    "relevance": 0.16648000000000002,
+    "confidence": 1.1242,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 2.24768,
+    "relevance": 0.14048,
+    "confidence": 0.6689999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance automobile",
+    "importance": 2.1184000000000007,
+    "relevance": 0.13240000000000002,
+    "confidence": 0.6506000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_automobile"
+     ]
+    ]
+   },
+   {
+    "t": "1985",
+    "importance": 2.05312,
+    "relevance": 0.12832,
+    "confidence": 1.18758,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/1985"
+     ]
+    ]
+   },
+   {
+    "t": "Invalidité en France",
+    "importance": 2.0233600000000003,
+    "relevance": 0.12646000000000002,
+    "confidence": 0.4918,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Invalidité_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal judiciaire (France)",
+    "importance": 1.7398400000000005,
+    "relevance": 0.10874000000000002,
+    "confidence": 1.4404,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal_judiciaire_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Infraction",
+    "importance": 1.58752,
+    "relevance": 0.09922,
+    "confidence": 0.6204000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Infraction"
+     ]
+    ]
+   },
+   {
+    "t": "Délit de fuite",
+    "importance": 1.27424,
+    "relevance": 0.07964,
+    "confidence": 1.2291999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Délit_de_fuite"
+     ]
+    ]
+   },
+   {
+    "t": "Handicap",
+    "importance": 1.2195200000000002,
+    "relevance": 0.07622,
+    "confidence": 1.7198,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Handicap"
+     ]
+    ]
+   },
+   {
+    "t": "Jurisprudence",
+    "importance": 1.17696,
+    "relevance": 0.07356,
+    "confidence": 1.6092,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Jurisprudence"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance automobile en France",
+    "importance": 1.11232,
+    "relevance": 0.06952,
+    "confidence": 0.43879999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_automobile_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Expertise médicale",
+    "importance": 1.06272,
+    "relevance": 0.06642,
+    "confidence": 0.48979999999999996,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expertise_médicale"
+     ]
+    ]
+   },
+   {
+    "t": "Moteur",
+    "importance": 0.905824,
+    "relevance": 0.056614,
+    "confidence": 5.5280000000000005,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Moteur"
+     ]
+    ]
+   },
+   {
+    "t": "Train",
+    "importance": 0.90176,
+    "relevance": 0.05636,
+    "confidence": 0.45779999999999993,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Train"
+     ]
+    ]
+   },
+   {
+    "t": "France",
+    "importance": 0.8681599999999998,
+    "relevance": 0.054259999999999996,
+    "confidence": 2.2634,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/France"
+     ]
+    ]
+   },
+   {
+    "t": "Contrat d'assurance",
+    "importance": 0.74592,
+    "relevance": 0.04662,
+    "confidence": 0.491,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contrat_d'assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Animal sauvage",
+    "importance": 0.72896,
+    "relevance": 0.04556,
+    "confidence": 0.982,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Animal_sauvage"
+     ]
+    ]
+   },
+   {
+    "t": "Conducteur (électricité)",
+    "importance": 0.6986559999999999,
+    "relevance": 0.043666,
+    "confidence": 1.182,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Conducteur_(électricité)"
+     ]
+    ]
+   },
+   {
+    "t": "Parking",
+    "importance": 0.6126720000000001,
+    "relevance": 0.03829200000000001,
+    "confidence": 0.9408,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Parking"
+     ]
+    ]
+   },
+   {
+    "t": "VTM",
+    "importance": 0.5860000000000001,
+    "relevance": 0.14650000000000002,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Benezra Avocats",
+    "importance": 0.5628,
+    "relevance": 0.1407,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Contrat",
+    "importance": 0.53696,
+    "relevance": 0.03355999999999999,
+    "confidence": 0.40879999999999994,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contrat"
+     ]
+    ]
+   },
+   {
+    "t": "AIVF",
+    "importance": 0.5279200000000001,
+    "relevance": 0.13198000000000001,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Dintilhac",
+    "importance": 0.51328,
+    "relevance": 0.12832,
+    "confidence": 0.2,
+    "links": []
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "loi badinter\nindemnisation\naccident\naccident de la route\nconducteur\nindemnisation des victimes",
+  "desc_title": "loi badinter\nindemnisation\naccident\naccident de la route\nindemnisation des victimes\nconducteur\ndommage corporel\npréjudice\ncorporel\nun accident\npiéton\nloi badinter de 1985\nun accident de la route",
+  "h1": "loi badinter\naccident\nindemnisation\naccident de la route\nconducteur\naccident de la circulation\nun accident\nindemnisation des victimes\npiéton\nloi badinter de 1985\nun accident de la route\nqu'est-ce que la loi badinter\nprincipes essentiels de la loi\nessentiels de la loi badinter",
+  "h2": "loi badinter\nindemnisation\naccident\nun accident\nindemnisation selon la loi badinter\nsous la loi badinter\naccident de la route\nconducteur\n5 juillet 1985\nassurance\npréjudice\ncorporel\nassureur\nloi du 5 juillet 1985\nloi badinter de 1985\nun accident de la route\nvictimes de la route\ndite loi badinter",
+  "content_basic": "loi badinter\nindemnisation\naccident\naccident de la route\nconducteur\ndommage corporel\n5 juillet 1985\nassurance\npréjudice\naccident de la circulation\ncorporel\nassureur\nvéhicule terrestre à moteur\ndroit à indemnisation\nun accident\nindemnisation des victimes\nindemnisation des dommages\nles conducteurs\npréjudice corporel\npiéton\nfaute inexcusable\nloi du 5 juillet 1985\nun accident de la circulation\nles délais\nfonds de garantie\nles dommages corporels\ncas de faute\nun accident de la route\nles préjudices\ncommis une faute\nconducteur du véhicule\naccident de la circulation impliquant\nfonds de garantie des assurances\ngarantie des assurances obligatoires",
+  "content_basic_w_ranges": "loi badinter: 5-17x\nindemnisation: 8-30x\naccident: 11-28x\naccident de la route: 2-9x\nconducteur: 5-23x\ndommage corporel: 1-6x\n5 juillet 1985: 1-3x\nassurance: 1-14x\npréjudice: 2-13x\naccident de la circulation: 2-4x\ncorporel: 2-9x\nassureur: 2-12x\nvéhicule terrestre à moteur: 1-6x\ndroit à indemnisation: 1-4x\nun accident: 2-7x\nindemnisation des victimes: 1-2x\nindemnisation des dommages: 1-3x\nles conducteurs: 1-8x\npréjudice corporel: 1-2x\npiéton: 1-4x\nfaute inexcusable: 1-5x\nloi du 5 juillet 1985: 1-2x\nun accident de la circulation: 1-3x\nles délais: 1-4x\nfonds de garantie: 1-2x\nles dommages corporels: 1-2x\ncas de faute: 1-3x\nun accident de la route: 1-2x\nles préjudices: 1-3x\ncommis une faute: 1x\nconducteur du véhicule: 1x\naccident de la circulation impliquant: 1x\nfonds de garantie des assurances: 1x\ngarantie des assurances obligatoires: 1x",
+  "content_extended": "loi badinter de 1985\napplication de la loi badinter\nvictimes de la route\nqu'est-ce que la loi badinter\ndommages matériels\nindemnisation selon la loi badinter\navocat loi badinter\ndroit du dommage corporel\nsous la loi badinter\nindemnisation des dommages corporels\nles victimes non conductrices\nindemnisation pour les victimes\nvictime non conductrice\nprincipes essentiels de la loi\nessentiels de la loi badinter\nindemnisation victime accident\nloi badinter protège\ncadre de la loi badinter\nloi n°85-677 du 5 juillet\nobtenir une indemnisation\nloi badinter du 5 juillet\nbadinter du 5 juillet 1985\nles préjudices corporels et matériels\nvictimes d’accidents de la route\nloi badinter s’applique\nvictime d’un accident\nvictimes d’accidents de la circulation\nvictimes d’accident de la route\nchamp d’application de la loi\nindemnisation des victimes d’accidents\nvictimes d’accident\nles victimes d’accidents\ncause exclusive de l’accident\ntous les préjudices\ngarantir une indemnisation\ntoutes les victimes\nn°85-677 du 5 juillet 1985\nloi badinter garantit\nindemnisation conforme\nsens de la loi badinter\nexclure son droit à indemnisation\nles dommages matériels\naccident de la route impliquant\ntous les postes de préjudice\nindemnisation réduite en fonction\nindemnisation de ses dommages\nloi badinter permet\ndite loi badinter\nloi badinter a",
+  "content_extended_w_ranges": "loi badinter de 1985: 1x\napplication de la loi badinter: 1x\nvictimes de la route: 1x\nqu'est-ce que la loi badinter: 1x\ndommages matériels: 1x\nindemnisation selon la loi badinter: 1x\navocat loi badinter: 1x\ndroit du dommage corporel: 1x\nsous la loi badinter: 1x\nindemnisation des dommages corporels: 1x\nles victimes non conductrices: 1x\nindemnisation pour les victimes: 1x\nvictime non conductrice: 1x\nprincipes essentiels de la loi: 1x\nessentiels de la loi badinter: 1x\nindemnisation victime accident: 1x\nloi badinter protège: 1x\ncadre de la loi badinter: 1x\nloi n°85-677 du 5 juillet: 1x\nobtenir une indemnisation: 1x\nloi badinter du 5 juillet: 1x\nbadinter du 5 juillet 1985: 1x\nles préjudices corporels et matériels: 1x\nvictimes d’accidents de la route: 1x\nloi badinter s’applique: 1x\nvictime d’un accident: 1x\nvictimes d’accidents de la circulation: 1x\nvictimes d’accident de la route: 1x\nchamp d’application de la loi: 1x\nindemnisation des victimes d’accidents: 1x\nvictimes d’accident: 1x\nles victimes d’accidents: 1x\ncause exclusive de l’accident: 1x\ntous les préjudices: 1x\ngarantir une indemnisation: 1x\ntoutes les victimes: 1x\nn°85-677 du 5 juillet 1985: 1x\nloi badinter garantit: 1x\nindemnisation conforme: 1x\nsens de la loi badinter: 1x\nexclure son droit à indemnisation: 1x\nles dommages matériels: 1x\naccident de la route impliquant: 1x\ntous les postes de préjudice: 1x\nindemnisation réduite en fonction: 1x\nindemnisation de ses dommages: 1x\nloi badinter permet: 1x\ndite loi badinter: 1x\nloi badinter a: 1x",
+  "entities": "Loi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation\nAccident de la route\nAssurance\nVéhicule (transport physique)\nLoi\nFaute inexcusable de l'employeur\nBadinter\nConduite automobile\nPiéton\nDommage corporel\nEndommagement\nAutomobile\nMoto\nFonds de garantie des assurances obligatoires de dommages\nDommages matériels\nRoute\nTramway\nTribunal\nAvocat (métier)\nAssurance automobile\n1985\nInvalidité en France\nTribunal judiciaire (France)\nInfraction\nDélit de fuite\nHandicap\nJurisprudence\nAssurance automobile en France\nExpertise médicale\nMoteur\nTrain\nFrance\nContrat d'assurance\nAnimal sauvage\nConducteur (électricité)\nParking\nVTM\nBenezra Avocats\nContrat\nAIVF\nDintilhac"
+ },
+ "status": "ready",
+ "keyword": "loi badinter indemnisation",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "c1e868274c3d1e95",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "navigational": 6.7,
+   "informational": 96.7,
+   "transactional": 40.0
+  },
+  "top_content_type": "business",
+  "content_type_stats": {
+   "other": 3.3,
+   "blog-post": 33.3,
+   "business": 40.0,
+   "educational": 36.7,
+   "guide": 40.0,
+   "whitepaper": 3.3,
+   "video": 13.3,
+   "news": 3.3,
+   "listicle": 3.3,
+   "short-answer": 3.3
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/c1e868274c3d1e95",
+ "share_url": "https://app.neuronwriter.com/analysis/share/c1e868274c3d1e95/60a1334cd6ed77b868c311543fcbad114fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/c1e868274c3d1e95/ec9ab89a27aee92aedb9c4f57762b6b54fa16"
+}

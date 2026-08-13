@@ -1,0 +1,2423 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Comment faire pour demander son dossier médical ?"
+   },
+   {
+    "q": "Comment faire une lettre de demande de dossier médical ?"
+   },
+   {
+    "q": "Comment un patient peut-il demander son dossier médical ?"
+   },
+   {
+    "q": "Comment demander notre dossier médical ?"
+   }
+  ],
+  "topic_matrix": {
+   "Comment faire pour demander son dossier médical ?": {
+    "importance": 10
+   },
+   "Comment rédiger une lettre de demande de dossier médical ?": {
+    "importance": 9
+   },
+   "Qui peut demander l'accès à un dossier médical ?": {
+    "importance": 8
+   },
+   "Quelles informations contient un dossier médical ?": {
+    "importance": 7
+   },
+   "Quels documents faut-il fournir pour demander son dossier médical ?": {
+    "importance": 7
+   },
+   "Où adresser sa demande de dossier médical ?": {
+    "importance": 6
+   },
+   "Quel est le délai pour obtenir son dossier médical ?": {
+    "importance": 6
+   },
+   "L'accès au dossier médical est-il gratuit ?": {
+    "importance": 5
+   },
+   "Que faire en cas de refus d'accès à son dossier médical ?": {
+    "importance": 5
+   },
+   "Combien de temps un dossier médical est-il conservé ?": {
+    "importance": 4
+   }
+  },
+  "content_questions": [
+   {
+    "q": "A qui puis-je m’adresser pour une demande de dossier médical (service médical, direction, archives) ?"
+   },
+   {
+    "q": "Accès dossier médical gratuit : comment obtenir votre dossier de santé ?"
+   },
+   {
+    "q": "Combien de temps le dossier médical est-il conservé ?"
+   },
+   {
+    "q": "Comment\navoir accès à votre dossier médical ?"
+   },
+   {
+    "q": "Comment accéder au dossier médical ?"
+   },
+   {
+    "q": "Comment accéder à son dossier médical ?"
+   },
+   {
+    "q": "Comment avoir accès au dossier médical ?"
+   },
+   {
+    "q": "Comment avoir accès à son dossier médical complet ?"
+   },
+   {
+    "q": "Comment avoir accès à votre dossier médical ?"
+   },
+   {
+    "q": "Comment consulter son dossier médical sur internet ?"
+   },
+   {
+    "q": "Comment demander votre dossier médical ?"
+   },
+   {
+    "q": "Comment faire une demande de consultation du dossier médical ?"
+   },
+   {
+    "q": "Comment formuler une demande d’accès ?"
+   },
+   {
+    "q": "Comment obtenir gratuitement son dossier médical ?"
+   },
+   {
+    "q": "Comment obtenir mon dossier médical auprès d'un établissement qui a fermé ?"
+   },
+   {
+    "q": "Comment puis-je demander mon dossier médical auprès d’un hôpital ou d’une clinique ?"
+   },
+   {
+    "q": "Comment puis-je récupérer mon dossier médical auprès d’un hôpital ou d’une clinique ?"
+   },
+   {
+    "q": "Comment récupérer son dossier médical dans un hôpital ?"
+   },
+   {
+    "q": "Conclusion : pourquoi demander son dossier médical ?"
+   },
+   {
+    "q": "Dossier médical : à quoi ça sert et comment le demander ?"
+   },
+   {
+    "q": "En dehors de vous et des professionnels de santé, qui peut avoir\naccès à votre dossier médical ?"
+   },
+   {
+    "q": "Est-ce que l’accès à mon dossier médical est payant ?"
+   },
+   {
+    "q": "Est-ce que tous les médecins ont accès au dossier médical ?"
+   },
+   {
+    "q": "Est-il possible d'obtenir gratuitement un dossier médical ?"
+   },
+   {
+    "q": "Est-il possible de consulter mon dossier médical sans mon autorisation ?"
+   },
+   {
+    "q": "Le dossier médical partagé (DMP) est-il obligatoire et quelles différences avec le dossier médical classique ?"
+   },
+   {
+    "q": "Les ayants droit peuvent-ils accéder au dossier médical après le décès du patient ?"
+   },
+   {
+    "q": "L’accès au dossier médical est-il vraiment gratuit ?"
+   },
+   {
+    "q": "Pourquoi demander son dossier médical ?"
+   },
+   {
+    "q": "Pourquoi récupérer son dossier médical ?"
+   },
+   {
+    "q": "Qu'est-ce que Mon espace santé (dossier médical partagé) ?"
+   },
+   {
+    "q": "Que contient mon dossier médical ?"
+   },
+   {
+    "q": "Que contient un dossier médical ?"
+   },
+   {
+    "q": "Que faire si on me refuse l’accès à mon dossier médical ?"
+   },
+   {
+    "q": "Quel délai pour recevoir une copie de mon dossier médical ?"
+   },
+   {
+    "q": "Quel est le délai de conservation d'un dossier médical ?"
+   },
+   {
+    "q": "Quel est le délai de conservation d’un dossier médical ?"
+   },
+   {
+    "q": "Quel recours en cas de refus de consultation du dossier médical ?"
+   },
+   {
+    "q": "Quelle démarches pour consulter mon dossier médical ?"
+   },
+   {
+    "q": "Quelles informations puis-je consulter dans mon dossier médical ?"
+   },
+   {
+    "q": "Quelles sont les informations contenues dans le dossier médical ?"
+   },
+   {
+    "q": "Quels documents dois-je fournir pour obtenir mon dossier médical ?"
+   },
+   {
+    "q": "Quels documents fournir pour faire une demande ?"
+   },
+   {
+    "q": "Quels recours en cas de refus ou de difficulté d’accès au dossier médical ?"
+   },
+   {
+    "q": "Qui peut accéder à son dossier médical ?"
+   },
+   {
+    "q": "Qui peut accéder à votre dossier médical ?"
+   },
+   {
+    "q": "Qui peut avoir accès au dossier médical ?"
+   },
+   {
+    "q": "Qui peut demander l’accès au dossier médical ?"
+   },
+   {
+    "q": "Qui peut demander un dossier médical ?"
+   },
+   {
+    "q": "Qu’est-ce que le dossier médical ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un dossier médical ?"
+   },
+   {
+    "q": "Un assureur peut-il accéder à mon dossier médical ?"
+   },
+   {
+    "q": "Vous souhaitez accéder aux informations liées à votre santé et détenues par un professionnel de santé ?"
+   },
+   {
+    "q": "Vous êtes un ayant droit et vous souhaitez demander le dossier médical d’un patient décédé ?"
+   },
+   {
+    "q": "À qui appartient le dossier médical d’un patient ?"
+   },
+   {
+    "q": "À quoi sert le dossier médical ?"
+   },
+   {
+    "q": "⚖️ Que faire si l’établissement ne répond pas ?"
+   },
+   {
+    "q": "✅ Accès dossier médical gratuit : est-ce vraiment possible ?"
+   },
+   {
+    "q": "📁 Qui peut demander un dossier médical ?"
+   },
+   {
+    "q": "📝 Comment faire une demande de dossier médical ?"
+   },
+   {
+    "q": "📦 Sous quelle forme le dossier est-il transmis ?"
+   },
+   {
+    "q": "🔒 Peut-on refuser de me transmettre mon dossier médical ?"
+   },
+   {
+    "q": "🧾 Que contient exactement un dossier médical ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12210",
+   "title": "Dossier médical | Service Public",
+   "desc": "Il est possible de demander son dossier médical pour accéder aux informations liées à votre santé et détenues par un professionnel de santé.",
+   "headers": [
+    [
+     "h1",
+     "Dossier médical"
+    ],
+    [
+     "h2",
+     "Majeur"
+    ],
+    [
+     "h2",
+     "Où s’adresser ?"
+    ],
+    [
+     "h2",
+     "Mineur"
+    ],
+    [
+     "h2",
+     "Où s’adresser ?"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Services en ligne et formulaires"
+    ],
+    [
+     "h2",
+     "Questions ? Réponses !"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 37,
+   "word_count": 4899,
+   "content_len": 30606
+  },
+  {
+   "rank": 2,
+   "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/dossier-medical-quoi-ca-sert-et-comment-le-demander",
+   "title": "Dossier médical : à quoi ça sert et comment le demander ?  | Agence régionale de santé Auvergne-Rhône-Alpes",
+   "desc": "Découvrez à quoi sert le dossier médical, comment y accéder et qui peut le consulter. L'ARS Auvergne-Rhône-Alpes vous informe sur vos droits, .",
+   "headers": [
+    [
+     "h1",
+     "Dossier médical : à quoi ça sert et comment le demander ?"
+    ],
+    [
+     "h2",
+     "Dossier médical : ce qu’il faut savoir"
+    ],
+    [
+     "h2",
+     "Comment accéder à son dossier médical ?"
+    ],
+    [
+     "h2",
+     "Mon Espace Santé : votre carnet de santé numérique"
+    ],
+    [
+     "h2",
+     "Principaux textes de référence"
+    ],
+    [
+     "h2",
+     "Principales questions-réponses"
+    ],
+    [
+     "h2",
+     "Aller plus loin"
+    ],
+    [
+     "h2",
+     "Voir Aussi"
+    ]
+   ],
+   "content_score": 67,
+   "readability": 31,
+   "word_count": 1362,
+   "content_len": 8734
+  },
+  {
+   "rank": 3,
+   "url": "https://www.cnil.fr/fr/lacces-au-dossier-medical",
+   "title": "L'accès au dossier médical | CNIL",
+   "desc": "Qui peut demander l’accès au dossier médical ? L’accès au dossier médical peut être demandé auprès du professionnel de santé ou de l’établissement de santé, par la personne concernée, son ayant droit en cas de décès de cette personne, le titulaire de l’autorité parentale, le tuteur ou le médecin désigné comme intermédiaire.",
+   "headers": [
+    [
+     "h1",
+     "L'accès au dossier médical"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 29,
+   "word_count": 797,
+   "content_len": 5049
+  },
+  {
+   "rank": 4,
+   "url": "https://www.conseil-national.medecin.fr/patient/sante-droits/acceder-dossier-medical",
+   "title": "Comment accéder à mon dossier médical",
+   "desc": "Accéder à son dossier médical est un droit pour chaque patient en France. Il contient des informations essentielles à votre suivi médical.",
+   "headers": [
+    [
+     "h1",
+     "Comment accéder à mon dossier médical"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que le dossier médical ?"
+    ],
+    [
+     "h2",
+     "Quelle démarches pour consulter mon dossier médical ?"
+    ],
+    [
+     "h2",
+     "Que faire si on me refuse l’accès à mon dossier médical ?"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 34,
+   "word_count": 1376,
+   "content_len": 8580
+  },
+  {
+   "rank": 5,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/modele-de-lettre-pour-assurance/modele-de-demande-de-dossier-medical",
+   "title": "Modéle de demande de dossier médical - Association Victimes de France AIVF",
+   "desc": "Obtenez un modèle gratuit de demande de dossier médical avec l'Association Aide Victimes France pour défendre vos droits.",
+   "headers": [
+    [
+     "h1",
+     "Modéle de demande de dossier médical"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ Foire aux questions – Demande de dossier médical"
+    ],
+    [
+     "h2",
+     "Aide victimes : Modèles de lettres pour assurance"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 53,
+   "word_count": 800,
+   "content_len": 5002
+  },
+  {
+   "rank": 6,
+   "url": "https://www.santesudisere.fr/actualites/1078",
+   "title": "Notre actualité - Communauté Professionnelle Territoriale de Santé -  Lacs et Montagnes du Sud-Isère",
+   "desc": "Notre actualité",
+   "headers": [
+    [
+     "h1",
+     "Notre actualité"
+    ],
+    [
+     "h2",
+     "Accès dossier médical gratuit : comment obtenir votre dossier de santé ?"
+    ],
+    [
+     "h2",
+     "Accès dossier médical gratuit : comment obtenir votre dossier de santé ?"
+    ]
+   ],
+   "content_score": 37,
+   "readability": 51,
+   "word_count": 1603,
+   "content_len": 9872
+  },
+  {
+   "rank": 8,
+   "url": "https://www.advalorem.fr/comment-recuperer-son-dossier-medical-dans-un-hopital/",
+   "title": "Comment récupérer son dossier médical dans un hôpital ? - Ad'valorem : éditeur de logiciels hospitaliers",
+   "desc": "Comment faire pour demander son dossier médical à un hôpital ou toutes les informations médicales du patient - Loi Kouchner. Toutes les explications ici.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h2",
+     "Comment puis-je demander mon dossier médical auprès d’un hôpital ou d’une clinique ?"
+    ],
+    [
+     "h2",
+     "Quels documents dois-je fournir pour obtenir mon dossier médical ?"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un dossier médical ?"
+    ],
+    [
+     "h2",
+     "Pourquoi récupérer son dossier médical ?"
+    ],
+    [
+     "h2",
+     "Qui peut demander un dossier médical ?"
+    ],
+    [
+     "h2",
+     "À qui appartient le dossier médical d’un patient ?"
+    ],
+    [
+     "h2",
+     "Les frais liés à la récupération du dossier"
+    ],
+    [
+     "h2",
+     "Les recours en cas de refus"
+    ],
+    [
+     "h2",
+     "Questions les plus fréquentes"
+    ],
+    [
+     "h2",
+     "Articles connexes"
+    ],
+    [
+     "h2",
+     "Géolocalisation du personnel soignant : ce que dit le RGPD et la CNIL sur le tracking des brancardiers"
+    ],
+    [
+     "h2",
+     "Rgpd et dossier médical en 2026 : obligations concrètes des hôpitaux et risques de sanctions cnil"
+    ],
+    [
+     "h2",
+     "Gestion des droits utilisateurs : comment Ges’dim sécurise vos dossiers patients et vous évite les sanctions de la cnil"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 36,
+   "word_count": 1938,
+   "content_len": 12397
+  },
+  {
+   "rank": 9,
+   "url": "https://www.lmc-france.fr/au-service-du-patient/vos-droits/le-dossier-patient/",
+   "title": "Comment avoir accès à votre dossier médical ? - LMC France - Leucemie Myeloide Chronique France",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Comment\navoir accès à votre dossier médical ?"
+    ]
+   ],
+   "content_score": 48,
+   "readability": 35,
+   "word_count": 2001,
+   "content_len": 12230
+  },
+  {
+   "rank": 10,
+   "url": "https://www.aphp.fr/patients-et-proches/vos-droits/votre-dossier-medical",
+   "title": "Votre dossier médical | APHP",
+   "desc": "Le dossier médical est un dossier dans lequel les différents professionnels, en particulier les médecins, vont rassembler tous les documents qui vous concernent. Il s'agit d'un document personnel, auquel vous pouvez avoir accès.",
+   "headers": [
+    [
+     "h1",
+     "Votre dossier médical"
+    ],
+    [
+     "h2",
+     "Que contient mon dossier médical ?"
+    ],
+    [
+     "h2",
+     "Qui peut accéder à votre dossier médical ?"
+    ],
+    [
+     "h2",
+     "Comment demander votre dossier médical ?"
+    ],
+    [
+     "h2",
+     "À voir aussi"
+    ]
+   ],
+   "content_score": 43,
+   "readability": 48,
+   "word_count": 1090,
+   "content_len": 6853
+  },
+  {
+   "rank": 11,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R24279",
+   "title": "Demander la consultation de son dossier médical | Service Public",
+   "desc": "Permet de demander à un professionnel ou un établissement de santé la communication du dossier médical selon plusieurs cas de figure (majeur, majeur protégé, mineur, décédé).",
+   "headers": [
+    [
+     "h1",
+     "Demander la consultation de son dossier médical"
+    ],
+    [
+     "h2",
+     "Pour toute explication, consulter les fiches pratiques :"
+    ],
+    [
+     "h2",
+     "J'ai réalisé une démarche administrative"
+    ]
+   ],
+   "content_score": 30,
+   "readability": 45,
+   "word_count": 288,
+   "content_len": 1674
+  },
+  {
+   "rank": 13,
+   "url": "https://www.cada.fr/administration/dossier-medical-dun-ayant-droit",
+   "title": "Dossier médical d'un ayant droit | La CADA",
+   "desc": "En quoi consistent les informations à caractère médical ?",
+   "headers": [
+    [
+     "h1",
+     "La CADA, commission d'accès aux documents administratifs"
+    ],
+    [
+     "h1",
+     "Dossier médical d'un ayant droit"
+    ],
+    [
+     "h2",
+     "En quoi consistent les informations à caractère médical ?"
+    ],
+    [
+     "h2",
+     "Auprès de qui s’exerce le droit d’accès ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les modalités et délais d’accès ?"
+    ],
+    [
+     "h2",
+     "Qui peut former une demande d’accès ?"
+    ],
+    [
+     "h2",
+     "Comment former une demande d’accès ?"
+    ],
+    [
+     "h2",
+     "A quelles informations médicales peut-on accéder ?"
+    ]
+   ],
+   "content_score": 37,
+   "readability": 16,
+   "word_count": 1452,
+   "content_len": 9017
+  },
+  {
+   "rank": 14,
+   "url": "https://www.interiale.fr/questions-frequentes/?question=comment-demander-dossier-medical",
+   "title": "Questions fréquentes - INTÉRIALE",
+   "desc": "Retrouvez les réponses de nos conseillers mutualistes aux questions les plus frequemment posées. Changement de situation, questions sur vos soins ou remboursements...",
+   "headers": [],
+   "content_score": 0,
+   "readability": 45,
+   "word_count": 41,
+   "content_len": 277
+  },
+  {
+   "rank": 15,
+   "url": "https://sante.gouv.fr/IMG/pdf/plaquettes_d_acces_aux_dossiers.pdf",
+   "title": "",
+   "desc": "",
+   "headers": [],
+   "content_score": "",
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 16,
+   "url": "https://www.clinique-medoc.fr/vos-droits/acces-au-dossier-medical/607-qui-peut-demander-l-acces-au-dossier-medical.html",
+   "title": "Qui peut demander l'accès au dossier médical ? - Clinique Mutualiste de Lesparre",
+   "desc": "Qui peut demander l'accès au dossier médical ?",
+   "headers": [
+    [
+     "h1",
+     "Qui peut demander l'accès au dossier médical ?"
+    ],
+    [
+     "h2",
+     "Dossier médical"
+    ],
+    [
+     "h2",
+     "La législation applicable à la communication de données médicales"
+    ],
+    [
+     "h2",
+     "Vos droits"
+    ]
+   ],
+   "content_score": 37,
+   "readability": 46,
+   "word_count": 194,
+   "content_len": 1175
+  },
+  {
+   "rank": 17,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/responsabilite-medicale-accident-medical/comment-recuperer-dossier-medical-2",
+   "title": "Comment récupérer son dossier médical ? - Association Victimes de France AIVF",
+   "desc": "Découvrez comment obtenir votre dossier médical facilement avec les conseils de l'Association Aide Victimes France. Guide pratique et légal.",
+   "headers": [
+    [
+     "h1",
+     "Comment récupérer son dossier médical ?"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Comment récupérer son dossier médical ?"
+    ],
+    [
+     "h2",
+     "Dossier médical : comment le récupérer ?"
+    ],
+    [
+     "h2",
+     "Récupérer son dossier médical"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 25,
+   "word_count": 5300,
+   "content_len": 32388
+  },
+  {
+   "rank": 18,
+   "url": "https://www.conseil-national.medecin.fr/medecin/exercice/dossier-patient",
+   "title": "Le dossier du patient",
+   "desc": "Différents dossiers médicaux coexistent : dossier médical établi dans un établissement de santé public ou privé, dossier ou fiche d’observation...",
+   "headers": [
+    [
+     "h1",
+     "Le dossier du patient"
+    ],
+    [
+     "h2",
+     "Le contenu du dossier du patient"
+    ],
+    [
+     "h2",
+     "Le droit d’accès du patient"
+    ],
+    [
+     "h2",
+     "Conservation du dossier du patient"
+    ],
+    [
+     "h2",
+     "En cas de cessation d’activité"
+    ],
+    [
+     "h2",
+     "Zoom sur \"Mon espace santé\" et le DMP"
+    ]
+   ],
+   "content_score": 33,
+   "readability": 28,
+   "word_count": 1478,
+   "content_len": 9116
+  },
+  {
+   "rank": 19,
+   "url": "https://avf.fr/accident-maladie-travail/lettres-modeles-et-cerfa/lettre-de-demande-de-dossier-medical",
+   "title": "Lettre de demande de dossier médical : modèle gratuit et démarches",
+   "desc": "Modèle gratuit de lettre de demande de dossier médical. Démarches, délais, recours en cas de refus : tout savoir pour obtenir son dossier médical.",
+   "headers": [
+    [
+     "h1",
+     "Lettre de demande de dossier médical : modèle, démarches et recours"
+    ],
+    [
+     "h2",
+     "Modèle de lettre de demande de dossier médical"
+    ],
+    [
+     "h2",
+     "Comment récupérer son dossier médical ?"
+    ],
+    [
+     "h2",
+     "Que faire en cas de refus d’accès au dossier médical ?"
+    ],
+    [
+     "h2",
+     "Pourquoi le dossier médical est essentiel pour un recours en indemnisation"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur la lettre de demande de dossier médical"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 47,
+   "word_count": 1963,
+   "content_len": 12262
+  },
+  {
+   "rank": 20,
+   "url": "https://www.weka.fr/fiches-et-outils/la-procedure-d-acces-au-dossier-medical-5049/",
+   "title": "La procédure d’accès au dossier médical",
+   "desc": "Comment accéder à votre dossier médical en toute légalité et sécurité ? Découvrez les étapes clés et vos droits en matière de santé.",
+   "headers": [
+    [
+     "h1",
+     "La procédure d’accès au dossier médical"
+    ],
+    [
+     "h2",
+     "La présentation de la demande d’accès"
+    ],
+    [
+     "h2",
+     "Outils et modèles à télécharger (1)"
+    ],
+    [
+     "h2",
+     "Fiches associées (10)"
+    ],
+    [
+     "h2",
+     "Actualité associée"
+    ]
+   ],
+   "content_score": 33,
+   "readability": 34,
+   "word_count": 733,
+   "content_len": 4447
+  },
+  {
+   "rank": 21,
+   "url": "https://www.sante.fr/acces-au-dossier-medical-comment-formuler-votre-demande-et-le-recuperer",
+   "title": "Accès au dossier médical : comment formuler votre demande et le récupérer ? | Santé.fr",
+   "desc": "Physique ou informatisé, comment récupérer, avoir accès, demander son Dossier Médical ? 66 Millions d'Impatients vous explique !",
+   "headers": [
+    [
+     "h1",
+     "Accès au dossier médical : comment formuler votre demande et le récupérer ?"
+    ],
+    [
+     "h2",
+     "La demande d’accès au dossier médical : qui peut le récupérer ?"
+    ],
+    [
+     "h2",
+     "Se documenter…"
+    ],
+    [
+     "h2",
+     "Le contenu proposé vous a-t-il été utile ?"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 28,
+   "word_count": 715,
+   "content_len": 4562
+  },
+  {
+   "rank": 22,
+   "url": "https://sante.journaldesfemmes.fr/fiches-sante-du-quotidien/2704911-dossier-medical-patient-acces-contenu-comment-le-recuperer-decede-mineur-consulter-demande/",
+   "title": "Dossier médical patient : accès, contenu, comment le récupérer ?",
+   "desc": "Toute personne majeure a aujourd'hui le droit de demander à consulter son dossier médical et ce, quelle qu'en soit la raison - déménagement, second avis, changement de praticien - cette démarche n'a pas besoin d'être justifiée. Comment en faire la demande ? Quels sont les délais d'obtention ? Quid du dossier d'un mineur ? D'une personne décédée ?",
+   "headers": [
+    [
+     "h1",
+     "Dossier médical patient : accès, contenu, comment le récupérer ?"
+    ],
+    [
+     "h2",
+     "Définition : qu'est-ce que le dossier médical ?"
+    ],
+    [
+     "h2",
+     "Quelle différence avec le DMP (dossier médical partagé) ?"
+    ],
+    [
+     "h2",
+     "Peut-on y avoir accès ?"
+    ],
+    [
+     "h2",
+     "Quel est son contenu ?"
+    ],
+    [
+     "h2",
+     "Patient décédé : conservation du dossier, peut-on l'obtenir ?"
+    ],
+    [
+     "h2",
+     "Comment faire la demande de son dossier médical ?"
+    ],
+    [
+     "h2",
+     "Quel est le délai d'obtention ?"
+    ],
+    [
+     "h2",
+     "Que dit la loi ?"
+    ],
+    [
+     "h2",
+     "Dossier médical d'un mineur : peut-on y avoir accès ?"
+    ],
+    [
+     "h2",
+     "Dossier médical d'un patient sous tutelle : peut-on y avoir accès ?"
+    ],
+    [
+     "h2",
+     "Droits et démarches"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 36,
+   "word_count": 1049,
+   "content_len": 6340
+  },
+  {
+   "rank": 23,
+   "url": "https://formalites-administratives.pagesjaunes.fr/fiche/voir/568183/comment-obtenir-son-dossier-medical",
+   "title": "Comment récupérer son dossier médical - PagesJaunes",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Comment obtenir son dossier médical"
+    ],
+    [
+     "h2",
+     "Zoom sur le dossier médical"
+    ],
+    [
+     "h2",
+     "1. Demandez votre dossier médical"
+    ],
+    [
+     "h2",
+     "2. Consultez votre dossier sur place ou recevez une copie"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 38,
+   "word_count": 778,
+   "content_len": 4870
+  },
+  {
+   "rank": 24,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N17179",
+   "title": "Information du patient : dossier médical, montant des prestations, ... | Service Public",
+   "desc": "Les usagers du système de santé ont des droits. Vous pouvez obtenir la communication de votre dossier médical et être informé sur votre état de santé, avant, pendant et après les soins. Vous pouvez également demander les tarifs de consultation et des actes médicaux.",
+   "headers": [
+    [
+     "h1",
+     "Information du patient : dossier médical, montant des prestations, ..."
+    ],
+    [
+     "h2",
+     "Accès aux dossiers médicaux"
+    ],
+    [
+     "h2",
+     "Droit à l'information"
+    ],
+    [
+     "h2",
+     "Services en ligne et formulaires"
+    ],
+    [
+     "h2",
+     "Questions ? Réponses !"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ]
+   ],
+   "content_score": 27,
+   "readability": 68,
+   "word_count": 221,
+   "content_len": 1368
+  },
+  {
+   "rank": 25,
+   "url": "https://leparticulier.lefigaro.fr/jcms/c_35390/comment-consulter-ou-recuperer-son-dossier-medical",
+   "title": "Comment consulter ou récupérer son dossier médical?",
+   "desc": "La loi vous permet d'accéder à votre dossier médical, que celui-ci ait été constitué par un médecin, un autre professionnel de santé, un hôpital ou une clinique. Dans certains cas, vous avez également le droit d'accéder au dossier médical d'un proche. Vous pouvez consulter ces dossiers...",
+   "headers": [
+    [
+     "h1",
+     "Comment consulter ou récupérer son dossier médical?"
+    ],
+    [
+     "h2",
+     "Demande à l'établissement ou au praticien"
+    ],
+    [
+     "h2",
+     "Consultation sur place du dossier médical ou envoi d'une copie"
+    ],
+    [
+     "h2",
+     "Refus d'accès à votre dossier médical"
+    ],
+    [
+     "h2",
+     "Ces multiples démarches auxquelles il faut s'atteler après le décès d'un proche"
+    ],
+    [
+     "h2",
+     "Je vérifie les revenus d’un mauvais payeur"
+    ],
+    [
+     "h2",
+     "Les Sages souhaitent limiter l'utilisation du fichier des antécédents judiciaires"
+    ],
+    [
+     "h2",
+     "Accès au dossier médical: les médecins doivent répondre aux patients"
+    ],
+    [
+     "h2",
+     "Saisine de l'ordre en cas de refus de consultation du dossier médical"
+    ],
+    [
+     "h2",
+     "Saisine de la Commission d'accès aux Documents Administratifs"
+    ],
+    [
+     "h2",
+     "Demande de dossier médical"
+    ],
+    [
+     "h2",
+     "Je suis attaché à la ville où je vis et, en tant que citoyen, je souhaite surveiller les investissements qui y sont réalisés. Dans quelle mesure puis-je consulter les délibérations du conseil municipa"
+    ],
+    [
+     "h2",
+     "Urbanisme: information sur le certificat d'urbanisme"
+    ],
+    [
+     "h2",
+     "Cadastre: la consultation restera limitée"
+    ]
+   ],
+   "content_score": 45,
+   "readability": 38,
+   "word_count": 1951,
+   "content_len": 12431
+  },
+  {
+   "rank": 27,
+   "url": "https://commentpedia.fr/comment-obtenir-son-dossier-medical-aupres-dun-hopital/",
+   "title": "Comment obtenir son dossier médical auprès d'un hôpital ? - Commentpedia",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Comment obtenir son dossier médical auprès d’un hôpital ?"
+    ],
+    [
+     "h2",
+     "Modalités pour faire la demande de son dossier médical"
+    ],
+    [
+     "h2",
+     "Consultation du dossier médical"
+    ],
+    [
+     "h2",
+     "Solutions en cas de refus de communication du dossier"
+    ],
+    [
+     "h2",
+     "Utilisation du dossier médical obtenu"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 34,
+   "word_count": 3904,
+   "content_len": 25102
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1376,
+   "target": 1376
+  },
+  "readability": {
+   "median": 36,
+   "target": 36
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "dossier médical",
+    "usage_pc": 89
+   },
+   {
+    "t": "accès au dossier médical",
+    "usage_pc": 11
+   },
+   {
+    "t": "accès à votre dossier",
+    "usage_pc": 11
+   },
+   {
+    "t": "accès à votre dossier médical",
+    "usage_pc": 11
+   }
+  ],
+  "desc": [
+   {
+    "t": "dossier médical",
+    "usage_pc": 78
+   },
+   {
+    "t": "professionnel de santé",
+    "usage_pc": 22
+   },
+   {
+    "t": "les dossiers",
+    "usage_pc": 22
+   },
+   {
+    "t": "demander son dossier médical",
+    "usage_pc": 22
+   },
+   {
+    "t": "établissement",
+    "usage_pc": 11
+   },
+   {
+    "t": "établissement de santé",
+    "usage_pc": 11
+   },
+   {
+    "t": "accès au dossier médical",
+    "usage_pc": 11
+   },
+   {
+    "t": "cas de décès",
+    "usage_pc": 11
+   },
+   {
+    "t": "informations médicales",
+    "usage_pc": 11
+   }
+  ],
+  "h1": [
+   {
+    "t": "dossier médical",
+    "usage_pc": 78
+   },
+   {
+    "t": "accès au dossier médical",
+    "usage_pc": 11
+   },
+   {
+    "t": "accès à votre dossier",
+    "usage_pc": 11
+   },
+   {
+    "t": "accès à votre dossier médical",
+    "usage_pc": 11
+   },
+   {
+    "t": "avoir accès à votre dossier",
+    "usage_pc": 11
+   },
+   {
+    "t": "demande de dossier médical",
+    "usage_pc": 11
+   },
+   {
+    "t": "comment accéder",
+    "usage_pc": 11
+   }
+  ],
+  "h2": [
+   {
+    "t": "dossier médical",
+    "usage_pc": 67
+   },
+   {
+    "t": "les dossiers",
+    "usage_pc": 22
+   },
+   {
+    "t": "mineur",
+    "usage_pc": 11
+   },
+   {
+    "t": "peut demander",
+    "usage_pc": 11
+   },
+   {
+    "t": "peut accéder",
+    "usage_pc": 11
+   },
+   {
+    "t": "demande de dossier médical",
+    "usage_pc": 11
+   },
+   {
+    "t": "accès à mon dossier médical",
+    "usage_pc": 11
+   },
+   {
+    "t": "obtenir votre dossier",
+    "usage_pc": 11
+   },
+   {
+    "t": "comment accéder",
+    "usage_pc": 11
+   },
+   {
+    "t": "accéder à son dossier médical",
+    "usage_pc": 11
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "dossier médical",
+    "usage_pc": 100,
+    "sugg_usage": [
+     8,
+     21
+    ]
+   },
+   {
+    "t": "professionnel de santé",
+    "usage_pc": 89,
+    "sugg_usage": [
+     2,
+     5
+    ]
+   },
+   {
+    "t": "établissement",
+    "usage_pc": 89,
+    "sugg_usage": [
+     3,
+     15
+    ]
+   },
+   {
+    "t": "établissement de santé",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "les dossiers",
+    "usage_pc": 89,
+    "sugg_usage": [
+     5,
+     9
+    ]
+   },
+   {
+    "t": "accès au dossier médical",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un médecin",
+    "usage_pc": 89,
+    "sugg_usage": [
+     2,
+     5
+    ]
+   },
+   {
+    "t": "mineur",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "code de la santé publique",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "accès à votre dossier",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "accès à votre dossier médical",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "demande doit",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "cas de décès",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les professionnels de santé",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "une demande",
+    "usage_pc": 78,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "envoi",
+    "usage_pc": 78,
+    "sugg_usage": [
+     2,
+     3
+    ]
+   },
+   {
+    "t": "informations médicales",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "si le patient",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "peut demander",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faire valoir",
+    "usage_pc": 89,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "dossier médical partagé",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "saisir la commission",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "personne décédée",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "peut accéder",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demande doit être",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comptes rendus",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "défendre la mémoire",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demande écrite",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les établissements de santé",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "datent de plus",
+    "usage_pc": 67,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "pouvez saisir",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "défendre la mémoire du défunt",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demande de communication",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "compter de la date",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "date du décès",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "mineur peut",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas de décès du patient",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "chaque patient",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "moins de 10 ans après",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "10 ans après son dernier",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lettre recommandée avec accusé",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accéder aux informations",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faire valoir des droits",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "loi du 4 mars 2002",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si les informations",
+    "usage_pc": 56,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "consulter sur place",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "continuité des soins",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "personne peut",
+    "usage_pc": 44,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "avoir accès à votre dossier",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demande de dossier médical",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier est conservé pendant",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accès à mon dossier médical",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment récupérer son dossier",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conservation du dossier médical",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "patient décède moins de 10",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suivi médical",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir votre dossier",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier médical peut",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tierce personne",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "intermédiaire d'un médecin",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment accéder",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demander son dossier médical",
+    "usage_pc": 11,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accéder à son dossier médical",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier médical d’un",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier médical d’un patient",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "pièce d’identité",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demande d’accès",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si le patient décède moins",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir votre dossier médical",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "mineur peut demander",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier médical est un droit",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "patient décédé",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "décède moins de 10 ans",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "ans après son dernier passage",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demande peut être",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "personne mandatée",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "jours suivant votre demande",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si la personne",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier médical peut être",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "service des archives médicales",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "chaque patient en france",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "consulter votre dossier",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "service médical",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "secret médical",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "10 ans à compter",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier médical est un ensemble",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit en cas de décès",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "propre dossier médical",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les observations du médecin",
+    "usage_pc": 33,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faire la demande",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "être recommandée par le médecin",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "certificat médical",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas de refus du patient",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier médical conformément",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "peut accéder aux informations",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "personne que vous mandatez",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "adresser une demande écrite",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "connaître les raisons du décès",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "peuvent consulter",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si la personne décédée",
+    "usage_pc": 22,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Dossier médical",
+    "importance": 89.55,
+    "relevance": 0.8955,
+    "confidence": 3.7990000000000004,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dossier_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 65.686,
+    "relevance": 0.65686,
+    "confidence": 3.5081999999999995,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Patient",
+    "importance": 62.556,
+    "relevance": 0.62556,
+    "confidence": 4.602200000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Patient"
+     ]
+    ]
+   },
+   {
+    "t": "Santé",
+    "importance": 46.391400000000004,
+    "relevance": 0.46391400000000005,
+    "confidence": 2.1750000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Santé"
+     ]
+    ]
+   },
+   {
+    "t": "Métiers de la santé",
+    "importance": 36.714240000000004,
+    "relevance": 0.5736600000000001,
+    "confidence": 3.2738,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Métiers_de_la_santé"
+     ]
+    ]
+   },
+   {
+    "t": "Communication",
+    "importance": 13.119104000000004,
+    "relevance": 0.20498600000000003,
+    "confidence": 1.2117999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Communication"
+     ]
+    ]
+   },
+   {
+    "t": "Commission d'accès aux documents administratifs",
+    "importance": 10.808639999999999,
+    "relevance": 0.30023999999999995,
+    "confidence": 2.8604,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Commission_d'accès_aux_documents_administratifs"
+     ]
+    ]
+   },
+   {
+    "t": "Hôpital",
+    "importance": 9.88344,
+    "relevance": 0.27454,
+    "confidence": 2.5324,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Hôpital"
+     ]
+    ]
+   },
+   {
+    "t": "Information",
+    "importance": 5.636480000000001,
+    "relevance": 0.35228000000000004,
+    "confidence": 0.5128,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Information"
+     ]
+    ]
+   },
+   {
+    "t": "Code de la santé publique",
+    "importance": 4.797360000000001,
+    "relevance": 0.13326000000000002,
+    "confidence": 3.7842,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Code_de_la_santé_publique"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 4.233455999999999,
+    "relevance": 0.11759599999999999,
+    "confidence": 1.7226,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Autorité parentale en France",
+    "importance": 3.4352,
+    "relevance": 0.21470000000000003,
+    "confidence": 0.9461999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Autorité_parentale_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Données de santé",
+    "importance": 3.3283199999999997,
+    "relevance": 0.20802,
+    "confidence": 0.9917999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Données_de_santé"
+     ]
+    ]
+   },
+   {
+    "t": "Droit",
+    "importance": 3.1108752,
+    "relevance": 0.0864132,
+    "confidence": 1.3454000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Droit"
+     ]
+    ]
+   },
+   {
+    "t": "Santé publique",
+    "importance": 3.0478319999999997,
+    "relevance": 0.08466199999999999,
+    "confidence": 2.6466000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Santé_publique"
+     ]
+    ]
+   },
+   {
+    "t": "Soins psychiatriques sans consentement en France",
+    "importance": 2.9952,
+    "relevance": 0.18719999999999998,
+    "confidence": 1.1263999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Soins_psychiatriques_sans_consentement_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Psychiatrie",
+    "importance": 2.9642832,
+    "relevance": 0.0823412,
+    "confidence": 1.6268,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Psychiatrie"
+     ]
+    ]
+   },
+   {
+    "t": "Traitement (médecine)",
+    "importance": 1.9273600000000002,
+    "relevance": 0.12046000000000001,
+    "confidence": 1.7117999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Traitement_(médecine)"
+     ]
+    ]
+   },
+   {
+    "t": "Loi relative aux droits des malades et à la qualité du système de santé",
+    "importance": 1.7920000000000003,
+    "relevance": 0.11200000000000002,
+    "confidence": 0.9416,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi_relative_aux_droits_des_malades_et_à_la_qualité_du_système_de_santé"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance maladie",
+    "importance": 1.7648,
+    "relevance": 0.1103,
+    "confidence": 1.0812,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_maladie"
+     ]
+    ]
+   },
+   {
+    "t": "Certificat médical",
+    "importance": 1.587232,
+    "relevance": 0.099202,
+    "confidence": 0.6358,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Certificat_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Conseil national de l'Ordre des médecins",
+    "importance": 1.57216,
+    "relevance": 0.09826,
+    "confidence": 3.0048000000000004,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Conseil_national_de_l'Ordre_des_médecins"
+     ]
+    ]
+   },
+   {
+    "t": "Courrier",
+    "importance": 1.2204160000000002,
+    "relevance": 0.07627600000000001,
+    "confidence": 0.5352,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Courrier"
+     ]
+    ]
+   },
+   {
+    "t": "Justice",
+    "importance": 0.8451200000000001,
+    "relevance": 0.05282,
+    "confidence": 1.2074000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Justice"
+     ]
+    ]
+   },
+   {
+    "t": "Numérique",
+    "importance": 0.7197856,
+    "relevance": 0.0449866,
+    "confidence": 1.1524,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Numérique"
+     ]
+    ]
+   },
+   {
+    "t": "AIVF",
+    "importance": 0.6991199999999999,
+    "relevance": 0.17478,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "archives médicales",
+    "importance": 0.6448,
+    "relevance": 0.0403,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Autorité parentale",
+    "importance": 0.5424,
+    "relevance": 0.1356,
+    "confidence": 0.7016,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Autorité_parentale"
+     ]
+    ]
+   },
+   {
+    "t": "Préfet (France)",
+    "importance": 0.5404479999999999,
+    "relevance": 0.033777999999999996,
+    "confidence": 0.7096,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Préfet_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Dossier médical partagé",
+    "importance": 0.53296,
+    "relevance": 0.13324,
+    "confidence": 1.1965999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dossier_médical_partagé"
+     ]
+    ]
+   },
+   {
+    "t": "ARS Auvergne-Rhône-Alpes",
+    "importance": 0.51928,
+    "relevance": 0.12982,
+    "confidence": 0.1,
+    "links": []
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "dossier médical\naccès au dossier médical\naccès à votre dossier\naccès à votre dossier médical",
+  "desc_title": "dossier médical\nprofessionnel de santé\nles dossiers\ndemander son dossier médical\nétablissement\nétablissement de santé\naccès au dossier médical\ncas de décès\ninformations médicales",
+  "h1": "dossier médical\naccès au dossier médical\naccès à votre dossier\naccès à votre dossier médical\navoir accès à votre dossier\ndemande de dossier médical\ncomment accéder",
+  "h2": "dossier médical\nles dossiers\nmineur\npeut demander\npeut accéder\ndemande de dossier médical\naccès à mon dossier médical\nobtenir votre dossier\ncomment accéder\naccéder à son dossier médical",
+  "content_basic": "dossier médical\nprofessionnel de santé\nétablissement\nétablissement de santé\nles dossiers\naccès au dossier médical\nun médecin\nmineur\ncode de la santé publique\naccès à votre dossier\naccès à votre dossier médical\ndemande doit\ncas de décès\nles professionnels de santé\nune demande\nenvoi\ninformations médicales\nsi le patient\npeut demander\nfaire valoir\ndossier médical partagé\nsaisir la commission\npersonne décédée\npeut accéder\ndemande doit être\ncomptes rendus\ndéfendre la mémoire\ndemande écrite\nles établissements de santé\ndatent de plus\npouvez saisir\ndéfendre la mémoire du défunt\ndemande de communication\ncompter de la date\ndate du décès\nmineur peut\ncas de décès du patient\nchaque patient\nmoins de 10 ans après\n10 ans après son dernier\nlettre recommandée avec accusé\naccéder aux informations\nfaire valoir des droits\nloi du 4 mars 2002\nsi les informations\nconsulter sur place\ncontinuité des soins\npersonne peut",
+  "content_basic_w_ranges": "dossier médical: 8-21x\nprofessionnel de santé: 2-5x\nétablissement: 3-15x\nétablissement de santé: 1-5x\nles dossiers: 5-9x\naccès au dossier médical: 1-2x\nun médecin: 2-5x\nmineur: 1-5x\ncode de la santé publique: 1-3x\naccès à votre dossier: 1-2x\naccès à votre dossier médical: 1-2x\ndemande doit: 1-2x\ncas de décès: 1x\nles professionnels de santé: 1-2x\nune demande: 1-3x\nenvoi: 2-3x\ninformations médicales: 1-2x\nsi le patient: 1-2x\npeut demander: 1x\nfaire valoir: 1-2x\ndossier médical partagé: 1x\nsaisir la commission: 1-3x\npersonne décédée: 1x\npeut accéder: 1x\ndemande doit être: 1x\ncomptes rendus: 1-2x\ndéfendre la mémoire: 1x\ndemande écrite: 1x\nles établissements de santé: 1-2x\ndatent de plus: 1x\npouvez saisir: 1-2x\ndéfendre la mémoire du défunt: 1x\ndemande de communication: 1x\ncompter de la date: 1-2x\ndate du décès: 1x\nmineur peut: 1x\ncas de décès du patient: 1x\nchaque patient: 1x\nmoins de 10 ans après: 1x\n10 ans après son dernier: 1x\nlettre recommandée avec accusé: 1x\naccéder aux informations: 1x\nfaire valoir des droits: 1x\nloi du 4 mars 2002: 1x\nsi les informations: 1x\nconsulter sur place: 1x\ncontinuité des soins: 1x\npersonne peut: 1x",
+  "content_extended": "avoir accès à votre dossier\ndemande de dossier médical\ndossier est conservé pendant\naccès à mon dossier médical\ncomment récupérer son dossier\nconservation du dossier médical\npatient décède moins de 10\nsuivi médical\nobtenir votre dossier\ndossier médical peut\ntierce personne\nintermédiaire d'un médecin\ncomment accéder\ndemander son dossier médical\naccéder à son dossier médical\ndossier médical d’un\ndossier médical d’un patient\npièce d’identité\ndemande d’accès\nsi le patient décède moins\nobtenir votre dossier médical\nmineur peut demander\ndossier médical est un droit\npatient décédé\ndécède moins de 10 ans\nans après son dernier passage\ndemande peut être\npersonne mandatée\njours suivant votre demande\nsi la personne\ndossier médical peut être\nservice des archives médicales\nchaque patient en france\nconsulter votre dossier\nservice médical\nsecret médical\n10 ans à compter\ndossier médical est un ensemble\ndroit en cas de décès\npropre dossier médical\nles observations du médecin\nfaire la demande\nêtre recommandée par le médecin\ncertificat médical\ncas de refus du patient\ndossier médical conformément\npeut accéder aux informations\npersonne que vous mandatez\nadresser une demande écrite\nconnaître les raisons du décès\npeuvent consulter\nsi la personne décédée",
+  "content_extended_w_ranges": "avoir accès à votre dossier: 1x\ndemande de dossier médical: 1x\ndossier est conservé pendant: 1x\naccès à mon dossier médical: 1x\ncomment récupérer son dossier: 1x\nconservation du dossier médical: 1x\npatient décède moins de 10: 1x\nsuivi médical: 1x\nobtenir votre dossier: 1x\ndossier médical peut: 1x\ntierce personne: 1x\nintermédiaire d'un médecin: 1x\ncomment accéder: 1x\ndemander son dossier médical: 1x\naccéder à son dossier médical: 1x\ndossier médical d’un: 1x\ndossier médical d’un patient: 1x\npièce d’identité: 1x\ndemande d’accès: 1x\nsi le patient décède moins: 1x\nobtenir votre dossier médical: 1x\nmineur peut demander: 1x\ndossier médical est un droit: 1x\npatient décédé: 1x\ndécède moins de 10 ans: 1x\nans après son dernier passage: 1x\ndemande peut être: 1x\npersonne mandatée: 1x\njours suivant votre demande: 1x\nsi la personne: 1x\ndossier médical peut être: 1x\nservice des archives médicales: 1x\nchaque patient en france: 1x\nconsulter votre dossier: 1x\nservice médical: 1x\nsecret médical: 1x\n10 ans à compter: 1x\ndossier médical est un ensemble: 1x\ndroit en cas de décès: 1x\npropre dossier médical: 1x\nles observations du médecin: 1x\nfaire la demande: 1x\nêtre recommandée par le médecin: 1x\ncertificat médical: 1x\ncas de refus du patient: 1x\ndossier médical conformément: 1x\npeut accéder aux informations: 1x\npersonne que vous mandatez: 1x\nadresser une demande écrite: 1x\nconnaître les raisons du décès: 1x\npeuvent consulter: 1x\nsi la personne décédée: 1x",
+  "entities": "Dossier médical\nMédecin\nPatient\nSanté\nMétiers de la santé\nCommunication\nCommission d'accès aux documents administratifs\nHôpital\nInformation\nCode de la santé publique\nAssurance\nAutorité parentale en France\nDonnées de santé\nDroit\nSanté publique\nSoins psychiatriques sans consentement en France\nPsychiatrie\nTraitement (médecine)\nLoi relative aux droits des malades et à la qualité du système de santé\nAssurance maladie\nCertificat médical\nConseil national de l'Ordre des médecins\nCourrier\nJustice\nNumérique\nAIVF\narchives médicales\nAutorité parentale\nPréfet (France)\nDossier médical partagé\nARS Auvergne-Rhône-Alpes"
+ },
+ "status": "ready",
+ "keyword": "demande dossier medical",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "fb5961609a9c3eef",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 92.9,
+   "transactional": 14.3,
+   "navigational": 3.6
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "educational": 39.3,
+   "guide": 82.1,
+   "tool": 17.9,
+   "news": 3.6,
+   "other": 7.1,
+   "short-answer": 14.3,
+   "listicle": 3.6
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/fb5961609a9c3eef",
+ "share_url": "https://app.neuronwriter.com/analysis/share/fb5961609a9c3eef/2156055ba10871e983a3795a860a222a4fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/fb5961609a9c3eef/1ff7b074e03493335d6237d28fd0e6e64fa16"
+}
