@@ -9,10 +9,11 @@ L'OUTRO porte l'appel a l'action, dit par l'avocat lui-meme. Le debat ne le
 recite plus : sans outro, l'episode n'en contient aucun — d'ou le refus de
 monter si elle manque, sauf --sans-outro explicite.
 
-L'INTRO peut arriver en un seul fichier ou en QUATRE SEGMENTS
-(cf. voix_script.py --segments). Le mode segments est preferable : le jingle
-verbal et la relance finale sont alors enregistres une seule fois par chaine
-et reutilises tels quels, au lieu de deriver a chaque resynthese.
+L'INTRO peut arriver en un seul fichier ou en CINQ SEGMENTS
+(cf. voix_script.py --segments). Le mode segments est preferable : l'accueil,
+la presentation de l'avocat et la relance finale sont alors enregistres une
+seule fois par chaine et reutilises tels quels, au lieu de deriver a chaque
+resynthese. Seules la question du jour et l'annonce du sujet sont refaites.
 
 Le GENERIQUE est une musique libre de droit, taillee et fondue en tete
 d'episode. Elle est mixee PLUS BAS que la voix, et le montage refuse de
@@ -54,8 +55,7 @@ from ffmpeg_moteur import ErreurMoteur, charger  # noqa: E402
 
 # --- Configuration editoriale -------------------------------------------------
 CHAINES = {
-    "victimes": {"podcast": "LEXVICTIMES : l'émission dédiée au droit des "
-                            "victimes",
+    "victimes": {"podcast": "LEXVICTIME — le podcast du droit des victimes",
                  "auteur": "Patrice Humbert"},
     "famille": {"podcast": "Divorce & famille : parlons-en",
                 "auteur": "Cédrine Raybaud"},
@@ -84,8 +84,9 @@ MUSIQUE_PAUSE = 250         # ms entre la fin du generique et la voix
 REGISTRE_LICENCES = Path("podcasts/musique/LICENCES.md")
 
 # Le nom du fichier de segment est fixe par voix_script.py --segments.
-SEGMENTS_INTRO = (("01-question", False), ("02-jingle", True),
-                  ("03-sujet", False), ("04-final", True))
+SEGMENTS_INTRO = (("01-accueil", True), ("02-question", False),
+                  ("03-identite", True), ("04-sujet", False),
+                  ("05-final", True))
 
 
 # --- Utilitaires --------------------------------------------------------------
@@ -723,16 +724,17 @@ def self_test() -> int:
     # appariement des segments d'intro : invariants sans slug, variables avec
     segments = bac / "segments"
     segments.mkdir(parents=True, exist_ok=True)
-    for nom in ("01-question-victimes-mon-article", "02-jingle-victimes",
-                "03-sujet-victimes-mon-article", "04-final-victimes"):
+    for nom in ("01-accueil-victimes", "02-question-victimes-mon-article",
+                "03-identite-victimes", "04-sujet-victimes-mon-article",
+                "05-final-victimes"):
         (segments / f"{nom}.mp3").write_bytes(b"\0")
     trouves = trouver_segments_intro(segments, "victimes", "mon-article")
-    verifier("quatre segments apparies", len(trouves), 4)
-    verifier("jingle reconnu invariant", trouves[1][2], True)
-    verifier("question reconnue variable", trouves[0][2], False)
-    verifier("relance appariee sans slug", trouves[3][1].name,
-             "04-final-victimes.mp3")
-    (segments / "02-jingle-victimes.mp3").unlink()
+    verifier("cinq segments apparies", len(trouves), 5)
+    verifier("accueil reconnu invariant", trouves[0][2], True)
+    verifier("question reconnue variable", trouves[1][2], False)
+    verifier("relance appariee sans slug", trouves[4][1].name,
+             "05-final-victimes.mp3")
+    (segments / "03-identite-victimes.mp3").unlink()
     essais += 1
     try:
         trouver_segments_intro(segments, "victimes", "mon-article")

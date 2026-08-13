@@ -22,10 +22,11 @@ Durée cible à la lecture : **30 à 40 secondes**.
 
 | Paragraphe | Bloc | Segment | Refait à chaque épisode ? |
 |---|---|---|---|
-| 1 | **Question d'accroche**, dont la réponse est l'article du jour | `01-question` | ✏️ oui |
-| 2 | **Jingle verbal** — nom de l'émission, cabinet, identité de l'avocate | `02-jingle` | 🔒 **non — enregistré une fois** |
-| 3 | Sujet du jour et article dont il est tiré | `03-sujet` | ✏️ oui |
-| 4-5 | Présentation de Nathalie et Nicolas, puis la relance | `04-final` | 🔒 **non — enregistré une fois** |
+| 1 | **Accueil** — nom de l'émission et du cabinet | `01-accueil` | 🔒 **non — enregistré une fois** |
+| 2 | **Question du jour**, dont la réponse est l'article | `02-question` | ✏️ oui |
+| 3 | **Identité de l'avocat** et promesse éditoriale | `03-identite` | 🔒 **non — enregistré une fois** |
+| 4 | Sujet du jour et article dont il est tiré | `04-sujet` | ✏️ oui |
+| 5-6 | Présentation de Nathalie et Nicolas, puis la relance | `05-final` | 🔒 **non — enregistré une fois** |
 
 Exemple de question d'accroche pour cette chaîne :
 
@@ -37,11 +38,14 @@ qu'ils sont **créés par le cabinet**. C'est vérifié par l'outil : sans cela,
 l'auditeur peut croire qu'il écoute deux collaborateurs du cabinet.
 
 <<<SCRIPT
+Bienvenue dans « Divorce & famille : parlons-en », le podcast du
+cabinet LEXVOX AVOCATS consacré au divorce et au droit de la famille.
+
 {question}
 
-Bienvenue dans « Divorce & famille : parlons-en », le podcast du
-cabinet LEXVOX AVOCATS. Je suis Maître Cédrine Raybaud, avocate au
-Barreau d'Aix-en-Provence, spécialiste en droit de la famille.
+Je suis Maître Cédrine Raybaud, avocate au Barreau d'Aix-en-Provence,
+spécialiste en droit de la famille, des personnes et de leur
+patrimoine.
 
 Aujourd'hui : {sujet}. Tout part de mon article « {titre} », que vous
 retrouvez sur le site du cabinet.
