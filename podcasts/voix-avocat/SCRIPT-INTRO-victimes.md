@@ -21,11 +21,10 @@ verrouillés y pèsent environ 45 s, dits à l'identique dans les 24 épisodes.
 
 | Paragraphe | Bloc | Segment | Refait à chaque épisode ? |
 |---|---|---|---|
-| 1 | **Accueil** — nom de l'émission et du cabinet | `01-accueil` | 🔒 **non — enregistré une fois** |
-| 2 | **Question du jour**, dont la réponse est l'article | `02-question` | ✏️ oui |
-| 3 | **Identité de l'avocat** et promesse éditoriale | `03-identite` | 🔒 **non — enregistré une fois** |
-| 4 | Sujet du jour et article dont il est tiré | `04-sujet` | ✏️ oui |
-| 5-6 | Présentation de Nathalie et Nicolas, puis la relance | `05-final` | 🔒 **non — enregistré une fois** |
+| 1 | **Question du jour** — c'est le sujet et l'article, posés en question | `01-question` | ✏️ oui |
+| 2 | **Présentation** — l'émission, le cabinet, l'avocat, la confidence | `02-presentation` | 🔒 **non — enregistré une fois** |
+| 3 | Sujet et article dont il est tiré | `03-sujet` | ✏️ oui |
+| 4 | Nathalie et Nicolas, puis la relance | `04-final` | 🔒 **non — enregistré une fois** |
 
 Les trois blocs verrouillés sont **rigoureusement identiques** d'un épisode à
 l'autre. Les resynthétiser à chaque fois les fait dériver et la signature
@@ -108,24 +107,17 @@ lu — et seulement là ; ce gabarit et les métadonnées gardent l'orthographe
 exacte.
 
 <<<SCRIPT
-Bienvenue dans LEXVICTIME, le podcast du cabinet LEXVOX AVOCATS consacré au
-droit des victimes d'accident et d'erreur médicale.
-
 {question}
 
-Je suis Maître Patrice Humbert, avocat au Barreau d'Aix-en-Provence,
-spécialisé en droit du dommage corporel. Depuis plus de vingt ans, je
-consacre mon activité à la seule défense des victimes face aux compagnies
-d'assurance. Et je vais vous faire une confidence : ce n'est pas le dossier le plus grave qui est le mieux
-indemnisé, c'est le mieux défendu.
+Bienvenue dans LEXVICTIME, le podcast du cabinet LEXVOX AVOCATS consacré au
+droit des victimes d'accident et d'erreur médicale. Je suis Maître Patrice
+Humbert, avocat au Barreau d'Aix-en-Provence, spécialisé en droit du dommage
+corporel. Depuis plus de vingt ans, je ne défends que des victimes face aux
+assureurs. Et une confidence : ce n'est pas le dossier le plus grave qui est
+le mieux indemnisé, c'est le mieux défendu.
 
-Aujourd'hui : {sujet}. Tout part de mon article « {titre} », que vous
-retrouvez sur le site du cabinet.
+Aujourd'hui, {sujet}, d'après mon article « {titre} ».
 
-Pour en débattre, vos deux podcasteurs préférés : Nathalie et Nicolas.
-Nathalie, la juriste, vous explique le droit ; Nicolas, le journaliste, pose
-les questions que vous vous posez. Ils ne sont pas avocats : ce sont les deux
-voix de l'émission, créées par le cabinet.
-
-La réponse, tout de suite. Bonne écoute.
+Pour en débattre, Nathalie et Nicolas. Ils ne sont pas avocats : ce sont les
+deux voix de l'émission, créées par le cabinet. La réponse, tout de suite.
 SCRIPT>>>

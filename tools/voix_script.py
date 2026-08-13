@@ -3,12 +3,12 @@
 
 Deux blocs encadrent le debat NotebookLM :
 
-  INTRO  (par episode) — structure imposee, marque de fabrique de la serie :
-         (1) l'ACCUEIL : nom de l'emission et du cabinet,
-         (2) la QUESTION du jour, dont la reponse est l'article,
-         (3) l'IDENTITE de l'avocat et sa promesse editoriale,
-         (4) le sujet et l'article dont il est tire,
-         (5) la presentation de Nathalie et Nicolas, puis la relance.
+  INTRO  (par episode) — quatre blocs, environ 60 secondes :
+         (1) la QUESTION du jour — c'est le sujet et l'article, poses en
+             question ; elle ouvre l'episode,
+         (2) la PRESENTATION : emission, cabinet, avocat, confidence,
+         (3) le sujet et l'article dont il est tire,
+         (4) Nathalie et Nicolas, puis la relance.
          La question se produit avec PROMPT-INTRO-VOIX.md.
 
   OUTRO  (fixe par chaine) — porte l'APPEL A L'ACTION, dit par l'avocat
@@ -16,7 +16,7 @@ Deux blocs encadrent le debat NotebookLM :
          24 episodes d'une chaine. Depuis qu'il existe, le debat NotebookLM
          ne doit plus reciter de conclusion commerciale.
 
-SEGMENTS — trois des cinq blocs de l'intro sont RIGOUREUSEMENT identiques
+SEGMENTS — deux des quatre blocs de l'intro sont RIGOUREUSEMENT identiques
 d'un episode a l'autre. Les resynthetiser a chaque fois les fait deriver
 legerement et la signature de la serie s'emousse. `--segments` decoupe donc
 l'intro en morceaux : les invariants se generent UNE fois par chaine et se
@@ -60,16 +60,15 @@ SIGNATAIRES = {
 # gabarit, dans l'ordre. « invariant » = identique dans toute la chaine, donc
 # genere une seule fois et reutilise par le montage.
 SEGMENTS_INTRO = (
-    ("01-accueil", (0,), True),
-    ("02-question", (1,), False),
-    ("03-identite", (2,), True),
-    ("04-sujet", (3,), False),
-    ("05-final", (4, 5), True),
+    ("01-question", (0,), False),
+    ("02-presentation", (1,), True),
+    ("03-sujet", (2,), False),
+    ("04-final", (3,), True),
 )
 
-# La question n'ouvre plus l'episode : l'accueil la precede, elle vient juste
-# apres. C'est le paragraphe qui doit se terminer par un point d'interrogation.
-RANG_QUESTION = 1
+# L'episode s'ouvre sur la question du jour : c'est le sujet et l'article,
+# poses sous forme de question. Ce paragraphe doit finir par « ? ».
+RANG_QUESTION = 0
 
 # L'auditeur ne doit jamais pouvoir croire que Nathalie et Nicolas sont des
 # avocats du cabinet. Le mot « synthese » n'est pas obligatoire — l'honnetete
@@ -336,27 +335,27 @@ def self_test() -> int:
 
     honnete = ("Nathalie et Nicolas ne sont pas avocats, ce sont les voix de "
                "l'émission.")
-    gabarit = ("Bienvenue dans le podcast du cabinet LEXVOX AVOCATS."
-               "\n\n{question}\n\nJe suis Maître Patrice Humbert, avocat."
-               f"\n\nAujourd'hui : {{sujet}}, d'après « {{titre}} ».\n\n{honnete}"
-               "\n\nLa réponse, tout de suite.")
+    gabarit = ("{question}\n\nBienvenue dans le podcast du cabinet LEXVOX "
+               "AVOCATS. Je suis Maître Patrice Humbert, avocat."
+               f"\n\nAujourd'hui, {{sujet}}, d'après « {{titre}} »."
+               f"\n\n{honnete} La réponse, tout de suite.")
     rendu = composer(gabarit, "Mon Titre", "l'indemnisation", "intro",
                      "Pouvez-vous refuser l'expertise ?")
     verifier("substitution titre", "Mon Titre" in rendu)
     verifier("substitution sujet", "l'indemnisation" in rendu)
     verifier("substitution question", "Pouvez-vous refuser l'expertise ?"
              in rendu)
-    verifier("l'accueil precede la question",
-             rendu.startswith("Bienvenue dans le podcast"))
+    verifier("la question ouvre l'episode",
+             rendu.startswith("Pouvez-vous refuser l'expertise ?"))
     verifier("aucune accolade restante", "{" not in rendu)
 
-    socle = ("Bienvenue dans le podcast du cabinet LEXVOX AVOCATS."
-             "\n\n{question}\n\nJe suis Maître Patrice Humbert, avocat."
-             f"\n\nAujourd'hui : {{sujet}}, d'après « {{titre}} ».\n\n{honnete}"
-             "\n\nLa réponse, tout de suite.")
-    entete = ("Bienvenue dans le podcast du cabinet LEXVOX AVOCATS."
-              "\n\n{question}\n\nJe suis Maître Patrice Humbert, avocat."
-              "\n\nAujourd'hui : {sujet}, d'après « {titre} ».")
+    socle = ("{question}\n\nBienvenue dans le podcast du cabinet LEXVOX "
+             "AVOCATS. Je suis Maître Patrice Humbert, avocat."
+             f"\n\nAujourd'hui, {{sujet}}, d'après « {{titre}} »."
+             f"\n\n{honnete} La réponse, tout de suite.")
+    entete = ("{question}\n\nBienvenue dans le podcast du cabinet LEXVOX "
+              "AVOCATS. Je suis Maître Patrice Humbert, avocat."
+              "\n\nAujourd'hui, {sujet}, d'après « {titre} ».")
     for mauvais, motif in (
             (socle + "\n\n{inconnu}", "variable non remplacee"),
             (entete + "\n\nNathalie et Nicolas animent l'émission."
@@ -433,15 +432,12 @@ def self_test() -> int:
 
     # decoupage en segments
     segments = decouper(composer(gabarit, "T", "s", "intro", "Question ?"))
-    verifier("cinq segments", len(segments) == 5)
-    verifier("accueil invariant en tete",
-             segments[0][0] == "01-accueil" and segments[0][2] is True)
-    verifier("question variable au second rang",
-             segments[1] == ("02-question", "Question ?", False))
-    verifier("identite invariante", segments[2][2] is True)
-    verifier("sujet variable", segments[3][2] is False)
-    verifier("final invariant et fusionne",
-             segments[4][2] is True and "\n\n" in segments[4][1])
+    verifier("quatre segments", len(segments) == 4)
+    verifier("question variable en tete",
+             segments[0] == ("01-question", "Question ?", False))
+    verifier("presentation invariante", segments[1][2] is True)
+    verifier("sujet variable", segments[2][2] is False)
+    verifier("final invariant", segments[3][2] is True)
     essais += 1
     try:
         decouper("un seul paragraphe")

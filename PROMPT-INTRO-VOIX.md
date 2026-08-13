@@ -4,9 +4,13 @@
 > variables que le gabarit d'intro attend — la **question d'accroche** et le
 > **sujet** — puis fabrique les textes à faire dire par la voix clonée.
 >
-> Le reste de l'intro (jingle, présentation de Nathalie et Nicolas, relance
+> Le reste de l'intro (présentation de l'avocat, Nathalie et Nicolas, relance
 > finale) est **invariant** : il vit dans
 > `podcasts/voix-avocat/SCRIPT-INTRO-<chaine>.md` et ne se réécrit pas.
+
+> 🎯 **Chantier en cours : la chaîne VICTIMES uniquement.** Famille et permis
+> ont le même gabarit et le même outillage, mais leur texte n'est pas validé.
+> On les configure une fois que victimes tourne.
 
 **Synthèse vocale : Voicebox, en local.** L'application tourne sur le poste du
 cabinet et expose une API REST sur `http://localhost:8000`. Aucun texte ne
@@ -19,12 +23,16 @@ envoyer à un tiers est la bonne.
 
 ## 1. La structure, et pourquoi elle ne bouge jamais
 
-| # | Bloc | Segment | Variable ? |
-|---|---|---|---|
-| 1 | **Question d'accroche** — sa réponse est précisément l'article du jour | `01-question` | ✏️ à produire |
-| 2 | **Jingle verbal** — émission, cabinet, identité, promesse éditoriale | `02-jingle` | 🔒 enregistré **une fois** |
-| 3 | **Annonce du sujet** et article dont il est tiré | `03-sujet` | ✏️ à produire |
-| 4 | **Présentation de Nathalie et Nicolas** puis la relance | `04-final` | 🔒 enregistré **une fois** |
+| # | Bloc | Segment | Variable ? | Durée |
+|---|---|---|---|---|
+| 1 | **Question du jour** — c'est le sujet et l'article, posés en question | `01-question` | ✏️ à produire | ~11 s |
+| 2 | **Présentation** — émission, cabinet, avocat, confidence | `02-presentation` | 🔒 enregistré **une fois** | ~28 s |
+| 3 | **Annonce du sujet** et article dont il est tiré | `03-sujet` | ✏️ à produire | ~8 s |
+| 4 | **Nathalie et Nicolas** puis la relance | `04-final` | 🔒 enregistré **une fois** | ~10 s |
+
+**Cible : 60 secondes maximum, intro comprise.** Le total ci-dessus tient en
+57 s, dont 38 s enregistrées une seule fois. Vous ne refaites que 19 s par
+épisode.
 
 La relance du bloc 4 renvoie à la question du bloc 1 : c'est ce qui fait tenir
 l'ensemble. Une accroche dont l'article ne donne pas la réponse casse la
@@ -64,7 +72,8 @@ Repère : la question concrète que se pose le lecteur en arrivant sur cette
 page, la réponse que l'article y apporte, et le passage le plus utile.
 
 ÉTAPE 2 — ÉCRIRE LA QUESTION D'ACCROCHE
-Une à deux phrases, 140 à 220 caractères, qui se terminent par « ? ».
+Une à deux phrases, 140 à **180 caractères maximum**, qui se terminent
+par « ? ». Au-delà, l'intro dépasse la minute.
 Elle DOIT :
   - poser une situation concrète, à la deuxième personne, telle que
     l'auditeur puisse s'y reconnaître en une seconde ;
@@ -86,7 +95,7 @@ Le patron qui fonctionne : UNE SITUATION, puis UNE QUESTION.
     Que se passe-t-il dans les soixante-douze heures qui suivent ? »
 
 ÉTAPE 3 — ÉCRIRE LE SUJET
-Un groupe nominal de 40 à 90 caractères qui complète « Aujourd'hui : … ».
+Un groupe nominal de 40 à 70 caractères qui complète « Aujourd'hui, … ».
 Pas de phrase, pas de verbe conjugué, pas de majuscule initiale.
     « la contre-visite médicale demandée par votre assureur »
     « le calcul de la prestation compensatoire »
@@ -106,8 +115,8 @@ l'interface graphique.)
 ÉTAPE 5 — RENDRE COMPTE
 Affiche-moi : la question, le sujet, les segments écrits, ceux réutilisés,
 et la durée de lecture estimée (environ 15 caractères par seconde en diction
-posée). Si l'intro complète dépasse 65 secondes estimées, raccourcis la
-question — jamais les blocs invariants.
+posée). Si l'intro complète dépasse 60 secondes estimées, raccourcis la question —
+jamais les blocs invariants.
 ```
 
 ---
@@ -131,7 +140,7 @@ maintenant qu'après 72 épisodes.
 | Réglage | Valeur | Pourquoi |
 |---|---|---|
 | Moteur | **Chatterbox Multilingual** (ou LuxTTS) | le corpus est en français ; un moteur anglophone écorche « Dintilhac », « Marignane », « Salon-de-Provence » |
-| Profil | la voix clonée de l'avocat **qui signe les articles de la chaîne** | Me Humbert pour victimes et permis, Me Raybaud pour famille |
+| Profil | la voix clonée de l'avocat **qui signe les articles de la chaîne** | Me Humbert pour victimes, Me Raybaud pour famille, son associé pour permis (`--avocat`) |
 | `seed` | **fixe**, par segment | rend la prise reproductible : si un bloc invariant est perdu, on le refabrique à l'identique |
 | `max_chunk_chars` | 1200 | au-delà du seuil, Voicebox découpe et raccorde par un fondu — audible sur une signature |
 | `instruct` | vide, ou très sobre | seul Qwen CustomVoice l'exploite ; l'emphase artificielle sonne « publicité » |
