@@ -10,3 +10,8 @@ scripts/
 *.bak
 __pycache__/
 *.sanity.json
+
+# Podcasts : jamais d'audio dans le dépôt (état = CSV uniquement)
+podcasts/**/*.mp3
+podcasts/**/*.m4a
+podcasts/**/*.wav
