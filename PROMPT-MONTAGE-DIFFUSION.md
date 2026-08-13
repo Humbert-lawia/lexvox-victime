@@ -26,7 +26,7 @@ trois statuts : tout cela est repris tel quel.
 ### Les six corrections
 
 1. **Une étape manquait en amont.** Le prompt commence à « deux fichiers
-   existent ». Or l'intro ElevenLabs n'existe pas : il faut l'écrire, la faire
+   existent ». Or l'intro (voix de l'avocat) n'existe pas : il faut l'écrire, la faire
    lire par la voix clonée, puis la nommer correctement. C'est la **phase A**
    ci-dessous, avec `tools/voix_script.py` qui rend le texte de chaque
    épisode depuis un gabarit.
@@ -57,7 +57,7 @@ trois statuts : tout cela est repris tel quel.
 ### L'outro — ✅ adopté le 2026-08-13
 
 Le CTA était prononcé par NotebookLM, donc soumis à sa bonne volonté. Il est
-désormais dit **dans la vraie voix de l'avocat**, en outro ElevenLabs :
+désormais dit **dans la vraie voix de l'avocat**, en outro (voix de l'avocat) :
 certain au mot près, et plus crédible. L'ordre devient **intro → corps →
 outro** ; l'intro reste première, la règle initiale est respectée.
 
@@ -72,7 +72,7 @@ Trois conséquences, dont la première est la plus importante :
    dernières secondes au message commercial : à budget égal (moins de cinq
    minutes), l'auditeur reçoit plus de droit et moins de publicité.
 3. **Une seule prise de voix par chaîne.** L'outro ne dépend pas de
-   l'article : trois enregistrements ElevenLabs couvrent les 72 épisodes,
+   l'article : trois enregistrements Voicebox couvrent les 72 épisodes,
    contre 72 pour les intros. Le montage cherche d'abord une outro propre à
    l'épisode, puis se rabat sur celle de la chaîne.
 
@@ -137,13 +137,14 @@ Les prénoms se déclarent à deux endroits qui ne jouent pas le même rôle. Le
 confondre, c'est risquer une intro qui annonce Nathalie et Nicolas sur un
 débat où NotebookLM aura choisi d'autres voix.
 
-**1. Côté ElevenLabs — l'avocat les présente comme les animateurs.**
+**1. Côté Voicebox — l'avocat les présente comme les animateurs.**
 L'introduction, dite dans la voix réelle de l'avocat, dit textuellement :
 *« Cette émission est animée par Nathalie et Nicolas. Nathalie, la juriste,
 vous explique le droit ; Nicolas, le journaliste, pose les questions que vous
-vous posez. Ce sont deux voix de synthèse… »*
+vous posez. Ils ne sont pas avocats : ce sont les deux voix de
+l'émission, créées par le cabinet. »*
 `tools/voix_script.py` **refuse de rendre un script** où l'un des deux
-prénoms manquerait, ou d'où la mention « voix de synthèse » aurait disparu.
+prénoms manquerait, ou qui ne dirait plus qu'ils ne sont pas avocats.
 
 **2. Côté NotebookLM — la configuration impose le genre de chaque voix.**
 Nommer les animateurs ne suffit pas : sans indication de genre, rien ne
@@ -163,7 +164,7 @@ soit on renforce la consigne, soit on retire les prénoms de l'intro.
 
 ---
 
-## 2. Phase A — Fabriquer les voix ElevenLabs
+## 2. Phase A — Fabriquer les voix Voicebox
 
 ### A0 — L'outro : une fois par chaîne, avant tout le reste
 
@@ -172,7 +173,7 @@ python3 tools/voix_script.py --bloc outro --chaine victimes \
     --sortie ~/LEXVOX-PODCASTS/victimes/outro/outro-victimes.txt
 ```
 
-Coller dans ElevenLabs (voix clonée), générer, écouter, enregistrer sous
+Coller dans Voicebox (voix clonée), générer, écouter, enregistrer sous
 `~/LEXVOX-PODCASTS/<chaine>/outro/outro-<chaine>.mp3`. **C'est tout** : ce
 fichier sert les 24 épisodes de la chaîne. Trois enregistrements couvrent
 donc l'ensemble du projet.
@@ -189,7 +190,7 @@ série : **une question d'accroche** dont la réponse est l'article, puis le
 des animateurs et la relance « La réponse, tout de suite ».
 
 La question et le sujet se produisent en lisant l'article :
-voir **`PROMPT-INTRO-ELEVENLABS.md`**, qui porte aussi les réglages de voix.
+voir **`PROMPT-INTRO-VOIX.md`**, qui porte aussi les réglages de voix.
 
 ```bash
 python3 tools/voix_script.py --chaine victimes --slug <slug> \
@@ -200,10 +201,10 @@ Avez-vous le droit de refuser d'y aller ?" \
 ```
 
 `voix_script.py` refuse un script qui ne commencerait pas par une question,
-ou d'où le jingle, les prénoms ou la mention « voix de synthèse » auraient
+ou d'où le jingle, les prénoms ou la mention d'honnêteté auraient
 disparu.
 
-2. Coller ce texte dans ElevenLabs, **voix clonée du cabinet** (Me Humbert
+2. Coller ce texte dans Voicebox, **voix clonée du cabinet** (Me Humbert
    pour victimes et permis, Me Raybaud pour famille — c'est elle qui signe
    les articles de `lexvox-divorce.com`).
 3. Générer, écouter, télécharger.
@@ -217,7 +218,7 @@ de durée du montage tolère jusqu'à 5 min 30 pour le corps seul.
 
 ### A3 — Mention de transparence, non négociable
 
-Chaque intro dit que les deux animateurs sont des **voix de synthèse**.
+Chaque intro dit que les deux animateurs **ne sont pas avocats** et qu'ils sont **créés par le cabinet**.
 `tools/voix_script.py` refuse de rendre un script d'où la mention aurait
 disparu. Raison : deux voix artificielles qui discutent de droit, dont l'une
 présentée comme « juriste », peuvent laisser croire à l'auditeur qu'il écoute
@@ -345,10 +346,10 @@ n'est choisie d'initiative, aucune publication à une date non définie.
 ```
 Search Console ──► CSV unique
         │
-        ├── Phase A0 voix_script.py --bloc outro ──► ElevenLabs
+        ├── Phase A0 voix_script.py --bloc outro ──► Voicebox
         │              └► outro/outro-<chaine>.mp3   (1 fois par chaine)
         │
-        ├── Phase A1 voix_script.py ──► ElevenLabs (voix du cabinet)
+        ├── Phase A1 voix_script.py ──► Voicebox (voix du cabinet)
         │              └► intro/intro-<chaine>-<NN>-<slug>.mp3  (par episode)
         │
         ├── NotebookLM (pipeline glissant, 20/jour) ──► brut/<slug>.<ext>

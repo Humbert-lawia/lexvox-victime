@@ -1,9 +1,9 @@
 # Script d'outro — chaîne VICTIMES
 
-Texte lu par **Me Patrice Humbert**, avec sa voix clonée dans ElevenLabs.
+Texte lu par **Me Patrice Humbert**, avec sa voix clonée dans **Voicebox** (synthèse locale).
 
 **Cet outro ne dépend pas de l'épisode** : il ne contient ni le titre de
-l'article ni le sujet du jour. Une seule génération ElevenLabs suffit donc
+l'article ni le sujet du jour. Une seule prise suffit donc
 pour les 24 épisodes de la chaîne — enregistrez-la une fois, sous
 `~/LEXVOX-PODCASTS/victimes/outro/outro-victimes.mp3`, et le montage la
 réutilisera automatiquement.

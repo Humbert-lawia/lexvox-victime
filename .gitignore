@@ -18,3 +18,4 @@ podcasts/**/*.wav
 
 # Configuration du service ffmpeg distant (peut contenir des URL privees)
 podcasts/ffmpeg-api.json
+podcasts/voicebox.json

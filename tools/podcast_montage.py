@@ -1,26 +1,41 @@
 #!/usr/bin/env python3
-"""Assemble l'intro ElevenLabs et le corps NotebookLM en un MP3 diffusable.
+"""Assemble le generique, la voix de l'avocat et le debat en un MP3 diffusable.
 
-Ordre de montage IMPERATIF : INTRO (ElevenLabs) -> CORPS (NotebookLM)
-                             -> OUTRO (ElevenLabs).
+Ordre de montage IMPERATIF :
+    GENERIQUE MUSICAL -> INTRO (voix de l'avocat, Voicebox)
+    -> CORPS (NotebookLM) -> OUTRO (voix de l'avocat, Voicebox).
 
 L'OUTRO porte l'appel a l'action, dit par l'avocat lui-meme. Le debat ne le
 recite plus : sans outro, l'episode n'en contient aucun — d'ou le refus de
 monter si elle manque, sauf --sans-outro explicite.
 
+L'INTRO peut arriver en un seul fichier ou en QUATRE SEGMENTS
+(cf. voix_script.py --segments). Le mode segments est preferable : le jingle
+verbal et la relance finale sont alors enregistres une seule fois par chaine
+et reutilises tels quels, au lieu de deriver a chaque resynthese.
+
+Le GENERIQUE est une musique libre de droit, taillee et fondue en tete
+d'episode. Elle est mixee PLUS BAS que la voix, et le montage refuse de
+tourner si sa licence n'est pas consignee dans podcasts/musique/LICENCES.md :
+une musique dont on ne retrouve pas la licence peut faire retirer les
+72 episodes des plateformes.
+
 Chaine de traitement :
   1. appariement DETERMINISTE des sources par (chaine, slug) via le CSV ;
-  2. normalisation loudness EN DEUX PASSES de chaque source separement ;
-  3. concatenation avec une respiration courte, sans chevauchement ;
+  2. normalisation loudness EN DEUX PASSES de chaque source separement,
+     la musique visant une cible plus basse que la voix ;
+  3. concatenation avec des respirations calibrees, sans chevauchement ;
   4. limiteur de securite puis encodage MP3 libmp3lame ;
   5. mesure du resultat, correction unique si l'ecart depasse 0,5 LU ;
-  6. quatorze controles qualite ; aucune publication si l'un echoue.
+  6. controles qualite ; aucune publication si l'un echoue.
 
 Jamais d'upload : la plateforme de diffusion est une variable de
 configuration non encore definie (cf. PROMPT-MONTAGE-DIFFUSION.md §11).
 
 Usage :
     python3 tools/podcast_montage.py --chaine victimes --slug mon-article
+    python3 tools/podcast_montage.py --chaine victimes --slug x \\
+        --segments ~/LEXVOX-PODCASTS/victimes/segments
     python3 tools/podcast_montage.py --chaine permis --slug x --dry-run
     python3 tools/podcast_montage.py --self-test
 """
@@ -39,7 +54,8 @@ from ffmpeg_moteur import ErreurMoteur, charger  # noqa: E402
 
 # --- Configuration editoriale -------------------------------------------------
 CHAINES = {
-    "victimes": {"podcast": "Victimes : vos droits",
+    "victimes": {"podcast": "LEXVICTIMES : l'émission dédiée au droit des "
+                            "victimes",
                  "auteur": "Patrice Humbert"},
     "famille": {"podcast": "Divorce & famille : parlons-en",
                 "auteur": "Cédrine Raybaud"},
@@ -53,9 +69,23 @@ LOUDNESS_CIBLE = -16.0      # LUFS
 VRAI_PIC_MAX = -1.5         # dBTP
 ECHANTILLONNAGE = 44100     # Hz
 DEBIT_DEFAUT = 192          # kb/s CBR
-PAUSE_DEFAUT = 400          # ms de respiration entre les segments
+PAUSE_DEFAUT = 400          # ms de respiration entre les blocs
+PAUSE_SEGMENTS = 150        # ms entre segments d'une meme intro : ce sont
+                            # des phrases qui s'enchainent, pas des blocs
 TOLERANCE_LOUDNESS = 0.5    # LU
 TOLERANCE_DUREE = 0.5       # s
+
+# --- Generique musical --------------------------------------------------------
+MUSIQUE_DUREE = 6.0         # s conserves en tete d'episode
+MUSIQUE_NIVEAU = -20.0      # LUFS : 4 LU sous la voix, sinon elle l'ecrase
+MUSIQUE_FONDU_ENTREE = 0.3  # s
+MUSIQUE_FONDU_SORTIE = 1.5  # s — la musique doit mourir avant la question
+MUSIQUE_PAUSE = 250         # ms entre la fin du generique et la voix
+REGISTRE_LICENCES = Path("podcasts/musique/LICENCES.md")
+
+# Le nom du fichier de segment est fixe par voix_script.py --segments.
+SEGMENTS_INTRO = (("01-question", False), ("02-jingle", True),
+                  ("03-sujet", False), ("04-final", True))
 
 
 # --- Utilitaires --------------------------------------------------------------
@@ -112,14 +142,19 @@ def extraire_json_loudnorm(journal: str) -> dict:
     return json.loads(journal[debut:fin + 1])
 
 
-def normaliser(source: Path, destination: Path, canaux: int):
-    """Loudness en deux passes vers un WAV intermediaire."""
+def normaliser(source: Path, destination: Path, canaux: int,
+               cible: float = LOUDNESS_CIBLE):
+    """Loudness en deux passes vers un WAV intermediaire.
+
+    `cible` descend pour le generique musical : mixe au meme niveau que la
+    voix, il la couvrirait.
+    """
     _, _, journal = executer(
         ["ffmpeg", "-hide_banner", "-nostats", "-i", str(source),
-         "-af", f"loudnorm=I={LOUDNESS_CIBLE}:TP={VRAI_PIC_MAX}:LRA=11:"
+         "-af", f"loudnorm=I={cible}:TP={VRAI_PIC_MAX}:LRA=11:"
                 "print_format=json", "-f", "null", "-"])
     m = extraire_json_loudnorm(journal)
-    filtre = (f"loudnorm=I={LOUDNESS_CIBLE}:TP={VRAI_PIC_MAX}:LRA=11:"
+    filtre = (f"loudnorm=I={cible}:TP={VRAI_PIC_MAX}:LRA=11:"
               f"measured_I={m['input_i']}:measured_TP={m['input_tp']}:"
               f"measured_LRA={m['input_lra']}:"
               f"measured_thresh={m['input_thresh']}:"
@@ -133,8 +168,38 @@ def normaliser(source: Path, destination: Path, canaux: int):
                            f"{erreur.strip()[:300]}")
 
 
-def assembler(segments, pause_ms: int, destination: Path, canaux: int):
-    """Concatene les WAV normalises en inserant une respiration."""
+def tailler_musique(source: Path, destination: Path, canaux: int,
+                    duree: float):
+    """Coupe le generique a la duree voulue et le fait entrer puis mourir.
+
+    Le fondu de sortie doit s'achever AVANT la premiere syllabe : une musique
+    qui traine sous la question d'accroche la rend moins intelligible, et
+    c'est justement la phrase qui doit accrocher l'auditeur.
+    """
+    depart_sortie = max(0.0, duree - MUSIQUE_FONDU_SORTIE)
+    filtre = (f"atrim=0:{duree:.3f},asetpts=N/SR/TB,"
+              f"afade=t=in:st=0:d={MUSIQUE_FONDU_ENTREE:.3f},"
+              f"afade=t=out:st={depart_sortie:.3f}:"
+              f"d={MUSIQUE_FONDU_SORTIE:.3f}")
+    code, _, erreur = executer(
+        ["ffmpeg", "-hide_banner", "-nostats", "-y", "-i", str(source),
+         "-af", filtre, "-ar", str(ECHANTILLONNAGE), "-ac", str(canaux),
+         "-c:a", "pcm_s16le", str(destination)])
+    if code != 0:
+        raise RuntimeError(f"taille du generique : {erreur.strip()[:300]}")
+
+
+def assembler(segments, pauses_ms, destination: Path, canaux: int):
+    """Concatene les WAV normalises en inserant les respirations demandees.
+
+    `pauses_ms` compte un element de moins que `segments` : les blocs
+    (generique, intro, corps, outro) respirent plus longtemps entre eux que
+    les phrases d'une meme intro.
+    """
+    if len(pauses_ms) != max(0, len(segments) - 1):
+        raise RuntimeError(
+            f"{len(segments)} segments mais {len(pauses_ms)} pauses — "
+            "incoherence de montage, traitement interrompu")
     entrees = []
     for segment in segments:
         entrees += ["-i", str(segment)]
@@ -145,9 +210,10 @@ def assembler(segments, pause_ms: int, destination: Path, canaux: int):
     morceaux, filtres = [], []
     for indice in range(len(segments)):
         morceaux.append(f"[{indice}:a]")
-        if indice < len(segments) - 1 and pause_ms > 0:
+        if indice < len(segments) - 1 and pauses_ms[indice] > 0:
             etiquette = f"[p{indice}]"
-            filtres.append(f"{silence}:d={pause_ms / 1000:.3f}{etiquette}")
+            filtres.append(
+                f"{silence}:d={pauses_ms[indice] / 1000:.3f}{etiquette}")
             morceaux.append(etiquette)
     filtres.append(f"{''.join(morceaux)}concat=n={len(morceaux)}:v=0:a=1[out]")
 
@@ -255,6 +321,56 @@ def trouver_source(dossier: Path, motifs) -> Path:
     return audio[0]
 
 
+def trouver_segments_intro(dossier: Path, chaine: str, slug: str) -> list:
+    """Les quatre segments d'intro, dans l'ordre impose par la serie.
+
+    Les invariants (jingle, relance) ne portent pas le slug : c'est ce qui
+    permet de les enregistrer une fois et de les rejouer a l'identique.
+    """
+    trouves = []
+    for nom, invariant in SEGMENTS_INTRO:
+        base = f"{nom}-{chaine}" if invariant else f"{nom}-{chaine}-{slug}"
+        fichier = trouver_source(dossier, [f"{base}.*"])
+        trouves.append((nom, fichier, invariant))
+    return trouves
+
+
+def trouver_musique(racine: Path, chaine: str) -> Path:
+    """Generique de la chaine, sinon generique commun au cabinet."""
+    for dossier, motif in ((racine / "musique", f"musique-{chaine}.*"),
+                           (racine.parent / "musique", f"musique-{chaine}.*"),
+                           (racine.parent / "musique", "musique-lexvox.*")):
+        if dossier.is_dir():
+            try:
+                return trouver_source(dossier, [motif])
+            except RuntimeError:
+                continue
+    raise RuntimeError(
+        f"generique musical introuvable (cherche musique-{chaine}.mp3 dans "
+        f"{racine / 'musique'} puis {racine.parent / 'musique'}, a defaut "
+        "musique-lexvox.mp3). Deposer une musique LIBRE DE DROIT et consigner "
+        f"sa licence dans {REGISTRE_LICENCES}, ou passer --sans-musique.")
+
+
+def verifier_licence(musique: Path, registre: Path = REGISTRE_LICENCES):
+    """Refuse une musique dont la licence n'est pas consignee.
+
+    Ce n'est pas une formalite : une plateforme qui recoit une reclamation
+    retire l'episode, parfois toute la serie. La preuve doit exister AVANT la
+    diffusion, pas le jour de la reclamation.
+    """
+    if not registre.is_file():
+        raise RuntimeError(
+            f"registre des licences absent : {registre}. Aucune musique ne "
+            "doit etre diffusee sans preuve de licence archivee.")
+    texte = registre.read_text(encoding="utf-8")
+    if musique.stem not in texte:
+        raise RuntimeError(
+            f"« {musique.name} » n'est pas consigne dans {registre}. Ajouter "
+            "la fiche de la piste (source, licence, date de telechargement, "
+            "usage commercial autorise) avant de monter quoi que ce soit.")
+
+
 # --- Controles qualite --------------------------------------------------------
 def controler(final: Path, sondage: dict, loudness, duree_attendue: float,
               debit: int, canaux: int, ordre_verifie: bool) -> list:
@@ -321,8 +437,23 @@ def traiter(options) -> int:
     travail = racine / ".travail"
     travail.mkdir(parents=True, exist_ok=True)
 
-    intro = (Path(options.intro).expanduser() if options.intro
-             else trouver_source(dossier_intro, [f"intro-*{options.slug}.*"]))
+    # --- generique musical (facultatif, mais licence obligatoire s'il existe)
+    musique = None
+    if not options.sans_musique:
+        musique = (Path(options.musique).expanduser() if options.musique
+                   else trouver_musique(racine, options.chaine))
+        verifier_licence(musique, Path(options.licences))
+
+    # --- introduction : un seul fichier, ou quatre segments reutilisables
+    segments_intro = []
+    if options.segments:
+        segments_intro = trouver_segments_intro(
+            Path(options.segments).expanduser(), options.chaine, options.slug)
+        intro = None
+    else:
+        intro = (Path(options.intro).expanduser() if options.intro
+                 else trouver_source(dossier_intro, [f"intro-*{options.slug}.*"]))
+
     corps = (Path(options.corps).expanduser() if options.corps
              else trouver_source(dossier_corps, [f"{options.slug}.*"]))
     if options.outro:
@@ -332,9 +463,35 @@ def traiter(options) -> int:
     else:
         outro = trouver_outro(racine, options.chaine, options.slug)
 
-    sources = [("intro ElevenLabs", intro), ("corps NotebookLM", corps)]
+    # Chaque bloc porte sa cible de loudness et la respiration qui le suit.
+    blocs = []
+    if musique:
+        blocs.append({"etiquette": "generique musical", "fichier": musique,
+                      "cible": MUSIQUE_NIVEAU, "pause": MUSIQUE_PAUSE,
+                      "taille": options.duree_musique})
+    if segments_intro:
+        for rang, (nom, fichier, invariant) in enumerate(segments_intro):
+            dernier = rang == len(segments_intro) - 1
+            blocs.append({
+                "etiquette": f"intro {nom}"
+                             f"{' (réutilisé)' if invariant else ''}",
+                "fichier": fichier, "cible": LOUDNESS_CIBLE,
+                "pause": PAUSE_DEFAUT if dernier else options.pause_segments,
+                "taille": None})
+    else:
+        blocs.append({"etiquette": "intro (voix de l'avocat)",
+                      "fichier": intro, "cible": LOUDNESS_CIBLE,
+                      "pause": PAUSE_DEFAUT, "taille": None})
+    blocs.append({"etiquette": "corps NotebookLM", "fichier": corps,
+                  "cible": LOUDNESS_CIBLE, "pause": options.pause,
+                  "taille": None})
     if outro:
-        sources.append(("outro ElevenLabs", outro))
+        blocs.append({"etiquette": "outro (voix de l'avocat)",
+                      "fichier": outro, "cible": LOUDNESS_CIBLE,
+                      "pause": 0, "taille": None})
+    blocs[-1]["pause"] = 0
+
+    sources = [(bloc["etiquette"], bloc["fichier"]) for bloc in blocs]
     for etiquette, fichier in sources:
         if not fichier.is_file():
             raise RuntimeError(f"{etiquette} absente : {fichier}")
@@ -351,26 +508,36 @@ def traiter(options) -> int:
         return 0
 
     sondages = {}
-    for etiquette, fichier in sources:
-        sondages[etiquette] = sonder(fichier)
-        if sondages[etiquette]["duree"] <= 0:
-            raise RuntimeError(f"{etiquette} illisible ou vide : {fichier}")
+    for bloc in blocs:
+        sondage = sonder(bloc["fichier"])
+        if sondage["duree"] <= 0:
+            raise RuntimeError(f"{bloc['etiquette']} illisible ou vide : "
+                               f"{bloc['fichier']}")
+        # le generique n'entre qu'a hauteur de la duree conservee
+        bloc["duree"] = (min(sondage["duree"], bloc["taille"])
+                         if bloc["taille"] else sondage["duree"])
+        sondages[bloc["etiquette"]] = sondage
 
     canaux = 1 if options.canaux == "mono" else 2
     if options.canaux == "auto":
-        canaux = 1  # contenu exclusivement vocal
+        canaux = 1  # contenu essentiellement vocal
 
     normalises = []
-    for indice, (etiquette, fichier) in enumerate(sources):
-        cible = travail / f"{indice}-{normaliser_slug(etiquette)}.wav"
-        normaliser(fichier, cible, canaux)
+    for indice, bloc in enumerate(blocs):
+        cible = travail / f"{indice}-{normaliser_slug(bloc['etiquette'])}.wav"
+        normaliser(bloc["fichier"], cible, canaux, bloc["cible"])
+        if bloc["taille"]:
+            taillee = travail / f"{indice}-generique-taille.wav"
+            tailler_musique(cible, taillee, canaux, bloc["duree"])
+            cible = taillee
         normalises.append(cible)
 
     assemble = travail / "assemble.wav"
-    assembler(normalises, options.pause, assemble, canaux)
+    pauses_ms = [bloc["pause"] for bloc in blocs[:-1]]
+    assembler(normalises, pauses_ms, assemble, canaux)
 
-    pauses = (len(sources) - 1) * options.pause / 1000
-    duree_attendue = sum(s["duree"] for s in sondages.values()) + pauses
+    duree_attendue = (sum(bloc["duree"] for bloc in blocs)
+                      + sum(pauses_ms) / 1000)
 
     metadonnees = {
         "title": ligne.get("title") or options.slug,
@@ -396,6 +563,11 @@ def traiter(options) -> int:
     sondage_final = sonder(final)
     controles = controler(final, sondage_final, (integre, vrai_pic),
                           duree_attendue, options.debit, canaux, True)
+    controles.append({
+        "controle": "licence du generique consignee",
+        "ok": True,
+        "detail": (f"{musique.name} — {options.licences}" if musique
+                   else "aucun generique (--sans-musique)")})
     if not options.garder_travail:
         shutil.rmtree(travail, ignore_errors=True)
 
@@ -404,7 +576,10 @@ def traiter(options) -> int:
         "chaine": options.chaine,
         "slug": options.slug,
         "ordre_de_montage": " -> ".join(e for e, _ in sources),
-        "fichier_intro": intro.name,
+        "fichier_generique": musique.name if musique else "aucun",
+        "fichier_intro": (", ".join(f.name for _, f, _ in segments_intro)
+                          if segments_intro else intro.name),
+        "segments_reutilises": [f.name for nom, f, inv in segments_intro if inv],
         "fichier_corps": corps.name,
         "fichier_outro": outro.name if outro else "aucune (--sans-outro)",
         "fichier_final": final.name,
@@ -437,9 +612,13 @@ def traiter(options) -> int:
 def afficher_rapport(rapport: dict):
     print(f"\n=== COMPTE RENDU — {rapport['chaine']} / {rapport['slug']} ===")
     print(f"ordre de montage      : {rapport['ordre_de_montage']}")
-    print(f"intro ElevenLabs      : {rapport['fichier_intro']}")
+    print(f"generique musical     : {rapport['fichier_generique']}")
+    print(f"intro (voix avocat)   : {rapport['fichier_intro']}")
+    if rapport.get("segments_reutilises"):
+        print(f"  dont reutilises     : "
+              f"{', '.join(rapport['segments_reutilises'])}")
     print(f"corps NotebookLM      : {rapport['fichier_corps']}")
-    print(f"outro ElevenLabs      : {rapport['fichier_outro']}")
+    print(f"outro (voix avocat)   : {rapport['fichier_outro']}")
     print(f"fichier final         : {rapport['fichier_final']}")
     print(f"chemin                : {rapport['chemin_final']}")
     print(f"duree / poids         : {rapport['duree_s']} s / "
@@ -516,6 +695,61 @@ def self_test() -> int:
         if attendu not in noms:
             echecs.append(f"controle non declenche : {attendu}")
 
+    # licence du generique : le refus doit venir AVANT tout appel a ffmpeg
+    bac = Path("/tmp/_montage_musique")
+    shutil.rmtree(bac, ignore_errors=True)
+    bac.mkdir(parents=True, exist_ok=True)
+    registre = bac / "LICENCES.md"
+    essais += 1
+    try:
+        verifier_licence(bac / "musique-victimes.mp3", registre)
+        echecs.append("registre de licences absent non detecte")
+    except RuntimeError:
+        pass
+    registre.write_text("# Licences\n\n- musique-victimes : Pixabay\n",
+                        encoding="utf-8")
+    essais += 1
+    try:
+        verifier_licence(bac / "musique-victimes.mp3", registre)
+    except RuntimeError as erreur:
+        echecs.append(f"licence consignee refusee : {erreur}")
+    essais += 1
+    try:
+        verifier_licence(bac / "musique-permis.mp3", registre)
+        echecs.append("musique non consignee acceptee")
+    except RuntimeError:
+        pass
+
+    # appariement des segments d'intro : invariants sans slug, variables avec
+    segments = bac / "segments"
+    segments.mkdir(parents=True, exist_ok=True)
+    for nom in ("01-question-victimes-mon-article", "02-jingle-victimes",
+                "03-sujet-victimes-mon-article", "04-final-victimes"):
+        (segments / f"{nom}.mp3").write_bytes(b"\0")
+    trouves = trouver_segments_intro(segments, "victimes", "mon-article")
+    verifier("quatre segments apparies", len(trouves), 4)
+    verifier("jingle reconnu invariant", trouves[1][2], True)
+    verifier("question reconnue variable", trouves[0][2], False)
+    verifier("relance appariee sans slug", trouves[3][1].name,
+             "04-final-victimes.mp3")
+    (segments / "02-jingle-victimes.mp3").unlink()
+    essais += 1
+    try:
+        trouver_segments_intro(segments, "victimes", "mon-article")
+        echecs.append("segment manquant non detecte")
+    except RuntimeError:
+        pass
+    shutil.rmtree(bac, ignore_errors=True)
+
+    # incoherence pauses/segments : refus avant toute commande ffmpeg
+    essais += 1
+    try:
+        assembler([Path("a.wav"), Path("b.wav")], [100, 200],
+                  Path("/tmp/x.wav"), 1)
+        echecs.append("nombre de pauses incoherent accepte")
+    except RuntimeError:
+        pass
+
     for echec in echecs:
         print(f"  !! {echec}")
     print(f"auto-test : {essais - len(echecs)}/{essais} verifications passees")
@@ -534,6 +768,21 @@ def main() -> int:
                            help="force l'outro (sinon cherchee dans outro/)")
     analyseur.add_argument("--sans-outro", action="store_true",
                            help="monte l'episode SANS appel a l'action final")
+    analyseur.add_argument("--segments",
+                           help="dossier des 4 segments d'intro produits par "
+                                "voix_script.py --segments (mode recommande : "
+                                "jingle et relance enregistres une seule fois)")
+    analyseur.add_argument("--musique", help="force le generique musical")
+    analyseur.add_argument("--sans-musique", action="store_true",
+                           help="monte l'episode sans generique musical")
+    analyseur.add_argument("--duree-musique", type=float,
+                           default=MUSIQUE_DUREE,
+                           help="secondes de generique conservees en tete")
+    analyseur.add_argument("--licences", default=str(REGISTRE_LICENCES),
+                           help="registre des licences de musique")
+    analyseur.add_argument("--pause-segments", type=int,
+                           default=PAUSE_SEGMENTS,
+                           help="respiration entre segments d'intro, en ms")
     analyseur.add_argument("--debit", type=int, default=DEBIT_DEFAUT)
     analyseur.add_argument("--canaux", choices=("auto", "mono", "stereo"),
                            default="auto")

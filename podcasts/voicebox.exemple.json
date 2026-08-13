@@ -1,0 +1,36 @@
+{
+  "_lisez_moi": "Copier ce fichier en podcasts/voicebox.json (ignore par git) puis renseigner les identifiants de profil rendus par : python3 tools/voix_moteur.py --diagnostic",
+
+  "base_url": "http://localhost:8000",
+
+  "_profils": "Un profil de voix clonee PAR CHAINE : la voix qui parle doit etre celle de l'avocat qui signe les articles de la chaine. Coller ici les identifiants listes par --diagnostic.",
+  "profils": {
+    "victimes": "",
+    "famille": "",
+    "permis": ""
+  },
+
+  "_engine": "Moteur TTS de Voicebox. Le corpus est en francais : choisir un moteur multilingue (chatterbox, luxtts, qwen_custom_voice). Un moteur anglophone ecorche les noms propres — Dintilhac, Marignane, Salon-de-Provence.",
+  "engine": "chatterbox",
+
+  "_language": "La doc publique de /generate annonce ^(en|zh)$ alors que l'application revendique 23 langues. La verite est dans le /openapi.json de VOTRE instance : --diagnostic la lit et refuse si le francais n'est pas accepte.",
+  "language": "fr",
+
+  "model_size": null,
+
+  "_max_chunk_chars": "Au-dela de ce seuil, Voicebox decoupe le texte et raccorde les morceaux par un fondu, audible sur une signature sonore. Les segments d'intro sont courts : le seuil ne devrait jamais etre atteint.",
+  "max_chunk_chars": 1200,
+
+  "_graines": "Une graine fixe rend la prise reproductible. Utile si un bloc invariant est perdu : on le refabrique a l'identique au lieu de laisser deriver la signature de la serie.",
+  "graines": {
+    "defaut": 20260813,
+    "02-jingle": 20260813,
+    "04-final": 20260814,
+    "outro": 20260815
+  },
+
+  "_instruct": "Consigne de jeu, prise en compte par le seul moteur Qwen CustomVoice. Rester sobre : l'emphase artificielle sonne publicite, ce qu'un avocat doit eviter.",
+  "instruct": "",
+
+  "timeout_s": 600
+}

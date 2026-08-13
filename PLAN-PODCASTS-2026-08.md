@@ -9,12 +9,12 @@ valider par Me Humbert (§5).
 Fichiers liés :
 - `PROMPT-PODCAST-NOTEBOOKLM.md` — le prompt maître réécrit (v3), à utiliser
   dans une session Claude **sur le poste de Me Humbert** (voir §3.1).
-- `PROMPT-MONTAGE-DIFFUSION.md` — l'étape aval : intro ElevenLabs dans la
+- `PROMPT-MONTAGE-DIFFUSION.md` — l'étape aval : intro (voix de l'avocat) dans la
   voix de l'avocat + corps NotebookLM → MP3 diffusable, avec
   `tools/voix_script.py` et `tools/podcast_montage.py`.
-- `PROMPT-INTRO-ELEVENLABS.md` — produit la question d'accroche et le sujet
-  à partir de l'article, et porte les réglages de voix ElevenLabs.
-- `podcasts/voix-elevenlabs/SCRIPT-INTRO-<chaine>.md` et `SCRIPT-OUTRO-<chaine>.md`
+- `PROMPT-INTRO-VOIX.md` — produit la question d'accroche et le sujet
+  à partir de l'article, et porte les réglages de voix Voicebox.
+- `podcasts/voix-avocat/SCRIPT-INTRO-<chaine>.md` et `SCRIPT-OUTRO-<chaine>.md`
   — les gabarits lus par la voix clonée de l'avocat.
 - `podcasts/queue-podcast.csv` — **le** fichier d'état, unique pour les trois
   chaînes (colonne `chaine`), rempli une seule fois depuis Search Console.
@@ -32,7 +32,7 @@ Fichiers liés :
 
 | Chaîne | Public | Sites sources (propriétés GSC) | Signataire des articles | Nom suggéré |
 |---|---|---|---|---|
-| **Victimes** | victimes de dommage corporel / erreur médicale | `medical.lexvox-avocat.fr` + `victime-accident.lexvox-avocat.fr` + `lexvox-victime.com` (⚠️ périmètre à confirmer) | Me Patrice Humbert | « Victimes : vos droits » |
+| **Victimes** | victimes de dommage corporel / erreur médicale | `medical.lexvox-avocat.fr` + `victime-accident.lexvox-avocat.fr` + `lexvox-victime.com` (⚠️ périmètre à confirmer) | Me Patrice Humbert | **LEXVICTIME** — le podcast du droit des victimes |
 | **Famille** | personnes en instance de divorce, garde, pension | `lexvox-divorce.com` ✅ | **Me Cédrine Raybaud** | « Divorce & famille : parlons-en » |
 | **Permis** | conducteurs (suspension, annulation, alcool/stupéfiants) | `lexvox-permis.com` ✅ | Me Patrice Humbert | « Permis en danger » |
 
@@ -45,14 +45,15 @@ NotebookLM par article, un épisode < 5 min par notebook. Total : 72 épisodes,
 soit **4 journées de production** au quota de 20 générations/jour (§3.4).
 
 Chaque épisode est composé de trois blocs assemblés : une **introduction de
-30–40 s dite par l'avocat lui-même** (voix clonée ElevenLabs), qui s'ouvre
+30–40 s dite par l'avocat lui-même** (voix clonée Voicebox), qui s'ouvre
 toujours sur une **question dont la réponse est l'article** puis sur le
 **jingle verbal** de la série ; le débat NotebookLM ; puis une **outro de
 25–35 s** dans la même voix réelle, qui porte l'appel à l'action — le débat ne le récite donc plus, et l'outro étant
 identique pour toute une chaîne, trois enregistrements couvrent les
 72 épisodes. Les deux animateurs du débat sont les mêmes dans les trois
 chaînes : **Nathalie**, la juriste pédagogue, et **Nicolas**, le journaliste
-curieux — deux voix de synthèse que l'introduction présente nommément et
+curieux — deux voix créées par le cabinet, que l'introduction présente
+nommément et
 annonce comme telles (cf. `PROMPT-MONTAGE-DIFFUSION.md` §1 et §A3).
 
 ---
@@ -209,7 +210,7 @@ chaque affirmation »), hors document diffusé.
 - **Plan B à garder en réserve** (si la calibration révèle une UI trop
   instable ou des quotas trop serrés) : générer le **script** du débat avec
   Claude (contrôle mot à mot du CTA et de la déonto, durée exacte) puis le
-  faire lire par une **TTS multi-locuteurs** (API Gemini ou ElevenLabs).
+  faire lire par une **TTS multi-locuteurs** (API Gemini ou Voicebox).
   100 % scriptable, 24 épisodes en un lot sans surveillance, coût faible ;
   contrepartie : dialogue un peu moins « naturel » que NotebookLM.
 
@@ -256,7 +257,7 @@ GSC (une fois) ──► CSV unique (colonne chaine) ──► session du jour (
 `podcasts/queue-podcast.csv`, colonnes :
 `chaine,rank,site,url,slug,title,clicks_12m,impressions_12m,position_avg,status,launched_at,corps_file,intro_file,audio_file,generated_at,published_at,notes`
 
-(`corps_file` = audio NotebookLM récolté, `intro_file` = intro ElevenLabs,
+(`corps_file` = audio NotebookLM récolté, `intro_file` = intro (voix de l'avocat),
 `audio_file` = MP3 final assemblé.)
 
 - **Un seul CSV pour les trois chaînes** (arbitrage 2026-08-13) : la colonne
@@ -303,7 +304,7 @@ et la Phase 4 (mise en ligne).
 | **1. Sélection** (1 fois/chaîne, ~30 min) | Sur votre poste (Claude in Chrome) : GSC › Performances › 12 mois › Pages › export ; fusion/filtre/tri ; top 24 ajoutés au CSV avec leur `chaine` | Claude in Chrome (vous en survol) | `podcasts/queue-podcast.csv` rempli et commité |
 | **2. Pilote autonome** (1 épisode) | L'agent computer use déroule seul UN épisode complet (MODE PILOTE du prompt v3), consigne l'interface réelle dans `podcasts/CALIBRATION-NOTEBOOKLM.md` ; puis **écoute et validation du pilote par vous** (ton, CTA, exactitude) — remplace la démonstration à l'écran, abandonnée (génération ~10 min) | Claude in Chrome, puis Me Humbert (écoute) | Carnet de calibration rempli ; épisode pilote validé |
 | **3. Production** (~2 journées/chaîne) | Claude in Chrome déroule `PROMPT-PODCAST-NOTEBOOKLM.md` en pipeline glissant, 20 générations/jour ; post-traitement ffmpeg ; QA ; CSV mis à jour et commité en fin de session | Claude (vous en survol) | 24 fichiers MP3 normalisés + CSV `done` |
-| **3 bis. Intro + montage** (en parallèle de la production) | Phase A : `tools/voix_script.py` rend le texte, ElevenLabs le fait lire par la voix clonée de l'avocat, fichier nommé au slug. Phase B : `tools/podcast_montage.py` normalise, assemble intro → débat, encode en MP3 et passe les 14 contrôles | Me Humbert (voix) + Claude | `mp3/podcast-<chaine>-<NN>-<slug>.mp3` validés |
+| **3 bis. Intro + montage** (en parallèle de la production) | Phase A : `tools/voix_script.py` rend le texte, Voicebox le fait lire par la voix clonée de l'avocat, fichier nommé au slug. Phase B : `tools/podcast_montage.py` normalise, assemble intro → débat, encode en MP3 et passe les 14 contrôles | Me Humbert (voix) + Claude | `mp3/podcast-<chaine>-<NN>-<slug>.mp3` validés |
 | **4. Publication & mesure** | Hébergeur RSS (Spotify for Creators gratuit, ou Ausha, français) → Spotify/Apple/Deezer/YouTube ; intégration `<audio>` + transcription + JSON-LD `AudioObject` sur les pages articles **WordPress** ; pour `lexvox-victime.com` (Sanity) l'intégration = évolution du frontend Next.js, **sur demande expresse uniquement** (règle CLAUDE.md) — en attendant, plateformes seulement ; liens UTM ; revue mensuelle des écoutes dans `podcasts/PODCAST-TRACKER.md` | Claude + webmaster | Épisodes en ligne + tracker |
 | **5. Déclinaison** | Rejouer Phases 1→4 pour Famille puis Permis avec leurs variables (fiches, CTA, sites) | idem | 3 chaînes actives |
 
@@ -342,7 +343,7 @@ et la Phase 4 (mise en ligne).
    n'est tenté tant qu'elle n'est pas renseignée).
 5. **Outro dans votre voix ?** Le CTA final est aujourd'hui prononcé par
    NotebookLM, donc soumis à sa bonne volonté. Le dire vous-même en outro
-   ElevenLabs le rend certain au mot près et plus crédible ; l'outil accepte
+   Voicebox le rend certain au mot près et plus crédible ; l'outil accepte
    déjà `--outro`. Oui/non.
 6. **Débit du MP3** : 192 kb/s comme vous l'avez spécifié (défaut retenu), ou
    128 kb/s — standard podcast en mono, sans différence audible sur de la

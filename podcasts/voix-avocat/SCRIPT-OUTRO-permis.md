@@ -1,8 +1,8 @@
 # Script d'outro — chaîne PERMIS
 
-Texte lu par **Me Patrice Humbert**, avec sa voix clonée dans ElevenLabs.
+Texte lu par **Me Patrice Humbert**, avec sa voix clonée dans **Voicebox** (synthèse locale).
 
-**Cet outro ne dépend pas de l'épisode** : une seule génération ElevenLabs
+**Cet outro ne dépend pas de l'épisode** : une seule prise Voicebox
 suffit pour les 24 épisodes de la chaîne. À enregistrer sous
 `~/LEXVOX-PODCASTS/permis/outro/outro-permis.mp3`.
 

@@ -43,13 +43,19 @@ UA = "curl/8.5.0"
 BLOCKED_HOST_PARTS = (
     "e-barreau",
     "rpva",
-    "avocat.fr",
     "extranet",
     "webmail",
     "roundcube",
     "owa.",
     "vpn.",
     "intranet",
+)
+# Domaines refusés EUX-MÊMES et leurs sous-domaines, jamais par sous-chaîne :
+# « avocat.fr » (annuaire/outils de la profession) ne doit pas emporter le
+# refus de « medical.lexvox-avocat.fr », site PUBLIC du cabinet. La comparaison
+# se fait donc sur une frontière d'étiquette, pas sur un « in ».
+BLOCKED_DOMAINS = (
+    "avocat.fr",
     "manage.sanity.io",
     "api.sanity.io",
 )
@@ -90,6 +96,8 @@ def check_public(url):
     except ValueError:
         pass  # nom de domaine : rien à vérifier ici
     if any(part in host for part in BLOCKED_HOST_PARTS):
+        refuse(f"hôte sensible ({host})")
+    if any(host == dom or host.endswith("." + dom) for dom in BLOCKED_DOMAINS):
         refuse(f"hôte sensible ({host})")
     if host.startswith(BLOCKED_HOST_PREFIXES):
         refuse(f"hôte sensible ({host})")

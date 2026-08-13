@@ -1,9 +1,9 @@
 # Script d'outro — chaîne FAMILLE
 
-Texte lu par **Me Cédrine Raybaud**, avec sa voix clonée dans ElevenLabs
+Texte lu par **Me Cédrine Raybaud**, avec sa voix clonée dans **Voicebox** (synthèse locale)
 (variante Me Humbert plus bas si elle préfère ne pas prêter sa voix).
 
-**Cet outro ne dépend pas de l'épisode** : une seule génération ElevenLabs
+**Cet outro ne dépend pas de l'épisode** : une seule prise Voicebox
 suffit pour les 24 épisodes de la chaîne. À enregistrer sous
 `~/LEXVOX-PODCASTS/famille/outro/outro-famille.mp3`.
 
