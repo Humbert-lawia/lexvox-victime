@@ -126,13 +126,18 @@ Un podcast diffusé en masse est de la **publicité personnelle** (RIN art.
     dans les chaînes famille et permis** — chaque chaîne a sa fiche, limitée
     aux titres vérifiés pour ce domaine.
 
-### 2.5 Choix d'outillage : ce que « filmer mon écran » permet (et ne permet pas)
+### 2.5 Choix d'outillage : rôle des outils sur le poste
 
-- Le **partage d'écran** (Claude Desktop / Cowork) permet à Claude de **voir**
-  votre écran, pas d'agir. Il sert à la **Phase 2 de calibration** : vous
-  faites UN épisode à la main pendant que Claude relève les libellés exacts
-  des boutons, la limite réelle du champ Personnaliser, le format du fichier
-  téléchargé et les temps réels — puis fige le prompt v2.
+- **Pas d'apprentissage par démonstration à l'écran** (décision Me Humbert,
+  2026-08-13) : une génération dure ~10 min, trop long à montrer en direct.
+  En compensation, le prompt v2.1 décrit chaque action au niveau
+  « computer use » (référentiel d'interface écran par écran, critère de
+  réussite et repli après chaque clic), et la première session de chaque
+  chaîne est un **MODE PILOTE** : l'agent déroule UN épisode seul, consigne
+  l'interface réellement rencontrée dans
+  `podcasts/CALIBRATION-NOTEBOOKLM.md`, et l'épisode est écouté et validé
+  par Me Humbert avant la production en série. Le partage d'écran reste
+  possible en dépannage (voir ce que voit l'agent), jamais requis.
 - Pour **agir** (cliquer, coller, télécharger), il faut le pilotage de
   navigateur **sur votre poste** (extension Claude pour Chrome, ou le
   pilotage d'ordinateur de Cowork). Gros avantage : votre session Google y
@@ -163,33 +168,48 @@ Un podcast diffusé en masse est de la **publicité personnelle** (RIN art.
 
 ### 3.2 Flux (par chaîne)
 
+Une génération dure **~10 min** et continue en arrière-plan quand on quitte
+le notebook : la boucle est donc **en tuilage** (deux phases), pour ne
+jamais attendre passivement devant une barre de progression.
+
 ```
-GSC (une fois) ──► CSV top 24 ──► [boucle par épisode]
-   notebook neuf ► source 1 : URL article (repli : texte collé)
-                 ► source 2 : fiche cabinet (texte collé)
-                 ► Personnaliser (texte court) + durée « courte » + langue FR
-                 ► Générer ► attendre ► Télécharger
-   post-traitement local : renommer, MP3, loudnorm, tags
-   QA (durée, langue, CTA) ► CSV mis à jour ► épisode suivant
+GSC (une fois) ──► CSV top 24 ──► [lot de 3 à 5 épisodes]
+
+PHASE A — LANCEMENTS (à la suite, sans attendre les générations)
+   pour chaque épisode : notebook neuf
+     ► source 1 : URL article (repli : texte collé)
+     ► source 2 : fiche cabinet (texte collé)
+     ► Personnaliser : format Débat + durée courte + texte court, langue FR
+     ► Générer ► CSV status=generating + launched_at ► épisode suivant
+
+PHASE B — RÉCOLTES (dans l'ordre des lancements, dès launched_at + 8 min)
+   lecteur présent ? ► Télécharger ► post-traitement local
+   (renommer, MP3, loudnorm, tags) ► QA durée ► CSV status=done
+
 [fin de lot] ► commit CSV + tracker ► [Phase 4] hébergement, intégration, mesure
 ```
 
 ### 3.3 Le CSV d'état (généré UNE fois par chaîne, puis seule source de vérité)
 
 Colonnes (gabarit dans `podcasts/queue-podcast-TEMPLATE.csv`) :
-`rank,site,url,slug,title,clicks_12m,impressions_12m,position_avg,status,audio_file,generated_at,published_at,notes`
+`rank,site,url,slug,title,clicks_12m,impressions_12m,position_avg,status,launched_at,audio_file,generated_at,published_at,notes`
 
 - Sélection GSC : **Performances › Résultats de recherche › 12 derniers mois ›
   dimension Pages**, export, puis filtre éditorial : articles uniquement
   (exclure accueil, pages piliers/landing, contact, catégories), fusion des
   propriétés si plusieurs sites, dédoublonnage, tri par clics → **top 24**.
-- `status` : `todo → doing → done` (+ `error`, `skipped`). `published_at`
-  n'est rempli qu'en Phase 4. Un épisode `error` est repris au lot suivant
-  après lecture de la note.
+- `status` : `todo → doing → generating → done` (+ `error`, `skipped`).
+  `generating` + `launched_at` permettent le tuilage et la reprise : une
+  ligne restée `generating` d'une session interrompue est récoltée en
+  priorité à la session suivante. `published_at` n'est rempli qu'en
+  Phase 4. Un épisode `error` est repris au lot suivant après lecture de
+  la note.
 
 ### 3.4 Cadence réaliste
 
-Lots de 3–5 épisodes/session (quota + surveillance légère) → une chaîne de
+Grâce au tuilage, un lot de 3 épisodes ≈ **30–40 min** de session (les
+~10 min de génération de chaque épisode sont recouvertes par les lancements
+et récoltes des autres) au lieu de ~45 min en séquentiel. Une chaîne de
 24 épisodes = **5 à 8 sessions**, soit ~2 semaines par chaîne en rythme
 tranquille, ou les 3 chaînes en ~6 semaines. L'abonnement NotebookLM payant
 (quota ~20/jour) est fortement conseillé pour tenir ce rythme.
@@ -201,8 +221,8 @@ tranquille, ou les 3 chaînes en ~6 semaines. L'abonnement NotebookLM payant
 | Phase | Contenu | Qui | Livrable |
 |---|---|---|---|
 | **0. Cadrage** (1 session) | Choix des sites famille/permis ; vérif accès GSC des propriétés ; abonnement NotebookLM ; **validation des 3 fiches cabinet** (déonto §2.4) ; choix distribution (§4-Phase 4) ; noms des chaînes | Me Humbert + Claude | Décisions du §5 arbitrées, fiches validées commitées |
-| **1. Sélection** (1 fois/chaîne, ~30 min) | Partage d'écran : GSC › Performances › 12 mois › Pages › export ; fusion/filtre/tri ; top 24 | Claude (guide) + vous (clics) ou Claude in Chrome | `podcasts/<chaine>/queue-podcast.csv` commité |
-| **2. Calibration** (1 épisode pilote) | Vous faites 1 épisode à la main en partage d'écran ; Claude relève libellés exacts, limite du champ, durée réelle, format téléchargé ; ajustement du prompt v2 ; **écoute et validation du pilote par vous** (ton, CTA, exactitude) | Me Humbert + Claude | Prompt v2 figé ; épisode pilote validé |
+| **1. Sélection** (1 fois/chaîne, ~30 min) | Sur votre poste (Claude in Chrome) : GSC › Performances › 12 mois › Pages › export ; fusion/filtre/tri ; top 24 | Claude in Chrome (vous en survol) | `podcasts/<chaine>/queue-podcast.csv` commité |
+| **2. Pilote autonome** (1 épisode) | L'agent computer use déroule seul UN épisode complet (MODE PILOTE du prompt v2.1), consigne l'interface réelle dans `podcasts/CALIBRATION-NOTEBOOKLM.md` ; puis **écoute et validation du pilote par vous** (ton, CTA, exactitude) — remplace la démonstration à l'écran, abandonnée (génération ~10 min) | Claude in Chrome, puis Me Humbert (écoute) | Carnet de calibration rempli ; épisode pilote validé |
 | **3. Production** (5–8 sessions/chaîne) | Claude in Chrome déroule `PROMPT-PODCAST-NOTEBOOKLM.md` par lots de 3–5 ; post-traitement ffmpeg ; QA ; CSV mis à jour et commité en fin de lot | Claude (vous en survol) | 24 fichiers MP3 normalisés + CSV `done` |
 | **4. Publication & mesure** | Hébergeur RSS (Spotify for Creators gratuit, ou Ausha, français) → Spotify/Apple/Deezer/YouTube ; intégration `<audio>` + transcription + JSON-LD `AudioObject` sur les pages articles **WordPress** ; pour `lexvox-victime.com` (Sanity) l'intégration = évolution du frontend Next.js, **sur demande expresse uniquement** (règle CLAUDE.md) — en attendant, plateformes seulement ; liens UTM ; revue mensuelle des écoutes dans `podcasts/PODCAST-TRACKER.md` | Claude + webmaster | Épisodes en ligne + tracker |
 | **5. Déclinaison** | Rejouer Phases 1→4 pour Famille puis Permis avec leurs variables (fiches, CTA, sites) | idem | 3 chaînes actives |
