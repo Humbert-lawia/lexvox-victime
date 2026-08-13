@@ -169,6 +169,14 @@ débat NotebookLM. Avant toute intervention sur ce chantier, lire
 ce qui est prouvé par les tests, ce qui ne l'est pas, et les décisions en
 attente. Seule la chaîne **victimes** est configurée.
 
+Un épisode se fabrique en une commande : `python3 tools/podcast_episode.py`.
+Pour piloter Voicebox depuis une session distante, voir
+**`CONNEXION-VOICEBOX.md`** — l'instance n'a **aucune authentification
+native** : la publier sans portail met la voix clonée de l'avocat à la
+disposition de quiconque connaît l'URL. `voix_moteur.py` refuse d'ailleurs
+toute adresse distante en `http`, et refuse un secret écrit dans un fichier
+de configuration (renvois `env:NOM` uniquement).
+
 ## Suivi
 
 `SUIVI-ACTIONS-CORRECTIVES.md` trace les actions issues des audits SEO — le

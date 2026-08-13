@@ -101,8 +101,10 @@ les 24 épisodes de la chaîne.
 
 | Fichier | Rôle |
 |---|---|
-| `tools/voix_script.py` | produit les textes dits par l'avocat, découpe l'intro en 3 segments, applique la phonétique, refuse un script altéré. `--self-test` : **36/36** |
-| `tools/voix_moteur.py` | moteur de synthèse : `aucun` / `manuel` (écrit les .txt à coller) / `voicebox` (HTTP). `--self-test` : **13/13**, `--diagnostic` interroge l'instance |
+| `tools/voix_script.py` | produit les textes dits par l'avocat, découpe l'intro en 3 segments, applique la phonétique, refuse un script altéré. `--self-test` : **45/45** |
+| `tools/voix_moteur.py` | moteur de synthèse : `aucun` / `manuel` (écrit les .txt à coller) / `voicebox` (HTTP, local **ou distant authentifié**). `--self-test` : **35/35**, `--diagnostic` interroge l'instance |
+| `tools/podcast_episode.py` | **une seule commande** : outro + segments + montage. `--self-test` : **6/6** |
+| `CONNEXION-VOICEBOX.md` | comment piloter Voicebox depuis une session distante — tunnel **authentifié**, secrets en variables d'environnement |
 | `tools/podcast_montage.py` | montage ffmpeg complet : appariement, loudness 2 passes, générique musical, concaténation, limiteur, MP3, 14 contrôles qualité. `--self-test` : **29/29** |
 | `tools/ffmpeg_moteur.py` | binaire local ou service HTTP distant, même contrat. `--self-test` : **10/10** (sans option) |
 | `PROMPT-INTRO-VOIX.md` | le prompt à copier une fois par épisode — produit **la question du jour**, rien d'autre |
@@ -203,11 +205,52 @@ rejoué avec cette piste : **14/14 au vert**, générique à **−20,5 LUFS** co
 
 ---
 
+## 5bis. Le dialogue Voicebox mis à l'épreuve (2026-08-13)
+
+Le client HTTP n'avait **jamais** été exécuté. Il l'a été contre un faux
+Voicebox implémentant le contrat documenté — `/openapi.json`, `/profiles`,
+`POST /generate`, `GET /audio/{id}` — y compris en mode **strict**, c'est-à-dire
+appliquant réellement la négociation de contenu et les contraintes de son
+propre schéma. **Quatre défauts, tous invisibles à la lecture du code :**
+
+1. **`Accept: application/json` envoyé pour télécharger l'audio.** Tout serveur
+   qui applique la négociation de contenu répond **406** — et le refus tombe
+   *après* la génération, donc après le temps de calcul GPU. L'en-tête suit
+   désormais ce qu'on demande vraiment.
+2. **`max_chunk_chars` envoyé en dur.** Le diagnostic lisait le schéma de
+   l'instance ; la synthèse, elle, l'ignorait. Une instance qui plafonne cette
+   valeur rendait un **422** incompréhensible. Le client lit maintenant les
+   limites déclarées (langue, longueur de texte, plafond de découpage) et s'y
+   plie, en avertissant si un segment devient trop long pour tenir d'une traite.
+3. **La langue n'était vérifiée qu'au diagnostic.** Le refus arrivait donc en
+   pleine production. Il tombe désormais **avant** l'appel, avec le renvoi au
+   piège documenté.
+4. **`voix_script.py --sortie` écrivait le texte dans le fichier audio** — que
+   la synthèse écrasait aussitôt — et ne créait pas son dossier parent. Le
+   texte va à côté, en `.txt`, et le dossier est créé.
+
+S'y ajoute un contrôle qui manquait : **ce que rend `/audio` doit ressembler à
+de l'audio**. Un code 200 ne prouve rien ; derrière un portail
+d'authentification — précisément le montage recommandé — une requête mal
+authentifiée rend volontiers une page de connexion en HTML, avec un code 200,
+qui finissait écrite dans un `.mp3`.
+
+**Chaîne complète exécutée en une commande** (`podcast_episode.py`) contre ce
+serveur strict : outro, trois segments d'intro, montage — **14/14 au vert**,
+code 0. Au second passage, outro et blocs invariants réutilisés sans repasser
+par le moteur.
+
+⚠️ Ce qui est prouvé, c'est que **le client parle correctement à une instance
+conforme**. La vraie instance du cabinet reste à confronter :
+`python3 tools/voix_moteur.py --diagnostic`.
+
+---
+
 ## 6. Ce qui n'est PAS prouvé — à valider sur le poste du cabinet
 
 | À valider | Comment | Pourquoi ça n'a pas pu l'être ici |
 |---|---|---|
-| **Dialogue HTTP avec Voicebox** | `python3 tools/voix_moteur.py --diagnostic` | aucune instance Voicebox dans le conteneur |
+| ~~**Dialogue HTTP**~~ | ✅ **exercé** contre un faux Voicebox conforme au schéma (diagnostic, `/generate`, `/audio`, en-têtes d'authentification, serveur strict) — 4 défauts trouvés et corrigés, cf. §5bis | reste à confronter à la **vraie** instance : `--diagnostic` |
 | **Le français est accepté** | le diagnostic lit le `/openapi.json` de **son** instance | la doc publique annonce `language: ^(en\|zh)$` alors que l'app revendique 23 langues — **piège documenté, à vérifier avant de produire 72 épisodes** |
 | **Qualité de la voix clonée** | écouter le premier épisode, surtout « Imbert », « Dintilhac », « Marignane » | — |
 | ~~**Musique réelle**~~ | ✅ **fait** — *Intro YouTube* (Kulakovka, Pixabay), licence archivée, montage rejoué 14/14. Déposer la piste en `~/LEXVOX-PODCASTS/musique/musique-lexvox.mp3` et monter avec `--debut-musique 11.7` | — |

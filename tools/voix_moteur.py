@@ -35,6 +35,8 @@ Usage :
 
 import argparse
 import json
+import os
+import re
 import shutil
 import sys
 import urllib.error
@@ -66,13 +68,21 @@ class ErreurVoix(RuntimeError):
     """Panne de synthese : configuration, reseau ou refus de l'API."""
 
 
-def _http(url: str, donnees=None, timeout=600, brut=False):
-    """Appel HTTP minimal (bibliotheque standard, aucune dependance)."""
+def _http(url: str, donnees=None, timeout=600, brut=False, entetes_sup=None):
+    """Appel HTTP minimal (bibliotheque standard, aucune dependance).
+
+    `brut=True` recupere un corps binaire. L'en-tete Accept suit ce que l'on
+    demande vraiment : reclamer « application/json » pour telecharger un MP3
+    fait repondre 406 a tout serveur qui applique la negociation de contenu —
+    et le refus tombe APRES la generation, donc apres le temps de calcul.
+    """
     corps = None
-    entetes = {"Accept": "application/json"}
+    entetes = {"Accept": "audio/*, application/octet-stream, */*" if brut
+               else "application/json"}
     if donnees is not None:
         corps = json.dumps(donnees).encode("utf-8")
         entetes["Content-Type"] = "application/json"
+    entetes.update(entetes_sup or {})
     requete = urllib.request.Request(url, data=corps, headers=entetes,
                                      method="POST" if corps else "GET")
     try:
@@ -91,6 +101,80 @@ def _http(url: str, donnees=None, timeout=600, brut=False):
         return json.loads(charge.decode("utf-8", "replace"))
     except json.JSONDecodeError as erreur:
         raise ErreurVoix(f"{url} : reponse non JSON") from erreur
+
+
+def ressemble_a_de_l_audio(donnees: bytes) -> bool:
+    """Vrai si les premiers octets sont ceux d'un format audio connu.
+
+    Un code 200 ne prouve pas qu'on a recu du son. Derriere un portail
+    d'authentification — exactement le montage propose pour exposer Voicebox —
+    une requete mal authentifiee rend volontiers une page de connexion en HTML,
+    avec un code 200. Sans ce controle, cette page finissait ecrite dans un
+    fichier .mp3, et la panne n'apparaissait qu'au montage, plus loin.
+    """
+    if donnees[:3] == b"ID3":                       # MP3 etiquete
+        return True
+    if donnees[:2] in (b"\xff\xfb", b"\xff\xf3", b"\xff\xf2", b"\xff\xfa"):
+        return True                                 # trame MPEG nue
+    if donnees[:4] == b"RIFF" and donnees[8:12] == b"WAVE":
+        return True
+    if donnees[:4] == b"fLaC" or donnees[:4] == b"OggS":
+        return True
+    if donnees[4:8] == b"ftyp":                     # M4A / AAC
+        return True
+    return False
+
+
+def apercu(donnees: bytes, taille: int = 80) -> str:
+    """Debut lisible d'une reponse inattendue, pour un message d'erreur utile."""
+    texte = donnees[:taille].decode("utf-8", "replace").strip()
+    texte = " ".join(texte.split())
+    return f"« {texte} … »" if texte else f"{len(donnees)} octets illisibles"
+
+
+def resoudre_entetes(config: dict) -> dict:
+    """Rend les en-tetes d'authentification, lus dans l'ENVIRONNEMENT.
+
+    La configuration ne porte que des RENVOIS (« env:NOM_DE_VARIABLE »), jamais
+    la valeur. Un jeton a deja du etre purge de l'historique de ce depot : on
+    refuse donc explicitement une valeur ecrite en clair, meme si
+    podcasts/voicebox.json est ignore par git — un fichier ignore se copie, se
+    joint a un courriel et se retrouve dans une sauvegarde.
+    """
+    entetes = {}
+    for nom, valeur in (config.get("auth_headers") or {}).items():
+        if not isinstance(valeur, str):
+            raise ErreurVoix(f"en-tete « {nom} » : valeur invalide")
+        if not valeur.startswith("env:"):
+            raise ErreurVoix(
+                f"en-tete « {nom} » : ecrire « env:NOM_DE_VARIABLE », pas le "
+                "secret lui-meme. Le jeton vit dans l'environnement, jamais "
+                "dans un fichier.")
+        variable = valeur[4:].strip()
+        secret = os.environ.get(variable)
+        if not secret:
+            raise ErreurVoix(
+                f"variable d'environnement « {variable} » vide ou absente "
+                f"(en-tete « {nom} »). L'exporter avant de lancer la commande.")
+        entetes[nom] = secret
+    return entetes
+
+
+def verifier_url(base: str):
+    """Interdit d'envoyer la voix de l'avocat en clair sur un reseau.
+
+    En local (127.0.0.1 / localhost) le texte ne quitte pas la machine et http
+    suffit. Des que l'instance est ailleurs, le trafic porte le texte lu ET la
+    voix clonee de l'avocat : il lui faut du chiffrement.
+    """
+    partie = urllib.parse.urlsplit(base)
+    hote = (partie.hostname or "").lower()
+    local = hote in ("localhost", "127.0.0.1", "::1", "0.0.0.0")
+    if partie.scheme == "https" or local:
+        return
+    raise ErreurVoix(
+        f"« {base} » : une instance distante doit etre en https. En http, le "
+        "texte lu et la voix clonee de l'avocat circulent en clair.")
 
 
 def charger_config(chemin: str) -> dict:
@@ -138,6 +222,8 @@ class MoteurVoicebox:
     def __init__(self, config: dict):
         self.config = config
         self.base = str(config.get("base_url", "http://localhost:8000")).rstrip("/")
+        verifier_url(self.base)
+        self.entetes = resoudre_entetes(config)
         self.profils = config.get("profils", {}) or {}
         self.moteur = config.get("engine", "chatterbox")
         self.langue = config.get("language", "fr")
@@ -146,6 +232,29 @@ class MoteurVoicebox:
         self.instruct = config.get("instruct") or ""
         self.graines = config.get("graines", {}) or {}
         self.delai = int(config.get("timeout_s", 600))
+        self._contraintes = None
+
+    def _appel(self, chemin, donnees=None, timeout=None, brut=False):
+        return _http(f"{self.base}{chemin}", donnees=donnees,
+                     timeout=timeout or self.delai, brut=brut,
+                     entetes_sup=self.entetes)
+
+    # -- contrat reel de l'instance --------------------------------------
+    def contraintes(self) -> dict:
+        """Lit UNE FOIS le /openapi.json de l'instance et en tire ses limites.
+
+        Le diagnostic lisait deja ce schema, mais la synthese, elle, envoyait
+        des valeurs en dur. Une instance qui plafonne `max_chunk_chars` plus bas
+        que notre reglage rendait alors un 422 incomprehensible, apres coup.
+        Autant demander a l'instance ce qu'elle accepte, plutot que le supposer.
+        """
+        if self._contraintes is None:
+            try:
+                schema = self._appel("/openapi.json", timeout=30)
+            except ErreurVoix:
+                schema = {}          # instance muette : on garde nos defauts
+            self._contraintes = lire_contraintes(schema)
+        return self._contraintes
 
     # -- verifications ---------------------------------------------------
     def verifier(self):
@@ -158,7 +267,7 @@ class MoteurVoicebox:
                 "aucun profil de voix configure. Lancer « --diagnostic » pour "
                 "lister les profils de votre instance, puis renseigner leur "
                 "identifiant par chaine dans la configuration.")
-        _http(f"{self.base}/profiles", timeout=30)
+        self._appel("/profiles", timeout=30)
         return True
 
     def profil_de(self, chaine: str) -> str:
@@ -175,16 +284,39 @@ class MoteurVoicebox:
                     segment: str = "") -> dict:
         if not texte.strip():
             raise ErreurVoix("texte vide")
-        if len(texte) > TEXTE_MAX:
+        maxi = self.contraintes().get("texte_max") or TEXTE_MAX
+        if len(texte) > maxi:
             raise ErreurVoix(
                 f"texte de {len(texte)} caracteres : /generate refuse au-dela "
-                f"de {TEXTE_MAX}. Decouper en segments.")
+                f"de {maxi}. Decouper en segments.")
 
+        limites = self.contraintes()
+        if not langue_acceptee(self.langue, limites):
+            raise ErreurVoix(
+                f"l'instance refuse la langue « {self.langue} » "
+                f"(contrainte declaree : {limites.get('langue_detail')}). "
+                "Lancer « --diagnostic » : c'est le piege documente de "
+                "Voicebox, dont la doc publique annonce l'anglais et le "
+                "chinois seuls.")
+
+        # Le decoupage automatique de Voicebox raccorde les morceaux par un
+        # fondu, audible sur une signature : on demande donc un seuil au moins
+        # egal a la longueur du texte — sans jamais depasser ce que l'instance
+        # declare accepter, sous peine d'un 422 apres coup.
+        chunk = max(self.chunk, len(texte) + 1)
+        plafond = limites.get("chunk_max")
+        if plafond:
+            chunk = min(chunk, plafond)
+            if len(texte) >= chunk:
+                print(f"--- avertissement : segment de {len(texte)} caracteres "
+                      f"pour un decoupage plafonne a {chunk} par l'instance : "
+                      "Voicebox va raccorder deux morceaux, le fondu peut "
+                      "s'entendre. Raccourcir le segment. ---", file=sys.stderr)
         demande = {
             "profile_id": self.profil_de(chaine),
             "text": texte,
             "language": self.langue,
-            "max_chunk_chars": max(self.chunk, len(texte) + 1),
+            "max_chunk_chars": chunk,
         }
         if self.moteur:
             demande["engine"] = self.moteur
@@ -199,20 +331,25 @@ class MoteurVoicebox:
         if graine is not None:
             demande["seed"] = int(graine)
 
-        reponse = _http(f"{self.base}/generate", donnees=demande,
-                        timeout=self.delai)
+        reponse = self._appel("/generate", donnees=demande)
         identifiant = reponse.get("id")
         if not identifiant:
             raise ErreurVoix(f"/generate n'a pas rendu d'identifiant : "
                              f"{str(reponse)[:200]}")
 
         sortie.parent.mkdir(parents=True, exist_ok=True)
-        audio = _http(f"{self.base}/audio/{urllib.parse.quote(str(identifiant))}",
-                      timeout=self.delai, brut=True)
+        audio = self._appel(
+            f"/audio/{urllib.parse.quote(str(identifiant))}", brut=True)
         if len(audio) < 1024:
             raise ErreurVoix(
                 f"audio rendu par /audio/{identifiant} suspect "
                 f"({len(audio)} octets) — generation probablement echouee")
+        if not ressemble_a_de_l_audio(audio):
+            raise ErreurVoix(
+                f"/audio/{identifiant} n'a pas rendu de l'audio mais "
+                f"{apercu(audio)}. Un serveur derriere un portail "
+                "d'authentification repond souvent 200 avec une page de "
+                "connexion : verifier les en-tetes d'authentification.")
         sortie.write_bytes(audio)
         return {"mode": "voicebox", "audio": str(sortie),
                 "id": identifiant, "duree_s": reponse.get("duration"),
@@ -226,6 +363,56 @@ def charger(nom: str, chemin_config: str = CONFIG_DEFAUT):
     if nom == "voicebox":
         return MoteurVoicebox(charger_config(chemin_config))
     raise ErreurVoix(f"moteur de voix inconnu : {nom}")
+
+
+# --- Lecture du contrat declare par l'instance --------------------------------
+def _schema_generation(schema: dict) -> dict:
+    """Le schema de la requete /generate, quel que soit son nom."""
+    for nom, corps in (schema.get("components", {})
+                       .get("schemas", {}) or {}).items():
+        if "generation" not in nom.lower() and "request" not in nom.lower():
+            continue
+        if "language" in ((corps.get("properties") or {})):
+            return corps
+    return {}
+
+
+def _entier(champ, cle):
+    """Lit une borne entiere, y compris cachee dans un anyOf."""
+    if not isinstance(champ, dict):
+        return None
+    if isinstance(champ.get(cle), int):
+        return champ[cle]
+    for variante in champ.get("anyOf") or []:
+        if isinstance(variante, dict) and isinstance(variante.get(cle), int):
+            return variante[cle]
+    return None
+
+
+def lire_contraintes(schema: dict) -> dict:
+    """Les limites que l'instance declare : langue, longueur, decoupage."""
+    corps = _schema_generation(schema)
+    proprietes = corps.get("properties") or {}
+    nom, forme, valeur = _langues_acceptees(schema)
+    return {
+        "langue_forme": forme,
+        "langue_valeur": valeur,
+        "langue_detail": (f"{forme} {valeur}" if forme in ("pattern", "enum")
+                          else "aucune contrainte declaree"),
+        "texte_max": _entier(proprietes.get("text"), "maxLength"),
+        "chunk_max": _entier(proprietes.get("max_chunk_chars"), "maximum"),
+        "schema": nom,
+    }
+
+
+def langue_acceptee(langue: str, limites: dict) -> bool:
+    """Vrai si l'instance accepte cette langue, d'apres son propre schema."""
+    forme, valeur = limites.get("langue_forme"), limites.get("langue_valeur")
+    if forme == "pattern":
+        return bool(re.match(valeur, langue))
+    if forme == "enum":
+        return langue in valeur
+    return True          # schema muet ou champ libre : on laisse passer
 
 
 # --- Diagnostic ---------------------------------------------------------------
@@ -413,6 +600,99 @@ def self_test() -> int:
 
     verifier("moteur manuel disponible sans configuration",
              charger("manuel").nom == "manuel")
+
+    # --- contraintes lues dans le schema de l'instance ---------------------
+    schema = {"components": {"schemas": {"GenerationRequest": {"properties": {
+        "language": {"pattern": "^(en|zh)$"},
+        "text": {"maxLength": 3000},
+        "max_chunk_chars": {"anyOf": [{"type": "null"},
+                                      {"type": "integer", "maximum": 1000}]}}}}}}
+    limites = lire_contraintes(schema)
+    verifier("plafond de decoupage lu", limites["chunk_max"] == 1000)
+    verifier("longueur maximale lue", limites["texte_max"] == 3000)
+    verifier("langue refusee par le pattern",
+             langue_acceptee("fr", limites) is False)
+    verifier("langue acceptee par le pattern", langue_acceptee("en", limites))
+    verifier("schema muet : rien n'est impose",
+             langue_acceptee("fr", lire_contraintes({})) is True)
+    verifier("schema muet : aucun plafond invente",
+             lire_contraintes({})["chunk_max"] is None)
+
+    # --- en-tete Accept : un binaire ne se demande pas en JSON --------------
+    # Le 406 tombait APRES la generation, donc apres le temps de calcul.
+    vus = {}
+
+    def _faux_urlopen(requete, timeout=None):
+        vus[requete.full_url] = dict(requete.headers)
+        binaire = "/audio/" in requete.full_url
+
+        class _Reponse:
+            def read(self_inner):
+                return b"\x00" * 2048 if binaire else b"[]"
+
+            def __enter__(self_inner):
+                return self_inner
+
+            def __exit__(self_inner, *a):
+                return False
+        return _Reponse()
+
+    vrai_urlopen = urllib.request.urlopen
+    urllib.request.urlopen = _faux_urlopen
+    try:
+        _http("http://x/audio/1", brut=True)
+        _http("http://x/profiles")
+    finally:
+        urllib.request.urlopen = vrai_urlopen
+    verifier("audio demande en binaire",
+             "audio" in vus["http://x/audio/1"]["Accept"])
+    verifier("json demande en json",
+             vus["http://x/profiles"]["Accept"] == "application/json")
+
+    # --- transport et secrets ----------------------------------------------
+    essais += 1
+    try:
+        verifier_url("http://voicebox.exemple.fr")
+        echecs.append("instance distante en clair acceptee")
+    except ErreurVoix:
+        pass
+    for correct in ("http://localhost:8000", "http://127.0.0.1:8000",
+                    "https://voicebox.exemple.fr"):
+        essais += 1
+        try:
+            verifier_url(correct)
+        except ErreurVoix:
+            echecs.append(f"url legitime refusee : {correct}")
+
+    essais += 1
+    try:
+        resoudre_entetes({"auth_headers": {"X-Jeton": "secret-en-clair"}})
+        echecs.append("secret en clair accepte dans la configuration")
+    except ErreurVoix:
+        pass
+    essais += 1
+    try:
+        resoudre_entetes({"auth_headers": {"X-Jeton": "env:_VOIX_ABSENTE_"}})
+        echecs.append("variable d'environnement absente non signalee")
+    except ErreurVoix:
+        pass
+    os.environ["_VOIX_TEST_"] = "valeur-de-test"
+    verifier("jeton lu dans l'environnement",
+             resoudre_entetes({"auth_headers": {"X-Jeton": "env:_VOIX_TEST_"}})
+             == {"X-Jeton": "valeur-de-test"})
+    os.environ.pop("_VOIX_TEST_", None)
+    verifier("aucune authentification par defaut", resoudre_entetes({}) == {})
+
+    # --- ce qui revient de /audio doit etre de l'audio ----------------------
+    verifier("mp3 etiquete reconnu", ressemble_a_de_l_audio(b"ID3\x03\x00" + b"\0" * 40))
+    verifier("trame mpeg nue reconnue", ressemble_a_de_l_audio(b"\xff\xfb\x90\x00"))
+    verifier("wav reconnu", ressemble_a_de_l_audio(b"RIFF\x24\x08\x00\x00WAVEfmt "))
+    verifier("page de connexion refusee", not ressemble_a_de_l_audio(
+        b"<!DOCTYPE html><html><head><title>Sign in"))
+    verifier("erreur json refusee",
+             not ressemble_a_de_l_audio(b'{"detail":"Not authenticated"}'))
+    verifier("apercu lisible dans le message",
+             "Not authenticated" in apercu(b'{"detail":"Not authenticated"}'))
 
     for echec in echecs:
         print(f"  !! {echec}")

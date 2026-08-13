@@ -240,6 +240,23 @@ def decouper(texte: str):
             for nom, indices, invariant in SEGMENTS_INTRO]
 
 
+EXTENSIONS_AUDIO = (".mp3", ".wav", ".m4a", ".flac", ".ogg", ".opus")
+
+
+def fichier_texte(sortie: str) -> Path:
+    """Ou ecrire le TEXTE quand --sortie est donne.
+
+    `--sortie` designe tantot le script a relire, tantot le fichier audio a
+    produire. Quand c'est un format audio, le texte va a cote en .txt : sinon
+    il etait ecrit dans le .mp3, que la synthese ecrasait aussitot — l'un des
+    deux etait forcement perdu.
+    """
+    cible = Path(sortie).expanduser()
+    if cible.suffix.lower() in EXTENSIONS_AUDIO:
+        return cible.with_suffix(".txt")
+    return cible
+
+
 def generer(options) -> int:
     bloc = options.bloc
     gabarit = extraire_gabarit(
@@ -300,15 +317,17 @@ def generer(options) -> int:
         print("--- orthographe phonetique appliquee (Humbert -> Imbert, etc.) "
               ": elle ne concerne QUE le texte lu ---", file=sys.stderr)
     if options.sortie:
-        Path(options.sortie).write_text(dit + "\n", encoding="utf-8")
-        print(f"--- ecrit dans {options.sortie} ---", file=sys.stderr)
+        cible_texte = fichier_texte(options.sortie)
+        cible_texte.parent.mkdir(parents=True, exist_ok=True)
+        cible_texte.write_text(dit + "\n", encoding="utf-8")
+        print(f"--- ecrit dans {cible_texte} ---", file=sys.stderr)
 
     if options.segments and bloc == "intro":
         return produire_segments(options, texte)
     if options.moteur != "aucun":
         moteur = charger(options.moteur, options.config)
         moteur.verifier()
-        cible = Path(options.sortie or f"{bloc}-{options.chaine}.mp3")
+        cible = Path(options.sortie or f"{bloc}-{options.chaine}.mp3").expanduser()
         resultat = moteur.synthetiser(dit, cible.with_suffix(".mp3"),
                                       options.chaine, bloc)
         print(f"--- {resultat.get('consigne') or resultat['audio']} ---",
@@ -480,6 +499,19 @@ def self_test() -> int:
              (chercher_ligne_csv(Path("podcasts/queue-podcast.csv"), "victimes",
                                  "10-conseils-pour-reussir-son-expertise")
               or {}).get("slug") == "10-conseils-pour-reussir-son-expertise")
+
+    # --sortie : le texte ne doit jamais atterrir dans le fichier audio, que la
+    # synthese ecrase juste apres — l'un des deux serait perdu.
+    verifier("texte ecarte d'une cible audio",
+             fichier_texte("/tmp/x/outro-victimes.mp3")
+             == Path("/tmp/x/outro-victimes.txt"))
+    verifier("cible texte respectee",
+             fichier_texte("/tmp/x/script.md") == Path("/tmp/x/script.md"))
+    verifier("le tilde est developpe",
+             str(fichier_texte("~/x/o.mp3")).startswith("/"))
+    for extension in (".wav", ".m4a", ".flac", ".ogg", ".opus", ".MP3"):
+        verifier(f"cible {extension} traitee comme de l'audio",
+                 fichier_texte(f"/tmp/x/o{extension}").suffix == ".txt")
 
     # les six gabarits livres doivent passer tous les controles de leur bloc
     for bloc in ("intro", "outro"):

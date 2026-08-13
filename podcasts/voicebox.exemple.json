@@ -1,7 +1,14 @@
 {
   "_lisez_moi": "Copier ce fichier en podcasts/voicebox.json (ignore par git) puis renseigner les identifiants de profil rendus par : python3 tools/voix_moteur.py --diagnostic",
 
+  "_base_url": "Instance locale par defaut. Pour une instance exposee (afin qu'une session distante puisse la piloter), mettre l'URL https du tunnel : l'outil REFUSE une adresse distante en http, qui ferait circuler en clair le texte lu et la voix clonee.",
   "base_url": "http://localhost:8000",
+
+  "_auth_headers": "En-tetes d'authentification, OBLIGATOIRES des que l'instance est exposee : sans eux, quiconque connait l'URL peut faire dire n'importe quoi a la voix clonee de l'avocat. La configuration ne porte que des RENVOIS « env:NOM_DE_VARIABLE » — jamais le secret, qui vit dans l'environnement. Exemple pour Cloudflare Access ci-dessous ; supprimer le bloc pour une instance purement locale.",
+  "auth_headers": {
+    "CF-Access-Client-Id": "env:VOICEBOX_CF_ID",
+    "CF-Access-Client-Secret": "env:VOICEBOX_CF_SECRET"
+  },
 
   "_profils": "Un profil de voix clonee PAR CHAINE : la voix qui parle doit etre celle de l'avocat qui signe les articles de la chaine. Coller ici les identifiants listes par --diagnostic.",
   "profils": {
@@ -24,9 +31,10 @@
   "_graines": "Une graine fixe rend la prise reproductible. Utile si un bloc invariant est perdu : on le refabrique a l'identique au lieu de laisser deriver la signature de la serie.",
   "graines": {
     "defaut": 20260813,
-    "02-jingle": 20260813,
-    "04-final": 20260814,
-    "outro": 20260815
+    "01-question": 20260813,
+    "02-presentation": 20260814,
+    "03-final": 20260815,
+    "outro": 20260816
   },
 
   "_instruct": "Consigne de jeu, prise en compte par le seul moteur Qwen CustomVoice. Rester sobre : l'emphase artificielle sonne publicite, ce qu'un avocat doit eviter.",
