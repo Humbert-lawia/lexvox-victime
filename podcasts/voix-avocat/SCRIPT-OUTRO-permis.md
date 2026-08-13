@@ -1,6 +1,9 @@
 # Script d'outro — chaîne PERMIS
 
-Texte lu par **Me Patrice Humbert**, avec sa voix clonée dans **Voicebox** (synthèse locale).
+Le droit routier est traité par **l'associé** de Me Humbert, qui s'occupe
+exclusivement des victimes. C'est donc lui qui dit cet outro, avec sa voix
+clonée dans **Voicebox** (synthèse locale). Son nom se passe en paramètre :
+`--avocat "Maître Prénom Nom"`.
 
 **Cet outro ne dépend pas de l'épisode** : une seule prise Voicebox
 suffit pour les 24 épisodes de la chaîne. À enregistrer sous
@@ -20,7 +23,7 @@ le permis — on parle d'analyse de la procédure et d'options de défense. Voir
 `podcasts/fiche-cabinet-permis.md`.
 
 <<<SCRIPT
-Maître Patrice Humbert à nouveau. Dans ce domaine, je vous le redis : les
+{avocat} à nouveau. Dans ce domaine, je vous le redis : les
 délais sont très courts, et chaque jour qui passe ferme des options de
 défense.
 

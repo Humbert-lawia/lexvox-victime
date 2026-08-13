@@ -1,7 +1,6 @@
 # Script d'outro — chaîne FAMILLE
 
 Texte lu par **Me Cédrine Raybaud**, avec sa voix clonée dans **Voicebox** (synthèse locale)
-(variante Me Humbert plus bas si elle préfère ne pas prêter sa voix).
 
 **Cet outro ne dépend pas de l'épisode** : une seule prise Voicebox
 suffit pour les 24 épisodes de la chaîne. À enregistrer sous
@@ -34,18 +33,3 @@ l'avance.
 Prenez rendez-vous sur le site du cabinet, ou appelez le zéro quatre, quatre-
 vingt-dix, cinquante-quatre, cinquante-huit, dix. À bientôt.
 SCRIPT>>>
-
----
-
-## Variante si l'outro est dit par Me Humbert
-
-Remplacer la première phrase par : « Maître Patrice Humbert, du cabinet
-LEXVOX AVOCATS. » et « Je vous reçois » par « Ma consœur Maître Cédrine
-Raybaud, spécialiste en droit de la famille, vous reçoit ».
-
-## Si l'épisode traite de violences conjugales
-
-Prévoir une seconde version de l'outro, à monter sur ces épisodes-là
-uniquement, ouvrant par : « Si vous êtes en danger, appelez le 3919, ou le 17
-en cas d'urgence immédiate. » Enregistrer sous
-`outro-famille-violences.mp3` et la passer au montage via `--outro`.

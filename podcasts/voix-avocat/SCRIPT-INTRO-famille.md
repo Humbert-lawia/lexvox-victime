@@ -1,13 +1,11 @@
 # Script d'introduction — chaîne FAMILLE
 
-Texte lu par **Me Cédrine Raybaud**, avec sa voix clonée dans **Voicebox** —
-c'est elle qui signe les articles de `lexvox-divorce.com`, l'introduction
-doit donc être dite par elle. (Si Me Raybaud préfère ne pas prêter sa voix,
-la variante en fin de fiche permet à Me Humbert de présenter l'émission au
-nom du cabinet.)
+Texte lu par **Me Cédrine Raybaud**, avec sa voix clonée dans **Voicebox** — c'est elle
+qui signe les articles de `lexvox-divorce.com`, et elle **seule** présente
+cette chaîne.
 
 Émission : **Divorce & famille : parlons-en**. ⚠️ La chaîne victimes a été
-rebaptisée **LEXVICTIMES** ; si vous voulez une famille de titres cohérente
+rebaptisée **LEXVICTIME** ; si vous voulez une famille de titres cohérente
 (LEXFAMILLE, LEXPERMIS…), dites-le et je répercute partout.
 
 Générer le texte d'un épisode :
@@ -55,12 +53,3 @@ par le cabinet pour rendre ces sujets techniques accessibles.
 
 La réponse, tout de suite. Bonne écoute.
 SCRIPT>>>
-
----
-
-## Variante si l'introduction est dite par Me Humbert
-
-Remplacer la première phrase par : « Bonjour, je suis Maître Patrice Humbert,
-du cabinet LEXVOX AVOCATS. Bienvenue dans "Divorce & famille : parlons-en". »
-et, plus loin, « mon article » par « l'article de ma consœur Maître Cédrine
-Raybaud, spécialiste en droit de la famille ».

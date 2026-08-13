@@ -43,6 +43,18 @@ from voix_moteur import ErreurVoix, charger  # noqa: E402
 
 GABARITS = Path("podcasts/voix-avocat")
 
+# Qui parle, chaine par chaine. Ce n'est pas un reglage : c'est l'avocat qui
+# traite la matiere et qui signe les articles. Une chaine dont le signataire
+# est fixe ne peut pas etre presentee par quelqu'un d'autre, et l'outil le
+# verifie a chaque generation — un gabarit se modifie trop facilement.
+# `None` = signataire variable, a passer par --avocat (le droit routier est
+# traite par un associe).
+SIGNATAIRES = {
+    "victimes": "Patrice Humbert",
+    "famille": "Cédrine Raybaud",
+    "permis": None,
+}
+
 # Decoupage de l'intro en segments. Les indices renvoient aux paragraphes du
 # gabarit, dans l'ordre. « invariant » = identique dans toute la chaine, donc
 # genere une seule fois et reutilise par le montage.
@@ -92,6 +104,28 @@ PRONONCIATION = (
     ("LEXVICTIMES", "Lex-Victimes"),
     ("LEXVICTIME", "Lex-Victime"),
 )
+
+
+def verifier_signataire(texte: str, dit: str, chaine: str):
+    """Le bon avocat est nomme, et son nom sera bien prononce."""
+    attendu = SIGNATAIRES.get(chaine)
+    if not attendu:
+        return
+    # meme piege que pour la prononciation : le nom est souvent coupe par un
+    # retour a la ligne, les gabarits etant mis en forme pour l'oeil
+    aplati = re.sub(r"\s+", " ", texte)
+    if attendu not in aplati:
+        raise RuntimeError(
+            f"la chaine « {chaine} » doit nommer {attendu} : son nom "
+            "n'apparait pas dans le script. C'est l'avocat qui traite la "
+            "matiere et qui signe les articles — le gabarit a du deriver.")
+    dit_aplati = re.sub(r"\s+", " ", dit)
+    for ecrit, prononce in PRONONCIATION:
+        if ecrit in attendu and ecrit in dit_aplati:
+            raise RuntimeError(
+                f"« {ecrit} » subsiste dans le texte LU alors qu'il doit se "
+                f"dire « {prononce} » : la correction phonetique n'a pas pris. "
+                "Le nom de l'avocat serait mal articule a chaque episode.")
 
 
 def appliquer_prononciation(texte: str) -> str:
@@ -207,6 +241,10 @@ def generer(options) -> int:
     else:
         # l'outro est fixe par chaine : aucune variable d'episode
         titre, sujet = titre or "", sujet or ""
+    if options.avocat and SIGNATAIRES.get(options.chaine):
+        raise RuntimeError(
+            f"la chaine « {options.chaine} » est toujours presentee par "
+            f"{SIGNATAIRES[options.chaine]} : --avocat n'a pas de sens ici.")
     if "{avocat}" in gabarit and not options.avocat:
         raise RuntimeError(
             f"la chaine « {options.chaine} » n'a pas de signataire fixe : "
@@ -216,6 +254,8 @@ def generer(options) -> int:
     texte = composer(gabarit, titre, sujet, bloc, options.question or "",
                      options.avocat or "")
     dit = texte if options.sans_phonetique else appliquer_prononciation(texte)
+    if not options.sans_phonetique:
+        verifier_signataire(texte, dit, options.chaine)
 
     print(dit)
     rappel = ("" if bloc == "intro" else
@@ -339,6 +379,37 @@ def self_test() -> int:
     verifier("sigle coupe par un retour a la ligne",
              appliquer_prononciation("cabinet LEXVOX\nAVOCATS.")
              == "cabinet Lexvox Avocats.")
+    # signataire impose : reconnu meme coupe par un retour a la ligne, et
+    # refuse des qu'un autre nom prend sa place
+    essais += 1
+    try:
+        verifier_signataire("Je suis Maître Patrice\nHumbert, avocat.",
+                            "Je suis Maître Patrice\nImbert, avocat.",
+                            "victimes")
+    except RuntimeError as erreur:
+        echecs.append(f"signataire coupe par un retour a la ligne : {erreur}")
+    for texte_essai, dit_essai, chaine_essai, motif in (
+            ("Je suis Maître Jean Dupont.", "Je suis Maître Jean Dupont.",
+             "victimes", "signataire remplace"),
+            ("Je suis Maître Patrice Humbert.",
+             "Je suis Maître Patrice Humbert.", "victimes",
+             "h muet non corrige dans le texte lu"),
+            ("Je suis Maître Patrice Humbert.",
+             "Je suis Maître Patrice Imbert.", "famille",
+             "avocate de la chaine famille absente")):
+        essais += 1
+        try:
+            verifier_signataire(texte_essai, dit_essai, chaine_essai)
+            echecs.append(f"cas non detecte : {motif}")
+        except RuntimeError:
+            pass
+    essais += 1
+    try:
+        verifier_signataire("Je suis Maître Jean Dupont.",
+                            "Je suis Maître Jean Dupont.", "permis")
+    except RuntimeError as erreur:
+        echecs.append(f"chaine a signataire variable refusee : {erreur}")
+
     verifier("aucun sigle majuscule residuel",
              not any(mot in appliquer_prononciation(
                  extraire_gabarit(GABARITS / f"SCRIPT-INTRO-{c}.md"))
