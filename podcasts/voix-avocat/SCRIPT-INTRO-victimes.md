@@ -43,9 +43,36 @@ Votre version disait, et il valait mieux ne pas l'enregistrer ainsi :
 
 | Votre formulation | Pourquoi elle pose problème | Retenu |
 |---|---|---|
-| « spécialisé en dommage corporel **et en responsabilité médicale** » | « spécialiste » est un **titre protégé** (art. 21-1 loi n° 71-1130 ; décret n° 91-1197). Le certificat CNB du cabinet porte sur le **dommage corporel** seul — le revendiquer en responsabilité médicale serait inexact, répété 24 fois | « spécialiste en droit du dommage corporel », la responsabilité médicale devenant une **pratique** décrite, pas un titre |
-| « je m'occupe **exclusivement** des victimes » | contredit la chaîne permis, où vous défendez des conducteurs. La publicité de l'avocat doit être **sincère et véridique** (RIN art. 10.2) | « je défends des victimes face aux compagnies d'assurance » |
+| « spécialisé en dommage corporel **et en responsabilité médicale** » | « spécialiste » est un **titre protégé** (art. 21-1 loi n° 71-1130 ; décret n° 91-1197). Vérifié dans `index.html` : le certificat CNB porte sur le **dommage corporel** seul — le revendiquer aussi en responsabilité médicale serait inexact, répété 24 fois | le **certificat de spécialisation du Conseil national des barreaux en droit du dommage corporel**, énoncé en toutes lettres ; la responsabilité médicale reste décrite comme **pratique**, dans la phrase suivante |
 | « une victime bien informée a **tous les moyens de gagner** » | promesse de résultat implicite, la formulation la plus surveillée en publicité d'avocat | « une victime bien informée ne signe pas n'importe quoi » — même énergie, aucun engagement sur l'issue |
+
+### Ce que le jingle met en avant, et d'où ça vient
+
+| Affirmation | Source |
+|---|---|
+| « plus de vingt ans » | `index.html` — « spécialisé depuis plus de 20 ans » |
+| « la seule défense des victimes » | `index.html` — « défense exclusive des victimes de dommages corporels et de responsabilité médicale » |
+| « certificat de spécialisation … en droit du dommage corporel » | `index.html` — « Spécialiste en dommage corporel — Certificat CNB » |
+| « des centaines de dossiers » | `index.html` — « des centaines de dossiers traités » |
+
+Le titre est énoncé **en toutes lettres** plutôt que par le sigle : à l'oral,
+« CNB » est lu comme trois lettres et perd tout son poids, alors que
+« le certificat de spécialisation du Conseil national des barreaux » sonne
+pour ce qu'il est — une qualification officielle, que la plupart des
+confrères n'ont pas.
+
+> ⚠️ **Une tension à connaître.** Votre site revendique une défense
+> *exclusive* des victimes, et le jingle le reprend. La chaîne permis, elle,
+> vous fait dire que vous défendez des conducteurs depuis vingt ans. Les deux
+> énoncés coexistent mal si un auditeur écoute les deux séries. Rien ne
+> bloque aujourd'hui — c'est votre arbitrage, pas le mien — mais autant le
+> voir avant que ce soit gravé dans 48 épisodes.
+
+> ℹ️ **Non retenu, à votre main.** Votre site vous présente aussi comme
+> « premier avocat certifié en intelligence artificielle de France ». C'est
+> distinctif, mais hors sujet dans une émission sur le droit des victimes, et
+> la formule « premier … de France » se rapproche de la mention comparative
+> que proscrit le RIN art. 10.2. Dites-le si vous la voulez quand même.
 
 ## Variantes pour présenter Nathalie et Nicolas
 
@@ -75,11 +102,12 @@ exacte.
 
 Bienvenue dans LEXVICTIME, le podcast du cabinet LEXVOX AVOCATS consacré au
 droit des victimes d'accident et d'erreur médicale. Je suis Maître Patrice
-Humbert, avocat au Barreau d'Aix-en-Provence, spécialiste en droit du dommage
-corporel, et je consacre l'essentiel de mon activité à la réparation du
-dommage corporel et à la responsabilité médicale. Depuis plus de vingt ans,
-je défends des victimes face aux compagnies d'assurance. Et je vais vous
-faire une confidence : une victime bien informée ne signe pas n'importe quoi.
+Humbert, avocat au Barreau d'Aix-en-Provence, titulaire du certificat de
+spécialisation du Conseil national des barreaux en droit du dommage corporel.
+Depuis plus de vingt ans, je consacre mon activité à la seule défense des
+victimes — dommage corporel et responsabilité médicale — face aux compagnies
+d'assurance. Des centaines de dossiers, et une conviction : une victime bien
+informée ne signe pas n'importe quoi.
 
 Aujourd'hui : {sujet}. Tout part de mon article « {titre} », que vous
 retrouvez sur le site du cabinet.
@@ -94,15 +122,21 @@ SCRIPT>>>
 
 ---
 
-## Version courte du jingle, si l'intro vous paraît longue
+## Version resserrée, si l'intro vous paraît longue
 
-Le jingle ci-dessus fait environ **30 secondes** à lui seul, ce qui porte
-l'intro complète à près d'une minute — sur un épisode de cinq minutes, c'est
-un cinquième du temps avant que le sujet ne commence. Variante à environ
-18 secondes, si vous préférez entrer plus vite dans le vif :
+Le jingle ci-dessus fait environ **37 secondes**, ce qui porte l'intro
+complète à près de 90 secondes — sur un épisode de cinq minutes, presque un
+tiers du temps avant d'entrer dans le sujet. Cette variante garde les deux
+arguments qui portent (le certificat et les vingt ans) et tombe à environ
+**22 secondes** :
 
 > Bienvenue dans LEXVICTIME, le podcast du cabinet LEXVOX AVOCATS consacré
 > au droit des victimes d'accident et d'erreur médicale. Je suis Maître
-> Patrice Humbert, spécialiste en droit du dommage corporel. Depuis plus de
-> vingt ans, je défends des victimes face aux assureurs — et une victime
-> bien informée ne signe pas n'importe quoi.
+> Patrice Humbert, avocat au Barreau d'Aix-en-Provence, titulaire du
+> certificat de spécialisation du Conseil national des barreaux en droit du
+> dommage corporel. Depuis plus de vingt ans, je ne défends que des victimes
+> face aux compagnies d'assurance — et une victime bien informée ne signe
+> pas n'importe quoi.
+
+Rappel de proportion : le jingle est dit **à chaque épisode**. Quinze
+secondes de trop, ce sont dix-huit minutes d'antenne sur les 72 épisodes.
