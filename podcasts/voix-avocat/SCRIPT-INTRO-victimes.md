@@ -44,7 +44,21 @@ Votre version disait, et il valait mieux ne pas l'enregistrer ainsi :
 | Votre formulation | Pourquoi elle pose problème | Retenu |
 |---|---|---|
 | « spécialisé en dommage corporel **et en responsabilité médicale** » | « spécialiste » est un **titre protégé** (art. 21-1 loi n° 71-1130 ; décret n° 91-1197). Vérifié dans `index.html` : le certificat CNB porte sur le **dommage corporel** seul — le revendiquer aussi en responsabilité médicale serait inexact, répété 24 fois | le **certificat de spécialisation du Conseil national des barreaux en droit du dommage corporel**, énoncé en toutes lettres ; la responsabilité médicale reste décrite comme **pratique**, dans la phrase suivante |
-| « une victime bien informée a **tous les moyens de gagner** » | promesse de résultat implicite, la formulation la plus surveillée en publicité d'avocat | « une victime bien informée ne signe pas n'importe quoi » — même énergie, aucun engagement sur l'issue |
+| « une victime bien informée a **tous les moyens de gagner** » | promesse de résultat implicite, la formulation la plus surveillée en publicité d'avocat | voir la chute ci-dessous : même audace, aucun engagement sur l'issue |
+
+### La chute du jingle — cinq versions
+
+C'est la dernière phrase que l'auditeur retient, et elle est dite 24 fois.
+Aucune ne promet de résultat : toutes déplacent la promesse de **l'issue du
+dossier** vers **le déséquilibre d'information**, qui est réel et vérifiable.
+
+| | Version | Ton |
+|---|---|---|
+| **1** | *« Et je vais vous faire une confidence : en face, personne ne vous dira jamais ce que vous êtes en droit de demander. Alors ce sera moi. »* — **retenue** | audacieux, personnel ; la phrase justifie l'existence de l'émission |
+| 2 | *« L'assureur, lui, a ses experts, ses médecins et ses avocats. Vous, vous avez des droits — encore faut-il savoir lesquels. »* | pose le rapport de force, très factuel |
+| 3 | *« Retenez ceci : face à un assureur, ce que vous ignorez ne se retourne jamais contre lui. »* | le plus court, le plus tranchant |
+| 4 | *« Une conviction, après vingt ans : ce n'est pas le dossier le plus grave qui est le mieux indemnisé, c'est le mieux défendu. »* | le plus fort — **et le plus exposé** : il parle d'indemnisation, donc à manier en connaissance de cause |
+| 5 | *« L'indemnisation, ça ne se demande pas poliment. Ça se prépare. »* | sec, mémorable, se retient dès le premier épisode |
 
 ### Ce que le jingle met en avant, et d'où ça vient
 
@@ -61,12 +75,15 @@ Le titre est énoncé **en toutes lettres** plutôt que par le sigle : à l'oral
 pour ce qu'il est — une qualification officielle, que la plupart des
 confrères n'ont pas.
 
-> ⚠️ **Une tension à connaître.** Votre site revendique une défense
-> *exclusive* des victimes, et le jingle le reprend. La chaîne permis, elle,
-> vous fait dire que vous défendez des conducteurs depuis vingt ans. Les deux
-> énoncés coexistent mal si un auditeur écoute les deux séries. Rien ne
-> bloque aujourd'hui — c'est votre arbitrage, pas le mien — mais autant le
-> voir avant que ce soit gravé dans 48 épisodes.
+> ⚠️ **Point tranché par Me Humbert le 2026-08-13** : la spécialisation CNB
+> et la défense *exclusive* des victimes sont bien à revendiquer ; le permis
+> est traité par un associé. Reste une contradiction **dans vos sites**, pas
+> dans ce gabarit : `lexvox-permis.com` présente Me Humbert avec « plus de
+> 20 ans d'expérience exclusive en droit pénal routier » et écrit
+> « Me Humbert examine systématiquement la régularité de la procédure ». Les
+> deux « exclusive » ne peuvent pas être vraies ensemble. À arbitrer avant
+> d'enregistrer la chaîne permis — voir l'avertissement en tête de
+> `SCRIPT-INTRO-permis.md`.
 
 > ℹ️ **Non retenu, à votre main.** Votre site vous présente aussi comme
 > « premier avocat certifié en intelligence artificielle de France ». C'est
@@ -106,8 +123,8 @@ Humbert, avocat au Barreau d'Aix-en-Provence, titulaire du certificat de
 spécialisation du Conseil national des barreaux en droit du dommage corporel.
 Depuis plus de vingt ans, je consacre mon activité à la seule défense des
 victimes — dommage corporel et responsabilité médicale — face aux compagnies
-d'assurance. Des centaines de dossiers, et une conviction : une victime bien
-informée ne signe pas n'importe quoi.
+d'assurance. Et je vais vous faire une confidence : en face, personne ne vous
+dira jamais ce que vous êtes en droit de demander. Alors ce sera moi.
 
 Aujourd'hui : {sujet}. Tout part de mon article « {titre} », que vous
 retrouvez sur le site du cabinet.

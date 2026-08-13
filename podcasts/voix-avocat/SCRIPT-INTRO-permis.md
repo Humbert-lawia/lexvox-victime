@@ -1,7 +1,24 @@
 # Script d'introduction — chaîne PERMIS
 
-Texte lu par **Me Patrice Humbert**, avec sa voix clonée dans **Voicebox**
-(synthèse locale, sur le poste du cabinet).
+> 🛑 **NE PAS ENREGISTRER EN L'ÉTAT — signataire à confirmer.**
+>
+> Me Humbert a indiqué le 2026-08-13 qu'il s'occupe **exclusivement des
+> victimes** et que le droit routier est traité par un associé. Or
+> `lexvox-permis.com` dit l'inverse : il y est présenté avec « plus de 20 ans
+> d'expérience **exclusive en droit pénal routier** », et la page ajoute
+> « Me Humbert examine systématiquement la régularité de la procédure ». La
+> seule autre avocate nommée sur ce site est **Me Cédrine Raybaud**
+> (spécialiste en droit de la famille, Master en droit pénal,
+> co-fondatrice) — mais rien ne lui attribue le contentieux routier.
+>
+> Le gabarit ci-dessous fait donc dire à Me Humbert une phrase qui est
+> peut-être fausse, et qui le serait 24 fois. Deux réponses à donner avant
+> d'aller plus loin : **qui présente la chaîne permis**, et **quel site
+> corriger** — celui qui revendique l'exclusivité victimes, ou celui qui
+> revendique l'exclusivité routière. Je répercute ensuite ici.
+
+Texte lu par **Me Patrice Humbert** (sous réserve ci-dessus), avec sa voix
+clonée dans **Voicebox** (synthèse locale, sur le poste du cabinet).
 
 Émission : **Permis en danger**. ⚠️ La chaîne victimes a été rebaptisée
 **LEXVICTIMES** ; dites-le si vous voulez une famille de titres cohérente.
