@@ -183,12 +183,25 @@ violences conjugales, qui ouvrent sur le 3919.
 
 ### A1 — L'intro : une par épisode
 
+L'intro suit une structure imposée — c'est la marque de fabrique de la
+série : **une question d'accroche** dont la réponse est l'article, puis le
+**jingle verbal** identique à chaque épisode, puis le sujet, la présentation
+des animateurs et la relance « La réponse, tout de suite ».
+
+La question et le sujet se produisent en lisant l'article :
+voir **`PROMPT-INTRO-ELEVENLABS.md`**, qui porte aussi les réglages de voix.
+
 ```bash
-# rendre le texte (contrôles automatiques : transparence + animateurs nommés)
 python3 tools/voix_script.py --chaine victimes --slug <slug> \
-    --sujet "la contre-visite médicale" \
+    --question "Votre assureur vous convoque à une contre-visite médicale. \
+Avez-vous le droit de refuser d'y aller ?" \
+    --sujet "la contre-visite médicale demandée par votre assureur" \
     --sortie ~/LEXVOX-PODCASTS/victimes/intro/intro-victimes-01-<slug>.txt
 ```
+
+`voix_script.py` refuse un script qui ne commencerait pas par une question,
+ou d'où le jingle, les prénoms ou la mention « voix de synthèse » auraient
+disparu.
 
 2. Coller ce texte dans ElevenLabs, **voix clonée du cabinet** (Me Humbert
    pour victimes et permis, Me Raybaud pour famille — c'est elle qui signe

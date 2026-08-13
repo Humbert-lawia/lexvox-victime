@@ -13,18 +13,30 @@ python3 tools/voix_script.py --chaine famille --slug <slug> \
   --sujet "la prestation compensatoire" --sortie intro-famille-01-<slug>.txt
 ```
 
-Durée cible à la lecture : **25 à 35 secondes**.
+Durée cible à la lecture : **30 à 40 secondes**.
+
+**Structure imposée — c'est la marque de fabrique de la série :**
+1. une **question d'accroche**, dont la réponse est précisément l'article du
+   jour (variable `{question}`, produite par `PROMPT-INTRO-ELEVENLABS.md`) ;
+2. le **jingle verbal**, identique dans tous les épisodes de la chaîne — ne
+   jamais le reformuler, c'est lui qui rend la série reconnaissable ;
+3. l'annonce du sujet, la présentation de Nathalie et Nicolas avec la
+   mention « voix de synthèse », et la relance « La réponse, tout de suite ».
+
+Exemple de question d'accroche pour cette chaîne :
+> Vous divorcez après vingt ans de mariage. Qui a droit à une prestation compensatoire, et de combien ?
 
 ⚠️ La mention « voix de synthèse » est **obligatoire** et vérifiée par
 l'outil. Ne la retirez pas.
 
 <<<SCRIPT
-Bonjour, je suis Maître Cédrine Raybaud, avocate au Barreau d'Aix-en-Provence,
-spécialiste en droit de la famille. Bienvenue dans « Divorce & famille :
-parlons-en », le podcast du cabinet LEXVOX AVOCATS.
+{question}
 
-Aujourd'hui, nous prenons le temps d'expliquer un sujet qui revient sans
-cesse dans mon cabinet : {sujet}.
+Bienvenue dans « Divorce & famille : parlons-en », le podcast du
+cabinet LEXVOX AVOCATS. Je suis Maître Cédrine Raybaud, avocate au
+Barreau d'Aix-en-Provence, spécialiste en droit de la famille.
+
+Aujourd'hui : {sujet}.
 
 Cette émission est animée par Nathalie et Nicolas. Nathalie, la juriste, vous
 explique le droit ; Nicolas, le journaliste, pose les questions que vous vous
@@ -32,7 +44,7 @@ posez. Ce sont deux voix de synthèse, créées par le cabinet pour rendre ces
 sujets techniques accessibles ; l'analyse, elle, vient de mon article
 « {titre} », que vous retrouvez sur notre site.
 
-Je vous souhaite une bonne écoute.
+La réponse, tout de suite. Bonne écoute.
 SCRIPT>>>
 
 ---

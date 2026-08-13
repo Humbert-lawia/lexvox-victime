@@ -12,6 +12,8 @@ Fichiers liés :
 - `PROMPT-MONTAGE-DIFFUSION.md` — l'étape aval : intro ElevenLabs dans la
   voix de l'avocat + corps NotebookLM → MP3 diffusable, avec
   `tools/voix_script.py` et `tools/podcast_montage.py`.
+- `PROMPT-INTRO-ELEVENLABS.md` — produit la question d'accroche et le sujet
+  à partir de l'article, et porte les réglages de voix ElevenLabs.
 - `podcasts/voix-elevenlabs/SCRIPT-INTRO-<chaine>.md` et `SCRIPT-OUTRO-<chaine>.md`
   — les gabarits lus par la voix clonée de l'avocat.
 - `podcasts/queue-podcast.csv` — **le** fichier d'état, unique pour les trois
@@ -43,9 +45,10 @@ NotebookLM par article, un épisode < 5 min par notebook. Total : 72 épisodes,
 soit **4 journées de production** au quota de 20 générations/jour (§3.4).
 
 Chaque épisode est composé de trois blocs assemblés : une **introduction de
-25–35 s dite par l'avocat lui-même** (voix clonée ElevenLabs), le débat
-NotebookLM, puis une **outro de 25–35 s** dans la même voix réelle, qui porte
-l'appel à l'action — le débat ne le récite donc plus, et l'outro étant
+30–40 s dite par l'avocat lui-même** (voix clonée ElevenLabs), qui s'ouvre
+toujours sur une **question dont la réponse est l'article** puis sur le
+**jingle verbal** de la série ; le débat NotebookLM ; puis une **outro de
+25–35 s** dans la même voix réelle, qui porte l'appel à l'action — le débat ne le récite donc plus, et l'outro étant
 identique pour toute une chaîne, trois enregistrements couvrent les
 72 épisodes. Les deux animateurs du débat sont les mêmes dans les trois
 chaînes : **Nathalie**, la juriste pédagogue, et **Nicolas**, le journaliste

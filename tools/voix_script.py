@@ -3,10 +3,13 @@
 
 Deux blocs encadrent le debat NotebookLM :
 
-  INTRO  (par episode) — presente l'emission et le sujet du jour, nomme les
-         deux animateurs, et ANNONCE QUE CE SONT DES VOIX DE SYNTHESE :
-         mention de transparence non negociable, sans quoi l'auditeur peut
-         croire qu'il ecoute des avocats du cabinet.
+  INTRO  (par episode) — structure imposee, marque de fabrique de la serie :
+         (1) une QUESTION d'accroche dont la reponse est l'article du jour,
+         (2) le JINGLE verbal, identique dans tous les episodes de la chaine,
+         (3) le sujet, la presentation de Nathalie et Nicolas, et LA MENTION
+             « voix de synthese » — transparence non negociable, sans quoi
+             l'auditeur peut croire qu'il ecoute des avocats du cabinet.
+         La question se produit avec PROMPT-INTRO-ELEVENLABS.md.
 
   OUTRO  (fixe par chaine) — porte l'APPEL A L'ACTION, dit par l'avocat
          lui-meme. Il ne depend pas de l'episode : une seule generation
@@ -15,10 +18,11 @@ Deux blocs encadrent le debat NotebookLM :
          sous peine de la dire deux fois.
 
 Gabarits : podcasts/voix-elevenlabs/SCRIPT-{INTRO,OUTRO}-<chaine>.md.
-Seul l'intro porte les variables {titre} et {sujet}.
+Seul l'intro porte les variables {question}, {sujet} et {titre}.
 
 Usage :
-    python3 tools/voix_script.py --chaine victimes --slug mon-article
+    python3 tools/voix_script.py --chaine victimes --slug mon-article \\
+        --question "Pouvez-vous refuser la contre-visite ?"
     python3 tools/voix_script.py --bloc outro --chaine victimes
     python3 tools/voix_script.py --self-test
 """
@@ -35,7 +39,8 @@ GABARITS = Path("podcasts/voix-elevenlabs")
 # sont synthetiques : c'est ce qui relie la voix reelle de l'avocat au debat
 # qui suit, et ce qui evite de laisser croire a des avocats du cabinet.
 EXIGENCES = {
-    "intro": {"mentions": ("voix de synthèse",),
+    "intro": {"mentions": ("voix de synthèse",
+                           "le podcast du cabinet lexvox avocats"),
               "noms": ("Nathalie", "Nicolas")},
     "outro": {"mentions": (), "noms": ()},
 }
@@ -70,8 +75,10 @@ def extraire_gabarit(chemin: Path) -> str:
     return trouve.group(1).strip()
 
 
-def composer(gabarit: str, titre: str, sujet: str, bloc: str = "intro") -> str:
-    texte = gabarit.replace("{titre}", titre).replace("{sujet}", sujet)
+def composer(gabarit: str, titre: str, sujet: str, bloc: str = "intro",
+             question: str = "") -> str:
+    texte = (gabarit.replace("{titre}", titre).replace("{sujet}", sujet)
+             .replace("{question}", question))
     restants = re.findall(r"\{(\w+)\}", texte)
     if restants:
         raise RuntimeError(f"variables non remplacees : {', '.join(restants)}")
@@ -89,6 +96,13 @@ def composer(gabarit: str, titre: str, sujet: str, bloc: str = "intro") -> str:
         raise RuntimeError(
             f"animateur non presente dans l'introduction : {', '.join(absents)}"
             " — l'avocat doit nommer les deux personnes qui animent l'emission")
+    if bloc == "intro":
+        accroche = texte.strip().split("\n\n")[0].strip()
+        if not accroche.rstrip().endswith("?"):
+            raise RuntimeError(
+                "l'introduction ne commence pas par une question — c'est la "
+                "structure imposée de la série : une accroche interrogative "
+                f"dont la réponse est l'article. Reçu : « {accroche[:70]}… »")
     interdites = [f for f in FORMULES_INTERDITES if f in aplati]
     if interdites:
         raise RuntimeError(
@@ -110,10 +124,15 @@ def generer(options) -> int:
                                    options.slug)
             titre = ligne.get("title") or options.slug
         sujet = sujet or titre.lower()
+        if not options.question:
+            raise RuntimeError(
+                "--question est requise : chaque episode s'ouvre sur une "
+                "question dont la reponse est l'article. La produire avec "
+                "PROMPT-INTRO-ELEVENLABS.md")
     else:
         # l'outro est fixe par chaine : aucune variable d'episode
         titre, sujet = titre or "", sujet or ""
-    texte = composer(gabarit, titre, sujet, bloc)
+    texte = composer(gabarit, titre, sujet, bloc, options.question or "")
 
     print(texte)
     rappel = ("" if bloc == "intro" else
@@ -135,24 +154,36 @@ def self_test() -> int:
         if not condition:
             echecs.append(libelle)
 
-    gabarit = ("Bonjour, ici {titre}. Nathalie et Nicolas, deux voix de synthèse, "
-               "vous parlent de {sujet}.")
-    rendu = composer(gabarit, "Mon Titre", "l'indemnisation")
+    gabarit = ("{question}\n\nBienvenue dans le podcast du cabinet LEXVOX "
+               "AVOCATS.\n\nAujourd'hui : {sujet}. Nathalie et Nicolas, deux "
+               "voix de synthèse, commentent mon article « {titre} ».")
+    rendu = composer(gabarit, "Mon Titre", "l'indemnisation", "intro",
+                     "Pouvez-vous refuser l'expertise ?")
     verifier("substitution titre", "Mon Titre" in rendu)
     verifier("substitution sujet", "l'indemnisation" in rendu)
+    verifier("substitution question", rendu.startswith("Pouvez-vous"))
     verifier("aucune accolade restante", "{" not in rendu)
 
+    socle = ("\n\nBienvenue dans le podcast du cabinet LEXVOX AVOCATS. "
+             "Nathalie et Nicolas, deux voix de synthèse, commentent "
+             "« {titre} » : {sujet}.")
     for mauvais, motif in (
-            ("Bonjour {titre}, avec {inconnu}.", "variable non remplacee"),
-            ("Bonjour {titre}, Nathalie et Nicolas animent.",
+            ("{question}" + socle + " {inconnu}", "variable non remplacee"),
+            ("{question}\n\nBienvenue dans le podcast du cabinet LEXVOX "
+             "AVOCATS. Nathalie et Nicolas commentent « {titre} » : {sujet}.",
              "mention de transparence absente"),
-            ("Bonjour {titre}, deux voix de synthèse parlent de {sujet}.",
+            ("{question}\n\nBienvenue dans le podcast du cabinet LEXVOX "
+             "AVOCATS. Deux voix de synthèse commentent « {titre} » : {sujet}.",
              "animateurs non nommes"),
-            ("Bonjour {titre}, Nathalie, voix de synthèse, parle de {sujet}.",
-             "second animateur absent")):
+            ("{question}\n\nBienvenue dans le podcast du cabinet LEXVOX "
+             "AVOCATS. Nathalie, voix de synthèse, commente « {titre} » : "
+             "{sujet}.", "second animateur absent"),
+            ("Bonjour à tous." + socle, "ne commence pas par une question"),
+            ("{question}\n\nNathalie et Nicolas, deux voix de synthèse, "
+             "commentent « {titre} » : {sujet}.", "jingle absent")):
         essais += 1
         try:
-            composer(mauvais, "T", "s")
+            composer(mauvais, "T", "s", "intro", "Une question ?")
             echecs.append(f"cas non detecte : {motif}")
         except RuntimeError:
             pass
@@ -174,7 +205,8 @@ def self_test() -> int:
             essais += 1
             try:
                 texte = composer(extraire_gabarit(chemin), "Titre d'essai",
-                                 "un sujet d'essai", bloc)
+                                 "un sujet d'essai", bloc,
+                                 "Une question d'essai ?")
                 if bloc == "intro":
                     for prenom in ("Nathalie", "Nicolas"):
                         if prenom not in texte:
@@ -203,6 +235,9 @@ def main() -> int:
     analyseur.add_argument("--slug")
     analyseur.add_argument("--titre", help="court-circuite la lecture du CSV")
     analyseur.add_argument("--sujet", help="formulation orale du sujet")
+    analyseur.add_argument("--question",
+                           help="accroche interrogative dont la reponse est "
+                                "l'article (cf. PROMPT-INTRO-ELEVENLABS.md)")
     analyseur.add_argument("--csv", default="podcasts/queue-podcast.csv")
     analyseur.add_argument("--sortie", help="ecrit le script dans un fichier")
     analyseur.add_argument("--self-test", action="store_true")
