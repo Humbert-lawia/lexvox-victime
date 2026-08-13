@@ -250,8 +250,13 @@ Chacun tient sous la limite de 500 caractères du champ D3.
 | Chaîne | Fichier | État |
 |---|---|---|
 | victimes | `podcasts/fiche-cabinet-victimes.pdf` | ✅ prête (déontologie validée 2026-08-13) |
-| famille | `podcasts/fiche-cabinet-famille.pdf` | ⚠️ à générer après validation du .md |
-| permis | `podcasts/fiche-cabinet-permis.pdf` | ⚠️ à générer après validation du .md |
+| famille | `podcasts/fiche-cabinet-famille.pdf` | ✅ prête — signataire **Me Cédrine Raybaud**, relecture recommandée par elle |
+| permis | `podcasts/fiche-cabinet-permis.pdf` | ✅ prête (signataire Me Patrice Humbert) |
+
+⚠️ Les trois chaînes ont des conditions **différentes** (consultation
+gratuite en victimes, payante en famille et permis ; couverture nationale en
+victimes seulement ; spécialisations distinctes). Ne téléverse jamais la
+fiche d'une chaîne dans le notebook d'une autre.
 
 Le PDF (et le .docx de relecture) se régénèrent depuis le Markdown :
 

@@ -23,11 +23,15 @@ Fichiers liés :
 
 ## 1. Les trois chaînes
 
-| Chaîne | Public | Sites sources (propriétés GSC) | Nom suggéré (à valider) |
-|---|---|---|---|
-| **Victimes** | victimes de dommage corporel / erreur médicale | `medical.lexvox-avocat.fr` + `victime-accident.lexvox-avocat.fr` + `lexvox-victime.com` (ou `medical` seul pour démarrer, comme le prompt initial) | « Victimes : vos droits » |
-| **Famille** | personnes en instance de divorce, garde, pension | ⚠️ à confirmer (`lexvox-divorce.com` ?) | « Divorce & famille : parlons-en » |
-| **Permis** | conducteurs (suspension, annulation, alcool/stupéfiants) | ⚠️ à confirmer (pages/landing permis du cabinet) | « Permis en danger » |
+| Chaîne | Public | Sites sources (propriétés GSC) | Signataire des articles | Nom suggéré |
+|---|---|---|---|---|
+| **Victimes** | victimes de dommage corporel / erreur médicale | `medical.lexvox-avocat.fr` + `victime-accident.lexvox-avocat.fr` + `lexvox-victime.com` (⚠️ périmètre à confirmer) | Me Patrice Humbert | « Victimes : vos droits » |
+| **Famille** | personnes en instance de divorce, garde, pension | `lexvox-divorce.com` ✅ | **Me Cédrine Raybaud** | « Divorce & famille : parlons-en » |
+| **Permis** | conducteurs (suspension, annulation, alcool/stupéfiants) | `lexvox-permis.com` ✅ | Me Patrice Humbert | « Permis en danger » |
+
+Les trois sites se renvoient mutuellement en pied de page (« Nos sites :
+Droit routier / Droit de la famille / Dommage corporel »), ce qui confirme le
+périmètre de chaque chaîne.
 
 Chaque chaîne = 24 épisodes (les 24 meilleurs articles GSC), un notebook
 NotebookLM par article, un épisode < 5 min par notebook. Total : 72 épisodes,
@@ -141,6 +145,26 @@ les quatre corrections ci-dessous, désormais figées dans
 **Garde-fou outillé :** `tools/fiche_to_pdf.py` refuse de générer le PDF
 d'une fiche contenant encore une mention « À VALIDER » ou « ⚠ ». Un texte
 non arbitré ne peut donc pas partir dans l'audio par inadvertance.
+
+### 2.4 bis — Ce que la rédaction des fiches famille et permis a révélé (2026-08-13)
+
+La règle « une fiche par chaîne, jamais de recyclage » n'était pas une
+précaution de principe : la lecture des pages publiques de
+`lexvox-divorce.com` et `lexvox-permis.com` a fait apparaître **quatre
+divergences** qui auraient produit des informations fausses dans 48 épisodes
+si la fiche victimes avait été transposée.
+
+| Élément | Chaîne victimes | Chaînes famille et permis |
+|---|---|---|
+| Signataire des articles | Me Patrice Humbert | **Me Cédrine Raybaud** en famille ; Me Humbert en permis |
+| Première consultation | **gratuite** | **payante**, 30 min à tarif fixe (80 € TTC affichés) |
+| Couverture territoriale | « partout en France en visioconférence » | 4 bureaux en Provence + consultations à distance ; le JAF et le tribunal correctionnel sont territorialement compétents — **pas de couverture nationale** |
+| Honoraires | part fixe + complément au résultat | **permis** : idem ; **famille** : seulement une convention signée à l'avance, aucun honoraire de résultat annoncé |
+| Spécialisation CNB citable | droit du dommage corporel | **famille** : droit de la famille, des personnes et de leur patrimoine (Me Raybaud) ; **permis** : aucune — expérience de 20+ ans seulement |
+
+Chaque affirmation des trois fiches est désormais tracée jusqu'à sa source
+dans les notes internes du fichier `.md` correspondant (section « Sources de
+chaque affirmation »), hors document diffusé.
 
 ### 2.5 Choix d'outillage : rôle des outils sur le poste
 
@@ -274,17 +298,23 @@ et la Phase 4 (mise en ligne).
 | Déontologie | Corrections §2.4 adoptées : variante factuelle pour l'IA, honoraires part fixe + résultat, aucune promesse de résultat, spécialisation CNB dommage corporel seule |
 | Calibration | Pas de démonstration filmée ; **pilote autonome** + carnet de calibration. Me Humbert enregistre son écran de son côté, en parallèle |
 
+| Fiches famille et permis | **Rédigées le 2026-08-13** à partir des pages publiques de `lexvox-divorce.com` et `lexvox-permis.com`, chaque affirmation tracée jusqu'à sa source ; PDF et DOCX générés |
+| Sites sources famille / permis | `lexvox-divorce.com` et `lexvox-permis.com` (établis par les liens inter-sites du cabinet) |
+
 ### ⏳ Restant à trancher (bloquantes avant Phase 1)
 
-1. **Propriétés Search Console** : périmètre exact de la chaîne Victimes
-   (les 3 sites, ou `medical.lexvox-avocat.fr` seul pour démarrer ?) et
-   propriétés à utiliser pour **Famille** et **Permis**.
-2. **Contenu des fiches famille et permis** : titres citables dans ces deux
-   domaines et conditions du premier rendez-vous (les squelettes portent les
-   emplacements ⚠️ ; `tools/fiche_to_pdf.py` refuse de générer leur PDF tant
-   qu'ils sont là).
-3. **Canal de distribution** : hébergeur RSS retenu + ordre des plateformes.
-4. **Plan B TTS** : accord de principe pour basculer si le pilote révèle une
+1. **Périmètre Search Console de la chaîne Victimes** : les 3 propriétés
+   (`medical`, `victime-accident`, `lexvox-victime.com`), ou
+   `medical.lexvox-avocat.fr` seul pour démarrer ?
+2. **Relecture des fiches famille et permis** — en particulier par
+   Me Raybaud pour la fiche famille, dont elle est la signataire.
+3. **Montants à l'oral** : les deux fiches disent aujourd'hui « un tarif
+   fixe, annoncé lors de la prise de rendez-vous » plutôt que « 80 € TTC »
+   (et « une part fixe » plutôt que « 700 € HT »). Formulation durable, qui
+   évite qu'une révision tarifaire rende 48 épisodes faux. Basculer sur les
+   montants explicites si vous préférez le concret.
+4. **Canal de distribution** : hébergeur RSS retenu + ordre des plateformes.
+5. **Plan B TTS** : accord de principe pour basculer si le pilote révèle une
    automatisation NotebookLM trop fragile.
 
 ---
