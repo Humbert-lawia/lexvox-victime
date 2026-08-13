@@ -103,7 +103,7 @@ les 24 épisodes de la chaîne.
 |---|---|
 | `tools/voix_script.py` | produit les textes dits par l'avocat, découpe l'intro en 3 segments, applique la phonétique, refuse un script altéré. `--self-test` : **36/36** |
 | `tools/voix_moteur.py` | moteur de synthèse : `aucun` / `manuel` (écrit les .txt à coller) / `voicebox` (HTTP). `--self-test` : **13/13**, `--diagnostic` interroge l'instance |
-| `tools/podcast_montage.py` | montage ffmpeg complet : appariement, loudness 2 passes, générique musical, concaténation, limiteur, MP3, 14 contrôles qualité. `--self-test` : **22/22** |
+| `tools/podcast_montage.py` | montage ffmpeg complet : appariement, loudness 2 passes, générique musical, concaténation, limiteur, MP3, 14 contrôles qualité. `--self-test` : **29/29** |
 | `tools/ffmpeg_moteur.py` | binaire local ou service HTTP distant, même contrat. `--self-test` : **10/10** (sans option) |
 | `PROMPT-INTRO-VOIX.md` | le prompt à copier une fois par épisode — produit **la question du jour**, rien d'autre |
 | `PROMPT-PODCAST-NOTEBOOKLM.md` | pilotage du débat NotebookLM (agent computer-use, **sur son poste**) |
@@ -121,7 +121,11 @@ PAUSE_DEFAUT = 400 ms           PAUSE_SEGMENTS = 150 ms
 MUSIQUE_DUREE = 6.0 s           MUSIQUE_NIVEAU = -20.0 LUFS (4 LU sous la voix)
 MUSIQUE_FONDU_ENTREE = 0.3 s    MUSIQUE_FONDU_SORTIE = 1.5 s
 MUSIQUE_PAUSE = 250 ms          TOLERANCE_LOUDNESS = 0.5 LU / DUREE = 0.5 s
+MUSIQUE_DEBUT = 0.0 s           point d'entrée (--debut-musique)
 ```
+
+**Ordre imposé pour le générique : découper → mettre au niveau → fondre.**
+Il a été établi à la mesure, pas par principe (cf. §5).
 
 ---
 
@@ -140,13 +144,13 @@ Question du jour produite :
 synthétiques (bruit rose modulé) aux durées réelles des trois blocs — ffmpeg
 et ffprobe obtenus depuis PyPI (`pip install ffmpeg-binaries`), l'image de
 base n'en a pas. Résultat : **14/14 contrôles qualité au vert**, MP3 269,19 s,
-192 kb/s, **−16,34 LUFS**, vrai pic **−1,72 dBTP**.
+192 kb/s, **−16,3 LUFS**, vrai pic **−1,73 dBTP**.
 
 Découpage mesuré sur le fichier produit (`silencedetect`), conforme au plan :
 
 | de | à | bloc | niveau |
 |---|---|---|---|
-| 0,00 | 5,98 s | générique musical (fondu éteint **avant** la voix) | −20,4 LUFS |
+| 0,00 | 5,95 s | générique musical (fondu éteint **avant** la voix) | −20,5 LUFS |
 | 6,25 | 14,36 s | bloc 1 — question | −16,2 LUFS |
 | 14,51 | 28,61 s | bloc 2 — présentation | −16,3 LUFS |
 | 28,76 | 37,36 s | bloc 3 — annonce du débat | — |
@@ -157,7 +161,15 @@ Découpage mesuré sur le fichier produit (`silencedetect`), conforme au plan :
 vérifiée : au second passage, les blocs 2 et 3 sont marqués « déjà enregistré,
 RÉUTILISÉ » et ne repassent pas par le moteur.
 
-### Deux vrais défauts trouvés par ce test, et corrigés
+### La musique réelle (2026-08-13, même journée)
+
+Me Humbert a fourni ***Intro YouTube* de Kulakovka** (Pixabay, ID 295915),
+certificat de licence nominatif archivé dans
+`podcasts/musique/licences/pixabay-intro-youtube-295915.txt`. Le montage a été
+rejoué avec cette piste : **14/14 au vert**, générique à **−20,5 LUFS** contre
+**−16,2 LUFS** pour la voix, soit les 4 LU d'écart visés.
+
+### Quatre vrais défauts trouvés par ces tests, et corrigés
 
 1. **`podcast_montage.py` — contrôle « encodeur libmp3lame » impossible à
    passer.** Il lisait l'étiquette ID3 `encoder`, où le multiplexeur mp3 de
@@ -171,6 +183,23 @@ RÉUTILISÉ » et ne repassent pas par le moteur.
    une ligne dans `queue-podcast.csv` et **échouait (code 2)** pour un slug
    absent. La lecture n'a lieu que si le gabarit s'en sert ; sinon un
    avertissement signale le slug inconnu sans bloquer.
+3. **Générique coupé à l'aveugle sur les 6 premières secondes.** Mesurée
+   seconde par seconde, la piste réelle s'ouvre sur des frappes isolées
+   séparées de quasi-silence, et la musique pleine ne démarre qu'à **12,00 s**.
+   Le réglage par défaut aurait placé **≈ 3 s de trou** juste avant la première
+   syllabe de l'avocat. Ajout de **`--debut-musique`** : le point d'entrée est
+   réglé à **11,70 s**, le fondu d'entrée se consomme dans le silence qui
+   précède et l'attaque arrive à plein niveau. *(Défaut invisible au premier
+   test : la musique de synthèse y était uniforme.)*
+4. **Le générique n'atteignait pas son niveau.** L'outil normalisait la piste
+   **entière** (115 s) puis en coupait 6 s : le niveau intégré d'une piste de
+   deux minutes n'est pas celui de l'extrait qu'on en tire. Mesure : **−23,1
+   LUFS** livrés pour −20 demandés, soit un générique **7 LU** sous la voix au
+   lieu de 4 — timide là où il doit poser la marque. L'ordre est désormais
+   **découper → mettre au niveau → fondre**, ce qui ramène la mesure à
+   **−19,6 LUFS** hors montage et **−20,5 LUFS** dans le fichier final.
+   *(Même angle mort que le défaut 3 : une source de test uniforme masque le
+   problème, une vraie musique le révèle.)*
 
 ---
 
@@ -181,7 +210,7 @@ RÉUTILISÉ » et ne repassent pas par le moteur.
 | **Dialogue HTTP avec Voicebox** | `python3 tools/voix_moteur.py --diagnostic` | aucune instance Voicebox dans le conteneur |
 | **Le français est accepté** | le diagnostic lit le `/openapi.json` de **son** instance | la doc publique annonce `language: ^(en\|zh)$` alors que l'app revendique 23 langues — **piège documenté, à vérifier avant de produire 72 épisodes** |
 | **Qualité de la voix clonée** | écouter le premier épisode, surtout « Imbert », « Dintilhac », « Marignane » | — |
-| **Musique réelle** | déposer la piste + **consigner sa licence** dans `podcasts/musique/LICENCES.md` | aucune piste sous licence dans le dépôt |
+| ~~**Musique réelle**~~ | ✅ **fait** — *Intro YouTube* (Kulakovka, Pixabay), licence archivée, montage rejoué 14/14. Déposer la piste en `~/LEXVOX-PODCASTS/musique/musique-lexvox.mp3` et monter avec `--debut-musique 11.7` | — |
 | **`MoteurAPI` (service ffmpeg distant)** | — | jamais exécuté ; seul le moteur **local** est prouvé |
 
 ---
@@ -205,22 +234,26 @@ python3 tools/voix_script.py --bloc outro --chaine victimes
 # 3. le débat NotebookLM  (PROMPT-PODCAST-NOTEBOOKLM.md, sur son poste)
 #    -> déposer le rendu dans ~/LEXVOX-PODCASTS/victimes/brut/<slug>.mp3
 
-# 4. montage
+# 4. montage  —  --debut-musique 11.7 est le point d'entrée mesuré du
+#    générique en service (cf. podcasts/musique/LICENCES.md)
 python3 tools/podcast_montage.py --chaine victimes \
   --slug 10-conseils-pour-reussir-son-expertise \
   --racine ~/LEXVOX-PODCASTS \
-  --segments ~/LEXVOX-PODCASTS/victimes/segments
+  --segments ~/LEXVOX-PODCASTS/victimes/segments \
+  --debut-musique 11.7
 ```
 
 Arborescence attendue sous `--racine` :
 
 ```
-~/LEXVOX-PODCASTS/victimes/
-├── segments/   01-question-victimes-<slug>.mp3, 02-presentation-victimes.mp3, 03-final-victimes.mp3
-├── brut/       <slug>.mp3          (débat NotebookLM)
-├── outro/      outro-victimes.mp3  (une seule prise pour la chaîne)
-├── musique/    musique-victimes.mp3
-└── mp3/        podcast-victimes-01-<slug>.mp3   (produit)
+~/LEXVOX-PODCASTS/
+├── musique/            musique-lexvox.mp3   (générique commun aux 3 chaînes)
+└── victimes/
+    ├── segments/   01-question-victimes-<slug>.mp3, 02-presentation-victimes.mp3, 03-final-victimes.mp3
+    ├── brut/       <slug>.mp3          (débat NotebookLM)
+    ├── outro/      outro-victimes.mp3  (une seule prise pour la chaîne)
+    ├── musique/    musique-victimes.mp3   (facultatif — prime sur le commun)
+    └── mp3/        podcast-victimes-01-<slug>.mp3   (produit)
 ```
 
 ---

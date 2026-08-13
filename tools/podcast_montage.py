@@ -77,6 +77,7 @@ TOLERANCE_DUREE = 0.5       # s
 
 # --- Generique musical --------------------------------------------------------
 MUSIQUE_DUREE = 6.0         # s conserves en tete d'episode
+MUSIQUE_DEBUT = 0.0         # s — point d'entree dans la piste source
 MUSIQUE_NIVEAU = -20.0      # LUFS : 4 LU sous la voix, sinon elle l'ecrase
 MUSIQUE_FONDU_ENTREE = 0.3  # s
 MUSIQUE_FONDU_SORTIE = 1.5  # s — la musique doit mourir avant la question
@@ -168,25 +169,68 @@ def normaliser(source: Path, destination: Path, canaux: int,
                            f"{erreur.strip()[:300]}")
 
 
-def tailler_musique(source: Path, destination: Path, canaux: int,
-                    duree: float):
-    """Coupe le generique a la duree voulue et le fait entrer puis mourir.
+def filtre_decoupe(duree: float, debut: float = MUSIQUE_DEBUT) -> str:
+    """Extrait `duree` secondes de generique a partir de `debut`.
 
-    Le fondu de sortie doit s'achever AVANT la premiere syllabe : une musique
-    qui traine sous la question d'accroche la rend moins intelligible, et
-    c'est justement la phrase qui doit accrocher l'auditeur.
+    `debut` n'est pas un reglage cosmetique : beaucoup de musiques d'ouverture
+    commencent par des frappes isolees separees de silence avant que la musique
+    pleine ne demarre. Couper aveuglement les six premieres secondes place alors
+    un trou juste avant la premiere syllabe de l'avocat — l'inverse de ce qu'un
+    generique doit faire. Regler le debut sur la mesure ou la musique demarre
+    vraiment, en laissant le fondu d'entree se consommer dans le silence qui
+    precede, fait arriver l'attaque a plein niveau.
+    """
+    return f"atrim={debut:.3f}:{debut + duree:.3f},asetpts=N/SR/TB"
+
+
+def filtre_fondu(duree: float) -> str:
+    """Fait entrer le generique puis mourir avant la premiere syllabe.
+
+    Le fondu de sortie doit s'achever AVANT la voix : une musique qui traine
+    sous la question d'accroche la rend moins intelligible, et c'est justement
+    la phrase qui doit accrocher l'auditeur.
     """
     depart_sortie = max(0.0, duree - MUSIQUE_FONDU_SORTIE)
-    filtre = (f"atrim=0:{duree:.3f},asetpts=N/SR/TB,"
-              f"afade=t=in:st=0:d={MUSIQUE_FONDU_ENTREE:.3f},"
-              f"afade=t=out:st={depart_sortie:.3f}:"
-              f"d={MUSIQUE_FONDU_SORTIE:.3f}")
+    return (f"afade=t=in:st=0:d={MUSIQUE_FONDU_ENTREE:.3f},"
+            f"afade=t=out:st={depart_sortie:.3f}:"
+            f"d={MUSIQUE_FONDU_SORTIE:.3f}")
+
+
+def filtrer(source: Path, destination: Path, canaux: int, filtre: str,
+            quoi: str):
+    """Applique une chaine de filtres et ecrit un WAV de travail."""
     code, _, erreur = executer(
         ["ffmpeg", "-hide_banner", "-nostats", "-y", "-i", str(source),
          "-af", filtre, "-ar", str(ECHANTILLONNAGE), "-ac", str(canaux),
          "-c:a", "pcm_s16le", str(destination)])
     if code != 0:
-        raise RuntimeError(f"taille du generique : {erreur.strip()[:300]}")
+        raise RuntimeError(f"{quoi} : {erreur.strip()[:300]}")
+
+
+def tailler_musique(source: Path, destination: Path, canaux: int,
+                    duree: float, debut: float = MUSIQUE_DEBUT,
+                    normaliser_extrait=None):
+    """Decoupe le generique, le met au niveau, PUIS le fond.
+
+    L'ordre compte, et il a ete etabli a la mesure. Normaliser la piste entiere
+    avant d'en couper six secondes ne donne pas le niveau vise : le niveau
+    integre d'une piste de deux minutes n'est pas celui de l'extrait qu'on en
+    tire. Sur le generique du cabinet, l'ancien ordre livrait -23,1 LUFS pour
+    -20 demandes — un generique 7 LU sous la voix au lieu de 4, timide la ou il
+    doit poser la marque. Decouper d'abord, puis normaliser l'extrait lui-meme,
+    ramene la mesure a -19,6 LUFS.
+
+    Le fondu vient en dernier, sinon il fausserait la mesure de l'extrait.
+    """
+    travail = destination.with_name(destination.stem + "-brut.wav")
+    filtrer(source, travail, canaux, filtre_decoupe(duree, debut),
+            "decoupe du generique")
+    if normaliser_extrait:
+        mis_au_niveau = destination.with_name(destination.stem + "-niveau.wav")
+        normaliser_extrait(travail, mis_au_niveau)
+        travail = mis_au_niveau
+    filtrer(travail, destination, canaux, filtre_fondu(duree),
+            "fondu du generique")
 
 
 def assembler(segments, pauses_ms, destination: Path, canaux: int):
@@ -490,7 +534,8 @@ def traiter(options) -> int:
     if musique:
         blocs.append({"etiquette": "generique musical", "fichier": musique,
                       "cible": MUSIQUE_NIVEAU, "pause": MUSIQUE_PAUSE,
-                      "taille": options.duree_musique})
+                      "taille": options.duree_musique,
+                      "debut": options.debut_musique})
     if segments_intro:
         for rang, (nom, fichier, invariant) in enumerate(segments_intro):
             dernier = rang == len(segments_intro) - 1
@@ -535,9 +580,18 @@ def traiter(options) -> int:
         if sondage["duree"] <= 0:
             raise RuntimeError(f"{bloc['etiquette']} illisible ou vide : "
                                f"{bloc['fichier']}")
-        # le generique n'entre qu'a hauteur de la duree conservee
-        bloc["duree"] = (min(sondage["duree"], bloc["taille"])
-                         if bloc["taille"] else sondage["duree"])
+        # le generique n'entre qu'a hauteur de la duree conservee, comptee a
+        # partir de son point d'entree
+        if bloc["taille"]:
+            disponible = sondage["duree"] - bloc.get("debut", 0.0)
+            if disponible <= 0:
+                raise RuntimeError(
+                    f"point d'entree du generique ({bloc.get('debut', 0.0):.2f} s) "
+                    f"au-dela de la piste ({sondage['duree']:.2f} s) : "
+                    f"{bloc['fichier'].name}")
+            bloc["duree"] = min(disponible, bloc["taille"])
+        else:
+            bloc["duree"] = sondage["duree"]
         sondages[bloc["etiquette"]] = sondage
 
     canaux = 1 if options.canaux == "mono" else 2
@@ -547,11 +601,18 @@ def traiter(options) -> int:
     normalises = []
     for indice, bloc in enumerate(blocs):
         cible = travail / f"{indice}-{normaliser_slug(bloc['etiquette'])}.wav"
-        normaliser(bloc["fichier"], cible, canaux, bloc["cible"])
         if bloc["taille"]:
-            taillee = travail / f"{indice}-generique-taille.wav"
-            tailler_musique(cible, taillee, canaux, bloc["duree"])
+            # Le generique se decoupe AVANT d'etre mis au niveau : c'est
+            # l'extrait diffuse qui doit peser -20 LUFS, pas la piste entiere.
+            taillee = travail / f"{indice}-generique.wav"
+            tailler_musique(
+                bloc["fichier"], taillee, canaux, bloc["duree"],
+                bloc.get("debut", MUSIQUE_DEBUT),
+                lambda source, sortie: normaliser(source, sortie, canaux,
+                                                  bloc["cible"]))
             cible = taillee
+        else:
+            normaliser(bloc["fichier"], cible, canaux, bloc["cible"])
         normalises.append(cible)
 
     assemble = travail / "assemble.wav"
@@ -599,6 +660,9 @@ def traiter(options) -> int:
         "slug": options.slug,
         "ordre_de_montage": " -> ".join(e for e, _ in sources),
         "fichier_generique": musique.name if musique else "aucun",
+        "generique_extrait": (f"{options.debut_musique:.2f} s → "
+                              f"{options.debut_musique + options.duree_musique:.2f} s"
+                              if musique else "aucun"),
         "fichier_intro": (", ".join(f.name for _, f, _ in segments_intro)
                           if segments_intro else intro.name),
         "segments_reutilises": [f.name for nom, f, inv in segments_intro if inv],
@@ -731,6 +795,25 @@ def self_test() -> int:
     faux_mp3.unlink(missing_ok=True)
     sans_lame.unlink(missing_ok=True)
 
+    # decoupe du generique : le point d'entree doit se retrouver dans atrim,
+    # et le fondu de sortie s'achever exactement a la fin de l'extrait.
+    verifier("generique coupe depuis le debut par defaut",
+             filtre_decoupe(6.0), "atrim=0.000:6.000,asetpts=N/SR/TB")
+    verifier("point d'entree reporte dans atrim",
+             filtre_decoupe(6.0, 11.7),
+             "atrim=11.700:17.700,asetpts=N/SR/TB")
+    verifier("fondu d'entree toujours a zero de l'extrait",
+             "afade=t=in:st=0:d=0.300" in filtre_fondu(6.0), True)
+    verifier("fondu de sortie cale sur la fin de l'extrait",
+             "afade=t=out:st=4.500:d=1.500" in filtre_fondu(6.0), True)
+    verifier("extrait plus court que le fondu de sortie ne recule pas",
+             "afade=t=out:st=0.000:" in filtre_fondu(1.0), True)
+    # L'ordre decoupe -> niveau -> fondu est ce qui donne le niveau vise :
+    # aucun fondu ne doit se glisser dans l'etape mesuree.
+    verifier("la decoupe ne fond pas", "afade" not in filtre_decoupe(6.0, 11.7),
+             True)
+    verifier("le fondu ne recoupe pas", "atrim" not in filtre_fondu(6.0), True)
+
     # licence du generique : le refus doit venir AVANT tout appel a ffmpeg
     bac = Path("/tmp/_montage_musique")
     shutil.rmtree(bac, ignore_errors=True)
@@ -814,6 +897,11 @@ def main() -> int:
     analyseur.add_argument("--duree-musique", type=float,
                            default=MUSIQUE_DUREE,
                            help="secondes de generique conservees en tete")
+    analyseur.add_argument("--debut-musique", type=float,
+                           default=MUSIQUE_DEBUT,
+                           help="point d'entree dans la piste, en secondes "
+                                "(utile quand la musique s'ouvre sur des "
+                                "frappes isolees avant de demarrer vraiment)")
     analyseur.add_argument("--licences", default=str(REGISTRE_LICENCES),
                            help="registre des licences de musique")
     analyseur.add_argument("--pause-segments", type=int,

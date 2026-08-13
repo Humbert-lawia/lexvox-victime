@@ -33,13 +33,34 @@ Deux réflexes :
 
 | Fichier | Titre / auteur | Source (URL) | Licence | Téléchargé le | Commercial |
 |---|---|---|---|---|---|
-| _(aucune piste enregistrée)_ | | | | | |
+| `musique-lexvox` | *Intro YouTube* — Kulakovka | https://pixabay.com/music/beats-intro-youtube-295915/ | Pixabay Content License — certificat nominatif archivé : `licences/pixabay-intro-youtube-295915.txt` | 2026-08-13 | oui, sans attribution |
 
-### Exemple d'entrée correctement remplie
+⚠️ **Le contrôle du montage ne compare que le nom de fichier.** Si
+`musique-lexvox.mp3` est un jour remplacé par une autre piste sans que cette
+ligne change, la vérification passera pour une musique dont la licence n'est
+pas celle-ci. Remplacer la piste = réécrire la ligne dans le même geste.
 
-| Fichier | Titre / auteur | Source (URL) | Licence | Téléchargé le | Commercial |
-|---|---|---|---|---|---|
-| `musique-lexvox` | *Corporate Uplift* — A. Exemple | https://pixabay.com/music/… | Pixabay Content License (PDF archivé : `licences/pixabay-corporate-uplift.pdf`) | 2026-08-13 | oui, sans attribution |
+### Générique en service — *Intro YouTube* (Kulakovka)
+
+Piste source : 115,2 s, 256 kb/s, 44,1 kHz, stéréo, −12,5 LUFS intégrés.
+
+**Point d'entrée : 11,70 s** (`--debut-musique 11.7`). Ce réglage n'est pas un
+détail de goût. Mesurée seconde par seconde, la piste s'ouvre sur des frappes
+isolées séparées de quasi-silence — hits à 0 s, 3 s, 6 s, 9,5 s, puis un
+silence net de 10,75 s à 11,99 s — avant que la musique pleine ne démarre à
+**12,00 s**. Couper les six premières secondes, comme le fait le réglage par
+défaut, placerait environ trois secondes de trou juste avant la première
+syllabe de l'avocat.
+
+Entrer à 11,70 s laisse le fondu d'entrée (0,3 s) se consommer entièrement
+dans le silence qui précède : l'attaque de 12,00 s arrive à plein niveau, et
+l'extrait 11,70 → 17,70 s reste dense jusqu'au fondu de sortie.
+
+```bash
+python3 tools/podcast_montage.py --chaine victimes --slug <slug> \
+    --segments ~/LEXVOX-PODCASTS/victimes/segments \
+    --debut-musique 11.7
+```
 
 ## Où déposer le fichier
 

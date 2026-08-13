@@ -159,6 +159,19 @@ s'achève **avant** la première syllabe — une musique qui traîne sous la
 question d'accroche rend moins intelligible la phrase qui doit justement
 accrocher. Elle est mixée à −20 LUFS, soit 4 LU sous la voix.
 
+**Générique en service : *Intro YouTube* (Kulakovka, Pixabay).** Il se monte
+avec `--debut-musique 11.7` : la piste s'ouvre sur des frappes isolées et la
+musique pleine ne démarre qu'à 12,00 s, si bien que couper les six premières
+secondes placerait un trou avant la voix. Le détail des mesures est dans
+`podcasts/musique/LICENCES.md`.
+
+**Pour toute autre piste, mesurer avant de régler.** Ne pas supposer que les
+six premières secondes sont utilisables : beaucoup de musiques d'ouverture
+commencent par un compte à rebours de frappes. Repérer la seconde où la
+musique pleine démarre, puis entrer 0,2 à 0,3 s avant, pour que le fondu
+d'entrée se consomme dans le silence qui précède et que l'attaque arrive à
+plein niveau.
+
 `podcast_montage.py` **refuse de monter** si la licence de la piste n'est pas
 consignée dans `podcasts/musique/LICENCES.md`. Ce n'est pas une formalité :
 une réclamation fait retirer l'épisode, parfois la série. Les sources
