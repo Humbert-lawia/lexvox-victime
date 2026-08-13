@@ -173,6 +173,23 @@ Configuration : copier `podcasts/ffmpeg-api.exemple.json` en
 figure jamais** : le fichier ne porte que le *nom* de la variable
 d'environnement qui la contient (règle 5 du `CLAUDE.md`).
 
+### Diagnostiquer un service AVANT de l'adopter
+
+```bash
+python3 tools/ffmpeg_moteur.py --diagnostic --moteur api \
+    --config podcasts/ffmpeg-api.json
+```
+
+La commande fabrique un petit fichier audio de test (sans ffmpeg, en Python
+pur), puis confronte le service aux quatre exigences et rend un verdict
+ligne par ligne : sondage `ffprobe`, présence des mesures `loudnorm` dans le
+journal, acceptation d'un filtre arbitraire, récupération du fichier produit.
+Elle sort en erreur si le contrat n'est pas satisfait.
+
+Il vaut mieux découvrir ainsi qu'un service ne rend pas les journaux, que
+s'en apercevoir après 72 montages dont la conformité sonore n'aura jamais pu
+être vérifiée.
+
 Convention de lecture des arguments par `MoteurAPI` : les valeurs suivant
 `-i` sont des entrées à téléverser, le dernier argument est le fichier à
 récupérer — sauf `-` (passes de mesure, aucun fichier produit) et sauf pour

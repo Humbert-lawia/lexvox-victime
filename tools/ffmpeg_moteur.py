@@ -298,6 +298,100 @@ def charger(nom: str, chemin_config: str = None):
     return moteur
 
 
+# --- Diagnostic d'un service ------------------------------------------------
+def _wav_de_test(destination: Path, secondes=1, frequence=440):
+    """Ecrit un WAV mono de test, sans dependance ni ffmpeg."""
+    import array
+    import math
+    import wave
+
+    taux = 44100
+    echantillons = array.array("h", (
+        int(12000 * math.sin(2 * math.pi * frequence * n / taux))
+        for n in range(taux * secondes)))
+    with wave.open(str(destination), "wb") as flux:
+        flux.setnchannels(1)
+        flux.setsampwidth(2)
+        flux.setframerate(taux)
+        flux.writeframes(echantillons.tobytes())
+
+
+def diagnostiquer(moteur) -> int:
+    """Confronte un moteur aux quatre exigences du contrat.
+
+    A executer AVANT de monter le premier episode : il vaut mieux decouvrir
+    ici qu'un service ne rend pas les journaux qu'apres 72 montages non
+    verifiables.
+    """
+    import tempfile
+
+    resultats = []
+    with tempfile.TemporaryDirectory() as dossier:
+        atelier = Path(dossier)
+        source = atelier / "test-lexvox.wav"
+        produit = atelier / "test-lexvox.mp3"
+        _wav_de_test(source)
+
+        # Exigence 4 — sortie standard de ffprobe
+        try:
+            code, standard, _ = moteur.executer(
+                ["ffprobe", "-v", "error", "-print_format", "json",
+                 "-show_format", "-show_streams", str(source)])
+            donnees = json.loads(standard or "{}")
+            ok = code == 0 and bool(donnees.get("streams"))
+            detail = (f"{len(donnees.get('streams', []))} flux decrit(s)"
+                      if ok else "sortie standard vide ou illisible")
+        except Exception as erreur:                       # noqa: BLE001
+            ok, detail = False, str(erreur)[:160]
+        resultats.append(("4. sortie standard de ffprobe", ok, detail))
+
+        # Exigence 3 — journal d'execution (mesures loudnorm)
+        try:
+            _, _, journal = moteur.executer(
+                ["ffmpeg", "-hide_banner", "-nostats", "-i", str(source),
+                 "-af", "loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json",
+                 "-f", "null", "-"])
+            debut, fin = journal.rfind("{"), journal.rfind("}")
+            mesures = (json.loads(journal[debut:fin + 1])
+                       if debut != -1 and fin > debut else {})
+            ok = "input_i" in mesures
+            detail = (f"input_i = {mesures.get('input_i')} LUFS" if ok else
+                      "aucune mesure loudnorm dans le journal")
+        except Exception as erreur:                       # noqa: BLE001
+            ok, detail = False, str(erreur)[:160]
+        resultats.append(("3. journal d'execution (loudnorm 2 passes)", ok,
+                          detail))
+
+        # Exigences 1 et 2 — filtres arbitraires et fichier produit
+        try:
+            code, _, erreur_ff = moteur.executer(
+                ["ffmpeg", "-hide_banner", "-nostats", "-y", "-i", str(source),
+                 "-af", "alimiter=limit=-1.5dB:level=disabled",
+                 "-c:a", "libmp3lame", "-b:a", "192k", "-ar", "44100",
+                 "-ac", "1", "-id3v2_version", "3", str(produit)])
+            ok = code == 0 and produit.is_file() and produit.stat().st_size > 0
+            detail = (f"{produit.stat().st_size} octets recuperes" if ok
+                      else (erreur_ff or "aucun fichier produit")[:160])
+        except Exception as erreur:                       # noqa: BLE001
+            ok, detail = False, str(erreur)[:160]
+        resultats.append(("1+2. filtres arbitraires et fichier rendu", ok,
+                          detail))
+
+    print(f"\nDiagnostic du moteur « {moteur.nom} »")
+    for exigence, ok, detail in sorted(resultats):
+        print(f"  [{'OK' if ok else '!!'}] {exigence} — {detail}")
+    manques = [e for e, ok, _ in resultats if not ok]
+    if manques:
+        print("\nCe moteur ne satisfait pas le contrat : "
+              + " ; ".join(manques))
+        print("Sans le journal, la normalisation retombe a une passe et les "
+              "controles 11 et 12 sont inverifiables — voir "
+              "PROMPT-MONTAGE-DIFFUSION.md §3.")
+        return 1
+    print("\nContrat satisfait : ce moteur peut monter les episodes.")
+    return 0
+
+
 # --- Auto-test de la convention de lecture des arguments ----------------------
 def self_test() -> int:
     essais, echecs = 0, []
@@ -351,6 +445,30 @@ def self_test() -> int:
     return 1 if echecs else 0
 
 
+def main() -> int:
+    import argparse
+    import sys
+
+    analyseur = argparse.ArgumentParser(
+        description="Auto-test de la convention, ou diagnostic d'un moteur.")
+    analyseur.add_argument("--diagnostic", action="store_true",
+                           help="confronte un moteur aux 4 exigences")
+    analyseur.add_argument("--moteur", choices=("local", "api"),
+                           default="local")
+    analyseur.add_argument("--config", default="podcasts/ffmpeg-api.json")
+    options = analyseur.parse_args()
+
+    if not options.diagnostic:
+        return self_test()
+    try:
+        moteur = charger(options.moteur, options.config)
+        moteur.verifier()
+        return diagnostiquer(moteur)
+    except ErreurMoteur as erreur:
+        print(f"moteur indisponible : {erreur}", file=sys.stderr)
+        return 3
+
+
 if __name__ == "__main__":
     import sys
-    sys.exit(self_test())
+    sys.exit(main())
