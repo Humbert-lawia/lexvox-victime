@@ -160,6 +160,15 @@ PACA avec image mise en avant géolocalisée (EXIF GPS). Ce pipeline ne touche
 NI Sanity NI lexvox-victime.com — anti-cannibalisation triple obligatoire
 (2 WP + Sanity) avant chaque slug.
 
+## Podcasts (chantier en cours)
+
+Trois séries — voix clonée de l'avocat (Voicebox, en **local**) autour d'un
+débat NotebookLM. Avant toute intervention sur ce chantier, lire
+**`ETAT-CHANTIER-PODCASTS.md`** : il porte les décisions de Me Humbert
+(intro en 3 blocs de 30 s, prononciation « Imbert », signataires imposés),
+ce qui est prouvé par les tests, ce qui ne l'est pas, et les décisions en
+attente. Seule la chaîne **victimes** est configurée.
+
 ## Suivi
 
 `SUIVI-ACTIONS-CORRECTIVES.md` trace les actions issues des audits SEO — le

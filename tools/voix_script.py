@@ -142,14 +142,25 @@ def appliquer_prononciation(texte: str) -> str:
     return texte
 
 
-def lire_ligne_csv(csv_path: Path, chaine: str, slug: str) -> dict:
+def chercher_ligne_csv(csv_path: Path, chaine: str, slug: str):
+    """Ligne de la file, ou None. Une file absente n'est pas une erreur :
+    l'episode pilote peut se fabriquer avant que la file soit remplie."""
+    if not csv_path.is_file():
+        return None
     with csv_path.open(encoding="utf-8", newline="") as flux:
         for ligne in csv.DictReader(flux):
             if (ligne.get("chaine", "").strip() == chaine
                     and ligne.get("slug", "").strip() == slug):
                 return ligne
-    raise RuntimeError(f"aucune ligne chaine={chaine} slug={slug} "
-                       f"dans {csv_path}")
+    return None
+
+
+def lire_ligne_csv(csv_path: Path, chaine: str, slug: str) -> dict:
+    ligne = chercher_ligne_csv(csv_path, chaine, slug)
+    if ligne is None:
+        raise RuntimeError(f"aucune ligne chaine={chaine} slug={slug} "
+                           f"dans {csv_path}")
+    return ligne
 
 
 def extraire_gabarit(chemin: Path) -> str:
@@ -223,8 +234,8 @@ def decouper(texte: str):
         raise RuntimeError(
             f"l'intro compte {len(paragraphes)} paragraphes, {attendus} "
             "attendus. Le decoupage en segments repose sur cette structure : "
-            "question / jingle / sujet / animateurs / relance. Ne pas fusionner "
-            "ni ajouter de paragraphe au gabarit.")
+            "question du jour / presentation / annonce du debat. Ne pas "
+            "fusionner ni ajouter de paragraphe au gabarit.")
     return [(nom, "\n\n".join(paragraphes[i] for i in indices), invariant)
             for nom, indices, invariant in SEGMENTS_INTRO]
 
@@ -236,10 +247,25 @@ def generer(options) -> int:
 
     titre, sujet = options.titre, options.sujet
     if bloc == "intro":
+        # Depuis l'intro en trois blocs, la question du jour EST le sujet et
+        # l'article : le gabarit victimes ne cite plus ni {titre} ni {sujet}.
+        # N'exiger la ligne de file que si le gabarit s'en sert encore ; sinon
+        # signaler le slug inconnu sans bloquer — c'est un garde-fou contre la
+        # coquille, pas une condition de fabrication.
+        besoin_csv = "{titre}" in gabarit or "{sujet}" in gabarit
         if titre is None:
-            ligne = lire_ligne_csv(Path(options.csv), options.chaine,
-                                   options.slug)
-            titre = ligne.get("title") or options.slug
+            if besoin_csv:
+                titre = (lire_ligne_csv(Path(options.csv), options.chaine,
+                                        options.slug).get("title")
+                         or options.slug)
+            else:
+                titre = options.slug
+                if chercher_ligne_csv(Path(options.csv), options.chaine,
+                                      options.slug) is None:
+                    print(f"--- avertissement : slug « {options.slug} » absent "
+                          f"de {options.csv} (chaine {options.chaine}) — "
+                          "verifier la coquille, puis inscrire l'episode dans "
+                          "la file ---", file=sys.stderr)
         sujet = sujet or titre.lower()
         if not options.question:
             raise RuntimeError(
@@ -441,6 +467,19 @@ def self_test() -> int:
         echecs.append("structure alteree non detectee")
     except RuntimeError:
         pass
+
+    # file de publication : la lecture souple ne doit ni bloquer sur un slug
+    # inconnu ni sur une file absente, mais retrouver une ligne existante
+    verifier("slug inconnu tolere",
+             chercher_ligne_csv(Path("podcasts/queue-podcast.csv"), "victimes",
+                                "slug-qui-n-existe-pas") is None)
+    verifier("file absente toleree",
+             chercher_ligne_csv(Path("podcasts/file-inexistante.csv"),
+                                "victimes", "peu-importe") is None)
+    verifier("ligne existante retrouvee",
+             (chercher_ligne_csv(Path("podcasts/queue-podcast.csv"), "victimes",
+                                 "10-conseils-pour-reussir-son-expertise")
+              or {}).get("slug") == "10-conseils-pour-reussir-son-expertise")
 
     # les six gabarits livres doivent passer tous les controles de leur bloc
     for bloc in ("intro", "outro"):

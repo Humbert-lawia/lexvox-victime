@@ -372,6 +372,26 @@ def verifier_licence(musique: Path, registre: Path = REGISTRE_LICENCES):
 
 
 # --- Controles qualite --------------------------------------------------------
+def signature_lame(donnees: bytes) -> bool:
+    """Cherche la marque que libmp3lame ecrit DANS le flux (« LAME3.100 »).
+
+    L'etiquette ID3 « encoder » ne sert a rien ici : le multiplexeur mp3 de
+    ffmpeg y ecrit toujours sa propre version (« Lavf60.3.100 ») et ecrase
+    meme un `-metadata encoder=…` fourni a la main. Seule la marque posee par
+    l'encodeur lui-meme, dans l'entete LAME de la premiere trame, prouve que
+    le fichier est bien sorti de libmp3lame.
+    """
+    return b"LAME" in donnees
+
+
+def lire_entete(chemin: Path, octets: int = 200_000) -> bytes:
+    try:
+        with chemin.open("rb") as flux:
+            return flux.read(octets)
+    except OSError:
+        return b""
+
+
 def controler(final: Path, sondage: dict, loudness, duree_attendue: float,
               debit: int, canaux: int, ordre_verifie: bool) -> list:
     integre, vrai_pic = loudness
@@ -380,8 +400,10 @@ def controler(final: Path, sondage: dict, loudness, duree_attendue: float,
         ("fichier lisible par ffprobe", sondage["duree"] > 0,
          f"{sondage['duree']:.2f} s"),
         ("codec MP3", sondage["codec"] == "mp3", sondage["codec"]),
-        ("encodeur libmp3lame", "lame" in sondage["encodeur"].lower(),
-         sondage["encodeur"] or "(non etiquete)"),
+        ("encodeur libmp3lame", signature_lame(lire_entete(final)),
+         f"marque LAME dans le flux ; etiquette ID3 « encoder » = "
+         f"{sondage['encodeur'] or '(non etiquetee)'}, posee par le "
+         f"multiplexeur et non par l'encodeur"),
         (f"debit proche de {debit} kb/s", abs(sondage["debit"] - debit) <= 12,
          f"{sondage['debit']} kb/s"),
         (f"echantillonnage {ECHANTILLONNAGE} Hz",
@@ -677,23 +699,37 @@ def self_test() -> int:
     essais += 1
     temporaire.unlink(missing_ok=True)
 
-    # controles qualite : un fichier conforme passe, un fichier degrade echoue
+    # controles qualite : un fichier conforme passe, un fichier degrade echoue.
+    # Le fichier d'essai porte la marque « LAME » que l'encodeur ecrit dans le
+    # flux — l'etiquette ID3 « encoder » dit « Lavf… » meme pour un vrai mp3
+    # libmp3lame, elle ne prouve donc rien (constate au premier montage reel).
+    faux_mp3 = Path("/tmp/_montage_controle.mp3")
+    faux_mp3.write_bytes(b"ID3\x04\x00" + b"\x00" * 512 + b"Info" + b"\x00" * 64
+                         + b"LAME3.100")
     conforme = {"codec": "mp3", "canaux": 1, "echantillonnage": 44100,
                 "duree": 300.0, "debit": 192, "octets": 7_200_000,
-                "encodeur": "Lame 3.100", "etiquettes": {"title": "T"}}
-    resultat = controler(Path("/tmp/x.mp3"), conforme, (-16.05, -1.7),
-                         300.0, 192, 1, True)
-    verifier("controles conformes", [c for c in resultat if not c["ok"]][1:],
-             [])  # seul « fichier present » echoue sur un chemin fictif
+                "encodeur": "Lavf60.3.100", "etiquettes": {"title": "T"}}
+    resultat = controler(faux_mp3, conforme, (-16.05, -1.7), 300.0, 192, 1,
+                         True)
+    verifier("controles conformes",
+             [c["controle"] for c in resultat if not c["ok"]], [])
+    verifier("signature LAME reconnue malgre l'etiquette Lavf",
+             next(c["ok"] for c in resultat
+                  if c["controle"] == "encodeur libmp3lame"), True)
     degrade = dict(conforme, codec="aac", echantillonnage=48000, duree=250.0)
-    noms = {c["controle"] for c in controler(Path("/tmp/x.mp3"), degrade,
+    sans_lame = Path("/tmp/_montage_controle_sans_lame.mp3")
+    sans_lame.write_bytes(b"ID3\x04\x00" + b"\x00" * 512)
+    noms = {c["controle"] for c in controler(sans_lame, degrade,
                                              (-12.0, -0.2), 300.0, 192, 1,
                                              True) if not c["ok"]}
     for attendu in ("codec MP3", "echantillonnage 44100 Hz",
-                    "aucune source tronquee", "vrai pic <= -1.5 dBTP"):
+                    "aucune source tronquee", "vrai pic <= -1.5 dBTP",
+                    "encodeur libmp3lame"):
         essais += 1
         if attendu not in noms:
             echecs.append(f"controle non declenche : {attendu}")
+    faux_mp3.unlink(missing_ok=True)
+    sans_lame.unlink(missing_ok=True)
 
     # licence du generique : le refus doit venir AVANT tout appel a ffmpeg
     bac = Path("/tmp/_montage_musique")
