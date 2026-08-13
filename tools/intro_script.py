@@ -25,6 +25,9 @@ from pathlib import Path
 
 GABARITS = Path("podcasts/intro-elevenlabs")
 MENTIONS_OBLIGATOIRES = ("voix de synthèse",)
+# L'introduction doit presenter nommement les deux animateurs : c'est la
+# seule chose qui relie la voix reelle de l'avocat au debat qui suit.
+ANIMATEURS = ("Nathalie", "Nicolas")
 
 
 def lire_ligne_csv(csv_path: Path, chaine: str, slug: str) -> dict:
@@ -60,6 +63,11 @@ def composer(gabarit: str, titre: str, sujet: str) -> str:
             "mention de transparence absente du gabarit : "
             f"{', '.join(manquantes)} — l'auditeur doit savoir que les deux "
             "voix qui animent le debat sont synthetiques")
+    absents = [a for a in ANIMATEURS if a.lower() not in aplati]
+    if absents:
+        raise RuntimeError(
+            f"animateur non presente dans l'introduction : {', '.join(absents)}"
+            " — l'avocat doit nommer les deux personnes qui animent l'emission")
     return texte
 
 
@@ -98,7 +106,12 @@ def self_test() -> int:
 
     for mauvais, motif in (
             ("Bonjour {titre}, avec {inconnu}.", "variable non remplacee"),
-            ("Bonjour {titre}, Nathalie et Nicolas animent.", "mention absente")):
+            ("Bonjour {titre}, Nathalie et Nicolas animent.",
+             "mention de transparence absente"),
+            ("Bonjour {titre}, deux voix de synthèse parlent de {sujet}.",
+             "animateurs non nommes"),
+            ("Bonjour {titre}, Nathalie, voix de synthèse, parle de {sujet}.",
+             "second animateur absent")):
         essais += 1
         try:
             composer(mauvais, "T", "s")

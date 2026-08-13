@@ -113,11 +113,30 @@ Le choix d'attribuer l'expertise juridique à la voix féminine et les
 questions à la voix masculine est délibéré : il évite le cliché de l'expert
 masculin qui explique à l'interlocutrice.
 
-Les prénoms sont déclarés à **trois endroits**, qui doivent rester cohérents :
-1. le texte de personnalisation NotebookLM (`PROMPT-PODCAST-NOTEBOOKLM.md`,
-   section TEXTES PAR CHAÎNE) — c'est lui qui pilote réellement les voix ;
-2. la fiche cabinet PDF, section « Les deux voix de l'émission » ;
-3. l'intro ElevenLabs, qui les présente nommément à l'auditeur.
+### Deux déclarations distinctes, à ne pas confondre
+
+Les prénoms se déclarent à deux endroits qui ne jouent pas le même rôle. Les
+confondre, c'est risquer une intro qui annonce Nathalie et Nicolas sur un
+débat où NotebookLM aura choisi d'autres voix.
+
+**1. Côté ElevenLabs — l'avocat les présente comme les animateurs.**
+L'introduction, dite dans la voix réelle de l'avocat, dit textuellement :
+*« Cette émission est animée par Nathalie et Nicolas. Nathalie, la juriste,
+vous explique le droit ; Nicolas, le journaliste, pose les questions que vous
+vous posez. Ce sont deux voix de synthèse… »*
+`tools/intro_script.py` **refuse de rendre un script** où l'un des deux
+prénoms manquerait, ou d'où la mention « voix de synthèse » aurait disparu.
+
+**2. Côté NotebookLM — la configuration impose le genre de chaque voix.**
+Nommer les animateurs ne suffit pas : sans indication de genre, rien ne
+garantit que Nathalie reçoive la voix féminine. Le texte de personnalisation
+l'impose explicitement :
+*« Podcast animé par deux personnes : Nathalie, une FEMME, juriste pédagogue
+(voix féminine), et Nicolas, un HOMME, journaliste curieux (voix
+masculine). »*
+La fiche cabinet PDF, seconde source du notebook, le répète dans sa section
+« Les deux voix de l'émission » — une consigne présente dans la
+personnalisation **et** dans une source a plus de chances d'être suivie.
 
 ⚠️ **À vérifier au pilote :** NotebookLM ne respecte pas toujours les
 prénoms imposés. Si l'épisode pilote ne les emploie pas, ne pas diffuser une

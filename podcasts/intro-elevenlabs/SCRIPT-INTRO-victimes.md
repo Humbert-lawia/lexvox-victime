@@ -24,11 +24,11 @@ droits », le podcast du cabinet LEXVOX AVOCATS.
 
 Aujourd'hui, nous décryptons pour vous un sujet essentiel : {sujet}.
 
-Pour en parler, je laisse la parole à Nathalie et Nicolas. Nathalie vous explique le
-droit, Nicolas pose les questions que vous vous posez. Ce sont deux voix de
-synthèse, créées par le cabinet pour rendre ces sujets techniques
-accessibles ; l'analyse, elle, vient de mon article « {titre} », que vous
-retrouvez sur notre site.
+Cette émission est animée par Nathalie et Nicolas. Nathalie, la juriste, vous
+explique le droit ; Nicolas, le journaliste, pose les questions que vous vous
+posez. Ce sont deux voix de synthèse, créées par le cabinet pour rendre ces
+sujets techniques accessibles ; l'analyse, elle, vient de mon article
+« {titre} », que vous retrouvez sur notre site.
 
 Je vous souhaite une bonne écoute.
 SCRIPT>>>
