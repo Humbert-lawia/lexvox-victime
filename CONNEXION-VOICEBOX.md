@@ -6,6 +6,33 @@ n'existe aucune route entre les deux. Pour qu'elle le puisse, il faut publier
 l'instance derrière une adresse joignable — et, c'est tout l'objet de ce
 document, **derrière une authentification**.
 
+---
+
+## ⚠️ À lire avant tout : il y a plus simple, et c'est plus sûr
+
+Le tunnel n'existe que pour une raison : permettre à une session Claude
+**distante** d'atteindre le poste. Si Claude tourne **sur le poste lui-même**
+— l'application Claude Code pour Mac ou Windows — il parle à Voicebox par
+`localhost`, et **tout ce document devient inutile** : pas de tunnel, pas de
+compte Cloudflare, pas de jeton, pas de terminal à laisser ouvert, et surtout
+aucune surface exposée.
+
+| | Claude sur le poste | Tunnel Cloudflare |
+|---|---|---|
+| À installer | l'application Claude Code | cloudflared, un jeton d'API, une application Access |
+| Voix clonée exposée | **jamais** | derrière un portail, s'il est bien posé |
+| À maintenir | rien | un tunnel qui doit rester lancé |
+| Ce que ça demande de vous | ouvrir l'application | un tableau de bord Cloudflare |
+
+**Pour quelqu'un qui n'est pas informaticien, c'est la voie à prendre.** C'est
+aussi celle qui respecte le mieux l'argument qui a fait choisir Voicebox
+plutôt qu'ElevenLabs : aucun texte, aucune voix ne quitte la machine.
+
+Le reste de ce document décrit le tunnel, pour le cas où l'instance doive
+vraiment être pilotée de l'extérieur.
+
+---
+
 ## Le risque, en une phrase
 
 Voicebox n'a **aucune authentification native**. Une instance publiée sans
@@ -19,33 +46,67 @@ essayer ».
 L'outillage refuse d'ailleurs de coopérer : `voix_moteur.py` rejette toute
 adresse distante en `http` — le texte lu et la voix circuleraient en clair.
 
-## Le montage recommandé — Cloudflare Tunnel + Access
+## Le montage — Cloudflare Tunnel + Access, en une commande
 
 Le cabinet est déjà chez Cloudflare pour le site : c'est le chemin le plus
 court, et il est gratuit à cette échelle.
 
-### 1. Sur le poste, publier l'instance
+### L'ordre compte, et ce n'est pas l'ordre des tutoriels
 
-```bash
-cloudflared tunnel login
-cloudflared tunnel create voicebox-lexvox
-cloudflared tunnel route dns voicebox-lexvox voicebox.lexvox-victime.com
-cloudflared tunnel run --url http://localhost:8000 voicebox-lexvox
+La plupart des guides font créer le tunnel, puis poser le portail. **Entre les
+deux, l'instance répond à tout le monde** — le temps d'aller cliquer dans un
+tableau de bord. Pour une voix clonée d'avocat, cette fenêtre est inacceptable.
+
+`tools/voicebox_tunnel.py` inverse l'ordre : le portail existe **avant** que le
+nom d'hôte ne résolve.
+
+```
+1. jeton de service       l'identité qui aura le droit d'entrer
+2. application Access     le portail            ← avant que le nom existe
+3. politique              n'accepte que ce jeton
+4. tunnel + route DNS     le nom se met à résoudre, déjà protégé
+5. vérification           sans jeton → refusé ; avec jeton → 200
 ```
 
-À ce stade l'instance est **publique**. Ne pas s'arrêter ici.
+### Ce qu'il faut avoir sous la main
 
-### 2. Fermer la porte — une application Access
+- `cloudflared` installé sur le poste (macOS : `brew install cloudflared` ;
+  Windows : `winget install --id Cloudflare.cloudflared`), puis
+  `cloudflared tunnel login` une fois, qui ouvre le navigateur ;
+- un **jeton d'API Cloudflare** avec trois droits : *Access: Apps and
+  Policies:Edit*, *Access: Service Tokens:Edit*, *DNS:Edit* ;
+- l'**identifiant de compte** Cloudflare (visible dans le tableau de bord).
 
-Dans le tableau de bord Cloudflare, *Zero Trust → Access → Applications*,
-créer une application self-hosted sur `voicebox.lexvox-victime.com`, puis
-une politique **Service Auth** qui n'accepte qu'un **jeton de service**.
-Cloudflare rend alors un identifiant et un secret.
+### La commande
 
-Tout ce qui n'a pas ces deux en-têtes est refusé **avant** d'atteindre le
-poste : le GPU ne tourne pas, et la voix clonée reste inatteignable.
+```bash
+export CLOUDFLARE_API_TOKEN="…"
+export CLOUDFLARE_ACCOUNT_ID="…"
 
-### 3. Sur la machine qui pilote, les deux secrets dans l'environnement
+python3 tools/voicebox_tunnel.py --installer \
+    --hote voicebox.lexvox-victime.com
+```
+
+Elle est **rejouable** : un tunnel, une application ou un jeton déjà créés
+sont réutilisés, pas dupliqués. À la fin, elle affiche le couple identifiant /
+secret du jeton de service — **Cloudflare ne réaffichera jamais ce secret**.
+
+Puis, sur le poste, à laisser tourner :
+
+```bash
+cloudflared tunnel run voicebox-lexvox
+```
+
+Et enfin, le seul contrôle qui compte :
+
+```bash
+python3 tools/voicebox_tunnel.py --verifier --hote voicebox.lexvox-victime.com
+```
+
+Il vérifie que **sans jeton, l'instance refuse**. S'il annonce l'inverse, il
+dit de couper le tunnel immédiatement.
+
+### Les deux secrets, dans l'environnement
 
 ```bash
 export VOICEBOX_CF_ID="…​.access"
@@ -56,7 +117,7 @@ Jamais dans un fichier, jamais dans un dépôt. `podcasts/voicebox.json` est
 ignoré par git, mais un fichier ignoré se copie, se joint à un courriel et se
 retrouve dans une sauvegarde — la règle du dépôt reste la règle.
 
-### 4. La configuration
+### La configuration
 
 ```json
 {
@@ -110,11 +171,18 @@ premier épisode. Elle se produit avec `PROMPT-INTRO-VOIX.md`.
 (`PROMPT-PODCAST-NOTEBOOKLM.md`). Le rendu se dépose dans
 `<racine>/<chaîne>/brut/<slug>.mp3`.
 
-## L'alternative, si publier l'instance ne convient pas
+## L'alternative, redite en clair
 
 Rien n'oblige à exposer Voicebox. La chaîne entière est faite pour tourner
-**sur le poste** : c'est même l'argument qui a fait préférer Voicebox à
-ElevenLabs — aucun texte ne sort de la machine. Dans ce cas, lancer
-`podcast_episode.py` localement ; une session distante prépare la question et
-relit, mais ne synthétise pas. Cette voie ne demande ni tunnel, ni jeton, ni
-surface exposée.
+**sur le poste** — c'est l'argument qui a fait préférer Voicebox à ElevenLabs.
+Installer Claude Code sur le Mac ou le PC du cabinet, ouvrir le dépôt, et
+lancer :
+
+```bash
+python3 tools/podcast_episode.py --chaine victimes --slug <slug> \
+    --question "…?" --debut-musique 11.7
+```
+
+Ni tunnel, ni jeton, ni compte à configurer, ni surface exposée. Une session
+distante peut toujours préparer la question, relire, corriger le code — elle
+ne synthétise simplement pas elle-même.
