@@ -26,8 +26,8 @@ parlons-en », le podcast du cabinet LEXVOX AVOCATS.
 Aujourd'hui, nous prenons le temps d'expliquer un sujet qui revient sans
 cesse dans mon cabinet : {sujet}.
 
-Pour en parler, je laisse la parole à Élise et Thomas. Élise vous explique le
-droit, Thomas pose les questions que vous vous posez. Ce sont deux voix de
+Pour en parler, je laisse la parole à Nathalie et Nicolas. Nathalie vous explique le
+droit, Nicolas pose les questions que vous vous posez. Ce sont deux voix de
 synthèse, créées par le cabinet pour rendre ces sujets techniques
 accessibles ; l'analyse, elle, vient de mon article « {titre} », que vous
 retrouvez sur notre site.

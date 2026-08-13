@@ -45,7 +45,7 @@ soit **4 journées de production** au quota de 20 générations/jour (§3.4).
 Chaque épisode est composé de deux blocs assemblés : une **introduction de
 25–35 s dite par l'avocat lui-même** (voix clonée ElevenLabs), puis le débat
 NotebookLM. Les deux animateurs du débat sont les mêmes dans les trois
-chaînes : **Élise**, la juriste pédagogue, et **Thomas**, le journaliste
+chaînes : **Nathalie**, la juriste pédagogue, et **Nicolas**, le journaliste
 curieux — deux voix de synthèse que l'introduction présente nommément et
 annonce comme telles (cf. `PROMPT-MONTAGE-DIFFUSION.md` §1 et §A3).
 

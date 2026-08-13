@@ -69,14 +69,45 @@ Décision à prendre : oui/non.
 
 | Rôle | Prénom | Fonction dans le débat |
 |---|---|---|
-| Voix féminine | **Élise** | la juriste pédagogue : explique le droit |
-| Voix masculine | **Thomas** | le journaliste curieux : pose les questions de l'auditeur |
+| Voix féminine | **Nathalie** | la juriste pédagogue : explique le droit |
+| Voix masculine | **Nicolas** | le journaliste curieux : pose les questions de l'auditeur |
 
-Choisis pour être clairement genrés à l'oreille, faciles à prononcer par une
-synthèse vocale, et sans collision avec l'existant du cabinet : pas de
-Patrice ni de Cédrine (les avocats), pas de Juliette (l'assistante virtuelle
-de `lexvox-divorce.com`), pas d'Antoine (la rue du bureau de Marignane, lue
-dans les adresses).
+### Pourquoi ces deux prénoms (données INSEE, recherche du 2026-08-13)
+
+Le critère n'est pas le prénom le plus donné aujourd'hui, mais celui qui
+sonne comme un **contemporain de l'auditeur**. Le public visé — victimes
+d'accident, personnes qui divorcent, conducteurs — a majoritairement entre 30
+et 65 ans, donc est né entre 1961 et 1996.
+
+- **Nathalie** : prénom féminin n° 1 en France **sept années consécutives**
+  (1965-1971), 382 978 porteuses, **6ᵉ** de tout le classement féminin depuis
+  1900. Aucun autre prénom féminin encore perçu comme « adulte moderne »
+  n'atteint cette diffusion.
+- **Nicolas** : prénom masculin n° 1 en **1980, 1981, 1982 et 1995**,
+  405 952 porteurs, **18ᵉ** de tout le classement masculin depuis 1900 — le
+  seul prénom masculin récent du top 20 tous temps confondus. Ce double pic,
+  à quinze ans d'écart, lui donne une reconnaissance qui traverse les
+  générations.
+
+Écartés, et pourquoi — la vérification a été faite sur votre propre corpus :
+
+| Prénom | Statut | Motif d'exclusion |
+|---|---|---|
+| **Marie** | n° 1 absolu (2 231 347) | collision phonétique avec « mariage » et « se marier », omniprésents sur la chaîne famille ; et avec Les Saintes-Maries-de-la-Mer dans vos zones d'intervention |
+| **Jean** | n° 1 absolu (1 911 457) | collision avec **Jean-Pierre Dintilhac**, cité dans presque chaque épisode de la chaîne victimes ; et sonne comme un homme de 80 ans (pic 1900-1957) |
+| Louise, Jade / Gabriel, Raphaël | n° 1 des naissances 2024 | ce sont des prénoms d'enfants : un auditeur de 45 ans n'y entend pas un pair |
+| Julien | n° 1 de 1983 à 1988 | le concurrent `avocatjullien.fr` |
+| Céline | n° 1 de 1978 à 1981 | trop proche de **Cédrine** Raybaud |
+| Julie | n° 1 en 1987 | **Juliette**, l'assistante virtuelle de `lexvox-divorce.com` |
+| Kévin | n° 1 de 1989 à 1994 | stéréotype social défavorable bien documenté en France — inadapté à un podcast juridique |
+| Antoine | — | la rue du bureau de Marignane, lue dans les adresses |
+
+Une enquête Flashs/IRSS de février 2025 (2 000 personnes) conforte ce choix :
+le premier critère des Français au moment de choisir un prénom est **« une
+prononciation simple et claire » (33 %)**, et **27 % reconnaissent avoir déjà
+jugé un inconnu sur son prénom**. Nathalie et Nicolas ne se prêtent à aucune
+hésitation de prononciation, ni à aucune ambiguïté de genre — ce qui compte
+doublement pour une synthèse vocale.
 
 Le choix d'attribuer l'expertise juridique à la voix féminine et les
 questions à la voix masculine est délibéré : il évite le cliché de l'expert
@@ -90,7 +121,7 @@ Les prénoms sont déclarés à **trois endroits**, qui doivent rester cohérent
 
 ⚠️ **À vérifier au pilote :** NotebookLM ne respecte pas toujours les
 prénoms imposés. Si l'épisode pilote ne les emploie pas, ne pas diffuser une
-intro qui annonce « Élise et Thomas » alors que le débat ne les nomme jamais —
+intro qui annonce « Nathalie et Nicolas » alors que le débat ne les nomme jamais —
 soit on renforce la consigne, soit on retire les prénoms de l'intro.
 
 ---

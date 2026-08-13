@@ -89,7 +89,7 @@ def self_test() -> int:
         if not condition:
             echecs.append(libelle)
 
-    gabarit = ("Bonjour, ici {titre}. Élise et Thomas, deux voix de synthèse, "
+    gabarit = ("Bonjour, ici {titre}. Nathalie et Nicolas, deux voix de synthèse, "
                "vous parlent de {sujet}.")
     rendu = composer(gabarit, "Mon Titre", "l'indemnisation")
     verifier("substitution titre", "Mon Titre" in rendu)
@@ -98,7 +98,7 @@ def self_test() -> int:
 
     for mauvais, motif in (
             ("Bonjour {titre}, avec {inconnu}.", "variable non remplacee"),
-            ("Bonjour {titre}, Élise et Thomas animent.", "mention absente")):
+            ("Bonjour {titre}, Nathalie et Nicolas animent.", "mention absente")):
         essais += 1
         try:
             composer(mauvais, "T", "s")
@@ -113,7 +113,7 @@ def self_test() -> int:
         try:
             texte = composer(extraire_gabarit(chemin), "Titre d'essai",
                              "un sujet d'essai")
-            for prenom in ("Élise", "Thomas"):
+            for prenom in ("Nathalie", "Nicolas"):
                 if prenom not in texte:
                     echecs.append(f"{chaine} : prenom {prenom} absent")
                     break

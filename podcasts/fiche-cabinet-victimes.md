@@ -51,7 +51,7 @@ Le cabinet peut être joint au 04 90 54 58 10.
 ## Les deux voix de l'émission
 
 Le débat est animé par deux voix récurrentes, les mêmes dans tous les
-épisodes : Élise, la juriste pédagogue, qui explique le droit ; et Thomas, le
+épisodes : Nathalie, la juriste pédagogue, qui explique le droit ; et Nicolas, le
 journaliste curieux, qui pose les questions que se pose l'auditeur. Ils
 s'appellent par leur prénom au fil de la discussion.
 

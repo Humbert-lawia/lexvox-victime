@@ -218,9 +218,9 @@ lexvox-victime.
 
 Chacun tient sous la limite de 500 caractères du champ D3.
 
-### Personnalisation — chaîne VICTIMES (476 caractères)
+### Personnalisation — chaîne VICTIMES (480 caractères)
 
-> Débat entre deux voix nommées : Élise, juriste pédagogue, et Thomas,
+> Débat entre deux voix nommées : Nathalie, juriste pédagogue, et Nicolas,
 > journaliste curieux. Ils s'appellent par leur prénom. Utilisez uniquement
 > les deux sources : l'article (le fond juridique) et la fiche cabinet
 > (contexte et conclusion). Vulgarisez chaque terme technique. Faites
@@ -228,9 +228,9 @@ Chacun tient sous la limite de 500 caractères du champ D3.
 > assureurs. Durée : moins de 5 minutes. Terminez les 30 dernières secondes
 > par la conclusion donnée dans la fiche cabinet.
 
-### Personnalisation — chaîne FAMILLE (468 caractères)
+### Personnalisation — chaîne FAMILLE (472 caractères)
 
-> Débat entre deux voix nommées : Élise, juriste pédagogue, et Thomas,
+> Débat entre deux voix nommées : Nathalie, juriste pédagogue, et Nicolas,
 > journaliste curieux. Ils s'appellent par leur prénom. Utilisez uniquement
 > les deux sources : l'article (le fond juridique) et la fiche cabinet
 > (contexte et conclusion). Vulgarisez chaque terme technique. Faites
@@ -238,9 +238,9 @@ Chacun tient sous la limite de 500 caractères du champ D3.
 > séparation. Durée : moins de 5 minutes. Terminez les 30 dernières secondes
 > par la conclusion donnée dans la fiche cabinet.
 
-### Personnalisation — chaîne PERMIS (454 caractères)
+### Personnalisation — chaîne PERMIS (458 caractères)
 
-> Débat entre deux voix nommées : Élise, juriste pédagogue, et Thomas,
+> Débat entre deux voix nommées : Nathalie, juriste pédagogue, et Nicolas,
 > journaliste curieux. Ils s'appellent par leur prénom. Utilisez uniquement
 > les deux sources : l'article (le fond juridique) et la fiche cabinet
 > (contexte et conclusion). Vulgarisez chaque terme technique. Faites
