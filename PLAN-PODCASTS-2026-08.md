@@ -7,13 +7,17 @@ l'architecture cible (§3), le plan d'action phasé (§4) et les décisions à
 valider par Me Humbert (§5).
 
 Fichiers liés :
-- `PROMPT-PODCAST-NOTEBOOKLM.md` — le prompt maître réécrit (v2), à utiliser
+- `PROMPT-PODCAST-NOTEBOOKLM.md` — le prompt maître réécrit (v3), à utiliser
   dans une session Claude **sur le poste de Me Humbert** (voir §3.1).
-- `podcasts/queue-podcast-TEMPLATE.csv` — gabarit du fichier d'état (généré
-  une seule fois par chaîne depuis Search Console).
+- `podcasts/queue-podcast.csv` — **le** fichier d'état, unique pour les trois
+  chaînes (colonne `chaine`), rempli une seule fois depuis Search Console.
 - `podcasts/fiche-cabinet-victimes.md` / `-famille.md` / `-permis.md` — la
   « fiche cabinet » injectée comme **seconde source** dans chaque notebook
-  (présentation + conclusion/CTA, textes verrouillés déontologiquement).
+  (présentation + conclusion/CTA, textes verrouillés déontologiquement). Le
+  Markdown est la source ; `tools/fiche_to_pdf.py` en produit le **PDF**
+  (téléversé dans NotebookLM) et le **DOCX** (relecture dans Google Docs).
+- `podcasts/CALIBRATION-NOTEBOOKLM.md` — carnet d'interface rempli par
+  l'agent au pilote de chaque chaîne.
 
 ---
 
@@ -26,7 +30,8 @@ Fichiers liés :
 | **Permis** | conducteurs (suspension, annulation, alcool/stupéfiants) | ⚠️ à confirmer (pages/landing permis du cabinet) | « Permis en danger » |
 
 Chaque chaîne = 24 épisodes (les 24 meilleurs articles GSC), un notebook
-NotebookLM par article, un épisode < 5 min par notebook. Total : 72 épisodes.
+NotebookLM par article, un épisode < 5 min par notebook. Total : 72 épisodes,
+soit **4 journées de production** au quota de 20 générations/jour (§3.4).
 
 ---
 
@@ -49,24 +54,28 @@ NotebookLM par article, un épisode < 5 min par notebook. Total : 72 épisodes.
    NotebookLM va soit ignorer ces consignes (source unique oblige), soit les
    halluciner. **Correction v2 :** chaque notebook reçoit **deux sources** —
    l'article (le fond) + la « fiche cabinet » (présentation et conclusion).
-   La règle « sources exclusives » devient alors cohérente et tenable.
+   La règle « sources exclusives » devient alors cohérente et tenable. La
+   fiche est un **PDF téléversé**, identique pour tous les épisodes d'une
+   chaîne : un fichier à joindre au lieu d'un copier-coller par épisode,
+   soit 72 manipulations et autant d'occasions d'erreur en moins.
 2. **Prompt mono-article à trous, sans état.** `[INSÉRER L'URL]` = une session
    manuelle par article, aucune trace de ce qui est fait/raté. Impossible de
    tenir 24 épisodes × 3 chaînes. **Correction v2 :** boucle pilotée par un
-   **CSV d'état** (généré une fois depuis GSC, cf. §3.3) : l'agent prend la
-   première ligne `todo`, la traite, met à jour la ligne, passe à la suivante.
+   **CSV d'état unique** pour les trois chaînes (généré une fois depuis GSC,
+   cf. §3.3) : l'agent filtre sur la colonne `chaine`, prend la première
+   ligne `todo`, la traite, met à jour la ligne, passe à la suivante.
 3. **Le champ « Personnaliser » de NotebookLM est limité** (~500 caractères
    constatés ; à re-vérifier en calibration). Le texte de personnalisation du
    prompt initial fait ~2 300 caractères : il serait **tronqué silencieusement**.
-   **Correction v2 :** personnalisation courte (< 450 caractères) + tout le
-   contenu long (biographie, CTA mot à mot) déplacé dans la fiche cabinet
-   (source n° 2), que les hôtes peuvent citer intégralement.
-4. **Quotas ignorés.** NotebookLM limite les générations audio (ordre de
-   grandeur : ~3/jour en gratuit, ~20/jour avec l'abonnement payant — chiffres
-   à confirmer en calibration, Google les fait évoluer). Lancer 24 générations
-   d'affilée échouera. **Correction v2 :** production par **lots de 3 à 5
-   épisodes/session**, arrêt propre à la première erreur de quota, reprise le
-   lendemain grâce au CSV.
+   **Correction v2 :** personnalisation courte (443 à 448 caractères selon la
+   chaîne, comptés exactement) + tout le contenu long (biographie, CTA mot à
+   mot) déplacé dans la fiche cabinet (source n° 2), que les hôtes peuvent
+   citer intégralement.
+4. **Quotas ignorés.** NotebookLM limite les générations audio. Le cabinet
+   dispose de l'**abonnement payant : 20 générations/jour** (confirmé
+   2026-08-13). Lancer 24 générations d'affilée échouerait quand même.
+   **Correction v2 :** compteur quotidien tenu dans le journal, arrêt propre
+   des lancements à 20, reprise le lendemain grâce au CSV.
 5. **Aucune phase de sélection.** Le prompt suppose l'URL connue ; votre
    demande (top 24 GSC → CSV) n'y figure pas. **Correction v2 :** Phase 1
    dédiée (§4), exécutée une seule fois par chaîne.
@@ -99,45 +108,53 @@ NotebookLM par article, un épisode < 5 min par notebook. Total : 72 épisodes.
     définit timeout 15 min, 1 seul retry après 60 s, puis `status=error`
     journalisé — jamais de clics au hasard dans l'interface.
 
-### 2.4 Risques déontologiques (RIN, loi n° 71-1130) — à arbitrer AVANT production
+### 2.4 Risques déontologiques (RIN, loi n° 71-1130) — ✅ ARBITRÉS le 2026-08-13
 
 Un podcast diffusé en masse est de la **publicité personnelle** (RIN art.
-10.2 : sincère et véridique, sans mention comparative). Trois points :
+10.2 : sincère et véridique, sans mention comparative). Me Humbert a validé
+les quatre corrections ci-dessous, désormais figées dans
+`podcasts/fiche-cabinet-victimes.md` (et son PDF) :
 
-12. **« 1er avocat certifié en Intelligence Artificielle en France »** : c'est
-    un superlatif comparatif. Le site l'utilise déjà (choix assumé du
-    cabinet), mais le répéter oralement dans 72 épisodes sur les plateformes
-    d'écoute augmente l'exposition au risque. Les fiches cabinet proposent la
-    variante factuelle « avocat certifié en intelligence artificielle,
-    créateur d'outils d'évaluation des préjudices » ; **si Me Humbert souhaite
-    conserver le superlatif, décision expresse à noter en §5**.
+12. **« 1er avocat certifié en IA en France »** : superlatif comparatif,
+    **retiré de l'audio** au profit de la variante factuelle « avocat
+    certifié en intelligence artificielle, créateur d'outils d'analyse des
+    préjudices ». Le superlatif reste sur le site — il n'est simplement pas
+    répété à l'oral dans 72 épisodes.
 13. **Honoraires.** « un pourcentage sur les sommes obtenues » seul décrit un
-    pacte de quota litis prohibé (art. 10, loi 71-1130). La formule déjà
-    validée sur le site est reprise mot à mot dans les fiches : *convention
-    d'honoraires transparente avec une part fixe et un complément au
-    résultat*. Aucune autre formulation ne doit sortir dans l'audio.
+    pacte de quota litis prohibé (art. 10, loi 71-1130). Formule retenue :
+    *convention d'honoraires signée avant intervention, comprenant une part
+    fixe et un complément calculé sur le résultat*. Aucune autre formulation
+    ne doit sortir dans l'audio, et **aucun montant** (les 700 € HT et le
+    10–15 % du site ne sont pas cités : ils varient et vieillissent mal).
 14. **Promesse de résultat.** « obtenir une réparation intégrale » promet un
-    résultat. Les fiches disent : *« faire valoir vos droits à la réparation
-    intégrale »*. De même, **ne mentionner que les titres réellement
-    détenus** : la mention « Spécialiste CNB dommage corporel » figure sur le
-    site ; l'ajout « et Responsabilité Médicale » comme spécialisation CNB est
-    à confirmer sur le certificat (la spécialisation officielle voisine est
-    « droit de la santé »). Et surtout : **ne pas recycler la fiche victimes
-    dans les chaînes famille et permis** — chaque chaîne a sa fiche, limitée
-    aux titres vérifiés pour ce domaine.
+    résultat → remplacé par *« faire valoir vos droits à la réparation
+    intégrale »*. Les indemnisations déjà obtenues ne sont pas mentionnées.
+15. **Titres réellement détenus** (vérifiés dans `index.html`, bloc auteur) :
+    certificat de spécialisation CNB **en droit du dommage corporel**
+    uniquement — la responsabilité médicale n'est PAS présentée comme une
+    spécialisation CNB ; Master en droit de la santé ; DU sciences
+    criminelles ; formation en faculté de médecine sur les traumatismes
+    cranio-cérébraux. **Ne pas recycler la fiche victimes dans les chaînes
+    famille et permis** — chaque chaîne a sa fiche, limitée aux titres
+    vérifiés pour son domaine.
+
+**Garde-fou outillé :** `tools/fiche_to_pdf.py` refuse de générer le PDF
+d'une fiche contenant encore une mention « À VALIDER » ou « ⚠ ». Un texte
+non arbitré ne peut donc pas partir dans l'audio par inadvertance.
 
 ### 2.5 Choix d'outillage : rôle des outils sur le poste
 
 - **Pas d'apprentissage par démonstration à l'écran** (décision Me Humbert,
   2026-08-13) : une génération dure ~10 min, trop long à montrer en direct.
-  En compensation, le prompt v2.1 décrit chaque action au niveau
+  En compensation, le prompt v3 décrit chaque action au niveau
   « computer use » (référentiel d'interface écran par écran, critère de
   réussite et repli après chaque clic), et la première session de chaque
   chaîne est un **MODE PILOTE** : l'agent déroule UN épisode seul, consigne
   l'interface réellement rencontrée dans
   `podcasts/CALIBRATION-NOTEBOOKLM.md`, et l'épisode est écouté et validé
-  par Me Humbert avant la production en série. Le partage d'écran reste
-  possible en dépannage (voir ce que voit l'agent), jamais requis.
+  par Me Humbert avant la production en série. Me Humbert enregistre son
+  écran de son côté, en parallèle : cet enregistrement sert de référence
+  visuelle et de dépannage, il ne conditionne pas le déroulé de l'agent.
 - Pour **agir** (cliquer, coller, télécharger), il faut le pilotage de
   navigateur **sur votre poste** (extension Claude pour Chrome, ou le
   pilotage d'ordinateur de Cowork). Gros avantage : votre session Google y
@@ -162,57 +179,72 @@ Un podcast diffusé en masse est de la **publicité personnelle** (RIN art.
 
 | Où | Quoi |
 |---|---|
-| **Poste de Me Humbert** (Claude + navigateur connecté) | Export GSC (Phase 1), pilotage NotebookLM (Phases 2–3), post-traitement audio local (ffmpeg), dossier de travail `~/LEXVOX-PODCASTS/<chaine>/` |
-| **Ce dépôt** (atelier) | Plan, prompt maître, fiches cabinet, CSV d'état commité après chaque lot, `podcasts/PODCAST-TRACKER.md`, journal des incidents |
+| **Poste de Me Humbert** (Claude + navigateur connecté) | Export GSC (Phase 1), pilotage NotebookLM (Phases 2–3), post-traitement audio local (ffmpeg), dossier de travail `~/LEXVOX-PODCASTS/` |
+| **Ce dépôt** (atelier) | Plan, prompt maître, fiches cabinet (Markdown → PDF/DOCX), CSV d'état commité après chaque session, `podcasts/PODCAST-TRACKER.md`, journal des incidents |
 | **Plateformes** | Hébergeur RSS + intégration sur les pages articles (Phase 4) |
 
-### 3.2 Flux (par chaîne)
+### 3.2 Flux — pipeline glissant
 
 Une génération dure **~10 min** et continue en arrière-plan quand on quitte
-le notebook : la boucle est donc **en tuilage** (deux phases), pour ne
-jamais attendre passivement devant une barre de progression.
+le notebook. La boucle maintient donc **5 générations en vol** : on lance
+tant qu'il reste de la place et du quota, on récolte dès qu'un épisode est
+mûr. Aucune attente passive devant une barre de progression.
 
 ```
-GSC (une fois) ──► CSV top 24 ──► [lot de 3 à 5 épisodes]
+GSC (une fois) ──► CSV unique (colonne chaine) ──► session du jour (20 max)
 
-PHASE A — LANCEMENTS (à la suite, sans attendre les générations)
-   pour chaque épisode : notebook neuf
-     ► source 1 : URL article (repli : texte collé)
-     ► source 2 : fiche cabinet (texte collé)
-     ► Personnaliser : format Débat + durée courte + texte court, langue FR
-     ► Générer ► CSV status=generating + launched_at ► épisode suivant
+    ┌── moins de 5 en vol ET quota du jour restant ? ──► LANCEMENT
+    │      notebook neuf
+    │        ► source 1 : URL article (repli : texte collé)
+    │        ► source 2 : fiche-cabinet-<chaine>.pdf (téléversé, identique
+    │                     pour tous les épisodes de la chaîne)
+    │        ► Personnaliser : Débat + durée courte + texte < 500 car., FR
+    │        ► Générer ► CSV status=generating + launched_at
+    │
+    └── sinon ──────────────────────────────────────► RÉCOLTE
+           le plus ancien dont launched_at + 8 min est dépassé
+             ► lecteur présent ? ► Télécharger ► ffmpeg (MP3, loudnorm,
+               tags) ► QA durée ► CSV status=done
 
-PHASE B — RÉCOLTES (dans l'ordre des lancements, dès launched_at + 8 min)
-   lecteur présent ? ► Télécharger ► post-traitement local
-   (renommer, MP3, loudnorm, tags) ► QA durée ► CSV status=done
-
-[fin de lot] ► commit CSV + tracker ► [Phase 4] hébergement, intégration, mesure
+[fin de session] ► commit CSV + journal ► [Phase 4] hébergement, mesure
 ```
 
-### 3.3 Le CSV d'état (généré UNE fois par chaîne, puis seule source de vérité)
+### 3.3 Le CSV d'état (UN seul fichier, seule source de vérité)
 
-Colonnes (gabarit dans `podcasts/queue-podcast-TEMPLATE.csv`) :
-`rank,site,url,slug,title,clicks_12m,impressions_12m,position_avg,status,launched_at,audio_file,generated_at,published_at,notes`
+`podcasts/queue-podcast.csv`, colonnes :
+`chaine,rank,site,url,slug,title,clicks_12m,impressions_12m,position_avg,status,launched_at,audio_file,generated_at,published_at,notes`
 
+- **Un seul CSV pour les trois chaînes** (arbitrage 2026-08-13) : la colonne
+  `chaine` sépare les files, l'agent filtre dessus en début de session. Un
+  seul fichier à committer, à sauvegarder et à consulter pour voir
+  l'avancement global des 72 épisodes.
 - Sélection GSC : **Performances › Résultats de recherche › 12 derniers mois ›
   dimension Pages**, export, puis filtre éditorial : articles uniquement
   (exclure accueil, pages piliers/landing, contact, catégories), fusion des
-  propriétés si plusieurs sites, dédoublonnage, tri par clics → **top 24**.
+  propriétés si plusieurs sites, dédoublonnage, tri par clics → **top 24**
+  par chaîne, ajoutés au CSV avec leur valeur de `chaine`.
 - `status` : `todo → doing → generating → done` (+ `error`, `skipped`).
-  `generating` + `launched_at` permettent le tuilage et la reprise : une
-  ligne restée `generating` d'une session interrompue est récoltée en
-  priorité à la session suivante. `published_at` n'est rempli qu'en
-  Phase 4. Un épisode `error` est repris au lot suivant après lecture de
-  la note.
+  `generating` + `launched_at` permettent le pipeline glissant et la
+  reprise : une ligne restée `generating` d'une session interrompue est
+  récoltée en priorité à la session suivante. `published_at` n'est rempli
+  qu'en Phase 4. Un épisode `error` est repris à la session suivante après
+  lecture de la note.
 
-### 3.4 Cadence réaliste
+### 3.4 Cadence réelle
 
-Grâce au tuilage, un lot de 3 épisodes ≈ **30–40 min** de session (les
-~10 min de génération de chaque épisode sont recouvertes par les lancements
-et récoltes des autres) au lieu de ~45 min en séquentiel. Une chaîne de
-24 épisodes = **5 à 8 sessions**, soit ~2 semaines par chaîne en rythme
-tranquille, ou les 3 chaînes en ~6 semaines. L'abonnement NotebookLM payant
-(quota ~20/jour) est fortement conseillé pour tenir ce rythme.
+Abonnement NotebookLM **payant : 20 générations/jour** (confirmé
+2026-08-13), toutes chaînes confondues. Avec le pipeline glissant, ces 20
+épisodes tiennent en **~3 h 30 de session** (lancement ~3 min, génération
+~10 min recouverte, récolte + post-traitement ~4 min).
+
+| | Épisodes | Journées de production |
+|---|---|---|
+| Une chaîne | 24 | 2 (20 + 4) |
+| Les trois chaînes | 72 | **4 journées** |
+
+En pratique, prévoir 5 à 6 journées avec le pilote de chaque chaîne et la
+marge d'erreurs. Le facteur limitant n'est plus le quota mais la QA humaine
+et la Phase 4 (mise en ligne).
 
 ---
 
@@ -220,29 +252,40 @@ tranquille, ou les 3 chaînes en ~6 semaines. L'abonnement NotebookLM payant
 
 | Phase | Contenu | Qui | Livrable |
 |---|---|---|---|
-| **0. Cadrage** (1 session) | Choix des sites famille/permis ; vérif accès GSC des propriétés ; abonnement NotebookLM ; **validation des 3 fiches cabinet** (déonto §2.4) ; choix distribution (§4-Phase 4) ; noms des chaînes | Me Humbert + Claude | Décisions du §5 arbitrées, fiches validées commitées |
-| **1. Sélection** (1 fois/chaîne, ~30 min) | Sur votre poste (Claude in Chrome) : GSC › Performances › 12 mois › Pages › export ; fusion/filtre/tri ; top 24 | Claude in Chrome (vous en survol) | `podcasts/<chaine>/queue-podcast.csv` commité |
-| **2. Pilote autonome** (1 épisode) | L'agent computer use déroule seul UN épisode complet (MODE PILOTE du prompt v2.1), consigne l'interface réelle dans `podcasts/CALIBRATION-NOTEBOOKLM.md` ; puis **écoute et validation du pilote par vous** (ton, CTA, exactitude) — remplace la démonstration à l'écran, abandonnée (génération ~10 min) | Claude in Chrome, puis Me Humbert (écoute) | Carnet de calibration rempli ; épisode pilote validé |
-| **3. Production** (5–8 sessions/chaîne) | Claude in Chrome déroule `PROMPT-PODCAST-NOTEBOOKLM.md` par lots de 3–5 ; post-traitement ffmpeg ; QA ; CSV mis à jour et commité en fin de lot | Claude (vous en survol) | 24 fichiers MP3 normalisés + CSV `done` |
+| **0. Cadrage** | ✅ **fait le 2026-08-13** pour : déontologie (§2.4), fiche victimes, PDF comme source, CSV unique, quota 20/j. **Reste** : sites GSC famille/permis, fiches famille/permis à compléter, canal de distribution | Me Humbert + Claude | Fiche victimes figée (`.md` + `.pdf` + `.docx`) |
+| **1. Sélection** (1 fois/chaîne, ~30 min) | Sur votre poste (Claude in Chrome) : GSC › Performances › 12 mois › Pages › export ; fusion/filtre/tri ; top 24 ajoutés au CSV avec leur `chaine` | Claude in Chrome (vous en survol) | `podcasts/queue-podcast.csv` rempli et commité |
+| **2. Pilote autonome** (1 épisode) | L'agent computer use déroule seul UN épisode complet (MODE PILOTE du prompt v3), consigne l'interface réelle dans `podcasts/CALIBRATION-NOTEBOOKLM.md` ; puis **écoute et validation du pilote par vous** (ton, CTA, exactitude) — remplace la démonstration à l'écran, abandonnée (génération ~10 min) | Claude in Chrome, puis Me Humbert (écoute) | Carnet de calibration rempli ; épisode pilote validé |
+| **3. Production** (~2 journées/chaîne) | Claude in Chrome déroule `PROMPT-PODCAST-NOTEBOOKLM.md` en pipeline glissant, 20 générations/jour ; post-traitement ffmpeg ; QA ; CSV mis à jour et commité en fin de session | Claude (vous en survol) | 24 fichiers MP3 normalisés + CSV `done` |
 | **4. Publication & mesure** | Hébergeur RSS (Spotify for Creators gratuit, ou Ausha, français) → Spotify/Apple/Deezer/YouTube ; intégration `<audio>` + transcription + JSON-LD `AudioObject` sur les pages articles **WordPress** ; pour `lexvox-victime.com` (Sanity) l'intégration = évolution du frontend Next.js, **sur demande expresse uniquement** (règle CLAUDE.md) — en attendant, plateformes seulement ; liens UTM ; revue mensuelle des écoutes dans `podcasts/PODCAST-TRACKER.md` | Claude + webmaster | Épisodes en ligne + tracker |
 | **5. Déclinaison** | Rejouer Phases 1→4 pour Famille puis Permis avec leurs variables (fiches, CTA, sites) | idem | 3 chaînes actives |
 
 ---
 
-## 5. Décisions à valider par Me Humbert (bloquantes avant Phase 1)
+## 5. Décisions
 
-1. **Sites sources** de la chaîne Victimes (les 3 propriétés, ou `medical`
-   seul pour démarrer ?) ; propriétés GSC exactes pour **Famille** et **Permis**.
-2. **Formulation IA** dans l'audio : variante factuelle (recommandée, déjà
-   dans les fiches) ou superlatif « 1er avocat certifié IA de France »
-   (décision expresse à tracer ici).
-3. **Certificats de spécialisation exacts** à citer (dommage corporel : oui ;
-   « responsabilité médicale »/« droit de la santé » : à confirmer sur le
-   certificat CNB) — et titres citables pour famille/permis.
-4. **Abonnement NotebookLM** payant : oui/non.
-5. **Canal de distribution** : hébergeur RSS retenu + ordre des plateformes.
-6. **Plan B TTS** : accord de principe pour basculer si la calibration révèle
-   une automatisation NotebookLM trop fragile.
+### ✅ Arbitrées le 2026-08-13
+
+| Sujet | Décision |
+|---|---|
+| Fiche cabinet | Document dédié, **téléversé en PDF** comme seconde source de chaque notebook (`.docx` fourni pour relecture dans Google Docs / Word) |
+| Personnalisation | **< 500 caractères** — textes figés à 443/448/444 selon la chaîne |
+| File de production | **Un seul CSV** pour les trois chaînes (`podcasts/queue-podcast.csv`, colonne `chaine`) |
+| Quota NotebookLM | Abonnement **payant : 20 générations/jour** |
+| Déontologie | Corrections §2.4 adoptées : variante factuelle pour l'IA, honoraires part fixe + résultat, aucune promesse de résultat, spécialisation CNB dommage corporel seule |
+| Calibration | Pas de démonstration filmée ; **pilote autonome** + carnet de calibration. Me Humbert enregistre son écran de son côté, en parallèle |
+
+### ⏳ Restant à trancher (bloquantes avant Phase 1)
+
+1. **Propriétés Search Console** : périmètre exact de la chaîne Victimes
+   (les 3 sites, ou `medical.lexvox-avocat.fr` seul pour démarrer ?) et
+   propriétés à utiliser pour **Famille** et **Permis**.
+2. **Contenu des fiches famille et permis** : titres citables dans ces deux
+   domaines et conditions du premier rendez-vous (les squelettes portent les
+   emplacements ⚠️ ; `tools/fiche_to_pdf.py` refuse de générer leur PDF tant
+   qu'ils sont là).
+3. **Canal de distribution** : hébergeur RSS retenu + ordre des plateformes.
+4. **Plan B TTS** : accord de principe pour basculer si le pilote révèle une
+   automatisation NotebookLM trop fragile.
 
 ---
 

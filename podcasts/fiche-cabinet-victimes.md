@@ -1,58 +1,93 @@
-# Fiche cabinet — chaîne VICTIMES (source n° 2 de chaque notebook)
+# Fiche de présentation — Cabinet LEXVOX AVOCATS
 
-Statut : **rédigée, à faire valider par Me Humbert (Phase 0)** — publicité
-personnelle, textes verrouillés (RIN art. 10.2 : sincère, véridique, sans
-mention comparative). Voir `PLAN-PODCASTS-2026-08.md` §2.4.
+## Document de contexte pour l'émission
 
----
+Ce document accompagne l'article commenté dans cet épisode. Il ne contient
+aucune analyse juridique : il sert uniquement à présenter l'auteur de
+l'article et le cabinet, et il fournit la conclusion à prononcer à la fin de
+l'émission. Toute l'analyse du sujet doit venir de l'article lui-même.
 
-FICHE DE PRÉSENTATION DU CABINET (à utiliser par les hôtes pour le contexte
-et pour la conclusion de l'épisode).
+## L'auteur des articles
 
-Qui est l'auteur des articles commentés :
+Maître Patrice Humbert est avocat au Barreau d'Aix-en-Provence et gérant de
+la SELARL LEXVOX AVOCATS, dont le siège est à Arles.
 
-Maître Patrice Humbert est avocat au Barreau d'Aix-en-Provence, gérant du
-cabinet LEXVOX AVOCATS. Il est titulaire du certificat de spécialisation en
-droit du dommage corporel délivré sous l'égide du Conseil National des
-Barreaux, et défend exclusivement les victimes depuis plus de vingt ans :
+Il est titulaire du certificat de spécialisation en droit du dommage
+corporel, délivré sous l'égide du Conseil National des Barreaux, et consacre
+sa pratique depuis plus de vingt ans à la défense exclusive des victimes :
 accidents de la route, erreurs médicales, accidents du travail, agressions.
 
-Il a suivi un cursus en faculté de médecine (diplômes universitaires
-médicaux), ce qui lui permet de maîtriser le langage médical et de discuter
-pied à pied les expertises des médecins d'assurance.
+Sa formation associe le droit et la médecine : Master en droit de la santé,
+diplôme universitaire en sciences criminelles, et formation en faculté de
+médecine sur les traumatismes cranio-cérébraux. Cette double culture lui
+permet de lire lui-même les pièces médicales d'un dossier, de préparer les
+expertises et de discuter les conclusions des médecins mandatés par les
+assureurs avec des arguments médicalement fondés.
 
-Il est également avocat certifié en intelligence artificielle et a créé des
-outils d'analyse pour évaluer chaque poste de préjudice avec précision.
+Il est par ailleurs avocat certifié en intelligence artificielle et a
+développé des outils d'analyse pour évaluer chaque poste de préjudice avec
+précision.
 
-Comment le cabinet travaille :
+## Le cabinet et sa manière de travailler
+
+Le cabinet défend uniquement les victimes : il n'intervient jamais pour les
+compagnies d'assurance. Son travail consiste à faire évaluer complètement
+chaque poste de préjudice de la nomenclature Dintilhac, à préparer la
+victime aux expertises médicales, et à discuter les offres d'indemnisation
+souvent inférieures à la réalité du dommage subi.
 
 Le cabinet reçoit dans ses bureaux d'Aix-en-Provence, de Salon-de-Provence,
-d'Arles et de Marignane, et intervient partout en France grâce à la
-visioconférence. La première consultation d'analyse du dossier est gratuite.
-Elle est suivie, si la victime décide de confier son dossier, d'une
-convention d'honoraires transparente comprenant une part fixe et un
-complément d'honoraires au résultat.
+d'Arles et de Marignane, et intervient partout en France par
+visioconférence.
 
-CONCLUSION OBLIGATOIRE DE L'ÉPISODE (à prononcer par les hôtes, en
-substance, dans les 30 dernières secondes) :
+Le premier rendez-vous d'analyse du dossier est gratuit, en cabinet comme en
+visioconférence. Si la victime décide ensuite de confier son dossier, une
+convention d'honoraires est signée avant toute intervention : elle comprend
+une part fixe et un complément d'honoraires calculé sur le résultat obtenu.
+Tout est écrit et connu à l'avance.
 
-« Pour faire valoir vos droits à la réparation intégrale de vos préjudices,
-ne restez pas seul face aux assureurs. Maître Patrice Humbert, avocat
-spécialiste en droit du dommage corporel, vous offre la première
-consultation d'analyse de votre dossier — à Aix-en-Provence,
-Salon-de-Provence, Arles, Marignane, ou partout en France en
-visioconférence. Ensuite, tout est transparent : une convention d'honoraires
-avec une part fixe et un complément au résultat. Prenez rendez-vous sur le
-site du cabinet ou au 04 90 54 58 10. »
+Le cabinet peut être joint au 04 90 54 58 10.
+
+## Conclusion à prononcer à la fin de l'émission
+
+Les hôtes consacrent les trente dernières secondes de l'émission à cette
+conclusion, dont ils reprennent fidèlement le contenu :
+
+> Pour faire valoir vos droits à la réparation intégrale de vos préjudices,
+> ne restez pas seul face aux assureurs. Maître Patrice Humbert, avocat
+> spécialiste en droit du dommage corporel, analyse votre dossier lors d'un
+> premier rendez-vous gratuit, dans ses bureaux d'Aix-en-Provence, de
+> Salon-de-Provence, d'Arles et de Marignane, ou partout en France en
+> visioconférence. Ensuite, tout est transparent : une convention
+> d'honoraires signée à l'avance, avec une part fixe et un complément au
+> résultat. Prenez rendez-vous sur le site du cabinet, ou appelez le
+> 04 90 54 58 10.
+
+<!-- FIN DU DOCUMENT PDF -->
 
 ---
 
-Notes de validation (à trancher en Phase 0, hors audio) :
-- [ ] « certificat de spécialisation en droit du dommage corporel » : confirmé
-      (badge site « Spécialiste CNB dommage corporel »). Ajouter la
-      responsabilité médicale/droit de la santé UNIQUEMENT si le certificat
-      correspondant est détenu.
-- [ ] Formulation IA retenue : factuelle (ci-dessus) ou superlatif « premier
-      avocat certifié en IA de France » (décision expresse de Me Humbert).
-- [ ] CTA : « sur le site du cabinet » — préciser l'URL orale si souhaité
-      (ex. « lexvox point f-r ») selon le site de destination retenu.
+## Notes internes (hors document diffusé)
+
+Statut : **contenu déontologique validé par Me Humbert le 2026-08-13.**
+
+Arbitrages appliqués (cf. `PLAN-PODCASTS-2026-08.md` §2.4) :
+- **Mention IA** : variante factuelle (« avocat certifié en intelligence
+  artificielle »), sans le superlatif « premier de France » — le superlatif
+  reste sur le site, il n'est pas répété à l'oral dans 72 épisodes.
+- **Spécialisation** : uniquement « droit du dommage corporel » (certificat
+  CNB confirmé par le badge d'`index.html`). La responsabilité médicale
+  n'est PAS présentée comme une spécialisation CNB.
+- **Honoraires** : part fixe + complément au résultat, convention signée
+  avant intervention — jamais « un pourcentage sur les sommes obtenues »
+  seul (pacte de quota litis prohibé, art. 10 loi n° 71-1130).
+- **Aucune promesse de résultat** : « faire valoir vos droits à la
+  réparation intégrale », jamais « obtenir ». Les montants d'indemnisation
+  déjà obtenus ne sont pas mentionnés à l'oral.
+- Formation médicale : formulation reprise d'`index.html` (traumatismes
+  cranio-cérébraux), sans extrapolation.
+
+Source réellement utilisée dans NotebookLM : le PDF
+`fiche-cabinet-victimes.pdf`, régénéré par
+`python3 tools/fiche_to_pdf.py podcasts/fiche-cabinet-victimes.md` après
+toute modification du texte ci-dessus.
