@@ -26,12 +26,11 @@ Durée cible à la lecture : **30 à 40 secondes**.
 
 ## Structure imposée — c'est la marque de fabrique de la série
 
-| Paragraphe | Bloc | Segment | Refait à chaque épisode ? |
+| Bloc | Contenu | Segment | Refait à chaque épisode ? |
 |---|---|---|---|
 | 1 | **Question du jour** — c'est le sujet et l'article, posés en question | `01-question` | ✏️ oui |
 | 2 | **Présentation** — l'émission, le cabinet, l'avocat, la confidence | `02-presentation` | 🔒 **non — enregistré une fois** |
-| 3 | Sujet et article dont il est tiré | `03-sujet` | ✏️ oui |
-| 4 | Nathalie et Nicolas, puis la relance | `04-final` | 🔒 **non — enregistré une fois** |
+| 3 | **Annonce du débat** — Nathalie et Nicolas, et le lancement | `03-final` | 🔒 **non — enregistré une fois** |
 
 Exemple de question d'accroche pour cette chaîne :
 
@@ -46,13 +45,10 @@ l'introduction parle d'expérience, pas de titre.
 <<<SCRIPT
 {question}
 
-Bienvenue dans « Permis en danger », le podcast du cabinet LEXVOX AVOCATS
-consacré à la défense du permis de conduire. Je suis {avocat}, du Barreau
-d'Aix-en-Provence. Je défends les conducteurs devant le tribunal
-correctionnel et le tribunal de police.
+« Permis en danger », le podcast du cabinet LEXVOX AVOCATS. {avocat}, qui
+défend les conducteurs devant le tribunal correctionnel et le tribunal de
+police.
 
-Aujourd'hui, {sujet}, d'après mon article « {titre} ».
-
-Pour en débattre, Nathalie et Nicolas. Ils ne sont pas avocats : ce sont les
-deux voix de l'émission, créées par le cabinet. La réponse, tout de suite.
+Nathalie et Nicolas en débattent, d'après mon article. Ils ne sont pas
+avocats, ce sont les deux voix de l'émission. C'est parti.
 SCRIPT>>>

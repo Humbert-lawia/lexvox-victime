@@ -9,12 +9,11 @@ L'OUTRO porte l'appel a l'action, dit par l'avocat lui-meme. Le debat ne le
 recite plus : sans outro, l'episode n'en contient aucun — d'ou le refus de
 monter si elle manque, sauf --sans-outro explicite.
 
-L'INTRO peut arriver en un seul fichier ou en QUATRE SEGMENTS
+L'INTRO peut arriver en un seul fichier ou en TROIS SEGMENTS
 (cf. voix_script.py --segments). Le mode segments est preferable : la
 presentation et la relance finale sont alors enregistrees une seule fois par
 chaine et reutilisees telles quelles, au lieu de deriver a chaque resynthese.
-Seules la question du jour et l'annonce du sujet sont refaites — environ
-20 des 57 secondes d'intro.
+Seule la question du jour est refaite — 8 des 30 secondes d'intro.
 
 Le GENERIQUE est une musique libre de droit, taillee et fondue en tete
 d'episode. Elle est mixee PLUS BAS que la voix, et le montage refuse de
@@ -86,7 +85,7 @@ REGISTRE_LICENCES = Path("podcasts/musique/LICENCES.md")
 
 # Le nom du fichier de segment est fixe par voix_script.py --segments.
 SEGMENTS_INTRO = (("01-question", False), ("02-presentation", True),
-                  ("03-sujet", False), ("04-final", True))
+                  ("03-final", True))
 
 
 # --- Utilitaires --------------------------------------------------------------
@@ -725,14 +724,14 @@ def self_test() -> int:
     segments = bac / "segments"
     segments.mkdir(parents=True, exist_ok=True)
     for nom in ("01-question-victimes-mon-article", "02-presentation-victimes",
-                "03-sujet-victimes-mon-article", "04-final-victimes"):
+                "03-final-victimes"):
         (segments / f"{nom}.mp3").write_bytes(b"\0")
     trouves = trouver_segments_intro(segments, "victimes", "mon-article")
-    verifier("quatre segments apparies", len(trouves), 4)
+    verifier("trois segments apparies", len(trouves), 3)
     verifier("question reconnue variable", trouves[0][2], False)
     verifier("presentation reconnue invariante", trouves[1][2], True)
-    verifier("relance appariee sans slug", trouves[3][1].name,
-             "04-final-victimes.mp3")
+    verifier("relance appariee sans slug", trouves[2][1].name,
+             "03-final-victimes.mp3")
     (segments / "02-presentation-victimes.mp3").unlink()
     essais += 1
     try:

@@ -3,24 +3,24 @@
 
 Deux blocs encadrent le debat NotebookLM :
 
-  INTRO  (par episode) — quatre blocs, environ 60 secondes :
+  INTRO  (par episode) — TROIS blocs, environ 30 secondes :
          (1) la QUESTION du jour — c'est le sujet et l'article, poses en
              question ; elle ouvre l'episode,
-         (2) la PRESENTATION : emission, cabinet, avocat, confidence,
-         (3) le sujet et l'article dont il est tire,
-         (4) Nathalie et Nicolas, puis la relance.
+         (2) la PRESENTATION, tres courte : emission, cabinet, avocat,
+         (3) l'ANNONCE DU DEBAT entre Nathalie et Nicolas.
          La question se produit avec PROMPT-INTRO-VOIX.md.
+         Un seul bloc varie : les deux autres ne se resynthetisent jamais.
 
   OUTRO  (fixe par chaine) — porte l'APPEL A L'ACTION, dit par l'avocat
          lui-meme. Il ne depend pas de l'episode : une seule prise sert les
          24 episodes d'une chaine. Depuis qu'il existe, le debat NotebookLM
          ne doit plus reciter de conclusion commerciale.
 
-SEGMENTS — deux des quatre blocs de l'intro sont RIGOUREUSEMENT identiques
+SEGMENTS — deux des trois blocs de l'intro sont RIGOUREUSEMENT identiques
 d'un episode a l'autre. Les resynthetiser a chaque fois les fait deriver
 legerement et la signature de la serie s'emousse. `--segments` decoupe donc
 l'intro en morceaux : les invariants se generent UNE fois par chaine et se
-reutilisent, seuls « question » et « sujet » sont refaits chaque semaine.
+reutilisent, seule « question » est refaite chaque semaine.
 Effet de bord utile : aucun segment n'atteint le seuil de decoupage de
 Voicebox, donc aucun raccord audible a l'interieur d'une phrase.
 
@@ -62,8 +62,7 @@ SIGNATAIRES = {
 SEGMENTS_INTRO = (
     ("01-question", (0,), False),
     ("02-presentation", (1,), True),
-    ("03-sujet", (2,), False),
-    ("04-final", (3,), True),
+    ("03-final", (2,), True),
 )
 
 # L'episode s'ouvre sur la question du jour : c'est le sujet et l'article,
@@ -335,10 +334,9 @@ def self_test() -> int:
 
     honnete = ("Nathalie et Nicolas ne sont pas avocats, ce sont les voix de "
                "l'émission.")
-    gabarit = ("{question}\n\nBienvenue dans le podcast du cabinet LEXVOX "
-               "AVOCATS. Je suis Maître Patrice Humbert, avocat."
-               f"\n\nAujourd'hui, {{sujet}}, d'après « {{titre}} »."
-               f"\n\n{honnete} La réponse, tout de suite.")
+    gabarit = ("{question}\n\nLe podcast du cabinet LEXVOX AVOCATS. Maître "
+               "Patrice Humbert. {sujet} — « {titre} »."
+               f"\n\n{honnete} C'est parti.")
     rendu = composer(gabarit, "Mon Titre", "l'indemnisation", "intro",
                      "Pouvez-vous refuser l'expertise ?")
     verifier("substitution titre", "Mon Titre" in rendu)
@@ -349,13 +347,11 @@ def self_test() -> int:
              rendu.startswith("Pouvez-vous refuser l'expertise ?"))
     verifier("aucune accolade restante", "{" not in rendu)
 
-    socle = ("{question}\n\nBienvenue dans le podcast du cabinet LEXVOX "
-             "AVOCATS. Je suis Maître Patrice Humbert, avocat."
-             f"\n\nAujourd'hui, {{sujet}}, d'après « {{titre}} »."
-             f"\n\n{honnete} La réponse, tout de suite.")
-    entete = ("{question}\n\nBienvenue dans le podcast du cabinet LEXVOX "
-              "AVOCATS. Je suis Maître Patrice Humbert, avocat."
-              "\n\nAujourd'hui, {sujet}, d'après « {titre} ».")
+    socle = ("{question}\n\nLe podcast du cabinet LEXVOX AVOCATS. Maître "
+             "Patrice Humbert. {sujet} — « {titre} »."
+             f"\n\n{honnete} C'est parti.")
+    entete = ("{question}\n\nLe podcast du cabinet LEXVOX AVOCATS. Maître "
+              "Patrice Humbert. {sujet} — « {titre} ».")
     for mauvais, motif in (
             (socle + "\n\n{inconnu}", "variable non remplacee"),
             (entete + "\n\nNathalie et Nicolas animent l'émission."
@@ -364,8 +360,8 @@ def self_test() -> int:
              "second animateur absent"),
             (socle.replace("{question}", "Bonjour à tous."),
              "la question n'est pas au bon rang"),
-            (socle.replace("Bienvenue dans le podcast du cabinet LEXVOX "
-                           "AVOCATS.", "Une émission juridique."),
+            (socle.replace("Le podcast du cabinet LEXVOX AVOCATS.",
+                           "Une émission juridique."),
              "jingle absent")):
         essais += 1
         try:
@@ -432,12 +428,13 @@ def self_test() -> int:
 
     # decoupage en segments
     segments = decouper(composer(gabarit, "T", "s", "intro", "Question ?"))
-    verifier("quatre segments", len(segments) == 4)
+    verifier("trois segments", len(segments) == 3)
     verifier("question variable en tete",
              segments[0] == ("01-question", "Question ?", False))
     verifier("presentation invariante", segments[1][2] is True)
-    verifier("sujet variable", segments[2][2] is False)
-    verifier("final invariant", segments[3][2] is True)
+    verifier("final invariant", segments[2][2] is True)
+    verifier("un seul segment a refaire par episode",
+             sum(1 for _, _, inv in segments if not inv) == 1)
     essais += 1
     try:
         decouper("un seul paragraphe")

@@ -20,12 +20,11 @@ Durée cible à la lecture : **30 à 40 secondes**.
 
 ## Structure imposée — c'est la marque de fabrique de la série
 
-| Paragraphe | Bloc | Segment | Refait à chaque épisode ? |
+| Bloc | Contenu | Segment | Refait à chaque épisode ? |
 |---|---|---|---|
 | 1 | **Question du jour** — c'est le sujet et l'article, posés en question | `01-question` | ✏️ oui |
 | 2 | **Présentation** — l'émission, le cabinet, l'avocat, la confidence | `02-presentation` | 🔒 **non — enregistré une fois** |
-| 3 | Sujet et article dont il est tiré | `03-sujet` | ✏️ oui |
-| 4 | Nathalie et Nicolas, puis la relance | `04-final` | 🔒 **non — enregistré une fois** |
+| 3 | **Annonce du débat** — Nathalie et Nicolas, et le lancement | `03-final` | 🔒 **non — enregistré une fois** |
 
 Exemple de question d'accroche pour cette chaîne :
 
@@ -39,13 +38,10 @@ l'auditeur peut croire qu'il écoute deux collaborateurs du cabinet.
 <<<SCRIPT
 {question}
 
-Bienvenue dans « Divorce & famille : parlons-en », le podcast du cabinet
-LEXVOX AVOCATS consacré au divorce et au droit de la famille. Je suis Maître
-Cédrine Raybaud, avocate au Barreau d'Aix-en-Provence, spécialiste en droit
-de la famille, des personnes et de leur patrimoine.
+« Divorce & famille : parlons-en », le podcast du cabinet LEXVOX AVOCATS.
+Maître Cédrine Raybaud, spécialiste en droit de la famille, des personnes et
+de leur patrimoine.
 
-Aujourd'hui, {sujet}, d'après mon article « {titre} ».
-
-Pour en débattre, Nathalie et Nicolas. Ils ne sont pas avocats : ce sont les
-deux voix de l'émission, créées par le cabinet. La réponse, tout de suite.
+Nathalie et Nicolas en débattent, d'après mon article. Ils ne sont pas
+avocats, ce sont les deux voix de l'émission. C'est parti.
 SCRIPT>>>

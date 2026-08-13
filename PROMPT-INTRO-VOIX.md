@@ -1,8 +1,8 @@
 # PROMPT INTRO — analyser l'article, produire l'accroche, enregistrer la voix
 
-> À copier dans une session Claude, une fois par épisode. Il produit les deux
-> variables que le gabarit d'intro attend — la **question d'accroche** et le
-> **sujet** — puis fabrique les textes à faire dire par la voix clonée.
+> À copier dans une session Claude, une fois par épisode. Il produit la seule
+> variable que le gabarit d'intro attend — la **question du jour** — puis
+> fabrique les textes à faire dire par la voix clonée.
 >
 > Le reste de l'intro (présentation de l'avocat, Nathalie et Nicolas, relance
 > finale) est **invariant** : il vit dans
@@ -25,20 +25,19 @@ envoyer à un tiers est la bonne.
 
 | # | Bloc | Segment | Variable ? | Durée |
 |---|---|---|---|---|
-| 1 | **Question du jour** — c'est le sujet et l'article, posés en question | `01-question` | ✏️ à produire | ~11 s |
-| 2 | **Présentation** — émission, cabinet, avocat, confidence | `02-presentation` | 🔒 enregistré **une fois** | ~28 s |
-| 3 | **Annonce du sujet** et article dont il est tiré | `03-sujet` | ✏️ à produire | ~8 s |
-| 4 | **Nathalie et Nicolas** puis la relance | `04-final` | 🔒 enregistré **une fois** | ~10 s |
+| 1 | **Question du jour** — c'est le sujet et l'article, posés en question | `01-question` | ✏️ à produire | ~8 s |
+| 2 | **Présentation** — émission, cabinet, avocat, confidence | `02-presentation` | 🔒 enregistré **une fois** | ~14 s |
+| 3 | **Annonce du débat** — Nathalie et Nicolas, et le lancement | `03-final` | 🔒 enregistré **une fois** | ~9 s |
 
-**Cible : 60 secondes maximum, intro comprise.** Le total ci-dessus tient en
-57 s, dont 38 s enregistrées une seule fois. Vous ne refaites que 19 s par
-épisode.
+**Cible : 30 secondes.** Le total tient en 31 s, dont 23 s enregistrées une
+seule fois. **Un seul bloc est à produire par épisode : la question.** C'est
+le plus court chemin possible entre le lancement de l'épisode et le débat.
 
-La relance du bloc 4 renvoie à la question du bloc 1 : c'est ce qui fait tenir
+« C'est parti », à la fin du bloc 3, renvoie à la question du bloc 1 : c'est ce qui fait tenir
 l'ensemble. Une accroche dont l'article ne donne pas la réponse casse la
 promesse dès le premier épisode.
 
-**Les blocs 2 et 4 ne se resynthétisent pas.** Ils sont rigoureusement
+**Les blocs 2 et 3 ne se resynthétisent pas.** Ils sont rigoureusement
 identiques d'un épisode à l'autre : les refaire à chaque fois les fait dériver
 légèrement, et une signature qui dérive n'est plus une signature.
 `--segments` les enregistre une fois par chaîne et les réutilise ensuite —
@@ -57,8 +56,8 @@ résultat.
 
 ```
 Tu prépares l'introduction d'un épisode de podcast du cabinet LEXVOX AVOCATS.
-Ta seule mission est de produire DEUX courts textes à partir d'un article :
-la QUESTION d'accroche et le SUJET. Tu ne réécris rien d'autre.
+Ta seule mission est de produire UN court texte à partir d'un article : la
+QUESTION du jour, qui ouvre l'épisode. Tu ne réécris rien d'autre.
 
 ENTRÉES
   chaîne : {victimes | famille | permis}
@@ -72,8 +71,8 @@ Repère : la question concrète que se pose le lecteur en arrivant sur cette
 page, la réponse que l'article y apporte, et le passage le plus utile.
 
 ÉTAPE 2 — ÉCRIRE LA QUESTION D'ACCROCHE
-Une à deux phrases, 140 à **180 caractères maximum**, qui se terminent
-par « ? ». Au-delà, l'intro dépasse la minute.
+Une à deux phrases, **100 à 130 caractères**, qui se terminent par « ? ».
+C'est court : l'intro entière vise 30 secondes. Au-delà de 130, elle déborde.
 Elle DOIT :
   - poser une situation concrète, à la deuxième personne, telle que
     l'auditeur puisse s'y reconnaître en une seconde ;
@@ -94,29 +93,23 @@ Le patron qui fonctionne : UNE SITUATION, puis UNE QUESTION.
   « Les gendarmes viennent de retenir votre permis sur le bord de la route.
     Que se passe-t-il dans les soixante-douze heures qui suivent ? »
 
-ÉTAPE 3 — ÉCRIRE LE SUJET
-Un groupe nominal de 40 à 70 caractères qui complète « Aujourd'hui, … ».
-Pas de phrase, pas de verbe conjugué, pas de majuscule initiale.
-    « la contre-visite médicale demandée par votre assureur »
-    « le calcul de la prestation compensatoire »
-    « la rétention du permis après un contrôle d'alcoolémie »
-
-ÉTAPE 4 — FABRIQUER LES SEGMENTS
+ÉTAPE 3 — FABRIQUER LES SEGMENTS
     python3 tools/voix_script.py --chaine <chaîne> --slug <slug> \
-        --question "<question>" --sujet "<sujet>" \
+        --question "<question>" \
         --segments ~/LEXVOX-PODCASTS/<chaîne>/segments --moteur voicebox
-L'outil injecte les blocs invariants, vérifie la structure, écrit les quatre
-segments et NE REGÉNÈRE PAS ceux qui existent déjà. S'il refuse, corrige la
+L'outil injecte les deux blocs invariants, vérifie la structure, écrit les
+trois segments et NE REGÉNÈRE PAS ceux qui existent déjà — en régime établi,
+seul le segment « question » est réellement synthétisé. S'il refuse, corrige la
 question ou le sujet — ne modifie JAMAIS le gabarit pour faire passer un
 contrôle.
 (Sans Voicebox lancé : « --moteur manuel », qui écrit les .txt à coller dans
 l'interface graphique.)
 
-ÉTAPE 5 — RENDRE COMPTE
-Affiche-moi : la question, le sujet, les segments écrits, ceux réutilisés,
+ÉTAPE 4 — RENDRE COMPTE
+Affiche-moi : la question, les segments écrits, ceux réutilisés,
 et la durée de lecture estimée (environ 15 caractères par seconde en diction
-posée). Si l'intro complète dépasse 60 secondes estimées, raccourcis la question —
-jamais les blocs invariants.
+posée). Si l'intro complète dépasse 33 secondes estimées, raccourcis la
+question — jamais les blocs invariants.
 ```
 
 ---
