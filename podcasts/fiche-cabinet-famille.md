@@ -52,6 +52,13 @@ les hôtes rappellent au passage les numéros d'urgence : le 3919 pour
 l'écoute et l'orientation des victimes, le 17 ou le 15 en cas de danger
 immédiat.
 
+## Les deux voix de l'émission
+
+Le débat est animé par deux voix récurrentes, les mêmes dans tous les
+épisodes : Élise, la juriste pédagogue, qui explique le droit ; et Thomas, le
+journaliste curieux, qui pose les questions que se pose l'auditeur. Ils
+s'appellent par leur prénom au fil de la discussion.
+
 ## Conclusion à prononcer à la fin de l'émission
 
 Les hôtes consacrent les trente dernières secondes de l'émission à cette

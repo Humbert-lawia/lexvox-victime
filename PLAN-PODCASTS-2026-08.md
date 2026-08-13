@@ -9,6 +9,11 @@ valider par Me Humbert (§5).
 Fichiers liés :
 - `PROMPT-PODCAST-NOTEBOOKLM.md` — le prompt maître réécrit (v3), à utiliser
   dans une session Claude **sur le poste de Me Humbert** (voir §3.1).
+- `PROMPT-MONTAGE-DIFFUSION.md` — l'étape aval : intro ElevenLabs dans la
+  voix de l'avocat + corps NotebookLM → MP3 diffusable, avec
+  `tools/intro_script.py` et `tools/podcast_montage.py`.
+- `podcasts/intro-elevenlabs/SCRIPT-INTRO-<chaine>.md` — les gabarits d'intro
+  lus par la voix clonée.
 - `podcasts/queue-podcast.csv` — **le** fichier d'état, unique pour les trois
   chaînes (colonne `chaine`), rempli une seule fois depuis Search Console.
 - `podcasts/fiche-cabinet-victimes.md` / `-famille.md` / `-permis.md` — la
@@ -36,6 +41,13 @@ périmètre de chaque chaîne.
 Chaque chaîne = 24 épisodes (les 24 meilleurs articles GSC), un notebook
 NotebookLM par article, un épisode < 5 min par notebook. Total : 72 épisodes,
 soit **4 journées de production** au quota de 20 générations/jour (§3.4).
+
+Chaque épisode est composé de deux blocs assemblés : une **introduction de
+25–35 s dite par l'avocat lui-même** (voix clonée ElevenLabs), puis le débat
+NotebookLM. Les deux animateurs du débat sont les mêmes dans les trois
+chaînes : **Élise**, la juriste pédagogue, et **Thomas**, le journaliste
+curieux — deux voix de synthèse que l'introduction présente nommément et
+annonce comme telles (cf. `PROMPT-MONTAGE-DIFFUSION.md` §1 et §A3).
 
 ---
 
@@ -236,7 +248,10 @@ GSC (une fois) ──► CSV unique (colonne chaine) ──► session du jour (
 ### 3.3 Le CSV d'état (UN seul fichier, seule source de vérité)
 
 `podcasts/queue-podcast.csv`, colonnes :
-`chaine,rank,site,url,slug,title,clicks_12m,impressions_12m,position_avg,status,launched_at,audio_file,generated_at,published_at,notes`
+`chaine,rank,site,url,slug,title,clicks_12m,impressions_12m,position_avg,status,launched_at,corps_file,intro_file,audio_file,generated_at,published_at,notes`
+
+(`corps_file` = audio NotebookLM récolté, `intro_file` = intro ElevenLabs,
+`audio_file` = MP3 final assemblé.)
 
 - **Un seul CSV pour les trois chaînes** (arbitrage 2026-08-13) : la colonne
   `chaine` sépare les files, l'agent filtre dessus en début de session. Un
@@ -247,7 +262,9 @@ GSC (une fois) ──► CSV unique (colonne chaine) ──► session du jour (
   (exclure accueil, pages piliers/landing, contact, catégories), fusion des
   propriétés si plusieurs sites, dédoublonnage, tri par clics → **top 24**
   par chaîne, ajoutés au CSV avec leur valeur de `chaine`.
-- `status` : `todo → doing → generating → done` (+ `error`, `skipped`).
+- `status` : `todo → doing → generating → done` (corps NotebookLM récolté)
+  `→ monte` (MP3 final assemblé et validé) `→ published` (Phase 4), plus
+  `error` et `skipped`.
   `generating` + `launched_at` permettent le pipeline glissant et la
   reprise : une ligne restée `generating` d'une session interrompue est
   récoltée en priorité à la session suivante. `published_at` n'est rempli
@@ -280,6 +297,7 @@ et la Phase 4 (mise en ligne).
 | **1. Sélection** (1 fois/chaîne, ~30 min) | Sur votre poste (Claude in Chrome) : GSC › Performances › 12 mois › Pages › export ; fusion/filtre/tri ; top 24 ajoutés au CSV avec leur `chaine` | Claude in Chrome (vous en survol) | `podcasts/queue-podcast.csv` rempli et commité |
 | **2. Pilote autonome** (1 épisode) | L'agent computer use déroule seul UN épisode complet (MODE PILOTE du prompt v3), consigne l'interface réelle dans `podcasts/CALIBRATION-NOTEBOOKLM.md` ; puis **écoute et validation du pilote par vous** (ton, CTA, exactitude) — remplace la démonstration à l'écran, abandonnée (génération ~10 min) | Claude in Chrome, puis Me Humbert (écoute) | Carnet de calibration rempli ; épisode pilote validé |
 | **3. Production** (~2 journées/chaîne) | Claude in Chrome déroule `PROMPT-PODCAST-NOTEBOOKLM.md` en pipeline glissant, 20 générations/jour ; post-traitement ffmpeg ; QA ; CSV mis à jour et commité en fin de session | Claude (vous en survol) | 24 fichiers MP3 normalisés + CSV `done` |
+| **3 bis. Intro + montage** (en parallèle de la production) | Phase A : `tools/intro_script.py` rend le texte, ElevenLabs le fait lire par la voix clonée de l'avocat, fichier nommé au slug. Phase B : `tools/podcast_montage.py` normalise, assemble intro → débat, encode en MP3 et passe les 14 contrôles | Me Humbert (voix) + Claude | `mp3/podcast-<chaine>-<NN>-<slug>.mp3` validés |
 | **4. Publication & mesure** | Hébergeur RSS (Spotify for Creators gratuit, ou Ausha, français) → Spotify/Apple/Deezer/YouTube ; intégration `<audio>` + transcription + JSON-LD `AudioObject` sur les pages articles **WordPress** ; pour `lexvox-victime.com` (Sanity) l'intégration = évolution du frontend Next.js, **sur demande expresse uniquement** (règle CLAUDE.md) — en attendant, plateformes seulement ; liens UTM ; revue mensuelle des écoutes dans `podcasts/PODCAST-TRACKER.md` | Claude + webmaster | Épisodes en ligne + tracker |
 | **5. Déclinaison** | Rejouer Phases 1→4 pour Famille puis Permis avec leurs variables (fiches, CTA, sites) | idem | 3 chaînes actives |
 
@@ -313,8 +331,17 @@ et la Phase 4 (mise en ligne).
    (et « une part fixe » plutôt que « 700 € HT »). Formulation durable, qui
    évite qu'une révision tarifaire rende 48 épisodes faux. Basculer sur les
    montants explicites si vous préférez le concret.
-4. **Canal de distribution** : hébergeur RSS retenu + ordre des plateformes.
-5. **Plan B TTS** : accord de principe pour basculer si le pilote révèle une
+4. **Canal de distribution** : hébergeur RSS retenu + ordre des plateformes
+   (variable `PLATEFORME_DIFFUSION`, aujourd'hui `[À DÉFINIR]` — aucun envoi
+   n'est tenté tant qu'elle n'est pas renseignée).
+5. **Outro dans votre voix ?** Le CTA final est aujourd'hui prononcé par
+   NotebookLM, donc soumis à sa bonne volonté. Le dire vous-même en outro
+   ElevenLabs le rend certain au mot près et plus crédible ; l'outil accepte
+   déjà `--outro`. Oui/non.
+6. **Débit du MP3** : 192 kb/s comme vous l'avez spécifié (défaut retenu), ou
+   128 kb/s — standard podcast en mono, sans différence audible sur de la
+   voix, fichier un tiers plus léger.
+7. **Plan B TTS** : accord de principe pour basculer si le pilote révèle une
    automatisation NotebookLM trop fragile.
 
 ---

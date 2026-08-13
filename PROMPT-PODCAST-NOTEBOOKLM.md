@@ -218,32 +218,35 @@ lexvox-victime.
 
 Chacun tient sous la limite de 500 caractères du champ D3.
 
-### Personnalisation — chaîne VICTIMES (443 caractères)
+### Personnalisation — chaîne VICTIMES (476 caractères)
 
-> Débat vif et accessible entre deux voix : un journaliste curieux et un
-> juriste pédagogue. Utilisez uniquement les deux sources : l'article (le fond
-> juridique) et la fiche cabinet (contexte et conclusion). Vulgarisez chaque
-> terme technique. Faites ressortir les enjeux de l'article et les pièges de
-> sous-évaluation par les assureurs. Durée : moins de 5 minutes. Terminez les
-> 30 dernières secondes par la conclusion donnée dans la fiche cabinet.
+> Débat entre deux voix nommées : Élise, juriste pédagogue, et Thomas,
+> journaliste curieux. Ils s'appellent par leur prénom. Utilisez uniquement
+> les deux sources : l'article (le fond juridique) et la fiche cabinet
+> (contexte et conclusion). Vulgarisez chaque terme technique. Faites
+> ressortir les enjeux de l'article et les pièges de sous-évaluation par les
+> assureurs. Durée : moins de 5 minutes. Terminez les 30 dernières secondes
+> par la conclusion donnée dans la fiche cabinet.
 
-### Personnalisation — chaîne FAMILLE (448 caractères)
+### Personnalisation — chaîne FAMILLE (468 caractères)
 
-> Débat vif et accessible entre deux voix : un journaliste curieux et un
-> juriste pédagogue. Utilisez uniquement les deux sources : l'article (le fond
-> juridique) et la fiche cabinet (contexte et conclusion). Vulgarisez chaque
-> terme technique. Faites ressortir les enjeux concrets pour une personne qui
-> traverse un divorce ou une séparation. Durée : moins de 5 minutes. Terminez
-> les 30 dernières secondes par la conclusion donnée dans la fiche cabinet.
+> Débat entre deux voix nommées : Élise, juriste pédagogue, et Thomas,
+> journaliste curieux. Ils s'appellent par leur prénom. Utilisez uniquement
+> les deux sources : l'article (le fond juridique) et la fiche cabinet
+> (contexte et conclusion). Vulgarisez chaque terme technique. Faites
+> ressortir les enjeux concrets pour qui traverse un divorce ou une
+> séparation. Durée : moins de 5 minutes. Terminez les 30 dernières secondes
+> par la conclusion donnée dans la fiche cabinet.
 
-### Personnalisation — chaîne PERMIS (444 caractères)
+### Personnalisation — chaîne PERMIS (454 caractères)
 
-> Débat vif et accessible entre deux voix : un journaliste curieux et un
-> juriste pédagogue. Utilisez uniquement les deux sources : l'article (le fond
-> juridique) et la fiche cabinet (contexte et conclusion). Vulgarisez chaque
-> terme technique. Faites ressortir les délais à ne pas manquer et les recours
-> possibles pour garder son permis. Durée : moins de 5 minutes. Terminez les
-> 30 dernières secondes par la conclusion donnée dans la fiche cabinet.
+> Débat entre deux voix nommées : Élise, juriste pédagogue, et Thomas,
+> journaliste curieux. Ils s'appellent par leur prénom. Utilisez uniquement
+> les deux sources : l'article (le fond juridique) et la fiche cabinet
+> (contexte et conclusion). Vulgarisez chaque terme technique. Faites
+> ressortir les délais à ne pas manquer et les recours possibles. Durée :
+> moins de 5 minutes. Terminez les 30 dernières secondes par la conclusion
+> donnée dans la fiche cabinet.
 
 ### Fiches cabinet (source n° 2, PDF téléversé)
 
