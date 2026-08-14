@@ -33,6 +33,10 @@ from pathlib import Path
 RACINE_DEFAUT = "~/LEXVOX-PODCASTS"
 OUTILS = Path(__file__).resolve().parent
 
+# Les memes que podcast_montage.trouver_source : le debat arrive en M4A de
+# NotebookLM, l'outro peut etre un WAV rendu par Voicebox.
+EXTENSIONS_AUDIO = (".mp3", ".m4a", ".wav", ".aac", ".flac", ".ogg", ".opus")
+
 
 def executer(commande, etape: str) -> int:
     """Lance une etape en laissant sa sortie s'afficher telle quelle."""
@@ -41,12 +45,27 @@ def executer(commande, etape: str) -> int:
     return subprocess.run(commande).returncode
 
 
+def trouver_corps(dossier: Path, slug: str) -> Path:
+    """Le debat, quelle que soit son extension.
+
+    NotebookLM rend un M4A ; le montage accepte deja toute la famille, mais
+    cette verification prealable n'attendait qu'un .mp3 et arretait tout avant
+    la moindre synthese, pour un fichier pourtant present et lisible.
+    Reconvertir a la main n'apporterait qu'une generation de perte.
+    """
+    for extension in EXTENSIONS_AUDIO:
+        candidat = dossier / f"{slug}{extension}"
+        if candidat.is_file():
+            return candidat
+    return dossier / f"{slug}.mp3"          # le manque se signale sous ce nom
+
+
 def chemins(racine: str, chaine: str, slug: str) -> dict:
     base = Path(racine).expanduser() / chaine
     return {
         "base": base,
         "segments": base / "segments",
-        "corps": base / "brut" / f"{slug}.mp3",
+        "corps": trouver_corps(base / "brut", slug),
         "outro": base / "outro" / f"outro-{chaine}.mp3",
         "mp3": base / "mp3",
     }
@@ -161,6 +180,17 @@ def self_test() -> int:
     verifier("debat present : plus rien a signaler",
              verifier_prealables(lieux, "mon-article"), [])
     (dossier / "mon-article.mp3").unlink()
+
+    # NotebookLM rend un M4A : l'exiger en .mp3 arretait la chaine devant un
+    # fichier present, que le montage sait pourtant lire.
+    (dossier / "mon-article.m4a").write_bytes(b"\0")
+    verifier("debat en M4A reconnu",
+             verifier_prealables(chemins("/tmp/_ep", "victimes", "mon-article"),
+                                 "mon-article"), [])
+    verifier("le M4A est bien le fichier retenu",
+             chemins("/tmp/_ep", "victimes", "mon-article")["corps"].suffix,
+             ".m4a")
+    (dossier / "mon-article.m4a").unlink()
 
     for echec in echecs:
         print(f"  !! {echec}")

@@ -2,7 +2,11 @@
 
 > Fiche de reprise. Elle dit **où en est le chantier**, **ce qui est prouvé**,
 > **ce qui ne l'est pas** et **ce qui attend une décision de Me Humbert**.
-> Dernière mise à jour : **2026-08-13**, branche `claude/podcast-automation-plan-5m6b59`.
+> Dernière mise à jour : **2026-08-14**, branche `claude/podcast-automation-plan-5m6b59`.
+>
+> **Le pilote est monté pour de bon, sur le poste du cabinet, avec la vraie voix
+> clonée et le vrai débat : 14/14 au vert** (cf. §5ter). Ce qui restait à prouver
+> au §6 l'est, sauf le service ffmpeg distant.
 
 ---
 
@@ -102,9 +106,9 @@ les 24 épisodes de la chaîne.
 | Fichier | Rôle |
 |---|---|
 | `tools/voix_script.py` | produit les textes dits par l'avocat, découpe l'intro en 3 segments, applique la phonétique, refuse un script altéré. `--self-test` : **45/45** |
-| `tools/voix_moteur.py` | moteur de synthèse : `aucun` / `manuel` (écrit les .txt à coller) / `voicebox` (HTTP, local **ou distant authentifié**). `--self-test` : **35/35**, `--diagnostic` interroge l'instance |
-| `tools/podcast_episode.py` | **une seule commande** : outro + segments + montage. `--self-test` : **6/6** |
-| `tools/poste_verifier.py` | vérifie que le poste a tout (ffmpeg, Voicebox, config, musique) et explique chaque manque en français. `--self-test` : **12/12** |
+| `tools/voix_moteur.py` | moteur de synthèse : `aucun` / `manuel` (écrit les .txt à coller) / `voicebox` (HTTP, local **ou distant authentifié**). Attend la fin des générations **asynchrones**. `--self-test` : **41/41**, `--diagnostic` interroge l'instance |
+| `tools/podcast_episode.py` | **une seule commande** : outro + segments + montage. Accepte le débat dans **toutes** les extensions que le montage sait lire, M4A compris. `--self-test` : **8/8** |
+| `tools/poste_verifier.py` | vérifie que le poste a tout (ffmpeg, Voicebox, config, musique) et explique chaque manque en français. Sonde l'adresse **de la configuration**, pas le port par défaut. `--self-test` : **15/15** |
 | `tools/voicebox_tunnel.py` | publie Voicebox derrière Cloudflare Tunnel + Access, portail posé **avant** le DNS. `--self-test` : **9/9** |
 | `GUIDE-POSTE-MAC.md` | **la voie recommandée** : installer Claude sur le Mac du cabinet, 4 étapes, aucun tunnel |
 | `CONNEXION-VOICEBOX.md` | l'alternative : piloter Voicebox depuis une session distante — tunnel **authentifié**, secrets en variables d'environnement |
@@ -296,13 +300,123 @@ conforme**. La vraie instance du cabinet reste à confronter :
 
 ---
 
+## 5ter. Le pilote monté sur le poste du cabinet (2026-08-14)
+
+Première exécution de bout en bout **hors machine de développement** : vraie
+instance Voicebox, vraie voix clonée, vrai débat NotebookLM.
+
+**Résultat : 14/14 au vert.** MP3 de **947,46 s** (15 min 47), 192 kb/s, mono,
+44,1 kHz, **−16,31 LUFS**, vrai pic **−1,81 dBTP**. Découpage relevé sur le
+fichier livré : générique 0 → 5,96 s, voix à partir de **6,27 s** — le fondu
+s'éteint avant la première syllabe, sans trou.
+
+### Ce que le poste réclamait, et qui a été réglé
+
+- **ffmpeg absent, pas de Homebrew** : installé par `pip install ffmpeg-binaries`,
+  liens dans `~/.local/bin` (déjà dans le PATH) — les outils le cherchent par
+  `shutil.which`.
+- **Voicebox écoute sur le port 17493**, pas 8000.
+- **Profil de la chaîne victimes** : `43cf0487-787a-4ba1-9c6e-83967714935a`
+  (« Patrice Humbert », `default_engine: chatterbox`).
+
+### La question du français est tranchée : il est ACCEPTÉ
+
+Le `/openapi.json` de l'instance du cabinet déclare
+`^(en|zh|ja|ko|de|fr|ru|pt|es|it)$`. Le piège de la doc publique
+(« en|zh seulement ») ne concerne pas cette instance. Le diagnostic conclut
+**INSTANCE CONFORME**. Les 72 épisodes peuvent se produire.
+
+### La panne qui n'était pas dans le code : « orphaned by worker »
+
+Aucune synthèse ne partait. L'instance acceptait `/generate`, rendait un
+identifiant, et **ne calculait rien** — état `generating` éternel à 0,6 % de
+processeur. Cause : **le serveur avait survécu à son interface** et tournait
+orphelin depuis le 25 juillet, son processus parent mort. Voicebox le dit
+lui-même quand on annule : *« Generation orphaned by worker »*.
+
+Remède : `POST /shutdown`, puis rouvrir l'application. Après quoi : **30 s de
+chargement du modèle, puis environ 30 s de calcul pour 4 s de voix**.
+
+**À reconnaître avant de chercher ailleurs** : un état `generating` qui dure
+sans consommer de processeur n'est pas une synthèse lente, c'est un serveur
+orphelin. Vérifier son âge (`ps`) plutôt que le code.
+
+### Trois défauts d'outillage, invisibles jusqu'à cette instance
+
+1. **`voix_moteur.py` — `/generate` est ASYNCHRONE.** Il rend un identifiant
+   avec `status: generating` ; l'audio n'existe qu'après. Le client
+   téléchargeait aussitôt et récoltait un **500** — après le temps de calcul,
+   donc au pire moment. Il attend désormais, et annonce la cause en cas
+   d'échec. *Piège dans le piège :* `/generate/{id}/status` est un **flux** qui
+   ne se ferme qu'à la fin et **gèle** tout appel synchrone ; c'est
+   `/history/{id}` qu'il faut sonder — il répond en 0,01 s.
+2. **`podcast_episode.py` exigeait un `.mp3`.** NotebookLM rend un **M4A**, que
+   `podcast_montage.py` sait pourtant lire depuis toujours. La vérification
+   préalable arrêtait donc tout devant un fichier présent et valide. Les deux
+   outils partagent maintenant la même liste d'extensions.
+3. **`poste_verifier.py` sondait `localhost:8000` en dur.** Il annonçait
+   « Voicebox injoignable » d'une instance qui tournait, et faisait déclarer le
+   poste en panne alors qu'il était bon. Il lit l'adresse de la configuration ;
+   un `--voicebox` explicite prime toujours.
+
+### Prononciation : vérifiée par la machine, pas par l'oreille
+
+`POST /transcribe` (multipart ; champ `model` = `base|small|medium|large|turbo`
+— **pas** `whisper-large`) a réécouté le bloc 2. Il rend :
+
+> « L'ex-victime, le podcast du cabinet Lexvox Avocat. **Maître Patrice Imbert**,
+> spécialisé en dommages corporels. Une confidence, ce n'est pas le dossier le
+> plus grave qui est le mieux indemnisé, c'est le mieux défendu. »
+
+**« Imbert » est confirmé, le h est muet.** Méthode à rejouer sur tout nouveau
+bloc invariant : elle prouve la prononciation sans dépendre d'une écoute.
+
+Elle révèle aussi que **« LEXVICTIME » s'entend « l'ex-victime »** → décision
+n° 9 du §8.
+
+*(Le service de transcription a ensuite rendu six 500 d'affilée, whisper-large
+et chatterbox étant chargés ensemble. Les autres blocs n'ont pas été
+retranscrits : circuit-breaker.)*
+
+### Un sixième défaut de montage, mesuré : le générique tient 1 LU, pas 4
+
+Mesures indépendantes prises **sur le fichier livré**, en décodant les extraits :
+
+| bloc | niveau |
+|---|---|
+| générique (0 → 5,95 s) | **−17,06 LUFS** |
+| intro voix (6,3 → 37 s) | **−16,00 LUFS** |
+| corps NotebookLM (60 → 120 s) | −16,50 LUFS |
+| outro (897 → 947 s) | −15,58 LUFS |
+
+Le générique n'est qu'à **1,06 LU** sous la voix, là où `MUSIQUE_NIVEAU` en vise
+**4**. Ce n'est **pas** la mise à niveau qui dérive : rejouée à part, elle rend
+**−19,99 LUFS**, et **−20,11** après les fondus — exactement la cible.
+
+La cause est la **boucle de finalisation**. Elle applique un gain global, puis
+`alimiter` borne à −3 dB. La voix, dont les crêtes touchent le limiteur, ne
+monte pas de tout le gain ; la musique, à crêtes basses, l'encaisse en entier.
+L'écart se referme de 4 LU à 1.
+
+**Pourquoi le 13/08 ne pouvait pas le voir** : ses blocs de voix étaient du bruit
+rose, qui ne déclenche pas le limiteur comme de la parole. Même angle mort que
+les défauts 3 et 4 — *une source de test régulière masque ce qu'une vraie source
+révèle*.
+
+**Portée réelle** : le générique **précède** la voix, il ne passe pas dessous.
+Rien n'est masqué, l'intelligibilité est intacte. C'est un confort d'écoute, pas
+un défaut de diffusion — d'où l'arbitrage laissé à Me Humbert (§8, décision 10)
+plutôt qu'une constante changée d'autorité.
+
+---
+
 ## 6. Ce qui n'est PAS prouvé — à valider sur le poste du cabinet
 
 | À valider | Comment | Pourquoi ça n'a pas pu l'être ici |
 |---|---|---|
-| ~~**Dialogue HTTP**~~ | ✅ **exercé** contre un faux Voicebox conforme au schéma (diagnostic, `/generate`, `/audio`, en-têtes d'authentification, serveur strict) — 4 défauts trouvés et corrigés, cf. §5bis | reste à confronter à la **vraie** instance : `--diagnostic` |
-| **Le français est accepté** | le diagnostic lit le `/openapi.json` de **son** instance | la doc publique annonce `language: ^(en\|zh)$` alors que l'app revendique 23 langues — **piège documenté, à vérifier avant de produire 72 épisodes** |
-| **Qualité de la voix clonée** | écouter le premier épisode, surtout « Imbert », « Dintilhac », « Marignane » | — |
+| ~~**Dialogue HTTP**~~ | ✅ **exercé** contre un faux Voicebox conforme au schéma, puis ✅ **contre la vraie instance** le 2026-08-14 — un 5e défaut trouvé là (génération asynchrone), cf. §5bis et §5ter | — |
+| ~~**Le français est accepté**~~ | ✅ **tranché le 2026-08-14** : l'instance du cabinet déclare `^(en\|zh\|ja\|ko\|de\|fr\|ru\|pt\|es\|it)$`. Le piège de la doc publique ne la concerne pas | — |
+| ~~**Qualité de la voix clonée**~~ | ✅ « **Imbert** » confirmé par transcription automatique (§5ter), et l'épisode est écoutable. Reste à l'oreille de Me Humbert : « Dintilhac », « Marignane » | — |
 | ~~**Musique réelle**~~ | ✅ **fait** — *Intro YouTube* (Kulakovka, Pixabay), licence archivée, montage rejoué 14/14. Déposer la piste en `~/LEXVOX-PODCASTS/musique/musique-lexvox.mp3` et monter avec `--debut-musique 11.7` | — |
 | **`MoteurAPI` (service ffmpeg distant)** | — | jamais exécuté ; seul le moteur **local** est prouvé |
 
@@ -310,8 +424,21 @@ conforme**. La vraie instance du cabinet reste à confronter :
 
 ## 7. Marche à suivre pour l'épisode pilote
 
+**La commande qui a réellement produit le pilote**, une fois le débat déposé et
+`poste_verifier.py` tout vert — elle enchaîne outro, segments et montage :
+
+```bash
+python3 tools/podcast_episode.py --chaine victimes \
+    --slug 10-conseils-pour-reussir-son-expertise \
+    --question "Vous êtes convoqué à une expertise médicale. Que faut-il préparer, et quelle erreur peut vous coûter votre indemnisation ?" \
+    --debut-musique 11.7
+```
+
+Le détail étape par étape, si l'une d'elles doit être rejouée seule :
+
 ```bash
 # 0. sur le poste du cabinet, Voicebox lancé
+python3 tools/poste_verifier.py          # doit afficher TOUT EST EN PLACE
 python3 tools/voix_moteur.py --diagnostic
 
 # 1. produire la question du jour  (prompt : PROMPT-INTRO-VOIX.md)
@@ -325,7 +452,9 @@ python3 tools/voix_script.py --chaine victimes \
 python3 tools/voix_script.py --bloc outro --chaine victimes
 
 # 3. le débat NotebookLM  (PROMPT-PODCAST-NOTEBOOKLM.md, sur son poste)
-#    -> déposer le rendu dans ~/LEXVOX-PODCASTS/victimes/brut/<slug>.mp3
+#    -> déposer le rendu dans ~/LEXVOX-PODCASTS/victimes/brut/<slug>.<ext>
+#       Le M4A rendu par NotebookLM se dépose TEL QUEL : le reconvertir en MP3
+#       n'ajouterait qu'une génération de perte.
 
 # 4. montage  —  --debut-musique 11.7 est le point d'entrée mesuré du
 #    générique en service (cf. podcasts/musique/LICENCES.md)
@@ -343,7 +472,7 @@ Arborescence attendue sous `--racine` :
 ├── musique/            musique-lexvox.mp3   (générique commun aux 3 chaînes)
 └── victimes/
     ├── segments/   01-question-victimes-<slug>.mp3, 02-presentation-victimes.mp3, 03-final-victimes.mp3
-    ├── brut/       <slug>.mp3          (débat NotebookLM)
+    ├── brut/       <slug>.m4a          (débat NotebookLM, tel qu'il sort)
     ├── outro/      outro-victimes.mp3  (une seule prise pour la chaîne)
     ├── musique/    musique-victimes.mp3   (facultatif — prime sur le commun)
     └── mp3/        podcast-victimes-01-<slug>.mp3   (produit)
@@ -369,6 +498,18 @@ Arborescence attendue sous `--racine` :
    5 min », faut-il l'accepter comme format de la série, ou chercher le levier
    dans le dialogue « Personnaliser » (choix de DURÉE) ? Un débat de quinze
    minutes n'est pas le même produit qu'un épisode de six.
+9. **« LEXVICTIME » s'entend « l'ex-victime ».** La transcription automatique du
+   bloc 2 rend « L'ex-victime, le podcast du cabinet Lexvox Avocat » : la
+   machine a entendu ce qu'un auditeur peut entendre. Garder tel quel, ou faire
+   détacher « LEX — VICTIME » par la table `PRONONCIATION` ? *(Se règle dans le
+   texte lu, sans toucher aux gabarits ni à la marque.)* **Recoupe la décision
+   n° 1**, qui portait sur l'orthographe : celle-ci porte sur le son.
+10. **Le générique tient 1 LU sous la voix au lieu de 4** (§5ter), parce que le
+    limiteur rabote la voix et pas la musique. Rien n'est masqué — le générique
+    précède la voix. Laisser ainsi, ou compenser ? La correction propre est
+    d'abaisser `MUSIQUE_NIVEAU` de la valeur mesurée, **après** avoir vérifié
+    qu'elle se reproduit sur un second épisode : un réglage calé sur un seul
+    montage se paie au suivant.
 
 ### Décisions déjà prises, pour mémoire
 
@@ -379,6 +520,7 @@ Arborescence attendue sous `--racine` :
 | Générique : *Intro YouTube* (Kulakovka, Pixabay), entrée à 11,70 s | 2026-08-13 | licence archivée, `--debut-musique 11.7` |
 | Voicebox remplace ElevenLabs, en local | 2026-08-13 | aucun texte ne sort de la machine |
 | Nathalie et Nicolas jamais présentés comme des voix de synthèse | 2026-08-13 | « ils ne sont pas avocats, ce sont les deux voix de l'émission » |
+| Épisode pilote **fabriqué et livré** sur le poste du cabinet | 2026-08-14 | 947,46 s, 14/14 au vert ; §6 vidé de ses inconnues sauf le ffmpeg distant |
 
 ---
 

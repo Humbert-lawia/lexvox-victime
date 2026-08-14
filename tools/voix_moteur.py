@@ -39,6 +39,7 @@ import os
 import re
 import shutil
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -56,6 +57,11 @@ MOTEURS_MULTILINGUES = ("chatterbox", "luxtts", "qwen_custom_voice", "qwen")
 # quelques centaines de caracteres : la marge est confortable, mais un
 # gabarit modifie sans precaution pourrait la franchir.
 TEXTE_MAX = 5000
+
+# `/generate` rend la main AVANT que l'audio existe, avec « generating ».
+# Etats terminaux d'echec rencontres sur l'instance du cabinet.
+ETATS_ECHEC = ("failed", "error", "cancelled", "canceled")
+PAUSE_SONDAGE = 3.0
 
 # Au-dela de max_chunk_chars, Voicebox decoupe le texte et RACCORDE les
 # morceaux par un fondu. Sur une signature sonore, ce raccord s'entend. Nos
@@ -266,6 +272,37 @@ class MoteurVoicebox:
             self._contraintes = lire_contraintes(schema)
         return self._contraintes
 
+    # -- attente de fin de generation ------------------------------------
+    def attendre(self, identifiant: str, etat: str = "") -> dict:
+        """Attend qu'une generation asynchrone soit terminee.
+
+        `/generate` ne bloque pas jusqu'a l'audio : il rend aussitot un
+        identifiant avec `status: generating`, et l'audio n'existe qu'apres.
+        Telecharger tout de suite rend un 500 — apres le temps de calcul, donc
+        au pire moment. On sonde `/history/{id}`, qui repond immediatement ;
+        `/generate/{id}/status` est un FLUX qui ne se ferme qu'a la fin et
+        gele tout appel synchrone.
+        """
+        if etat in ("", "completed"):
+            return {"status": etat or "completed"}
+        limite = time.time() + self.delai
+        chemin = f"/history/{urllib.parse.quote(str(identifiant))}"
+        while True:
+            generation = self._appel(chemin, timeout=30) or {}
+            etat = generation.get("status", "")
+            if etat == "completed":
+                return generation
+            if etat in ETATS_ECHEC:
+                raise ErreurVoix(
+                    f"la generation {identifiant} a echoue (etat « {etat} ») : "
+                    f"{generation.get('error') or 'aucune cause donnee'}")
+            if time.time() >= limite:
+                raise ErreurVoix(
+                    f"la generation {identifiant} est encore « {etat} » apres "
+                    f"{self.delai} s. Augmenter « timeout_s » dans la "
+                    "configuration, ou raccourcir le segment.")
+            time.sleep(PAUSE_SONDAGE)
+
     # -- verifications ---------------------------------------------------
     def verifier(self):
         if self.moteur not in MOTEURS_TTS:
@@ -346,6 +383,12 @@ class MoteurVoicebox:
         if not identifiant:
             raise ErreurVoix(f"/generate n'a pas rendu d'identifiant : "
                              f"{str(reponse)[:200]}")
+
+        # La generation est asynchrone : sans cette attente, le telechargement
+        # tombe sur un 500 alors que la voix est en train d'etre calculee.
+        fin = self.attendre(identifiant, reponse.get("status", ""))
+        if fin.get("duration"):
+            reponse["duration"] = fin["duration"]
 
         sortie.parent.mkdir(parents=True, exist_ok=True)
         audio = self._appel(
@@ -763,6 +806,64 @@ def self_test() -> int:
                 echecs.append(f"{libelle} : la reponse recue n'est pas montree")
         finally:
             urllib.request.urlopen = vrai
+
+    # --- generation ASYNCHRONE : attendre avant de telecharger --------------
+    # L'instance du cabinet rend « generating » et n'a pas encore d'audio :
+    # telecharger tout de suite rendait un 500, apres le temps de calcul.
+    moteur_async = MoteurVoicebox.__new__(MoteurVoicebox)
+    moteur_async.base = "http://x"
+    moteur_async.entetes = {}
+    moteur_async.delai = 30
+    etats = ["generating", "generating", "completed"]
+
+    def _suite(_chemin, timeout=None, **_):
+        etat = etats.pop(0)
+        return {"status": etat, "duration": 12.5 if etat == "completed" else 0.0}
+
+    moteur_async._appel = _suite
+    vraie_pause = time.sleep
+    time.sleep = lambda _s: None
+    try:
+        essais += 1
+        try:
+            fin = moteur_async.attendre("id-1", "generating")
+            if fin.get("duration") != 12.5 or etats:
+                echecs.append("attente : n'a pas sonde jusqu'au bout")
+        except ErreurVoix as erreur:
+            echecs.append(f"attente d'une generation en cours : {erreur}")
+
+        # un echec doit s'annoncer comme tel, avec sa cause
+        moteur_async._appel = lambda *_a, **_k: {"status": "failed",
+                                                 "error": "modele absent"}
+        essais += 1
+        try:
+            moteur_async.attendre("id-2", "generating")
+            echecs.append("generation en echec : aucune erreur levee")
+        except ErreurVoix as erreur:
+            if "modele absent" not in str(erreur):
+                echecs.append(f"generation en echec : cause tue — {erreur}")
+
+        # « completed » des le depart : aucun sondage inutile
+        essais += 1
+        moteur_async._appel = lambda *_a, **_k: (_ for _ in ()).throw(
+            AssertionError("sondage inutile"))
+        try:
+            moteur_async.attendre("id-3", "completed")
+        except Exception as erreur:            # noqa: BLE001 — c'est le test
+            echecs.append(f"generation deja terminee : {erreur}")
+
+        # jamais d'attente sans fin : le delai configure borne la boucle
+        essais += 1
+        moteur_async.delai = 0
+        moteur_async._appel = lambda *_a, **_k: {"status": "generating"}
+        try:
+            moteur_async.attendre("id-4", "generating")
+            echecs.append("attente sans fin : le delai n'a pas borne la boucle")
+        except ErreurVoix as erreur:
+            if "timeout_s" not in str(erreur):
+                echecs.append(f"attente expiree : remede tu — {erreur}")
+    finally:
+        time.sleep = vraie_pause
 
     for echec in echecs:
         print(f"  !! {echec}")

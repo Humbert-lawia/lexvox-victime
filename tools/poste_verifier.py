@@ -180,10 +180,26 @@ def rapporter(points) -> int:
     return 3 if bloquants else 0
 
 
+def adresse_voicebox(options) -> str:
+    """L'adresse REELLE de l'instance, celle que la configuration designe.
+
+    Sonder le port par defaut quand la configuration en designe un autre fait
+    annoncer « Voicebox injoignable » d'une instance qui tourne : le poste est
+    declare en panne alors qu'il est bon. Un --voicebox explicite prime.
+    """
+    if options.voicebox != VOICEBOX_DEFAUT:
+        return options.voicebox
+    try:
+        with open(options.config, encoding="utf-8") as fichier:
+            return json.load(fichier).get("base_url") or VOICEBOX_DEFAUT
+    except (OSError, json.JSONDecodeError):
+        return VOICEBOX_DEFAUT
+
+
 def verifier(options) -> int:
     racine = Path(options.racine).expanduser()
     points = [controler_python(), controler_ffmpeg()]
-    points += controler_voicebox(options.voicebox)
+    points += controler_voicebox(adresse_voicebox(options))
     points += controler_config(options.config)
     points += controler_musique(racine)
     points += controler_arborescence(racine)
@@ -235,6 +251,23 @@ def self_test() -> int:
     points = controler_voicebox("http://127.0.0.1:9")
     verif("voicebox injoignable detecte", points[0]["ok"], False)
     verif("un seul point quand le serveur ne repond pas", len(points), 1)
+
+    # l'adresse sondee est celle de la CONFIGURATION, pas le port par defaut
+    conf = bac / "voicebox.json"
+    conf.write_text('{"base_url": "http://localhost:17493"}', encoding="utf-8")
+
+    class _Options:
+        voicebox = VOICEBOX_DEFAUT
+        config = str(conf)
+
+    verif("l'adresse configuree prime sur le port par defaut",
+          adresse_voicebox(_Options()), "http://localhost:17493")
+    _Options.voicebox = "http://autre:1234"
+    verif("une adresse donnee a la main prime sur la configuration",
+          adresse_voicebox(_Options()), "http://autre:1234")
+    _Options.voicebox, _Options.config = VOICEBOX_DEFAUT, str(bac / "absent.json")
+    verif("configuration absente : on retombe sur le defaut",
+          adresse_voicebox(_Options()), VOICEBOX_DEFAUT)
 
     # arborescence : facultative, jamais bloquante
     verif("dossiers manquants non bloquants",
