@@ -100,7 +100,17 @@ def _http(url: str, donnees=None, timeout=600, brut=False, entetes_sup=None):
     try:
         return json.loads(charge.decode("utf-8", "replace"))
     except json.JSONDecodeError as erreur:
-        raise ErreurVoix(f"{url} : reponse non JSON") from erreur
+        # Une page HTML a la place du JSON est presque toujours un portail
+        # d'authentification qui repond 200 : le dire, plutot que « reponse non
+        # JSON », qui laisse chercher du cote du serveur alors que le probleme
+        # est dans les en-tetes.
+        debut = charge.lstrip()[:15].lower()
+        piste = (" — on dirait une page HTML, typiquement l'ecran de connexion "
+                 "d'un portail d'authentification. Verifier les en-tetes "
+                 "(variables d'environnement exportees ?)."
+                 if debut.startswith(b"<") else "")
+        raise ErreurVoix(f"{url} : reponse non JSON{piste} "
+                         f"Recu : {apercu(charge)}") from erreur
 
 
 def ressemble_a_de_l_audio(donnees: bytes) -> bool:
@@ -454,11 +464,32 @@ def diagnostiquer(chemin_config: str) -> int:
         if not ok and bloquant:
             bloquants.append(libelle)
 
+    # Le diagnostic doit interroger l'instance EXACTEMENT comme le fera la
+    # synthese : meme adresse, memes en-tetes. Sans cela, sur une instance
+    # publiee derriere un portail, l'outil cense verifier que tout va bien
+    # serait le seul a echouer — et il ferait chercher la panne au mauvais
+    # endroit.
+    entetes = {}
     try:
-        schema = _http(f"{base}/openapi.json", timeout=30)
+        verifier_url(base)
+    except ErreurVoix as erreur:
+        point("transport", False, str(erreur)[:200], bloquant=True)
+    try:
+        entetes = resoudre_entetes(config)
+        if entetes:
+            point("authentification", True,
+                  f"{len(entetes)} en-tete(s) : {', '.join(sorted(entetes))}")
+    except ErreurVoix as erreur:
+        point("authentification", False, str(erreur)[:250], bloquant=True)
+
+    def interroger(chemin, timeout=30):
+        return _http(f"{base}{chemin}", timeout=timeout, entetes_sup=entetes)
+
+    try:
+        schema = interroger("/openapi.json")
         point("serveur joignable", True, base)
     except ErreurVoix as erreur:
-        point("serveur joignable", False, str(erreur)[:200], bloquant=True)
+        point("serveur joignable", False, str(erreur)[:250], bloquant=True)
         schema = None
 
     if schema:
@@ -489,7 +520,7 @@ def diagnostiquer(chemin_config: str) -> int:
                   "champ `language` introuvable dans le schema")
 
     try:
-        profils = _http(f"{base}/profiles", timeout=30)
+        profils = interroger("/profiles")
         liste = profils if isinstance(profils, list) else profils.get("profiles", [])
         point("profils de voix disponibles", bool(liste),
               f"{len(liste)} profil(s)", bloquant=True)
@@ -693,6 +724,45 @@ def self_test() -> int:
              not ressemble_a_de_l_audio(b'{"detail":"Not authenticated"}'))
     verifier("apercu lisible dans le message",
              "Not authenticated" in apercu(b'{"detail":"Not authenticated"}'))
+
+    # --- une page HTML au lieu du JSON doit designer le portail --------------
+    # Sans cela, le message disait « reponse non JSON » et faisait chercher la
+    # panne du cote du serveur alors qu'elle est dans les en-tetes.
+    def _rend(charge):
+        def _faux(requete, timeout=None):
+            class _R:
+                def read(self_inner):
+                    return charge
+
+                def __enter__(self_inner):
+                    return self_inner
+
+                def __exit__(self_inner, *a):
+                    return False
+            return _R()
+        return _faux
+
+    vrai = urllib.request.urlopen
+    for libelle, charge, attendu in (
+            ("page de connexion designee comme telle",
+             b"<!DOCTYPE html><html><head><title>Sign in</title>", "portail"),
+            ("json casse reste un simple defaut de format",
+             b"{ceci n'est pas du json", None)):
+        urllib.request.urlopen = _rend(charge)
+        essais += 1
+        try:
+            _http("http://x/openapi.json")
+            echecs.append(f"{libelle} : aucune erreur levee")
+        except ErreurVoix as erreur:
+            texte = str(erreur)
+            if attendu and attendu not in texte:
+                echecs.append(f"{libelle} : « {texte[:80]} »")
+            if attendu is None and "portail" in texte:
+                echecs.append(f"{libelle} : portail evoque a tort")
+            if "Recu" not in texte:
+                echecs.append(f"{libelle} : la reponse recue n'est pas montree")
+        finally:
+            urllib.request.urlopen = vrai
 
     for echec in echecs:
         print(f"  !! {echec}")
