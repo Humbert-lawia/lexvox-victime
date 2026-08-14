@@ -1,0 +1,596 @@
+#!/usr/bin/env python3
+"""Genere les textes dits par la voix clonee de l'avocat (Voicebox, en local).
+
+Deux blocs encadrent le debat NotebookLM :
+
+  INTRO  (par episode) — TROIS blocs, environ 30 secondes :
+         (1) la QUESTION du jour — c'est le sujet et l'article, poses en
+             question ; elle ouvre l'episode,
+         (2) la PRESENTATION, tres courte : emission, cabinet, avocat,
+         (3) l'ANNONCE DU DEBAT entre Nathalie et Nicolas.
+         La question se produit avec PROMPT-INTRO-VOIX.md.
+         Un seul bloc varie : les deux autres ne se resynthetisent jamais.
+
+  OUTRO  (fixe par chaine) — porte l'APPEL A L'ACTION, dit par l'avocat
+         lui-meme. Il ne depend pas de l'episode : une seule prise sert les
+         24 episodes d'une chaine. Depuis qu'il existe, le debat NotebookLM
+         ne doit plus reciter de conclusion commerciale.
+
+SEGMENTS — deux des trois blocs de l'intro sont RIGOUREUSEMENT identiques
+d'un episode a l'autre. Les resynthetiser a chaque fois les fait deriver
+legerement et la signature de la serie s'emousse. `--segments` decoupe donc
+l'intro en morceaux : les invariants se generent UNE fois par chaine et se
+reutilisent, seule « question » est refaite chaque semaine.
+Effet de bord utile : aucun segment n'atteint le seuil de decoupage de
+Voicebox, donc aucun raccord audible a l'interieur d'une phrase.
+
+Usage :
+    python3 tools/voix_script.py --chaine victimes --slug mon-article \\
+        --question "Pouvez-vous refuser la contre-visite ?"
+    python3 tools/voix_script.py --chaine victimes --slug x --question "…?" \\
+        --segments ~/LEXVOX-PODCASTS/victimes/segments --moteur voicebox
+    python3 tools/voix_script.py --bloc outro --chaine victimes
+    python3 tools/voix_script.py --self-test
+"""
+
+import argparse
+import csv
+import re
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from voix_moteur import ErreurVoix, charger  # noqa: E402
+
+GABARITS = Path("podcasts/voix-avocat")
+
+# Qui parle, chaine par chaine. Ce n'est pas un reglage : c'est l'avocat qui
+# traite la matiere et qui signe les articles. Une chaine dont le signataire
+# est fixe ne peut pas etre presentee par quelqu'un d'autre, et l'outil le
+# verifie a chaque generation — un gabarit se modifie trop facilement.
+# `None` = signataire variable, a passer par --avocat (le droit routier est
+# traite par un associe).
+SIGNATAIRES = {
+    "victimes": "Patrice Humbert",
+    "famille": "Cédrine Raybaud",
+    "permis": None,
+}
+
+# Decoupage de l'intro en segments. Les indices renvoient aux paragraphes du
+# gabarit, dans l'ordre. « invariant » = identique dans toute la chaine, donc
+# genere une seule fois et reutilise par le montage.
+SEGMENTS_INTRO = (
+    ("01-question", (0,), False),
+    ("02-presentation", (1,), True),
+    ("03-final", (2,), True),
+)
+
+# L'episode s'ouvre sur la question du jour : c'est le sujet et l'article,
+# poses sous forme de question. Ce paragraphe doit finir par « ? ».
+RANG_QUESTION = 0
+
+# L'auditeur ne doit jamais pouvoir croire que Nathalie et Nicolas sont des
+# avocats du cabinet. Le mot « synthese » n'est pas obligatoire — l'honnetete
+# l'est. Une de ces formulations au moins doit figurer dans l'intro.
+MARQUEURS_HONNETETE = (
+    "ne sont pas avocats",
+    "ne sont pas des avocats",
+    "créées par le cabinet",
+    "créés par le cabinet",
+    "voix de synthèse",
+)
+
+EXIGENCES = {
+    "intro": {"mentions": ("le podcast du cabinet lexvox avocats",),
+              "noms": ("Nathalie", "Nicolas"),
+              "honnetete": True},
+    "outro": {"mentions": (), "noms": (), "honnetete": False},
+}
+
+# Publicite personnelle de l'avocat : RIN art. 10.2 (sincere et veridique,
+# sans mention comparative) et art. 10 de la loi n° 71-1130 (interdiction du
+# pacte de quota litis). Ces formulations ne doivent jamais sortir a l'oral.
+FORMULES_INTERDITES = (
+    "résultat garanti", "garantie de résultat", "nous garantissons",
+    "je garantis", "vous obtiendrez", "sans aucun risque",
+    "meilleur avocat", "le plus performant",
+)
+
+# Orthographe PHONETIQUE appliquee au seul texte envoye au moteur vocal.
+# « Humbert » a un h muet : lu tel quel, le moteur articule le h et le nom
+# sonne faux des la premiere seconde de chaque episode. Les gabarits, eux,
+# gardent l'orthographe exacte : ils sont relus par des humains et servent
+# aussi aux metadonnees.
+PRONONCIATION = (
+    ("Humbert", "Imbert"),
+    ("LEXVOX AVOCATS", "Lexvox Avocats"),
+    ("LEXVOX", "Lexvox"),
+    ("LEXVICTIMES", "Lex-Victimes"),
+    ("LEXVICTIME", "Lex-Victime"),
+)
+
+
+def verifier_signataire(texte: str, dit: str, chaine: str):
+    """Le bon avocat est nomme, et son nom sera bien prononce."""
+    attendu = SIGNATAIRES.get(chaine)
+    if not attendu:
+        return
+    # meme piege que pour la prononciation : le nom est souvent coupe par un
+    # retour a la ligne, les gabarits etant mis en forme pour l'oeil
+    aplati = re.sub(r"\s+", " ", texte)
+    if attendu not in aplati:
+        raise RuntimeError(
+            f"la chaine « {chaine} » doit nommer {attendu} : son nom "
+            "n'apparait pas dans le script. C'est l'avocat qui traite la "
+            "matiere et qui signe les articles — le gabarit a du deriver.")
+    dit_aplati = re.sub(r"\s+", " ", dit)
+    for ecrit, prononce in PRONONCIATION:
+        if ecrit in attendu and ecrit in dit_aplati:
+            raise RuntimeError(
+                f"« {ecrit} » subsiste dans le texte LU alors qu'il doit se "
+                f"dire « {prononce} » : la correction phonetique n'a pas pris. "
+                "Le nom de l'avocat serait mal articule a chaque episode.")
+
+
+def appliquer_prononciation(texte: str) -> str:
+    """Applique la table, meme quand l'expression est coupee par un retour
+    a la ligne : les gabarits sont mis en forme pour l'oeil, et « LEXVOX
+    AVOCATS » se retrouve souvent a cheval sur deux lignes."""
+    for ecrit, dit in PRONONCIATION:
+        motif = r"\s+".join(re.escape(mot) for mot in ecrit.split())
+        texte = re.sub(motif, dit, texte)
+    return texte
+
+
+def chercher_ligne_csv(csv_path: Path, chaine: str, slug: str):
+    """Ligne de la file, ou None. Une file absente n'est pas une erreur :
+    l'episode pilote peut se fabriquer avant que la file soit remplie."""
+    if not csv_path.is_file():
+        return None
+    with csv_path.open(encoding="utf-8", newline="") as flux:
+        for ligne in csv.DictReader(flux):
+            if (ligne.get("chaine", "").strip() == chaine
+                    and ligne.get("slug", "").strip() == slug):
+                return ligne
+    return None
+
+
+def lire_ligne_csv(csv_path: Path, chaine: str, slug: str) -> dict:
+    ligne = chercher_ligne_csv(csv_path, chaine, slug)
+    if ligne is None:
+        raise RuntimeError(f"aucune ligne chaine={chaine} slug={slug} "
+                           f"dans {csv_path}")
+    return ligne
+
+
+def extraire_gabarit(chemin: Path) -> str:
+    """Recupere le texte entre les balises <<<SCRIPT et SCRIPT>>>."""
+    contenu = chemin.read_text(encoding="utf-8")
+    trouve = re.search(r"<<<SCRIPT\s*(.+?)\s*SCRIPT>>>", contenu, re.S)
+    if not trouve:
+        raise RuntimeError(f"balises <<<SCRIPT ... SCRIPT>>> absentes de "
+                           f"{chemin}")
+    return trouve.group(1).strip()
+
+
+def composer(gabarit: str, titre: str, sujet: str, bloc: str = "intro",
+             question: str = "", avocat: str = "") -> str:
+    texte = (gabarit.replace("{titre}", titre).replace("{sujet}", sujet)
+             .replace("{question}", question))
+    # {avocat} n'existe que la ou le signataire n'est pas fixe par la chaine.
+    # Laisse en place si non fourni : le controle ci-dessous le signalera.
+    if avocat:
+        texte = texte.replace("{avocat}", avocat)
+    restants = re.findall(r"\{(\w+)\}", texte)
+    if restants:
+        raise RuntimeError(f"variables non remplacees : {', '.join(restants)}")
+    # les retours a la ligne du gabarit ne doivent pas masquer une mention
+    aplati = re.sub(r"\s+", " ", texte.lower())
+    exigences = EXIGENCES[bloc]
+    manquantes = [m for m in exigences["mentions"] if m not in aplati]
+    if manquantes:
+        raise RuntimeError(
+            f"jingle verbal altere : « {', '.join(manquantes)} » a disparu — "
+            "c'est la phrase qui rend la serie reconnaissable, elle ne se "
+            "reformule pas d'un episode a l'autre")
+    absents = [a for a in exigences["noms"] if a.lower() not in aplati]
+    if absents:
+        raise RuntimeError(
+            f"animateur non presente dans l'introduction : {', '.join(absents)}"
+            " — l'avocat doit nommer les deux personnes qui animent l'emission")
+    if exigences["honnetete"] and not any(m in aplati
+                                          for m in MARQUEURS_HONNETETE):
+        raise RuntimeError(
+            "l'introduction ne dit plus que Nathalie et Nicolas ne sont pas "
+            "des avocats du cabinet. Sans cela, l'auditeur peut croire qu'il "
+            "ecoute deux collaborateurs : garder l'une des formulations "
+            f"suivantes — {', '.join(MARQUEURS_HONNETETE)}")
+    if bloc == "intro":
+        paragraphes = [p.strip() for p in re.split(r"\n\s*\n", texte.strip())
+                       if p.strip()]
+        accroche = (paragraphes[RANG_QUESTION]
+                    if len(paragraphes) > RANG_QUESTION else "")
+        if not accroche.rstrip().endswith("?"):
+            raise RuntimeError(
+                f"le paragraphe n° {RANG_QUESTION + 1} de l'introduction "
+                "n'est pas une question — c'est la structure imposée de la "
+                "série : l'accueil, puis une accroche interrogative dont la "
+                f"réponse est l'article. Reçu : « {accroche[:70]}… »")
+    interdites = [f for f in FORMULES_INTERDITES if f in aplati]
+    if interdites:
+        raise RuntimeError(
+            f"formulation interdite dans le script : {', '.join(interdites)}"
+            " — publicite personnelle de l'avocat, RIN art. 10.2 et art. 10 "
+            "de la loi n° 71-1130")
+    return texte
+
+
+def decouper(texte: str):
+    """Intro -> [(nom, texte, invariant)] selon SEGMENTS_INTRO."""
+    paragraphes = [p.strip() for p in re.split(r"\n\s*\n", texte.strip())
+                   if p.strip()]
+    attendus = 1 + max(i for _, indices, _ in SEGMENTS_INTRO for i in indices)
+    if len(paragraphes) != attendus:
+        raise RuntimeError(
+            f"l'intro compte {len(paragraphes)} paragraphes, {attendus} "
+            "attendus. Le decoupage en segments repose sur cette structure : "
+            "question du jour / presentation / annonce du debat. Ne pas "
+            "fusionner ni ajouter de paragraphe au gabarit.")
+    return [(nom, "\n\n".join(paragraphes[i] for i in indices), invariant)
+            for nom, indices, invariant in SEGMENTS_INTRO]
+
+
+EXTENSIONS_AUDIO = (".mp3", ".wav", ".m4a", ".flac", ".ogg", ".opus")
+
+
+def fichier_texte(sortie: str) -> Path:
+    """Ou ecrire le TEXTE quand --sortie est donne.
+
+    `--sortie` designe tantot le script a relire, tantot le fichier audio a
+    produire. Quand c'est un format audio, le texte va a cote en .txt : sinon
+    il etait ecrit dans le .mp3, que la synthese ecrasait aussitot — l'un des
+    deux etait forcement perdu.
+    """
+    cible = Path(sortie).expanduser()
+    if cible.suffix.lower() in EXTENSIONS_AUDIO:
+        return cible.with_suffix(".txt")
+    return cible
+
+
+def generer(options) -> int:
+    bloc = options.bloc
+    gabarit = extraire_gabarit(
+        GABARITS / f"SCRIPT-{bloc.upper()}-{options.chaine}.md")
+
+    titre, sujet = options.titre, options.sujet
+    if bloc == "intro":
+        # Depuis l'intro en trois blocs, la question du jour EST le sujet et
+        # l'article : le gabarit victimes ne cite plus ni {titre} ni {sujet}.
+        # N'exiger la ligne de file que si le gabarit s'en sert encore ; sinon
+        # signaler le slug inconnu sans bloquer — c'est un garde-fou contre la
+        # coquille, pas une condition de fabrication.
+        besoin_csv = "{titre}" in gabarit or "{sujet}" in gabarit
+        if titre is None:
+            if besoin_csv:
+                titre = (lire_ligne_csv(Path(options.csv), options.chaine,
+                                        options.slug).get("title")
+                         or options.slug)
+            else:
+                titre = options.slug
+                if chercher_ligne_csv(Path(options.csv), options.chaine,
+                                      options.slug) is None:
+                    print(f"--- avertissement : slug « {options.slug} » absent "
+                          f"de {options.csv} (chaine {options.chaine}) — "
+                          "verifier la coquille, puis inscrire l'episode dans "
+                          "la file ---", file=sys.stderr)
+        sujet = sujet or titre.lower()
+        if not options.question:
+            raise RuntimeError(
+                "--question est requise : chaque episode s'ouvre sur une "
+                "question dont la reponse est l'article. La produire avec "
+                "PROMPT-INTRO-VOIX.md")
+    else:
+        # l'outro est fixe par chaine : aucune variable d'episode
+        titre, sujet = titre or "", sujet or ""
+    if options.avocat and SIGNATAIRES.get(options.chaine):
+        raise RuntimeError(
+            f"la chaine « {options.chaine} » est toujours presentee par "
+            f"{SIGNATAIRES[options.chaine]} : --avocat n'a pas de sens ici.")
+    if "{avocat}" in gabarit and not options.avocat:
+        raise RuntimeError(
+            f"la chaine « {options.chaine} » n'a pas de signataire fixe : "
+            "passer --avocat \"Maître Prénom Nom\". C'est l'avocat qui traite "
+            "cette matiere qui presente l'emission, et c'est sa voix clonee "
+            "qui doit la dire.")
+    texte = composer(gabarit, titre, sujet, bloc, options.question or "",
+                     options.avocat or "")
+    dit = texte if options.sans_phonetique else appliquer_prononciation(texte)
+    if not options.sans_phonetique:
+        verifier_signataire(texte, dit, options.chaine)
+
+    print(dit)
+    rappel = ("" if bloc == "intro" else
+              " — fixe pour toute la chaine, une seule prise suffit")
+    print(f"\n--- {len(dit)} caracteres — a faire dire par la voix clonee "
+          f"du cabinet dans Voicebox{rappel} ---", file=sys.stderr)
+    if not options.sans_phonetique and dit != texte:
+        print("--- orthographe phonetique appliquee (Humbert -> Imbert, etc.) "
+              ": elle ne concerne QUE le texte lu ---", file=sys.stderr)
+    if options.sortie:
+        cible_texte = fichier_texte(options.sortie)
+        cible_texte.parent.mkdir(parents=True, exist_ok=True)
+        cible_texte.write_text(dit + "\n", encoding="utf-8")
+        print(f"--- ecrit dans {cible_texte} ---", file=sys.stderr)
+
+    if options.segments and bloc == "intro":
+        return produire_segments(options, texte)
+    if options.moteur != "aucun":
+        moteur = charger(options.moteur, options.config)
+        moteur.verifier()
+        cible = Path(options.sortie or f"{bloc}-{options.chaine}.mp3").expanduser()
+        resultat = moteur.synthetiser(dit, cible.with_suffix(".mp3"),
+                                      options.chaine, bloc)
+        print(f"--- {resultat.get('consigne') or resultat['audio']} ---",
+              file=sys.stderr)
+    return 0
+
+
+def produire_segments(options, texte: str) -> int:
+    """Ecrit (et synthetise) les quatre segments de l'intro."""
+    dossier = Path(options.segments).expanduser()
+    dossier.mkdir(parents=True, exist_ok=True)
+    moteur = None
+    if options.moteur != "aucun":
+        moteur = charger(options.moteur, options.config)
+        moteur.verifier()
+
+    print(f"\n--- segments dans {dossier} ---", file=sys.stderr)
+    for nom, morceau, invariant in decouper(texte):
+        base = (f"{nom}-{options.chaine}" if invariant
+                else f"{nom}-{options.chaine}-{options.slug}")
+        cible = dossier / f"{base}.mp3"
+        dit = (morceau if options.sans_phonetique
+               else appliquer_prononciation(morceau))
+        (dossier / f"{base}.txt").write_text(dit + "\n", encoding="utf-8")
+
+        etat = "invariant" if invariant else "variable "
+        if invariant and cible.is_file() and not options.refaire_invariants:
+            print(f"   [{etat}] {cible.name} — deja enregistre, REUTILISE "
+                  "(ne pas le refaire : la signature deriverait)",
+                  file=sys.stderr)
+            continue
+        if moteur is None:
+            print(f"   [{etat}] {base}.txt — a faire dire", file=sys.stderr)
+            continue
+        resultat = moteur.synthetiser(dit, cible, options.chaine, nom)
+        print(f"   [{etat}] {resultat.get('consigne') or resultat['audio']}",
+              file=sys.stderr)
+    return 0
+
+
+def self_test() -> int:
+    essais, echecs = 0, []
+
+    def verifier(libelle, condition):
+        nonlocal essais
+        essais += 1
+        if not condition:
+            echecs.append(libelle)
+
+    honnete = ("Nathalie et Nicolas ne sont pas avocats, ce sont les voix de "
+               "l'émission.")
+    gabarit = ("{question}\n\nLe podcast du cabinet LEXVOX AVOCATS. Maître "
+               "Patrice Humbert. {sujet} — « {titre} »."
+               f"\n\n{honnete} C'est parti.")
+    rendu = composer(gabarit, "Mon Titre", "l'indemnisation", "intro",
+                     "Pouvez-vous refuser l'expertise ?")
+    verifier("substitution titre", "Mon Titre" in rendu)
+    verifier("substitution sujet", "l'indemnisation" in rendu)
+    verifier("substitution question", "Pouvez-vous refuser l'expertise ?"
+             in rendu)
+    verifier("la question ouvre l'episode",
+             rendu.startswith("Pouvez-vous refuser l'expertise ?"))
+    verifier("aucune accolade restante", "{" not in rendu)
+
+    socle = ("{question}\n\nLe podcast du cabinet LEXVOX AVOCATS. Maître "
+             "Patrice Humbert. {sujet} — « {titre} »."
+             f"\n\n{honnete} C'est parti.")
+    entete = ("{question}\n\nLe podcast du cabinet LEXVOX AVOCATS. Maître "
+              "Patrice Humbert. {sujet} — « {titre} ».")
+    for mauvais, motif in (
+            (socle + "\n\n{inconnu}", "variable non remplacee"),
+            (entete + "\n\nNathalie et Nicolas animent l'émission."
+             "\n\nBonne écoute.", "aucun marqueur d'honnetete"),
+            (entete + "\n\nNicolas n'est pas avocat.\n\nBonne écoute.",
+             "second animateur absent"),
+            (socle.replace("{question}", "Bonjour à tous."),
+             "la question n'est pas au bon rang"),
+            (socle.replace("Le podcast du cabinet LEXVOX AVOCATS.",
+                           "Une émission juridique."),
+             "jingle absent")):
+        essais += 1
+        try:
+            composer(mauvais, "T", "s", "intro", "Une question ?")
+            echecs.append(f"cas non detecte : {motif}")
+        except RuntimeError:
+            pass
+
+    # une garantie de resultat doit etre refusee dans les deux blocs
+    for interdit in ("Résultat garanti pour votre dossier.",
+                     "Nous garantissons une indemnisation."):
+        essais += 1
+        try:
+            composer(interdit, "T", "s", "outro")
+            echecs.append(f"formulation interdite acceptee : {interdit}")
+        except RuntimeError:
+            pass
+
+    # prononciation : appliquee au texte dit, jamais au gabarit
+    verifier("h muet corrige",
+             appliquer_prononciation("Maître Patrice Humbert")
+             == "Maître Patrice Imbert")
+    verifier("sigle adouci",
+             "Lexvox Avocats" in appliquer_prononciation("LEXVOX AVOCATS"))
+    verifier("sigle coupe par un retour a la ligne",
+             appliquer_prononciation("cabinet LEXVOX\nAVOCATS.")
+             == "cabinet Lexvox Avocats.")
+    # signataire impose : reconnu meme coupe par un retour a la ligne, et
+    # refuse des qu'un autre nom prend sa place
+    essais += 1
+    try:
+        verifier_signataire("Je suis Maître Patrice\nHumbert, avocat.",
+                            "Je suis Maître Patrice\nImbert, avocat.",
+                            "victimes")
+    except RuntimeError as erreur:
+        echecs.append(f"signataire coupe par un retour a la ligne : {erreur}")
+    for texte_essai, dit_essai, chaine_essai, motif in (
+            ("Je suis Maître Jean Dupont.", "Je suis Maître Jean Dupont.",
+             "victimes", "signataire remplace"),
+            ("Je suis Maître Patrice Humbert.",
+             "Je suis Maître Patrice Humbert.", "victimes",
+             "h muet non corrige dans le texte lu"),
+            ("Je suis Maître Patrice Humbert.",
+             "Je suis Maître Patrice Imbert.", "famille",
+             "avocate de la chaine famille absente")):
+        essais += 1
+        try:
+            verifier_signataire(texte_essai, dit_essai, chaine_essai)
+            echecs.append(f"cas non detecte : {motif}")
+        except RuntimeError:
+            pass
+    essais += 1
+    try:
+        verifier_signataire("Je suis Maître Jean Dupont.",
+                            "Je suis Maître Jean Dupont.", "permis")
+    except RuntimeError as erreur:
+        echecs.append(f"chaine a signataire variable refusee : {erreur}")
+
+    verifier("aucun sigle majuscule residuel",
+             not any(mot in appliquer_prononciation(
+                 extraire_gabarit(GABARITS / f"SCRIPT-INTRO-{c}.md"))
+                 for c in ("victimes", "famille", "permis")
+                 for mot in ("LEXVOX", "AVOCATS", "LEXVICTIME")))
+
+    # decoupage en segments
+    segments = decouper(composer(gabarit, "T", "s", "intro", "Question ?"))
+    verifier("trois segments", len(segments) == 3)
+    verifier("question variable en tete",
+             segments[0] == ("01-question", "Question ?", False))
+    verifier("presentation invariante", segments[1][2] is True)
+    verifier("final invariant", segments[2][2] is True)
+    verifier("un seul segment a refaire par episode",
+             sum(1 for _, _, inv in segments if not inv) == 1)
+    essais += 1
+    try:
+        decouper("un seul paragraphe")
+        echecs.append("structure alteree non detectee")
+    except RuntimeError:
+        pass
+
+    # file de publication : la lecture souple ne doit ni bloquer sur un slug
+    # inconnu ni sur une file absente, mais retrouver une ligne existante
+    verifier("slug inconnu tolere",
+             chercher_ligne_csv(Path("podcasts/queue-podcast.csv"), "victimes",
+                                "slug-qui-n-existe-pas") is None)
+    verifier("file absente toleree",
+             chercher_ligne_csv(Path("podcasts/file-inexistante.csv"),
+                                "victimes", "peu-importe") is None)
+    verifier("ligne existante retrouvee",
+             (chercher_ligne_csv(Path("podcasts/queue-podcast.csv"), "victimes",
+                                 "10-conseils-pour-reussir-son-expertise")
+              or {}).get("slug") == "10-conseils-pour-reussir-son-expertise")
+
+    # --sortie : le texte ne doit jamais atterrir dans le fichier audio, que la
+    # synthese ecrase juste apres — l'un des deux serait perdu.
+    verifier("texte ecarte d'une cible audio",
+             fichier_texte("/tmp/x/outro-victimes.mp3")
+             == Path("/tmp/x/outro-victimes.txt"))
+    verifier("cible texte respectee",
+             fichier_texte("/tmp/x/script.md") == Path("/tmp/x/script.md"))
+    verifier("le tilde est developpe",
+             str(fichier_texte("~/x/o.mp3")).startswith("/"))
+    for extension in (".wav", ".m4a", ".flac", ".ogg", ".opus", ".MP3"):
+        verifier(f"cible {extension} traitee comme de l'audio",
+                 fichier_texte(f"/tmp/x/o{extension}").suffix == ".txt")
+
+    # les six gabarits livres doivent passer tous les controles de leur bloc
+    for bloc in ("intro", "outro"):
+        for chaine in ("victimes", "famille", "permis"):
+            chemin = GABARITS / f"SCRIPT-{bloc.upper()}-{chaine}.md"
+            essais += 1
+            try:
+                texte = composer(extraire_gabarit(chemin), "Titre d'essai",
+                                 "un sujet d'essai", bloc,
+                                 "Une question d'essai ?", "Maître Essai")
+                if bloc == "intro":
+                    for prenom in ("Nathalie", "Nicolas"):
+                        if prenom not in texte:
+                            echecs.append(f"{chaine} : prenom {prenom} absent")
+                            break
+                    else:
+                        decouper(texte)
+                elif "04 90 54 58 10" in texte:
+                    echecs.append(
+                        f"{chaine} : numero en chiffres dans l'outro — "
+                        "l'ecrire en toutes lettres pour la synthese vocale")
+            except (RuntimeError, FileNotFoundError) as erreur:
+                echecs.append(f"{bloc}/{chaine} : {erreur}")
+
+    for echec in echecs:
+        print(f"  !! {echec}")
+    print(f"auto-test : {essais - len(echecs)}/{essais} verifications passees")
+    return 1 if echecs else 0
+
+
+def main() -> int:
+    analyseur = argparse.ArgumentParser(description=__doc__)
+    analyseur.add_argument("--bloc", choices=("intro", "outro"),
+                           default="intro",
+                           help="intro (par episode) ou outro (fixe par chaine)")
+    analyseur.add_argument("--chaine", choices=("victimes", "famille",
+                                               "permis"))
+    analyseur.add_argument("--slug")
+    analyseur.add_argument("--titre", help="court-circuite la lecture du CSV")
+    analyseur.add_argument("--sujet", help="formulation orale du sujet")
+    analyseur.add_argument("--question",
+                           help="accroche interrogative dont la reponse est "
+                                "l'article (cf. PROMPT-INTRO-VOIX.md)")
+    analyseur.add_argument("--avocat",
+                           help="signataire de l'episode, pour les chaines "
+                                "dont le gabarit porte {avocat} (permis)")
+    analyseur.add_argument("--csv", default="podcasts/queue-podcast.csv")
+    analyseur.add_argument("--sortie", help="ecrit le script dans un fichier")
+    analyseur.add_argument("--segments",
+                           help="decoupe l'intro et ecrit chaque segment dans "
+                                "ce dossier (invariants reutilises)")
+    analyseur.add_argument("--refaire-invariants", action="store_true",
+                           help="resynthetise le jingle deja enregistre "
+                                "(deconseille : la signature derive)")
+    analyseur.add_argument("--moteur", choices=("aucun", "manuel", "voicebox"),
+                           default="aucun",
+                           help="voicebox = synthese locale automatique")
+    analyseur.add_argument("--config", default="podcasts/voicebox.json")
+    analyseur.add_argument("--sans-phonetique", action="store_true",
+                           help="n'applique pas les corrections de prononciation")
+    analyseur.add_argument("--self-test", action="store_true")
+    options = analyseur.parse_args()
+
+    if options.self_test:
+        return self_test()
+    if not options.chaine:
+        analyseur.error("--chaine est requis")
+    if options.bloc == "intro" and not (options.slug or options.titre):
+        analyseur.error("pour une intro, --slug ou --titre est requis "
+                        "(l'outro, lui, ne depend pas de l'episode)")
+    if options.segments and not options.slug:
+        analyseur.error("--segments a besoin de --slug pour nommer les "
+                        "segments variables")
+    try:
+        return generer(options)
+    except (RuntimeError, FileNotFoundError, ErreurVoix) as erreur:
+        print(f"ECHEC : {erreur}", file=sys.stderr)
+        return 2
+
+
+if __name__ == "__main__":
+    sys.exit(main())

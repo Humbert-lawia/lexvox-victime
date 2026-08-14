@@ -1,0 +1,39 @@
+{
+  "_lisez_moi": [
+    "Gabarit de configuration d'un service ffmpeg distant.",
+    "Copier en podcasts/ffmpeg-api.json (ignore par git) et adapter les",
+    "chemins et noms de champs au service reellement retenu.",
+    "La cle d'API n'est JAMAIS ecrite ici : ce fichier ne contient que le",
+    "NOM de la variable d'environnement qui la porte (regle 5 du CLAUDE.md).",
+    "Verifier imperativement journal_disponible : sans le flux d'erreur de",
+    "ffmpeg, loudnorm ne peut pas tourner en deux passes et les controles",
+    "de loudness et de vrai pic deviennent invérifiables."
+  ],
+  "nom": "service ffmpeg a nommer",
+  "base_url": "https://api.exemple.com/v1",
+  "cle_env": "FFMPEG_API_KEY",
+  "entete_auth": "Authorization",
+  "prefixe_auth": "Bearer ",
+  "journal_disponible": true,
+  "delai_max_s": 900,
+  "televersement": {
+    "chemin": "/files",
+    "champ_fichier": "file",
+    "champ_reference": "id"
+  },
+  "soumission": {
+    "chemin": "/jobs",
+    "champ_args": "args",
+    "champ_entrees": "inputs",
+    "champ_id": "id"
+  },
+  "etat": {
+    "chemin": "/jobs/{id}",
+    "chemin_sante": "/",
+    "champ_statut": "status",
+    "valeurs_fin": ["done", "completed", "succeeded"],
+    "valeurs_echec": ["error", "failed", "cancelled"],
+    "champ_journal": "stderr",
+    "champ_sortie": "output_url"
+  }
+}

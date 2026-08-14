@@ -160,6 +160,29 @@ PACA avec image mise en avant géolocalisée (EXIF GPS). Ce pipeline ne touche
 NI Sanity NI lexvox-victime.com — anti-cannibalisation triple obligatoire
 (2 WP + Sanity) avant chaque slug.
 
+## Podcasts (chantier en cours)
+
+Trois séries — voix clonée de l'avocat (Voicebox, en **local**) autour d'un
+débat NotebookLM. Avant toute intervention sur ce chantier, lire
+**`ETAT-CHANTIER-PODCASTS.md`** : il porte les décisions de Me Humbert
+(intro en 3 blocs de 30 s, prononciation « Imbert », signataires imposés),
+ce qui est prouvé par les tests, ce qui ne l'est pas, et les décisions en
+attente. Seule la chaîne **victimes** est configurée.
+
+Un épisode se fabrique en une commande : `python3 tools/podcast_episode.py`.
+La synthèse exige Voicebox, qui n'écoute que `localhost` : **la chaîne se
+déroule donc sur le poste du cabinet** (`GUIDE-POSTE-MAC.md`), et
+`tools/poste_verifier.py` y contrôle les prérequis. Une session distante
+prépare, relit et corrige le code, mais ne synthétise pas.
+
+Publier l'instance pour la piloter de l'extérieur reste possible
+(`CONNEXION-VOICEBOX.md`, `tools/voicebox_tunnel.py`) mais n'est jamais le
+premier réflexe : Voicebox n'a **aucune authentification native**, et la
+publier sans portail met la voix clonée de l'avocat à la disposition de
+quiconque connaît l'URL. `voix_moteur.py` refuse d'ailleurs toute adresse
+distante en `http`, et refuse un secret écrit dans un fichier de
+configuration (renvois `env:NOM` uniquement).
+
 ## Suivi
 
 `SUIVI-ACTIONS-CORRECTIVES.md` trace les actions issues des audits SEO — le

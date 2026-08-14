@@ -1,0 +1,14 @@
+# Fichiers binaires : jamais de normalisation de fins de ligne ni de diff
+# texte. Les PDF contiennent des tables xref dont les entrees font exactement
+# 20 octets, espace final compris : une normalisation les corromprait, et
+# `git diff --check` les signalait a tort comme « trailing whitespace ».
+*.pdf   binary
+*.docx  binary
+*.mp3   binary
+*.m4a   binary
+*.wav   binary
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.webp  binary
+*.ico   binary

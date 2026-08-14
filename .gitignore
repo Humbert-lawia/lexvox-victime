@@ -10,3 +10,12 @@ scripts/
 *.bak
 __pycache__/
 *.sanity.json
+
+# Podcasts : jamais d'audio dans le dépôt (état = CSV uniquement)
+podcasts/**/*.mp3
+podcasts/**/*.m4a
+podcasts/**/*.wav
+
+# Configuration du service ffmpeg distant (peut contenir des URL privees)
+podcasts/ffmpeg-api.json
+podcasts/voicebox.json
