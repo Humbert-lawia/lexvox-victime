@@ -10,3 +10,12 @@ scripts/
 *.bak
 __pycache__/
 *.sanity.json
+
+# Skills installées : leur dossier scripts/ ne doit pas tomber sous la règle « scripts/ » ci-dessus
+!.claude/skills/*/scripts/
+
+# unlazy — état local de coordination (hook Stop, ledgers, verrous)
+.unlazy/
+.unlazy-hook-state.json
+.claude/settings.local.json
+.claude/settings.json.unlazy.bak

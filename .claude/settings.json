@@ -7,5 +7,18 @@
       "Bash(npm start*)",
       "Bash(git pull --rebase*)"
     ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/skills/unlazy/scripts/stop-hook.mjs\" --unlazy",
+            "timeout": 20
+          }
+        ]
+      }
+    ]
   }
 }
