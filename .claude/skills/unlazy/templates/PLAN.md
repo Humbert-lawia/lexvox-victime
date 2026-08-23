@@ -46,8 +46,8 @@ Every leaf repeats its complete ownership as an `OWNS:` header in its ledger. Cl
 Append events to `.unlazy/<scope>/status.log`; do not copy the event history into this file:
 
 ```text
-node <skill-dir>/scripts/gate-check.mjs --scope <scope> --log "leaf-1.1.1 dispatched"
-node <skill-dir>/scripts/gate-check.mjs --scope <scope> --log "leaf-1.1.1 verified"
+node .claude/skills/unlazy/scripts/gate-check.mjs --scope <scope> --log "leaf-1.1.1 dispatched"
+node .claude/skills/unlazy/scripts/gate-check.mjs --scope <scope> --log "leaf-1.1.1 verified"
 ```
 
 Record plan changes, dispatch, parent verification, abandonment, branch integration, and lease release. Update the live State and Needs fields above when state changes; keep the log append-only.

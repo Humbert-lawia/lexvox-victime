@@ -8,7 +8,7 @@ Unlazy executes repository-described checks. Its safety boundary is explicit rev
 
 Before using an inherited ledger:
 
-1. Run `node <skill-dir>/scripts/gate-check.mjs --status <gate-file>` to parse and display status without executing checks.
+1. Run `node .claude/skills/unlazy/scripts/gate-check.mjs --status <gate-file>` to parse and display status without executing checks.
 2. Read every `CHECK:`, `EXPECT:`, and `CWD:`. Inspect any script called by a check, including generated or ignored files.
 3. Determine the shell from `--shell`, `UNLAZY_SHELL`, or the platform default, and inspect the inherited `PATH`. For a new oracle with no exact approval, normal mode prints the resolved values without running it. Normal mode is not a universal dry run because an existing exact approval permits execution.
 4. Run with `--approve` only when the complete resolved oracle is expected and understood.

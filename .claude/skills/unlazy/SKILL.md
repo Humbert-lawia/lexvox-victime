@@ -1,11 +1,22 @@
 ---
 name: unlazy
-description: Enforces completion discipline for substantial autonomous work by writing acceptance gates before execution, decomposing work with the Depth Tree, running approved checks, and re-verifying evidence before reporting. Use when Codex faces a long or multi-part task, work that has returned half-done, an exhaustive audit or build, parallel leaves or pipelines, or explicit triggers such as /unlazy, $unlazy, "tree N", "gates", and "do not stop until it is done".
+description: Enforces verifiable completion discipline on long or autonomous work — writes acceptance gates before execution, decomposes the task with the Depth Tree, runs approved checks, then re-verifies the evidence before reporting. Use for a long or multi-part task, work that came back half-done, an exhaustive audit, build, refactor or migration, before dispatching parallel subagents, or whenever a confident "done" needs proof rather than trust. Triggers on /unlazy, "tree N", "gates", "do not stop until it is done", and on the French equivalents « ne t'arrête pas tant que ce n'est pas fini », « va au bout », « audit exhaustif », « vérifie vraiment », « finis le travail ».
 ---
 
 # Unlazy
 
 Make incomplete work visible and make completion testable. Prove outcomes against a ledger instead of relying on a confident done report.
+
+## Resolve the skill path first
+
+Every command below runs the checker from this skill's own directory. Resolve it once, then reuse it:
+
+| Install location | Path to use |
+|---|---|
+| Project skill (default) | `.claude/skills/unlazy/scripts/gate-check.mjs` |
+| User skill | `~/.claude/skills/unlazy/scripts/gate-check.mjs` |
+
+This document uses the project path. Gate `CHECK:` lines resolve against the repository root, so the project-relative form works unchanged inside a ledger. If the skill is installed at user level, substitute the second form everywhere, including in any `CHECK:` you author.
 
 ## Write gates before real work
 
@@ -13,14 +24,14 @@ Create `GATES.md` from [templates/gates-leaf.md](templates/gates-leaf.md) before
 
 Treat `CHECK:` as code. Before executing an inherited ledger, parse it without running anything and read every command and called script:
 
-```text
-node <skill-dir>/scripts/gate-check.mjs --status GATES.md
+```bash
+node .claude/skills/unlazy/scripts/gate-check.mjs --status GATES.md
 ```
 
 Approve only commands you wrote or understand, then run them explicitly:
 
-```text
-node <skill-dir>/scripts/gate-check.mjs --approve GATES.md
+```bash
+node .claude/skills/unlazy/scripts/gate-check.mjs --approve GATES.md
 ```
 
 When an oracle has no existing approval, a normal run prints `CHECK:`, `EXPECT:`, resolved `CWD:`, resolved shell, and `PATH`, then leaves that command unexecuted. Approvals live under `~/.unlazy/approved` by default. They bind the ledger, gate, command, expectation, resolved working directory and shell, timeout, output and regex limits, platform, and full inherited `PATH`. Changing any bound input requires approval again. Read [SECURITY.md](SECURITY.md) before running checks from an untrusted repository.
@@ -71,12 +82,21 @@ Remember that the checker proves only the declared command oracle. It cannot inf
 
 Re-measure every number and completion claim immediately before reporting. Use qualified ids such as `leaf-1.2.1:G3`. Report the measured met, unmet, and abandoned counts and surface every abandonment. Do not compose a done report while any required gate remains unmet.
 
-## Install the optional Claude Code Stop hook carefully
+## Use Claude Code's own primitives
+
+This skill maps onto four Claude Code mechanisms. Read [references/claude-code.md](references/claude-code.md) before orchestrating or installing the hook.
+
+- **Skill invocation:** `/unlazy` loads this file. Automatic invocation depends on the frontmatter description matching the task, so state the discipline explicitly when it matters.
+- **Subagent dispatch:** a leaf is one Task/Agent tool call. Give it the shared contract, its exact `OWNS:` paths, and its own ledger path — never the driver's transcript. Launch independent leaves in a single message so they run concurrently.
+- **Parent verification:** a subagent's report is self-certification. Re-run its runnable gates yourself with `--reverify` in the driver context before marking the leaf `VERIFIED`.
+- **Stop hook:** the only mechanism that enforces anything without model judgment. See below.
+
+## Install the optional Stop hook carefully
 
 Offer the hook once when structural stop enforcement would materially help. Never install it without the user's consent:
 
-```text
-node <skill-dir>/scripts/install-hooks.mjs
+```bash
+node .claude/skills/unlazy/scripts/install-hooks.mjs
 ```
 
 The hook returns Claude Code's top-level `decision: "block"` response while this session's resolved pipeline has unmet gates. Its own session-keyed progress guard releases after six consecutive blocks without ledger progress. Remove it with `--uninstall`.

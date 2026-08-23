@@ -3,7 +3,7 @@
 Scope: integrate children <explicit child ids> into one verified result
 
 - [ ] N1: every named child leaf is reverified from its exact ledger
-  CHECK: node <skill-dir>/scripts/gate-check.mjs --root . --cwd . --reverify --jobs 1 .unlazy/<scope>/gates/leaf-<a>.md .unlazy/<scope>/gates/leaf-<b>.md
+  CHECK: node .claude/skills/unlazy/scripts/gate-check.mjs --root . --cwd . --reverify --jobs 1 .unlazy/<scope>/gates/leaf-<a>.md .unlazy/<scope>/gates/leaf-<b>.md
   EXPECT: ALL MET
   EVIDENCE: pending
 
@@ -43,7 +43,7 @@ requires integration evidence; a set of locally complete leaves is not enough.
 For N5, run this once for each direct child after verification and record the
 outputs as manual evidence:
 
-node <skill-dir>/scripts/gate-check.mjs --scope <scope> --leaf leaf-<id> --release
+node .claude/skills/unlazy/scripts/gate-check.mjs --scope <scope> --leaf leaf-<id> --release
 
 Drop N5 only when no child claimed ownership. See references/orchestration.md
 and references/parallel.md.

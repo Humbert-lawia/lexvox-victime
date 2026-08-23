@@ -21,22 +21,22 @@ Use `OPEN`, `VERIFIED`, or `ABANDONED` for branches. Store leaf ledgers as `gate
 3. **Claim every concurrent leaf.** Run:
 
    ```text
-   node <skill-dir>/scripts/gate-check.mjs --scope <scope> --leaf leaf-1.2.1 --claim
+   node .claude/skills/unlazy/scripts/gate-check.mjs --scope <scope> --leaf leaf-1.2.1 --claim
    ```
 
    A refused claim means the split is not safe for concurrent dispatch. Change the plan or run the work sequentially; never bypass the refusal.
-4. **Dispatch ready leaves.** Give each leaf only the shared contract, its exact ownership and dependencies, its own ledger, and the four-pass completion rule. Do not leak unrelated leaf histories.
+4. **Dispatch ready leaves.** On Claude Code a leaf is one Task/Agent tool call. Give it only the shared contract, its exact ownership and dependencies, its own ledger path, and the four-pass completion rule. Do not leak the driver's transcript or unrelated leaf histories — the fresh context is the reason to dispatch a subagent at all. Send every independent leaf in a single message so the calls run concurrently; leaves dispatched one message at a time serialize and pay the coordination cost for nothing. See [claude-code.md](claude-code.md).
 5. **Verify each return independently.** Re-run the returned leaf's runnable gates, including already checked gates:
 
    ```text
-   node <skill-dir>/scripts/gate-check.mjs --root . --cwd . --reverify .unlazy/<scope>/gates/leaf-1.2.1.md
+   node .claude/skills/unlazy/scripts/gate-check.mjs --root . --cwd . --reverify .unlazy/<scope>/gates/leaf-1.2.1.md
    ```
 
    `--status` alone is not re-verification. If an approved oracle changed, inspect it and approve the new oracle before continuing. Review manual gates directly and try to refute at least one passed gate.
 6. **Append status and roll forward.** Record the result without rewriting history:
 
    ```text
-   node <skill-dir>/scripts/gate-check.mjs --scope <scope> --log "leaf-1.2.1 verified"
+   node .claude/skills/unlazy/scripts/gate-check.mjs --scope <scope> --log "leaf-1.2.1 verified"
    ```
 
    Mark the leaf `VERIFIED`, promote newly unblocked leaves from `WAITING` to `READY`, and dispatch them without waiting for unrelated in-flight leaves.
@@ -50,7 +50,7 @@ Gate checks run sequentially by default (`--jobs 1`). This is the easiest transc
 Use `--jobs <N>` only when runnable gates are independent and parallel execution reduces wall-clock time:
 
 ```text
-node <skill-dir>/scripts/gate-check.mjs --root . --cwd . --reverify --jobs 4 .unlazy/<scope>/gates/leaf-1.1.1.md .unlazy/<scope>/gates/leaf-1.1.2.md
+node .claude/skills/unlazy/scripts/gate-check.mjs --root . --cwd . --reverify --jobs 4 .unlazy/<scope>/gates/leaf-1.1.1.md .unlazy/<scope>/gates/leaf-1.1.2.md
 ```
 
 The limit is rolling: start another check when one finishes instead of waiting for a fixed batch. Output and file updates remain deterministic in ledger order. `--jobs` controls command execution, not subagent dispatch and not dependency readiness.

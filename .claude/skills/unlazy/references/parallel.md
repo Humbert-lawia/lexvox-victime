@@ -57,7 +57,7 @@ OWNS: src/api/**, tests/api/**
 Reject absolute paths and any path containing a `..` traversal segment. Every leaf dispatched concurrently must declare all paths it may modify and claim them before work:
 
 ```text
-node <skill-dir>/scripts/gate-check.mjs --scope api --leaf leaf-1.2.1 --claim
+node .claude/skills/unlazy/scripts/gate-check.mjs --scope api --leaf leaf-1.2.1 --claim
 ```
 
 Claiming checks all existing leases and writes the new lease while holding one global lease lock. Two simultaneous conflicting claims cannot both succeed. A claim is all-or-nothing.
@@ -82,8 +82,8 @@ Leases cover only declared paths and only participants that honor them. They are
 Release a leaf or whole scope after parent verification:
 
 ```text
-node <skill-dir>/scripts/gate-check.mjs --scope api --release --leaf leaf-1.2.1
-node <skill-dir>/scripts/gate-check.mjs --scope api --release
+node .claude/skills/unlazy/scripts/gate-check.mjs --scope api --release --leaf leaf-1.2.1
+node .claude/skills/unlazy/scripts/gate-check.mjs --scope api --release
 ```
 
 An unknown `--leaf` is an error. The checker never silently falls back to the first ledger.
@@ -97,7 +97,7 @@ Preserve the ledger's original LF or CRLF style. Insert a missing evidence line 
 The status log is append-only:
 
 ```text
-node <skill-dir>/scripts/gate-check.mjs --scope api --log "leaf-1.2.1 verified"
+node .claude/skills/unlazy/scripts/gate-check.mjs --scope api --log "leaf-1.2.1 verified"
 ```
 
 Append-only logging reduces lost updates; it does not replace the live state fields in `PLAN.md`.
@@ -109,7 +109,7 @@ The Stop hook keys progress state to the resolved scope and current session. Con
 The hook may be pinned with installer `--scope` or resolve a session binding written by:
 
 ```text
-node <skill-dir>/scripts/gate-check.mjs --scope api --bind <session-id>
+node .claude/skills/unlazy/scripts/gate-check.mjs --scope api --bind <session-id>
 ```
 
 Do not treat a stored session id as a secret or identity proof.
