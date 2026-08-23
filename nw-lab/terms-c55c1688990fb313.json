@@ -1,0 +1,2492 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [],
+  "topic_matrix": {
+   "Qu'est-ce que la CCI (Commission de Conciliation et d'Indemnisation) et quel est son rôle ?": {
+    "importance": 9
+   },
+   "Qui peut saisir la CCI et dans quels cas ?": {
+    "importance": 9
+   },
+   "Quelles sont les conditions de recevabilité pour déposer un dossier à la CCI ?": {
+    "importance": 8
+   },
+   "Comment constituer et déposer un dossier de demande d'indemnisation auprès de la CCI ?": {
+    "importance": 10
+   },
+   "Quel est le délai pour saisir la CCI après un accident médical ?": {
+    "importance": 8
+   },
+   "Comment se déroule la procédure devant la CCI, y compris l'expertise médicale ?": {
+    "importance": 9
+   },
+   "Quels sont les préjudices couverts et comment se déroule l'indemnisation par la CCI ?": {
+    "importance": 9
+   },
+   "Que faire après l'avis de la CCI (accepter l'offre ou contester) ?": {
+    "importance": 7
+   },
+   "Est-il nécessaire d'avoir un avocat pour saisir la CCI ?": {
+    "importance": 7
+   },
+   "Quels sont les avantages et les limites de la procédure CCI par rapport à une action en justice ?": {
+    "importance": 8
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Après l’avis de la CCI, qui indemnise : l’assureur ou l’ONIAM ?"
+   },
+   {
+    "q": "Avez vous un avocat spécialisé en CRCI à me conseiller ?"
+   },
+   {
+    "q": "Besoin d'accompagnement pour saisir la CCI ?"
+   },
+   {
+    "q": "Besoin d'un avis sur un dossier médical ?"
+   },
+   {
+    "q": "CCI et CRCI : quelle différence ?"
+   },
+   {
+    "q": "CCI et indemnisation : quels préjudices sont couverts ?"
+   },
+   {
+    "q": "CCI ou CRCI : quelle différence ?"
+   },
+   {
+    "q": "CCI ou tribunal : quelle procédure choisir ?"
+   },
+   {
+    "q": "Comment saisir la CCI (ex-CRCI) après un accident médical ?"
+   },
+   {
+    "q": "Comment saisir la CCI ?"
+   },
+   {
+    "q": "Comment saisir la CCI CRCI ?"
+   },
+   {
+    "q": "Comment saisir la CRCI ?"
+   },
+   {
+    "q": "Comment saisir la Commission de Conciliation et d’Indemnisation (CCI) ?"
+   },
+   {
+    "q": "Comment saisir la commission de conciliation et d'indemnisation ?"
+   },
+   {
+    "q": "Comment se déroule l'expertise médicale de la CRCI ?"
+   },
+   {
+    "q": "Comment se déroule la procédure devant la commission de conciliation et d'indemnisation ?"
+   },
+   {
+    "q": "Conditions d'éligibilité : Comment saisir la CCI CRCI d'une demande d'indemnisation suite à un accident médical ?"
+   },
+   {
+    "q": "Dans quel cas peut-on saisir la commission de conciliation et d'indemnisation ?"
+   },
+   {
+    "q": "Dans quel délai saisir la commission de conciliation et d'indemnisation ?"
+   },
+   {
+    "q": "Dans quels cas peut-on saisir la CCI ?"
+   },
+   {
+    "q": "Faut-il prouver une faute médicale pour être indemnisé ?"
+   },
+   {
+    "q": "Faut-il un avocat pour saisir la CCI ?"
+   },
+   {
+    "q": "Il faut certainement je pense que je repasse devant la CRCI non ?"
+   },
+   {
+    "q": "Indemnisation : comment ça marche ?"
+   },
+   {
+    "q": "La CCI peut-elle indemniser en cas d'accident médical non fautif ?"
+   },
+   {
+    "q": "La saisine de la CCI est-elle gratuite ?"
+   },
+   {
+    "q": "La saisine de la CCI est-elle payante ?"
+   },
+   {
+    "q": "Le fonds d’indemnisation en danger ?"
+   },
+   {
+    "q": "L’avis de la CCI est-il contraignant ?"
+   },
+   {
+    "q": "L’expertise CCI est-elle vraiment gratuite ?"
+   },
+   {
+    "q": "Peut-on aller au tribunal après une procédure CCI ?"
+   },
+   {
+    "q": "Peut-on saisir la CCI et le tribunal en même temps ?"
+   },
+   {
+    "q": "Peut-on saisir la CCI sans avocat ?"
+   },
+   {
+    "q": "Que faire si l’offre d’indemnisation est insuffisante ?"
+   },
+   {
+    "q": "Que se passe-t-il si l'assureur refuse de faire une offre d'indemnisation ?"
+   },
+   {
+    "q": "Que se passe-t-il si la CCI rejette la demande ?"
+   },
+   {
+    "q": "Quel est le délai pour saisir la CCI après un accident médical ?"
+   },
+   {
+    "q": "Quel est le rôle de l’ONIAM dans ce cadre ?"
+   },
+   {
+    "q": "Quelle CCI saisir : celle de son domicile ou celle du lieu de l'accident médical ?"
+   },
+   {
+    "q": "Quelle est l'évaluation faite par la commission de conciliation et d'indemnisation ?"
+   },
+   {
+    "q": "Quelle est la procédure devant la CCI ?"
+   },
+   {
+    "q": "Quelle est la réponse à apporter à la suite de la décision de la commission de conciliation et d'indemnisation ?"
+   },
+   {
+    "q": "Quelle indemnisation en cas d'infectio nosocomiale ?"
+   },
+   {
+    "q": "Quelle indemnisation en cas d'infection nosocomiale ?"
+   },
+   {
+    "q": "Quelle peut être la décision rendue par la commission de conciliation et d'indemnisation ?"
+   },
+   {
+    "q": "Quels dossiers sont recevables devant la CCI ?"
+   },
+   {
+    "q": "Quels sont les moyens d'indemnisation en matière d'aléa thérapeutique ?"
+   },
+   {
+    "q": "Quels types de préjudices peuvent être indemnisés ?"
+   },
+   {
+    "q": "Question 1 Comment saisir la CCI CRCI suite à une erreur chirurgicale ?"
+   },
+   {
+    "q": "Question 1 Quelle est la durée de la procédure en CCI CRCI suite à une demande d'indemnisation après une opération ratée d'un hallux valgus ?"
+   },
+   {
+    "q": "Qui indemnise en cas d'affection iatrogène?"
+   },
+   {
+    "q": "Qui peut saisir la CCI ?"
+   },
+   {
+    "q": "Qui peut saisir la commission de conciliation et d'indemnisation ?"
+   },
+   {
+    "q": "Qu’est ce que la CRCI / CCI ?"
+   },
+   {
+    "q": "Qu’est-ce que la CCI (ex-CRCI) ?"
+   },
+   {
+    "q": "Qu’est-ce que la CRCI / CCI ?"
+   },
+   {
+    "q": "Seuil de gravité non atteint : que faire ?"
+   },
+   {
+    "q": "Un avis CCI défavorable ou une offre insuffisante ?"
+   },
+   {
+    "q": "Victime d’un accident médical, d’une infection nosocomiale ou d’un aléa thérapeutique ?"
+   },
+   {
+    "q": "Voir sur le site AIVF FAQ Comment saisir la CCI CRCI ?"
+   },
+   {
+    "q": "Vous envisagez une saisine de la CCI ?"
+   },
+   {
+    "q": "Vous êtes victime d’une erreur médicale, d’une infection nosocomiale, d’une affection iatrogène ou d’un accident médical ?"
+   },
+   {
+    "q": "À quoi sert la CCI dans une procédure d’indemnisation ?"
+   },
+   {
+    "q": "❓ FAQ — Qu’est-ce que la CRCI / CCI ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13318",
+   "title": "Saisir la commission de conciliation et d'indemnisation en cas d'accident médical, infection nosocomiale ou affection iatrogène | Service Public",
+   "desc": "Une commission de conciliation et d'indemnisation facilite le règlement de litiges liés aux accidents médicaux, affections iatrogènes et infections nosocomiales",
+   "headers": [
+    [
+     "h1",
+     "Saisir la commission de conciliation et d'indemnisation en cas d'accident médical, infection nosocomiale ou affection iatrogène"
+    ],
+    [
+     "h2",
+     "Dans quel cas peut-on saisir la commission de conciliation et d'indemnisation ?"
+    ],
+    [
+     "h2",
+     "Qui peut saisir la commission de conciliation et d'indemnisation ?"
+    ],
+    [
+     "h2",
+     "Dans quel délai saisir la commission de conciliation et d'indemnisation ?"
+    ],
+    [
+     "h2",
+     "Comment saisir la commission de conciliation et d'indemnisation ?"
+    ],
+    [
+     "h2",
+     "Quelle est l'évaluation faite par la commission de conciliation et d'indemnisation ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule la procédure devant la commission de conciliation et d'indemnisation ?"
+    ],
+    [
+     "h2",
+     "Quelle peut être la décision rendue par la commission de conciliation et d'indemnisation ?"
+    ],
+    [
+     "h2",
+     "Quelle est la réponse à apporter à la suite de la décision de la commission de conciliation et d'indemnisation ?"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Services en ligne et formulaires"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 35,
+   "readability": 42,
+   "word_count": 2699,
+   "content_len": 16796
+  },
+  {
+   "rank": 2,
+   "url": "https://www.rsl-avocat.com/cci-ou-crci/",
+   "title": "CCI / CRCI : procédure et expertise (accident médical) | RSL Avocat",
+   "desc": "CCI (ex-CRCI) : saisine, conditions de recevabilité, expertise gratuite, avis et offre d’indemnisation. Avocat accident médical : accompagnement du dossier.",
+   "headers": [
+    [
+     "h1",
+     "CCI ou CRCI : Les Commissions de Conciliation et d’indemnisation"
+    ],
+    [
+     "h2",
+     "Procédure devant la Commission de conciliation et d’indemnisation (CCI)"
+    ],
+    [
+     "h2",
+     "Saisir la CCI : avantages et limites à connaître"
+    ],
+    [
+     "h2",
+     "Questions fréquentes – CCI / CRCI"
+    ],
+    [
+     "h2",
+     "Contact – Dossier CCI / accident médical"
+    ],
+    [
+     "h2",
+     "Articles connexes"
+    ],
+    [
+     "h2",
+     "RSL Avocat"
+    ],
+    [
+     "h2",
+     "Adresse"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 38,
+   "word_count": 1319,
+   "content_len": 8437
+  },
+  {
+   "rank": 3,
+   "url": "https://commission-conciliation-indemnisation-aivf.fr/foire-aux-questions-sur-la-commission-de-conciliation-et-dindemnisation-cci-ou-crci/quel-est-le-role-de-la-cci/comment-saisir-la-cci-crci",
+   "title": "Comment saisir la CCI CRCI ? - Association AIVF",
+   "desc": "Comment saisir la CCI CRCI suite à un accident médical pour l'indemnisation du préjudice, loi Kouchner, dossier médical, ONIAM",
+   "headers": [
+    [
+     "h1",
+     "Comment saisir la CCI CRCI ?"
+    ],
+    [
+     "h2",
+     "Questions de victimes sur comment saisir la CCI CRCI"
+    ]
+   ],
+   "content_score": 58,
+   "readability": 44,
+   "word_count": 635,
+   "content_len": 3960
+  },
+  {
+   "rank": 4,
+   "url": "https://avf.fr/cci",
+   "title": "Saisir la CCI (ex-CRCI) : procédure d'indemnisation amiable",
+   "desc": "Comment saisir la CCI (ex-CRCI) après un accident médical ? Conditions, délais, déroulement de la procédure et recours possibles. Guide complet pour les victimes.",
+   "headers": [
+    [
+     "h1",
+     "Saisir la CCI (ex-CRCI) : guide complet pour obtenir une indemnisation après un accident médical"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que la CCI (ex-CRCI) ?"
+    ],
+    [
+     "h2",
+     "Conditions pour saisir la CCI après un accident médical"
+    ],
+    [
+     "h2",
+     "Comment constituer un dossier de saisine de la CCI"
+    ],
+    [
+     "h2",
+     "Déroulement de la procédure devant la CCI"
+    ],
+    [
+     "h2",
+     "Après l’avis de la CCI : accepter ou contester"
+    ],
+    [
+     "h2",
+     "CCI et indemnisation : quels préjudices sont couverts ?"
+    ],
+    [
+     "h2",
+     "CCI ou tribunal : quelle procédure choisir ?"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 67,
+   "readability": 40,
+   "word_count": 2303,
+   "content_len": 14515
+  },
+  {
+   "rank": 5,
+   "url": "https://www.oniam.fr/procedure-indemnisation",
+   "title": "Procédure d’indemnisation - Oniam",
+   "desc": "L’ONIAM et les CCI, au titre de la Solidarité nationale, offrent une procédure d’indemnisation amiable, rapide et gratuite, aux victimes d’accidents médicaux :\r\n\r\n    dont le degré de gravité est supérieur au seuil fixé par le décret du 4 avril 2003 ;\r\n    lorsque la date de l’acte médical en cause est postérieure au 5 septembre 2001.",
+   "headers": [
+    [
+     "h1",
+     "Les dispositifs d’indemnisation"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Une procédure amiable, rapide et gratuite pour toutes les victimes"
+    ],
+    [
+     "h2",
+     "Pour saisir l’ONIAM ou une Commission de conciliation et d’indemnisation (CCI)"
+    ],
+    [
+     "h2",
+     "Les délais d’instruction des dossiers"
+    ],
+    [
+     "h2",
+     "L’offre d’indemnisation"
+    ]
+   ],
+   "content_score": 29,
+   "readability": 18,
+   "word_count": 746,
+   "content_len": 4718
+  },
+  {
+   "rank": 6,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/responsabilite-medicale-accident-medical/crci-cci-htm/crci-cci",
+   "title": "Indemnisation par la CRCI / CCI - Association Victimes de France AIVF",
+   "desc": "Obtenez des conseils sur l'indemnisation par la CRCI/CCI avec l'Association Aide Victimes France. Expertise et soutien juridique garantis.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation par la CRCI / CCI"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Qu’est-ce que la CRCI / CCI ? (Commission de Conciliation et d’Indemnisation)"
+    ],
+    [
+     "h2",
+     "Qu’est ce que la CRCI / CCI ? ( Commission de Conciliation et d’Indemnisation )"
+    ]
+   ],
+   "content_score": 69,
+   "readability": 47,
+   "word_count": 1692,
+   "content_len": 10328
+  },
+  {
+   "rank": 7,
+   "url": "https://association-aivf-faq.fr/accident-medical-faq/dispositifs-indemnisation-cci-oniam/procedure-dindemnisation-cci-crci",
+   "title": "Procédure indemnisation CCI CRCI - Association Victimes de France AIVF",
+   "desc": "Procédure d'indemnisation CCI CRCI suite à un accident médical, loi Kouchner, repsonsabilité médicale ou ONIAM",
+   "headers": [
+    [
+     "h1",
+     "Procédure d’indemnisation CCI CRCI"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "FAQ – Procédure d’indemnisation devant la CCI"
+    ],
+    [
+     "h2",
+     "Questions concernant la procédure d’indemnisation CCI CRCI"
+    ]
+   ],
+   "content_score": 65,
+   "readability": 39,
+   "word_count": 1213,
+   "content_len": 7795
+  },
+  {
+   "rank": 8,
+   "url": "https://victime-info.fr/indemnisation/responsabilite-medicale-accident-medical/crci-cci",
+   "title": "CRCI-CCI : saisir la commission de conciliation et d'indemnisation | victime-info.fr",
+   "desc": "Guide complet sur la CRCI-CCI : rôle, conditions, procédure de saisine et indemnisation des victimes d'accidents médicaux. Démarches et conseils pratiques.",
+   "headers": [
+    [
+     "h1",
+     "CRCI-CCI : guide complet de la Commission de Conciliation et d’Indemnisation"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que la CRCI-CCI ?"
+    ],
+    [
+     "h2",
+     "Le rôle de la CRCI-CCI : deux missions principales"
+    ],
+    [
+     "h2",
+     "Quand saisir la CRCI-CCI ?"
+    ],
+    [
+     "h2",
+     "Qui peut saisir la CCI ?"
+    ],
+    [
+     "h2",
+     "Comment saisir la CRCI-CCI ? Procédure étape par étape"
+    ],
+    [
+     "h2",
+     "La CCI n’est pas un tribunal : comprendre la portée de ses avis"
+    ],
+    [
+     "h2",
+     "La conciliation devant la CRCI-CCI"
+    ],
+    [
+     "h2",
+     "Le règlement amiable : la procédure d’indemnisation"
+    ],
+    [
+     "h2",
+     "Délai de prescription pour saisir la CCI"
+    ],
+    [
+     "h2",
+     "Les adresses des CRCI-CCI en France"
+    ],
+    [
+     "h2",
+     "Se faire accompagner pour saisir la CCI"
+    ],
+    [
+     "h2",
+     "Les différents postes de préjudice indemnisables"
+    ],
+    [
+     "h2",
+     "Conclusion : la CRCI-CCI, une voie à ne pas négliger"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 28,
+   "word_count": 3860,
+   "content_len": 24327
+  },
+  {
+   "rank": 9,
+   "url": "https://www.oniam.fr/indemnisation-accidents-medicaux/partenaires",
+   "title": "Les CCI - Oniam",
+   "desc": "Les Commissions de Conciliation et d'Indemnisation des Accidents Médicaux des Affections Iatrogènes et des Infections Nosocomiales (CCI) sont des structures indépendantes de l'ONIAM.",
+   "headers": [
+    [
+     "h1",
+     "Les CCI"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Les commissions de conciliation et d’indemnisation des accidents médicaux (CCI)"
+    ]
+   ],
+   "content_score": 34,
+   "readability": 35,
+   "word_count": 479,
+   "content_len": 3212
+  },
+  {
+   "rank": 10,
+   "url": "https://commission-conciliation-indemnisation-aivf.fr/foire-aux-questions-sur-la-commission-de-conciliation-et-dindemnisation-cci-ou-crci/quel-est-le-role-de-la-cci/duree-de-la-procedure-cci-crci",
+   "title": "Durée procédure CCI CRCI - Association AIVF",
+   "desc": "Durée procédure CCI CRCI après un accident médical fautif ou non fautif, critères d'indemnisation ONIAM ou responsabilité médicale pour faute",
+   "headers": [
+    [
+     "h1",
+     "Durée de la procédure CCI CRCI"
+    ],
+    [
+     "h2",
+     "Questions de victimes concernant la durée de la procédure CCI CRCI suite à un accident médical"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 41,
+   "word_count": 753,
+   "content_len": 4712
+  },
+  {
+   "rank": 11,
+   "url": "https://association-aide-victimes.com/fonds-de-garantie/crci",
+   "title": "CRCI - CCI : Comment saisir la Commission d'indemnisation ?",
+   "desc": "L'Association d'Aide aux Victimes AAV vous explique comment saisir la CRCI pour obtenir une indemnisation à la suite d'un accident médical. Permanence gratuite.",
+   "headers": [
+    [
+     "h1",
+     "CRCI"
+    ],
+    [
+     "h2",
+     "CRCI info"
+    ],
+    [
+     "h2",
+     "La CRCI a deux missions principales"
+    ],
+    [
+     "h2",
+     "Condition d’intervention de la CRCI"
+    ],
+    [
+     "h2",
+     "CRCI – Comment saisir la commission ?"
+    ],
+    [
+     "h2",
+     "Saisir la CRCI : constituer son dossier médical"
+    ],
+    [
+     "h2",
+     "Examen du dossier par la CRCI"
+    ],
+    [
+     "h2",
+     "Délais de la procédure CRCI et de l’instruction des dossiers"
+    ],
+    [
+     "h2",
+     "CRCI – L’offre d’indemnisation de L’ONIAM ou de l’assureur"
+    ],
+    [
+     "h2",
+     "CRCI Compétentes"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 36,
+   "word_count": 917,
+   "content_len": 5735
+  },
+  {
+   "rank": 12,
+   "url": "https://www.victimes-solidaires.org/fr/accidents-medicaux/id-17-procedure-devant-la-cci",
+   "title": "Indemnisation accidents médicaux : procédure devant la CCI",
+   "desc": " Les Commissions de Conciliation et d'Indemnisations ne sont pas des juridictions mais des autorit&eacute;s administratives dont l'objectif est de favoriser la mise en place d'expertise m&eacute;dicale et le r&egrave;glement amiable de la question de l'indemnisation des victimes d'accidents m&eacute;dicaux. ",
+   "headers": [
+    [
+     "h1",
+     "Procédure devant la CCI"
+    ],
+    [
+     "h2",
+     "Déposer la demande d’indemnisation devant la CCI"
+    ],
+    [
+     "h2",
+     "Recevabilité de la demande d’indemnisation"
+    ],
+    [
+     "h2",
+     "L’expertise médicale"
+    ],
+    [
+     "h2",
+     "Convocation devant la CCI"
+    ],
+    [
+     "h2",
+     "Vos questions, nos réponses"
+    ],
+    [
+     "h2",
+     "Vous avez été victime d’un dommage corporel, d’un accident de la route, d’une erreur médicale ?"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 23,
+   "word_count": 3745,
+   "content_len": 23747
+  },
+  {
+   "rank": 13,
+   "url": "https://maitre-morin-avocat.fr/accueil/indemnisation-faute-medicale/crci-commission-de-conciliation-et-dindemnisation/comment-saisir-la-commission-de-conciliation-et-dindemnisation",
+   "title": "Comment saisir la Commission de conciliation et d'indemnisation ?",
+   "desc": "Découvrez comment saisir efficacement la Commission de conciliation et d'indemnisation avec les conseils de Maître Oscar Morin, avocat expert.",
+   "headers": [
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "❓ Comment saisir la CCI (ex-CRCI) pour un accident médical ?"
+    ],
+    [
+     "h1",
+     "Comment saisir la Commission de conciliation et d’indemnisation (CCI) ?"
+    ],
+    [
+     "h2",
+     "1) Qui peut saisir la CCI ?"
+    ],
+    [
+     "h2",
+     "2) Conditions de recevabilité (en bref)"
+    ],
+    [
+     "h2",
+     "3) Pièces à réunir"
+    ],
+    [
+     "h2",
+     "4) Où et comment déposer ?"
+    ],
+    [
+     "h2",
+     "5) Délais de traitement"
+    ],
+    [
+     "h2",
+     "6) Expertise médicale contradictoire"
+    ],
+    [
+     "h2",
+     "7) L’avis de la CCI"
+    ],
+    [
+     "h2",
+     "8) Après l’avis : offres et paiement"
+    ],
+    [
+     "h2",
+     "9) Coût & intérêts pratiques"
+    ],
+    [
+     "h2",
+     "10) Modèle de courrier (idées clés)"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "Comment saisir la Commission de conciliation et d’indemnisation ? Avara.N"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 37,
+   "word_count": 2268,
+   "content_len": 14530
+  },
+  {
+   "rank": 14,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/lexique-indemnisation-prejudice-corporel/definition-crci-et-pieges-a-eviter",
+   "title": "Définition CRCI et pièges à éviter - Association Victimes de France AIVF",
+   "desc": "Découvrez la définition de la CRCI et les pièges à éviter. Association Aide Victimes France vous guide pour mieux comprendre vos droits.",
+   "headers": [
+    [
+     "h1",
+     "Définition CRCI et pièges à éviter"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Définition CRCI et pièges à éviter"
+    ],
+    [
+     "h2",
+     "Comment saisir la commission de conciliation et d’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Pièges à Éviter lors de votre Demande à la CRCI"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que la CRCI ?"
+    ],
+    [
+     "h2",
+     "Démarches à Suivre pour une Demande auprès de la CRCI"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 30,
+   "word_count": 3987,
+   "content_len": 24563
+  },
+  {
+   "rank": 15,
+   "url": "https://www.christin-avocat.fr/publications/procedure-dindemnisation-devant-les-commissions-de-conciliation-et-dindemnisation-cci",
+   "title": "Procédure d'indemnisation devant les Commissions de Conciliation et d'Indemnisation (CCI)",
+   "desc": "Les publications du cabinet",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h2",
+     "Qui peut saisir la CCI ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule la procédure devant la CCI ?"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 16,
+   "word_count": 2477,
+   "content_len": 15789
+  },
+  {
+   "rank": 16,
+   "url": "https://aide-victimes.fr/accident-medical/procedure-dindemnisation-cci-crci/",
+   "title": "Procédure d'indemnisation CCI CRCI – AFAV",
+   "desc": "Procédure d'indemnisation CCI CRCI suite à un accident médical, loi Kouchner, dossier médical, expertise médicale, ONIAM",
+   "headers": [
+    [
+     "h1",
+     "Procédure d’indemnisation CCI CRCI"
+    ],
+    [
+     "h2",
+     "Déroulement de la procédure d’indemnisation CCI CRCI"
+    ],
+    [
+     "h2",
+     "Offre d’indemnisation de l’ONIAM ou de l’assureur"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 42,
+   "word_count": 788,
+   "content_len": 5192
+  },
+  {
+   "rank": 17,
+   "url": "https://commission-conciliation-indemnisation-aivf.fr/foire-aux-questions-sur-la-commission-de-conciliation-et-dindemnisation-cci-ou-crci/differences-entre-la-cci-et-loniam/indemnisation-par-la-cci-crci",
+   "title": "Indemnisation par la CCI CRCI - Association AIVF",
+   "desc": "Indemnisation par la CCI CRCI suite à un accident médical, rôle de la CCi CRCI, avis CCI, indemnisation ONIAM ou responsabilité médicale",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation par la CCI CRCI"
+    ],
+    [
+     "h2",
+     "Questions de victimes concernant l'indemnisation par la CCI CRCI suite à un accident médical"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 45,
+   "word_count": 850,
+   "content_len": 5526
+  },
+  {
+   "rank": 18,
+   "url": "https://victime-info.fr/indemnisation/responsabilite-medicale/procedure-cci-guide-complet",
+   "title": "Procédure CCI (ex-CRCI) : guide complet pour les victimes | victime-info.fr",
+   "desc": "Comment saisir la CCI après un accident médical ? Conditions, formulaire, expertise, délais et indemnisation. Guide complet de la procédure amiable gratuite.",
+   "headers": [
+    [
+     "h1",
+     "Procédure CCI (ex-CRCI) : le guide complet pour obtenir une indemnisation après un accident médical"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que la CCI (ex-CRCI) ?"
+    ],
+    [
+     "h2",
+     "Quels accidents médicaux sont concernés par la CCI ?"
+    ],
+    [
+     "h2",
+     "Les conditions pour saisir la CCI"
+    ],
+    [
+     "h2",
+     "Les étapes de la procédure CCI : du dépôt du dossier à l’indemnisation"
+    ],
+    [
+     "h2",
+     "Les délais de la procédure CCI"
+    ],
+    [
+     "h2",
+     "Qui indemnise la victime après l’avis de la CCI ?"
+    ],
+    [
+     "h2",
+     "Avantages et limites de la procédure CCI"
+    ],
+    [
+     "h2",
+     "Procédure CCI ou action en justice : comment choisir ?"
+    ],
+    [
+     "h2",
+     "Conseils pratiques pour optimiser la procédure CCI"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur la procédure CCI"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Conclusion : la procédure CCI, une voie à ne pas négliger"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 29,
+   "word_count": 4166,
+   "content_len": 26477
+  },
+  {
+   "rank": 19,
+   "url": "https://association-aivf-faq.fr/accident-medical-faq/loi-kouchner-2002/cci-crci-accident-medical",
+   "title": "Saisir la CCI CRCI - Association Victimes de France AIVF",
+   "desc": "Saisir la CCI CRCI d'une demande d'indemnisation suite à un accident médical, loi Kouchner, ONIAM ou responsabilité médicale",
+   "headers": [
+    [
+     "h1",
+     "Saisir la CCI-CRCI suite à un accident médical"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions sur saisir la CCI-CRCI suite à un accident médical"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 52,
+   "word_count": 1111,
+   "content_len": 6885
+  },
+  {
+   "rank": 20,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/responsabilite-medicale-accident-medical/crci-cci-htm/comment-se-deroule-lexpertise-de-la-cci",
+   "title": "Comment se déroule l'expertise de la CCI ? - Association Victimes de France AIVF",
+   "desc": "Découvrez le processus de l'expertise CCI avec l'Association Aide Victimes France et obtenez l'accompagnement légal nécessaire.",
+   "headers": [
+    [
+     "h1",
+     "Comment se déroule l’expertise de la CCI ?"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Comment se déroule l’expertise de la CCI ?"
+    ],
+    [
+     "h2",
+     "Déroulement de l’expertise de la Commission de Conciliation et d’Indemnisation (CCI) :"
+    ]
+   ],
+   "content_score": 37,
+   "readability": 34,
+   "word_count": 1753,
+   "content_len": 11020
+  },
+  {
+   "rank": 21,
+   "url": "https://commission-conciliation-indemnisation-aivf.fr/foire-aux-questions-sur-la-commission-de-conciliation-et-dindemnisation-cci-ou-crci/differences-entre-la-cci-et-loniam/faire-un-dossier-cci-crci",
+   "title": "Faire un dossier CCI CRCI - Association AIVF",
+   "desc": "Faire un dossier CCI CRCI suite à un accident médical fautif ou non, procédure d'indemnisation ONIAM ou responsabilité médicale pour faute",
+   "headers": [
+    [
+     "h1",
+     "Faire un dossier CCI CRCI"
+    ],
+    [
+     "h2",
+     "Questions de victimes concernant comment faire un dossier CCI CRCI suite à un accident médical"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 47,
+   "word_count": 782,
+   "content_len": 5018
+  },
+  {
+   "rank": 22,
+   "url": "https://association-aivf-faq.fr/accident-medical-faq/indemnisation-alea-therapeutique/criteres-cci-crci",
+   "title": "Critères CCI CRCI - Association Victimes de France AIVF",
+   "desc": "Critères CCI CRCI suite à un accident médical, aléa théraputique, taux d'AIPP, recevabilité du dossier, indemnisation ONIAM",
+   "headers": [
+    [
+     "h1",
+     "Critères CCI CRCI"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant les critères CCI CRCI"
+    ]
+   ],
+   "content_score": 48,
+   "readability": 44,
+   "word_count": 1048,
+   "content_len": 6667
+  },
+  {
+   "rank": 23,
+   "url": "https://aide-victimes.fr/accident-medical/dossier-crci/",
+   "title": "Dossier CRCI – AFAV",
+   "desc": "Dossier CRCI, comment saisir la Commission d'Indemnisation CCI en cas d'aléa thérapeutique, d'infection nosocomiale ou d'affection iatrogène",
+   "headers": [
+    [
+     "h1",
+     "Dossier CRCI – CCI, saisir la Commission de Conciliation et d’Indemnisation en cas d’accident médical"
+    ],
+    [
+     "h2",
+     "La CRCI ou CCI, Commission de Conciliation et d’Indemnisation des accidents médicaux"
+    ],
+    [
+     "h2",
+     "Dossier CRCI CCI et indemnisation du préjudice"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 43,
+   "word_count": 616,
+   "content_len": 3870
+  },
+  {
+   "rank": 24,
+   "url": "https://www.angelique-opovin.com/2020/06/03/comment-saisir-la-commission-de-conciliation-et-dindemnisation-des-accidents-medicaux-cci/",
+   "title": "Comment saisir la Commission de conciliation et d'indemnisation des accidents médicaux (CCI) ? - Angélique Opovin",
+   "desc": "Dans le cadre de l'indemnisation des accidents médicaux et des infections nosocomiales, le législateur un dispositif amiable et gratuit de conciliation et",
+   "headers": [
+    [
+     "h1",
+     "Comment saisir la Commission de conciliation et d’indemnisation des accidents médicaux (CCI) ?"
+    ],
+    [
+     "h2",
+     "Besoin d'un accompagnement juridique ?"
+    ]
+   ],
+   "content_score": 36,
+   "readability": 21,
+   "word_count": 614,
+   "content_len": 3827
+  },
+  {
+   "rank": 25,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/responsabilite-medicale-accident-medical/crci-cci-htm/comment-saisir-la-commission-de-conciliation-et-dindemnisation",
+   "title": "Comment saisir la Commission de conciliation et d'indemnisation ? - Association Victimes de France AIVF",
+   "desc": "Découvrez comment saisir la Commission de conciliation et d'indemnisation avec l'aide de l'Association Aide Victimes France. Guide complet et conseils.",
+   "headers": [
+    [
+     "h1",
+     "Comment saisir la Commission de conciliation et d’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Comment saisir la Commission de conciliation et d’indemnisation (CCI) ?"
+    ],
+    [
+     "h2",
+     "Comment saisir la commission de conciliation et d’indemnisation ? Qui peut saisir la CRCI ?"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 32,
+   "word_count": 1600,
+   "content_len": 9996
+  },
+  {
+   "rank": 26,
+   "url": "https://commission-conciliation-indemnisation-aivf.fr/foire-aux-questions-sur-la-commission-de-conciliation-et-dindemnisation-cci-ou-crci/quel-est-le-role-de-la-cci/criteres-cci-crci",
+   "title": "Critères CCI CRCI - Association AIVF",
+   "desc": "Critères CCI CRCI pour la recevabilité d'une demande d'indemnisation suite à un accident médicale, loi Kouchner, ONIAM",
+   "headers": [
+    [
+     "h1",
+     "Critères CCI CRCI"
+    ],
+    [
+     "h2",
+     "Questions de victimes concernant les critères CCI CRCI"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 42,
+   "word_count": 710,
+   "content_len": 4357
+  },
+  {
+   "rank": 27,
+   "url": "https://association-aivf-faq.fr/accident-medical-faq/dispositifs-indemnisation-cci-oniam/dans-quel-cas-saisir-la-cci-crci",
+   "title": "Dans quel cas saisir la CCI - Association Victimes de France AIVF",
+   "desc": "Dans quel cas saisir la CCI, erreur, aléa, infection nosocomiale, conditions, critères gravité, taux d'AIPP, indemnisation ONIAM, assurance",
+   "headers": [
+    [
+     "h1",
+     "Dans quel cas saisir la CCI CRCI?"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Dans quel cas saisir la CCI / CRCI ?"
+    ],
+    [
+     "h2",
+     "Questions concernant dans quel cas saisir la CCI CRCI ?"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 46,
+   "word_count": 1628,
+   "content_len": 9903
+  },
+  {
+   "rank": 28,
+   "url": "https://commission-conciliation-indemnisation-aivf.fr/foire-aux-questions-sur-la-commission-de-conciliation-et-dindemnisation-cci-ou-crci/quel-est-le-role-de-la-cci/conditions-dintervention-cci-crci",
+   "title": "Conditions intervention CCI CRCI - Association AIVF",
+   "desc": "Conditions d'intervention CCI CRCI, accident médical, seuil de gravité, taux AIPP, indemnisation du préjudice, ONIAM responsabilité médicale,",
+   "headers": [
+    [
+     "h1",
+     "Conditions d’intervention CCI CRCI"
+    ],
+    [
+     "h2",
+     "Questions de victimes concernant les conditions d'intervention CCI CRCI"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 47,
+   "word_count": 614,
+   "content_len": 3930
+  },
+  {
+   "rank": 29,
+   "url": "https://association-aivf-faq.fr/accident-medical-faq/dispositifs-indemnisation-cci-oniam/qui-peut-saisir-la-cci-crci",
+   "title": "Qui peut saisir la CCI - Association Victimes de France AIVF",
+   "desc": "Qui peut saisir la CCI CRCI suite accident médical, indemnisation du préjudice, victime directe, ayants droit, seuil de garvité, taux AIPP",
+   "headers": [
+    [
+     "h1",
+     "Qui peut saisir la CCI CRCI ?"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant qui peut saisir la CCI CRCI ?"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 47,
+   "word_count": 962,
+   "content_len": 5919
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1266,
+   "target": 1266
+  },
+  "readability": {
+   "median": 40,
+   "target": 40
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "cci",
+    "usage_pc": 70
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "crci",
+    "usage_pc": 50
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 20
+   },
+   {
+    "t": "oniam",
+    "usage_pc": 20
+   },
+   {
+    "t": "saisi la cci",
+    "usage_pc": 20
+   },
+   {
+    "t": "victimes de france",
+    "usage_pc": 20
+   },
+   {
+    "t": "commission de conciliation et d'indemnisation",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "indemnisation",
+    "usage_pc": 90
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 90
+   },
+   {
+    "t": "cci",
+    "usage_pc": 70
+   },
+   {
+    "t": "oniam",
+    "usage_pc": 50
+   },
+   {
+    "t": "un accident médical",
+    "usage_pc": 50
+   },
+   {
+    "t": "crci",
+    "usage_pc": 30
+   },
+   {
+    "t": "saisi la cci",
+    "usage_pc": 20
+   },
+   {
+    "t": "affection iatrogène",
+    "usage_pc": 20
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 20
+   },
+   {
+    "t": "commission de conciliation et d'indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "conciliation et d'indemnisation",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "cci",
+    "usage_pc": 70
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 70
+   },
+   {
+    "t": "crci",
+    "usage_pc": 50
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 20
+   },
+   {
+    "t": "saisi la cci",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident médical",
+    "usage_pc": 10
+   },
+   {
+    "t": "affection iatrogène",
+    "usage_pc": 10
+   },
+   {
+    "t": "infection nosocomiale",
+    "usage_pc": 10
+   },
+   {
+    "t": "commission de conciliation et d'indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "conciliation et d'indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "saisir la commission de conciliation",
+    "usage_pc": 10
+   },
+   {
+    "t": "les cci",
+    "usage_pc": 10
+   },
+   {
+    "t": "procédure cci",
+    "usage_pc": 10
+   },
+   {
+    "t": "comment saisir la cci",
+    "usage_pc": 10
+   },
+   {
+    "t": "après un accident médical",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "cci",
+    "usage_pc": 90
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 80
+   },
+   {
+    "t": "crci",
+    "usage_pc": 50
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 40
+   },
+   {
+    "t": "saisi la cci",
+    "usage_pc": 40
+   },
+   {
+    "t": "un accident médical",
+    "usage_pc": 30
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "devant la cci",
+    "usage_pc": 20
+   },
+   {
+    "t": "oniam",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation des accidents médicaux",
+    "usage_pc": 10
+   },
+   {
+    "t": "saisine de la cci",
+    "usage_pc": 10
+   },
+   {
+    "t": "formulaire",
+    "usage_pc": 10
+   },
+   {
+    "t": "procédure devant la cci",
+    "usage_pc": 10
+   },
+   {
+    "t": "commission de conciliation et d'indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "conciliation et d'indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "saisir la commission de conciliation",
+    "usage_pc": 10
+   },
+   {
+    "t": "avis de la cci",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à un accident médical",
+    "usage_pc": 10
+   },
+   {
+    "t": "procédure cci",
+    "usage_pc": 10
+   },
+   {
+    "t": "comment saisir la cci",
+    "usage_pc": 10
+   },
+   {
+    "t": "après un accident médical",
+    "usage_pc": 10
+   },
+   {
+    "t": "crci suite à un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "cci crci suite",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "cci",
+    "usage_pc": 100,
+    "sugg_usage": [
+     9,
+     27
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     13,
+     33
+    ]
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     11
+    ]
+   },
+   {
+    "t": "crci",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     10
+    ]
+   },
+   {
+    "t": "oniam",
+    "usage_pc": 100,
+    "sugg_usage": [
+     6,
+     10
+    ]
+   },
+   {
+    "t": "saisi la cci",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "un accident médical",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     4
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 90,
+    "sugg_usage": [
+     4,
+     9
+    ]
+   },
+   {
+    "t": "affection iatrogène",
+    "usage_pc": 100,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "infection nosocomiale",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 90,
+    "sugg_usage": [
+     3,
+     9
+    ]
+   },
+   {
+    "t": "indemnisation des accidents médicaux",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     7
+    ]
+   },
+   {
+    "t": "devant la cci",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "saisine de la cci",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "formulaire",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "acte médical",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "professionnel de santé",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "seuil de gravité",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "procédure devant la cci",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "dossier médical",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "victimes de france",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "une infection nosocomiale",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "saisir le tribunal",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "infections nosocomiales",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "établissement de santé",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "avis de la cci",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "office national",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une affection iatrogène",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "certificat médical",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "avis de la commission",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "commission de conciliation et d'indemnisation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "conciliation et d'indemnisation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "saisir la commission de conciliation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les cci",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "suite à un accident médical",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "procédure cci",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment saisir la cci",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes de france aivf",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après un accident médical",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "crci suite à un accident",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "offre d'indemnisation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "décision de la cci",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cci crci suite",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat spécialisé en droit médical",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demande d'indemnisation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "procédure judiciaire",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "auprès de la cci",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime peut saisir",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "commission de conciliation et d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "j’ai saisi la cci",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident médical",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "offre d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accidents médicaux",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les victimes d’accidents médicaux",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier médical complet",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant d'indemnisation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident médical grave",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier complet pour rendre",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cci de la région",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "commission rend un avis",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident médical fautif ou non",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cci émet un avis",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médical non fautif",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "directement auprès de la cci",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dommage pour saisir la cci",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cci de sa région",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation obtenue via la cci",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cci est entièrement gratuite",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "acte médical en cause",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "oniam et les cci",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier à la cci",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation plus",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier médical dans sa totalité",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier remplit les conditions",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "a proposé une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "certificat médical de consolidation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Chambre de commerce et d'industrie en France",
+    "importance": 91.254,
+    "relevance": 0.9125399999999999,
+    "confidence": 2.0412,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Chambre_de_commerce_et_d'industrie_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Office national d'indemnisation des accidents médicaux",
+    "importance": 72.78,
+    "relevance": 0.7278,
+    "confidence": 5.332,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Office_national_d'indemnisation_des_accidents_médicaux"
+     ]
+    ]
+   },
+   {
+    "t": "Accident médical",
+    "importance": 33.45664,
+    "relevance": 0.52276,
+    "confidence": 1.29,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 31.018,
+    "relevance": 0.31018,
+    "confidence": 4.313199999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Infection nosocomiale",
+    "importance": 20.6208,
+    "relevance": 0.3222,
+    "confidence": 7.8984,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Infection_nosocomiale"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 20.4736,
+    "relevance": 0.31989999999999996,
+    "confidence": 1.2399999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Conciliation",
+    "importance": 14.1588,
+    "relevance": 0.39330000000000004,
+    "confidence": 1.2483999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Conciliation"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal",
+    "importance": 5.165279999999999,
+    "relevance": 0.14348,
+    "confidence": 1.7853999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal"
+     ]
+    ]
+   },
+   {
+    "t": "Commission de conciliation et d' indemnisation",
+    "importance": 4.653760000000001,
+    "relevance": 0.29086,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 4.413760000000001,
+    "relevance": 0.27586,
+    "confidence": 1.4784,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Métiers de la santé",
+    "importance": 3.9319200000000003,
+    "relevance": 0.10922000000000001,
+    "confidence": 1.1956,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Métiers_de_la_santé"
+     ]
+    ]
+   },
+   {
+    "t": "Commission de Conciliation et d' Indemnisation",
+    "importance": 3.77728,
+    "relevance": 0.23608,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Maladie infectieuse",
+    "importance": 3.677832,
+    "relevance": 0.102162,
+    "confidence": 4.7798,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Maladie_infectieuse"
+     ]
+    ]
+   },
+   {
+    "t": "ex-CRCI",
+    "importance": 3.38496,
+    "relevance": 0.21155999999999997,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Dossier médical",
+    "importance": 2.674560000000001,
+    "relevance": 0.16716000000000003,
+    "confidence": 1.1826,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dossier_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Expertise",
+    "importance": 2.3916800000000005,
+    "relevance": 0.14948,
+    "confidence": 0.4284,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expertise"
+     ]
+    ]
+   },
+   {
+    "t": "Iatrogénèse",
+    "importance": 2.336,
+    "relevance": 0.146,
+    "confidence": 4.1454,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Iatrogénèse"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal administratif (France)",
+    "importance": 1.8051199999999996,
+    "relevance": 0.11282,
+    "confidence": 1.4606,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal_administratif_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 1.7392,
+    "relevance": 0.10869999999999999,
+    "confidence": 0.7544000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 1.0256,
+    "relevance": 0.0641,
+    "confidence": 0.631,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Solidarité (notion sociologique)",
+    "importance": 0.8669439999999998,
+    "relevance": 0.054183999999999996,
+    "confidence": 0.8144,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Solidarité_(notion_sociologique)"
+     ]
+    ]
+   },
+   {
+    "t": "commission de conciliation et d' indemnisation",
+    "importance": 0.7356,
+    "relevance": 0.1839,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Loi relative aux droits des malades et à la qualité du système de santé",
+    "importance": 0.677696,
+    "relevance": 0.042356,
+    "confidence": 0.9725999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi_relative_aux_droits_des_malades_et_à_la_qualité_du_système_de_santé"
+     ]
+    ]
+   },
+   {
+    "t": "CCI / CRCI",
+    "importance": 0.62512,
+    "relevance": 0.15628,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "commission de conciliation et d' indemnisation des accidents médicaux",
+    "importance": 0.5935199999999999,
+    "relevance": 0.14838,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "commission de conciliation",
+    "importance": 0.5767200000000001,
+    "relevance": 0.14418,
+    "confidence": 0.1,
+    "links": []
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "cci\nindemnisation\ncrci\naccident médical\noniam\nsaisi la cci\nvictimes de france\ncommission de conciliation et d'indemnisation",
+  "desc_title": "indemnisation\naccident médical\ncci\noniam\nun accident médical\ncrci\nsaisi la cci\naffection iatrogène\nexpertise\ncommission de conciliation et d'indemnisation\nconciliation et d'indemnisation",
+  "h1": "cci\nindemnisation\ncrci\naccident médical\nsaisi la cci\nun accident médical\naffection iatrogène\ninfection nosocomiale\ncommission de conciliation et d'indemnisation\nconciliation et d'indemnisation\nobtenir une indemnisation\nsaisir la commission de conciliation\nles cci\nprocédure cci\ncomment saisir la cci\naprès un accident médical",
+  "h2": "cci\nindemnisation\ncrci\naccident médical\nsaisi la cci\nun accident médical\npréjudice\ndevant la cci\noniam\nindemnisation des accidents médicaux\nsaisine de la cci\nformulaire\nprocédure devant la cci\ncommission de conciliation et d'indemnisation\nconciliation et d'indemnisation\nsaisir la commission de conciliation\navis de la cci\nsuite à un accident médical\nprocédure cci\ncomment saisir la cci\naprès un accident médical\ncrci suite à un accident\ncci crci suite",
+  "content_basic": "cci\nindemnisation\naccident médical\ncrci\noniam\nsaisi la cci\nun accident médical\npréjudice\naffection iatrogène\ninfection nosocomiale\nexpertise\nindemnisation des accidents médicaux\nassureur\ndevant la cci\nsaisine de la cci\nformulaire\nacte médical\nexpertise médicale\nprofessionnel de santé\nseuil de gravité\nindemniser\nprocédure devant la cci\ndossier médical\nvictimes de france\nles préjudices\nune infection nosocomiale\nsaisir le tribunal\ninfections nosocomiales\nétablissement de santé\navis de la cci\noffice national\nindemnisation des victimes\nune affection iatrogène\ncertificat médical\navis de la commission",
+  "content_basic_w_ranges": "cci: 9-27x\nindemnisation: 13-33x\naccident médical: 3-11x\ncrci: 1-10x\noniam: 6-10x\nsaisi la cci: 1-5x\nun accident médical: 2-4x\npréjudice: 4-9x\naffection iatrogène: 1-4x\ninfection nosocomiale: 1-6x\nexpertise: 3-9x\nindemnisation des accidents médicaux: 1x\nassureur: 2-7x\ndevant la cci: 1-3x\nsaisine de la cci: 1-2x\nformulaire: 1-3x\nacte médical: 1-2x\nexpertise médicale: 1-4x\nprofessionnel de santé: 1-2x\nseuil de gravité: 1-5x\nindemniser: 1-3x\nprocédure devant la cci: 1-2x\ndossier médical: 1-3x\nvictimes de france: 1-2x\nles préjudices: 1-3x\nune infection nosocomiale: 1-3x\nsaisir le tribunal: 1-2x\ninfections nosocomiales: 1-2x\nétablissement de santé: 1-2x\navis de la cci: 1x\noffice national: 1x\nindemnisation des victimes: 1x\nune affection iatrogène: 1x\ncertificat médical: 1-2x\navis de la commission: 1x",
+  "content_extended": "commission de conciliation et d'indemnisation\nconciliation et d'indemnisation\nobtenir une indemnisation\nsaisir la commission de conciliation\nles cci\nsuite à un accident médical\nprocédure cci\ncomment saisir la cci\nvictimes de france aivf\naprès un accident médical\ncrci suite à un accident\noffre d'indemnisation\ndécision de la cci\ncci crci suite\navocat spécialisé en droit médical\ndemande d'indemnisation\nprocédure judiciaire\nauprès de la cci\nvictime peut saisir\ncommission de conciliation et d’indemnisation\nj’ai saisi la cci\nvictime d’un accident médical\noffre d’indemnisation\nvictimes d’accidents médicaux\nles victimes d’accidents médicaux\ndossier médical complet\nmontant d'indemnisation\naccident médical grave\ndossier complet pour rendre\ncci de la région\ncommission rend un avis\naccident médical fautif ou non\ncci émet un avis\nmédical non fautif\ndirectement auprès de la cci\ndommage pour saisir la cci\ncci de sa région\nindemnisation obtenue via la cci\ncci est entièrement gratuite\nacte médical en cause\noniam et les cci\ndossier à la cci\nobtenir une indemnisation plus\ndossier médical dans sa totalité\ndossier remplit les conditions\na proposé une indemnisation\ncertificat médical de consolidation",
+  "content_extended_w_ranges": "commission de conciliation et d'indemnisation: 1x\nconciliation et d'indemnisation: 1x\nobtenir une indemnisation: 1-2x\nsaisir la commission de conciliation: 1x\nles cci: 1-2x\nsuite à un accident médical: 1x\nprocédure cci: 1x\ncomment saisir la cci: 1x\nvictimes de france aivf: 1x\naprès un accident médical: 1x\ncrci suite à un accident: 1x\noffre d'indemnisation: 1x\ndécision de la cci: 1x\ncci crci suite: 1x\navocat spécialisé en droit médical: 1x\ndemande d'indemnisation: 1x\nprocédure judiciaire: 1x\nauprès de la cci: 1x\nvictime peut saisir: 1x\ncommission de conciliation et d’indemnisation: 1x\nj’ai saisi la cci: 1x\nvictime d’un accident médical: 1x\noffre d’indemnisation: 1x\nvictimes d’accidents médicaux: 1x\nles victimes d’accidents médicaux: 1x\ndossier médical complet: 1x\nmontant d'indemnisation: 1x\naccident médical grave: 1x\ndossier complet pour rendre: 1x\ncci de la région: 1x\ncommission rend un avis: 1x\naccident médical fautif ou non: 1x\ncci émet un avis: 1x\nmédical non fautif: 1x\ndirectement auprès de la cci: 1x\ndommage pour saisir la cci: 1x\ncci de sa région: 1x\nindemnisation obtenue via la cci: 1x\ncci est entièrement gratuite: 1x\nacte médical en cause: 1x\noniam et les cci: 1x\ndossier à la cci: 1x\nobtenir une indemnisation plus: 1x\ndossier médical dans sa totalité: 1x\ndossier remplit les conditions: 1x\na proposé une indemnisation: 1x\ncertificat médical de consolidation: 1x",
+  "entities": "Chambre de commerce et d'industrie en France\nOffice national d'indemnisation des accidents médicaux\nAccident médical\nAssurance\nInfection nosocomiale\nEndommagement\nConciliation\nTribunal\nCommission de conciliation et d' indemnisation\nDommage corporel\nMétiers de la santé\nCommission de Conciliation et d' Indemnisation\nMaladie infectieuse\nex-CRCI\nDossier médical\nExpertise\nIatrogénèse\nTribunal administratif (France)\nAvocat (métier)\nMédecin\nSolidarité (notion sociologique)\ncommission de conciliation et d' indemnisation\nLoi relative aux droits des malades et à la qualité du système de santé\nCCI / CRCI\ncommission de conciliation et d' indemnisation des accidents médicaux\ncommission de conciliation"
+ },
+ "status": "ready",
+ "keyword": "procedure cci crci",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "c55c1688990fb313",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "navigational": 3.4
+  },
+  "top_content_type": "educational",
+  "content_type_stats": {
+   "educational": 96.6,
+   "guide": 58.6,
+   "short-answer": 34.5,
+   "landing-page": 3.4,
+   "blog-post": 6.9
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/c55c1688990fb313",
+ "share_url": "https://app.neuronwriter.com/analysis/share/c55c1688990fb313/2fec90b0aacda97cda7fbacbcd97a0204fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/c55c1688990fb313/43a241a43a277a8b7c1c607fcc6112d14fa16"
+}

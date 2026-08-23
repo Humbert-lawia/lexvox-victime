@@ -1,0 +1,3112 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quel est le montant de l'indemnisation pour un accident corporel ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   },
+   {
+    "q": "Quel est le montant de l'indemnisation pour les victimes d'accident de la route ?"
+   },
+   {
+    "q": "Comment l'assurance indemnise un dommage corporel ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quel est le montant de l'indemnisation pour un accident de vélo et comment est-il calculé ?": {
+    "importance": 10
+   },
+   "Quels sont les préjudices indemnisables après un accident de vélo ?": {
+    "importance": 10
+   },
+   "Comment l'assurance indemnise-t-elle un dommage corporel suite à un accident de vélo ?": {
+    "importance": 9
+   },
+   "Qui indemnise un cycliste victime d'un accident (assurance, Fonds de Garantie, etc.) ?": {
+    "importance": 9
+   },
+   "Quelles sont les démarches à suivre après un accident de vélo pour être indemnisé ?": {
+    "importance": 8
+   },
+   "Quel est le rôle de la loi Badinter dans l'indemnisation des cyclistes ?": {
+    "importance": 8
+   },
+   "Que faire en cas d'accident de vélo avec un véhicule motorisé, un piéton ou un autre cycliste ?": {
+    "importance": 7
+   },
+   "L'indemnisation est-elle différente si le cycliste est responsable ou non de l'accident ?": {
+    "importance": 7
+   },
+   "Quel est le rôle de l'expertise médicale et de l'avocat dans la procédure d'indemnisation ?": {
+    "importance": 6
+   },
+   "Un accident de trottinette électrique est-il indemnisé de la même manière qu'un accident de vélo ?": {
+    "importance": 5
+   }
+  },
+  "content_questions": [
+   {
+    "q": "A la suite d'un accident seul, avec un piéton ou avec un autre véhicule, à qui incombe la responsabilité ?"
+   },
+   {
+    "q": "Accident de la route : quelle indemnisation pour les victimes ?"
+   },
+   {
+    "q": "Accident de voiture avec un vélo, qui est responsable ?"
+   },
+   {
+    "q": "Accident de vélo et assurance : comment ça marche ?"
+   },
+   {
+    "q": "Accident de vélo sans éclairage : serez-vous indemnisé ?"
+   },
+   {
+    "q": "Accident de vélo « seul » : quelle responsabilité pour le cycliste ?"
+   },
+   {
+    "q": "Accident en vélo à assistance électrique ?"
+   },
+   {
+    "q": "Accident entre un cycliste et un piéton : quelles responsabilités ?"
+   },
+   {
+    "q": "Accident voiture – vélo : que faire ?"
+   },
+   {
+    "q": "Accident vélo voiture : que faire ?"
+   },
+   {
+    "q": "Accident vélo voiture : quelle indemnisation pour le cycliste ?"
+   },
+   {
+    "q": "Ai-je besoin d’un avocat pour obtenir une juste indemnisation ?"
+   },
+   {
+    "q": "Assurance auto : votre véhicule est-il protégé en cas d’événement climatique ?"
+   },
+   {
+    "q": "Assurance auto et bonus-malus : comment ça fonctionne ?"
+   },
+   {
+    "q": "Automobiliste : que faire si j’ai un accident avec un vélo ?"
+   },
+   {
+    "q": "Comment calculer l'indemnisation suite à un accident de vélo ?"
+   },
+   {
+    "q": "Comment déclarer un accident de vélo ?"
+   },
+   {
+    "q": "Comment la responsabilité civile intervient-elle lorsque vous êtes à l’origine du sinistre, et comment être indemnisé en tant que victime ?"
+   },
+   {
+    "q": "Comment le cycliste non responsable se fera indemniser en pratique ?"
+   },
+   {
+    "q": "Comment obtenir une indemnisation ?"
+   },
+   {
+    "q": "Comment remplir un constat amiable pour un accident de vélo ?"
+   },
+   {
+    "q": "Comment reprendre le vélo après un accident ?"
+   },
+   {
+    "q": "Comment se faire indemniser après un accident de vélo ?"
+   },
+   {
+    "q": "Comment être indemnisé suite à un accident de la route ?"
+   },
+   {
+    "q": "Dans le cas d’un accident de vélo avec un autre vélo ou un piéton, quelle assurance entre en jeu ?"
+   },
+   {
+    "q": "Dois-je contacter mon assurance après un accident de vélo ?"
+   },
+   {
+    "q": "En cas de collision avec une voiture, stationnée ou en mouvement, qui est responsable ?"
+   },
+   {
+    "q": "En cas d’accident de vélo, quelle assurance fonctionne ?"
+   },
+   {
+    "q": "Et si j’ai causé l’accident ?"
+   },
+   {
+    "q": "Et, en cas d’accident, comment se passe l’indemnisation des victimes ?"
+   },
+   {
+    "q": "Faut-il une assurance spécifique pour un vélo électrique ?"
+   },
+   {
+    "q": "J’ai eu un accident, que dois-je faire ?"
+   },
+   {
+    "q": "J’aimerais aussi savoir comment on effectue le calcul d’indemnisation d’un accident de vélo ?"
+   },
+   {
+    "q": "L'article du cabinet détaille la jurisprudence applicable et les stratégies de défense : \n                \n                    Accident de vélo sans éclairage : êtes-vous quand même indemnisé ?"
+   },
+   {
+    "q": "LE CYCLISTE ET SES DOMMAGES CORPORELS APRÈS UN ACCIDENT ?"
+   },
+   {
+    "q": "La question centrale est toujours la même : qui est responsable et comment obtenir une indemnisation complète des préjudices subis ?"
+   },
+   {
+    "q": "Le cycliste et ses dommages corporels après un accident de la route en 3 points ?"
+   },
+   {
+    "q": "Lire aussi :  Assurance vélo : Comment bien choisir ?"
+   },
+   {
+    "q": "L’indemnisation est-elle automatique si je ne suis pas responsable ?"
+   },
+   {
+    "q": "Mon indemnisation peut-elle être réduite ou supprimée ?"
+   },
+   {
+    "q": "Pourquoi déclarer votre accident de vélo à l’Assurance maladie ?"
+   },
+   {
+    "q": "Pourquoi ma roue de vélo se voile après un accident ?"
+   },
+   {
+    "q": "Pouvez-vous m’aider dans le calcul d’indemnisation de l’accident de vélo ?"
+   },
+   {
+    "q": "Puis-je obtenir une avance sur l’indemnisation ?"
+   },
+   {
+    "q": "Que couvre l’indemnisation d’un cycliste blessé ?"
+   },
+   {
+    "q": "Que faire après un accident de la circulation lorsque le cycliste victime a des dommages corporels ?"
+   },
+   {
+    "q": "Que faire après un accident de vélo ?"
+   },
+   {
+    "q": "Que faire en cas d’accident avec un vélo électrique ?"
+   },
+   {
+    "q": "Que faire si on est cycliste et renversé par une voiture ?"
+   },
+   {
+    "q": "Quel délai pour déclarer un accident de vélo ?"
+   },
+   {
+    "q": "Quel est le délai pour être indemnisé après un accident de vélo ?"
+   },
+   {
+    "q": "Quelle assurance couvre l'accident de vélo ?"
+   },
+   {
+    "q": "Quelle assurance couvre les dommages corporels du cycliste en cas d’accident de la circulation ?"
+   },
+   {
+    "q": "Quelle assurance pour un accident de vélo ?"
+   },
+   {
+    "q": "Quelle couverture pour un accident de vélo sans tiers ?"
+   },
+   {
+    "q": "Quelle indemnisation ?"
+   },
+   {
+    "q": "Quelle indemnisation pour un accident de vélo responsable ?"
+   },
+   {
+    "q": "Quelle indemnisation suite à un accident de trottinette électrique ?"
+   },
+   {
+    "q": "Quelle sera mon indemnisation après un accident de la route ?"
+   },
+   {
+    "q": "Quelles démarches entreprendre après un accident de vélo ?"
+   },
+   {
+    "q": "Quelles législations et quelles responsabilités pour les dommages corporels du cycliste impliqué dans un accident de la circulation ?"
+   },
+   {
+    "q": "Quels documents fournir pour le calcul de l’indemnisation ?"
+   },
+   {
+    "q": "Quels sont les bons réflexes à adopter en cas d’accident ?"
+   },
+   {
+    "q": "Qui est responsable lorsqu’un cycliste est renversé par un véhicule sur un rond-point ?"
+   },
+   {
+    "q": "Qui indemnise en cas d’accident de la route ?"
+   },
+   {
+    "q": "Qui peut être indemnisé après un accident de vélo ?"
+   },
+   {
+    "q": "Qui, de l’automobiliste ou du cycliste, sera considéré comme responsable ?"
+   },
+   {
+    "q": "Quid d’un accident cycliste dans le cadre du travail ?"
+   },
+   {
+    "q": "Quid d’un accident dans le cadre d’une course cycliste ?"
+   },
+   {
+    "q": "Qu’est-ce que la responsabilité civile ne couvre pas ?"
+   },
+   {
+    "q": "Retour cyclistes ?"
+   },
+   {
+    "q": "Serai-je indemnisé par une assurance si je suis blessé ?"
+   },
+   {
+    "q": "Suis-je assuré en cas d'accident de vélo électrique ?"
+   },
+   {
+    "q": "Victime d'un accident de vélo ?"
+   },
+   {
+    "q": "Victime d’un accident de moto ou scooter ?"
+   },
+   {
+    "q": "Victime d’un accident de vélo avec des blessures ou des séquelles ?"
+   },
+   {
+    "q": "Victimes d'accident de vélo et indemnisation : que faire ?"
+   },
+   {
+    "q": "Vous avez souscrit une GAV (garantie des accidents de la vie) ou une garantie Accidents corporels du conducteur auprès de votre assureur ?"
+   },
+   {
+    "q": "Vous venez d’acheter un vélo à assistance électrique (VAE) ?"
+   },
+   {
+    "q": "Vous venez d’avoir un accident de vélo avec un automobiliste ?"
+   },
+   {
+    "q": "Vous venez d’avoir un accrochage ou un accident de vélo avec un automobiliste ?"
+   },
+   {
+    "q": "Vous êtes impliqués dans un accident de la route, avec un piéton, un autre vélo ou un véhicule terrestre à moteur ?"
+   },
+   {
+    "q": "À qui déclarer l’accident de vélo et comment le faire ?"
+   },
+   {
+    "q": "📞 Vous êtes cycliste et vous avez été blessé ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.benezra-victimesdelaroute.fr/le-cycliste-et-ses-dommages-corporels-apres-un-accident-de-la-route-en-3-points/",
+   "title": "Cycliste et ses dommages corporels après un accident en 3 points",
+   "desc": "Le cycliste victime lorsqu'il a des dommages corporels doit agir dans son intérêt et protéger sonâ ptârimoine économique",
+   "headers": [
+    [
+     "h1",
+     "LE CYCLISTE ET SES DOMMAGES CORPORELS APRÈS UN ACCIDENT ?"
+    ],
+    [
+     "h2",
+     "Cycliste Victime accident | victime de la route cycliste | Accident cycliste"
+    ],
+    [
+     "h2",
+     "→ Quelle assurance couvre les dommages corporels du cycliste en cas d’accident de la circulation ?"
+    ],
+    [
+     "h2",
+     "→ Quelle assurance couvre les dommages corporels du cycliste en cas d’accident de la circulation ?"
+    ],
+    [
+     "h2",
+     "→ Quelles législations et quelles responsabilités pour les dommages corporels du cycliste impliqué dans un accident de la circulation ?"
+    ],
+    [
+     "h2",
+     "→ Quelles législations et quelles responsabilités pour les dommages corporels du cycliste impliqué dans un accident de la circulation ?"
+    ],
+    [
+     "h2",
+     "→ Comment le cycliste non responsable se fera indemniser en pratique ?"
+    ],
+    [
+     "h2",
+     "FICHES EN DOMMAGES CORPORELS & ACCIDENTS DE LA ROUTE"
+    ],
+    [
+     "h2",
+     "DÉPARTEMENTS EN DOMMAGES CORPORELS & ACCIDENTS DE LA ROUTE"
+    ],
+    [
+     "h2",
+     "EN PRATIQUE, LE CYCLISTE VICTIME"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 20,
+   "word_count": 1671,
+   "content_len": 11049
+  },
+  {
+   "rank": 2,
+   "url": "https://www.dva-experts.com/indemnisation-accident-de-la-circulation/cycliste-renverse-par-une-voiture-indemnisation/",
+   "title": "Cycliste renversé par une voiture indemnisation | DVA Experts",
+   "desc": "Même en vélo vous avez droit à une indemnisation en cas d'accident. Découvrez les mécanisme et sur quoi est basé votre indemnisation ✅ Simulateur Gratuit",
+   "headers": [
+    [
+     "h1",
+     "Cycliste renversé par une voiture indemnisation"
+    ],
+    [
+     "h2",
+     "La Loi applicable en matière d’accident entre un vélo et une voiture"
+    ],
+    [
+     "h2",
+     "Depuis 1985, si vous êtes sur votre vélo et qu’un véhicule provoque votre chute, même sans collision, alors vous devez obtenir l’indemnisation intégrale de tous vos préjudices corporels."
+    ],
+    [
+     "h2",
+     "Que faire si on est cycliste et renversé par une voiture ?"
+    ],
+    [
+     "h2",
+     "Cas particulier : Accident entre un vélo et une voiture non assurée ou ayant pris la fuite"
+    ],
+    [
+     "h2",
+     "Infos Utiles"
+    ],
+    [
+     "h2",
+     "Quelle sera mon indemnisation après un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Comment être indemnisé suite à un accident de la route ?"
+    ],
+    [
+     "h2",
+     "Qui indemnise en cas d’accident de la route ?"
+    ],
+    [
+     "h2",
+     "Comment savoir si  on est en tord dans un eccident de la route ?"
+    ],
+    [
+     "h2",
+     "Nous contacter"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 33,
+   "word_count": 1790,
+   "content_len": 11076
+  },
+  {
+   "rank": 3,
+   "url": "https://www.abeille-assurances.fr/conseils-en-assurance/mes-demarches/accident-velo-voiture-indemnisation.html",
+   "title": "Accident vélo voiture : que faire ? - Abeille Assurances",
+   "desc": "Vous venez d’avoir un accrochage ou un accident de vélo avec un automobiliste ? Découvrez les bons gestes à adopter et comment être indemnisé en cas de dommages.",
+   "headers": [
+    [
+     "h1",
+     "Accident vélo-voiture : les bons réflexes à adopter"
+    ],
+    [
+     "h2",
+     "Dois-je prendre les coordonnées de l’automobiliste ou faire un constat ?"
+    ],
+    [
+     "h2",
+     "Que faire si mon vélo est endommagé ?"
+    ],
+    [
+     "h2",
+     "Les bons réflexes en fonction de la gravité de l’accident"
+    ],
+    [
+     "h2",
+     "Serai-je indemnisé par une assurance si je suis blessé ?"
+    ],
+    [
+     "h2",
+     "Automobiliste : que faire si j’ai un accident avec un vélo ?"
+    ],
+    [
+     "h2",
+     "Réparation, bris de glace… Misez sur la sérénité avec nos garages agréés"
+    ],
+    [
+     "h2",
+     "Assurance auto et bonus-malus : comment ça fonctionne ?"
+    ],
+    [
+     "h2",
+     "Assurance auto : votre véhicule est-il protégé en cas d’événement climatique ?"
+    ]
+   ],
+   "content_score": 33,
+   "readability": 42,
+   "word_count": 1038,
+   "content_len": 6352
+  },
+  {
+   "rank": 4,
+   "url": "https://www.cabinet-roussel.fr/victimes-daccident-de-velo-et-indemnisation/",
+   "title": "Victimes d'accident de vélo et indemnisation : que faire ?",
+   "desc": "Le Cabinet Roussel vous conseille sur les démarches à entamer après un accident de vélo, en fonction de votre cas.",
+   "headers": [
+    [
+     "h1",
+     "L’indemnisation des accidents de vélo"
+    ],
+    [
+     "h2",
+     "J’ai été percuté par un vélo, un chien ou un piéton"
+    ],
+    [
+     "h2",
+     "J’ai été percuté par un véhicule à moteur"
+    ],
+    [
+     "h2",
+     "Et pour les trottinettes ?"
+    ],
+    [
+     "h2",
+     "Et si j’ai causé l’accident ?"
+    ],
+    [
+     "h2",
+     "Mon indemnisation peut-elle être réduite ou supprimée ?"
+    ],
+    [
+     "h2",
+     "J’ai chuté seul !"
+    ],
+    [
+     "h2",
+     "J’ai été blessé en me rendant à mon travail"
+    ],
+    [
+     "h2",
+     "L’auteur a fui ou n’est pas assuré !"
+    ],
+    [
+     "h2",
+     "J’ai eu un accident, que dois-je faire ?"
+    ],
+    [
+     "h2",
+     "Faut-il vraiment porter plainte ?"
+    ],
+    [
+     "h2",
+     "Peut-on refuser de prendre ma plainte ?"
+    ],
+    [
+     "h2",
+     "À retenir"
+    ],
+    [
+     "h2",
+     "Demande de rendez-vous"
+    ],
+    [
+     "h2",
+     "Découvrez  d'autres actualités"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 18,
+   "word_count": 1603,
+   "content_len": 10434
+  },
+  {
+   "rank": 5,
+   "url": "https://www.groupama.fr/assurance-velo/conseils/accident-velo-responsabilite-civile/",
+   "title": "Accident de vélo et assurance responsabilité civile",
+   "desc": "En cas d'accident de vélo, votre assurance peut vous couvrir. Découvrez comment la responsabilité civile vous protège après une collision.",
+   "headers": [
+    [
+     "h1",
+     "Accident de vélo et assurance : comment ça marche ?"
+    ],
+    [
+     "h2",
+     "Accident de voiture avec un vélo, qui est responsable ?"
+    ],
+    [
+     "h2",
+     "Cycliste à l’origine d’un accident avec un piéton ou un vélo"
+    ],
+    [
+     "h2",
+     "Accident de vélo au travail avec un piéton ou un cycliste"
+    ],
+    [
+     "h2",
+     "À qui déclarer l’accident de vélo et comment le faire ?"
+    ],
+    [
+     "h2",
+     "Quelle couverture pour un accident de vélo sans tiers ?"
+    ],
+    [
+     "h2",
+     "FAQ – Questions fréquentes sur l’accident de vélo et la responsabilité civile"
+    ],
+    [
+     "h2",
+     "Découvrez notre offre d’assurance vélo"
+    ],
+    [
+     "h2",
+     "Découvrez nos infos et conseils pour votre vélo"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 40,
+   "word_count": 2542,
+   "content_len": 15739
+  },
+  {
+   "rank": 6,
+   "url": "https://www.bicytrust.fr/blog/proteger-son-velo/accident-de-velo-et-indemnisation/",
+   "title": "Accident de vélo : indemnisation et démarches 2025",
+   "desc": "Victime d'un accident de vélo ? Découvrez vos droits à l'indemnisation selon la loi Badinter, les démarches à suivre et le rôle des assurances en 2025.",
+   "headers": [
+    [
+     "h1",
+     "Accident de vélo et indemnisation : le guide complet pour vous accompagner"
+    ],
+    [
+     "h2",
+     "Le cadre juridique : une protection méconnue des cyclistes"
+    ],
+    [
+     "h2",
+     "Typologie des accidents : comprendre pour mieux se protéger"
+    ],
+    [
+     "h2",
+     "L'évaluation des préjudices : au-delà des blessures visibles"
+    ],
+    [
+     "h2",
+     "Le parcours d'indemnisation : de l'accident au règlement"
+    ],
+    [
+     "h2",
+     "Le rôle des assurances : comprendre l'écosystème"
+    ],
+    [
+     "h2",
+     "La checklist post-accident : votre aide-mémoire d'urgence"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "FAQ accident de vélo"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 30,
+   "word_count": 3002,
+   "content_len": 20278
+  },
+  {
+   "rank": 7,
+   "url": "https://coraliefournier-avocat.fr/accident-velo-responsabilite-indemnisation-cycliste/",
+   "title": "Accident vélo : responsabilité et indemnisation du cycliste - Coralie Fournier Avocate à Bordeaux",
+   "desc": "A la suite d'un accident seul, avec un piéton ou avec un autre véhicule, à qui incombe la responsabilité ? Comment obtenir une indemnisation ?",
+   "headers": [
+    [
+     "h1",
+     "Cyclistes : responsabilité et indemnisation à la suite d’un accident de vélo"
+    ],
+    [
+     "h2",
+     "Accident de vélo « seul » : quelle responsabilité pour le cycliste ?"
+    ],
+    [
+     "h2",
+     "Accident entre un cycliste et un piéton : quelles responsabilités ?"
+    ],
+    [
+     "h2",
+     "Accident voiture – vélo : que faire ? Les démarches indispensables"
+    ],
+    [
+     "h2",
+     "Le cas des vélos électriques et VAE"
+    ],
+    [
+     "h2",
+     "Quelle indemnisation suite à un accident de trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "Accident de vélo et assurance : les suites de la procédure d’indemnisation"
+    ],
+    [
+     "h2",
+     "Quel est le rôle de l’avocat ?"
+    ],
+    [
+     "h2",
+     "A retenir : vos droits à indemnisation en tant que cycliste"
+    ],
+    [
+     "h2",
+     "Accident de vélo « seul » : quelle responsabilité pour le cycliste ?"
+    ],
+    [
+     "h2",
+     "Accident entre un cycliste et un piéton : quelles responsabilités ?"
+    ],
+    [
+     "h2",
+     "Accident voiture – vélo : que faire ? Les démarches indispensables"
+    ],
+    [
+     "h2",
+     "Accident vélo voiture : quelle indemnisation pour le cycliste ?"
+    ],
+    [
+     "h2",
+     "Le cas des vélos électriques et VAE"
+    ],
+    [
+     "h2",
+     "Quelle indemnisation suite à un accident de trottinette électrique ?"
+    ],
+    [
+     "h2",
+     "Accident de vélo et assurance : les suites de la procédure d’indemnisation"
+    ],
+    [
+     "h2",
+     "Quel est le rôle de l’avocat ?"
+    ],
+    [
+     "h2",
+     "A retenir : vos droits à indemnisation en tant que cycliste"
+    ]
+   ],
+   "content_score": 77,
+   "readability": 25,
+   "word_count": 6233,
+   "content_len": 39369
+  },
+  {
+   "rank": 8,
+   "url": "https://association-aivf-faq.fr/accident-de-la-route-faq/calcul-indemnisation-accident-de-velo",
+   "title": "Calcul indemnisation accident de vélo - Association Victimes de France AIVF",
+   "desc": "Calcul indemnisation accident de vélo, loi Badinter ou chute en vélo seul, Garantie accident de la vie GAV, rapport d'expertise, taux AIPP",
+   "headers": [
+    [
+     "h1",
+     "Calcul indemnisation accident de vélo"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Calcul indemnisation accident de vélo"
+    ],
+    [
+     "h2",
+     "Questions concernant le calcul d’indemnisation d’un accident de vélo"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 43,
+   "word_count": 1536,
+   "content_len": 9970
+  },
+  {
+   "rank": 9,
+   "url": "https://jmp-avocat-indemnisation.fr/accident-de-velo-differents-cas-d-indemnisation-cycliste-accidente.html",
+   "title": "Accident de vélo : indemnisation du cycliste accidenté",
+   "desc": "Cycliste renversé, chute, collision vélo-piéton, accident sans contact : vos droits selon la loi Badinter, les cas d'indemnisation et les recours. Avocat Lille & Paris.",
+   "headers": [
+    [
+     "h1",
+     "Accident de vélo : vos droits et votre indemnisation — le guide complet du cycliste accidenté"
+    ],
+    [
+     "h2",
+     "La loi Badinter : le bouclier du cycliste face aux véhicules motorisés"
+    ],
+    [
+     "h2",
+     "Cycliste responsable ou non responsable : ce que ça change vraiment"
+    ],
+    [
+     "h2",
+     "Les accidents de vélo sans véhicule motorisé : un régime différent"
+    ],
+    [
+     "h2",
+     "Accident de vélo sans éclairage : serez-vous indemnisé ?"
+    ],
+    [
+     "h2",
+     "Cycliste victime de violence : un phénomène en hausse"
+    ],
+    [
+     "h2",
+     "Délit de fuite : que faire quand le conducteur s'enfuit ?"
+    ],
+    [
+     "h2",
+     "L'accident de trajet à vélo : un double régime protecteur"
+    ],
+    [
+     "h2",
+     "Deux cas réels traités par le cabinet"
+    ],
+    [
+     "h2",
+     "Qui paye quoi selon le type d'accident de vélo"
+    ],
+    [
+     "h2",
+     "Les préjudices du cycliste accidenté : ce qui doit être indemnisé"
+    ],
+    [
+     "h2",
+     "Comment bien assurer son vélo en 2026"
+    ],
+    [
+     "h2",
+     "Le cabinet Marteau-Péretié défend les cyclistes accidentés"
+    ],
+    [
+     "h2",
+     "📞 Vous êtes cycliste et vous avez été blessé ?"
+    ]
+   ],
+   "content_score": 73,
+   "readability": 21,
+   "word_count": 2700,
+   "content_len": 18247
+  },
+  {
+   "rank": 10,
+   "url": "https://alexismorinavocat.fr/blog/indemnisation-accident-de-la-route/indemnisation-accident-de-velo/",
+   "title": "Indemnisation accident de vélo : droits, responsabilité et indemnités - Morin Avocat",
+   "desc": "Accident de vélo : responsabilité, délais et préjudices indemnisables. Guide complet pour obtenir réparation.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation accident de vélo : droits, responsabilité et calcul des indemnités"
+    ],
+    [
+     "h2",
+     "Responsabilité d'un accident de vélo"
+    ],
+    [
+     "h2",
+     "Quelle assurance couvre l'accident de vélo ?"
+    ],
+    [
+     "h2",
+     "Les préjudices indemnisables après un accident de vélo"
+    ],
+    [
+     "h2",
+     "Procédure d'indemnisation accident de vélo non responsable"
+    ],
+    [
+     "h2",
+     "Comment calculer l'indemnisation suite à un accident de vélo ?"
+    ],
+    [
+     "h2",
+     "Nos conseils pour obtenir une indemnisation accident de vélo juste"
+    ],
+    [
+     "h2",
+     "Ce qu’il faut retenir"
+    ]
+   ],
+   "content_score": 69,
+   "readability": 32,
+   "word_count": 1492,
+   "content_len": 10098
+  },
+  {
+   "rank": 11,
+   "url": "https://www.cnp.fr/particuliers/le-mag/accident-de-velo-comment-etre-bien-assure",
+   "title": "Accident de vélo : comment être bien assuré ?  | CNP Assurances",
+   "desc": "Accident de vélo : comment être bien assuré ?",
+   "headers": [
+    [
+     "h1",
+     "Accident de vélo : comment être bien assuré ?"
+    ],
+    [
+     "h2",
+     "Cyclistes : pourquoi vous assurer ?"
+    ],
+    [
+     "h2",
+     "Accident de vélo : quelles assurances souscrire ?"
+    ],
+    [
+     "h2",
+     "Comment déclarer un accident de vélo à votre assurance ?"
+    ],
+    [
+     "h2",
+     "Sur le même thème"
+    ]
+   ],
+   "content_score": 38,
+   "readability": 54,
+   "word_count": 859,
+   "content_len": 5328
+  },
+  {
+   "rank": 12,
+   "url": "https://www.benezra-victimesdelaroute.fr/accident-de-velo-cyclistes-vous-avez-des-droits.html",
+   "title": "Accident de vélo ? Cyclistes victimes, vous avez des droits ! Avocat",
+   "desc": "Vous êtes une victime cycliste impliqué dans un accident de vélo? Cyclistes, vous avez des droits... avocats 0145240040 info@benezra.fr",
+   "headers": [
+    [
+     "h1",
+     "Accident de vélo : cycliste victime, vous avez droit à une indemnisation intégrale"
+    ],
+    [
+     "h2",
+     "Percuté par une voiture, un camion, une moto : la Loi Badinter vous protège"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "3° Comment nous vous aidons concrètement : notre méthode en 4 étapes"
+    ],
+    [
+     "h2",
+     "4° Les situations les plus fréquentes (et comment nous les traitons)"
+    ],
+    [
+     "h2",
+     "5° Ce que vous devez absolument savoir sur la loi Badinter"
+    ],
+    [
+     "h2",
+     "6° Quelles sont les séquelles du cycliste victime ?"
+    ],
+    [
+     "h2",
+     "7° Téléchargez le guide du cycliste"
+    ],
+    [
+     "h2",
+     "8° Quelle défense pour le cycliste victime ?"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 22,
+   "word_count": 5436,
+   "content_len": 34183
+  },
+  {
+   "rank": 13,
+   "url": "https://www.generali.fr/actu/accident-velo-responsabilite-cycliste/",
+   "title": "Accident voiture vélo : responsabilités, indemnisation, démarches",
+   "desc": "Qui est responsable en cas d’accident entre un vélo et une voiture ? On vous dit tout sur la loi Badinter, les assurances et les démarches.",
+   "headers": [
+    [
+     "h1",
+     "Accident vélo-voiture : qui est responsable et quelle indemnisation ?"
+    ],
+    [
+     "h2",
+     "Que vous utilisiez quotidiennement le vélo pour aller au travail ou le week-end pour une sortie sportive, l’assurance n’est pas obligatoire, même si votre vélo est un modèle à assistance électrique (t"
+    ],
+    [
+     "h2",
+     "Les différents scénarios d'accidents entre un vélo et une voiture"
+    ],
+    [
+     "h2",
+     "Qui est responsable en cas d'accident entre un vélo et une voiture ?"
+    ],
+    [
+     "h2",
+     "Quelle assurance intervient en cas d'accident entre un vélo et une  voiture ?"
+    ],
+    [
+     "h2",
+     "Les démarches à effectuer après un accident vélo-voiture"
+    ],
+    [
+     "h2",
+     "En cas de litige : quelles aides juridiques ?"
+    ],
+    [
+     "h2",
+     "Être responsable, c’est d’abord se protéger"
+    ],
+    [
+     "h2",
+     ""
+    ]
+   ],
+   "content_score": 51,
+   "readability": 32,
+   "word_count": 1932,
+   "content_len": 12212
+  },
+  {
+   "rank": 14,
+   "url": "https://www.benezra.fr/que-faire-en-cas-daccident-de-velo-avec-des-dommages-corporels.html",
+   "title": "Que faire après un accident de vélo avec des dommages corporels",
+   "desc": "Vous venez d'être renversé à vélo. Vous avez mal. Vous ne savez pas ce que vous allez toucher, ni quand, ni comment.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Quelle loi s’applique à votre accident ?"
+    ],
+    [
+     "h2",
+     "Ce qui va se passer ensuite : les 3 étapes clés"
+    ],
+    [
+     "h2",
+     "Pourquoi les assureurs ne sont pas vos alliés"
+    ],
+    [
+     "h2",
+     "Ce que le Cabinet Benezra fait pour vous"
+    ],
+    [
+     "h2",
+     "JE SUIS VICTIME À 100% NON RESPONSABLE"
+    ],
+    [
+     "h2",
+     "JE SUIS VICTIME MAIS AUSSI FAUTIF"
+    ],
+    [
+     "h2",
+     "JE SUIS VICTIME PAR RICOCHET"
+    ],
+    [
+     "h2",
+     "JE SUIS RESPONSABLE DE L'ACCIDENT"
+    ]
+   ],
+   "content_score": 34,
+   "readability": 32,
+   "word_count": 1276,
+   "content_len": 7886
+  },
+  {
+   "rank": 15,
+   "url": "https://www.indemnisationprejudice.fr/indemnisation-accident-route/indemnisation-accident-cyclistes/",
+   "title": "Cyclistes, calculez votre indemnisation après un accident à vélo",
+   "desc": "Montant de l’indemnisation après un accident de vélo : calcul, démarches et exemples - Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés.",
+   "headers": [
+    [
+     "h1",
+     "Montant de l’indemnisation après un accident de vélo : calcul, démarches et exemples"
+    ],
+    [
+     "h2",
+     "Être indemnisé après un accident de vélo"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Qui indemnise le cycliste victime d’un accident ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Comment est calculé le montant de l’indemnisation d’un accident de vélo ?"
+    ],
+    [
+     "h2",
+     "Que prévoit la loi Badinter pour les accidents de vélo ?"
+    ],
+    [
+     "h2",
+     "L’importance de l’avocat dans la procédure d’indemnisation"
+    ],
+    [
+     "h2",
+     "Exemple de calcul du montant d’indemnisation après un accident de vélo"
+    ],
+    [
+     "h2",
+     "Accident de trottinette : mêmes droits, même procédure ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "FAQ INDEMNISATION ACCIDENT CYCLISTE"
+    ]
+   ],
+   "content_score": 65,
+   "readability": 26,
+   "word_count": 2862,
+   "content_len": 18665
+  },
+  {
+   "rank": 16,
+   "url": "https://www.cpcassocies.com/cyclistes-victimes-daccident-faites-valoir-vos-droits-au-dommage-corporel/",
+   "title": "Cyclistes victimes d'accident : Faites valoir vos droits au dommage corporel ! - CPC & Associés",
+   "desc": "Cycliste victime d’un accident ? Obtenez réparation pour votre dommage corporel avec un avocat expert. Défense, conseils, indemnisation. CPC Associés",
+   "headers": [
+    [
+     "h1",
+     "Cyclistes victimes d’accident : Faites valoir vos droits au dommage corporel !"
+    ],
+    [
+     "h1",
+     "Dommage corporel du cycliste : comprendre vos droits essentiels"
+    ],
+    [
+     "h2",
+     "Les démarches cruciales après un accident à vélo"
+    ],
+    [
+     "h2",
+     "L’avocat spécialisé : Votre bouclier et votre épée"
+    ],
+    [
+     "h2",
+     "Foire aux questions"
+    ],
+    [
+     "h2",
+     "Plus\nd'articles"
+    ],
+    [
+     "h2",
+     "Arnaud Péricard"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 35,
+   "word_count": 1322,
+   "content_len": 8449
+  },
+  {
+   "rank": 17,
+   "url": "https://www.ecce-experts.com/notre-expertise/indemnisation-accident-velo/",
+   "title": "Accident de vélo, quelle indemnisation ? | ECCE Associés",
+   "desc": "Victime d’un accident de vélo, à quelle indemnisation pouvez-vous prétendre ? ECCE s'engage aux côtés des victimes pour une juste indemnisation",
+   "headers": [
+    [
+     "h1",
+     "Accident de vélo, quelle indemnisation ?"
+    ],
+    [
+     "h1",
+     "J’ai eu un accident de vélo, à quelle indemnisation puis-je prétendre ?"
+    ],
+    [
+     "h2",
+     "FAQ Indemnisation des accidents de vélo"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 30,
+   "word_count": 1496,
+   "content_len": 9443
+  },
+  {
+   "rank": 18,
+   "url": "https://www.coppet-avocats.fr/actualites/accidents-de-la-route/victime-accident-velo-cycliste-indemnisation/",
+   "title": "Indemnisation d'un accident de vélo : procédure et cadre juridique",
+   "desc": "Cycliste victime d'un accident : loi Badinter, démarches, préjudices indemnisables et processus d'indemnisation selon le type d'accident (voiture, chute seul, trajet domicile-travail).",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d’un accident de vélo : procédure et cadre juridique"
+    ],
+    [
+     "h2",
+     "Loi Badinter : une protection pour les cyclistes victimes d'accidents de la route"
+    ],
+    [
+     "h2",
+     "Vélo électrique, vélo à assistance électrique, vélo manuel : quelles indemnisations ?"
+    ],
+    [
+     "h2",
+     "Les différents types d'accidents de vélo et leurs indemnisations"
+    ],
+    [
+     "h2",
+     "Victime d'un accident de vélo : les cas particuliers d'indemnisation"
+    ],
+    [
+     "h2",
+     "Cycliste renversé par une voiture : que faire ?"
+    ],
+    [
+     "h2",
+     "Accidents à vélo et processus d'indemnisation : les étapes clés"
+    ],
+    [
+     "h2",
+     "Cycliste, victime d'un accident de la route : être accompagnée pour une juste indemnisation"
+    ],
+    [
+     "h2",
+     "Victime d'un accident à vélo : comment vous assurer d'une indemnisation à la hauteur de vos préjudices ?"
+    ],
+    [
+     "h2",
+     "En résumé :"
+    ]
+   ],
+   "content_score": 66,
+   "readability": 20,
+   "word_count": 5377,
+   "content_len": 34952
+  },
+  {
+   "rank": 19,
+   "url": "https://victime-info.fr/indemnisation/accident-de-la-circulation/accident-cycliste-velo",
+   "title": "Accident de vélo : indemnisation du cycliste victime | victime-info.fr",
+   "desc": "Cycliste victime d'un accident de la route ? Découvrez les droits à indemnisation, la procédure, les montants et les recours possibles pour obtenir réparation.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation suite à un accident de vélo : guide complet pour les cyclistes victimes"
+    ],
+    [
+     "h2",
+     "Le cycliste, un usager protégé par la loi Badinter"
+    ],
+    [
+     "h2",
+     "Montant de l’indemnisation d’un cycliste accidenté"
+    ],
+    [
+     "h2",
+     "Simulateur d’indemnisation pour un accident de vélo"
+    ],
+    [
+     "h2",
+     "Accident entre deux cyclistes : quelles règles d’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Accident entre un cycliste et un piéton"
+    ],
+    [
+     "h2",
+     "Vélo électrique et trottinette électrique : cas particuliers"
+    ],
+    [
+     "h2",
+     "Procédure d’indemnisation du cycliste victime d’un accident"
+    ],
+    [
+     "h2",
+     "Contester l’offre d’indemnisation de l’assureur"
+    ],
+    [
+     "h2",
+     "Faut-il porter plainte après un accident de vélo ?"
+    ],
+    [
+     "h2",
+     "Accident de vélo sur le trajet domicile-travail"
+    ],
+    [
+     "h2",
+     "Accident de vélo mortel : droits des proches"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur l’indemnisation d’un cycliste"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Conclusion : les droits du cycliste accidenté sont protégés"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 78,
+   "readability": 34,
+   "word_count": 4171,
+   "content_len": 26477
+  },
+  {
+   "rank": 20,
+   "url": "https://association-aivf-faq.fr/accident-de-la-route-faq/accident-mortel-de-la-route/accident-mortel-du-cycliste",
+   "title": "Accident mortel du cycliste - Association Victimes de France AIVF",
+   "desc": "Accident mortel du cycliste, indemnisation des ayants droit, loi Badinter, véhicule terrestre à moteur, ou Garantie accident de la vie,",
+   "headers": [
+    [
+     "h1",
+     "Accident mortel du cycliste"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ Questions fréquentes – Accident mortel du cycliste"
+    ],
+    [
+     "h2",
+     "Questions concernant l’accident mortel du cycliste"
+    ]
+   ],
+   "content_score": 45,
+   "readability": 52,
+   "word_count": 1297,
+   "content_len": 8326
+  },
+  {
+   "rank": 21,
+   "url": "https://www.maif.fr/vehicule-mobilite/guide-assurance-velo/accident-velo",
+   "title": "Accident de vélo et assurance : démarches et prise en charge - MAIF",
+   "desc": "Un accident de vélo peut vite arriver. La question de l'assurance se pose que ce soit seul, avec un piéton, un autre vélo ou une voiture.",
+   "headers": [
+    [
+     "h1",
+     "Accident de vélo et assurance : comment ça marche ?"
+    ],
+    [
+     "h2",
+     "1\n                Quelles sont les conséquences d'un accident de vélo ?"
+    ],
+    [
+     "h2",
+     "2\n                Quels sont les différents types d'accident qui peuvent se produire à vélo ?"
+    ],
+    [
+     "h2",
+     "3\n                Comment faire un constat d'accident pour un cycliste ?"
+    ],
+    [
+     "h2",
+     "4\n                VAE, vélo électrique, vélo classique : faut-il prendre un contrat spécifique pour assurer son vélo ?"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 45,
+   "word_count": 1887,
+   "content_len": 11621
+  },
+  {
+   "rank": 22,
+   "url": "https://www.monveloestunevie.org/accidents-de-velos-et-responsabilites/",
+   "title": "Accidents de vélos et responsabilités",
+   "desc": "Les cyclistes victimes d'accidents doivent pouvoir défendre leurs droits et surtout obtenir une indemnisation intégrale de leurs préjudices",
+   "headers": [
+    [
+     "h2",
+     "BLOG JURIDIQUE"
+    ],
+    [
+     "h1",
+     "ACCIDENTS DE VÉLOS ET RESPONSABILITÉS"
+    ],
+    [
+     "h2",
+     "Accidents de vélos et responsabilités ?"
+    ],
+    [
+     "h2",
+     "Accidents de vélos : L’hypothèse de l’accident entre un véhicule terrestre à moteur et un cycliste"
+    ],
+    [
+     "h2",
+     "Accidents de vélos : L’hypothèse de l’accident entre deux cyclistes"
+    ],
+    [
+     "h2",
+     "Accidents de vélos : L’hypothèse de l’accident entre un cycliste et un piéton"
+    ],
+    [
+     "h2",
+     "Accidents de vélos : L’hypothèse d’un cycliste qui chute seul"
+    ],
+    [
+     "h2",
+     "Accidents de vélos : L’hypothèse du cycliste responsable d’un accident"
+    ],
+    [
+     "h2",
+     "Victimes cyclistes, vous avez des droits"
+    ],
+    [
+     "h2",
+     "LE CHANGEMENT"
+    ]
+   ],
+   "content_score": 45,
+   "readability": 26,
+   "word_count": 1193,
+   "content_len": 7833
+  },
+  {
+   "rank": 23,
+   "url": "https://www.expertises-medicales.net/indemnisation-dune-victime-daccident-de-velo/",
+   "title": "Expertise médicale et indemnisation d'une victime d'accident de vélo",
+   "desc": "Expertise médicale et indemnisation d'une victime d'accident de vélo : L’indemnisation d’une victime d’accident de vélo passe …",
+   "headers": [
+    [
+     "h1",
+     "Expertise médicale et indemnisation d'une victime d'accident de vélo"
+    ],
+    [
+     "h2",
+     "Que faire après un accident de vélo ?"
+    ],
+    [
+     "h2",
+     "Quels sont les droits de la victime d’un accident de vélo ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les conditions d’indemnisation d'une victime d'accident de vélo?"
+    ],
+    [
+     "h2",
+     "Quels sont les préjudices indemnisables en cas d’accident de vélo?"
+    ],
+    [
+     "h2",
+     "Barème d’indemnisation pour un accident de vélo"
+    ],
+    [
+     "h2",
+     "Objectif et déroulement d’une expertise médicale et indemnisation d'une victime d'accident de vélo avec le Dr Dubois"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 30,
+   "word_count": 1530,
+   "content_len": 9456
+  },
+  {
+   "rank": 24,
+   "url": "https://www.redac-recours.com/indemnisations/accident-de-velo/",
+   "title": "Accident de vélo : les spécificités de l'indemnisation",
+   "desc": "L’indemnisation d’un accident de vélo dépend de nombreux facteurs : les responsabilités, les assurances en jeu, la gravité des blessures...",
+   "headers": [
+    [
+     "h1",
+     "Les spécificités de l’indemnisation d’un accident en vélo"
+    ],
+    [
+     "h2",
+     "Qui peut être indemnisé après un accident de vélo ?"
+    ],
+    [
+     "h2",
+     "Quels sont les préjudices indemnisables après un accident à vélo ?"
+    ],
+    [
+     "h2",
+     "Quelle procédure suivre après un accident de vélo ?"
+    ],
+    [
+     "h2",
+     "Qui indemnise un cycliste victime d’un accident ?"
+    ],
+    [
+     "h2",
+     "Délai d’indemnisation : combien de temps faut-il ?"
+    ],
+    [
+     "h2",
+     "Optimiser votre indemnisation : nos conseils"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 52,
+   "word_count": 636,
+   "content_len": 4171
+  },
+  {
+   "rank": 25,
+   "url": "https://maitre-morin-avocat.fr/accueil/indemnisation-accident-de-la-route/accident-de-velo",
+   "title": "Accident de vélo : indemnisation du cycliste, démarches et droits (Loi Badinter)",
+   "desc": "Le conducteur d'un vélo ayant un accident est indemnisé de son préjudice corporel même s'il a commis une faute.",
+   "headers": [
+    [
+     "h1",
+     "Accident de vélo : indemnisation du cycliste, démarches et droits (Loi Badinter)Accident de Vélo"
+    ],
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "❓ Accident de vélo : l’essentiel à retenir"
+    ],
+    [
+     "h2",
+     "La loi Badinter : une protection essentielle pour les cyclistes"
+    ],
+    [
+     "h2",
+     "Qui indemnise après un accident de vélo ?"
+    ],
+    [
+     "h2",
+     "Quels préjudices sont indemnisés après un accident de vélo ?"
+    ],
+    [
+     "h2",
+     "Exemple concret d’indemnisation d’un cycliste"
+    ],
+    [
+     "h2",
+     "Comment se déroule l’expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Le rôle de l’avocat dans l’indemnisation d’un accident de vélo"
+    ],
+    [
+     "h2",
+     "Accident de vélo mortel : quels droits pour les proches ?"
+    ],
+    [
+     "h2",
+     "Questions fréquentes après un accident de vélo"
+    ],
+    [
+     "h2",
+     "Victime d’un accident de vélo ? Parlons-en"
+    ]
+   ],
+   "content_score": 68,
+   "readability": 25,
+   "word_count": 1143,
+   "content_len": 7154
+  },
+  {
+   "rank": 26,
+   "url": "https://droitauvelo.org/Marche-a-suivre-en-cas-d-accident",
+   "title": "Marche à suivre en cas d'accident - ADAV - Droit au vélo",
+   "desc": "Lors d'un accident de vélo, nous pouvons vite être désemparés et ne pas savoir quoi faire, ne pas savoir ce qu'on doit faire, ce qu'on peut faire. -",
+   "headers": [
+    [
+     "h1",
+     "Association DROIT au VÉLO"
+    ],
+    [
+     "h1",
+     "Marche à suivre en cas d’accident"
+    ],
+    [
+     "h2",
+     "Dans la même rubrique"
+    ]
+   ],
+   "content_score": 23,
+   "readability": 32,
+   "word_count": 1305,
+   "content_len": 7510
+  },
+  {
+   "rank": 27,
+   "url": "https://www.godet-avocat-toulouse.com/accident-de-velo-roulez-vers-lindemnisation/",
+   "title": "Accident de vélo : roulez vers l'indemnisation ! - Anne-Laure GODET Avocat",
+   "desc": "Accident de vélo : roulez vers l'indemnisation en suivant nos conseils pratiques pour obtenir réparation de vos pertes.",
+   "headers": [
+    [
+     "h1",
+     "Accident de vélo : roulez vers l’indemnisation !"
+    ],
+    [
+     "h2",
+     "I- Je viens d’avoir un accident : que faire ?"
+    ],
+    [
+     "h2",
+     "II- Quels sont mes droits ?"
+    ],
+    [
+     "h2",
+     "III- Qui m’indemnise ?"
+    ],
+    [
+     "h2",
+     "IV- Comment obtenir réparation de mes préjudices ?"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 38,
+   "word_count": 681,
+   "content_len": 4246
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1730,
+   "target": 1730
+  },
+  "readability": {
+   "median": 31,
+   "target": 31
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "accident",
+    "usage_pc": 90
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 70
+   },
+   {
+    "t": "accident de vélo",
+    "usage_pc": 60
+   },
+   {
+    "t": "cycliste",
+    "usage_pc": 40
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation du cycliste",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation accident de vélo",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "accident",
+    "usage_pc": 90
+   },
+   {
+    "t": "accident de vélo",
+    "usage_pc": 60
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 50
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 40
+   },
+   {
+    "t": "loi badinter",
+    "usage_pc": 30
+   },
+   {
+    "t": "un accident de vélo",
+    "usage_pc": 30
+   },
+   {
+    "t": "cycliste",
+    "usage_pc": 20
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommage",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "accident",
+    "usage_pc": 90
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 70
+   },
+   {
+    "t": "accident de vélo",
+    "usage_pc": 70
+   },
+   {
+    "t": "cycliste",
+    "usage_pc": 40
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "indemnisation accident de vélo",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident de vélo",
+    "usage_pc": 20
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "dommage",
+    "usage_pc": 10
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "cycliste accidenté",
+    "usage_pc": 10
+   },
+   {
+    "t": "renversé par une voiture",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de vélo et assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "vélo et indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident vélo-voiture",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "accident",
+    "usage_pc": 100
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 90
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "cycliste",
+    "usage_pc": 60
+   },
+   {
+    "t": "accident de vélo",
+    "usage_pc": 60
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 60
+   },
+   {
+    "t": "un accident de vélo",
+    "usage_pc": 30
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "cycliste victime",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation accident de vélo",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident de vélo sans",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident entre",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "dommage",
+    "usage_pc": 10
+   },
+   {
+    "t": "loi badinter",
+    "usage_pc": 10
+   },
+   {
+    "t": "responsabilité civile",
+    "usage_pc": 10
+   },
+   {
+    "t": "vélo électrique",
+    "usage_pc": 10
+   },
+   {
+    "t": "les dommages",
+    "usage_pc": 10
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 10
+   },
+   {
+    "t": "les dommages corporels",
+    "usage_pc": 10
+   },
+   {
+    "t": "après un accident de vélo",
+    "usage_pc": 10
+   },
+   {
+    "t": "cycliste accidenté",
+    "usage_pc": 10
+   },
+   {
+    "t": "assurance vélo",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation intégrale",
+    "usage_pc": 10
+   },
+   {
+    "t": "préjudices du cycliste",
+    "usage_pc": 10
+   },
+   {
+    "t": "renversé par une voiture",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de trajet",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de vélo et assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident avec un piéton",
+    "usage_pc": 10
+   },
+   {
+    "t": "impliqué dans un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "dommages corporels du cycliste",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident vélo voiture",
+    "usage_pc": 10
+   },
+   {
+    "t": "piéton ou un cycliste",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "accident",
+    "usage_pc": 100,
+    "sugg_usage": [
+     21,
+     44
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     9,
+     24
+    ]
+   },
+   {
+    "t": "cycliste",
+    "usage_pc": 100,
+    "sugg_usage": [
+     8,
+     35
+    ]
+   },
+   {
+    "t": "accident de vélo",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     14
+    ]
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 100,
+    "sugg_usage": [
+     10,
+     26
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     5
+    ]
+   },
+   {
+    "t": "dommage",
+    "usage_pc": 100,
+    "sugg_usage": [
+     4,
+     15
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 100,
+    "sugg_usage": [
+     4,
+     8
+    ]
+   },
+   {
+    "t": "loi badinter",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     6
+    ]
+   },
+   {
+    "t": "accident de la vie",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "responsabilité civile",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 100,
+    "sugg_usage": [
+     4,
+     14
+    ]
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "véhicule terrestre à moteur",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "vélo électrique",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "vélo à assistance électrique",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les dommages",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "garantie accident",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "faute inexcusable",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "garantie accident de la vie",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "cycliste victime",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cycliste blessé",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un accident de vélo",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les dommages corporels",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "constat amiable",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "fonds de garantie des assurances",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garantie des assurances obligatoires",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident entre",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "cycliste bénéficie",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "victime cycliste",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemnisation du cycliste",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation accident de vélo",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "droit à une indemnisation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après un accident de vélo",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "assurance responsabilité civile",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "autre cycliste",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cycliste accidenté",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurance vélo",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation intégrale",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudices du cycliste",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "renversé par une voiture",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsabilité civile du cycliste",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident du travail",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de trajet",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "accident de vélo et assurance",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "vélo et indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurances obligatoires de dommages",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de vélo sans",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident avec un piéton",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident de vélo",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cycliste en cas d’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d’accident de vélo",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les victimes d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "constat à l’amiable",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "impliqué dans un accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faute inexcusable du cycliste",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faute du cycliste",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident vélo-voiture",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation du cycliste accidenté",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dommages corporels du cycliste",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "vélo et un piéton",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident vélo voiture",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d'accident de vélo",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cycliste percute",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment obtenir une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "voiture ou une moto",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cycliste peut saisir le fonds",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "piéton ou un cycliste",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "prétendre à une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "piéton ou un autre cycliste",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cycliste ou le piéton",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "collision avec une voiture",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d'un accident",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si le cycliste",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Accident de la route",
+    "importance": 86.404,
+    "relevance": 0.8640399999999999,
+    "confidence": 8.178500000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Vélo",
+    "importance": 85.826,
+    "relevance": 0.8582599999999999,
+    "confidence": 6.5986,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Vélo"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 69.84800000000001,
+    "relevance": 0.6984800000000001,
+    "confidence": 8.8694,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Loi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation",
+    "importance": 60.042,
+    "relevance": 0.60042,
+    "confidence": 7.941199999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi_tendant_à_l'amélioration_de_la_situation_des_victimes_d'accidents_de_la_circulation_et_à_l'accélération_des_procédures_d'indemnisation"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 45.25,
+    "relevance": 0.4525,
+    "confidence": 2.3544,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 44.742,
+    "relevance": 0.44742,
+    "confidence": 1.4680000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Conduite automobile",
+    "importance": 41.868,
+    "relevance": 0.41868,
+    "confidence": 1.0997999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Conduite_automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Véhicule (transport physique)",
+    "importance": 41.078,
+    "relevance": 0.41078000000000003,
+    "confidence": 4.814400000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Véhicule_(transport_physique)"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de vélo",
+    "importance": 36.69376000000001,
+    "relevance": 0.5733400000000001,
+    "confidence": 1.4712,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_vélo"
+     ]
+    ]
+   },
+   {
+    "t": "Automobile",
+    "importance": 36.4972,
+    "relevance": 0.364972,
+    "confidence": 10.0942,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Piéton",
+    "importance": 31.375359999999997,
+    "relevance": 0.49024,
+    "confidence": 4.5668,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Piéton"
+     ]
+    ]
+   },
+   {
+    "t": "Collision",
+    "importance": 23.522688,
+    "relevance": 0.367542,
+    "confidence": 1.5339399999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Collision"
+     ]
+    ]
+   },
+   {
+    "t": "Police (institution)",
+    "importance": 13.766399999999997,
+    "relevance": 0.21509999999999999,
+    "confidence": 3.661,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Police_(institution)"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance responsabilité civile",
+    "importance": 13.269600000000002,
+    "relevance": 0.36860000000000004,
+    "confidence": 1.3194,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_responsabilité_civile"
+     ]
+    ]
+   },
+   {
+    "t": "Faute inexcusable de l'employeur",
+    "importance": 13.26384,
+    "relevance": 0.36844,
+    "confidence": 2.9093999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Faute_inexcusable_de_l'employeur"
+     ]
+    ]
+   },
+   {
+    "t": "Fonds de garantie des assurances obligatoires de dommages",
+    "importance": 11.5596,
+    "relevance": 0.3211,
+    "confidence": 3.6148000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fonds_de_garantie_des_assurances_obligatoires_de_dommages"
+     ]
+    ]
+   },
+   {
+    "t": "Véhicule à moteur",
+    "importance": 11.322,
+    "relevance": 0.3145,
+    "confidence": 3.1646,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Véhicule_à_moteur"
+     ]
+    ]
+   },
+   {
+    "t": "Loi",
+    "importance": 10.07928,
+    "relevance": 0.27998,
+    "confidence": 1.2462,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi"
+     ]
+    ]
+   },
+   {
+    "t": "Moto",
+    "importance": 8.235136,
+    "relevance": 0.128674,
+    "confidence": 9.653,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Moto"
+     ]
+    ]
+   },
+   {
+    "t": "Badinter",
+    "importance": 8.2152,
+    "relevance": 0.22820000000000001,
+    "confidence": 0.3,
+    "links": []
+   },
+   {
+    "t": "Responsabilité civile",
+    "importance": 4.98112,
+    "relevance": 0.31132,
+    "confidence": 0.8518000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Responsabilité_civile"
+     ]
+    ]
+   },
+   {
+    "t": "Vélo électrique",
+    "importance": 4.6620800000000004,
+    "relevance": 0.29138000000000003,
+    "confidence": 1.584,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Vélo_électrique"
+     ]
+    ]
+   },
+   {
+    "t": "Gendarmerie nationale (France)",
+    "importance": 3.9609360000000002,
+    "relevance": 0.110026,
+    "confidence": 2.0468,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Gendarmerie_nationale_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 3.62448,
+    "relevance": 0.10068000000000002,
+    "confidence": 0.8469999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Santé",
+    "importance": 3.4207199999999998,
+    "relevance": 0.09502,
+    "confidence": 1.4256,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Santé"
+     ]
+    ]
+   },
+   {
+    "t": "Responsabilité civile en droit français",
+    "importance": 3.1139200000000002,
+    "relevance": 0.19462000000000002,
+    "confidence": 0.6412000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Responsabilité_civile_en_droit_français"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance maladie",
+    "importance": 2.6892799999999997,
+    "relevance": 0.16808,
+    "confidence": 1.0484,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_maladie"
+     ]
+    ]
+   },
+   {
+    "t": "Dommages matériels",
+    "importance": 2.651968,
+    "relevance": 0.165748,
+    "confidence": 0.5102,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommages_matériels"
+     ]
+    ]
+   },
+   {
+    "t": "Cyclisme (mode de transport)",
+    "importance": 2.6345600000000005,
+    "relevance": 0.16466,
+    "confidence": 0.8512000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cyclisme_(mode_de_transport)"
+     ]
+    ]
+   },
+   {
+    "t": "Trottinette électrique",
+    "importance": 2.350336,
+    "relevance": 0.146896,
+    "confidence": 2.694,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Trottinette_électrique"
+     ]
+    ]
+   },
+   {
+    "t": "Constat amiable",
+    "importance": 2.29632,
+    "relevance": 0.14352,
+    "confidence": 0.9608000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Constat_amiable"
+     ]
+    ]
+   },
+   {
+    "t": "Trottinette",
+    "importance": 2.2355200000000006,
+    "relevance": 0.13972,
+    "confidence": 2.4474,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Trottinette"
+     ]
+    ]
+   },
+   {
+    "t": "Délit de fuite",
+    "importance": 1.88448,
+    "relevance": 0.11778,
+    "confidence": 1.0050000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Délit_de_fuite"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance automobile",
+    "importance": 1.7897599999999998,
+    "relevance": 0.11186,
+    "confidence": 1.199,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Suicide",
+    "importance": 1.6876799999999998,
+    "relevance": 0.10547999999999999,
+    "confidence": 2.194,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Suicide"
+     ]
+    ]
+   },
+   {
+    "t": "Complémentaires santé en France",
+    "importance": 1.5667200000000003,
+    "relevance": 0.09792000000000001,
+    "confidence": 1.284,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Complémentaires_santé_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Urgences",
+    "importance": 1.54528,
+    "relevance": 0.09658,
+    "confidence": 0.8178000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Urgences"
+     ]
+    ]
+   },
+   {
+    "t": "Route",
+    "importance": 1.43808,
+    "relevance": 0.08988,
+    "confidence": 0.7582,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Route"
+     ]
+    ]
+   },
+   {
+    "t": "Contrat",
+    "importance": 1.43072,
+    "relevance": 0.08942,
+    "confidence": 0.6946,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contrat"
+     ]
+    ]
+   },
+   {
+    "t": "Risque",
+    "importance": 1.42944,
+    "relevance": 0.08934,
+    "confidence": 1.2238,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Risque"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 1.4275199999999997,
+    "relevance": 0.08922,
+    "confidence": 0.6344,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Ministère public (France)",
+    "importance": 1.1027200000000001,
+    "relevance": 0.06892000000000001,
+    "confidence": 0.9094,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Ministère_public_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Code de la route",
+    "importance": 0.7631999999999999,
+    "relevance": 0.0477,
+    "confidence": 1.6406000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Code_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Tentative de suicide",
+    "importance": 0.74016,
+    "relevance": 0.04626,
+    "confidence": 1.6016,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tentative_de_suicide"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "accident\nindemnisation\naccident de vélo\ncycliste\nassurance\nindemnisation du cycliste\nindemnisation accident de vélo",
+  "desc_title": "accident\naccident de vélo\nindemnisation\nun accident\nloi badinter\nun accident de vélo\ncycliste\nassurance\ndommage",
+  "h1": "accident\nindemnisation\naccident de vélo\ncycliste\nun accident\nindemnisation accident de vélo\nun accident de vélo\nassurance\ndommage corporel\ndommage\ncorporel\naprès un accident\ncycliste accidenté\nrenversé par une voiture\naccident de vélo et assurance\nvélo et indemnisation\naccident vélo-voiture",
+  "h2": "accident\nun accident\nindemnisation\ncycliste\naccident de vélo\nassurance\nun accident de vélo\nsuite à un accident\ncorporel\naprès un accident\ncycliste victime\nindemnisation accident de vélo\naccident de vélo sans\naccident entre\ndommage corporel\ndommage\nloi badinter\nresponsabilité civile\nvélo électrique\nles dommages\ndroit à indemnisation\nobtenir une indemnisation\nun accident de la route\nles dommages corporels\naprès un accident de vélo\ncycliste accidenté\nassurance vélo\nindemnisation intégrale\npréjudices du cycliste\nrenversé par une voiture\naccident de trajet\naccident de vélo et assurance\naccident avec un piéton\nimpliqué dans un accident\ndommages corporels du cycliste\naccident vélo voiture\npiéton ou un cycliste",
+  "content_basic": "accident\nindemnisation\ncycliste\naccident de vélo\nassurance\ndommage corporel\ndommage\ncorporel\nloi badinter\naccident de la vie\nresponsabilité civile\nun accident\naprès un accident\nvéhicule terrestre à moteur\nvélo électrique\nvélo à assistance électrique\nles dommages\ngarantie accident\ndroit à indemnisation\nfaute inexcusable\ngarantie accident de la vie\ncycliste victime\ncycliste blessé\nun accident de vélo\nobtenir une indemnisation\nles dommages corporels\nconstat amiable\nfonds de garantie des assurances\ngarantie des assurances obligatoires\naccident entre\ncycliste bénéficie",
+  "content_basic_w_ranges": "accident: 21-44x\nindemnisation: 9-24x\ncycliste: 8-35x\naccident de vélo: 2-14x\nassurance: 10-26x\ndommage corporel: 3-5x\ndommage: 4-15x\ncorporel: 4-8x\nloi badinter: 3-6x\naccident de la vie: 1-4x\nresponsabilité civile: 1-7x\nun accident: 4-14x\naprès un accident: 1-2x\nvéhicule terrestre à moteur: 1-4x\nvélo électrique: 1-3x\nvélo à assistance électrique: 1-2x\nles dommages: 1-3x\ngarantie accident: 1-2x\ndroit à indemnisation: 1-2x\nfaute inexcusable: 1-3x\ngarantie accident de la vie: 1-2x\ncycliste victime: 1x\ncycliste blessé: 1x\nun accident de vélo: 1-5x\nobtenir une indemnisation: 1-2x\nles dommages corporels: 1x\nconstat amiable: 1-2x\nfonds de garantie des assurances: 1x\ngarantie des assurances obligatoires: 1x\naccident entre: 1-2x\ncycliste bénéficie: 1x",
+  "content_extended": "victime cycliste\nindemnisation du cycliste\nindemnisation accident de vélo\nsuite à un accident\nun accident de la route\ndroit à une indemnisation\naprès un accident de vélo\nassurance responsabilité civile\nautre cycliste\ncycliste accidenté\nassurance vélo\nindemnisation intégrale\npréjudices du cycliste\nrenversé par une voiture\nresponsabilité civile du cycliste\naccident du travail\naccident de trajet\naccident de vélo et assurance\nvélo et indemnisation\nassurances obligatoires de dommages\naccident de vélo sans\naccident avec un piéton\nvictime d’un accident\nvictime d’un accident de vélo\ncycliste en cas d’accident\ncas d’accident de vélo\nles victimes d’un accident\nconstat à l’amiable\nsuite d’un accident\nimpliqué dans un accident\nfaute inexcusable du cycliste\nfaute du cycliste\naccident vélo-voiture\nindemnisation du cycliste accidenté\ndommages corporels du cycliste\nvélo et un piéton\naccident vélo voiture\ncas d'accident de vélo\ncycliste percute\ncomment obtenir une indemnisation\nvoiture ou une moto\ncycliste peut saisir le fonds\npiéton ou un cycliste\nprétendre à une indemnisation\npiéton ou un autre cycliste\ncycliste ou le piéton\ncollision avec une voiture\nvictime d'un accident\nsi le cycliste",
+  "content_extended_w_ranges": "victime cycliste: 1-2x\nindemnisation du cycliste: 1x\nindemnisation accident de vélo: 1x\nsuite à un accident: 1x\nun accident de la route: 1-3x\ndroit à une indemnisation: 1x\naprès un accident de vélo: 1-2x\nassurance responsabilité civile: 1-2x\nautre cycliste: 1x\ncycliste accidenté: 1x\nassurance vélo: 1x\nindemnisation intégrale: 1x\npréjudices du cycliste: 1x\nrenversé par une voiture: 1x\nresponsabilité civile du cycliste: 1x\naccident du travail: 1x\naccident de trajet: 1-2x\naccident de vélo et assurance: 1x\nvélo et indemnisation: 1x\nassurances obligatoires de dommages: 1x\naccident de vélo sans: 1x\naccident avec un piéton: 1x\nvictime d’un accident: 1x\nvictime d’un accident de vélo: 1x\ncycliste en cas d’accident: 1x\ncas d’accident de vélo: 1x\nles victimes d’un accident: 1x\nconstat à l’amiable: 1x\nsuite d’un accident: 1x\nimpliqué dans un accident: 1x\nfaute inexcusable du cycliste: 1x\nfaute du cycliste: 1x\naccident vélo-voiture: 1x\nindemnisation du cycliste accidenté: 1x\ndommages corporels du cycliste: 1x\nvélo et un piéton: 1x\naccident vélo voiture: 1x\ncas d'accident de vélo: 1x\ncycliste percute: 1x\ncomment obtenir une indemnisation: 1x\nvoiture ou une moto: 1x\ncycliste peut saisir le fonds: 1x\npiéton ou un cycliste: 1x\nprétendre à une indemnisation: 1x\npiéton ou un autre cycliste: 1x\ncycliste ou le piéton: 1x\ncollision avec une voiture: 1x\nvictime d'un accident: 1x\nsi le cycliste: 1x",
+  "entities": "Accident de la route\nVélo\nAssurance\nLoi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation\nDommage corporel\nEndommagement\nConduite automobile\nVéhicule (transport physique)\nAccident de vélo\nAutomobile\nPiéton\nCollision\nPolice (institution)\nAssurance responsabilité civile\nFaute inexcusable de l'employeur\nFonds de garantie des assurances obligatoires de dommages\nVéhicule à moteur\nLoi\nMoto\nBadinter\nResponsabilité civile\nVélo électrique\nGendarmerie nationale (France)\nMédecin\nSanté\nResponsabilité civile en droit français\nAssurance maladie\nDommages matériels\nCyclisme (mode de transport)\nTrottinette électrique\nConstat amiable\nTrottinette\nDélit de fuite\nAssurance automobile\nSuicide\nComplémentaires santé en France\nUrgences\nRoute\nContrat\nRisque\nAvocat (métier)\nMinistère public (France)\nCode de la route\nTentative de suicide"
+ },
+ "status": "ready",
+ "keyword": "indemnisation cycliste accident",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "472e3602ef1142df",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "transactional": 51.9
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "blog-post": 22.2,
+   "guide": 74.1,
+   "landing-page": 22.2,
+   "business": 37.0,
+   "educational": 22.2,
+   "tool": 3.7
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/472e3602ef1142df",
+ "share_url": "https://app.neuronwriter.com/analysis/share/472e3602ef1142df/8da03c29af99231bb73a1b9d6bc9d7c84fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/472e3602ef1142df/1b6f695a1415376f730675310cdf80f54fa16"
+}

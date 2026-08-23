@@ -1,0 +1,2773 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quelle est l'indemnisation pour un piéton victime d'un accident ?"
+   },
+   {
+    "q": "Quel est le montant moyen d'une indemnisation pour une blessure au pied  ?"
+   },
+   {
+    "q": "Quelle est l'indemnisation pour un piéton renversé par une voiture ?"
+   },
+   {
+    "q": "Montant indemnisation piéton renversé ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quelle est l'indemnisation pour un piéton victime d'un accident de la route ?": {
+    "importance": 10
+   },
+   "Quel est le montant moyen d'une indemnisation pour un piéton renversé ?": {
+    "importance": 9
+   },
+   "Comment est calculée l'indemnisation d'un piéton accidenté ?": {
+    "importance": 8
+   },
+   "Quels sont les préjudices indemnisables pour un piéton victime d'un accident ?": {
+    "importance": 7
+   },
+   "Le piéton est-il toujours indemnisé, même s'il a commis une faute (ex: traverser hors passage piéton) ?": {
+    "importance": 8
+   },
+   "Quelles sont les étapes de la procédure d'indemnisation pour un piéton accidenté ?": {
+    "importance": 7
+   },
+   "Qui indemnise un piéton après un accident (assureur, Fonds de Garantie) ?": {
+    "importance": 6
+   },
+   "Faut-il prendre un avocat pour obtenir une indemnisation optimale après un accident piéton ?": {
+    "importance": 6
+   },
+   "Que faire immédiatement après avoir été victime d'un accident en tant que piéton ?": {
+    "importance": 5
+   },
+   "Quels sont les délais à respecter pour être indemnisé après un accident piéton ?": {
+    "importance": 5
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Accident piéton, que dois-je faire pour mon indemnisation ?"
+   },
+   {
+    "q": "Accident piéton, quelle indemnisation ?"
+   },
+   {
+    "q": "Comment doit -être indemnisé le piéton ?"
+   },
+   {
+    "q": "Comment est calculée l'indemnisation en cas de séquelles permanentes ?"
+   },
+   {
+    "q": "Comment est calculée l’indemnisation d’un piéton ?"
+   },
+   {
+    "q": "Comment savoir si je suis couvert en cas d’accident piéton ?"
+   },
+   {
+    "q": "Comment savoir si on est en tord dans un accident de la route ?"
+   },
+   {
+    "q": "Comment savoir à quelle indemnisation vous pouvez prétendre ?"
+   },
+   {
+    "q": "Comment se déroule l'expertise médicale avec l'assurance ?"
+   },
+   {
+    "q": "Comment se déroule l’indemnisation d’un accident piéton ?"
+   },
+   {
+    "q": "Comment être indemnisé suite à un accident de la route ?"
+   },
+   {
+    "q": "En cas d'accident de la route, doit-on attendre d'obtenir le procès-verbal pour obtenir une provision ?"
+   },
+   {
+    "q": "Faut-il signer une proposition d’indemnisation ?"
+   },
+   {
+    "q": "Faut-il un avocat après un accident piéton ?"
+   },
+   {
+    "q": "Faut-il un avocat pour un accident piéton ?"
+   },
+   {
+    "q": "J’ai été victime d’un accident de la voie publique alors que j’étais piéton, comment puis-je me faire indemniser ?"
+   },
+   {
+    "q": "J’ai été victime d’un accident il y a de ça 5 jours, j’ai été renversé par un automobiliste, j’étais piéton, j’ai eu un traumatisme crânien suite à cet accident, or, j’ai eu beaucoup de chance, car je n’ai pas eu d’hémorragie interne, je suis resté en observation 24h et par la suite, on m’a laissé rentrer chez moi, ceci étant j’ai des douleurs continuelles à la tête et je ressens un mal-être en moi, je n’ai pas entamé encore de démarches parce que je suis encore très fatiguée, mais je ne sais pas par où commencer ?"
+   },
+   {
+    "q": "J’ai été victime d’un accident piéton, dois-je absolument être accompagné pour être correctement indemnisé ?"
+   },
+   {
+    "q": "L'assurance peut-elle me proposer une somme forfaitaire ?"
+   },
+   {
+    "q": "La victime piéton est-elle toujours indemnisée ?"
+   },
+   {
+    "q": "Le piéton est-il toujours indemnisé ?"
+   },
+   {
+    "q": "Le piéton fautif peut-il être indemnisé ?"
+   },
+   {
+    "q": "Les frais d'avocat sont-ils couverts par l'indemnisation ?"
+   },
+   {
+    "q": "L’indemnisation est-elle versée rapidement ?"
+   },
+   {
+    "q": "L’âge de la victime influence-t-il l’indemnisation ?"
+   },
+   {
+    "q": "Montant indemnisation accident piéton ?"
+   },
+   {
+    "q": "Pensez-vous que cette indemnisation est suffisante ?"
+   },
+   {
+    "q": "Piéton Victime d'un accident?"
+   },
+   {
+    "q": "Piéton renversé : quel est le montant de l’indemnisation ?"
+   },
+   {
+    "q": "Piéton victime d’un accident de la route : quels sont vos droits ?"
+   },
+   {
+    "q": "Pourquoi choisir le Cabinet CCL pour vous défendre après un accident de la route à PARIS ou dans toute la France ?"
+   },
+   {
+    "q": "Pourquoi les piétons sont souvent sous-indemnisés sans accompagnement ?"
+   },
+   {
+    "q": "Puis-je être indemnisé si j'ai traversé hors passage piéton ?"
+   },
+   {
+    "q": "Puis-je être indemnisé si je suis partiellement responsable de l'accident ?"
+   },
+   {
+    "q": "Que faire si le conducteur a pris la fuite après m'avoir renversé ?"
+   },
+   {
+    "q": "Que se passe si, en tant que piéton, je provoque un accident ?"
+   },
+   {
+    "q": "Quel est le constat d’accident pour un piéton ?"
+   },
+   {
+    "q": "Quel est le délai pour demander une indemnisation après un accident ?"
+   },
+   {
+    "q": "Quel montant d’indemnisation ai-je droit ?"
+   },
+   {
+    "q": "Quel va être le montant de cette indemnisation pour un piéton ?"
+   },
+   {
+    "q": "Quelle est la sanction pour avoir renversé un piéton ?"
+   },
+   {
+    "q": "Quelle indemnisation pour un piéton renversé ?"
+   },
+   {
+    "q": "Quelle sera mon indemnisation après un accident de la route ?"
+   },
+   {
+    "q": "Quelles sont les scénarios d’accidents de piétons et les séquelles classiques de la victime piétonne ?"
+   },
+   {
+    "q": "Quelles sont les séquelles permanentes que vous conserverez suite à l'accident ?"
+   },
+   {
+    "q": "Quelles sont les étapes pour être indemnisé après un accident quand on est piéton ?"
+   },
+   {
+    "q": "Quels postes de préjudice sont indemnisés ?"
+   },
+   {
+    "q": "Quels postes sont indemnisés ?"
+   },
+   {
+    "q": "Quels sont les montants moyens d’indemnisation ?"
+   },
+   {
+    "q": "Qui est en tort lorsqu’un piéton est renversé, votre avocat en dommage corporel vous répond ?"
+   },
+   {
+    "q": "Qui indemnise en cas d’accident de la route ?"
+   },
+   {
+    "q": "Qui indemnise un piéton après un accident ?"
+   },
+   {
+    "q": "Qui indemnise un piéton renversé par une voiture ?"
+   },
+   {
+    "q": "Qui va déterminer mon droit à indemnisation ?"
+   },
+   {
+    "q": "Qui verse l’indemnisation ?"
+   },
+   {
+    "q": "Qu’est ce que la garantie accidents de la vie ?"
+   },
+   {
+    "q": "Qu’est-ce que l’indemnisation intégrale des préjudices corporels ?"
+   },
+   {
+    "q": "Renversé(e) par une trottinette électrique, quelle indemnisation ?"
+   },
+   {
+    "q": "Sans procès-verbal, comment démontrer la qualité de piétons, de cyclistes ou de passagers afin d'obtenir rapidement une provision ?"
+   },
+   {
+    "q": "Si je suis victime d’un accident sans tiers responsable ?"
+   },
+   {
+    "q": "Victime d’un accident piéton, à quelle indemnisation pouvez-vous prétendre ?"
+   },
+   {
+    "q": "Voir comment se passe l’indemnisation des victimes ?"
+   },
+   {
+    "q": "Vos blessures sont graves et cet accident a eu des conséquences sur votre quotidien ?"
+   },
+   {
+    "q": "Vous avez subi un accident, vous avez des questions ?"
+   },
+   {
+    "q": "Vous avez été percuté par un véhicule terrestre à moteur alors que vous étiez piéton ?"
+   },
+   {
+    "q": "Vous avez été victime d’un dommage corporel, d’un accident de la route, d’une erreur médicale ?"
+   },
+   {
+    "q": "et, d’autre part, les assurances qui couvrent la victime?"
+   },
+   {
+    "q": "l’existence ou non d’un tiers responsable : un véhicule à moteur (voiture, moto, camion, …), un cycliste ou encore un autre piéton a t’il été reconnu responsable de l’accident ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.jplouton-avocat.fr/post/pi%C3%A9ton-renvers%C3%A9-quel-est-le-montant-de-l-indemnisation",
+   "title": "Piéton renversé : quel est le montant de l’indemnisation ?",
+   "desc": "Découvrez les indemnisations pour les piétons renversés en France et les démarches à suivre pour les obtenir après un accident de la route.",
+   "headers": [
+    [
+     "h1",
+     "Piéton renversé : quel est le montant de l’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Le cadre légal protecteur du piéton renversé"
+    ],
+    [
+     "h2",
+     "Les catégories de victimes et leur régime d'indemnisation"
+    ],
+    [
+     "h2",
+     "L'évaluation des préjudices et le calcul de l'indemnisation"
+    ],
+    [
+     "h2",
+     "La procédure d'indemnisation : étapes et conseils pratiques"
+    ],
+    [
+     "h2",
+     "Comment obtenir une indemnisation optimale avec le Cabinet Plouton"
+    ],
+    [
+     "h2",
+     "FAQ : Indemnisation du piéton renversé"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 41,
+   "word_count": 1575,
+   "content_len": 10760
+  },
+  {
+   "rank": 2,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/indemnisation-accident-de-la-route/accident-de-la-route-indemnisation-pieton/montant-indemnisation-accident-pieton-voiture",
+   "title": "Montant indemnisation accident piéton voiture - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France vous aide à obtenir l'indemnisation optimale après un accident piéton-voiture.",
+   "headers": [
+    [
+     "h1",
+     "Montant indemnisation accident piéton voiture"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Montant d’indemnisation après un accident piéton / voiture"
+    ],
+    [
+     "h2",
+     "Montant de l’indemnisation suite à un accident piéton contre voiture"
+    ]
+   ],
+   "content_score": 81,
+   "readability": 36,
+   "word_count": 4126,
+   "content_len": 24737
+  },
+  {
+   "rank": 3,
+   "url": "https://www.dva-experts.com/indemnisation-accident-de-la-circulation/montant-indemnisation-accident-pieton/",
+   "title": "Montant indemnisation accident piéton | DVA Experts",
+   "desc": "Piéton Victime d'un accident? Quel montant d'indemnisation pour un accident de piéton ✅ Nos experts sont à votre disposition pour calculer l'indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Montant indemnisation accident piéton"
+    ],
+    [
+     "h2",
+     "La police ou la gendarmerie n’est pas intervenue sur les lieux de l’accident"
+    ],
+    [
+     "h2",
+     "Il y a eu intervention des autorités"
+    ],
+    [
+     "h2",
+     "Exemple de montant d’indemnisation suite à un accident pour un piéton renversé par une voiture :"
+    ],
+    [
+     "h2",
+     "Infos Utiles"
+    ],
+    [
+     "h2",
+     "Nous contacter"
+    ],
+    [
+     "h2",
+     "L'actu"
+    ]
+   ],
+   "content_score": 78,
+   "readability": 23,
+   "word_count": 1303,
+   "content_len": 7958
+  },
+  {
+   "rank": 4,
+   "url": "https://www.victimes-solidaires.org/fr/actualites/id-14-quelle-indemnisation-pour-un-pieton-renverse",
+   "title": "Indemnisation pour un piéton renversé",
+   "desc": " D&rsquo;apr&egrave;s les derniers chiffres publi&eacute;s par l&rsquo;Observatoires Interminist&eacute;riel de la S&eacute;curit&eacute; Routi&egrave;re, les pi&eacute;tons font partie des cat&eacute;gories d&rsquo;usagers voyant leur part dans le nombres des victimes de la route augmenter. ",
+   "headers": [
+    [
+     "h1",
+     "Quelle indemnisation pour un piéton renversé ?"
+    ],
+    [
+     "h2",
+     "Tous les accidents de piétons ne se valent pas : accident de piéton et application de la loi Badinter"
+    ],
+    [
+     "h2",
+     "Accident de piéton : deux poids, deux mesures"
+    ],
+    [
+     "h2",
+     "Indemnisation du piéton en cas de délit de fuite"
+    ],
+    [
+     "h2",
+     "Etapes de l'indemnisation du piéton victime : prudence et vigilance dans tous les cas"
+    ],
+    [
+     "h2",
+     "Nos conseils en cas d'accident piéton :"
+    ],
+    [
+     "h2",
+     "Vos questions, nos réponses"
+    ],
+    [
+     "h2",
+     "Vous avez été victime d’un dommage corporel, d’un accident de la route, d’une erreur médicale ?"
+    ]
+   ],
+   "content_score": 68,
+   "readability": 30,
+   "word_count": 2608,
+   "content_len": 16694
+  },
+  {
+   "rank": 5,
+   "url": "https://www.benezra-victimesdelaroute.fr/pieton-victime-dommages-corporels/",
+   "title": "540 000 € pour un piéton renversé sur passage protégé",
+   "desc": "Un victime piétonne indemnisée à hauteur de 540.000 euros grâce à l'intervention d'un avocat spécialisé en réparation des dommages corporels",
+   "headers": [
+    [
+     "h2",
+     "1° Un piéton renversé sur passage protégé, deux mois d’hospitalisation, des séquelles durables"
+    ],
+    [
+     "h2",
+     "2° Première décision stratégique : obtenir une provision juste dès l’ouverture du dossier"
+    ],
+    [
+     "h2",
+     "10K"
+    ],
+    [
+     "h1",
+     "CAS TRAITÉS"
+    ],
+    [
+     "h2",
+     "3° Pourquoi le piéton est la victime la mieux protégée par la loi Badinter"
+    ],
+    [
+     "h2",
+     "4° Les préjudices psychiques : ce que l’expertise peut ignorer sans préparation"
+    ],
+    [
+     "h2",
+     "5° Résultat : 540 000 € d’indemnisation au terme d’une procédure longue mais maîtrisée"
+    ],
+    [
+     "h2",
+     "6° Ce que ce dossier enseigne à toute victime piétonne"
+    ],
+    [
+     "h2",
+     "1- Le droit à indemnisation du piéton est fort"
+    ],
+    [
+     "h2",
+     "2- La provision mérite d'être contestée."
+    ],
+    [
+     "h2",
+     "3- Les préjudices psychiques doivent être préparés avant l'expertise."
+    ],
+    [
+     "h2",
+     "7° Quelles sont les scénarios d’accidents de piétons et les séquelles classiques de la victime piétonne ?"
+    ],
+    [
+     "h2",
+     "8° Notre cabinet peut intervenir dès les premières semaines après l’accident"
+    ]
+   ],
+   "content_score": 45,
+   "readability": 34,
+   "word_count": 1803,
+   "content_len": 11335
+  },
+  {
+   "rank": 6,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/indemnisation-accident-de-la-route/accident-de-la-route-indemnisation-pieton/montant-indemnisation-accident-pieton",
+   "title": "Montant indemnisation accident piéton - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France vous guide pour obtenir l'indemnisation optimale après un accident piéton.",
+   "headers": [
+    [
+     "h1",
+     "Montant indemnisation accident piéton"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Montant de l’indemnisation d’un accident piéton"
+    ],
+    [
+     "h2",
+     "Montant indemnisation accident piéton"
+    ]
+   ],
+   "content_score": 75,
+   "readability": 34,
+   "word_count": 1605,
+   "content_len": 10004
+  },
+  {
+   "rank": 7,
+   "url": "https://www.ecce-experts.com/notre-expertise/indemnisation-accident-pieton/",
+   "title": "Accident piéton, quelle indemnisation ? | ECCE Associés",
+   "desc": "Victime d’un accident piéton, à quelle indemnisation pouvez-vous prétendre ? ECCE s'engage aux côtés des victimes pour une juste indemnisation",
+   "headers": [
+    [
+     "h1",
+     "Accident piéton, quelle indemnisation ?"
+    ],
+    [
+     "h1",
+     "J’ai été victime d’un accident de la voie publique alors que j’étais piéton, comment puis-je me faire indemniser ?"
+    ],
+    [
+     "h2",
+     "FAQ Indemnisation des accidents piéton"
+    ]
+   ],
+   "content_score": 67,
+   "readability": 29,
+   "word_count": 1481,
+   "content_len": 9456
+  },
+  {
+   "rank": 8,
+   "url": "https://www.lelynx.fr/assurance-auto/sinistre/accident/pieton/",
+   "title": "lelynx.fr",
+   "desc": "",
+   "headers": [],
+   "content_score": 0,
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 9,
+   "url": "https://www.indemnisationprejudice.fr/indemnisation-accident-route/accident-pieton/",
+   "title": "Accident de la route : Indemnisation des accidents de piétons - Indemnisation Préjudice Corporel",
+   "desc": "Indemnisation accident piéton : droits, procédure et montants possibles - Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation accident piéton : droits, procédure et montants possibles"
+    ],
+    [
+     "h2",
+     "Piéton victime d’un accident de la route : quels sont vos droits ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Qui indemnise un piéton après un accident ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Comment se déroule l’indemnisation d’un accident piéton ?"
+    ],
+    [
+     "h2",
+     "Comment est calculée l’indemnisation d’un piéton ?"
+    ],
+    [
+     "h2",
+     "Faut-il un avocat après un accident piéton ?"
+    ],
+    [
+     "h2",
+     "Exemple concret d’indemnisation après un accident piéton"
+    ],
+    [
+     "h2",
+     "Pourquoi les piétons sont souvent sous-indemnisés sans accompagnement ?"
+    ],
+    [
+     "h2",
+     "Comment savoir à quelle indemnisation vous pouvez prétendre ?"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ],
+    [
+     "h2",
+     "Nos autres articles détaillés sur les accidents de la route :"
+    ]
+   ],
+   "content_score": 77,
+   "readability": 28,
+   "word_count": 2844,
+   "content_len": 19162
+  },
+  {
+   "rank": 10,
+   "url": "https://www.cclavocats-paris.com/indemnisation-de-la-victime-pieton.php",
+   "title": "Indemnisation victime piéton - Avocat préjudice corporel Paris",
+   "desc": "Le cabinet CCL accompagne les victimes d'un accident de la route en tant que piéton. Posez toutes vos questions sur la procédure d'indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Avocat en indemnisation de la victime piéton à Paris"
+    ],
+    [
+     "h2",
+     "Qui est en tort lorsqu’un piéton est renversé, votre avocat en dommage corporel vous répond ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les étapes pour être indemnisé après un accident quand on est piéton ?"
+    ],
+    [
+     "h2",
+     "Pourquoi choisir le Cabinet CCL pour vous défendre après un accident de la route à PARIS ou dans toute la France ?"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 33,
+   "word_count": 725,
+   "content_len": 4587
+  },
+  {
+   "rank": 11,
+   "url": "https://www.coppet-avocats.fr/actualites/accidents-de-la-route/pieton-renverse-droits-demarches-indemnisation/",
+   "title": "Piéton renversé : droits, démarches et indemnisation",
+   "desc": "Piéton renversé ? Droits garantis par la loi Badinter, démarches à suivre et indemnisation des préjudices. Coppet Avocats, spécialiste dommage corporel.",
+   "headers": [
+    [
+     "h1",
+     "Piéton renversé : droits, démarches et indemnisation"
+    ],
+    [
+     "h2",
+     "Le piéton, une victime particulièrement protégée"
+    ],
+    [
+     "h2",
+     "Que faire après l’accident ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule l’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Indemnisation : de quoi dépend le montant ?"
+    ],
+    [
+     "h2",
+     "Quels préjudices sont indemnisés ?"
+    ],
+    [
+     "h2",
+     "Piéton renversé à la suite d’un accident : combien de temps pour agir ?"
+    ],
+    [
+     "h2",
+     "Pourquoi se faire accompagner ?"
+    ],
+    [
+     "h2",
+     "Piéton victime d’un accident : questions fréquentes ? (FAQ)"
+    ],
+    [
+     "h2",
+     "En resumé"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 22,
+   "word_count": 2346,
+   "content_len": 14948
+  },
+  {
+   "rank": 12,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/indemnisation-accident-de-la-route/accident-de-la-route-indemnisation-pieton",
+   "title": "Indemnisation de l'accident de la route du piéton - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France vous aide à obtenir une indemnisation après un accident de la route en tant que piéton.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation de l’accident de la route du piéton"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Indemnisation de l’accident de la route du piéton : explications"
+    ],
+    [
+     "h2",
+     "Indemnisation de l'accident de la route du piéton : explications"
+    ]
+   ],
+   "content_score": 71,
+   "readability": 33,
+   "word_count": 4086,
+   "content_len": 24480
+  },
+  {
+   "rank": 13,
+   "url": "https://avf.fr/accident-de-la-route/pieton-victime-accident",
+   "title": "Piéton victime d'un accident de la route : droits et indemnisation",
+   "desc": "Piéton renversé ou blessé dans un accident de la route ? Découvrez les droits spécifiques, la procédure d'indemnisation et les recours possibles.",
+   "headers": [
+    [
+     "h1",
+     "Piéton victime d’un accident de la route : droits, indemnisation et recours"
+    ],
+    [
+     "h2",
+     "Le statut protégé du piéton dans la loi Badinter"
+    ],
+    [
+     "h2",
+     "Les étapes de l’indemnisation du piéton accidenté"
+    ],
+    [
+     "h2",
+     "Les postes de préjudice indemnisables pour un piéton blessé"
+    ],
+    [
+     "h2",
+     "Les recours possibles pour un piéton accidenté"
+    ],
+    [
+     "h2",
+     "Les délais de prescription à respecter"
+    ],
+    [
+     "h2",
+     "Que faire en cas d’erreur médicale après l’accident ?"
+    ],
+    [
+     "h2",
+     "Piéton accidenté et incapacité durable : les aides complémentaires"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur l’indemnisation du piéton accidenté"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 71,
+   "readability": 38,
+   "word_count": 2616,
+   "content_len": 16902
+  },
+  {
+   "rank": 14,
+   "url": "https://association-aivf-faq.fr/accident-de-la-route-faq/usagers-vulnerables-definition/indemnisation-du-pieton-victime",
+   "title": "Indemnisation du piéton victime - Association Victimes de France AIVF",
+   "desc": "Indemnisation du piéton victime d'un accident de la route, loi Badinter, usager vulnérable, réparation intégrale du préjudice, avocat",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation du piéton victime"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation du piéton victime"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 41,
+   "word_count": 1378,
+   "content_len": 8865
+  },
+  {
+   "rank": 15,
+   "url": "https://www.tiktok.com/@maitrebem/video/7367019055355530529",
+   "title": "Indemnisation des piétons suite à un accident de la route | TikTok",
+   "desc": "3128 j'aime,50 commentaires.Vidéo TikTok de Anthony BEM (@maitrebem) : « Découvrez comment la loi Badinter protège les piétons et les indemnise après un accident. #maitrebem #avocat #Droit #Indemnisation #LoiBadinter ».",
+   "headers": [],
+   "content_score": 29,
+   "readability": 36,
+   "word_count": 210,
+   "content_len": 1343
+  },
+  {
+   "rank": 16,
+   "url": "https://www.benezra-victimesdelaroute.fr/accident-de-pieton-le-pieton-victime-evaluation-des-dommages-corporels.html",
+   "title": "Accident de piéton - le piéton victime: Dommages corporels",
+   "desc": "Le piéton est fragile... La loi le protége et tous les droits lui sont réservés. En cas d'accident de piéton, Faites vous assister",
+   "headers": [
+    [
+     "h1",
+     "ACCIDENT DE PIÉTON – PIÉTON VICTIME – PIÉTON RENVERSÉ ?"
+    ],
+    [
+     "h2",
+     "Avocat piéton renversé | avocat accident de piéton"
+    ],
+    [
+     "h2",
+     "1° Vos droits en trois points"
+    ],
+    [
+     "h2",
+     "2° Que faire tout de suite ?"
+    ],
+    [
+     "h2",
+     "3° Procédure et délais ?"
+    ],
+    [
+     "h2",
+     "Traverser hors passage ≠ perte d’indemnisation"
+    ],
+    [
+     "h2",
+     "4° En dehors du passage protégé ?"
+    ],
+    [
+     "h2",
+     "5° La faute inexcusable du piéton ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "7° Accident mortel du piéton ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "8° Les autres accidents"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 25,
+   "word_count": 2906,
+   "content_len": 17928
+  },
+  {
+   "rank": 17,
+   "url": "https://jmp-avocat-indemnisation.fr/indemnisation-accident-de-pieton-avp-avocat.html",
+   "title": "Accident de piéton : droits, démarches et indemnisation",
+   "desc": "Piéton renversé ? Vos droits, les démarches et les préjudices indemnisables, par Maître Marteau-Péretié, avocate spécialisée. ☎ 06 84 28 25 95",
+   "headers": [
+    [
+     "h1",
+     "Accident de piéton : ce que vous devez savoir pour être indemnisé"
+    ],
+    [
+     "h2",
+     "1. Le piéton, l'usager le plus protégé par la loi"
+    ],
+    [
+     "h2",
+     "2. Quelles situations ouvrent droit à indemnisation ?"
+    ],
+    [
+     "h2",
+     "3. Piéton renversé par une voiture : vos droits"
+    ],
+    [
+     "h2",
+     "⏰ AGISSEZ MAINTENANT : Chaque Jour Compte"
+    ],
+    [
+     "h2",
+     "4. Piéton percuté par un scooter ou un livreur"
+    ],
+    [
+     "h2",
+     "5. Piéton percuté par un bus ou un tramway"
+    ],
+    [
+     "h2",
+     "6. Délit de fuite : l'intervention du FGAO"
+    ],
+    [
+     "h2",
+     "7. Accident sur parking ou voirie défectueuse"
+    ],
+    [
+     "h2",
+     "8. Les premiers réflexes après un accident de piéton"
+    ],
+    [
+     "h2",
+     "9. Comment est calculée l'indemnisation d'un piéton accidenté ?"
+    ],
+    [
+     "h2",
+     "10. L'expertise médicale : l'étape qui détermine les montants"
+    ],
+    [
+     "h2",
+     "11. Cas particuliers de piétons"
+    ],
+    [
+     "h2",
+     "12. Pourquoi un avocat spécialisé fait-il la différence ?"
+    ],
+    [
+     "h2",
+     "En résumé : les points essentiels à retenir"
+    ],
+    [
+     "h2",
+     "FAQ — Accident de piéton : vos questions"
+    ],
+    [
+     "h2",
+     "Vous êtes piéton victime d'un accident corporel ?"
+    ]
+   ],
+   "content_score": 67,
+   "readability": 26,
+   "word_count": 3553,
+   "content_len": 23835
+  },
+  {
+   "rank": 18,
+   "url": "https://www.accident-de-circulation.com/accident-de-pieton/",
+   "title": "Piéton renversé par un véhicule : démarches et indemnisation",
+   "desc": "En tant que piéton renversé par un véhicule, vous avez le droit de prétendre à une indemnisation de tous vos préjudices. Redac Recours vous conseille.",
+   "headers": [
+    [
+     "h1",
+     "Piéton renversé : Quelle indemnisation et les recours possibles en cas d'accident"
+    ],
+    [
+     "h2",
+     "Que faire après un accident de piéton ?"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 29,
+   "word_count": 595,
+   "content_len": 3743
+  },
+  {
+   "rank": 19,
+   "url": "https://victime-info.fr/indemnisation/accident-de-la-circulation/indemnisation-pieton",
+   "title": "Indemnisation des piétons après un accident de la route | victime-info.fr",
+   "desc": "Piéton renversé : droits, montants d'indemnisation, démarches et délais. Guide complet sur la loi Badinter et la protection des piétons victimes d'accident.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation des piétons victimes d’un accident de la route : guide complet"
+    ],
+    [
+     "h2",
+     "La protection renforcée du piéton par la loi Badinter"
+    ],
+    [
+     "h2",
+     "Montant de l’indemnisation pour un piéton renversé"
+    ],
+    [
+     "h2",
+     "Les étapes de l’indemnisation du piéton accidenté"
+    ],
+    [
+     "h2",
+     "Indemnisation en cas de décès du piéton"
+    ],
+    [
+     "h2",
+     "Contester l’indemnisation proposée par l’assureur"
+    ],
+    [
+     "h2",
+     "Les délais de prescription à connaître"
+    ],
+    [
+     "h2",
+     "Les premiers réflexes après un accident de piéton"
+    ],
+    [
+     "h2",
+     "Les postes de préjudice indemnisables pour un piéton"
+    ],
+    [
+     "h2",
+     "Cas particuliers d’accidents de piétons"
+    ],
+    [
+     "h2",
+     "Comprendre la loi Badinter et l’indemnisation du piéton"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 75,
+   "readability": 34,
+   "word_count": 4195,
+   "content_len": 26783
+  },
+  {
+   "rank": 20,
+   "url": "https://www.maitrewilliot.fr/pieton-renverse-comment-se-deroule-lindemnisation-du-dommage-corporel/",
+   "title": "Piéton renversé : comment se déroule l’indemnisation du dommage corporel ? - Cabinet Williot Avocats",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Piéton renversé : comment se déroule l’indemnisation du dommage corporel ?"
+    ],
+    [
+     "h2",
+     "Le piéton renversé bénéficie en principe d’un droit à indemnisation protecteur"
+    ],
+    [
+     "h2",
+     "Première étape : sécuriser le dossier dès les premiers jours"
+    ],
+    [
+     "h2",
+     "Qui indemnise le piéton renversé ?"
+    ],
+    [
+     "h2",
+     "L’expertise médicale : un moment central du dossier"
+    ],
+    [
+     "h2",
+     "Quels préjudices peuvent être indemnisés ?"
+    ],
+    [
+     "h2",
+     "Quel est le rôle de la sécurité sociale et des tiers payeurs ?"
+    ],
+    [
+     "h2",
+     "Que se passe-t-il si le conducteur est inconnu ou non assuré ?"
+    ],
+    [
+     "h2",
+     "Faut-il accepter immédiatement l’offre de l’assureur ?"
+    ],
+    [
+     "h2",
+     "Le principe de réalité : chaque dossier de piéton renversé est singulier"
+    ],
+    [
+     "h2",
+     "Ce qu’il faut retenir"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 28,
+   "word_count": 1802,
+   "content_len": 12026
+  },
+  {
+   "rank": 21,
+   "url": "https://association-aivf-faq.fr/accident-de-la-route-faq/usagers-vulnerables-definition/montant-indemnisation-accident-pieton",
+   "title": "Montant indemnisation accident piéton - Association Victimes de France AIVF",
+   "desc": "Le montant d'indemnisation suite à un accident de piéton, loi Badinter, questions de victimes, réponse d'un avocat",
+   "headers": [
+    [
+     "h1",
+     "Montant indemnisation accident piéton"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Montant indemnisation accident piéton"
+    ],
+    [
+     "h2",
+     "Question 1 Quel montant d’indemnisation suite à l’accident de piéton de mon fils ?"
+    ]
+   ],
+   "content_score": 71,
+   "readability": 44,
+   "word_count": 1293,
+   "content_len": 8331
+  },
+  {
+   "rank": 22,
+   "url": "https://www.avibitton.com/indemnisation-dun-accident-pieton/",
+   "title": "Indemnisation d’un accident piéton | Avi Bitton Avocats & Associés",
+   "desc": "Avocat accident piéton – Avi Bitton Avocats assiste les victimes piétonnes d'accidents de la route dans les négociations avec les compagnies d’assurance et,",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d’un accident piéton"
+    ],
+    [
+     "h2",
+     "A. Le droit à réparation : la loi Badinter"
+    ],
+    [
+     "h2",
+     "B. L’accident avec un véhicule terrestre à moteur"
+    ],
+    [
+     "h2",
+     "C. Les autres cas d’indemnisation"
+    ],
+    [
+     "h2",
+     "D. Le rôle de l’avocat"
+    ],
+    [
+     "h2",
+     "Vous êtes victime ou proche d’une victime d’un accident piéton? Prenez conseil auprès d’un avocat."
+    ]
+   ],
+   "content_score": 66,
+   "readability": 25,
+   "word_count": 907,
+   "content_len": 5863
+  },
+  {
+   "rank": 23,
+   "url": "https://www.rocheblave.com/avocat/indemnisation-accident-pieton-voiture/",
+   "title": "indemnisation accident pieton voiture Avocat Spécialiste en Droit du Travail et Droit de la Sécurité Sociale | Eric ROCHEBLAVE",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "indemnisation accident pieton voiture"
+    ],
+    [
+     "h2",
+     "Quelle indemnisation en cas d’accident de la route ?"
+    ]
+   ],
+   "content_score": 36,
+   "readability": 13,
+   "word_count": 473,
+   "content_len": 3249
+  },
+  {
+   "rank": 24,
+   "url": "https://marilyneletessier-avocat.fr/fr/indemnisation-accident-pieton/",
+   "title": "Accident piéton : comment être indemnisé ?",
+   "desc": "Accident piéton : quels droits à indemnisation ? Découvrez les règles, les préjudices indemnisés et le rôle de l’expertise médicale.",
+   "headers": [
+    [
+     "h1",
+     "Accident piéton : comment être indemnisé ?"
+    ],
+    [
+     "h2",
+     "Points clés"
+    ],
+    [
+     "h2",
+     "Le piéton est-il toujours indemnisé après un accident ?"
+    ],
+    [
+     "h2",
+     "Quelles situations peuvent limiter l’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Quels préjudices sont indemnisés après un accident piéton ?"
+    ],
+    [
+     "h2",
+     "Comment se déroule l’indemnisation d’un accident piéton ?"
+    ],
+    [
+     "h2",
+     "Quel est le rôle de l’expertise médicale ?"
+    ],
+    [
+     "h2",
+     "Quel montant peut obtenir un piéton après un accident ?"
+    ],
+    [
+     "h2",
+     "Accident piéton à Nice : quelle indemnisation ?"
+    ],
+    [
+     "h2",
+     "Tableau récapitulatif — Indemnisation du piéton selon les situations"
+    ],
+    [
+     "h2",
+     "Sources et informations utiles"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ],
+    [
+     "h2",
+     "Vous êtes victime d’un accident piéton ?"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 73,
+   "word_count": 840,
+   "content_len": 5763
+  },
+  {
+   "rank": 25,
+   "url": "https://aide-victimes.fr/accident-route/indemnisation-accident-route-pieton/",
+   "title": "Indemnisation du piéton victime d'un accident de la route – AFAV",
+   "desc": "L'indemnisation de l'accident de la route du piéton est prévue dans le cadre de la Loi Badinter, c'est la réparation intégrale du préjudice",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation du piéton victime d’un accident de la route"
+    ],
+    [
+     "h2",
+     "Indemnisation du piéton victime d’un accident de la route"
+    ],
+    [
+     "h2",
+     "Expertise médicale"
+    ],
+    [
+     "h2",
+     "Expertise médicale et médecin expert de victime"
+    ],
+    [
+     "h2",
+     "Accident de la route mortel pour le piéton"
+    ],
+    [
+     "h2",
+     "Indemnisation du piéton victime de l’accident de la route"
+    ]
+   ],
+   "content_score": 65,
+   "readability": 51,
+   "word_count": 968,
+   "content_len": 6112
+  },
+  {
+   "rank": 26,
+   "url": "https://www.tf1info.fr/societe/videos/video-pietons-quels-sont-les-reflexes-a-connaitre-en-cas-d-accident-le-13h-a-vos-cotes-31560-2376848.html",
+   "title": "Piétons : quels sont les réflexes à connaître en cas d'accident ? Le 13H à vos côtés | TF1 Info",
+   "desc": "▶️ Au passage piéton, si le feu est rouge pour nous, qu'il n'y a pas de voitures, il ne faut pas traverser. Il y a une amende à la clé pour ce type d'infraction, ou si vous traversez en dehors de la bande blanche. Si malgré ces précautions, un accident se  produit entre un piéton et une voiture, même en tord, le piéton est toujours considéré comme la victime. L'assurance du conducteur doit systématiquement indemniser le préjudice corporel, sauf en cas de faute inexcusable. (Sujets de société).",
+   "headers": [
+    [
+     "h1",
+     "Piétons : quels sont les réflexes à connaître en cas d'accident ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Ma mutuelle augmente fortement ses tarifs, puis-je négocier ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Mon quartier est envahi par les rats : la mairie responsable ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Permis de conduire : le \"papier rose\" a-t-il une durée de validité ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Loisirs, vacances : la canicule est-elle un motif d'annulation valable ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "J'ai installé une pergola : dois-je payer une taxe foncière ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Réservation annulée par l'hôtel : quels sont mes droits ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Voitures d’occasion en panne : quels retours ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Nuisances, un élevage s'installe à côté de chez moi : que faire ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Vacances : la location n'est pas conforme aux photos, que faire ? Le 13H à vos côtés"
+    ],
+    [
+     "h2",
+     "Travaux en face de ma maison : trop de bruit, trop de poussière... que faire ? Le 13H à vos côtés"
+    ]
+   ],
+   "content_score": 28,
+   "readability": 46,
+   "word_count": 475,
+   "content_len": 2381
+  },
+  {
+   "rank": 27,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/indemnisation-accident-de-la-route/accident-de-la-route-indemnisation-pieton/dommage-corporel-pieton",
+   "title": "Dommage corporel piéton - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France protège les droits des piétons en cas de dommage corporel.",
+   "headers": [
+    [
+     "h1",
+     "Dommage corporel piéton"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Dommage corporel du piéton (accident de la route)"
+    ],
+    [
+     "h2",
+     "L’indemnisation du dommage corporel du piéton"
+    ]
+   ],
+   "content_score": 45,
+   "readability": 37,
+   "word_count": 2318,
+   "content_len": 14243
+  },
+  {
+   "rank": 28,
+   "url": "https://www.youtube.com/watch?v=wo-g31LXyzw",
+   "title": "Accident de la route : victimes, demandez une indemnisation juste ! Guide juridique complet (+PDF) - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Accident de la route : victimes, demandez une indemnisation juste ! Guide juridique complet (+PDF)"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h1",
+     "Accident de la route : victimes, demandez une indemnisation juste ! Guide juridique complet (+PDF)"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      11"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Chapitres"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Chapitres\n      \n    \n  \n  \n  \n  \n  \n  Tout afficher"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 38,
+   "readability": 30,
+   "word_count": 504,
+   "content_len": 3391
+  },
+  {
+   "rank": 29,
+   "url": "https://berne-avocatvictimes.fr/avocat-indemnisation-accident-pieton/",
+   "title": "Avocat pour indemnisation après un accident piéton – Avocat préjudice corporel",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Avocat pour indemnisation après un accident piéton"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un accident piéton ?"
+    ],
+    [
+     "h2",
+     "Le piéton : une victime protégée par la loi"
+    ],
+    [
+     "h2",
+     "Que faire immédiatement après un accident piéton ?"
+    ],
+    [
+     "h2",
+     "Indemnisation du piéton : quels droits ?"
+    ],
+    [
+     "h2",
+     "Quelle procédure pour être indemnisé ?"
+    ],
+    [
+     "h2",
+     "Le rôle de l’avocat dans l’indemnisation"
+    ],
+    [
+     "h2",
+     "L’expertise médicale : une étape clé"
+    ],
+    [
+     "h2",
+     "Quel est le montant d’indemnisation pour un piéton ?"
+    ],
+    [
+     "h2",
+     "Délai, assurance, et fonds de garantie"
+    ],
+    [
+     "h2",
+     "Pourquoi choisir Maître Vanessa BERNE dans le Val-d’Oise ?"
+    ],
+    [
+     "h2",
+     "FAQ – Vos questions fréquentes"
+    ],
+    [
+     "h2",
+     "Avocat dans le Val d'Oise aux côtés des victimes"
+    ]
+   ],
+   "content_score": 77,
+   "readability": 37,
+   "word_count": 1492,
+   "content_len": 8930
+  },
+  {
+   "rank": 30,
+   "url": "https://association-aivf-faq.fr/accident-de-la-route-faq/indemnisation-accident-de-la-route/accident-voiture-pieton",
+   "title": "Accident voiture piéton - Association Victimes de France AIVF",
+   "desc": "Accident voiture piéton, indemnisation du préjudice, loi Badinter, usager vulnérable, réparation intégrale du préjudice",
+   "headers": [
+    [
+     "h1",
+     "Accident voiture piéton : comment obtenir une indemnisation rapide après un choc ?"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant l’accident voiture piéton"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 50,
+   "word_count": 1119,
+   "content_len": 7126
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1590,
+   "target": 1590
+  },
+  "readability": {
+   "median": 33,
+   "target": 33
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "piéton",
+    "usage_pc": 90
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 80
+   },
+   {
+    "t": "accident",
+    "usage_pc": 50
+   },
+   {
+    "t": "accident piéton",
+    "usage_pc": 40
+   },
+   {
+    "t": "renverser",
+    "usage_pc": 30
+   },
+   {
+    "t": "piéton renversé",
+    "usage_pc": 30
+   },
+   {
+    "t": "indemnisation accident piéton",
+    "usage_pc": 30
+   }
+  ],
+  "desc": [
+   {
+    "t": "piéton",
+    "usage_pc": 70
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 70
+   },
+   {
+    "t": "accident",
+    "usage_pc": 70
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 70
+   },
+   {
+    "t": "accident piéton",
+    "usage_pc": 30
+   },
+   {
+    "t": "victime d'un accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident piéton",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation optimale après un accident",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "piéton",
+    "usage_pc": 80
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 80
+   },
+   {
+    "t": "accident",
+    "usage_pc": 50
+   },
+   {
+    "t": "accident piéton",
+    "usage_pc": 50
+   },
+   {
+    "t": "indemnisation accident piéton",
+    "usage_pc": 40
+   },
+   {
+    "t": "montant indemnisation accident piéton",
+    "usage_pc": 30
+   },
+   {
+    "t": "renverser",
+    "usage_pc": 20
+   },
+   {
+    "t": "piéton renversé",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "victime piéton",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation pour un piéton",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de la voie publique",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation de la victime piéton",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "piéton",
+    "usage_pc": 90
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 80
+   },
+   {
+    "t": "accident",
+    "usage_pc": 80
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 70
+   },
+   {
+    "t": "accident piéton",
+    "usage_pc": 50
+   },
+   {
+    "t": "renverser",
+    "usage_pc": 40
+   },
+   {
+    "t": "un accident piéton",
+    "usage_pc": 40
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 30
+   },
+   {
+    "t": "piéton renversé",
+    "usage_pc": 30
+   },
+   {
+    "t": "indemnisation du piéton",
+    "usage_pc": 30
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 30
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 20
+   },
+   {
+    "t": "loi badinter",
+    "usage_pc": 20
+   },
+   {
+    "t": "piéton victime",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident de piéton",
+    "usage_pc": 20
+   },
+   {
+    "t": "après un accident piéton",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation après un accident piéton",
+    "usage_pc": 20
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation accident piéton",
+    "usage_pc": 10
+   },
+   {
+    "t": "montant indemnisation accident piéton",
+    "usage_pc": 10
+   },
+   {
+    "t": "victime piéton",
+    "usage_pc": 10
+   },
+   {
+    "t": "renversé par une voiture",
+    "usage_pc": 10
+   },
+   {
+    "t": "passage protégé",
+    "usage_pc": 10
+   },
+   {
+    "t": "avocat en dommage corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "piéton renversé par une voiture",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation des accidents",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident piéton contre voiture",
+    "usage_pc": 10
+   },
+   {
+    "t": "droit à indemnisation du piéton",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "piéton",
+    "usage_pc": 90,
+    "sugg_usage": [
+     9,
+     31
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 90,
+    "sugg_usage": [
+     10,
+     39
+    ]
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 90,
+    "sugg_usage": [
+     8,
+     33
+    ]
+   },
+   {
+    "t": "accident piéton",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     13
+    ]
+   },
+   {
+    "t": "renverser",
+    "usage_pc": 80,
+    "sugg_usage": [
+     2,
+     6
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 90,
+    "sugg_usage": [
+     4,
+     11
+    ]
+   },
+   {
+    "t": "piéton renversé",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "indemnisation des victimes",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 80,
+    "sugg_usage": [
+     2,
+     9
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "victime piéton",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "loi badinter",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     8
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "passage piéton",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "piéton victime",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "faute inexcusable",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "accident de la circulation",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "postes de préjudice",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "indemnisation accident piéton",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant indemnisation accident piéton",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation du piéton",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "renversé par une voiture",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de piéton",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "renversé par un véhicule",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "passage protégé",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation pour un piéton",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d'un accident",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident de la voie publique",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après un accident piéton",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat en dommage corporel",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit du dommage corporel",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après un accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "piéton renversé par une voiture",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "piéton suite à un accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un accident piéton",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation optimale après un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation de la victime piéton",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation des accidents",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant de l’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "piéton victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant de l’indemnisation du piéton",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation d’un accident piéton",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cause exclusive de l’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "rapport d’expertise",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garantit une indemnisation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation après un accident piéton",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "exclure le droit à indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "spécialisé en dommage corporel",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "vulnérabilité du piéton",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dehors du passage piéton",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "piéton ou cycliste",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "piéton victime d'un accident",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation des préjudices",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une indemnisation quasi automatique",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "piéton a",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident piéton contre voiture",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à indemnisation du piéton",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tant que piéton",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lorsque le piéton",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Piéton",
+    "importance": 96.25600000000003,
+    "relevance": 0.9625600000000001,
+    "confidence": 5.352600000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Piéton"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 61.17,
+    "relevance": 0.6117,
+    "confidence": 6.4483999999999995,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 51.96400000000001,
+    "relevance": 0.5196400000000001,
+    "confidence": 10.4198,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Faute inexcusable de l'employeur",
+    "importance": 42.98,
+    "relevance": 0.4298,
+    "confidence": 3.2708,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Faute_inexcusable_de_l'employeur"
+     ]
+    ]
+   },
+   {
+    "t": "Véhicule (transport physique)",
+    "importance": 38.2002,
+    "relevance": 0.382002,
+    "confidence": 3.841,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Véhicule_(transport_physique)"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 32.62592,
+    "relevance": 0.50978,
+    "confidence": 4.1592,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Loi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation",
+    "importance": 29.72672,
+    "relevance": 0.46448,
+    "confidence": 4.898999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi_tendant_à_l'amélioration_de_la_situation_des_victimes_d'accidents_de_la_circulation_et_à_l'accélération_des_procédures_d'indemnisation"
+     ]
+    ]
+   },
+   {
+    "t": "Passage piéton",
+    "importance": 21.847679999999997,
+    "relevance": 0.34136999999999995,
+    "confidence": 2.7382,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Passage_piéton"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 14.32704,
+    "relevance": 0.22386,
+    "confidence": 1.3198,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Droit",
+    "importance": 12.133200000000002,
+    "relevance": 0.12133200000000002,
+    "confidence": 2.2224,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Droit"
+     ]
+    ]
+   },
+   {
+    "t": "Fonds de garantie des assurances obligatoires de dommages",
+    "importance": 10.171439999999999,
+    "relevance": 0.28254,
+    "confidence": 1.1118,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fonds_de_garantie_des_assurances_obligatoires_de_dommages"
+     ]
+    ]
+   },
+   {
+    "t": "Conduite automobile",
+    "importance": 7.945199999999999,
+    "relevance": 0.22069999999999998,
+    "confidence": 0.62432,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Conduite_automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Expertise médicale",
+    "importance": 7.832880000000002,
+    "relevance": 0.21758000000000002,
+    "confidence": 1.0308,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expertise_médicale"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 6.9184,
+    "relevance": 0.1081,
+    "confidence": 1.3356,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Loi",
+    "importance": 6.781680000000001,
+    "relevance": 0.18838,
+    "confidence": 1.3684,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi"
+     ]
+    ]
+   },
+   {
+    "t": "Plainte",
+    "importance": 2.43232,
+    "relevance": 0.15202,
+    "confidence": 0.5506399999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Plainte"
+     ]
+    ]
+   },
+   {
+    "t": "Santé",
+    "importance": 2.244528,
+    "relevance": 0.062347999999999994,
+    "confidence": 0.8906000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Santé"
+     ]
+    ]
+   },
+   {
+    "t": "Badinter",
+    "importance": 2.14656,
+    "relevance": 0.13416,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Jurisprudence",
+    "importance": 2.132,
+    "relevance": 0.13325,
+    "confidence": 2.2762000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Jurisprudence"
+     ]
+    ]
+   },
+   {
+    "t": "Véhicule à moteur",
+    "importance": 2.1168,
+    "relevance": 0.1323,
+    "confidence": 1.766,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Véhicule_à_moteur"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 1.77152,
+    "relevance": 0.11072,
+    "confidence": 0.6826000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Police (institution)",
+    "importance": 1.5841280000000004,
+    "relevance": 0.09900800000000001,
+    "confidence": 1.471,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Police_(institution)"
+     ]
+    ]
+   },
+   {
+    "t": "Vélo",
+    "importance": 1.464,
+    "relevance": 0.0915,
+    "confidence": 3.1524,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Vélo"
+     ]
+    ]
+   },
+   {
+    "t": "Automobile",
+    "importance": 1.3511360000000003,
+    "relevance": 0.08444600000000001,
+    "confidence": 0.7814,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Incapacité permanente en France",
+    "importance": 1.023968,
+    "relevance": 0.063998,
+    "confidence": 0.5752,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Incapacité_permanente_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Infraction",
+    "importance": 0.9475520000000001,
+    "relevance": 0.059222,
+    "confidence": 0.9754000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Infraction"
+     ]
+    ]
+   },
+   {
+    "t": "Moto",
+    "importance": 0.871296,
+    "relevance": 0.05445599999999999,
+    "confidence": 5.048,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Moto"
+     ]
+    ]
+   },
+   {
+    "t": "Justice",
+    "importance": 0.7609600000000001,
+    "relevance": 0.047560000000000005,
+    "confidence": 0.6934,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Justice"
+     ]
+    ]
+   },
+   {
+    "t": "Somme (département)",
+    "importance": 0.6554560000000001,
+    "relevance": 0.040966,
+    "confidence": 0.6644,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Somme_(département)"
+     ]
+    ]
+   },
+   {
+    "t": "Moteur",
+    "importance": 0.647232,
+    "relevance": 0.040452,
+    "confidence": 1.3062,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Moteur"
+     ]
+    ]
+   },
+   {
+    "t": "DFP",
+    "importance": 0.5511999999999999,
+    "relevance": 0.13779999999999998,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Trouble de stress post-traumatique",
+    "importance": 0.50024,
+    "relevance": 0.12506,
+    "confidence": 3.652,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Trouble_de_stress_post-traumatique"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "piéton\nindemnisation\naccident\naccident piéton\nrenverser\npiéton renversé\nindemnisation accident piéton",
+  "desc_title": "piéton\nindemnisation\naccident\nun accident\naccident piéton\nvictime d'un accident\naprès un accident\naccident de la route\nun accident de la route\nun accident piéton\nindemnisation optimale après un accident",
+  "h1": "piéton\nindemnisation\naccident\naccident piéton\nindemnisation accident piéton\nmontant indemnisation accident piéton\nrenverser\npiéton renversé\nindemniser\nvictime piéton\nun accident\nindemnisation pour un piéton\naccident de la voie publique\nindemnisation de la victime piéton",
+  "h2": "piéton\nindemnisation\naccident\nun accident\naccident piéton\nrenverser\nun accident piéton\naccident de la route\npiéton renversé\nindemnisation du piéton\nun accident de la route\naprès un accident\npréjudice\ndommage corporel\nindemniser\nloi badinter\npiéton victime\naccident de piéton\naprès un accident piéton\nindemnisation après un accident piéton\nsuite à un accident\ndroit à indemnisation\nindemnisation accident piéton\nmontant indemnisation accident piéton\nvictime piéton\nrenversé par une voiture\npassage protégé\navocat en dommage corporel\nobtenir une indemnisation\npiéton renversé par une voiture\nindemnisation des accidents\naccident piéton contre voiture\ndroit à indemnisation du piéton",
+  "content_basic": "piéton\nindemnisation\naccident de la route\naccident\naccident piéton\npréjudice\nrenverser\ndommage corporel\nassurance\npiéton renversé\nindemnisation des victimes\ndroit à indemnisation\nindemniser\nexpertise médicale\nvictime piéton\nloi badinter\nun accident\npréjudice corporel\npassage piéton\npiéton victime\nfaute inexcusable\naccident de la circulation\navocat spécialisé\nun accident de la route\npostes de préjudice",
+  "content_basic_w_ranges": "piéton: 9-31x\nindemnisation: 10-39x\naccident de la route: 1-6x\naccident: 8-33x\naccident piéton: 1-3x\npréjudice: 2-13x\nrenverser: 2-6x\ndommage corporel: 1-4x\nassurance: 4-11x\npiéton renversé: 1-3x\nindemnisation des victimes: 1-2x\ndroit à indemnisation: 1-2x\nindemniser: 2-9x\nexpertise médicale: 1-5x\nvictime piéton: 1-2x\nloi badinter: 1-4x\nun accident: 2-8x\npréjudice corporel: 1-3x\npassage piéton: 1-2x\npiéton victime: 1-2x\nfaute inexcusable: 1-3x\naccident de la circulation: 1-2x\navocat spécialisé: 1-2x\nun accident de la route: 1-2x\npostes de préjudice: 1x",
+  "content_extended": "indemnisation accident piéton\nmontant indemnisation accident piéton\nindemnisation du piéton\nrenversé par une voiture\naccident de piéton\nrenversé par un véhicule\npassage protégé\nindemnisation pour un piéton\nvictime d'un accident\naccident de la voie publique\naprès un accident piéton\navocat en dommage corporel\ndroit du dommage corporel\nobtenir une indemnisation\naprès un accident\npiéton renversé par une voiture\npiéton suite à un accident\nun accident piéton\nindemnisation optimale après un accident\nindemnisation de la victime piéton\nindemnisation des accidents\nvictime d’un accident\nmontant de l’indemnisation\npiéton victime d’un accident\nmontant de l’indemnisation du piéton\nmontant d’indemnisation\nindemnisation d’un accident piéton\ncause exclusive de l’accident\nrapport d’expertise\ngarantit une indemnisation\nindemnisation après un accident piéton\nexclure le droit à indemnisation\nspécialisé en dommage corporel\nvulnérabilité du piéton\ndehors du passage piéton\npiéton ou cycliste\npiéton victime d'un accident\nindemnisation des préjudices\nune indemnisation quasi automatique\npiéton a\nsuite à un accident\naccident piéton contre voiture\ndroit à indemnisation du piéton\ntant que piéton\nlorsque le piéton",
+  "content_extended_w_ranges": "indemnisation accident piéton: 1x\nmontant indemnisation accident piéton: 1x\nindemnisation du piéton: 1-2x\nrenversé par une voiture: 1x\naccident de piéton: 1x\nrenversé par un véhicule: 1-2x\npassage protégé: 1x\nindemnisation pour un piéton: 1x\nvictime d'un accident: 1x\naccident de la voie publique: 1x\naprès un accident piéton: 1x\navocat en dommage corporel: 1x\ndroit du dommage corporel: 1x\nobtenir une indemnisation: 1x\naprès un accident: 1x\npiéton renversé par une voiture: 1x\npiéton suite à un accident: 1x\nun accident piéton: 1x\nindemnisation optimale après un accident: 1x\nindemnisation de la victime piéton: 1x\nindemnisation des accidents: 1x\nvictime d’un accident: 1x\nmontant de l’indemnisation: 1x\npiéton victime d’un accident: 1x\nmontant de l’indemnisation du piéton: 1x\nmontant d’indemnisation: 1x\nindemnisation d’un accident piéton: 1x\ncause exclusive de l’accident: 1x\nrapport d’expertise: 1x\ngarantit une indemnisation: 1x\nindemnisation après un accident piéton: 1x\nexclure le droit à indemnisation: 1x\nspécialisé en dommage corporel: 1x\nvulnérabilité du piéton: 1x\ndehors du passage piéton: 1x\npiéton ou cycliste: 1x\npiéton victime d'un accident: 1x\nindemnisation des préjudices: 1x\nune indemnisation quasi automatique: 1x\npiéton a: 1x\nsuite à un accident: 1x\naccident piéton contre voiture: 1x\ndroit à indemnisation du piéton: 1x\ntant que piéton: 1x\nlorsque le piéton: 1x",
+  "entities": "Piéton\nAssurance\nAccident de la route\nFaute inexcusable de l'employeur\nVéhicule (transport physique)\nDommage corporel\nLoi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation\nPassage piéton\nEndommagement\nDroit\nFonds de garantie des assurances obligatoires de dommages\nConduite automobile\nExpertise médicale\nMédecin\nLoi\nPlainte\nSanté\nBadinter\nJurisprudence\nVéhicule à moteur\nAvocat (métier)\nPolice (institution)\nVélo\nAutomobile\nIncapacité permanente en France\nInfraction\nMoto\nJustice\nSomme (département)\nMoteur\nDFP\nTrouble de stress post-traumatique"
+ },
+ "status": "ready",
+ "keyword": "indemnisation piéton accident",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "6e4148faa586f796",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "transactional": 33.3
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "blog-post": 20.0,
+   "guide": 70.0,
+   "business": 46.7,
+   "educational": 23.3,
+   "case-study": 3.3,
+   "short-answer": 10.0,
+   "video": 10.0,
+   "social-media": 3.3,
+   "landing-page": 6.7,
+   "news": 3.3
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/6e4148faa586f796",
+ "share_url": "https://app.neuronwriter.com/analysis/share/6e4148faa586f796/0b534d613fb5f4ce3767d45cd63101534fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/6e4148faa586f796/e62e71604389ac2bfe36236ee9e41b1b4fa16"
+}

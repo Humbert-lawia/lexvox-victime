@@ -1,0 +1,2647 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quelle est l'indemnisation pour un préjudice esthétique ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   },
+   {
+    "q": "Comment calculer le préjudice esthétique ?"
+   },
+   {
+    "q": "Quelle est l'indemnisation pour un préjudice esthétique permanent de 2/7 ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quelle est l'indemnisation pour un préjudice esthétique ?": {
+    "importance": 10
+   },
+   "Comment calculer le préjudice esthétique ?": {
+    "importance": 10
+   },
+   "Quelle est l'indemnisation pour un préjudice esthétique permanent de 2/7 ?": {
+    "importance": 10
+   },
+   "Quels sont les différents types de préjudices esthétiques (temporaire et permanent) ?": {
+    "importance": 9
+   },
+   "Comment le préjudice esthétique est-il évalué ?": {
+    "importance": 9
+   },
+   "Peut-on contester l'évaluation ou le montant de l'indemnisation du préjudice esthétique ?": {
+    "importance": 8
+   },
+   "Quels sont les facteurs qui influencent le montant de l'indemnisation du préjudice esthétique ?": {
+    "importance": 7
+   },
+   "Le préjudice esthétique est-il cumulable avec d'autres postes de préjudice comme les souffrances endurées ?": {
+    "importance": 7
+   },
+   "Quel est le rôle de l'avocat et du médecin expert dans l'indemnisation du préjudice esthétique ?": {
+    "importance": 6
+   },
+   "Existe-t-il des simulateurs ou barèmes indicatifs pour l'indemnisation du préjudice esthétique ?": {
+    "importance": 6
+   }
+  },
+  "content_questions": [
+   {
+    "q": "2/ quelles sommes de dédommagement peut-elle être en droit d’espérer avec ce gros préjudice esthétique ?"
+   },
+   {
+    "q": "3/ recommandez-vous qu’elle se fasse accompagner par un conseil, particulièrement pendant la visite médicale d’expertise ?"
+   },
+   {
+    "q": "A quelle indemnisation puis-je prétendre pour un préjudice esthétique ?"
+   },
+   {
+    "q": "Accident du travail et accident de trajet : quelle différence ?"
+   },
+   {
+    "q": "Accident esthétique (tatouage, épilation, piercing) : quelle indemnisation ?"
+   },
+   {
+    "q": "Combien de temps ai-je pour réclamer l'indemnisation de mon préjudice esthétique ?"
+   },
+   {
+    "q": "Combien vaut un tel préjudice esthétique ?"
+   },
+   {
+    "q": "Comment est calculé le montant du préjudice esthétique ?"
+   },
+   {
+    "q": "Comment est évalué le préjudice esthétique ?"
+   },
+   {
+    "q": "Comment est évalué le préjudice esthétique permanent ?"
+   },
+   {
+    "q": "Comment est-il évalué ?"
+   },
+   {
+    "q": "Comment le préjudice esthétique est-il évalué ?"
+   },
+   {
+    "q": "Comment prouver mon préjudice esthétique temporaire si l'expertise a lieu après la consolidation ?"
+   },
+   {
+    "q": "Comment se déroule l’expertise du préjudice esthétique ?"
+   },
+   {
+    "q": "Comment se faire indemniser du préjudice esthétique ?"
+   },
+   {
+    "q": "Dommages et intérêts préjudice esthétique : comment bénéficier d’une juste indemnisation ?"
+   },
+   {
+    "q": "Faut-il un avocat pour obtenir l'indemnisation du préjudice esthétique ?"
+   },
+   {
+    "q": "Indemnisation du préjudice esthétique : comment l’obtenir ?"
+   },
+   {
+    "q": "L'âge et le sexe de la victime influencent-ils l'indemnisation ?"
+   },
+   {
+    "q": "Le préjudice esthétique concerne-t-il uniquement le visage ?"
+   },
+   {
+    "q": "Le préjudice esthétique est-il cumulable avec les souffrances endurées ?"
+   },
+   {
+    "q": "Le préjudice esthétique est-il inclus dans l’AIPP ?"
+   },
+   {
+    "q": "Le préjudice esthétique est-il indemnisé quel que soit le type d'accident ?"
+   },
+   {
+    "q": "Le préjudice esthétique peut-il être aggravé après la consolidation ?"
+   },
+   {
+    "q": "L’expert ne risque-t-il pas de minimiser le préjudice esthétique ?"
+   },
+   {
+    "q": "L’âge et le sexe de la victime influencent-ils l’indemnisation ?"
+   },
+   {
+    "q": "Peut-on contester la cotation du préjudice esthétique établie par le médecin expert ?"
+   },
+   {
+    "q": "Peut-on contester l’évaluation du préjudice esthétique ?"
+   },
+   {
+    "q": "Peut-on cumuler le préjudice esthétique avec les souffrances endurées ?"
+   },
+   {
+    "q": "Peut-on demander une nouvelle expertise si le préjudice s’aggrave ?"
+   },
+   {
+    "q": "Peut-on être indemnisé après une chirurgie esthétique ratée ?"
+   },
+   {
+    "q": "Pouvez vous me dire quel est le degré de préjudice esthétique dans mon cas ?"
+   },
+   {
+    "q": "Préjudice moral : Comment être mieux indemnisé après l'accident ?"
+   },
+   {
+    "q": "Puis- je avoir recours à mon médecin expert à ce stade du dossier ?"
+   },
+   {
+    "q": "Qu'est-ce qu'un accident de la vie ?"
+   },
+   {
+    "q": "Quand des personnes sont victimes de préjudices esthétiques comme nous venons de voir, le sujet de l’indemnisation donne souvent lieu aux questions suivantes : comment calculer le préjudice esthétique temporaire ?"
+   },
+   {
+    "q": "Que faire si l'assureur propose un montant global sans détailler le préjudice esthétique ?"
+   },
+   {
+    "q": "Que pensez-vous de ce chiffrage ridicule du préjudice esthétique ?"
+   },
+   {
+    "q": "Quel est le barème pour le préjudice esthétique permanent ?"
+   },
+   {
+    "q": "Quel est le délai pour réclamer l'indemnisation du préjudice esthétique ?"
+   },
+   {
+    "q": "Quelle différence avec le préjudice d’agrément ?"
+   },
+   {
+    "q": "Quelle est la différence avec le préjudice esthétique temporaire ?"
+   },
+   {
+    "q": "Quelle est la différence entre le préjudice esthétique et le préjudice d’agrément ?"
+   },
+   {
+    "q": "Quelle est la différence entre le préjudice esthétique temporaire et permanent ?"
+   },
+   {
+    "q": "Quelle est l’indemnisation moyenne pour un préjudice esthétique permanent ?"
+   },
+   {
+    "q": "Qu’est-ce que le préjudice esthétique ?"
+   },
+   {
+    "q": "Qu’est-ce que le préjudice esthétique permanent ?"
+   },
+   {
+    "q": "Suis-je obligé(e) de subir une opération de chirurgie réparatrice pour réduire ma cicatrice ?"
+   },
+   {
+    "q": "Un préjudice esthétique a été évalué par le médecin expert de l’assurance ?"
+   },
+   {
+    "q": "· Comment optimiser son indemnisation après un accident corporel ?"
+   },
+   {
+    "q": "À combien votre préjudice esthétique a-t-il été évalué suite à l'expertise médicale ?"
+   },
+   {
+    "q": "À lire : Complications de chirurgie esthétique : comment obtenir réparation | Accident esthétique (tatouage, épilation, piercing) : quelle indemnisation ?"
+   },
+   {
+    "q": "À lire : L'expertise médicale après un accident : pourquoi se faire assister ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/calcul-prejudice-corporel-indemnisation/calcul-du-prejudice-esthetique-bareme-indicatif-et-indemnisation",
+   "title": "Calcul préjudice esthétique indicatif - Association Victimes de France AIVF",
+   "desc": "Calculez votre préjudice esthétique grâce à un barème indicatif. Estimation, expertise médicale, jurisprudence et accompagnement gratuit AIVF.",
+   "headers": [
+    [
+     "h1",
+     "Calcul préjudice esthétique indicatif"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Calcul du préjudice esthétique – barème indicatif et indemnisation"
+    ],
+    [
+     "h2",
+     "Calculateur du préjudice esthétique (valeur indicative)"
+    ],
+    [
+     "h2",
+     "Préjudice esthétique temporaire et préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Comment est évalué le préjudice esthétique ?"
+    ],
+    [
+     "h2",
+     "Peut-on contester l’évaluation du préjudice esthétique ?"
+    ],
+    [
+     "h2",
+     "Exemples d’indemnisation du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Jurisprudence essentielle – Préjudice esthétique"
+    ],
+    [
+     "h2",
+     "FAQ – Préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Accompagnement gratuit – Association AIVF"
+    ],
+    [
+     "h2",
+     "✅ À retenir"
+    ]
+   ],
+   "content_score": 52,
+   "readability": 33,
+   "word_count": 969,
+   "content_len": 6340
+  },
+  {
+   "rank": 2,
+   "url": "https://jmp-avocat-indemnisation.fr/prejudice-esthetique-apres-un-accident-corporel.html",
+   "title": "Préjudice Esthétique : Évaluation, Barème et Indemnisation 2026",
+   "desc": "Préjudice esthétique temporaire et permanent après un accident : cotation 1/7, barème indicatif 2026, expertise médicale, contestation et rôle de l'avocat.",
+   "headers": [
+    [
+     "h1",
+     "Préjudice esthétique après un accident corporel : tout comprendre pour être justement indemnisé"
+    ],
+    [
+     "h2",
+     "Le cadre juridique du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Préjudice esthétique temporaire et permanent : deux postes distincts"
+    ],
+    [
+     "h2",
+     "Comment le préjudice esthétique est-il évalué ?"
+    ],
+    [
+     "h2",
+     "Les facteurs qui font varier l'indemnisation"
+    ],
+    [
+     "h2",
+     "⏰ AGISSEZ MAINTENANT : Chaque Jour Compte"
+    ],
+    [
+     "h2",
+     "Les pièges des assureurs sur le préjudice esthétique"
+    ],
+    [
+     "h2",
+     "La chirurgie réparatrice et le préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Les interactions avec les autres postes de préjudice"
+    ],
+    [
+     "h2",
+     "Contester et optimiser l'indemnisation du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur le préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Bibliographie juridique"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 28,
+   "word_count": 3546,
+   "content_len": 23117
+  },
+  {
+   "rank": 3,
+   "url": "https://victime-info.fr/indemnisation/dossiers/differents-postes-prejudice-corporel/indemnisation-du-prejudice-esthetique/prejudice-esthetique-calcul-bareme",
+   "title": "Mode de calcul du préjudice esthétique : barème et indemnisation | victime-info.fr",
+   "desc": "Barème et mode de calcul du préjudice esthétique de 0,5/7 à 7/7 : montants, échelle d'évaluation, exemples chiffrés. Guide complet pour les victimes.",
+   "headers": [
+    [
+     "h1",
+     "Barème et mode de calcul du préjudice esthétique : guide complet d’indemnisation"
+    ],
+    [
+     "h2",
+     "Le préjudice esthétique : définition et distinction temporaire / permanent"
+    ],
+    [
+     "h2",
+     "Comment le préjudice esthétique est-il évalué ?"
+    ],
+    [
+     "h2",
+     "Barème et mode de calcul du préjudice esthétique : l’échelle de 0,5 à 7"
+    ],
+    [
+     "h2",
+     "Simulateur d’indemnisation du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Comment se faire indemniser du préjudice esthétique ?"
+    ],
+    [
+     "h2",
+     "Contester le montant de l’indemnisation du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Exemples concrets d’indemnisation du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Les autres postes de préjudice liés au préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur le barème et le mode de calcul du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Conclusion : bien préparer son dossier pour une juste indemnisation du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 68,
+   "readability": 34,
+   "word_count": 3946,
+   "content_len": 25423
+  },
+  {
+   "rank": 4,
+   "url": "https://www.avocat-accident-regley.fr/prejudice-esthetique",
+   "title": "Préjudice esthétique temporaire et permanent : calcul des dommages et intérêts | Antoine Regley - Avocat",
+   "desc": "Le préjudice esthétique temporaire ou PET et le préjudice esthétique permanent ou PEP figurent tous deux sur la liste des préjudices qu’est la nomenclature Dintilhac Pour rappel, cette échelle est le document de référence pour établir l’indemnisation des v",
+   "headers": [
+    [
+     "h1",
+     "Préjudice esthétique temporaire et permanent : calcul des dommages et intérêts"
+    ],
+    [
+     "h2",
+     "Préjudice esthétique temporaire : définition PET"
+    ],
+    [
+     "h2",
+     "Préjudice esthétique permanent : définition PEP"
+    ],
+    [
+     "h2",
+     "Barème préjudice esthétique temporaire / permanent"
+    ],
+    [
+     "h2",
+     "Calcul du préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Dommages et intérêts préjudice esthétique : comment bénéficier d’une juste indemnisation ?"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 31,
+   "word_count": 1249,
+   "content_len": 7842
+  },
+  {
+   "rank": 5,
+   "url": "https://www.bourdet-avocat.fr/lexique-juridique/prejudice-esthetique-permanent-indemnisation/",
+   "title": "Avocat indemnisation préjudice esthétique permanent Rouen | Bourdet Avocat",
+   "desc": "Le préjudice esthétique permanent constitue un poste de préjudice qui vise à indemniser l'ensemble des disgrâces dynamiques et statiques, imputables à l'accident, qui enlaidissent l’aspect physique et qui persistent après la consolidation (cicatrices, mutilations, déformations, rupture de l'harmonie du corps humain, de sa gestuelle ou de sa démarche etc.).",
+   "headers": [
+    [
+     "h1",
+     "Préjudice esthétique permanent (Poste de préjudice)"
+    ]
+   ],
+   "content_score": 30,
+   "readability": 19,
+   "word_count": 208,
+   "content_len": 1379
+  },
+  {
+   "rank": 6,
+   "url": "https://www.definition-juridique.fr/prejudice-esthetique-calcul/",
+   "title": "Préjudice esthétique : définition et calcul - Definition-juridique.fr",
+   "desc": "Le préjudice esthétique désigne l’impact visible d’un dommage corporel sur l’apparence physique d’une victime, causant des conséquences sociales et psychologiques importantes. Découvrez sa définition, ses critères d’évaluation et les méthodes de calcul utilisées pour l’indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Préjudice esthétique : définition et calcul"
+    ],
+    [
+     "h2",
+     "Le préjudice esthétique désigne l’impact visible d’un dommage corporel sur l’apparence physique d’une victime, causant des conséquences sociales et psychologiques importantes. Découvrez sa définition,"
+    ],
+    [
+     "h2",
+     "Des définitions juridiques pour tous"
+    ],
+    [
+     "h2",
+     "Des définitions à jour"
+    ],
+    [
+     "h2",
+     "Nos définitions par ordre alphabétique"
+    ],
+    [
+     "h2",
+     "Retrouvez-nous"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 30,
+   "word_count": 991,
+   "content_len": 6945
+  },
+  {
+   "rank": 7,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/differents-postes-prejudice-corporel/prejudice-corporel-victime-directe/prejudice-esthetique-permanent",
+   "title": "Préjudice esthétique permanent - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France vous accompagne face au préjudice esthétique permanent et défend vos droits.",
+   "headers": [
+    [
+     "h1",
+     "Préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Le préjudice esthétique permanent : définition"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 31,
+   "word_count": 3411,
+   "content_len": 21249
+  },
+  {
+   "rank": 8,
+   "url": "https://www.lemag-juridique.com/articles/le-prejudice-esthetique-3499.htm",
+   "title": "Le préjudice esthétique | LE MAG JURIDIQUE",
+   "desc": "Lorsqu’une personne subit un dommage corporel, de nombreux préjudices peuvent être indemnisés, la jurisprudence ayant pour philosophie d’indemniser la victim...",
+   "headers": [
+    [
+     "h2",
+     "Catégories"
+    ],
+    [
+     "h2",
+     "Catégories"
+    ],
+    [
+     "h2",
+     "Catégories"
+    ],
+    [
+     "h1",
+     "Le préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Définition"
+    ],
+    [
+     "h2",
+     "La détermination de l’indemnisation"
+    ],
+    [
+     "h2",
+     "La limitation du préjudice par la victime"
+    ]
+   ],
+   "content_score": 34,
+   "readability": 28,
+   "word_count": 1021,
+   "content_len": 6608
+  },
+  {
+   "rank": 9,
+   "url": "https://association-aide-victimes.com/les-prejudices-corporels/prejudices-extra-patrimoniaux/prejudice-esthetique",
+   "title": "Préjudice esthétique : Evaluation et Barème d'indemnisation",
+   "desc": "L'Association d'Aide aux Victimes AAV vous détaille l'indemnisation du préjudice esthétique : le barème d'indemnisation et l'évaluation du préjudice esthétique.",
+   "headers": [
+    [
+     "h1",
+     "Préjudice Esthétique"
+    ],
+    [
+     "h2",
+     "Préjudice esthétique : Evaluation et Barème d’indemnisation"
+    ],
+    [
+     "h2",
+     "Évaluation du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Préjudice esthétique temporaire"
+    ],
+    [
+     "h2",
+     "Indemnisation préjudice esthétique"
+    ]
+   ],
+   "content_score": 44,
+   "readability": 24,
+   "word_count": 344,
+   "content_len": 2368
+  },
+  {
+   "rank": 10,
+   "url": "https://www.arcadioavocats.fr/actualites/indemnisation-du-prejudice-esthetique-comment-lobtenir,91",
+   "title": "Indemnisation du préjudice esthétique : comment l’obtenir ?",
+   "desc": "Découvrez comment l&#039;indemnisation du préjudice esthétique et du préjudice d&#039;agrément est traitée indépendamment de la prise en charge des prothèses",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation du préjudice esthétique : comment l’obtenir ?"
+    ],
+    [
+     "h2",
+     "L’absence de concurrence entre l’indemnisation du préjudice d’agrément, du préjudice esthétique, et la prise en charge des prothèses sportives et esthétiques"
+    ],
+    [
+     "h2",
+     "Quelle est la différence entre le préjudice esthétique et le préjudice d’agrément ?"
+    ]
+   ],
+   "content_score": 38,
+   "readability": 32,
+   "word_count": 479,
+   "content_len": 3211
+  },
+  {
+   "rank": 11,
+   "url": "https://www.rsl-avocat.com/prejudice-esthetique/",
+   "title": "Préjudice esthétique : définition, barème et indemnisation des cicatrices",
+   "desc": "Victime d’un accident ? Découvrez comment sont évaluées les séquelles visibles (cicatrices, déformations) et obtenez une indemnisation juste avec un avocat spécialisé en dommage corporel.",
+   "headers": [
+    [
+     "h1",
+     "Préjudice esthétique : définition, évaluation et indemnisation des victimes"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que le préjudice esthétique ?"
+    ],
+    [
+     "h2",
+     "Préjudice esthétique temporaire et permanent"
+    ],
+    [
+     "h2",
+     "Comment est évaluée l’atteinte sur l’apparence physique ?"
+    ],
+    [
+     "h2",
+     "Quels sont les critères retenus pour l’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Indemnisation des conséquences esthétiques : quels montants ?"
+    ],
+    [
+     "h2",
+     "Pourquoi faire appel à un avocat expert ?"
+    ],
+    [
+     "h2",
+     "Pour aller plus loin"
+    ],
+    [
+     "h2",
+     "FAQ – Questions fréquentes sur les séquelles et altérations de l’apparence"
+    ],
+    [
+     "h2",
+     "Liens utiles"
+    ],
+    [
+     "h2",
+     "RSL Avocat"
+    ],
+    [
+     "h2",
+     "Adresse"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 37,
+   "word_count": 1365,
+   "content_len": 9024
+  },
+  {
+   "rank": 12,
+   "url": "https://cherrier-bodineau.fr/prejudice-esthetique-permanent-et-temporaire/",
+   "title": "Préjudice esthétique temporaire ou permanent : barèmes, calculs et indemnisation",
+   "desc": "Indemnisation du préjudice esthétique : découvrez les montants selon la gravité (1 à 7/7) et comment faire valoir vos droits.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation préjudice esthétique permanent et temporaire"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que le préjudice esthétique permanent ?"
+    ],
+    [
+     "h2",
+     "Les critères d’évaluation du préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Le parcours d’indemnisation du préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Calcul de l’indemnisation pour un préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Contester une indemnisation jugée insuffisante"
+    ],
+    [
+     "h2",
+     "Prévention et protection : conseils pratiques"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 29,
+   "word_count": 2755,
+   "content_len": 18535
+  },
+  {
+   "rank": 13,
+   "url": "https://consultation.avocat.fr/blog/elodie-dhenry/article-46611-indemnisation-du-prejudice-esthetique.html",
+   "title": "Indemnisation du préjudice esthétique | par Me Elodie DHENRY",
+   "desc": "ARTICLE JURIDIQUE par Me Dhenry, Avocat : Le préjudice esthétique, qu’il soit temporaire ou permanent, peut être indemnisé. L’avocat vous aide à en prouver l’impact et ...",
+   "headers": [
+    [
+     "h1",
+     "Maître Elodie DHENRY"
+    ],
+    [
+     "h2",
+     "Avocat au barreau de Paris"
+    ],
+    [
+     "h1",
+     "Indemnisation du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Contacter Me Dhenry"
+    ],
+    [
+     "h2",
+     "Dernières publications"
+    ],
+    [
+     "h2",
+     "Derniers commentaires"
+    ],
+    [
+     "h2",
+     "Recherche"
+    ],
+    [
+     "h1",
+     "S'identifier avec FranceConnect"
+    ]
+   ],
+   "content_score": 45,
+   "readability": 2,
+   "word_count": 2006,
+   "content_len": 24526
+  },
+  {
+   "rank": 14,
+   "url": "https://www.brg-avocats.fr/lindemnisation-du-prejudice-esthetique-temporaire-et-permanent-apres-un-accident-de-la-route/",
+   "title": "L’indemnisation du préjudice esthétique temporaire et permanent après un accident de la route - BRG Avocats",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "L’indemnisation du préjudice esthétique temporaire et permanent après un accident de la route"
+    ],
+    [
+     "h1",
+     "1. Qu’est-ce que le préjudice esthétique ?"
+    ],
+    [
+     "h1",
+     "2. Comment sont évalués ces préjudices ?"
+    ],
+    [
+     "h1",
+     "3. Le calcul de l’indemnisation"
+    ],
+    [
+     "h1",
+     "4. L’importance de l’expertise médicale et de l’accompagnement juridique"
+    ],
+    [
+     "h1",
+     "5. En résumé : les points clés à retenir"
+    ],
+    [
+     "h1",
+     "Conclusion"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 34,
+   "word_count": 763,
+   "content_len": 4955
+  },
+  {
+   "rank": 15,
+   "url": "https://www.benezra-victimesdelaroute.fr/prejudice-esthetique/",
+   "title": "AVOCATS : Préjudice esthétique - évaluation & indemnisation",
+   "desc": "Si vous êtes une victime d'un accident de la route, vous aurez à évaluer de nombreux préjudices dont le préjudice esthétique et vous serez indemnisé !",
+   "headers": [
+    [
+     "h2",
+     "Négocier seul ses préjudices corporels ? Une fausse bonne idée !"
+    ],
+    [
+     "h2",
+     "Comment évaluer un préjudice corporel d’une victime de la route ?"
+    ],
+    [
+     "h2",
+     "Indemniser le traumatisme cervical après un accident de la route"
+    ],
+    [
+     "h2",
+     "Les faux bons conseils d’un Forum indemnisation dommages corporels"
+    ],
+    [
+     "h2",
+     "Préparer son dossier médical pour une expertise médicale"
+    ],
+    [
+     "h2",
+     "Récupérer son dossier médical après un accident de la route ?"
+    ]
+   ],
+   "content_score": 30,
+   "readability": 34,
+   "word_count": 331,
+   "content_len": 2126
+  },
+  {
+   "rank": 16,
+   "url": "https://hadrienmuller-avocat.com/prejudice-esthetique-temporaire-a-quoi-sert-il/",
+   "title": "Préjudice esthétique temporaire - Hadrien Muller",
+   "desc": "Préjudice esthétique temporaire. A quoi ce poste de préjudice sert-il vraiment ? Et s'il est assez délaissé par les avocats, est-ce grave pour vous ?",
+   "headers": [
+    [
+     "h2",
+     "Avocat spécialisé en préjudice corporel"
+    ],
+    [
+     "h2",
+     "Diplômé en évaluation des traumatismes crâniens"
+    ],
+    [
+     "h1",
+     "Préjudice esthétique temporaire : à quoi sert-il ?"
+    ],
+    [
+     "h2",
+     "Table des matières"
+    ],
+    [
+     "h2",
+     "Qu’est-ce\nque le préjudice\nesthétique\ntemporaire ?"
+    ],
+    [
+     "h2",
+     "Ce que n’est pas le préjudice esthétique temporaire"
+    ],
+    [
+     "h2",
+     "L’exemple d’un accident de la route"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Un casse-tête à chiffrer"
+    ],
+    [
+     "h2",
+     "Ne\npas se tromper de combat"
+    ],
+    [
+     "h2",
+     "L’inaptitude au travail plus que l’esthétique"
+    ],
+    [
+     "h2",
+     "Maître Hadrien MULLER"
+    ]
+   ],
+   "content_score": 35,
+   "readability": 42,
+   "word_count": 876,
+   "content_len": 5576
+  },
+  {
+   "rank": 17,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/differents-postes-prejudice-corporel/prejudice-corporel-victime-directe/prejudice-esthetique-temporaire",
+   "title": "Préjudice esthétique temporaire - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France vous accompagne pour évaluer et défendre votre préjudice esthétique temporaire.",
+   "headers": [
+    [
+     "h1",
+     "Préjudice esthétique temporaire"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Préjudice esthétique temporaire : comment est-il indemnisé ?"
+    ],
+    [
+     "h2",
+     "Préjudice esthétique temporaire : définition"
+    ],
+    [
+     "h2",
+     "Préjudice esthétique temporaire suite à un accident de la route explications"
+    ]
+   ],
+   "content_score": 42,
+   "readability": 28,
+   "word_count": 2173,
+   "content_len": 14174
+  },
+  {
+   "rank": 18,
+   "url": "https://www.indemnisationprejudice.fr/indemnisation-prejudice-esthetique/",
+   "title": "Indemnisation : Indemnisation du préjudice esthétique - Indemnisation Préjudice Corporel",
+   "desc": "Indemnisation du préjudice esthétique - Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "L’indemnisation du préjudice esthétique"
+    ]
+   ],
+   "content_score": 30,
+   "readability": 23,
+   "word_count": 554,
+   "content_len": 3911
+  },
+  {
+   "rank": 19,
+   "url": "https://www.justifit.fr/b/guides/droit-sante/prejudice-esthetique-indemnisation-victimes-agression/",
+   "title": "Préjudice esthétique : l'indemnisation des victimes",
+   "desc": "À la suite d’une agression, il est légitime que vous soyez sous le choc des faits qui, parfois, peuvent être violents. Toutefois, vous pouvez porter plainte et…",
+   "headers": [
+    [
+     "h1",
+     "Préjudice esthétique : l’indemnisation d’une victime d’agression"
+    ],
+    [
+     "h2",
+     "À RETENIR : Que faire pour être indemnisé pour un préjudice esthétique ?"
+    ],
+    [
+     "h2",
+     "L’apparence physique prise en compte dans le processus d’indemnisation d’un préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Posez un recours pour améliorer l’indemnisation d’un préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Le préjudice esthétique permanent et temporaire"
+    ],
+    [
+     "h2",
+     "Comment est évaluée l’indemnisation d’un préjudice esthétique ?"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 45,
+   "word_count": 1430,
+   "content_len": 9224
+  },
+  {
+   "rank": 20,
+   "url": "https://victime-info.fr/indemnisation/dossiers/differents-postes-prejudice-corporel/indemnisation-du-prejudice-esthetique",
+   "title": "Préjudice esthétique : barème, indemnisation et échelle de 0 à 7 | victime-info.fr",
+   "desc": "Guide complet sur le préjudice esthétique : barème de 0,5 à 7, indemnisation temporaire et permanente, montants indicatifs et conseils pour obtenir une juste réparation.",
+   "headers": [
+    [
+     "h1",
+     "Préjudice esthétique : barème, indemnisation et calcul de 0,5 à 7"
+    ],
+    [
+     "h2",
+     "Simulateur d’indemnisation du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que le préjudice esthétique ?"
+    ],
+    [
+     "h2",
+     "Le préjudice esthétique temporaire (PET)"
+    ],
+    [
+     "h2",
+     "Le préjudice esthétique permanent (PEP)"
+    ],
+    [
+     "h2",
+     "Comment le préjudice esthétique est-il évalué ?"
+    ],
+    [
+     "h2",
+     "Comment obtenir l’indemnisation du préjudice esthétique ?"
+    ],
+    [
+     "h2",
+     "Les différents barèmes et référentiels d’indemnisation"
+    ],
+    [
+     "h2",
+     "Les montants d’indemnisation selon l’échelle de 0,5 à 7"
+    ],
+    [
+     "h2",
+     "Contester le montant de l’indemnisation du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Exemples concrets d’indemnisation du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Questions de victimes"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur le préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Conclusion : faire valoir ses droits à l’indemnisation du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 33,
+   "word_count": 4252,
+   "content_len": 27982
+  },
+  {
+   "rank": 21,
+   "url": "https://maitre-morin-avocat.fr/accueil/indemnisation-prejudice-corporel-a-savoir/quels-sont-les-differents-prejudices-corporels/indemnisation-prejudice-esthetique/comment-evaluer-le-prejudice-esthetique",
+   "title": "Comment évaluer le préjudice esthétique ?",
+   "desc": "Découvrez avec Maître Oscar Morin comment évaluer le préjudice esthétique et défendre vos droits en cas de dommage corporel.",
+   "headers": [
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "❓ Comment évaluer le préjudice esthétique ? — les 3 questions les plus posées"
+    ],
+    [
+     "h1",
+     "Comment évaluer le préjudice esthétique ?"
+    ],
+    [
+     "h2",
+     "1) Deux volets à évaluer"
+    ],
+    [
+     "h2",
+     "2) L’échelle de cotation (0 à 7)"
+    ],
+    [
+     "h2",
+     "3) Critères concrets pris en compte"
+    ],
+    [
+     "h2",
+     "4) Preuves et éléments utiles"
+    ],
+    [
+     "h2",
+     "5) Valorisation financière (ordres de grandeur)"
+    ],
+    [
+     "h2",
+     "6) Articulation avec les autres postes"
+    ],
+    [
+     "h2",
+     "7) Erreurs fréquentes à éviter"
+    ],
+    [
+     "h2",
+     "8) Exemple rapide"
+    ],
+    [
+     "h2",
+     "9) Rôle de l’avocat et du médecin-conseil"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "Comment évaluer le préjudice esthétique ?  Sébastien M."
+    ]
+   ],
+   "content_score": 39,
+   "readability": 33,
+   "word_count": 2600,
+   "content_len": 17127
+  },
+  {
+   "rank": 22,
+   "url": "https://aide-victimes.fr/accident-route/prejudice-esthetique-calcul/",
+   "title": "Préjudice esthétique calcul – AFAV",
+   "desc": "Le préjudice esthétique temporaire et le préjudice esthétique permanent, calcul et chiffrage, rapport d'expertise",
+   "headers": [
+    [
+     "h1",
+     "Calcul du préjudice esthétique temporaire et préjudice esthétique permanent, calcul préjudice"
+    ],
+    [
+     "h2",
+     "Indemnisation du préjudice esthétique temporaire"
+    ],
+    [
+     "h2",
+     "Indemnisation du PE"
+    ],
+    [
+     "h2",
+     "Cotation médico-légale du préjudice esthétique"
+    ]
+   ],
+   "content_score": 33,
+   "readability": 52,
+   "word_count": 604,
+   "content_len": 3801
+  },
+  {
+   "rank": 23,
+   "url": "https://victime-info.fr/indemnisation/dossiers/differents-postes-prejudice-corporel/indemnisation-du-prejudice-esthetique/prejudice-esthetique-temporaire",
+   "title": "Préjudice esthétique temporaire : indemnisation, barème et calcul | victime-info.fr",
+   "desc": "Préjudice esthétique temporaire : définition, barème de 0,5 à 7/7, calcul de l'indemnisation et conseils pour contester l'offre de l'assureur.",
+   "headers": [
+    [
+     "h1",
+     "Préjudice esthétique temporaire : guide complet pour obtenir une juste indemnisation"
+    ],
+    [
+     "h2",
+     "Simulateur d’indemnisation des préjudices esthétiques"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que le préjudice esthétique temporaire ?"
+    ],
+    [
+     "h2",
+     "Différence entre préjudice esthétique temporaire et permanent"
+    ],
+    [
+     "h2",
+     "Comment le préjudice esthétique temporaire est-il évalué ?"
+    ],
+    [
+     "h2",
+     "Barèmes et montants indicatifs d’indemnisation du préjudice esthétique temporaire"
+    ],
+    [
+     "h2",
+     "Comment contester le montant de l’indemnisation du préjudice esthétique temporaire ?"
+    ],
+    [
+     "h2",
+     "Exemples concrets d’indemnisation du préjudice esthétique temporaire"
+    ],
+    [
+     "h2",
+     "Conseils pratiques pour maximiser l’indemnisation du préjudice esthétique temporaire"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur le préjudice esthétique temporaire"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Conclusion : ne pas négliger le préjudice esthétique temporaire"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 35,
+   "word_count": 3321,
+   "content_len": 21424
+  },
+  {
+   "rank": 24,
+   "url": "https://maitre-morin-avocat.fr/accueil/indemnisation-prejudice-corporel-a-savoir/quels-sont-les-differents-prejudices-corporels/indemnisation-prejudice-esthetique",
+   "title": "Indemnisation préjudice esthétique : quel calcul pour le chiffrer ?",
+   "desc": "Le poste de préjudice préjudice esthétique vise à indemniser l'aspect définitif du préjudice subi par la victime.",
+   "headers": [
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "❓ Préjudice esthétique — comment est-il indemnisé ? Les 3 questions les plus posées"
+    ],
+    [
+     "h1",
+     "Indemnisation du Préjudice Esthétique"
+    ],
+    [
+     "h2",
+     "1. Définition"
+    ],
+    [
+     "h2",
+     "2. Comment est-il évalué ?"
+    ],
+    [
+     "h2",
+     "3. Indemnisation"
+    ],
+    [
+     "h2",
+     "4. Exemple concret"
+    ],
+    [
+     "h2",
+     "5. Le rôle de l’avocat"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "Principe du préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Exemples de questions de victimes sur le préjudice esthétique"
+    ]
+   ],
+   "content_score": 58,
+   "readability": 38,
+   "word_count": 2476,
+   "content_len": 15720
+  },
+  {
+   "rank": 25,
+   "url": "https://hadrienmuller-avocat.com/prejudice-esthetique-definition/",
+   "title": "Préjudice esthétique - définition - Hadrien Muller",
+   "desc": "Préjudice esthétique définition. En matière de dommages corporels, le préjudice d'ordre esthétique peut être indemnisé. De quoi parle-t-on précisément ?",
+   "headers": [
+    [
+     "h2",
+     "Avocat spécialisé en préjudice corporel"
+    ],
+    [
+     "h2",
+     "Diplômé en évaluation des traumatismes crâniens"
+    ],
+    [
+     "h1",
+     "Préjudice esthétique – définition"
+    ],
+    [
+     "h2",
+     "Table des matières"
+    ],
+    [
+     "h2",
+     "Préjudice esthétique  définition"
+    ],
+    [
+     "h2",
+     "Nomenclature Dintilhac"
+    ],
+    [
+     "h2",
+     "Maître Hadrien MULLER"
+    ],
+    [
+     "h2",
+     "2 réponses"
+    ]
+   ],
+   "content_score": 25,
+   "readability": 29,
+   "word_count": 524,
+   "content_len": 3560
+  },
+  {
+   "rank": 26,
+   "url": "https://www.monindemnite.com/prejudice-esthetique/",
+   "title": "Préjudice esthétique - Définition & indemnisation - MonIndemnite",
+   "desc": "Le préjudice esthétique est un poste de préjudice. Lorsqu'il est reconnu, la victime peut en exiger une indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Préjudice esthétique"
+    ],
+    [
+     "h2",
+     "Préjudice esthétique def : qu’est-ce qu’un dommage esthétique ?"
+    ],
+    [
+     "h2",
+     "Préjudice esthétique indemnisation"
+    ],
+    [
+     "h2",
+     "Quel barème pour un dommage esthétique ?"
+    ],
+    [
+     "h2",
+     "Pour résumer"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 39,
+   "word_count": 849,
+   "content_len": 5526
+  },
+  {
+   "rank": 27,
+   "url": "https://aide-victimes.fr/accident-route/prejudice-esthetique-temporaire/",
+   "title": "Préjudice esthétique temporaire – AFAV",
+   "desc": "L'indemnisation du préjudice esthétique temporaire comme poste extra-patrimonial avant la consolidation, Nomenclature Dintilhas",
+   "headers": [
+    [
+     "h1",
+     "Préjudice esthétique temporaire"
+    ],
+    [
+     "h2",
+     "Préjudice esthétique temporaire définition"
+    ]
+   ],
+   "content_score": 26,
+   "readability": 37,
+   "word_count": 499,
+   "content_len": 3296
+  },
+  {
+   "rank": 28,
+   "url": "https://maitre-morin-avocat.fr/accueil/indemnisation-prejudice-corporel-a-savoir/quels-sont-les-differents-prejudices-corporels/prejudice-esthetique-temporaire",
+   "title": "Préjudice esthétique temporaire : qu'est-ce que ce poste de préjudice ?",
+   "desc": "C’est un poste important pour les victimes pour lesquelles on est obligé de différer les interventions de chirurgie esthétique",
+   "headers": [
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "❓ Préjudice esthétique temporaire — définition, preuves, chiffrage, exemples pratiques"
+    ],
+    [
+     "h1",
+     "Qu’est-ce que le Préjudice Esthétique Temporaire ?"
+    ],
+    [
+     "h2",
+     "1. Définition"
+    ],
+    [
+     "h2",
+     "2. Exemples concrets"
+    ],
+    [
+     "h2",
+     "3. Comment est-il évalué ?"
+    ],
+    [
+     "h2",
+     "4. Distinction avec le Préjudice Esthétique Permanent"
+    ],
+    [
+     "h2",
+     "5. Indemnisation"
+    ],
+    [
+     "h2",
+     "6. Exemple concret"
+    ],
+    [
+     "h2",
+     "7. Rôle de l’avocat"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "Principe du préjudice esthétique temporaire"
+    ],
+    [
+     "h2",
+     "Exemples de questions de victimes sur le préjudice esthétique temporaire"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 31,
+   "word_count": 2119,
+   "content_len": 14127
+  },
+  {
+   "rank": 29,
+   "url": "https://victime-info.fr/indemnisation/dossiers/differents-postes-prejudice-corporel/indemnisation-du-prejudice-esthetique/prejudice-esthetique-permanent",
+   "title": "Préjudice esthétique permanent : indemnisation, barème et calcul | victime-info.fr",
+   "desc": "Préjudice esthétique permanent : définition, évaluation de 0,5 à 7/7, barèmes d'indemnisation, exemples chiffrés et conseils pour obtenir une juste réparation.",
+   "headers": [
+    [
+     "h1",
+     "Préjudice esthétique permanent : guide complet pour comprendre et obtenir une juste indemnisation"
+    ],
+    [
+     "h2",
+     "Sommaire"
+    ],
+    [
+     "h2",
+     "Simulateur d’indemnisation du préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que le préjudice esthétique permanent ?"
+    ],
+    [
+     "h2",
+     "Différence entre préjudice esthétique temporaire et préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Comment est évalué le préjudice esthétique permanent ?"
+    ],
+    [
+     "h2",
+     "Procédure d’indemnisation du préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Barèmes et montants d’indemnisation du préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Contester le montant de l’indemnisation du préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Exemples concrets d’indemnisation du préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Conseils pratiques pour maximiser l’indemnisation du préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur le préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Conclusion : faire valoir ses droits en matière de préjudice esthétique permanent"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Découvrez les pages les plus visitées"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 30,
+   "word_count": 3889,
+   "content_len": 25698
+  },
+  {
+   "rank": 30,
+   "url": "https://hadrienmuller-avocat.com/dommage-corporel-avez-vous-droit-a-une-indemnisation-au-titre-du-prejudice-esthetique-temporaire/",
+   "title": "préjudice esthétique : les indemnisations ? - Hadrien Muller",
+   "desc": "Préjudice esthétique temporaire (PET) : avez-vous droit à une indemnisation au titre de ce préjudice après votre accident ? Vérifiez ici.",
+   "headers": [
+    [
+     "h2",
+     "Avocat spécialisé en préjudice corporel"
+    ],
+    [
+     "h2",
+     "Diplômé en évaluation des traumatismes crâniens"
+    ],
+    [
+     "h1",
+     "Dommage corporel : avez-vous droit à une indemnisation au titre du préjudice esthétique temporaire ?"
+    ],
+    [
+     "h2",
+     "Table des matières"
+    ],
+    [
+     "h2",
+     "Préjudice esthétique temporaire : d’où vient cette notion ?"
+    ],
+    [
+     "h2",
+     "Nomenclature Dintilhac"
+    ],
+    [
+     "h2",
+     "Ce que le rapport dit du préjudice esthétique temporaire"
+    ],
+    [
+     "h2",
+     "Avant consolidation"
+    ],
+    [
+     "h2",
+     "Concrètement, de quoi s’agit-il en général ?"
+    ],
+    [
+     "h2",
+     "Poser les bonnes questions"
+    ],
+    [
+     "h2",
+     "L‘aide de la jurisprudence"
+    ],
+    [
+     "h2",
+     "Maîtriser le langage médical"
+    ],
+    [
+     "h2",
+     "Maître Hadrien MULLER"
+    ]
+   ],
+   "content_score": 42,
+   "readability": 28,
+   "word_count": 1406,
+   "content_len": 8436
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1006,
+   "target": 1006
+  },
+  "readability": {
+   "median": 30,
+   "target": 30
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "préjudice esthétique",
+    "usage_pc": 100
+   },
+   {
+    "t": "esthétique",
+    "usage_pc": 100
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 50
+   },
+   {
+    "t": "barème",
+    "usage_pc": 30
+   },
+   {
+    "t": "préjudice esthétique permanent",
+    "usage_pc": 20
+   },
+   {
+    "t": "barème et indemnisation",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "préjudice esthétique",
+    "usage_pc": 90
+   },
+   {
+    "t": "esthétique",
+    "usage_pc": 90
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 40
+   },
+   {
+    "t": "barème",
+    "usage_pc": 40
+   },
+   {
+    "t": "préjudice esthétique permanent",
+    "usage_pc": 30
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 30
+   },
+   {
+    "t": "évaluation",
+    "usage_pc": 30
+   },
+   {
+    "t": "préjudice esthétique temporaire",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation du préjudice esthétique",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "préjudice esthétique",
+    "usage_pc": 100
+   },
+   {
+    "t": "esthétique",
+    "usage_pc": 100
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "préjudice esthétique permanent",
+    "usage_pc": 20
+   },
+   {
+    "t": "préjudice esthétique temporaire",
+    "usage_pc": 10
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation du préjudice esthétique",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "barème",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "calcul du préjudice esthétique",
+    "usage_pc": 10
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "préjudice esthétique temporaire et permanent",
+    "usage_pc": 10
+   },
+   {
+    "t": "indicatif",
+    "usage_pc": 10
+   },
+   {
+    "t": "calcul préjudice esthétique",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "préjudice esthétique",
+    "usage_pc": 90
+   },
+   {
+    "t": "esthétique",
+    "usage_pc": 90
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 80
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 70
+   },
+   {
+    "t": "préjudice esthétique temporaire",
+    "usage_pc": 50
+   },
+   {
+    "t": "barème",
+    "usage_pc": 40
+   },
+   {
+    "t": "préjudice esthétique permanent",
+    "usage_pc": 30
+   },
+   {
+    "t": "indemnisation du préjudice esthétique",
+    "usage_pc": 30
+   },
+   {
+    "t": "évaluation",
+    "usage_pc": 30
+   },
+   {
+    "t": "évaluer",
+    "usage_pc": 30
+   },
+   {
+    "t": "calcul du préjudice esthétique",
+    "usage_pc": 30
+   },
+   {
+    "t": "apparence",
+    "usage_pc": 20
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "évaluation du préjudice esthétique",
+    "usage_pc": 20
+   },
+   {
+    "t": "préjudice esthétique temporaire et permanent",
+    "usage_pc": 20
+   },
+   {
+    "t": "évaluation du préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "les autres postes de préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "juste indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "médecin expert",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "apparence physique",
+    "usage_pc": 10
+   },
+   {
+    "t": "consolidation",
+    "usage_pc": 10
+   },
+   {
+    "t": "jurisprudence",
+    "usage_pc": 10
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 10
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "indicatif",
+    "usage_pc": 10
+   },
+   {
+    "t": "évaluer le préjudice esthétique",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation préjudice esthétique",
+    "usage_pc": 10
+   },
+   {
+    "t": "barème indicatif",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "préjudice esthétique",
+    "usage_pc": 100,
+    "sugg_usage": [
+     8,
+     36
+    ]
+   },
+   {
+    "t": "esthétique",
+    "usage_pc": 100,
+    "sugg_usage": [
+     11,
+     43
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     6,
+     17
+    ]
+   },
+   {
+    "t": "préjudice esthétique permanent",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "préjudice esthétique temporaire",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 100,
+    "sugg_usage": [
+     7,
+     25
+    ]
+   },
+   {
+    "t": "cicatrice",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     17
+    ]
+   },
+   {
+    "t": "indemnisation du préjudice esthétique",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     12
+    ]
+   },
+   {
+    "t": "apparence",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     6
+    ]
+   },
+   {
+    "t": "barème",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "évaluation",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "médecin expert",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "évaluer",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     5
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "apparence physique",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "nomenclature dintilhac",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "consolidation",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "altération",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déformation",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "jurisprudence",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indicatif",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "brûlure",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "âge de la victime",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "calcul du préjudice esthétique",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "évaluation du préjudice esthétique",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "préjudice esthétique temporaire et permanent",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "évaluation du préjudice",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "échelle de 1 à 7",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "barème et indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes de france",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "chirurgie esthétique",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "évaluer le préjudice esthétique",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "souffrances endurées",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemnisation préjudice esthétique",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice d’agrément",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir un montant d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "apparence physique d’une victime",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant de l’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "calcul préjudice esthétique",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déficit fonctionnel permanent",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "préjudice moral",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "type de préjudice",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "après la consolidation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "avocat spécialisé en dommage corporel",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation de son préjudice esthétique",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation spécifique",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "barème indicatif",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "quelle indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "persistent après la consolidation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les autres postes de préjudice",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "degré de préjudice",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "sociale de la victime",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "temporaire ou permanente",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "juste indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "réparation du préjudice",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cicatrice sur le visage",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice esthétique fait partie",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "association d'aide aux victimes",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice esthétique temporaire concerne",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice esthétique peut",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Esthétique",
+    "importance": 66.43,
+    "relevance": 0.6643000000000001,
+    "confidence": 3.7714,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Esthétique"
+     ]
+    ]
+   },
+   {
+    "t": "Dintilhac",
+    "importance": 6.2784,
+    "relevance": 0.1744,
+    "confidence": 0.3,
+    "links": []
+   },
+   {
+    "t": "Assurance",
+    "importance": 5.9554871999999985,
+    "relevance": 0.1654302,
+    "confidence": 1.9368000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 4.776696,
+    "relevance": 0.132686,
+    "confidence": 1.078,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Physique",
+    "importance": 3.5524799999999996,
+    "relevance": 0.09867999999999999,
+    "confidence": 1.5394,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Physique"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 3.4860800000000003,
+    "relevance": 0.21788,
+    "confidence": 1.9707999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Jurisprudence",
+    "importance": 3.256704,
+    "relevance": 0.090464,
+    "confidence": 1.645,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Jurisprudence"
+     ]
+    ]
+   },
+   {
+    "t": "PEP",
+    "importance": 3.204160000000001,
+    "relevance": 0.20026000000000002,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "PET",
+    "importance": 3.0672,
+    "relevance": 0.1917,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 2.9555200000000004,
+    "relevance": 0.18472,
+    "confidence": 2.3922,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Cicatrice",
+    "importance": 2.1423999999999994,
+    "relevance": 0.1339,
+    "confidence": 1.0018799999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cicatrice"
+     ]
+    ]
+   },
+   {
+    "t": "Corps humain",
+    "importance": 1.124064,
+    "relevance": 0.070254,
+    "confidence": 0.8734,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Corps_humain"
+     ]
+    ]
+   },
+   {
+    "t": "Expertise médicale",
+    "importance": 1.0316800000000004,
+    "relevance": 0.06448000000000001,
+    "confidence": 0.47379999999999994,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Expertise_médicale"
+     ]
+    ]
+   },
+   {
+    "t": "Brûlure",
+    "importance": 0.710752,
+    "relevance": 0.044422,
+    "confidence": 2.1239999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Brûlure"
+     ]
+    ]
+   },
+   {
+    "t": "AIVF",
+    "importance": 0.51712,
+    "relevance": 0.12928,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Association AIVF",
+    "importance": 0.5035999999999999,
+    "relevance": 0.12589999999999998,
+    "confidence": 0.1,
+    "links": []
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "préjudice esthétique\nesthétique\nindemnisation\nbarème\npréjudice esthétique permanent\nbarème et indemnisation",
+  "desc_title": "préjudice esthétique\nesthétique\nindemnisation\nbarème\npréjudice esthétique permanent\nles préjudices\névaluation\npréjudice esthétique temporaire\nindemnisation du préjudice esthétique",
+  "h1": "préjudice esthétique\nesthétique\nindemnisation\npréjudice esthétique permanent\npréjudice esthétique temporaire\nles préjudices\nindemnisation du préjudice esthétique\naccident\nbarème\nindemniser\ncalcul du préjudice esthétique\nposte de préjudice\npréjudice esthétique temporaire et permanent\nindicatif\ncalcul préjudice esthétique",
+  "h2": "préjudice esthétique\nesthétique\nindemnisation\nles préjudices\npréjudice esthétique temporaire\nbarème\npréjudice esthétique permanent\nindemnisation du préjudice esthétique\névaluation\névaluer\ncalcul du préjudice esthétique\napparence\nposte de préjudice\névaluation du préjudice esthétique\npréjudice esthétique temporaire et permanent\névaluation du préjudice\nles autres postes de préjudice\njuste indemnisation\naccident\nmédecin expert\nindemniser\napparence physique\nconsolidation\njurisprudence\nassureur\ndommage corporel\nindicatif\névaluer le préjudice esthétique\nindemnisation préjudice esthétique\nbarème indicatif",
+  "content_basic": "préjudice esthétique\nesthétique\nindemnisation\npréjudice esthétique permanent\npréjudice esthétique temporaire\nles préjudices\ncicatrice\nindemnisation du préjudice esthétique\naccident\napparence\nbarème\névaluation\nmédecin expert\nexpertise\névaluer\nindemniser\napparence physique\nnomenclature dintilhac\nconsolidation\nexpertise médicale\naltération\nobtenir une indemnisation\ndéformation\njurisprudence\nassureur\ndommage corporel\nindicatif\naccident de la route\nbrûlure\nâge de la victime",
+  "content_basic_w_ranges": "préjudice esthétique: 8-36x\nesthétique: 11-43x\nindemnisation: 6-17x\npréjudice esthétique permanent: 1-7x\npréjudice esthétique temporaire: 1-5x\nles préjudices: 7-25x\ncicatrice: 1-17x\nindemnisation du préjudice esthétique: 1-2x\naccident: 2-12x\napparence: 2-6x\nbarème: 1-2x\névaluation: 1-6x\nmédecin expert: 1-7x\nexpertise: 1-4x\névaluer: 2-5x\nindemniser: 1-7x\napparence physique: 1-4x\nnomenclature dintilhac: 1-2x\nconsolidation: 1-4x\nexpertise médicale: 1-2x\naltération: 1-4x\nobtenir une indemnisation: 1x\ndéformation: 1-2x\njurisprudence: 1-2x\nassureur: 1-3x\ndommage corporel: 1-2x\nindicatif: 1-4x\naccident de la route: 1-3x\nbrûlure: 1-2x\nâge de la victime: 1x",
+  "content_extended": "calcul du préjudice esthétique\nposte de préjudice\névaluation du préjudice esthétique\npréjudice corporel\npréjudice esthétique temporaire et permanent\névaluation du préjudice\néchelle de 1 à 7\nbarème et indemnisation\nvictimes de france\nchirurgie esthétique\névaluer le préjudice esthétique\nsouffrances endurées\nindemnisation préjudice esthétique\npréjudice d’agrément\nobtenir un montant d’indemnisation\napparence physique d’une victime\nmontant de l’indemnisation\ncalcul préjudice esthétique\ndéficit fonctionnel permanent\navocat spécialisé\npréjudice moral\ntype de préjudice\naprès la consolidation\navocat spécialisé en dommage corporel\nindemnisation de son préjudice esthétique\nindemnisation spécifique\nêtre indemnisé\nbarème indicatif\nquelle indemnisation\ndroit à indemnisation\npersistent après la consolidation\nles autres postes de préjudice\ndegré de préjudice\nsociale de la victime\ntemporaire ou permanente\njuste indemnisation\nréparation du préjudice\ncicatrice sur le visage\npréjudice esthétique fait partie\nassociation d'aide aux victimes\npréjudice esthétique temporaire concerne\npréjudice esthétique peut",
+  "content_extended_w_ranges": "calcul du préjudice esthétique: 1x\nposte de préjudice: 1-2x\névaluation du préjudice esthétique: 1x\npréjudice corporel: 1-2x\npréjudice esthétique temporaire et permanent: 1x\névaluation du préjudice: 1-2x\néchelle de 1 à 7: 1x\nbarème et indemnisation: 1x\nvictimes de france: 1x\nchirurgie esthétique: 1x\névaluer le préjudice esthétique: 1x\nsouffrances endurées: 1-2x\nindemnisation préjudice esthétique: 1x\npréjudice d’agrément: 1x\nobtenir un montant d’indemnisation: 1x\napparence physique d’une victime: 1x\nmontant de l’indemnisation: 1x\ncalcul préjudice esthétique: 1x\ndéficit fonctionnel permanent: 1-2x\navocat spécialisé: 1-3x\npréjudice moral: 1x\ntype de préjudice: 1x\naprès la consolidation: 1-2x\navocat spécialisé en dommage corporel: 1x\nindemnisation de son préjudice esthétique: 1x\nindemnisation spécifique: 1x\nêtre indemnisé: 1x\nbarème indicatif: 1x\nquelle indemnisation: 1x\ndroit à indemnisation: 1x\npersistent après la consolidation: 1x\nles autres postes de préjudice: 1x\ndegré de préjudice: 1x\nsociale de la victime: 1x\ntemporaire ou permanente: 1x\njuste indemnisation: 1x\nréparation du préjudice: 1x\ncicatrice sur le visage: 1x\npréjudice esthétique fait partie: 1x\nassociation d'aide aux victimes: 1x\npréjudice esthétique temporaire concerne: 1x\npréjudice esthétique peut: 1x",
+  "entities": "Esthétique\nDintilhac\nAssurance\nMédecin\nPhysique\nDommage corporel\nJurisprudence\nPEP\nPET\nAccident de la route\nCicatrice\nCorps humain\nExpertise médicale\nBrûlure\nAIVF\nAssociation AIVF"
+ },
+ "status": "ready",
+ "keyword": "indemnisation prejudice esthetique",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "bf1339dc900c6278",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0
+  },
+  "top_content_type": "educational",
+  "content_type_stats": {
+   "guide": 40.0,
+   "educational": 86.7,
+   "tool": 3.3,
+   "blog-post": 26.7,
+   "business": 20.0,
+   "landing-page": 13.3,
+   "short-answer": 13.3
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/bf1339dc900c6278",
+ "share_url": "https://app.neuronwriter.com/analysis/share/bf1339dc900c6278/7f5df4f803eb0838c8f26bc5da567ce74fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/bf1339dc900c6278/2b095165bef43422d6be9718149561a94fa16"
+}

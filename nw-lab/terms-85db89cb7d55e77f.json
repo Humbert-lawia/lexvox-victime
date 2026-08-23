@@ -1,0 +1,2666 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quelle est l'indemnisation en cas de délit de fuite ?"
+   },
+   {
+    "q": "Le FGAO est-il responsable du délit de fuite ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   },
+   {
+    "q": "Quel est le plafond d'indemnisation par le FGAO pour les dommages aux biens ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quelle est l'indemnisation en cas de délit de fuite et qui paie ?": {
+    "importance": 10
+   },
+   "Le FGAO est-il responsable de l'indemnisation en cas de délit de fuite ?": {
+    "importance": 10
+   },
+   "Quels sont les préjudices indemnisés par le FGAO en cas de délit de fuite ?": {
+    "importance": 9
+   },
+   "Quel est le plafond d'indemnisation par le FGAO pour les dommages aux biens ?": {
+    "importance": 9
+   },
+   "Qu'est-ce que le FGAO et dans quels cas intervient-il ?": {
+    "importance": 8
+   },
+   "Comment faire une demande d'indemnisation auprès du FGAO après un délit de fuite ?": {
+    "importance": 8
+   },
+   "Quels sont les délais pour saisir le FGAO ?": {
+    "importance": 7
+   },
+   "Que faire si l'auteur du délit de fuite est retrouvé après une indemnisation par le FGAO ?": {
+    "importance": 7
+   },
+   "Le FGAO peut-il refuser ou réduire l'indemnisation ?": {
+    "importance": 6
+   },
+   "Faut-il un avocat pour saisir le FGAO ?": {
+    "importance": 6
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Assurance auto : l'accident avec un animal sauvage est-il indemnisé ?"
+   },
+   {
+    "q": "Auteur en fuite, non identifié : comment être indemnisé ?"
+   },
+   {
+    "q": "Besoin d'un accompagnement pour un recours contre le FGAO ?"
+   },
+   {
+    "q": "Cependant, que faire lorsque le responsable n’est pas identifié ou que celui-ci se rend coupable d’un délit de fuite ?"
+   },
+   {
+    "q": "Combien de temps dure l'enquête après un délit de fuite ?"
+   },
+   {
+    "q": "Combien de temps faut-il pour recevoir une indemnisation du FGAO ?"
+   },
+   {
+    "q": "Comment faire appel au FGAO ?"
+   },
+   {
+    "q": "Comment faire valoir ses droits, notamment auprès du FGAO pour un accident de la circulation ?"
+   },
+   {
+    "q": "Comment faut-il faire la demande d'indemnisation auprès du FGAO ?"
+   },
+   {
+    "q": "Comment le FGAO indemnise-t-il les dommages ?"
+   },
+   {
+    "q": "Comment obtenir réparation quand il n’y a aucun assureur en face ?"
+   },
+   {
+    "q": "Dans quelles situations le Fonds de garantie des assurances obligatoires de dommages (FGAO) peut-il intervenir pour indemniser les victimes ?"
+   },
+   {
+    "q": "Dans quels cas le FGAO n’intervient pas ?"
+   },
+   {
+    "q": "Dans quels cas le FGAO peut-il réduire ou refuser l’indemnisation ?"
+   },
+   {
+    "q": "Délit de fuite : comment obtenir une indemnisation quand l'auteur de l'accident n'est pas identifié ?"
+   },
+   {
+    "q": "Est-ce que je peux être indemnisé ?"
+   },
+   {
+    "q": "FGAO : quelles indemnisations pour les victimes ?"
+   },
+   {
+    "q": "FGAO, de quoi s’agit-il ?"
+   },
+   {
+    "q": "Faut-il un avocat pour saisir le FGAO ?"
+   },
+   {
+    "q": "Indemnisation : qui paie en cas de délit de fuite ?"
+   },
+   {
+    "q": "J'ai des témoins du délit de fuite — cela m'aide-t-il ?"
+   },
+   {
+    "q": "Je souhaite savoir si je dois me faire assister par un médecin-conseil, quel en serait le coût, et qui indemnisera l’accident de la circulation, le FGAO ou l’assurance ?"
+   },
+   {
+    "q": "Le FGAO indemnise-t-il les dommages matériels ?"
+   },
+   {
+    "q": "Le FGAO indemnise-t-il les dommages matériels après un délit de fuite ?"
+   },
+   {
+    "q": "Le FGAO peut-il refuser d'indemniser une victime ?"
+   },
+   {
+    "q": "Le Fonds de Garantie : victimes d'accidents, comment être indemnisé ?"
+   },
+   {
+    "q": "Le conducteur responsable a pris la fuite et reste introuvable ?"
+   },
+   {
+    "q": "Le fonds d’indemnisation en danger ?"
+   },
+   {
+    "q": "Les assurances voyage ou annulation sont-elles des options utiles à prendre ?"
+   },
+   {
+    "q": "Louer une voiture pour des vacances ou un week-end : quelle assurance ?"
+   },
+   {
+    "q": "Peut-on contester la décision du FGAO ?"
+   },
+   {
+    "q": "Peut-on être indemnisé sans aucun témoin ni vidéo ?"
+   },
+   {
+    "q": "Pour mesurer la différence chiffrée : avocat ou pas avocat après un accident corporel ?"
+   },
+   {
+    "q": "Pour quel type d'accident le FGAO peut-il intervenir ?"
+   },
+   {
+    "q": "Qu'est-ce que le Fonds de garantie des assurances obligatoires de dommages (FGAO) ?"
+   },
+   {
+    "q": "Quand faut-il faire la demande d'indemnisation auprès du FGAO ?"
+   },
+   {
+    "q": "Que couvre le FGAO ?"
+   },
+   {
+    "q": "Que faire en tant que victime d'un délit de fuite ?"
+   },
+   {
+    "q": "Que faire si vous êtes victime d’un délit de fuite ?"
+   },
+   {
+    "q": "Que risque-t-on vraiment en conduisant sans assurance ?"
+   },
+   {
+    "q": "Que se passe-t-il si je suis victime d’un accident causé par un conducteur qui prend la fuite ou qui n’est pas assuré ?"
+   },
+   {
+    "q": "Que se passe-t-il si le fuyard est retrouvé après que le FGAO m'a indemnisé ?"
+   },
+   {
+    "q": "Quel délai pour saisir le FGAO après un délit de fuite ?"
+   },
+   {
+    "q": "Quel est le délai pour saisir le FGAO après un délit de fuite ?"
+   },
+   {
+    "q": "Quelle est la procédure après un délit de fuite ?"
+   },
+   {
+    "q": "Quelles sont les autres conséquences d'un délit de fuite ?"
+   },
+   {
+    "q": "Quelles sont les sanctions et la peine encourue pour un délit de fuite ?"
+   },
+   {
+    "q": "Quelles sont les victimes pouvant saisir le FGAO ?"
+   },
+   {
+    "q": "Quels sont les premiers réflexes à avoir et quelle est la marche à suivre pour se faire indemniser ?"
+   },
+   {
+    "q": "Quels textes de loi régissent le FGAO ?"
+   },
+   {
+    "q": "Qui saisit le FGAO ?"
+   },
+   {
+    "q": "Qu’est ce que le FGAO ?"
+   },
+   {
+    "q": "Qu’est-ce que le FGAO et quel est son rôle ?"
+   },
+   {
+    "q": "Un accident sans contact est-il traité comme un délit de fuite ?"
+   },
+   {
+    "q": "Victime d'un délit de fuite ?"
+   },
+   {
+    "q": "Voir comment se passe l’indemnisation des victimes ?"
+   },
+   {
+    "q": "Vous êtes victime d’un accident et le conducteur impliqué s’est enfui ?"
+   },
+   {
+    "q": "⚖️ Qu’est-ce que le FGAO ?"
+   },
+   {
+    "q": "⚠️ Attention — FGAO ou FGTI ?"
+   },
+   {
+    "q": "👥 Qui peut être indemnisé par le FGAO ?"
+   },
+   {
+    "q": "💰 Comment le FGAO indemnise-t-il les victimes ?"
+   },
+   {
+    "q": "📌 Dans quels cas le FGAO intervient-il ?"
+   },
+   {
+    "q": "📝 Comment saisir le FGAO ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.generali.fr/actu/que-faire-victime-delit-fuite/",
+   "title": "Que faire si vous êtes victime d’un délit de fuite ?",
+   "desc": "Vous êtes victime d’un accident et le conducteur impliqué s’est enfui ? Voici les premiers réflexes et les démarches pour se faire indemniser.",
+   "headers": [
+    [
+     "h1",
+     "Que faire si vous êtes victime d’un délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Vous êtes victime d’un accident et le conducteur impliqué s’est enfui ? Quels sont les premiers réflexes à avoir et quelle est la marche à suivre pour se faire indemniser ?"
+    ],
+    [
+     "h2",
+     "Nos solutions"
+    ],
+    [
+     "h2",
+     "Actualités"
+    ]
+   ],
+   "content_score": 45,
+   "readability": 39,
+   "word_count": 1170,
+   "content_len": 7288
+  },
+  {
+   "rank": 2,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2679",
+   "title": "Accident de la route : indemnisation par le Fonds de garantie des victimes | Service Public",
+   "desc": "Le FGAO indemnise les victimes d’accidents de la circulation dont les responsables sont inconnus ou non assurés.",
+   "headers": [
+    [
+     "h1",
+     "Accident de la route : indemnisation par le Fonds de garantie des victimes"
+    ],
+    [
+     "h2",
+     "Qu'est-ce que le Fonds de garantie des assurances obligatoires de dommages (FGAO) ?"
+    ],
+    [
+     "h2",
+     "Pour quel type d'accident le FGAO peut-il intervenir ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les victimes pouvant saisir le FGAO ?"
+    ],
+    [
+     "h2",
+     "Dans quels cas le FGAO peut-il réduire ou refuser l’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Dans quels cas le FGAO n’intervient pas ?"
+    ],
+    [
+     "h2",
+     "Quand faut-il faire la demande d'indemnisation auprès du FGAO ?"
+    ],
+    [
+     "h2",
+     "Comment faut-il faire la demande d'indemnisation auprès du FGAO ?"
+    ],
+    [
+     "h2",
+     "Comment le FGAO indemnise-t-il les dommages ?"
+    ],
+    [
+     "h2",
+     "Peut-on contester la décision du FGAO ?"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Services en ligne et formulaires"
+    ],
+    [
+     "h2",
+     "Questions ? Réponses !"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 58,
+   "readability": 25,
+   "word_count": 3022,
+   "content_len": 18841
+  },
+  {
+   "rank": 3,
+   "url": "https://www.ornikar.com/assurance-auto/indemnisation/encadrement/fgao",
+   "title": "FGAO : quelles indemnisations pour les victimes ? - Ornikar",
+   "desc": "Tout savoir sur le Fonds de garantie des assurances obligatoires de dommages et sur les indemnisations des victimes, pour être bien couvert avec Ornikar.",
+   "headers": [
+    [
+     "h1",
+     "Qu’est ce que le FGAO ?"
+    ],
+    [
+     "h2",
+     "FGAO, de quoi s’agit-il ?"
+    ],
+    [
+     "h2",
+     "Les différents cas spécifiques"
+    ],
+    [
+     "h2",
+     "Comment faire appel au FGAO ?"
+    ],
+    [
+     "h2",
+     "Quels textes de loi régissent le FGAO ?"
+    ],
+    [
+     "h2",
+     "Nos conseils d'experts"
+    ]
+   ],
+   "content_score": 48,
+   "readability": 34,
+   "word_count": 1187,
+   "content_len": 7389
+  },
+  {
+   "rank": 4,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/indemnisation-accident-de-la-route/fgao",
+   "title": "FGAO : Fonds de Garantie des Assurances Obligatoires - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France vous guide dans vos démarches avec le Fonds de Garantie des Assurances Obligatoires.",
+   "headers": [
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h1",
+     "FGAO – Fonds de Garantie des Assurances Obligatoires"
+    ],
+    [
+     "h2",
+     "🔎 À retenir – L’essentiel sur le FGAO"
+    ],
+    [
+     "h2",
+     "⚖️ Qu’est-ce que le FGAO ?"
+    ],
+    [
+     "h2",
+     "📌 Dans quels cas le FGAO intervient-il ?"
+    ],
+    [
+     "h2",
+     "👥 Qui peut être indemnisé par le FGAO ?"
+    ],
+    [
+     "h2",
+     "⏱️ Délais pour saisir le FGAO"
+    ],
+    [
+     "h2",
+     "💰 Comment le FGAO indemnise-t-il les victimes ?"
+    ],
+    [
+     "h2",
+     "📝 Comment saisir le FGAO ?"
+    ],
+    [
+     "h2",
+     "Adresses et coordonnées utiles."
+    ],
+    [
+     "h2",
+     "🧭 Rôle de l’AIVF dans les dossiers FGAO"
+    ],
+    [
+     "h2",
+     "❌ Exclusions fréquentes du FGAO"
+    ],
+    [
+     "h2",
+     "⚖️ Jurisprudence – Fonds de Garantie des Assurances Obligatoires"
+    ],
+    [
+     "h2",
+     "🎯 Conclusion – FGAO"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 48,
+   "word_count": 1048,
+   "content_len": 6527
+  },
+  {
+   "rank": 5,
+   "url": "https://jmp-avocat-indemnisation.fr/accident-voie-publique-delit-de-fuite-fgao-indemnisation.html",
+   "title": "Délit de fuite : indemnisation quand l'auteur est inconnu",
+   "desc": "Auteur en fuite, non identifié : comment être indemnisé ? Enquête, preuves, délai de 3 ans, FGAO et rôle de l'avocat. Guide complet pour les victimes.",
+   "headers": [
+    [
+     "h1",
+     "Délit de fuite : comment obtenir une indemnisation quand l'auteur de l'accident n'est pas identifié ?"
+    ],
+    [
+     "h2",
+     "Ce que dit la loi : définition pénale du délit de fuite"
+    ],
+    [
+     "h2",
+     "L'enquête de police : le moment le plus critique pour la victime"
+    ],
+    [
+     "h2",
+     "Auteur retrouvé ou non : deux parcours d'indemnisation"
+    ],
+    [
+     "h2",
+     "Le cas particulier de l'accident sans contact"
+    ],
+    [
+     "h2",
+     "Les difficultés pratiques face aux assureurs et au FGAO"
+    ],
+    [
+     "h2",
+     "Le traumatisme spécifique du délit de fuite : quand il n'y a personne en face"
+    ],
+    [
+     "h2",
+     "Cas concrets traités par le cabinet"
+    ],
+    [
+     "h2",
+     "Pourquoi l'avocat est indispensable dès les premières heures"
+    ],
+    [
+     "h2",
+     "Le cabinet JMP Avocat Indemnisation à votre service"
+    ],
+    [
+     "h2",
+     "FAQ"
+    ],
+    [
+     "h2",
+     "Bibliographie et références juridiques"
+    ]
+   ],
+   "content_score": 65,
+   "readability": 31,
+   "word_count": 3635,
+   "content_len": 22363
+  },
+  {
+   "rank": 6,
+   "url": "https://avf.fr/accident-de-la-route/fgao-conducteur-non-assure-en-fuite",
+   "title": "FGAO : indemnisation victime conducteur non assuré ou en fuite",
+   "desc": "Le FGAO indemnise les victimes d'accident de la route causé par un conducteur non assuré ou en fuite. Démarches, délais et recours expliqués.",
+   "headers": [
+    [
+     "h1",
+     "FGAO : obtenir une indemnisation face à un conducteur non assuré ou en fuite"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que le FGAO et quel est son rôle ?"
+    ],
+    [
+     "h2",
+     "Conditions d’intervention du FGAO pour un conducteur non assuré"
+    ],
+    [
+     "h2",
+     "Indemnisation par le FGAO en cas de délit de fuite (auteur inconnu)"
+    ],
+    [
+     "h2",
+     "Démarches pour saisir le FGAO après un accident"
+    ],
+    [
+     "h2",
+     "Délais à respecter pour saisir le FGAO"
+    ],
+    [
+     "h2",
+     "Contester l’offre du FGAO : les recours possibles"
+    ],
+    [
+     "h2",
+     "Cumul avec d’autres indemnisations"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Témoignages"
+    ],
+    [
+     "h2",
+     "Merci de votre confiance"
+    ]
+   ],
+   "content_score": 72,
+   "readability": 40,
+   "word_count": 2116,
+   "content_len": 13278
+  },
+  {
+   "rank": 7,
+   "url": "https://www.cabinet-courtillat.fr/accidents/delit-de-fuite.html",
+   "title": "Avocat Victime Délit de Fuite — FGAO & Indemnisation | Cabinet Courtillat Paris",
+   "desc": "Victime d'un délit de fuite ? Le FGAO vous indemnise même si le conducteur est inconnu. Maître Courtillat gère la procédure pour vous. Consultation gratuite.",
+   "headers": [
+    [
+     "h1",
+     "Victime d'un délit de fuite :le FGAO vous protège — nous gérons la procédure"
+    ],
+    [
+     "h2",
+     "Le FGAO : votre bouclier légal en cas de délit de fuite"
+    ],
+    [
+     "h2",
+     "Conditions d'intervention du FGAO"
+    ],
+    [
+     "h2",
+     "Ce que le FGAO indemnise"
+    ],
+    [
+     "h2",
+     "Si le conducteur est identifié après coup"
+    ],
+    [
+     "h2",
+     "Questions fréquentes"
+    ],
+    [
+     "h2",
+     "Votre situation mérite une analyse gratuite."
+    ],
+    [
+     "h2",
+     "Racontez-nousvotre situation."
+    ]
+   ],
+   "content_score": 67,
+   "readability": 49,
+   "word_count": 571,
+   "content_len": 3591
+  },
+  {
+   "rank": 8,
+   "url": "https://www.lelynx.fr/assurance-auto/sinistre/indemnisation/fond-garantie-assurance-obligatoire/",
+   "title": "lelynx.fr",
+   "desc": "",
+   "headers": [],
+   "content_score": 0,
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 9,
+   "url": "https://www.inc-conso.fr/content/assurance/le-fonds-de-garantie-victimes-daccidents-comment-etre-indemnise-avec-lalldc",
+   "title": "Le Fonds de Garantie : victimes d'accidents, comment être indemnisé ? avec l'ALLDC | Institut national de la consommation",
+   "desc": "Un accident de la route peut avoir des conséquences graves et les démarches d’indemnisation sont encore plus compliquées si le responsable n’est pas identifié ou s’il n’est pas assuré. Dans ces situations, le Fonds de Garantie des Assurances Obligatoires de dommages, ou FGAO, aide les victimes. Mais qui peut en bénéficier et comment faire la demande ?Le FGAO a été créé pour",
+   "headers": [
+    [
+     "h1",
+     "Le Fonds de Garantie : victimes d'accidents, comment être indemnisé ? avec l'ALLDC"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Partager cet article"
+    ],
+    [
+     "h2",
+     "Newsletters/Alertes"
+    ],
+    [
+     "h2",
+     "Contenus associés"
+    ],
+    [
+     "h2",
+     "Modèles de lettres"
+    ],
+    [
+     "h2",
+     "Vol d’une batterie de vélo : l’attache doit être conforme au contrat"
+    ],
+    [
+     "h2",
+     "Les assurances voyage ou annulation sont-elles des options utiles à prendre ?"
+    ],
+    [
+     "h2",
+     "Que risque-t-on vraiment en conduisant sans assurance ?"
+    ],
+    [
+     "h2",
+     "Intermédiaires en assurance, banque ou finance : ayez le réflexe Orias"
+    ],
+    [
+     "h2",
+     "Dossiers"
+    ]
+   ],
+   "content_score": 38,
+   "readability": 49,
+   "word_count": 439,
+   "content_len": 2738
+  },
+  {
+   "rank": 10,
+   "url": "https://association-aivf-faq.fr/accident-de-la-route-faq/indemnisation-accident-de-la-route/fgao-accident-de-la-circulation",
+   "title": "FGAO accident de la circulation - Association Victimes de France AIVF",
+   "desc": "FGAO accident de la circulation, voie publique, conditions d'indemnisation du dommage, délit de fuite, porter plainte, défaut d'assurance",
+   "headers": [
+    [
+     "h1",
+     "FGAO accident de la circulation"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant le FGAO et accident de la circulation"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 46,
+   "word_count": 1366,
+   "content_len": 8637
+  },
+  {
+   "rank": 11,
+   "url": "https://www.benezra-victimesdelaroute.fr/le-fonds-de-garantie-des-assurances-obligatoires-de-dommages-ou-fgao/",
+   "title": "Fonds de garantie des assurances obligatoires - FGAO",
+   "desc": "Avocats c/ FGAO ☎ 0145240040 - Fonds de garantie des assurances obligatoires indemnise la victime de la route",
+   "headers": [
+    [
+     "h1",
+     "LE FONDS DE GARANTIE DES ASSURANCES OBLIGATOIRES DE DOMMAGES (FGAO)"
+    ],
+    [
+     "h2",
+     "Qui est le FGAO, quand intervient le FGAO ? Comment le FGAO indemnise la victime de la route?"
+    ],
+    [
+     "h2",
+     "1° Le fonds de garantie des assurances obligatoires de dommages (FGAO)"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "2° Comment saisir le FGAO etet se faire indemniser ses préjudices ?"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 21,
+   "word_count": 934,
+   "content_len": 5515
+  },
+  {
+   "rank": 12,
+   "url": "https://www.roole.fr/qui-sommes-nous/coulisses/assurance-et-garanties/le-fgao-tout-sur-le-fonds-de-garantie-des-assurances-obligatoires",
+   "title": "Vercel Security Checkpoint",
+   "desc": "",
+   "headers": [],
+   "content_score": 0,
+   "readability": null,
+   "word_count": 14,
+   "content_len": 89
+  },
+  {
+   "rank": 13,
+   "url": "https://charles-tanguy-avocat-lyon.fr/accident-de-la-route-delit-de-fuite/",
+   "title": "Accident de la route et délit de fuite : comment se faire indemniser ?",
+   "desc": "Découvrez comment vous faire indemniser après un accident de la route, en cas de délit de fuite. En tant que victime, apprenez les démarches à suivre, la procédure FGAO, et comment un avocat spécialisé peut vous accompagner pour obtenir réparation des dommages corporels.",
+   "headers": [
+    [
+     "h1",
+     "Accident de la route et délit de fuite : comment se faire indemniser ?"
+    ],
+    [
+     "h2",
+     "Partagez cet article ➡️"
+    ],
+    [
+     "h2",
+     "1. La loi Badinter et l’indemnisation des victimes d’accident de la route"
+    ],
+    [
+     "h2",
+     "2. Le délit de fuite suite à un accident de la route : une situation complexe pour les victimes"
+    ],
+    [
+     "h2",
+     "3. Le rôle du FGAO dans l’indemnisation des victimes d’un accident de la route avec délit de fuite"
+    ],
+    [
+     "h2",
+     "4. La procédure d’indemnisation de l’accident de la route avec délit de fuite, par le FGAO"
+    ],
+    [
+     "h2",
+     "5. Les bons réflexes en cas d’accident de la route avec délit de fuite"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 25,
+   "word_count": 2136,
+   "content_len": 13251
+  },
+  {
+   "rank": 14,
+   "url": "https://www.largus.fr/forum-auto/defense-de-l-usager-assurance-automobile/indemnisation-suite-accident-non-responsable-auteur-en-delit-de-fuite-identite-et-non-assure/256298.html",
+   "title": "Indemnisation suite Accident non-responsable, auteur en délit de fuite identité et non assuré - Défense de l'usager - Assurance automobile - Auto Evasion | Forum Auto",
+   "desc": "Indemnisation suite Accident non-responsable, auteur en délit de fuite identité et non assuré, Forum defense de l usager assurance automobile Défense de l'usager - Assurance automobile",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation suite Accident non-responsable, auteur en délit de fuite identité et non assuré"
+    ]
+   ],
+   "content_score": 31,
+   "readability": 68,
+   "word_count": 18,
+   "content_len": 125
+  },
+  {
+   "rank": 15,
+   "url": "https://www.alagybret.com/details-l+indemnisation+par+le+fonds+de+garantie+des+assurances+obligatoires+fgao-3006",
+   "title": "L’indemnisation par le Fonds de Garantie des Assurances Obligatoires (FGAO) - Alagy Bret & Associés",
+   "desc": "Le FGAO indemnise les victimes d’accidents causés par des conducteurs non assurés. Un avocat peut aider à constituer un dossier solide et obtenir une indemnisation équitable en cas de litige.",
+   "headers": [
+    [
+     "h1",
+     "L’indemnisation par le Fonds de Garantie des Assurances Obligatoires (FGAO)"
+    ],
+    [
+     "h2",
+     "Quelles victimes peuvent être indemnisées ?"
+    ],
+    [
+     "h2",
+     "Quels préjudices sont pris en charge ?"
+    ],
+    [
+     "h2",
+     "Comment faire une demande d’indemnisation auprès du FGAO ?"
+    ],
+    [
+     "h2",
+     "Pourquoi faire appel à un avocat ?"
+    ],
+    [
+     "h2",
+     "Comment obtenir réparation des préjudices subis en cas d'accident de la circulation ? Contactez un avocat compétent en indemnisation des victimes à Lyon."
+    ],
+    [
+     "h2",
+     "Comment se faire indemniser suite à un accident de la circulation avec absence de contact ?"
+    ],
+    [
+     "h2",
+     "Contester l'offre d'indemnisation de l'assurance suite à un accident de la route : contactez un avocat à Lyon"
+    ],
+    [
+     "h2",
+     "Faut il déposer plainte lors d'un accident de la route à Lyon ?"
+    ]
+   ],
+   "content_score": 57,
+   "readability": 32,
+   "word_count": 915,
+   "content_len": 5675
+  },
+  {
+   "rank": 16,
+   "url": "https://cazals-rudebeck-avocats.fr/indemnisation-victimes-delit-de-fuite/",
+   "title": "L'indemnisation des victimes suite à un délit de fuite - CR Avocats",
+   "desc": "L'indemnisation des victimes suite à un délit de fuite est possible en saisissant le Fonds de garantie des assurances obligatoire.",
+   "headers": [
+    [
+     "h1",
+     "L’indemnisation des victimes suite à un délit de fuite"
+    ],
+    [
+     "h2",
+     "Nos autres actualités dans la catégorie \"Régime d'indemnisation\""
+    ],
+    [
+     "h2",
+     "Indemnisation suite à des blessures de la moelle épinière"
+    ],
+    [
+     "h2",
+     "Indemnisation du grand handicap: rôle de l’avocat spécialisé"
+    ],
+    [
+     "h2",
+     "Indemnisation : qu’est ce que la consolidation de l’état de santé ?"
+    ]
+   ],
+   "content_score": 38,
+   "readability": 26,
+   "word_count": 355,
+   "content_len": 2167
+  },
+  {
+   "rank": 17,
+   "url": "https://www.groupama.fr/assurance-auto/conseils/fonds-garantie-automobile/",
+   "title": "Fonds de garantie automobile : rôle et indemnisation",
+   "desc": "Découvrez ce qu'est le fonds de garantie automobile, appelé désormais FGAO. Vous comprendrez son rôle après un accident de la circulation.",
+   "headers": [
+    [
+     "h1",
+     "FGAO ou fonds de garantie automobile : comment ça marche ?"
+    ],
+    [
+     "h2",
+     "Qu'est-ce que le FGAO ?"
+    ],
+    [
+     "h2",
+     "Quels cas couvre le Fonds de garantie automobile ?"
+    ],
+    [
+     "h2",
+     "Comment est calculé le montant de l'indemnisation ?"
+    ],
+    [
+     "h2",
+     "Qui peut saisir le FGAO ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les démarches à faire pour être indemnisé ?"
+    ],
+    [
+     "h2",
+     "FAQ – Vos questions sur le FGAO"
+    ],
+    [
+     "h2",
+     "Découvrez notre offre d’assurance auto"
+    ],
+    [
+     "h2",
+     "Découvrez nos infos et conseils auto"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 32,
+   "word_count": 1912,
+   "content_len": 12050
+  },
+  {
+   "rank": 18,
+   "url": "https://association-aivf-faq.fr/accident-de-la-route-faq/loi-badinter/accident-route-delit-fuite",
+   "title": "Accident route délit fuite - Association Victimes de France AIVF",
+   "desc": "L'accident de la route avec délit de fuite, indemnisation du préjudice, Fonds de Garantie FGAO, questions de victimes",
+   "headers": [
+    [
+     "h1",
+     "Accident de la route et délit de fuite"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant l’accident de la route avec délit de fuite"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 40,
+   "word_count": 988,
+   "content_len": 6159
+  },
+  {
+   "rank": 19,
+   "url": "https://www.facebook.com/RomainAllongueAvocat/posts/le-saviez-vous-si-vous-subissez-un-d%C3%A9lit-de-fuite-lors-dun-accident-de-la-route-/1430509772199964/",
+   "title": "Le saviez-vous ?\nSi vous subissez... - Romain Allongue Avocat | Facebook",
+   "desc": "Le saviez-vous ?\nSi vous subissez un délit de fuite lors d’un accident de la route, vous serez indemnisé par le fonds de garantie des assurances...",
+   "headers": [],
+   "content_score": 0,
+   "readability": 29,
+   "word_count": 129,
+   "content_len": 843
+  },
+  {
+   "rank": 21,
+   "url": "https://jmp-avocat-indemnisation.fr/le-role-du-fonds-de-garantie-fgao.html",
+   "title": "FGAO : être indemnisé après un accident sans assurance",
+   "desc": "Conducteur en fuite, non assuré ou animal sauvage : le FGAO indemnise les victimes d'accident de la circulation. Délais, conditions, recours expliqués.",
+   "headers": [
+    [
+     "h1",
+     "FGAO : comment se faire indemniser quand l'auteur de l'accident est inconnu, en fuite ou non assuré ?"
+    ],
+    [
+     "h2",
+     "Qu'est-ce que le FGAO ?"
+    ],
+    [
+     "h2",
+     "Dans quelles situations le FGAO intervient-il ?"
+    ],
+    [
+     "h2",
+     "FGAO, FGTI, SARVI, assurance personnelle : quel fonds pour quelle situation ?"
+    ],
+    [
+     "h2",
+     "Les conditions strictes à respecter pour bénéficier du FGAO"
+    ],
+    [
+     "h2",
+     "Comment saisir le FGAO ? La procédure pas à pas"
+    ],
+    [
+     "h2",
+     "Les délais à ne pas manquer"
+    ],
+    [
+     "h2",
+     "Cas concrets traités par le cabinet JMP Avocat Indemnisation"
+    ],
+    [
+     "h2",
+     "FGAO refuse ou sous-évalue : quels sont vos recours ?"
+    ],
+    [
+     "h2",
+     "Pourquoi un avocat en dommage corporel est décisif dans un dossier FGAO"
+    ],
+    [
+     "h2",
+     "Le cabinet JMP Avocat Indemnisation à votre service"
+    ],
+    [
+     "h2",
+     "Foire aux questions sur le FGAO"
+    ],
+    [
+     "h2",
+     "Bibliographie et références juridiques"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 31,
+   "word_count": 4042,
+   "content_len": 25573
+  },
+  {
+   "rank": 22,
+   "url": "https://www.avocat-abram.com/en/blog/publication/le-fonds-de-garantie-des-assurances-obligatoires-de-dommages-fgao.html",
+   "title": "Le Fonds de Garantie des Assurances Obligatoires de dommages (FGAO)",
+   "desc": "Délit de fuite ou non assurance après un accident\nVous avez été victime d’un accident de la circulation et le responsable a commis un délit de fuite ou n’est pas assuré ?\nLe droit français vous permet sous certaines conditions d’être indemnisé de vos préjudices.",
+   "headers": [
+    [
+     "h1",
+     "Le Fonds de Garantie des Assurances Obligatoires de dommages (FGAO)"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 27,
+   "word_count": 1184,
+   "content_len": 7219
+  },
+  {
+   "rank": 23,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R15103",
+   "title": "Demande d'indemnisation au FGAO par une victime d'un accident de la circulation ou de chasse | Service Public",
+   "desc": "Formulaire à retourner par la victime d'un accident de la route ou de la chasse, à la FGAO pour être indemnisé.",
+   "headers": [
+    [
+     "h1",
+     "Demande d'indemnisation au FGAO par une victime d'un accident de la circulation ou de chasse"
+    ],
+    [
+     "h2",
+     "À qui transmettre ce formulaire ?"
+    ],
+    [
+     "h2",
+     "Pour toute explication, consulter les fiches pratiques :"
+    ],
+    [
+     "h2",
+     "J'ai réalisé une démarche administrative"
+    ]
+   ],
+   "content_score": 38,
+   "readability": 35,
+   "word_count": 405,
+   "content_len": 2402
+  },
+  {
+   "rank": 24,
+   "url": "https://www.benezra-victimesdelaroute.fr/faq-items/delit-de-fuite-auteur-non-assure-comment-fonctionne-le-fgao/",
+   "title": "Délit de fuite / auteur non assuré : comment fonctionne le fgao ? - Avocat dommage corporel | Avocat accident de la route | Avocat victime",
+   "desc": "le fonds de garantie des assurances obligatoires intervient lorsque l’auteur est inconnu, insolvable ou non assuré. la clé, c’est la preuve",
+   "headers": [],
+   "content_score": 25,
+   "readability": 53,
+   "word_count": 133,
+   "content_len": 849
+  },
+  {
+   "rank": 25,
+   "url": "https://www.allianz.fr/assurance-particulier/vehicules/assurance-auto/conseils-pratiques/fgao.html",
+   "title": "FGAO - Fond de Garantie des victimes : ce qu'il faut savoir",
+   "desc": "Découvrez comment le FGAO vous protège en cas d'accident. Qui peut le saisir, quand et comment ? Informez-vous pour mieux vous protéger.",
+   "headers": [
+    [
+     "h1",
+     "FGAO : comment fonctionne le fond de garantie des victimes ?"
+    ],
+    [
+     "h2",
+     "Qu'est-ce que le Fonds de Garantie des Assurances Obligatoires de Dommages ?"
+    ],
+    [
+     "h2",
+     "Comment fonctionne le FGAO ?"
+    ],
+    [
+     "h2",
+     "Comment saisir le FGAO ?"
+    ],
+    [
+     "h2",
+     "Comment le FGAO indemnise-t-il les victimes ?"
+    ],
+    [
+     "h2",
+     "Financement et contribution au Fonds de Garantie des Assurances Obligatoires de Dommages"
+    ],
+    [
+     "h2",
+     "FGAO (Fonds de Garantie des Assurances Obligatoires), consultez nos questions/réponses"
+    ],
+    [
+     "h2",
+     "Assurance auto :\ndécouvrez nos conseils pratiques"
+    ],
+    [
+     "h2",
+     "Cette offre peut également vous intéresser"
+    ],
+    [
+     "h2",
+     "Trouvez une agence près de chez vous"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 31,
+   "word_count": 1947,
+   "content_len": 12423
+  },
+  {
+   "rank": 26,
+   "url": "https://aproposdassurance.fr/delit-fuite-assurance-auto/",
+   "title": "Délit de fuite : FGAO bloqué sous 800 €, 5 jours pour déclarer",
+   "desc": "FGAO bloqué sous 800 €, déclaration en 5 jours : ce que les victimes de délit de fuite ignorent.",
+   "headers": [
+    [
+     "h1",
+     "Délit de fuite et assurance auto : les délais et seuils qui bloquent l’indemnisation"
+    ],
+    [
+     "h2",
+     "Comparez en ligne les Meilleures Assurances Auto"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qui caractérise un délit de fuite en droit français ?"
+    ],
+    [
+     "h2",
+     "Comment réagir et se faire indemniser en cas de délit de fuite ?"
+    ],
+    [
+     "h2",
+     "Les sanctions et conséquences pour l’auteur d’un délit de fuite"
+    ],
+    [
+     "h2",
+     "A voir également"
+    ],
+    [
+     "h2",
+     "Comparez les assurances !"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 28,
+   "word_count": 1759,
+   "content_len": 11238
+  },
+  {
+   "rank": 27,
+   "url": "https://association-aivf-faq.fr/accident-de-la-route-faq/indemnisation-accident-de-la-route/victime-dun-delit-de-fuite",
+   "title": "Victime délit de fuite - Association Victimes de France AIVF",
+   "desc": "Victime d'un délit de fuite, accident de la route, indemnisation du préjudice, porter plainte, Fonds de Garantie FGAO",
+   "headers": [
+    [
+     "h1",
+     "Victime d’un délit de fuite"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant la victime d’un délit de fuite"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 43,
+   "word_count": 1057,
+   "content_len": 6563
+  },
+  {
+   "rank": 28,
+   "url": "https://www.alexia.fr/fiche/8085/le-fonds-de-garantie-des-assurances-obligatoires-de-dommages.htm",
+   "title": "Le fonds de garantie des assurances obligatoires de dommages",
+   "desc": "Le fonds de garantie des assurances obligatoires de dommages (fgao) a été créé pour l'indemnisation des accidents corporels causés par les automobilistes...",
+   "headers": [
+    [
+     "h1",
+     "Le fonds de garantie des assurances obligatoires de dommages"
+    ],
+    [
+     "h2",
+     "Champ et conditions d'intervention du FGAO"
+    ],
+    [
+     "h2",
+     "Recours au FGAO"
+    ],
+    [
+     "h2",
+     "Questions résolues"
+    ],
+    [
+     "h2",
+     "Avocats les plus actifs"
+    ]
+   ],
+   "content_score": 34,
+   "readability": 21,
+   "word_count": 13818,
+   "content_len": 88237
+  },
+  {
+   "rank": 29,
+   "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073984/LEGISCTA000006158963/",
+   "title": "Un instant…",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "www.legifrance.gouv.fr"
+    ],
+    [
+     "h2",
+     "Vérification de sécurité en cours"
+    ],
+    [
+     "h2",
+     "Vérification réussie. En attente de la réponse de www.legifrance.gouv.fr."
+    ]
+   ],
+   "content_score": 1,
+   "readability": 61,
+   "word_count": 58,
+   "content_len": 407
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1178,
+   "target": 1178
+  },
+  "readability": {
+   "median": 40,
+   "target": 40
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "fgao",
+    "usage_pc": 50
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 50
+   },
+   {
+    "t": "délit de fuite",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "victimes de france",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "fgao",
+    "usage_pc": 60
+   },
+   {
+    "t": "accident",
+    "usage_pc": 50
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 50
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 40
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 30
+   },
+   {
+    "t": "fonds de garantie des assurances",
+    "usage_pc": 30
+   },
+   {
+    "t": "garantie des assurances obligatoires",
+    "usage_pc": 30
+   },
+   {
+    "t": "délit de fuite",
+    "usage_pc": 20
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "non assuré",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "fgao",
+    "usage_pc": 50
+   },
+   {
+    "t": "accident",
+    "usage_pc": 40
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 30
+   },
+   {
+    "t": "délit de fuite",
+    "usage_pc": 30
+   },
+   {
+    "t": "un délit de fuite",
+    "usage_pc": 20
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "fonds de garantie des assurances",
+    "usage_pc": 10
+   },
+   {
+    "t": "garantie des assurances obligatoires",
+    "usage_pc": 10
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 10
+   },
+   {
+    "t": "non assuré",
+    "usage_pc": 10
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 10
+   },
+   {
+    "t": "victime d'un",
+    "usage_pc": 10
+   },
+   {
+    "t": "si vous êtes victime",
+    "usage_pc": 10
+   },
+   {
+    "t": "victime d'un délit de fuite",
+    "usage_pc": 10
+   },
+   {
+    "t": "victimes d'accidents",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "fgao",
+    "usage_pc": 70
+   },
+   {
+    "t": "accident",
+    "usage_pc": 50
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 30
+   },
+   {
+    "t": "délit de fuite",
+    "usage_pc": 30
+   },
+   {
+    "t": "saisir le fgao",
+    "usage_pc": 30
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 30
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 30
+   },
+   {
+    "t": "fonds de garantie des assurances",
+    "usage_pc": 20
+   },
+   {
+    "t": "garantie des assurances obligatoires",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "cas de délit de fuite",
+    "usage_pc": 20
+   },
+   {
+    "t": "quels cas le fgao",
+    "usage_pc": 20
+   },
+   {
+    "t": "comment le fgao indemnise-t-il les",
+    "usage_pc": 20
+   },
+   {
+    "t": "les dommages",
+    "usage_pc": 10
+   },
+   {
+    "t": "non assuré",
+    "usage_pc": 10
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 10
+   },
+   {
+    "t": "assurances obligatoires de dommages",
+    "usage_pc": 10
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 10
+   },
+   {
+    "t": "auprès du fgao",
+    "usage_pc": 10
+   },
+   {
+    "t": "dossier fgao",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident sans",
+    "usage_pc": 10
+   },
+   {
+    "t": "fgao en cas",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "fgao",
+    "usage_pc": 90,
+    "sugg_usage": [
+     4,
+     37
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     17
+    ]
+   },
+   {
+    "t": "délit de fuite",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 90,
+    "sugg_usage": [
+     8,
+     31
+    ]
+   },
+   {
+    "t": "fonds de garantie des assurances",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "garantie des assurances obligatoires",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "saisir le fgao",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 90,
+    "sugg_usage": [
+     7,
+     13
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 90,
+    "sugg_usage": [
+     3,
+     6
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 90,
+    "sugg_usage": [
+     3,
+     8
+    ]
+   },
+   {
+    "t": "accident de la route",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     8
+    ]
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "dommage matériel",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "les dommages",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "non assuré",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "indemniser les victimes",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un délit de fuite",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les dommages matériels",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les délais",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "fgao peut",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "préjudice corporel",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "les dommages corporels",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "loi badinter",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "si le responsable",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "non identifié",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "véhicule terrestre à moteur",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les coordonnées",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "assurances obligatoires de dommages",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un accident de la circulation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas de délit de fuite",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si la victime",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fgao indemnise les",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "a pris la fuite",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "saisine du fgao",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime peut",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "inconnu ou non assuré",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d'un",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes de france",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "auprès du fgao",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si vous êtes victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "délai de 3 ans",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d'un délit de fuite",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d'accidents",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un accident de la route",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fgao indemnise les dommages",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "an à compter",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "fgao intervient",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier fgao",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident sans",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsable est inconnu ou non",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fgao doit",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "quels cas le fgao",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "prend la fuite",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médecin-conseil de victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accidents de la circulation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "refuser l’indemnisation si la victime",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fgao indemnise les victimes d’accidents",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accidents",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fgao est tenu d’indemniser",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "qu’est-ce que le fgao",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "a été victime d’un",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les victimes d’accidents",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fgao n’intervient",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accidents de la route",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemniser les victimes d’accidents",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "association d’aide aux victimes",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsable de l’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lorsque la victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment le fgao indemnise-t-il les",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fgao indemnise les dommages corporels",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "saisir le fonds de garantie",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "demander une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fgao peut réduire ou refuser",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "décès de la victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fgao lorsque",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fgao est de 3 ans",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation de la part",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fonctionnement du fgao",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fgao dans le délai",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "récupérer les sommes versées",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si l'accident a",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime peut également",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tant que victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fgao peut alors",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime n'est",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fgao mandate",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation complète",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "aide aux victimes de france",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "délai de 5 ans",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fgao en cas",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si la victime a",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Fonds de garantie des assurances obligatoires de dommages",
+    "importance": 90.69200000000001,
+    "relevance": 0.9069200000000001,
+    "confidence": 4.4688,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fonds_de_garantie_des_assurances_obligatoires_de_dommages"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 56.121999999999986,
+    "relevance": 0.5612199999999999,
+    "confidence": 6.652800000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 32.01664,
+    "relevance": 0.50026,
+    "confidence": 5.5494,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 23.219199999999997,
+    "relevance": 0.36279999999999996,
+    "confidence": 2.1676,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Délit de fuite",
+    "importance": 17.11944,
+    "relevance": 0.47553999999999996,
+    "confidence": 2.0585999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Délit_de_fuite"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 15.942656,
+    "relevance": 0.249104,
+    "confidence": 1.1092,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Loi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation",
+    "importance": 9.5904,
+    "relevance": 0.2664,
+    "confidence": 3.8762,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Loi_tendant_à_l'amélioration_de_la_situation_des_victimes_d'accidents_de_la_circulation_et_à_l'accélération_des_procédures_d'indemnisation"
+     ]
+    ]
+   },
+   {
+    "t": "Véhicule (transport physique)",
+    "importance": 9.358559999999999,
+    "relevance": 0.25995999999999997,
+    "confidence": 3.1328,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Véhicule_(transport_physique)"
+     ]
+    ]
+   },
+   {
+    "t": "Dommages matériels",
+    "importance": 6.527016000000001,
+    "relevance": 0.18130600000000002,
+    "confidence": 0.9027999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommages_matériels"
+     ]
+    ]
+   },
+   {
+    "t": "Police (institution)",
+    "importance": 6.1452,
+    "relevance": 0.1707,
+    "confidence": 2.8579999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Police_(institution)"
+     ]
+    ]
+   },
+   {
+    "t": "Fonds de garantie des victimes des actes de terrorisme et d'autres infractions",
+    "importance": 4.284799999999999,
+    "relevance": 0.2678,
+    "confidence": 0.9364000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fonds_de_garantie_des_victimes_des_actes_de_terrorisme_et_d'autres_infractions"
+     ]
+    ]
+   },
+   {
+    "t": "Conduite automobile",
+    "importance": 4.09536,
+    "relevance": 0.25596,
+    "confidence": 0.39872,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Conduite_automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Plainte",
+    "importance": 3.885120000000001,
+    "relevance": 0.24282000000000004,
+    "confidence": 0.892,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Plainte"
+     ]
+    ]
+   },
+   {
+    "t": "Plainte en droit pénal français",
+    "importance": 3.7104,
+    "relevance": 0.2319,
+    "confidence": 1.0732,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Plainte_en_droit_pénal_français"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance automobile",
+    "importance": 3.202240000000001,
+    "relevance": 0.20014000000000004,
+    "confidence": 1.2429999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance automobile en France",
+    "importance": 3.10144,
+    "relevance": 0.19384,
+    "confidence": 0.42780000000000007,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_automobile_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Contrat d'assurance",
+    "importance": 3.0015999999999994,
+    "relevance": 0.1876,
+    "confidence": 0.5788,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contrat_d'assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Piéton",
+    "importance": 2.6835200000000006,
+    "relevance": 0.16772,
+    "confidence": 1.4104,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Piéton"
+     ]
+    ]
+   },
+   {
+    "t": "Automobile",
+    "importance": 1.9948799999999995,
+    "relevance": 0.12467999999999999,
+    "confidence": 2.6062000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Plaque d'immatriculation",
+    "importance": 1.528,
+    "relevance": 0.0955,
+    "confidence": 2.707,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Plaque_d'immatriculation"
+     ]
+    ]
+   },
+   {
+    "t": "France",
+    "importance": 1.3027200000000003,
+    "relevance": 0.08142,
+    "confidence": 4.0906,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/France"
+     ]
+    ]
+   },
+   {
+    "t": "Gendarmerie nationale (France)",
+    "importance": 1.097376,
+    "relevance": 0.068586,
+    "confidence": 1.5524,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Gendarmerie_nationale_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Circonstance aggravante",
+    "importance": 0.81952,
+    "relevance": 0.05122,
+    "confidence": 1.0342,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Circonstance_aggravante"
+     ]
+    ]
+   },
+   {
+    "t": "Jurisprudence",
+    "importance": 0.7289920000000001,
+    "relevance": 0.045562000000000005,
+    "confidence": 1.1366,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Jurisprudence"
+     ]
+    ]
+   },
+   {
+    "t": "Permis de conduire",
+    "importance": 0.6430399999999998,
+    "relevance": 0.16076,
+    "confidence": 0.27280000000000004,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Permis_de_conduire"
+     ]
+    ]
+   },
+   {
+    "t": "Enquête de flagrance en droit français",
+    "importance": 0.58816,
+    "relevance": 0.14704,
+    "confidence": 0.5916,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Enquête_de_flagrance_en_droit_français"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "fgao\nindemnisation\ndélit de fuite\naccident\nvictimes de france",
+  "desc_title": "fgao\naccident\nindemniser\nassurance\nindemnisation\nfonds de garantie des assurances\ngarantie des assurances obligatoires\ndélit de fuite\naccident de la route\nun accident\nnon assuré",
+  "h1": "fgao\naccident\nindemnisation\ndélit de fuite\nun délit de fuite\nobtenir une indemnisation\nfonds de garantie des assurances\ngarantie des assurances obligatoires\nassurance\nindemniser\naccident de la route\nnon assuré\nêtre indemnisé\nvictime d'un\nsi vous êtes victime\nvictime d'un délit de fuite\nvictimes d'accidents",
+  "h2": "fgao\naccident\nindemnisation\ndélit de fuite\nsaisir le fgao\nassurance\nindemniser\nfonds de garantie des assurances\ngarantie des assurances obligatoires\nun accident\ncas de délit de fuite\nquels cas le fgao\ncomment le fgao indemnise-t-il les\nles dommages\nnon assuré\nassureur\nassurances obligatoires de dommages\nêtre indemnisé\nauprès du fgao\ndossier fgao\naccident sans\nfgao en cas",
+  "content_basic": "fgao\nindemnisation\ndélit de fuite\naccident\nfonds de garantie des assurances\ngarantie des assurances obligatoires\nsaisir le fgao\nassurance\nindemniser\ncorporel\naccident de la route\npréjudice\nun accident\ndommage matériel\nles dommages\nnon assuré\nassureur\nindemniser les victimes\nun délit de fuite\nles dommages matériels\nles délais\nfgao peut\npréjudice corporel\nles dommages corporels\nloi badinter\nsi le responsable\nles préjudices\nnon identifié\nvéhicule terrestre à moteur\nles coordonnées",
+  "content_basic_w_ranges": "fgao: 4-37x\nindemnisation: 2-17x\ndélit de fuite: 1-5x\naccident: 8-31x\nfonds de garantie des assurances: 1-3x\ngarantie des assurances obligatoires: 1-3x\nsaisir le fgao: 1-4x\nassurance: 7-13x\nindemniser: 3-6x\ncorporel: 3-8x\naccident de la route: 1-3x\npréjudice: 1-8x\nun accident: 1-7x\ndommage matériel: 1-3x\nles dommages: 1-3x\nnon assuré: 1-3x\nassureur: 1-7x\nindemniser les victimes: 1x\nun délit de fuite: 1-2x\nles dommages matériels: 1x\nles délais: 1-3x\nfgao peut: 1x\npréjudice corporel: 1-3x\nles dommages corporels: 1x\nloi badinter: 1-2x\nsi le responsable: 1x\nles préjudices: 1x\nnon identifié: 1x\nvéhicule terrestre à moteur: 1x\nles coordonnées: 1x",
+  "content_extended": "assurances obligatoires de dommages\nobtenir une indemnisation\nun accident de la circulation\ncas de délit de fuite\nsi la victime\nfgao indemnise les\na pris la fuite\nsaisine du fgao\nêtre indemnisé\nvictime peut\ninconnu ou non assuré\nvictime d'un\nvictimes de france\nauprès du fgao\nsi vous êtes victime\ndélai de 3 ans\nvictime d'un délit de fuite\ndroit à indemnisation\nvictimes d'accidents\nun accident de la route\nfgao indemnise les dommages\nan à compter\nfgao intervient\ndossier fgao\naccident sans\nresponsable est inconnu ou non\nfgao doit\nquels cas le fgao\ndroit à une indemnisation\nprend la fuite\nmédecin-conseil de victime\nvictime d’un accident\nvictimes d’accidents de la circulation\nrefuser l’indemnisation si la victime\nfgao indemnise les victimes d’accidents\nvictimes d’accidents\nfgao est tenu d’indemniser\nqu’est-ce que le fgao\na été victime d’un\nles victimes d’accidents\nfgao n’intervient\nvictimes d’accidents de la route\nindemniser les victimes d’accidents\nassociation d’aide aux victimes\nresponsable de l’accident\nlorsque la victime\ncomment le fgao indemnise-t-il les\nfgao indemnise les dommages corporels\nsaisir le fonds de garantie\ndemander une indemnisation\nfgao peut réduire ou refuser\ndécès de la victime\nfgao lorsque\nfgao est de 3 ans\nindemnisation de la part\nfonctionnement du fgao\nfgao dans le délai\nrécupérer les sommes versées\nsi l'accident a\nvictime peut également\ntant que victime\nfgao peut alors\nvictime n'est\nfgao mandate\nindemnisation complète\naide aux victimes de france\ndélai de 5 ans\nfgao en cas\nsi la victime a",
+  "content_extended_w_ranges": "assurances obligatoires de dommages: 1x\nobtenir une indemnisation: 1x\nun accident de la circulation: 1x\ncas de délit de fuite: 1x\nsi la victime: 1x\nfgao indemnise les: 1x\na pris la fuite: 1x\nsaisine du fgao: 1x\nêtre indemnisé: 1x\nvictime peut: 1x\ninconnu ou non assuré: 1x\nvictime d'un: 1x\nvictimes de france: 1x\nauprès du fgao: 1x\nsi vous êtes victime: 1x\ndélai de 3 ans: 1x\nvictime d'un délit de fuite: 1x\ndroit à indemnisation: 1x\nvictimes d'accidents: 1x\nun accident de la route: 1x\nfgao indemnise les dommages: 1x\nan à compter: 1-2x\nfgao intervient: 1x\ndossier fgao: 1x\naccident sans: 1x\nresponsable est inconnu ou non: 1x\nfgao doit: 1x\nquels cas le fgao: 1x\ndroit à une indemnisation: 1x\nprend la fuite: 1x\nmédecin-conseil de victime: 1x\nvictime d’un accident: 1x\nvictimes d’accidents de la circulation: 1x\nrefuser l’indemnisation si la victime: 1x\nfgao indemnise les victimes d’accidents: 1x\nvictimes d’accidents: 1x\nfgao est tenu d’indemniser: 1x\nqu’est-ce que le fgao: 1x\na été victime d’un: 1x\nles victimes d’accidents: 1x\nfgao n’intervient: 1x\nvictimes d’accidents de la route: 1x\nindemniser les victimes d’accidents: 1x\nassociation d’aide aux victimes: 1x\nresponsable de l’accident: 1x\nlorsque la victime: 1x\ncomment le fgao indemnise-t-il les: 1x\nfgao indemnise les dommages corporels: 1x\nsaisir le fonds de garantie: 1x\ndemander une indemnisation: 1x\nfgao peut réduire ou refuser: 1x\ndécès de la victime: 1x\nfgao lorsque: 1x\nfgao est de 3 ans: 1x\nindemnisation de la part: 1x\nfonctionnement du fgao: 1x\nfgao dans le délai: 1x\nrécupérer les sommes versées: 1x\nsi l'accident a: 1x\nvictime peut également: 1x\ntant que victime: 1x\nfgao peut alors: 1x\nvictime n'est: 1x\nfgao mandate: 1x\nindemnisation complète: 1x\naide aux victimes de france: 1x\ndélai de 5 ans: 1x\nfgao en cas: 1x\nsi la victime a: 1x",
+  "entities": "Fonds de garantie des assurances obligatoires de dommages\nAssurance\nAccident de la route\nDommage corporel\nDélit de fuite\nEndommagement\nLoi tendant à l'amélioration de la situation des victimes d'accidents de la circulation et à l'accélération des procédures d'indemnisation\nVéhicule (transport physique)\nDommages matériels\nPolice (institution)\nFonds de garantie des victimes des actes de terrorisme et d'autres infractions\nConduite automobile\nPlainte\nPlainte en droit pénal français\nAssurance automobile\nAssurance automobile en France\nContrat d'assurance\nPiéton\nAutomobile\nPlaque d'immatriculation\nFrance\nGendarmerie nationale (France)\nCirconstance aggravante\nJurisprudence\nPermis de conduire\nEnquête de flagrance en droit français"
+ },
+ "status": "ready",
+ "keyword": "fgao délit de fuite indemnisation",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "972165f229676370",
+ "query": "85db89cb7d55e77f",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 93.1,
+   "transactional": 27.6,
+   "navigational": 10.3
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "guide": 72.4,
+   "educational": 24.1,
+   "business": 24.1,
+   "blog-post": 17.2,
+   "landing-page": 6.9,
+   "short-answer": 17.2,
+   "other": 10.3,
+   "social-media": 3.4,
+   "tool": 3.4
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/85db89cb7d55e77f",
+ "share_url": "https://app.neuronwriter.com/analysis/share/85db89cb7d55e77f/096dd81911a93ef72c2a808091e482c54fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/85db89cb7d55e77f/0fcf3e0994ac3372da2170e5825ef55b4fa16"
+}

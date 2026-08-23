@@ -1,0 +1,2700 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quel taux d'invalidité pour un bras ?"
+   },
+   {
+    "q": "Paralysie plexus brachial handicap ?"
+   },
+   {
+    "q": "Quel est le traitement pour une atteinte du plexus brachial ?"
+   },
+   {
+    "q": "Quel est le pronostic d'une paralysie du plexus brachial ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quel est le taux d'invalidité ou d'incapacité (AIPP) pour une atteinte du plexus brachial ?": {
+    "importance": 10
+   },
+   "Une paralysie du plexus brachial est-elle considérée comme un handicap et quelles en sont les conséquences ?": {
+    "importance": 10
+   },
+   "Quel est le traitement pour une atteinte ou une lésion du plexus brachial ?": {
+    "importance": 9
+   },
+   "Quel est le pronostic d'une paralysie du plexus brachial ?": {
+    "importance": 9
+   },
+   "Quelles sont les causes principales d'une lésion du plexus brachial (accident, erreur médicale, accouchement) ?": {
+    "importance": 8
+   },
+   "Comment obtenir une indemnisation complète en cas d'atteinte du plexus brachial ?": {
+    "importance": 9
+   },
+   "Quels sont les préjudices indemnisables suite à une lésion du plexus brachial ?": {
+    "importance": 8
+   },
+   "Pourquoi faire appel à un avocat spécialisé pour l'indemnisation d'une atteinte du plexus brachial ?": {
+    "importance": 7
+   },
+   "Comment se déroule l'expertise médicale pour une lésion du plexus brachial ?": {
+    "importance": 7
+   },
+   "Quel est le montant moyen de l'indemnisation pour une atteinte grave du plexus brachial ?": {
+    "importance": 6
+   }
+  },
+  "content_questions": [
+   {
+    "q": "1) Qu’est-ce que la paralysie du plexus brachial obstétricale (POPB) ?"
+   },
+   {
+    "q": "10) Quels postes d’indemnisation (nomenclature Dintilhac) pour l’enfant et sa famille ?"
+   },
+   {
+    "q": "7) Quand parle-t-on d’erreur médicale lors de l’accouchement ?"
+   },
+   {
+    "q": "8) Quelles manœuvres obstétricales sont recommandées en cas de dystocie des épaules ?"
+   },
+   {
+    "q": "Cabinet d’avocats experts LEXVOX pour indemnisation de la victime pour des préjudices suite à un accident routier en Provence : quelles sont les causes désignées pour les affections du poste de préjudice plexus brachial ?"
+   },
+   {
+    "q": "Comment chiffrer et évaluer le préjudice moral ?"
+   },
+   {
+    "q": "Comment contester le rapport d'expertise médicale ?"
+   },
+   {
+    "q": "Comment fonctionne cette structure nerveuse ?"
+   },
+   {
+    "q": "Comment obtenir le dossier médical ?"
+   },
+   {
+    "q": "Comment prouver la faute médicale dans le cas d’une lésion du plexus brachial obstétrical ?"
+   },
+   {
+    "q": "Comment être indemnisé en cas d'atteinte ou de paralysie du plexus brachial ?"
+   },
+   {
+    "q": "Et surtout, comment obtenir une indemnisation adaptée ?"
+   },
+   {
+    "q": "Faut-il signer une offre d'indemnisation sans conseil ?"
+   },
+   {
+    "q": "Indemnisation accident médical et préjudices : quelles sont les indemnités pour la victime ayant des séquelles du plexus brachial ?"
+   },
+   {
+    "q": "Indemnisation des victimes : comment obtenir la meilleure compensation ?"
+   },
+   {
+    "q": "Je suis née avec un plexus brachial lors de l’accouchement la sache femme a tiré trop fort et maintenant que j’ai 26 ans et que je suis maman le plexus brachial me fait souffrir j’ai du mal à porter mon fil ou un sac de course à passer mon permis et j’ai un problème au niveau des nerfs cubital j’aimerai savoir si je pouvais prétendre à une indemnisation ?"
+   },
+   {
+    "q": "La lésion axonale diffuse c'est quoi ?"
+   },
+   {
+    "q": "La victime d’un accident de moto peut-elle être indemnisée même si elle est en partie responsable de l’accident ?"
+   },
+   {
+    "q": "Le « Projet de Vie » : Frein à l’indemnisation ?"
+   },
+   {
+    "q": "Quel délai pour agir en indemnisation après une atteinte du plexus brachial ?"
+   },
+   {
+    "q": "Quel est le montant moyen de l’indemnisation pour une atteinte grave du plexus brachial après un accident de moto ?"
+   },
+   {
+    "q": "Quel montant d'indemnisation pour le traumatisme crânien ?"
+   },
+   {
+    "q": "Quelle indemnisation en cas d'atteinte du plexus brachial ?"
+   },
+   {
+    "q": "Quelle indemnisation pour les séquelles du plexus brachial ?"
+   },
+   {
+    "q": "Quelles sont les complications d’une lésion du plexus brachial ?"
+   },
+   {
+    "q": "Quelles sont les origines de l'atteinte du plexus brachial ?"
+   },
+   {
+    "q": "Quelles sont les symptômes d’une lésion du plexus brachial ?"
+   },
+   {
+    "q": "Quels sont les traitements pour les blessures du plexus brachial ?"
+   },
+   {
+    "q": "Une paralysie partielle ou totale du bras après un accident ?"
+   },
+   {
+    "q": "Victime d'un accident ?"
+   },
+   {
+    "q": "⚖️ Comment obtenir une indemnisation complète avec un plexus brachial ?"
+   },
+   {
+    "q": "✅ Victime d’une lésion du plexus brachial ?"
+   },
+   {
+    "q": "🏛️ Quels sont les traitements possibles du plexus brachial ?"
+   },
+   {
+    "q": "📞 Pourquoi faire appel à un avocat en dommage corporel ?"
+   },
+   {
+    "q": "🔹 Quels préjudices découlant d’un plexus brachial peuvent être indemnisés ?"
+   },
+   {
+    "q": "🚑 Quelles sont les principales causes d’une lésion du plexus brachial ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.benezra-victimesdelaroute.fr/prejudice-plexus-brachial-indemnisation/",
+   "title": "🔵 Se faire indemniser les traumatismes du plexus brachial ! -",
+   "desc": "🔝Avocat plexus brachial ☎ 0145240040 Se faire indemniser les traumatismes et lésions du plexus brachial - Réparation et indemnisations dommages corporels",
+   "headers": [
+    [
+     "h1",
+     "SE FAIRE INDEMNISER LES PRÉJUDICES LIÉS AU PLEXUS BRACHIAL"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "→ Le plexus brachial dans tous ses états"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 32,
+   "word_count": 1115,
+   "content_len": 7086
+  },
+  {
+   "rank": 2,
+   "url": "https://www.vjp-avocat.com/fr/actualites/id-86-quelle-indemnisation-en-cas-d-atteinte-du-plexus-brachial",
+   "title": "L'indemnisation de l'atteinte du plexus brachial.",
+   "desc": "L’atteinte du plexus brachial constitue un handicap lourd pour la victime qui en souffre, pouvant aller jusqu’à la priver de l’usage d’un de ses deux bras. De la préparation de l’expertise médicale au chiffrage des préjudices, la juste indemnisation d’une victime présentant une atteinte du plexus brachial ne doit rien au hasard.",
+   "headers": [
+    [
+     "h1",
+     "Quelle indemnisation en cas d'atteinte du plexus brachial ?"
+    ],
+    [
+     "h2",
+     "L’atteinte du plexius brachial, un handicap méconnu"
+    ],
+    [
+     "h2",
+     "Quelles sont les origines de l'atteinte du plexus brachial ?"
+    ],
+    [
+     "h2",
+     "Expertise médicale et plexul brachial"
+    ],
+    [
+     "h2",
+     "Indemnisation en cas d'atteinte du plexus brachial"
+    ],
+    [
+     "h2",
+     "Avocat spécialisé indemnisation plexus brachial"
+    ]
+   ],
+   "content_score": 77,
+   "readability": 19,
+   "word_count": 2081,
+   "content_len": 13599
+  },
+  {
+   "rank": 3,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/forum-des-victimes/questions-de-victimes-erreur-medicale/paralysie-du-plexus-brachial-popb-erreur-medicale",
+   "title": "Paralysie du plexus brachial popb, erreur médicale - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France vous soutient face aux erreurs médicales liées à la paralysie du plexus brachial.",
+   "headers": [
+    [
+     "h1",
+     "Paralysie du plexus brachial popb, erreur médicale"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Paralysie du plexus brachial (POPB) & erreur médicale à la naissance"
+    ],
+    [
+     "h2",
+     "Question de Victime erreur médicale : Paralysie du plexus brachial popb"
+    ]
+   ],
+   "content_score": 54,
+   "readability": 33,
+   "word_count": 2254,
+   "content_len": 14262
+  },
+  {
+   "rank": 4,
+   "url": "https://www.gyneco-online.com/juridique/accouchement-paralysie-du-plexus-brachial-indemnisation-par-loniam-arret-cour-de",
+   "title": "Accouchement, paralysie du plexus brachial : indemnisation par l’ONIAM (Arrêt Cour de cassation, 1ère chambre civile, 19 juin 2019, n° 18-20883) | Gynéco Online",
+   "desc": "",
+   "headers": [
+    [
+     "h2",
+     "Isabelle LUCAS-BALOUP"
+    ],
+    [
+     "h2",
+     "Pédiatrie"
+    ],
+    [
+     "h2",
+     "Sexologie"
+    ]
+   ],
+   "content_score": 36,
+   "readability": 16,
+   "word_count": 1405,
+   "content_len": 8680
+  },
+  {
+   "rank": 5,
+   "url": "https://www.courdecassation.fr/decision/67b8d575f3224acf58276d77",
+   "title": "Décision Tribunal judiciaire de Rennes : RG n°23/00976 | Cour de cassation",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "21 février 2025\n                      Tribunal judiciaire de Rennes\n                                RG n° \n                    23/00976"
+    ],
+    [
+     "h2",
+     "Texte de la décision"
+    ],
+    [
+     "h2",
+     "Restez informé"
+    ],
+    [
+     "h2",
+     "Suivez la Cour"
+    ]
+   ],
+   "content_score": 22,
+   "readability": 16,
+   "word_count": 12260,
+   "content_len": 75938
+  },
+  {
+   "rank": 6,
+   "url": "https://www.medecin-dommage-corporel.expert/deficit-fonctionnel-permanent-accident-accouchement/",
+   "title": "Expert médical paralysie plexus brachial",
+   "desc": "Indemnisation par l'ONIAM d'une paralysie obstétricale du plexus brachial suite à une accident d'accouchement",
+   "headers": [
+    [
+     "h1",
+     "Déficit fonctionnel permanent suite à un accident d’accouchement"
+    ],
+    [
+     "h1",
+     "Paralysie du plexus brachial suite à un accouchement"
+    ],
+    [
+     "h2",
+     "Absence de conséquences anormales retenues par les experts"
+    ]
+   ],
+   "content_score": 43,
+   "readability": 30,
+   "word_count": 400,
+   "content_len": 2534
+  },
+  {
+   "rank": 7,
+   "url": "https://www.favarel-eychenne-avocat.fr/lesion-du-plexus-brachial-comment-obtenir-une-indemnisation",
+   "title": "Lésion du plexus brachial : Comment obtenir une indemnisation",
+   "desc": "Lésion du plexus brachial : Comment obtenir une indemnisation",
+   "headers": [
+    [
+     "h1",
+     "Lésion du plexus brachial : Comment obtenir une indemnisation"
+    ],
+    [
+     "h1",
+     "Victime d'un accident ?"
+    ],
+    [
+     "h2",
+     "Une paralysie partielle ou totale du bras après un accident ? Quels sont vos droits ?"
+    ],
+    [
+     "h2",
+     "🏥 Comprendre le plexus brachial et les conséquences d’une lésion"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "🚑 Quelles sont les principales causes d’une lésion du plexus brachial ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "🏛️ Quels sont les traitements possibles du plexus brachial ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "⚖️ Comment obtenir une indemnisation complète avec un plexus brachial ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "📞 Pourquoi faire appel à un avocat en dommage corporel ?"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "✅ Victime d’une lésion du plexus brachial ? Contactez-nous !"
+    ]
+   ],
+   "content_score": 71,
+   "readability": 68,
+   "word_count": 906,
+   "content_len": 6051
+  },
+  {
+   "rank": 8,
+   "url": "https://www.hello-victimes.fr/l-aide-aux-victimes/proc%C3%A9dure-d-indemnisation-apr%C3%A8s-une-atteinte-du-plexus-brachial/",
+   "title": "Procédure d'indemnisation après une atteinte du plexus brachial - Association d'aide aux victimes d'accident de la route. Association d''aide aux victimes d'erreur/faute médicale. Association d'aide aux victimes d'accident de la vie ou d'agression.",
+   "desc": "L'atteinte du plexus brachial à la suite d'un accident constitue une séquelle grave aux répercussions importante. La procédure d'indemnisation du plexus brachial est complexe et exige une bonne connaissance des enjeux.",
+   "headers": [
+    [
+     "h1",
+     "Procédure d'indemnisation du plexus brachial"
+    ]
+   ],
+   "content_score": 66,
+   "readability": 22,
+   "word_count": 2208,
+   "content_len": 15155
+  },
+  {
+   "rank": 9,
+   "url": "https://www.meimonnisenbaum.com/fr/nos-proces/id-126-paraparesie-indemnisation-projet-vie",
+   "title": "Indemnisation et Projet de Vie - Accident de la Circulation",
+   "desc": "Me Meimon Nisenbaum, avocat spécialiste, accompagne une victime d'accident de la circulation avec des dommages corporels. Indemnisation et Projet de Vie.",
+   "headers": [
+    [
+     "h1",
+     "Une paraparésie avec un état antérieur indemnisé à 2.000.000 € et projet de vie"
+    ],
+    [
+     "h2",
+     "Rencontre avec une victime de dommages corporels déjà atteinte de paralysie"
+    ],
+    [
+     "h2",
+     "Les Démarches de l’Avocat Spécialiste"
+    ],
+    [
+     "h2",
+     "Procédure amiable"
+    ],
+    [
+     "h2",
+     "Procédure d’indemnisation : Obtention de 2.000.000€"
+    ],
+    [
+     "h2",
+     "Le « Projet de Vie » : un Avantage ou un Inconvénient ?"
+    ],
+    [
+     "h2",
+     "La relation de confiance entre l’avocat et son client prime"
+    ]
+   ],
+   "content_score": 31,
+   "readability": 22,
+   "word_count": 1471,
+   "content_len": 9615
+  },
+  {
+   "rank": 10,
+   "url": "https://victime-accident.lexvox-avocat.fr/2022/07/22/indemnisation-atteinte-du-plexus-brachial-apres-un-accident-de-moto-ou-accident-medical/",
+   "title": "Indemnisation atteinte du plexus brachial après un accident de moto ou accident médical - Victime Accident",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation atteinte du plexus brachial après un accident de moto ou accident médical"
+    ],
+    [
+     "h2",
+     "Cabinet d’avocats experts LEXVOX pour indemnisation de la victime pour des préjudices suite à un accident routier en Provence : quelles sont les causes désignées pour les affections du poste de préjud"
+    ],
+    [
+     "h2",
+     "Cabinet LEXVOX pour indemnisation de la victime d’un accident routier en Provence : des conducteurs de deux-roues très exposé aux atteintes du plexus brachial en cas de collision"
+    ],
+    [
+     "h2",
+     "Cabinet LEXVOX pour indemnisation après un accident routier en Provence : la législation de 1985 !"
+    ],
+    [
+     "h2",
+     "Expertise médicale et plexul brachial"
+    ],
+    [
+     "h2",
+     "Indemnisation du client victime de préjudices pour plexus brachial"
+    ],
+    [
+     "h2",
+     "Indemnisation accident médical et préjudices : quelles sont les indemnités pour la victime ayant des séquelles du plexus brachial ?"
+    ],
+    [
+     "h2",
+     "Les postes de préjudice indemnisables selon la nomenclature Dintilhac"
+    ],
+    [
+     "h2",
+     "Prise en charge de l’indemnisation pour accident médical : victimes mineures atteintes de préjudices à la suite d’un plexus brachial lors d’un accouchement"
+    ],
+    [
+     "h2",
+     "Indemnisation accident médical et préjudices : exemple de faute médicale ayant entraîné une atteinte au plexus brachial sur la victime par un médecin obstétricien à l’hôpital"
+    ],
+    [
+     "h2",
+     "Jurisprudence récente"
+    ],
+    [
+     "h2",
+     "Points de procédure essentiels"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur l’indemnisation du plexus brachial"
+    ],
+    [
+     "h2",
+     "Avocat spécialiste pour l’indemnisation d’une victime atteinte du poste de préjudices du plexus brachial"
+    ]
+   ],
+   "content_score": 89,
+   "readability": 23,
+   "word_count": 4273,
+   "content_len": 28242
+  },
+  {
+   "rank": 11,
+   "url": "https://docditoo.com/paralysie-du-plexus-brachial/",
+   "title": "Archives des Paralysie du plexus brachial - Docditoo.com",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Paralysie du plexus brachial"
+    ]
+   ],
+   "content_score": 34,
+   "readability": 55,
+   "word_count": 277,
+   "content_len": 1814
+  },
+  {
+   "rank": 12,
+   "url": "https://commission-conciliation-indemnisation-aivf.fr/faq-faute-medicale/indemnisation-dune-erreur-medicale/paralysie-du-plexus-brachial-popb",
+   "title": "Paralysie du plexus brachial POPB - Association AIVF",
+   "desc": "Paralysie du plexus brachial POPB, paralysie obstétricale, erreur médicale lors de l'accouchement, saisine de la CCI-CRCI",
+   "headers": [
+    [
+     "h1",
+     "Paralysie du plexus brachial POPB"
+    ],
+    [
+     "h2",
+     "Questions de victimes concernant la paralysie du plexus brachial POPB"
+    ]
+   ],
+   "content_score": 48,
+   "readability": 38,
+   "word_count": 845,
+   "content_len": 5601
+  },
+  {
+   "rank": 13,
+   "url": "https://www.preziosi-handicap.org/fr/actualites-a-la-une/id-202-traumatisme-et-paralysie-du-plexus-brachial-les-indemnisations-et-conseils-du-cabinet-d-avocats-prezosi-ceccaldi-albenois",
+   "title": "Traumatisme et paralysie du plexus brachial : Les indemnisations et conseils du cabinet d'avocats Prezosi Ceccaldi Albenois",
+   "desc": " D&eacute;couvrez les actualit&eacute; &agrave; la une du Cabinet Preziosi-Ceccaldi-Albenois. Retrouvez des actualit&eacute;s &agrave; la une dans les domaines du droit des victimes et du handicap. Explorez dans les actualit&eacute;s &agrave; la une en droit social et p&eacute;nal du handicap. ",
+   "headers": [
+    [
+     "h1",
+     "Traumatisme et paralysie du plexus brachial : Les indemnisations et conseils du cabinet d'avocats Prezosi Ceccaldi Albenois"
+    ],
+    [
+     "h2",
+     "Les causes et conséquences de la paralysie du plexus brachial"
+    ],
+    [
+     "h2",
+     "Les indemnisations pour les victimes de traumatismes et de paralysie"
+    ],
+    [
+     "h2",
+     "Conseils pour les victimes de paralysie"
+    ],
+    [
+     "h2",
+     "Le cabinet d'avocats Prezosi Ceccaldi Albenois : des experts en paralysie"
+    ],
+    [
+     "h2",
+     "Indemnisation pour les victimes de paralysie du plexus brachial : Faites confiance à notre équipe d'avocats compétents"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     ""
+    ]
+   ],
+   "content_score": 53,
+   "readability": 31,
+   "word_count": 785,
+   "content_len": 5020
+  },
+  {
+   "rank": 14,
+   "url": "https://association-aivf-faq.fr/grand-handicap/handicap-moteur/plexus-brachial-accident-de-moto",
+   "title": "Plexus brachial accident de moto - Association Victimes de France AIVF",
+   "desc": "Plexus brachial accident de moto, indemnisation du préjudice, loi Badinter ou Garantie du conducteur, grand handicap, avocat",
+   "headers": [
+    [
+     "h1",
+     "Plexus brachial accident de moto"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant la paralysie du plexus brachial suite à un accident de moto"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 42,
+   "word_count": 936,
+   "content_len": 6001
+  },
+  {
+   "rank": 15,
+   "url": "https://bexxislegal.com/erreurs-medicales/paralysie-plexus-brachial/",
+   "title": "Paralysie plexus brachial : faute médicale et indemnisation",
+   "desc": "Paralysie du plexus brachial après accouchement, chirurgie ou anesthésie ? Bexxis Legal analyse votre dossier pour déterminer si une indemnisation est possible.",
+   "headers": [
+    [
+     "h1",
+     "Paralysie du plexus brachial et responsabilité\nmédicale : erreurs médicales, accidents et indemnisation"
+    ],
+    [
+     "h2",
+     "Comprendre la paralysie du plexus brachial"
+    ],
+    [
+     "h2",
+     "Les contextes médicaux les plus fréquents"
+    ],
+    [
+     "h2",
+     "Faute médicale ou accident médical non fautif ?"
+    ],
+    [
+     "h2",
+     "Les préjudices indemnisables en cas de paralysie du plexus brachial"
+    ],
+    [
+     "h2",
+     "01."
+    ],
+    [
+     "h2",
+     "02."
+    ],
+    [
+     "h2",
+     "03."
+    ],
+    [
+     "h2",
+     "03."
+    ],
+    [
+     "h2",
+     "03."
+    ],
+    [
+     "h2",
+     "Nos domaines d'intervention"
+    ],
+    [
+     "h2",
+     "Erreurs médicales"
+    ],
+    [
+     "h2",
+     "Réparation et Indemnisation des Préjudices"
+    ],
+    [
+     "h2",
+     "Procédures CCI / ONIAM"
+    ],
+    [
+     "h2",
+     "Assistance constitution du Dossier Médical"
+    ],
+    [
+     "h2",
+     "Infections nosocomiales"
+    ],
+    [
+     "h2",
+     "Étude gratuite de votre dossier"
+    ],
+    [
+     "h2",
+     "Ce que disent nos clients"
+    ],
+    [
+     "h2",
+     "Blog"
+    ],
+    [
+     "h2",
+     "Perforation digestive : recours et indemnisation"
+    ],
+    [
+     "h2",
+     "Paraplégie après compression médullaire"
+    ],
+    [
+     "h2",
+     "Retard de diagnostic et retard de prise en charge d’un AVC"
+    ],
+    [
+     "h2",
+     "NOUS DÉCOUVRIR"
+    ],
+    [
+     "h2",
+     "NOS DOMAINES D'EXPERTISE"
+    ],
+    [
+     "h2",
+     "nos services"
+    ],
+    [
+     "h2",
+     "information"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 33,
+   "word_count": 817,
+   "content_len": 5536
+  },
+  {
+   "rank": 16,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/cellule-grand-handicap-aivf/paralysie-du-plexus-brachial-popb",
+   "title": "Paralysie du plexus brachial POPB - Association Victimes de France AIVF",
+   "desc": "Découvrez comment l'Association Aide Victimes France soutient les victimes de paralysie du plexus brachial (POPB). Conseils et accompagnement.",
+   "headers": [
+    [
+     "h1",
+     "Paralysie du plexus brachial POPB"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Paralysie du Plexus Brachial (POPB / PPB / PBP)"
+    ],
+    [
+     "h2",
+     "Paralysie du Plexus Brachial (POPB)"
+    ]
+   ],
+   "content_score": 48,
+   "readability": 34,
+   "word_count": 1759,
+   "content_len": 11381
+  },
+  {
+   "rank": 17,
+   "url": "https://www.cmem-marseille.fr/specialites/nerfs/paralysie-du-plexus-brachial-adulte/",
+   "title": "Paralysie du plexus brachial de l’adulte - Centre Main Epaule Mediterranée",
+   "desc": "Quels sont les symptômes d’une paralysie du plexus brachial et les traitements possibles ? Posez vos questions, le CMEM vous répond !",
+   "headers": [
+    [
+     "h1",
+     "Paralysie traumatique du plexus brachial de l’adulte"
+    ],
+    [
+     "h2",
+     "Anatomie, symptomatologie et possibilités thérapeutiques"
+    ],
+    [
+     "h2",
+     "Qu’est ce que le plexus brachial ?"
+    ],
+    [
+     "h2",
+     "Quels sont les symptômes d’une paralysie du plexus brachial ?"
+    ],
+    [
+     "h2",
+     "Quel bilan réaliser en cas de suspicion clinique de paralysie du plexus brachial ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les possibilités thérapeutiques en cas de paralysie du plexus brachial ?"
+    ],
+    [
+     "h2",
+     "POSER VOTRE QUESTION SUR LA PARALYSIE DU PLEXUS BRACHIAL DE L’ADULTE"
+    ],
+    [
+     "h1",
+     "2 Commentaires"
+    ],
+    [
+     "h2",
+     "Une prise en charge axée sur :"
+    ]
+   ],
+   "content_score": 36,
+   "readability": 43,
+   "word_count": 1286,
+   "content_len": 8611
+  },
+  {
+   "rank": 18,
+   "url": "https://www.victimes.com/plexus-brachial",
+   "title": "Plexus brachial | victimes.com",
+   "desc": "Vous avez été victime d'une atteinte du plexus brachial ? Prenez soin de vous, on s'occupe du reste !",
+   "headers": [
+    [
+     "h2",
+     "Tout savoir sur l'atteinte du plexus brachial"
+    ],
+    [
+     "h2",
+     "2. Les premières démarches"
+    ],
+    [
+     "h2",
+     "3. L'expertise médicale"
+    ]
+   ],
+   "content_score": 39,
+   "readability": 30,
+   "word_count": 828,
+   "content_len": 5334
+  },
+  {
+   "rank": 19,
+   "url": "https://fr.linkedin.com/pulse/paralysie-obst%C3%A9tricale-du-plexus-brachial-accident-m%C3%A9dical-branchet",
+   "title": "Paralysie obstétricale du plexus brachial : Accident médical ou fait de la nature ?",
+   "desc": "La plupart des sinistres nous renvoient à des questions élémentaires notamment celle de la nature juridique d’un préjudice. Voici deux affaires qui vous feront cogiter ! Dans les deux cas, on constate une paralysie obstétricale du plexus brachial.",
+   "headers": [
+    [
+     "h1",
+     "Paralysie obstétricale du plexus brachial : Accident médical ou fait de la nature ?"
+    ],
+    [
+     "h2",
+     "LinkedIn respecte votre confidentialité"
+    ],
+    [
+     "h2",
+     "Autres pages consultées"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 19,
+   "word_count": 1768,
+   "content_len": 10800
+  },
+  {
+   "rank": 20,
+   "url": "https://maitre-morin-avocat.fr/accueil/indemnisation-faute-medicale/indemnisation-paralysie-obstetricale-du-plexus-brachial-popb",
+   "title": "Indemnisation Paralysie Obstétricale du Plexus Brachial POPB",
+   "desc": "Comment agir suite à une Paralysie Obstétricale du Plexus Brachial ? Quel recours faut-il faire pour être indemnisé ?",
+   "headers": [
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "❓ Indemnisation de la Paralysie Obstétricale du Plexus Brachial (POPB)"
+    ],
+    [
+     "h1",
+     "Indemnisation de la Paralysie Obstétricale du Plexus Brachial (POPB)"
+    ],
+    [
+     "h2",
+     "1) Comprendre la POPB — points médicaux clés"
+    ],
+    [
+     "h2",
+     "2) Voies d’indemnisation possibles"
+    ],
+    [
+     "h2",
+     "3) Démarche stratégique (CCI / Assureur / ONIAM)"
+    ],
+    [
+     "h2",
+     "4) Expertise médicale : points à cadrer"
+    ],
+    [
+     "h2",
+     "5) Calcul de l’indemnisation (nomenclature Dintilhac)"
+    ],
+    [
+     "h2",
+     "6) Vie quotidienne & scolarité : postes spécifiques"
+    ],
+    [
+     "h2",
+     "7) Dossier & pièces à réunir"
+    ],
+    [
+     "h2",
+     "8) Conseils pratiques"
+    ],
+    [
+     "h2",
+     "Principes de l'indemnisation d'une POPB ou Paralysie Obstétricale du Plexus Brachial"
+    ],
+    [
+     "h2",
+     "Exemples de questions posées par des victimes de la  Paralysie Obstétricale du Plexus Brachial  ou POPB"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 33,
+   "word_count": 3079,
+   "content_len": 19682
+  },
+  {
+   "rank": 21,
+   "url": "https://aide-victimes.fr/accident-route/indemnisation-plexus-brachial/",
+   "title": "Indemnisation plexus brachial – AFAV",
+   "desc": "Indemnisation du plexus brachial et/ou pobp suite à un accident de la route ou une erreur médicale, importance de l'expertise médicale",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation suite à la paralysie du plexus brachial, accident de la route, erreur médicale"
+    ],
+    [
+     "h2",
+     "L’atteinte du plexus brachial et/ou pobp"
+    ],
+    [
+     "h2",
+     "Indemnisation du plexus brachial et accident de moto"
+    ],
+    [
+     "h2",
+     "Indemnisation du plexus brachiale popb et erreur médicale"
+    ]
+   ],
+   "content_score": 69,
+   "readability": 47,
+   "word_count": 737,
+   "content_len": 4595
+  },
+  {
+   "rank": 22,
+   "url": "https://association-aivf-faq.fr/grand-handicap/handicap-moteur/paralysie-plexus-brachial",
+   "title": "Paralysie plexus brachial - Association Victimes de France AIVF",
+   "desc": "La paralysie du plexus brachial suite à un accident de la route ou un accident médical, questions de victimes concernant l'indemnisation",
+   "headers": [
+    [
+     "h1",
+     "Paralysie du plexus brachial"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Question 1 Accident de moto et paralysie du plexus brachial"
+    ]
+   ],
+   "content_score": 50,
+   "readability": 31,
+   "word_count": 1206,
+   "content_len": 7525
+  },
+  {
+   "rank": 23,
+   "url": "https://www.medecin-dommage-corporel.expert/glossaire/paralysie-neonatale-plexus-brachial/",
+   "title": "Indemnisation erreur médicale accouchement plexus",
+   "desc": "indemnisation de plus en plus difficile à obtenir pour la paralysie néonatale du plexus brachial car la faute médicale est peu reconnue et l'indemnisation par l'ONIAM souvent rejetée pour absence de condition d'anormalité du dommage.",
+   "headers": [],
+   "content_score": 22,
+   "readability": 35,
+   "word_count": 186,
+   "content_len": 1223
+  },
+  {
+   "rank": 24,
+   "url": "https://www.youtube.com/watch?v=_gDg7BqrEBo",
+   "title": "Podcast - Paralysie obstétricale du plexus brachial - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Podcast - Paralysie obstétricale du plexus brachial"
+    ],
+    [
+     "h1",
+     "Podcast - Paralysie obstétricale du plexus brachial"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 26,
+   "readability": 43,
+   "word_count": 178,
+   "content_len": 1066
+  },
+  {
+   "rank": 25,
+   "url": "https://www.chu-lyon.fr/paralysie-traumatique-plexus-brachial",
+   "title": "Paralysie traumatique du plexus brachial | Fiche santé HCL",
+   "desc": "La paralysie traumatique du plexus brachial est liée à une atteinte grave des nerfs permettant la commande et la sensibilité du membre supérieur.",
+   "headers": [
+    [
+     "h1",
+     "Paralysie traumatique du plexus brachial"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que le plexus brachial ?"
+    ],
+    [
+     "h2",
+     "Quel est le mécanisme d’une paralysie traumatique du plexus brachial ?"
+    ],
+    [
+     "h2",
+     "Comment en faire le diagnostic ?"
+    ],
+    [
+     "h2",
+     "Quelle est le déroulement de la prise en charge d’une paralysie traumatique du plexus brachial ?"
+    ],
+    [
+     "h2",
+     "Consulter aux HCL"
+    ]
+   ],
+   "content_score": 36,
+   "readability": 36,
+   "word_count": 1868,
+   "content_len": 11674
+  },
+  {
+   "rank": 26,
+   "url": "https://www.hello-victimes.fr/les-causes-de-la-t%C3%A9trapl%C3%A9gie-et-de-la-parapl%C3%A9gie/atteinte-du-nerf-radial-apr%C3%A8s-un-accident-vos-droits-et-d%C3%A9marches/",
+   "title": "Atteinte du nerf radial après un accident : Droits et démarches - Association d'aide aux victimes d'accident de la route. Association d''aide aux victimes d'erreur/faute médicale. Association d'aide aux victimes d'accident de la vie ou d'agression.",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Atteinte du nerf radial après un accident : Droits et démarches"
+    ],
+    [
+     "h2",
+     ""
+    ]
+   ],
+   "content_score": 25,
+   "readability": 24,
+   "word_count": 2279,
+   "content_len": 14774
+  },
+  {
+   "rank": 27,
+   "url": "https://medtube.fr/orthopedie-et-traumatologie/videos-medicales/42481-lesions-du-plexus-brachial-paralysie-derb-et-de-klumpke",
+   "title": "Lésions du Plexus Brachial: Paralysie d’Erb et de Klumpke • Vidéo • Site médical MEDtube.fr",
+   "desc": "Les lésions au point d&#039;Erb surviennent généralement pendant l&#039;accouchement ou suite à une chute avec réception sur l&#039;épaule. La paralysie d&#039;Erb",
+   "headers": [
+    [
+     "h1",
+     "Lésions du Plexus Brachial: Paralysie d’Erb et de Klumpke"
+    ],
+    [
+     "h1",
+     "Une erreur s'est produite."
+    ],
+    [
+     "h2",
+     ""
+    ]
+   ],
+   "content_score": 28,
+   "readability": 35,
+   "word_count": 287,
+   "content_len": 1817
+  },
+  {
+   "rank": 28,
+   "url": "https://www.christopherreeve.org/international/french-hub/la-sante/causes-de-la-paralysie/lesion-du-plexus-brachial/",
+   "title": "Lésions du plexus brachial - Christopher & Dana Reeve Foundation",
+   "desc": "Les lésions du plexus brachial sont causées par un traumatisme d'un réseau nerveux.",
+   "headers": [
+    [
+     "h1",
+     "Lésions du plexus brachial"
+    ]
+   ],
+   "content_score": 34,
+   "readability": 9,
+   "word_count": 523,
+   "content_len": 3431
+  },
+  {
+   "rank": 29,
+   "url": "https://medical.lexvox-avocat.fr/2020/05/29/vous-souhaitez-un-avocat-expert-dans-les-lesions-du-plexus-brachial-suite-a-un-accouchement/",
+   "title": "Vous souhaitez un avocat expert dans les lésions du plexus brachial suite à un accouchement ? - Lexvox Medical",
+   "desc": "Lors d’accouchement difficile, certaines complications peuvent apparaître sur le bébé, dont celle de la paralysie du plexus brachial. Parlez en à un avocat.",
+   "headers": [
+    [
+     "h1",
+     "Vous souhaitez un avocat expert dans les lésions du plexus brachial suite à un accouchement ?"
+    ],
+    [
+     "h2",
+     "L’endommagement du plexus brachial lors de l’accouchement."
+    ],
+    [
+     "h2",
+     "Votre avocat en cas de lésion plexus brachial lors de l’accouchement peut vous aider"
+    ],
+    [
+     "h2",
+     "La mise en oeuvre de la responsabilité du chirurgien ou de l’hopital en cas de lésion du plexus brachial"
+    ]
+   ],
+   "content_score": 46,
+   "readability": 21,
+   "word_count": 1839,
+   "content_len": 11288
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1776,
+   "target": 1776
+  },
+  "readability": {
+   "median": 22,
+   "target": 22
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "plexus brachial",
+    "usage_pc": 80
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "atteinte du plexus brachial",
+    "usage_pc": 30
+   },
+   {
+    "t": "paralysie",
+    "usage_pc": 30
+   },
+   {
+    "t": "paralysie du plexus brachial",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "plexus brachial",
+    "usage_pc": 60
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "lésion du plexus brachial",
+    "usage_pc": 20
+   },
+   {
+    "t": "atteinte du plexus brachial",
+    "usage_pc": 20
+   },
+   {
+    "t": "paralysie",
+    "usage_pc": 20
+   },
+   {
+    "t": "lésion",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "plexus brachial",
+    "usage_pc": 80
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 50
+   },
+   {
+    "t": "paralysie du plexus brachial",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "paralysie",
+    "usage_pc": 30
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "atteinte du plexus brachial",
+    "usage_pc": 20
+   },
+   {
+    "t": "accouchement",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 20
+   },
+   {
+    "t": "lésion du plexus brachial",
+    "usage_pc": 10
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "lésion",
+    "usage_pc": 10
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 10
+   },
+   {
+    "t": "cour de cassation",
+    "usage_pc": 10
+   },
+   {
+    "t": "déficit fonctionnel permanent",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accouchement",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "plexus brachial",
+    "usage_pc": 50
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 40
+   },
+   {
+    "t": "paralysie",
+    "usage_pc": 30
+   },
+   {
+    "t": "accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "atteinte du plexus brachial",
+    "usage_pc": 20
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 20
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "paralysie du plexus brachial",
+    "usage_pc": 10
+   },
+   {
+    "t": "lésion du plexus brachial",
+    "usage_pc": 10
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "lésion",
+    "usage_pc": 10
+   },
+   {
+    "t": "une paralysie",
+    "usage_pc": 10
+   },
+   {
+    "t": "une lésion du plexus brachial",
+    "usage_pc": 10
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "accouchement",
+    "usage_pc": 10
+   },
+   {
+    "t": "séquelle",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 10
+   },
+   {
+    "t": "un accouchement",
+    "usage_pc": 10
+   },
+   {
+    "t": "partielle ou totale",
+    "usage_pc": 10
+   },
+   {
+    "t": "séquelles du plexus brachial",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemnisation de la victime",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "atteinte au plexus brachial",
+    "usage_pc": 10
+   },
+   {
+    "t": "partielle ou totale du bras",
+    "usage_pc": 10
+   },
+   {
+    "t": "paralysie partielle ou totale",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "plexus brachial",
+    "usage_pc": 100,
+    "sugg_usage": [
+     7,
+     31
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     26
+    ]
+   },
+   {
+    "t": "paralysie du plexus brachial",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "lésion du plexus brachial",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 90,
+    "sugg_usage": [
+     6,
+     28
+    ]
+   },
+   {
+    "t": "atteinte du plexus brachial",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     9
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 90,
+    "sugg_usage": [
+     3,
+     16
+    ]
+   },
+   {
+    "t": "paralysie",
+    "usage_pc": 90,
+    "sugg_usage": [
+     3,
+     11
+    ]
+   },
+   {
+    "t": "lésion",
+    "usage_pc": 90,
+    "sugg_usage": [
+     2,
+     10
+    ]
+   },
+   {
+    "t": "expertise",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     8
+    ]
+   },
+   {
+    "t": "une paralysie",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "nerf",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     10
+    ]
+   },
+   {
+    "t": "les préjudices",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "poste de préjudice",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "accouchement",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "séquelle",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "tierce personne",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "consolidation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "incidence professionnelle",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "nerveux",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "accident de la circulation",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "évaluer",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "accidents de la route",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "membre supérieur",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "dystocie des épaules",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "les lésions",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "moelle épinière",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les séquelles",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un accouchement",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "une lésion du plexus brachial",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "une atteinte du plexus brachial",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "cour de cassation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déficit fonctionnel permanent",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "accident médical",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "médecin expert",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "plexus brachial droit",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "paralysie totale",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les traumatismes du plexus brachial",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit du dommage corporel",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "pertes de gains professionnels futurs",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expert judiciaire",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "nerfs du plexus brachial",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "dossier médical",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "une paralysie totale",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "paralysie totale du membre supérieur",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les pertes de gains professionnels",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "paralysie complète",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "paralysie obstétricale du plexus brachial",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les atteintes du plexus brachial",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’une lésion du plexus",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cour d’appel",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accidents",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victimes d’accidents de la route",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lors de l’accouchement",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lors d’un accouchement",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "partielle ou totale",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "réparation du dommage corporel",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "pertes de gains professionnels actuels",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les blessures du plexus brachial",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "plus graves du plexus brachial",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "séquelles du plexus brachial",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "perte de mobilité",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lien de causalité entre",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "nerf brachial",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit à une indemnisation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les souffrances endurées",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "intervention chirurgicale",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation de la victime",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "plexus brachial chez le nouveau-né",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "atteinte au plexus brachial",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les plus graves du plexus",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les plus graves",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "paralysie du bras",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "partielle ou totale du bras",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat spécialisé en droit",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "paralysie partielle ou totale",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "atteinte grave du plexus brachial",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Plexus brachial",
+    "importance": 45.37984,
+    "relevance": 0.70906,
+    "confidence": 9.616,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Plexus_brachial"
+     ]
+    ]
+   },
+   {
+    "t": "Paralysie",
+    "importance": 30.3424,
+    "relevance": 0.47409999999999997,
+    "confidence": 4.7264,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Paralysie"
+     ]
+    ]
+   },
+   {
+    "t": "Nerf",
+    "importance": 20.524352,
+    "relevance": 0.320693,
+    "confidence": 4.2638,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Nerf"
+     ]
+    ]
+   },
+   {
+    "t": "Paralysie obstétricale du plexus brachial",
+    "importance": 18.484560000000002,
+    "relevance": 0.51346,
+    "confidence": 1.174,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Paralysie_obstétricale_du_plexus_brachial"
+     ]
+    ]
+   },
+   {
+    "t": "Lésion (médecine)",
+    "importance": 14.912640000000001,
+    "relevance": 0.41424000000000005,
+    "confidence": 1.6756199999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Lésion_(médecine)"
+     ]
+    ]
+   },
+   {
+    "t": "Plexus nerveux",
+    "importance": 13.425151999999999,
+    "relevance": 0.209768,
+    "confidence": 1.3728,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Plexus_nerveux"
+     ]
+    ]
+   },
+   {
+    "t": "Accouchement",
+    "importance": 12.76992,
+    "relevance": 0.35472000000000004,
+    "confidence": 5.051,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accouchement"
+     ]
+    ]
+   },
+   {
+    "t": "Office national d'indemnisation des accidents médicaux",
+    "importance": 12.757680000000002,
+    "relevance": 0.35438000000000003,
+    "confidence": 0.9436,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Office_national_d'indemnisation_des_accidents_médicaux"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 11.208240000000002,
+    "relevance": 0.31134000000000006,
+    "confidence": 7.509,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Dystocie des épaules",
+    "importance": 10.97424,
+    "relevance": 0.30484,
+    "confidence": 3.482,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dystocie_des_épaules"
+     ]
+    ]
+   },
+   {
+    "t": "Dystocie",
+    "importance": 7.990559999999999,
+    "relevance": 0.22196,
+    "confidence": 2.9606000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dystocie"
+     ]
+    ]
+   },
+   {
+    "t": "Causalité",
+    "importance": 6.7442400000000005,
+    "relevance": 0.18734,
+    "confidence": 1.5388,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Causalité"
+     ]
+    ]
+   },
+   {
+    "t": "Médecin",
+    "importance": 6.432768,
+    "relevance": 0.100512,
+    "confidence": 1.9289999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médecin"
+     ]
+    ]
+   },
+   {
+    "t": "Ergothérapie",
+    "importance": 5.8176,
+    "relevance": 0.1616,
+    "confidence": 3.6188000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Ergothérapie"
+     ]
+    ]
+   },
+   {
+    "t": "Cour de cassation (France)",
+    "importance": 5.75784,
+    "relevance": 0.15994,
+    "confidence": 5.356999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cour_de_cassation_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Douleur",
+    "importance": 5.4352800000000006,
+    "relevance": 0.15098,
+    "confidence": 3.441,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Douleur"
+     ]
+    ]
+   },
+   {
+    "t": "Obstétrique",
+    "importance": 5.05368,
+    "relevance": 0.14038,
+    "confidence": 4.7336,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Obstétrique"
+     ]
+    ]
+   },
+   {
+    "t": "Électromyographie",
+    "importance": 4.89456,
+    "relevance": 0.13596,
+    "confidence": 3.745,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Électromyographie"
+     ]
+    ]
+   },
+   {
+    "t": "Accident médical",
+    "importance": 3.597759999999999,
+    "relevance": 0.22485999999999998,
+    "confidence": 0.765,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Avulsion (chirurgie)",
+    "importance": 3.224,
+    "relevance": 0.2015,
+    "confidence": 1.5364,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avulsion_(chirurgie)"
+     ]
+    ]
+   },
+   {
+    "t": "Traumatisme psychologique",
+    "importance": 3.07648,
+    "relevance": 0.19228,
+    "confidence": 0.99544,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Traumatisme_psychologique"
+     ]
+    ]
+   },
+   {
+    "t": "Plexus",
+    "importance": 3.07392,
+    "relevance": 0.19212,
+    "confidence": 0.6296,
+    "links": [
+     [
+      "wikipedia",
+      "http://en.wikipedia.org/wiki/Plexus"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 2.8083199999999997,
+    "relevance": 0.17551999999999998,
+    "confidence": 1.5108000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Fracture",
+    "importance": 2.7766399999999996,
+    "relevance": 0.17353999999999997,
+    "confidence": 2.4932,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fracture"
+     ]
+    ]
+   },
+   {
+    "t": "Gynécologie obstétrique",
+    "importance": 2.5072,
+    "relevance": 0.1567,
+    "confidence": 1.2964,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Gynécologie_obstétrique"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 1.9372800000000003,
+    "relevance": 0.12108000000000001,
+    "confidence": 0.5622,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Kinésithérapie",
+    "importance": 1.9327999999999996,
+    "relevance": 0.12079999999999999,
+    "confidence": 5.204,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Kinésithérapie"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 1.5884799999999997,
+    "relevance": 0.09928,
+    "confidence": 1.7993999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Grossesse",
+    "importance": 1.53952,
+    "relevance": 0.09622,
+    "confidence": 4.2028,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Grossesse"
+     ]
+    ]
+   },
+   {
+    "t": "Examen médical",
+    "importance": 1.495944,
+    "relevance": 0.041554,
+    "confidence": 1.0776,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Examen_médical"
+     ]
+    ]
+   },
+   {
+    "t": "Diagnostic (médecine)",
+    "importance": 1.3968000000000003,
+    "relevance": 0.0873,
+    "confidence": 2.099,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Diagnostic_(médecine)"
+     ]
+    ]
+   },
+   {
+    "t": "Cour d'appel (France)",
+    "importance": 1.21376,
+    "relevance": 0.07586,
+    "confidence": 0.4736000000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cour_d'appel_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Symptôme",
+    "importance": 1.08832,
+    "relevance": 0.06802,
+    "confidence": 1.6103999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Symptôme"
+     ]
+    ]
+   },
+   {
+    "t": "Justice",
+    "importance": 1.03488,
+    "relevance": 0.06468,
+    "confidence": 0.9677999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Justice"
+     ]
+    ]
+   },
+   {
+    "t": "Véhicule (transport physique)",
+    "importance": 0.994656,
+    "relevance": 0.062166,
+    "confidence": 0.9301999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Véhicule_(transport_physique)"
+     ]
+    ]
+   },
+   {
+    "t": "Pédiatrie",
+    "importance": 0.9497599999999998,
+    "relevance": 0.05935999999999999,
+    "confidence": 1.5510000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Pédiatrie"
+     ]
+    ]
+   },
+   {
+    "t": "Ceinture de sécurité",
+    "importance": 0.9474239999999999,
+    "relevance": 0.059214,
+    "confidence": 2.903,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Ceinture_de_sécurité"
+     ]
+    ]
+   },
+   {
+    "t": "Muscle biceps brachial",
+    "importance": 0.8630720000000001,
+    "relevance": 0.053942000000000004,
+    "confidence": 1.4564,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Muscle_biceps_brachial"
+     ]
+    ]
+   },
+   {
+    "t": "Gravitation",
+    "importance": 0.8585280000000001,
+    "relevance": 0.053658000000000004,
+    "confidence": 0.8246,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Gravitation"
+     ]
+    ]
+   },
+   {
+    "t": "Docteur G.",
+    "importance": 0.6979200000000001,
+    "relevance": 0.17448,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Moelle spinale",
+    "importance": 0.6472,
+    "relevance": 0.04045,
+    "confidence": 15.075999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Moelle_spinale"
+     ]
+    ]
+   },
+   {
+    "t": "madame",
+    "importance": 0.64704,
+    "relevance": 0.16176,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Chambre de commerce et d'industrie en France",
+    "importance": 0.5828800000000001,
+    "relevance": 0.14572000000000002,
+    "confidence": 0.42300000000000004,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Chambre_de_commerce_et_d'industrie_en_France"
+     ]
+    ]
+   },
+   {
+    "t": "Palais omnisports de Paris-Bercy",
+    "importance": 0.5761599999999999,
+    "relevance": 0.14404,
+    "confidence": 0.6884,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Palais_omnisports_de_Paris-Bercy"
+     ]
+    ]
+   },
+   {
+    "t": "Tracteur agricole",
+    "importance": 0.57424,
+    "relevance": 0.14356,
+    "confidence": 0.6728,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tracteur_agricole"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal judiciaire de Rennes",
+    "importance": 0.53216,
+    "relevance": 0.13304,
+    "confidence": 0.47300000000000003,
+    "links": []
+   },
+   {
+    "t": "GROUPAMA LOIRE BRETAGNE",
+    "importance": 0.50096,
+    "relevance": 0.12524,
+    "confidence": 0.5086,
+    "links": []
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "plexus brachial\nindemnisation\naccident\natteinte du plexus brachial\nparalysie\nparalysie du plexus brachial",
+  "desc_title": "plexus brachial\nindemnisation\naccident\nlésion du plexus brachial\natteinte du plexus brachial\nparalysie\nlésion\nun accident\ndommage corporel",
+  "h1": "plexus brachial\nindemnisation\nparalysie du plexus brachial\naccident\nparalysie\nun accident\natteinte du plexus brachial\naccouchement\nindemniser\nlésion du plexus brachial\npréjudice\nlésion\nles préjudices\ncour de cassation\ndéficit fonctionnel permanent\naccident médical\nun accouchement\nsuite à un accident",
+  "h2": "plexus brachial\nindemnisation\nparalysie\naccident\natteinte du plexus brachial\nexpertise\nun accident\nexpertise médicale\ndommage corporel\nparalysie du plexus brachial\nlésion du plexus brachial\npréjudice\nlésion\nune paralysie\nune lésion du plexus brachial\nposte de préjudice\naccouchement\nséquelle\naccident médical\nun accouchement\npartielle ou totale\nséquelles du plexus brachial\nindemnisation de la victime\nsuite à un accident\natteinte au plexus brachial\npartielle ou totale du bras\nparalysie partielle ou totale",
+  "content_basic": "plexus brachial\nindemnisation\nparalysie du plexus brachial\nlésion du plexus brachial\naccident\natteinte du plexus brachial\npréjudice\nparalysie\nlésion\nexpertise\nune paralysie\nun accident\nexpertise médicale\nnerf\nles préjudices\nposte de préjudice\naccouchement\ndommage corporel\nindemniser\nséquelle\ntierce personne\nconsolidation\nincidence professionnelle\nnerveux\naccident de la circulation\névaluer\naccidents de la route\nmembre supérieur\ndystocie des épaules\nles lésions\nmoelle épinière\nles séquelles\nun accouchement",
+  "content_basic_w_ranges": "plexus brachial: 7-31x\nindemnisation: 3-26x\nparalysie du plexus brachial: 1-3x\nlésion du plexus brachial: 1-6x\naccident: 6-28x\natteinte du plexus brachial: 1-9x\npréjudice: 3-16x\nparalysie: 3-11x\nlésion: 2-10x\nexpertise: 2-8x\nune paralysie: 1-5x\nun accident: 1-4x\nexpertise médicale: 1-4x\nnerf: 1-10x\nles préjudices: 1-4x\nposte de préjudice: 1-4x\naccouchement: 1-6x\ndommage corporel: 1-5x\nindemniser: 1-3x\nséquelle: 1-3x\ntierce personne: 1-2x\nconsolidation: 1-4x\nincidence professionnelle: 1x\nnerveux: 1-5x\naccident de la circulation: 1-2x\névaluer: 1-2x\naccidents de la route: 1-2x\nmembre supérieur: 1-3x\ndystocie des épaules: 1-3x\nles lésions: 1-2x\nmoelle épinière: 1-2x\nles séquelles: 1x\nun accouchement: 1x",
+  "content_extended": "une lésion du plexus brachial\nune atteinte du plexus brachial\ncour de cassation\ndroit à indemnisation\ndéficit fonctionnel permanent\naccident médical\nmédecin expert\nplexus brachial droit\nparalysie totale\nles traumatismes du plexus brachial\ndroit du dommage corporel\npertes de gains professionnels futurs\nexpert judiciaire\nnerfs du plexus brachial\ndossier médical\nune paralysie totale\nparalysie totale du membre supérieur\nles pertes de gains professionnels\nparalysie complète\nparalysie obstétricale du plexus brachial\nles atteintes du plexus brachial\nvictime d’une lésion du plexus\ncour d’appel\nvictimes d’accidents\nvictimes d’accidents de la route\nlors de l’accouchement\nlors d’un accouchement\npartielle ou totale\nréparation du dommage corporel\npertes de gains professionnels actuels\nles blessures du plexus brachial\nplus graves du plexus brachial\nséquelles du plexus brachial\nperte de mobilité\nlien de causalité entre\nnerf brachial\ndroit à une indemnisation\nles souffrances endurées\nintervention chirurgicale\nindemnisation de la victime\nsuite à un accident\nplexus brachial chez le nouveau-né\natteinte au plexus brachial\nles plus graves du plexus\nles plus graves\nparalysie du bras\npartielle ou totale du bras\navocat spécialisé en droit\nparalysie partielle ou totale\natteinte grave du plexus brachial",
+  "content_extended_w_ranges": "une lésion du plexus brachial: 1-2x\nune atteinte du plexus brachial: 1-4x\ncour de cassation: 1-3x\ndroit à indemnisation: 1x\ndéficit fonctionnel permanent: 1-2x\naccident médical: 1-5x\nmédecin expert: 1-2x\nplexus brachial droit: 1x\nparalysie totale: 1x\nles traumatismes du plexus brachial: 1x\ndroit du dommage corporel: 1x\npertes de gains professionnels futurs: 1x\nexpert judiciaire: 1x\nnerfs du plexus brachial: 1x\ndossier médical: 1x\nune paralysie totale: 1x\nparalysie totale du membre supérieur: 1x\nles pertes de gains professionnels: 1x\nparalysie complète: 1x\nparalysie obstétricale du plexus brachial: 1x\nles atteintes du plexus brachial: 1x\nvictime d’une lésion du plexus: 1x\ncour d’appel: 1x\nvictimes d’accidents: 1x\nvictimes d’accidents de la route: 1x\nlors de l’accouchement: 1x\nlors d’un accouchement: 1x\npartielle ou totale: 1x\nréparation du dommage corporel: 1x\npertes de gains professionnels actuels: 1x\nles blessures du plexus brachial: 1x\nplus graves du plexus brachial: 1x\nséquelles du plexus brachial: 1x\nperte de mobilité: 1x\nlien de causalité entre: 1x\nnerf brachial: 1x\ndroit à une indemnisation: 1x\nles souffrances endurées: 1x\nintervention chirurgicale: 1x\nindemnisation de la victime: 1x\nsuite à un accident: 1x\nplexus brachial chez le nouveau-né: 1x\natteinte au plexus brachial: 1x\nles plus graves du plexus: 1x\nles plus graves: 1x\nparalysie du bras: 1x\npartielle ou totale du bras: 1x\navocat spécialisé en droit: 1x\nparalysie partielle ou totale: 1x\natteinte grave du plexus brachial: 1x",
+  "entities": "Plexus brachial\nParalysie\nNerf\nParalysie obstétricale du plexus brachial\nLésion (médecine)\nPlexus nerveux\nAccouchement\nOffice national d'indemnisation des accidents médicaux\nAccident de la route\nDystocie des épaules\nDystocie\nCausalité\nMédecin\nErgothérapie\nCour de cassation (France)\nDouleur\nObstétrique\nÉlectromyographie\nAccident médical\nAvulsion (chirurgie)\nTraumatisme psychologique\nPlexus\nDommage corporel\nFracture\nGynécologie obstétrique\nEndommagement\nKinésithérapie\nAssurance\nGrossesse\nExamen médical\nDiagnostic (médecine)\nCour d'appel (France)\nSymptôme\nJustice\nVéhicule (transport physique)\nPédiatrie\nCeinture de sécurité\nMuscle biceps brachial\nGravitation\nDocteur G.\nMoelle spinale\nmadame\nChambre de commerce et d'industrie en France\nPalais omnisports de Paris-Bercy\nTracteur agricole\nTribunal judiciaire de Rennes\nGROUPAMA LOIRE BRETAGNE"
+ },
+ "status": "ready",
+ "keyword": "indemnisation plexus brachial",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "2641b8be61a479db",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "transactional": 34.5
+  },
+  "top_content_type": "educational",
+  "content_type_stats": {
+   "business": 31.0,
+   "guide": 27.6,
+   "blog-post": 20.7,
+   "educational": 44.8,
+   "other": 31.0,
+   "news": 3.4,
+   "case-study": 6.9,
+   "product-category": 3.4,
+   "landing-page": 3.4,
+   "video": 6.9
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/2641b8be61a479db",
+ "share_url": "https://app.neuronwriter.com/analysis/share/2641b8be61a479db/6786c7009ab84bb1911cc845889ca6324fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/2641b8be61a479db/29df9b241d66a0a8c41662eeff04c0d94fa16"
+}

@@ -23,6 +23,12 @@ du fragment brut avec `tools/neuronwriter.py evaluate` sous-note
 artificiellement l'article — toujours utiliser `nw_eval_wp.py` pour les
 articles WP.
 
+## Articles rédigés et validés, publication en attente
+
+| Date rédaction | Site | Slug | NW score | Blocage |
+|---|---|---|---|---|
+| 2026-07-09 | accident | fgao-delit-de-fuite-non-assure-procedure-delais | 83 (dérogation) | `WP_ACCIDENT_USER`/`WP_ACCIDENT_APP_PASSWORD` absents de l'environnement (`wp_publish.py --dry-run` échoue avant même la vérification d'auth). Article QA OK, prêt à publier dès régénération des identifiants par Me Humbert (cf. `PROMPT-PIPELINE-WP.md`, règle de rotation d'Application Password). |
+
 ## Métas Yoast à poser manuellement
 
 Sur les deux sites, `_yoast_wpseo_title` et `_yoast_wpseo_metadesc` ne sont
@@ -55,6 +61,14 @@ les SERP) reste à corriger une fois Yoast inscriptible.
   hero géolocalisée EXIF GPS Marseille. Si Me Humbert souhaite une catégorie
   Marseille sur ce site, elle doit être créée manuellement dans WordPress
   (hors périmètre de ce pipeline automatisé).
+
+- **Item 19 (fgao-delit-de-fuite-non-assure-procedure-delais, ville Arles)** :
+  score NeuronWriter plafonné à 83 sur 3 cycles `evaluate` consécutifs
+  identiques (loop3/loop4/loop5), malgré des ajouts de contenu substantiels
+  faisant passer la couverture locale de 43 % à 59 % — plafond de famille
+  « procédure/délais » (cf. loi mesurée CLAUDE.md). Dérogation éditoriale
+  appliquée (score 83 > 80), documentée dans le marqueur
+  `<!-- NEURONWRITER SCORE -->` du fichier.
 
 ## Hypothèses de volume par silo
 

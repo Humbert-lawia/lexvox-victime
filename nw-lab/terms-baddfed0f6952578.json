@@ -1,0 +1,2581 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quel est le prix d'un accident de ski ?"
+   },
+   {
+    "q": "Comment se faire rembourser un accident de ski ?"
+   },
+   {
+    "q": "Montant indemnisation suite accident ?"
+   },
+   {
+    "q": "Quels sont les 3 préjudices indemnisés ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quel est le montant de l'indemnisation suite à un accident de ski et comment est-il calculé ?": {
+    "importance": 10
+   },
+   "Comment se faire indemniser après un accident de ski, et quelles sont les démarches à suivre ?": {
+    "importance": 10
+   },
+   "Qui est responsable en cas d'accident de ski (tiers, station, seul) et comment cela affecte-t-il l'indemnisation ?": {
+    "importance": 9
+   },
+   "Quels sont les différents types de préjudices indemnisables après un accident de ski ?": {
+    "importance": 9
+   },
+   "Quelles assurances peuvent couvrir un accident de ski (GAV, responsabilité civile, assurance ski, etc.) ?": {
+    "importance": 8
+   },
+   "Que faire immédiatement après un accident de ski sur les pistes ?": {
+    "importance": 7
+   },
+   "Faut-il faire appel à un avocat spécialisé pour obtenir une indemnisation après un accident de ski ?": {
+    "importance": 7
+   },
+   "Quels sont les accidents de ski les plus fréquents et comment les prévenir ?": {
+    "importance": 6
+   },
+   "Comment prouver la responsabilité d'un tiers ou de la station de ski ?": {
+    "importance": 6
+   },
+   "Les frais de secours et de rapatriement sont-ils pris en charge en cas d'accident de ski ?": {
+    "importance": 5
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Accident de Ski : Comment Obtenir une Indemnisation Maximale de Vos Préjudices ?"
+   },
+   {
+    "q": "Accident de ski : comment se passe l’indemnisation ?"
+   },
+   {
+    "q": "Accident de ski : doit-on avoir confiance dans son assureur pour se faire défendre ?"
+   },
+   {
+    "q": "Accident de ski : quelles démarches après l’accident ?"
+   },
+   {
+    "q": "Accident de ski sans casque : qui paye ?"
+   },
+   {
+    "q": "Accident de ski, comment être indemnisé après un accident corporel  ?"
+   },
+   {
+    "q": "Après un accident de ski, pourquoi un avocat engagé aux côtés des victimes ?"
+   },
+   {
+    "q": "Combien de temps faut-il pour obtenir une indemnisation ?"
+   },
+   {
+    "q": "Comment obtenir une indemnisation après un accident de ski ?"
+   },
+   {
+    "q": "Comment prouver la responsabilité de l’autre skieur ?"
+   },
+   {
+    "q": "Comment sont déterminées les responsabilités en cas d’accident de ski ?"
+   },
+   {
+    "q": "Comment vais-je pouvoir faire valoir ce préjudice lors de l’expertise ?"
+   },
+   {
+    "q": "En cas d’accident de ski, quelles sont les démarches à effectuer ?"
+   },
+   {
+    "q": "En cas d’accident de ski, quels contrats peuvent être mis en jeu ?"
+   },
+   {
+    "q": "Est-ce trop tard pour faire appel à un avocat ?"
+   },
+   {
+    "q": "Et si l’auteur de l’accident n’est pas assuré ?"
+   },
+   {
+    "q": "Face à ces situations, la question cruciale qui se pose est la suivante : comment obtenir une indemnisation complète et équitable pour les dommages corporels subis lors de ces activités récréatives enneigées ?"
+   },
+   {
+    "q": "L'assurance voyage peut-elle couvrir les frais de secours à l'étranger en cas d'accident de ski ?"
+   },
+   {
+    "q": "La durée de la consolidation impacte-t-elle l’indemnisation ?"
+   },
+   {
+    "q": "La perte de mon forfait ou la casse du matériel de ski sont-elles prises en charge par l'assurance ?"
+   },
+   {
+    "q": "La responsabilité de la station de ski peut-elle être engagée ?"
+   },
+   {
+    "q": "Mon assurance habitation couvre-t-elle les accidents de ski ?"
+   },
+   {
+    "q": "Mon enfant a causé un accident, suis-je responsable ?"
+   },
+   {
+    "q": "Peut-on être indemnisé même si aucun responsable n'est identifié ?"
+   },
+   {
+    "q": "Pourquoi choisir un avocat spécialisé en droit du dommage corporel pour un accident de ski ?"
+   },
+   {
+    "q": "Pourriez-vous m’aider à en trouver un spécialisé dans ce genre d’accident ?"
+   },
+   {
+    "q": "Puis je être indemnisé en cas de chute sans collision ?"
+   },
+   {
+    "q": "Puis-je avoir des recours pour indemnisation et en cas de complications futures ?"
+   },
+   {
+    "q": "Puis-je faire intervenir mon assurance « protection juridique » ?"
+   },
+   {
+    "q": "Puis-je introduire un recours pour être indemnisé ?"
+   },
+   {
+    "q": "Puis-je être indemnisé si j'ai eu un accident hors-piste ?"
+   },
+   {
+    "q": "Que faire en cas d'accident de ski et comment l’éviter ?"
+   },
+   {
+    "q": "Que faire immédiatement après un accident de ski ?"
+   },
+   {
+    "q": "Que faire si vous vous blessez seul lors d’un accident de ski ?"
+   },
+   {
+    "q": "Que se passe-t-il si la station de ski est responsable ?"
+   },
+   {
+    "q": "Quel est le montant moyen d'indemnisation pour un accident de ski ?"
+   },
+   {
+    "q": "Quelle assurance intervient ?"
+   },
+   {
+    "q": "Quelle indemnisation est prévue en cas de chute à ski sans tiers responsable ?"
+   },
+   {
+    "q": "Quelles assurances peuvent intervenir ?"
+   },
+   {
+    "q": "Quelles blessures peut-on subir lors d’un accident de ski ?"
+   },
+   {
+    "q": "Quelles sont les démarches à effectuer ?"
+   },
+   {
+    "q": "Quels délais pour agir après un accident de ski ?"
+   },
+   {
+    "q": "Quels préjudices peuvent être indemnisés ?"
+   },
+   {
+    "q": "Quels préjudices pouvez-vous obtenir ?"
+   },
+   {
+    "q": "Quels sont les accidents de ski fréquents ?"
+   },
+   {
+    "q": "Quels sont les conseils à suivre et les précautions à prendre pour éviter l’accident de ski ?"
+   },
+   {
+    "q": "Quels sont les contrats d’assurances qui peuvent jouer pendant vos vacances au ski ?"
+   },
+   {
+    "q": "Quels types d’accidents de ski sont indemnisables ?"
+   },
+   {
+    "q": "Quels éléments influencent le montant de l’indemnisation d’un accident de ski ?"
+   },
+   {
+    "q": "Qui est responsable en cas d'accident de ski ?"
+   },
+   {
+    "q": "Qui est responsable en cas de collision entre deux skieurs ?"
+   },
+   {
+    "q": "Qui est responsable en cas de collision entre skieurs ?"
+   },
+   {
+    "q": "Qui est responsable lors d’un accident de ski ?"
+   },
+   {
+    "q": "Qui est responsable si l’accident est provoqué par une collision avec un ski ou un bâton?"
+   },
+   {
+    "q": "Si je chute tout seul en skiant, quel contrat d’assurance jouera ?"
+   },
+   {
+    "q": "Si je heurte un skieur, dans quels cas suis-je responsable ?"
+   },
+   {
+    "q": "Si je me blesse en utilisant les remontées mécaniques, ai-je un recours ?"
+   },
+   {
+    "q": "Si je suis victime d’un accident en skiant hors des pistes, suis-je couvert ?"
+   },
+   {
+    "q": "Si j’ai un accident de ski et qu’une équipe de sauveteurs est envoyée à mon secours, les frais seront-ils à ma charge ?"
+   },
+   {
+    "q": "Ski : chute, collision&hellip; Comment identifier les responsabilit&eacute;s pour obtenir l&rsquo;indemnisation de votre pr&eacute;judice corporel ?"
+   },
+   {
+    "q": "Skieur Sans Casque : Qui Est Responsable en Cas d’Accident ?"
+   },
+   {
+    "q": "Une expertise médicale par un expert indépendant peut-elle être demandée ?"
+   },
+   {
+    "q": "Victimes d'accident de ski : comment être indemnisé ?"
+   },
+   {
+    "q": "Vous partez dévaler les pistes de ski en France ou à l’étranger ?"
+   },
+   {
+    "q": "Vous venez d'être victime d'un accident de ski?"
+   },
+   {
+    "q": "Vous êtes victime d’un accident de ski?"
+   },
+   {
+    "q": "Vous êtes victime ou proche d’une victime d’un accident de ski ?"
+   },
+   {
+    "q": "ou vais-je être indemnisé par l'assureur d'un tiers responsable ?"
+   },
+   {
+    "q": "votre assurance peut-elle vous indemniser ?"
+   },
+   {
+    "q": "À lire : Accidents de sport et indemnisation | Accidents lors de sports extrêmes : quelle indemnisation ?"
+   },
+   {
+    "q": "À lire : Faut-il souscrire l'assurance proposée par les stations de ski ?"
+   },
+   {
+    "q": "❓ FAQ — Accident de ski : comment se passe l’indemnisation ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://association-aide-victimes-france.fr/accueil-association-daide-a-lindemnisation-victimes/accident-de-la-vie-htm/accident-de-ski",
+   "title": "Accident de ski - Association Victimes de France AIVF",
+   "desc": "Découvrez vos droits et recours après un accident de ski avec l'Association Aide Victimes France, experts en défense des victimes.",
+   "headers": [
+    [
+     "h1",
+     "Accident de ski"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "❓ FAQ — Accident de ski : comment se passe l’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Accident de ski : comment se passe l’indemnisation ?"
+    ]
+   ],
+   "content_score": 65,
+   "readability": 32,
+   "word_count": 3638,
+   "content_len": 22380
+  },
+  {
+   "rank": 2,
+   "url": "https://www.ccp-avocats.com/fr/actualites/id-69-accident-de-ski-responsabilites-et-indemnisation-des-victimes",
+   "title": "Indemnisation d’un accident de ski selon la responsabilité",
+   "desc": " Ski : chute, collision&hellip; Comment identifier les responsabilit&eacute;s pour obtenir l&rsquo;indemnisation de votre pr&eacute;judice corporel ? ",
+   "headers": [
+    [
+     "h1",
+     "Accident de ski : responsabilités et indemnisation des victimes"
+    ],
+    [
+     "h2",
+     "Les démarches pour déclarer un accident de ski"
+    ],
+    [
+     "h2",
+     "Comment sont déterminées les responsabilités en cas d’accident de ski ?"
+    ],
+    [
+     "h2",
+     "Les recours pour obtenir une indemnisation après un accident de ski"
+    ],
+    [
+     "h2",
+     "Que faire si vous vous blessez seul lors d’un accident de ski ?"
+    ]
+   ],
+   "content_score": 76,
+   "readability": 39,
+   "word_count": 1244,
+   "content_len": 7767
+  },
+  {
+   "rank": 3,
+   "url": "https://sophiekerzerho-avocat.fr/actualites/indemnisation-accident-de-ski/",
+   "title": "Indemnisation d'un accident de ski : comment se faire dédommager",
+   "desc": "Comment se faire indemniser suite à un accident de ski | Nos conseils sur la collecte de preuves et le fonctionnement de la loi à ce sujet.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d'un accident de ski : comment se faire dédommager"
+    ],
+    [
+     "h2",
+     "Collecte des éléments de preuve suite à l’accident de ski et procès-verbal"
+    ],
+    [
+     "h2",
+     "Fondements juridiques de la responsabilité ouvrant droit à indemnisation"
+    ],
+    [
+     "h2",
+     "La responsabilité pour faute du skieur ou du snowboardeur"
+    ],
+    [
+     "h2",
+     "La responsabilité de plein droit, du fait des choses"
+    ],
+    [
+     "h2",
+     "En conclusion"
+    ],
+    [
+     "h2",
+     "Tous les services de votre avocate spécialiste en droit du dommage corporel à Paris."
+    ]
+   ],
+   "content_score": 73,
+   "readability": 26,
+   "word_count": 1509,
+   "content_len": 9128
+  },
+  {
+   "rank": 4,
+   "url": "https://cabinetviandier.fr/indemnisation-accident-ski/",
+   "title": "Indemnisation suite à un accident de ski  - Cabinet Viandier",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation suite à un accident de ski"
+    ],
+    [
+     "h2",
+     "Protégez vos droits sur les pistes enneigées"
+    ],
+    [
+     "h2",
+     "Les codes de conduite à respecter :"
+    ]
+   ],
+   "content_score": 71,
+   "readability": 29,
+   "word_count": 955,
+   "content_len": 6201
+  },
+  {
+   "rank": 5,
+   "url": "https://www.groupama.fr/assurance-loisirs/conseils/accident-ski-que-faire/",
+   "title": "Accident de ski : assurance, réaction et prévention",
+   "desc": "Découvrez notre guide pratique pour savoir comment réagir après un accident de ski, et comprendre le rôle de l’assurance.",
+   "headers": [
+    [
+     "h1",
+     "Que faire en cas d'accident de ski et comment l’éviter ?"
+    ],
+    [
+     "h2",
+     "Les réflexes d'urgence à adopter en cas d'accident de ski"
+    ],
+    [
+     "h2",
+     "Qui est responsable en cas d'accident de ski ?"
+    ],
+    [
+     "h2",
+     "Quels sont les accidents de ski fréquents ?"
+    ],
+    [
+     "h2",
+     "Prévention, équipement et sécurité sur les pistes de ski"
+    ],
+    [
+     "h2",
+     "Accident de ski et indemnisation par l'assurance"
+    ],
+    [
+     "h2",
+     "FAQ - Vos questions sur les accidents de ski"
+    ],
+    [
+     "h2",
+     "Découvrez notre offre Garantie Accidents de la Vie (GAV)"
+    ],
+    [
+     "h2",
+     "Découvrez nos infos et conseils loisirs"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 37,
+   "word_count": 2173,
+   "content_len": 13444
+  },
+  {
+   "rank": 6,
+   "url": "https://www.nathanhazzan-avocat.fr/avocat-accidents-de-ski/",
+   "title": "Avocat indemnisation accident de ski | Nathan Hazzan",
+   "desc": "Vous venez d'être victime d'un accident de ski? Notre cabinet d'avocat vous accompagne dans vos démarches d'indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Avocat en accident de ski"
+    ],
+    [
+     "h2",
+     "Accident de ski : quelles démarches après l’accident ?"
+    ],
+    [
+     "h2",
+     "Responsabilité et indemnisation après un accident de ski"
+    ],
+    [
+     "h2",
+     "Expertise médicale et évaluation des préjudices"
+    ],
+    [
+     "h2",
+     "Accompagnement des victimes"
+    ],
+    [
+     "h2",
+     "Vidéos utiles"
+    ],
+    [
+     "h2",
+     "Contact"
+    ]
+   ],
+   "content_score": 65,
+   "readability": 45,
+   "word_count": 526,
+   "content_len": 3669
+  },
+  {
+   "rank": 7,
+   "url": "https://association-aivf-faq.fr/accident-de-la-vie-faq/indemnisation-suite-a-un-accident-sportif/indemnisation-accident-ski",
+   "title": "Indemnisation accident ski - Association Victimes de France AIVF",
+   "desc": "L'indemnisation d'un accident de ski, accident de la vie, responsabilité d'un tiers ou Garantie accident de la vie",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation d’un accident de ski"
+    ],
+    [
+     "h2",
+     "Les services de l'AIVF pour vous aider"
+    ],
+    [
+     "h2",
+     "Questions concernant l’indemnisation de l’accident de ski"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 44,
+   "word_count": 1241,
+   "content_len": 7849
+  },
+  {
+   "rank": 8,
+   "url": "https://www.collardetassocies.org/indemnisation-de-laccident-de-ski/",
+   "title": "Indemnisation de l'accident de ski - Jehanne Collard et Associés",
+   "desc": "Victimes d'accident de ski : comment être indemnisé ? Nos avocats spécialisés vous conseillent pour votre indemnisation.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation de l’accident de ski"
+    ],
+    [
+     "h2",
+     "Accident de ski, comment être indemnisé après un accident corporel  ?"
+    ],
+    [
+     "h2",
+     "Qui est responsable lors d’un accident de ski ?"
+    ],
+    [
+     "h2",
+     "Qui est responsable si l’accident est provoqué par une collision avec un ski ou un bâton?"
+    ],
+    [
+     "h2",
+     "La responsabilité de la station de ski peut-elle être engagée ?"
+    ],
+    [
+     "h2",
+     "Puis je être indemnisé en cas de chute sans collision ?"
+    ],
+    [
+     "h2",
+     "Pourquoi choisir un avocat spécialisé en droit du dommage corporel pour un accident de ski ?"
+    ]
+   ],
+   "content_score": 74,
+   "readability": 41,
+   "word_count": 699,
+   "content_len": 4389
+  },
+  {
+   "rank": 9,
+   "url": "https://www.franceassureurs.fr/lassurance-protege-finance-et-emploie/lassurance-protege/lassurance-en-pratique-pour-les-particuliers/accidents-de-ski-et-assurances/",
+   "title": "Accidents de ski et assurances - France Assureurs",
+   "desc": "Chute malheureuse, annulation de séjour ou encore rapatriement en hélicoptère... Quels sont les contrats d’assurances qui peuvent jouer pendant vos",
+   "headers": [
+    [
+     "h1",
+     "Accidents de ski et assurances"
+    ],
+    [
+     "h2",
+     "Nos actualités"
+    ],
+    [
+     "h2",
+     "Les assureurs alertent sur les dangers d’une conversation téléphonique via un dispositif intégré au véhicule"
+    ],
+    [
+     "h2",
+     "Cyberattaques : une nouvelle ressource pour renforcer la résilience des TPE-PME"
+    ],
+    [
+     "h2",
+     "“Assurément Margaux” : le podcast pratique de France Assureurs"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 36,
+   "word_count": 954,
+   "content_len": 6196
+  },
+  {
+   "rank": 10,
+   "url": "https://jmp-avocat-indemnisation.fr/blog-dommages-corporels/accident-de-ski-indemnisation",
+   "title": "Skieur Sans Casque : Qui Est Responsable en Cas d’Accident ? Vos Droits et Indemnisation",
+   "desc": "Accident de ski sans casque : qui paye ? Découvrez les règles de responsabilité, vos droits à indemnisation et comment éviter les pièges des assurances. Analyse gratuite de votre situation.",
+   "headers": [
+    [
+     "h1",
+     "Accident de Ski : Comment Obtenir une Indemnisation Maximale de Vos Préjudices ?"
+    ],
+    [
+     "h2",
+     "❄️Les principaux accidents de ski et leurs responsabilités"
+    ],
+    [
+     "h2",
+     "❄️Les Traumatismes Crâniens liés au ski : Des Accidents aux Conséquences Dévastatrices"
+    ],
+    [
+     "h2",
+     "Le cadre légal : comment prouver la responsabilité ?"
+    ],
+    [
+     "h2",
+     "Quels préjudices pouvez-vous obtenir ?"
+    ],
+    [
+     "h2",
+     "Les étapes clés pour obtenir votre indemnisation"
+    ],
+    [
+     "h2",
+     "❄️Accidents impliquant des mineurs : une responsabilité automatique"
+    ],
+    [
+     "h2",
+     "❄️Accidents de ski à l’étranger"
+    ],
+    [
+     "h2",
+     "Pourquoi faire appel à Me Joëlle Marteau-Péretié ?"
+    ],
+    [
+     "h2",
+     "Délais à retenir"
+    ],
+    [
+     "h2",
+     "Conclusion"
+    ],
+    [
+     "h2",
+     "Contact – Cabinet JMP Avocat"
+    ],
+    [
+     "h2",
+     "FAQ - Questions Fréquentes sur l'Indemnisation des Accidents de Ski"
+    ],
+    [
+     "h2",
+     "Bibliographie et Sources"
+    ]
+   ],
+   "content_score": 72,
+   "readability": 37,
+   "word_count": 1963,
+   "content_len": 13041
+  },
+  {
+   "rank": 11,
+   "url": "https://www.touboulavocats.fr/details-accident+de+ski+comment+faire+reconnaitre+la+responsabilite+d+un+tiers+et+obtenir+une+indemnisation+complete+de+vos+dommages+corporels-235",
+   "title": "Accident de ski : comment faire reconnaître la responsabilité d’un tiers et obtenir une indemnisation complète de vos dommages corporels - Cabinet Touboul",
+   "desc": "Après une chute ou une collision en ski, l’indemnisation dépend de la responsabilité du tiers, de vos assurances et de la conservation des preuves pour faire valoir vos droits.",
+   "headers": [
+    [
+     "h1",
+     "Accident de ski : comment faire reconnaître la responsabilité d’un tiers et obtenir une indemnisation complète de vos dommages corporels"
+    ],
+    [
+     "h2",
+     "Cabinet d'Avocats Dommage Corporel Accident de ski causé par un tiers (autre skieur ou autre)"
+    ],
+    [
+     "h2",
+     "Avocat - Accident de ski causé par une remontée mécanique (responsabilité de la station de ski)"
+    ],
+    [
+     "h2",
+     "Accident de ski pendant un séjour en club de vacances : la responsabilité du club de vacances ou de l'agence de voyage peut être engagée"
+    ]
+   ],
+   "content_score": 66,
+   "readability": 34,
+   "word_count": 867,
+   "content_len": 5605
+  },
+  {
+   "rank": 12,
+   "url": "https://www.saint-roch-avocats.com/victime-d-un-accident-de-ski---comment-obtenir-une-indemnisation--_ad149.html",
+   "title": "Victime d'un accident de ski : comment obtenir une indemnisation ?",
+   "desc": "Découvrez comment notre client, victime d'un accident de ski, a obtenu une indemnisation grâce à notre expertise. Contactez-nous pour un accompagnement sur mesure.",
+   "headers": [
+    [
+     "h1",
+     "Victime d'un accident de ski : comment obtenir une indemnisation ?"
+    ],
+    [
+     "h2",
+     "Un skieur percuté, un préjudice corporel important"
+    ],
+    [
+     "h2",
+     "Une intervention méthodique pour une indemnisation optimale"
+    ],
+    [
+     "h2",
+     "De l'inquiétude au soulagement : un dénouement favorable"
+    ],
+    [
+     "h2",
+     "Vous êtes victime d'un accident de ski ?"
+    ]
+   ],
+   "content_score": 71,
+   "readability": 39,
+   "word_count": 796,
+   "content_len": 5135
+  },
+  {
+   "rank": 13,
+   "url": "https://www.hello-victimes.fr/accident-de-la-vie/victimes-d-accident-de-ski-droits-et-recours/",
+   "title": "Victimes d'accident de ski : droits et recours - Association d'aide aux victimes d'accident de la route. Association d''aide aux victimes d'erreur/faute médicale. Association d'aide aux victimes d'accident de la vie ou d'agression.",
+   "desc": "Victime d'un accident de ski ? Découvrez vos droits à indemnisation, les responsabilités possibles, les recours juridiques pour obtenir réparation et comment résoudre certaines difficultés.",
+   "headers": [
+    [
+     "h1",
+     "Victimes d'accident de ski : droits et recours"
+    ],
+    [
+     "h1",
+     "Procédure d'indemnisation en cas d'accident de ski ?"
+    ]
+   ],
+   "content_score": 62,
+   "readability": 22,
+   "word_count": 2950,
+   "content_len": 18885
+  },
+  {
+   "rank": 14,
+   "url": "https://frankavocat.fr/accident-de-ski-comment-etre-indemnise/",
+   "title": "Accident de ski : comment être indemnisé ? - Maître Laurent FRANK",
+   "desc": "En cas d'accident de ski, quels recours ? Qui va vous indemniser ? Maître Laurent FRANK avocat en dommage corporel à Lyon vous répond.",
+   "headers": [
+    [
+     "h1",
+     "Accident de ski : comment être indemnisé ?"
+    ],
+    [
+     "h2",
+     "Quelles règles en montagne?"
+    ],
+    [
+     "h2",
+     "Lorsque l’accident arrive, quels recours? Qui prend en charge?"
+    ],
+    [
+     "h2",
+     "Comment prouver la faute ou l’absence de faute?"
+    ],
+    [
+     "h2",
+     "AAC, qu’est-ce que c’est?"
+    ],
+    [
+     "h2",
+     "Tests de dépistage pour drogue? Droit à la contre-expertise!"
+    ],
+    [
+     "h2",
+     "Renversé par une Trottinette électrique?"
+    ]
+   ],
+   "content_score": 40,
+   "readability": 53,
+   "word_count": 601,
+   "content_len": 3668
+  },
+  {
+   "rank": 15,
+   "url": "https://www.avocats-scp-schmitzberger-hoffer-colette.fr/indemnisation-accident-ski",
+   "title": "Indemnisation d'accident de ski : vos droits et recours",
+   "desc": "Retrouvez toutes les informations sur vos droits et vos recours en cas d'accident de ski. Nos avocats vous conseillent sur les démarches à suivre.",
+   "headers": [
+    [
+     "h1",
+     "Quelle procédure d’indemnisationaprès un accident de ski ?"
+    ],
+    [
+     "h2",
+     "Identifier les responsabilités à la suite d’un accident de ski"
+    ],
+    [
+     "h2",
+     "Assurances et indemnisations : que faut-il savoir ?﻿"
+    ],
+    [
+     "h2",
+     "Accident de ski : préparer un dossier complet pour être indemnisé"
+    ]
+   ],
+   "content_score": 68,
+   "readability": 27,
+   "word_count": 2009,
+   "content_len": 13089
+  },
+  {
+   "rank": 16,
+   "url": "https://www.april.fr/complementaire-sante/guide/accident-ski",
+   "title": "Un accident de ski est-il pris en charge ?",
+   "desc": "En cas d’accident de ski, quelle est la prise en charge de l’Assurance Maladie et des assurances ? Quel est le coût d’une intervention des secouristes ?",
+   "headers": [
+    [
+     "h1",
+     "Accident de ski : quelle prise en charge ?"
+    ],
+    [
+     "h2",
+     "Une prise en charge de la Sécurité Sociale est-elle prévue pour un accident de ski ?"
+    ],
+    [
+     "h2",
+     "Quel remboursement de la mutuelle santé est possible pour une blessure de ski ?"
+    ],
+    [
+     "h2",
+     "Quelles autres garanties sont prévues par les assurances ?"
+    ],
+    [
+     "h2",
+     "En savoir plus sur mutuelle hospitalisation : comment la choisir ?"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 38,
+   "word_count": 1269,
+   "content_len": 7907
+  },
+  {
+   "rank": 17,
+   "url": "https://www.briant-avocat.fr/fr/actualites-juridiques-accident/id-16-victime-accident-ski",
+   "title": "Ski accident, Victime d'un accident responsabilité et indemnisation",
+   "desc": "Responsabilit&eacute;s et droit &agrave; l'indemnisation apr&egrave;s un accident de ski caus&eacute; par un tiers, actualit&eacute;s du Cabinet d'avocat Briant &agrave; Montpellier.",
+   "headers": [
+    [
+     "h1",
+     "Victime d'un accident de ski : responsabilités et droit à indemnisation"
+    ],
+    [
+     "h2",
+     "Victime d’un accident de ski causé par un tiers responsable identifié :"
+    ],
+    [
+     "h2",
+     "Victime d’un accident de ski causé par « un objet » appartenant à un autre skieur :"
+    ],
+    [
+     "h2",
+     "Victime d’un accident de ski causé par un tiers non identifié : Fonds de Garantie"
+    ],
+    [
+     "h2",
+     "Victime d'un accident de ski \"SEUL\" :"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 42,
+   "word_count": 116,
+   "content_len": 698
+  },
+  {
+   "rank": 18,
+   "url": "https://www.mma.fr/zeroblabla/accident-ski-pistes-cout-secours.html",
+   "title": "Erreur - Indisponibilité",
+   "desc": "",
+   "headers": [],
+   "content_score": 0,
+   "readability": 50,
+   "word_count": 51,
+   "content_len": 325
+  },
+  {
+   "rank": 19,
+   "url": "https://www.village-justice.com/articles/qui-incombe-charge-indemnisation-des-accidents-ski-snowboard,41386.html",
+   "title": "A qui incombe la charge de l'indemnisation des accidents de ski et snowboard ? Par Cécile Bigre, Avocat.",
+   "desc": "I. Quel responsable pour l'indemnisation de la victime ? II. Quelle indemnisation pour la victime d'un accident de ski, de snowboard ?",
+   "headers": [
+    [
+     "h1",
+     "A qui incombe la charge de l’indemnisation des accidents de ski et snowboard ?"
+    ],
+    [
+     "h2",
+     "Interagir avec l'auteur !"
+    ]
+   ],
+   "content_score": 68,
+   "readability": 39,
+   "word_count": 2868,
+   "content_len": 17885
+  },
+  {
+   "rank": 20,
+   "url": "https://www.avocat-flory-hini.com/etre-indemnise-a-la-suite-d-un-accident-de-ski--est-ce-toujours-possible--_ad35.html",
+   "title": "Etre indemnisé à la suite d'un accident de ski, est-ce toujours possible ?",
+   "desc": "La pratique d’un sport, quel qu’il soit, amène des risques. Si le droit français prévoit que tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige celui par la faute duquel",
+   "headers": [
+    [
+     "h1",
+     "Etre indemnisé à la suite d'un accident de ski, est-ce toujours possible ?"
+    ],
+    [
+     "h2",
+     "L’indemnisation dans le cadre d’un accident de ski imputable à un tiers"
+    ],
+    [
+     "h2",
+     "Que se passe-t-il si le skieur responsable ne s’est pas arrêté ?"
+    ],
+    [
+     "h2",
+     "Accident de ski : faire son recours en indemnisation avec l'aide de votre avocat"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 37,
+   "word_count": 860,
+   "content_len": 5210
+  },
+  {
+   "rank": 21,
+   "url": "https://www.dva-experts.com/actualites/vie_privee/lindemnisation-des-accidents-de-ski-snowboard-et-autres-sports-dhiver/",
+   "title": "L'indemnisation des accidents de ski, snowboard et autres sports d'hiver | DVA Experts",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "L’indemnisation des accidents de ski, snowboard et autres sports d’hiver"
+    ],
+    [
+     "h2",
+     "Pour en apprendre d’avantage"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 32,
+   "word_count": 551,
+   "content_len": 3413
+  },
+  {
+   "rank": 22,
+   "url": "https://www.favarel-eychenne-avocat.fr/accidents-de-ski-peut-on-etre-indemnise",
+   "title": "Accidents de ski : Peut-on être indemnisé ?",
+   "desc": "Accidents de ski : comment obtenir réparation  ?",
+   "headers": [
+    [
+     "h1",
+     "Accidents de ski : Peut-on être indemnisé ?"
+    ],
+    [
+     "h1",
+     "Victime d'un accident ?"
+    ],
+    [
+     "h2",
+     "Une collision sur les pistes ? Un accident de ski lié à une faute d’entretien ? Savez-vous que vous pouvez être indemnisé ?"
+    ]
+   ],
+   "content_score": 59,
+   "readability": 56,
+   "word_count": 789,
+   "content_len": 4938
+  },
+  {
+   "rank": 23,
+   "url": "https://www.samuel-cornut-avocat-lyon.fr/publications/lindemnisation-des-accidents-de-ski-snowboards-et-autres-sports-dhiver",
+   "title": "",
+   "desc": "",
+   "headers": [],
+   "content_score": 0,
+   "readability": null,
+   "word_count": 3,
+   "content_len": 23
+  },
+  {
+   "rank": 24,
+   "url": "https://www.indemnisationprejudice.fr/indemnisation-accident-de-la-vie/indemnisation-victimes-accidents-sports-hiver/",
+   "title": "Indemnisation : Indemnisation des victimes d'accidents de ski et de sports d'hiver - Indemnisation Préjudice Corporel",
+   "desc": "Indemnisation des victimes d'accidents de ski et de sports d'hiver - Obtenez la meilleure indemnisation si vous êtes victime d'un accident. Etude gratuite pour l'expertise médical et l'évaluation des préjudices. Mise en relation avec des avocats spécialisés.",
+   "headers": [
+    [
+     "h1",
+     "Indemnisation des victimes d’accidents de ski et de sports d’hiver"
+    ],
+    [
+     "h2",
+     "L’indemnisation d’un accident de sports d’hiver ou de ski"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 25,
+   "word_count": 713,
+   "content_len": 4773
+  },
+  {
+   "rank": 25,
+   "url": "https://www.macsf.fr/vie-pratique/loisirs-consommation/accidents-de-ski-responsabilite-et-assurance",
+   "title": "Accidents de ski : responsabilité et assurance - MACSF",
+   "desc": "Quelles sont les règles de prudence à respecter dans la pratique du ski ? En cas d'accident, quelles sont les règles d'indemnisation ?",
+   "headers": [
+    [
+     "h1",
+     "Accidents de ski : responsabilité et assurance"
+    ],
+    [
+     "h2",
+     "Les 10 règles de bonne conduite à respecter"
+    ],
+    [
+     "h2",
+     "Victime d'un accident de ski : quel régime d'indemnisation ?"
+    ],
+    [
+     "h2",
+     "Indemnisation en cas d'accident de ski seul, suis-je bien assuré ?"
+    ],
+    [
+     "h2",
+     "Ces sujets pourraient vous intéresser"
+    ],
+    [
+     "h2",
+     "Les solutions MACSF"
+    ],
+    [
+     "h2",
+     "L’application MACSF"
+    ],
+    [
+     "h2",
+     "Suivez-nous"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 35,
+   "word_count": 1715,
+   "content_len": 10251
+  },
+  {
+   "rank": 26,
+   "url": "https://maitre-morin-avocat.fr/accueil/indemnisation-accident-de-la-vie/indemnisation-suite-a-un-accident-de-ski",
+   "title": "Indemnisation suite à un accident de ski : comment proceder ?",
+   "desc": "Lorsque l'accident est du fait d'un tiers alors la victime sera indemnisée par l'assureur responsabilité civile de cette personne.",
+   "headers": [
+    [
+     "h2",
+     "Les services du Cabinet de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "🎿 Indemnisation suite à un accident de ski"
+    ],
+    [
+     "h1",
+     "Indemnisation après un accident de ski — Vos droits et démarches"
+    ],
+    [
+     "h2",
+     "1) Identifier le responsable de l’accident"
+    ],
+    [
+     "h2",
+     "2) Démarches immédiates après un accident de ski"
+    ],
+    [
+     "h2",
+     "3) Vos assurances mobilisables"
+    ],
+    [
+     "h2",
+     "4) Types de préjudices indemnisables"
+    ],
+    [
+     "h2",
+     "5) Rôle de Maître Oscar Morin"
+    ],
+    [
+     "h2",
+     "Principes d'indemnisation d'un accident de ski"
+    ],
+    [
+     "h2",
+     "Exemples questions de victimes suite à accident en ski"
+    ]
+   ],
+   "content_score": 82,
+   "readability": 37,
+   "word_count": 2904,
+   "content_len": 18116
+  },
+  {
+   "rank": 27,
+   "url": "https://www.avocat-lexvox.com/ski-accident---obtenez-votre-indemnisation-apres-une-chute--_ad2809.html",
+   "title": "Ski accident : obtenez votre indemnisation après une chute !",
+   "desc": "  \r\nSki Accident : Obtenez votre Indemnisation après une Chute ! Un Guide Complet sur les Accidents de Ski\r\nLes sports d'hiver, et particulièrement le ski, attirent chaque année des milliers de",
+   "headers": [
+    [
+     "h1",
+     "Ski accident : obtenez votre indemnisation après une chute !"
+    ],
+    [
+     "h2",
+     ""
+    ],
+    [
+     "h2",
+     "Ski Accident : Obtenez votre Indemnisation après une Chute ! Un Guide Complet sur les Accidents de Ski"
+    ],
+    [
+     "h2",
+     "Section 1: Les Statistiques des Accidents de Ski en France"
+    ],
+    [
+     "h2",
+     "Section 2: Les Risques et les Précautions"
+    ],
+    [
+     "h2",
+     "Section 3: Procédure à Suivre Après une Chute"
+    ],
+    [
+     "h2",
+     "Section 4: Droits et Indemnisations"
+    ],
+    [
+     "h2",
+     "FAQ sur les Accidents de Ski"
+    ],
+    [
+     "h2",
+     "Votre guide gratuit !"
+    ]
+   ],
+   "content_score": 61,
+   "readability": 37,
+   "word_count": 1636,
+   "content_len": 10757
+  },
+  {
+   "rank": 28,
+   "url": "https://www.youtube.com/shorts/EQ7_8ghN1Wk",
+   "title": "Avant d'accéder à YouTube",
+   "desc": "",
+   "headers": [
+    [
+     "h1",
+     "Avant d'accéder à YouTube"
+    ]
+   ],
+   "content_score": 0,
+   "readability": 3,
+   "word_count": 488,
+   "content_len": 3242
+  },
+  {
+   "rank": 29,
+   "url": "https://www.capital.fr/votre-argent/etes-vous-couvert-lors-dun-accident-au-ski-1462254",
+   "title": "Êtes-vous couvert lors d'un accident au ski ? - Capital.fr",
+   "desc": "Les vacances arrivent et, sur les pistes de ski, un accident est vite arrivé. Que ce soit à cause d’une chute ou d’une collision avec un autre ski...",
+   "headers": [
+    [
+     "h1",
+     "Êtes-vous couvert lors d'un accident au ski ?"
+    ],
+    [
+     "h2",
+     "Sommaire"
+    ],
+    [
+     "h2",
+     "Quelles sont les précautions à prendre avant de partir en ski de randonnée ou de piste ?"
+    ],
+    [
+     "h2",
+     "Quelle est la blessure la plus fréquente au ski ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les autres conséquences d’un accident sur les pistes de ski ?"
+    ],
+    [
+     "h2",
+     "Qui paye en cas d’accident de ski ?"
+    ],
+    [
+     "h2",
+     "Thèmes associés"
+    ],
+    [
+     "h2",
+     "Plongez dans le sujet"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 32,
+   "word_count": 1287,
+   "content_len": 8012
+  },
+  {
+   "rank": 30,
+   "url": "https://www.assurances.societegenerale.com/en/investor-journalist/media/videos/details/video/pars-ski-quelle-assurance-choisir-des-experts/",
+   "title": "Je pars au ski : quelle assurance choisir ? | Le 5' des Experts",
+   "desc": "Devez-vous prendre une assurance pour votre séjour à la montagne ? Pouvez-vous l’annuler sans frais ? Et être remboursé pour manque de neige ? Avant",
+   "headers": [
+    [
+     "h1",
+     "Je pars au ski : quelle assurance choisir ? | Le 5' des Experts"
+    ],
+    [
+     "h1",
+     ""
+    ]
+   ],
+   "content_score": 13,
+   "readability": 84,
+   "word_count": 57,
+   "content_len": 319
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1242,
+   "target": 1242
+  },
+  "readability": {
+   "median": 37,
+   "target": 37
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "accident",
+    "usage_pc": 100
+   },
+   {
+    "t": "ski",
+    "usage_pc": 90
+   },
+   {
+    "t": "accident de ski",
+    "usage_pc": 80
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 70
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "un accident de ski",
+    "usage_pc": 30
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation accident",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "ski",
+    "usage_pc": 80
+   },
+   {
+    "t": "accident de ski",
+    "usage_pc": 70
+   },
+   {
+    "t": "accident",
+    "usage_pc": 70
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 50
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 50
+   },
+   {
+    "t": "un accident de ski",
+    "usage_pc": 50
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 30
+   },
+   {
+    "t": "après un accident de ski",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "accident de ski",
+    "usage_pc": 100
+   },
+   {
+    "t": "accident",
+    "usage_pc": 100
+   },
+   {
+    "t": "ski",
+    "usage_pc": 100
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 60
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 30
+   },
+   {
+    "t": "un accident de ski",
+    "usage_pc": 30
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 10
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "cas d'accident de ski",
+    "usage_pc": 10
+   },
+   {
+    "t": "comment obtenir une indemnisation",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "accident de ski",
+    "usage_pc": 80
+   },
+   {
+    "t": "accident",
+    "usage_pc": 80
+   },
+   {
+    "t": "ski",
+    "usage_pc": 80
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 70
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 40
+   },
+   {
+    "t": "un accident de ski",
+    "usage_pc": 40
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommage",
+    "usage_pc": 20
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "après un accident de ski",
+    "usage_pc": 20
+   },
+   {
+    "t": "les pistes",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation après un accident",
+    "usage_pc": 20
+   },
+   {
+    "t": "droit du dommage corporel",
+    "usage_pc": 20
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "skieur",
+    "usage_pc": 10
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "accidents de la vie",
+    "usage_pc": 10
+   },
+   {
+    "t": "les accidents",
+    "usage_pc": 10
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 10
+   },
+   {
+    "t": "collision",
+    "usage_pc": 10
+   },
+   {
+    "t": "les accidents de ski",
+    "usage_pc": 10
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 10
+   },
+   {
+    "t": "garantie accident",
+    "usage_pc": 10
+   },
+   {
+    "t": "garantie accident de la vie",
+    "usage_pc": 10
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 10
+   },
+   {
+    "t": "station de ski",
+    "usage_pc": 10
+   },
+   {
+    "t": "cas d'accident de ski",
+    "usage_pc": 10
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 10
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 10
+   },
+   {
+    "t": "accident corporel",
+    "usage_pc": 10
+   },
+   {
+    "t": "les démarches",
+    "usage_pc": 10
+   },
+   {
+    "t": "responsabilité de la station",
+    "usage_pc": 10
+   },
+   {
+    "t": "les pistes de ski",
+    "usage_pc": 10
+   },
+   {
+    "t": "déclarer un accident",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "accident de ski",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     9
+    ]
+   },
+   {
+    "t": "accident",
+    "usage_pc": 100,
+    "sugg_usage": [
+     17,
+     31
+    ]
+   },
+   {
+    "t": "ski",
+    "usage_pc": 100,
+    "sugg_usage": [
+     8,
+     13
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 90,
+    "sugg_usage": [
+     5,
+     16
+    ]
+   },
+   {
+    "t": "un accident",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     8
+    ]
+   },
+   {
+    "t": "un accident de ski",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "assurance",
+    "usage_pc": 100,
+    "sugg_usage": [
+     3,
+     20
+    ]
+   },
+   {
+    "t": "skieur",
+    "usage_pc": 100,
+    "sugg_usage": [
+     5,
+     10
+    ]
+   },
+   {
+    "t": "responsabilité civile",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "préjudice",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     9
+    ]
+   },
+   {
+    "t": "dommage",
+    "usage_pc": 90,
+    "sugg_usage": [
+     3,
+     9
+    ]
+   },
+   {
+    "t": "corporel",
+    "usage_pc": 100,
+    "sugg_usage": [
+     2,
+     6
+    ]
+   },
+   {
+    "t": "obtenir une indemnisation",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "dommage corporel",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "accidents de la vie",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "les accidents",
+    "usage_pc": 90,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     7
+    ]
+   },
+   {
+    "t": "collision",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "les accidents de ski",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un tiers",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "tiers responsable",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "droit à indemnisation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "garantie accident",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les pistes",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "forfait",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les dommages",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "remontées mécaniques",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "autre skieur",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat spécialisé",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "assurance responsabilité civile",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "être indemnisé",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les assurances",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "domaine skiable",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "expertise médicale",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "les démarches",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "après un accident de ski",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "suite à un accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garantie accident de la vie",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemnisation après un accident",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation accident",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fédération internationale de ski",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "station de ski",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d'accident de ski",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garantie des accidents",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "collision entre skieurs",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "un tiers responsable",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurance ski",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "accident corporel",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "droit du dommage corporel",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garantie responsabilité civile",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "pratique du ski",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "victime d’un accident de ski",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "j’ai été victime d’un accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation d’un accident de ski",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lors d’un accident de ski",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d’accident de ski",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "cas d’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsable de l’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les responsabilités en cas d’accident",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "fonds de garantie",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tiers est responsable",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsabilité du skieur",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "comment obtenir une indemnisation",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsabilité de la station",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "constat amiable",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les pistes de ski",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "avocat spécialisé en dommage corporel",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "si un tiers est responsable",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "engager sa responsabilité",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsabilité du tiers",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faire appel à un avocat",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "ski et le snowboard",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsabilité des parties impliquées",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "indemnisation en cas",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "garantie responsabilité civile vie privée",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déclarer un accident",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsabilité de l'exploitant",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurance garantie des accidents",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "engager la responsabilité",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsable est identifié",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Ski",
+    "importance": 81.518,
+    "relevance": 0.81518,
+    "confidence": 7.1546,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Ski"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance",
+    "importance": 66.55,
+    "relevance": 0.6655,
+    "confidence": 5.4722,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Dommage corporel",
+    "importance": 23.46112,
+    "relevance": 0.36658,
+    "confidence": 4.2296,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Dommage_corporel"
+     ]
+    ]
+   },
+   {
+    "t": "Responsabilité civile en droit français",
+    "importance": 23.173119999999997,
+    "relevance": 0.36208,
+    "confidence": 0.998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Responsabilité_civile_en_droit_français"
+     ]
+    ]
+   },
+   {
+    "t": "Endommagement",
+    "importance": 18.527199999999997,
+    "relevance": 0.18527199999999996,
+    "confidence": 1.4968,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Endommagement"
+     ]
+    ]
+   },
+   {
+    "t": "Garantie des accidents de la vie",
+    "importance": 12.5964,
+    "relevance": 0.3499,
+    "confidence": 1.3483999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Garantie_des_accidents_de_la_vie"
+     ]
+    ]
+   },
+   {
+    "t": "Contrat",
+    "importance": 10.8,
+    "relevance": 0.3,
+    "confidence": 1.008,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contrat"
+     ]
+    ]
+   },
+   {
+    "t": "Fédération internationale de ski et de snowboard",
+    "importance": 8.02152,
+    "relevance": 0.22282000000000002,
+    "confidence": 6.206200000000001,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Fédération_internationale_de_ski_et_de_snowboard"
+     ]
+    ]
+   },
+   {
+    "t": "Snowboard",
+    "importance": 7.326432,
+    "relevance": 0.203512,
+    "confidence": 4.062,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Snowboard"
+     ]
+    ]
+   },
+   {
+    "t": "Sécurité",
+    "importance": 6.477119999999999,
+    "relevance": 0.17992000000000002,
+    "confidence": 0.6063,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Sécurité"
+     ]
+    ]
+   },
+   {
+    "t": "Domaine skiable",
+    "importance": 4.2984,
+    "relevance": 0.11939999999999999,
+    "confidence": 3.0263999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Domaine_skiable"
+     ]
+    ]
+   },
+   {
+    "t": "Avocat (métier)",
+    "importance": 4.2909120000000005,
+    "relevance": 0.119192,
+    "confidence": 0.82,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Avocat_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Piste de ski",
+    "importance": 3.7603200000000006,
+    "relevance": 0.23502,
+    "confidence": 2.4706,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Piste_de_ski"
+     ]
+    ]
+   },
+   {
+    "t": "Contrat d'assurance",
+    "importance": 3.7507200000000003,
+    "relevance": 0.23442,
+    "confidence": 0.7568,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contrat_d'assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance responsabilité civile",
+    "importance": 3.656,
+    "relevance": 0.2285,
+    "confidence": 0.7346,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_responsabilité_civile"
+     ]
+    ]
+   },
+   {
+    "t": "Collision",
+    "importance": 3.3004800000000003,
+    "relevance": 0.20628000000000002,
+    "confidence": 1.0859999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Collision"
+     ]
+    ]
+   },
+   {
+    "t": "Station de sports d'hiver",
+    "importance": 3.10432,
+    "relevance": 0.19402000000000003,
+    "confidence": 1.39432,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Station_de_sports_d'hiver"
+     ]
+    ]
+   },
+   {
+    "t": "Neige",
+    "importance": 2.7146879999999998,
+    "relevance": 0.075408,
+    "confidence": 3.8275999999999994,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Neige"
+     ]
+    ]
+   },
+   {
+    "t": "Remontée mécanique",
+    "importance": 2.4067199999999995,
+    "relevance": 0.15042,
+    "confidence": 2.5742,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Remontée_mécanique"
+     ]
+    ]
+   },
+   {
+    "t": "Constat amiable",
+    "importance": 2.01824,
+    "relevance": 0.12614,
+    "confidence": 0.9551999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Constat_amiable"
+     ]
+    ]
+   },
+   {
+    "t": "Code civil (France)",
+    "importance": 1.87168,
+    "relevance": 0.11698,
+    "confidence": 3.2025999999999994,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Code_civil_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Obligation de résultat",
+    "importance": 1.78368,
+    "relevance": 0.11148,
+    "confidence": 0.8614,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Obligation_de_résultat"
+     ]
+    ]
+   },
+   {
+    "t": "Cour d'appel de Chambéry",
+    "importance": 1.622272,
+    "relevance": 0.101392,
+    "confidence": 2.1048,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cour_d'appel_de_Chambéry"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal judiciaire (France)",
+    "importance": 1.4883199999999999,
+    "relevance": 0.09301999999999999,
+    "confidence": 1.4376000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal_judiciaire_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Cour d'appel (France)",
+    "importance": 1.39808,
+    "relevance": 0.08738,
+    "confidence": 0.9298,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Cour_d'appel_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Sport d'hiver",
+    "importance": 1.2688,
+    "relevance": 0.0793,
+    "confidence": 0.8943999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Sport_d'hiver"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal",
+    "importance": 1.15936,
+    "relevance": 0.07246,
+    "confidence": 1.7007999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal"
+     ]
+    ]
+   },
+   {
+    "t": "Carte de paiement",
+    "importance": 1.048,
+    "relevance": 0.0655,
+    "confidence": 0.8608,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Carte_de_paiement"
+     ]
+    ]
+   },
+   {
+    "t": "Paris",
+    "importance": 0.8060159999999998,
+    "relevance": 0.050376,
+    "confidence": 1.3356,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Paris"
+     ]
+    ]
+   },
+   {
+    "t": "Négligence (droit)",
+    "importance": 0.593504,
+    "relevance": 0.037094,
+    "confidence": 1.184,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Négligence_(droit)"
+     ]
+    ]
+   },
+   {
+    "t": "AIVF",
+    "importance": 0.5741599999999999,
+    "relevance": 0.14354,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Victime",
+    "importance": 0.55408,
+    "relevance": 0.13852,
+    "confidence": 0.19590000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Victime"
+     ]
+    ]
+   },
+   {
+    "t": "Groupama",
+    "importance": 0.5382399999999998,
+    "relevance": 0.13455999999999999,
+    "confidence": 0.7816,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Groupama"
+     ]
+    ]
+   },
+   {
+    "t": "Association Victimes de France AIVF",
+    "importance": 0.5338400000000001,
+    "relevance": 0.13346,
+    "confidence": 0.1,
+    "links": []
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "accident\nski\naccident de ski\nindemnisation\nun accident\nun accident de ski\nassurance\nindemnisation accident",
+  "desc_title": "ski\naccident de ski\naccident\nindemnisation\nun accident\nun accident de ski\nassurance\naprès un accident de ski",
+  "h1": "accident de ski\naccident\nski\nindemnisation\nun accident\nun accident de ski\nassurance\npréjudice\nobtenir une indemnisation\nsuite à un accident\ncas d'accident de ski\ncomment obtenir une indemnisation",
+  "h2": "accident de ski\naccident\nski\nindemnisation\nun accident\nun accident de ski\npréjudice\ndommage\ncorporel\ndommage corporel\naprès un accident de ski\nles pistes\nindemnisation après un accident\ndroit du dommage corporel\nassurance\nskieur\nobtenir une indemnisation\naccidents de la vie\nles accidents\nassureur\ncollision\nles accidents de ski\ndroit à indemnisation\ngarantie accident\ngarantie accident de la vie\navocat spécialisé\nstation de ski\ncas d'accident de ski\nêtre indemnisé\nexpertise médicale\naccident corporel\nles démarches\nresponsabilité de la station\nles pistes de ski\ndéclarer un accident",
+  "content_basic": "accident de ski\naccident\nski\nindemnisation\nun accident\nun accident de ski\nassurance\nskieur\nresponsabilité civile\npréjudice\ndommage\ncorporel\nobtenir une indemnisation\ndommage corporel\naccidents de la vie\nles accidents\nassureur\ncollision\nles accidents de ski\nun tiers\ntiers responsable\ndroit à indemnisation\ngarantie accident\nles pistes\nforfait\nles dommages\nremontées mécaniques\nautre skieur\navocat spécialisé\nassurance responsabilité civile\nêtre indemnisé\nles assurances\ndomaine skiable\nexpertise médicale\nles démarches",
+  "content_basic_w_ranges": "accident de ski: 3-9x\naccident: 17-31x\nski: 8-13x\nindemnisation: 5-16x\nun accident: 3-8x\nun accident de ski: 1-4x\nassurance: 3-20x\nskieur: 5-10x\nresponsabilité civile: 1-3x\npréjudice: 1-9x\ndommage: 3-9x\ncorporel: 2-6x\nobtenir une indemnisation: 1-2x\ndommage corporel: 1-4x\naccidents de la vie: 1-5x\nles accidents: 1-3x\nassureur: 1-7x\ncollision: 1-3x\nles accidents de ski: 1x\nun tiers: 1-3x\ntiers responsable: 1-3x\ndroit à indemnisation: 1-2x\ngarantie accident: 1-2x\nles pistes: 1-3x\nforfait: 1-2x\nles dommages: 1x\nremontées mécaniques: 1-3x\nautre skieur: 1x\navocat spécialisé: 1-2x\nassurance responsabilité civile: 1x\nêtre indemnisé: 1x\nles assurances: 1x\ndomaine skiable: 1x\nexpertise médicale: 1-2x\nles démarches: 1x",
+  "content_extended": "après un accident de ski\nsuite à un accident\ngarantie accident de la vie\nindemnisation après un accident\nindemnisation accident\nfédération internationale de ski\nstation de ski\ncas d'accident de ski\ngarantie des accidents\ncollision entre skieurs\nun tiers responsable\nassurance ski\naccident corporel\ndroit du dommage corporel\ngarantie responsabilité civile\npratique du ski\nvictime d’un accident\nvictime d’un accident de ski\nj’ai été victime d’un accident\nindemnisation d’un accident de ski\nlors d’un accident de ski\ncas d’accident de ski\ncas d’accident\nresponsable de l’accident\nles responsabilités en cas d’accident\nfonds de garantie\ntiers est responsable\nresponsabilité du skieur\ncomment obtenir une indemnisation\nresponsabilité de la station\nconstat amiable\nles pistes de ski\navocat spécialisé en dommage corporel\nsi un tiers est responsable\nengager sa responsabilité\nresponsabilité du tiers\nfaire appel à un avocat\nski et le snowboard\nresponsabilité des parties impliquées\nindemnisation en cas\ngarantie responsabilité civile vie privée\ndéclarer un accident\nresponsabilité de l'exploitant\nassurance garantie des accidents\nengager la responsabilité\nresponsable est identifié",
+  "content_extended_w_ranges": "après un accident de ski: 1x\nsuite à un accident: 1x\ngarantie accident de la vie: 1-2x\nindemnisation après un accident: 1x\nindemnisation accident: 1x\nfédération internationale de ski: 1x\nstation de ski: 1x\ncas d'accident de ski: 1x\ngarantie des accidents: 1-2x\ncollision entre skieurs: 1x\nun tiers responsable: 1x\nassurance ski: 1x\naccident corporel: 1x\ndroit du dommage corporel: 1x\ngarantie responsabilité civile: 1x\npratique du ski: 1x\nvictime d’un accident: 1x\nvictime d’un accident de ski: 1x\nj’ai été victime d’un accident: 1x\nindemnisation d’un accident de ski: 1x\nlors d’un accident de ski: 1x\ncas d’accident de ski: 1x\ncas d’accident: 1x\nresponsable de l’accident: 1x\nles responsabilités en cas d’accident: 1x\nfonds de garantie: 1x\ntiers est responsable: 1x\nresponsabilité du skieur: 1x\ncomment obtenir une indemnisation: 1x\nresponsabilité de la station: 1x\nconstat amiable: 1x\nles pistes de ski: 1x\navocat spécialisé en dommage corporel: 1x\nsi un tiers est responsable: 1x\nengager sa responsabilité: 1x\nresponsabilité du tiers: 1x\nfaire appel à un avocat: 1x\nski et le snowboard: 1x\nresponsabilité des parties impliquées: 1x\nindemnisation en cas: 1x\ngarantie responsabilité civile vie privée: 1x\ndéclarer un accident: 1x\nresponsabilité de l'exploitant: 1x\nassurance garantie des accidents: 1x\nengager la responsabilité: 1x\nresponsable est identifié: 1x",
+  "entities": "Ski\nAssurance\nDommage corporel\nResponsabilité civile en droit français\nEndommagement\nGarantie des accidents de la vie\nContrat\nFédération internationale de ski et de snowboard\nSnowboard\nSécurité\nDomaine skiable\nAvocat (métier)\nPiste de ski\nContrat d'assurance\nAssurance responsabilité civile\nCollision\nStation de sports d'hiver\nNeige\nRemontée mécanique\nConstat amiable\nCode civil (France)\nObligation de résultat\nCour d'appel de Chambéry\nTribunal judiciaire (France)\nCour d'appel (France)\nSport d'hiver\nTribunal\nCarte de paiement\nParis\nNégligence (droit)\nAIVF\nVictime\nGroupama\nAssociation Victimes de France AIVF"
+ },
+ "status": "ready",
+ "keyword": "indemnisation accident ski",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "49f477e9d390de9c",
+ "query": "baddfed0f6952578",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "transactional": 70.0
+  },
+  "top_content_type": "business",
+  "content_type_stats": {
+   "educational": 40.0,
+   "business": 66.7,
+   "blog-post": 33.3,
+   "landing-page": 16.7,
+   "guide": 13.3,
+   "short-answer": 6.7,
+   "case-study": 3.3,
+   "other": 6.7,
+   "video": 6.7,
+   "news": 3.3
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/baddfed0f6952578",
+ "share_url": "https://app.neuronwriter.com/analysis/share/baddfed0f6952578/459e9769a286754b703f263aec604f5c4fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/baddfed0f6952578/a2f3e25f8724167e975ee3a92cfe62f54fa16"
+}
