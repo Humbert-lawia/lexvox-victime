@@ -10,3 +10,6 @@ scripts/
 *.bak
 __pycache__/
 *.sanity.json
+
+# Skills installées : leur dossier scripts/ ne doit pas tomber sous la règle « scripts/ » ci-dessus
+!.claude/skills/*/scripts/
