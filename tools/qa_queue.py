@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from qa_article_aivf import check  # noqa: E402
+from qa_article_aivf import check, faq_citability  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "queue-aivf.json"
@@ -33,6 +33,7 @@ def main() -> int:
         return 0
 
     total_ko = 0
+    total_warn = 0
     for a in done:
         path = ROOT / "actualites" / f"{a['slug']}.html"
         if not path.exists():
@@ -47,8 +48,13 @@ def main() -> int:
                 print(f"      - {p}")
         else:
             print(f"  OK            id {a['id']} — {path.relative_to(ROOT)}")
+        total_warn += len(faq_citability(path))
 
     print(f"\n{total_ko} article(s) non conforme(s) sur {len(done)}.")
+    if total_warn:
+        print(f"{total_warn} reponse(s) FAQ non citable(s) hors contexte sur l'ensemble "
+              "du corpus (non bloquant) — detail article par article via "
+              "`python3 tools/qa_article_aivf.py actualites/<slug>.html`.")
     return 1 if total_ko else 0
 
 

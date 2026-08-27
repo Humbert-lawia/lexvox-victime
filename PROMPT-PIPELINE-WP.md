@@ -147,6 +147,18 @@ Si un contenu existant couvre déjà l'intent : applique la note d'angle de la
 file ; s'il n'y a pas de note, différencie l'angle ou passe l'item en
 "blocked" avec explication dans le tracker — ne produis pas un doublon.
 
+════════ RÉOPTIMISER AVANT DE CRÉER (4e contrôle) ════════
+Les trois contrôles ci-dessus comparent des SLUGS. Celui-ci compare des
+INTENTS, et c'est le seul qui voit une page déjà positionnée sur le mot-clé
+sous un autre slug :
+  python3 tools/gsc_report.py reoptimiser --keyword "<keyword de l'item>"
+Si une page (WP ou Sanity) reçoit déjà des impressions sur ce mot-clé, l'item
+n'est PAS un article neuf : passe-le en "reoptimiser" avec "reoptimise_url",
+et enrichis la page existante (récupère ses requêtes réelles, compare au
+contenu, ajoute les sections manquantes) plutôt que d'en publier une seconde.
+Tant que Search Console n'est pas branchée (action I-03 du SUIVI), l'outil le
+dit et ne renvoie rien : note l'angle mort dans PUBLICATION-TRACKER-WP.md.
+
 ════════ PUBLICATION (par article, via tools/wp_publish.py) ════════
 Spec wp_publish.py : entrée = fichier atelier wp-atelier/<site>/<slug>.html
 (front-matter JSON en commentaire : title, metaTitle, metaDescription, slug,

@@ -49,6 +49,8 @@ s'y ajoutent, elles ne le remplacent pas.
 | F | **Prérequis GSC/GA4** documenté (valider le volume réel des mots-clés avant un silo). | §5 ci-dessous, prompt |
 | — | **Point A ANNULÉ à la demande de Me Humbert** : publication **directe sur `main` (prod)**, vérification **a posteriori**. Le garde-fou avant mise en ligne est donc la vérification Openlegi + le QA. | skill §6 |
 | G | **Non traité** (déontologie / stratégie images / rendu SVG) — exclu volontairement. | — |
+| H | **Réoptimiser avant de créer** (2026-08-27). Avant de produire un item, vérifier si une page capte déjà l'intent dans Search Console (`gsc_report.py reoptimiser`). Si oui : statut `reoptimiser` + `reoptimise_url`, et on enrichit la page existante au lieu d'en publier une seconde. Les contrôles anti-cannibalisation existants comparent des **slugs** ; celui-ci compare des **intents**, et c'est le seul qui voit une page positionnée sur le mot-clé sous un autre slug. | skill §0bis, `_meta.reoptimisation_avant_creation` des 2 files, `PROMPT-PIPELINE-WP.md` |
+| I | **Réponses FAQ citables hors contexte** (2026-08-27). Chaque réponse ouvre sur une phrase autosuffisante (sujet + affirmation), jamais sur « Oui. », « Non. » ou une anaphore : c'est ce fragment que les moteurs de réponse IA extraient quand ils citent la page. Contrôle **non bloquant** (46 % du corpus publié est concerné — le rendre bloquant mettrait la CI au rouge sur l'existant) ; zéro avertissement attendu sur un article neuf. | skill §2, `qa_article_aivf.faq_citability` |
 
 ---
 
@@ -225,8 +227,11 @@ Chaque article DOIT surpasser l'équivalent AIVF via les 3 armes du standard :
   • ≥ 2 tableaux data-table (barème/fourchettes, comparatif, checklist chiffrée) ;
   • ≥ 1 infographie schéma SVG inline (<figure class="infographic"> + <svg>).
 Couverture d'intent : ≥ 5 H2 + FAQ 6 questions ; ≥ 1900 mots utiles (feuille) /
-2500 (pilier), plancher absolu 1900, sans délayage. Cocon : lie vers le hub du silo (_meta.silos) puis
-2–3 feuilles sœurs. Invoque /article-aivf et déroule ses 6 étapes.
+2500 (pilier), plancher absolu 1900, sans délayage. Chaque réponse FAQ ouvre sur
+une phrase AUTOSUFFISANTE, citable hors contexte (sujet + affirmation, jamais
+« Oui. » / « Non. » / « C'est le poste qui… »). Cocon : lie vers le hub du silo (_meta.silos) puis
+2–3 feuilles sœurs. Invoque /article-aivf et déroule ses 6 étapes — dont le §0bis
+« réoptimiser avant de créer » AVANT toute rédaction.
 
 VALIDATION avant chaque push (bloquant) :
   python3 tools/neuronwriter.py evaluate <query_id> actualites/<slug>.html   (>= 85)

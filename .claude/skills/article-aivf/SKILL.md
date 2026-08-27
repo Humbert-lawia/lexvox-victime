@@ -29,13 +29,41 @@ verification **Openlegi** de chaque jurisprudence (§1/§4), **NeuronWriter >= 8
 - Ouvrir `queue-aivf.json`. Prendre le **premier `status: "todo"`** dans l'ordre
   du tableau (l'ordre EST la strategie). **Ignorer les `status: "merged"`**
   (fusionnes pour eviter la cannibalisation ; leur contenu est une section
-  ancree de l'article `merged_into`).
+  ancree de l'article `merged_into`) **et les `status: "reoptimiser"`**
+  (traites par le §0bis, pas par ce flux de creation).
 - Passer l'item a `"in_progress"`, produire, puis `"done"` + `"date"` (AAAA-MM-JJ).
 - `type: "pilier"` => cible 2500+ mots utiles et role de HUB ; `feuille` => 1500+.
 - Item id 1 : publier le `.docx` de Me Humbert
   (`article-village-justice-ia-dommage-corporel.docx`, version longue) en le
   convertissant au gabarit (extraire le texte via `unzip -p <fichier>.docx word/document.xml`
   puis nettoyer), ne pas le reecrire.
+
+## 0bis. Reoptimiser avant de creer (porte d'entree, avant toute redaction)
+
+Avec ~545 articles en ligne, le risque n'est plus le vide : c'est de publier un
+deuxieme article sur un intent qu'une page capte deja mal. Les deux pages
+plafonnent alors ensemble, et on passe ensuite du temps a reparer la
+cannibalisation qu'on vient de fabriquer.
+
+Avant de rediger, poser la question dans cet ordre :
+
+1. **Une page recoit-elle deja des impressions sur ce mot-cle ?**
+   `python3 tools/gsc_report.py reoptimiser --keyword "<keyword de l'item>"`
+   (cf. `/seo-feedback`). Tant que Search Console n'est pas branchee
+   (action **I-03** du `SUIVI-ACTIONS-CORRECTIVES.md`), l'outil le dit
+   franchement et ne renvoie rien : passer au point 2, en notant l'angle mort
+   dans `PUBLICATION-TRACKER.md`.
+2. **Un slug proche existe-t-il deja ?** Controle GROQ Sanity du §5.2.
+   Il compare des slugs, pas des intents : il ne voit PAS une page qui ranke
+   sur le mot-cle sous un autre slug. D'ou le point 1.
+
+Si une page capte deja l'intent : **ne pas creer d'article**. Passer l'item en
+`status: "reoptimiser"` avec `"reoptimise_url": "/actualites/<slug-existant>"`,
+puis enrichir la page existante — recuperer TOUTES les requetes sur lesquelles
+elle recoit des impressions, les comparer a ce qu'elle traite reellement, et
+ajouter les sections manquantes. On ne repart pas d'une page blanche, mais
+d'une page que Google comprend deja : c'est le meilleur rapport effort/resultat
+du corpus. La page reoptimisee repasse par `/nw-optimisation` et par le §6.
 
 ## 1. Sourcer et VERIFIER le droit AVANT de rediger (non negociable)
 
@@ -79,6 +107,8 @@ Structure **obligatoire**, dans l'ordre :
 6. **>= 1 infographie `<figure class="infographic">` avec `<svg>` inline** (cf. §3).
 7. **>= 1 bloc `<div class="juris-block">`** verifie Openlegi + backlink (cf. §4).
 8. **FAQ >= 6 questions** (`<details>`) — memes questions que le JSON-LD FAQPage.
+   **Chaque reponse ouvre sur une phrase autosuffisante, citable hors contexte**
+   (cf. encadre ci-dessous).
 9. Bloc auteur (Me Patrice Humbert) + CTA + 3 cartes "articles lies".
 
 Contraintes bloquantes (comme `/nouvel-article`) : `<title>` <= 60 car. ; meta
@@ -93,6 +123,35 @@ NeuronWriter, mais jamais descendre sous 1900.
 Priorite a la **couverture d'intent** sur le remplissage : chaque `<h2>` repond a
 une sous-question reelle (People Also Ask / FAQ). Ne pas delayer betement, mais
 couvrir les termes NLP attendus (cf. §5bis NeuronWriter).
+
+### Reponses FAQ citables hors contexte (regle de citation IA)
+
+Quand ChatGPT, Perplexity ou Gemini citent une page, ils en extraient un
+fragment — presque toujours la premiere phrase de la reponse. Extraite de la
+page, cette phrase doit rester comprehensible seule : **sujet + affirmation**,
+sans pronom qui renvoie a la question.
+
+```html
+<!-- NON : incomprehensible des qu'on la sort de la page -->
+<summary>Le prejudice d'agrement est-il cumulable avec le DFP ?</summary>
+<p>Oui. Il repare une atteinte distincte...</p>
+
+<!-- OUI : la phrase se suffit a elle-meme -->
+<summary>Le prejudice d'agrement est-il cumulable avec le DFP ?</summary>
+<p>Le prejudice d'agrement se cumule avec le deficit fonctionnel permanent,
+   car il repare une atteinte distincte : la perte d'une activite specifique
+   pratiquee avant l'accident. La Cour de cassation...</p>
+```
+
+Concretement : jamais de reponse ouvrant sur « Oui. », « Non. », « C'est le
+poste qui... », « Il n'existe pas de bareme... ». Reprendre le sujet de la
+question dans la phrase d'ouverture, puis developper. La meme regle vaut pour
+le `quick-answer` et pour le champ `faq` cote Sanity.
+
+`qa_article_aivf.py` signale les ouvertures non citables en **avertissement non
+bloquant** (46 % du corpus deja publie est concerne — mesure du 2026-08-27 —
+d'ou le choix de ne pas bloquer la CI sur ce stock). Pour tout article NEUF :
+zero avertissement attendu.
 
 ## 3. L'infographie SVG inline (au moins une)
 
@@ -146,8 +205,9 @@ toujours le renseigner. Reference + n° de pourvoi = ceux renvoyes par Openlegi.
    doit lister toutes ses feuilles. Liens internes en URL relative sans `.html`
    (`/actualites/<slug>`, `/nomenclature-dintilhac`…) — `sanity_publish.py` les
    convertit tels quels.
-2. **Anti-cannibalisation Sanity** : avant de creer un slug, verifier qu'aucun
-   des ~545 articles existants ne le prend deja :
+2. **Anti-cannibalisation Sanity** (complement du §0bis, qui compare les
+   INTENTS ; ici on compare les SLUGS) : avant de creer un slug, verifier
+   qu'aucun des ~545 articles existants ne le prend deja :
    `curl -s "https://jef1bcbo.apicdn.sanity.io/v2024-01-01/data/query/production?query=*%5Bslug.current%3D%3D%22<slug>%22%5D%7B_id%7D"`
    (les slugs Sanity historiques peuvent porter un prefixe `actualites-` : tester les deux).
 3. `queue-aivf.json` a jour (`status: "done"`, `date`, `neuronwriter_score`).

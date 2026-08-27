@@ -54,6 +54,8 @@ Conséquences IMMUABLES, sauf demande expresse de Me Humbert :
   actualites/<slug>.html --dry-run` puis `--publish-at <ISO|now>`.
 - Optimiser un score NeuronWriter : **toujours** via le skill `/nw-optimisation`
   (`tools/nw_lab.py terms/audit/evaluate`) — voir la règle NeuronWriter ci-dessous.
+- Mesurer le corpus déjà publié (chute, decay, cannibalisation réelle, quick
+  wins) : skill `/seo-feedback` + `python3 tools/gsc_report.py <commande>`.
 - Lire une page web publique en Markdown brut :
   `python3 tools/web_read.py URL [--max-chars 0]`.
 - Rechercher sur le web en français : `python3 tools/exa_search.py "requête" -n 5`.
@@ -159,6 +161,35 @@ jurisprudence Openlegi vérifiée, 2 tableaux, SVG inline) + SEO local 7 villes
 PACA avec image mise en avant géolocalisée (EXIF GPS). Ce pipeline ne touche
 NI Sanity NI lexvox-victime.com — anti-cannibalisation triple obligatoire
 (2 WP + Sanity) avant chaque slug.
+
+## Boucle de retour SEO (skill `/seo-feedback`, 2026-08-27)
+
+Le pipeline est complet en production et aveugle après publication : rien ne
+mesure ce que deviennent les ~545 articles en ligne. Deux règles en découlent,
+appliquées par les skills et les QA :
+
+1. **Réoptimiser avant de créer.** Avant de produire un item de file, vérifier
+   si une page capte déjà l'intent (`tools/gsc_report.py reoptimiser --keyword
+   "…"`). Si oui : statut `reoptimiser` + `reoptimise_url`, et on enrichit la
+   page existante. Les contrôles anti-cannibalisation existants comparent des
+   **slugs** ; celui-ci compare des **intents**, et c'est le seul qui voit une
+   page déjà positionnée sur le mot-clé sous un autre slug.
+2. **Réponses FAQ citables hors contexte.** Chaque réponse ouvre sur une phrase
+   autosuffisante (sujet + affirmation), jamais sur « Oui. », « Non. » ou une
+   anaphore : c'est ce fragment que les moteurs de réponse IA extraient.
+   `qa_article_aivf.py` le signale en **avertissement non bloquant** (46 % du
+   corpus publié est concerné) ; zéro avertissement attendu sur un article neuf.
+
+**Prérequis : l'action I-03.** Le code qui lit l'API Search Console est écrit et
+testé (`gsc_report.py --api` : JWT compte de service, croisement requête × page,
+fenêtres calculées). Ce qui manque est la **propriété GSC elle-même** — compte
+Google + TXT DNS Cloudflare, donc une main humaine ; marche à suivre dans
+`.claude/skills/seo-feedback/SKILL.md`, section « Brancher l'API ». Propriété de
+type **Domaine** (validation DNS) : elle évite de toucher au frontend Next.js.
+Tant qu'elle n'existe pas, `--api` refuse de répondre en nommant ce qui manque,
+plutôt que de rendre un rapport vide. Ne jamais combler par une estimation :
+un chiffre inventé a la même allure qu'un chiffre mesuré. Clé jamais committée
+(`GSC_SERVICE_ACCOUNT_JSON` en variable d'environnement).
 
 ## Suivi
 
