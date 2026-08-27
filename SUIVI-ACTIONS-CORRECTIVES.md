@@ -46,7 +46,7 @@
 |----|----------|--------|-----------|--------|-----------------|-------|
 | I-01 | CRITIQUE | Vérifier pages non indexées sur Google | Indexation | ⚙️ | - | Sitemap réparé + en prod (2026-07-04), robots.txt le référence, GSC actif : re-crawl automatique. IndexNow pingé à chaque déploiement (`tools/indexnow_ping.py`). Vérifier le statut « Sitemaps » dans GSC sous ~1 semaine |
 | I-02 | CRITIQUE | Domain Trust faible / Backlinks limités | Autorité | ❌ | - | Stratégie netlinking : Légifrance, Ordre des avocats, ONIAM, partenaires |
-| I-03 | CRITIQUE | Configurer Google Search Console et soumettre sitemap | Indexation | ❌ | - | Soumettre https://lexvox-victime.com/sitemap.xml dans GSC. **Bloque toute la boucle de retour SEO** (skill `/seo-feedback`, `tools/gsc_report.py`) : sans propriété GSC, aucune mesure du corpus publié — ni decay, ni cannibalisation réelle, ni quick wins, et les mots-clés des files restent des hypothèses. `--api` refuse de répondre tant que c'est ouvert |
+| I-03 | CRITIQUE | Configurer Google Search Console et soumettre sitemap | Indexation | ⚙️ | - | **Côté code : FAIT** (2026-08-27) — `tools/gsc_report.py --api` lit l'API Search Console (JWT compte de service, croisement requête × page, pagination, fenêtres calculées), testé hors ligne. **Reste 3 gestes humains** (compte Google + DNS Cloudflare, non automatisables) : (1) créer la propriété **type Domaine** `lexvox-victime.com` et valider par TXT DNS Cloudflare — pas de propriété par préfixe d'URL, qui obligerait à toucher le frontend Next.js ; (2) vérifier puis soumettre le sitemap **servi par le frontend Sanity** (celui du dépôt est du legacy à 86 URLs, non servi) ; (3) créer le compte de service, l'ajouter en « Restreint » dans GSC, poser `GSC_SERVICE_ACCOUNT_JSON` en variable d'env. Marche à suivre détaillée : `.claude/skills/seo-feedback/SKILL.md`, section « Brancher l'API » |
 | I-04 | CRITIQUE | Configurer Google Analytics 4 | Analytics | ❌ | - | Lier GSC + GA4 pour monitoring trafic et performances |
 | I-05 | Moyenne | Core Web Vitals : vérifier les métriques | Performance | ❌ | - | Tester via PageSpeed Insights en attendant données CrUX |
 
@@ -94,9 +94,11 @@
 
 ## TOP 5 ACTIONS CRITIQUES RESTANTES
 
-1. **[I-03]** ⚠️ Configurer Google Search Console + soumettre sitemap → **< 48h**
-   — prérequis de la boucle de retour `/seo-feedback` : tant qu'elle est ouverte,
-   on produit sans jamais mesurer ce que devient le corpus publié
+1. **[I-03]** ⚠️ Créer la propriété Search Console + soumettre sitemap → **< 48h**
+   — le code de la boucle de retour `/seo-feedback` est prêt et testé ; il ne
+   manque que les 3 gestes humains (propriété Domaine + TXT Cloudflare, sitemap
+   Sanity, compte de service). Tant qu'ils ne sont pas faits, on produit sans
+   jamais mesurer ce que devient le corpus publié. ~15 min + 2-3 j de collecte
 2. **[I-04]** Configurer Google Analytics 4 → **< 48h**
 3. **[T-07]** Activer Brotli sur Cloudflare Dashboard → **< 1h** (Speed > Optimization)
 4. **[T-08]** Désactiver Email Obfuscation Cloudflare → **< 1h** (Scrape Shield)

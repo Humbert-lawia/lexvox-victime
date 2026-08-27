@@ -180,10 +180,16 @@ appliquées par les skills et les QA :
    `qa_article_aivf.py` le signale en **avertissement non bloquant** (46 % du
    corpus publié est concerné) ; zéro avertissement attendu sur un article neuf.
 
-**Prérequis bloquant : l'action I-03** (créer la propriété Search Console) est
-toujours ouverte. Tant qu'elle l'est, `gsc_report.py --api` refuse de répondre
+**Prérequis : l'action I-03.** Le code qui lit l'API Search Console est écrit et
+testé (`gsc_report.py --api` : JWT compte de service, croisement requête × page,
+fenêtres calculées). Ce qui manque est la **propriété GSC elle-même** — compte
+Google + TXT DNS Cloudflare, donc une main humaine ; marche à suivre dans
+`.claude/skills/seo-feedback/SKILL.md`, section « Brancher l'API ». Propriété de
+type **Domaine** (validation DNS) : elle évite de toucher au frontend Next.js.
+Tant qu'elle n'existe pas, `--api` refuse de répondre en nommant ce qui manque,
 plutôt que de rendre un rapport vide. Ne jamais combler par une estimation :
-un chiffre inventé a la même allure qu'un chiffre mesuré.
+un chiffre inventé a la même allure qu'un chiffre mesuré. Clé jamais committée
+(`GSC_SERVICE_ACCOUNT_JSON` en variable d'environnement).
 
 ## Suivi
 

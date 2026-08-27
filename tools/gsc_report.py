@@ -21,33 +21,47 @@ de vingt recommandations, c'est-a-dire aucune decision.
 recoit deja des impressions sur le mot-cle, l'item n'est pas un article neuf
 mais une reoptimisation.
 
-ETAT DES SOURCES DE DONNEES
-  --csv <dossier>   export Search Console (CSV/TSV). FONCTIONNE AUJOURD'HUI.
+SOURCES DE DONNEES
+  --api             API Search Console (searchanalytics.query, dimensions
+                    requete x page). Les fenetres de comparaison sont calculees
+                    seules : aucun export a faire. Requiert la propriete GSC
+                    (action I-03) et la cle d'un compte de service dans
+                    GSC_SERVICE_ACCOUNT_JSON — jamais committee.
+  --csv <dossier>   export Search Console (CSV/TSV), pour travailler sans API.
                     Repeter l'option pour comparer des periodes, de la plus
                     recente a la plus ancienne (chute = 2 periodes, decay = 3).
-  --api             API Search Console. NON BRANCHEE : l'action I-03 du
-                    SUIVI-ACTIONS-CORRECTIVES.md (creer la propriete GSC) est
-                    toujours ouverte. La commande le dit et s'arrete plutot que
-                    de rendre un rapport vide qui passerait pour un bon
-                    resultat.
+
+Tant que la propriete n'existe pas ou que la cle manque, `--api` s'arrete en
+code 2 avec la marche a suivre : jamais de rapport vide, qui aurait l'allure
+d'un site en bonne sante.
 
 Un export de l'interface GSC ne contient PAS le croisement requete x page :
-`cannibalisation` et `reoptimiser` en ont besoin et ne sont exploitables qu'une
-fois l'API branchee (ou via un export Looker Studio qui porte les deux
-colonnes). Les commandes le signalent au lieu de rendre un resultat trompeur.
+`cannibalisation` et `reoptimiser` en ont besoin et ne sont donc exploitables
+qu'en mode --api (ou via un export Looker Studio portant les deux colonnes).
+Les commandes le signalent au lieu de rendre un resultat trompeur.
 
 Usage :
+  python3 tools/gsc_report.py synthese --api
+  python3 tools/gsc_report.py decay --api --jours 90
+  python3 tools/gsc_report.py reoptimiser --keyword "prejudice d'agrement" --api
   python3 tools/gsc_report.py quickwins --csv exports/2026-08/
   python3 tools/gsc_report.py chute --csv exports/2026-08/ --csv exports/2026-07/
-  python3 tools/gsc_report.py reoptimiser --keyword "prejudice d'agrement" --csv exports/2026-08/
 
 Codes retour : 0 = rapport rendu, 1 = erreur d'usage, 2 = source indisponible.
 """
 import argparse
+import base64
 import csv
+import json
+import os
 import sys
+import time
+import urllib.parse
 from dataclasses import dataclass
+from datetime import date, timedelta
 from pathlib import Path
+
+import requests
 
 # --- Seuils de la methode -------------------------------------------------
 # Chacun elimine du bruit. Les valeurs viennent de la pratique SEO courante ;
@@ -69,6 +83,20 @@ CTR_MIN_IMPRESSIONS = 100
 DECAY_PERIODES_CONSECUTIVES = 2
 # Un rapport se termine par des decisions, pas par un inventaire.
 MAX_ACTIONS = 3
+
+# --- API Search Console ---------------------------------------------------
+GSC_SCOPE = "https://www.googleapis.com/auth/webmasters.readonly"
+GSC_TOKEN_URL = "https://oauth2.googleapis.com/token"
+GSC_API = "https://searchconsole.googleapis.com/webmasters/v3/sites/{site}/searchAnalytics/query"
+# Propriete de DOMAINE (prefixe sc-domain:) : elle couvre http/https, www et
+# tous les sous-domaines d'un coup, et se verifie par un enregistrement DNS —
+# donc sans toucher au frontend Next.js/Sanity servi en production.
+GSC_SITE_DEFAUT = "sc-domain:lexvox-victime.com"
+# Search Console publie avec ~2-3 jours de retard : inclure ces jours ferait
+# passer un delai de publication pour une chute de trafic.
+GSC_DECALAGE_JOURS = 3
+GSC_MAX_LIGNES = 25000
+GSC_JOURS_DEFAUT = 28
 
 # CTR moyen observe par position sur la SERP (ordre de grandeur, toutes
 # requetes confondues). Sert uniquement de reference relative pour reperer une
@@ -202,41 +230,196 @@ def _source_indisponible(message: str) -> None:
     sys.exit(2)
 
 
-def charger_api() -> list[Ligne]:
-    """Source API — volontairement non implementee, et qui le dit."""
-    _source_indisponible(
-        "SOURCE INDISPONIBLE : l'API Search Console n'est pas branchee.\n"
-        "\n"
-        "  Prerequis : action I-03 du SUIVI-ACTIONS-CORRECTIVES.md — creer la\n"
-        "  propriete Search Console de lexvox-victime.com et y soumettre le\n"
-        "  sitemap. Tant qu'elle est ouverte, aucune donnee reelle n'existe :\n"
-        "  rendre un rapport vide donnerait l'illusion d'un site en bonne sante.\n"
-        "\n"
-        "  A brancher ensuite ici (searchanalytics.query, dimensions\n"
-        "  ['query','page','date']) avec un compte de service dont la cle vit en\n"
-        "  variable d'environnement — JAMAIS committee (regle 5 du CLAUDE.md).\n"
-        "\n"
-        "  En attendant : exporter depuis l'interface GSC et utiliser --csv."
+def _compte_de_service() -> dict:
+    """Cle du compte de service, depuis l'environnement UNIQUEMENT.
+
+    `GSC_SERVICE_ACCOUNT_JSON` porte soit le JSON lui-meme, soit le chemin du
+    fichier. Jamais dans le depot : c'est une cle privee (regle 5 du CLAUDE.md,
+    ecrite apres qu'un jeton a du etre purge du dashboard).
+    """
+    brut = os.environ.get("GSC_SERVICE_ACCOUNT_JSON", "").strip()
+    if not brut:
+        _source_indisponible(
+            "IDENTIFIANTS ABSENTS : la variable d'environnement\n"
+            "  GSC_SERVICE_ACCOUNT_JSON n'est pas definie (JSON du compte de\n"
+            "  service, ou chemin vers ce fichier).\n"
+            "\n"
+            "  Marche a suivre dans .claude/skills/seo-feedback/SKILL.md,\n"
+            "  section « Brancher l'API ». Ne jamais committer cette cle."
+        )
+    if not brut.lstrip().startswith("{"):
+        chemin = Path(brut).expanduser()
+        if not chemin.exists():
+            _source_indisponible(
+                f"IDENTIFIANTS ILLISIBLES : {chemin} introuvable.\n"
+                "  GSC_SERVICE_ACCOUNT_JSON doit porter le JSON du compte de\n"
+                "  service ou le chemin d'un fichier existant."
+            )
+        brut = chemin.read_text(encoding="utf-8")
+    try:
+        compte = json.loads(brut)
+    except json.JSONDecodeError as e:
+        _source_indisponible(f"IDENTIFIANTS ILLISIBLES : JSON invalide ({e}).")
+    manquants = [c for c in ("client_email", "private_key") if not compte.get(c)]
+    if manquants:
+        _source_indisponible(
+            f"IDENTIFIANTS INCOMPLETS : champ(s) {', '.join(manquants)} absent(s) "
+            "du JSON du compte de service."
+        )
+    return compte
+
+
+def _b64url(donnees: bytes) -> str:
+    return base64.urlsafe_b64encode(donnees).rstrip(b"=").decode("ascii")
+
+
+def jeton_acces(compte: dict) -> str:
+    """Signe un JWT RS256 et l'echange contre un jeton d'acces OAuth2.
+
+    Implemente a la main plutot qu'avec google-auth : le paquet n'est pas
+    installe, et la boucle JWT -> jeton tient en quinze lignes avec
+    `cryptography`.
+    """
+    try:
+        from cryptography.hazmat.primitives import hashes, serialization
+        from cryptography.hazmat.primitives.asymmetric import padding
+    except Exception as e:
+        # Une installation partielle de `cryptography` (backend cffi absent)
+        # remonte sinon un panic Rust illisible.
+        _source_indisponible(
+            f"DEPENDANCE MANQUANTE : `cryptography` inutilisable ({type(e).__name__}).\n"
+            "  Installer :  python3 -m pip install cffi cryptography\n"
+            "  (necessaire seulement pour --api ; le mode --csv n'en depend pas.)"
+        )
+
+    maintenant = int(time.time())
+    entete = {"alg": "RS256", "typ": "JWT"}
+    revendications = {
+        "iss": compte["client_email"],
+        "scope": GSC_SCOPE,
+        "aud": GSC_TOKEN_URL,
+        "iat": maintenant,
+        "exp": maintenant + 3600,
+    }
+    corps = ".".join(
+        _b64url(json.dumps(x, separators=(",", ":")).encode("utf-8"))
+        for x in (entete, revendications)
+    ).encode("ascii")
+
+    cle = serialization.load_pem_private_key(
+        compte["private_key"].encode("utf-8"), password=None)
+    signature = cle.sign(corps, padding.PKCS1v15(), hashes.SHA256())
+    assertion = f"{corps.decode('ascii')}.{_b64url(signature)}"
+
+    reponse = requests.post(
+        GSC_TOKEN_URL,
+        data={"grant_type": "urn:ietf:params:oauth:grant-type:jwt-bearer",
+              "assertion": assertion},
+        timeout=30,
     )
+    if reponse.status_code != 200:
+        _source_indisponible(
+            f"AUTHENTIFICATION REFUSEE (HTTP {reponse.status_code}) : "
+            f"{reponse.text[:300]}\n"
+            "  Verifier que l'API Search Console est activee sur le projet "
+            "Google Cloud\n  et que l'heure systeme est juste (un JWT expire "
+            "est refuse sans autre explication)."
+        )
+    return reponse.json()["access_token"]
+
+
+def _fenetre(fin_decalage: int, jours: int, index: int) -> tuple[str, str]:
+    """Fenetre glissante n° `index` (0 = la plus recente), en dates ISO.
+
+    `fin_decalage` recule la fin de quelques jours : Search Console publie ses
+    donnees avec environ 2 a 3 jours de retard, et inclure ces jours-la ferait
+    passer un simple delai de publication pour une chute de trafic.
+    """
+    fin = date.today() - timedelta(days=fin_decalage + index * jours)
+    debut = fin - timedelta(days=jours - 1)
+    return debut.isoformat(), fin.isoformat()
+
+
+def charger_api(site: str, jours: int, index: int = 0) -> list[Ligne]:
+    """Une fenetre de donnees reelles, croisement requete x page compris."""
+    compte = _compte_de_service()
+    jeton = jeton_acces(compte)
+    debut, fin = _fenetre(GSC_DECALAGE_JOURS, jours, index)
+    url = GSC_API.format(site=urllib.parse.quote(site, safe=""))
+
+    lignes: list[Ligne] = []
+    depart = 0
+    while True:
+        reponse = requests.post(
+            url,
+            headers={"Authorization": f"Bearer {jeton}"},
+            json={"startDate": debut, "endDate": fin,
+                  "dimensions": ["query", "page"], "type": "web",
+                  "rowLimit": GSC_MAX_LIGNES, "startRow": depart},
+            timeout=120,
+        )
+        if reponse.status_code == 403:
+            _source_indisponible(
+                f"ACCES REFUSE a la propriete « {site} » (HTTP 403).\n"
+                f"  Le compte de service {compte['client_email']}\n"
+                "  doit etre ajoute comme utilisateur de la propriete dans\n"
+                "  Search Console (Parametres > Utilisateurs et autorisations).\n"
+                "  Verifier aussi la forme du site : propriete de domaine =\n"
+                "  `sc-domain:lexvox-victime.com`, prefixe d'URL = l'URL complete."
+            )
+        if reponse.status_code == 404:
+            _source_indisponible(
+                f"PROPRIETE INTROUVABLE : « {site} » (HTTP 404).\n"
+                "  L'action I-03 (creer la propriete Search Console) est-elle "
+                "faite ?\n  Sinon aucune donnee n'existe : ne rien inventer, "
+                "utiliser --csv ou attendre."
+            )
+        if reponse.status_code != 200:
+            _source_indisponible(
+                f"API Search Console : HTTP {reponse.status_code} — "
+                f"{reponse.text[:300]}")
+
+        rangs = reponse.json().get("rows", [])
+        for r in rangs:
+            cles = r.get("keys", ["", ""])
+            lignes.append(Ligne(
+                query=cles[0] if len(cles) > 0 else "",
+                page=cles[1] if len(cles) > 1 else "",
+                clicks=float(r.get("clicks", 0)),
+                impressions=float(r.get("impressions", 0)),
+                ctr=float(r.get("ctr", 0)),
+                position=float(r.get("position", 0)),
+                date=f"{debut}..{fin}",
+            ))
+        if len(rangs) < GSC_MAX_LIGNES:
+            break
+        depart += GSC_MAX_LIGNES
+    return lignes
 
 
 def charger(args) -> list[Ligne]:
     if args.api:
-        return charger_api()
+        return charger_api(args.site, args.jours)
     if not args.csv:
         sys.exit("ERREUR : preciser au moins une source (--csv <dossier> ou --api).")
     return charger_csv(Path(args.csv[0]))
 
 
 def charger_periodes(args, minimum: int) -> list[list[Ligne]]:
+    """Periodes comparables, de la plus RECENTE a la plus ANCIENNE.
+
+    En mode API, les fenetres sont deduites de `--jours` : aucun export a faire,
+    c'est tout l'interet d'avoir branche l'API.
+    """
     if args.api:
-        charger_api()
+        return [charger_api(args.site, args.jours, i) for i in range(minimum)]
     if len(args.csv or []) < minimum:
         sys.exit(
             f"ERREUR : cette commande compare {minimum} periodes.\n"
             f"  Repeter --csv, de la plus RECENTE a la plus ANCIENNE :\n"
             f"  python3 tools/gsc_report.py {args.commande} "
             + " ".join(f"--csv exports/p{i+1}/" for i in range(minimum))
+            + "\n  Ou utiliser --api : les fenetres sont alors calculees seules."
         )
     return [charger_csv(Path(d)) for d in args.csv[:minimum]]
 
@@ -560,7 +743,12 @@ def main(argv: list[str]) -> int:
                    help="dossier d'export GSC ; repeter de la periode la plus "
                         "RECENTE a la plus ANCIENNE")
     p.add_argument("--api", action="store_true",
-                   help="source API Search Console (non branchee — action I-03)")
+                   help="source API Search Console (cle : GSC_SERVICE_ACCOUNT_JSON)")
+    p.add_argument("--site", default=os.environ.get("GSC_SITE_URL", GSC_SITE_DEFAUT),
+                   metavar="PROPRIETE",
+                   help=f"propriete Search Console (defaut : {GSC_SITE_DEFAUT})")
+    p.add_argument("--jours", type=int, default=GSC_JOURS_DEFAUT, metavar="N",
+                   help=f"longueur d'une periode en mode --api (defaut : {GSC_JOURS_DEFAUT})")
     p.add_argument("--keyword", help="mot-cle a tester (commande reoptimiser)")
     args = p.parse_args(argv)
 
@@ -568,7 +756,11 @@ def main(argv: list[str]) -> int:
         p.error("--keyword est requis pour la commande reoptimiser")
 
     if args.commande == "synthese":
-        periodes = [charger_csv(Path(d)) for d in (args.csv or [])] if not args.api else charger_api()
+        if args.api:
+            # Deux fenetres : la synthese compare toujours a la periode d'avant.
+            periodes = [charger_api(args.site, args.jours, i) for i in range(2)]
+        else:
+            periodes = [charger_csv(Path(d)) for d in (args.csv or [])]
         if not periodes:
             sys.exit("ERREUR : preciser au moins une source (--csv <dossier> ou --api).")
         rendre_synthese(periodes[0], periodes[1] if len(periodes) > 1 else None)
