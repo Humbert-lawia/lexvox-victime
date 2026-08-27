@@ -20,6 +20,14 @@ differenciation face a AIVF imposes par le gabarit augmente :
      (limite non negociable), >= 2500 pour un pilier. Le volume peut monter
      au-dessus de 1900 si cela ameliore le score, jamais descendre en dessous.
 
+En plus des controles bloquants, l'outil rend des AVERTISSEMENTS non bloquants
+sur la citabilite des reponses FAQ (chaque reponse doit ouvrir sur une phrase
+autosuffisante, comprehensible sans avoir lu la question — c'est ce format que
+les moteurs de reponse IA reprennent). Mesure du 2026-08-27 : 46 % des reponses
+du corpus deja publie ouvrent sur "Oui.", "Non." ou une anaphore ; le controle
+reste donc consultatif tant que ce stock n'est pas repris, pour ne pas rendre
+la CI rouge sur l'existant. Il ne change pas le code retour.
+
 Usage :
   python3 tools/qa_article_aivf.py actualites/mon-article.html
   python3 tools/qa_article_aivf.py actualites/mon-hub.html --pilier
@@ -29,6 +37,7 @@ Code retour 0 = conforme, 1 = au moins un article non conforme.
 """
 import re
 import sys
+from html import unescape as html_unescape
 from pathlib import Path
 
 TAG_RE = re.compile(r"<[^>]+>")
@@ -40,6 +49,22 @@ BAR_RE = re.compile(r'<div[^>]*class="[^"]*reassurance-bar[^"]*"[^>]*>.*?</div>'
 JURIS_RE = re.compile(r'<div[^>]*class="[^"]*juris-block[^"]*"[^>]*>(.*?)</div>', re.S | re.I)
 HREF_RE = re.compile(r'<a[^>]+href="https?://', re.I)
 
+# --- Citabilite des reponses FAQ (avertissements, non bloquant) -------------
+DETAILS_RE = re.compile(r"<details[^>]*>(.*?)</details>", re.S | re.I)
+SUMMARY_RE = re.compile(r"<summary[^>]*>(.*?)</summary>", re.S | re.I)
+# Longueur plancher d'une phrase d'ouverture qui porte sujet + affirmation.
+FAQ_MIN_OPENING = 60
+# Ouvertures qui ne se comprennent qu'en ayant lu la question juste au-dessus.
+FAQ_ANAPHORA_RE = re.compile(
+    r"^(?:oui|non|si)\s*[.!]"                       # "Oui." / "Non." isoles
+    r"|^(?:il|elle|ils|elles|on|cela|ceci|ca)\b"
+    r"|^c(?:'|’)est\b|^ce\s+(?:sont|n(?:'|’)est)\b"
+    r"|^(?:cette|cet|ces|ce)\s+\w+"
+    r"|^(?:celui|celle|ceux|celles)\b"
+    r"|^(?:leur|leurs|son|sa|ses)\b",
+    re.I,
+)
+
 
 def content_word_count(html: str) -> int:
     """Mots de contenu visible, hors script/style/commentaires ET hors chrome
@@ -50,6 +75,46 @@ def content_word_count(html: str) -> int:
     text = BAR_RE.sub(" ", text)
     text = TAG_RE.sub(" ", text)
     return len(text.split())
+
+
+def _plain(fragment: str) -> str:
+    """Texte visible d'un fragment HTML, entites resolues, espaces normalises."""
+    return re.sub(r"\s+", " ", html_unescape(TAG_RE.sub(" ", fragment))).strip()
+
+
+def faq_citability(path: Path) -> list[str]:
+    """Avertissements NON BLOQUANTS sur la citabilite des reponses FAQ.
+
+    Regle du gabarit : chaque reponse ouvre sur une phrase autosuffisante,
+    citable hors contexte (sujet + affirmation), parce que c'est ce fragment
+    que ChatGPT, Perplexity ou Gemini reprennent quand ils citent la page.
+    Une reponse qui commence par "Oui.", "Non." ou "C'est le poste qui..."
+    perd tout sens des qu'elle est extraite de la page.
+
+    Deux signaux, volontairement grossiers pour rester lisibles :
+      - ouverture anaphorique (pronom ou demonstratif renvoyant a la question) ;
+      - phrase d'ouverture trop courte pour porter sujet ET affirmation.
+    """
+    warnings = []
+    doc = path.read_text(encoding="utf-8", errors="ignore")
+    for i, block in enumerate(DETAILS_RE.findall(doc), start=1):
+        question = _plain(SUMMARY_RE.search(block).group(1)) if SUMMARY_RE.search(block) else f"question {i}"
+        answer = _plain(SUMMARY_RE.sub(" ", block))
+        if not answer:
+            continue
+        m = re.search(r"^(.*?[.!?])(?:\s|$)", answer)
+        opening = (m.group(1) if m else answer).strip()
+        reasons = []
+        if FAQ_ANAPHORA_RE.match(opening):
+            reasons.append("ouverture anaphorique (ne se comprend qu'avec la question)")
+        if len(opening) < FAQ_MIN_OPENING:
+            reasons.append(f"phrase d'ouverture de {len(opening)} car. (< {FAQ_MIN_OPENING})")
+        if reasons:
+            warnings.append(
+                f"FAQ « {question[:60]} » : {' + '.join(reasons)} — "
+                f"ouverture actuelle : \"{opening[:80]}\""
+            )
+    return warnings
 
 
 def check(path: Path, pilier: bool) -> list[str]:
@@ -128,6 +193,7 @@ def main(argv: list[str]) -> int:
         return 1
 
     total_ko = 0
+    total_warn = 0
     print("QA article — standard PIPELINE LEXVOX-AIVF")
     for f in files:
         path = Path(f)
@@ -143,8 +209,14 @@ def main(argv: list[str]) -> int:
                 print(f"      - {p}")
         else:
             print(f"  OK            {f}")
+        for w in faq_citability(path):
+            total_warn += 1
+            print(f"      ~ (avertissement) {w}")
 
     print(f"\n{total_ko} article(s) non conforme(s) sur {len(files)}.")
+    if total_warn:
+        print(f"{total_warn} avertissement(s) de citabilite FAQ — non bloquant, "
+              "a corriger a la redaction (phrase d'ouverture autosuffisante).")
     return 1 if total_ko else 0
 
 

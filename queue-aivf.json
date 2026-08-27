@@ -10,11 +10,13 @@
     "optimisation": "NeuronWriter est LA priorite : score >=85 par article. Outil : API NeuronWriter via tools/neuronwriter.py (cle NEURONWRITER_API_KEY en secret d'env, jamais committee) OU connecteur NeuronWriter autorise. Le score obtenu est colle en marqueur <!-- NEURONWRITER SCORE: N query=<id> --> ; qa_article_aivf.py bloque si N<85 ou marqueur absent. Ajuster le contenu (termes NLP recommandes par NeuronWriter) jusqu'a >=85, en restant >=1900 mots.",
     "verification_juridique": "MCP Openlegi UNIQUEMENT (pas Lexbase). Chaque decision citee est confirmee par un appel Openlegi ; l'URL/source renvoyee sert de backlink <a href> dans le bloc juris ; un marqueur <!-- OPENLEGI VERIFIED: ... --> est colle par decision. Aucun n. de pourvoi non verifie.",
     "prerequis_bloquant": "Configurer Google Search Console + GA4 et valider le volume reel des mots-cles AVANT de lancer la prod d'un silo (actions I-03/I-04 du SUIVI). Sans donnee, produire mais logguer l'hypothese de volume.",
+    "reoptimisation_avant_creation": "AVANT de produire un item 'todo' : verifier dans Search Console si une page existante recoit deja des impressions sur le mot-cle (`python3 tools/gsc_report.py reoptimiser --keyword \"<keyword>\"`). Si OUI, l'item n'est PAS un article neuf mais une REOPTIMISATION : passer l'item en 'reoptimiser', renseigner 'reoptimise_url' (la page qui capte deja), et enrichir cette page (sections manquantes) au lieu d'en creer une seconde. Creer un second article sur un intent deja couvert fabrique la cannibalisation que l'on passe ensuite du temps a reparer. Sans acces GSC (action I-03 ouverte), le controle GROQ Sanity sur le slug reste le minimum, mais il ne voit PAS les pages qui rankent sur le mot-cle avec un autre slug : le noter dans le tracker.",
     "statuts": [
       "todo",
       "in_progress",
       "done",
-      "merged"
+      "merged",
+      "reoptimiser"
     ],
     "silos": {
       "A": {

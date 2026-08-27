@@ -83,11 +83,13 @@
       }
     },
     "anti_cannibalisation": "TRIPLE verification avant chaque slug : (1) REST du site cible ?slug=, (2) REST de l'autre site WP, (3) Sanity lexvox-victime (GROQ slug.current) + queue-aivf.json. Les items portant une note CANNIBALISATION ont un angle differencie OBLIGATOIRE : le respecter.",
+    "reoptimisation_avant_creation": "QUATRIEME controle, apres les trois ci-dessus : verifier dans Search Console si une page existante (WP ou Sanity) recoit deja des impressions sur le mot-cle (`python3 tools/gsc_report.py reoptimiser --keyword \"<keyword>\"`). Les trois premiers controles comparent des SLUGS ; celui-ci compare des INTENTS, et c'est le seul qui voit une page qui ranke deja sur le mot-cle sous un autre slug. Si une page capte deja l'intent : passer l'item en 'reoptimiser' avec 'reoptimise_url', et enrichir la page existante plutot que d'en publier une seconde. Sans acces GSC (action I-03 ouverte), le noter dans PUBLICATION-TRACKER-WP.md.",
     "statuts": [
       "todo",
       "in_progress",
       "done",
-      "blocked"
+      "blocked",
+      "reoptimiser"
     ]
   },
   "articles": [

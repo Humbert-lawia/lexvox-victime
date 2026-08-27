@@ -46,7 +46,7 @@
 |----|----------|--------|-----------|--------|-----------------|-------|
 | I-01 | CRITIQUE | Vérifier pages non indexées sur Google | Indexation | ⚙️ | - | Sitemap réparé + en prod (2026-07-04), robots.txt le référence, GSC actif : re-crawl automatique. IndexNow pingé à chaque déploiement (`tools/indexnow_ping.py`). Vérifier le statut « Sitemaps » dans GSC sous ~1 semaine |
 | I-02 | CRITIQUE | Domain Trust faible / Backlinks limités | Autorité | ❌ | - | Stratégie netlinking : Légifrance, Ordre des avocats, ONIAM, partenaires |
-| I-03 | CRITIQUE | Configurer Google Search Console et soumettre sitemap | Indexation | ❌ | - | Soumettre https://lexvox-victime.com/sitemap.xml dans GSC |
+| I-03 | CRITIQUE | Configurer Google Search Console et soumettre sitemap | Indexation | ❌ | - | Soumettre https://lexvox-victime.com/sitemap.xml dans GSC. **Bloque toute la boucle de retour SEO** (skill `/seo-feedback`, `tools/gsc_report.py`) : sans propriété GSC, aucune mesure du corpus publié — ni decay, ni cannibalisation réelle, ni quick wins, et les mots-clés des files restent des hypothèses. `--api` refuse de répondre tant que c'est ouvert |
 | I-04 | CRITIQUE | Configurer Google Analytics 4 | Analytics | ❌ | - | Lier GSC + GA4 pour monitoring trafic et performances |
 | I-05 | Moyenne | Core Web Vitals : vérifier les métriques | Performance | ❌ | - | Tester via PageSpeed Insights en attendant données CrUX |
 
@@ -95,6 +95,8 @@
 ## TOP 5 ACTIONS CRITIQUES RESTANTES
 
 1. **[I-03]** ⚠️ Configurer Google Search Console + soumettre sitemap → **< 48h**
+   — prérequis de la boucle de retour `/seo-feedback` : tant qu'elle est ouverte,
+   on produit sans jamais mesurer ce que devient le corpus publié
 2. **[I-04]** Configurer Google Analytics 4 → **< 48h**
 3. **[T-07]** Activer Brotli sur Cloudflare Dashboard → **< 1h** (Speed > Optimization)
 4. **[T-08]** Désactiver Email Obfuscation Cloudflare → **< 1h** (Scrape Shield)
