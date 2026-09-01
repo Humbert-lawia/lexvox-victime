@@ -14,8 +14,10 @@ python3 tools/voix_script.py --chaine victimes --slug <slug> \
   --segments ~/LEXVOX-PODCASTS/victimes/segments --moteur voicebox
 ```
 
-Durée cible : **65 à 75 secondes** pour l'intro complète. Les trois blocs
-verrouillés y pèsent environ 45 s, dits à l'identique dans les 24 épisodes.
+Durée cible : **30 secondes** pour l'intro complète — mesurée à 31,1 s sur
+l'épisode pilote. Les **deux** blocs verrouillés y pèsent environ 23 s, dits à
+l'identique dans les 24 épisodes ; seule la question du jour, environ 8 s, est
+refaite. C'est le plus court chemin possible entre le lancement et le débat.
 
 ## Structure imposée — c'est la marque de fabrique de la série
 
@@ -25,8 +27,8 @@ verrouillés y pèsent environ 45 s, dits à l'identique dans les 24 épisodes.
 | 2 | **Présentation** — l'émission, le cabinet, l'avocat, la confidence | `02-presentation` | 🔒 **non — enregistré une fois** |
 | 3 | **Annonce du débat** — Nathalie et Nicolas, et le lancement | `03-final` | 🔒 **non — enregistré une fois** |
 
-Les trois blocs verrouillés sont **rigoureusement identiques** d'un épisode à
-l'autre. Les resynthétiser à chaque fois les fait dériver et la signature
+Les deux blocs verrouillés (2 et 3) sont **rigoureusement identiques** d'un
+épisode à l'autre. Les resynthétiser à chaque fois les fait dériver et la signature
 s'émousse : `--segments` les enregistre une seule fois par chaîne, puis les
 réutilise. Ne pas fusionner ni ajouter de paragraphe — le découpage repose
 sur cette structure et l'outil refuse toute autre.
