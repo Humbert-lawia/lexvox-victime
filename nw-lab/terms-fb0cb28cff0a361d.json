@@ -1,0 +1,2448 @@
+{
+ "ideas": {
+  "suggest_questions": [],
+  "people_also_ask": [
+   {
+    "q": "Quel recours contre son assureur ?"
+   },
+   {
+    "q": "Quels sont les recours possibles contre une décision d'assurance ?"
+   },
+   {
+    "q": "Quel est le motif de litige le plus courant en assurance ?"
+   },
+   {
+    "q": "Où porter plainte contre un assureur ?"
+   }
+  ],
+  "topic_matrix": {
+   "Quel recours est possible contre son assureur en cas de litige ou de désaccord ?": {
+    "importance": 10
+   },
+   "Quels sont les recours possibles contre une décision d'assurance, notamment un refus d'indemnisation ?": {
+    "importance": 10
+   },
+   "Quel est le motif de litige le plus courant en assurance ?": {
+    "importance": 9
+   },
+   "Où et comment porter plainte ou faire une réclamation contre un assureur ?": {
+    "importance": 9
+   },
+   "Comment saisir le médiateur des assurances et dans quels cas ?": {
+    "importance": 8
+   },
+   "Quand et comment agir en justice contre son assureur ?": {
+    "importance": 7
+   },
+   "Dans quels cas un assureur peut-il refuser une indemnisation ?": {
+    "importance": 7
+   },
+   "Qu'est-ce que le recours direct ou recours en droit commun en assurance ?": {
+    "importance": 6
+   },
+   "Quelles sont les étapes pour résoudre un litige à l'amiable avec son assureur ?": {
+    "importance": 6
+   },
+   "Quels organismes peuvent aider en cas de litige avec un assureur ?": {
+    "importance": 5
+   }
+  },
+  "content_questions": [
+   {
+    "q": "Après un accident de la route, vous ne recevez pas d’indemnisation ou vous jugez votre allocation insuffisante ?"
+   },
+   {
+    "q": "Assurance habitation : comment se déroule l'expertise ?"
+   },
+   {
+    "q": "Assurance habitation : que faire en cas de refus d'indemnisation de votre assureur ?"
+   },
+   {
+    "q": "Assurance, banque, placements financiers : que faire en cas de mécontentement ?"
+   },
+   {
+    "q": "Comment contester un refus d’indemnisation de l’assurance ?"
+   },
+   {
+    "q": "Comment et qui peut faire une réclamation ?"
+   },
+   {
+    "q": "Comment exercer son recours direct ?"
+   },
+   {
+    "q": "Comment faire appel au Médiateur de l’Assurance  ?"
+   },
+   {
+    "q": "Comment faire si l’assurance ne rembourse pas ?"
+   },
+   {
+    "q": "Comment faire un recours direct ?"
+   },
+   {
+    "q": "Comment mettre en œuvre le recours direct en cas d’accident non responsable ?"
+   },
+   {
+    "q": "Comment porter plainte contre une compagnie d’assurance ?"
+   },
+   {
+    "q": "Comment procéder au nettoyage après un sinistre ?"
+   },
+   {
+    "q": "Comment réagir en cas de litige, quelles procédures suivre ?"
+   },
+   {
+    "q": "Comment saisir le médiateur ?"
+   },
+   {
+    "q": "Comment saisir le médiateur pour résoudre mon litige ?"
+   },
+   {
+    "q": "Contestation refus indemnisation assurance : comment procéder ?"
+   },
+   {
+    "q": "Dans quel cas peut-on utiliser ce dispositif de « recours direct » ?"
+   },
+   {
+    "q": "Dans quel cas votre assureur peut-il refuser de vous indemniser ?"
+   },
+   {
+    "q": "Dans quelle situation contester une décision de son assureur ?"
+   },
+   {
+    "q": "Dans quels cas l'assureur peut-il refuser de vous indemniser ?"
+   },
+   {
+    "q": "Franchise d’assurance auto : comment ça marche ?"
+   },
+   {
+    "q": "Indemnisation de l’assurance : est-on obligé de faire les travaux ?"
+   },
+   {
+    "q": "La mise en cause de l’assuré responsable est-elle toujours nécessaire ?"
+   },
+   {
+    "q": "La protection juridique est-elle incluse dans l'assurance habitation ?"
+   },
+   {
+    "q": "Litige avec une assurance : quels recours ?"
+   },
+   {
+    "q": "L’assureur a-t-il le droit de refuser de vous indemniser ?"
+   },
+   {
+    "q": "L’assureur peut-il refuser l’indemnisation ?"
+   },
+   {
+    "q": "Malgré votre courrier envoyé à l’assureur, votre situation n’est toujours pas résolue ?"
+   },
+   {
+    "q": "Peut-on refuser une proposition d’indemnisation de son assurance ?"
+   },
+   {
+    "q": "Peut-on se faire indemniser sans facture ?"
+   },
+   {
+    "q": "Pourquoi mon assurance refuse-t-elle de prendre en charge un bris de glace ?"
+   },
+   {
+    "q": "Qu'est-ce que la taxe sur les conventions d'assurances ?"
+   },
+   {
+    "q": "Quand saisir le médiateur ?"
+   },
+   {
+    "q": "Quand saisir un Médiateur ?"
+   },
+   {
+    "q": "Quand un assureur peut-il refuser de m’assurer ?"
+   },
+   {
+    "q": "Que devez-vous savoir lorsque vous souscrivez un contrat d'assurance ?"
+   },
+   {
+    "q": "Que faire en cas de litige lié à une assurance ?"
+   },
+   {
+    "q": "Que faire en cas de sinistre avec un tiers non identifié ?"
+   },
+   {
+    "q": "Que peut faire le Médiateur de l'Assurance après réception de votre dossier ?"
+   },
+   {
+    "q": "Que puis-je faire pour formuler une réclamation auprès de mon assureur ?"
+   },
+   {
+    "q": "Quel est le délai de prescription en matière d'assurance habitation ?"
+   },
+   {
+    "q": "Quel est l’avantage de passer par le recours direct en cas de sinistre automobile ?"
+   },
+   {
+    "q": "Quel médiateur saisir ?"
+   },
+   {
+    "q": "Quelles sont les conditions pour bénéficier de l’assistance de la Médiation de l’Assurance ?"
+   },
+   {
+    "q": "Quels sont les recours contre une assurance qui ne paye pas?"
+   },
+   {
+    "q": "Quels sont les recours en cas de litige avec son assurance ?"
+   },
+   {
+    "q": "Quels sont les recours légaux pour contester un refus de prise en charge ?"
+   },
+   {
+    "q": "Qui peut saisir le médiateur ?"
+   },
+   {
+    "q": "Qu’est-ce que la Médiation de l’Assurance ?"
+   },
+   {
+    "q": "Qu’est-ce que le droit commun en assurance ?"
+   },
+   {
+    "q": "Qu’est-ce que le recours direct de l’assurance auto ?"
+   },
+   {
+    "q": "Qu’est-ce qu’un recours en assurance ?"
+   },
+   {
+    "q": "Vous avez subi un sinistre et lors de votre déclaration à l’assurance, vous avez déclaré un montant largement supérieur à celui des dommages subis pour être mieux remboursé ?"
+   },
+   {
+    "q": "Vous avez subi un sinistre et votre assureur refuse de vous indemniser ?"
+   },
+   {
+    "q": "Vous craignez de ne pas recevoir les remboursements appropriés de la part de votre assurance en cas de sinistre ?"
+   },
+   {
+    "q": "Vous faites face à un refus d’indemnisation de la part de votre assureur, mais vous pensez que ce dernier ne dispose pas de motif valable ?"
+   },
+   {
+    "q": "Vous rencontrez un différend avec un assureur ?"
+   },
+   {
+    "q": "Vous êtes mécontent d’une décision formulée par votre assureur ?"
+   },
+   {
+    "q": "À partir de quel montant l'assurance envoie-t-elle un expert ?"
+   }
+  ]
+ },
+ "competitors": [
+  {
+   "rank": 1,
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3050",
+   "title": "Assurance habitation : recours en cas de litiges avec l'assureur | Service Public",
+   "desc": "Si vous avez un désaccord avec votre assureur, vous devez d'abord contacter ses propres services (interlocuteur habituel ou service de réclamation).",
+   "headers": [
+    [
+     "h1",
+     "Assurance habitation : recours en cas de litiges avec l'assureur"
+    ],
+    [
+     "h2",
+     "1Recours auprès de votre assureur"
+    ],
+    [
+     "h2",
+     "2Saisir le médiateur des assurances"
+    ],
+    [
+     "h2",
+     "3Agir en justice"
+    ],
+    [
+     "h2",
+     "Qui peut m'aider ?"
+    ],
+    [
+     "h2",
+     "Textes de loi et références"
+    ],
+    [
+     "h2",
+     "Services en ligne et formulaires"
+    ],
+    [
+     "h2",
+     "Questions ? Réponses !"
+    ],
+    [
+     "h2",
+     "Voir aussi"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Cette page vous a-t-elle été utile ?"
+    ],
+    [
+     "h2",
+     "Vos remarques pour améliorer\r\n        la page"
+    ]
+   ],
+   "content_score": 68,
+   "readability": 43,
+   "word_count": 1899,
+   "content_len": 11532
+  },
+  {
+   "rank": 2,
+   "url": "https://www.economie.gouv.fr/particuliers/emprunter-et-sassurer/un-differend-avec-un-assureur-pensez-la-mediation-de-lassurance",
+   "title": "Un différend avec un assureur : pensez à la Médiation de l'Assurance | economie.gouv.fr",
+   "desc": "Vous rencontrez un différend avec un assureur ? Vous pouvez faire appel à la Médiation de l’Assurance pour vous faire aider dans vos démarches et pour tenter",
+   "headers": [
+    [
+     "h1",
+     "Un différend avec un assureur : pensez à la Médiation de l'Assurance"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que la Médiation de l’Assurance ?"
+    ],
+    [
+     "h2",
+     "Quelles sont les conditions pour bénéficier de l’assistance de la Médiation de l’Assurance ?"
+    ],
+    [
+     "h2",
+     "Comment faire appel au Médiateur de l’Assurance  ?"
+    ],
+    [
+     "h2",
+     "Que peut faire le Médiateur de l'Assurance après réception de votre dossier ?"
+    ],
+    [
+     "h2",
+     "Ces contenus peuvent aussi vous intéresser"
+    ],
+    [
+     "h2",
+     "En savoir plus sur la Médiation de l'Assurance"
+    ],
+    [
+     "h2",
+     "Pied de page de la rubrique\n            Particuliers"
+    ],
+    [
+     "h2",
+     "Suivez-nous sur les réseaux sociaux et Abonnez-vous à notre lettre d’information"
+    ]
+   ],
+   "content_score": 41,
+   "readability": 67,
+   "word_count": 96,
+   "content_len": 642
+  },
+  {
+   "rank": 3,
+   "url": "https://www.fr.luko.eu/assurance-habitation/sinistre/recours-en-droit-commun-ou-recours-direct-assurance/",
+   "title": "Le recours en droit commun ou recours direct en assurance | Luko by Allianz Direct",
+   "desc": "Le recours en droit commun ou recours direct en assurance",
+   "headers": [
+    [
+     "h1",
+     "Le recours en droit commun ou recours direct"
+    ],
+    [
+     "h2",
+     "Recours en droit commun en assurance en résumé :"
+    ],
+    [
+     "h2",
+     "Qu’est-ce que le recours en droit commun ou recours direct"
+    ],
+    [
+     "h2",
+     "Les règles de fonctionnement de la procédure"
+    ],
+    [
+     "h2",
+     "Qui peut bénéficier du « recours direct »"
+    ],
+    [
+     "h2",
+     "Dans quel cas peut-on utiliser ce dispositif de « recours direct » ?"
+    ],
+    [
+     "h2",
+     "Quel est l’avantage de passer par le recours direct en cas de sinistre automobile ?"
+    ],
+    [
+     "h2",
+     "Comment mettre en œuvre le recours direct en cas d’accident non responsable ?"
+    ],
+    [
+     "h2",
+     "Les limites du recours direct"
+    ],
+    [
+     "h2",
+     "Devis Assurance Habitation"
+    ],
+    [
+     "h2",
+     "Questions fréquentes le droit commun"
+    ]
+   ],
+   "content_score": 47,
+   "readability": 28,
+   "word_count": 1998,
+   "content_len": 12769
+  },
+  {
+   "rank": 4,
+   "url": "https://www.mesquestionsdargent.fr/assurance/litige-assurance",
+   "title": "Gérer un litige avec mon assureur | Mes questions d'argent",
+   "desc": "Tout savoir pour bien gérer un litige avec votre assureur. Découvrir les recours et réclamations possibles en cas de désaccord avec votre assureur.",
+   "headers": [
+    [
+     "h1",
+     "Gérer un litige avec mon assureur"
+    ],
+    [
+     "h2",
+     "Que puis-je faire pour formuler une réclamation auprès de mon assureur ?"
+    ],
+    [
+     "h2",
+     "Comment saisir le médiateur pour résoudre mon litige ?"
+    ],
+    [
+     "h2",
+     "Formuler une réclamation auprès de mon assureur"
+    ],
+    [
+     "h2",
+     "Saisir le médiateur pour résoudre un litige"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 30,
+   "word_count": 1083,
+   "content_len": 6890
+  },
+  {
+   "rank": 5,
+   "url": "https://www.lelynx.fr/assurance-auto/sinistre/contestation/proces/",
+   "title": "lelynx.fr",
+   "desc": "",
+   "headers": [],
+   "content_score": 0,
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 6,
+   "url": "https://www.justifit.fr/b/guides/recours-contre-assurance-qui-ne-paye-pas/",
+   "title": "Les recours contre assurance qui ne paye pas",
+   "desc": "Que vous ayez souscrit une assurance auto, une assurance santé ou encore une assurance multirisque habitation, les règles sont les mêmes. La loi oblige…",
+   "headers": [
+    [
+     "h1",
+     "Quels sont les recours contre une assurance qui ne paye pas?"
+    ],
+    [
+     "h2",
+     "À RETENIR :"
+    ],
+    [
+     "h2",
+     "L’assureur peut-il refuser l’indemnisation ?"
+    ],
+    [
+     "h2",
+     "Contestation refus indemnisation assurance : comment procéder ?"
+    ],
+    [
+     "h2",
+     "Comment porter plainte contre une compagnie d’assurance ?"
+    ]
+   ],
+   "content_score": 64,
+   "readability": 38,
+   "word_count": 1269,
+   "content_len": 8496
+  },
+  {
+   "rank": 7,
+   "url": "https://www.mediation-consommation.notreaccord.com/blog/litige-avec-une-assurance-quels-recours",
+   "title": "Litige avec une assurance : quels recours ? - NotreAccord consommation",
+   "desc": "Litige avec une assurance : la médiation de la consommation peut le résoudre rapidement et gratuitement.",
+   "headers": [
+    [
+     "h1",
+     "Litige avec une assurance : quels recours ?"
+    ]
+   ],
+   "content_score": 20,
+   "readability": 80,
+   "word_count": 8,
+   "content_len": 43
+  },
+  {
+   "rank": 8,
+   "url": "https://www.april.fr/assurance/lexique/recours-de-lassureur",
+   "title": "Définition Recours de l’assureur - Lexique de l'assurance | APRIL",
+   "desc": "Retrouvez la définition du terme Recours de l’assureur dans notre lexique sur l'assurance.",
+   "headers": [
+    [
+     "h1",
+     "Recours de l’assureur"
+    ]
+   ],
+   "content_score": 39,
+   "readability": 44,
+   "word_count": 259,
+   "content_len": 1639
+  },
+  {
+   "rank": 9,
+   "url": "https://www.ornikar.com/assurance-auto/indemnisation/contestation-indemnisation",
+   "title": "Contestation d'une indemnisation d'assurance - Ornikar",
+   "desc": "Il existe plusieurs raisons qui peuvent pousser un conducteur à contester le montant d'indemnisation proposé par son assureur. Ornikar vous en dit plus.",
+   "headers": [
+    [
+     "h1",
+     "Contester la proposition d'indemnisation de l'assureur"
+    ],
+    [
+     "h2",
+     "Dans quelle situation contester une décision de son assureur ?"
+    ],
+    [
+     "h2",
+     "Les différents recours"
+    ],
+    [
+     "h2",
+     "Modèle de lettre à envoyer à son assureur"
+    ],
+    [
+     "h2",
+     "Nos conseils d'experts"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 39,
+   "word_count": 1088,
+   "content_len": 7019
+  },
+  {
+   "rank": 10,
+   "url": "https://www.fr.luko.eu/assurance-habitation/sinistre/recours-en-cas-de-refus-dindemnisation-de-votre-assurance/",
+   "title": "Le refus de prise en charge de votre assurance | Luko by Allianz Direct | Luko by Allianz Direct",
+   "desc": "Votre assureur refuse de vous indemniser suite à un sinistre, contactez d'abord : 1. Votre conseiller 2. Le service réclamation 3. Le médiateur de l'assurance",
+   "headers": [
+    [
+     "h1",
+     "Les recours en cas de refus d'indemnisation de votre assurance"
+    ],
+    [
+     "h2",
+     "Refus de prise en charge en assurance en résumé :"
+    ],
+    [
+     "h2",
+     "Dans quels cas l'assureur peut-il refuser de vous indemniser ?"
+    ],
+    [
+     "h2",
+     "Le refus d’indemnisation de l’assurance habitation en cas de catastrophe naturelle"
+    ],
+    [
+     "h2",
+     "Contester une décision de refus de prise en charge de son assurance habitation"
+    ],
+    [
+     "h2",
+     "Les recours légaux en cas de litige avec son assurance"
+    ],
+    [
+     "h2",
+     "Devis Assurance Habitation"
+    ],
+    [
+     "h2",
+     "Questions fréquentes sur le refus d'indemnisation de votre assurance"
+    ]
+   ],
+   "content_score": 64,
+   "readability": 29,
+   "word_count": 2689,
+   "content_len": 16789
+  },
+  {
+   "rank": 11,
+   "url": "https://www.banque-france.fr/fr/a-votre-service/particuliers/connaitre-pratiques-bancaires-assurance/que-faire-en-cas-de-litige/que-faire-en-cas-de-litige-assurance",
+   "title": "Que faire en cas de litige lié à une assurance ?",
+   "desc": "La marche à suivre et les bons réflexes à adopter en cas de litige avec un assureur ou un intermédiaire d’assurance.",
+   "headers": [
+    [
+     "h1",
+     "Que faire en cas de litige lié à une assurance ?"
+    ],
+    [
+     "h2",
+     "Adressez-vous de préférence directement au service réclamations"
+    ],
+    [
+     "h2",
+     "Le service réclamations ne vous a pas répondu ou bien sa réponse ne vous convient pas ? Saisissez le médiateur compétent"
+    ],
+    [
+     "h2",
+     "La réponse du médiateur ne vous convient pas ? Vous pouvez saisir les tribunaux"
+    ]
+   ],
+   "content_score": 32,
+   "readability": 35,
+   "word_count": 681,
+   "content_len": 4256
+  },
+  {
+   "rank": 12,
+   "url": "https://www.jechange.fr/assurance/habitation/defense-recours",
+   "title": "Assurance habitation : quel recours contre une compagnie d'assurance ?",
+   "desc": "Une mésentente avec son assureur n'est pas rare. Que faire en cas de litige avec un assureur ? Quel recours contre une compagnie d'assurance habitation ?",
+   "headers": [
+    [
+     "h1",
+     "Assurance habitation : quel recours contre une compagnie d'assurance ?"
+    ],
+    [
+     "h2",
+     "🎯 Comment faire pression sur son assurance habitation ?"
+    ],
+    [
+     "h2",
+     "⚖️ Quel recours contre une compagnie d'assurance ?"
+    ],
+    [
+     "h2",
+     "📨 Comment faire un recours auprès d'un assureur ?"
+    ],
+    [
+     "h2",
+     "💸 Comment porter plainte contre une compagnie d'assurance ?"
+    ],
+    [
+     "h2",
+     "🛡️ Quelles sont les obligations de l'assureur ?"
+    ],
+    [
+     "h2",
+     "⚠️ Dans quels cas l'assureur peut-il refuser une indemnisation ?"
+    ],
+    [
+     "h2",
+     "🏆 Les meilleures assurances habitation selon votre profil"
+    ],
+    [
+     "h2",
+     "❓ FAQ : vos questions sur le recours contre une assurance habitation"
+    ]
+   ],
+   "content_score": 63,
+   "readability": 34,
+   "word_count": 3265,
+   "content_len": 20495
+  },
+  {
+   "rank": 13,
+   "url": "https://www.youtube.com/watch?v=-cgFGoVmCxU",
+   "title": "Litige avec mon assureur, comment saisir le médiateur ? - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Litige avec mon assureur, comment saisir le médiateur ?"
+    ],
+    [
+     "h1",
+     "Litige avec mon assureur, comment saisir le médiateur ?"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires\n      4"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 27,
+   "readability": 50,
+   "word_count": 173,
+   "content_len": 972
+  },
+  {
+   "rank": 14,
+   "url": "https://www.assurland.com/assurance-auto/sinistres/indemnisation-recours-assurance/",
+   "title": "Recours assurance auto : que faire ?",
+   "desc": "Recours assurance auto : découvrez comment contester une indemnisation, engager un recours en justice et obtenir réparation après un litige.",
+   "headers": [
+    [
+     "h1",
+     "Porter plainte  contre assurance auto : guide"
+    ],
+    [
+     "h2",
+     "C'est quoi un recours en assurance ?"
+    ],
+    [
+     "h2",
+     "Comment fonctionne le recours en assurance ?"
+    ],
+    [
+     "h2",
+     "Qu'est-ce que l'avance sur recours en assurance ?"
+    ],
+    [
+     "h2",
+     "Réclamation après un litige avec son assureur"
+    ],
+    [
+     "h2",
+     "Foire aux questions"
+    ],
+    [
+     "h2",
+     "Les dernières actualités de l'assurance auto"
+    ],
+    [
+     "h2",
+     "Les plus recherchés"
+    ]
+   ],
+   "content_score": 51,
+   "readability": 30,
+   "word_count": 1498,
+   "content_len": 9386
+  },
+  {
+   "rank": 15,
+   "url": "https://omegaexpert.fr/assurance-habitation-recours-possibles-en-cas-de-desaccord-avec-votre-assureur/",
+   "title": "Assurance habitation : vos recours en cas de litige",
+   "desc": "Découvrez comment faire valoir vos droits face à un désaccord avec votre assureur : démarches amiables, médiation, action en justice.",
+   "headers": [
+    [
+     "h2",
+     "Assurance habitation : Les recours possibles en cas de désaccord avec votre assureur"
+    ],
+    [
+     "h2",
+     "Qu’est-ce qu’un désaccord avec votre assureur en assurance habitation ?"
+    ],
+    [
+     "h2",
+     "Les principales causes de litige avec une assurance habitation"
+    ],
+    [
+     "h2",
+     "Démarches amiables : tenter une résolution à l’amiable"
+    ],
+    [
+     "h2",
+     "Les recours juridiques : faire valoir ses droits devant la justice"
+    ],
+    [
+     "h2",
+     "Quels organismes peuvent vous aider en cas de litige en assurance habitation ?"
+    ],
+    [
+     "h2",
+     "Comment prévenir les litiges en assurance habitation ?"
+    ],
+    [
+     "h2",
+     "FAQ (Foire Aux Questions)"
+    ],
+    [
+     "h2",
+     "Ce qu’on peut retenir"
+    ],
+    [
+     "h2",
+     "Références"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 31,
+   "word_count": 2769,
+   "content_len": 18082
+  },
+  {
+   "rank": 16,
+   "url": "https://www.aidesinistre.fr/vos-recours/action-justice-assurance",
+   "title": "Porter plainte contre son assurance : procédure et coûts | aidesinistre",
+   "desc": "Dernier recours : aller en justice contre votre assureur. Tribunal compétent, coûts, délais et chances de succès. Guide complet.",
+   "headers": [
+    [
+     "h1",
+     "Attaquer son assurance en justice : dernière option, pas la meilleure"
+    ],
+    [
+     "h2",
+     "Quand la justice est-elle le bon choix ?"
+    ],
+    [
+     "h2",
+     "Quel tribunal selon le montant"
+    ],
+    [
+     "h2",
+     "Les coûts réels d'une procédure"
+    ],
+    [
+     "h2",
+     "Avant le tribunal, essayez l'expert d'assuré"
+    ],
+    [
+     "h2",
+     "Pourquoi l'expert d'assuré AVANT le tribunal"
+    ],
+    [
+     "h2",
+     "Sur le même sujet"
+    ],
+    [
+     "h2",
+     "FAQ — Justice contre l'assurance"
+    ],
+    [
+     "h2",
+     "Avant le tribunal, essayez l'expert"
+    ]
+   ],
+   "content_score": 27,
+   "readability": 62,
+   "word_count": 740,
+   "content_len": 4436
+  },
+  {
+   "rank": 17,
+   "url": "https://monexpertdudroit.com/assurance-automobile/assurance-automobile-litige/",
+   "title": "Assurance automobile : Que faire en cas de litige avec votre assureur ?",
+   "desc": "Vous avez un litige avec votre assurance automobile concernant une indemnisation, une franchise ou une résiliation unilatérale ?Voici les recours possibles.",
+   "headers": [
+    [
+     "h1",
+     "Assurance automobile : Que faire en cas de litige avec votre assureur ?"
+    ],
+    [
+     "h2",
+     "Quelle est la première chose à faire en cas de litige avec votre assurance automobile ?"
+    ],
+    [
+     "h2",
+     "Faire une réclamation au service client de votre assureur auto"
+    ],
+    [
+     "h2",
+     "Litige assurance automobile : Le rôle du médiateur de l’assurance"
+    ],
+    [
+     "h2",
+     "Comment poursuivre la compagnie d’assurance devant les tribunaux ?"
+    ],
+    [
+     "h2",
+     "FAQ : Divorce, droit de la famille"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 33,
+   "word_count": 1262,
+   "content_len": 7828
+  },
+  {
+   "rank": 18,
+   "url": "https://www.lelynx.fr/assurance-auto/sinistre/indemnisation/litige/",
+   "title": "lelynx.fr",
+   "desc": "",
+   "headers": [],
+   "content_score": 0,
+   "readability": null,
+   "word_count": 0,
+   "content_len": 0
+  },
+  {
+   "rank": 19,
+   "url": "https://www.quechoisir.org/decryptage-assurances-les-voies-de-la-contestation-n85363/",
+   "title": "Assurances - Les voies de la contestation - Enquête - Que Choisir Ensemble",
+   "desc": "C’est un classique en matière d’assurance. Qu’il s’agisse d’un dommage corporel ou matériel, les assureurs ont une fâcheuse tendance à minorer l’indemnisation qui doit être versée à la victime d’un sinistre. Celle-ci peut évidemment contester.",
+   "headers": [
+    [
+     "h1",
+     "Assurances - Les voies de la contestation"
+    ],
+    [
+     "h2",
+     "1. Votre contre-proposition"
+    ],
+    [
+     "h2",
+     "2. La réponse de l’assureur"
+    ],
+    [
+     "h2",
+     "3. Saisir le service réclamation"
+    ],
+    [
+     "h2",
+     "4. Le médiateur entre en jeu"
+    ],
+    [
+     "h2",
+     "5. Dans l’attente d’un arbitrage"
+    ],
+    [
+     "h2",
+     "Lire aussi"
+    ],
+    [
+     "h2",
+     "Soutenez-nous, rejoignez-nous"
+    ],
+    [
+     "h2",
+     "Newsletter"
+    ]
+   ],
+   "content_score": 28,
+   "readability": 46,
+   "word_count": 709,
+   "content_len": 4497
+  },
+  {
+   "rank": 20,
+   "url": "https://avocat-genetsainterose.com/droit-assurances/litige-assureur-recours-juridiques/",
+   "title": "Litige avec votre assureur : les recours juridiques possibles | Avocat Genêt-Sainte-Rose",
+   "desc": "Refus d'indemnisation, montant insuffisant, mauvaise foi : les recours face à un litige avec votre assureur. Procédure de réclamation, médiateur et action en justice.",
+   "headers": [
+    [
+     "h1",
+     "Litige avec votre assureur : les recours juridiques possibles"
+    ],
+    [
+     "h2",
+     "Les motifs de litige les plus fréquents"
+    ],
+    [
+     "h2",
+     "Contester un refus de garantie"
+    ],
+    [
+     "h2",
+     "Obtenir une meilleure indemnisation"
+    ],
+    [
+     "h2",
+     "La procédure de réclamation étape par étape"
+    ],
+    [
+     "h2",
+     "Les délais de prescription"
+    ],
+    [
+     "h2",
+     "Les dommages et intérêts pour résistance abusive"
+    ],
+    [
+     "h2",
+     "Vérifiez votre couverture protection juridique"
+    ],
+    [
+     "h2",
+     "Prochaine étape : constituer votre dossier"
+    ]
+   ],
+   "content_score": 55,
+   "readability": 36,
+   "word_count": 1081,
+   "content_len": 6953
+  },
+  {
+   "rank": 21,
+   "url": "https://www.youtube.com/watch?v=volAVg5WMNA",
+   "title": "Comprendre la Subrogation et le Recours en Assurance Automobile : Guide Complet - YouTube",
+   "desc": "Subrogation et recours en assurance automobileDans cette vidéo informative, nous plongeons dans le monde complexe de la subrogation et du recours en assuranc...",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Comprendre la Subrogation et le Recours en Assurance Automobile : Guide Complet"
+    ],
+    [
+     "h1",
+     "Comprendre la Subrogation et le Recours en Assurance Automobile : Guide Complet"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 25,
+   "readability": 34,
+   "word_count": 275,
+   "content_len": 1790
+  },
+  {
+   "rank": 22,
+   "url": "https://www.cabinet-d-avocat.org/que-faire-dans-une-situation-de-litige-avec-son-assureur-en-droit-des-assurances/",
+   "title": "Litige assureur : guide complet pour défendre vos droits",
+   "desc": "Guide complet pour résoudre un litige avec son assureur : procédures amiables, actions contentieuses, recours spécialisés et stratégies juridiques efficaces.",
+   "headers": [
+    [
+     "h1",
+     "Que faire dans une situation de litige avec son assureur en droit des assurances ?"
+    ],
+    [
+     "h2",
+     "Identification et qualification juridique du différend assurantiel"
+    ],
+    [
+     "h2",
+     "Procédures amiables de résolution des conflits assurantiels"
+    ],
+    [
+     "h2",
+     "Actions contentieuses devant les juridictions compétentes"
+    ],
+    [
+     "h2",
+     "Recours spécialisés et voies d’exécution alternatives"
+    ],
+    [
+     "h2",
+     "Jurisprudence de référence et évolutions récentes du droit des assurances"
+    ],
+    [
+     "h2",
+     "Stratégies préventives et optimisation de la protection juridique"
+    ]
+   ],
+   "content_score": 49,
+   "readability": 20,
+   "word_count": 3018,
+   "content_len": 22425
+  },
+  {
+   "rank": 23,
+   "url": "https://www.juridique-explorateur.fr/litiges-avec-les-assureurs-comment-defendre-vos-droits-et-obtenir-gain-de-cause/",
+   "title": "Litiges avec les assureurs : Comment défendre vos droits et obtenir gain de cause - Juridique Explorateur",
+   "desc": "Face à un refus d'indemnisation ou à un désaccord avec votre assureur, il est crucial de connaître vos droits et les démarches à entreprendre pour résoudre efficacement le litige. Cet article vous guidera à travers les étapes clés pour faire valoir vos intérêts et obtenir une résolution équitable de votre…",
+   "headers": [
+    [
+     "h1",
+     "Litiges avec les assureurs : Comment défendre vos droits et obtenir gain de cause"
+    ],
+    [
+     "h2",
+     "Comprendre les causes fréquentes de litiges avec les assureurs"
+    ],
+    [
+     "h2",
+     "Étapes préliminaires pour résoudre un litige à l’amiable"
+    ],
+    [
+     "h2",
+     "Le recours au médiateur de l’assurance"
+    ],
+    [
+     "h2",
+     "L’action en justice : quand et comment procéder"
+    ],
+    [
+     "h2",
+     "Les délais de prescription à connaître"
+    ],
+    [
+     "h2",
+     "Les arguments juridiques clés pour défendre vos droits"
+    ],
+    [
+     "h2",
+     "L’importance de l’expertise dans la résolution des litiges"
+    ],
+    [
+     "h2",
+     "Les recours collectifs : une nouvelle arme pour les assurés"
+    ],
+    [
+     "h2",
+     "Prévenir les litiges : bonnes pratiques et conseils"
+    ]
+   ],
+   "content_score": 48,
+   "readability": 41,
+   "word_count": 1132,
+   "content_len": 7343
+  },
+  {
+   "rank": 24,
+   "url": "https://www.facebook.com/DemarchesAdministratives/videos/un-litige-avec-un-assureur-tout-savoir-sur-la-m%C3%A9diation-de-lassurance/1428957348674438/",
+   "title": "Tu as un différend avec ton assureur ? Il existe la médiation de l’assurance ! \n\nTu envoies ton contrat, ta lettre expliquant le litige et leur réponse par courrier recommandé ou en ligne. Ils vérifient en 21 jours et te répondent sous 3 mois avec une proposition. \n\n#assurance #assureur #médiation | DemarchesAdministratives.FR | Facebook",
+   "desc": "Tu as un différend avec ton assureur ? Il existe la médiation de l’assurance ! \n\nTu envoies ton contrat, ta lettre expliquant le litige et leur réponse...",
+   "headers": [
+    [
+     "h1",
+     "Vidéo"
+    ],
+    [
+     "h2",
+     "DemarchesAdministratives.FR"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Reels similaires"
+    ],
+    [
+     "h2",
+     "Vidéos connexes"
+    ]
+   ],
+   "content_score": 25,
+   "readability": 26,
+   "word_count": 1336,
+   "content_len": 8912
+  },
+  {
+   "rank": 25,
+   "url": "https://www.youtube.com/watch?v=GYcrbNfiD5s",
+   "title": "Qu'est-ce que le recours contre tiers en matière d'assurance santé ? - YouTube",
+   "desc": "Profitez des vidéos et de la musique que vous aimez, mettez en ligne des contenus originaux, et partagez-les avec vos amis, vos proches et le monde entier.",
+   "headers": [
+    [
+     "h1",
+     ""
+    ],
+    [
+     "h1",
+     "Qu'est-ce que le recours contre tiers en matière d'assurance santé ?"
+    ],
+    [
+     "h1",
+     "Qu'est-ce que le recours contre tiers en matière d'assurance santé ?"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Commentaires"
+    ],
+    [
+     "h2",
+     "Dans cette vidéo"
+    ],
+    [
+     "h2",
+     "Description"
+    ],
+    [
+     "h2",
+     "Transcription"
+    ]
+   ],
+   "content_score": 26,
+   "readability": 84,
+   "word_count": 81,
+   "content_len": 511
+  },
+  {
+   "rank": 26,
+   "url": "https://www.monexpertjuridique.fr/litiges-avec-les-assureurs-comment-defendre-vos-droits-et-obtenir-gain-de-cause/",
+   "title": "Litiges avec les assureurs : Comment défendre vos droits et obtenir gain de cause - Mon Expert Juridique",
+   "desc": "Face aux refus de prise en charge ou aux indemnisations insuffisantes des assureurs, de nombreux assurés se retrouvent démunis. Pourtant, des solutions existent pour faire valoir vos droits et obtenir réparation. Découvrez les stratégies efficaces pour résoudre les conflits avec votre compagnie d'assurance et maximiser vos chances de succès. Les…",
+   "headers": [
+    [
+     "h1",
+     "Litiges avec les assureurs : Comment défendre vos droits et obtenir gain de cause"
+    ],
+    [
+     "h2",
+     "Les principaux motifs de litiges avec les assureurs"
+    ],
+    [
+     "h2",
+     "Les étapes clés pour résoudre un litige à l’amiable"
+    ],
+    [
+     "h2",
+     "Le recours à l’expertise amiable contradictoire"
+    ],
+    [
+     "h2",
+     "Les recours judiciaires en cas d’échec des démarches amiables"
+    ],
+    [
+     "h2",
+     "Les points de vigilance pour maximiser vos chances de succès"
+    ],
+    [
+     "h2",
+     "Les alternatives au contrat d’assurance classique"
+    ]
+   ],
+   "content_score": 48,
+   "readability": 38,
+   "word_count": 913,
+   "content_len": 5918
+  },
+  {
+   "rank": 27,
+   "url": "https://www.avocats-valenciennes.com/recours-contre-les-assurances-vos-droits-et-strategies-pour-obtenir-gain-de-cause/",
+   "title": "Recours contre les assurances : Vos droits et stratégies pour obtenir gain de cause - Juridiques Conseils",
+   "desc": "Face à un litige avec votre assureur, connaître vos droits et les recours possibles est crucial. Cet article vous guide à travers les étapes clés pour faire valoir vos intérêts et obtenir une juste indemnisation. Découvrez les stratégies efficaces pour affronter les compagnies d'assurance et maximiser vos chances de succès.…",
+   "headers": [
+    [
+     "h1",
+     "Recours contre les assurances : Vos droits et stratégies pour obtenir gain de cause"
+    ],
+    [
+     "h2",
+     "Comprendre les bases du recours contre les assurances"
+    ],
+    [
+     "h2",
+     "Les étapes du recours amiable"
+    ],
+    [
+     "h2",
+     "Préparer son dossier : les preuves indispensables"
+    ],
+    [
+     "h2",
+     "Les recours judiciaires : quand et comment les engager"
+    ],
+    [
+     "h2",
+     "Stratégies pour maximiser vos chances de succès"
+    ],
+    [
+     "h2",
+     "Les pièges à éviter dans votre recours"
+    ],
+    [
+     "h2",
+     "L’impact des nouvelles technologies sur les recours"
+    ],
+    [
+     "h2",
+     "Les évolutions législatives à surveiller"
+    ],
+    [
+     "h2",
+     "Témoignages et cas d’école"
+    ],
+    [
+     "h2",
+     "Ressources et outils pour vous aider"
+    ]
+   ],
+   "content_score": 53,
+   "readability": 40,
+   "word_count": 1060,
+   "content_len": 6938
+  },
+  {
+   "rank": 28,
+   "url": "https://ma-protection-juridique.fr/recours-contre-les-assurances-comment-faire-valoir-vos-droits-efficacement/",
+   "title": "Recours contre les assurances : Comment faire valoir vos droits efficacement - Ma Protection Juridique",
+   "desc": "Face à un litige avec votre assureur, il est crucial de connaître vos droits et les démarches à entreprendre pour obtenir gain de cause. Cet article vous guide à travers les étapes clés du recours contre les assurances, vous armant des connaissances nécessaires pour défendre vos intérêts. Les fondements juridiques…",
+   "headers": [
+    [
+     "h1",
+     "Recours contre les assurances : Comment faire valoir vos droits efficacement"
+    ],
+    [
+     "h2",
+     "Les fondements juridiques du recours contre les assurances"
+    ],
+    [
+     "h2",
+     "Les motifs fréquents de recours"
+    ],
+    [
+     "h2",
+     "Les étapes du recours amiable"
+    ],
+    [
+     "h2",
+     "Le recours judiciaire : quand et comment ?"
+    ],
+    [
+     "h2",
+     "Les recours spécifiques selon le type d’assurance"
+    ],
+    [
+     "h2",
+     "Les pièges à éviter lors d’un recours"
+    ],
+    [
+     "h2",
+     "L’impact financier du recours"
+    ],
+    [
+     "h2",
+     "L’évolution des recours à l’ère du numérique"
+    ]
+   ],
+   "content_score": 56,
+   "readability": 44,
+   "word_count": 1227,
+   "content_len": 7882
+  }
+ ],
+ "metrics": {
+  "word_count": {
+   "median": 1086,
+   "target": 1086
+  },
+  "readability": {
+   "median": 39,
+   "target": 39
+  }
+ },
+ "terms": {
+  "title": [
+   {
+    "t": "assurance",
+    "usage_pc": 80
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 40
+   },
+   {
+    "t": "litige",
+    "usage_pc": 30
+   },
+   {
+    "t": "les recours",
+    "usage_pc": 20
+   }
+  ],
+  "desc": [
+   {
+    "t": "assurance",
+    "usage_pc": 60
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 60
+   },
+   {
+    "t": "réclamation",
+    "usage_pc": 30
+   },
+   {
+    "t": "litige",
+    "usage_pc": 20
+   },
+   {
+    "t": "les recours",
+    "usage_pc": 20
+   },
+   {
+    "t": "médiation",
+    "usage_pc": 20
+   },
+   {
+    "t": "désaccord avec votre assureur",
+    "usage_pc": 20
+   }
+  ],
+  "h1": [
+   {
+    "t": "assurance",
+    "usage_pc": 50
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 50
+   },
+   {
+    "t": "litige",
+    "usage_pc": 30
+   },
+   {
+    "t": "les recours",
+    "usage_pc": 30
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "recours en cas",
+    "usage_pc": 20
+   },
+   {
+    "t": "médiation",
+    "usage_pc": 10
+   },
+   {
+    "t": "assurance habitation",
+    "usage_pc": 10
+   },
+   {
+    "t": "cas de litige",
+    "usage_pc": 10
+   },
+   {
+    "t": "recours direct",
+    "usage_pc": 10
+   },
+   {
+    "t": "médiation de l'assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "quels sont les recours",
+    "usage_pc": 10
+   }
+  ],
+  "h2": [
+   {
+    "t": "assurance",
+    "usage_pc": 50
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 50
+   },
+   {
+    "t": "médiateur",
+    "usage_pc": 30
+   },
+   {
+    "t": "litige",
+    "usage_pc": 20
+   },
+   {
+    "t": "les recours",
+    "usage_pc": 20
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 20
+   },
+   {
+    "t": "assurance habitation",
+    "usage_pc": 20
+   },
+   {
+    "t": "réclamation",
+    "usage_pc": 10
+   },
+   {
+    "t": "médiation",
+    "usage_pc": 10
+   },
+   {
+    "t": "cas de sinistre",
+    "usage_pc": 10
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 10
+   },
+   {
+    "t": "cas de litige",
+    "usage_pc": 10
+   },
+   {
+    "t": "recours direct",
+    "usage_pc": 10
+   },
+   {
+    "t": "médiateur de l'assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "médiation de l'assurance",
+    "usage_pc": 10
+   },
+   {
+    "t": "porter plainte contre",
+    "usage_pc": 10
+   },
+   {
+    "t": "médiateur des assurances",
+    "usage_pc": 10
+   },
+   {
+    "t": "faire appel au médiateur",
+    "usage_pc": 10
+   }
+  ],
+  "content_basic": [
+   {
+    "t": "assurance",
+    "usage_pc": 90,
+    "sugg_usage": [
+     5,
+     37
+    ]
+   },
+   {
+    "t": "assureur",
+    "usage_pc": 80,
+    "sugg_usage": [
+     8,
+     18
+    ]
+   },
+   {
+    "t": "litige",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     9
+    ]
+   },
+   {
+    "t": "les recours",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "médiateur",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     10
+    ]
+   },
+   {
+    "t": "indemnisation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     10
+    ]
+   },
+   {
+    "t": "réclamation",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "assurés",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     6
+    ]
+   },
+   {
+    "t": "assurance auto",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "médiation",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "les litiges",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "cas de sinistre",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "amiable",
+    "usage_pc": 70,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "un sinistre",
+    "usage_pc": 60,
+    "sugg_usage": [
+     1,
+     5
+    ]
+   },
+   {
+    "t": "saisir le tribunal",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "indemniser",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "cas de litige",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les délais",
+    "usage_pc": 50,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "un délai",
+    "usage_pc": 80,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   }
+  ],
+  "content_extended": [
+   {
+    "t": "assurance habitation",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     4
+    ]
+   },
+   {
+    "t": "recours en cas",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "recours direct",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "service réclamation",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "médiateur de l'assurance",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les exclusions",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médiation de l'assurance",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "lettre recommandée avec accusé",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les dommages",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "quels sont les recours",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "code des assurances",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "envoyer une lettre",
+    "usage_pc": 40,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les conditions générales",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "action en justice",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les assureurs",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "recours à l’amiable",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médiation de l’assurance",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contrat d’assurance",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "bénéficier de l’aide du médiateur",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "contre l’assureur",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "compagnie d’assurance",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médiateur de l’assurance",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "montant de l’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "refus d’indemnisation de l’assurance",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "face à un refus d’indemnisation",
+    "usage_pc": 0,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "adresser au service réclamation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "recommandée avec accusé de réception",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les assurés",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les compagnies",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assureur refuse",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "porter plainte contre",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurance santé",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les exclusions de garantie",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assurance et les recours",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "pouvez saisir le médiateur",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "désaccord avec votre assureur",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "service réclamation de votre assureur",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "déclarer le sinistre",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "procédure de recours",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "délai de 2 ans",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "litige avec votre assureur",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "médiateur des assurances",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faire appel à la médiation",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "professionnels juridiques",
+    "usage_pc": 30,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "responsable du sinistre",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "subi un sinistre",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les exclusions contractuelles",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les pièces justificatives",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "assureur refuse de vous indemniser",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faire face à un refus",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "les dommages subis",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "autre médiateur",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "faire appel au médiateur",
+    "usage_pc": 10,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "décision de votre assureur",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "tenter de trouver une solution",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   },
+   {
+    "t": "sinistre couvert",
+    "usage_pc": 20,
+    "sugg_usage": [
+     1,
+     1
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "t": "Assurance",
+    "importance": 93.06800000000001,
+    "relevance": 0.9306800000000001,
+    "confidence": 8.2806,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Contrat",
+    "importance": 40.570000000000014,
+    "relevance": 0.40570000000000006,
+    "confidence": 1.8834000000000004,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contrat"
+     ]
+    ]
+   },
+   {
+    "t": "Médiateur (métier)",
+    "importance": 38.384640000000005,
+    "relevance": 0.59976,
+    "confidence": 2.2344,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médiateur_(métier)"
+     ]
+    ]
+   },
+   {
+    "t": "Contrat d'assurance",
+    "importance": 32.83968,
+    "relevance": 0.51312,
+    "confidence": 1.3454000000000002,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Contrat_d'assurance"
+     ]
+    ]
+   },
+   {
+    "t": "Médiation",
+    "importance": 14.87592,
+    "relevance": 0.41322000000000003,
+    "confidence": 2.1995999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Médiation"
+     ]
+    ]
+   },
+   {
+    "t": "Litige",
+    "importance": 12.745425599999999,
+    "relevance": 0.3540396,
+    "confidence": 1.25508,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Litige"
+     ]
+    ]
+   },
+   {
+    "t": "Tribunal",
+    "importance": 11.224704,
+    "relevance": 0.175386,
+    "confidence": 2.4614000000000003,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Tribunal"
+     ]
+    ]
+   },
+   {
+    "t": "Justice",
+    "importance": 7.174728,
+    "relevance": 0.199298,
+    "confidence": 2.0204,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Justice"
+     ]
+    ]
+   },
+   {
+    "t": "Médiation de l' Assurance",
+    "importance": 4.64448,
+    "relevance": 0.29028,
+    "confidence": 0.2,
+    "links": []
+   },
+   {
+    "t": "Assurance habitation",
+    "importance": 3.6540800000000004,
+    "relevance": 0.22838000000000003,
+    "confidence": 0.93,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_habitation"
+     ]
+    ]
+   },
+   {
+    "t": "Assurance automobile",
+    "importance": 2.6492799999999996,
+    "relevance": 0.16558,
+    "confidence": 1.117,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Assurance_automobile"
+     ]
+    ]
+   },
+   {
+    "t": "Accident de la route",
+    "importance": 2.12256,
+    "relevance": 0.13266,
+    "confidence": 1.991,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Accident_de_la_route"
+     ]
+    ]
+   },
+   {
+    "t": "Action en justice en procédure civile française",
+    "importance": 1.9900800000000003,
+    "relevance": 0.12438,
+    "confidence": 0.5593999999999999,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Action_en_justice_en_procédure_civile_française"
+     ]
+    ]
+   },
+   {
+    "t": "Courtier (France)",
+    "importance": 1.5334720000000002,
+    "relevance": 0.09584200000000001,
+    "confidence": 1.6433999999999997,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Courtier_(France)"
+     ]
+    ]
+   },
+   {
+    "t": "Courrier électronique",
+    "importance": 1.4833600000000002,
+    "relevance": 0.09271,
+    "confidence": 5.042,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Courrier_électronique"
+     ]
+    ]
+   },
+   {
+    "t": "Courrier",
+    "importance": 0.7499520000000002,
+    "relevance": 0.046872000000000004,
+    "confidence": 1.1085999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Courrier"
+     ]
+    ]
+   },
+   {
+    "t": "Médiation de l' assurance",
+    "importance": 0.66656,
+    "relevance": 0.16664,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Décision de justice",
+    "importance": 0.609824,
+    "relevance": 0.038113999999999995,
+    "confidence": 0.6512,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Décision_de_justice"
+     ]
+    ]
+   },
+   {
+    "t": "Lettre recommandée",
+    "importance": 0.6072,
+    "relevance": 0.03795,
+    "confidence": 0.6942,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Lettre_recommandée"
+     ]
+    ]
+   },
+   {
+    "t": "Consommateur",
+    "importance": 0.5969599999999999,
+    "relevance": 0.14923999999999998,
+    "confidence": 0.7602,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Consommateur"
+     ]
+    ]
+   },
+   {
+    "t": "Médiation d' Assurance",
+    "importance": 0.5877600000000001,
+    "relevance": 0.14694000000000002,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Responsabilité civile en droit français",
+    "importance": 0.55504,
+    "relevance": 0.13876,
+    "confidence": 0.45759999999999995,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Responsabilité_civile_en_droit_français"
+     ]
+    ]
+   },
+   {
+    "t": "Médiateur de l' Assurance",
+    "importance": 0.5534399999999999,
+    "relevance": 0.13835999999999998,
+    "confidence": 0.1,
+    "links": []
+   },
+   {
+    "t": "Compagnie d'assurances",
+    "importance": 0.5528,
+    "relevance": 0.1382,
+    "confidence": 0.20459999999999998,
+    "links": [
+     [
+      "wikipedia",
+      "http://fr.wikipedia.org/wiki/Compagnie_d'assurances"
+     ]
+    ]
+   },
+   {
+    "t": "la Médiation de l' Assurance",
+    "importance": 0.5392,
+    "relevance": 0.1348,
+    "confidence": 0.1,
+    "links": []
+   }
+  ]
+ },
+ "terms_txt": {
+  "title": "assurance\nassureur\nlitige\nles recours",
+  "desc_title": "assurance\nassureur\nréclamation\nlitige\nles recours\nmédiation\ndésaccord avec votre assureur",
+  "h1": "assurance\nassureur\nlitige\nles recours\nindemnisation\nrecours en cas\nmédiation\nassurance habitation\ncas de litige\nrecours direct\nmédiation de l'assurance\nquels sont les recours",
+  "h2": "assurance\nassureur\nmédiateur\nlitige\nles recours\nindemnisation\nassurance habitation\nréclamation\nmédiation\ncas de sinistre\nindemniser\ncas de litige\nrecours direct\nmédiateur de l'assurance\nmédiation de l'assurance\nporter plainte contre\nmédiateur des assurances\nfaire appel au médiateur",
+  "content_basic": "assurance\nassureur\nlitige\nles recours\nmédiateur\nindemnisation\nréclamation\nassurés\nassurance auto\nmédiation\nles litiges\ncas de sinistre\namiable\nun sinistre\nsaisir le tribunal\nindemniser\ncas de litige\nles délais\nun délai",
+  "content_basic_w_ranges": "assurance: 5-37x\nassureur: 8-18x\nlitige: 1-9x\nles recours: 1-5x\nmédiateur: 1-10x\nindemnisation: 1-10x\nréclamation: 1-4x\nassurés: 1-6x\nassurance auto: 1-2x\nmédiation: 1-4x\nles litiges: 1-3x\ncas de sinistre: 1-2x\namiable: 1-3x\nun sinistre: 1-5x\nsaisir le tribunal: 1-2x\nindemniser: 1-4x\ncas de litige: 1x\nles délais: 1-2x\nun délai: 1-3x",
+  "content_extended": "assurance habitation\nrecours en cas\nrecours direct\nservice réclamation\nmédiateur de l'assurance\nles exclusions\nmédiation de l'assurance\nlettre recommandée avec accusé\nles dommages\nquels sont les recours\ncode des assurances\nenvoyer une lettre\nles conditions générales\naction en justice\nles assureurs\nrecours à l’amiable\nmédiation de l’assurance\ncontrat d’assurance\nbénéficier de l’aide du médiateur\ncontre l’assureur\ncompagnie d’assurance\nmédiateur de l’assurance\nmontant de l’indemnisation\nrefus d’indemnisation de l’assurance\nface à un refus d’indemnisation\nadresser au service réclamation\nrecommandée avec accusé de réception\nles assurés\nles compagnies\nassureur refuse\nporter plainte contre\nassurance santé\nles exclusions de garantie\nassurance et les recours\npouvez saisir le médiateur\ndésaccord avec votre assureur\nservice réclamation de votre assureur\ndéclarer le sinistre\nprocédure de recours\ndélai de 2 ans\nlitige avec votre assureur\nmédiateur des assurances\nfaire appel à la médiation\nprofessionnels juridiques\nresponsable du sinistre\nsubi un sinistre\nles exclusions contractuelles\nles pièces justificatives\nassureur refuse de vous indemniser\nfaire face à un refus\nles dommages subis\nautre médiateur\nfaire appel au médiateur\ndécision de votre assureur\ntenter de trouver une solution\nsinistre couvert",
+  "content_extended_w_ranges": "assurance habitation: 1-4x\nrecours en cas: 1x\nrecours direct: 1x\nservice réclamation: 1-3x\nmédiateur de l'assurance: 1x\nles exclusions: 1x\nmédiation de l'assurance: 1x\nlettre recommandée avec accusé: 1x\nles dommages: 1x\nquels sont les recours: 1x\ncode des assurances: 1-2x\nenvoyer une lettre: 1x\nles conditions générales: 1x\naction en justice: 1x\nles assureurs: 1x\nrecours à l’amiable: 1x\nmédiation de l’assurance: 1x\ncontrat d’assurance: 1x\nbénéficier de l’aide du médiateur: 1x\ncontre l’assureur: 1x\ncompagnie d’assurance: 1x\nmédiateur de l’assurance: 1x\nmontant de l’indemnisation: 1x\nrefus d’indemnisation de l’assurance: 1x\nface à un refus d’indemnisation: 1x\nadresser au service réclamation: 1x\nrecommandée avec accusé de réception: 1x\nles assurés: 1x\nles compagnies: 1x\nassureur refuse: 1x\nporter plainte contre: 1x\nassurance santé: 1x\nles exclusions de garantie: 1x\nassurance et les recours: 1x\npouvez saisir le médiateur: 1x\ndésaccord avec votre assureur: 1x\nservice réclamation de votre assureur: 1x\ndéclarer le sinistre: 1x\nprocédure de recours: 1x\ndélai de 2 ans: 1x\nlitige avec votre assureur: 1x\nmédiateur des assurances: 1x\nfaire appel à la médiation: 1x\nprofessionnels juridiques: 1x\nresponsable du sinistre: 1x\nsubi un sinistre: 1x\nles exclusions contractuelles: 1x\nles pièces justificatives: 1x\nassureur refuse de vous indemniser: 1x\nfaire face à un refus: 1x\nles dommages subis: 1x\nautre médiateur: 1x\nfaire appel au médiateur: 1x\ndécision de votre assureur: 1x\ntenter de trouver une solution: 1x\nsinistre couvert: 1x",
+  "entities": "Assurance\nContrat\nMédiateur (métier)\nContrat d'assurance\nMédiation\nLitige\nTribunal\nJustice\nMédiation de l' Assurance\nAssurance habitation\nAssurance automobile\nAccident de la route\nAction en justice en procédure civile française\nCourtier (France)\nCourrier électronique\nCourrier\nMédiation de l' assurance\nDécision de justice\nLettre recommandée\nConsommateur\nMédiation d' Assurance\nResponsabilité civile en droit français\nMédiateur de l' Assurance\nCompagnie d'assurances\nla Médiation de l' Assurance"
+ },
+ "status": "ready",
+ "keyword": "recours contre assureur",
+ "language": "French",
+ "engine": "google.fr",
+ "project": "972165f229676370",
+ "query": "fb0cb28cff0a361d",
+ "serp_summary": {
+  "top_intent": "informational",
+  "intent_stats": {
+   "informational": 100.0,
+   "transactional": 17.9
+  },
+  "top_content_type": "guide",
+  "content_type_stats": {
+   "educational": 50.0,
+   "guide": 75.0,
+   "blog-post": 14.3,
+   "short-answer": 3.6,
+   "video": 14.3,
+   "news": 3.6,
+   "business": 17.9,
+   "social-media": 3.6
+  }
+ },
+ "query_url": "https://app.neuronwriter.com/analysis/view/fb0cb28cff0a361d",
+ "share_url": "https://app.neuronwriter.com/analysis/share/fb0cb28cff0a361d/b319e2d8fed10432b92c4b6f6f9b0ce14fa16",
+ "readonly_url": "https://app.neuronwriter.com/analysis/content-preview/fb0cb28cff0a361d/14d780a2aec70d13dcbbbdac1dbe30fd4fa16"
+}
