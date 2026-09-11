@@ -164,12 +164,6 @@
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Procédure d'indemnisation",
-        "item": "https://lexvox-victime.com/procedure-indemnisation"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
         "name": "Expertise médicale",
         "item": "https://lexvox-victime.com/expertise-medicale"
       }
@@ -232,42 +226,52 @@
   <main id="main-content">
 
     <!-- ═══ SECTION 1 : HERO ═══ -->
-    <section style="background: var(--creme); padding-top: 5rem;">
+    <section id="hero" style="background: var(--creme); padding-top: 5rem; position: relative;">
+      <div class="dots-pattern"></div>
       <div class="container">
+
         <nav class="breadcrumb" aria-label="Fil d'Ariane">
-          <a href="/">Accueil</a> &rsaquo;
-          <a href="/procedure-indemnisation">Procedure</a> &rsaquo;
-          <span aria-current="page">Expertise medicale</span>
+          <a href="/">Accueil</a> &rsaquo; <span aria-current="page">Expertise médicale</span>
         </nav>
 
-        <h1>Expertise medicale : comment la preparer et la <span class="accent">reussir</span></h1>
+        <p class="overline">Avocat en dommage corporel</p>
+        <span class="ink"></span>
+        <h1>Expertise médicale : comment la préparer et la <span class="accent">réussir</span></h1>
         <img src="/img/pages/expertise-medicale.jpg" alt="Expertise médicale pour victimes - LEXVOX AVOCATS" loading="lazy" width="1200" height="630" style="width: 100%; max-height: 280px; object-fit: cover; border-radius: 12px; border: 3px solid var(--dark); margin: 1.5rem 0;">
         <p class="date-updated">Dernière mise à jour : mars 2026</p>
 
         <div class="quick-answer">
-          <p><strong>L'expertise medicale est l'etape decisive de votre indemnisation.</strong> C'est lors de cet examen qu'un medecin expert evalue l'ensemble de vos prejuices corporels, poste par poste, selon la <a href="/nomenclature-dintilhac">nomenclature Dintilhac</a>. Le montant de votre indemnisation depend directement de ses conclusions. Selon les statistiques du secteur, les victimes assistees d'un medecin conseil et d'un avocat specialise obtiennent en moyenne <strong>30 a 40 % d'indemnisation supplementaire</strong> par rapport a celles qui se presentent seules.</p>
+          <strong>L'expertise médicale est l'étape décisive de votre indemnisation.</strong> C'est lors de cet examen qu'un médecin expert évalue l'ensemble de vos préjudices corporels, poste par poste, selon la <a href="/nomenclature-dintilhac">nomenclature Dintilhac</a>. Le montant de votre indemnisation dépend directement de ses conclusions. Selon les statistiques du secteur, les victimes assistées d'un médecin conseil et d'un avocat spécialisé obtiennent en moyenne <strong>30 à 40 % d'indemnisation supplémentaire</strong> par rapport à celles qui se présentent seules.
         </div>
+
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
+          <a href="/contact" class="btn btn-primary">Consultation gratuite &rarr;</a>
+          <a href="#preparation" class="btn btn-outline">La checklist de préparation</a>
+        </div>
+
       </div>
     </section>
 
 
     <!-- ═══ SECTION 2 : LES 3 TYPES D'EXPERTISE ═══ -->
-    <section class="section-bleu-pale">
+    <section id="types-expertise" class="section-bleu-pale">
       <div class="container">
-        <p class="overline">Comprendre les differentes procedures</p>
+        <p class="overline">Comprendre les différentes procédures</p>
         <span class="ink"></span>
-        <h2>Les 3 types d'expertise medicale en dommage corporel</h2>
-        <p class="mb-3" style="max-width:750px;">Le type d'expertise depend de la procedure choisie. Chacun presente des avantages et des inconvenients qu'il est essentiel de connaitre avant de s'engager.</p>
+        <h2>Les 3 types d'expertise médicale en dommage corporel</h2>
+
+        <p class="mb-3" style="max-width: 750px;">Le type d'expertise dépend de la procédure choisie. Chacun présente des avantages et des inconvénients qu'il est essentiel de connaître avant de s'engager.</p>
 
         <div class="quick-answer">
-          <p><strong>En resume :</strong> l'expertise amiable est la plus rapide, l'expertise judiciaire offre les meilleures garanties d'impartialite, et l'expertise CCI represente un compromis gratuit pour les victimes d'erreurs medicales.</p>
+          <strong>En résumé :</strong> l'expertise amiable est la plus rapide, l'expertise judiciaire offre les meilleures garanties d'impartialité, et l'expertise CCI représente un compromis gratuit pour les victimes d'erreurs médicales.
         </div>
 
-        <div class="table-wrapper" style="margin-top:2rem;">
+        <div class="table-wrapper mt-2">
           <table class="data-table">
+            <caption>Comparatif des trois types d'expertise médicale en dommage corporel</caption>
             <thead>
               <tr>
-                <th>Critere</th>
+                <th>Critère</th>
                 <th>Expertise amiable</th>
                 <th>Expertise judiciaire</th>
                 <th>Expertise CCI</th>
@@ -275,34 +279,34 @@
             </thead>
             <tbody>
               <tr>
-                <td><strong>Organisee par</strong></td>
+                <td><strong>Organisée par</strong></td>
                 <td>La compagnie d'assurance</td>
                 <td>Le juge du tribunal judiciaire</td>
                 <td>La Commission de Conciliation et d'Indemnisation (CCI)</td>
               </tr>
               <tr>
                 <td><strong>Choix de l'expert</strong></td>
-                <td>Designe par l'assureur</td>
-                <td>Nomme par le juge (liste des experts judiciaires)</td>
-                <td>Designe par la CCI</td>
+                <td>Désigné par l'assureur</td>
+                <td>Nommé par le juge (liste des experts judiciaires)</td>
+                <td>Désigné par la CCI</td>
               </tr>
               <tr>
-                <td><strong>Delai moyen</strong></td>
-                <td>2 a 4 mois</td>
-                <td>6 a 12 mois</td>
-                <td>4 a 6 mois</td>
+                <td><strong>Délai moyen</strong></td>
+                <td>2 à 4 mois</td>
+                <td>6 à 12 mois</td>
+                <td>4 à 6 mois</td>
               </tr>
               <tr>
-                <td><strong>Cout pour la victime</strong></td>
-                <td>Gratuit (paye par l'assureur)</td>
-                <td>Consignation de 800 a 2 000 &euro; (remboursable)</td>
+                <td><strong>Coût pour la victime</strong></td>
+                <td>Gratuit (payé par l'assureur)</td>
+                <td>Consignation de 800 à 2 000 € (remboursable)</td>
                 <td>Gratuit</td>
               </tr>
               <tr>
-                <td><strong>Impartialite</strong></td>
-                <td class="accent">Faible &mdash; l'expert est choisi par l'assureur</td>
-                <td><strong>Forte</strong> &mdash; expert independant sous serment</td>
-                <td>Bonne &mdash; expert independant</td>
+                <td><strong>Impartialité</strong></td>
+                <td class="accent">Faible — l'expert est choisi par l'assureur</td>
+                <td><strong>Forte</strong> — expert indépendant sous serment</td>
+                <td>Bonne — expert indépendant</td>
               </tr>
               <tr>
                 <td><strong>Contradictoire</strong></td>
@@ -314,40 +318,40 @@
                 <td><strong>Domaine</strong></td>
                 <td>Accidents de la route, <a href="/accident-du-travail">accidents du travail</a>, <a href="/victime-agression">agressions</a></td>
                 <td>Tous types de dommages corporels</td>
-                <td>Responsabilite medicale uniquement</td>
+                <td>Responsabilité médicale uniquement</td>
               </tr>
               <tr>
                 <td><strong>Avantage principal</strong></td>
-                <td>Rapidite</td>
-                <td>Garanties d'impartialite et de rigueur</td>
-                <td>Gratuite et relative rapidite</td>
+                <td>Rapidité</td>
+                <td>Garanties d'impartialité et de rigueur</td>
+                <td>Gratuité et relative rapidité</td>
               </tr>
               <tr>
-                <td><strong>Inconvenient principal</strong></td>
-                <td>Risque de sous-evaluation des prejudices</td>
-                <td>Delai et cout initial de la consignation</td>
-                <td>Limitee aux accidents medicaux</td>
+                <td><strong>Inconvénient principal</strong></td>
+                <td>Risque de sous-évaluation des préjudices</td>
+                <td>Délai et coût initial de la consignation</td>
+                <td>Limitée aux accidents médicaux</td>
               </tr>
             </tbody>
           </table>
         </div>
 
-        <div class="callout" style="margin-top:2rem;">
-          <p><strong>Le conseil de Me Humbert :</strong> En cas d'<a href="/accident-de-la-route">accident de la route</a>, l'assureur est obligé par la <strong>loi Badinter</strong> d'organiser une expertise amiable. Vous pouvez l'accepter à condition d'être assisté de votre propre médecin conseil. Si les conclusions sont défavorables, vous conservez toujours le droit de demander une expertise judiciaire.</p>
+        <div class="callout">
+          <strong>Le conseil de Me Humbert :</strong> en cas d'<a href="/accident-de-la-route">accident de la route</a>, l'assureur est obligé par la <strong>loi Badinter</strong> d'organiser une expertise amiable. Vous pouvez l'accepter à condition d'être assisté de votre propre médecin conseil. Si les conclusions sont défavorables, vous conservez toujours le droit de demander une expertise judiciaire.
         </div>
 
-        <div class="stats-grid" style="margin-top:2rem;">
+        <div class="stats-grid mt-2">
           <div class="stat-block">
             <div class="stat-number">73 %</div>
-            <div class="stat-label">des expertises amiables sous-evaluent au moins un poste de prejudice</div>
+            <div class="stat-label">des expertises amiables sous-évaluent au moins un poste de préjudice</div>
           </div>
           <div class="stat-block">
             <div class="stat-number">x2,5</div>
-            <div class="stat-label">ecart moyen entre offre amiable et indemnisation judiciaire</div>
+            <div class="stat-label">écart moyen entre offre amiable et indemnisation judiciaire</div>
           </div>
           <div class="stat-block">
             <div class="stat-number">6 mois</div>
-            <div class="stat-label">delai moyen pour obtenir une expertise judiciaire</div>
+            <div class="stat-label">délai moyen pour obtenir une expertise judiciaire</div>
           </div>
         </div>
       </div>
@@ -355,74 +359,75 @@
 
 
     <!-- ═══ SECTION 3 : CHECKLIST PREPARATION ═══ -->
-    <section style="background: #fff;">
+    <section id="preparation" style="background: #fff;">
       <div class="container">
         <p class="overline">Ne rien laisser au hasard</p>
         <span class="ink"></span>
-        <h2>Se preparer : la checklist <span class="accent">indispensable</span></h2>
-        <p style="max-width:700px; margin-bottom:2rem;">La preparation de l'expertise medicale est determinante. Selon les retours d'experience de notre cabinet, <strong>80 % du resultat de l'expertise se joue avant le jour J</strong>. Une victime bien preparee, assistee d'un medecin conseil, obtient systematiquement une meilleure evaluation de ses prejudices.</p>
+        <h2>Se préparer : la checklist <span class="accent">indispensable</span></h2>
 
-        <div class="quick-answer" >
-          <p><strong>Reponse rapide :</strong> Vous devez rassembler votre dossier medical complet, rediger vos doleances (la liste detaillee de toutes vos douleurs et genes), choisir un medecin conseil et preparer une chronologie precise des evenements.</p>
+        <p class="mb-3" style="max-width: 750px;">La préparation de l'expertise médicale est déterminante. Selon les retours d'expérience de notre cabinet, <strong>80 % du résultat de l'expertise se joue avant le jour J</strong>. Une victime bien préparée, assistée d'un médecin conseil, obtient systématiquement une meilleure évaluation de ses préjudices.</p>
+
+        <div class="quick-answer">
+          <strong>Réponse rapide :</strong> vous devez rassembler votre dossier médical complet, rédiger vos doléances (la liste détaillée de toutes vos douleurs et gênes), choisir un médecin conseil et préparer une chronologie précise des événements.
         </div>
 
-        <div class="steps-grid" style="margin-top:2rem;">
+        <div class="steps-grid mt-2">
           <div class="step">
             <div class="step-num">1</div>
-            <h3>Rassembler son dossier medical</h3>
-            <p>Reunissez l'integralite de vos documents medicaux depuis le jour de l'accident. L'expert doit disposer de chaque piece pour evaluer correctement vos prejudices. Un dossier incomplet conduit inevitablement a une sous-evaluation.</p>
+            <h3>Rassembler son dossier médical</h3>
+            <p>Réunissez l'intégralité de vos documents médicaux depuis le jour de l'accident. L'expert doit disposer de chaque pièce pour évaluer correctement vos préjudices. Un dossier incomplet conduit inévitablement à une sous-évaluation.</p>
           </div>
           <div class="step">
             <div class="step-num">2</div>
-            <h3>Rediger ses doleances</h3>
-            <p>Les doleances (la liste detaillee de toutes les douleurs et genes que vous subissez au quotidien) sont votre parole ecrite. Elles permettent a l'expert de comprendre l'impact reel de l'accident sur votre vie. Soyez precis, concret et exhaustif.</p>
+            <h3>Rédiger ses doléances</h3>
+            <p>Les doléances (la liste détaillée de toutes les douleurs et gênes que vous subissez au quotidien) sont votre parole écrite. Elles permettent à l'expert de comprendre l'impact réel de l'accident sur votre vie. Soyez précis, concret et exhaustif.</p>
           </div>
           <div class="step">
             <div class="step-num">3</div>
-            <h3>Choisir un medecin conseil</h3>
-            <p>Le medecin conseil est un medecin specialise en evaluation du dommage corporel qui assiste la victime lors de l'expertise. Il dialogue d'egal a egal avec l'expert, verifie les cotations et s'assure que chaque poste de prejudice est correctement evalue.</p>
+            <h3>Choisir un médecin conseil</h3>
+            <p>Le médecin conseil est un médecin spécialisé en évaluation du dommage corporel qui assiste la victime lors de l'expertise. Il dialogue d'égal à égal avec l'expert, vérifie les cotations et s'assure que chaque poste de préjudice est correctement évalué.</p>
           </div>
           <div class="step">
             <div class="step-num">4</div>
-            <h3>Preparer la chronologie</h3>
-            <p>Etablissez un recit chronologique precis depuis le jour de l'accident : hospitalisations, interventions, reeducation, arrets de travail, evolution des douleurs. Ce document aide l'expert a reconstituer votre parcours medical et a comprendre la gravite de vos sequelles.</p>
+            <h3>Préparer la chronologie</h3>
+            <p>Établissez un récit chronologique précis depuis le jour de l'accident : hospitalisations, interventions, rééducation, arrêts de travail, évolution des douleurs. Ce document aide l'expert à reconstituer votre parcours médical et à comprendre la gravité de vos séquelles.</p>
           </div>
         </div>
 
-        <h3 style="margin-top:3rem; margin-bottom:1rem;">Documents a apporter le jour de l'expertise</h3>
+        <h3 class="mt-2">Documents à apporter le jour de l'expertise</h3>
         <div class="grid-2">
           <div>
-            <ul style="list-style:none; line-height:2;">
-              <li>&#10003; Compte rendus d'hospitalisation</li>
-              <li>&#10003; Compte rendus operatoires</li>
-              <li>&#10003; Certificat medical initial (CMI)</li>
-              <li>&#10003; Resultats d'imagerie (IRM, scanner, radio)</li>
+            <ul style="list-style: none; line-height: 2;">
+              <li>&#10003; Comptes rendus d'hospitalisation</li>
+              <li>&#10003; Comptes rendus opératoires</li>
+              <li>&#10003; Certificat médical initial (CMI)</li>
+              <li>&#10003; Résultats d'imagerie (IRM, scanner, radio)</li>
               <li>&#10003; Ordonnances et prescriptions</li>
               <li>&#10003; Factures de soins et pharmacie</li>
-              <li>&#10003; Arrets de travail</li>
+              <li>&#10003; Arrêts de travail</li>
             </ul>
           </div>
           <div>
-            <ul style="list-style:none; line-height:2;">
-              <li>&#10003; Bilans de reeducation (kine, orthophoniste)</li>
+            <ul style="list-style: none; line-height: 2;">
+              <li>&#10003; Bilans de rééducation (kiné, orthophoniste)</li>
               <li>&#10003; Rapports de psychologue ou psychiatre</li>
               <li>&#10003; Justificatifs de perte de revenus</li>
-              <li>&#10003; Factures d'aide a domicile (tierce personne)</li>
-              <li>&#10003; Photos des blessures (toutes les etapes)</li>
-              <li>&#10003; Doleances redigees et datees</li>
-              <li>&#10003; Chronologie des evenements</li>
+              <li>&#10003; Factures d'aide à domicile (tierce personne)</li>
+              <li>&#10003; Photos des blessures (toutes les étapes)</li>
+              <li>&#10003; Doléances rédigées et datées</li>
+              <li>&#10003; Chronologie des événements</li>
             </ul>
           </div>
         </div>
 
-        <div class="stats-grid" style="margin-top:2rem;">
+        <div class="stats-grid mt-2">
           <div class="stat-block">
             <div class="stat-number">80 %</div>
-            <div class="stat-label">du resultat se joue dans la preparation</div>
+            <div class="stat-label">du résultat se joue dans la préparation</div>
           </div>
           <div class="stat-block">
             <div class="stat-number">+35 %</div>
-            <div class="stat-label">d'indemnisation avec un medecin conseil</div>
+            <div class="stat-label">d'indemnisation avec un médecin conseil</div>
           </div>
         </div>
       </div>
@@ -430,32 +435,33 @@
 
 
     <!-- ═══ SECTION 4 : DEROULEMENT DE L'EXPERTISE ═══ -->
-    <section style="background: #fff;">
+    <section id="deroulement" style="background: var(--creme);">
       <div class="container">
         <p class="overline">Le jour J</p>
         <span class="ink"></span>
-        <h2>Le deroulement de l'expertise medicale <span class="accent">etape par etape</span></h2>
-        <p class="mb-3" style="max-width:750px;">Comprendre ce qui vous attend le jour de l'expertise vous permet de mieux vous preparer et d'aborder cet examen avec plus de serenite. Voici les differentes phases de l'expertise.</p>
+        <h2>Le déroulement de l'expertise médicale <span class="accent">étape par étape</span></h2>
+
+        <p class="mb-3" style="max-width: 750px;">Comprendre ce qui vous attend le jour de l'expertise vous permet de mieux vous préparer et d'aborder cet examen avec plus de sérénité. Voici les différentes phases de l'expertise.</p>
 
         <div class="quick-answer">
-          <p><strong>En resume :</strong> L'expertise dure entre 1 et 3 heures. L'expert examine votre dossier medical, vous interroge sur vos doleances, procede a un examen clinique, puis evalue chaque poste de prejudice de la <a href="/nomenclature-dintilhac">nomenclature Dintilhac</a>.</p>
+          <strong>En résumé :</strong> l'expertise dure entre 1 et 3 heures. L'expert examine votre dossier médical, vous interroge sur vos doléances, procède à un examen clinique, puis évalue chaque poste de préjudice de la <a href="/nomenclature-dintilhac">nomenclature Dintilhac</a>.
         </div>
 
-        <div class="steps-grid" style="margin-top:2rem;">
+        <div class="steps-grid mt-2">
           <div class="step">
             <div class="step-num">1</div>
-            <h3>Accueil et presentation des parties</h3>
-            <p>L'expert vous accueille et verifie l'identite des personnes presentes : la victime, le medecin conseil de la victime, eventuellement le medecin conseil de l'assureur, et l'avocat. L'expert rappelle les regles de l'expertise et sa mission.</p>
+            <h3>Accueil et présentation des parties</h3>
+            <p>L'expert vous accueille et vérifie l'identité des personnes présentes : la victime, le médecin conseil de la victime, éventuellement le médecin conseil de l'assureur, et l'avocat. L'expert rappelle les règles de l'expertise et sa mission.</p>
           </div>
           <div class="step">
             <div class="step-num">2</div>
-            <h3>Recueil de l'histoire medicale</h3>
-            <p>L'expert vous interroge sur vos antecedents medicaux, les circonstances de l'accident, les soins recus et l'evolution de votre etat. Il examine votre dossier medical piece par piece. Votre medecin conseil veille a ce que chaque element pertinent soit pris en compte.</p>
+            <h3>Recueil de l'histoire médicale</h3>
+            <p>L'expert vous interroge sur vos antécédents médicaux, les circonstances de l'accident, les soins reçus et l'évolution de votre état. Il examine votre dossier médical pièce par pièce. Votre médecin conseil veille à ce que chaque élément pertinent soit pris en compte.</p>
           </div>
           <div class="step">
             <div class="step-num">3</div>
-            <h3>Expression des doleances</h3>
-            <p>C'est le moment ou vous decrivez concretement l'impact de l'accident sur votre vie quotidienne : douleurs persistantes, gestes impossibles, consequences sur votre sommeil, votre travail, vos loisirs, votre vie familiale. N'omettez aucun detail, meme les genes qui vous semblent mineures.</p>
+            <h3>Expression des doléances</h3>
+            <p>C'est le moment où vous décrivez concrètement l'impact de l'accident sur votre vie quotidienne : douleurs persistantes, gestes impossibles, conséquences sur votre sommeil, votre travail, vos loisirs, votre vie familiale. N'omettez aucun détail, même les gênes qui vous semblent mineures.</p>
           </div>
           <div class="step">
             <div class="step-num">4</div>
@@ -464,69 +470,69 @@
           </div>
           <div class="step">
             <div class="step-num">5</div>
-            <h3>Discussion medico-legale</h3>
-            <p>L'expert et le medecin conseil de la victime echangent sur les cotations des differents postes de prejudice. C'est une phase technique decisive ou votre medecin conseil defend votre cause en argumentant sur la juste evaluation de chaque prejudice. Retrouvez nos <a href="/actualites">guides pratiques</a> pour mieux preparer votre expertise.</p>
+            <h3>Discussion médico-légale</h3>
+            <p>L'expert et le médecin conseil de la victime échangent sur les cotations des différents postes de préjudice. C'est une phase technique décisive où votre médecin conseil défend votre cause en argumentant sur la juste évaluation de chaque préjudice. Retrouvez nos <a href="/actualites">guides pratiques</a> pour mieux préparer votre expertise.</p>
           </div>
           <div class="step">
             <div class="step-num">6</div>
-            <h3>Evaluation des postes de prejudice</h3>
-            <p>L'expert evalue chaque poste de la <a href="/nomenclature-dintilhac">nomenclature Dintilhac</a> applicable a votre situation. Pour les prejudices patrimoniaux et extrapatrimoniaux, il fixe les periodes, les taux et les cotations qui serviront de base au calcul de votre <a href="/indemnisation-prejudice-corporel">indemnisation</a>.</p>
+            <h3>Évaluation des postes de préjudice</h3>
+            <p>L'expert évalue chaque poste de la <a href="/nomenclature-dintilhac">nomenclature Dintilhac</a> applicable à votre situation. Pour les préjudices patrimoniaux et extrapatrimoniaux, il fixe les périodes, les taux et les cotations qui serviront de base au calcul de votre <a href="/indemnisation-prejudice-corporel">indemnisation</a>.</p>
           </div>
         </div>
 
-        <h3 style="margin-top:3rem; margin-bottom:1rem;">Postes de prejudice evalues lors de l'expertise</h3>
+        <h3 class="mt-2">Postes de préjudice évalués lors de l'expertise</h3>
         <div class="grid-2">
-          <div class="card" style="padding:1.5rem;">
-            <h4 style="margin-bottom:0.8rem;">Prejudices patrimoniaux (pertes financieres)</h4>
-            <ul style="line-height:1.8; font-size:0.92rem;">
-              <li><strong>DSA</strong> &mdash; Depenses de sante actuelles</li>
-              <li><strong>FD</strong> &mdash; Frais divers (medecin conseil, deplacement)</li>
-              <li><strong>ATP</strong> &mdash; Assistance tierce personne temporaire</li>
-              <li><strong>PGPA</strong> &mdash; Perte de gains professionnels actuels</li>
-              <li><strong>DSF</strong> &mdash; Depenses de sante futures</li>
-              <li><strong>PGPF</strong> &mdash; Perte de gains professionnels futurs</li>
-              <li><strong>IP</strong> &mdash; Incidence professionnelle</li>
-              <li><strong>FLA</strong> &mdash; Frais de logement adapte</li>
-              <li><strong>FVA</strong> &mdash; Frais de vehicule adapte</li>
-              <li><strong>ATPF</strong> &mdash; Assistance tierce personne future</li>
+          <div class="card" style="padding: 1.5rem;">
+            <h4 style="margin-bottom: 0.8rem;">Préjudices patrimoniaux (pertes financières)</h4>
+            <ul style="line-height: 1.8; font-size: 0.92rem;">
+              <li><strong>DSA</strong> — Dépenses de santé actuelles</li>
+              <li><strong>FD</strong> — Frais divers (médecin conseil, déplacement)</li>
+              <li><strong>ATP</strong> — Assistance tierce personne temporaire</li>
+              <li><strong>PGPA</strong> — Perte de gains professionnels actuels</li>
+              <li><strong>DSF</strong> — Dépenses de santé futures</li>
+              <li><strong>PGPF</strong> — Perte de gains professionnels futurs</li>
+              <li><strong>IP</strong> — Incidence professionnelle</li>
+              <li><strong>FLA</strong> — Frais de logement adapté</li>
+              <li><strong>FVA</strong> — Frais de véhicule adapté</li>
+              <li><strong>ATPF</strong> — Assistance tierce personne future</li>
             </ul>
           </div>
-          <div class="card" style="padding:1.5rem;">
-            <h4 style="margin-bottom:0.8rem;">Prejudices extrapatrimoniaux (souffrances)</h4>
-            <ul style="line-height:1.8; font-size:0.92rem;">
-              <li><strong>DFT</strong> &mdash; Deficit fonctionnel temporaire</li>
-              <li><strong>SE</strong> &mdash; Souffrances endurees</li>
-              <li><strong>PE temp.</strong> &mdash; Prejudice esthetique temporaire</li>
-              <li><strong>DFP</strong> &mdash; Deficit fonctionnel permanent (AIPP)</li>
-              <li><strong>PE</strong> &mdash; Prejudice esthetique permanent</li>
-              <li><strong>PA</strong> &mdash; Prejudice d'agrement</li>
-              <li><strong>PS</strong> &mdash; Prejudice sexuel</li>
-              <li><strong>PE</strong> &mdash; Prejudice d'etablissement</li>
-              <li><strong>PEX</strong> &mdash; Prejudices permanents exceptionnels</li>
+          <div class="card" style="padding: 1.5rem;">
+            <h4 style="margin-bottom: 0.8rem;">Préjudices extrapatrimoniaux (souffrances)</h4>
+            <ul style="line-height: 1.8; font-size: 0.92rem;">
+              <li><strong>DFT</strong> — Déficit fonctionnel temporaire</li>
+              <li><strong>SE</strong> — Souffrances endurées</li>
+              <li><strong>PE temp.</strong> — Préjudice esthétique temporaire</li>
+              <li><strong>DFP</strong> — Déficit fonctionnel permanent (AIPP)</li>
+              <li><strong>PE</strong> — Préjudice esthétique permanent</li>
+              <li><strong>PA</strong> — Préjudice d'agrément</li>
+              <li><strong>PS</strong> — Préjudice sexuel</li>
+              <li><strong>PE</strong> — Préjudice d'établissement</li>
+              <li><strong>PEX</strong> — Préjudices permanents exceptionnels</li>
             </ul>
           </div>
         </div>
 
-        <div class="callout-or" style="margin-top:2rem;">
-          <p><strong>Le role du medecin conseil pendant l'expertise :</strong> votre medecin conseil est votre allie technique. Il verifie que l'expert ne sous-evalue pas vos sequelles, il argumente en faveur de cotations plus elevees lorsque c'est justifie, et il pointe les postes de prejudice que l'expert pourrait oublier. Sa presence est un veritable contrepoids face au medecin de l'assureur.</p>
+        <div class="callout-or">
+          <strong>Le rôle du médecin conseil pendant l'expertise :</strong> votre médecin conseil est votre allié technique. Il vérifie que l'expert ne sous-évalue pas vos séquelles, il argumente en faveur de cotations plus élevées lorsque c'est justifié, et il pointe les postes de préjudice que l'expert pourrait oublier. Sa présence est un véritable contrepoids face au médecin de l'assureur.
         </div>
 
-        <div class="callout" style="margin-top:1.5rem;">
-          <p><strong>Le role de l'avocat pendant l'expertise :</strong> l'avocat assiste a l'expertise pour veiller au respect du contradictoire. Il prend note des conclusions, prepare les observations ecrites (dires), et s'assure que la mission expertale est integralement remplie. Il assure le lien entre l'expertise medicale et les consequences juridiques et financieres de chaque cotation. En droit, c'est la presence de l'avocat qui garantit que l'expertise sera pleinement exploitable pour votre <a href="/procedure-indemnisation">procedure d'indemnisation</a>.</p>
+        <div class="callout">
+          <strong>Le rôle de l'avocat pendant l'expertise :</strong> l'avocat assiste à l'expertise pour veiller au respect du contradictoire. Il prend note des conclusions, prépare les observations écrites (dires), et s'assure que la mission expertale est intégralement remplie. Il assure le lien entre l'expertise médicale et les conséquences juridiques et financières de chaque cotation. En droit, c'est la présence de l'avocat qui garantit que l'expertise sera pleinement exploitable pour votre <a href="/procedure-indemnisation">procédure d'indemnisation</a>.
         </div>
 
-        <div class="stats-grid" style="margin-top:2rem;">
+        <div class="stats-grid mt-2">
           <div class="stat-block">
             <div class="stat-number">20</div>
-            <div class="stat-label">postes de prejudice evalues selon la nomenclature Dintilhac</div>
+            <div class="stat-label">postes de préjudice évalués selon la nomenclature Dintilhac</div>
           </div>
           <div class="stat-block">
-            <div class="stat-number">1 a 3 h</div>
-            <div class="stat-label">duree moyenne de l'examen medical</div>
+            <div class="stat-number">1 à 3 h</div>
+            <div class="stat-label">durée moyenne de l'examen médical</div>
           </div>
           <div class="stat-block">
             <div class="stat-number">2 mois</div>
-            <div class="stat-label">delai moyen de depot du rapport d'expertise</div>
+            <div class="stat-label">délai moyen de dépôt du rapport d'expertise</div>
           </div>
         </div>
       </div>
@@ -534,43 +540,44 @@
 
 
     <!-- ═══ SECTION 5 : CONTESTER UNE EXPERTISE ═══ -->
-    <section class="section-bleu-pale">
+    <section id="contester" class="section-bleu-pale">
       <div class="container">
-        <p class="overline">Quand le rapport est defavorable</p>
+        <p class="overline">Quand le rapport est défavorable</p>
         <span class="ink"></span>
-        <h2>Contester une expertise medicale <span class="accent">defavorable</span></h2>
-        <p class="mb-3" style="max-width:750px;">Le rapport d'expertise ne vous satisfait pas ? Les cotations sont trop basses, certains prejudices ont ete oublies, vos doleances n'ont pas ete prises en compte ? Plusieurs voies de recours existent pour contester les conclusions de l'expert.</p>
+        <h2>Contester une expertise médicale <span class="accent">défavorable</span></h2>
+
+        <p class="mb-3" style="max-width: 750px;">Le rapport d'expertise ne vous satisfait pas ? Les cotations sont trop basses, certains préjudices ont été oubliés, vos doléances n'ont pas été prises en compte ? Plusieurs voies de recours existent pour contester les conclusions de l'expert.</p>
 
         <div class="quick-answer">
-          <p><strong>Reponse rapide :</strong> Vous pouvez formuler des dires (observations ecrites), solliciter une contre-expertise, ou demander au juge d'ordonner une nouvelle expertise. Le rapport de l'expert ne s'impose pas au juge qui reste libre de son appreciation.</p>
+          <strong>Réponse rapide :</strong> vous pouvez formuler des dires (observations écrites), solliciter une contre-expertise, ou demander au juge d'ordonner une nouvelle expertise. Le rapport de l'expert ne s'impose pas au juge qui reste libre de son appréciation.
         </div>
 
-        <h3 style="margin-top:2rem;">Les dires : observations ecrites</h3>
-        <p>Les dires sont des observations ecrites adressees a l'expert avant qu'il ne depose son rapport definitif. Ils permettent de contester un point precis de l'expertise, de soumettre un avis medical contradictoire, ou de signaler un poste de prejudice oublie. En expertise judiciaire, l'expert est tenu de repondre a chaque dire dans son rapport. C'est un droit fondamental de la procedure contradictoire que votre avocat doit exercer avec rigueur.</p>
+        <h3 class="mt-2">Les dires : observations écrites</h3>
+        <p>Les dires sont des observations écrites adressées à l'expert avant qu'il ne dépose son rapport définitif. Ils permettent de contester un point précis de l'expertise, de soumettre un avis médical contradictoire, ou de signaler un poste de préjudice oublié. En expertise judiciaire, l'expert est tenu de répondre à chaque dire dans son rapport. C'est un droit fondamental de la procédure contradictoire que votre avocat doit exercer avec rigueur.</p>
 
-        <div class="callout" style="margin-top:1rem;">
-          <p><strong>Quand formuler des dires ?</strong> L'expert envoie un pre-rapport (ou note de synthese) avant de deposer son rapport definitif. Vous disposez alors d'un delai (generalement 30 a 45 jours) pour soumettre vos observations. Votre avocat et votre medecin conseil redigent ensemble les dires pour maximiser leur impact.</p>
+        <div class="callout">
+          <strong>Quand formuler des dires ?</strong> L'expert envoie un pré-rapport (ou note de synthèse) avant de déposer son rapport définitif. Vous disposez alors d'un délai (généralement 30 à 45 jours) pour soumettre vos observations. Votre avocat et votre médecin conseil rédigent ensemble les dires pour maximiser leur impact.
         </div>
 
-        <h3 style="margin-top:2rem;">La contre-expertise medicale</h3>
-        <p>Si le rapport d'expertise comporte des erreurs manifestes ou des sous-evaluations importantes, vous pouvez faire realiser une contre-expertise par un medecin specialise independant. Ce rapport contradictoire, appuye par un argumentaire medical detaille, constitue un element de preuve determinant pour contester les conclusions de l'expert initial devant le tribunal ou aupres de l'assureur.</p>
+        <h3 class="mt-2">La contre-expertise médicale</h3>
+        <p>Si le rapport d'expertise comporte des erreurs manifestes ou des sous-évaluations importantes, vous pouvez faire réaliser une contre-expertise par un médecin spécialisé indépendant. Ce rapport contradictoire, appuyé par un argumentaire médical détaillé, constitue un élément de preuve déterminant pour contester les conclusions de l'expert initial devant le tribunal ou auprès de l'assureur.</p>
 
-        <div class="stats-grid" style="margin-top:1.5rem;">
+        <div class="stats-grid mt-2">
           <div class="stat-block">
             <div class="stat-number">40 %</div>
-            <div class="stat-label">des contre-expertises aboutissent a une revalorisation significative</div>
+            <div class="stat-label">des contre-expertises aboutissent à une revalorisation significative</div>
           </div>
           <div class="stat-block">
             <div class="stat-number">30-45 j</div>
-            <div class="stat-label">delai pour formuler des dires apres le pre-rapport</div>
+            <div class="stat-label">délai pour formuler des dires après le pré-rapport</div>
           </div>
         </div>
 
-        <h3 style="margin-top:2rem;">La demande de nouvelle expertise</h3>
-        <p>En dernier recours, votre avocat peut demander au juge d'ordonner une nouvelle expertise medicale confiee a un autre expert. Le tribunal fait droit a cette demande lorsque le premier rapport presente des insuffisances, des contradictions, ou lorsque de nouveaux elements medicaux justifient un reexamen. En cas d'expertise amiable contestable, la saisine du tribunal en refere permet d'obtenir rapidement la designation d'un expert judiciaire independant.</p>
+        <h3 class="mt-2">La demande de nouvelle expertise</h3>
+        <p>En dernier recours, votre avocat peut demander au juge d'ordonner une nouvelle expertise médicale confiée à un autre expert. Le tribunal fait droit à cette demande lorsque le premier rapport présente des insuffisances, des contradictions, ou lorsque de nouveaux éléments médicaux justifient un réexamen. En cas d'expertise amiable contestable, la saisine du tribunal en référé permet d'obtenir rapidement la désignation d'un expert judiciaire indépendant.</p>
 
-        <div class="callout-or" style="margin-top:1.5rem;">
-          <p><strong>Le cas de l'aggravation :</strong> si votre etat de sante se degrade apres la consolidation (le moment ou les sequelles sont stabilisees), vous pouvez demander une nouvelle expertise pour reevaluer vos prejudices. L'aggravation permet de rouvrir le dossier meme apres un accord transactionnel ou un jugement definitif.</p>
+        <div class="callout-or">
+          <strong>Le cas de l'aggravation :</strong> si votre état de santé se dégrade après la consolidation (le moment où les séquelles sont stabilisées), vous pouvez demander une nouvelle expertise pour réévaluer vos préjudices. L'aggravation permet de rouvrir le dossier même après un accord transactionnel ou un jugement définitif.
         </div>
 
         <div class="tool-callout">
@@ -584,76 +591,74 @@
 
 
     <!-- ═══ SECTION 6 : ROLE DE L'AVOCAT ═══ -->
-    <section style="background: var(--creme);">
+    <section id="role-avocat" style="background: #fff;">
       <div class="container">
         <p class="overline">Un accompagnement sur mesure</p>
         <span class="ink"></span>
-        <h2>Le role de l'avocat lors de l'expertise medicale</h2>
-        <p class="mb-3" style="max-width:750px;">L'expertise medicale n'est pas qu'un acte medical : c'est un acte juridique dont les consequences financieres sont considerables. La presence d'un avocat specialise en dommage corporel est un atout decisif pour garantir que vos droits sont pleinement respectes.</p>
+        <h2>Le rôle de l'avocat lors de l'expertise médicale</h2>
+
+        <p class="mb-3" style="max-width: 750px;">L'expertise médicale n'est pas qu'un acte médical : c'est un acte juridique dont les conséquences financières sont considérables. La présence d'un avocat spécialisé en dommage corporel est un atout décisif pour garantir que vos droits sont pleinement respectés.</p>
 
         <div class="quick-answer">
-          <p><strong>Pourquoi un avocat a l'expertise ?</strong> L'avocat garantit le respect de la procedure contradictoire, assure le lien entre l'evaluation medicale et le calcul juridique de l'indemnisation, prepare les dires si necessaire, et veille a ce que chaque poste de la nomenclature Dintilhac soit correctement evalue et traduit en indemnisation financiere.</p>
+          <strong>Pourquoi un avocat à l'expertise ?</strong> L'avocat garantit le respect de la procédure contradictoire, assure le lien entre l'évaluation médicale et le calcul juridique de l'indemnisation, prépare les dires si nécessaire, et veille à ce que chaque poste de la nomenclature Dintilhac soit correctement évalué et traduit en indemnisation financière.
         </div>
 
-        <div class="grid-2" style="margin-top:2rem;">
+        <div class="grid-2 mt-2">
           <div>
             <h3>Avant l'expertise</h3>
-            <ul style="line-height:2;">
-              <li>Analyse du dossier medical et identification des enjeux</li>
-              <li>Orientation vers un medecin conseil specialise</li>
-              <li>Aide a la redaction des doleances</li>
-              <li>Preparation de la chronologie et du dossier complet</li>
-              <li>Briefing complet sur le deroulement de l'expertise</li>
+            <ul style="line-height: 2;">
+              <li>Analyse du dossier médical et identification des enjeux</li>
+              <li>Orientation vers un médecin conseil spécialisé</li>
+              <li>Aide à la rédaction des doléances</li>
+              <li>Préparation de la chronologie et du dossier complet</li>
+              <li>Briefing complet sur le déroulement de l'expertise</li>
             </ul>
           </div>
           <div>
-            <h3>Pendant et apres l'expertise</h3>
-            <ul style="line-height:2;">
-              <li>Presence a l'expertise pour garantir le contradictoire</li>
-              <li>Prise de notes et verification de la mission expertale</li>
-              <li>Redaction des dires (observations ecrites)</li>
+            <h3>Pendant et après l'expertise</h3>
+            <ul style="line-height: 2;">
+              <li>Présence à l'expertise pour garantir le contradictoire</li>
+              <li>Prise de notes et vérification de la mission expertale</li>
+              <li>Rédaction des dires (observations écrites)</li>
               <li>Analyse critique du rapport d'expertise</li>
-              <li>Negociation de l'<a href="/indemnisation-prejudice-corporel">indemnisation</a> sur la base du rapport</li>
+              <li>Négociation de l'<a href="/indemnisation-prejudice-corporel">indemnisation</a> sur la base du rapport</li>
             </ul>
           </div>
         </div>
 
-        <div class="author-card" style="margin-top:3rem;">
-          <div class="author-initials">PH</div>
-          <div class="author-info">
-            <h3>Me Patrice Humbert</h3>
-            <p class="author-title">Avocat au Barreau d'Aix-en-Provence</p>
-            <div class="badge-or">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-              Specialiste en dommage corporel &mdash; Certificat CNB
-            </div>
-            <p style="margin-top:1rem;">Me Patrice Humbert dispose d'une <strong>formation medicale specifique en traumatisme cranio-cerebral</strong>, ce qui lui confere une capacite unique a dialoguer avec les experts medicaux sur le terrain technique. Cette double competence &mdash; juridique et medicale &mdash; lui permet de deceler les sous-evaluations dans les rapports d'expertise, notamment en matiere de troubles cognitifs, de syndrome post-commotionnel et de sequelles neurologiques.</p>
-            <ul style="list-style:none; margin-top:1rem;">
-              <li>&#8226; Master en Droit de la sante</li>
-              <li>&#8226; Formation en traumatisme cranio-cerebral</li>
-              <li>&#8226; plus de 20 ans d'experience exclusive en dommage corporel</li>
-              <li>&#8226; Plusieurs millions d'euros d'indemnisations obtenues</li>
-              <li>&#8226; Intervient uniquement du cote des victimes, jamais pour les assureurs</li>
-            </ul>
-            <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-top:1.5rem;">
-              <a href="tel:+33490545810" class="btn btn-phone">04 90 54 58 10</a>
-              <a href="/contact" class="btn btn-outline">Consultation gratuite &rarr;</a>
-            </div>
-          </div>
+        <h3 class="mt-2">Me Patrice Humbert, avocat au Barreau d'Aix-en-Provence</h3>
+        <p>Me Patrice Humbert dispose d'une <strong>formation médicale spécifique en traumatisme cranio-cérébral</strong>, ce qui lui confère une capacité unique à dialoguer avec les experts médicaux sur le terrain technique. Cette double compétence — juridique et médicale — lui permet de déceler les sous-évaluations dans les rapports d'expertise, notamment en matière de troubles cognitifs, de syndrome post-commotionnel et de séquelles neurologiques.</p>
+
+        <ul class="mt-2" style="line-height: 2;">
+          <li>Spécialiste en dommage corporel — certificat de spécialisation CNB</li>
+          <li>Master en Droit de la santé</li>
+          <li>Formation en traumatisme cranio-cérébral</li>
+          <li>Plus de 20 ans d'expérience exclusive en dommage corporel</li>
+          <li>Plusieurs millions d'euros d'indemnisations obtenues</li>
+          <li>Intervient uniquement du côté des victimes, jamais pour les assureurs</li>
+        </ul>
+
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
+          <a href="tel:+33490545810" class="btn btn-phone">04 90 54 58 10</a>
+          <a href="/contact" class="btn btn-outline">Consultation gratuite &rarr;</a>
         </div>
 
-        <div class="stats-grid" style="margin-top:2rem;">
+        <div class="stats-grid mt-2">
           <div class="stat-block">
             <div class="stat-number">plus de 20 ans</div>
-            <div class="stat-label">d'experience exclusive en dommage corporel</div>
+            <div class="stat-label">d'expérience exclusive en dommage corporel</div>
           </div>
           <div class="stat-block">
-            <div class="stat-number">6</div>
+            <div class="stat-number">4</div>
             <div class="stat-label">bureaux : Aix, Salon, Arles, Marignane</div>
           </div>
           <div class="stat-block">
-            <div class="stat-number">0 &euro;</div>
-            <div class="stat-label">frais a avancer &mdash; honoraires au resultat</div>
+            <div class="stat-number">30 min</div>
+            <div class="stat-label">de consultation initiale gratuite</div>
+          </div>
+          <div class="stat-block">
+            <div class="stat-number">0 €</div>
+            <div class="stat-label">frais à avancer — honoraires au résultat</div>
           </div>
         </div>
       </div>
@@ -661,99 +666,79 @@
 
 
     <!-- ═══ SECTION 7 : FAQ ═══ -->
-    <section style="background: #fff;" class="faq-section">
+    <section id="faq" class="faq-section" style="background: var(--creme);">
       <div class="container">
-        <p class="overline">Questions frequentes</p>
-        <span class="ink"></span>
-        <h2>Vos questions sur l'expertise medicale</h2>
-        <p class="mb-3" style="max-width:700px;">Les reponses aux questions les plus frequentes des victimes concernant l'expertise medicale en dommage corporel.</p>
+        <div class="text-center">
+          <p class="overline">Questions fréquentes</p>
+          <span class="ink-c"></span>
+          <h2>Vos questions sur l'expertise médicale</h2>
+          <p style="max-width: 700px; margin: 0 auto;">Les réponses aux questions les plus fréquentes des victimes concernant l'expertise médicale en dommage corporel.</p>
+        </div>
 
-        <details>
-          <summary>Puis-je refuser l'expertise de l'assureur ?</summary>
-          <div class="faq-body">
-            <p><strong>Oui, vous pouvez refuser l'expertise organisee par l'assureur.</strong> Cependant, ce refus peut retarder votre indemnisation. La meilleure strategie est d'accepter l'expertise amiable tout en vous faisant assister par votre propre medecin conseil. Si les conclusions sont defavorables, vous conservez le droit de demander une expertise judiciaire devant le tribunal. En cas d'<a href="/accident-de-la-route">accident de la route</a>, la loi Badinter impose a l'assureur d'organiser cette expertise dans un delai de 8 mois.</p>
-          </div>
-        </details>
+        <div class="faq-body mt-2">
 
-        <details>
-          <summary>Qui choisit le medecin expert ?</summary>
-          <div class="faq-body">
-            <p><strong>Le choix depend du type d'expertise.</strong> En expertise amiable, c'est l'assureur qui designe le medecin expert &mdash; ce qui pose un probleme evident d'impartialite. En expertise judiciaire, c'est le juge qui nomme un expert inscrit sur la liste officielle des experts judiciaires de la cour d'appel. En expertise CCI (pour les cas de <a href="/responsabilite-medicale">responsabilite medicale</a>), c'est la commission qui designe l'expert. Dans tous les cas, vous avez le droit absolu de vous faire assister par un medecin conseil de votre choix.</p>
-          </div>
-        </details>
+          <details>
+            <summary>Puis-je refuser l'expertise de l'assureur ?</summary>
+            <p><strong>Oui, vous pouvez refuser l'expertise organisée par l'assureur.</strong> Cependant, ce refus peut retarder votre indemnisation. La meilleure stratégie est d'accepter l'expertise amiable tout en vous faisant assister par votre propre médecin conseil. Si les conclusions sont défavorables, vous conservez le droit de demander une expertise judiciaire devant le tribunal. En cas d'<a href="/accident-de-la-route">accident de la route</a>, la loi Badinter impose à l'assureur d'organiser cette expertise dans un délai de 8 mois.</p>
+          </details>
 
-        <details>
-          <summary>Dois-je venir avec un medecin conseil ?</summary>
-          <div class="faq-body">
-            <p><strong>Oui, c'est tres fortement recommande.</strong> Le medecin conseil est un medecin specialise en evaluation du dommage corporel qui defend vos interets face au medecin expert. Les statistiques sont eloquentes : les victimes assistees d'un medecin conseil obtiennent en moyenne 30 a 40 % d'indemnisation supplementaire. Le medecin conseil verifie les cotations, argumente en faveur de taux plus eleves lorsque c'est justifie, et pointe les postes de prejudice que l'expert pourrait oublier.</p>
-          </div>
-        </details>
+          <details>
+            <summary>Qui choisit le médecin expert ?</summary>
+            <p><strong>Le choix dépend du type d'expertise.</strong> En expertise amiable, c'est l'assureur qui désigne le médecin expert — ce qui pose un problème évident d'impartialité. En expertise judiciaire, c'est le juge qui nomme un expert inscrit sur la liste officielle des experts judiciaires de la cour d'appel. En expertise CCI (pour les cas de <a href="/responsabilite-medicale">responsabilité médicale</a>), c'est la commission qui désigne l'expert. Dans tous les cas, vous avez le droit absolu de vous faire assister par un médecin conseil de votre choix.</p>
+          </details>
 
-        <details>
-          <summary>Combien coute un medecin conseil ?</summary>
-          <div class="faq-body">
+          <details>
+            <summary>Dois-je venir avec un médecin conseil ?</summary>
+            <p><strong>Oui, c'est très fortement recommandé.</strong> Le médecin conseil est un médecin spécialisé en évaluation du dommage corporel qui défend vos intérêts face au médecin expert. Les statistiques sont éloquentes : les victimes assistées d'un médecin conseil obtiennent en moyenne 30 à 40 % d'indemnisation supplémentaire. Le médecin conseil vérifie les cotations, argumente en faveur de taux plus élevés lorsque c'est justifié, et pointe les postes de préjudice que l'expert pourrait oublier.</p>
+          </details>
+
+          <details>
+            <summary>Combien coûte un médecin conseil ?</summary>
             <p><strong>Les honoraires d'un médecin conseil varient entre 600 et 1 500 euros</strong> selon la complexité du dossier et le nombre de postes de préjudice à évaluer. Ce coût est largement compensé par l'augmentation significative de l'indemnisation obtenue. De plus, les frais de médecin conseil peuvent être inclus dans les dépenses de santé actuelles (poste DSA) et donc remboursés dans le cadre de l'indemnisation. Notre cabinet peut avancer ces frais dans le cadre de l'honoraire au résultat.</p>
-          </div>
-        </details>
+          </details>
 
-        <details>
-          <summary>Que sont les doleances ?</summary>
-          <div class="faq-body">
-            <p><strong>Les doleances sont la liste detaillee de toutes les douleurs, genes et difficultes que vous subissez au quotidien</strong> depuis l'accident ou l'erreur medicale. Ce document est essentiel car il permet a l'expert de prendre en compte l'ensemble de vos souffrances. Il doit decrire concretement : vos douleurs physiques (localisation, intensite, frequence), vos troubles du sommeil, vos limitations dans les gestes de la vie courante, l'impact sur votre travail, sur vos loisirs, sur votre vie familiale et sociale. Votre avocat vous aide a les rediger de maniere complete et structuree.</p>
-          </div>
-        </details>
+          <details>
+            <summary>Que sont les doléances ?</summary>
+            <p><strong>Les doléances sont la liste détaillée de toutes les douleurs, gênes et difficultés que vous subissez au quotidien</strong> depuis l'accident ou l'erreur médicale. Ce document est essentiel car il permet à l'expert de prendre en compte l'ensemble de vos souffrances. Il doit décrire concrètement : vos douleurs physiques (localisation, intensité, fréquence), vos troubles du sommeil, vos limitations dans les gestes de la vie courante, l'impact sur votre travail, sur vos loisirs, sur votre vie familiale et sociale. Votre avocat vous aide à les rédiger de manière complète et structurée.</p>
+          </details>
 
-        <details>
-          <summary>Que faire si l'expert minimise mes sequelles ?</summary>
-          <div class="faq-body">
-            <p><strong>Plusieurs recours existent si l'expert sous-evalue vos sequelles.</strong> En premier lieu, votre medecin conseil et votre avocat peuvent formuler des dires (observations ecrites) contenant un argumentaire medical et juridique detaille. Si le rapport definitif reste insatisfaisant, vous pouvez faire realiser une contre-expertise par un medecin independant. Enfin, votre avocat peut demander au juge d'ordonner une nouvelle expertise confiee a un autre expert. Le rapport d'expertise ne lie pas le juge qui reste libre de son appreciation.</p>
-          </div>
-        </details>
+          <details>
+            <summary>Que faire si l'expert minimise mes séquelles ?</summary>
+            <p><strong>Plusieurs recours existent si l'expert sous-évalue vos séquelles.</strong> En premier lieu, votre médecin conseil et votre avocat peuvent formuler des dires (observations écrites) contenant un argumentaire médical et juridique détaillé. Si le rapport définitif reste insatisfaisant, vous pouvez faire réaliser une contre-expertise par un médecin indépendant. Enfin, votre avocat peut demander au juge d'ordonner une nouvelle expertise confiée à un autre expert. Le rapport d'expertise ne lie pas le juge qui reste libre de son appréciation.</p>
+          </details>
 
-        <details>
-          <summary>Combien de temps dure une expertise ?</summary>
-          <div class="faq-body">
-            <p><strong>Une expertise medicale dure en moyenne entre 1 et 3 heures.</strong> La duree depend de la complexite des blessures et du nombre de postes de prejudice a evaluer. Les cas de polytraumatismes, de traumatismes craniens ou de sequelles neurologiques necessitent des examens plus longs, avec parfois des tests cognitifs complementaires. L'expert doit examiner l'integralite du dossier medical, recueillir vos doleances, proceder a l'examen clinique et evaluer chaque poste de prejudice. Ne soyez jamais presse : prenez le temps de tout exprimer.</p>
-          </div>
-        </details>
+          <details>
+            <summary>Combien de temps dure une expertise ?</summary>
+            <p><strong>Une expertise médicale dure en moyenne entre 1 et 3 heures.</strong> La durée dépend de la complexité des blessures et du nombre de postes de préjudice à évaluer. Les cas de polytraumatismes, de traumatismes crâniens ou de séquelles neurologiques nécessitent des examens plus longs, avec parfois des tests cognitifs complémentaires. L'expert doit examiner l'intégralité du dossier médical, recueillir vos doléances, procéder à l'examen clinique et évaluer chaque poste de préjudice. Ne soyez jamais pressé : prenez le temps de tout exprimer.</p>
+          </details>
 
-        <details>
-          <summary>L'expertise est-elle definitive ?</summary>
-          <div class="faq-body">
+          <details>
+            <summary>L'expertise est-elle définitive ?</summary>
             <p><strong>Non, l'expertise n'est jamais définitive.</strong> En procédure amiable, vous pouvez toujours la contester et demander une expertise judiciaire au tribunal. En procédure judiciaire, le rapport de l'expert constitue un avis technique mais ne lie pas le juge qui reste souverain dans son appréciation. De plus, en cas d'aggravation de votre état de santé après la consolidation (le moment où les séquelles sont stabilisées), une nouvelle expertise peut être ordonnée pour réévaluer vos préjudices. L'aggravation permet de rouvrir votre dossier, même après un accord transactionnel.</p>
-          </div>
-        </details>
+          </details>
+
+        </div>
       </div>
     </section>
 
 
     <!-- ═══ SECTION 8 : CTA FINAL ═══ -->
-    <section class="section-dark" style="text-align: center;">
+    <section id="contact-cta" class="section-dark" style="text-align: center;">
       <div class="container">
-        <p class="overline">Prenez rendez-vous</p>
+        <p class="overline" style="color: var(--bleu-c);">Prenez rendez-vous</p>
         <span class="ink-c" style="background: var(--creme);"></span>
-        <h2>Vous avez une expertise medicale a venir ?<br><span style="color: var(--or);">Preparez-la avec un avocat specialise</span></h2>
-        <p style="max-width:650px; margin:0 auto 1.5rem;">Nous preparons votre expertise, vous orientons vers un medecin conseil adapte et vous accompagnons le jour J. Consultation gratuite, sans engagement.</p>
+        <h2 style="color: var(--creme);">Vous avez une expertise médicale à venir ?<br><span style="color: var(--bleu-c);">Préparez-la avec un avocat spécialisé</span></h2>
+        <p style="color: var(--gris); max-width: 600px; margin: 1rem auto;">Nous préparons votre expertise, vous orientons vers un médecin conseil adapté et vous accompagnons le jour J. Consultation gratuite, sans engagement.</p>
 
-        <div class="stats-grid" style="margin-bottom:2rem;">
-          <div class="stat-block">
-            <div class="stat-number">0 &euro;</div>
-            <div class="stat-label">Consultation initiale gratuite</div>
-          </div>
-          <div class="stat-block">
-            <div class="stat-number">30 min</div>
-            <div class="stat-label">Evaluation de votre dossier</div>
-          </div>
-          <div class="stat-block">
-            <div class="stat-number">100 %</div>
-            <div class="stat-label">Honoraires au resultat</div>
-          </div>
-        </div>
+        <p class="handwritten" style="color: var(--bleu-c); margin: 1.5rem 0;">Votre première consultation est gratuite et sans engagement</p>
 
-        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
-          <a href="tel:+33490545810" class="btn btn-phone">04 90 54 58 10</a>
+        <a href="tel:+33490545810" class="btn btn-phone" style="font-size: 1.2rem; margin-bottom: 1rem;">04 90 54 58 10</a>
+
+        <div style="margin-top: 1rem;">
           <a href="/contact" class="btn btn-light">Demander un rappel &rarr;</a>
         </div>
+
+        <p style="color: var(--gris); font-size: 0.85rem; margin-top: 1.5rem;">Bureaux : Aix-en-Provence &middot; Salon-de-Provence &middot; Arles &middot; Marignane</p>
       </div>
     </section>
 
@@ -766,7 +751,7 @@
       <div class="footer-grid">
         <div class="footer-col">
           <h4>SELARL LEXVOX AVOCATS</h4>
-          <p>Cabinet d'avocats specialise dans la defense exclusive des victimes de dommages corporels et de responsabilite medicale.</p>
+          <p>Cabinet d'avocats spécialisé dans la défense exclusive des victimes de dommages corporels et de responsabilité médicale.</p>
           <p style="margin-top: 0.5rem;">
             <strong style="color: var(--creme);">Tel :</strong> <a href="tel:+33490545810">04 90 54 58 10</a><br>
             <strong style="color: var(--creme);">Email :</strong> <a href="mailto:contact@avocat-lexvox.com">contact@avocat-lexvox.com</a>
@@ -776,7 +761,7 @@
           <h4>Domaines</h4>
           <ul>
             <li><a href="/accident-de-la-route">Accident de la route</a></li>
-            <li><a href="/responsabilite-medicale">Erreur medicale</a></li>
+            <li><a href="/responsabilite-medicale">Erreur médicale</a></li>
             <li><a href="/accident-du-travail">Accident du travail</a></li>
             <li><a href="/victime-agression">Victime d'agression</a></li>
             <li><a href="/indemnisation-prejudice-corporel">Indemnisation</a></li>
@@ -786,9 +771,9 @@
         <div class="footer-col">
           <h4>Le cabinet</h4>
           <ul>
-            <li><a href="/cabinet">Presentation</a></li>
-            <li><a href="/expertise-medicale">Expertise medicale</a></li>
-            <li><a href="/procedure-indemnisation">Procedure</a></li>
+            <li><a href="/cabinet">Présentation</a></li>
+            <li><a href="/expertise-medicale">Expertise médicale</a></li>
+            <li><a href="/procedure-indemnisation">Procédure</a></li>
             <li><a href="/actualites">Actualités</a></li><li><a href="/contact">Contact</a></li>
           </ul>
         </div>
@@ -809,7 +794,7 @@
           <a href="https://www.avocat-lexvox.com" target="_blank" rel="noopener" style="color: var(--bleu-c); margin: 0 0.8rem; text-decoration: none;">avocat-lexvox.com</a>
         </div>
         <div class="footer-bottom">
-        <p>&copy; 2026 SELARL LEXVOX AVOCATS &mdash; Barreau d'Aix-en-Provence &middot; <a href="/mentions-legales">Mentions legales</a> &middot; <a href="/politique-confidentialite">Politique de confidentialite</a> &middot; <a href="/plan-du-site">Plan du site</a></p>
+        <p>&copy; 2026 SELARL LEXVOX AVOCATS — Barreau d'Aix-en-Provence &middot; <a href="/mentions-legales">Mentions légales</a> &middot; <a href="/politique-confidentialite">Politique de confidentialité</a> &middot; <a href="/plan-du-site">Plan du site</a></p>
       </div>
     </div>
   </footer>
