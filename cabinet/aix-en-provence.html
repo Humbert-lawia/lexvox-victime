@@ -30,130 +30,155 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet"></noscript>
+  <noscript></noscript>
 
   <!-- CSS -->
   <link rel="stylesheet" href="/css/style.css?v=4">
 
   <!-- JSON-LD: LegalService (LocalBusiness) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LegalService",
-    "name": "LEXVOX AVOCATS — Avocat Dommage Corporel Aix-en-Provence",
-    "description": "Cabinet d'avocats specialise en dommage corporel a Aix-en-Provence. Defense exclusive des victimes d'accidents et d'erreurs medicales. Me Patrice Humbert, plus de 20 ans d'experience.",
-    "url": "https://lexvox-victime.com/cabinet/aix-en-provence",
-    "telephone": "+33-4-90-54-58-10",
-    "email": "contact@avocat-lexvox.com",
-    "image": "https://lexvox-victime.com/img/og-default.jpg",
-    "priceRange": "Consultation gratuite — Honoraires au resultat",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "11 Boulevard Émile Combes",
-      "addressLocality": "Arles",
-      "postalCode": "13200",
-      "addressRegion": "Bouches-du-Rhone",
-      "addressCountry": "FR"
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "LEXVOX AVOCATS — Avocat Dommage Corporel Aix-en-Provence",
+  "description": "Cabinet d'avocats specialise en dommage corporel a Aix-en-Provence. Defense exclusive des victimes d'accidents et d'erreurs medicales. Me Patrice Humbert, plus de 20 ans d'experience.",
+  "url": "https://lexvox-victime.com/cabinet/aix-en-provence",
+  "telephone": "+33-4-90-54-58-10",
+  "email": "contact@avocat-lexvox.com",
+  "image": "https://lexvox-victime.com/img/og-default.jpg",
+  "priceRange": "Consultation gratuite — Honoraires au resultat",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "11 Boulevard Émile Combes",
+    "addressLocality": "Arles",
+    "postalCode": "13200",
+    "addressRegion": "Bouches-du-Rhone",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.5298,
+    "longitude": 5.4474
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "19:00"
+    }
+  ],
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Aix-en-Provence"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 43.5298,
-      "longitude": 5.4474
+    {
+      "@type": "City",
+      "name": "Pertuis"
     },
-    "openingHoursSpecification": [
+    {
+      "@type": "City",
+      "name": "Gardanne"
+    },
+    {
+      "@type": "City",
+      "name": "Trets"
+    },
+    {
+      "@type": "City",
+      "name": "Venelles"
+    },
+    {
+      "@type": "City",
+      "name": "Meyreuil"
+    },
+    {
+      "@type": "City",
+      "name": "Bouc-Bel-Air"
+    }
+  ],
+  "knowsAbout": [
+    "Dommage corporel",
+    "Accident de la route",
+    "Responsabilite medicale",
+    "Indemnisation prejudice corporel",
+    "Expertise medicale",
+    "Nomenclature Dintilhac",
+    "Loi Badinter"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "94",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Services juridiques dommage corporel",
+    "itemListElement": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "09:00",
-        "closes": "19:00"
-      }
-    ],
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "Aix-en-Provence"
-      },
-      {
-        "@type": "City",
-        "name": "Pertuis"
-      },
-      {
-        "@type": "City",
-        "name": "Gardanne"
-      },
-      {
-        "@type": "City",
-        "name": "Trets"
-      },
-      {
-        "@type": "City",
-        "name": "Venelles"
-      },
-      {
-        "@type": "City",
-        "name": "Meyreuil"
-      },
-      {
-        "@type": "City",
-        "name": "Bouc-Bel-Air"
-      }
-    ],
-    "knowsAbout": ["Dommage corporel", "Accident de la route", "Responsabilite medicale", "Indemnisation prejudice corporel", "Expertise medicale", "Nomenclature Dintilhac", "Loi Badinter"],
-    "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "94", "bestRating": "5", "worstRating": "1"},
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Services juridiques dommage corporel",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Consultation gratuite dommage corporel"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Assistance expertise medicale"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Indemnisation accident de la route"
-          }
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Consultation gratuite dommage corporel"
         }
-      ]
-    },
-    "sameAs": [
-      "https://share.google/MjklITAvO43bbmqUZ",
-      "https://lexvox-victime.com/"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Assistance expertise medicale"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Indemnisation accident de la route"
+        }
+      }
     ]
-  }
-  </script>
+  },
+  "sameAs": [
+    "https://share.google/MjklITAvO43bbmqUZ",
+    "https://lexvox-victime.com/"
+  ],
+  "@id": "https://lexvox-victime.com/#legalservice"
+}</script>
 
   <!-- JSON-LD: Person -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Patrice Humbert",
-    "honorificPrefix": "Me",
-    "jobTitle": "Avocat specialise en dommage corporel",
-    "worksFor": {
-      "@type": "LegalService",
-      "name": "SELARL LEXVOX AVOCATS"
-    },
-    "knowsAbout": ["Dommage corporel", "Responsabilite medicale", "Indemnisation des victimes", "Loi Badinter", "Nomenclature Dintilhac", "Expertise medicale"],
-    "description": "Avocat au Barreau d'Aix-en-Provence specialise depuis plus de 20 ans dans la defense exclusive des victimes de dommages corporels.",
-    "memberOf": {
-      "@type": "Organization",
-      "name": "Barreau d'Aix-en-Provence"
-    }
-  }
-  </script>
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Patrice Humbert",
+  "honorificPrefix": "Me",
+  "jobTitle": "Avocat specialise en dommage corporel",
+  "worksFor": {
+    "@type": "LegalService",
+    "name": "SELARL LEXVOX AVOCATS"
+  },
+  "knowsAbout": [
+    "Dommage corporel",
+    "Responsabilite medicale",
+    "Indemnisation des victimes",
+    "Loi Badinter",
+    "Nomenclature Dintilhac",
+    "Expertise medicale"
+  ],
+  "description": "Avocat au Barreau d'Aix-en-Provence specialise depuis plus de 20 ans dans la defense exclusive des victimes de dommages corporels.",
+  "memberOf": {
+    "@type": "Organization",
+    "name": "Barreau d'Aix-en-Provence"
+  },
+  "@id": "https://lexvox-victime.com/#person"
+}</script>
 
   <!-- JSON-LD: BreadcrumbList -->
   <script type="application/ld+json">
