@@ -48,6 +48,9 @@ Conséquences IMMUABLES, sauf demande expresse de Me Humbert :
 ## Commandes
 
 - Prévisualiser l'atelier localement : `npm start` (port 8091).
+- Dérouler la routine de publication du jour : `tools/publish-daily.sh
+  <victime|medical|accident>` (dry-run par défaut ; `--publish` met en ligne,
+  `--list` affiche la file, `--commit`/`--push` archivent file et tracker).
 - Valider un article : `python3 tools/preflight.py` +
   `python3 tools/qa_article_aivf.py actualites/<slug>.html [--pilier]`.
 - Convertir/publier vers Sanity : `python3 tools/sanity_publish.py
